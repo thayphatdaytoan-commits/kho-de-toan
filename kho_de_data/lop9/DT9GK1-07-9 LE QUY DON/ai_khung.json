@@ -1,0 +1,500 @@
+{
+ "by": "Gemini 2 (gemini-flash-latest)",
+ "5a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ vuông tại {{2}}, có đường cao {{3}}:",
+     "Ta có: ${{4}}^2 = {{5}} \\cdot {{6}}$ (hệ thức lượng) (1)"
+    ],
+    "hint": "Hệ thức lượng trong tam giác vuông ABH"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{7}}$ vuông tại {{8}}, có đường cao {{9}}:",
+     "Ta có: ${{10}}^2 = {{11}} \\cdot {{12}}$ (hệ thức lượng) (2)"
+    ],
+    "hint": "Hệ thức lượng trong tam giác vuông ACH"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra: ${{13}} \\cdot AB = {{14}} \\cdot AC$ (vì cùng bằng ${{15}}^2$)."
+    ],
+    "hint": "So sánh và kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ABH",
+     "HBA"
+    ],
+    "keywords": [
+     "abh"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [
+     "h"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HD",
+     "DH"
+    ],
+    "keywords": [
+     "hd"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AH",
+     "HA"
+    ],
+    "keywords": [
+     "ah"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AD",
+     "DA"
+    ],
+    "keywords": [
+     "ad"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "ACH",
+     "HCA"
+    ],
+    "keywords": [
+     "ach"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [
+     "h"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "HE",
+     "EH"
+    ],
+    "keywords": [
+     "he"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AH",
+     "HA"
+    ],
+    "keywords": [
+     "ah"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AE",
+     "EA"
+    ],
+    "keywords": [
+     "ae"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AD",
+     "DA"
+    ],
+    "keywords": [
+     "ad"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AE",
+     "EA"
+    ],
+    "keywords": [
+     "ae"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "AH",
+     "HA"
+    ],
+    "keywords": [
+     "ah"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ABH",
+   "ACH",
+   "ABC",
+   "H",
+   "A",
+   "HD",
+   "AH",
+   "AD",
+   "AB",
+   "HE",
+   "AE",
+   "AC",
+   "BC",
+   "BH",
+   "CH",
+   "CD"
+  ]
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Trong $\\triangle CAF$ vuông tại {{1}}, ta có: $\\cot \\widehat{CFB} = \\cot \\widehat{CFA} = \\frac{{{2}}}{AC}$",
+     "Suy ra: $\\frac{\\cot^2 \\widehat{CFB}}{GN^2} = \\frac{{{3}}^2}{AC^2 \\cdot {{4}}^2}$ (1)"
+    ],
+    "hint": "Biểu diễn tỉ số lượng giác theo cạnh"
+   },
+   {
+    "lines": [
+     "Vì $ACGF$ là hình chữ nhật nên $AF = {{5}}$ và $CG \\parallel {{6}}$.",
+     "Áp dụng định lý Ta-lét, ta có: $\\frac{CG}{GN} = \\frac{{{7}}}{BG} \\implies \\frac{AF}{GN} = \\frac{{{8}}}{BG}$",
+     "Do đó: $\\frac{AF^2}{GN^2} = \\frac{{{9}}^2}{BG^2}$ (2)"
+    ],
+    "hint": "Áp dụng định lý Ta-lét thiết lập tỉ số"
+   },
+   {
+    "lines": [
+     "Ta có $FG \\parallel AC$ mà $AB \\perp AC$ nên $BF \\perp {{10}}$ tại $F$.",
+     "Xét $\\triangle BFG$ vuông tại {{11}}, ta có: $BF^2 + {{12}}^2 = BG^2$",
+     "Mà $FG = {{13}}$ nên $BF^2 + {{14}}^2 = BG^2$ (3)"
+    ],
+    "hint": "Áp dụng định lý Py-ta-go cho tam giác BFG"
+   },
+   {
+    "lines": [
+     "Thay (2) vào (1) ta được: $\\frac{\\cot^2 \\widehat{CFB}}{GN^2} = \\frac{{{15}}^2}{AC^2 \\cdot BG^2}$",
+     "Suy ra: $\\frac{\\cot^2 \\widehat{CFB}}{GN^2} + \\frac{1}{BG^2} = \\frac{BF^2 + AC^2}{AC^2 \\cdot BG^2} = \\frac{{{16}}^2}{AC^2 \\cdot BG^2} = \\frac{1}{AC^2}$."
+    ],
+    "hint": "Biến đổi và rút ra đẳng thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AF",
+     "FA"
+    ],
+    "keywords": [
+     "af"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AF",
+     "FA"
+    ],
+    "keywords": [
+     "af"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "GN",
+     "NG"
+    ],
+    "keywords": [
+     "gn"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "CG",
+     "GC"
+    ],
+    "keywords": [
+     "cg"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BF",
+     "FB",
+     "AB"
+    ],
+    "keywords": [
+     "bf"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "BF",
+     "FB"
+    ],
+    "keywords": [
+     "bf"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "BF",
+     "FB"
+    ],
+    "keywords": [
+     "bf"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BF",
+     "FB"
+    ],
+    "keywords": [
+     "bf"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "FG",
+     "GF"
+    ],
+    "keywords": [
+     "fg"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [
+     "f"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "FG",
+     "GF"
+    ],
+    "keywords": [
+     "fg"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "BF",
+     "FB"
+    ],
+    "keywords": [
+     "bf"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "BG",
+     "GB"
+    ],
+    "keywords": [
+     "bg"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "A",
+   "F",
+   "B",
+   "C",
+   "AF",
+   "GN",
+   "CG",
+   "BF",
+   "BG",
+   "FG",
+   "AC",
+   "CF",
+   "AG",
+   "BC",
+   "AN"
+  ]
+ }
+}

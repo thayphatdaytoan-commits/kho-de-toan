@@ -1,0 +1,640 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "3",
+  "lesson": "2",
+  "title": "Bài 2. Khoảng biến thiên và khoảng tứ phân vị.",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Để đo mức độ phân tán về nhiệt độ không khí trung bình các tháng của năm 2023 tại Hà Nội, đại lượng thích hợp là",
+   "explanation": "Đại lượng đo mức độ phân tán của mẫu số liệu là phương sai.\nĐáp án: C.",
+   "options": [
+    "Số trung bình",
+    "Số trung vị",
+    "Phương sai",
+    "Mốt"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Xét mẫu số liệu ghép nhóm cho ở Bảng 1. Gọi $\\bar{x}$ là số trung bình cộng của mẫu số liệu ghép nhóm. Độ lệch chuẩn của mẫu số liệu ghép nhóm đó được tính bằng công thức nào trong các công thức sau?\n| Nhóm | Giá trịđại diện | Tần số |\n|---|---|---|\n| $\\left[ {{a}_{1}};{{a}_{2}} \\right)$ $\\left[ {{a}_{2}};{{a}_{3}} \\right)$….$\\left[ {{a}_{m}};{{a}_{m+1}} \\right)$ | ${{x}_{1}}$ ${{x}_{2}}$…${{x}_{m}}$ | ${{n}_{1}}$ ${{n}_{2}}$…${{n}_{m}}$ |\n|  |  | $n$ |\nBảng 1",
+   "explanation": "Độ lệch chuẩn của mẫu số liệu ghép nhóm được tính bởi công thức:\n$s=\\sqrt{\\frac{{{n}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+{{n}_{2}}{{\\left( {{x}_{2}}-\\bar{x} \\right)}^{2}}+...+{{n}_{m}}{{\\left( {{x}_{m}}-\\bar{x} \\right)}^{2}}}{n}}.$\nĐáp án: C.",
+   "options": [
+    "${{s}^{2}}=\\frac{{{n}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+{{n}_{2}}{{\\left( {{x}_{2}}-\\bar{x} \\right)}^{2}}+...+{{n}_{m}}{{\\left( {{x}_{m}}-\\bar{x} \\right)}^{2}}}{n}.$",
+    "$s=\\sqrt{\\frac{{{n}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+{{n}_{2}}{{\\left( {{x}_{2}}-\\bar{x} \\right)}^{2}}+...+{{n}_{m}}{{\\left( {{x}_{m}}-\\bar{x} \\right)}^{2}}}{m}}.$",
+    "$s=\\sqrt{\\frac{{{n}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+{{n}_{2}}{{\\left( {{x}_{2}}-\\bar{x} \\right)}^{2}}+...+{{n}_{m}}{{\\left( {{x}_{m}}-\\bar{x} \\right)}^{2}}}{n}}.$",
+    "${{s}^{2}}=\\frac{{{n}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+{{n}_{2}}{{\\left( {{x}_{2}}-\\bar{x} \\right)}^{2}}+...+{{n}_{m}}{{\\left( {{x}_{m}}-\\bar{x} \\right)}^{2}}}{m}.$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B2.D06",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 1] Tuổi các học viên của một lớp tiếng Anh buổi tối ở một trung tâm ghi lại trong bảng tần số ghép lớp sau\n| Lớp | Tần số |\n|---|---|\n| [15;20) | 10 |\n| [20;25) | 12 |\n| [25;30) | 14 |\n| [30;35) | 9 |\n| [35;40) | 5 |\nTính số trung bình.",
+   "explanation": ".\n| Lớp | Giá trị đại diện | Tần số |\n|---|---|---|\n| [15;20) | 17,5 | 10 |\n| [20;25) | 22,5 | 12 |\n| [25;30) | 27,5 | 14 |\n| [30;35) | 32,5 | 9 |\n| [35;40) | 37,5 | 5 |\n|  |  | N=50 |\nGiá trị trung bình\n$\\overline{x}=\\frac{17,5.10+22,5.12+27,5.14+32,5.9+37,5.5}{50}=26,2$.",
+   "options": [
+    "26,2",
+    "27,3",
+    "28,4",
+    "29,5"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 1] Nghiên cứu mức tiêu thụ xăng của một loại ô tô, một công ti chế tạo ô tô ở Mĩ đã cho 35 xe chạy thử và xác định xem với 1 galông xăng (1 galông = 4,546 lít), một xe chạy được bao nhiêu dặm (1 dặm = 1,609 km). Kết quả được cho trong bảng tần số ghép lớp sau đây\n| Lớp | Tần số |\n|---|---|\n| [20;25) | 2 |\n| [25;30) | 7 |\n| [30;35) | 15 |\n| [35;40) | 8 |\n| [40;45) | 3 |\nTính số trung bình.",
+   "explanation": "| Lớp | Giá trị đại diện | Tần số |\n|---|---|---|\n| [20;25) | 22,5 | 2 |\n| [25;30) | 27,5 | 7 |\n| [30;35) | 32,5 | 15 |\n| [35;40) | 37,5 | 8 |\n| [40;45) | 42,5 | 3 |\n|  |  | N=35 |\nGiá trị trung bình\n$\\overline{x}=\\frac{22,5.2+27,5.7+32,5.15+37,5.8+42,5.3}{35}\\approx 32,93$.",
+   "options": [
+    "32,93",
+    "31,83",
+    "30,73",
+    "29,63"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 1] Số tiền điện phải trả của 50 hộ trong khu phố A được thống kê trong bảng phân bố tần số sau đây (đơn vị nghìn đồng).\n| Lớp | Tần số |\n|---|---|\n| [375;450) | 6 |\n| [450;525) | 15 |\n| [525;600) | 10 |\n| [600;675) | 6 |\n| [675;750) | 9 |\n| [750;825) | 4 |\n|  | N=50 |\nTính số trung bình.",
+   "explanation": "| Lớp | Giá trị đại diện | Tần số |\n|---|---|---|\n| [375;450) | 412,5 | 6 |\n| [450;525) | 487,5 | 15 |\n| [525;600) | 562,5 | 10 |\n| [600;675) | 637,5 | 6 |\n| [675;750) | 712,5 | 9 |\n| [750;825) | 787,5 | 4 |\n|  |  | N=50 |\nGiá trị trung bình\n$\\overline{x}=\\frac{412,5.6+487,5.15+562,5.10+637,5.6+712,5.9+787,5.4}{50}=576$.",
+   "options": [
+    "576",
+    "587",
+    "598",
+    "609"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 1] Một cửa hàng ăn ghi lại số tiền (nghìn đồng) mà mỗi khách trả cho cửa hàng. Các số liệu được trình bày trong bảng tần số ghép lớp sau:\n| Lớp | Tần số |\n|---|---|\n| [0;100) | 20 |\n| [100;200) | 80 |\n| [200;300) | 70 |\n| [300;400) | 30 |\n| [400;500) | 10 |\n|  | N=210 |\nTính số trung bình.",
+   "explanation": "| Lớp | Giá trị đại diện | Tần số |\n|---|---|---|\n| [0;100) | 50 | 20 |\n| [100;200) | 150 | 80 |\n| [200;300) | 250 | 70 |\n| [300;400) | 350 | 30 |\n| [400;500) | 450 | 10 |\n|  |  | N=210 |\nGiá trị trung bình\n$\\overline{x}=\\frac{50.20+150.80+250.70+350.30+450.10}{210}\\simeq 216,67$",
+   "options": [
+    "216,67",
+    "217,78",
+    "218,89",
+    "219,90"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "[Mức độ 2] Thời gian truy cập Internet mỗi buổi tối (đơn vị: phút) của một số học sinh được thống kê ở bảng sau:\n| Thời gian | [10,5; 12,5) | [12,5; 14,5) | [14,5; 16,5) | [16,5; 18,5) | [18,5; 20,5) |\n|---|---|---|---|---|---|\n| Số học sinh | 3 | 12 | 15 | 24 | 2 |\nPhương sai của mẫu số liệu trên là:",
+   "explanation": "Ta viết lại bảng ở đề bài như sau:\n| Thời gian | [10,5; 12,5) | [12,5; 14,5) | [14,5; 16,5) | [16,5; 18,5) | [18,5; 20,5) |  |\n|---|---|---|---|---|---|---|\n| Giá trị đại diện | 11,5 | 13,5 | 15,5 | 17,5 | 19,5 |  |\n| Số học sinh | 3 | 12 | 15 | 24 | 2 | $n=56$ |\nSố trung bình cộng của mẫu số liệu ghép nhóm biểu thị số phút truy cập internet mỗi buổi tối của một số học sinh là:\n$\\overline{x}=\\frac{3.11,5+12.13,5+15.15,5+24.17,5+2.19,5}{56}\\approx 15,86$(phút)\nVậy phương sai của mẫu số liệu ghép nhóm biểu thị số phút truy cập internet mỗi buổi tối của một số học sinh là:\n${{s}^{2}}=\\frac{1}{56}\\left[ \\begin{aligned} & 3.{{\\left( 11,5-15,86 \\right)}^{2}}+12.{{(13,5-15,86)}^{2}}+15.{{\\left( 15,5-15,86 \\right)}^{2}} \\\\ & +24.{{\\left( 17,5-15,86 \\right)}^{2}}+2.{{\\left( 19,5-15,86 \\right)}^{2}} \\\\ \\end{aligned} \\right]\\approx 3,87$",
+   "options": [
+    "${{s}^{2}}\\approx 4,87$",
+    "${{s}^{2}}\\approx 2,87$",
+    "${{s}^{2}}\\approx 1,87$",
+    "${{s}^{2}}\\approx 3,87$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho bảng số liệu số calo tiêu thụ của một người trưởng thành trong một tuần được ghép nhóm như sau, tìm khoảng biến thiên của bảng số liệu sau\n| Số calo tiêu thụ | $\\left[ 20000;22000 \\right)$ | $\\left[ 22000;24000 \\right)$ | $\\left[ 24000;26000 \\right)$ |\n|---|---|---|---|\n| Tần số | $1$ | $2$ | $4$ | $n=7$ |",
+   "explanation": "Khoảng biến thiên của mẫu số liệu ghép nhóm trên là $R=26000-24000=2000$.",
+   "options": [
+    "$2000$",
+    "$3000$",
+    "$1000$",
+    "$1500$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Bảng số liệu ghép nhóm kết quả lượng tiêu thụ hàng mỹ phẩm của cửa hàng có thống kê từng ngày trong tháng ($30$ ngày), tìm khoảng tứ phân vị của bảng số liệu sau\n|  | $\\left[ 50;54 \\right)$ | $\\left[ 54;58 \\right)$ | $\\left[ 58;62 \\right)$ | $\\left[ 62;66 \\right)$ | $\\left[ 66;70 \\right)$ | $\\left[ 70;74 \\right)$ |\n|---|---|---|---|---|---|---|\n| Tần số | $5$ | $4$ | $10$ | $6$ | $2$ | $3$ | $n=30$ |",
+   "explanation": "Gọi ${{x}_{1}}$, ${{x}_{2}}$, ${{x}_{3}}$, …, ${{x}_{30}}$ là số lượng tiêu thụ hàng mỹ phẩm của cửa hàng và giả sử số liệu được sắp xếp theo chiều không giảm\nTứ phân vị thứ nhất của mẫu số liệu là ${{x}_{8}}$ nên nhóm chứa phân vị thứ nhất là nhóm $\\left[ 54;58 \\right)$ suy ra ${{Q}_{1}}=54+\\frac{\\frac{30}{4}-5}{4}.4=56,5$\nTứ phân vị thứ ba của mẫu số liệu là ${{x}_{23}}$ nên nhóm chứa phân vị thứ nhất là nhóm $\\left[ 62;66 \\right)$ suy ra ${{Q}_{3}}=62+\\frac{\\frac{3.30}{4}-\\left( 5+4+10 \\right)}{6}.4=64,3$\nVậy khoảng tứ phân vị là ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=64,3-56,5=7,8$.",
+   "options": [
+    "$7,7$",
+    "$7,8$",
+    "$7,9$",
+    "$7,6$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Mỗi ngày bác Hương đều đi bộ để rèn luyện sức khỏe. Quãng đường đi bộ mỗi ngày (đơn vị: km) của bác Hương trong 20 ngày được thống kê lại ở bảng sau:\n| Quãng đường (km) | [2,7; 3,0) | [3,0; 3,3) | [3,3; 3,6) | [3,6; 3,9) | [3,9; 4,2) |\n|---|---|---|---|---|---|\n| Số ngày | 3 | 6 | 5 | 4 | 2 |\nBiết phương sai của mẫu số liệu được tính theo công thức:\n${{S}^{2}}=\\frac{1}{n}\\left[ {{m}_{1}}x_{1}^{2}+{{m}_{2}}x_{2}^{2}+...+{{m}_{k}}x_{k}^{2} \\right]-{{\\bar{x}}^{2}}.$ Khi đó giá trị của phương sai là",
+   "explanation": "Ta có bảng sau:\n| Quãng đường (km) | [2,7; 3,0) | [3,0; 3,3) | [3,3; 3,6) | [3,6; 3,9) | [3,9; 4,2) |\n|---|---|---|---|---|---|\n| Giá trị đại diện | 2,85 | 3,15 | 3,45 | 3,75 | 4,05 |\n| Số ngày | 3 | 6 | 5 | 4 | 2 |\nSố trung bình của mẫu số liệu ghép nhóm là:\n$\\overline{x}=\\frac{3.2,85+6.3,15+5.3,45+4.3,75+2.4,05}{20}=3,39$\nPhương sai của mẫu số liệu ghép nhóm là:\n${{S}^{2}}=\\frac{1}{20}\\left[ 3.{{\\left( 2,85 \\right)}^{2}}+6.{{\\left( 3,15 \\right)}^{2}}+5.{{\\left( 3,45 \\right)}^{2}}+4.{{\\left( 3,75 \\right)}^{2}}+2.{{\\left( 4,05 \\right)}^{2}} \\right]-{{\\left( 3,39 \\right)}^{2}}=0,1314$.",
+   "options": [
+    "0,1314",
+    "11,62",
+    "3,39",
+    "0,36"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho bảng phân bố tần số ghép lớp về độ dài của 60 lá dương xỉ trưởng thành như sau sau\n| Độ dài (cm) | $\\left[ 10;20 \\right)$ | $\\left[ 20;30 \\right)$ | $\\left[ 30;40 \\right)$ | $\\left[ 40;50 \\right]$ |\n|---|---|---|---|---|\n| Tần số | $8$ | $18$ | $24$ | $10$ |\nTính phương sai bảng phân bố tần số ghép lớp đã cho",
+   "explanation": "| Độ dài (cm) | $\\left[ 10;20 \\right)$ | $\\left[ 20;30 \\right)$ | $\\left[ 30;40 \\right)$ | $\\left[ 40;50 \\right]$ |\n|---|---|---|---|---|\n| Giá trị đại diện | $15$ | $25$ | $35$ | $45$ |\n| Tần số | $8$ | $18$ | $24$ | $10$ |\nTrước hết ta có $\\bar{x}=\\frac{15.8+25.18+35.24+45.10}{60}=31$.\nKhi đó phương sai $s_{x}^{2}=\\frac{8.{{(15-31)}^{2}}+18\\cdot {{(25-31)}^{2}}+24.{{(35-31)}^{2}}+10.{{(45-31)}^{2}}}{60}=84$.",
+   "options": [
+    "$s_{x}^{2}=83$",
+    "$s_{x}^{2}=84$",
+    "$s_{x}^{2}=85$",
+    "$s_{x}^{2}=86$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hằng ngày anh An đều đi xe máy từ nhà đến cơ quan. Dưới đây là bảng thống kê thời gian 60 lần anh An đi xe máy từ nhà đến cơ quan.\n| Thời gian (phút) | $\\left[ 15,17 \\right)$ | $\\left[ 17;19 \\right)$ | $\\left[ 19;21 \\right)$ | $\\left[ 21;23 \\right)$ | $\\left[ 23;25 \\right)$ |\n|---|---|---|---|---|---|\n| Số lần | 6 | 10 | 28 | 12 | 4 |\nTính khoảng tứ phân vị của mẫu số liệu trên?",
+   "explanation": "Tứ phân vị thứ nhất là ${{x}_{15}}$ nên ${{Q}_{1}}=17+\\frac{\\frac{60}{4}-6}{10}.2=18,8$.\nTứ phân vị thứ ba là là ${{x}_{45}}$ nên ${{Q}_{3}}=21+\\frac{\\frac{60.3}{4}-44}{12}.2=\\frac{127}{6}$.\nKhoảng tứ phân vị là ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=\\frac{127}{6}-18,8=\\frac{71}{30}$.",
+   "options": [
+    "$\\frac{71}{30}$",
+    "$2,5$",
+    "$\\frac{12}{5}$",
+    "$2,7$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Giá trị đại diện nhóm $[5;10)$là $5$.",
+    "b": "Thời gian xem tivi trung bình của học sinh là $\\bar{x}=8,4375$(giờ)..",
+    "c": "Phương sai của mẫu số liệu đã cho bằng $28,81$ ( làm tròn đến hang phần trăm).",
+    "d": "Độ lệch chuẩn của mẫu số liệu lớn hơn 5."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": ". Tìm hiểu thời gian xem ti vi trong tuần trước (đơn vị: giờ) của một số học sinh thu được kết quả sau:\n[[IMG:image14.png#0.0000,0.0812,0.0000,0.0000]]\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "Trong mỗi khoảng, giá trị đại diện là trung bình cộng của giá trị hai đầu mút nên ta có bảng sau:\n[[IMG:image15.png]]\nDo đó khẳng định a) sai.\nThời gian xem ti vi trung bình trong tuần trước của các bạn học sinh này là:\n$\\bar{x}=\\frac{8\\times 2,5+16\\times 7,5+4\\times 12,5+2\\times 17,5+2\\times 22,5}{8+16+4+2+2}=8,4375$ (giờ).\nDo đó khẳng định b) đúng.\nPhương sai của mẫu số liệu đã cho bằng :\n$\\begin{aligned} & {{s}^{2}}=\\frac{8.{{\\left( 2,5-8,4375 \\right)}^{2}}+16.{{\\left( 7,5-8,4375 \\right)}^{2}}+4.{{\\left( 12,5-8,4375 \\right)}^{2}}+2.{{\\left( 17,5-8,4375 \\right)}^{2}}+2.{{\\left( 22,5-8,4375 \\right)}^{2}}}{32} \\\\ & \\,\\,\\,\\,\\,\\,\\approx 28,81 \\\\ \\end{aligned}$ Do đó khẳng định c) đúng.\nĐộ lệch chuẩn của mẫu số liệu $s\\approx \\sqrt{28,81}\\approx 5,37>5.$\nDo đó khẳng định d) đúng.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số trung bình cộng của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Dũng cho bởi Bảng 15 (làm tròn kết quả đến hàng phần trăm) là: $\\approx 6,92(~m).$",
+    "b": "Độ lệch chuẩn của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Dũng cho bởi Bảng 15 (làm tròn kết quả đến hàng phần trăm) là:$0,26(~m)$.",
+    "c": "Phương sai của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Huy cho bởi Bảng 16 (làm tròn kết quả đến hàng phần trăm) là: $0,16.$",
+    "d": "Kết quả nhảy xa của vận động viên Dũng đồng đều hơn kết quả nhảy xa của vận động viên Huy."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Ta có các bảng thống kê sau:\n[[IMG:image16.png]]\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "Số trung bình cộng của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Dũng cho bởi Bảng 15 là:\n${\\bar{x}_D=\\frac{3 \\cdot 6,34+7 \\cdot 6,58+5 \\cdot 6,82+20 \\cdot 7,06+5 \\cdot 7,30}{40}=\\frac{276,88}{40} \\approx 6,92({~m}) . }$\nVậy phương sai của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Dũng cho bởi Bảng 15 (làm tròn kết quả đến hàng phần trăm) là:\n${\\begin{aligned} & s_D^2=\\frac{1}{40}\\left[3 \\cdot(6,34-6,92)^2+7 \\cdot(6,58-6,92)^2+5 \\cdot(6,82-6,92)^2\\right. \\\\ &\\left.+20 \\cdot(7,06-6,92)^2+5 \\cdot(7,30-6,92)^2\\right]=\\frac{2,9824}{40} \\approx 0,07 . \\end{aligned} }$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm trên là: ${s_D \\approx \\sqrt{0,07} \\approx 0,26({~m})}$.\nSố trung bình cộng của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Huy cho bởi Bảng 16 là:\n${\\bar{x}_H=\\frac{2 \\cdot 6,34+5 \\cdot 6,58+8 \\cdot 6,82+19 \\cdot 7,06+6 \\cdot 7,30}{40}=\\frac{278,08}{40} \\approx 6,95({~m}) \\text {. } }$\nVậy phương sai của mẫu số liệu ghép nhóm biểu diễn kết quả 40 lần nhảy xa của vận động viên Huy cho bởi Bảng 16 (làm tròn kết quả đến hàng phần trăm) là:\n${\\begin{aligned} s_H^2 & =\\frac{1}{40}\\left[2 \\cdot(6,34-6,95)^2+5 \\cdot(6,58-6,95)^2\\right. \\\\ & +8 \\cdot(6,82-6,95)^2+19 \\cdot(7,06-6,95)^2 \\\\ & \\left.+6 \\cdot(7,30-6,95)^2\\right]=\\frac{2,5288}{40} \\approx 0,06 . \\end{aligned} }$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm trên là: ${s_H \\approx \\sqrt{0,06} \\approx 0,24({~m}) }$\nDo ${s_H \\approx 0,24<s_D \\approx 0,26}$ nên kết quả nhảy xa của vận động viên Huy đồng đều hơn kết quả nhảy xa của vận động viên Dũng.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số trung bình cộng của mẫu số liệu ghép nhóm của công ty A là: $\\frac{62}{3}$",
+    "b": "Nhận thấy độ lệch chuẩn của công ty A nhỏ hơn công ty B nên mức lương của công ty A đồng đều hơn",
+    "c": "Phương sai của mẫu số liệu ghép nhóm của công ty B (làm tròn kết quả đến hàng phần trăm) là: $52,91$",
+    "d": "Độ lệch chuẩn của mẫu số liệu ghép nhóm của công ty B xấp xỉ $7,61$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Bảng 1, Bảng 2 lần lượt biểu diễn mẫu số liệu ghép nhóm thống kê mức lương của hai công ty ${{A}, {B}}$(đơn vị: triệu đồng)\n| [[IMG:image17.png]] | [[IMG:image18.png]] |\n|---|---|\n| Bảng 1 | Bảng 2 |\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "Số trung bình cộng của mẫu số liệu ghép nhóm của công ty A là: ${\\overline{x_A}=\\frac{15.12,5+18.17,5+10.22,5+10.27,5+5.32,5+2.37,5}{60}=\\frac{62}{3}}$\nPhương sai của mẫu số liệu ghép nhóm của công ty ${A}$ là:\n$\\begin{aligned} & {{s}_{A}}^{2}=\\frac{15\\cdot {{\\left( 12,5-\\frac{62}{3} \\right)}^{2}}+18\\cdot {{\\left( 17,5-\\frac{62}{3} \\right)}^{2}}+10\\cdot {{\\left( 22,5-\\frac{62}{3} \\right)}^{2}}+10\\cdot {{\\left( 27,5-\\frac{62}{3} \\right)}^{2}}}{60} \\\\ & +\\frac{5\\cdot {{\\left( 32,5-\\frac{62}{3} \\right)}^{2}}+2\\cdot {{\\left( 37,5-\\frac{62}{3} \\right)}^{2}}}{60} \\\\ & \\approx 49,14 \\\\ \\end{aligned}$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm của công ty ${{A}}$ là: ${s_A=\\sqrt{s_A{ }^2}=\\sqrt{49,13} \\approx 7}$\nSố trung bình cộng của mẫu số liệu ghép nhóm của công ty ${B}$ là: ${\\overline{x_B}=\\frac{25.12,5+15.17,5+7.22,5+5.27,5+5.32,5+3.37,5}{60}=\\frac{229}{12}}$\nPhương sai của mẫu số liệu ghép nhóm của công ty ${B}$ là:\n$\\begin{aligned} & {{s}_{B}}^{2}=\\frac{25.{{\\left( 12,5-\\frac{229}{12} \\right)}^{2}}+15.{{\\left( 17,5-\\frac{229}{12} \\right)}^{2}}+7.{{\\left( 22,5-\\frac{229}{12} \\right)}^{2}}+5.{{\\left( 27,5-\\frac{229}{12} \\right)}^{2}}}{60} \\\\ & +\\frac{5.{{\\left( 32,5-\\frac{229}{12} \\right)}^{2}}+3.{{\\left( 37,5-\\frac{229}{12} \\right)}^{2}}}{60} \\\\ & \\approx 57,91 \\\\ \\end{aligned}$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm của công ty B là: ${s_B=\\sqrt{s_B^2}=\\sqrt{57,91} \\approx 7,61}$\nNhận thấy độ lệch chuẩn của công ty ${A}$ nhỏ hơn công ty ${B}$ nên mức lương của công ty ${A}$ đồng đều hơn",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xét số liệu ở Đà Lạt ta có khoảng biến thiên là: $16,5$",
+    "b": "Xét số liệu ở Đà Lạt thì ta có độ lệch chuẩn của mẫu số liệu ghép nhóm (làm tròn kết quả đến hàng phần trăm) là: $3,28$",
+    "c": "Xét số liệu ở Vũng Tàu thì phương sai của mẫu số liệu ghép nhóm là: $4,235$",
+    "d": "Đà Lạt có nhiệt độ không khí trung bình tháng đồng đều hơn vì độ lệch chuẩn nhỏ hơn"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Bảng 24 thống kê độ ẩm không khí trung bình các tháng năm 2021 tại Đà Lạt và Vũng Tàu (đơn vị: %).\n[[IMG:image19.png]]\n(Nguồn: Niên giám Thống kê 2021, NXB Thống kê, 2022)\nNgười ta lần lượt ghép các số liệu của Đà Lạt, Vũng Tàu thành mẫu số liệu ghép nhóm như sau:\n| Đà Lạt | Vũng Tàu |\n|---|---|\n| Nhóm | Giá trị đại diện | Tần số | Nhóm | Giá trị đại diện | Tần số |\n| ${[75 ; 78,3)}$ | 76,65 | 0 | ${[75 ; 78,3)}$ | 76,65 | 5 |\n| ${[78,3 ; 81.6)}$ | 79,95 | 2 | ${[78,3 ; 81.6)}$ | 79,95 | 6 |\n| ${[81,6 ; 84,9)}$ | 83,25 | 1 | ${[81,6 ; 84,9)}$ | 83,25 | 1 |\n| ${[84,9 ; 88,2)}$ | 86,55 | 6 | ${[84,9 ; 88,2)}$ | 86,55 | 0 |\n| ${[88,2 ; 91,5)}$ | 89,85 | 3 | ${[88,2 ; 91,5)}$ | 89,85 | 0 |\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "- Xét số liệu ở Đà Lạt:\n+ Khoảng biến thiên: ${R=91,5-75=16,5}$\n+ Số phần tử của mẫu là ${n=12}$\nTần số tích lũy của các nhóm lần lượt là ${c f_1=0, c f_2=2, c f_3=3, c f_4=9, c f_5=12}$\nTa có: ${\\frac{n}{4}=\\frac{12}{4}=3}$ suy ra nhóm 3 là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 3. Xét nhóm 3 là nhóm ${[81,6 ; 84,9)}$ có ${s=81,6, h=3,3, n_3=1}$ và nhóm 2 là nhóm [78,3;81.6) có ${c f_2=2}$\nTa có tứ phân vị thứ nhất là: ${Q_1=s+\\left(\\frac{3-c f_2}{n_3}\\right) \\cdot h=81,6+\\left(\\frac{3-2}{1}\\right) \\cdot 3,3=84,9}$\nTa có: ${\\frac{3 n}{4}=\\frac{3.12}{4}=9}$ suy ra nhóm 4 là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 9. Xét nhóm 4 là nhóm ${[84,9 ; 88,2)}$ có $t=84,9,l=3,3,{{n}_{4}}=6$ và nhóm 3 là nhóm ${[81,6 ; 84,9)}$ có ${c f_3=3}$\nTa có tứ phân vị thứ ba là: ${Q_3=t+\\left(\\frac{9-c f_3}{n_4}\\right) . l=84,9+\\left(\\frac{9-3}{6}\\right) .3,3=88,2}$\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm trên là: ${Q_3-Q_1=88,2-84,9=3,3}$\n+ Số trung bình cộng của mẫu số liệu ghép nhóm là: ${\\overline{x_1}=\\frac{0.76,65+2.79,95+83,25+6.86,55+3.89,85}{12}=86}$\nPhương sai của mẫu số liệu ghép nhóm là:\n${s_1{ }^2=\\frac{0(76,65-86)^2+2(79,95-86)^2+(83,25-86)^2+6(86,55-86)^2+3(89,95-86)^2}{12}=10,7825 }$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là: ${s_1=\\sqrt{s_1{ }^2}=\\sqrt{10,7825} \\approx 3,28}$\n- Xét số liệu ở Vũng Tàu:\n+ Khoảng biến thiên: ${R=91,5-75=16,5}$\n+ Số phần tử của mẫu là ${n=12}$\nTần số tích lũy của các nhóm lần lượt là ${c f_1=5, c f_2=11, c f_3=12, c f_4=12, c f_5=12}$\nTa có: ${\\frac{n}{4}=\\frac{12}{4}=3}$ suy ra nhóm 1 là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 3. Xét nhóm 1 là nhóm ${[75 ; 78,3)}$ có ${{s}=75, {~h}=3,3, n_1=5}$\nTa có tứ phân vị thứ nhất là: ${Q_1=s+\\left(\\frac{3-c f_0}{n_1}\\right) \\cdot h=75+\\left(\\frac{3-0}{5}\\right) .3,3=76,98}$\nTa có: ${\\frac{3 n}{4}=\\frac{3.12}{4}=9}$ suy ra nhóm 2 là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 9. Xét nhóm 2 là nhóm ${[78,3 ; 81,6)}$ có $t=78,3,l=3,3,{{n}_{2}}=6$ và nhóm 1 là nhóm ${[75 ; 78,3)}$ có ${c f_1=5}$\nTa có tứ phân vị thứ ba là: ${Q_3=t+\\left(\\frac{9-c f_1}{n_2}\\right) . l=75+\\left(\\frac{9-5}{6}\\right) .3,3=77,2}$\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm trên là: ${Q_3-Q_1=77,2-76,98=0,22}$\n+ Số trung bình cộng của mẫu số liệu ghép nhóm là: ${\\overline{x_2}=\\frac{5.76,65+6.79,95+83,25}{12}=78,85}$\nPhương sai của mẫu số liệu ghép nhóm là:\n${s_2^2=\\frac{5(76,65-78,85)^2+6(79,95-78,85)^2+(83,25-78,85)^2}{12}=4,235 }$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là: ${s_2=\\sqrt{s_2^2}=\\sqrt{4,235} \\approx 2,06}$\nVũng Tàu có nhiệt độ không khí trung bình tháng đồng đều hơn vì độ lệch chuẩn nhỏ hơn",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 27,
+    "so_dau_bang": 67,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho bảng số liệu: ĐỘ TUỔI CỦA CÔNG NHÂN TỔ 1\n| Nhóm | $\\left[ 25;34 \\right)$ | $\\left[ 34;43 \\right)$ | $\\left[ 43;52 \\right)$ | $\\left[ 52;61 \\right)$ | $\\left[ 61;70 \\right)$ |  |\n|---|---|---|---|---|---|---|\n| Tần số | 3 | 3 | 6 | 4 | 4 | n = 20 |\nNhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 6 có dạng $\\left[ a;b \\right)$. Tính $a+b.$",
+   "explanation": "Ta có nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 6 là $\\left[ 34;43 \\right)$\n$\\Rightarrow \\left\\{ \\begin{aligned} & a=34 \\\\ & b=43 \\\\ \\end{aligned} \\right.\\Rightarrow a+b=77$",
+   "short_value": 77,
+   "short_correct": "77",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Đo chiều cao của cây trong vườn ươm ta có bảng sau\n| Nhóm | $\\left[ 25;34 \\right)$ | $\\left[ 34;43 \\right)$ | $\\left[ 43;52 \\right)$ | $\\left[ 52;61 \\right)$ | $\\left[ 61;70 \\right)$ | $\\left[ 70;79 \\right)$ | $\\left[ 79;88 \\right)$ |  |\n|---|---|---|---|---|---|---|---|---|\n| Tần số | 13 | 19 | 11 | 14 | 12 | 15 | 16 | n = 100 |\nTính giá trị của tứ phân vị thứ nhất ${{Q}_{1}}.$",
+   "explanation": "Ta có số phần tử của mẫu là $n=100\\Rightarrow \\frac{n}{4}=25.$ Mà $13<25<32$\nSuy ra nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 25 là $\\left[ 34;43 \\right)$\n$\\Rightarrow \\left\\{ \\begin{aligned} & s=34 \\\\ & h=9 \\\\ & {{n}_{2}}=19 \\\\ & c{{f}_{1}}=13 \\\\ \\end{aligned} \\right.\\Rightarrow {{Q}_{1}}=s+\\left( \\frac{\\frac{n}{4}-c{{f}_{1}}}{{{n}_{2}}} \\right).h=34+\\left( \\frac{25-13}{19} \\right).9=39,7$",
+   "short_value": 39.7,
+   "short_correct": "39,7",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Đo chiều cao của 45 học sinh của lớp 10A người ta tính được các giá trị ${{Q}_{1}}=152cm,\\text{ }{{Q}_{3}}=165cm$. Tính khoảng tứ phân vị ${{\\Delta }_{Q}}$",
+   "explanation": "Ta có ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=165-152=13$",
+   "short_value": 13,
+   "short_correct": "13",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Đo chiều cao của cây trong vườn ươm ta có bảng sau\n| Nhóm | $\\left[ 25;34 \\right)$ | $\\left[ 34;43 \\right)$ | $\\left[ 43;52 \\right)$ | $\\left[ 52;61 \\right)$ | $\\left[ 61;70 \\right)$ | $\\left[ 70;79 \\right)$ | $\\left[ 79;88 \\right)$ |  |\n|---|---|---|---|---|---|---|---|---|\n| Giá trị đại diện | 29,5 | 38,5 | 47,5 | 56,5 | 65,5 | 74,5 | 83,5 |  |\n| Tần số | 13 | 19 | 11 | 14 | 12 | 15 | 16 | n = 100 |\nTính chiều cao trung bình của cây trong vườn ươm trên .\nLàm tròn kết quả đến hàng phần mười.",
+   "explanation": "Ta có:\n$\\bar{x}=\\frac{29,5.13+38,5.19+47,5.11+56,5.14+65,5.12+74,5.15+83,5.16}{100}=56,7$",
+   "short_value": 56.7,
+   "short_correct": "56,7",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Khối lượng (đơn vị kg) của 20 con cá được cho bởi bảng sau đây\n| Lớp khối lượng (kg) | $\\left[ 0,6;\\,0,8 \\right)$ | $\\left[ 0,8;\\,1,0 \\right)$ | $\\left[ 1,0;\\,1,2 \\right)$ | $\\left[ 1,2;\\,1,4 \\right)$ | n |\n|---|---|---|---|---|---|\n| Giá trị đại diện | $0,7$ | $0,9$ | $1,1$ | $1,3$ |  |\n| Tần số | 4 | 6 | 6 | 4 | 20 |\nTính độ lệch chuẩn của mẫu số liệu.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Trả lời: $0,21$\nTa có: $\\overline{x}=\\frac{{{m}_{1}}{{x}_{1}}+{{m}_{2}}{{x}_{2}}+...+{{m}_{4}}{{x}_{4}}}{n}\\approx 1$\nPhương sai: ${{s}^{2}}=\\frac{{{m}_{1}}{{\\left( {{x}_{1}}-\\bar{x} \\right)}^{2}}+\\ldots +{{m}_{4}}{{\\left( {{x}_{4}}-\\bar{x} \\right)}^{2}}}{n}\\approx 0,042$\nĐộ lệch chuẩn: $s=\\sqrt{{{s}^{2}}}\\approx 0,205$.",
+   "short_value": 0.21,
+   "short_correct": "0,2",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D06",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Đo chiều cao của cây trong vườn ươm ta có bảng sau\n| Nhóm | $\\left[ 25;34 \\right)$ | $\\left[ 34;43 \\right)$ | $\\left[ 43;52 \\right)$ | $\\left[ 52;61 \\right)$ | $\\left[ 61;70 \\right)$ | $\\left[ 70;79 \\right)$ | $\\left[ 79;88 \\right)$ |  |\n|---|---|---|---|---|---|---|---|---|\n| Giá trị đại diện | 29,5 | 38,5 | 47,5 | 56,5 | 65,5 | 74,5 | 83,5 |  |\n| Tần số | 13 | 19 | 11 | 14 | 12 | 15 | 16 | n = 100 |\nTính phương sai của mẫu số liệu trên .\nLàm tròn kết quả đến hàng đơn vị.",
+   "explanation": "Ta có:\n$\\bar{x}=\\frac{29,5.13+38,5.19+47,5.11+56,5.14+65,5.12+74,5.15+83,5.16}{100}=56,7$\nPhương sai của mẫu số liệu là:\n$\\begin{aligned} & s_{D}^{2}=\\frac{1}{100}\\left[ \\begin{aligned} & {{\\left( 29,5-56,7 \\right)}^{2}}.13+{{\\left( 38,5-56,7 \\right)}^{2}}.19+{{\\left( 47,5-56,7 \\right)}^{2}}.11+{{\\left( 56,5-56,7 \\right)}^{2}}.14 \\\\ & +{{\\left( 65,5-56,7 \\right)}^{2}}.12+{{\\left( 74,5-56,7 \\right)}^{2}}.15+{{\\left( 83,5-56,7 \\right)}^{2}}.16 \\\\ \\end{aligned} \\right] \\\\ & \\approx 340 \\\\ \\end{aligned}$",
+   "short_value": 56.7,
+   "short_correct": "340",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  }
+ ],
+ "flags": []
+}

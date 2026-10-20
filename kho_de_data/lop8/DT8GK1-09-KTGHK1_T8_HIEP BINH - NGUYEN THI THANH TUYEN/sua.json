@@ -1,0 +1,68 @@
+{
+ "de1.P4.C1": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "$A=\\left( 2{{x}^{2}}-3x+5 \\right)+\\left( {{x}^{2}}+3x-7 \\right)$",
+    "explanation": "$A=\\left( 2{{x}^{2}}-3x+5 \\right)+\\left( {{x}^{2}}+3x-7 \\right)$\n$=2{{x}^{2}}-3x+5+{{x}^{2}}+3x-7$\n$={{x}^{2}}-2$",
+    "points": 1,
+    "type": "multiple_choice",
+    "options": [
+     "${{x}^{2}}-6x-2$",
+     "${{x}^{2}}+2$",
+     "$3{{x}^{2}}-2$",
+     "${{x}^{2}}-2$"
+    ],
+    "correctAnswer": 2
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "$B={{\\left( x+3 \\right)}^{2}}-\\left( x-2 \\right)\\left( x+8 \\right)$",
+    "explanation": "$B={{\\left( x+3 \\right)}^{2}}-\\left( x-2 \\right)\\left( x+8 \\right)$\n$={{x}^{2}}+6x+9-\\left( {{x}^{2}}+8x-2x-16 \\right)$\n$={{x}^{2}}+6x+9-{{x}^{2}}-8x+2x+16$\n$=25$",
+    "points": 1,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "$B=(x+3)^2-(x-2)(x+8)$",
+      "$=x^2+6x+$ {{1}} $-(x^2+8x-2x-$ {{2}} $)$",
+      "$=x^2+6x+9-x^2-$ {{3}} $x+$ {{4}}",
+      "$=$ {{5}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "9"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "16"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "6"
+      },
+      {
+       "id": "4",
+       "loai": "so",
+       "dap_an": "16"
+      },
+      {
+       "id": "5",
+       "loai": "so",
+       "dap_an": "25"
+      }
+     ]
+    }
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) (2x²−3x+5)+(x²+3x−7) = 3x²−2 ⇒ C. Key D (x²−2) do lời giải cộng 2x²+x² ra x². NONKEY: lời giải sai. (b) 25 khớp."
+ }
+}

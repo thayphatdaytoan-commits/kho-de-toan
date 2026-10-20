@@ -1,0 +1,701 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "5",
+  "lesson": "1",
+  "title": "Bài 1. Số gần đúng và sai số"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hình chữ nhật ABCD. Gọi AL và CI tương ứng là đường cao của các tam giác ADB và BCD. Cho biết $DL=LI=IB=1$. Diện tích của hình chữ nhật ABCD (chính xác đến hàng phần trăm) là:",
+   "explanation": "[[IMG:image18.png]]\nTa có: $A{{L}^{2}}=BL.LD=2$\ndo đó $AL=\\sqrt{2}$.\nLại có $BD=3$\nSuy ra diện tích của hình chữ nhật là:\n$3\\sqrt{2}=3.1,41421356...\\approx 4,24264...\\approx 4,24$",
+   "options": [
+    "4,24",
+    "2,242",
+    "4,2",
+    "4,2426"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Biết số gần đúng $a=37975421$ có độ chính xác $d=150$. Hãy xác định các chữ số đáng tin của a.",
+   "explanation": "Vì sai số tuyệt đối đến hàng trăm nên các chữ số hàng nghìn trở lên của a là đáng tin.\nVậy các chữ số đáng tin của a là 3, 7, 9, 7, 5.",
+   "options": [
+    "3, 7, 9",
+    "3, 7, 9, 7",
+    "3, 7, 9, 7, 5",
+    "3, 7, 9, 7, 5, 4"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Biết số gần đúng $a=7975421$ có độ chính xác $d=150$. Hãy ước lượng sai số tương đối của a.",
+   "explanation": "Theo Ví dụ 1 ta có các chữ số đáng tin của a là 3, 7, 9, 7, 5\n$\\Rightarrow $ Cách viết chuẩn của $a={{37975.10}^{3}}$\nSai số tương đối thỏa mãn: ${{\\delta }_{a}}\\le \\frac{150}{37975421}=0,0000039$ (tức là không vượt quá $0,0000039$).",
+   "options": [
+    "${{\\delta }_{a}}\\le 0,0000099$",
+    "${{\\delta }_{a}}\\le 0,000039$",
+    "${{\\delta }_{a}}\\ge 0,0000039$",
+    "${{\\delta }_{a}}<0,000039$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Biết số gần đúng $a=173,4592$ có sai số tương đối không vượt quá $\\frac{1}{10000}$, hãy ước lượng sai số tuyệt đối của a và viết a dưới dạng chuẩn.",
+   "explanation": "Từ công thức ${{\\delta }_{a}}=\\frac{{{\\Delta }_{a}}}{\\left| a \\right|}$, ta có ${{\\Delta }_{a}}\\le 173,4592.\\frac{1}{10000}=0,017$\nVậy chữ số đáng tin là 1, 7, 3, 4.\nDạng chuẩn của a là $a=173,5$.",
+   "options": [
+    "${{\\Delta }_{a}}\\le 0,17;a=173,4$",
+    "${{\\Delta }_{a}}\\le 0,017;a=173,5$",
+    "${{\\Delta }_{a}}\\le 0,4592;a=173,5$",
+    "${{\\Delta }_{a}}\\le 0,017;a=173,4$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho giá trị gần đúng của $\\frac{8}{17}$ là $0,47$. Sai số tuyệt đối của số $0,47$ là:",
+   "explanation": "Ta có $\\frac{8}{17}=0,470588235294...$ nên sai số tuyệt đối của $0,47$ là\n$\\Delta =\\left| 0,47-\\frac{8}{17} \\right|<\\left| 0,47-4,471 \\right|=0,001$.",
+   "options": [
+    "$0,001$",
+    "$0,002$",
+    "$0,003$",
+    "$0,004$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho giá trị gần đúng của $\\frac{3}{7}$ là $0,429$. Sai số tuyệt đối của số $0,429$ là:",
+   "explanation": "Ta có $\\frac{3}{7}=0,428571...$ nên sai số tuyệt đối của $0,429$ là\n$\\Delta =\\left| 0,429-\\frac{3}{7} \\right|<\\left| 0,429-4,4285 \\right|=0,0005$.",
+   "options": [
+    "$0,0001$",
+    "$0,0002$",
+    "$0,0004$",
+    "$0,0005$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Qua điều tra dân số kết quả thu được số đân ở tỉnh B là $2.731.425$ người với sai số ước lượng không quá $200$ người. Các chữ số không đáng tin ở các hàng là:",
+   "explanation": "Ta có $\\frac{100}{2}=50<d=200<500=\\frac{1000}{2}$ các chữ số đáng tin là các chữ số hàng nghìn trở đi.",
+   "options": [
+    "Hàng đơn vị",
+    "Hàng chục",
+    "Hàng trăm",
+    "Cả A, B, C"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Nếu lấy $3,14$ làm giá trị gần đúng của $\\pi $ thì sai số là:",
+   "explanation": "Ta có $\\pi =3,141592654...$ nên sai số tuyệt đối của $3,14$ là\n$\\Delta =\\left| 3,14-\\pi \\right|<\\left| 3,14-3,141 \\right|=0,001$.",
+   "options": [
+    "$0,001$",
+    "$0,002$",
+    "$0,003$",
+    "$0,004$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong bốn lần cân một lượng hóa chất làm thí nghiệm ta thu được các kết quả sau đây với độ chính xác $0,001g$: $5,382g$; $5,384g$; $5,385g$; $5,386g$. Sai số tuyệt đối và số chữ số chắc của kết quả là:",
+   "explanation": "Ta có $d=0,001<0,005=\\frac{0,01}{2}$ nên có 3 chữ số chắc.",
+   "options": [
+    "Sai số tuyệt đối là $0,001g$ và số chữ số chắc là $3$ chữ số",
+    "Sai số tuyệt đối là $0,001g$ và số chữ số chắc là $4$ chữ số",
+    "Sai số tuyệt đối là $0,002g$ và số chữ số chắc là $3$ chữ số",
+    "Sai số tuyệt đối là $0,002g$ và số chữ số chắc là $4$ chữ số"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một hình chữ nhật cố diện tích là $S=180,57c{{m}^{2}}\\pm 0,6c{{m}^{2}}$. Kết quả gần đúng của $S$ viết dưới dạng chuẩn là:",
+   "explanation": "Ta có $d=0,6<5=\\frac{10}{2}$ nên $S$ có 3 chữ số chắc.",
+   "options": [
+    "$180,58c{{m}^{2}}$",
+    "$180,59c{{m}^{2}}$",
+    "$0,181c{{m}^{2}}$",
+    "$181,01c{{m}^{2}}$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Đường kính của một đồng hồ cát là $8,52m$ với độ chính xác đến $1cm$. Dùng giá trị gần đúng của $\\pi $ là 3,14 cách viết chuẩn của chu vi (sau khi quy tròn) là:",
+   "explanation": "Gọi $d$ là đường kính thì $d=8,52m\\pm 1cm\\Rightarrow 8,51m\\le d\\le 8,53m$.\nKhi đó chu vi là $C=\\pi d$ và $26,7214\\le C\\le 26,7842\\Rightarrow C=26,7528\\pm 0,0314$.\nTa có $0,0314<0,05=\\frac{0,1}{2}$ nên cách viết chuẩn của chu vi là 26,7.",
+   "options": [
+    "26,6",
+    "26,7",
+    "26,8",
+    "Đáp án khác"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một hình lập phương có cạnh là $2,4m\\pm 1cm$. Cách viết chuẩn của diện tích toàn phần (sau khi quy tròn) là:",
+   "explanation": "Gọi $a$ là độ dài cạnh của hình lập phương thì $a=2,4m\\pm 1cm\\Rightarrow 2,39m\\le a\\le 2,41m$.\nKhi đó diện tích toàn phần của hình lập phương là $S=6{{a}^{2}}$ nên $34,2726\\le S\\le 34,8486$.\nDo đó $S=34,5606{{m}^{2}}\\pm 0,288{{m}^{2}}$.",
+   "options": [
+    "$35{{m}^{2}}\\pm 0,3{{m}^{2}}$",
+    "$34{{m}^{2}}\\pm 0,3{{m}^{2}}$",
+    "$34,5{{m}^{2}}\\pm 0,3{{m}^{2}}$",
+    "$34,5{{m}^{2}}\\pm 0,1{{m}^{2}}$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số đúng là: $a=0,2$.",
+    "b": "Số gần đúng là: $\\bar{a}=5,2$.",
+    "c": "Độ chính xác là: ${d=0,2}$.",
+    "d": "Giá trị của ${\\bar{a}}$ nằm trong đoạn ${[4,8 ; 5,2]}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty sử dụng dây chuyền ${A}$ để đóng vào bao với khối lượng mong muốn là ${5 {~kg}}$. Trên bao bì ghi thông tin khối lượng là ${5 \\pm 0,2 {~kg}}$. Gọi ${\\bar{a}}$ là khối lượng thực của một bao gạo do dây chuyền ${{A}}$ đóng gói. Khi đó:\n[[IMG:image19.png]]",
+   "explanation": "Số đúng là: ${a=5}$. Số gần đúng là: ${\\bar{a}=5 \\pm 0,2}$. Độ chính xác là: ${d=0,2}$.\nGiá trị của ${\\bar{a}}$ nằm trong đoạn ${[4,8 ; 5,2]}$.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số đúng ${\\bar{a}}$",
+    "b": "5,2 là số gần đúng của ${\\bar{a}}$",
+    "c": "Độ chính xác là $d=5~kg$.",
+    "d": "Giá trị của ${\\bar{a}}$ nằm trong đoạn $[4,8;5,2]$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty sử dụng dây chuyền ${{A}}$ để đóng gạo vào bao với khối lượng mong muốn ${5 {~kg}}$. Trên bao bì ghi thông tin khối lượng ${5 \\pm 0,2 {~kg}}$. Gọi ${\\bar{a}}$ là khối lượng thực tế của một bao gạo do dây chuyền ${{A}}$ đóng gói. Khi đó:",
+   "explanation": "a) Số đúng ${\\bar{a}}$, cũng là khối lượng thực tế của bao gạo (chưa biết chính xác ${\\bar{a}}$). Khối lượng mong muốn là 5 kg nên số 5 là số gần đúng của ${\\bar{a}}$. Độ chính xác là ${d=0,2 {~kg}}$.\nb) Giá trị ${\\bar{a}}$ nằm trong đoạn ${[5-0,2 ; 5+0,2]=[4,8 ; 5,2]}$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Sai số tương đối trong cách ghi thứ nhất (đo chiều dài của một cây cầu): ${\\delta_1 \\leqslant \\frac{d_1}{\\left|a_1\\right|}=\\frac{0,2}{152} \\approx 0,13 \\%}$",
+    "b": "Sai số tương đối trong cách ghi thứ hai (đo chiều cao của một ngôi nhà): ${\\delta_2 \\leqslant \\frac{d_2}{\\left|a_2\\right|}=\\frac{0,1}{15,2} \\approx 0,66 \\%}$",
+    "c": "Sai số tương đối trong cách ghi thứ hai (đo chiều cao của một ngôi nhà) lớn hơn ${0,66 \\%}$.",
+    "d": "Cách ghi thứ nhất (đo chiều dài cây cầu) có độ chính xác thấp hơn cách ghi thứ hai (đo chiều cao ngôi nhà)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Kết quả đo chiều dài của một cây cầu được ghi ${152 {~m} \\pm 0,2 {~m}}$; kết quả đo chiều cao của một ngôi nhà được ghi là ${15,2 {~m} \\pm 0,1 {~m}}$. Khi đó:",
+   "explanation": "a) Sai số tương đối trong cách ghi thứ nhất: ${\\delta_1 \\leqslant \\frac{d_1}{\\left|a_1\\right|}=\\frac{0,2}{152} \\approx 0,13 \\%}$ (hay sai số tương đối không vượt quá ${0,13 \\%)}$.\nSai số tương đối trong cách ghi thứ hai: ${\\delta_2 \\leqslant \\frac{d_2}{\\left|a_2\\right|}=\\frac{0,1}{15,2} \\approx 0,66 \\%}$ (hay sai số tương đối không vượt quá ${0,66 \\%}$).\nb) Qua đánh giá sai số tương đối trong hai cách ghi, ta thấy ${0,13 \\%<0,66 \\%}$ nên cách ghi thứ nhất (đo chiều dài cây cầu) có độ chính xác cao hơn cách ghi thứ hai (đo chiều cao ngôi nhà).",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Đối với phép đo thửa đất, sai số tương đối không vượt quá $0,663\\%$",
+    "b": "Đối với phép đo thửa đất, có sai số tương đối: ${\\frac{d}{|a|}=\\frac{0,5}{75,4}=\\frac{5}{754}}$",
+    "c": "Đối với phép đo chiều dài cây cầu, có sai số tương đối lớn hơn ${\\frac{5}{4662} \\approx 0,107 \\%}$.",
+    "d": "Phép đo cây cầu có độ chính xác cao hơn phép đo chiều dài của một thửa đất"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Kết quả đo chiều dài của một thửa đất là ${75,4 {~m} \\pm 0,5 {~m}}$ và đo chiều dài của một cây cầu là ${466,2 {~m} \\pm 0,5 {~m}}$. Khi đó:",
+   "explanation": "Đối với phép đo thửa đất, tỉ số: ${\\frac{d}{|a|}=\\frac{0,5}{75,4}=\\frac{5}{754}}$ (tức là sai số tương đối không vượt quá ${\\frac{5}{754} \\approx 0,663 \\%}$).\nĐối với phép đo chiều dài cây cầu, tỉ số: ${\\frac{d}{|a|}=\\frac{0,5}{466,2}=\\frac{5}{4662}}$ (nghĩa là sai số tương đối không vượt quá ${\\frac{5}{4662} \\approx 0,107 \\%}$).\nTa có ${\\frac{5}{754}>\\frac{5}{4662}}$ nên phép đo cây cầu có độ chính xác cao hơn.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 2,
+   "n": 5,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Cho số gần đúng ${a=2022}$ với độ chính xác ${d=20}$. Số quy tròn của ${a}$ là 2020.",
+    "b": "Cho số gần đúng ${a=1,04527}$ với độ chính xác ${d=0,004}$. Số quy tròn của ${a}$ là 1,05.",
+    "c": "Cho $\\bar{a}=14,6543\\pm 0,03$. Số quy tròn của ${a}$ là 14,65.",
+    "d": "Cho số gần đúng ${a=301335}$ với độ chính xác ${d=234}$. Số quy tròn của ${a}$ là 301000."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính đúng, sai của các mệnh đề sau:",
+   "explanation": "a) Hàng lớn nhất của ${d}$ là hàng chục nên ta quy tròn ${a}$ đến hàng trăm. Vậy số quy tròn của ${a}$ là 2000.\nb) Hàng lớn nhất của ${d}$ là hàng phần nghìn nên ta quy tròn ${a}$ đến hàng phần trăm. Vậy số quy tròn của ${a}$ là 1,05.\nc) Hàng lớn nhất của ${d}$ là hàng phần trăm nên ta quy tròn ${a}$ đến hàng phần mười. Vậy số quy tròn của ${a}$ là 14,7.\nd) Cho số gần đúng ${a=301335}$ với độ chính xác ${d=234}$. Kết quả là 301000.",
+   "ma": "de1.P2.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Bạn Nam thực hiện việc đo đường kính của một ống đồng bằng thước kẹp. Kết quả của Nam là 15,3 mm. Hỏi số 15,3 đó là số đúng hay số gần đúng của phép đo?",
+   "explanation": "Số 15,3 là số gần đúng của phép đo, vì nó tồn tại sai số trong việc thực hiện đo.",
+   "short_value": null,
+   "short_correct": "Số gần đúng|Gần đúng",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Số đúng",
+    "Số gần đúng",
+    "Vừa là số đúng vừa là số gần đúng",
+    "Không xác định được"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tại trạm quan trắc lũ có cho dựng một cột bê tông (dưới lòng sông) có kẻ các vạch đo mực nước, khoảng cách các vạch là ${50 {~cm}}$. Trong một mùa lũ, mực nước ở thời điểm cao nhất được đo nằm giữa hai vạch ${10,5 {~m}}$ và ${11 {~m}}$. Hai nhân viên của trạm cùng kiểm tra mực nước. Nhân viên ${{A}}$ cho rằng mực nước ở ${10,5 \\pm 0,5 {~m}}$, trong khi đó nhân viên ${{B}}$ cho rằng mực nước là ${11 \\pm 0,5 {~m}}$. Theo bạn, kết quả của nhân viên nào đúng?",
+   "explanation": "Cả hai kết quả đều đúng vì căn cứ vào mực nước quan sát được giá trị đúng ${\\bar{a}}$ (tính theo ${{m}}$) thoả mãn ${10,5<\\bar{a}<11}$ nên ${\\bar{a} \\in[10,5-0,5 ; 10,5+0,5]}$ đồng thời ${\\bar{a} \\in[11-0,5 ; 11+0,5]}$",
+   "short_value": null,
+   "short_correct": "Cả hai|Cả hai đều đúng|A và B",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Chỉ nhân viên A đúng",
+    "Chỉ nhân viên B đúng",
+    "Cả hai nhân viên đều đúng",
+    "Cả hai nhân viên đều sai"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trên bao bì của một sản phẩm có ghi \"khối lượng tịnh ${200 \\pm 2}$ g\". Hãy cho biết khối lượng đúng của bao bì sản phẩm đó thuộc đoạn nào và đánh giá sai số tương đối của số gần đúng này.",
+   "explanation": "Khối lượng đúng của bao sản phẩm ${\\bar{a}}$ (tính theo gam) thuộc đoạn [198; 202]. Sai số tương đối ${\\delta_a \\leq \\frac{2}{200}=1 \\%}$.",
+   "short_value": null,
+   "short_correct": "[198;202];1%|[198;202] và 1%|[198;202];1",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Thuộc đoạn $[198;202]$, sai số tương đối $\\delta_a \\le 1\\%$",
+    "Thuộc đoạn $[198;202]$, sai số tương đối $\\delta_a \\le 2\\%$",
+    "Thuộc đoạn $[200;202]$, sai số tương đối $\\delta_a \\le 1\\%$",
+    "Thuộc đoạn $[198;200]$, sai số tương đối $\\delta_a \\le 2\\%$"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tuấn và Việt thực hiện tính đường kính của một ống trụ tròn có chu vi ${25 {~cm}}$. Kết quả của Tuấn là ${d=7,96 {~cm}}$, kết quả của Việt là ${d=8,06 {~cm}}$. Hỏi kết quả của bạn nào chính xác hơn?",
+   "explanation": "Ta có: ${\\pi=\\frac{C}{d}}$ với ${C}$ là chu vi. Vì ${\\frac{25}{8,06}<\\frac{25}{7,96}<\\pi}$ nên kết quả của Tuấn chính xác hơn.",
+   "short_value": null,
+   "short_correct": "Tuấn|Bạn Tuấn",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Kết quả của Việt chính xác hơn",
+    "Hai kết quả chính xác như nhau",
+    "Không so sánh được",
+    "Kết quả của Tuấn chính xác hơn"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Làm tròn số 2315,564 đến hàng đơn vị và 23,4785 đến hàng phần trăm. Tính sai số tuyệt đối của chúng.",
+   "explanation": "Số 2315,564 được làm tròn đến hàng đơn vị là 2316 và sai số tuyệt đối ${\\Delta=|2315,564-2316|=0,436}$.\nSố 23,4785 được làm tròn đến hàng phần trăm là 23,48 và sai số tuyệt đối ${\\Delta=|23,4785-23,48|=0,0015}$.",
+   "short_value": null,
+   "short_correct": "0,436;0,0015|0,436 và 0,0015",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Sai số tuyệt đối lần lượt là $0{,}436$ và $0{,}0015$",
+    "Sai số tuyệt đối lần lượt là $0{,}564$ và $0{,}0015$",
+    "Sai số tuyệt đối lần lượt là $0{,}436$ và $0{,}0085$",
+    "Sai số tuyệt đối lần lượt là $0{,}564$ và $0{,}0085$"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong giờ thực hành hình học, bạn Châu đã thực hiện việc đo đạc tính diện tích của một tấm nhôm hình chữ nhật với hai cạnh đo được lần lượt là ${17 \\pm 0,01 {~mm}}$ và ${23 \\pm 0,01 {~mm}}$. Hãy cho biết giá trị đúng của diện tích thuộc đoạn nào.",
+   "explanation": "Ta biểu diễn chiều rộng và chiều dài của hình chữ nhật là ${17+d_1}$ và ${23+d_2}$, trong đó ${-0,01 \\leq d_1 \\leq 0,01 ;-0,01 \\leq d_2 \\leq 0,01}$. Khi đó, ta có:\n$\\begin{aligned} & \\left( 17+{{d}_{1}} \\right)\\left( 23+{{d}_{2}} \\right)=391+17{{d}_{2}}+23{{d}_{1}}+{{d}_{1}}{{d}_{2}}.\\text{ } \\\\ & \\text{V }\\!\\!\\grave{\\mathrm{i}}\\!\\!\\text{ }-0,01\\le {{d}_{1}},{{d}_{2}}\\le 0,01\\text{ n }\\!\\!\\hat{\\mathrm{e}}\\!\\!\\text{ n }\\left| 17{{d}_{2}}+23{{d}_{1}}+{{d}_{1}}{{d}_{2}} \\right|\\le 17.0,01+23.0,01+0,01.0,01=0,4001. \\\\ \\end{aligned}$\nVậy giá trị đúng của diện tích thuộc đoạn [391 - 0,4001; 391 + 0,4001].",
+   "short_value": null,
+   "short_correct": "[391-0,4001;391+0,4001]|[390,5999;391,4001]",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "options": [
+    "Đoạn $[390{,}4;\\ 391{,}6]$",
+    "Đoạn $[390{,}5999;\\ 391{,}4001]$",
+    "Đoạn $[390{,}99;\\ 391{,}01]$",
+    "Đoạn $[389;\\ 393]$"
+   ],
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C5.B1.D01",
+   "dang_toan_web": "Số gần đúng và sai số (sai số tuyệt đối, sai số tương đối, số quy tròn)."
+  }
+ ],
+ "flags": [
+  "phan_2_co_5_cau_nhung_de_ghi_4"
+ ]
+}

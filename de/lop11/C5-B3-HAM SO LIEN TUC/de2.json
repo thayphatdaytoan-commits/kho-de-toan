@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "5",
+  "lesson": "3",
+  "title": "Bài 3. ➌. hàm số liên tục"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\frac{2x-1}{{{x}^{3}}-x}$. Kết luận nào sau đây đúng?",
+   "explanation": "Tại $x=\\frac{1}{2}$, ta có: $\\underset{x\\to \\frac{1}{2}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to \\frac{1}{2}}{\\mathop{\\lim }}\\,\\frac{2x-1}{{{x}^{3}}-1}=0=f\\left( \\frac{1}{2} \\right)$. Vậy hàm số liên tục tại $x=2$.",
+   "options": [
+    "Hàm số liên tục tại $x=-1$",
+    "Hàm số liên tục tại $x=0$",
+    "Hàm số liên tục tại $x=1$",
+    "Hàm số liên tục tại $x=\\frac{1}{2}$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $y=\\frac{x-3}{{{x}^{2}}-1}$. Mệnh đề nào sau đây đúng?",
+   "explanation": "Hàm số $y=\\frac{x-3}{{{x}^{2}}-1}$ có tập xác định $\\mathbb{R}\\backslash \\left\\{ \\pm 1 \\right\\}$. Do đó hàm số không liên tục tại các điểm $x=\\pm 1$.",
+   "options": [
+    "Hàm số không liên tục tại các điểm $x=\\pm 1$",
+    "Hàm số liên tục tại mọi $x\\in \\mathbb{R}$",
+    "Hàm số liên tục tại các điểm $x=-1$",
+    "Hàm số liên tục tại các điểm $x=1$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong các hàm số sau, hàm số nào liên tục trên $\\mathbb{R}$?",
+   "explanation": "Vì $y={{x}^{3}}-x$ là đa thức nên nó liên tục trên $\\mathbb{R}$.",
+   "options": [
+    "$y={{x}^{3}}-x$",
+    "$y=\\cot x$",
+    "$y=\\frac{2x-1}{x-1}$",
+    "$y=\\sqrt{{{x}^{2}}-1}$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho bốn hàm số ${{f}_{1}}\\left( x \\right)=2{{x}^{3}}-3x+1$, ${{f}_{2}}\\left( x \\right)=\\frac{3x+1}{x-2}$, ${{f}_{3}}\\left( x \\right)=\\cos x+3$ và ${{f}_{4}}\\left( x \\right)={{\\log }_{3}}x$. Hỏi có bao nhiêu hàm số liên tục trên tập $\\mathbb{R}$?",
+   "explanation": "* Ta có hai hàm số ${{f}_{2}}\\left( x \\right)=\\frac{3x+1}{x-2}$ và ${{f}_{4}}\\left( x \\right)={{\\log }_{3}}x$ có tập xác định không phải là tập $\\mathbb{R}$ nên không thỏa yêu cầu.\n* Cả hai hàm số ${{f}_{1}}\\left( x \\right)=2{{x}^{3}}-3x+1$ và ${{f}_{3}}\\left( x \\right)=\\cos x+3$ đều có tập xác định là $\\mathbb{R}$ đồng thời liên tục trên $\\mathbb{R}$.",
+   "options": [
+    "$1$",
+    "$3$",
+    "$4$",
+    "$2$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong các hàm số sau, hàm số nào liên tục trên $\\mathbb{R}$?",
+   "explanation": "Hàm số $f\\left( x \\right)=\\frac{x+5}{{{x}^{2}}+4}$ là hàm phân thức hữu tỉ và có TXĐ là $D=\\mathbb{R}$ do đó hàm số $f\\left( x \\right)=\\frac{x+5}{{{x}^{2}}+4}$ liên tục trên $\\mathbb{R}$.",
+   "options": [
+    "$f\\left( x \\right)=\\tan x+5$",
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}+3}{5-x}$",
+    "$f\\left( x \\right)=\\sqrt{x-6}$",
+    "$f\\left( x \\right)=\\frac{x+5}{{{x}^{2}}+4}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm số $y=f(x)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{3}}-1}{x-1}\\text{ khi }x\\ne 1 \\\\ & 2m+1\\text{ khi }x=1 \\\\ \\end{aligned} \\right.$. Giá trị của tham số $m$ để hàm số liên tục tại điểm ${{x}_{0}}=1$ là:",
+   "explanation": "Ta có $f(1)=2m+1$\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,y=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{3}}-1}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,({{x}^{2}}+x+1)=3$\nĐể hàm số liên tục tại điểm ${{x}_{0}}=1$thì $f(1)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,y\\Rightarrow 2m+1=3\\Leftrightarrow m=1$.",
+   "options": [
+    "$m=-\\frac{1}{2}$",
+    "$m=2$",
+    "$m=1$",
+    "$m=0$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Để hàm số $y=\\left\\{ \\begin{aligned} & {{x}^{2}}+3x+2\\begin{matrix} {} & \\text{khi}\\begin{matrix} {} & x\\le -1 \\\\ \\end{matrix} \\\\ \\end{matrix} \\\\ & 4x+a\\begin{matrix} {} & {} & \\,\\,\\text{khi}\\begin{matrix} {} & x>-1 \\\\ \\end{matrix} \\\\ \\end{matrix} \\\\ \\end{aligned} \\right.$ liên tục tại điểm $x=-1$ thì giá trị của $a$ là",
+   "explanation": "Hàm số liên tục tại $x=-1$ khi và chỉ khi $\\underset{x\\to -{{1}^{+}}}{\\mathop{\\lim }}\\,y=\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,y==y\\left( -1 \\right)$\n$\\Leftrightarrow \\underset{x\\to -{{1}^{+}}}{\\mathop{\\lim }}\\,\\left( 4x+a \\right)=\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+3x+2 \\right)=y\\left( -1 \\right)$ $\\Leftrightarrow a-4=0\\Leftrightarrow a=4$.",
+   "options": [
+    "$-4$",
+    "4",
+    "1",
+    "$-1$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tìm giá trị thực của tham số $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{3}}-{{x}^{2}}+2x-2}{x-1}\\ \\ \\ \\ khi\\ x\\ne 1 \\\\ & 3x+m\\ \\quad \\quad \\quad \\quad \\ \\ khi\\ x=1 \\\\ \\end{aligned} \\right.$ liên tục tại $x=1$.",
+   "explanation": "Ta có: $f\\left( 1 \\right)=m+3$.\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{3}}-{{x}^{2}}+2x-2}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}+2 \\right)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2 \\right)=3$.\nĐể hàm số $f\\left( x \\right)$ liên tục tại $x=1$ thì $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)\\Leftrightarrow 3=m+3\\Leftrightarrow m=0$.",
+   "options": [
+    "$m=0$",
+    "$m=6$",
+    "$m=4$",
+    "$m=2$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2016}}+x-2}{\\sqrt{2018\\text{x}+1}-\\sqrt{x+2018}}\\,\\,khi\\,\\,x\\ne 1 \\\\ & k\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,\\,x=1 \\\\ \\end{aligned} \\right.$. Tìm $k$ để hàm số $f\\left( x \\right)$ liên tục tại $x=1$.",
+   "explanation": "Ta có: $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2016}}+x-2}{\\sqrt{2018\\text{x}+1}-\\sqrt{x+2018}}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( {{x}^{2016}}-1+x-1 \\right)\\left( \\sqrt{2018\\text{x}+1}+\\sqrt{x+2018} \\right)}{2017\\text{x}-2017}$\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( {{x}^{2015}}+{{x}^{2014}}+...+x+1+1 \\right)\\left( \\sqrt{2018\\text{x}+1}+\\sqrt{x+2018} \\right)}{2017\\left( \\text{x}-1 \\right)}$ $=2\\sqrt{2019}$\nĐể hàm số liên tục tại $x=1$ $\\Leftrightarrow $ $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow k=2\\sqrt{2019}$.",
+   "options": [
+    "$k=2\\sqrt{2019}$",
+    "$k=\\frac{2017.\\sqrt{2018}}{2}$",
+    "$k=1$",
+    "$k=\\frac{20016}{2017}\\sqrt{2019}$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{x}-1}{x-1}\\,\\,khi\\,\\,x\\ne 1 \\\\ & a\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,\\,x=1 \\\\ \\end{aligned} \\right.$. Tìm $a$ để hàm số liên tục tại ${{x}_{0}}=1$.",
+   "explanation": "Ta có $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)$ $=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt{x}-1}{x-1}$ $=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt{x}-1}{\\left( \\sqrt{x}-1 \\right)\\left( \\sqrt{x}+1 \\right)}$ $=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{1}{\\sqrt{x}+1}$ $=\\frac{1}{2}$.\nĐể hàm số liên tục tại ${{x}_{0}}=1$ khi $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow a=\\frac{1}{2}$.",
+   "options": [
+    "$a=0$",
+    "$a=-\\frac{1}{2}$",
+    "$a=\\frac{1}{2}$",
+    "$a=1$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tìm tất cả các giá trị của tham số $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}-2x}{x-2}\\text{ khi }x\\ne 2 \\\\ & mx-4\\text{ khi x}\\le \\text{2} \\\\ \\end{aligned} \\right.$liên tục tại $x=2$.",
+   "explanation": "Ta có $\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-2x}{x-2}=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\frac{x\\left( x-2 \\right)}{x-2}=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,x=2$.\n$\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,\\left( mx-4 \\right)=2m-4$\nHàm số liên tục tại $x=2$ khi $\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)\\Leftrightarrow 2m-4=2\\Leftrightarrow m=3$.",
+   "options": [
+    "$m=3$",
+    "$m=2$",
+    "$m=-2$",
+    "Không tồn tại $m$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{x+3}-m}{x-1}\\,khi\\,x\\ne 1 \\\\ & n\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,x=1 \\\\ \\end{aligned} \\right..$ Để hàm số liên tục tại ${{x}_{0}}=1$ thì giá trị của biểu thức $\\left( m+n \\right)$ tương ứng bằng:",
+   "explanation": "Ta có: $f\\left( 1 \\right)=n.$\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x+3-{{m}^{2}}}{\\left( x-1 \\right)\\left( \\sqrt{x+3}+m \\right)}.$\nHàm số liên tục tại $x=1$ $\\Leftrightarrow \\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)\\,\\Leftrightarrow n=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x+3-{{m}^{2}}}{\\left( x-1 \\right)\\left( \\sqrt{x+3}+m \\right)}\\,\\,\\,\\,(1).$\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)$tồn tại khi $1$ là nghiệm của phương trình: $1+3-{{m}^{2}}=0\\,\\Rightarrow \\left[ \\begin{aligned} & m=2 \\\\ & m=-2 \\\\ \\end{aligned} \\right..$\n+ Khi $m=2$ thì $\\left( 1 \\right)\\,\\Rightarrow n=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x-1}{\\left( x-1 \\right)\\left( \\sqrt{x+3}+2 \\right)}\\Rightarrow n=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{1}{\\sqrt{x+3}+2}\\Rightarrow n=\\frac{1}{4}.$\n+ Khi $m=-2$ thì $\\left( 1 \\right)\\Rightarrow n=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{1}{\\sqrt{x+3}-2}$ suy ra không tồn tại $n.$\nVậy $m+n=2+\\frac{1}{4}=\\frac{9}{4}.$",
+   "options": [
+    "$\\frac{3}{4}.$",
+    "$1.$",
+    "$-\\frac{1}{2}.$",
+    "$\\frac{9}{4}.$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 23,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình không có nghiệm lớn hơn $3$.",
+    "b": "Phương trình có đúng $3$ nghiệm phân biệt.",
+    "c": "Phương trình có $2$ nghiệm lớn hơn $2$.",
+    "d": "Phương trình có nghiệm trong khoảng $\\left( -5;-1 \\right)$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": "C",
+   "flags": [],
+   "question": "Cho phương trình $2{{x}^{3}}-8x-1=0\\,\\,\\left( 1 \\right)$. Các mệnh đề sau đúng/sai?",
+   "explanation": "Hàm số $f\\left( x \\right)=2{{x}^{3}}-8x-1$ liên tục trên $\\mathbb{R}$.\nDo $f\\left( -5 \\right)=-211,\\,$ $f\\left( -1 \\right)=5>0,\\,$ $f\\left( 2 \\right)=-1<0,\\,$ $f\\left( 3 \\right)=29>0$ nên phương trình có ít nhất $3$ nghiệm trên $\\left( -5;-1 \\right),\\,\\left( -1;2 \\right),\\,\\left( 2;3 \\right)$. Mà phương trình bậc ba có tối đa $3$ nghiệm nên phương trình có đúng $3$ nghiệm trên $\\mathbb{R}$. Do đó C sai.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Ta có $f(1)=2$",
+    "b": "Hàm số $f\\left( x \\right)$ liên tục tại điểm ${x_0=1}$",
+    "c": "Hàm số $g\\left( x \\right)$liên tục tại điểm ${x_0=1}$",
+    "d": "Hàm số $y=f\\left( x \\right)-g\\left( x \\right)$ không liên tục tại điểm ${{x}_{0}}=1$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f(x)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}-1}{x-1}\\text{khi}\\,x\\ne 1 \\\\ & x+1\\text{khi}\\,x=1 \\\\ \\end{aligned} \\right.$ và $g(x)=4{{x}^{2}}-x+1$. Khi đó:",
+   "explanation": "Ta có: $f\\left( {{x}_{0}} \\right)=f(1)=1+1=2$.\n${\\Rightarrow \\lim _{x \\rightarrow x_0} f(x)=\\lim _{x \\rightarrow 1} \\frac{x^2-1}{x-1}=\\lim _{x \\rightarrow 1}(x+1)=2=f\\left(x_0\\right) \\text {. } }$\nVậy hàm số liên tục tại điểm ${x_0=1}$.\nTa có: $g\\left( {{x}_{0}} \\right)=g(1)=4$.\n$\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,g(x)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( 4{{x}^{2}}-x+1 \\right)=4=g(1)$\nVậy hàm số liên tục tại điểm ${x_0=1}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Giới hạn $\\underset{x\\to 2}{\\mathop{\\lim }}\\,f(x)=\\frac{1}{2}$",
+    "b": "Hàm số $g(x)$ liên tục tại điểm ${x_0=2}$.",
+    "c": "Khi $a=1$ thì hàm số ${f(x)}$ liên tục tại ${x_0=2}$",
+    "d": "Khi $a=0$ thì hàm số $y=f\\left( x \\right)+g\\left( x \\right)$ liên tục tại ${x_0=2}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=\\left\\{\\begin{array}{ll}\\frac{\\sqrt{x-1}-1}{x^2-3 x+2} & \\text { khi } x \\neq 2 \\\\ \\frac{2 a+1}{6} & \\text { khi } x=2\\end{array}\\right.}$ và $g(x)=\\sin \\frac{\\pi x}{4}$. Khi đó:",
+   "explanation": "Ta có: ${f(2)=\\frac{2 a+1}{6}}$ và ${\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{\\sqrt{x-1}-1}{x^2-3 x+2}}$\n${=\\lim _{x \\rightarrow 2} \\frac{x-1-1}{(x-2)(x-1)(\\sqrt{x-1}+1)}=\\lim _{x \\rightarrow 2} \\frac{1}{(x-1)(\\sqrt{x-1}+1)}=\\frac{1}{2} . }$\nHàm số ${f(x)}$ liên tục tại ${x=2 \\Leftrightarrow \\lim _{x \\rightarrow 2} f(x)=f(2) \\Leftrightarrow \\frac{2 a+1}{6}=\\frac{1}{2} \\Leftrightarrow a=1}$.\nTa có: $g(2)=\\sin \\frac{2\\pi }{4}=1$ và $\\underset{x\\to 2}{\\mathop{\\lim }}\\,g(x)=\\sin \\frac{2\\pi }{4}=1$ nên $g(2)=\\underset{x\\to 2}{\\mathop{\\lim }}\\,g(x)$.\nVậy hàm số $g(x)$ liên tục tại điểm ${x_0=2}$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Ta có$\\underset{x\\to -{{2}^{+}}}{\\mathop{\\lim }}\\,f(x)=\\frac{5}{26}$",
+    "b": "Hàm số $f\\left( x \\right)$ liên tục tại điểm ${x_0=-2}$",
+    "c": "Để hàm số $g\\left( x \\right)$ liên tục tại điểm ${x_0=-2}$ thì $a=1$",
+    "d": "Khi $a=-1$ thì hàm số $y=f\\left( x \\right).g\\left( x \\right)$ gián đoạn tại điểm ${x_0=-2}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f(x)=\\left\\{ \\begin{aligned} & \\frac{1-\\sqrt{5x+11}}{2{{x}^{2}}-5x-18}\\text{khi}\\,x>-2 \\\\ & 4-{{x}^{2}}\\text{khi}\\,x\\le -2 \\\\ \\end{aligned} \\right.$ và $g(x)=\\left\\{ \\begin{array}{llllll} \\frac{{{x}^{2}}-x-6}{x+2} & \\text{ khi }x\\ne -2 \\\\ 2x+a & \\text{ khi }x=-2 \\\\ \\end{array} \\right.$ , khi đó:",
+   "explanation": "Ta có: ${f\\left(x_0\\right)=f(-2)=0=\\lim _{x \\rightarrow-2^{-}} f(x)}$.\n${\\lim _{x \\rightarrow x_0^{+}} f(x)=\\lim _{x \\rightarrow-2^{+}} \\frac{1-\\sqrt{5 x+11}}{2 x^2-5 x-18}=\\frac{5}{26} \\neq \\lim _{x \\rightarrow-2^{-}} f(x)}$. ${\\Rightarrow}$ Không tồn tại ${\\lim _{x \\rightarrow-2} f(x)}$.\nVậy hàm số gián đoạn tại điểm ${x_0=-2}$.\nTa có: $g\\left( {{x}_{0}} \\right)=g(-2)=-4+a$.\n$\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,g(x)=\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-x-6}{x+2}=-5$.\nĐể hàm số liên tục tại điểm ${x_0=-2}$ thì $\\underset{x\\to -2}{\\mathop{\\lim }}\\,g(x)=g(-2)$.\n${\\Rightarrow-4+a=-5 \\Leftrightarrow a=-1 \\text {. } }$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm tham số ${m}$ để hàm số $f(x)=\\left\\{ \\begin{array}{llllll} \\frac{{{x}^{2}}-1}{x-1} & \\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x<1 \\\\ mx+1 & \\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x\\ge 1 \\\\ \\end{array} \\right.$ liên tục trên ${\\mathbb{R}}$.",
+   "explanation": "Ta có ${f(1)=m+1=\\lim _{x \\rightarrow 1^{+}} f(x), \\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1} \\frac{x^2-1}{x-1}=2}$.\nVậy hàm số liên tục tại ${x=1}$ khi và chỉ khi ${m=1}$.",
+   "short_value": null,
+   "short_correct": "1",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=\\left\\{\\begin{array}{cc}\\frac{\\sqrt{x+2}-2}{x-2} & \\text { khi } x \\neq 2 \\\\ a & \\text { khi } x=2 .\\end{array}\\right.}$\nTìm giá trị của tham số ${a}$ để hàm số ${y=f(x)}$ liên tục tại ${x=2}$.",
+   "explanation": "${\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{\\sqrt{x+2}-2}{x-2}=\\lim _{x \\rightarrow 2} \\frac{(\\sqrt{x+2}-2)(\\sqrt{x+2}+2)}{(x-2)(\\sqrt{x+2}+2)}}$\n${=\\lim _{x \\rightarrow 2} \\frac{x+2-4}{(x-2)(\\sqrt{x+2}+2)}=\\lim _{x \\rightarrow 2} \\frac{1}{\\sqrt{x+2}+2}=\\frac{1}{4} \\text {. } }$Hàm số liên tục tại ${x=2}$ khi và chỉ khi ${\\lim _{x \\rightarrow 2} f(x)=f(2) \\Leftrightarrow \\frac{1}{4}=a}$.\nVậy ${a=\\frac{1}{4}}$ là giá trị cần tìm.",
+   "short_value": null,
+   "short_correct": "\\dfrac{1}{4}",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai hàm số ${f(x)=\\left\\{\\begin{array}{l}2-x \\text { khi } x<1 \\\\ x^2+x \\text { khi } x \\geq 1\\end{array}\\right.}$ và ${g(x)=\\left\\{\\begin{array}{l}2 x-x^2 \\text { khi } x<1 \\\\ -x^2+a \\text { khi } x \\geq 1\\end{array}\\right.}$\nTìm giá trị của tham số ${a}$ sao cho hàm số ${h(x)=f(x)+g(x)}$ liên tục tại ${x=1}$.",
+   "explanation": "${h(x)=f(x)+g(x)= \\begin{cases}2+x-x^2 & \\text { khi } x<1 \\\\ x+a & \\text { khi } x \\geq 1\\end{cases}}$\n${\\begin{aligned} & \\lim _{x \\rightarrow 1^{-}} h(x)=\\lim _{x \\rightarrow 1^{-}}\\left(2+x-x^2\\right)=\\lim _{x \\rightarrow 1^{-}} 2+\\lim _{x \\rightarrow 1^{-}} x-\\lim _{x \\rightarrow 1^{-}} x^2=2+1-1^2=2 ; \\\\ & \\lim _{x \\rightarrow 1^{+}} h(x)=\\lim _{x \\rightarrow 1^{+}}(x+a)=\\lim _{x \\rightarrow 1^{+}} x+\\lim _{x \\rightarrow 1^{+}} a=1+a ; h(1)=1+a . \\end{aligned} }$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính liên tục của hàm số ${f(x)=\\sqrt{x-1}}$ tại ${x_0=2}$.",
+   "explanation": "Tập xác định của hàm số ${f(x)}$ là ${[1 ;+\\infty)}$. Do đó ${x_0}$ thuộc tập xác định của hàm số. Ta có\n$\\underset{x\\to 2}{\\mathop{\\lim }}\\,f(x)=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\sqrt{x-1}=\\sqrt{\\underset{x\\to 2}{\\mathop{\\lim }}\\,(x-1)}=1=f(2).$\nVậy hàm số ${f(x)}$ liên tục tại ${x_0=2}$.",
+   "short_value": null,
+   "short_correct": "liên tục",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính liên tục của hàm số ${y=f(x)=\\left\\{\\begin{array}{cl}\\frac{x|x-3|}{x-3} & \\text { khi } x \\neq 3 \\\\ 3 & \\text { khi } x=3\\end{array}\\right.}$ tại điểm ${x=3}$.",
+   "explanation": "Tập xác định của hàm số là ${\\mathbb{R}}$, chứa điểm 3 .\nTa có: ${f(3)=3}$;\nKhi ${x>3, f(x)=\\frac{x(x-3)}{x-3}=x}$ nên ${\\lim _{x \\rightarrow 3^{+}} f(x)=\\lim _{x \\rightarrow 3^{+}} x=3}$;\nKhi ${x<3, f(x)=\\frac{x(3-x)}{x-3}=-x}$ nên ${\\lim _{x \\rightarrow 3^{-}} f(x)=\\lim _{x \\rightarrow 3^{-}}(-x)=-3}$.\nDo ${\\lim _{x \\rightarrow 3^{+}} f(x) \\neq \\lim _{x \\rightarrow 3^{-}} f(x)}$ nên không tồn tại ${\\lim _{x \\rightarrow 3} f(x)}$.\nDo đó, hàm số ${y=f(x)}$ không liên tục tại điểm ${x=3}$.",
+   "short_value": null,
+   "short_correct": "không liên tục",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{3-\\sqrt{9-x}}{x}\\text{ , }\\,\\,0<x<9 \\\\ & m\\text{ , }\\,\\,\\,x=0 \\\\ & \\frac{3}{x}\\text{ , }\\,\\,\\,x\\ge 9 \\\\ \\end{aligned} \\right.$. Tìm $m$ để $f\\left( x \\right)$ liên tục trên $\\left[ 0;+\\infty \\right)$.\nLàm tròn kết quả đến chữ số thập phân thứ hai.",
+   "explanation": "+ TXĐ: $D=\\left[ 0;+\\infty \\right)$.\n+ Với $x\\ge 9$ thì $f(x)=\\frac{3}{x}$ là hàm phân thức hữu tỉ xác định trên nửa khoảng $\\left[ 9;+\\infty \\right)$ nên liên tục trên nửa khoảng $\\left[ 9;+\\infty \\right)$.\n+ Với $0<x<9$ thì $f(x)=\\frac{3-\\sqrt{9-x}}{x}$ là hàm phân thức hữu tỉ xác định trên khoảng $\\left( 0;9 \\right)$ nên liên tục trên khoảng $\\left( 0;9 \\right)$.\n+ Tại điểm $x=0$:\nTa có $f\\left( 0 \\right)=m$ và $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{3-\\sqrt{9-x}}{x}$ $=\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{3+\\sqrt{9-x}}$ $=\\frac{1}{6}$.\nVậy để hàm số liên tục trên $\\left[ 0;+\\infty \\right)$ thì khi hàm số liên tục tại $x=0$ $\\Leftrightarrow $ $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=f(0)$ $\\Leftrightarrow m=\\frac{1}{6}$.",
+   "short_value": 0.16666666666666666,
+   "short_correct": "0,17",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D02",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,616 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "4",
+  "lesson": "bai-01",
+  "title": "Kiểm tra theo bài Phan Nhật Linh — Chương 4, Bài 1. Nguyên hàm",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": null,
+  "2": null,
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho $f\\left( x \\right)$, $g\\left( x \\right)$ là các hàm số xác định và liên tục trên $\\mathbb{R}$. Trong các mệnh đề sau, mệnh đề nào sai?",
+   "explanation": "Nguyên hàm không có tính chất nguyên hàm của tích bằng tích các nguyên hàm nên A sai.",
+   "options": [
+    "$\\int{f\\left( x \\right)g\\left( x \\right)\\text{d}x=}\\int{f\\left( x \\right)\\text{d}x.\\int{g\\left( x \\right)\\text{d}x}}$",
+    "$\\int{3f\\left( x \\right)\\text{d}x=3}\\int{f\\left( x \\right)\\text{d}x}$",
+    "$\\int{\\left[ f\\left( x \\right)+g\\left( x \\right) \\right]\\text{d}x=}\\int{f\\left( x \\right)\\text{d}x+\\int{g\\left( x \\right)\\text{d}x}}$",
+    "$\\int{\\left[ f\\left( x \\right)-g\\left( x \\right) \\right]\\text{d}x=}\\int{f\\left( x \\right)\\text{d}x-\\int{g\\left( x \\right)\\text{d}x}}$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D01",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Họ nguyên hàm của hàm số $f\\left( x \\right)=2{{x}^{3}}-9$ là:",
+   "explanation": "Ta có: $\\int{\\left( 2{{x}^{3}}-9 \\right)}\\text{d}x$ $=2.\\frac{{{x}^{4}}}{4}-9x+C$ $=\\frac{{{x}^{4}}}{2}-9x+C$.",
+   "options": [
+    "$\\frac{1}{2}{{x}^{4}}-9x+C$",
+    "$4{{x}^{4}}-9x+C$",
+    "$\\frac{1}{4}{{x}^{4}}-9x+C$",
+    "$\\frac{1}{2}{{x}^{4}}-9x$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B1.D01",
+   "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Họ nguyên hàm của hàm số $f\\left( x \\right)=\\sin 3x$ là:",
+   "explanation": "Ta có: $\\int{f\\left( x \\right)\\,}\\text{d}x=\\int{\\sin 3x\\,}\\text{d}x$ $=-\\frac{1}{3}\\cos 3x+C$.",
+   "options": [
+    "$\\frac{1}{3}\\cos 3x+C$",
+    "$\\cos 3x+C$",
+    "$-\\frac{1}{3}\\cos 3x+C$",
+    "$-\\cos 3x+C$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D02",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tìm $F\\left( x \\right)$ biết $F\\left( x \\right)=\\int{{{3}^{x}}}\\,\\text{d}x$.",
+   "explanation": "Ta có $\\int{{{a}^{x}}}\\,\\text{d}x=\\frac{{{a}^{x}}}{\\ln a}+C$ nên $I=\\frac{{{3}^{x}}}{\\ln 3}+C$.",
+   "options": [
+    "$F\\left( x \\right)=\\frac{{{3}^{x}}}{\\ln 3}+C$",
+    "$F\\left( x \\right)={{3}^{x}}\\ln 3+C$",
+    "$F\\left( x \\right)={{3}^{x}}+C$",
+    "$F\\left( x \\right)={{3}^{x}}+\\ln 3+C$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tìm họ nguyên hàm$F\\left( x \\right)$của hàm số$f\\left( x \\right)={{\\left( x-1 \\right)}^{2}}$",
+   "explanation": "Ta có: $\\int{{{\\left( x-1 \\right)}^{2}}\\text{d}x=}\\int{\\left( {{x}^{2}}-2x+1 \\right)}\\,\\text{d}x=\\frac{1}{3}{{x}^{3}}-{{x}^{2}}+x+C$",
+   "options": [
+    "$F\\left( x \\right)={{x}^{3}}+3{{x}^{2}}+3x+C$",
+    "$F\\left( x \\right)=\\frac{1}{3}{{x}^{3}}-{{x}^{2}}+x+C$",
+    "$F\\left( x \\right)={{x}^{3}}-{{x}^{2}}+x+C$",
+    "$F\\left( x \\right)=\\frac{1}{3}{{x}^{3}}-{{x}^{2}}+C$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D01",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hàm số$f\\left( x \\right)=\\frac{1}{\\sqrt{x}}+\\frac{1}{x}-\\frac{1}{{{x}^{2}}}\\,\\,$ với $x$ dương. Họ nguyên hàm của hàm số là:",
+   "explanation": "Ta có: $\\int{\\left( \\frac{1}{\\sqrt{x}}+\\frac{1}{x}-\\frac{1}{{{x}^{2}}}\\,\\, \\right)}\\,dx=2\\sqrt{x}+\\ln x+\\frac{1}{x}+C$",
+   "options": [
+    "$2\\sqrt{x}-\\ln \\left| x \\right|+\\frac{1}{x}+C$",
+    "$2\\sqrt{x}+\\ln x+\\frac{1}{x}+C$",
+    "$2\\sqrt{x}+\\ln x-\\frac{1}{x}+C$",
+    "$\\sqrt{x}+\\ln \\left| x \\right|+\\frac{1}{x}+C$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Nguyên hàm của hàm số $y=\\frac{{{x}^{3}}+x+1}{x}$ là:",
+   "explanation": "Ta có: $\\int{\\left( \\frac{{{x}^{3}}+x+1}{x} \\right)}\\,dx=\\int{\\left( {{x}^{2}}+1+\\frac{1}{x} \\right)}\\,dx=\\frac{1}{3}{{x}^{3}}+x+\\ln \\left| x \\right|+C$",
+   "options": [
+    "$\\frac{{{x}^{3}}}{3}+x+\\ln x+C.$",
+    "$\\frac{{{x}^{3}}}{3}+\\frac{{{x}^{2}}}{2}+\\ln x+C$",
+    "${{x}^{3}}+x+\\ln x+C.$",
+    "$\\frac{{{x}^{3}}}{3}+x+\\ln \\left| x \\right|+C.$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D03",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Nếu $\\int{f\\left( x \\right)}\\,dx=\\ln \\left| x \\right|+3{{x}^{2}}+2$ thì hàm số $f\\left( x \\right)$ là:",
+   "explanation": "Ta có: $f\\left( x \\right)={{\\left( \\ln \\left| x \\right|+3{{x}^{2}}+2 \\right)}^{\\prime }}=\\frac{1}{x}+6x$",
+   "options": [
+    "$f\\left( x \\right)=\\frac{1}{x}+{{x}^{3}}+2x+C$",
+    "$f\\left( x \\right)=\\frac{1}{x}+6x$",
+    "$f\\left( x \\right)=-\\frac{1}{x}+6x$",
+    "$f\\left( x \\right)=\\frac{1}{x}+3x$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)$ thỏa mãn đồng thời các điều kiện ${f}'\\left( x \\right)=x+\\sin x+\\frac{1}{{{\\cos }^{2}}x}$ và $f\\left( 0 \\right)=1$. Tìm $f\\left( x \\right)$.",
+   "explanation": "Ta có: $f\\left( x \\right)=\\int{{f}'\\left( x \\right)\\,\\text{d}x=\\int{\\left( x+\\sin x+\\frac{1}{{{\\cos }^{2}}x} \\right)}}\\,\\text{d}x=\\frac{{{x}^{2}}}{2}-\\cos x+\\tan x+C$\nKhi đó $f\\left( 0 \\right)=1$ $\\Leftrightarrow -1+C=1$ $\\Leftrightarrow C=2$ nên $f\\left( x \\right)=\\frac{{{x}^{2}}}{2}-\\cos x+\\tan x+2$.",
+   "options": [
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}}{2}-\\cos x+\\tan x+2$",
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}}{2}-\\cos x-\\tan x-2$",
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}}{2}+\\cos x-\\tan x$",
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}}{2}+\\cos x+\\tan x+\\frac{1}{2}$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B2.D07",
+   "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho $F\\left( x \\right)$là một nguyên hàm của hàm số$f\\left( x \\right)=4{{x}^{3}}3{{x}^{2}}+2$ biết $F\\left( -1 \\right)=3$. Tìm $F\\left( x \\right)$?",
+   "explanation": "Ta có: $\\int{\\left( 4{{x}^{3}}-3{{x}^{2}}+2 \\right)\\text{d}x={{x}^{4}}-{{x}^{3}}+2x+C}$\nMặt khác: $F\\left( -1 \\right)=3\\Leftrightarrow {{\\left( -1 \\right)}^{4}}-{{\\left( -1 \\right)}^{3}}+2.\\left( -1 \\right)+C=3\\Leftrightarrow C=3$ nên $F\\left( x \\right)={{x}^{4}}{{x}^{3}}\\text{+2}x+3$",
+   "options": [
+    "$F\\left( x \\right)={{x}^{4}}{{x}^{3}}-2x-3$",
+    "$F\\left( x \\right)={{x}^{4}}{{x}^{3}}\\text{+2}x+3$",
+    "$F\\left( x \\right)={{x}^{4}}{{x}^{3}}-2x+3$",
+    "$F\\left( x \\right)={{x}^{4}}+{{x}^{3}}+2x+3$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D01",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một vật chuyển động với gia tốc phụ thuộc vào thời gian theo công thức $a\\left( t \\right)=\\sin \\left( 2t+\\frac{\\pi }{3} \\right)$. Biết tại thời điểm $t=0$ thì vận tốc và quãng đường đi được của vật đều bằng $0$, công thức tính quãng đường đi được của vật đó theo thời gian là",
+   "explanation": "Vận tốc của vật tại thời điểm $t$ là:$v\\left( t \\right)=\\int{a\\left( t \\right)\\text{d}t=\\int{\\sin \\left( 2t+\\frac{\\pi }{3} \\right)\\text{d}t=}}-\\frac{1}{2}\\cos \\left( 2t+\\frac{\\pi }{3} \\right)+C$.\nMặt khác $v\\left( 0 \\right)=0\\Leftrightarrow C=\\frac{1}{4}$ $\\Rightarrow v\\left( t \\right)=-\\frac{1}{2}\\cos \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4}$.\nKhi đó: $s\\left( t \\right)=\\int{\\left( -\\frac{1}{2}\\cos \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4} \\right)}dt=-\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4}t+D$ mà $s\\left( 0 \\right)=0\\Leftrightarrow D=\\frac{\\sqrt{3}}{8}$.\nVậy $s\\left( t \\right)=-\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4}t+\\frac{\\sqrt{3}}{8}$.",
+   "options": [
+    "$s\\left( t \\right)=\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4}t-\\frac{\\sqrt{3}}{8}$",
+    "$s\\left( t \\right)=-\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)-\\frac{1}{4}t+\\frac{\\sqrt{3}}{8}$",
+    "$s\\left( t \\right)=-\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{\\sqrt{3}}{8}$",
+    "$s\\left( t \\right)=-\\frac{1}{4}\\sin \\left( 2t+\\frac{\\pi }{3} \\right)+\\frac{1}{4}t+\\frac{\\sqrt{3}}{8}$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Kí hiệu $F\\left( x \\right)$ là chiều cao của một cây (tính theo mét) sau khi trồng $x$ năm. Biết rằng sau năm đầu tiên cây cao $4$m. Trong $16\\,$năm tiếp theo cây phát triển với tốc độ $f\\left( x \\right)=\\frac{1}{2x+1}$ (m/năm). Chiều cao của cây sau $5$ năm gần nhất với kết quả nào sau đây? (làm tròn đến hàng phần trăm)",
+   "explanation": "Chiều cao của cây sau $x$ năm là:\n$F\\left( x \\right)=\\int{\\frac{1}{2x+1}}\\mathrm{d}x=\\frac{1}{2}\\ln \\left| 2x+1 \\right|+C=\\frac{1}{2}\\ln \\left( 2x+1 \\right)+C,\\,\\,\\text{do}\\,\\,1\\le x\\le 17$.\nSau năm đầu tiên cây cao $4$m do đó ta có $F\\left( 1 \\right)=4\\Leftrightarrow \\frac{1}{2}\\ln \\left( 2.1+1 \\right)+C=4\\Leftrightarrow C=4-\\frac{1}{2}\\ln 3$.\nVậy $F\\left( x \\right)=\\frac{1}{2}\\ln \\left( 2x+1 \\right)+4-\\frac{1}{2}\\ln 3$\nChiều cao của cây sau $5$ năm là $F\\left( 5 \\right)=\\frac{1}{2}\\ln \\left( 2.5+1 \\right)+4-\\frac{1}{2}\\ln 3\\approx 4,65$ năm.",
+   "options": [
+    "$4,63$năm",
+    "$2,25$năm",
+    "$5,75$năm",
+    "$4,65$năm"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( x \\right)=\\frac{{{x}^{3}}}{3}+\\frac{{{x}^{2}}}{2}-6x+C$.",
+    "b": "Tổng $f\\left( 1 \\right)+f\\left( 2 \\right)+...+f\\left( 49 \\right)+f\\left( 50 \\right)=2400$",
+    "c": "Hàm số $G\\left( x \\right)$ cũng là một nguyên hàm của $f\\left( x \\right)$ và $G\\left( 1 \\right)=3$ thì giá trị $G\\left( 4 \\right)=24$.",
+    "d": "Hàm số $H\\left( x-1 \\right)$ cũng là một nguyên hàm của $f\\left( x-1 \\right)$ và $H\\left( 0 \\right)=3$ thì giá trị $H\\left( 2 \\right)-H\\left( 4 \\right)=6$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $F\\left( x \\right)={{x}^{2}}+x-6$ là một nguyên hàm của $f\\left( x \\right)$. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Sai: Ta có: ${F}'\\left( x \\right)\\text{ =2}x+1$\nb) Sai: Ta có: $f\\left( 1 \\right)+f\\left( 2 \\right)+...+f\\left( 49 \\right)+f\\left( 50 \\right)=3+5+...+101=\\frac{\\left( 3+101 \\right).50}{2}=2600$.\nc) Sai: Ta có $G\\left( x \\right)={{x}^{2}}+x+C$ với $G\\left( 1 \\right)=3\\Leftrightarrow {{1}^{2}}+1+C=3\\Leftrightarrow C=1$ nên $G\\left( x \\right)={{x}^{2}}+x+1\\Rightarrow G\\left( 4 \\right)=21$.\nd) Sai: $H\\left( x-1 \\right)={{\\left( x-1 \\right)}^{2}}+\\left( x-1 \\right)+C={{x}^{2}}-2x+1+x-1+C={{x}^{2}}-x+C$",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( x \\right)=x+5-\\frac{7}{x}$.",
+    "b": "$\\int{f\\left( x \\right)}\\,\\text{d}x=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|+C$.",
+    "c": "Gọi $F\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)$ và thỏa mãn $F\\left( 1 \\right)=5$. Khi đó tìm được hàm số $F\\left( x \\right)=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|+\\frac{1}{2}$.",
+    "d": "Gọi $G\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)$. Biết $G\\left( 1 \\right)=4$ và $G\\left( 3 \\right)+G\\left( -9 \\right)=20$. Khi đó tìm được $G\\left( -6 \\right)=a\\ln 2+b\\ln 3+c$, với $a,\\ b,\\ c$ là các số hữu tỉ thì $a+b+c=\\frac{2}{3}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "le_dau_dollar"
+   ],
+   "question": "với $x=1$ ta có $H\\left( 0 \\right)=3\\Leftrightarrow C=3$nên $H\\left( x-1 \\right)={{x}^{2}}-x+3$.\n$H\\left( 2 \\right)=H\\left( 3-1 \\right)=9;\\,H\\left( 4 \\right)=H\\left( 5-1 \\right)=23$. Khi đó giá trị $H\\left( 2 \\right)-H\\left( 4 \\right)=9-23=-14$.\nHàm số $f\\left( x \\right)$ xác định trên $\\mathbb{R}\\backslash \\left\\{ 0 \\right\\}$ thỏa mãn $f\\left( x \\right)=\\frac{{{x}^{2}}+5x-7}{x}$. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Đúng: $f\\left( x \\right)=\\frac{{{x}^{2}}+5x-7}{x}=x+5-\\frac{7}{x}$.\nb) Đúng: $\\int{f\\left( x \\right)}\\text{d}x=\\int{\\left( x+5-\\frac{7}{x} \\right)}\\text{d}x=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|+C$.\nc) Sai: Ta có $\\int{f\\left( x \\right)}\\,\\text{d}x=\\int{\\left( x+5-\\frac{7}{x} \\right)}\\,\\text{d}x=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|+C$.\nDo $F\\left( 1 \\right)=5\\Leftrightarrow \\frac{1}{2}+5+C=5\\Leftrightarrow C=-\\frac{1}{2}$ nên $F\\left( x \\right)=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|-\\frac{1}{2}$.\nd) Sai: Ta có: $\\int{f\\left( x \\right)}\\,\\,\\text{d}x=\\frac{{{x}^{2}}}{2}+5x-7\\ln \\left| x \\right|+C=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}}{2}+5x-7\\ln x+{{C}_{1}}\\ \\ \\ \\ \\ \\ \\text{khi}\\,\\ x>0 \\\\ & \\frac{{{x}^{2}}}{2}+5x-7\\ln \\left( -x \\right)+{{C}_{2}}\\ \\,\\text{khi}\\,\\ x<0 \\\\ \\end{aligned} \\right.$.\n$\\left\\{ \\begin{aligned} & G\\left( 1 \\right)=4 \\\\ & G\\left( 3 \\right)+G\\left( -9 \\right)=20 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{C}_{1}}=-\\frac{3}{2} \\\\ & \\frac{9}{2}+15-7\\ln 3-\\frac{3}{2}+\\frac{81}{2}-45-14\\ln 3+{{C}_{2}}=20 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned}",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( x \\right)=3{{x}^{2}}+\\sin x-\\cos 2x.$",
+    "b": "$F\\left( x \\right)=a{{x}^{3}}+b\\cos x+c\\sin 2x+m$ thì $a+b+c=5$.",
+    "c": "Cho $F\\left( 0 \\right)=2$ khi đó $F\\left( \\frac{\\pi }{2} \\right)=\\frac{{{\\pi }^{3}}}{8}$",
+    "d": "Hàm số $g\\left( x \\right)=F\\left( x \\right)-{{x}^{3}}-\\sin x.\\cos x$ là hàm số chẵn."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "le_dau_dollar"
+   ],
+   "question": "& {{C}_{1}}=-\\frac{3}{2} \\\\\n& {{C}_{2}}=21\\ln 3+\\frac{13}{2} \\\\\n\\end{aligned} \\right.$ \\text{Nên} $G\\left( -6 \\right)=\\frac{36}{2}-30-7\\ln 6+21\\ln 3+\\frac{13}{2}=-7\\ln 2+14\\ln 3-\\frac{11}{2}$. \\text{Vậy} $a+b+c=-7+14-\\frac{11}{2}=\\frac{3}{2}$. Cho \\text{hàm} \\text{số} $f\\left( x \\right)=3{{x}^{2}}+2{{\\sin }^{2}}x+\\sin x-1.$ \\text{Gọi} $F\\left( x \\right)$ \\text{là} \\text{nguyên} \\text{hàm} \\text{của} \\text{hàm} \\text{số} $f\\left( x \\right)$. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Đúng: Ta có: $f\\left( x \\right)=3{{x}^{2}}-\\left( 1-2{{\\sin }^{2}}x \\right)+\\sin x=3{{x}^{2}}-\\cos 2x+\\sin x$.\nb) Sai: $F\\left( x \\right)=\\int{f\\left( x \\right)\\text{d}x}=\\int{\\left( 3{{x}^{2}}-\\cos 2x+\\sin x \\right)\\text{d}x}$\n$={{x}^{3}}-\\frac{1}{2}\\sin 2x-\\cos x+m\\Rightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=-1 \\\\ & c=-0,5 \\\\ \\end{aligned} \\right.\\Rightarrow a+b+c=-\\frac{1}{2}$.\nc) Sai: Ta có: $F\\left( x \\right)={{x}^{3}}-\\frac{1}{2}\\sin 2x-\\cos x+m$ mà $F\\left( 0 \\right)=2\\Rightarrow m-1=2\\Leftrightarrow m=3$\nKhi đó: $F\\left( x \\right)={{x}^{3}}-\\frac{1}{2}\\sin 2x-\\cos x+3$ suy ra $F\\left( \\frac{\\pi }{2} \\right)=\\frac{{{\\pi }^{3}}}{8}+3$.\nd) Đúng: Ta có: $F\\left( x \\right)={{x}^{3}}-\\frac{1}{2}\\sin 2x-\\cos x+m$",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C5.B2.D02",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Vận tốc của vật tại thời điểm $t$ giây là $v\\left( t \\right)=\\int{a\\left( t \\right)}\\,\\text{dt}\\,$.",
+    "b": "Vận tốc của vật tại thời điểm $t$ giây là $v\\left( t \\right)=\\,\\ln \\left| \\frac{t+1}{t+2} \\right|+4\\ln 2$.",
+    "c": "Vào thời điểm $t=10\\,\\left( s \\right)$ thì vận tốc của vật là $2,86\\,\\left( \\text{m/s} \\right)$.",
+    "d": "Không có thời điểm nào vận tốc của vật đạt $v=4\\ln 2\\,\\left( \\text{m/s} \\right)$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khi đó $g\\left( x \\right)=F\\left( x \\right)-{{x}^{3}}-\\sin x.\\cos x={{x}^{3}}-\\frac{1}{2}\\sin 2x-\\cos x+m-{{x}^{3}}-\\sin x.\\cos x=-\\cos x+m$.\nXét hàm số $g\\left( x \\right)=-\\cos x+m$ có tập xác định $D=\\mathbb{R}$. Với $\\forall x\\in D\\Rightarrow -x\\in D$ thì ta có:$g\\left( -x \\right)=-\\cos \\left( -x \\right)+m=-\\cos x+m=g\\left( x \\right)$ nên $g\\left( x \\right)$ là hàm số chẵn.\nMột vật chuyển động với gia tốc $a\\left( t \\right)=\\frac{1}{{{t}^{2}}+3t+2}\\left( \\text{m/}{{\\text{s}}^{\\text{2}}} \\right)$, trong đó $t$ là khoảng thời gian tính từ thời điểm ban đầu. Vận tốc chuyển động của vật là $v\\left( t \\right)$, vận tốc ban đầu của vật là ${{v}_{0}}=3\\ln 2\\,\\left( \\text{m/s} \\right)$. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Đúng: Ta có $v\\left( t \\right)=\\int{a\\left( t \\right)}\\,\\text{dt}\\,$ $=\\int{\\frac{1}{{{t}^{2}}+3t+2}\\,}\\text{dt}$ $=\\int{\\left( \\frac{1}{t+1}-\\frac{1}{t+2} \\right)}\\,\\text{dt}$ $=\\,\\ln \\left| \\frac{t+1}{t+2} \\right|+C$\nb) Đúng: $v\\left( 0 \\right)=\\ln \\left( \\frac{1}{2} \\right)+C=3\\ln 2$ $\\Rightarrow C=4\\ln 2$\nc) Sai: Tính $v\\left( 10 \\right)=\\ln \\left( \\frac{11}{12} \\right)+4\\ln 2\\approx 2,69$.\nd) Đúng: Khi $v=4\\ln 2\\,\\left( \\text{m/s} \\right)$ suy ra $4\\ln 2=\\,\\ln \\left| \\frac{t+1}{t+2} \\right|+4\\ln 2\\Leftrightarrow \\ln \\left| \\frac{t+1}{t+2} \\right|=0\\Leftrightarrow \\left| \\frac{t+1}{t+2} \\right|=1$\n$\\Leftrightarrow \\left[ \\begin{aligned} & \\frac{t+1}{t+2}=1 \\\\ & \\frac{t+1}{t+2}=-1 \\\\ \\end{aligned} \\right.$. Với $t>0$ các phương trình vô nghiệm.\nVậy không có thời điểm nào vận tốc của vật đạt $v=4\\ln 2\\,\\left( \\text{m/s} \\right)$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B1.D05",
+   "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Biết $F\\left( x \\right)=\\left( a{{x}^{2}}+bx+c \\right)\\sqrt{2x-3}$ là một nguyên hàm của hàm số $f\\left( x \\right)=\\frac{20{{x}^{2}}-30x+7}{\\sqrt{2x-3}}$ trên khoảng $\\left( \\frac{3}{2};+\\infty \\right)$. Tính $P=abc$.",
+   "explanation": "Ta có: ${F}'\\left( x \\right)=5a{{x}^{2}}+\\left( 3b-6a \\right)x-3b+c$ và ${F}'\\left( x \\right)=f\\left( x \\right)\\Rightarrow a=4,\\,\\,b=-2,\\,\\,c=1$\nVậy $P=abc=-8$",
+   "short_value": -8,
+   "short_correct": "-8",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hàm số bậc hai $f\\left( x \\right)=a{{x}^{2}}+bx+c\\,\\,\\left( a\\ne 0 \\right)$ có đồ thị là một parabol $\\left( P \\right)$ có đỉnh $S\\left( 1;-2 \\right)$ và cắt trục tung tại điểm có tung độ bằng 1. Biết hàm số $F\\left( x \\right)$ là một nguyên hàm của $f\\left( x \\right)$ và đồ thị $y=F\\left( x \\right)$ cũng cắt trục tung tại điểm có tung độ bằng 1. Khi đó đồ thị $y=F\\left( x \\right)$ đi qua điểm $M\\left( 12;m \\right)$. Giá trị của $m$ là bao nhiêu?",
+   "explanation": "Từ giả thiết tìm được hàm số bậc hai là: $f\\left( x \\right)=3{{x}^{2}}-6x+1$\nKhi đó $F\\left( x \\right)={{x}^{3}}-3{{x}^{2}}+x+1;\\,\\,F\\left( 12 \\right)=1309\\Rightarrow m=1309$.\nVậy giá trị của $m$ là $1309$.\nMột vật chuyển động với hàm số gia tốc là $a\\left( t \\right)$. Biết rằng đồ thị hàm số $a\\left( t \\right)$ trên đoạn $\\left[ 0;6 \\right]$ được cho như hình dưới đây và vận tốc tại thời điểm $t=0$ là $v\\left( 0 \\right)=1\\ \\left( m/s \\right)$.\n[[IMG:image1.png]]\nTại thời điểm $t=6$ giây, vận tốc của vật là bao nhiêu?( làm tròn kết quả đến hàng phần nghìn).\nTừ đồ thị ta có $a\\left( t \\right)=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{2}}{2}t\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ,0\\le t\\le 2 \\\\ & \\frac{\\sqrt{3}-\\sqrt{2}}{4}t+\\frac{3\\sqrt{2}-\\sqrt{3}}{2}\\ \\ \\ \\ ,\\ 2\\le t\\le 6\\ \\ \\\\ \\end{aligned} \\right.$.\nMà $v\\left( 0 \\right)=1\\ \\left( m/s \\right)$ nên $v\\left( t \\right)=\\int{a\\left( t \\right)\\text{d}t}=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{2}}{4}{{t}^{2}}+1\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\,,0\\le t\\le 2 \\\\ & \\frac{\\sqrt{3}-\\sqrt{2}}{8}{{t}^{2}}+\\frac{3\\sqrt{2}-\\sqrt{3}}{2}t+C\\ \\ ,2\\le t\\le 6 \\\\ \\end{aligned} \\right.$.\nVì vận tốc là hàm số liên tục nên$\\underset{t\\to {{2}^{-}}}{\\lim}\\,v\\left( t \\right)=\\underset{x\\to {{2}^{+}}}{\\lim}\\,v\\left( t \\right)\\Leftrightarrow \\sqrt{2}+1=\\frac{\\sqrt{3}-\\sqrt{2}}{2}+3\\sqrt{2}-\\sqrt{3}+C\\Leftrightarrow C=\\frac{\\sqrt{3}-3\\sqrt{2}+2}{2}$.\nDo đó $v\\left( 6 \\right)=1+3\\sqrt{2}+2\\sqrt{3}\\ \\approx 8,707$(m/s).",
+   "short_value": 8.707,
+   "short_correct": "8,707",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Người ta bơm nước vào một bồn chứa, lúc đầu bồn không chứa nước, mức nước ở bồn chứa sau khi bơm phụ thuộc vào thời gian bơm nước theo một hàm số $h=h\\left( t \\right)$ trong đó $h$ tính bằng $\\text{cm}$ và $t$ tính bằng giây. Biết rằng ${h}'\\left( t \\right)=\\sqrt[3]{2t+1}$. Mức nước ở bồn sau khi bơm được 13 giây là bao nhiêu?\n[[IMG:image2.jpg]]",
+   "explanation": "Ta có: $h\\left( t \\right)=\\int{{h}'\\left( t \\right)\\text{d}t}=\\int{\\sqrt[3]{2t+1}\\text{d}t}=\\frac{3}{8}\\left( 2t+1 \\right)\\sqrt[3]{2t+1}+C$.\nLúc đầu $t=0$ thì bể không có nước $\\Rightarrow h\\left( 0 \\right)=0\\Rightarrow C+\\frac{3}{8}=0\\Rightarrow C=-\\frac{3}{8}$\nSuy ra $h\\left( t \\right)=\\frac{3}{8}\\left( 2t+1 \\right)\\sqrt[3]{2t+1}-\\frac{3}{8}\\Rightarrow h\\left( 13 \\right)=30$.\nMức nước ở bồn sau khi bơm được 13 giây là $30$.",
+   "short_value": 30,
+   "short_correct": "30",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D05",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Đối với các dự án xây dựng, chi phí nhân công lao động được tính theo số ngày công. Gọi $m\\left( t \\right)$là số lượng nhân công được sử dụng ở ngày thứ $t$ (kể từ khi khởi công dự án). Gọi $M\\left( t \\right)$là số ngày công nhân được tính đến hết ngày thứ $t$( kể từ khi khởi công dự án). Trong kinh tế xây dựng, người ta đã biết rằng ${M}'\\left( t \\right)=m\\left( t \\right)$. Một công trình xây dựng dự kiến hoàn thành trong 400 ngày. Số lượng công nhân được sử dụng cho bởi hàm số $m\\left( t \\right)=800-2t$. Trong đó $t$ tính theo ngày $\\left( 0\\le t\\le 400 \\right)$,$m\\left( t \\right)$tính theo người\n(Nguồn: A. Bigalke et al., Mathematik,Grundkurs ma-l, Cornelesen 2016).\nĐơn giá cho một ngày công lao động là $350\\,\\,000$đồng. Chi phí nhân công lao động của công trình đó (cho đến lúc hoàn thành) là bao nhiêu tỷ đồng?",
+   "explanation": "Ta có ${M}'\\left( t \\right)=m\\left( t \\right)$nên $M\\left( t \\right)$ là một nguyên hàm của hàm số $m\\left( t \\right)=800-2t$.\nDo đó: $M\\left( t \\right)=\\int{\\left( 800-2t \\right)}dt=800t-{{t}^{2}}+C$.\nSuy ra: $M\\left( t \\right)=800t-{{t}^{2}}+C,\\text{ 0}\\le t\\le 400.$Vì $M\\left( 0 \\right)=0\\Rightarrow C=0$ nên $M\\left( t \\right)=800t-{{t}^{2}}.$\nSố ngày công được tính đến hết ngày thứ 400 là: $M\\left( 400 \\right)=800.400-{{400}^{2}}=160000$.\nChi phí nhân công lao động của công trình đó là: $350000.160000=56\\,000\\,000\\,000$(đồng) $=56$ tỷ.",
+   "short_value": 56,
+   "short_correct": "56",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Mực nước trong hồ chứa của nhà máy điện thủy triều thay đổi trong suốt một ngày do nước chảy ra khi thủy triều xuống và nước chảy vào khi thủy triều lên (như hình vẽ). Tốc độ thay đổi của mực nước được xác định bởi hàm số $h\\left( t \\right)=\\frac{1}{90}\\left( {{t}^{2}}-17t+60 \\right)$, trong đó $t$ tính bằng giờ $\\left( 0\\le t\\le 24 \\right)$ và ${h}'\\left( t \\right)$ tính bằng mét/giờ. Tại thời điểm $t=0$, mực nước trong hồ chứa cao $8$ mét. Hỏi mực nước trong hồ thấp nhất là bao nhiêu?\n[[IMG:image3.png]]",
+   "explanation": "Ta có: ${h}'\\left( t \\right)=\\frac{1}{90}\\left( {{t}^{2}}-17t+60 \\right)$ $\\Rightarrow h\\left( t \\right)=\\frac{1}{90}\\int{\\left( {{t}^{2}}-17t+60 \\right)\\text{d}t=}\\frac{1}{90}\\left( \\frac{1}{3}{{t}^{3}}-\\frac{17}{2}{{t}^{2}}+60t \\right)+C$\nKhi đó $h\\left( t \\right)=\\frac{1}{90}\\left( \\frac{1}{3}{{t}^{3}}-\\frac{17}{2}{{t}^{2}}+60t \\right)+C$\nTại thời điểm $t=0$, mực nước trong hồ chứa cao $8m$ nên $h\\left( 0 \\right)=8\\Rightarrow C=8$\nKhi đó $h\\left( t \\right)=\\frac{1}{90}\\left( \\frac{1}{3}{{t}^{3}}-\\frac{17}{2}{{t}^{2}}+60t \\right)+8\\text{ }\\left( 0\\le t\\le 24 \\right)$ và ${h}'\\left( t \\right)=0\\Leftrightarrow {{t}^{2}}-17t+60=0\\Leftrightarrow \\left[ \\begin{aligned} & t=5 \\\\ & t=12 \\\\ \\end{aligned} \\right.$\nLập bảng biến thiên:\n[[IMG:image4.png]]\nMực nước trong hồ cao nhất: $\\frac{104}{5}=20,8$m và thấp nhất $8$m.\n-----------------HẾT-----------------",
+   "short_value": 20.8,
+   "short_correct": "20,8",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D11",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  }
+ ],
+ "flags": []
+}

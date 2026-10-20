@@ -1,0 +1,312 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "1",
+  "lesson": "4",
+  "title": "Bài 4. Sự biến thiên và cực trị của hàm số",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$\\left( C \\right)$ có một điểm cực trị là $B\\left( -\\frac{1}{3};-\\frac{2}{27} \\right)$.",
+    "b": "$a+b+c+d=-1$.",
+    "c": "Tiếp tuyến của $\\left( C \\right)$ tại $A$ song song với trục hoành.",
+    "d": "$a+2b+3c+4d=4$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)=a{{x}^{3}}+b{{x}^{2}}+cx+d$ có đồ thị là $\\left( C \\right)$. Biết $\\left( C \\right)$ có một điểm cực trị là $A\\left( 1;-1 \\right)$ và tâm đối xứng là $I\\left( \\frac{2}{3};-\\frac{29}{27} \\right)$.",
+   "explanation": "+ Theo tính chất của đồ thị hàm số bậc ba, ta có:\n$A,\\,\\,B$ là hai điểm cực trị và $I$ là tâm đối xứng của $\\left( C \\right)$ $\\Rightarrow I$ là trung điểm của $AB$\n$\\Rightarrow \\left\\{ \\begin{aligned} & {{x}_{B}}=2{{x}_{I}}-{{x}_{A}}=\\frac{1}{3} \\\\ & {{y}_{B}}=2{{y}_{I}}-{{y}_{A}}=-\\frac{31}{27} \\\\ \\end{aligned} \\right.$\n$\\Rightarrow $Câu a sai.\n+ Vì $A$ là điểm cực trị của $\\left( C \\right)$ nên $A\\in \\left( C \\right)$ $\\Rightarrow a+b+c+d=-1$.\n$\\Rightarrow $Câu b đúng.\n+ Vì $A$ là điểm cực trị của $\\left( C \\right)$ nên $f'\\left( {{x}_{A}} \\right)=0$.\nPhương trình tiếp tuyến của $\\left( C \\right)$ tại $A$ là:\n$y=f'\\left( {{x}_{A}} \\right)\\left( x-{{x}_{A}} \\right)+{{y}_{A}}\\Leftrightarrow y=-1$\n$\\Rightarrow $ Tiếp tuyến của $\\left( C \\right)$ tại $A$ song song với trục hoành.\n$\\Rightarrow $Câu c đúng.\n+ Ta có: $f'\\left( x \\right)=3a{{x}^{2}}+2bx+c$ và $f''\\left( x \\right)=6ax+2b$\n$GT\\Leftrightarrow \\left\\{ \\begin{aligned} & f'\\left( {{x}_{A}} \\right)=0 \\\\ & f''\\left( {{x}_{I}} \\right)=0 \\\\ & A\\in \\left( C \\right) \\\\ & I\\in \\left( C \\right) \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & 3a+2b+c=0 \\\\ & 4a+2b=0 \\\\ & a+b+c+d=-1 \\\\ & \\frac{8}{27}a+\\frac{4}{9}b+\\frac{2}{3}c+d=-\\frac{29}{27} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & b=2 \\\\ & c=-1 \\\\ & d=-1 \\\\ \\end{aligned} \\right.$\nDo đó: $a+2b+3c+4d=-4$\n$\\Rightarrow $Câu d sai.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 33,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tâm đối xứng của đồ thị có tọa độ là $\\left( 2;1 \\right)$",
+    "b": "$a-2b+c=-5$.",
+    "c": "Tiếp tuyến của đồ thị tại điểm có hoành độ $x=2$ có phương trình là $y=-3x+11$.",
+    "d": "Có đúng $4$ điểm $M\\left( m;n \\right)$ với $m,\\,\\,n\\in \\mathbb{Z}$ thuộc đồ thị."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=\\frac{ax+b}{cx+1}$ có đồ thị như hình vẽ sau:\n[[IMG:image22.png]]",
+   "explanation": "+ Từ đồ thị, ta có:\nTiệm cận đứng: $x=1$\nTiệm cận ngang: $y=2$\n$\\Rightarrow $ Tâm đối xứng của đồ thị có tọa độ là $\\left( 1;2 \\right)$\n$\\Rightarrow $Câu a sai.\n+ Từ đồ thị, ta có:\nTiệm cận đứng: $x=1$ $\\Rightarrow -\\frac{1}{c}=1\\Leftrightarrow c=-1$\nTiệm cận ngang: $y=2$ $\\Rightarrow \\frac{a}{c}=2\\Leftrightarrow a=2c$\n$\\Rightarrow a=-2$\nĐiểm $A\\left( 0;-1 \\right)$ thuộc đồ thị $\\Rightarrow -1=b$.\nDo đó: $a-2b+c=-1$.\n$\\Rightarrow $Câu b sai.\n+ Với $a=-2;b=-1;c=-1$ suy ra: $y=\\frac{-2x-1}{-x+1}$\n$\\Rightarrow y'=\\frac{-3}{{{\\left( -x+1 \\right)}^{2}}}$\nTa có: $x=2\\Rightarrow \\left\\{ \\begin{aligned} & y\\left( 2 \\right)=5 \\\\ & y'\\left( 2 \\right)=-3 \\\\ \\end{aligned} \\right.$\nTiếp tuyến của đồ thị tại điểm có hoành độ $x=2$ có phương trình là\n$y=y'\\left( 2 \\right)\\left( x-2 \\right)+y\\left( 2 \\right)$\n$\\Leftrightarrow y=-3x+11$\n$\\Rightarrow $Câu c đúng.\n+ Ta có: $y=\\frac{-2x-1}{-x+1}$\nVì $M\\left( m;n \\right)$ thuộc đồ thị nên $n=\\frac{-2m-1}{-m+1}\\Leftrightarrow n=2-\\frac{3}{-m+1}$\nDo $m,\\,\\,n\\in \\mathbb{Z}$ nên $\\left( -m+1 \\right)\\in $Ư$\\left( 3 \\right)$ $\\Leftrightarrow -m+1\\in \\left\\{ -3;-1;1;3 \\right\\}$\n$\\Leftrightarrow m\\in \\left\\{ 4;2;0;-2 \\right\\}$\nSuy ra: có đúng $4$ điểm $M\\left( m;n \\right)$ với $m,\\,\\,n\\in \\mathbb{Z}$ thuộc đồ thị.\n$\\Rightarrow $Câu d đúng.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 25,
+    "so_dau_bang": 42,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${y}'=\\frac{{{x}^{2}}+2x-3}{{{\\left( x+1 \\right)}^{2}}}$",
+    "b": "Phương trình đường thẳng đi qua hai điểm cực trị của hàm số là $y=2x-2$.",
+    "c": "Đồ thị hàm số có đường tiệm cận xiên là $y=x+1$.",
+    "d": "Đồ thị của hàm số có hình vẽ như sau"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=\\frac{{{x}^{2}}+2x+5}{x+1}$\n[[IMG:image23.png]]",
+   "explanation": "a) ĐÚNG\n${y}'=\\frac{{{\\left( {{x}^{2}}+2x+5 \\right)}^{\\prime }}\\left( x+1 \\right)-{{\\left( x+1 \\right)}^{\\prime }}\\left( {{x}^{2}}+2x+5 \\right)}{{{\\left( x+1 \\right)}^{2}}}=\\frac{\\left( 2x+2 \\right)\\left( x+1 \\right)-\\left( {{x}^{2}}+2x+5 \\right)}{{{\\left( x+1 \\right)}^{2}}}=\\frac{{{x}^{2}}+2x-3}{{{\\left( x+1 \\right)}^{2}}}$.\nb) SAI\n${y}'=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-3 \\\\ \\end{aligned} \\right.$ $\\Rightarrow $ hàm số có hai điểm cực trị là $A\\left( 1;4 \\right)$, $B\\left( -3;-4 \\right)$.\nGọi phương trình đường thẳng qua hai điểm cực trị có dạng $y=ax+b$. Khi đó ta có hệ phương trình $\\left\\{ \\begin{aligned} & a+b=4 \\\\ & -3a+b=-4 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & a=2 \\\\ & b=2 \\\\ \\end{aligned} \\right.$.\nPhương trình đường thẳng $AB$ là $y=2x+2$.\nc) ĐÚNG\n$y=x+1+\\frac{4}{x+1}$\n$\\underset{x\\to \\pm \\infty }{\\lim}\\,\\left( y-\\left( x+1 \\right) \\right)=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{4}{x+1}=0$ $\\Rightarrow y=x+1$ là đường tiệm cận xiên của đồ thị hàm số.\nd) ĐÚNG\n[[IMG:image23.png]]",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D02",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chi phí để $A$ sản xuất $10$ tấn sản phẩm trong một tháng là $400$triệu đồng.",
+    "b": "Số tiền $A$ thu được khi bán $10$ tấn sản phẩm cho $B$ là $600$triệu đồng.",
+    "c": "Lợi nhuận mà $A$ thu được khi bán $x$ tấn sản phẩm $\\left( 0\\le x\\le 100 \\right)$ cho $B$ là $H\\left( x \\right)=-0,001{{x}^{3}}+15x-100$.",
+    "d": "$A$ bán cho $B$ khoảng $70,7$ tấn sản phẩm mỗi tháng thì thu được lợi nhuận lớn nhất."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Nhà máy$A$ chuyên sản xuất một loại sản phẩm cho nhà máy$B$. Hai nhà máy thỏa thuận rằng, hằng tháng $A$ cung cấp cho $B$ số lượng sản phẩm theo đơn đặt hàng của $B$ (tối đa $100$ tấn sản phẩm). Nếu số lượng đặt hàng là $x$ tấn sản phẩm thì giá bán cho mỗi tấn sản phẩm là $P\\left( x \\right)=45-0,001{{x}^{2}}$ (triệu đồng). Cho phí để $A$ sản xuất $x$ tấn sản phẩm trong một tháng là $C\\left( x \\right)=100+30x$ triệu đồng (gồm $100$triệu đồng chi phí cố định và $30$ triệu đồng cho mỗi tấn sản phẩm).",
+   "explanation": "a) Chi phí để $A$ sản xuất $10$ tấn sản phẩm trong một tháng là $C\\left( 10 \\right)=100+30.10=400$triệu đồng. Do đó a) đúng.\nb) Số tiền $A$ thu được khi bán $10$ tấn sản phẩm cho $B$ là $R\\left( 10 \\right)=10.P\\left( 10 \\right)=10.\\left( 45-0,{{001.10}^{2}} \\right)=449$ triệu đồng. Do đó b) sai.\nc) Lợi nhuận mà $A$ thu được là: $H\\left( x \\right)=R\\left( x \\right)-C\\left( x \\right)=xP\\left( x \\right)-C\\left( x \\right)=P\\left( x \\right)=45x-0,001{{x}^{3}}-\\left( 100+30x \\right)=-0,001{{x}^{3}}+15x-100$. Do đó c) đúng.\nd) Xét hàm số $H\\left( x \\right)=-0,001{{x}^{3}}+15x-100$, $\\left( 0\\le x\\le 100 \\right)$ ta có${H}'\\left( x \\right)=-0,003{{x}^{2}}+15$, ${H}'\\left( x \\right)=0\\Leftrightarrow -0,003{{x}^{2}}+15=0\\Leftrightarrow x=50\\sqrt{2}$ (chọn).\nTa có $H\\left( 0 \\right)=-100$; $H\\left( 50\\sqrt{2} \\right)=500\\sqrt{2}-100$; $H\\left( 100 \\right)=400$.\nVậy $A$ bán cho $B$ khoảng $50\\sqrt{2}\\approx 70,7$ tấn sản phẩm mỗi tháng thì thu được lợi nhuận lớn nhất bằng $H\\left( 50\\sqrt{2} \\right)=500\\sqrt{2}-100$. Do đó d) đúng.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D12",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y={{x}^{3}}-3{{x}^{2}}+2$. Giá trị cực tiểu của hàm số đã cho bằng bao nhiêu?",
+   "explanation": "Trả lời: -2\nTa có BBT:\n[[IMG:image24.png]]\nVậy ${{y}_{CT}}=-2$.",
+   "short_value": -2,
+   "short_correct": "-2",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B1.D04",
+   "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=\\frac{5x-3}{2x+6}$. Đồ thị hàm số có đường tiệm cận đứng và ngang lần lượt là các đường thẳng $x=a$ và $y=b$. Tính $a+4b?$",
+   "explanation": "Trả lời: 7\nTa có $\\underset{x\\to -{{3}^{+}}}{\\lim}\\,\\frac{5x-3}{2x+6}=-\\infty ;\\underset{x\\to -{{3}^{-}}}{\\lim}\\,\\frac{5x-3}{2x+6}=+\\infty .$\n$\\underset{x\\to +\\infty }{\\lim}\\,\\frac{5x-3}{2x+6}=\\frac{5}{2};\\underset{x\\to -\\infty }{\\lim}\\,\\frac{5x-3}{2x+6}=\\frac{5}{2}.$\nDo đó đồ thị hàm số nhận các đường thẳng $x=-3$và $y=\\frac{5}{2}$là các tiệm cận đứng và ngang\nNhư vậy, $a=-3;b=\\frac{5}{2}\\Rightarrow a+4b=-3+4.\\frac{5}{2}=7$",
+   "short_value": 7,
+   "short_correct": "7",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho đồ thị hàm số $f(x)=\\frac{5{{x}^{2}}-6x+9}{x-1}$ có tâm đối xứng là $I(a\\,;\\,b)$. Giá trị của biểu thức $C=a+3b$ là bao nhiêu?",
+   "explanation": "Trả lời: 13\nTa có $f(x)=5x-1+\\frac{8}{x-1}$ nên đồ thị hàm số nhận hai đường thẳng $x=1$ và $y=5x-1$ tương ứng là TCĐ và TCX. Suy ra $a=1,\\,\\,b=4\\Rightarrow C=1+3\\cdot 4=13$.",
+   "short_value": 13,
+   "short_correct": "13",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y={{x}^{3}}-3x+2$ có đồ thị $\\left( C \\right)$ và $y=\\frac{x+2}{x-1}$ có đồ thị $\\left( T \\right)$. Số giao điểm của $\\left( C \\right)$ với $\\left( T \\right)$ là?",
+   "explanation": "Trả lời: 2\nXét phương trình hoành độ giao điểm: ( ĐK$x\\ne 1$)\n$\\begin{aligned} & {{x}^{3}}-3x+2=\\frac{x+2}{x-1}\\Leftrightarrow \\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}-\\frac{x+2}{x-1}=0 \\\\ & \\Leftrightarrow \\left( x+2 \\right).\\left( {{\\left( x-1 \\right)}^{2}}-\\frac{1}{x-1} \\right)=0\\Rightarrow \\left[ \\begin{aligned} & x+2=0 \\\\ & {{\\left( x-1 \\right)}^{3}}=1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=-2(TM) \\\\ & x=2(TM) \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$\nVậy số giao điểm của $\\left( C \\right)$ với $\\left( T \\right)$ là $2$.",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=f(x)={{2024}^{x}}-{{2024}^{-x}}+x+\\sin x$. Có bao nhiêu giá trị nguyên của tham số m để phương trình $f(x+3)+f\\left( {{x}^{3}}-4x+m \\right)=0$ có đúng ba nghiệm phân biệt?",
+   "explanation": "Trả lời: 3\nHàm số $y=f(x)={{2024}^{x}}-{{2024}^{-x}}+x+\\sin x$ xác định trên $\\mathbb{R}$ và\n$f(-x)={{2024}^{-x}}-{{2024}^{x}}-x-\\sin x=-f(x)$\n, suy ra $f(x)$ là hàm số lẻ.\nMặt khác, ${y}'={f}'(x)={{2024}^{x}}.\\ln 2024+{{2024}^{-x}}.\\ln 2024+1+\\cos x>0,\\,\\,\\forall x\\in \\mathbb{R}$.\nDo đó, $f(x)$ đồng biến trên $\\mathbb{R}$.\nKhi đó, phương trình\n$f(x+3)+f\\left( {{x}^{3}}-4x+m \\right)=0\\Leftrightarrow f(x+3)=-f\\left( {{x}^{3}}-4x+m \\right)$\n$\\Leftrightarrow f(x+3)=f\\left( -{{x}^{3}}+4x-m \\right)\\Leftrightarrow x+3=-{{x}^{3}}+4x-m$\n$\\Leftrightarrow {{x}^{3}}-3x+3=-m$\nĐặt $g(x)={{x}^{3}}-3x+3\\Rightarrow {g}'(x)=3{{x}^{2}}-3$.\nTa có ${g}'(x)=0\\Leftrightarrow 3{{x}^{2}}-3=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-1 \\\\ \\end{aligned} \\right.$.\nBảng biến thiên:\n[[IMG:image25.png]]\nTừ bảng biến thiên suy ra phương trình đã cho có 3 nghiệm phân biệt khi và chỉ khi đường thẳng $y=-m$ cắt đồ thị hàm số $g(x)={{x}^{3}}-3x+3$ tại 3 điểm phân biệt\n$\\Leftrightarrow 1<-m<5\\Leftrightarrow -5<m<-1$.\nVậy có 3 giá trị nguyên của m thoả đề.",
+   "short_value": 3,
+   "short_correct": "3",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Một cốc chứa $25$ml dung dịch $NaOH$với nồng độ $100$ mg/ml. Một bình chứa dung dịch $NaOH$ khác với nồng độ $9$mg/ml được trộn vào cốc. Gọi $C\\left( x \\right)$ là nồng độ của $NaOH$ sau khi trộn $x$(ml) từ bình chứa, ta thấy nồng độ của $NaOH$trong cốc sẽ luôn giảm theo $x$ nhưng luôn lớn hơn một số $a$. Tính $a$?",
+   "explanation": "Trả lời: 9\nTổng khối lượng của $NaOH$ sau khi trộn $x$(ml) là: $25.100+9x=2500+9x$(mg)\nTổng thể tích của dung dịch sau khi trộn là: $25+x$.\nTa có $C\\left( x \\right)=\\frac{2500+9x}{25+x};x\\ge 0.$\nTa có TXĐ của hàm số là $D=\\left[ 0;+\\infty \\right)$\nCó ${{C}^{'}}\\left( x \\right)=\\frac{9.\\left( 25+x \\right)-(2500+9x)}{{{\\left( 25+x \\right)}^{2}}}=\\frac{-2275}{{{\\left( 25+x \\right)}^{2}}}<0,\\forall x\\in D$\nLại có $\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\frac{2500+9x}{25+x} \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{\\frac{2500}{x}+9}{\\frac{25}{x}+1}=9$\nDo đó nồng độ $NaOH$ luôn giảm nhưng luôn lớn hơn $9$mg/ml.",
+   "short_value": 9,
+   "short_correct": "9",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  }
+ ],
+ "flags": [
+  "phan_1_co_0_cau_nhung_de_ghi_12",
+  "de_trung_web:QTLRYNenZiqXXTfzdHH0:7/10"
+ ],
+ "bo_de": true
+}

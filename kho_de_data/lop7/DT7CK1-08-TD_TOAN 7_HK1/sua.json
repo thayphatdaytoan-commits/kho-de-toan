@@ -1,0 +1,82 @@
+{
+ "de1.P4.C1": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "$\\frac{7}{3}+{{\\left( \\frac{-1}{3} \\right)}^{2}}-\\frac{3}{5}$",
+    "explanation": "$\\frac{7}{3}+{{\\left( \\frac{-1}{3} \\right)}^{2}}-\\frac{3}{5}$\n$=\\frac{7}{3}+\\frac{1}{9}-\\frac{3}{5}$\n$=\\frac{7}{9}$",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "$\\left( \\dfrac{-1}{3} \\right)^2 =$ {{1}}",
+      "$\\dfrac{7}{3}+\\dfrac{1}{9}-\\dfrac{3}{5} = \\dfrac{ {{2}} }{9}-\\dfrac{3}{5}$",
+      "$\\dfrac{ {{2}} }{9}-\\dfrac{3}{5} = \\dfrac{ {{3}} }{45}$",
+      "$\\dfrac{ {{3}} }{45} =$ {{4}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "1/9"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "22"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "83"
+      },
+      {
+       "id": "4",
+       "loai": "so",
+       "dap_an": "83/45"
+      }
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "\\[\\frac{-10}{9}.\\frac{4}{7}+\\frac{-8}{9}.\\frac{4}{7}+\\frac{4}{7}\\]",
+    "explanation": "$\\frac{4}{7}.\\left( \\frac{-10}{9}+\\frac{-8}{9}+1 \\right)$\n$=\\frac{4}{7}.(-2+1)$\n$=\\frac{-4}{7}$",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "dat_thua_chung",
+     "kieu": "dong",
+     "dong": [
+      "$\\dfrac{4}{7}\\cdot\\left( \\dfrac{-10}{9}+\\dfrac{-8}{9}+1 \\right) = \\dfrac{4}{7}\\cdot\\left( {{1}} +1 \\right)$",
+      "$=\\dfrac{4}{7}\\cdot$ {{2}}",
+      "$=$ {{3}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "-2"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "-1"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "-4/7"
+      }
+     ]
+    }
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) 7/3 + 1/9 − 3/5 = 22/9 − 3/5 = 110/45 − 27/45 = 83/45. Key ô 3 = 35, ô 4 = 7/9 sai (lời giải ghi = 7/9). NONKEY: lời giải sai. (b) −4/7 khớp."
+ }
+}

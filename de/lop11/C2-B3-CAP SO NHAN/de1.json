@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "2",
+  "lesson": "3",
+  "title": "Bài 3. ➌. cấp số nhân",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong các dãy số sau, dãy số nào là cấp số nhân?",
+   "explanation": "",
+   "options": [
+    "${128 ;-64 ; 32 ;-16 ; 8}$",
+    "${\\sqrt{2} ; 2 ; 2 \\sqrt{2} ; 4 ; 8}$",
+    "${5 ; 6 ; 7 ; 8 ; 9}$",
+    "${15 ; 5 ; 1 ; \\frac{1}{5} ; \\frac{1}{25}}$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:oFuO2TWCBL5REimySRPV"
+   ],
+   "question": "Cho cấp số nhân ${\\left(u_n\\right)}$ có số hạng đầu ${u_1=2}$ và công bội ${q=-2}$. Giá trị ${u_5}$ là:",
+   "explanation": "",
+   "options": [
+    "$-32$",
+    "$-16$",
+    "$-6$",
+    "32"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Viết bốn số hạng xen giữa các số 1 và $-243$ để được một cấp số nhân có 6 số hạng. Bốn số hạng đó lần lượt là:",
+   "explanation": "",
+   "options": [
+    "${-3 ;-9 ;-27 ;-81}$",
+    "${3 ;-9 ; 27 ;-81}$",
+    "${3 ; 9 ; 27 ; 81}$",
+    "${-3 ; 9 ;-27 ; 81}$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho ${\\left(u_n\\right)}$ là cấp số nhân có ${u_1=\\frac{1}{3} ; u_8=729}$. Tổng 8 số hạng đầu của cấp số nhân đó là:",
+   "explanation": "",
+   "options": [
+    "${\\frac{1-3^8}{2}}$",
+    "${\\frac{3^8-1}{6}}$",
+    "${\\frac{3^8-1}{2}}$",
+    "${\\frac{1-3^8}{6}}$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B3.D04",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Trong các dãy số sau, dãy số nào không phải là một cấp số nhân?",
+   "explanation": "Xét đáp án C: ${{1}^{2}};\\text{ }{{2}^{2}};\\text{ }{{3}^{2}};\\text{ }{{\\text{4}}^{2}};\\text{ }\\cdots \\xrightarrow[{}]{}\\frac{{{u}_{2}}}{{{u}_{1}}}=4\\not{=}\\frac{9}{4}=\\frac{{{u}_{3}}}{{{u}_{2}}}$\nCác đáp án A, B, D đều là các cấp số nhân.\nNhận xét: Dãy $\\left( {{u}_{n}} \\right)$với ${{u}_{n}}\\not{=}0$ là cấp số nhân $\\Leftrightarrow {{u}_{n}}=a.{{q}^{n}}\\,$, tức là các số hạng của nó đều được biểu diễn dưới dạng lũy thừa của cùng một cơ số $q$ (công bội), các số hạng liên tiếp (kể từ số hạng thứ hai) thì số mũ của chúng cách đều nhau. Ví dụ\n$2;\\text{ }4;\\text{ }8;\\text{ }16;\\text{ }\\ldots \\xrightarrow[{}]{}$là cấp số nhân và ${{u}_{n}}={{2}^{n}}.$\n$1;\\text{ }-1;\\text{ }1;\\text{ }-1;\\text{ }\\cdots \\xrightarrow[{}]{}$là cấp số nhân và ${{u}_{n}}={{\\left( -1 \\right)}^{n}}.$\n$a;\\text{ }{{a}^{3}};\\text{ }{{a}^{5}};\\text{ }{{a}^{7}};\\text{ }\\cdots \\ \\left( a\\ne 0 \\right)\\xrightarrow[{}]{}$là cấp số nhân và ${{u}_{n}}={{a}^{2n-1}}=\\frac{1}{a}.{{\\left( {{a}^{2}} \\right)}^{n}}.$",
+   "options": [
+    "$2;\\text{ }4;\\text{ }8;\\text{ }16;\\text{ }\\ldots $",
+    "$1;\\text{ }-1;\\text{ }1;\\text{ }-1;\\text{ }\\cdots $",
+    "${{1}^{2}};\\text{ }{{2}^{2}};\\text{ }{{3}^{2}};\\text{ }{{\\text{4}}^{2}};\\text{ }\\cdots $",
+    "$a;\\text{ }{{a}^{3}};\\text{ }{{a}^{5}};\\text{ }{{a}^{7}};\\text{ }\\cdots \\ \\left( a\\ne 0 \\right).$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Dãy số nào sau đây không phải là cấp số nhân?",
+   "explanation": "Các đáp án A, B, C đều là các cấp số nhân công bội lần lượt là ${{u}_{m}}={{u}_{k}}.{{q}^{m-k}}.$\nXét đáp án D: $\\frac{1}{\\pi };\\text{ }\\frac{1}{{{\\pi }^{2}}};\\text{ }\\frac{1}{{{\\pi }^{4}}};\\text{ }\\frac{1}{{{\\pi }^{6}}};\\text{ }\\cdots \\xrightarrow[{}]{}\\frac{{{u}_{2}}}{{{u}_{1}}}=\\frac{1}{\\pi }\\not{=}\\frac{1}{{{\\pi }^{2}}}=\\frac{{{u}_{3}}}{{{u}_{2}}}$",
+   "options": [
+    "$1;\\text{ }2;\\text{ }4;\\text{ }8;\\text{ }\\cdots $",
+    "$3;\\text{ }{{3}^{2}};\\text{ }{{3}^{3}};\\text{ }{{3}^{4}};\\text{ }\\cdots $",
+    "$4;\\text{ }2;\\text{ }\\frac{1}{2};\\text{ }\\frac{1}{4};\\text{ }\\cdots $",
+    "$\\frac{1}{\\pi };\\text{ }\\frac{1}{{{\\pi }^{2}}};\\text{ }\\frac{1}{{{\\pi }^{4}}};\\text{ }\\frac{1}{{{\\pi }^{6}}};\\text{ }\\cdots $"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Dãy số ${{u}_{n}}=3+{{3}^{n}}.$ là một cấp số nhân với",
+   "explanation": "Cấp số nhân: $1;\\,\\,2;\\,\\,4;\\,\\,8;\\,\\,16;\\,\\,32;\\ldots \\xrightarrow[{}]{}\\left\\{ \\begin{aligned} & {{u}_{1}}=1 \\\\ & q=\\frac{{{u}_{2}}}{{{u}_{1}}}=2 \\\\ \\end{aligned} \\right.$",
+   "options": [
+    "Công bội là 3 và số hạng đầu tiên là 1",
+    "Công bội là 2 và số hạng đầu tiên là 1",
+    "Công bội là 4 và số hạng đầu tiên là 2",
+    "Công bội là 2 và số hạng đầu tiên là 2"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho $\\left( {{u}_{n}} \\right)$ là cấp số nhân lùi vô hạn có số hạng đầu và công bội lần lượt là ${{u}_{1}}$ và $q$. Công thức nào sau đây dùng để dùng để tính tổng $S$ của cấp số nhân trên?",
+   "explanation": "",
+   "options": [
+    "$S=\\frac{1-q}{{{u}_{1}}}$",
+    "$S=\\frac{{{u}_{1}}}{1+q}$",
+    "$S=\\frac{q-1}{{{u}_{1}}}$",
+    "$S=\\frac{{{u}_{1}}}{1-q}$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D04",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$có số hạng tổng quát là ${{u}_{n}}={{3.2}^{n+1}}\\text{ }\\left( \\forall n\\in {{\\mathbb{N}}^{*}} \\right)$. Chọn kết luận đúng:",
+   "explanation": "Dãy số $\\left( {{u}_{n}} \\right)$có số hạng tổng quát là ${{u}_{n}}={{3.2}^{n+1}}\\text{ }\\left( \\forall n\\in {{\\mathbb{N}}^{*}} \\right)\\Rightarrow {{u}_{n+1}}={{3.2}^{n+2}}$.\nXét thương $\\frac{{{u}_{n+1}}}{{{u}_{n}}}=\\frac{{{3.2}^{n+2}}}{{{3.2}^{n+1}}}=2=const$ với $\\forall n\\in {{\\mathbb{N}}^{*}}$ nên dãy số $\\left( {{u}_{n}} \\right)$là một cấp số nhân có công bội $q=2$và có số hạng đầu là ${{u}_{1}}={{3.2}^{1+1}}=12$.",
+   "options": [
+    "Dãy số là cấp số nhân có số hạng đầu ${{u}_{1}}=12$",
+    "Dãy số là cấp số cộng có công sai $d=2$",
+    "Dãy số là cấp số cộng có số hạng đầu ${{u}_{1}}=6$",
+    "Dãy số là cấp số nhân có công bội $q=3$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D04",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong các dãy số sau, dãy số nào là một cấp số nhân?",
+   "explanation": "Nhận thấy $\\frac{{{u}_{2}}}{{{u}_{1}}}\\ne \\frac{{{u}_{3}}}{{{u}_{2}}}$nên các dãy số ở đáp án A, B và C không phải là cấp số nhân.\nRiêng đối với dãy $1\\,,\\,2\\,,4\\,,\\,8\\,,16\\,,\\,32\\,,...$ở đáp án D thỏa mãn: ${{u}_{n+1}}=2.{{u}_{n}}\\,\\,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$.\nVậy dãy số $1\\,,\\,2\\,,4\\,,\\,8\\,,16\\,,\\,32\\,,...$là cấp số nhân với ${{u}_{1}}=1$và công bội $q=2$.",
+   "options": [
+    "$1\\,,\\,2\\,,3\\,,\\,4\\,,5\\,,\\,6\\,,...$",
+    "$2\\,,\\,4\\,,6\\,,\\,8\\,,16\\,,\\,32,...$",
+    "$-2\\,,\\,-3\\,,-4\\,,\\,-5\\,,-6\\,,\\,-7\\,,...$",
+    "$1\\,,\\,2\\,,4\\,,\\,8\\,,16\\,,\\,32\\,,...$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong các dãy số sau, đây số nào là cấp số nhân?",
+   "explanation": "Dãy số ${{u}_{n}}=\\frac{1}{{{3}^{n-2}}}$ là cấp số nhân với số hạng đầu ${{u}_{1}}=3$, công bội $q=\\frac{1}{3}$.",
+   "options": [
+    "${{u}_{n}}=\\frac{1}{{{3}^{n-2}}}$",
+    "${{u}_{n}}=\\frac{1}{{{3}^{n}}}-1$",
+    "${{u}_{n}}=n+\\frac{1}{3}$",
+    "${{u}_{n}}={{n}^{2}}+\\frac{1}{3}$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho cấp số nhân $\\left( {{U}_{n}} \\right)$ có ${{U}_{1}}=\\frac{1}{2}$, ${{U}_{2}}=16$. Khi đó công bội $q$ là",
+   "explanation": "Cấp số nhân $\\left( {{U}_{n}} \\right)$ có công bội là $q=\\frac{{{u}_{2}}}{{{u}_{1}}}=\\frac{16}{\\frac{1}{2}}=32$.",
+   "options": [
+    "$64$",
+    "$8$",
+    "$4$",
+    "$32$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D01",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Dãy số có tất cả các số hạng bằng nhau là một cấp số nhân.",
+    "b": "Dãy số có tất cả các số hạng bằng nhau là một cấp số cộng.",
+    "c": "Một cấp số cộng có công sai dương là một dãy số tăng.",
+    "d": "Một cấp số cộng có công sai dương là một dãy số dương."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Các mệnh đề sau đúng/sai?",
+   "explanation": "Một cấp số cộng có công sai dương là một dãy số dương.\nVí dụ dãy $-5$; $-2$; $1$; $3$; … là dãy số có $d=3>0$ nhưng không phải là dãy số dương.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D05",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${\\left(u_n\\right)}$ là một cấp số nhân công bội ${q=5}$.",
+    "b": "${\\left(v_n\\right)}$ không phải là một cấp số nhân",
+    "c": "${\\left(w_n\\right)}$ là một cấp số nhân có số hạng đầu $w=\\frac{9}{2}$",
+    "d": "Dãy số hữu hạn đã cho theo thứ tự lập thành cấp số nhân có công bội bằng $\\frac{1}{8}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho các dãy số sau đây: ${u_n=(\\sqrt{5})^{2 n-3}}$; ${v_n=\\frac{2}{n}}$;${w_n=\\frac{3^{n+1}}{2^n}}$ và dãy số hữu hạn gồm các số hạng: ${16 ; 4 ; 1 ; \\frac{1}{4} ; \\frac{1}{16} ; \\frac{1}{64}}$. Khi đó:",
+   "explanation": "a) Ta có: ${u_{n+1}=(\\sqrt{5})^{2(n+1)-3}=(\\sqrt{5})^{2 n-1} \\Rightarrow \\frac{u_{n+1}}{u_n}=\\frac{(\\sqrt{5})^{2 n-1}}{(\\sqrt{5})^{2 n-3}}=(\\sqrt{5})^2=5, \\forall n \\in \\mathbb{N}^*}$.\nDo đó ${\\left(u_n\\right)}$ là một cấp số nhân có số hạng đầu ${u_1=\\frac{1}{\\sqrt{5}}}$ với công bội ${q=5}$.\nb) Ta có: ${v_{n+1}=\\frac{2}{n+1} \\Rightarrow \\frac{v_{n+1}}{v_n}=\\frac{n}{n+1}}$ (tỉ số này còn phụ thuộc vào ${n}$).\nDo đó ${\\left(v_n\\right)}$ không phải là một cấp số nhân.\nc) Ta có: ${w_{n+1}=\\frac{3^{n+2}}{2^{n+1}}=\\frac{3}{2} \\cdot \\frac{3^{n+1}}{2^n} \\Rightarrow \\frac{w_{n+1}}{w_n}=\\frac{\\frac{3}{2} \\cdot \\frac{3^{n+1}}{2^n}}{\\frac{3^{n+1}}{2^n}}=\\frac{3}{2}, \\forall n \\in \\mathbb{N}^*}$.\nDo đó ${\\left(w_n\\right)}$ là một cấp số nhân có số hạng đầu ${w_1=\\frac{3^2}{2^1}=\\frac{9}{2}}$ với công bội ${q=\\frac{3}{2}}$\nd) Đặt ${u_1=16 ; u_2=4 ; u_3=1 ; u_4=\\frac{1}{4} ; u_5=\\frac{1}{16} ; u_6=\\frac{1}{64}}$.\nTa có: ${u_2=u_1 \\cdot \\frac{1}{4} ; u_3=u_2 \\cdot \\frac{1}{4} ; u_4=u_3 \\cdot \\frac{1}{4} ; u_5=u_4 \\cdot \\frac{1}{4} ; u_6=u_5 \\cdot \\frac{1}{4}}$.\nVì vậy dãy số hữu hạn đã cho theo thứ tự lập thành cấp số nhân có công bội bằng ${\\frac{1}{4}}$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 30,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D02",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng ${{u}_{1}}=2$",
+    "b": "Gọi $q$ là công bội của cấp số nhân, thì ba số $q;1;3$ tạo thành một cấp số cộng",
+    "c": "Số $-486$ là số hạng thứ 5 của cấp số nhân",
+    "d": "Tổng của 21 số hạng đầu cấp số nhân đã cho bằng $5230176602$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số nhân ${\\left(u_n\\right)}$ thoả mãn ${\\left\\{\\begin{array}{l}u_4+u_6=-540 \\\\ u_3+u_5=180\\end{array}\\right.}$. Khi đó:",
+   "explanation": "Gọi ${q}$ là công bội và ${S_{21}}$ là tổng của 21 số hạng đầu của cấp số nhân ${\\left(u_n\\right)}$.\nTa có: ${\\left\\{\\begin{array}{l}u_4+u_6=-540 \\\\ u_3+u_5=180\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\left(u_3+u_5\\right) q=-540 \\\\ u_3+u_5=180\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}180 q=-540 \\\\ u_3+u_5=180\\end{array}\\right.\\right.\\right.}$\n${\\begin{aligned} & \\Leftrightarrow\\left\\{\\begin{array}{l} q=-3 \\\\ u_1(-3)^2+u_1(-3)^4=180 \\end{array}\\right. \\\\ & \\Leftrightarrow\\left\\{\\begin{array} { l } { q = - 3 } \\\\ { u _ { 1 } ( 9 + 8 1 ) = 1 8 0 } \\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l} q=-3 \\\\ u_1=2 \\end{array}\\right.\\right. \\end{aligned} }$\nSố $-486=2.{{(-3)}^{5}}$ nên số $-486$ là số hạng thứ 6\nSuy ra ${S_{21}=\\frac{u_1\\left(1-q^{21}\\right)}{1-q}=\\frac{2\\left[1-(-3)^{21}\\right]}{1-(-3)}=\\frac{1+3^{21}}{2}}$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D04",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số đo góc nhỏ nhất bằng $24{}^\\circ $",
+    "b": "Số đo góc lớn nhất bằng $196{}^\\circ $",
+    "c": "Tổng số đo góc lớn nhất với góc nhỏ nhất bằng $220{}^\\circ $",
+    "d": "Số đo góc lớn nhất trừ cho số đo góc nhỏ nhất bằng $168{}^\\circ $"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho tứ giác ${A B C D}$ có bốn góc tạo thành một cấp số nhân có công bội bằng 2 . Khi đó:",
+   "explanation": "Đặt ${u_1 ; u_2 ; u_3 ; u_4}$ theo thứ tự là số đo bốn góc của tứ giác ${A B C D}$, gọi ${q}$ là công bội của cấp số nhân ${u_1 ; u_2 ; u_3 ; u_4 \\Rightarrow q=2}$.\nTa có: ${\\left\\{\\begin{array}{l}u_1+u_2+u_3+u_4=360^{\\circ} \\\\ q=2\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1 \\cdot \\frac{1-q^4}{1-q}=360^{\\circ} \\\\ q=2\\end{array}\\right.\\right.}$\n${\\Leftrightarrow\\left\\{\\begin{array} { l } { u _ { 1 } \\cdot \\frac { 1 - 2 ^ { 4 } } { 1 - 2 } = 3 6 0 ^ { \\circ } } \\\\ { q = 2 } \\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l} u_1=24^{\\circ} \\\\ q=2 \\end{array} .\\right.\\right. }$\nVậy số đo bốn góc của tứ giác ${A B C D}$ là: ${24^{\\circ} ; 48^{\\circ} ; 96^{\\circ} ; 192^{\\circ}}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D06",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số nhân ${\\left(u_n\\right)}$ có ${u_1=3}$ và ${q=\\frac{2}{3}}$. Tìm công thức số hạng tổng quát của cấp số nhân đó.",
+   "explanation": "${u_n=u_1 \\cdot q^{n-1}=3 \\cdot\\left(\\frac{2}{3}\\right)^{n-1}=\\frac{2^{n-1}}{3^{n-2}}}$.",
+   "short_value": 2,
+   "short_correct": "u_n=3\\cdot\\left(\\dfrac{2}{3}\\right)^{n-1}",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D04",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số nhân ${\\left(u_n\\right)}$ có ${u_1=-3}$ và ${q=\\frac{2}{3}}$. Tìm ${u_5}$.",
+   "explanation": "${u_5=u_1 \\cdot q^4=-3 \\cdot\\left(\\frac{2}{3}\\right)^4=-\\frac{16}{27}}$.",
+   "short_value": -3,
+   "short_correct": "-\\dfrac{16}{27}",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D03",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm số hạng đầu và công bội của cấp số nhân ${\\left(u_n\\right)}$, biết ${\\left\\{\\begin{array}{l}u_5-u_2=78 \\\\ u_6-u_3=234 \\text {. }\\end{array}\\right.}$",
+   "explanation": "Gọi số hạng đầu của cấp số nhân là ${u_1}$ và công bội là ${q}$.\nTheo giả thiết, ta có:\n${\\left\\{\\begin{array} { l } { u _ { 5 } - u _ { 2 } = 7 8 } \\\\ { u _ { 6 } - u _ { 3 } = 2 3 4 } \\end{array} \\Leftrightarrow \\left\\{\\begin{array} { l } { u _ { 1 } \\cdot q ^ { 4 } - u _ { 1 } \\cdot q = 7 8 } \\\\ { u _ { 1 } \\cdot q ^ { 5 } - u _ { 1 } \\cdot q ^ { 2 } = 2 3 4 } \\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l} u_1 \\cdot q \\cdot\\left(q^3-1\\right)=78 \\\\ u_1 \\cdot q^2 \\cdot\\left(q^3-1\\right)=234 . \\end{array}\\right.\\right.\\right. }$\nSuy ra ${q=3, u_1=1}$.",
+   "short_value": 1,
+   "short_correct": "1",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho ba số ${\\frac{2}{b-a}, \\frac{1}{b}, \\frac{2}{b-c}}$ theo thứ tự lập thành một cấp số cộng. Chứng minh rằng ba số ${a, b, c}$ theo thứ tự đó lập thành một cấp số nhân.",
+   "explanation": "Do ba số ${\\frac{2}{b-a}, \\frac{1}{b}, \\frac{2}{b-c}}$ theo thứ tự lập thành một cấp số cộng nên ${\\frac{1}{b}-\\frac{2}{b-a}=\\frac{2}{b-c}-\\frac{1}{b} \\Leftrightarrow \\frac{-b-a}{b-a}=\\frac{b+c}{b-c} \\Rightarrow b^2=a c \\Leftrightarrow \\frac{b}{a}=\\frac{c}{b}}$.\nSuy ra ba số ${a, b, c}$ theo thứ tự lập thành một cấp số nhân.",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Anh Dũng kí hợp đồng lao động trong 10 năm với phương án trả lương như sau: Năm thứ nhất, tiền lương của anh Dũng là 120 triệu đồng. Kể từ năm thứ hai trở đi, mỗi năm tiền lương của anh Dũng được tăng lên ${10 \\%}$. Tính tổng số tiền lương anh Dũng lĩnh được trong 10 năm đầu đi làm (làm tròn kết quả đến hàng đơn vị theo đơn vị triệu đồng).",
+   "explanation": "1912 triệu đồng.",
+   "short_value": null,
+   "short_correct": "1912",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D06",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Bác Năm gửi tiết kiệm vào ngân hàng 100 triệu đồng với hình thức lãi kép, kì hạn một năm với lãi suất ${8 \\%}$ / năm. Tính số tiền cả gốc và lãi bác Năm nhận được sau 10 năm. (Giả sử lãi suất không thay đổi trong suốt thời gian gửi tiền.)",
+   "explanation": "Khoảng 215892500 đồng.",
+   "short_value": null,
+   "short_correct": "215892500",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D06",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  }
+ ],
+ "flags": []
+}

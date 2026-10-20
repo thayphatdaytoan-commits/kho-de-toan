@@ -1,0 +1,588 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "1",
+  "lesson": "bai-05",
+  "title": "Kiểm tra theo bài Phan Nhật Linh — Chương 1, Bài 5. Ứng dụng đạo hàm",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": null,
+  "2": null,
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:l4qRNhy3BcIUwRupctYp"
+   ],
+   "question": "Đồ thị bên dưới là tốc độ của một chiếc xe đua trên đoạn đường đua bằng phẳng dài 3 km.\n[[IMG:image1.png]]\nTốc độ nhỏ nhất của xe đua trên đoạn đường này bằng",
+   "explanation": "Dựa vào đồ thị ta thấy tốc độ nhỏ nhất bằng $70$(km/h).",
+   "options": [
+    "$3\\,$(km/h)",
+    "$160\\,$(km/h)",
+    "$130\\,$(km/h)",
+    "$70\\,$(km/h)"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một vật được phóng thẳng đứng lên trên từ mặt đất với tốc độ ban đầu là $32,5$ m/s (bỏ qua sức cản của không khí), độ cao (tính bằng mét) của vật sau $t$ giây được cho bởi công thức $h\\left( t \\right)=32,5t-4,9{{t}^{2}}$. Vận tốc của vật sau 3 giây bằng",
+   "explanation": "Theo ý nghĩa cơ học của đạo hàm, vận tốc của vật sau $t$ giây là $v\\left( t \\right)={h}'\\left( t \\right)=32,5-9,8t$(m/s).\nDo đó, vận tốc của vật sau 3 giây là $v\\left( 3 \\right)=32,5-9,8.3=3,1$ (m/s).",
+   "options": [
+    "53,4 (m/s)",
+    "32,5 (m/s)",
+    "3,1 (m/s)",
+    "4,9 (m/s)"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B1.D05",
+   "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Giả sử số lượng của một quần thể nấm $X$ tại môi trường nuôi cấy trong phòng thí nghiệm được mô hình hóa bằng hàm số $P\\left( t \\right)=120{{\\text{e}}^{0,15t}}$, trong đó thời gian $t$ được tính bằng giờ. Tại thời điểm ban đầu $t=0$, tốc độ tăng trưởng của quần thể nấm $X$ là",
+   "explanation": "Tốc độ tăng trưởng của quần thể nấm $X$ tại thời điểm $t$ là: ${P}'\\left( t \\right)=120.0,15.{{\\text{e}}^{0,15t}}=18{{\\text{e}}^{0,15t}}$.\nDo đó, tốc độ tăng trưởng của quần thể nấm $X$ tại thời điểm $t=0$ là ${P}'\\left( 0 \\right)=18$ tế bào/giờ.",
+   "options": [
+    "18 tế bào/giờ",
+    "120 tế bào/giờ",
+    "15 tế bào/giờ",
+    "102 tế bào/giờ"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B5.D07",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Giả sử chi phí (tính bằng trăm nghìn đồng) để sản xuất $x$ đơn vị hàng hóa nào đó là $C\\left( x \\right)=27900+100x-1,5{{x}^{2}}+0,025{{x}^{3}}$. Khi đó hàm chi phí biên tương ứng là",
+   "explanation": "Hàm chi phí biên tương ứng là: ${C}'\\left( x \\right)=100-3x+0,075{{x}^{2}}$.",
+   "options": [
+    "${C}'\\left( x \\right)=28000-3x+0,075{{x}^{2}}$",
+    "${C}'\\left( x \\right)=100-3x+0,075{{x}^{2}}$",
+    "${C}'\\left( x \\right)=100+3x+0,075{{x}^{2}}$",
+    "${C}'\\left( x \\right)=28000+3x+0,075{{x}^{2}}$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Giả sử số lượng $x$ sản phẩm bán ra của một loại hàng hóa phụ thuộc vào giá bán $p$ (nghìn đồng, $p<250$) của nó theo công thức $x=\\frac{250-p}{0,01p}$. Khẳng định nào sau đây đúng?",
+   "explanation": "Ta có: $x\\left( p \\right)=\\frac{25000}{p}-100$ $\\Rightarrow {x}'\\left( p \\right)=-\\frac{25000}{{{p}^{2}}}<0$, với mọi $p\\in \\left( 0;250 \\right)$.\nDo đó hàm số luôn nghịch biến trên khoảng $\\left( 0;250 \\right)$.\nVậy số lượng sản phẩm bán ra luôn giảm khi giá bán tăng.",
+   "options": [
+    "Số lượng sản phẩm bán ra luôn tăng khi giá bán tăng",
+    "Số lượng sản phẩm bán ra không đổi khi giá bán giảm",
+    "Số lượng sản phẩm bán ra luôn giảm khi giá bán giảm",
+    "Số lượng sản phẩm bán ra luôn giảm khi giá bán tăng"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một cửa hàng bán dầu muốn đóng những thùng đựng dầu có thể tích không đổi bằng $V=30\\text{d}{{\\text{m}}^{\\text{3}}}$Thùng có dạng hình hộp chữ nhật có nắp, đáy là hình vuông cạnh $x\\,$ $\\text{dm}$($x>0$). Trên thị trường, giá nguyên vật liệu làm đáy và nắp thùng là $120\\text{ }000$ đồng$/1\\,{{\\text{m}}^{2}}$, giá nguyên vật liệu làm mặt xung quanh của thùng là $100\\,000$ đồng$/1\\,{{\\text{m}}^{2}}$. Chi phí để cửa hàng làm một thùng đựng dầu được cho bởi công thức (đơn vị nghìn đồng)?",
+   "explanation": "Thể tích của thùng $V=30\\,\\text{d}{{\\text{m}}^{\\text{3}}}$. Theo đề bài do $x\\,$($x>0$, đơn vị $\\text{dm}$) là cạnh đáy của thùng (hình vuông) nên chiều cao của thùng là: $h=\\frac{V}{{{x}^{2}}}=\\frac{30}{{{x}^{2}}}$.\nGiá nguyên vật liệu làm đáy và nắp thùng là $1\\text{ }200$ đồng$/1\\text{d}{{\\text{m}}^{2}}$, giá nguyên vật liệu làm mặt xung quanh của thùng là $1\\text{ }000$ đồng$/1\\,\\text{d}{{\\text{m}}^{2}}$.\nDiện tích mặt đáy, nắp thùng và diện tích xung quanh lần lượt là: ${{x}^{2}};\\,{{x}^{2}};4xh$. Chi phí làm một thùng đựng dầu là: $f\\left( x \\right)=2.1,2.{{x}^{2}}+1.4xh=2,4{{x}^{2}}+\\frac{120}{x}=\\frac{12}{5}{{x}^{2}}+\\frac{120}{x}$ (đơn vị nghìn).",
+   "options": [
+    "$f\\left( x \\right)=\\frac{12}{5}{{x}^{2}}+\\frac{120}{x}$",
+    "$f\\left( x \\right)=24{{x}^{2}}+\\frac{120}{x}$",
+    "$f\\left( x \\right)=2{{x}^{2}}+\\frac{120}{x}$",
+    "$f\\left( x \\right)=24{{x}^{2}}+\\frac{1200}{x}$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một xe ô tô chở khách du lịch có sức chứa tối đa là $16$ hành khách. Trong một khu du lịch, một đoàn khách gồm $22$ người đang đi bộ và muốn thuê xe về khách sạn. Lái xe đưa ra thỏa thuận với đoàn khách du lịch như sau: Nếu một chuyến xe chở $x$ (người) thì giá tiền cho mỗi người là $\\frac{{{\\left( 40-x \\right)}^{2}}}{2}$ (nghìn đồng). Trong bốn phương án dưới đây, lái xe sẽ thu được nhiều tiền nhất ứng với số khách được chở là",
+   "explanation": "Gọi $f\\left( x \\right),x\\in {{\\mathbb{N}}^{*}}\\,$là lợi nhuận mà lái xe có thể thu về khi chở $x$ người trong chuyến xe đó.\nTa có $f\\left( x \\right)=x.\\frac{{{\\left( 40-x \\right)}^{2}}}{2}$ (nghìn đồng) với $1\\le x\\le 16$.\nTính trực tiếp $f\\left( 13 \\right)=4738,5$ (nghìn); $f\\left( 14 \\right)=4732$ (nghìn); $f\\left( 15 \\right)=4687,5$ (nghìn)\n$f\\left( 16 \\right)=4608$ (nghìn).\nVậy lái xe chở $13$ người để thu được nhiều tiền nhất.",
+   "options": [
+    "$13$",
+    "$14$",
+    "$15$",
+    "$16$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một công ty sản xuất một sản phẩm. Bộ phận tài chính của công ty đưa ra hàm giá bán là $p\\left( x \\right)=1000-25x$, trong đó $p\\left( x \\right)$ (triệu đồng) là giá bán của mỗi sản phẩm mà tại giá bán này có $x$ sản phẩm được bán ra. Khi đó hàm doanh thu của công ty là",
+   "explanation": "Ta có khi có $x$ sản phẩm được bán ra thì giá bán là $p\\left( x \\right)=1000-25x$, do đó doanh thu của cửu hàng khi bán ra $x$ sản phẩm là $f\\left( x \\right)=x.p\\left( x \\right)=1000x-25{{x}^{2}}$.",
+   "options": [
+    "$f\\left( x \\right)=1000x-25{{x}^{2}}$",
+    "$f\\left( x \\right)=1000x+25{{x}^{2}}$",
+    "$f\\left( x \\right)=25{{x}^{2}}-1000x$",
+    "$f\\left( x \\right)=1000-25{{x}^{2}}$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Giả sử chi phí tiền xăng $C$ (đồng) phụ thuộc tốc độ trung bình $v$(km/h) theo công thức:\n$C(v)=\\frac{5400}{v}+\\frac{3}{2}v\\,\\,\\left( 0<v\\le 120 \\right)$\nTài xế xe tải lái xe với tốc độ trung bình là bao nhiêu để tiết kiệm tiền xăng nhất?",
+   "explanation": "Tập xác định: $D=\\left( 0;120 \\right]$.\nSự biến thiên:\nĐạo hàm ${C}'\\left( v \\right)=-\\frac{5400}{{{v}^{2}}}+\\frac{3}{2}=\\frac{3\\left( v-60 \\right)\\left( v+60 \\right)}{2{{v}^{2}}};{C}'\\left( v \\right)=0\\Leftrightarrow v=-60$ (loại) hoặc $v=60$.\nTrên khoảng $\\left( 0;60 \\right),{C}'\\left( v \\right)<0$ nên hàm số nghịch biến trên khoảng này.\nTrên khoảng $\\left( 60;120 \\right),{C}'\\left( v \\right)>0$ nên hàm số đồng biến trên khoảng này.\nCực trị: Hàm số đạt cực tiểu tại $v=60,{{C}_{CT}}=C\\left( 60 \\right)=180$.\nNhư vậy để tiết kiệm tiền xăng nhất, tài xế nên chạy xe với tốc độ trung bình là $60$(km/h).",
+   "options": [
+    "$30$",
+    "$60$",
+    "$90$",
+    "$120$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Dân số của Việt Nam sau $t$ năm tính từ năm 2023 được dự đoán theo công thức với $N\\left( t \\right)$tính theo đơn vị triệu người: $N\\left( t \\right)=100.{{e}^{0,012t}},0<t\\le 50$. Biết rằng đạo hàm của hàm số $N\\left( t \\right)$ biểu thị tốc độ gia tăng dân số của Việt Nam ( đơn vị là triệu người/ năm). Vào năm nào thì tốc độ gia tăng dân số hơn 2 triệu người/ năm.",
+   "explanation": "Tập xác định: $D=\\left( 0;50 \\right]$.\nĐạo hàm ${N}'\\left( t \\right)=1,2{{e}^{0,012t}}=2\\Rightarrow t=\\frac{\\ln \\left( \\frac{2}{1,2} \\right)}{0,012}\\approx 42,57$\nVào năm 2066 thì tốc độ gia tăng dân số hơn 2 triệu người/ năm.",
+   "options": [
+    "$2063$",
+    "$2064$",
+    "$2065$",
+    "$2066$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D07",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Giả sử hàm cầu đối với một loại hàng hóa được cho bởi công thức\n$p=\\frac{354}{1+0,01x},x\\ge 0$\nTrong đó $p$là giá bán (nghìn đồng) của mỗi đơn vị sản phẩm và $x$ là số lượng đơn vị sản phẩm đã bán. Số lượng đơn vị sản phẩm bán được sẽ thay đổi như thế nào khi giá bán tăng.",
+   "explanation": "Đạo hàm ${p}'\\left( x \\right)=\\frac{-3,54}{{{\\left( 1+0,01x \\right)}^{2}}}<0$ nên hàm số $p$ nghịch biến.\nDo đó, nếu giá bán tăng thì số lượng đơn vị sản phẩm bán được giảm đi.",
+   "options": [
+    "Tăng lên",
+    "Giảm đi",
+    "Không thay đổi",
+    "Không xác định được"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D12",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một cửa hàng nhận làm những chiếc xô bằng nhôm hình trụ không có nắp để chứa nước. Gọi $x\\,\\,\\left( \\text{cm} \\right)$ là bán kính đáy của chiếc xô và $S\\left( x \\right)=\\pi {{x}^{2}}+\\frac{20000}{x}\\,\\,\\left( \\text{c}{{\\text{m}}^{2}} \\right)$ là diện tích toàn phần của chiếc xô, khi đó $x$ bằng bao nhiêu để cửa hàng tốn ít nguyên vật liệu nhất (kết quả làm tròn tới hàng phần mười)?",
+   "explanation": "Ta có: $S\\left( x \\right)=\\pi {{x}^{2}}+\\frac{20000}{x}$\nĐạo hàm ${S}'\\left( x \\right)=2\\pi x-\\frac{20000}{{{x}^{2}}}=\\frac{2\\pi {{x}^{3}}-20000}{{{x}^{2}}}$.\nGiải phương trình ${S}'\\left( x \\right)=0\\Leftrightarrow 2\\pi {{x}^{3}}-20000=0\\Leftrightarrow {{x}^{3}}=\\frac{10000}{\\pi }\\Leftrightarrow x=10.\\sqrt[3]{\\frac{10}{\\pi }}$\nBảng biến thiên:\n[[IMG:image2.png#0.1510,0.3822,0.5932,0.3098]]\nTa thấy diện tích toàn phần chiếc xô nhỏ nhất khi bán kính đáy xô là $x=10\\sqrt[3]{\\frac{10}{\\pi }}\\approx 14,7(\\text{cm)}$.",
+   "options": [
+    "$14,7$",
+    "$15$",
+    "$15,2$",
+    "$14$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hàm gia tốc của vật là $a={y}'$.",
+    "b": "Hàm vận tốc của vật là $v\\left( t \\right)=3{{t}^{2}}-12$.",
+    "c": "Tại thời điểm $t=1$ thì hạt đang chuyển động lên trên.",
+    "d": "Trong khoảng thời gian $0\\le t\\le 3$ thì quãng đường mà hạt đi là $23$m."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Giả sử một hạt chuyển động trên một trục thẳng đứng chiều dương hướng lên trên sao cho tọa độ của hạt (đơn vị: mét) tại thời điểm $t$ (giây) là $y={{t}^{3}}-12t+3,\\,\\,t\\ge 0$.",
+   "explanation": "a) Sai: Nếu $y$ là hàm số biểu thị cho chuyển động của hạt thì ${y}'$ là hàm vận tốc $v$.\nb) Đúng: Ta có $y={{t}^{3}}-12t+3\\Rightarrow {y}'=v=3{{t}^{2}}-12$\nc) Sai: Dựa vào hàm vận tốc $v\\left( t \\right)=3{{t}^{2}}-12$ thì hạt đi lên khi $v>0$ và xuống khi $v<0$.\nDo đó, vật đi lên khi $t\\in \\left( 2;+\\infty \\right)$ và đi xuống khi $t\\in \\left( 0;2 \\right)$.\nVậy tại thời điểm $t=1$ thì hạt đang chuyển động đi xuống.\nd) Đúng: Từ $t=0$ tới $t=2$, vật chuyển động từ tọa độ $y=3$ đến tọa độ $y=-13$, tức là vật đi được quãng đường $16$ đơn vị độ dài.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B1.D05",
+   "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chi phí để $A$ sản xuất $10$ tấn sản phẩm trong một tháng là $400$triệu đồng.",
+    "b": "Số tiền $A$ thu được khi bán $10$ tấn sản phẩm cho $B$ là $600$triệu đồng.",
+    "c": "Lợi nhuận mà $A$ thu được khi bán $x$ tấn sản phẩm $\\left( 0\\le x\\le 100 \\right)$ cho $B$ được biểu diễn bởi công thức $H\\left( x \\right)=-0,001{{x}^{3}}+15x-100$.",
+    "d": "Bên $A$ bán cho $B$ khoảng $70,7$ tấn sản phẩm mỗi tháng thì thu được lợi nhuận lớn nhất."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Từ $t=2$ tới $t=3$, vật chuyển động từ tọa độ $y=-13$ đến tọa độ $y=-6$, tức là vật đi được quảng đường $7$ đơn vị độ dài.\nKết luận quãng đường vật di chuyển trong khoảng thời gian $0\\le t\\le 3$ là $23$ đơn vị độ dài.\nNhà máy$A$ chuyên sản xuất một loại sản phẩm cho nhà máy$B$. Hai nhà máy thỏa thuận rằng, hằng tháng $A$ cung cấp cho $B$ số lượng sản phẩm theo đơn đặt hàng của $B$ (tối đa $100$ tấn sản phẩm). Nếu số lượng đặt hàng là $x$ tấn sản phẩm thì giá bán cho mỗi tấn sản phẩm được biểu diễn bởi công thức: $P\\left( x \\right)=45-0,001{{x}^{2}}$ (triệu đồng). Cho phí để $A$ sản xuất $x$ tấn sản phẩm trong một tháng là $C\\left( x \\right)=100+30x$ triệu đồng (gồm $100$triệu đồng chi phí cố định và $30$ triệu đồng cho mỗi tấn sản phẩm).",
+   "explanation": "a) Đúng: Chi phí để $A$ sản xuất $10$ tấn sản phẩm trong một tháng là $C\\left( 10 \\right)=100+30.10=400$triệu đồng.\nb) Sai: Số tiền $A$ thu được khi bán $10$ tấn sản phẩm cho $B$ là\n$R\\left( 10 \\right)=10.P\\left( 10 \\right)=10.\\left( 45-0,{{001.10}^{2}} \\right)=449$ triệu đồng.\nc) Đúng: Lợi nhuận mà $A$ thu được là: $H\\left( x \\right)=R\\left( x \\right)-C\\left( x \\right)=xP\\left( x \\right)-C\\left( x \\right)$\n$P\\left( x \\right)=45x-0,001{{x}^{3}}-\\left( 100+30x \\right)=-0,001{{x}^{3}}+15x-100$\nd) Đúng: Xét hàm số $H\\left( x \\right)=-0,001{{x}^{3}}+15x-100$, $\\left( 0\\le x\\le 100 \\right)$",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D12",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chiều dài dây để uốn ra bán nguyệt là $\\frac{\\pi x}{2}$.",
+    "b": "Giá trị của $y$ tính theo $x$ là $4-\\frac{x\\left( 4+\\pi \\right)}{4}$.",
+    "c": "Diện tích của cửa sổ là $S=4x-{{x}^{2}}$.",
+    "d": "Khi diện tích của cửa sổ lớn nhất thì $y=\\frac{16}{8+\\pi }$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Ta có: ${H}'\\left( x \\right)=-0,003{{x}^{2}}+15=0\\Leftrightarrow -0,003{{x}^{2}}+15=0\\Leftrightarrow x=50\\sqrt{2}$ (chọn).\nKhi đó: $H\\left( 0 \\right)=-100$; $H\\left( 50\\sqrt{2} \\right)=500\\sqrt{2}-100$; $H\\left( 100 \\right)=400$.\nVậy $A$ bán cho $B$ khoảng $50\\sqrt{2}\\approx 70,7$ tấn sản phẩm mỗi tháng thì thu được lợi nhuận lớn nhất bằng $H\\left( 50\\sqrt{2} \\right)=500\\sqrt{2}-100$.\nĐể làm một cửa sổ có dạng một hình bán nguyệt và một hình chữ nhật ghép lại như hình vẽ bên dưới, người ta dùng $8 \\text{m}$ dây thép để làm các đường viền. Gọi $x, y$ là độ dài cạnh của khung hình chữ nhật.\n[[IMG:image3.tmp]]",
+   "explanation": "a) Đúng: Bán kính của hình bán nguyệt là $\\frac{x}{2}$ nên nửa chu vi bán nguyệt là $\\frac{\\pi x}{2}$\nb) Đúng: Ta có $2\\left( x+y \\right)+\\frac{\\pi x}{2}=8\\Leftrightarrow y=4-\\frac{x\\left( 4+\\pi \\right)}{4}$.\nc) Sai: Diện tích của cửa sổ:$S=xy+\\frac{1}{2}\\pi {{\\left( \\frac{x}{2} \\right)}^{2}}=x\\left( 4-x-\\frac{\\pi x}{4} \\right)+\\frac{\\pi {{x}^{2}}}{8}=4x-{{x}^{2}}-\\frac{\\pi {{x}^{2}}}{8}$.\nd) Đúng: $S$ đạt giá trị lớn nhất khi $x=\\frac{4}{2+\\frac{\\pi }{4}}=\\frac{16}{8+\\pi }$ nên $y=4-x-\\frac{\\pi x}{4}=\\frac{16}{8+\\pi }$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$C\\left( x \\right)=0,0005{{x}^{2}}+0,15x+5$.",
+    "b": "Chi phí sản suất $100{{m}^{3}}$ nước tinh khiết là 20 triệu đồng.",
+    "c": "$\\overline{c}\\left( x \\right)=0,0005x+0,15+\\frac{5}{x}$.",
+    "d": "Chi phí trung bình giảm xuống khi sản lượng nước tính khiết trong ngày không vượt quá 100 ${{\\text{m}}^{3}}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Tại một cơ sở sản xuất nước tinh khiết, nhân viên phụ trách sản xuất cho biết, nếu mỗi ngày cơ sở này sản xuất $x\\,\\,\\left( {{m}^{3}} \\right)$ nước tinh khiết thì phải chi phí các khoản sau: 5 triệu đồng chi phí cố định; $0,15$ triệu đồng cho mỗi mét khối sản phẩm; $0,0005{{x}^{2}}$chi phí bảo dưỡng máy móc. Biết công suất tối đa mỗi ngày của cơ sở này là $200{{m}^{3}}$. Gọi $C\\left( x \\right)$ là chi phí sản suất $x\\,\\,\\left( {{m}^{3}} \\right)$ sản phẩm mỗi ngày và $\\overline{c}\\left( x \\right)$là chi phí trung bình mỗi mét khối sản phẩm. Khi đó:",
+   "explanation": "a) Đúng: Chi phí mỗi ngày là tổng các chi phí nên $C\\left( x \\right)=0,0005{{x}^{2}}+0,15x+5$ (triệu đồng).\nb) Sai: Khi $x=100$, ta có $C\\left( 100 \\right)=0,0005\\times {{100}^{2}}+0,15\\times 100+5=25$.\nc) Sai: Chi phí trung bình trên mỗi khối sản phẩm là:\n$\\overline{c}\\left( x \\right)=\\frac{0,0005{{x}^{2}}+0,15x+5}{x}=0,0005x+0,15+\\frac{5}{x}$.\nd) Đúng: Xét hàm số $\\overline{c}\\left( x \\right)=0,0005x+0,15+\\frac{5}{x}$, $0<x\\le 200$.\nTa có ${{\\overline{c}}^{\\,\\prime }}\\left( x \\right)=\\frac{5}{{{10}^{4}}}-\\frac{5}{{{x}^{2}}}$, ${{\\overline{c}}^{\\prime }}\\left( x \\right)=0\\Leftrightarrow {{x}^{2}}={{10}^{4}}\\Rightarrow x=100$ (do $x\\in \\left( 0;200 \\right]$\nBảng biến thiên:\n[[IMG:image4.png]]\nVậy chi phí trung bình giảm khi hàm số $\\overline{c}\\left( x \\right)$nghịch biến, tức là $x\\in \\left( 0;100 \\right)$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một hộp không nắp được làm từ một mảnh các tông theo hình vẽ. Hộp có đáy là một hình vuông cạnh $x\\left( \\text{cm} \\right)$, chiều cao là $h\\left( \\text{cm} \\right)$ và thể tích là $4000\\text{c}{{\\text{m}}^{\\text{3}}}.$ Tìm độ dài cạnh hình vuông $x$ sao cho chiếc hộp làm ra tốn ít bìa các tông nhất.\n[[IMG:image6.png]]",
+   "explanation": "[[IMG:image7.png]]\nThể tích khối hộp $V=x.x.h={{x}^{2}}h=4000\\Rightarrow h=\\frac{4000}{{{x}^{2}}}.$\nĐể chiếc hộp làm ra ít tốn bìa các tông nhất khi và chỉ khi diện tích toàn phần của hộp là nhỏ nhất. Diện tích toàn phần của hộp (không nắp) ${{S}_{\\text{tp}}}={{S}_{\\text{day}}}+{{S}_{\\text{xung quanh}}}=x.x+4.hx={{x}^{2}}+4hx$\n$={{x}^{2}}+4x.\\frac{4000}{{{x}^{2}}}={{x}^{2}}+\\frac{16000}{x}$\nXét hàm $f\\left( x \\right)={{x}^{2}}+\\frac{16000}{x}$ với $x>0$ có ${f}'\\left( x \\right)=2x-\\frac{16000}{{{x}^{2}}}=0\\Leftrightarrow 2x-\\frac{16000}{{{x}^{2}}}=0\\Leftrightarrow x=20$\nBảng biến thiên:\n[[IMG:image8.png]]\nVậy độ dài cạnh hình vuông $x=20$cm thì chiếc hộp làm ra tốn ít bìa các tông nhất.",
+   "short_value": 20,
+   "short_correct": "20",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Hai thành phố $A$ và $B$ cách nhau một con sông. Người ta xây dựng một cây cầu $EF$ bắc qua sông biết rằng thành phố $A$ cách con sông một khoảng là $4$km và thành phố $B$ cách con sông một khoảng là $6$km (hình vẽ), biết $HE+KF=20$km và độ dài $EF$ không đổi. Hỏi xây cây cầu cách thành phố $A$ là bao nhiêu kilomet để đường đi từ thành phố A đến thành phố B là ngắn nhất (đi theo đường $AEFB$)? (kết quả làm tròn đến phần chục)\n[[IMG:image9.png]]",
+   "explanation": "Đặt $HE={{x}_{{}}}{{,}_{{}}}FK=y$, với $x,\\,y>0$\nTa có: $HE+KF=20\\Rightarrow x+y=20$, $\\left\\{ \\begin{aligned} & AE=\\sqrt{16+{{x}^{2}}} \\\\ & BF=\\sqrt{36+{{y}^{2}}}=\\sqrt{36+{{\\left( 20-x \\right)}^{2}}} \\\\ \\end{aligned} \\right.$\nNhận xét: Vì $EF$ không đổi nên $AB$ ngắn nhất khi $AE+BF$ nhỏ nhất.\nTa có $AE+BF$ $=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{\\left( 20-x \\right)}^{2}}+36}=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{x}^{2}}-40x+436}=f\\left( x \\right)$\nĐạo hàm ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+16}}+\\frac{x-20}{\\sqrt{{{x}^{2}}-40x+436}}=0\\Rightarrow x=8,\\,\\forall x\\in \\left( 0;20 \\right)$$$ \\text{Bảng} \\text{biến} \\text{thiên} [[IMG:image10.png]] \\text{Vậy} $AE=\\sqrt{{{8}^{2}}+16}\\approx 8,94$km",
+   "short_value": 20,
+   "short_correct": "20",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 16,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Giả sử doanh số bán hàng (đơn vị triệu đồng) của một sản phẩm mới trong vòng một số năm nhất định tuân theo quy luật logistic được mô hình hóa bằng hàm số $f\\left( t \\right)=500\\left( {{t}^{2}}+m{{e}^{-t}} \\right)$, với $t\\ge 0$ là thời gian tính bằng năm kể từ khi phát hành sản phẩm mới, $m\\le 0$ là tham số. Khi đó đạo hàm ${f}'\\left( t \\right)$ sẽ biểu thị tốc độ bán hàng. Biết rằng tốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm, khi đó giá trị nhỏ nhất của $m$ bằng bao nhiêu?",
+   "explanation": "Ta có ${f}'\\left( t \\right)=500\\left( 2t-m{{e}^{-t}} \\right)$ và ${{f}'}'\\left( t \\right)=500\\left( 2+m{{e}^{-t}} \\right)$\nTốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm.$\\Leftrightarrow {f}'\\left( t \\right)$. là hàm số đồng biến trên $\\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow {{f}'}'\\left( t \\right)\\ge 0$, $\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $500\\left( 2+m{{e}^{-t}} \\right)\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow $ $2+m{{e}^{-t}}\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $m{{e}^{-t}}\\ge -2\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow m\\ge -2{{e}^{t}}\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow m\\ge -2{{e}^{0}}=-2$ (do hàm số $y=-2{{e}^{t}}$ nghịch biến trên $\\left[ 0\\,;\\,10 \\right]$).\nVậy giá trị nhỏ nhất của $m$ là $-2$.\nCho hai vị trí $A,B$ cách nhau $615\\text{ }\\!\\!~\\!\\!\\text{ m}$, cùng nằm về một phía bờ sông như hình vẽ.\n[[IMG:image11.png]]\nKhoảng cách từ $A$ và từ $B$ đến bờ sông lần lượt là $118\\text{ }\\!\\!~\\!\\!\\text{ m}$ và $487\\text{ }\\!\\!~\\!\\!\\text{ m}$. Một người đi từ $A$ đến bờ sông để lấy nước mang về $B$. Đoạn đường ngắn nhất là số nguyên dương mà người đó có thể đi là bao nhiêu?\nGiả sử người đó đi từ $A$ đến $M$ để lấy nước và đi từ $M$ về $B$\nDễ dàng tính được $BD=369,EF=492$.\n[[IMG:image12.png]]\nTa đặt $EM=x$, khi đó ta được: $MF=492-x;\\,AM=\\sqrt{{{x}^{2}}+{{118}^{2}}}\\,;\\,BM=\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}\\text{.}$\nNhư vậy ta có hàm số $f\\left( x \\right)$ được xác định bằng tổng quãng đường $AM$ và $MB$:\nXét hàm $f\\left( x \\right)=\\sqrt{{{x}^{2}}+{{118}^{2}}}+\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}\\text{ }\\!\\!~\\!\\!\\text{ }$ với$x\\in \\left[ 0;492 \\right]$\nTa cần tìm giá trị nhỏ nhất của $f\\left( x \\right)$ để có được quãng đường ngắn nhất và từ đó xác định được vị trí điểm $M$.\nĐạo hàm: ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}-\\frac{492-x}{\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}}\\text{=0}$\n$\\Leftrightarrow \\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}=\\frac{492-x}{\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}}\\Leftrightarrow x\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}=\\left( 492-x \\right)\\sqrt{{{x}^{2}}+{{118}^{2}}}$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} {{x}^{2}}\\left[ {{\\left( 492-x \\right)}^{2}}+{{487}^{2}} \\right]={{\\left( 492-x \\right)}^{2}}\\left( {{x}^{2}}+{{118}^{2}} \\right) \\\\ 0\\le x\\le 492 \\\\ \\end{matrix}\\Leftrightarrow \\left\\{ \\begin{matrix} {{\\left( 487x \\right)}^{2}}={{\\left( 58056-118x \\right)}^{2}} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right. \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} x=\\frac{58056}{605}\\text{ }\\!\\!~\\!\\!\\text{ hay }\\!\\!~\\!\\!\\text{ }x=-\\frac{58056}{369}\\Leftrightarrow x=\\frac{58056}{605} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right.$\nHàm số $f\\left( x \\right)$ liên tục trên đoạn $\\left[ 0;492 \\right]$.\nSo sánh các giá trị của $f\\left( 0 \\right)\\,;\\,f\\left( \\frac{58056}{605} \\right)\\,;\\,f\\left( 492 \\right)$ ta có giá trị nhỏ nhất $f\\left( \\frac{58056}{605} \\right)\\approx 779,8\\text{ }\\!\\!~\\!\\!\\text{ m}$\nKhi đó quãng đường đi ngắn nhất là xấp xỉ $779,8\\text{ }\\!\\!~\\!\\!\\text{ }\\approx \\text{780m}$.",
+   "short_value": 492,
+   "short_correct": "492",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 22,
+    "so_dau_bang": 33,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B1.D11",
+   "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một con cá hồi bơi ngược dòng để vượt khoảng cách là $100$km. Vận tốc dòng nước là $5$(km/h). Nếu vận tốc bơi của cá khi nước đứng yên là $v$(km/h), $\\left( v>5 \\right)$ thì năng lượng tiêu hao của cá trong $t$ giờ được cho bởi công thức $E\\left( v \\right)=c.{{v}^{3}}.t$, trong đó $c$ là hằng số dương, $E$ được tính bằng Jun. Biết rằng vận tốc bơi của cá khi nước đứng yên thuộc khoảng $\\left( a\\,;\\,b \\right)$ thì năng lượng tiêu hao của cá giảm. Hãy tính giá trị lớn nhất của $b-a$ (kết quả làm tròn tới hàng phần mười).",
+   "explanation": "Khi bơi ngược dòng vận tốc của cá là $v-5$(km/h).\nThời gian để cá vượt khoảng cách $100$km là $t=\\frac{100}{v-5}\\,\\left( v>5 \\right)$.\nNăng lượng tiêu hao của cá khi vượt khoảng cách $100$km là $E\\left( v \\right)=c.{{v}^{3}}.\\frac{100}{v-5}=100c.\\frac{{{v}^{3}}}{v-5}$\nXét hàm số $y=E\\left( v \\right)$ ta có ${E}'\\left( v \\right)=100c.\\frac{3{{v}^{2}}\\left( v-5 \\right)-{{v}^{3}}}{{{\\left( v-5 \\right)}^{2}}}=100c.\\frac{{{v}^{2}}\\left( 2v-15 \\right)}{{{\\left( v-5 \\right)}^{2}}}$\nGiải phương trình ${E}'\\left( v \\right)=0\\Leftrightarrow v=7,5$(do $v>5$). Ta có bảng biến thiên\n[[IMG:image13.png]]\nVậy vận tốc bơi của cá khi nước đứng yên thuộc khoảng $\\left( 5\\,;\\,7,5 \\right)$ thì năng lượng tiêu hao của cá giảm. Khi đó giá trị lớn nhất của $b-a$ là 2,5.\n-----------------HẾT-----------------",
+   "short_value": 7.5,
+   "short_correct": "7,5",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  }
+ ],
+ "flags": []
+}

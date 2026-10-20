@@ -1,0 +1,627 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "8",
+  "lesson": "4",
+  "title": "Bài 4. Bài tập cuối chương viii",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một công việc được hoàn thành bởi một trong hai phương án khác nhau. Gọi tập hợp$A$là tập hợp các cách thực hiện theo phương án thứ nhất, tập hợp$B$là tập hợp các cách thực hiện theo phương án thứ hai. Hỏi số cách thực hiện công việc bằng số phần tử của tập hợp nào dưới đây?",
+   "explanation": "Quy tắc cộng thực chất là quy tắc đếm số phần tử của hai tập hợp khi hai tập hợp này không giao nhau",
+   "options": [
+    "$B\\backslash A$",
+    "$A\\cap B$",
+    "$A\\backslash B$",
+    "$A\\cup B$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Giả sử An muốn mua một chiếc áo sơ mi cỡ $39$ hoặc cỡ $40$. Áo cỡ $39$ có $5$ màu khác nhau, áo cỡ $40$ có $4$ màu khác nhau. Hỏi An có bao nhiêu cách mua một chiếc áo?",
+   "explanation": "Nếu chọn cỡ áo $39$ thì sẽ có $5$ cách.\nNếu chọn cỡ áo $40$ thì sẽ có $4$ cách.\nTheo qui tắc cộng, ta có $5+4=9$ cách chọn mua một chiếc áo.",
+   "options": [
+    "$4$",
+    "$5$",
+    "$9$",
+    "$20$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một quán phục vụ ăn sáng có bán phở, bún và bánh cuốn. Phở có 3 loại là phở bò, phở gà và phở cua. Bún có 4 loại là bún ốc, bún chả, bún thang và bún cá. Bánh cuốn có 2 loại là bánh cuốn chả và bánh cuốn nem. Một khách hàng muốn chọn một món để ăn sáng. Hỏi khách hàng đó có bao nhiêu cách lựa chọn?",
+   "explanation": "Theo quy tắc cộng, số cách chọn một món để ăn sáng là\n$3+4+2=9$.",
+   "options": [
+    "$3$",
+    "$4$",
+    "$9$",
+    "$2$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên gồm 7 chữ số khác nhau và chia hết cho 5?",
+   "explanation": "Gọi $X=\\overline{{{a}_{1}}{{a}_{2}}{{a}_{3}}{{a}_{4}}{{a}_{5}}{{a}_{6}}{{a}_{7}}}$ là số có 7 chữ số khác nhau và X chia hết cho 5. Ta có hai khả năng sau:\n$*$ ${{a}_{7}}=0$: Có $A_{9}^{6}$ cách chọn và sắp xếp 6 chữ số còn lại.\n$*$ ${{a}_{7}}=5$: Có 8 cách chọn ${{a}_{1}}$; có $A_{8}^{5}$ cách chọn và sắp xếp 5 chữ số còn lại.\nVậy ta có thể lập được tất cả là $A_{9}^{6}+8A_{8}^{5}=114240.$",
+   "options": [
+    "532",
+    "5040",
+    "114240",
+    "53760"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Từ các chữ số $0,\\,1,\\,2,\\,3,\\,4,\\,5,6$ có thể lập được bao nhiêu số tự nhiên có hai chữ số khác nhau và chia hết cho $3$?",
+   "explanation": "Số tự nhiên có hai chữ số khác nhau và chia hết cho $3$ gồm những số: 12, 21, 15, 51, 24, 42, 30, 36, 63, 45, 54, 60. Như vậy có 12 số.",
+   "options": [
+    "$9$",
+    "$10$",
+    "$11$",
+    "$12$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Từ tập $\\left\\{ 1;2;3;4;5 \\right\\}$ lập được bao nhiêu số tự nhiên chẵn có hai chữ số.",
+   "explanation": "Gọi số tự nhiên thỏa mãn yêu cầu bài toán là $\\overline{ab}$.\nChọn $b$ có 2 cách;\nChọn $a$ có 5 cách;\nSuy ra có 10 số.",
+   "options": [
+    "$5$",
+    "$25$",
+    "$8$",
+    "$10$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Các thành phố $A$, $B$, $C$ được nối với nhau bởi các con đường như hình vẽ. Hỏi có bao nhiêu cách đi từ thành phố$A$ đến thành phố $C$ mà qua thành phố $B$chỉ một lần?\n$A$ $B$ $C$",
+   "explanation": "Từ thành phố$A$ đến thành phố $B$ có 4 cách đi;\nTừ thành phố$B$ đến thành phố $C$ có 2 cách đi;\nTheo quy tắc nhân có $4.2=8$ cách đi từ thành phố$A$ đến thành phố $C$ mà qua thành phố $B$chỉ một lần.",
+   "options": [
+    "8",
+    "$4$",
+    "$12$",
+    "$6$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên có 5 chữ số?",
+   "explanation": "Ta gọi số tự nhiên gồm 5 chữ số có dạng: $\\overline{abcde}\\,$\n$a$ có 9 cách chọn vì $a\\ne 0$.\nCác chữ số còn lại là $b,\\,c,\\,d,e$, mỗi chữ số có 10 cách chọn.\nTheo quy tắc nhân, ta có số các số tự nhiên gồm có $5$ chữ số là: ${{9.10}^{4}}=90000$ số.",
+   "options": [
+    "$30240$",
+    "$27216$",
+    "$59049$",
+    "$90000$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên gồm $5$ chữ số khác nhau được lập từ các số $1,\\text{ }2,\\text{ }.....,\\text{ }9?$",
+   "explanation": "Mỗi cách xếp số tự nhiên có $5$ chữ số khác nhau từ các số $1,\\text{ }2,\\text{ }.....,\\text{ }9$ là một chỉnh hợp chập 5 của 9 phần tử. Vậy có $A_{9}^{5}=15120.$",
+   "options": [
+    "$15120.$",
+    "${{9}^{5}}.$",
+    "${{5}^{9}}.$",
+    "$126.$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Từ các chữ số 0, 1, 2, 3, 4, 5, 6 có thể lập được bao nhiêu số có 5 chữ số khác nhau và bắt đầu\nbằng số 123.",
+   "explanation": "Gọi số đó có dạng $\\overline{123ab}$.\nChọn $a$ có 4 cách\nChọn $b$ có $3$\nVậy có $4.3=12$ số",
+   "options": [
+    "$24$",
+    "$12$",
+    "$6$",
+    "$36$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tổng $S=C_{10}^{6}+C_{10}^{7}+C_{10}^{8}+C_{10}^{9}+C_{10}^{10}.$ bằng",
+   "explanation": "Xét tổng ${{\\left( 1+x \\right)}^{10}}=C_{10}^{0}+xC_{10}^{1}+{{x}^{2}}C_{10}^{2}+...+{{x}^{10}}C_{10}^{10}$.\nThay $x=1$ ta được: $C_{10}^{0}+C_{10}^{1}+C_{10}^{2}+...+C_{10}^{10}={{2}^{10}}$.\n$\\begin{aligned} & \\Rightarrow C_{10}^{5}+2\\left( C_{10}^{6}+C_{10}^{7}+C_{10}^{8}+C_{10}^{9}+C_{10}^{10} \\right)={{2}^{10}} \\\\ & \\Rightarrow C_{10}^{6}+C_{10}^{7}+C_{10}^{8}+C_{10}^{9}+C_{10}^{10}=\\frac{{{2}^{10}}-C_{10}^{5}}{2}=386 \\\\ \\end{aligned}$",
+   "options": [
+    "$324$",
+    "$386$",
+    "$435$",
+    "$343$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Bạn An có 4 chiếc mũ khác nhau và 3 áo khoác khác nhau để sử dụng khi đi học. Hỏi bạn An có bao nhiêu cách chọn 1 chiếc mũ và 1 áo khoác để sử dụng khi đi học?",
+   "explanation": "Công việc được hoàn thành bởi 2 hành động liên tiếp:\nHành động 1. Chọn 1 chiếc mũ: có 4 cách chọn.\nHành động 2. Chọn 1 áo khoác: có 3 cách chọn.\nÁp dụng quy quy tắc nhân, suy ra có $4\\cdot 3=12$ cách.",
+   "options": [
+    "12",
+    "7",
+    "1",
+    "3"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số của ${{x}^{4}}$ trong khai triển là 20",
+    "b": "Hệ số của ${{x}^{3}}$ trong khai triển là $90$",
+    "c": "Hệ số của ${{x}^{2}}$ trong khai triển là $-270$",
+    "d": "Hệ số của $x$ trong khai triển là $405$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khai triển ${(x-3)^{5}}$. Khi đó:",
+   "explanation": "Ta có: ${(x-3)^5=x^5-15 x^4+90 x^3-270 x^2+405 x-243}$.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số cách chọn 1 chiếc bút chì và 1 chiếc bút bi là $20$ (cách).",
+    "b": "Số cách chọn 1 chiếc bút chì và 1 chiếc bút máy là$4$ (cách).",
+    "c": "Số cách chọn 1 chiếc bút bi và 1 chiếc bút máy là $7$ (cách).",
+    "d": "Số cách chọn 2 chiếc bút khác loại với nhau từ hộp bút của Lan là $38$(cách)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Trong hộp bút của Lan có 4 chiếc bút chì, 5 chiếc bút bi và 2 chiếc bút máy (tất cả đều khác nhau), khi đó:",
+   "explanation": "a) Chọn 1 chiếc bút chì và 1 chiếc bút bi có ${4 \\cdot 5=20}$ (cách).\nb) Chọn 1 chiếc bút chì và 1 chiếc bút máy có ${4 \\cdot 2=8}$ (cách).\nc) Chọn 1 chiếc bút bi và 1 chiếc bút máy có ${5 \\cdot 2=10}$ (cách).\nd) Áp dụng quy tắc cộng, ta có số cách chọn 2 chiếc bút khác loại với nhau từ hộp bút của Lan là: ${20+8+10=38}$ (cách).",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Có $387420489$ số tự nhiên gồm 9 chữ số, được tạo thành từ các chữ số ${1,2,3,4,5,6,7,8,9}$",
+    "b": "Có $40320$ số tự nhiên gồm 9 chữ số đôi một khác nhau, được tạo thành từ các chữ số ${1,2,3,4,5,6,7,8,9}$",
+    "c": "Có $600$số tự nhiên gồm 6 chữ số đôi một khác nhau, được tạo thành từ các chữ số ${0,1,2,3,4,5}$",
+    "d": "Có $300$số tự nhiên gồm 4 chữ số đôi một khác nhau, được tạo thành từ các chữ số ${0,1,2,3,4,5}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho các chữ số $0,1,2,3,4,5,6,7,8,9$, khi đó:",
+   "explanation": "a) Lập số tự nhiên gồm 9 chữ số từ các chữ số ${1,2,3,4,5,6,7,8,9}$ có ${9^{9}}$ cách. Vậy có ${9^{9}=387420489}$ số thoả mãn đề bài.\nb) Mỗi số tự nhiên gồm 9 chữ số đôi một khác nhau chọn từ các chữ số ${1,2,3,4}$,${5,6,7,8,9}$ là một hoán vị của 9 phần tử nên có ${9 !=362880}$ số thoả mãn đề bài.\nc) Gọi ${\\overline{a b c d e f}}$ là số thoả mãn đề bài.\nChọn ${a}$ có 5 cách (${a}$ khác 0).\nChọn ${b, c, d, e, f}$ có ${5 !=120}$ cách.\nVậy có ${5.5 !=600}$ số thoả mãn đề bài.\nd) Gọi ${\\overline{a b c d}}$ là số thoả mãn đề bài.\nChọn ${a}$ có 5 cách ( ${a}$ khác 0 ).\nChọn ${b, c, d}$ có ${{A}_{5}^{3}=60}$ cách.\nVậy có ${5.60=300}$ số thoả mãn đề bài.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số cách chọn ra một quyển sách từ số sách đã cho: $19$ (cách).",
+    "b": "Số cách chọn ba quyển sách khác môn là:$240$ (cách).",
+    "c": "Số cách chọn hai quyển gồm Tiếng Anh và Toán là: $11$ (cách).",
+    "d": "Số cách chọn hai quyển sách khác môn là: $118$ (cách)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Trên giá sách có 5 quyển sách Tiếng Anh khác nhau, 6 quyển sách Toán khác nhau và 8 quyển sách Tiếng Việt khác nhau.",
+   "explanation": "a) Số cách chọn ra một quyển sách từ số sách đã cho: ${5+6+8=19}$ (cách).\nb) Giai đoạn 1: Chọn một quyển sách Tiếng Anh: có 5 (cách).\nGiai đoạn 2: Chọn một quyển sách Toán: có 6 (cách).\nGiai đoạn 3: Chọn một quyển sách Tiếng Việt: có 8 (cách).\nSố cách chọn ba quyển sách khác môn là: ${5 \\times 6 \\times 8=240}$ (cách).\nc) Trường hợp 1: Chọn được hai quyển gồm Tiếng Anh và Toán.\nSố cách chọn là ${5 \\times 6=30}$ (cách).\nTrường hợp 2: Chọn được hai quyển gồm Tiếng Anh và Tiếng Việt.\nSố cách chọn là ${5 \\times 8=40}$ (cách).\nTrường hợp 3: Chọn được hai quyển gồm Toán và Tiếng Việt.\nSố cách chọn là ${6 \\times 8=48}$ (cách).\nSố cách chọn hai quyển sách khác môn là: ${30+40+48=118}$ (cách).",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính số các số tự nhiên đôi một khác nhau có 6 chữ số tạo thành từ các chữ số ${0,1,2,3,4,5}$ sao cho hai chữ số 3 và 4 đứng cạnh nhau.",
+   "explanation": "Xét số có hình thức ${\\overline{\\mathbf{0 b c d e f}}}$.\nSố cách hoán đổi vị trí hai chữ số 3,4 (cùng nhóm ${X}$) là 2.\nSố cách hoán đổi vị trí của ${{X}}$ với các chữ số ${1,2,5}$ là: 4!\nVậy số các số được lập theo hình thức này là ${2.4 !=48}$.\nXét số có hình thức ${\\overline{a b c d e f}}$ trong đó ${a}$ được phép bằng 0.\nSố cách hoán đổi vị trí của hai chữ số 3,4 (cùng nhóm ${X}$) là 2.\nSố cách hoán đổi vị trí của ${{X}}$ với các chữ số ${0,1,2,5}$ là: 5!.\nSố các số được lập theo hình thức này là ${2.5 !=240}$.\nVậy số các số tự nhiên thỏa mãn đề bài là ${240-48=192}$.",
+   "short_value": 192,
+   "short_correct": "192",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Rút gọn: ${A=\\frac{7 ! \\cdot 4 !}{10 !}\\left(\\frac{8 !}{3 ! 5 !}-\\frac{6 !}{2 ! 4 !}\\right)}$",
+   "explanation": "${A=\\frac{7 ! \\cdot 4 !}{10 !}\\left(\\frac{8 !}{3 ! 5 !}-\\frac{6 !}{2 ! 4 !}\\right)=\\frac{7 ! 1 \\cdot 2 \\cdot 3 \\cdot 4}{7 ! \\cdot 8 \\cdot 9 \\cdot 10}\\left(\\frac{5 ! \\cdot 6 \\cdot 7 \\cdot 8}{1 \\cdot 2 \\cdot 3.5 !}-\\frac{4 ! \\cdot 5 \\cdot 6}{1.2 .4 !}\\right)=\\frac{1}{30}(56-15)=\\frac{41}{30}}$.",
+   "short_value": 1.3666666666666667,
+   "short_correct": "\\frac{41}{30}|41/30",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên gồm bảy chữ số được chọn từ 1,2, 3,4, 5 sao cho chữ số 2 có mặt đúng hai lần, chữ số 3 có mặt đúng ba lần và các chữ số còn lại có mặt không quá một lần?",
+   "explanation": "Xét bảy ô tương ứng với bảy chữ số của số tự nhiên cần lập.\nChọn hai từ bảy vị trí để đặt chữ số 2: có ${C_7^2}$ (cách).\nChọn ba từ năm vị trí còn lại để đặt chữ số 3: có ${C_5^3}$ (cách).\nChọn hai chữ số từ ${\\{1 ; 4 ; 5\\}}$ rồi xếp vào hai vị trí cuối: ${A_3^2}$ (cách).\nVậy số các số tự nhiên thỏa mãn là ${C_7^2 C_5^3 A_3^2=1260}$.",
+   "short_value": 1260,
+   "short_correct": "1260",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một đa giác đều có số đường chéo gấp đôi số cạnh. Hỏi đa giác đó có bao nhiêu cạnh?",
+   "explanation": "Giả sử đa giác có ${n}$ cạnh ${(n \\geq 3)}$. Suy ra: số đường chéo là ${C_n^2-n}$,\nTa có: ${C_n^2-n=2 n \\Leftrightarrow \\frac{n(n-1)}{2}=3 n \\Leftrightarrow n-1=6 \\Leftrightarrow n=7}$.",
+   "short_value": 7,
+   "short_correct": "7",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Xác định hệ số của ${x^4}$ trong khai triển sau: ${f(x)=\\left(3 x^2+2 x+1\\right)^{10}}$.",
+   "explanation": "$\\begin{aligned} & f(x)={{\\left( 1+2x+3{{x}^{2}} \\right)}^{10}}=\\sum\\limits_{k=0}^{10}{C_{10}^{k}}{{\\left( 2x+3{{x}^{2}} \\right)}^{k}} \\\\ & =\\sum\\limits_{k=0}^{10}{C_{10}^{k}}\\sum\\limits_{i=0}^{k}{C_{k}^{i}}{{(2x)}^{k-i}}\\cdot {{\\left( 3{{x}^{2}} \\right)}^{i}}=\\sum\\limits_{k=0}^{10}{C_{10}^{k}}\\sum\\limits_{i=0}^{k}{C_{k}^{i}}{{2}^{k-i}}\\cdot {{3}^{i}}{{x}^{k+i}}\\text{ ,}0\\le i\\le k\\le 10. \\\\ \\end{aligned}$\nDo đó ${k+i=4}$ với các trường hợp ${i=0, k=4}$ hoặc ${i=1, k=3}$ hoặc ${i=k=2}$.\nVậy hệ số chứa ${x^4: 2^4 C_{10}^4 \\cdot C_4^0+2^2 3^1 C_{10}^3 \\cdot C_3^1+3^2 C_{10}^2 \\cdot C_2^2=8085}$.",
+   "short_value": 8085,
+   "short_correct": "8085",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ các chữ số ${0,1,2,3,4,5}$ có thể lập được bao nhiêu chữ số tự nhiên có 4 chữ số?",
+   "explanation": "Kí hiệu số cần lập là abcd. Việc chọn các chữ số a, b, c, d qua 4 bước sau:\nChọn a khác 0 có 5 cách.\nỨng với mỗi cách chọn đó, có 6 cách chọn chữ số b từ sáu chữ số đã cho.\nỨng với mỗi cách chọn đó, có 6 cách chọn chữ số c từ sáu chữ số đã cho.\nỨng với mỗi cách chọn đó, có 6 cách chọn chữ số d từ sáu chữ số đã cho.\nTừ đó, áp dụng quy tắc nhân, có: 5.6.6.6=1080 số tự nhiên có bốn chữ số được lập từ các chữ số đã cho.",
+   "short_value": 1080,
+   "short_correct": "1080",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  }
+ ],
+ "flags": []
+}

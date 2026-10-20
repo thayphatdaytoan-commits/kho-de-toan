@@ -1,0 +1,626 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "8",
+  "lesson": "2",
+  "title": "Bài 2. Hoán vị,chỉnh hợp và tổ hợp",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có $3$ viên bi đen khác nhau, $4$ viên bi đỏ khác nhau, $5$ viên bi xanh khác nhau. Hỏi có bao nhiêu cách xếp các viên bi trên thành dãy sao cho các viên bi cùng màu ở cạnh nhau?",
+   "explanation": "Ta có:\nSố cách xếp $3$ viên bi đen khác nhau thành một dãy bằng: $3!$.\nSố cách xếp $4$ viên bi đỏ khác nhau thành một dãy bằng: $4!$.\nSố cách xếp $5$ viên bi đen khác nhau thành một dãy bằng: $5!$.\nSố cách xếp $3$ nhóm bi thành một dãy bằng: $3!$.\nVậy số cách xếp thỏa yêu cầu đề bài bằng $3!.4!.5!.3!=103680$ cách.",
+   "options": [
+    "$345600$",
+    "$518400$",
+    "$725760$",
+    "$103680$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Có bao nhiêu cách sắp xếp $6$ học sinh theo một hàng dọc",
+   "explanation": "Mỗi cách xếp 6 học sinh theo một hàng dọc là một hoán vị của 6 phần tử. Vậy số cách sắp xếp là$6!=720$cách",
+   "options": [
+    "$46656$",
+    "$4320$",
+    "$720$",
+    "$360$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một nhóm học sinh có 7 em nam và 3 em nữ. Hỏi có bao nhiêu cách xếp 10 em này trên một hàng ngang, sao cho hai vị trí đầu và cuối hàng là các em nam và không có 2 em nữ nào ngồi cạnh nhau?",
+   "explanation": "Bước 1: Xếp 7 bạn nam thành một hàng ngang, có $7!$ cách xếp.\nBước 2: Xem các bạn nam là những vách ngăn, giữa 7 bạn nam có sáu vị trí để xếp 3 bạn nữ. Chọn 3 vị trí trong sáu vị trí để xếp 3 bạn nữ, có ${{A}^{3}}_{6}$ cách.\nTheo quy tắc nhân ta có $7!.{{A}^{3}}_{6}=604800$cách.",
+   "options": [
+    "$604800$",
+    "$344000$",
+    "$100800$",
+    "$120120$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong một giải đua xe đạp gồm 20 vận động viên, người ta chỉ quan tâm đến 3 vận động viên: vận động viên nhanh nhất, nhanh nhì và nhanh thứ ba. Hỏi có bao nhiêu kết quả có thể xảy ra?",
+   "explanation": "Mỗi kết quả có thể xảy ra là một chỉnh hợp chập $3$ của $20$ phần tử.\n$\\Rightarrow $Có $A_{20}^{3}=6840$kết quả.",
+   "options": [
+    "$3420$",
+    "$2280$",
+    "$1140$",
+    "$6840$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai đường thẳng song song ${{d}_{1}}$ và ${{d}_{2}}.$ Trên ${{d}_{1}}$ lấy $17$ điểm phân biệt, trên ${{d}_{2}}$ lấy $20$ điểm phân biệt. Số tam giác có các đỉnh được chọn từ $37$ điểm này là",
+   "explanation": "Một tam giác được tạo bởi ba điểm phân biệt nên ta xét:\n$\\bullet $ TH1. Chọn $1$ điểm thuộc ${{d}_{1}}$ và $2$ điểm thuộc ${{d}_{2}}$: có $C_{17}^{1}.C_{20}^{2}$ tam giác.\n$\\bullet $ TH2. Chọn $2$ điểm thuộc ${{d}_{1}}$ và $1$ điểm thuộc ${{d}_{2}}$: có $C_{17}^{2}.C_{20}^{1}$ tam giác.\nTheo đề bài ta có $C_{17}^{1}.C_{20}^{2}+C_{17}^{2}.C_{20}^{1}=5950$ tam giác cần tìm. Chọn A",
+   "options": [
+    "$5950.$",
+    "$2720.$",
+    "$3230.$",
+    "$7770.$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Lớp 10A có 20 học sinh. Hỏi giáo viên chủ nhiệm lớp 10A có tất cả bao nhiêu cách chọn ra 5 học sinh tham gia hỗ trợ cuộc thi văn nghệ của nhà trường?",
+   "explanation": "Số cách chọn là $C_{20}^{5}=15504$",
+   "options": [
+    "$1860480$",
+    "$15504$",
+    "$120$",
+    "$3003$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho tập hợp $A=\\left\\{ 1;2;3;...;19;20 \\right\\}$. Có bao nhiêu cách chọn 4 số từ tập hợp $A$ sao cho trong số đó\nkhông có 2 số nào là 2 số nguyên liên tiếp.",
+   "explanation": "Ta tìm số cách chọn bộ 4 số $\\left( a;b;c;d \\right)$ thỏa mãn yêu cầu bài toán, tức là $1\\le a<b-1<c-2<d-3\\le 17$. Có $C_{17}^{4}$ cách chọn bộ 4 số $\\left( a;b-1;c-2;d-3 \\right)$ như thế. Mà mỗi cách chọn bộ 4 số $\\left( a;b-1;c-2;d-3 \\right)$ tương ứng với một cách chọn bộ 4 số $\\left( a;b;c;d \\right)$. Như vậy có tất cả $C_{17}^{4}=2380$ cách chọn 4 số từ tập hợp $A$ sao cho trong số đó không có 2 số nào là 2 số nguyên liên tiếp.",
+   "options": [
+    "$10626$",
+    "$57120$",
+    "$2380$",
+    "$4845$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Từ các chữ số $2,\\text{ 3, }4,\\text{ }7,\\text{ }9$, có thể lập được tất cả bao nhiêu số tự nhiên có 5 chữ số đôi một khác nhau?",
+   "explanation": "Mỗi cách sắp xếp thứ tự của 5 số $2,\\text{ 3, }4,\\text{ }7,\\text{ }9$ là một hoán vị của 5 phần tử.\nNên số các hoán vị là $5!$ cách.",
+   "options": [
+    "$3!$",
+    "$5!$",
+    "$A_{6}^{5}$",
+    "$C_{5}^{5}$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho các số $2,\\text{ 4, 5, 7}$ có thể lập được bao nhiêu số tự nhiên có 4 chữ số với các chữ số khác nhau.",
+   "explanation": "Số cách lập số tự nhiên có 4 chữ số khác nhau là $4!=24$.",
+   "options": [
+    "$12$",
+    "$64$",
+    "$24$",
+    "$280$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Có bao nhiêu cách chọn một nguyên âm và một phụ âm từ các ký tự của chữ VIETNAM?",
+   "explanation": "Tập các chữ cái nguyên âm: $N=\\left\\{ I;E;A \\right\\}$\nTập các chữ cái phụ âm: $P=\\left\\{ V;T;N;M \\right\\}$\nSuy ra số cách chọn một nguyên âm và một phụ âm là: $C_{3}^{1}.C_{4}^{1}=12$",
+   "options": [
+    "$4$",
+    "$12$",
+    "$7$",
+    "$3$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có bao nhiêu cách xếp khác nhau cho 4 người ngồi vào 6 chỗ trên một bàn dài?",
+   "explanation": "Số cách xếp khác nhau cho 4 người ngồi vào 6 chỗ trên một bàn dài là số chỉnh hợp chập 4 của 6 phần tử. Suy ra có $A_{6}^{4}=360$ cách.",
+   "options": [
+    "$15.$",
+    "$720.$",
+    "$30.$",
+    "$360.$"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Có hai học sinh lớp $A,$ ba học sinh lớp $B$ và bốn học sinh lớp $C$ xếp thành một hàng ngang sao cho giữa hai học sinh lớp $A$ không có học sinh nào lớp $B.$ Hỏi có bao nhiêu cách xếp hàng như vậy ?",
+   "explanation": "Xét các trường hợp sau :\nTH1: Hai học sinh lớp A đứng cạnh nhau có $2!.8!$ cách.\nTH2: Giữa hai học sinh lớp A có một học sinh lớp C có $2!.A_{4}^{1}.7!$ cách.\nTH3: Giữa hai học sinh lớp A có hai học sinh lớp C có $2!.A_{4}^{2}.6!$ cách.\nTH4: Giữa hai học sinh lớp A có ba học sinh lớp C có $2!.A_{4}^{3}.5!$ cách.\nTH5: Giữa hai học sinh lớp A có bốn học sinh lớp C có $2!.A_{4}^{4}.4!$ cách.\nVậy theo quy tắc cộng có $2!\\left( 8!+A_{4}^{1}7!+A_{4}^{2}6!+A_{4}^{3}5!+A_{4}^{4}4! \\right)=145152$ cách.",
+   "options": [
+    "$80640$",
+    "$108864$",
+    "$145152$",
+    "$217728$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn 1 giáo viên nữ có ${C_3^1}$ cách",
+    "b": "Chọn 2 giáo viên nam môn Vật lý có ${C_4^2}$ cách.",
+    "c": "Chọn 1 giáo viên nam môn Toán và 1 nam môn Vật lý có $C_{5}^{1}+C_{4}^{1}$ cách.",
+    "d": "Có 80 cách chọn ra một đoàn thanh tra công tác ôn thi THPTQG gồm 3 người có đủ 2 môn Toán và Vật lý và phải có giáo viên nam và giáo viên nữ trong đoàn"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một trường cấp 3 của tỉnh Đồng Tháp có 8 giáo viên Toán gồm có 3 nữ và 5 nam, giáo viên Vật lý thì có 4 giáo viên nam, chọn ra một đoàn thanh tra công tác ôn thi THPTQG, khi đó",
+   "explanation": "Vì chọn ra 3 người mà yêu cầu phải có giáo viên nam và giáo viên nữ trong đoàn nên số giáo viên nữ được chọn chỉ có thể bằng 1 hoặc 2. Ta xét hai trường hợp:\nTrường hợp 1: Chọn 1 giáo viên nữ: Có ${C_3^1}$ cách. Khi đó:\n- Chọn 1 giáo viên nam môn Toán và 1 nam môn Vật lý: Có ${C_5^1 \\times C_4^1}$ cách.\n- Chọn 2 giáo viên nam môn Vật lý: Có ${C_4^2}$ cách,\nTrường hợp này có ${C_3^1\\left(C_5^1 \\times C_4^1+C_4^2\\right)}$ cách chọn.\nTrường hợp 2: Chọn 2 giáo viên nữ: Có ${C_3^2}$ cách chọn. Khi đó chọn thêm 1 giáo viên nam môn Vật lý: Có ${C_4^1}$ cách. Trường hợp này có ${C_3^2 \\times C_4^1}$ cách chọn.\nVậy tất cả có ${C_3^1\\left(C_5^1 \\times C_4^1+C_4^2\\right)+C_3^2 \\times C_4^1=90}$ cách chọn.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn nhóm 6 bạn bất kỳ ta có $3003$ cách",
+    "b": "Chọn nhóm 6 bạn trong đó có cả ${{A}}$ và ${{B}}$, có $1848$ cách",
+    "c": "Chọn nhóm 6 bạn trong đó không có hai bạn ${{A}}$ và ${{B}}$, có $924$ cách",
+    "d": "Có $9504$ cách chọn sao cho trong tổ phải có 1 tổ trưởng và 5 tổ viên hơn nữa ${A}$ hoặc ${B}$ phải có mặt nhưng không đồng thời có mặt cả hai người trong tổ."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một tập thể có 14 người trong đó có hai bạn tên ${A}$ và ${B}$. Người ta cần chọn một tổ công tác gồm 6 người, khi đó:",
+   "explanation": "Chọn nhóm 6 bạn bất kỳ ta có ${C_{14}^6}$ cách\nChọn nhóm 6 bạn trong đó có cả ${{A}}$ và ${{B}}$, có ${C_{12}^4}$ cách\nChọn nhóm 6 bạn trong đó không có hai bạn ${{A}}$ và ${{B}}$, có ${C_{12}^6}$ cách\nSuy ra số cách chọn 6 bạn có mặt ${{A}, {B}}$ nhưng không đồng thời có mặt cả hai người trong tổ là: ${C_{14}^6-C_{12}^4-C_{12}^6=1584}$ cách,\nChọn 1 tổ trưởng từ nhóm 6 bạn này, có 6 cách.\nVậy có ${1584.6=9504}$ cách chọn thỏa yêu câu đề.",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Điều kiện: ${x \\in \\mathbb{N}}$ và ${x \\geq 3}$.",
+    "b": "Phương trình có chung tập nghiệm với phương trình ${{x}^{2}}-3x-10=0$",
+    "c": "Phương trình có 2 nghiệm phân biệt",
+    "d": "Nghiệm của phương trình là số nguyên tố"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình ${A_x^3+C_x^{x-3}=14 x}$",
+   "explanation": "Điều kiện: ${x \\in \\mathbb{N}}$ và ${x \\geq 3}$. Ta có: ${A_x^3+C_x^{x-3}=14 x}$ ${\\Leftrightarrow \\frac{x !}{(x-3) !}+\\frac{x !}{(x-3) ! 3 !}=14 x \\Leftrightarrow x(x-1)(x-2)+\\frac{x(x-1)(x-2)}{6}=14 x}$\n${\\Leftrightarrow 7(x-1)(x-2)=84}$\n(vì $x>0)\\Leftrightarrow {{x}^{2}}-3x-10=0\\Leftrightarrow \\left[ \\begin{array}{llllll} x=5\\text{ (n) } \\\\ x=-2\\left( l \\right) \\\\ \\end{array} \\right.$\nVậy phương trình có nghiệm là ${x=5}$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Điều kiện: ${n \\in \\mathbb{N}}$",
+    "b": "Bất phương trình có chung tập nghiệm với bất phương trình ${{n}^{2}}-6n+5\\le 0$",
+    "c": "Bất phương trình đã cho có 4 nghiệm thỏa mãn",
+    "d": "Các nghiệm thỏa mãn bất phương trình là nghiệm của phương trình ${{x}^{3}}-12{{x}^{2}}+47x-60=0$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho bất phương trình ${\\frac{1}{A_n^2}+\\frac{1}{A_n^3} \\geq \\frac{1}{C_{n+1}^2}}$.",
+   "explanation": "Điều kiện: ${n \\in \\mathbb{N}}$ và ${n \\geq 3}$. Ta có: ${\\frac{1}{A_n^2}+\\frac{1}{A_n^3} \\geq \\frac{1}{C_{n+1}^2}}$\n$\\begin{aligned} & \\Leftrightarrow \\frac{1}{n(n-1)}+\\frac{1}{n(n-1)(n-2)}\\ge \\frac{2}{n(n+1)} \\\\ & \\Leftrightarrow (n+1)(n-2)+(n+1)\\ge 2(n-1)(n-2)\\Leftrightarrow {{n}^{2}}-6n+5\\le 0\\Leftrightarrow 1\\le n\\le 5.\\text{ } \\\\ \\end{aligned}$\nVì ${n \\in \\mathbb{N}}$ và ${n \\geq 3}$ nên ${n \\in\\{3 ; 4 ; 5\\}}$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho đa giác lồi có ${n}$ cạnh ${(n \\geq 4)}$. Tìm ${n}$ để đa giác đó có số đường chéo bằng số cạnh?",
+   "explanation": "Áp dụng công thức bài 28 và theo đề bài ta có: ${\\frac{n(n-3)}{2}=n \\Leftrightarrow n^{2}-5 n=0}$. Suy ra ${n=5}$. Vậy đa giác cần tìm có 5 cạnh.",
+   "short_value": 5,
+   "short_correct": "5",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai đường thẳng song song ${d_{1}}$ và ${d_{2}}$. Trên ${d_{1}}$ lấy 17 điểm phân biệt, trên ${d_{2}}$ lấy 20 điểm phân biệt. Tính số tam giác có các đỉnh là 3 điểm trong số 37 điểm đã chọn trên ${d_{1}}$ và ${d_{2}}$.",
+   "explanation": "Trường hợp 1: 1 điểm thuộc ${d_{1}}$ và 2 điểm thuộc ${d_{2}}$.\nSố tam giác lập được là: ${{C}_{17}^{1} \\cdot {C}_{20}^{2}=3230}$.\nTrường hợp ${2: 2}$ điểm thuộc ${d_{1}}$ và 1 điểm thuộc ${d_{2}}$.\nSố tam giác lập được là: ${{C}_{17}^{2} \\cdot {C}_{20}^{1}=2720}$.\nVậy có ${3230+2720=5950}$ tam giác thoả mãn đề bài.",
+   "short_value": 5950,
+   "short_correct": "5950",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có 3 cuốn sách Lý, 4 cuốn sách Sinh, 5 cuốn sách Địa. Hỏi có bao nhiêu cách sắp xếp các cuốn sách trên vào giá sách hàng ngang nếu các cuốn sách cùng môn học đứng cạnh nhau?",
+   "explanation": "Gọi ${{L}}$ là nhóm 3 sách lý, ${{S}}$ là nhóm 4 sách sinh, Đ là nhóm 5 sách địa. Số cách xếp trong ${L}$ là 3!; số cách xếp trong ${S}$ là 4!; số cách xếp trong Đ là 5!; số cách xếp L, S, Đ với nhau: 3!.\nVậy số cách xếp thỏa mãn đề bài là: ${3 ! 4 ! 5 ! 3 !=103680}$ (cách).",
+   "short_value": 103680,
+   "short_correct": "103680",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho 10 điểm trong mặt phẳng và không có 3 điểm nào thẳng hàng.\nHỏi có thể lập được bao nhiêu tam giác có đỉnh được lấy từ các điểm đó?",
+   "explanation": "Số tam giác lập được cũng bằng với số cách chọn ra 3 điểm phân biệt từ 10 điểm đã cho, ta có: ${C_{10}^3=120}$ (tam giác).",
+   "short_value": 120,
+   "short_correct": "120",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ các chữ số ${1,2,3,4,5,6,7,8,9}$ có thể lập được bao nhiêu số tự nhiên có 15 chữ số, trong đó các chữ số 1 và 2 mỗi chữ số xuất hiện năm lần, các chữ số còn lại xuất hiện không quá một lần và các chữ số lớn hơn 2 không có bất kì hai chữ số nào đứng cạnh nhau.",
+   "explanation": "Trước hết ta sắp xếp năm chữ số 1 và năm chữ số 2 vào 10 vị trí hàng ngang:\n- Chọn năm trong mười vị trí đề sắp xếp chữ số 1: có ${C_{10}^5}$ cách chọn.\n- Các vị trí còn lại ta sắp xếp chữ số 2: có 1 cách chọn.\nTừ dãy các chữ số 1 và 2 ở trên có chín vị trí xen giữa và hai vị trí hai đầu mút. Các số còn lại gồm ${3,4,5,6,7,8,9}$ đều lớn hơn 2. Ta cần chọn ra năm trong bảy chữ số trên để sắp xếp vào mười một vị trí cho phép:\n- Số cách chọn ra năm trong bảy chữ số: ${C_7^5}$.\n- Số cách chọn ra năm trong mười một vị trí để sắp xếp năm chữ số vừa chọn là ${A_{11}^5}$.\nVậy số các số tự nhiên thỏa mãn là ${C_{10}^5 \\cdot 1 \\cdot C_7^5 \\cdot A_{11}^5=293388480}$.",
+   "short_value": 293388480,
+   "short_correct": "293388480",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một đội thanh niên tình nguyện có 15 người gồm 12 nam và 3 nữ. Hỏi có bao nhiêu cách phân công đội thanh niên tình nguyện đó về giúp đỡ 3 tỉnh miền núi, sao cho mỗi tỉnh có 4 nam và 1 nữ?",
+   "explanation": "Ta có ${C_3^1 \\cdot C_{12}^4}$ cách phân công các thanh niên về tỉnh thứ nhất.\nVới mỗi cách này thì có ${C_2^1 \\cdot C_8^4}$ cách phân công số thanh niên còn lại về tỉnh thứ hai. Với mỗi cách phân công trên thì có ${C_1^1 \\cdot C_4^4}$ cách phân công số thanh nhiên còn lại về tỉnh thứ 3.\nDo đó ta có: ${C_3^1 C_{12}^4 C_2^1 C_8^4 C_1^1 C_4^4=207900}$ cách phân công thỏa mãn đề bài.",
+   "short_value": 207900,
+   "short_correct": "207900",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  }
+ ],
+ "flags": []
+}

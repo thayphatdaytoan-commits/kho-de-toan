@@ -1,0 +1,556 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "dt9gk2",
+  "title": "Giữa kỳ II Toán 9 – THCS Phan Sào Nam – năm học 2024-2025",
+  "exam_type": "midterm"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 5
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "thieu_de_chung"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị hàm số (P): $y=2{{x}^{2}}$",
+     "explanation": "Lập bảng giá trị:\n$x$ | -2 | -1 | 0 | 1 | 2\n$y=2x^2$ | 8 | 2 | 0 | 2 | 8\nVẽ parabol đi qua các điểm trên.",
+     "points": 1,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm M trên (P) có tung độ gấp 4 lần hoành độ.",
+     "explanation": "Gọi $M(k;4k)$ thuộc (P).\nVì $M \\in (P)$ nên $4k=2k^2 \\Leftrightarrow 2k^2-4k=0 \\Leftrightarrow 2k(k-2)=0$.\nSuy ra $k=0$ hoặc $k=2$.\nVậy $M(0;0)$ và $M(2;8)$.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "M(0;0); M(2;8)"
+    }
+   ],
+   "points": 2,
+   "bai_goc": "Bài 1",
+   "question": "Vẽ đồ thị hàm số (P): $y=2{{x}^{2}}$",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "$4{{x}^{2}}-9=0$",
+     "explanation": "$4x^2-9=0 \\Leftrightarrow (2x-3)(2x+3)=0$.\n$2x-3=0$ hoặc $2x+3=0$.\n$x=\\frac{3}{2}$ hoặc $x=-\\frac{3}{2}$.\nVậy phương trình có hai nghiệm $x=\\frac{3}{2}$ và $x=-\\frac{3}{2}$.",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3/2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3/2"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3/2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3/2"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "$5x\\left( x-1 \\right)=2x-2$",
+     "explanation": "$5x(x-1)=2x-2 \\Leftrightarrow 5x^2-5x=2x-2 \\Leftrightarrow 5x^2-7x+2=0$.\n$\\Delta = (-7)^2 - 4 \\cdot 5 \\cdot 2 = 9 > 0$.\n$x_1 = \\frac{7+3}{10}=1$; $x_2 = \\frac{7-3}{10}=\\frac{2}{5}$.\nVậy phương trình có hai nghiệm $x_1=1$ và $x_2=\\frac{2}{5}$.",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2/5"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2/5"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 2,
+   "bai_goc": "Bài 2",
+   "question": "Giải các phương trình sau:",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình luôn có hai nghiệm phân biệt.",
+     "explanation": "Ta có $a=2>0$, $c=-9<0$ nên $a$ và $c$ trái dấu.\nDo đó phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số: $a={{1}}$, $b={{2}}$, $c={{3}}$"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Nhận xét $a$ và $c$ trái dấu vì $a>0$, $c<0$."
+        ],
+        "hint": "Nhận xét dấu"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có hai nghiệm phân biệt $x_1, x_2$."
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "2"
+        ],
+        "keywords": [
+         "2"
+        ],
+        "placeholder": "hệ số a",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "7"
+        ],
+        "keywords": [
+         "7"
+        ],
+        "placeholder": "hệ số b",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "-9"
+        ],
+        "keywords": [
+         "-9"
+        ],
+        "placeholder": "hệ số c",
+        "maxLen": 12
+       }
+      ],
+      "pool": [],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức $A={{x}_{1}}^{2}-5{{x}_{1}}+{{x}_{2}}^{2}-5{{x}_{2}}$",
+     "explanation": "Theo định lý Viète: $S=x_1+x_2=-\\frac{7}{2}$, $P=x_1x_2=-\\frac{9}{2}$.\n$A = x_1^2+x_2^2 - 5(x_1+x_2) = S^2 - 2P - 5S$.\n$= \\left(-\\frac{7}{2}\\right)^2 - 2 \\cdot \\left(-\\frac{9}{2}\\right) - 5 \\cdot \\left(-\\frac{7}{2}\\right) = \\frac{49}{4} + 9 + \\frac{35}{2} = \\frac{155}{4}$.\nVậy $A=\\frac{155}{4}$.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "38,75|155/4"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Cho phương trình $2{{x}^{2}}+7x-9=0$",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D01",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính tổng diện tích hai mặt thớt.",
+     "explanation": "Bán kính đáy: $r = \\frac{22}{2} = 11$ cm.\nDiện tích một mặt thớt: $S = \\pi r^2 = \\pi \\cdot 11^2 = 121\\pi$ cm².\nTổng diện tích hai mặt thớt: $2S = 2 \\cdot 121\\pi = 242\\pi$ cm².",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy: $r = \\dfrac{22}{2} =$ {{1}} cm",
+       "Diện tích một mặt thớt: $S = \\pi r^2 = \\pi \\cdot$ {{2}}$^2 =$ {{3}}$\\pi$ cm$^2$",
+       "Tổng diện tích hai mặt thớt: $2S = 2 \\cdot$ {{4}}$\\pi =$ {{5}}$\\pi$ cm$^2$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "11"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "11"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "121"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "121"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "242"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Cho biết loại gỗ làm thớt có khối lượng 500 kg/m3. Hỏi thớt nặng bao nhiêu gam? (làm tròn đến hàng đơn vị). Công thức tính thể tích hình trụ là V = S.h (S là diện tích đáy và h là chiều cao hình trụ).",
+     "explanation": "Thể tích hình trụ: $V = S \\cdot h = 121\\pi \\cdot 4 = 484\\pi$ cm³.\nĐổi 500 kg/m³ = $\\frac{500 \\cdot 1000}{100^3} = 0,5$ g/cm³.\nKhối lượng thớt: $m = V \\cdot D = 484\\pi \\cdot 0,5 \\approx 760$ gam.",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thể tích hình trụ: $V = S \\cdot h = 121\\pi \\cdot 4 =$ {{1}}$\\pi$ cm$^3$",
+       "Đổi 500 kg/m$^3$ = {{2}} g/cm$^3$",
+       "Khối lượng thớt: $m = V \\cdot D = 484\\pi \\cdot$ {{3}} $\\approx$ {{4}} gam"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "484"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0.5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "760"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 4",
+   "question": "Thớt là một dụng cụ sử dụng trong bếp của mỗi gia đình để thái, chặt,... Một cái thớt hình trụ có đường kính đáy 22cm, cao 4cm. [[IMG:image1.jpeg]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D03",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số dãy ghế ban đầu: {{1}} dãy"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "12"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số dãy ghế ban đầu (dãy, điều kiện $x > 0$)",
+     "Biểu diễn số ghế mỗi dãy ban đầu theo $x$: {{1}}",
+     "Biểu diễn số ghế mỗi dãy lúc sau theo $x$: {{2}}",
+     "Phương trình: {{3}}",
+     "Giải phương trình ta tìm được $x =$ {{4}}",
+     "Vậy số dãy ghế ban đầu là {{5}} dãy"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "360/x"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "360/(x-2)"
+     },
+     {
+      "id": "3",
+      "loai": "bt",
+      "dap_an": "360/(x-2)-360/x=6"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "12"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "12"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Một phòng họp có 360 ghế ngồi được xếp thành từng dãy và số ghế của từng dãy đều như sau. Nếu giữ nguyên số ghế ngồi trong phòng nhưng giảm đi 2 dãy ghế thì số ghế trong mỗi dãy tăng thêm 6 ghế. Hỏi ban đầu trong phòng họp có bao nhiêu dãy ghế?",
+   "explanation": "Gọi $x$ (dãy) là số dãy ghế ban đầu, $x>0$.\nSố ghế mỗi dãy ban đầu: $\\frac{360}{x}$.\nSau khi giảm 2 dãy, số dãy là $x-2$, số ghế mỗi dãy là $\\frac{360}{x-2}$.\nTheo đề: $\\frac{360}{x-2} - \\frac{360}{x} = 6$.\n$\\Rightarrow 360x - 360(x-2) = 6x(x-2) \\Rightarrow 6x^2 - 12x - 720 = 0$.\nGiải phương trình: $x=12$ (nhận) hoặc $x=-10$ (loại).\nVậy ban đầu có 12 dãy ghế.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Xác định không gian mẫu của phép thử.",
+     "explanation": "Kí hiệu ba bạn Bình, Châu, Dương lần lượt là B, C, D.\nCác kết quả có thể xảy ra:\n- Bình ngồi ngoài cùng bên trái: BCD, BDC.\n- Bình ngồi giữa: CBD, DBC.\n- Bình ngồi ngoài cùng bên phải: CDB, DCB.\nVậy không gian mẫu $\\Omega = \\{BCD; BDC; CBD; DBC; CDB; DCB\\}$.",
+     "points": 1,
+     "type": "multiple_choice",
+     "options": [
+      "$\\Omega = \\{BCD; BDC; CBD; DBC; CDB; DCB\\}$",
+      "$\\Omega = \\{BCD; BDC; CBD; DBC; CDB\\}$",
+      "$\\Omega = \\{BCD; BDC; CBD; DBC; CDB; DCB; BDC\\}$",
+      "$\\Omega = \\{BCD; BDC; CBD; DBC; CDB; DCB; BCD\\}$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của các biến cố sau:\n1) E: \"Bình không ngồi ngoài cùng bên phải\";\n2) F: \"Châu và Dương không ngồi cạnh nhau\".",
+     "explanation": "Không gian mẫu có 6 phần tử.\nBiến cố E: Bình không ngồi ngoài cùng bên phải, tức là Bình không ở vị trí thứ ba. Các kết quả thuận lợi: BCD, BDC, CBD, DBC. Vậy $P(E)=\\frac{4}{6}=\\frac{2}{3}$.\nBiến cố F: Châu và Dương không ngồi cạnh nhau. Các kết quả thuận lợi: CBD, DBC. Vậy $P(F)=\\frac{2}{6}=\\frac{1}{3}$.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "P(E)=2/3; P(F)=1/3"
+    }
+   ],
+   "points": 2,
+   "bai_goc": "Bài 6",
+   "question": "Ba bạn Bình, Châu, Dương được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B3.D01",
+   "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
+  }
+ ],
+ "flags": []
+}

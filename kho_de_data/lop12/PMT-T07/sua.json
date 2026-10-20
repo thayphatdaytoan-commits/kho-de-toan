@@ -1,0 +1,52 @@
+{
+ "de1.P3.C6": {
+  "question": "Một doanh nghiệp kinh doanh một loại sản phẩm $T$ được sản xuất trong nước. Qua nghiên cứu thấy rằng nếu chi phí sản xuất mỗi sản phẩm $T$ là $x$ (đô la) thì số sản phẩm $T$ các nhà máy sản xuất sẽ là $R(x)=x-200$ và số sản phẩm $T$ mà doanh nghiệp bán được trên thị trường trong nước sẽ là $Q(x)=4200-x$. Số sản phẩm còn dư doanh nghiệp xuất khẩu ra thị trường quốc tế với giá bán mỗi sản phẩm ổn định trên thị trường quốc tế là $x_0=3200$ (đô la). Nhà nước đánh thuế trên mỗi sản phẩm xuất khẩu là $a$ (đô la) và luôn đảm bảo tỉ lệ giữa lãi xuất khẩu của doanh nghiệp và thuế thu được của nhà nước tương ứng là $4:1$. Hãy xác định giá trị của $a$ biết lãi mà doanh nghiệp thu được do xuất khẩu là nhiều nhất.",
+  "short_correct": "100",
+  "sua_boi": "cursor",
+  "ly_do": "Ký hiệu đô la «$» trong công thức MathType làm vỡ LaTeX; viết lại thành chữ «đô la». Đã giải lại: số xuất khẩu $2x-4400$, lãi mỗi sản phẩm $3200-x-a=4a$ nên lãi $=(2000-10a)\\cdot 4a$ lớn nhất khi $a=100$.",
+  "xac_nhan": true
+ },
+ "de1.P3.C10": {
+  "type": "true_false_group",
+  "question": "Aria mua một ngôi nhà với giá bán $P=290\\,000$ đô la theo hình thức mua trả góp, lãi suất $8,25\\%$ một năm, trong vòng 30 năm, với số tiền phải trả mỗi tháng không đổi bằng $M$ (đô la). Gọi $r$ là lãi suất một tháng.",
+  "tf": {
+   "a": "Số tiền Aria còn nợ sau tháng đầu tiên là $A_1=P(1+r)-M$ (đô la).",
+   "b": "$r=0,6875\\%$.",
+   "c": "Tổng số tiền Aria phải trả sau 30 năm gấp hơn 2,5 lần so với giá bán $P$ của ngôi nhà.",
+   "d": "Mỗi tháng, Aria quyết định trả thêm 250 đô la so với số tiền phải trả $M$. Cô ấy sẽ trả hết tiền mua nhà trong 20 năm."
+  },
+  "tf_ans": {
+   "a": true,
+   "b": true,
+   "c": true,
+   "d": false
+  },
+  "explanation": "30 năm $=360$ tháng, lãi suất một tháng $r=\\dfrac{8,25\\%}{12}=0,6875\\%$.\nSố tiền còn nợ sau tháng đầu tiên là $A_1=P(1+r)-M$. (a đúng)\nSau tháng thứ $n$: $A_n=P(1+r)^n-M\\dfrac{(1+r)^n-1}{r}$. Hết nợ sau 360 tháng nên $M=\\dfrac{P(1+r)^{360}r}{(1+r)^{360}-1}\\approx 2178,67$ (đô la).\nTổng số tiền phải trả $2178,67\\cdot 360\\approx 784\\,321,2$ (đô la), gấp khoảng $2,705$ lần giá $P$. (c đúng)\nTrả thêm 250 đô la: $M'=M+250=2428,67$. Từ $A_n=0$ suy ra $n=\\log_{1+r}\\dfrac{M'}{M'-Pr}\\approx 251,03$ tháng $\\approx 20,9$ năm, nhiều hơn 20 năm. (d sai)",
+  "sua_boi": "cursor",
+  "ly_do": "Câu đúng/sai a)–d) bị đọc thành trả lời ngắn; ký hiệu «$» đô la làm vỡ LaTeX. Viết lại đề, mệnh đề và lời giải; đã tính lại: M ≈ 2178,67; tổng/P ≈ 2,705; n ≈ 251,03 tháng.",
+  "xac_nhan": true
+ },
+ "de1.P3.C32": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": false
+  },
+  "sua_boi": "cursor",
+  "ly_do": "Kết luận «c) Đúng» dính vào cuối dòng ý b nên không đọc được. Đã tính lại: $S_6=36\\cdot\\dfrac{1,1^6-1}{0,1}\\approx 277,76$ (c đúng); bảo hiểm 5 năm $\\approx 60,24\\neq 30,12$ (d sai); $(u_n)$ là cấp số nhân (b sai)."
+ },
+ "de1.P3.C5": {
+  "short_correct": "3032",
+  "explanation": "Tính quãng đường từ $t=0$ đến $t=30$s:\n* Giai đoạn 1 (0 $\\le t\\le 10$s):\nGia tốc: ${{a}_{1}}(t)=2t+5$.\nVận tốc: ${{v}_{1}}(t)=\\int{{{a}_{1}}}(t)dt=\\int{(2t+5)}dt={{t}^{2}}+5t+C.$ Tại $t=0$, ${{v}_{1}}(0)=0\\Rightarrow C=0$.\nSuy ra ${{v}_{1}}(t)={{t}^{2}}+5t.$\nQuãng đường: ${{S}_{1}}=\\int_{0}^{10}{{{v}_{1}}}(t)dt=\\int_{0}^{10}{({{t}^{2}}+5t)}dt=\\left[ \\frac{{{t}^{3}}}{3}+\\frac{5{{t}^{2}}}{2} \\right]_{0}^{10}=\\frac{1000}{3}+250=\\frac{1750}{3}m$\n* Giai đoạn 2 (10s $\\le t<20$s):\nVận tốc ổn định: ${{v}_{2}}={{v}_{1}}(10)={{10}^{2}}+5\\times 10=150$ m/s.\nQuãng đường: ${{S}_{2}}={{v}_{2}}\\times \\Delta t=150\\times 10=1500\\text{ m}.$\n* Giai đoạn 3 (t $\\ge $ 20s):\nPhương trình gia tốc: ${{a}_{3}}(t)=-0,1v(t)$.\nĐây là phương trình vi phân: $\\frac{dv}{dt}=-0,1v\\Rightarrow \\frac{dv}{v}=-0,1dt$\nTích phân hai vế: $\\ln |v|=-0,1t+C\\Rightarrow v(t)={{v}_{0}}{{e}^{-0,1t}}$\nTại $t=20s$, ${{v}_{0}}={{v}_{2}}=150$ m/s, nên: $v(t)=150{{e}^{-0,1(t-20)}}$\nQuãng đường từ $t=20s$ đến $t=30s$: ${{S}_{3}}=\\int_{20}^{30}{1}50{{e}^{-0,1(t-20)}}dt\\approx 948,18$\nTổng quãng đường:$S={{S}_{1}}+{{S}_{2}}+{{S}_{3}}=\\frac{1750}{3}+1500+948,18\\approx 3032m$",
+  "sua_boi": "cursor",
+  "xac_nhan": true,
+  "ly_do": "Đáp án tự động lấy nhầm 0,0015 vì lời giải dính thêm «câu hỏi thêm» và một bài xác suất không đánh số. Giữ phần lời giải tên lửa; đã tính lại: $\\frac{1750}{3}+1500+1500(1-e^{-1})\\approx 3031,5\\approx 3032$ m."
+ },
+ "de1.P3.C8": {
+  "short_correct": "6",
+  "sua_boi": "cursor",
+  "xac_nhan": true,
+  "ly_do": "Đáp án tự động lấy nhầm 2; lời giải kết luận «có 6 điểm» (3 đoạn, mỗi đoạn 2 điểm nguyên)."
+ }
+}

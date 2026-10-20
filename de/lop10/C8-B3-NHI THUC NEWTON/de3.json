@@ -1,0 +1,629 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "8",
+  "lesson": "3",
+  "title": "Bài 3. Nhị thức newton"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Dùng hai số hạng đầu tiên trong khai triển của ${{\\left( 3-0,01 \\right)}^{5}}$ để tính gần đúng số ${{\\left( 2,99 \\right)}^{5}}$ ta được kết quả gần nhất với giá trị nào sau đây?",
+   "explanation": "Ta có: ${{\\left( 3-0,01 \\right)}^{5}}\\approx {{3}^{5}}-{{5.3}^{4}}.0,01\\approx 238,95$.",
+   "options": [
+    "$238,95$",
+    "$247,05$",
+    "$243,81$",
+    "$238,98$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong khai triển của nhị thức ${{\\left( 3{{x}^{2}}-y \\right)}^{4}}$chứa số hạng $54{{x}^{4}}{{y}^{k}}$ thì giá trị của $k$ là",
+   "explanation": "Ta có:\n$\\begin{aligned} & {{\\left( 3{{x}^{2}}-y \\right)}^{4}}=C_{4}^{0}{{\\left( 3{{x}^{2}} \\right)}^{4}}+C_{4}^{1}{{\\left( 3{{x}^{2}} \\right)}^{3}}\\left( -y \\right)+C_{4}^{2}{{\\left( 3{{x}^{2}} \\right)}^{2}}{{\\left( -y \\right)}^{2}}+C_{4}^{3}\\left( 3{{x}^{2}} \\right){{\\left( -y \\right)}^{3}}+C_{4}^{4}{{\\left( -y \\right)}^{4}} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=81{{x}^{8}}-108{{x}^{6}}y+54{{x}^{4}}{{y}^{2}}-12{{x}^{2}}{{y}^{3}}+{{y}^{4}} \\\\ \\end{aligned}$.\nVậy giá trị $k=2$.",
+   "options": [
+    "$2$",
+    "$1$",
+    "$3$",
+    "$4$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho khai triển nhị thức ${{\\left( 22x-23y \\right)}^{5}}$. Số hạng chứa ${{x}^{3}}{{y}^{2}}$ có hệ số là",
+   "explanation": "Ta có :\n$\\begin{aligned} & {{\\left( 22x-23y \\right)}^{5}}=C_{5}^{0}{{\\left( 22x \\right)}^{5}}-C_{5}^{1}{{\\left( 22x \\right)}^{4}}{{\\left( 23y \\right)}^{1}} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,+C_{5}^{2}{{\\left( 22x \\right)}^{3}}{{\\left( 23y \\right)}^{2}}-C_{5}^{3}{{\\left( 22x \\right)}^{2}}{{\\left( 23y \\right)}^{3}}+C_{5}^{4}{{\\left( 22x \\right)}^{1}}{{\\left( 23y \\right)}^{4}}-C_{5}^{5}{{\\left( 23y \\right)}^{5}} \\\\ \\end{aligned}$\nHệ số của số hạng chứa ${{x}^{3}}{{y}^{2}}$ là $C_{5}^{2}{{.22}^{3}}{{.23}^{2}}$.",
+   "options": [
+    "$C_{5}^{2}{{.23}^{3}}{{.22}^{2}}$",
+    "$C_{5}^{2}{{.22}^{3}}{{.23}^{2}}$",
+    "$C_{5}^{4}{{.22}^{4}}{{.23}^{1}}$",
+    "$-C_{5}^{2}{{.22}^{3}}{{.23}^{2}}$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Khai triển biểu thức ${{\\left( {{x}^{2}}+2y \\right)}^{5}}$ là",
+   "explanation": "Theo công thức nhị thức Newton, ta có\n$\\begin{aligned} & {{\\left( {{x}^{2}}+2y \\right)}^{5}} \\\\ & =C_{5}^{0}{{\\left( {{x}^{2}} \\right)}^{5}}+C_{5}^{1}{{\\left( {{x}^{2}} \\right)}^{4}}\\left( 2y \\right)+C_{5}^{2}{{\\left( {{x}^{2}} \\right)}^{3}}{{\\left( 2y \\right)}^{2}}+C_{5}^{3}{{\\left( {{x}^{2}} \\right)}^{2}}{{\\left( 2y \\right)}^{3}}+C_{5}^{4}{{\\left( {{x}^{2}} \\right)}^{1}}{{\\left( 2y \\right)}^{4}}+C_{5}^{5}{{\\left( 2y \\right)}^{5}} \\\\ \\end{aligned}$\n$={{x}^{10}}+10{{x}^{8}}y+40{{x}^{6}}{{y}^{2}}+80{{x}^{4}}{{y}^{3}}+80{{x}^{2}}{{y}^{4}}+32{{y}^{5}}$.",
+   "options": [
+    "${{x}^{10}}+10{{x}^{8}}y+40{{x}^{6}}{{y}^{2}}+80{{x}^{4}}{{y}^{3}}+80{{x}^{2}}{{y}^{4}}+32{{y}^{5}}$",
+    "${{x}^{10}}-10{{x}^{8}}y+40{{x}^{6}}{{y}^{2}}-80{{x}^{4}}{{y}^{3}}+80{{x}^{2}}{{y}^{4}}-32{{y}^{5}}$",
+    "$32{{x}^{10}}+80{{x}^{8}}y+80{{x}^{6}}{{y}^{2}}+40{{x}^{4}}{{y}^{3}}+10{{x}^{2}}{{y}^{4}}+{{y}^{5}}$",
+    "$32{{x}^{10}}-80{{x}^{8}}y+80{{x}^{6}}{{y}^{2}}-40{{x}^{4}}{{y}^{3}}+10{{x}^{2}}{{y}^{4}}-{{y}^{5}}$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Xác định số hạng chứa ${{x}^{3}}$ trong khai triển biểu thức ${{\\left( x-1 \\right)}^{5}}$.",
+   "explanation": "Ta có số hạng chứa ${{x}^{3}}$ trong khai triển biểu thức ${{\\left( x-1 \\right)}^{5}}$là $C_{5}^{3}{{x}^{3}}{{(-1)}^{2}}=C_{5}^{3}{{x}^{3}}$.",
+   "options": [
+    "$-C_{5}^{3}{{x}^{3}}$",
+    "$C_{5}^{3}{{x}^{3}}$",
+    "$C_{5}^{3}$",
+    "$-C_{5}^{3}$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Xác định hệ số của ${{x}^{2}}$ trong khai triển biểu thức ${{\\left( 2x+1 \\right)}^{4}}$:",
+   "explanation": "Ta có: số hạng chứa ${{x}^{2}}$ là $C_{4}^{2}{{\\left( 2x \\right)}^{2}}{{.1}^{2}}=4C_{4}^{2}{{x}^{2}}$.\nHệ số là: $4C_{4}^{2}=24$.",
+   "options": [
+    "$6{{x}^{2}}$",
+    "$16{{x}^{2}}$",
+    "$12$",
+    "$24$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tìm hệ số của ${x^2}$ trong khai triển thành đa thức của biểu thức ${(3x-2)^4}$.",
+   "explanation": "Ta có\n$\\begin{array}{llllll} {{(3x-2)}^{4}} & =C_{4}^{0}{{(3x)}^{4}}+C_{4}^{1}{{(3x)}^{3}}.(-2)+C_{4}^{2}{{(3x)}^{2}}.{{(-2)}^{2}}+C_{4}^{3}(3x).{{(-2)}^{3}}+C_{4}^{4}{{(-2)}^{4}} \\\\ {} & =81{{x}^{4}}-216{{x}^{3}}+216{{x}^{2}}-96x+16. \\\\ \\end{array}$\nVậy hệ số của ${x^2}$ là ${216}$.",
+   "options": [
+    "${-216}$",
+    "${216}$",
+    "${-96}$",
+    "${96}$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hệ số của ${{x}^{5}}$trong khai triển ${{(2x+3)}^{5}}$là",
+   "explanation": "Số hạng tổng quát của khai triển là ${{T}_{k+1}}=C_{5}^{k}{{(2x)}^{5-k}}{{3}^{k}}=C_{5}^{k}{{2}^{5-k}}{{3}^{k}}{{x}^{5-k}}\\,\\,$.\nTheo bài ra ta có $5-k=5\\Leftrightarrow k=0$.\nVậy hệ số của ${{x}^{5}}$trong khai triển là $C_{5}^{0}{{2}^{5}}=32$.",
+   "options": [
+    "$32$",
+    "$16$",
+    "$243$",
+    "$C_{5}^{2}{{2}^{3}}{{3}^{2}}$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tổng $S=C_{5}^{0}+2C_{5}^{1}+{{2}^{2}}C_{5}^{2}+...+{{2}^{5}}C_{5}^{5}$ bằng",
+   "explanation": "Xét khai triển ${{\\left( 1+x \\right)}^{5}}=C_{5}^{0}+xC_{5}^{1}+{{x}^{2}}C_{5}^{2}+...+{{x}^{5}}C_{5}^{5}$.\nThay $x=2$ ta được: $S=C_{5}^{0}+2C_{5}^{1}+{{2}^{2}}C_{5}^{2}+...+{{2}^{5}}C_{5}^{5}={{\\left( 1+2 \\right)}^{5}}={{3}^{5}}=243$.",
+   "options": [
+    "$324$",
+    "$435$",
+    "$243$",
+    "$342$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Dùng hai số hạng đầu của khai triển ${{\\left( 1+x \\right)}^{5}}$ để tính gần đúng số $1,{{001}^{5}}$?",
+   "explanation": "Ta có\n${{\\left( 1+x \\right)}^{5}}=1+C_{5}^{1}x+C_{5}^{2}{{x}^{2}}+C_{5}^{3}{{x}^{3}}+C_{5}^{4}{{x}^{4}}+{{x}^{5}}=1+5x+10{{x}^{2}}+10{{x}^{3}}+5{{x}^{4}}+{{x}^{5}}$\nnên $1,{{001}^{5}}={{\\left( 1+0,001 \\right)}^{5}}\\approx 1+5.0,001\\approx 1+0,005\\approx 1,005$.",
+   "options": [
+    "$1,005$",
+    "$1,05$",
+    "$1,01$",
+    "$1,001$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tìm số hạng không chứa $x$trong khai triển của biểu thức $P\\left( x \\right)={{\\left( 1+x+\\frac{1}{{{x}^{2}}} \\right)}^{n}}$. Biết rằng $C_{n}^{2}+C_{n}^{3}=4n$",
+   "explanation": "Điều kiện$n\\ge 3,\\,n\\in \\Nu $\nTa có $C_{n}^{2}+C_{n}^{3}=4n\\Leftrightarrow C_{n+1}^{3}=4n\\Leftrightarrow \\frac{\\left( n+1 \\right)n\\left( n-1 \\right)}{6}=4n\\Leftrightarrow {{n}^{2}}-1=24\\Leftrightarrow n=5$\nKhi đó $P\\left( x \\right)={{\\left( 1+x+\\frac{1}{{{x}^{2}}} \\right)}^{5}}=\\sum\\limits_{k=0}^{5}{C_{5}^{k}{{\\left( \\frac{1}{{{x}^{2}}} \\right)}^{5-k}}{{\\left( 1+x \\right)}^{k}}}=\\sum\\limits_{k=0}^{5}{\\sum\\limits_{i=0}^{k}{C_{5}^{k}C_{k}^{i}}{{\\left( \\frac{1}{{{x}^{2}}} \\right)}^{5-k}}.{{x}^{i}}}=\\sum\\limits_{k=0}^{5}{\\sum\\limits_{i=0}^{k}{C_{5}^{k}C_{k}^{i}.{{x}^{2k+i-10}}}}$\nSố hạng không chứa $x$ứng với $2k+i-10=0\\Rightarrow \\left( k;i \\right)\\in \\left\\{ \\left( 5;0 \\right);\\left( 4;2 \\right) \\right\\}$\nVậy số hạng không chứa $x$là: $C_{5}^{5}.C_{5}^{0}+C_{5}^{4}.C_{4}^{2}=31$.",
+   "options": [
+    "$30.$",
+    "$2$",
+    "$1$",
+    "$31$"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Dùng hai số hạng đầu tiên trong khai triển của ${{\\left( 1+0,03 \\right)}^{5}}$để tính giá trị gần đúng của $1,{{03}^{5}}$ được kết quả bằng",
+   "explanation": "Áp dụng Nhị thức NewTon ta có ${{(1+0,03)}^{5}}={{1}^{5}}+5.0,{{03.1}^{4}}+10.0,{{03}^{2}}{{.1}^{3}}+10.0,{{03}^{3}}{{.1}^{2}}+5.0,{{03}^{4}}.1+0,{{03}^{5}}$.\nDo đó, khi dùng hai số hạng đầu tiên thì ta được $1,{{03}^{5}}={{(1+0,03)}^{5}}\\approx {{1}^{5}}+5.0,{{03.1}^{4}}\\approx 1+5.0,03\\approx 1,15$.",
+   "options": [
+    "$1,1$",
+    "$1,14$",
+    "$1,15$",
+    "$1,16$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số của ${{x}^{4}}$ trong khai triển là $81$",
+    "b": "Hệ số của ${{x}^{3}}$ trong khai triển là $118$",
+    "c": "Hệ số của ${{x}^{2}}$ trong khai triển là $54$",
+    "d": "Hệ số của $x$ trong khai triển là $1$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khai triển ${(3 x+1)^{4}}$. Khi đó:",
+   "explanation": "${(3 x+1)^4=(3 x)^4+4 \\cdot(3 x)^3 \\cdot 1+6 \\cdot(3 x)^2 \\cdot 1^2+4 \\cdot 3 x \\cdot 1^3+1^4}$ $=81{{x}^{4}}+108{{x}^{3}}+54{{x}^{2}}+12x+1.\\text{ }$",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số của ${{x}^{4}}$ trong khai triển là $10$",
+    "b": "Hệ số của ${{x}^{3}}$ trong khai triển là $40$",
+    "c": "Hệ số của ${{x}^{2}}$ trong khai triển là $54$",
+    "d": "Hệ số của $x$ trong khai triển là $80$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khai triển ${(x+2)^{5}}$. Khi đó:",
+   "explanation": "${(x+2)^5=x^5+5 \\cdot x^4 \\cdot 2+10 \\cdot x^3 \\cdot 2^2+10 \\cdot x^2 \\cdot 2^3+5 \\cdot x \\cdot 2^4+2^5}$ $={{x}^{5}}+10{{x}^{4}}+40{{x}^{3}}+80{{x}^{2}}+80x+32.\\text{ }$",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số của ${{x}^{4}}$ trong khai triển là $2$",
+    "b": "Hệ số của ${{x}^{2}}$ trong khai triển là $2$",
+    "c": "Hệ số lớn nhất trong tất cả các hệ số là $12$",
+    "d": "Số hạng không chứa $x$ là $2$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khai triển ${(x-1)^{4}+(x+1)^{4}}$. Khi đó:",
+   "explanation": "${(x-1)^4+(x+1)^4=\\left(x^4-4 x^3+6 x^2-4 x+1\\right)+\\left(x^4+4 x^3+6 x^2+4 x+1\\right)}$ $=2{{x}^{4}}+12{{x}^{2}}+2.\\text{ }$",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số của ${{x}^{4}}$ trong khai triển là 250",
+    "b": "Hệ số của ${{x}^{3}}$ trong khai triển là $-256$",
+    "c": "Hệ số của ${{x}^{2}}$ trong khai triển là 96",
+    "d": "Hệ số của $x$ trong khai triển là $-16$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khai triển ${(4 x-1)^{4}}$. Khi đó:",
+   "explanation": "Ta có: ${(4 x-1)^4=256 x^4-256 x^3+96 x^2-16 x+1}$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm hệ số của ${x^{11}}$ trong khai triển ${\\left(3 x-x^2\\right)^{10}}$.",
+   "explanation": "Số hạng tổng quát trong khai triển có dạng:\n${C_{10}^k(3 x)^{10-k} \\cdot\\left(-x^2\\right)^k=C_{10}^k \\cdot 3^{10-k} \\cdot(-1)^k \\cdot x^{10-k} \\cdot x^{2 k}=C_{10}^k \\cdot 3^{10-k} \\cdot(-1)^k \\cdot x^{10+k} }$\nSố hạng chứa ${x^{11}}$ tương ứng với: ${10+k=11 \\Leftrightarrow k=1}$\nVậy hệ số của ${x^{11}}$ là: ${C_{10}^1 \\cdot 3^{10-1} \\cdot(-1)^1=-196830}$.",
+   "short_value": -196830,
+   "short_correct": "-196830",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm số hạng chứa ${x^5}$ trong khai triển ${\\left(2 x+\\frac{1}{2 x}\\right)^9}$.",
+   "explanation": "Số hạng tổng quát trong khai triển có dạng:\n${C_9^k(2 x)^{9-k} \\cdot\\left(\\frac{1}{2 x}\\right)^k=C_9^k \\cdot 2^{9-k} \\cdot x^{9-k} \\cdot \\frac{1}{2^k x^k}=C_9^k \\cdot 2^{9-k} \\cdot \\frac{1}{2^k} x^{9-2 k} }$\nSố hạng chứa ${x^5}$ tương ứng với: ${9-2 k=5 \\Leftrightarrow k=2}$\nVậy số hạng chứa ${x^5}$ là: ${C_9^2 \\cdot 2^{9-2} \\cdot \\frac{1}{2^2} x^5=1152 x^5}$.",
+   "short_value": null,
+   "short_correct": "1152x^{5}",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính tổng ${S=C_n^0+C_n^1+C_n^2+\\ldots+C_n^n}$.",
+   "explanation": "Ta có: ${(1+x)^n=C_n^0+C_n^1 \\cdot x+C_n^2 \\cdot x^2+\\ldots+C_n^n \\cdot x^n}$\nTa thay ${x=1}$ vào hai vế khai triển trên, ta được:\n${S=C_n^0+C_n^1+C_n^2+\\ldots+C_n^n=(1+1)^n=2^n }$",
+   "short_value": null,
+   "short_correct": "2^{n}",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho ${n}$ là số tự nhiên thỏa mãn ${n^2-6 n-7=0}$.\nTính tổng ${S=C_n^0+C_n^1+\\ldots+C_n^n}$.",
+   "explanation": "Ta có ${n^2-6 n-7=0 \\Leftrightarrow\\left[\\begin{array}{l}n=7 \\\\ n=-1\\end{array}\\right.}$. Do ${n \\in {N}}$ nên ${n=7}$.\nKhi đó: ${S=C_7^0+C_7^1+\\ldots+C_7^7}$.\nXét khai triển ${(a+b)^7=\\sum_{k=0}^7 C_7^k a^{7-k} b^k}$. Ta chọn ${a=b=1}$, thu được: ${(1+1)^7=C_7^0+C_7^1+\\ldots+C_7^7}$\nVậy ${S=2^7=128}$.",
+   "short_value": 128,
+   "short_correct": "128",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm số hạng có hệ số nguyên trong khai triển thành đa thức của ${\\left(\\frac{3}{2}-\\frac{2}{3} x^2\\right)^n}$ biết ${n}$ là số nguyên dương thỏa mãn: ${C_{2 n+1}^0+C_{2 n+1}^2+C_{2 n+1}^4+\\ldots+C_{2 n+1}^{2 n}=1024}$",
+   "explanation": "Ta có ${(x+1)^{2 n+1}=C_{2 n+1}^0 x^{2 n+1}+C_{2 n+1}^1 x^{2 n}+\\ldots+C_{2 n+1}^{2 n} x+C_{2 n+1}^{2 n+1} \\quad}$ (1).\nThay ${x=1}$ vào (1) ta được ${2^{2 n+1}=C_{2 n+1}^0+C_{2 n+1}^1+\\ldots+C_{2 n+1}^{2 n}+C_{2 n+1}^{2 n+1}}$ (2).\nThay ${x=-1}$ vào (1) ta được ${0=-C_{2 n+1}^0+C_{2 n+1}^1-\\ldots-C_{2 n+1}^{2 n}+C_{2 n+1}^{2 n+1}}$ (3).\nLấy ${(2)-(3)}$ vế theo vế ta được ${2^{2 n+1}=2\\left(C_{2 n+1}^0+C_{2 n+1}^2+\\ldots+C_{2 n+1}^{2 n}\\right)}$.\nTheo đề ${2^{2 n+1}=2.1024 \\Leftrightarrow n=5}$.\nSố hạng tổng quát của khai triển ${\\left(\\frac{3}{2}-\\frac{2}{3} x^2\\right)^n}$ là:\n${{T}_{k+1}}=C_{5}^{k}\\cdot {{\\left( \\frac{3}{2} \\right)}^{5-k}}\\cdot {{\\left( -\\frac{2}{3}{{x}^{2}} \\right)}^{k}}=C_{5}^{k}\\cdot {{(-1)}^{k}}\\cdot {{3}^{5-2k}}\\cdot {{2}^{2k-5}}{{x}^{2k}}\\text{. }$\n[[IMG:image11.png]]Ta có bảng sau\nVậy số hạng có hệ số nguyên là ${15 x^4}$.",
+   "short_value": null,
+   "short_correct": "15x^{4}",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho ${n}$ là số tự nhiên. Hãy tính tổng sau: $S=C_{2n+1}^{0}+C_{2n+1}^{1}+C_{2n+1}^{2}+\\ldots +C_{2n+1}^{n}.$",
+   "explanation": "$\\begin{aligned} & S=C_{2n+1}^{0}+C_{2n+1}^{1}+C_{2n+1}^{2}+\\ldots +C_{2n+1}^{n},\\Rightarrow 2S \\\\ & =\\left[ C_{2n+1}^{0}+C_{2n+1}^{1}+\\ldots +C_{2n+1}^{n} \\right]+\\left[ C_{2n+1}^{0}+C_{2n+1}^{1}+\\ldots +C_{2n+1}^{n} \\right]. \\\\ \\end{aligned}$\nTa có ${C_n^k=C_n^{n-k}}$ (tính chất tổ hợp).\n$\\begin{aligned} & \\Rightarrow 2S=\\left[ C_{2n+1}^{0}+C_{2n+1}^{1}+\\ldots +C_{2n+1}^{n} \\right]+\\left[ C_{2n+1}^{2n+1}+C_{2n+1}^{2n}+\\ldots +C_{2n+1}^{n+1} \\right], \\\\ & \\Rightarrow 2S=C_{2n+1}^{0}+C_{2n+1}^{1}+\\ldots +C_{2n+1}^{n}+C_{2n+1}^{n+1}+\\ldots +C_{2n+1}^{2n}+C_{2n+1}^{2n}\\text{, } \\\\ \\end{aligned}$\nXét khai triển ${(x+1)^{2 n+1}=C_{2 n+1}^0 x^0+C_{2 n+1}^1 x^1+\\ldots+C_{2 n+1}^{2 n+1} x^{2 n+1}}$,\nKhi ${x=1 \\Rightarrow 2 S=2^{2 n+1} \\Rightarrow S=2^{2 n}=4^n}$.",
+   "short_value": null,
+   "short_correct": "4^{n}|2^{2n}",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C8.B3.D01",
+   "dang_toan_web": "Khai triển nhị thức Newton (giới hạn cho các trường hợp số mũ nhỏ như $n=4$ hoặc $n=5$)."
+  }
+ ],
+ "flags": []
+}

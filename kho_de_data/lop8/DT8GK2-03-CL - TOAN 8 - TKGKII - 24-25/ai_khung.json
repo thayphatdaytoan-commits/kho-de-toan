@@ -1,0 +1,689 @@
+{
+ "by": "DeepSeek",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Đồ thị $d_1$: $y = -3x + 1$ đi qua hai điểm {{1}} và {{2}}."
+    ],
+    "hint": "Xác định hai điểm thuộc d1"
+   },
+   {
+    "lines": [
+     "Đồ thị $d_2$: $y = \\frac{1}{3}x - 2$ đi qua hai điểm {{3}} và {{4}}."
+    ],
+    "hint": "Xác định hai điểm thuộc d2"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng {{5}} qua hai điểm {{6}} và {{7}}."
+    ],
+    "hint": "Vẽ đường thẳng d1"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng {{8}} qua hai điểm {{9}} và {{10}}."
+    ],
+    "hint": "Vẽ đường thẳng d2"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "(0;1)",
+     "(0,1)"
+    ],
+    "keywords": [
+     "0",
+     "1"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "(1;-2)",
+     "(1,-2)"
+    ],
+    "keywords": [
+     "1",
+     "-2"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "(0;-2)",
+     "(0,-2)"
+    ],
+    "keywords": [
+     "0",
+     "-2"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "(3;-1)",
+     "(3,-1)"
+    ],
+    "keywords": [
+     "3",
+     "-1"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "d1",
+     "d_1"
+    ],
+    "keywords": [
+     "d1"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "(0;1)",
+     "(0,1)"
+    ],
+    "keywords": [
+     "0",
+     "1"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "input",
+    "answers": [
+     "(1;-2)",
+     "(1,-2)"
+    ],
+    "keywords": [
+     "1",
+     "-2"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "input",
+    "answers": [
+     "d2",
+     "d_2"
+    ],
+    "keywords": [
+     "d2"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "input",
+    "answers": [
+     "(0;-2)",
+     "(0,-2)"
+    ],
+    "keywords": [
+     "0",
+     "-2"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "input",
+    "answers": [
+     "(3;-1)",
+     "(3,-1)"
+    ],
+    "keywords": [
+     "3",
+     "-1"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "(0;1)",
+   "(1;-2)",
+   "(0;-2)",
+   "(3;-1)",
+   "(2;0)",
+   "(-1;4)",
+   "d1",
+   "d2",
+   "d3",
+   "y=-3x+1",
+   "y=1/3x-2"
+  ],
+  "ordered": false
+ },
+ "5a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle ABC$ có {{1}} là trung điểm {{2}} (giả thiết), {{3}} là trung điểm {{4}} (giả thiết)."
+    ],
+    "hint": "Xét trung điểm hai cạnh"
+   },
+   {
+    "lines": [
+     "Suy ra {{5}} là đường trung bình của $\\triangle {{6}}$."
+    ],
+    "hint": "Suy ra đường trung bình"
+   },
+   {
+    "lines": [
+     "Do đó {{7}} // {{8}}."
+    ],
+    "hint": "Chứng minh song song"
+   },
+   {
+    "lines": [
+     "Và {{9}} = $\\frac{1}{2}$ {{10}}."
+    ],
+    "hint": "Suy ra hệ thức độ dài"
+   },
+   {
+    "lines": [
+     "Thay {{11}} = 10 cm, suy ra {{12}} = 2.10 = {{13}} cm."
+    ],
+    "hint": "Tính độ dài BC"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "N"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "input",
+    "answers": [
+     "20"
+    ],
+    "keywords": [
+     "20"
+    ],
+    "placeholder": "kết quả",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "M",
+   "N",
+   "AB",
+   "AC",
+   "MN",
+   "BC",
+   "ABC",
+   "AM",
+   "AN",
+   "MB",
+   "NC",
+   "20",
+   "10",
+   "đường trung bình",
+   "song song"
+  ]
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle ABC$ có {{1}} là đường phân giác của góc {{2}} (giả thiết)."
+    ],
+    "hint": "Xét đường phân giác"
+   },
+   {
+    "lines": [
+     "Theo tính chất đường phân giác: $\\frac{{{3}}}{{{4}}} = \\frac{{{5}}}{{{6}}}$."
+    ],
+    "hint": "Áp dụng tính chất phân giác"
+   },
+   {
+    "lines": [
+     "Vì {{7}}, {{8}} lần lượt là trung điểm {{9}}, {{10}} nên {{11}} = 2{{12}}, {{13}} = 2{{14}}."
+    ],
+    "hint": "Thay trung điểm vào tỉ số"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{{2{{15}}}}{{2{{16}}}} = \\frac{{{{17}}}}{{{{18}}}}$."
+    ],
+    "hint": "Rút gọn tỉ số"
+   },
+   {
+    "lines": [
+     "Do đó $\\frac{{{{19}}}}{{{{20}}}} = \\frac{{{{21}}}}{{{{22}}}}$."
+    ],
+    "hint": "Suy ra tỉ số bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{{{{23}}}}{{{{24}}}} = \\frac{{{{25}}}}{{{{26}}}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "BAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "DB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "N"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "AM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "AM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "DB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "AM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "DB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "DB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "26",
+    "mode": "drag",
+    "answers": [
+     "AM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AD",
+   "BAC",
+   "AB",
+   "AC",
+   "DB",
+   "DC",
+   "AM",
+   "AN",
+   "M",
+   "N",
+   "BC",
+   "MN",
+   "trung điểm",
+   "phân giác",
+   "tương ứng"
+  ]
+ }
+}

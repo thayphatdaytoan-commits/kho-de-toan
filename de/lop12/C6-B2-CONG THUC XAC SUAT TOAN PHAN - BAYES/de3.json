@@ -1,0 +1,636 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "2",
+  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có hai chiếc hộp đựng 30 chiếc bút chì có hình dáng, kích thước giống nhau. Sau khi thống kê nhận được bảng số liệu sau:\n| Hộp Màu | I | II |\n|---|---|---|\n| Xanh | 15 | 5 |\n| Vàng | 5 | 5 |\nLấy ngẫu nhiên một chiếc bút từ hộp I bỏ sang hộp II. Sau đó, lấy ngẫu nhiên một chiếc bút từ hộp II. Xác suất để chiếc bút lấy ra từ hộp II có màu xanh là",
+   "explanation": "Gọi hai biến cố:\n$A$: “Lấy được bút xanh từ hộp I”;\n$B$: “Lấy được bút xanh từ hộp II”.\nTheo bài ra, ta có\n$P\\left( A \\right)=\\frac{15}{20}=\\frac{3}{4}$ ; $P\\left( \\overline{A} \\right)=1-\\frac{3}{4}=\\frac{1}{4}$ ; $P\\left( B|A \\right)=\\frac{6}{11}$ ; $P\\left( B|\\overline{A} \\right)=\\frac{5}{11}$.\nÁp dụng công thức xác suất toàn phần, ta có\n$P\\left( B \\right)=P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=\\frac{3}{4}.\\frac{6}{11}+\\frac{1}{4}.\\frac{5}{11}=\\frac{23}{44}$.",
+   "options": [
+    "$\\frac{3}{4}$",
+    "$\\frac{1}{4}$",
+    "$\\frac{6}{11}$",
+    "$\\frac{23}{44}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Có hai chiếc hộp đựng 50 viên bi có kích thước và khối lượng như nhau. Sau khi thống kê nhận được bảng số liệu sau:\n| Hộp Màu | I | II |\n|---|---|---|\n| Xanh | 15 | 10 |\n| Đỏ | 20 | 5 |\nChọn ngẫu nhiên một hộp, sau đó lấy ra ngẫu nhiên một viên bi từ hộp được chọn. Xác suất để chọn được viên bi màu đỏ là",
+   "explanation": "Xét hai biến cố\n$A$: “Chọn được hộp I”;\n$B$: “Chọn được viên bi màu đỏ”\n$P\\left( A \\right)=\\frac{1}{2}$ ; $P\\left( \\overline{A} \\right)=\\frac{1}{2}$ ; $P\\left( B|A \\right)=\\frac{20}{35}=\\frac{4}{7}$ ; $P\\left( B|\\overline{A} \\right)=\\frac{5}{15}=\\frac{1}{3}$.\nÁp dụng công thức xác suất toàn phần, ta có\n$P\\left( B \\right)=P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=\\frac{1}{2}.\\frac{4}{7}+\\frac{1}{2}.\\frac{1}{3}=\\frac{19}{42}$.",
+   "options": [
+    "$\\frac{1}{2}$",
+    "$\\frac{19}{42}$",
+    "$\\frac{1}{3}$",
+    "$\\frac{4}{7}$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Trong lễ khai giảng năm học mới, bạn An tham gia trò chơi gồm hai vòng. Xác suất thắng ở vòng chơi đầu tiên là $0,7$. Nếu An thắng ở vòng thứ nhất thì xác suất thắng ở vòng hai là $0,8$. Ngược lại, nếu An thua ở vòng thứ nhất thì xác suất thắng ở vòng hai là $0,4$. Gọi:\nBiến cố $A$: “Bạn An thắng ở vòng thứ nhất”;\nBiến cố $B$: “Bạn An thắng ở vòng thứ hai”\nTa có sơ đồ hình cây biểu thị tình huống trên như sau:\n[[IMG:image10.png]]\nXác xuất để An thắng ở vòng chơi thứ hai là",
+   "explanation": "$P\\left( B \\right)=P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=0,7.0,8+0,3.0,4=0,68$.",
+   "options": [
+    "$0,56$",
+    "$0,12$",
+    "$0,68$",
+    "$0,32$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong trò chơi bốc thăm trúng thưởng, có 20 phiếu bốc thăm trong đó có 8 phiếu trúng thưởng. Bạn Anh bốc thăm phiếu thứ nhất, sau đó bạn Bảo bốc thăm phiếu thứ hai. Gọi\nBiến cố $A$: “Bạn Anh bốc được phiếu trúng thưởng”;\nBiến cố $B$: “Bạn Bảo bốc được phiếu trúng thưởng”\nTa có sơ đồ hình cây biểu thị tình huống trên như sau:\n[[IMG:image11.emf]]\nXác suất bạn Bảo bốc được phiếu trúng thưởng là",
+   "explanation": "Dựa theo sơ đồ hình cây, ta có\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=\\frac{7}{19}.\\frac{2}{5}+\\frac{8}{19}.\\frac{3}{5}=\\frac{2}{5}$.",
+   "options": [
+    "$\\frac{14}{95}$",
+    "$\\frac{24}{95}$",
+    "$\\frac{3}{5}$",
+    "$\\frac{2}{5}$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hàng ngày, Hùng luyện tập hai môn thể thao là bóng chuyền hoặc cầu lông. Nếu hôm nay Hùng chơi bóng chuyền thì xác suất để hôm sau Hùng chơi cầu lông là $0,6$. Nếu hôm nay Hùng chơi cầu lông thì xác suất để hôm sau Hùng chơi bóng chuyền là $0,5$. Xét một tuần mà thứ hai Hùng chơi bóng chuyền. Gọi hai biến cố:\n$A$: “Thứ ba Hùng chơi cầu lông”;\n$B$: “Thứ ba Hùng chơi cầu lông”\nTa có sơ đồ hình cây biểu thị tình huống trên trong hai ngày thứ ba, thứ tư như sau:\n[[IMG:image12.png]]\nXác suất bạn Hùng chơi cầu lông vào thứ tư là",
+   "explanation": "Dựa theo sơ đồ hình cây, ta có\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=0,6.0,5+0,4.0,6=0,54$.",
+   "options": [
+    "$0,54$",
+    "$0,3$",
+    "$0,24$",
+    "$0,16$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( B \\right)=0,8$, $P\\left( A|B \\right)=0,7$,$P\\left( A|\\overline{B} \\right)=0,45$. Tính $P\\left( B|A \\right)$.",
+   "explanation": "+ Ta có: $P\\left( \\overline{B} \\right)=1-0,8=0,2$.\n+ Công thức Bayes: $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$\n$\\Rightarrow P\\left( B|A \\right)=\\frac{0,8.0,7}{0,8.0,7+0,2.0,45}=\\frac{56}{65}$.",
+   "options": [
+    "$0,25$",
+    "$\\frac{56}{65}$",
+    "$0,65$",
+    "$0,5$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một hộp chứa bóng xanh và bóng đỏ. Biết rằng xác suất của việc chọn được một quả bóng xanh là 0.6. Xác suất chọn được một quả bóng xanh biết rằng quả bóng đó là bị lỗi là 0.7. Xác suất chọn được một quả bóng bị lỗi là 0.2. Xác suất chọn bóng bị lỗi biết bóng đã chọn màu xanh là bao nhiêu?",
+   "explanation": "Gọi biến cố $X:''$Chọn được quả bóng xanh$''$, biến cố $L:''$chọn được quả bóng lỗi$''$.\nTa có:\n$P(X)=0.6$ : xác suất chọn được bóng xanh.\n$P(X|L)=0.7$: xác suất chọn được bóng xanh biết bóng bị lỗi.\n$P(L)=0.2$: xác suất chọn được bóng bị lỗi.\nXác suất chọn bóng bị lỗi biết bóng đã chọn màu xanh là:\n$P(L|X)=P\\left( X|L \\right).\\frac{P\\left( L \\right)}{P\\left( X \\right)}=0.7.\\frac{0.2}{0.6}=\\frac{7}{30}$",
+   "options": [
+    "$\\frac{3}{5}$",
+    "$\\frac{3}{4}$",
+    "$\\frac{7}{30}$",
+    "$\\frac{7}{10}$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho bảng dữ liệu sau về kết quả xét nghiệm một loại bệnh:\n|  | Dương tính | Âm tính |\n|---|---|---|\n| Bệnh | 100 | 20 |\n| Không bệnh | 30 | 850 |\nNếu một người có kết quả xét nghiệm dương tính, xác suất người đó thực sự mắc bệnh là bao nhiêu?",
+   "explanation": "Gọi biến cố $A:''$Người đó mắc bệnh$''$\nBiến cố $B:''$Người đó có kết quả xét nghiệm dương tính$''$.\nVới $P\\left( B|A \\right)$: xác suất kết quả dương tính khi người đó mắc bệnh,\n$P\\left( B|A \\right)=\\frac{100}{100+20}=\\frac{5}{6}$.\n$\\begin{aligned} & P\\left( A \\right)=\\frac{100+20}{1000}=\\frac{120}{1000}=0.12.\\text{ } \\\\ & P\\left( B \\right)=\\frac{100+30}{1000}=0.13. \\\\ \\end{aligned}$\nTừ đó suy ra: $P\\left( A|B \\right)=\\frac{P\\left( B|A \\right).P\\left( A \\right)}{P\\left( B \\right)}=\\frac{5}{6}.\\frac{0.12}{0.13}=0.7692\\simeq 77\\%$.",
+   "options": [
+    "$10\\%$",
+    "$77\\%$",
+    "$90\\%$",
+    "$50\\%$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Giả sử có một loại bệnh mà tỉ lệ mắc bệnh là $0,1\\%$ , ai mắc bệnh khi xét nghiệm cũng có phản ứng dương tính, nhưng tỉ lệ phản ứng dương tính giả là $5\\%$ ( tức là trong số những người không bị bệnh có $5\\%$ số người xét nghiệm lại có phản ứng dương tính).\nGọi biến cố $K:''$Người được chọn ra không mắc bệnh$''$\nBiến cố $D:''$Người được chọn ra có phản ứng dương tính$''$\nSơ đồ cây biểu thị tình huống trên như sau:\n[[IMG:image13.png]]\nXác suất để một người xét nghiệm có phản ứng dương tính và thực sự mắc bệnh ( làm tròn kết quả đến hàng phần trăm) là",
+   "explanation": "$P\\left( \\overline{K}|D \\right)=\\frac{P\\left( \\overline{K} \\right).P\\left( D|\\overline{K} \\right)}{P\\left( \\overline{K} \\right).P\\left( D|\\overline{K} \\right)+P\\left( K \\right).P\\left( D|K \\right)}=\\frac{0.001}{0.001+0.999.0.05}\\simeq 1.96\\%$.",
+   "options": [
+    "$1.96\\%$",
+    "$1.91\\%$",
+    "$0.18\\%$",
+    "$1.54\\%$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Kết quả khảo sát tại một xã cho thấy có $25\\%$ cư dân hút thuốc lá. Tỉ lệ cư dân thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp trong số những người hút thuốc lá và không hút thuốc lá lần lượt là $60\\%$ và $25\\%$, được biểu diễn ở sơ đồ hình cây sau:\n[[IMG:image14.png]]\nNếu ta gặp một cư dân của xã thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp thì xác suất người đó có hút thuốc lá là bao nhiêu?",
+   "explanation": "Giả sử ta gặp một cư dân của xã, gọi $A$ là biến cố \"Người đó có hút thuốc lá\" và $B$ là biến cố \"Người đó thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp\". Ta có sơ đồ hình cây sau:\n[[IMG:image9.png]]\nTa có $P(B)=P(A)\\cdot P(B\\mid A)+P(\\bar{A})\\cdot P(B\\mid \\bar{A})=0,15+0,1875=0,3375$.\nTheo công thức Bayes, ta có $P(A\\mid B)=\\frac{P(A)P(B\\mid A)}{P(B)}=\\frac{0,15}{0,3375}=\\frac{4}{9}$.",
+   "options": [
+    "$\\frac{4}{9}$",
+    "$\\frac{5}{9}$",
+    "$\\frac{7}{9}$",
+    "$\\frac{8}{9}$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Giả sử tỉ lệ người dân của tỉnh X nghiện thuốc lá là $20\\%$. Tỉ lệ người bị bệnh phổi trong số người nghiện thuốc lá là $70\\%$, còn tỉ lệ này đối với người không nghiện thuốc lá là $15\\%$. Gặp ngẫu nhiên một người dân của tỉnh X, biết rằng người này bị bệnh phổi, tính xác suất mà người này nghiện thuốc lá?",
+   "explanation": "Gọi $A$ là biến cố “người nghiện thuốc lá”, suy ra $\\bar{A}$ là biến cố “người không nghiện thuốc lá”.\nGọi $B$ là biến cố “người bị bệnh phổi”.\nTa có: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)$.\nTheo bài ra có $P\\left( A \\right)=0,2\\,;\\,P\\left( B|A \\right)=0,7\\,;\\,P\\left( {\\bar{A}} \\right)=0,8\\,;\\,P\\left( B|\\bar{A} \\right)=0,15$.\nVậy $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=0,2.0,7+0,8.0,15=0,26$.\nTheo công thức Bayes, ta có: $P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}$\nNhư vậy trong số người bị bệnh phổi của tỉnh X, có khoảng $\\frac{7}{13}$ số người nghiện thuốc lá.",
+   "options": [
+    "$\\frac{7}{13}$",
+    "$\\frac{6}{13}$",
+    "$\\frac{4}{13}$",
+    "$\\frac{9}{13}$"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một hộp có 80 viên bi, trong đó có 50 viên bi màu đỏ và 30 viên bi màu vàng; các viên bi có kích thước và khối lượng như nhau. Sau khi kiểm tra, người ta thấy có 60% số viên bi màu đỏ đánh số và 50% số viên bi màu vàng có đánh số, những viên bi còn lại không đánh số. Lấy ra ngẫu nhiên một viên bi trong hộp. Xác suất để viên bi được lấy ra có đánh số bằng",
+   "explanation": "Gọi $A$ là biến cố “viên bi được lấy ra có đánh số”.\nGọi $B$ là biến cố “viên bi được lấy ra có màu đỏ”, suy ra $\\bar{B}$ là biến cố “viên bi được lấy ra có màu vàng”.\nLúc này ta đi tính $P\\left( A \\right)$ theo công thức: $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( {\\bar{B}} \\right).P\\left( A|\\bar{B} \\right)$.\nTa có:$P\\left( B \\right)=\\frac{50}{80}=\\frac{5}{8}$.\n$P\\left( {\\bar{B}} \\right)=\\frac{30}{80}=\\frac{3}{8}$.\n$P\\left( A|B \\right)=60\\%=\\frac{3}{5}$.\n$P\\left( A|\\bar{B} \\right)=100\\%-50\\%=\\frac{1}{2}$.\nVậy $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( {\\bar{B}} \\right).P\\left( A|\\bar{B} \\right)=\\frac{5}{8}.\\frac{3}{5}+\\frac{3}{8}.\\frac{1}{2}=\\frac{9}{16}$.",
+   "options": [
+    "$\\frac{3}{5}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{4}{13}$",
+    "$\\frac{9}{16}$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( B|A \\right)=0,9$.",
+    "b": "$P\\left( \\overline{B}\\left| A \\right. \\right)=0,5$.",
+    "c": "$P\\left( AB \\right)=0,72$.",
+    "d": "$P\\left( \\overline{A}\\overline{B} \\right)=0,1$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Bạn Ngọc phải thực hiện hai thí nghiệm liên tiếp. Thí nghiệm thứ nhất có xác suất thành công là $0,8$. Nếu thí nghiệm thứ nhất thành công thì xác suất thành công của thí nghiệm thứ hai là $0,9$. Nếu thí nghiệm thứ nhất không thành công thì xác suất thành công của thí nghiệm thứ hai chỉ là $0,5$. Xét các biến cố sau:\nGọi $A$ là biến cố “Thí nghiệm thứ nhất thành công”.\nGọi $B$ là biến cố “Thí nghiệm thứ hai thành công”.",
+   "explanation": "a) Đúng. $P\\left( B|A \\right)$ là xác suất thí nghiệm thứ 2 thành công nếu thí nghiệm thứ nhất thành công do đó $P\\left( B|A \\right)=0,9$.\nb) Sai. $P\\left( \\overline{B}\\left| A \\right. \\right)=1-P\\left( B|A \\right)=1-0,9=0,1$.\nc) Đúng. $P\\left( AB \\right)=P\\left( A \\right).P\\left( B|A \\right)=0,8.0,9=0,72$.\nd) Đúng. $\\overline{A}\\overline{B}$ là biến cố “Cả hai thí nghiệm đều không thành công”.\nTheo giả thiết, $P\\left( \\overline{A} \\right)=1-0,8=0,2$ và $P\\left( \\overline{B}|\\overline{A} \\right)=1-P\\left( B|\\overline{A} \\right)=1-0,5=0,5$.\nVậy xác suất để cả hai thí nghiệm không thành công là\n$P\\left( \\overline{A}\\overline{B} \\right)=P\\left( \\overline{A} \\right)\\cdot P\\left( \\overline{B}|\\overline{A} \\right)=0,2\\cdot 0,5=0,1$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để vận động viên chọn ra thuộc đội I là $\\frac{5}{9}$",
+    "b": "Xác suất không đạt huy chương vàng của mỗi vận động viên đội II là $0,45$",
+    "c": "Xác suất để vận động viên này đạt huy chương vàng là $\\frac{103}{180}$",
+    "d": "Giả sử vận động viên được chọn đạt huy chương vàng. Xác suất để vận động viên này thuộc đội I là $\\frac{48}{103}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có hai đội thi đấu môn bắn súng. Đội I có 8 vận động viên, đội II có 10 vận động viên. Xác suất đạt huy chương vàng của mỗi vận động viên đội I và đội II tương ứng là 0,6 và 0,55. Chọn ngẫu nhiên một vận động viên.",
+   "explanation": "| Câu | Đáp án |\n|---|---|\n| a) | S |\n| b) | Đ |\n| c) | Đ |\n| d) | Đ |\na) Xác suất để vận động viên chọn ra thuộc đội I là $\\frac{8}{18}=\\frac{4}{9}$.\nb) Xác suất không đạt huy chương vàng của mỗi vận động viên đội II là $1-0,55=0,45$\nc) Gọi $A$ là biến cố: “Vận động viên đạt huy chương vàng”, $B$ là biến cố: “Thành viên đội I” thì biến cố đối của $B$ là $\\overline{B}$: “Thành viên đội II đạt huy chương vàng”.\nDo đó, $P\\left( B \\right)=\\frac{8}{18}=\\frac{4}{9};\\,P\\left( \\overline{B} \\right)=\\frac{5}{9}$ ; $P\\left( A|B \\right)=0,6;P\\left( A|\\overline{B} \\right)=0,55$\nTheo công thức xác suất toàn phần ta có\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=\\frac{4}{9}.0,6+\\frac{5}{9}.0,55=\\frac{103}{180}$\nd) Ta có $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{\\frac{4}{9}.0,6}{\\frac{103}{180}}=\\frac{48}{103}$",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất chọn được thùng hàng loại I bằng $48\\%$.",
+    "b": "Xác suất chọn được thùng hàng loại II đã được kiểm định bằng 38,4%.",
+    "c": "Xác suất chọn được thùng hàng chưa kiểm định bằng 17,4%.",
+    "d": "Giả sử thùng hàng được lấy ra là thùng hàng chưa được kiểm định, xác suất thùng hàng đó là thùng loại I thấp hơn xác suất thùng hàng đó là thùng loại II."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một kho hàng có 1000 thùng hàng với bề ngoài giống hệt nhau, trong đó có 480 thùng hàng loại I và 520 thùng hàng loại II. Trong số các thùng hàng đó, có $80\\%$ thùng hàng loại I và $85\\%$ thùng hàng loại II đã được kiểm định. Chọn ngẫu nhiên một thùng hàng trong kho.",
+   "explanation": "Xét phép thử chọn ngẫu nhiên một thùng hàng trong kho.\nGọi $A$ là biến cố: “Chọn được thùng hàng loại I”.\n$B$ là biến cố: “Chọn được thùng hàng đã được kiểm định”.\nTheo bài ra ta có $P\\left( B\\left| A \\right. \\right)=80\\%,\\,\\,P\\left( B\\left| \\overline{A} \\right. \\right)=85\\%$\na) Đúng\nXác suất chọn được thùng hàng loại I là $P\\left( A \\right)=\\frac{480}{1000}=48\\%$.\nb) Sai\nTa có $P\\left( \\overline{A} \\right)=\\frac{520}{1000}=52\\%$, $P\\left( B\\left| \\overline{A} \\right. \\right)=85\\%$.\nXác suất chọn được thùng hàng loại II đã được kiểm định là\n$P\\left( \\overline{A}\\cap B \\right)=P\\left( \\overline{A} \\right).P\\left( B\\left| \\overline{A} \\right. \\right)=52\\%.85\\%=44,2\\%$.\nc) Đúng\nXác suất chọn được thùng hàng đã được kiểm định là\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B\\left| A \\right. \\right)+P\\left( \\overline{A} \\right).P\\left( B\\left| \\overline{A} \\right. \\right)=48\\%.80\\%+52\\%.85\\%=82,6\\%$\nSuy ra xác suất chọn được thùng hàng chưa kiểm định là $P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=17,4\\%$\nd) Sai\nGiả sử thùng hàng được lấy ra là thùng hàng chưa được kiểm định. Khi đó:\nXác suất thùng hàng đó là thùng loại I là $P\\left( A\\left| \\overline{B} \\right. \\right)=\\frac{P\\left( A \\right).P\\left( \\overline{B}\\left| A \\right. \\right)}{P\\left( \\overline{B} \\right)}=\\frac{48\\%.\\left( 1-80\\% \\right)}{17,4\\%}=\\frac{16}{29}$.\nXác suất thùng hàng đó là thùng loại II là $P\\left( \\overline{A}\\left| \\overline{B} \\right. \\right)=\\frac{P\\left( \\overline{A} \\right).P\\left( \\overline{B}\\left| A \\right. \\right)}{P\\left( \\overline{B} \\right)}=\\frac{52\\%.\\left( 1-85\\% \\right)}{17,4\\%}=\\frac{13}{29}$.\nVây xác suất thùng hàng đó là thùng loại I cao hơn xác suất thùng hàng đó là thùng loại II.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 19,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn ngẫu nhiên 1 xạ thủ bắn và xạ thủ đó bắn một viên đạn. Gọi A là biến cố “Viên đạn trúng đích”. B là biến cố “ Xạ thủ loại I bắn”. C là biến cố “ Xạ thủ loại II bắn”. Khi đó ta có xác suất để viên đạn trúng đích được tính theo công thức công thức:",
+    "b": "Chọn ngẫu nhiên một xạ thủ bắn và xạ thủ đó bắn một viên đạn. Xác suất để viên đạn đó trúng đích là $0.74$.",
+    "c": "Chọn ngẫu nhiên ra hai xạ thủ và cả hai xạ thủ đều bắn một viên đạn. Gọi E là biến cố “ Cả hai viên đạn đều bắn trúng đích” ${{E}_{i}}$ là biến cố chọn được i xạ thủ loại I. Khi đó ta có công thức tính xác xuất để cả hai xạ thủ đều bắn trúng là",
+    "d": "Chọn ngẫu nhiên hai xạ thủ, mỗi người bắn một viên đạn. Xác suất để cả hai viên đạn đó trúng đích là $0.596$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Có 2 xạ thủ loại I và 8 xạ thủ loại II, xác suất bắn trúng đích của các xạ thủ loại I là 0,9 và loại II là 0,7. Các câu sau là đúng hay sai?\n$P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( C \\right).P\\left( A|\\overline{C} \\right)$\n$P\\left( E \\right)=P\\left( {{E}_{o}} \\right).P\\left( E|{{E}_{o}} \\right)+P\\left( {{E}_{1}} \\right).P\\left( E|\\overline{{{E}_{1}}} \\right)+P\\left( {{E}_{2}} \\right).P\\left( E|\\overline{{{E}_{2}}} \\right)$.",
+   "explanation": "a) Sai\nvì B và C tạo thành họ đầy đủ các biến cố nên $P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( C \\right).P\\left( A|C \\right)$\nb) Đúng\nGọi A là biến cố “Viên đạn trúng đích”.\nB là biến cố “ Xạ thủ loại I bắn”.\nC là biến cố “ Xạ thủ loại II bắn”.\nTa có: $P\\left( B \\right)=\\frac{2}{10}=0,2;\\quad P\\left( A|B \\right)=0.9;\\quad P\\left( C \\right)=\\frac{8}{10}=0,8;\\quad P\\left( A|C \\right)=0.7$\nB và C tạo thành họ đầy đủ các biến cố nên $P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( C \\right).P\\left( A|C \\right)$\n$=0.2.0.9+0.8.0.7=0.74$\nc) Sai\nvì ${{E}_{i}}$ tạo thành họ đầy đủ các biến cố nên\n$P\\left( E \\right)=P\\left( {{E}_{o}} \\right).P\\left( E|{{E}_{o}} \\right)+P\\left( {{E}_{1}} \\right).P\\left( E|{{E}_{1}} \\right)+P\\left( {{E}_{2}} \\right).P\\left( E|{{E}_{2}} \\right)$\nd) Sai\nGọi E là biến cố “ Cả hai viên đạn đều bắn trúng đích” ${{E}_{i}}$ là biến cố “chọn được i xạ thủ loại I”\nTa có: $P\\left( {{E}_{0}} \\right)=\\frac{C_{8}^{2}}{C_{10}^{2}}=\\frac{28}{45};\\ P\\left( E|{{E}_{o}} \\right)=0,7.0,7=0,49$\n$P\\left( {{E}_{1}} \\right)=\\frac{C_{2}^{1}C_{8}^{1}}{C_{10}^{2}}=\\frac{16}{45};\\ P\\left( E|{{E}_{1}} \\right)=0,9.0,7=0,63$\n$P\\left( {{E}_{2}} \\right)=\\frac{C_{2}^{2}}{C_{10}^{2}}=\\frac{1}{45};\\ P\\left( E|{{E}_{2}} \\right)=0,9.0,9=0,81$\nVì ${{E}_{o}},{{E}_{1}},\\ {{E}_{2}}$ tạo thành họ đầy đủ các biến cố nên ta có Xác suất để cả hai viên đạn đó trúng đích là:\n$P\\left( E \\right)=P\\left( {{E}_{o}} \\right).P\\left( E|{{E}_{o}} \\right)+P\\left( {{E}_{1}} \\right).P\\left( E|{{E}_{1}} \\right)+P\\left( {{E}_{2}} \\right).P\\left( E|{{E}_{2}} \\right)$\n$=\\frac{28}{45}.0,49+\\frac{16}{45}.0.63+\\frac{1}{45}.0,81=0,5469$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 20,
+    "so_dau_bang": 26,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong hội thảo, xác suất chọn được một người trình bày báo cáo bằng tiếng anh là $0,6$. Xác suất để chọn một người trình bày là nữ là $0,4$. Xác xuất để chọn được một nhười trình bày báo cáo bằng tiếng anh biết người đó là nữ là $0,3$. Tính xác suất để chọn được một người là nữ sao cho người đó có thể trình bày báo cáo bằng tiếng anh.",
+   "explanation": "Trả lời: $0,2$\nGọi $A$ là biến cố “Chọn được người trình bày báo cáo bằng tiếng anh”, $\\Rightarrow P\\left( A \\right)=0,6$\nGọi $B$ là biến cố “Chọn được người trình bày nữ”$\\Rightarrow P\\left( B \\right)=0,4$.\nTheo đề bài ta có $P\\left( A|B \\right)=0,3$. Áp dụng công thức Bayes ta có:\nDo đó: $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,4.0,3}{0,6}=0,2$",
+   "short_value": 0.2,
+   "short_correct": "0,2",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Thống kê hồ sơ 250 học sinh khối 10 trong đó có 150 học sinh nữ và 100 học sinh nam. Sau khi thống kê, kết quả có $60%$ học sinh nữ là đoàn viên, $50%$ học sinh nam là đoàn viên; những học sinh còn lại không là đoàn viên. Chọn ngẫu nhiên một học sinh trong 250 học sinh khối 10. Tính xác suất để học sinh được chọn là đoàn viên.",
+   "explanation": "Trả lời: $0,56$\nSố học sinh nữ là đoàn viên là $60\\%.150=90$ (học sinh).\nSố học sinh nam là đoàn viên là $50\\%.100=50$ (học sinh).\nXét biến cố:\n$A$ là biến cố “Chọn được học sinh là đoàn viên”.\n$B$ là biến cố “ Chọn được học sinh nam”. Khi đó:\n$P\\left( B \\right)=\\frac{100}{250}=\\frac{2}{5}$; $P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=1-\\frac{2}{5}=\\frac{3}{5}$.\n$P\\left( A|B \\right)=\\frac{50}{100}=0,5$; $P\\left( A|\\overline{B} \\right)=\\frac{90}{150}=0,6$.\nÁp dụng công thức xác suất toàn phần ta có:\n$P\\left( B \\right)$\nVới $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=\\frac{2}{5}.0,5+\\frac{3}{5}.0,6=0,56$.",
+   "short_value": 0.56,
+   "short_correct": "0,56",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có 1 kho bia kém chất lượng chứa các thùng giống nhau (24 lon/thùng) gồm 3 loại: loại I để lẫn mỗi thùng 3 lon quá hạn sử dụng, loại II để lẫn mỗi thùng 2 lon quá hạn và loại III để lẫn mỗi thùng có 4 lon quá hạn. Biết số lượng thùng loại I gấp 2 lần số lượng thùng loại II và số thùng loại II gấp 3 lần thùng loại III. Chọn ngẫu nhiên 1 thùng từ trong kho, từ đó chọn ngẫu nhiên 10 lon. Tính xác suất để lấy được 2 lon quá hạn sử dụng (làm tròn đến kết quả phần chục).",
+   "explanation": "Gọi ${{A}_{i}}$ là biến cố chọn được thùng loại $i.$ ($i=I,II,III$)\n$B$ là biến cố chọn được 10 sản phẩm trong đó có 2 lon quá hạn từ thùng được chọn ra.\nGọi số thùng loại III là $x$ thùng ( $x>0$).\nDo đó số thùng loại I và loại II lần lượt là $6x;\\text{ 3}x.$\nTừ đó, ta có $P\\left( {{A}_{1}} \\right)=\\frac{6}{10};\\ P\\left( {{A}_{2}} \\right)=\\frac{3}{10};\\ P\\left( {{A}_{3}} \\right)=\\frac{1}{10}$\nXác suất để chọn được 2 lon quá hạn là:\n$\\begin{aligned} & P\\left( B \\right)=P\\left( {{A}_{1}} \\right).P\\left( B|{{A}_{1}} \\right)+P\\left( {{A}_{2}} \\right).P\\left( B|{{A}_{2}} \\right)+P\\left( {{A}_{3}} \\right).P\\left( B|{{A}_{3}} \\right) \\\\ & =\\frac{6}{10}\\times \\frac{C_{3}^{2}C_{21}^{8}}{C_{24}^{10}}+\\frac{3}{10}\\times \\frac{C_{4}^{2}C_{20}^{8}}{C_{24}^{10}}+\\frac{1}{10}\\times \\frac{C_{2}^{2}C_{22}^{8}}{C_{24}^{10}}\\approx 0,3 \\\\ \\end{aligned}$",
+   "short_value": 0.1,
+   "short_correct": "0,3",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trước khi đưa sản phẩm ra thị trường, người ta đã phỏng vấn ngẫu nhiên 200 khách hàng về sản phẩm đó và thấy có 50 người trả lời “sẽ mua”, 90 người trả lời “có thể sẽ mua” và 60 người trả lời “không mua”. Kinh nghiệm cho thấy tỷ lệ khách hàng thực sự sẽ mua sản phẩm tương ứng với những cách trả lời trên tương ứng là 60%, 40% và 1%. Trong số khách hàng thực sự mua sản phẩm thì xác suất khách hàng trả lời “sẽ mua” là $\\frac{a}{b}$. Tính giá trị của biểu thức $T=\\frac{1}{2}a+b.$",
+   "explanation": "Gọi biến cố $A$: “Người được phỏng vấn sẽ mua sản phẩm”.\nBiến cố ${{H}_{1}}$: “Khách hàng được phỏng vấn trả lời sẽ mua”.\nBiến cố ${{H}_{2}}$: “Khách hàng được phỏng vấn trả lời có thể sẽ mua”.\nBiến cố ${{H}_{3}}$: “Khách hàng được phỏng vấn trả lời không mua”.\nTa có $P\\left( {{H}_{1}} \\right)=\\frac{50}{200}=0,25\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,P\\left( {{H}_{2}} \\right)=\\frac{90}{200}=0,45\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,P\\left( {{H}_{3}} \\right)=\\frac{60}{200}=0,3\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$\n$P\\left( A|{{H}_{1}} \\right)=0,6\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,P\\left( A|{{H}_{2}} \\right)=0,4\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,P\\left( A|{{H}_{3}} \\right)=0,1\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,$\nÁp dụng công thức xác suất toàn phần, ta có tiềm năng của sản phẩm đó trên thị trường là\n$\\begin{aligned} & P\\left( A \\right)=P\\left( {{H}_{1}} \\right).P\\left( A|{{H}_{1}} \\right)+P\\left( {{H}_{2}} \\right).P\\left( A|{{H}_{2}} \\right)+P\\left( {{H}_{3}} \\right).P\\left( A|{{H}_{3}} \\right) \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=0,25.0,6+0,45.0,4+0,3.0,1=0,36. \\\\ \\end{aligned}$\nTheo công thức Bayes, ta có xác suất khách hàng trả lời “sẽ mua” là\n$P\\left( {{H}_{1}}|A \\right)=\\frac{P\\left( {{H}_{1}} \\right).P\\left( A|{{H}_{1}} \\right)}{P\\left( A \\right)}=\\frac{0,25.0,6}{0,36}=\\frac{5}{12}.$\nSuy ra $a=5,\\,b=12.$\nVậy $T=\\frac{1}{2}a+b=\\frac{1}{2}.5+12=14,5.$",
+   "short_value": 14.5,
+   "short_correct": "14,5",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "(VDC): Một nhà đầu tư phân loại các dự án trong một chu kỳ đầu tư thành 3 loại: ít rủi ro, rủi ro trung bình và rủi ro cao. Tỷ lệ các dự án các loại đó tương ứng là $20%;\\text{ }45%\\text{ }v\\grave{a}\\text{ }35%$. Kinh nghiệm cho thấy tỷ lệ các dự án gặp rủi ro khi đầu tư tương ứng là $5%;\\text{ }20%\\text{ }v\\grave{a}\\text{ }40%.$ Nếu một dự án gặp rủi ro sau kỳ đầu tư thì khả năng dự án rủi ro lớn nhất là bao nhiêu?\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Gọi A là biến cố dự án gặp rủi ro trong kỳ đầu tư.\n${{H}_{i}}\\text{ }\\left( i=1,2,3 \\right)$ lần lượt là các biến cố dự án thuộc loại ít rủi ro, rủi ro trung bình và rủi ro cao\n$P\\text{ }\\left( {{H}_{1}} \\right)=\\text{ }0,2;\\text{ }P\\text{ }\\left( {{H}_{2}} \\right)=0,45;\\text{ }P\\text{ }\\left( {{H}_{3}} \\right)=0,35$ .\n$P\\text{ }(A~|{{H}_{1}})=\\text{ }0,05;\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)=\\text{ }0,2;\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)=\\text{ }0,4$.\n$P\\text{ }\\left( A \\right)=\\text{ }P\\text{ }\\left( {{H}_{1}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{1}} \\right)\\text{ }+\\text{ }P\\text{ }\\left( {{H}_{2}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)\\text{ }+\\text{ }P\\text{ }\\left( {{H}_{3}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{3}} \\right)=\\text{ }0,24$.\n| ${{H}_{1}}$ ${{H}_{2}}$ ${{H}_{3}}$ $ $ $A$ |\n|---|\n$~P\\text{ }\\left( {{H}_{1}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{1}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{1}} \\right)}{P(A)}\\approx $ $0,04$\n$~P\\text{ }\\left( {{H}_{2}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{2}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)}{P(A)}\\approx $ $0,38$ .\n$~P\\text{ }\\left( {{H}_{3}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{3}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{3}} \\right)}{P(A)}\\approx $ $0,58$\nVậy khả năng dự án gặp rủi ro là cao nhất là $0,58$.",
+   "short_value": 0.24,
+   "short_correct": "0,6",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có hai đồng xu có hình thức giống nhau, trong có có một đồng xu cân đối đồng chất và một đồng xu không cân đối có xác suất khi tung đồng xu xuất hiện mặt ngửa là $\\frac{2}{3}$. Một người lấy ngẫu nhiên một đồng xu trong hai đồng xu đã cho, tung đồng xu đó 3 lần thì đều thấy xuất hiện mặt ngửa, xác suất người đó lấy được đồng xu cân đối là bao nhiêu? (Làm tròn đến hàng phần mười.)",
+   "explanation": "Gọi $A$ là biến cố: “Lấy được đồng xu cân đối đồng chất” và $B$ là biến cố: “Tung đồng xu ba lần đều xuất hiện mặt ngửa”. Khi đó ta cần tính $P\\left( A|B \\right)$.\nTa có $P\\left( A \\right)=\\frac{1}{2}$, $P\\left( \\overline{A} \\right)=\\frac{1}{2}$ và $P\\left( B|A \\right)={{\\left( \\frac{1}{2} \\right)}^{3}}=\\frac{1}{8}$, $P\\left( B|\\overline{A} \\right)={{\\left( \\frac{2}{3} \\right)}^{3}}=\\frac{8}{27}$.\nTheo công thức Bayes và công thức xác suất toàn phần ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right)P\\left( B|A \\right)}{P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)}=\\frac{\\frac{1}{2}\\cdot \\frac{1}{8}}{\\frac{1}{2}\\cdot \\frac{1}{8}+\\frac{1}{2}\\cdot \\frac{8}{27}}\\approx 0.3$.\nĐáp số: 0.3.",
+   "short_value": 0.3,
+   "short_correct": "0,3",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  }
+ ],
+ "flags": []
+}

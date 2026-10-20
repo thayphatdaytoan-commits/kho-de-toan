@@ -1,0 +1,545 @@
+{
+ "de1.P4.C3": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Câu lạc bộ nào có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh?",
+    "explanation": "Từ biểu đồ ta có sự chênh lệch giữa số nam sinh và nữ sinh của:\n+ Câu lạc bộ cờ vua: $28-15=13$ (học sinh)\n+ Câu lạc bộ dân ca: $24-17=7$ (học sinh)\n+ Câu lạc bộ khiêu vũ: $35-24=11$ (học sinh)\n+ Câu lạc bộ bơi lội: $45-40=5$ (học sinh)\nVậy câu lạc bộ có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh là Cờ vua",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "Chênh lệch cờ vua: $28-15=$ {{1}}",
+      "Chênh lệch dân ca: $24-17=$ {{2}}",
+      "Chênh lệch khiêu vũ: $35-24=$ {{3}}",
+      "Chênh lệch bơi lội: $45-40=$ {{4}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "13"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "7"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "11"
+      },
+      {
+       "id": "4",
+       "loai": "so",
+       "dap_an": "5"
+      }
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Chọn ngâu nhiên một học sinh khối $6$, tính xác suất của biến cố $A:$“Học sinh được chọn là nữ”",
+    "explanation": "Xét phép thử: “Chọn ngâu nhiên một học sinh khối $6$”\nTa thấy các kết quả có thể xảy ra của phép thử đó là đồng khả năng\nSố lượng học sinh nữ là $15+24+35+40\\text{ }=\\text{ }114$ (học sinh) nên số kết quả thuận lợi cho biến cố $A$ là $114$\nSuy ra $n\\left( A \\right)=114$\nTổng số lượng cả học sinh nam và nữ là $228$ (em) nên có $228$ cách chọn ra ngẫu nhiên một học sinh khối $6$. Suy ra: $n\\left( \\Omega \\right)=228$\nDo đó: $P\\left( A \\right)=\\frac{n\\left( A \\right)}{n\\left( \\Omega \\right)}=\\frac{114}{228}=\\frac{1}{5}$",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "Số học sinh nữ: $15+24+35+40=$ {{1}}",
+      "Tổng số học sinh: $114+114=$ {{2}}",
+      "$P(A)=\\dfrac{114}{228}=$ {{3}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "114"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "228"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "1/2"
+      }
+     ]
+    }
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) P(A) = 114/228 = 1/2 (khung ghi rõ 114/228); key ô 3 ghi 1/5. (a) phụ thuộc biểu đồ"
+ },
+ "de1.P4.C5": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Chứng minh: $AC\\bot CK$ và tứ giác $AMHN$ nội tiếp đường tròn.",
+    "explanation": "Xét $(O)$ có:\n$\\widehat{ACK}={{90}^{0}}$ (góc nội tiếp chắn nửa đường tròn)\nSuy ra: $AC\\bot CK$\nXét $\\Delta AMH$ vuông tại $M$ có:\n$\\Delta AMH$ nội tiếp đường tròn đường kính $AH$ (1)\nXét $\\Delta ANH$ vuông tại $N$ có:\n$\\Delta ANH$ nội tiếp đường tròn đường kính $AH$ (2)\nTừ (1) và (2) ta có: $A,M,H,N$ cùng thuộc đường tròn đường kính $AH$\nSuy ra tứ giác $AMHN$ nội tiếp đường tròn đường kính $AH$",
+    "points": 0.75,
+    "type": "proof_frame",
+    "frame": {
+     "blocks": [
+      {
+       "lines": [
+        "Xét đường tròn $(O)$ có đường kính {{1}} nên $\\widehat{ACK} = {{2}}$ ({{3}}).",
+        "Suy ra {{4}} $\\bot$ {{5}}."
+       ],
+       "hint": "Chứng minh AC vuông góc CK"
+      },
+      {
+       "lines": [
+        "Xét tam giác $AMH$ vuông tại {{6}} (do $HM \\bot AB$).",
+        "Suy ra tam giác $AMH$ nội tiếp đường tròn đường kính {{7}} (1)."
+       ],
+       "hint": "Xét tam giác vuông AMH"
+      },
+      {
+       "lines": [
+        "Xét tam giác $ANH$ vuông tại {{8}} (do $HN \\bot AC$).",
+        "Suy ra tam giác $ANH$ nội tiếp đường tròn đường kính {{9}} (2)."
+       ],
+       "hint": "Xét tam giác vuông ANH"
+      },
+      {
+       "lines": [
+        "Từ (1) và (2) suy ra bốn điểm $A, M, H, {{10}}$ cùng thuộc đường tròn đường kính {{11}}.",
+        "Vậy tứ giác {{12}} nội tiếp đường tròn đường kính {{13}}."
+       ],
+       "hint": "Kết luận tứ giác nội tiếp"
+      }
+     ],
+     "blanks": [
+      {
+       "id": "1",
+       "mode": "drag",
+       "answers": [
+        "AK"
+       ],
+       "keywords": [
+        "ak"
+       ],
+       "placeholder": "tên đường kính",
+       "maxLen": 10
+      },
+      {
+       "id": "2",
+       "mode": "drag",
+       "answers": [
+        "90^\\circ",
+        "90°"
+       ],
+       "keywords": [
+        "90"
+       ],
+       "placeholder": "số đo góc",
+       "maxLen": 10
+      },
+      {
+       "id": "3",
+       "mode": "drag",
+       "answers": [
+        "góc nội tiếp chắn nửa đường tròn"
+       ],
+       "keywords": [
+        "chắn nửa đường tròn"
+       ],
+       "placeholder": "lý do",
+       "maxLen": 35
+      },
+      {
+       "id": "4",
+       "mode": "drag",
+       "answers": [
+        "AC"
+       ],
+       "keywords": [
+        "ac"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "5",
+       "mode": "drag",
+       "answers": [
+        "CK"
+       ],
+       "keywords": [
+        "ck"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "6",
+       "mode": "drag",
+       "answers": [
+        "M"
+       ],
+       "keywords": [
+        "m"
+       ],
+       "placeholder": "tên điểm",
+       "maxLen": 6
+      },
+      {
+       "id": "7",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [
+        "ah"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "8",
+       "mode": "drag",
+       "answers": [
+        "N"
+       ],
+       "keywords": [
+        "n"
+       ],
+       "placeholder": "tên điểm",
+       "maxLen": 6
+      },
+      {
+       "id": "9",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [
+        "ah"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "10",
+       "mode": "drag",
+       "answers": [
+        "N"
+       ],
+       "keywords": [
+        "n"
+       ],
+       "placeholder": "tên điểm",
+       "maxLen": 6
+      },
+      {
+       "id": "11",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [
+        "ah"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "12",
+       "mode": "drag",
+       "answers": [
+        "AMHN"
+       ],
+       "keywords": [
+        "amhn"
+       ],
+       "placeholder": "tên tứ giác",
+       "maxLen": 10
+      },
+      {
+       "id": "13",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [
+        "ah"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      }
+     ],
+     "pool": [
+      "AK",
+      "90^\\circ",
+      "góc nội tiếp chắn nửa đường tròn",
+      "AC",
+      "CK",
+      "M",
+      "N",
+      "AH",
+      "AMHN",
+      "AB",
+      "BC",
+      "HK",
+      "đối đỉnh",
+      "ABHK"
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Chứng minh: $\\widehat{AMN}=\\widehat{ACB}$ và $A{{H}^{2}}=AN.AC$.",
+    "explanation": "Xét đường tròn đường kính $AH$ có: $\\widehat{AMN}=\\widehat{AHN}$ (2 góc nội tiếp cùng chắn cung $AN$) (3)\nTa có: $\\widehat{AHN}+\\widehat{CHN}={{90}^{o}}$ ($AH\\bot BC$)\n$\\widehat{ACB}+\\widehat{CHN}={{90}^{0}}$ ($\\Delta CHN$ vuông tại $N$)\nSuy ra: $\\widehat{AHN}=\\widehat{ACB}$ (4)\nTừ (3) và (4) ta có: $\\widehat{AMN}=\\widehat{ACB}$\nXét $\\Delta AHN$ và $\\Delta ACH$ có:\n$\\widehat{A}$ chung và $\\widehat{ANH}=\\widehat{AHC}={{90}^{0}}$\nSuy ra $\\Delta AHN$ ∽ $\\Delta ACH$ (g – g)\nSuy ra: $\\frac{AH}{AC}=\\frac{AN}{AH}$\nNên: $A{{H}^{2}}=AN.AC$",
+    "points": 0.75,
+    "type": "proof_frame",
+    "frame": {
+     "blocks": [
+      {
+       "lines": [
+        "Xét đường tròn ngoại tiếp tứ giác $AMHN$ có:",
+        "$\\widehat{AMN} = {{1}}$ (hai góc nội tiếp cùng chắn cung {{2}}) (3)."
+       ],
+       "hint": "Góc nội tiếp cùng chắn cung"
+      },
+      {
+       "lines": [
+        "Ta có $\\widehat{AHN} + \\widehat{CHN} = 90^\\circ$ (do $AH \\bot$ {{3}}).",
+        "Lại có $\\widehat{ACB} + \\widehat{CHN} = {{4}}$ (do $\\triangle CHN$ vuông tại {{5}}).",
+        "Suy ra $\\widehat{AHN} = {{6}}$ (4)."
+       ],
+       "hint": "Chứng minh hai góc cùng phụ"
+      },
+      {
+       "lines": [
+        "Từ (3) và (4) suy ra $\\widehat{AMN} = {{7}}$."
+       ],
+       "hint": "Suy ra hai góc bằng nhau"
+      },
+      {
+       "lines": [
+        "Xét $\\triangle AHN$ và $\\triangle ACH$ có:",
+        "• Góc {{8}} chung,",
+        "• $\\widehat{ANH} = {{9}} = 90^\\circ$.",
+        "Suy ra $\\triangle AHN \\backsim \\triangle ACH$ ({{10}})."
+       ],
+       "hint": "Chứng minh hai tam giác đồng dạng"
+      },
+      {
+       "lines": [
+        "Suy ra $\\frac{AH}{AC} = \\frac{{{11}}}{{{12}}}$.",
+        "Do đó $AH^2 = {{13}} \\cdot AC$."
+       ],
+       "hint": "Suy ra hệ thức độ dài"
+      }
+     ],
+     "blanks": [
+      {
+       "id": "1",
+       "mode": "drag",
+       "answers": [
+        "\\widehat{AHN}",
+        "AHN"
+       ],
+       "keywords": [
+        "ahn"
+       ],
+       "placeholder": "tên góc",
+       "maxLen": 15
+      },
+      {
+       "id": "2",
+       "mode": "drag",
+       "answers": [
+        "AN"
+       ],
+       "keywords": [
+        "an"
+       ],
+       "placeholder": "tên cung",
+       "maxLen": 10
+      },
+      {
+       "id": "3",
+       "mode": "drag",
+       "answers": [
+        "BC"
+       ],
+       "keywords": [
+        "bc"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "4",
+       "mode": "drag",
+       "answers": [
+        "90^\\circ",
+        "90°"
+       ],
+       "keywords": [
+        "90"
+       ],
+       "placeholder": "số đo góc",
+       "maxLen": 10
+      },
+      {
+       "id": "5",
+       "mode": "drag",
+       "answers": [
+        "N"
+       ],
+       "keywords": [
+        "n"
+       ],
+       "placeholder": "tên điểm",
+       "maxLen": 6
+      },
+      {
+       "id": "6",
+       "mode": "drag",
+       "answers": [
+        "\\widehat{ACB}",
+        "ACB"
+       ],
+       "keywords": [
+        "acb"
+       ],
+       "placeholder": "tên góc",
+       "maxLen": 15
+      },
+      {
+       "id": "7",
+       "mode": "drag",
+       "answers": [
+        "\\widehat{ACB}",
+        "ACB"
+       ],
+       "keywords": [
+        "acb"
+       ],
+       "placeholder": "tên góc",
+       "maxLen": 15
+      },
+      {
+       "id": "8",
+       "mode": "drag",
+       "answers": [
+        "A",
+        "\\widehat{A}"
+       ],
+       "keywords": [
+        "a"
+       ],
+       "placeholder": "tên góc",
+       "maxLen": 10
+      },
+      {
+       "id": "9",
+       "mode": "drag",
+       "answers": [
+        "\\widehat{AHC}",
+        "AHC"
+       ],
+       "keywords": [
+        "ahc"
+       ],
+       "placeholder": "tên góc",
+       "maxLen": 15
+      },
+      {
+       "id": "10",
+       "mode": "drag",
+       "answers": [
+        "g-g",
+        "g.g"
+       ],
+       "keywords": [
+        "g-g",
+        "g.g"
+       ],
+       "placeholder": "trường hợp đồng dạng",
+       "maxLen": 10
+      },
+      {
+       "id": "11",
+       "mode": "drag",
+       "answers": [
+        "AN"
+       ],
+       "keywords": [
+        "an"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "12",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [
+        "ah"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      },
+      {
+       "id": "13",
+       "mode": "drag",
+       "answers": [
+        "AN"
+       ],
+       "keywords": [
+        "an"
+       ],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 10
+      }
+     ],
+     "pool": [
+      "\\widehat{AHN}",
+      "AN",
+      "BC",
+      "90^\\circ",
+      "N",
+      "\\widehat{ACB}",
+      "A",
+      "\\widehat{AHC}",
+      "g-g",
+      "AH",
+      "\\widehat{ABC}",
+      "c.g.c",
+      "AM",
+      "CH",
+      "AB",
+      "180^\\circ"
+     ]
+    }
+   },
+   {
+    "id": "c",
+    "label": "c",
+    "question": "Cho $AC=R\\sqrt{3}$ và $\\widehat{ACB}={{60}^{o}}$. Tính diện tích $\\Delta AMN$ theo $R$.",
+    "explanation": "Xét $\\Delta ACK$ vuông tại $C$ có:\n$\\sin \\widehat{AKC}=\\frac{AC}{AK}=\\frac{R\\sqrt{3}}{2R}=\\frac{\\sqrt{3}}{2}$\nSuy ra: $\\widehat{AKC}={{60}^{0}}$\nXét $(O)$ có: $\\widehat{ABC}=\\widehat{AKC}={{60}^{0}}$ (2 góc nội tiếp cùng chắn cung $AC$)\nXét $\\Delta ABC$ có: $\\widehat{ABC}=\\widehat{ACB}={{60}^{0}}$\nNên $\\widehat{BAC}={{180}^{0}}-{{60}^{0}}-{{60}^{0}}={{60}^{0}}$\nDo đó: $\\Delta ABC$ đều\nSuy ra: $R=\\frac{AB\\sqrt{3}}{3}$ $\\Rightarrow AB=AC=\\frac{3R}{\\sqrt{3}}=R\\sqrt{3}\\Rightarrow AH=R\\sqrt{3}.\\frac{\\sqrt{3}}{2}=\\frac{3}{2}R$\nMà $A{{H}^{2}}=AN.AC$ (cmt) nên $AN=\\frac{A{{H}^{2}}}{AC}=\\frac{{{\\left( \\frac{3}{2}R \\right)}^{2}}}{R\\sqrt{3}}=\\frac{3\\sqrt{3}}{4}R$\nXét $\\Delta AMN$ và $\\Delta ABC$ có:\n$\\widehat{A}$ chung và $\\widehat{AMN}=\\widehat{ACB}$ (cmt)\nNên $\\Delta AMN$ ∽ $\\Delta ABC$ (g – g)\nSuy ra: $\\frac{{{S}_{\\Delta AMN}}}{{{S}_{ABC}}}={{\\left( \\frac{AN}{AC} \\right)}^{2}}={{\\left( \\frac{\\frac{3\\sqrt{3}}{4}R}{\\sqrt{3}R} \\right)}^{2}}=\\frac{9}{16}$\nDiện tích $\\Delta ABC$ đều cạnh $R\\sqrt{3}$ là $\\frac{{{\\left( R\\sqrt{3} \\right)}^{2}}\\sqrt{3}}{4}=\\frac{3{{R}^{2}}\\sqrt{3}}{4}$\nVậy ${{S}_{\\Delta AMN}}=\\frac{9}{16}.\\frac{3{{R}^{2}}\\sqrt{3}}{4}=\\frac{27{{R}^{2}}\\sqrt{3}}{64}$",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "27\\sqrt{3}R^2/64"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (c) △ABC đều cạnh R√3, AH=3R/2, AN=AM=3√3R/4 ⇒ S(AMN)=½·AM·AN·sin60° = 27√3R²/64 (lời giải cũng ra 27√3R²/64); key 9√3R²/16 sai"
+ }
+}

@@ -1,0 +1,652 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "9",
+  "lesson": "2",
+  "title": "Bài 2. ➋. biến cố hợp biến cố giao và quy tắc cộng xác suất"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $A$ và $B$ là hai biến cố xung khắc. Biết $P\\left( A \\right)=\\frac{1}{3},P\\left( B \\right)=\\frac{1}{4}$. Tính $P\\left( A\\cup B \\right)$.",
+   "explanation": "Ta có $P\\left( A\\cup B \\right)=P\\left( A \\right)+P\\left( B \\right)=\\frac{1}{3}+\\frac{1}{4}=\\frac{7}{12}$.",
+   "options": [
+    "$\\frac{7}{12}$",
+    "$\\frac{1}{12}$",
+    "$\\frac{1}{7}$",
+    "$\\frac{1}{2}$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Giả sử $A$ và $B$ là các biến cố liên quan đến một phép thử có một số hữu hạn kết quả đồng khả năng xuất hiện. Nếu $A$ và $B$ xung khắc thì có bao nhiêu mệnh đề sai trong các mệnh đề sau?\n(I). $P\\left( A.B \\right)=P\\left( A \\right).\\,P\\left( B \\right)$.\n(II). $P\\left( A\\cap B \\right)=P\\left( A \\right)+P\\left( B \\right)$.\n(III). $A\\cap B=\\varnothing $.\n(IV). $A\\cap B\\ne \\varnothing $.",
+   "explanation": "Do $A$ và $B$ xung khắc nên ta có $A\\cap B=\\varnothing $ suy ra (III) đúng.",
+   "options": [
+    "$3$",
+    "$4$",
+    "$2$",
+    "$1$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gieo $2$ con xúc xắc cân đối và đồng chất. Xác suất của biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc chia hết cho $5$ \" là",
+   "explanation": "Kết quả thuận lợi cho biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc là $5$\" là $4$.\nKết quả thuận lợi cho biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc là $10$\" là $3$.\nKết quả thuận lợi cho biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc chia hết cho $5$\" là $3+4=7$.\nXác suất của biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc chia hết cho $5$\" là $\\frac{7}{36}$.",
+   "options": [
+    "$\\frac{5}{36}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{7}{36}$",
+    "$\\frac{2}{9}$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Lấy ra ngẫu nhiên $2$ quả bóng từ một hộp chứa $5$ quả bóng xanh và $4$ quả bóng đỏ có kích thước và khối lượng như nhau. Xác suất của biến cố \"Hai quả bóng lấy ra có cùng màu\" là",
+   "explanation": "$A$ là biến cố \"Hai quả bóng lấy ra đều có màu xanh\", $P\\left( A \\right)=\\frac{C_{5}^{2}}{C_{9}^{2}}$.\n$B$ là biến cố \"Hai quả bóng lấy ra đều có màu đỏ\", $P\\left( B \\right)=\\frac{C_{4}^{2}}{C_{9}^{2}}$.\n$A\\cup B$ là biến cố \"Hai bóng lấy ra có cùng màu\". $A$ và $B$ xung khắc nên\n$P\\left( A\\cup B \\right)=P\\left( A \\right)+P\\left( B \\right)=\\frac{4}{9}$.",
+   "options": [
+    "$\\frac{1}{9}$",
+    "$\\frac{2}{9}$",
+    "$\\frac{4}{9}$",
+    "$\\frac{5}{9}$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Hộp $A$ có $4$ viên bi trắng, $5$ viên bi đỏ và $6$ viên bi xanh. Hộp $B$ có $7$ viên bi trắng, $6$viên bi đỏ và $5$ viên bi xanh. Lấy ngẫu nhiên mỗi hộp một viên bi, tính xác suất để hai viên bi được lấy ra có cùng màu.",
+   "explanation": "Gọi biến cố $A$: “Hai viên bi được lấy ra có cùng màu”.\n${{A}_{1}}$: “ Hai viên bi lấy ra màu trắng”. Lúc đó: $P\\left( {{A}_{1}} \\right)=\\frac{4}{15}.\\frac{7}{18}$.\n${{A}_{2}}$: “ Hai viên bi lấy ra màu đỏ”. Lúc đó: $P\\left( {{A}_{2}} \\right)=\\frac{5}{15}.\\frac{6}{18}$.\n${{A}_{3}}$: “ Hai viên bi lấy ra màu xanh”. Lúc đó: $P\\left( {{A}_{3}} \\right)=\\frac{6}{15}.\\frac{5}{18}$.\nLúc đó: $A={{A}_{1}}\\cup {{A}_{2}}\\cup {{A}_{3}}$ và ${{A}_{1}}$, ${{A}_{2}}$, ${{A}_{3}}$ là các biến cố xung khắc nên\n$P\\left( A \\right)=P\\left( {{A}_{1}} \\right)+P\\left( {{A}_{2}} \\right)+P\\left( {{A}_{3}} \\right)=\\frac{44}{135}$.",
+   "options": [
+    "$\\frac{91}{135}$",
+    "$\\frac{44}{135}$",
+    "$\\frac{88}{135}$",
+    "$\\frac{45}{88}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Xác suất sinh con trai trong một lần sinh là $0,51$. Một người sinh hai lần, mỗi lần một con. Tính xác suất $P$ để người đó sau khi sinh $2$ lần có ít nhất một con trai.",
+   "explanation": "Gọi $X$ là biến cố: “Người đó sau khi sinh hai lần có ít nhất một con trai”;\n${{A}_{1}}$ là biến cố: “Người đó sinh được một con trai lần thứ nhất”;\n${{A}_{2}}$ là biến cố: “Người đó sinh được một con trai lần thứ hai”.\nKhi đó $X={{A}_{1}}\\overline{{{A}_{2}}}\\cup \\overline{{{A}_{1}}}{{A}_{2}}\\cup {{A}_{1}}{{A}_{2}}$\n$\\Rightarrow P\\left( X \\right)=P\\left( {{A}_{1}} \\right).P\\left( \\overline{{{A}_{2}}} \\right)+P\\left( \\overline{{{A}_{1}}} \\right).P\\left( {{A}_{2}} \\right)+P\\left( {{A}_{1}} \\right).P\\left( {{A}_{2}} \\right)=\\frac{7599}{10000}$.",
+   "options": [
+    "$P=\\frac{2499}{10000}$",
+    "$P=\\frac{7599}{10000}$",
+    "$P=\\frac{51}{100}$",
+    "$P=\\frac{2601}{10000}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Hai xạ thủ cùng bắn vào bia. Xác suất người thứ nhất bắn trúng là $80\\%$. Xác suất người thứ hai bắn trúng là $70\\%$. Xác suất để cả hai người cùng bắn trúng là",
+   "explanation": "Gọi ${{A}_{i}}$ là biến cố người thứ $i$ bắn trúng $\\left( i=1;2 \\right)$, $A$ là biến cố cả hai người cùng bắn trúng. Lúc đó: $A={{A}_{1}}\\cap {{A}_{2}}$.\nVì ${{A}_{1}}$, ${{A}_{2}}$ là hai biến cố độc lập nên\n$P\\left( A \\right)=P\\left( {{A}_{1}}\\cap {{A}_{2}} \\right)=P\\left( {{A}_{1}} \\right).P\\left( {{A}_{2}} \\right)=0,8.0,7=0,56=56\\%$.",
+   "options": [
+    "$50\\%$",
+    "$32,6\\%$",
+    "$60\\%$",
+    "$56\\%$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trên kệ sách có 8 sách Toán và 6 sách Văn. Lấy lần lượt 3 cuốn sách mà không để lại trên kệ. Xác suất để được ít nhất hai cuốn sách Toán",
+   "explanation": "Trường hợp 1: Lấy được 3 cuốn sách Toán: ${{P}_{1}}=\\frac{A_{8}^{3}}{A_{14}^{3}}=\\frac{2}{13}$.\nTrường hợp 2: Lấy được 2 cuốn sách Toán, 1 cuốn sách Văn: ${{P}_{2}}=\\frac{C_{3}^{2}.A_{8}^{2}.A_{6}^{1}}{A_{14}^{3}}=\\frac{6}{13}$.\nVậy xác suất để được ít nhất hai cuốn sách Toán là: $P={{P}_{1}}+{{P}_{2}}=\\frac{8}{13}$.",
+   "options": [
+    "$\\frac{8}{14}$",
+    "$\\frac{8}{13}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{135}{364}$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Ba xạ thủ cùng bắn vào một bia. Xác suất trúng đích lần lượt là 0,5; 0,6 và 0,8. Xác suất để ít nhất một người bắn trúng bia là",
+   "explanation": "Xác xuất cả ba người cùng trượt là: $\\overline{P}=\\left( 1-0,5 \\right)\\left( 1-0,6 \\right)\\left( 1-0,8 \\right)=0,04$.\nVậy xác suất để ít nhất một người bắn trúng bia là $P=1-\\overline{P}=0,96$.",
+   "options": [
+    "$0,24$",
+    "$0,16$",
+    "$0,82$",
+    "$0,96$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một trường có 50 em học sinh giỏi trong đó có 5 cặp anh em sinh đôi. Cần chọn ra 3 học sinh trong số 50 học sinh để tham gia trại hè. Tính xác suất trong 3 em ấy không có cặp anh em sinh đôi nào.",
+   "explanation": "Xét biến cố $A$ “trong 3 em ấy không có cặp anh em sinh đôi”, biến cố đối $\\overline{A}$“trong 3 em ấy có cặp anh em sinh đôi” suy ra có 1 cặp anh em sinh đôi.\nXác suất của biến cố $\\overline{A}$là: $P\\left( \\overline{A} \\right)=\\frac{C_{5}^{1}.C_{48}^{1}}{C_{50}^{3}}=\\frac{3}{245}$.\nVậy $P=1-P\\left( \\overline{A} \\right)=\\frac{242}{245}$.",
+   "options": [
+    "$\\frac{102}{245}$",
+    "$\\frac{48}{49}$",
+    "$\\frac{97}{98}$",
+    "$\\frac{242}{245}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một hộp đựng $4$ viên bi xanh, $3$ viên bi đỏ và $2$ viên bi vàng. Chọn ngẫu nhiên $2$ viên bi. Tính xác suất để chọn được $2$ viên bi khác màu.",
+   "explanation": "Gọi $A$ là biến cố \"Chọn được $2$ viên bi xanh\"; $B$ là biến cố \"Chọn được $2$ viên bi đỏ\", $C$ là biến cố \"Chọn được $2$ viên bi vàng\" và $X$ là biến cố \"Chọn được $2$ viên bi cùng màu\".\nTa có $X=A\\cup B\\cup C$ và các biến cố $A,B,C$ đôi một xung khắc.\nDo đó, ta có: $P\\left( X \\right)=P\\left( A \\right)+P\\left( B \\right)+P\\left( C \\right)$.\nMà $P\\left( A \\right)=\\frac{C_{4}^{2}}{C_{9}^{2}}=\\frac{1}{6};P\\left( B \\right)=\\frac{C_{3}^{2}}{C_{9}^{2}}=\\frac{1}{12};P\\left( C \\right)=\\frac{C_{2}^{2}}{C_{9}^{2}}=\\frac{1}{36}$\nVậy $P\\left( X \\right)=\\frac{1}{6}+\\frac{1}{12}+\\frac{1}{36}=\\frac{5}{18}$.\nBiến cố \"Chọn được $2$ viên bi khác màu\" chính là biến cố $\\overline{X}$.\nVậy $P\\left( \\overline{X} \\right)=1-P\\left( X \\right)=\\frac{13}{18}$.",
+   "options": [
+    "$P\\left( \\overline{X} \\right)=\\frac{13}{18}$",
+    "$P\\left( \\overline{X} \\right)=\\frac{5}{18}$",
+    "$P\\left( \\overline{X} \\right)=\\frac{3}{18}$",
+    "$P\\left( \\overline{X} \\right)=\\frac{11}{18}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một lớp có $60$ sinh viên trong đó $40$ sinh viên học tiếng Anh, $30$ sinh viên học tiếng Pháp và $20$ sinh viên học cả tiếng Anh và tiếng Pháp. Chọn ngẫu nhiên một sinh viên. Tính xác suất của các biến cố sinh viên được chọn không học tiếng Anh và tiếng Pháp.",
+   "explanation": "Gọi $A$: \"Sinh viên được chọn học tiếng Anh\";\n$B$: \"Sinh viên được chọn chỉ học tiếng Pháp\";\n$D$: \"Sinh viên được chọn không học tiếng Anh và tiếng Pháp \".\nTa có $P(A)=\\frac{40}{60}=\\frac{2}{3}, P(B)=\\frac{30}{60}=\\frac{1}{2}$ và $P(A \\cap B)=\\frac{20}{60}=\\frac{1}{3}$.\nTừ đó $P(A \\cup B)=P(A)+P(B)-P(A \\cap B)=\\frac{2}{3}+\\frac{1}{2}-\\frac{1}{3}=\\frac{5}{6}$.\nvà $P(D)=P(\\bar{A}\\cap \\bar{B})=P(\\overline{A\\cup B})=1-P(A\\cup B)=1-\\frac{5}{6}=\\frac{1}{6}$.",
+   "options": [
+    "$ $$\\frac{1}{2}$",
+    "$\\frac{1}{3}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{5}{6}$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để lấy ngẫu nhiên 3 quyển trong đó có 1 cuốn văn nghệ là: $\\frac{45}{91}$.",
+    "b": "Xác suất để lấy ngẫu nhiên 3 quyển trong đó có 2 cuốn văn nghệ là: $\\frac{14}{91}$.",
+    "c": "Xác suất để lấy ngẫu nhiên 3 quyển trong đó có 3 cuốn văn nghệ là: $\\frac{2}{9}$.",
+    "d": "Xác suất sao cho có ít nhất một quyển văn nghệ là: $\\frac{67}{91}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Trên một giá sách có 15 quyển sách, trong đó có 5 quyển văn nghệ. Lấy ngẫu nhiên từ đó ba quyển. Khi đó:",
+   "explanation": "Xác suất để lấy ngẫu nhiên 3 quyển trong đó có 1 cuốn văn nghệ là: ${\\frac{C_5^1 \\cdot C_{10}^2}{C_{15}^3}=\\frac{45}{91}}$.\nXác suất để lấy ngẫu nhiên 3 quyển trong đó có 2 cuốn văn nghệ là: ${\\frac{C_5^2 \\cdot C_{10}^1}{C_{15}^3}=\\frac{20}{91}}$.\nXác suất để lấy ngẫu nhiên 3 quyển trong đó có 3 cuốn văn nghệ là: ${\\frac{C_5^3}{C_{15}^3}=\\frac{2}{91}}$.\nVậy xác suất để lấy ngẫu nhiên 3 quyển trong đó có ít nhất 1 cuốn văn nghệ là:\n${P=\\frac{2}{91}+\\frac{45}{91}+\\frac{20}{91}=\\frac{67}{91} }$",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Gọi ${A}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2\", suy ra $n\\left( A \\right)=5$",
+    "b": "Gọi ${A}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2\", suy ra $P(A)=\\frac{1}{2}$",
+    "c": "Gọi ${B}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 7\", suy ra $P(B)=\\frac{1}{8}$.",
+    "d": "Xác suất để rút được thẻ đánh số chia hết cho 2 hoặc 7 bằng $\\frac{3}{7}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp đựng 10 tấm thẻ được đánh số từ 1 đến 10 , hai tấm thẻ khác nhau đánh hai số khác nhau. Rút ngẫu nhiên một tấm thẻ, khi đó:",
+   "explanation": "Gọi ${A}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2\", suy ra ${A=\\{2 ; 4 ; 6 ; 8 ; 10\\}}$ và ${P(A)=\\frac{5}{10}=\\frac{1}{2}}$Gọi ${B}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 7\", suy ra ${B=\\{7\\}}$ và ${P(B)=\\frac{1}{10}}$.\nTa có ${A \\cup B}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2 hoặc 7\".\nVì ${A}$ và ${B}$ là hai biến cố xung khắc nên ${P(A \\cup B)=P(A)+P(B)=\\frac{1}{2}+\\frac{1}{10}=\\frac{3}{5}}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P(A)=\\frac{1}{2}\\text{. }$",
+    "b": "$P(B)=\\frac{3}{10}\\text{. }$",
+    "c": "${P(A B)=\\frac{3}{20}}$.",
+    "d": "Xác suất để rút được thẻ mang số chia hết cho 2 hoặc 3 bằng $\\frac{13}{18}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp đựng 20 tấm thẻ được đánh số từ 1 đến 20 , hai tấm thẻ khác nhau đánh hai số khác nhau. Rút ngẫu nhiên một tấm thẻ, gọi ${A}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2\", gọi ${B}$ là biến cố rút được thẻ đánh số chia hết cho 3. Khi đó:",
+   "explanation": "Gọi ${A}$ là biến cố: \"Rút được thẻ đánh số chia hết cho 2\", ta có:\n${A=\\{2 ; 4 ; 6 ; 8 ; 10 ; 12 ; 14 ; 16 ; 18 ; 20\\} \\text {, suy ra } P(A)=\\frac{10}{20}=\\frac{1}{2} \\text {. } }$\nGọi ${B}$ là biến cố rút được thẻ đánh số chia hết cho 3, ta có:\n${B=\\{3 ; 6 ; 9 ; 12 ; 15 ; 18\\} \\text {, suy ra } P(B)=\\frac{6}{20}=\\frac{3}{10} \\text {. } }$\nTa có biến cố giao ${A B=\\{6 ; 12 ; 18\\}}$, suy ra ${P(A B)=\\frac{3}{20}}$.\nXác suất để rút được thẻ đánh số chia hết cho 2 hoặc 3 là:\n${P(A \\cup B)=P(A)+P(B)-P(A B)=\\frac{1}{2}+\\frac{3}{10}-\\frac{3}{20}=\\frac{13}{20} }$",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P(A)={{(0,9)}^{5}}$",
+    "b": "$P(B)={{(0,9)}^{4}}$",
+    "c": "$P(AB)={{(0,8)}^{4}}$",
+    "d": "Xác suất của biến cố ${X}$ : \"Lấy được vé không có chữ số 2 hoặc chữ số 7\" bằng: ${P(X)=P(A \\cup B)=P(A)+P(B)-P(A B)=(0,9)^5+(0,9)^5-(0,8)^5=0,8533 . }$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Chọn ngẫu nhiên một vé số có năm chữ số được lập từ các chữ số từ 0 đển 9 . Gọi ${A}$ là biến cố: \"Lấy được vé không có chữ số 2 \" và ${B}$ : \"Lấy được vé số không có chữ số 7\".",
+   "explanation": "Gọi ${A}$ là biến cố: \"Lấy được vé không có chữ số 2 \" và ${B}$ : \"Lấy được vé số không có chữ số 7\".\nSố các dãy gồm 5 chữ số lập được mà không có chữ số ${2: 9^5}$. Suy ra ${P(A)=\\frac{9^5}{10^5}=(0,9)^5}$.\nSố các dãy gồm 5 chữ số lập được mà không có chữ số 7 : ${9^5}$ (số). Suy ra ${P(B)=\\frac{9^5}{10^5}=(0,9)^5}$.\nSố các dãy gồm 5 chữ số lập được mà không có chữ số 2 và 7 là ${8^5}$.\nSuy ra ${P(A B)=\\frac{8^5}{10^5}=(0,8)^5}$.\nVậy xác suất của ${X}$ là:\n${P(X)=P(A \\cup B)=P(A)+P(B)-P(A B)=(0,9)^5+(0,9)^5-(0,8)^5=0,8533 . }$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một đề thi trắc nghiệm gồm 50 câu, mỗi câu có 4 phương án trả lời trong đó chỉ có 1 phương án đúng, mỗi câu trả lời đúng được 0,2 điểm. Một thí sinh làm bài bằng cách chọn ngẫu nhiên 1 trong 4 phương án ở mỗi câu. Tính xác suất để thí sinh đó được 6 điểm.",
+   "explanation": "Vì mỗi câu trả lời đúng được 0,2 điểm nên để đạt được 6 điểm thì học sinh cần trả lời đúng 30 câu.\nDo mỗi câu có 4 phương án trả lời trong đó chỉ có 1 phương án đúng nên xác suất trả lời đúng một câu hỏi là ${\\frac{1}{4}}$ và xác suất trả lời sai một câu hỏi là ${\\frac{3}{4}}$.\nVậy xác suất thí sinh đạt được 6 điểm là ${C_{50}^{30} \\cdot 0,25^{30} \\cdot 0,75^{20}}$.",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp đựng nhiều quả cầu với nhiều màu sắc khác nhau. Người ta lấy ngẫu nhiên một quả cầu từ hộp đó. Biết xác suất để lấy được một quả cầu màu xanh từ hộp bằng ${\\frac{1}{5}}$, xác suất để lấy được một quả cầu màu đỏ từ hộp bằng ${\\frac{1}{6}}$. Gọi ${A}$ là biến cố: \"Lấy được một quả cầu màu xanh\" và ${B}$ là biến cố: \"Lấy được một quả cầu màu đỏ\".\nTính xác suất để lấy được một quả cầu màu xanh hoặc một quả cầu màu đỏ từ hộp.",
+   "explanation": "Mỗi lần lấy thì ta chỉ lấy có một quả cầu, nên nếu lấy được quả cầu màu xanh thì không có quả cầu màu đỏ (và ngược lại), nói cách khác ${P(A B)=0}$.\nVì vậy ${A, B}$ là hai biến cố xung khắc.\nXác suất để lấy được một quả cầu màu xanh hoặc một quả cầu màu đỏ là:\n${P(A \\cup B)=P(A)+P(B)=\\frac{1}{5}+\\frac{1}{6}=\\frac{11}{30} \\text {. } }$",
+   "short_value": null,
+   "short_correct": "\\dfrac{11}{30}",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp đựng 9 tấm thẻ được đánh số từ 1 tới 9 , hai tấm thẻ khác nhau đánh hai số khác nhau. Rút ngẫu nhiên đồng thời hai tấm thẻ từ hộp. Xét các biến cố sau:\n${A}$ : \"Cả hai tấm thẻ đều đánh số chẵn\", ${B}$ : \"Chỉ có một tấm thẻ đánh số chẵn\", ${C}$ : \"Tích hai số đánh trên hai tấm thẻ là một số chẵn\".\nTính xác suất để biến cố ${C}$ xảy ra.",
+   "explanation": "Dễ thấy ${A, B}$ là hai biến cố xung khắc và ${P(A)=\\frac{C_4^2}{C_9^2}=\\frac{1}{6}, P(B)=\\frac{C_4^1 C_5^1}{C_9^{22}}=\\frac{5}{9}}$.\nTa có: ${P(C)=P(A \\cup B)=P(A)+P(B)=\\frac{1}{6}+\\frac{5}{9}=\\frac{13}{18}}$.",
+   "short_value": null,
+   "short_correct": "\\dfrac{13}{18}",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một máy bay có 5 động cơ, trong đó cánh phải có 3 động cơ, cánh trái có 2 động cơ. Xác suất bị trục trặc của mỗi động cơ cánh phải là 0,1 ; xác suất 1 i trục trặc mỗi động cơ cánh trái là 0,05 . Biết rằng các động cơ hoạt động đợc lập. Tính xác suất để có đúng 4 động cơ máy bay bị hỏng.",
+   "explanation": "Gọi biến cố ${A}$ : \"Có đúng 4 động cơ hỏng”, ${B}$ là biến cố: \"2 động cơ cánh phải hỏng và 2 động cơ cánh trái hỏng”, ${C}$ là biến cố: \"3 động cơ cánh phải hỏng và 1 động cơ cánh trái hỏng\".\nTa có hai biến cố ${B, C}$ xung khắc và ${A=B \\cup C}$.\nTheo quy tắc cộng, ta có:\n${\\begin{aligned} P(A) & =P(B)+P(C) \\\\ & =C_3^2 \\times(0,1)^2 \\times 0,9 \\times C_2^2 \\times(0,05)^2+C_3^3 \\times(0,1)^3 \\times C_2^1 \\times 0,05 \\times 0,95 \\\\ & =0,0001625 \\end{aligned} }$",
+   "short_value": null,
+   "short_correct": "0,0001625",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp có chứa 5 bi xanh và 4 bi đỏ có cùng kích thước và khối lượng. Lấy ra ngẫu nhiên đồng thời 3 viên bi từ hộp. Gọi ${A}$ là biến cố \"Ba viên bi lấy ra đều có màu đỏ\", ${B}$ là biến cố \"Ba viên bi lấy ra đều có màu xanh\"\nTính số kết quả thuận lợi cho biến cố ${A \\cup B}$ ?",
+   "explanation": "Số kết quả thuận lợi cho biến cố ${A}$ là: ${C_4^3=4}$.\nSố kết quả thuận lợi cho biến cố ${B}$ là: ${C_5^3=10}$.\n${A \\cup B}$ là biến cố \"hai viên bi lấy ra có cùng màu\". Số kết quả thuận lợi cho biến cố ${A \\cup B}$ là: ${C_4^3+C_5^3=14}$.",
+   "short_value": null,
+   "short_correct": "14",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một đội tình nguyện gồm 6 học sinh khối 11, và 8 học sinh khối 12. Chọn ra ngẫu nhiên 2 người trong đội. Tính xác suất của biến cố \"Cả hai người được chọn học cùng một khối\".",
+   "explanation": "Gọi ${A}$ là biến cố: \"Cả hai học sinh được chọn đều thuộc khối 11 \". Gọi ${B}$ là biến cố: \"Cả hai học sinh được chọn đều thuộc khối 12 \". Khi đó ${A \\cup B}$ là biến cố \"Cả hai người được chọn học cùng một khối”.\nDo đó ${A}$ và ${B}$ là hai biến cố xung khắc nên ${P(A \\cup B)=P(A)+P(B)=\\frac{C_6^2}{C_{14}^2}+\\frac{C_8^2}{C_{14}^2}=\\frac{43}{91}}$.",
+   "short_value": null,
+   "short_correct": "\\dfrac{43}{91}",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B2.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  }
+ ],
+ "flags": []
+}

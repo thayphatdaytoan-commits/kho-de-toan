@@ -1,0 +1,660 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "6",
+  "lesson": "2",
+  "title": "Bài 2. ➋. phép tính lôgarit",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $a,\\,\\,b,\\,\\,c$ là các số dương, $a\\ne 1$. Đẳng thức nào sau đây đúng?",
+   "explanation": "Theo quy tắc tính logarit của một thương thì ta có: ${{\\log }_{a}}\\left( \\frac{b}{c} \\right)={{\\log }_{a}}b-{{\\log }_{a}}c$.",
+   "options": [
+    "${{\\log }_{a}}\\left( \\frac{b}{c} \\right)={{\\log }_{a}}c-{{\\log }_{a}}b$",
+    "${{\\log }_{a}}\\left( \\frac{b}{c} \\right)={{\\log }_{a}}b-{{\\log }_{a}}c$",
+    "${{\\log }_{a}}\\left( \\frac{b}{c} \\right)={{\\log }_{b}}a-{{\\log }_{b}}c$",
+    "${{\\log }_{a}}\\left( \\frac{b}{c} \\right)={{\\log }_{a}}b+{{\\log }_{a}}c$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho các số thực dương $a$ và $b$ thỏa mãn ${{a}^{2}}-8b=0$. Tính giá trị của biểu thức $P={{\\log }_{\\sqrt{2}}}a-{{\\log }_{2}}b-1$.",
+   "explanation": "Ta có:\n$P={{\\log }_{\\sqrt{2}}}a-{{\\log }_{2}}b-1=2{{\\log }_{2}}a-({{\\log }_{2}}b+{{\\log }_{2}}2)={{\\log }_{2}}{{a}^{2}}-{{\\log }_{2}}2b={{\\log }_{2}}\\frac{{{a}^{2}}}{2b}={{\\log }_{2}}\\frac{8b}{2b}=2$",
+   "options": [
+    "$P=2$",
+    "$P=4$",
+    "$P=16$",
+    "$P=\\sqrt{2}$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho các số thực dương $a$, $b$ thỏa mãn $3\\log a+2\\log b=1$. Mệnh đề nào sau đây đúng?",
+   "explanation": "Ta có: $3\\log a+2\\log b=1$ $\\Leftrightarrow \\log {{a}^{3}}+\\log {{b}^{2}}=1$ $\\Leftrightarrow \\log \\left( {{a}^{3}}{{b}^{2}} \\right)=1$ $\\Leftrightarrow {{a}^{3}}{{b}^{2}}=10$.",
+   "options": [
+    "${{a}^{3}}+{{b}^{2}}=1$",
+    "$3a+2b=10$",
+    "${{a}^{3}}{{b}^{2}}=10$",
+    "${{a}^{3}}+{{b}^{2}}=10$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Với mọi số thực $a$ dương thì ${{\\log }_{\\frac{1}{{{a}^{2}}}}}\\left( a\\sqrt{a} \\right)$ bằng",
+   "explanation": "Ta có: ${{\\log }_{\\frac{1}{{{a}^{2}}}}}\\left( a\\sqrt{a} \\right)={{\\log }_{{{a}^{-2}}}}\\left( {{a}^{\\frac{3}{2}}} \\right)=-\\frac{3}{4}$.",
+   "options": [
+    "$\\frac{3}{4}$",
+    "$-\\frac{3}{4}$",
+    "$3$",
+    "$-3$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $a,b$ là các số thực dương thỏa mãn${{\\log }_{2}}a=3$, ${{\\log }_{2}}b=5$. Giá trị của biểu thức $C={{\\log }_{2}}\\left( {{a}^{2}}b \\right)$ là",
+   "explanation": "Ta có: $C={{\\log }_{2}}\\left( {{a}^{2}}b \\right)={{\\log }_{2}}{{a}^{2}}+{{\\log }_{2}}b=2{{\\log }_{2}}a+{{\\log }_{2}}b=2.3+5=11$.",
+   "options": [
+    "$1$",
+    "$11$",
+    "$\\frac{13}{2}$",
+    "$8$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Với $\\log 2=a$, giá trị của $\\log \\sqrt[5]{\\frac{8}{5}}$ bằng",
+   "explanation": "Ta có: $\\log \\sqrt[5]{\\frac{8}{5}}=\\frac{1}{5}\\log \\frac{16}{10}=\\frac{1}{5}\\left( 4\\log 2-1 \\right)=\\frac{4a-1}{5}$.",
+   "options": [
+    "$4a+1$",
+    "$4a-1$",
+    "$\\frac{2a-1}{3}$",
+    "$\\frac{4a-1}{5}$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Với $a,\\text{ }b$ là các số thực dương tuỳ ý và $a\\ne 1$, ${{\\log }_{\\frac{1}{a}}}\\frac{1}{{{b}^{5}}}$ bằng",
+   "explanation": "Ta có: ${{\\log }_{\\frac{1}{a}}}\\frac{1}{{{b}^{5}}}={{\\log }_{{{a}^{-1}}}}{{b}^{-5}}=\\frac{1}{-1}.{{\\log }_{a}}{{b}^{-5}}=-1.(-5).{{\\log }_{a}}b=5{{\\log }_{a}}b$",
+   "options": [
+    "$5{{\\log }_{a}}b$",
+    "${{\\log }_{a}}b$",
+    "$-5{{\\log }_{a}}b$",
+    "$\\frac{1}{5}{{\\log }_{a}}b$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $a>0$ và $a\\ne 1$, khi đó ${{\\log }_{a}}\\sqrt[4]{a}$ bằng",
+   "explanation": "Ta có ${{\\log }_{a}}\\sqrt[4]{a}={{\\log }_{a}}{{a}^{1/4}}=\\frac{1}{4}.{{\\log }_{a}}a=\\frac{1}{4}$",
+   "options": [
+    "$4$",
+    "$\\frac{1}{4}$",
+    "$\\frac{-1}{4}$",
+    "$-4$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Đặt $a={{\\log }_{2}}7$. Hãy tính $\\log _2 56$ theo $a$",
+   "explanation": "Ta có: ${{\\log }_{2}}56={{\\log }_{2}}\\left( {{2}^{3}}.7 \\right)={{\\log }_{2}}{{2}^{3}}+{{\\log }_{2}}7=3+{{\\log }_{2}}7=3+a$",
+   "options": [
+    "${{\\log }_{2}}56=2+a$",
+    "${{\\log }_{2}}56=3+2a$",
+    "${{\\log }_{2}}56=1+3a$",
+    "${{\\log }_{2}}56=3+a$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D03",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "[2D2-0.0-1] Cho $a={{\\log }_{2}}5$, $b={{\\log }_{2}}3$. Biểu diễn của $P={{\\log }_{2}}\\frac{40}{3}$ theo $a$ và $b$ là",
+   "explanation": "Ta có $P={{\\log }_{2}}\\frac{40}{3}$ $={{\\log }_{2}}40-{{\\log }_{2}}3$ $={{\\log }_{2}}8+{{\\log }_{2}}5-b$ $=3+a-b$.",
+   "options": [
+    "$P=3+a-2b$",
+    "$P=3+a-b$",
+    "$P=\\frac{3a}{2b}$",
+    "$P=3+a-\\sqrt{b}$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D03",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Biết thời gian cần thiết (tính theo năm) để tăng gấp đôi số tiền đầu tư theo thể thức lãi kép liên tục với lãi suất không đổi $r$ mỗi năm được cho bởi công thức $t=\\frac{\\ln 2}{r}$. Tính thời gian cần thiết để tăng gấp đôi số tiền đầu tư khi lãi suất là 8% mỗi năm (làm tròn kết quả đến số thập phân thứ nhất)",
+   "explanation": "Ta có $r=8\\%=0.08$. Do đó thời gian cần thiết để tăng gấp đôi khoản đầu tư là:\n$t=\\frac{\\ln 2}{r}=\\frac{\\ln 2}{0.08}\\approx 8.7$ (năm).",
+   "options": [
+    "$8.7$ năm",
+    "$8.6$ năm",
+    "$8$ năm",
+    "$8.67$ năm"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D04",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Biết rằng vi khuẩn E. coli là vi khuẩn gây tiêu chảy đường ruột, gây đau bụng dữ dội, ngoài ra cứ sau 20 phút thì số lượng vi khuẩn tăng gấp đôi, nghĩa là số lượng tính theo công thức $S={{S}_{0}}{{.2}^{n}}$, ${{S}_{0}}$là số lượng ban đầu, $n$ là số lần nhân đôi. Ban đầu chỉ có 40 con vi khuẩn nói trên trong đường ruột, hỏi sau bao lâu số lượng vi khuẩn là $671088640$con?",
+   "explanation": "Ta có: $S={{S}_{0}}{{.2}^{n}}$.\nSuy ra $671088640={{40.2}^{n}}\\Leftrightarrow {{2}^{n}}=\\frac{671088640}{40}=16777216\\Leftrightarrow n={{\\log }_{2}}16777216=24$.\nĐể số lượng vi khuẩn là $671088640$con thì vi khuẩn đã có 24 lần nhân đôi.\nDo đó, thời gian mà vi khuẩn đã thực hiện 24 lần nhân đôi đó là $20.24=480$phút (8 giờ).\nVậy, sau 8 giờ số lượng vi khuẩn là $671088640$con.",
+   "options": [
+    "$20$ giờ",
+    "$8$ giờ",
+    "$12$ giờ",
+    "$6$ giờ"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D04",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P+Q=2\\ln 2$",
+    "b": "$Q-P=\\ln 2-4$",
+    "c": "$3Q+P=3\\ln 2$",
+    "d": "$2Q+P=2\\ln 2+1$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho các biểu thức sau: ${P=\\log _2 8+\\log _3 27-\\log _5 5^3}$; $Q=\\ln (2e)-\\log 100$. Khi đó:",
+   "explanation": "Ta có: ${P=\\log _2 8+\\log _3 27-\\log _5 5^3=\\log _2 2^3+\\log _3 3^3-\\log _5 5^3=3+3-3=3}$.\nTa có: $Q=\\ln (2e)-\\log 100=\\ln 2+\\ln e-\\log {{10}^{2}}=\\ln 2+1-2=\\ln 2-1$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${\\log (x-3)}$ có nghĩa khi và chỉ khi $x>3$",
+    "b": "${\\log _2\\left(4-x^2\\right)}$ có nghĩa khi và chỉ khi $x<2$",
+    "c": "${\\ln (2 x)-\\lg (10-x)}$ có nghĩa khi và chỉ khi $0<x<10$",
+    "d": "${\\log _x \\frac{1}{x-2}}$ có nghĩa khi và chỉ khi $x>0$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Tìm được ${x}$ để các biểu thức sau có nghĩa. Vậy:",
+   "explanation": "a) Biểu thức ${\\log (x-3)}$ xác định khi và chỉ khi ${x-3>0 \\Leftrightarrow x>3}$.\nb) Biểu thức ${\\log _2\\left(4-x^2\\right)}$ xác định khi và chỉ khi ${4-x^2>0 \\Leftrightarrow-2<x<2}$.\nc) Biểu thức ${\\ln (2 x)-\\lg (10-x)}$ xác định khi và chỉ khi\n${\\left\\{\\begin{array}{l} 2 x>0 \\\\ 10-x>0 \\end{array} \\Leftrightarrow 0<x<10\\right. }$\nd) Biểu thức ${\\log _x \\frac{1}{x-2}}$ xác định khi và chỉ khi ${\\left\\{\\begin{array}{l}x>0, x \\neq 1 \\\\ \\frac{1}{x-2}>0\\end{array} \\Leftrightarrow x>2\\right.}$.\nCho các biểu thức: ${P=\\log _a b^3+\\log _{a^2} b^6}$ với ${a, b}$ là các số dương và ${a}$ khác 1 ;",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${\\log (x+1)}$ có nghĩa khi và chỉ khi $x>-1$.",
+    "b": "${\\ln (x-1)^2}$có nghĩa khi và chỉ khi $x\\ne 1$.",
+    "c": "${\\log _{x-1} x}$ có nghĩa khi và chỉ khi $\\left\\{ \\begin{array}{llllll} x>1 \\\\ x\\ne 2 \\\\ \\end{array} \\right.$.",
+    "d": "${\\log ^2 \\frac{1}{x-x^2}}$ có nghĩa khi và chỉ khi $0<x<1$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Tìm được ${x}$ để biểu thức sau có nghĩa. Vậy:",
+   "explanation": "a) Biểu thức ${\\log (x+1)}$ có nghĩa khi và chỉ khi ${x+1>0 \\Leftrightarrow x>-1}$.\nb) Biểu thức ${\\ln (x-1)^2}$ có nghĩa khi và chỉ khi ${(x-1)^2>0 \\Leftrightarrow x \\neq 1}$.\nc) Biểu thức ${\\log _{x-1} x}$ có nghĩa khi và chỉ khi ${\\left\\{\\begin{array}{l}x>0 \\\\ x-1>0 \\\\ x-1 \\neq 1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x>1 \\\\ x \\neq 2\\end{array}\\right.\\right.}$.\nd) Biểu thức ${\\log ^2 \\frac{1}{x-x^2}}$ có nghĩa khi và chỉ khi ${\\frac{1}{x-x^2}>0 \\Leftrightarrow x-x^2>0 \\Leftrightarrow 0<x<1}$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{e}^{\\ln a-\\ln b}}=\\frac{a}{b}.$",
+    "b": "$\\ln \\frac{a}{\\sqrt[3]{b}}=\\ln a-3\\ln b.$",
+    "c": "$\\ln \\,({{a}^{2}}{{b}^{4}})=2\\ln \\,(ab)+2\\ln \\,b.$",
+    "d": "$a\\ln \\frac{1}{b}=\\ln \\,({{b}^{-a}}).$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho $a,\\,b$ là các số thực dương. Các mệnh đề sau đúng hay sai?",
+   "explanation": "Ta có: ${{e}^{\\ln a-\\ln b}}={{e}^{\\ln \\frac{a}{b}}}=\\frac{a}{b}.$ Đáp án a Đúng.\n$\\ln \\,({{a}^{2}}{{b}^{4}})=\\ln \\,({{a}^{2}}{{b}^{2}}{{b}^{2}})=\\ln \\,{{(ab)}^{2}}+\\ln \\,{{b}^{2}}=2\\ln \\,(ab)+2\\ln \\,b.$ Đáp án c Đúng.\n$a\\ln \\frac{1}{b}=a\\ln \\,({{b}^{-1}})=-a\\ln \\,b=\\ln \\,({{b}^{-a}}).$ Đáp án d Đúng.\n$\\ln \\frac{a}{\\sqrt[3]{b}}=\\ln \\,a-\\ln \\,\\sqrt[3]{b}=\\ln a-\\ln \\,{{b}^{\\frac{1}{3}}}=\\ln \\,a-\\frac{1}{3}\\ln \\,b.$ Đáp án b Sai.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Với $a$ là số dương tùy ý khác 1, ${{\\log }_{a}}\\sqrt{a}$ bằng",
+   "explanation": "Ta có: ${{\\log }_{a}}\\sqrt{a}={{\\log }_{a}}{{a}^{\\frac{1}{2}}}=\\frac{1}{2}$.",
+   "short_value": 0.5,
+   "short_correct": "0,5|1/2",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $a,b$ là các số thực dương thỏa mãn${{\\log }_{2}}a=3$, ${{\\log }_{2}}b=7$. Giá trị của biểu thức $F={{\\log }_{ab}}\\left( \\frac{{{a}^{2}}}{b} \\right)$ là",
+   "explanation": "Ta có: $F={{\\log }_{ab}}\\left( \\frac{{{a}^{2}}}{b} \\right)=\\frac{{{\\log }_{2}}\\left( \\frac{{{a}^{2}}}{b} \\right)}{{{\\log }_{2}}\\left( ab \\right)}=\\frac{2{{\\log }_{2}}a-{{\\log }_{2}}b}{{{\\log }_{2}}a+{{\\log }_{2}}b}=\\frac{2.3-7}{3+7}=-\\frac{1}{10}$.",
+   "short_value": -0.1,
+   "short_correct": "-0,1|-1/10",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $a$, $b$, $c$ là các số thực dương thỏa ${{a}^{{{\\log }_{3}}7}}=9$, ${{b}^{{{\\log }_{7}}11}}=7$, ${{c}^{{{\\log }_{11}}25}}=11$. Tính giá trị biểu thức $T={{a}^{\\log _{3}^{2}7}}+{{b}^{\\log _{7}^{2}11}}+{{c}^{\\log _{11}^{2}25}}$.",
+   "explanation": "$T={{a}^{\\log _{3}^{2}7}}+{{b}^{\\log _{7}^{2}11}}+{{c}^{\\log _{11}^{2}25}}={{\\left( {{a}^{{{\\log }_{3}}7}} \\right)}^{{{\\log }_{3}}7}}+{{\\left( {{b}^{{{\\log }_{7}}11}} \\right)}^{{{\\log }_{7}}11}}+{{\\left( {{c}^{{{\\log }_{11}}25}} \\right)}^{{{\\log }_{11}}25}}$.\n$={{\\left( 9 \\right)}^{{{\\log }_{3}}7}}+{{\\left( 7 \\right)}^{{{\\log }_{7}}11}}+{{\\left( 11 \\right)}^{{{\\log }_{11}}25}}={{7}^{2}}+11+25=85$.",
+   "short_value": 85,
+   "short_correct": "85",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Sự tăng trưởng của loại vi khuẩn tuân theo công thức $S=A{{e}^{r.t}}$, trong đó $A$ là số lượng vi khuẩn ban đầu, $r$ là tỉ lệ tăng trưởng ($r>0$), $t$ là thời gian tăng trưởng. Biết số vi khuẩn ban đầu là 100 con và sau 5 giờ có 300 con. Thời gian để số vi khuẩn tăng gấp đôi số vi khuẩn ban đầu gần nhất với kết quả nào trong các kết quả sau đây ?\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Vì sau 5h có 300 con vi khuẩn, nên suy ra $300=100.{{\\text{e}}^{5r}}\\Leftrightarrow r=\\frac{\\ln 3}{5}$.\nĐể vi khuẩn tăng gấp đôi thì ta có phương trình:\n$200=100.{{\\text{e}}^{\\frac{1}{5}\\ln 3.t}}\\Leftrightarrow {{\\text{e}}^{\\frac{1}{5}\\ln 3.t}}=2\\Leftrightarrow {{3}^{\\frac{1}{5}.t}}=2$ $\\Leftrightarrow t=5{{\\log }_{3}}2\\Leftrightarrow t\\approx 3,15$\nVậy thời gian để số vi khuẩn tăng gấp đôi số vi khuẩn ban đầu là 3 giờ 9 phút.",
+   "short_value": 3.15,
+   "short_correct": "3,2",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D03",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gọi $N\\left( t \\right)$là số phần trăm cacbon 14 còn lại trong một bộ phận của một cây sinh trưởng từ $t$ năm trước đây thì ta có công thức $N\\left( t \\right)=100.{{\\left( \\frac{1}{2} \\right)}^{\\frac{t}{A}}}\\left( \\% \\right)$ với $A$là hằng số. Biết rằng một mẫu gỗ có tuổi khoảng 3754 năm thì lượng cacbon 14 còn lại là $65\\%$. Phân tích mẫu gỗ từ một công trình kiến trúc cổ, người ta thấy lượng cacbon 14 còn lại trong mẫu gỗ là $79\\%$. Hãy xác định tuổi của mẫu gỗ được lấy từ công trình đó.",
+   "explanation": "Theo bài ta có $65=100.{{\\left( \\frac{1}{2} \\right)}^{\\frac{3754}{A}}}$ $\\Leftrightarrow 0,65={{\\left( \\frac{1}{2} \\right)}^{\\frac{3754}{A}}}\\Leftrightarrow \\frac{3754}{A}={{\\log }_{\\frac{1}{2}}}0,65\\Leftrightarrow A=\\frac{3754}{{{\\log }_{\\frac{1}{2}}}0,65}$\nDo mẫu gỗ còn $79\\%$ lượng Cacbon 14 nên ta có: $79=100.{{\\left( \\frac{1}{2} \\right)}^{\\frac{t}{A}}}\\Leftrightarrow 0,79={{\\left( \\frac{1}{2} \\right)}^{\\frac{t}{A}}}$\n$\\Leftrightarrow \\frac{t}{A}={{\\log }_{\\frac{1}{2}}}0,79\\Leftrightarrow t=A.{{\\log }_{\\frac{1}{2}}}0,79=\\frac{3754}{{{\\log }_{\\frac{1}{2}}}0,65}.{{\\log }_{\\frac{1}{2}}}0,79\\approx 2054$.",
+   "short_value": 2054,
+   "short_correct": "2054",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 15,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D01",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Sự tăng trưởng của một loại vi khuẩn trong phòng thí nghiệm được tính theo công thức $S(t)={{S}_{0}}.\\,{{e}^{r.\\,\\,t}}$. Trong đó ${{S}_{0}}$ là số lượng vi khuẩn ban đầu, $S\\left( t \\right)$ là số lượng vi khuẩn có sau $t$( phút), $r$là tỷ lệ tăng trưởng $\\left( r>0 \\right)$,$t$ ( tính theo phút) là thời gian tăng trưởng. Biết rằng số lượng vi khuẩn ban đầu có $500$ con và sau $5$ giờ có $1500$ con. Hỏi sau bao nhiêu giờ kể từ lúc ban đầu có$500$ con để số lượng vi khuẩn đạt $121500$ con?",
+   "explanation": "Ta có:${{S}_{0}}=500$(con) ; $5$ giờ $=$ $300$ phút.\nSau $5$giờ số vi khuẩn là:$S\\left( 300 \\right)=500.\\,\\,{{e}^{300r}}$ $\\Leftrightarrow 1500=500.\\,\\,{{e}^{300r}}$ $\\Leftrightarrow r=\\frac{\\ln 3}{300}$\nVậy khoảng thời gian $t$ kể từ lúc bắt đầu có $500$con vi khuẩn đến khi số lượng vi khuẩn đạt $121500$ con thỏa mãn $121500=500.{{e}^{r\\,.\\,{{t}_{{}}}}}$\n$\\Leftrightarrow t=\\frac{\\ln 243}{r}=\\frac{300\\ln 243}{\\ln 3}=1500$(phút)$=25$(giờ).",
+   "short_value": 25,
+   "short_correct": "25",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B2.D03",
+   "dang_toan_web": "Khái niệm, tính chất và các quy tắc tính lôgarit."
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,324 @@
+{
+ "8": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi vị trí của 3 cây ăn quả lần lượt là {{1}}, {{2}}, {{3}} và vị trí của cây mới là {{4}}"
+    ],
+    "hint": "Đặt tên cho các vị trí"
+   },
+   {
+    "lines": [
+     "Vì ba cây ăn quả được trồng tại ba vị trí khác nhau và không nằm trên một đường thẳng nên chúng tạo thành $\\triangle$ {{5}}"
+    ],
+    "hint": "Lập luận tạo thành tam giác"
+   },
+   {
+    "lines": [
+     "Để trồng một cây mới sao cho khoảng cách từ cây mới đến ba cây hiện tại là bằng nhau thì $M$ là giao điểm của ba {{6}} của $\\triangle ABC$"
+    ],
+    "hint": "Xác định vị trí cây mới"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "đường trung trực"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "A",
+   "B",
+   "C",
+   "M",
+   "ABC",
+   "đường trung trực",
+   "đường trung tuyến",
+   "đường phân giác",
+   "đường cao",
+   "ACB"
+  ]
+ },
+ "by": "DeepSeek",
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle ABH$ và $\\triangle ACH$ có:",
+     "• $AB =$ {{1}} (vì $\\triangle ABC$ {{2}} tại $A$)"
+    ],
+    "hint": "Xét hai tam giác bằng nhau"
+   },
+   {
+    "lines": [
+     "• $\\widehat{B} =$ {{3}} (vì $\\triangle ABC$ cân tại $A$)",
+     "• $BH =$ {{4}} (vì $H$ là {{5}} của $BC$)"
+    ],
+    "hint": "Nêu các cặp cạnh góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Vậy $\\triangle ABH = \\triangle ACH$ ({{6}})"
+    ],
+    "hint": "Kết luận hai tam giác bằng nhau"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "cân"
+    ],
+    "keywords": [],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{C}",
+     "góc C"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "CH",
+     "HC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "c.g.c",
+     "cgc"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp bằng nhau",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AC",
+   "CA",
+   "cân",
+   "\\widehat{C}",
+   "góc C",
+   "CH",
+   "HC",
+   "trung điểm",
+   "c.g.c",
+   "cgc",
+   "AB",
+   "\\widehat{A}",
+   "c.c.c",
+   "đồng vị"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: $\\triangle ABH = \\triangle ACH$ ({{1}})",
+     "Suy ra $\\widehat{AHB} =$ {{2}}"
+    ],
+    "hint": "Suy ra hai góc tương ứng bằng nhau"
+   },
+   {
+    "lines": [
+     "Mà $\\widehat{AHB} + \\widehat{AHC} =$ {{3}}",
+     "Nên $\\widehat{AHB} = \\widehat{AHC} = 180^0 : 2 =$ {{4}}"
+    ],
+    "hint": "Tính số đo góc dựa vào hai góc kề bù"
+   },
+   {
+    "lines": [
+     "Vậy $AH \\bot$ {{5}}",
+     "Mà $H$ là {{6}} của $BC$"
+    ],
+    "hint": "Chứng minh vuông góc và nhắc lại trung điểm"
+   },
+   {
+    "lines": [
+     "Nên $AH$ là {{7}} của $BC$"
+    ],
+    "hint": "Kết luận đường trung trực"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "cmt"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{AHC}",
+     "góc AHC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "180^0"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "90^0"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "đường trung trực"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "cmt",
+   "\\widehat{AHC}",
+   "góc AHC",
+   "180^0",
+   "90^0",
+   "BC",
+   "trung điểm",
+   "đường trung trực",
+   "\\widehat{AHB}",
+   "góc AHB",
+   "AB",
+   "đường cao",
+   "đường trung tuyến"
+  ]
+ }
+}

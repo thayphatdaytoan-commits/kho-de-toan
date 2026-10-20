@@ -1,0 +1,638 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "on-tap",
+  "title": "Kiểm tra theo bài Phan Nhật Linh — Chương 6, Khảo sát chương xác suất có điều kiện",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": null,
+  "2": null,
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ biết $P\\left( A \\right)=0,4,$ $P\\left( B \\right)=0,3$ và $P\\left( AB \\right)=0,1.$ Tính $P\\left( \\left. A \\right|B \\right)?$",
+   "explanation": "Ta có $P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{0,1}{0,3}=\\frac{1}{3}.$",
+   "options": [
+    "$\\frac{1}{3}.$",
+    "$\\frac{1}{4}.$",
+    "$\\frac{3}{4}.$",
+    "$\\frac{1}{12}.$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ biết $P\\left( A \\right)=0,4,$ $P\\left( B \\right)=0,3$ và $P\\left( AB \\right)=0,1.$ Tính $P\\left( \\left. B \\right|A \\right)?$",
+   "explanation": "Ta có $P\\left( B\\left| A \\right. \\right)=\\frac{P\\left( AB \\right)}{P\\left( A \\right)}=\\frac{0,1}{0,4}=\\frac{1}{4}.$",
+   "options": [
+    "$\\frac{1}{3}.$",
+    "$\\frac{1}{4}.$",
+    "$\\frac{3}{4}.$",
+    "$\\frac{1}{12}.$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A,~~B$ thoả mãn $P\\left( A \\right)=0,4;~~P\\left( B \\right)=0,3;~~P\\left( A\\mid B \\right)=0,25$. Khi đó, $P\\left( B\\mid A \\right)$ bằng",
+   "explanation": "Theo công thức Bayes, ta có: $P\\left( B\\mid A \\right)=\\frac{P\\left( B \\right).P\\left( A\\mid B \\right)}{P\\left( A \\right)}=\\frac{0,3.0,25}{0,4}=0,1875$.",
+   "options": [
+    "$0,1875$",
+    "$0,48$",
+    "$0,333$",
+    "$0,95$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hai biến cố $A,~~B$ với $P\\left( B \\right)=0,6;~~P\\left( A\\mid B \\right)=0,7$ và $P\\left( A\\mid \\bar{B} \\right)=0,4$ Khi đó, $P\\left( A \\right)$ bằng",
+   "explanation": "Ta có: $P\\left( {\\bar{B}} \\right)=1-P\\left( B \\right)=1-0,6=0,4$.\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A\\mid B \\right)+P\\left( {\\bar{B}} \\right).P\\left( A\\mid \\bar{B} \\right)=0,6.0,7+0,4.0,4=0,58$.",
+   "options": [
+    "$0,7$",
+    "$0,4$",
+    "$0,58$",
+    "$0,52$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Xét phép thử “Tung hai con xúc sắc khác nhau” và biến cố $A:$ “Một con xúc xắc xuất hiện mặt một chấm”. Số kết quả của phép thử trên khi biến cố $A$ xảy ra là:",
+   "explanation": "Gọi $\\left( i;j \\right)$ là số chấm xuất hiện trên 2 con xúc xắc.\nKhi biến cố $A$ xảy ra thì kết quả của phép thử là $\\left( 1;1 \\right),$ $\\left( 1;2 \\right),$ $\\left( 1;3 \\right),$ $\\left( 1;4 \\right),$ $\\left( 1;5 \\right),$ $\\left( 1;6 \\right),$ $\\left( 2;1 \\right),$ $\\left( 3;1 \\right),$ $\\left( 4;1 \\right),$ $\\left( 5;1 \\right)$ hoặc $\\left( 6;1 \\right).$\nSố kết quả của phép thử trên khi biến cố $A$ xảy ra là $11.$",
+   "options": [
+    "$36.$",
+    "$6.$",
+    "$11.$",
+    "$18.$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong một bình có $5$ quả đánh số từ $1$ đến $5.$ Lấy ngẫu nhiên một quả cầu từ hộp, bỏ quả cầu đó ra ngoài và lại lấy ra một cách ngẫu nhiên thêm một quả cầu nữa. Hỏi có bao nhiêu khả năng có thể xảy ra của phép thử trên khi quả cầu lấy ra lần thứ nhất ghi số $3$?",
+   "explanation": "Gọi $\\left( i;j \\right)$ là kết quả lần thứ nhất lấy được quả cầu ghi số $i,$ lần thứ hai lấy được quả cầu ghi số $j.$ Ta có các kết quả của phép thử trên khi quả cầu lấy ra lần thứ nhất ghi số chẵn là $\\left( 3;1 \\right),$ $\\left( 3;2 \\right),$ $\\left( 3;4 \\right),$ $\\left( 3;5 \\right).$\nVậy số kết quả có thể xảy ra là $4.$",
+   "options": [
+    "$4.$",
+    "$5.$",
+    "$10.$",
+    "$20.$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Lấy ngẫu nhiên một sản phẩm từ giỏ hàng đựng $4$ sản phẩm loại $1$ và $6$ sản phẩm loại $2$ bỏ ra ngoài và lại lấy ra một cách ngẫu nhiên thêm một sản phẩm nữa từ giỏ hàng. Hỏi có bao nhiêu khả năng có thể xảy ra của phép thử trên khi lần thứ nhất lấy được sản phẩm loại một?",
+   "explanation": "Ta có các kết quả của phép thử trên khi lần thứ nhất lấy được sản phẩm loại một là:\nCả $2$ lần đều lấy được sản phẩm loại $1$ có $4.3=12$ cách.\nLần $1$ lấy sản phẩm loại $1$ và lần $2$ lấy sản phẩm loại $2$ có $4.6=24$ cách.\nVậy có $12+24=36$ khả năng có thể xảy ra của phép thử trên khi lần thứ nhất lấy được sản phẩm loại $2$.",
+   "options": [
+    "$12.$",
+    "$36.$",
+    "$24.$",
+    "$10.$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Xét phép thử “Tung lần lượt hai con xúc sắc khác nhau”. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc bằng $5$ biết rằng con xúc xắc thứ nhất xuất hiện mặt hai chấm?",
+   "explanation": "Gọi $A$ là biến cố “Con xúc xắc thứ nhất xuất hiện mặt $2$ chấm”.\nGọi $B$ là biến cố “Tổng số chấm xuất hiện trên hai con xúc xắc bằng $5$”.\nNếu $A$ xảy ra tức là $\\left( 2;1 \\right),$ $\\left( 2;2 \\right),$ …, $\\left( 2;6 \\right).$ Khi đó để tổng số chấ xuất hiện trên hai con xúc xắc bằng $5$ thì chỉ có một kết quả thuận lợi là $\\left( 2;3 \\right).$\nVậy $P\\left( \\left. B \\right|A \\right)=\\frac{1}{6}.$",
+   "options": [
+    "$\\frac{1}{9}.$",
+    "$\\frac{1}{6}.$",
+    "$\\frac{1}{24}.$",
+    "$\\frac{1}{36}.$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một cuộc thi khoa học có 36 bộ câu hỏi, trong đó có 20 bộ câu hỏi về chủ đề tự nhiên và 16 bộ câu hỏi về chủ đề xã hội. Bạn An lấy ngẫu nhiên 1 bộ câu hỏi (lấy không hoàn lại), sau đó bạn Bình lấy ngẫu nhiên 1 bộ câu hỏi. Xác suất bạn Bình lấy được bộ câu hỏi về chủ đề xã hội bằng",
+   "explanation": "Xét các biến cố:\nA: \"Bạn An lấy được bộ câu hỏi về chủ đề tự nhiên\";\nB: \"Bạn Bình lấy được bộ câu hỏi về chủ đề xã hội\".\nKhi đó, $P\\left( A \\right)=\\frac{20}{36}=\\frac{5}{9};~~P\\left( {\\bar{A}} \\right)=1-P\\left( A \\right)=1-\\frac{5}{9}=\\frac{4}{9}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề tự nhiên thì sau đó còn 35 bộ câu hỏi, trong đó có 16 bộ câu hỏi về chủ đề xã hội, suy ra $P\\left( B\\mid A \\right)=\\frac{16}{35}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề xã hội thì sau đó còn 35 bộ câu hỏi, trong đó có 15 bộ câu hỏi về chủ đề xã hội, suy ra $P\\left( B\\mid \\bar{A} \\right)=\\frac{15}{35}$.\nTheo công thức xác suất toàn phần, xác suất bạn Bình lấy được bộ câu hỏi về chủ đề xã hội là: $P\\left( B \\right)=P\\left( A \\right).P\\left( B\\mid A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B\\mid \\bar{A} \\right)=\\frac{5}{9}.\\frac{16}{35}+\\frac{4}{9}.\\frac{15}{35}=\\frac{4}{9}$.",
+   "options": [
+    "$\\frac{15}{35}$",
+    "$\\frac{16}{35}$",
+    "$\\frac{4}{9}$",
+    "$\\frac{5}{9}$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong một đợt kiểm tra sức khoẻ, có một loại bệnh X mà tỉ lệ người mắc bệnh là $0,2\\%$ và một loại xét nghiệm Y mà ai mắc bệnh X khi xét nghiệm Y cũng có phản ứng dương tính. Tuy nhiên, có $6\\%$ những người không bị bệnh X lại có phản ứng dương tính với xét nghiệm Y. Chọn ngẫu nhiên 1 người trong đợt kiểm tra sức khoẻ đó. Giả sử người đó có phản ứng dương tính với xét nghiệm Y. Xác suất người đó bị mắc bệnh X là bao nhiêu (làm tròn kết quả đến hàng phần trăm)?",
+   "explanation": "Xét các biến cố:\n$A:$ \"Người được chọn mắc bệnh X\";\n$B:$ \"Người được chọn có phản ứng dương tính với xét nghiệm Y\".\nTheo giả thiết ta có: $P\\left( A \\right)=0,002;~~P\\left( {\\bar{A}} \\right)=1-0,002=0,998$;\n$P\\left( B\\mid A \\right)=1;~~P\\left( B\\mid \\bar{A} \\right)=0,06$.\nTheo công thức Bayes, ta có:\n$P\\left( A\\mid B \\right)=\\frac{P\\left( A \\right).P\\left( B\\mid A \\right)}{P\\left( A \\right).P\\left( B\\mid A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B\\mid \\bar{A} \\right)}=\\frac{0,002.1}{0,002.1+0,998.0,06}\\approx 0,03$.",
+   "options": [
+    "$0,3$",
+    "$0,03$",
+    "$0,04$",
+    "$0,4$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một cửa hàng có hai loại bóng đèn Led, trong đó có $65\\%$ bóng đèn Led là màu trắng và $35\\%$ bóng đèn Led là màu xanh, các bóng đèn có kích thước như nhau. Các bóng đèn Led màu trắng có tỉ lệ hỏng là $2\\%$ và các bóng đèn Led màu xanh có tỉ lệ hỏng là $3\\%.$ Một khách hàng chọn mua ngẫu nhiên 1 bóng đèn Led từ cửa hàng. Xác suất để khách hàng chọn được bóng đèn Led không hỏng bằng",
+   "explanation": "Xét các biến cố:\n$A:$ \"Khách hàng chọn được bóng đèn Led màu trắng\";\n$B:$ \"Khách hàng chọn được bóng đèn Led không hỏng\".\nTa có: $P\\left( A \\right)=0,65;~~P\\left( {\\bar{A}} \\right)=0,35;~~P\\left( B\\mid A \\right)=1-P\\left( \\bar{B}\\mid A \\right)=1-0,02=0,98$;\n$P\\left( B\\mid \\bar{A} \\right)=1-P\\left( \\bar{B}\\mid \\bar{A} \\right)=1-0,03=0,97$.\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B\\mid A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B\\mid \\bar{A} \\right)=0,65.0,98+0,35.0,97=0,9765$.",
+   "options": [
+    "$0,7956$",
+    "$0,7965$",
+    "$0,9756$",
+    "$0,9765$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có $\\text{0,5 kg}$ thóc giống ST24 xác xuất hạt nảy mầm là $90\\%$, $\\text{1,5 kg}$thóc giống ST25 xác xuất hạt nảy mầm là $80\\%$ bị trộn lẫn vào nhau. Tính xác xuất để lấy ra một hạt thuộc giống ST24, biết hạt nảy mầm và số hạt thóc trên $\\text{1 kg}$của các giống là bằng nhau.",
+   "explanation": "Gọi ${{A}_{1}}$ là biến cố lấy được một hạt thóc thuộc giống ST24. Suy ra $P\\left( {{A}_{1}} \\right)=\\frac{0,5}{0,5+1,5}=\\frac{1}{4}$.\nGọi ${{A}_{2}}$ là biến cố lấy được một hạt thóc thuộc giống ST25. Suy ra $P\\left( {{A}_{2}} \\right)=\\frac{1,5}{0,5+1,5}=\\frac{3}{4}$.\nGọi $B$ là biến cố lấy được một hạt nảy mầm.\nTa có: $P\\left( B \\right)=P\\left( {{A}_{1}} \\right).P\\left( B\\left| {{A}_{1}} \\right. \\right)+P\\left( {{A}_{2}} \\right).P\\left( B\\left| {{A}_{2}} \\right. \\right)=\\frac{1}{4}\\cdot \\frac{90}{100}+\\frac{3}{4}\\cdot \\frac{80}{100}=\\frac{33}{40}$\n$P\\left( {{A}_{1}}\\left| B \\right. \\right)=\\frac{P\\left( {{A}_{1}} \\right).P\\left( B\\left| {{A}_{1}} \\right. \\right)}{P\\left( B \\right)}=\\frac{\\frac{1}{4}\\cdot \\frac{9}{10}}{\\frac{33}{40}}=\\frac{9}{33}$.",
+   "options": [
+    "$\\frac{13}{33}$",
+    "$\\frac{12}{33}$",
+    "$\\frac{8}{33}$",
+    "$\\frac{9}{33}$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số cách lấy được hai quả bóng của phép thử trên là $48$.",
+    "b": "Số cách lấy lần thứ nhất được quả bóng màu xanh, lần thứ hai được $1$ quả bóng màu bất kỳ khi là $104$.",
+    "c": "Số cách lấy lần thứ hai được $1$ quả bóng màu đỏ khi lần thứ nhất đã lấy được quả bóng màu xanh là $84$.",
+    "d": "Xác suất $P\\left( B|A \\right)=\\frac{6}{13}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp có $8$ quả bóng màu xanh, $6$quả bóng màu đỏ; các quả bóng có kích thước và khối lượng như nhau. Lấy ngẫu nhiên lần lượt hai quả bóng trong hộp, lấy không hoàn lại. Gọi A là biến cố “Lần thứ nhất lấy được quả màu xanh”. B là biến cố “Lần thứ hai lấy được quả màu đỏ”. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Sai: Lấy ngẫu nhiên lần lượt hai quả bóng trong hộp, lấy không hoàn lại, lần thứ nhất lấy một quả bóng có $14$ cách chọn, lần thứ hai lấy một quả bóng có $13$ cách chọn.\nDo đó $n\\left( \\Omega \\right)=14.13=182$.\nb) Đúng: Lần thứ nhất lấy bóng có $8$ cách chọn một quả bóng màu xanh, lần thứ hai có $13$ cách chọn một quả bóng từ $13$quả bóng còn lại trong hộp. Do đó có $8.13=104$\nc) Sai: Lần thứ nhất lấy được một quả bóng màu xanh, trong hộp còn $13$ quả với $7$ quả màu xanh và $6$quả bóng màu đỏ. Do đó lần thứ hai được một quả bóng màu đỏ là có $6$cách.\nd) Đúng: Lần thứ nhất được một quả bóng màu xanh, trong hộp còn $13$ quả với $7$ quả màu xanh và $6$ quả bóng màu đỏ. Do đó $P\\left( B\\left| A \\right. \\right)=\\frac{6}{13}$.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( A\\left| B \\right. \\right)=0,5$.",
+    "b": "$P\\left( A\\left| \\overline{B} \\right. \\right)=0,5$",
+    "c": "$P\\left( \\overline{A}\\left| B \\right. \\right)=\\frac{2}{3}$",
+    "d": "$P\\left( \\overline{A}\\left| \\overline{B} \\right. \\right)=0,5$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một túi có $10$ hộp sữa chua dâu và $10$ hộp sữa chua nha đam; các hộp sữa chua có kích thước và khối lượng như nhau. Có $12$ hộp sữa chua trong túi là sữa chua không đường, trong đó có $6$ hộp sữa chua dâu và $6$ hộp sữa chua nha đam. Lấy ngẫu nhiên một hộp sữa chua trong túi, xét các biến cố sau:\nA: “Hộp sữa chua được lấy ra là hộp sữa chua dâu”;\nB: “Hộp sữa chua được lấy ra là sữa chua không đường”.\nXét tính đúng sai của các khẳng định sau:",
+   "explanation": "Ta có:$\\overline{A}$: “Hộp sữa chua được lấy ra là hộp sữa chua nha đam”.\n$\\overline{B}$: “Hộp sữa chua được lấy ra là sữa chua có đường”.\na) Đúng: Trong $12$ hộp sữa chua không đường, có $6$ cách lấy hộp sữa chua dâu. Vậy xác suất để hộp sữa chua được lấy ra là hộp sữa chua dâu, không đường là $P\\left( A\\left| B \\right. \\right)=0,5$.\nb) Đúng: Trong $8$ hộp sữa chua có đường, có $4$ cách lấy hộp sữa chua dâu. Vậy xác suất để hộp sữa chua được lấy ra là hộp sữa chua dâu, có đường là $P\\left( A\\left| \\overline{B} \\right. \\right)=0,5$.\nc) Sai: Trong $12$ hộp sữa chua không đường, có $6$ cách lấy hộp sữa chua nha đam. Vậy xác suất để hộp sữa chua được lấy ra là hộp sữa chua nha đam, không đường là $P\\left( \\overline{A}\\left| B \\right. \\right)=0,5$.\nd) Đúng: Trong $8$ hộp sữa chua có đường, có $4$ cách lấy hộp sữa chua nha đam. Vậy xác suất để hộp sữa chua được lấy ra là hộp sữa nha đam, có đường là $P\\left( \\overline{A}\\left| \\overline{B} \\right. \\right)=0,5$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D04",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( A \\right)=\\frac{1}{10}$.",
+    "b": "$P\\left( AB \\right)=\\frac{7}{150}$.",
+    "c": "$P\\left( A|B \\right)=\\frac{7}{10}$.",
+    "d": "$P\\left( \\overline{A}|B \\right)=\\frac{179}{200}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khối $11$ của một trường THPT có $450$ học sinh trong đó có $250$ nữ và $200$ nam. Kết quả học tập cuối năm có $45$ học sinh xuất sắc trong đó có $24$ nữ và $21$ nam. Chọn ngẫu nhiên một học sinh trong $450$ học sinh của khối $11$.\nGọi A là biến cố “ Học sinh được chọn là học sinh xuất sắc”.\nB là biến cố: “Học sinh được chọn là học sinh nam”.\nXét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Đúng: $n\\left( A \\right)=45,\\,n\\left( \\Omega \\right)=450\\Rightarrow P\\left( A \\right)=\\frac{45}{450}=\\frac{1}{10}$.\nb) Đúng: Do có $21$ học sinh nam và đạt xuất sắc nên ta có:\n$n\\left( AB \\right)=21,\\,n\\left( \\Omega \\right)=450\\Rightarrow P\\left( AB \\right)=\\frac{21}{450}=\\frac{7}{150}$\nc) Sai: Do có $200$ học sinh nam nên $n\\left( B \\right)=200,n\\left( \\Omega \\right)=450\\Rightarrow P\\left( B \\right)=\\frac{200}{450}=\\frac{4}{9}\\,$.\nKhi đó: $P\\left( A|B \\right)=\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{7}{150}:\\frac{4}{9}=\\frac{21}{200}$.\nd) Đúng: Ta có $n\\left( \\bar{A}B \\right)=179,n\\left( \\Omega \\right)=450\\Rightarrow P\\left( \\bar{A}B \\right)=\\frac{179}{440}$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Giả sử $X$ có kết quả xét nghiệm dương tính. Xác suất để $X$ là người nhiễm bệnh là $\\frac{1}{2}$.",
+    "b": "Giả sử $X$ có kết quả xét nghiệm dương tính. Xác suất để $X$ là người không bị nhiễm bệnh là $\\frac{81}{161}$.",
+    "c": "Giả sử $X$ có kết quả xét nghiệm âm tính. Xác suất để $X$ là người nhiễm bệnh là $\\frac{20}{839}$.",
+    "d": "Giả sử $X$ có kết quả xét nghiệm âm tính. Xác suất để $X$ là người không bị nhiễm bệnh là $\\frac{800}{839}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khi đó: $P\\left( \\bar{A}|B \\right)=\\frac{P\\left( \\bar{A}B \\right)}{P\\left( B \\right)}=\\frac{179}{450}:\\frac{4}{9}=\\frac{179}{200}$.\nGiả sử trong một nhóm người có 10 người nhiễm bệnh, 90 người còn lại là không nhiễm bệnh. Để phát hiện ra người nhiễm bệnh, người ta tiến hành xét nghiệm tất cả mọi người của nhóm đó. Biết rằng đối với người nhiễm bệnh thì xác suất xét nghiệm có kết quả dương tính là 80%, nhưng đối với người không nhiễm bệnh thì xác suất xét nghiệm có phản ứng dương tính là 9%. Gọi $X$ là một người trong nhóm được xét nghiệm. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "Xét các biến cố\n$A$: “X có kết quả xét nghiệm dương tính”\n$\\overline{A}$: “X có kết quả xét nghiệm âm tính”\n$B$: “X là người nhiễm bệnh”\n$\\overline{B}$ : “X là người không bị nhiễm bệnh”\nXác suất X là người bị nhiễm bệnh là $\\text{P}\\left( B \\right)=\\frac{10}{100}=0,1$.\nXác suất X là người không bị nhiễm bệnh là $\\text{P}\\left( \\overline{B} \\right)=\\frac{90}{100}=0,9$.\nĐối với người nhiễm bệnh thì xác suất xét nghiệm có kết quả dương tính là 80% nên ta có\n$P\\left( A\\,|\\,B \\right)=\\frac{80}{100}=0,8$ $\\Rightarrow P\\left( \\overline{A}\\,|\\,B \\right)=1-P\\left( A\\,|\\,B \\right)=1-0,8=0,2$.\nĐối với người không nhiễm bệnh thì xác suất xét nghiệm có phản ứng dương tính là 9% nên ta có $P\\left( A\\,|\\,\\overline{B} \\right)=\\frac{9}{100}=0,09$ $\\Rightarrow P\\left( \\overline{A}\\,|\\,\\overline{B} \\right)=1-P\\left( A\\,|\\,\\overline{B} \\right)=1-0,09=0,91$.\na) Sai: Xác suất X là người nhiễm bệnh, biết X có kết quả xét nghiệm dương tính là\n$P\\left( B\\,|\\,A \\right)=\\frac{P\\left( B \\right)\\text{.}P\\left( A\\,|\\,B \\right)}{P\\left( B \\right)\\text{.}P\\left( A\\,|\\,B \\right)+P\\left( \\overline{B} \\right)\\text{.}P\\left( A\\,|\\,\\overline{B} \\right)}$ $=\\frac{0,1.0,8}{0,1.0,8+0,9.0,09}=\\frac{80}{161}$.\nb) Đúng: Xác suất để $X$ là người không bị nhiễm bệnh, biết X có kết quả xét nghiệm dương tính là: $P\\left( \\overline{B}\\,|\\,A \\right)=1-P\\left( B\\,|\\,A \\right)=1-\\frac{80}{161}=\\frac{81}{161}$.\nc) Đúng: Xác suất để X là người nhiễm bệnh, biết X có kết quả xét nghiệm âm tính là\n$P\\left( B\\,|\\,\\overline{A} \\right)=\\frac{P\\left( B \\right).P\\left( \\overline{A}\\,|B \\right)}{P\\left( B \\right)\\text{.}P\\left( \\overline{A}\\,|\\,B \\right)+P\\left( \\overline{B} \\right).P\\left( \\overline{A}\\,|\\overline{B} \\right)}$ $=\\frac{0,1.0,2}{0,1.0,2+0,9.0,91}=\\frac{20}{839}$.\nd) Sai: Xác suất để X là người không bị nhiễm bệnh, biết X có kết quả xét nghiệm âm tính là\n$P\\left( \\overline{B}\\,|\\overline{A} \\right)=1-P\\left( B\\,|\\overline{A} \\right)=1-\\frac{20}{839}=\\frac{819}{839}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 28,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Khoa học đã chứng minh bệnh béo phì sẽ làm tăng nguy cơ bị bệnh tim mạch. Khảo sát trên hồ sơ các bệnh nhân bị béo phì ở một bệnh viện, bệnh béo phì do yếu tố lối sống sinh hoạt là $90\\%$, trong số người đó có $60\\%$ người bị mắc bệnh tim mạch. Béo phì do yếu tố di truyền là $10\\%$, trong số người đó có $25\\%$ người bị mắc bệnh về tim mạch. Tính xác xuất để rút ra một hồ sơ là của một người bị béo phì do di truyền biết người đó bị bệnh tim mạch. (Kết quả làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)",
+   "explanation": "Gọi ${{A}_{1}}$ là biến cố lấy được hồ sơ một người bị bệnh béo phì do lối sống sinh hoạt.\nGọi ${{A}_{2}}$ là biến cố lấy được hồ sơ một người bị bệnh béo phì do di truyền.\nGọi $B$ là biến cố hồ sơ là của một người bị tim mạch.\nTa có $P\\left( B \\right)=P\\left( {{A}_{1}} \\right).P\\left( B\\left| {{A}_{1}} \\right. \\right)+P\\left( {{A}_{2}} \\right).P\\left( B\\left| {{A}_{2}} \\right. \\right)=0,9\\cdot 0,6+0,1.0,25=0,565$.\nSuy ra $P\\left( {{A}_{2}}\\left| B \\right. \\right)=\\frac{P\\left( {{A}_{2}} \\right).P\\left( B\\left| {{A}_{2}} \\right. \\right)}{P\\left( B \\right)}=\\frac{0,1.0,25}{0,565}=\\frac{5}{113}\\approx 0,04$.",
+   "short_value": 0.04,
+   "short_correct": "0,04",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có hai chuồng thỏ. Chuồng I có 7 con thỏ đen và 6 con thỏ trắng. Chuồng II có 5 con thỏ đen và 10 con thỏ trắng. Trước tiên từ chuồng I lấy ra ngẫu nhiên một con thỏ rồi bỏ vào chuồng II. Sau đó từ chuồng II lấy ra ngẫu nhiên một con thỏ. Tính xác suất để con thỏ được lấy ra là con thỏ màu đen (tính chính xác đến hàng phần trăm).",
+   "explanation": "Gọi $A:''$Con thỏ lấy ra từ chuồng I sang chuồng II là con thỏ màu đen$''$.\nKhi đó $P\\left( A \\right)=\\frac{7}{13}\\Rightarrow P\\left( \\overline{A} \\right)=1-\\frac{7}{13}=\\frac{6}{13}$.\nGọi $B:''$Con thỏ lấy ra từ chuồng II là con thỏ màu đen$''$.\nTa có $P\\left( \\left. B \\right|A \\right)=\\frac{6}{16}=\\frac{3}{8}\\Rightarrow P\\left( \\left. \\overline{B} \\right|A \\right)=\\frac{5}{8}$.\nÁp dụng công thức tính xác suất toàn phần, ta có\n$p\\left( B \\right)=P\\left( A \\right)P\\left( \\left. B \\right|A \\right)+P\\left( \\overline{A} \\right)P\\left( \\left. B \\right|\\overline{A} \\right)=\\frac{7}{13}.\\frac{3}{8}+\\frac{6}{13}.\\frac{5}{8}=\\frac{51}{104}\\approx 0,49$.",
+   "short_value": 0.35,
+   "short_correct": "0,35",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Vào mỗi buổi sáng ở tuyến phố $X$, xác suất xảy ra tắc đường khi trời mưa và không mưa lần lượt là $0,6$ và $0,15$. Xác suất có mưa vào một buổi sáng là $0,05$. Tính xác suất để buổi sáng có mưa khi tuyến phố $X$ bị tắc đường (tính chính xác đến hàng phần trăm).",
+   "explanation": "Gọi $A$ là biến cố “có mưa vào buổi sáng”.\nGọi $B$ là biến cố “tuyến phố $X$ tắc đường”.\nKhi đó ta có: $P\\left( A \\right)=0,05$ và $P\\left( {\\bar{A}} \\right)=1-P\\left( A \\right)=0,95$.\n$P\\left( B\\left| A \\right. \\right)=0,6$ và $P\\left( B\\left| {\\bar{A}} \\right. \\right)=0,15$.\nXác suất để buổi sáng tuyến phố $X$ tắc đường là\n$P\\left( B \\right)=P\\left( A \\right).\\,P\\left( B\\left| A \\right. \\right)+P\\left( {\\bar{A}} \\right).\\,P\\left( B\\left| {\\bar{A}} \\right. \\right)=0,05.0,6+0,95.0,15=\\frac{69}{400}=0,1725$.\nXác suất để buổi sáng có mưa khi tuyến phố $X$ bị tắc đường là\n$P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( A \\right).\\,P\\left( B\\left| A \\right. \\right)}{P\\left( B \\right)}=\\frac{0,05.0,6}{0,1725}=\\frac{4}{23}\\approx 0,17$.",
+   "short_value": 0.17,
+   "short_correct": "0,17",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Giả sử có khoảng $40\\%$ thư điện tử (email) gửi đến một địa chỉ là thư rác. Người ta sử dụng một thuật toán để phân loại thư rác, biết rằng thuật toán này có thể phân loại đến $99\\%$ thư rác và tỉ lệ sai sót khi phân loại thư bình thường thành thư rác là $5\\%$. Tính xác suất một thư điện tử là thư bình thường nếu thư này đã được phân loại đúng (làm tròn $2$ chữ số thập phân).",
+   "explanation": "Ta có công thức: $P\\left( A|B \\right)=\\frac{P\\left( B|A \\right).P\\left( A \\right)}{P\\left( B \\right)}$\nTrong đó: $A$: Thư điện tử là thư bình thường;$B$: Thư đã được phân loại đúng.\n$P\\left( A \\right)$: Xác suất một thư điện tử là thư bình thường ban đầu.\nVì có $40\\%$ thư rác nên $P\\left( A \\right)=1-0,4=0,6$.\n$P\\left( B|A \\right)$: Xác suất một thư bình thường được phân loại đúng.\nDo tỉ lệ sai sót là $5\\%$ nên $P\\left( B|A \\right)=1-0,05=0,95$.\n$P\\left( B|\\bar{A} \\right)$: Xác suất một thư rác được phân loại chính xác là $99\\%$ nên $P\\left( B|\\bar{A} \\right)=0,99$.\n$P\\left( B \\right)$: Xác suất một thư nào đó được phân loại đúng, tính bằng tổng xác suất một thư rác được phân loại đúng và xác suất một thư bình thường được phân loại đúng\n$P\\left( B \\right)=P\\left( B|A \\right)\\text{.}P\\left( A \\right)+P\\left( B|\\bar{A} \\right)\\text{.}P\\left( {\\bar{A}} \\right)=0,95.0,6+0,99.0,4=0,966$\nÁp dụng định lý Bayes: $P\\left( A|B \\right)=\\frac{P\\left( B|A \\right).P\\left( A \\right)}{P\\left( B \\right)}=\\frac{0,95\\cdot 0,6}{0,966}=\\frac{95}{161}\\approx 0,59$.",
+   "short_value": 0.59,
+   "short_correct": "0,59",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có hai chiếc hộp, hộp I có $5$ viên bi màu trắng và $5$ viên bi màu đen; hộp II có $6$ viên bi màu trắng và $4$ viên bi màu đen. Các viên bi có cùng kích thước và khối lượng. Lấy ngẫu nhiên đồng thời hai viên bi từ hộp I bỏ sang hộp II. Sau đó lấy ngẫu nhiên một viên bi từ hộp II. Lấy ra ngẫu nhiên một viên bi, giả sử viên bi được lấy ra là viên bi màu trắng. Tính xác suất viên bi màu trắng đó thuộc hộp I (làm tròn $2$ chữ số thập phân).",
+   "explanation": "Xét các biến cố: $A$: “Viên bi lấy ra là viên màu trắng”\n${{B}_{1}}$: “2 viên bi lấy ra từ hộp I có màu trắng”\n${{B}_{2}}$: “2 viên bi lấy ra từ hộp I có màu đen”\n${{B}_{3}}$: “2 viên bi lấy ra từ hộp I có cả hai màu đen trắng”\nTa có: $P\\left( {{B}_{1}} \\right)=\\frac{\\text{C}_{5}^{2}}{\\text{C}_{10}^{2}}=\\frac{2}{9};\\quad P\\left( {{B}_{2}} \\right)=\\frac{\\text{C}_{5}^{2}}{\\text{C}_{10}^{2}}=\\frac{2}{9};\\quad P\\left( {{B}_{3}} \\right)=\\frac{\\text{C}_{5}^{1}\\cdot \\text{C}_{5}^{1}}{\\text{C}_{10}^{2}}=\\frac{5}{9}.$\nÁp dụng công thức xác suất toàn phần, ta có:$P\\left( A \\right)=P\\left( A|{{B}_{1}} \\right).P\\left( {{B}_{1}} \\right)+P\\left( A|{{B}_{2}} \\right).P\\left( {{B}_{2}} \\right)+P\\left( A|{{B}_{3}} \\right).P\\left( {{B}_{3}} \\right)$ $=\\frac{C_{8}^{2}}{C_{12}^{2}}.\\frac{2}{9}+\\frac{C_{6}^{2}}{C_{12}^{2}}.\\frac{2}{9}+\\frac{C_{7}^{2}}{C_{12}^{2}}.\\frac{5}{9}=\\frac{191}{594}$Từ yêu cầu ta cần tìm $P\\left( {{B}_{1}}|A \\right)+P\\left( {{B}_{3}}|A \\right)$.\nÁp dụng công thức Bayes, ta có:\n$P\\left( {{B}_{1}}|A \\right)+P\\left( {{B}_{3}}|A \\right)=\\frac{P\\left( A|{{B}_{1}} \\right).P\\left( {{B}_{1}} \\right)}{P\\left( A \\right)}+\\frac{P\\left( A|{{B}_{3}} \\right).P\\left( {{B}_{3}} \\right)}{P\\left( A \\right)}$ $=\\frac{\\frac{14}{33}.\\frac{2}{9}}{\\frac{191}{594}}+\\frac{\\frac{7}{22}.\\frac{5}{9}}{\\frac{191}{594}}=\\frac{161}{191}\\approx 0,84$.",
+   "short_value": 0.84,
+   "short_correct": "0,84",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một cuộc thi có $36$ bộ câu hỏi, trong đó có $16$ bộ câu hỏi về chủ đề tự nhiên và $20$ bộ câu hỏi về chủ đề xã hội. Bạn An lấy ngẫu nhiên $1$ bộ câu hỏi (lấy không hoàn lại), sau đó bạn Phúc lấy ngẫu nhiên 1 bộ câu hỏi. Xác suất bạn Phúc lấy được bộ câu hỏi về chủ đề tự nhiên bằng $\\frac{a}{b}$ với $\\frac{a}{b}$ là phân số tối giản. Giá trị $100a-99b$ bằng bao nhiêu?",
+   "explanation": "Xét các biến cố: A: \"Bạn An lấy được bộ câu hỏi về chủ đề xã hội\";\nB: \"Bạn Phúc lấy được bộ câu hỏi về chủ đề tự nhiên\".\nKhi đó: $P\\left( A \\right)=\\frac{20}{36}=\\frac{5}{9};\\,\\,P\\left( \\overline{A\\,} \\right)=1-P\\left( A \\right)=1-\\frac{5}{9}=\\frac{4}{9}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề xã hội thì sau đó còn 35 bộ câu hỏi, trong đó có 16 bộ câu hỏi về chủ đề tự nhiên thì suy ra $P\\left( B\\mid A \\right)=\\frac{16}{35}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề tự nhiên thì sau đó còn 35 bộ câu hỏi, trong đó có 15 bộ câu hỏi về chủ đề tự nhiên thì suy ra $P\\left( B\\mid \\overline{A\\,} \\right)=\\frac{15}{35}$.\nTheo công thức xác suất toàn phần, xác suất bạn Phúc lấy được bộ câu hỏi về chủ đề\ntự nhiên là: $\\text{P}\\left( B \\right)=\\text{P}\\left( A \\right).\\text{P}\\left( B\\mid A \\right)+\\text{P}\\left( \\overline{A\\,} \\right).\\text{P}\\left( B\\mid \\overline{A\\,} \\right)=\\frac{5}{9}\\cdot \\frac{16}{35}+\\frac{4}{9}\\cdot \\frac{15}{35}=\\frac{4}{9}$.\nSuy ra $a=4,b=9$ và $100a-99b=-491$.\n-----------------HẾT-----------------",
+   "short_value": -491,
+   "short_correct": "-491",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  }
+ ],
+ "flags": []
+}

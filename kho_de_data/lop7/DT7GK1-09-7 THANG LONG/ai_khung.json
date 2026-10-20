@@ -1,0 +1,202 @@
+{
+ "3": {
+  "blocks": [
+   {
+    "lines": [
+     "Vẽ đường thẳng $c$ cắt hai đường thẳng song song {{1}} và {{2}}."
+    ],
+    "hint": "Mô tả hình vẽ"
+   },
+   {
+    "lines": [
+     "Giả thiết:",
+     "• $a$ {{3}} $b$",
+     "• $c \\bot$ {{4}}"
+    ],
+    "hint": "Xác định giả thiết"
+   },
+   {
+    "lines": [
+     "Kết luận:",
+     "• $c$ {{5}} $b$"
+    ],
+    "hint": "Xác định kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "b"
+    ],
+    "keywords": [
+     "b"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "both",
+    "answers": [
+     "//"
+    ],
+    "keywords": [
+     "//",
+     "song song"
+    ],
+    "placeholder": "kí hiệu quan hệ",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "\\bot",
+     "vuông góc"
+    ],
+    "keywords": [
+     "\\bot",
+     "vuong goc",
+     "vuông góc"
+    ],
+    "placeholder": "kí hiệu quan hệ",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "a",
+   "b",
+   "c",
+   "//",
+   "\\bot",
+   "AB",
+   "d"
+  ]
+ },
+ "by": "Gemini 1 (gemini-flash-latest)",
+ "4a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: $a \\bot$ {{1}} (tại $A$)"
+    ],
+    "hint": "Chỉ ra đường thẳng a vuông góc"
+   },
+   {
+    "lines": [
+     "và: $b \\bot$ {{2}} (tại $B$)"
+    ],
+    "hint": "Chỉ ra đường thẳng b vuông góc"
+   },
+   {
+    "lines": [
+     "Suy ra: $a$ {{3}} $b$",
+     "(hai đường thẳng cùng {{4}} với {{5}})"
+    ],
+    "hint": "Kết luận hai đường thẳng song song"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "both",
+    "answers": [
+     "//"
+    ],
+    "keywords": [
+     "//",
+     "song song"
+    ],
+    "placeholder": "kí hiệu quan hệ",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "vuông góc"
+    ],
+    "keywords": [
+     "vuông góc",
+     "vuong goc",
+     "\\bot"
+    ],
+    "placeholder": "quan hệ góc",
+    "maxLen": 16
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AB",
+   "//",
+   "\\bot",
+   "song song",
+   "vuông góc",
+   "CD",
+   "EF",
+   "a",
+   "b"
+  ]
+ }
+}

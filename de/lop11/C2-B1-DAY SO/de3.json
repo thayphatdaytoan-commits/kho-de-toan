@@ -1,0 +1,624 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "2",
+  "lesson": "1",
+  "title": "Bài 1. Dãy số",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Dãy số $\\left( {{u}_{n}} \\right)$nào sau đây là dãy số tăng?",
+   "explanation": "$\\forall n\\in \\mathbb{N}^{*}$ t a có ${{u}_{n+1}}-{{u}_{n}}=\\left[ 2(n+1)-3 \\right]-\\left( 2n-3 \\right)=2>0$.",
+   "options": [
+    "${{u}_{n}}={{3}^{-n}}+1$",
+    "${{u}_{n}}=\\sin n$",
+    "${{u}_{n}}=2n-3$",
+    "${{u}_{n}}=\\frac{n+2}{n+1}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B1.D02",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ có ${{u}_{n}}=\\frac{1}{n\\left( n+1 \\right)}$. Tìm mệnh đề đúng.",
+   "explanation": "Xét $\\frac{{{u}_{n+1}}}{{{u}_{n}}}=\\frac{n}{n+2}$.\nVới $\\forall n\\ge 1$ $\\Rightarrow 0<{{u}_{n}}<1$. Vậy dãy $\\left( {{u}_{n}} \\right)$ bị chặn.",
+   "options": [
+    "Dãy số $\\left( {{u}_{n}} \\right)$ chỉ bị chặn dưới",
+    "Dãy số $\\left( {{u}_{n}} \\right)$ tăng",
+    "Dãy số $\\left( {{u}_{n}} \\right)$ bị chặn",
+    "Dãy số $\\left( {{u}_{n}} \\right)$ chỉ bị chặn trên"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho dãy số$\\left( {{u}_{n}} \\right)$ với ${{u}_{n}}=\\frac{a{{n}^{2}}}{n+1}$ ($a$ hằng số). Hỏi ${{u}_{n+1}}$ là số hạng nào sau đây?",
+   "explanation": "Ta có: ${{u}_{n+1}}=\\frac{a.{{\\left( n+1 \\right)}^{2}}}{\\left( n+1 \\right)+1}=\\frac{a.{{\\left( n+1 \\right)}^{2}}}{n+2}$.",
+   "options": [
+    "${{u}_{n+1}}=\\frac{a{{n}^{2}}}{n+2}$",
+    "${{u}_{n+1}}=\\frac{a.{{\\left( n+1 \\right)}^{2}}}{n+2}$",
+    "${{u}_{n+1}}=\\frac{a.{{\\left( n+1 \\right)}^{2}}}{n+1}$",
+    "${{u}_{n+1}}=\\frac{a.{{n}^{2}}+1}{n+1}$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho dãy số $\\left\\{\\begin{array}{l}u_1=4\\\\ u_{n+1}=u_n+n\\end{array}\\right.$ . Năm số hạng đầu của dãy số là",
+   "explanation": "Ta có.\n$u_{2}=u_{1}+1=5$ ; $u_{3}=u_{2}+2=7$ ; $u_{4}=u_{3}+3=10$ ; $u_{5}=u_{4}+4=14$ .",
+   "options": [
+    "$4,\\,5,\\,6,\\,7,\\,8.$",
+    "$4,\\,16,\\,32,\\,64,\\,128.$",
+    "$4,\\,6,\\,9,\\,13,\\,18.$",
+    "$4,\\,5,\\,7,\\,10,\\,14.$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$xác định bởi ${{u}_{1}}=3;\\ {{u}_{n+1}}={{u}_{n}}+n,\\ \\forall \\,n\\in {{\\mathbb{N}}^{*}}$. Giá trị ${{u}_{1}}+{{u}_{2}}+{{u}_{3}}$bằng",
+   "explanation": "Ta có ${{u}_{1}}=3$;\n${{u}_{2}}={{u}_{1}}+1=3+1=4$;\n${{u}_{3}}={{u}_{2}}+2=4+2=6$.\nSuy ra ${{u}_{1}}+{{u}_{2}}+{{u}_{3}}=3+4+6=13.$.",
+   "options": [
+    "$18$",
+    "$13$",
+    "$15$",
+    "$16$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho dãy số$\\left( {{u}_{n}} \\right)$xác định bởi:$\\left\\{ \\begin{aligned} & {{u}_{1}}=2;{{u}_{2}}=3 \\\\ & {{u}_{n+2}}=3{{u}_{n+1}}-2{{u}_{n}} \\\\ \\end{aligned} \\right.$với$n\\ge 1$. Khẳng định nào sau đây sai?",
+   "explanation": "Từ công thức truy hồi ta có:${{u}_{1}}=2$;${{u}_{2}}=3$;${{u}_{3}}=5$;${{u}_{4}}=9$;${{u}_{5}}=17$….\nXét:${{u}_{n+2}}=3{{u}_{n+1}}-2{{u}_{n}}$ $\\Rightarrow {{u}_{n}}=\\frac{3{{u}_{n+1}}-{{u}_{n+2}}}{2}$.\nVậy:${{u}_{1}}=2=1+1={{2}^{0}}+1$.\n${{u}_{2}}=3=2+1={{2}^{1}}+1$.\n${{u}_{3}}=5=4+1={{2}^{2}}+1$.\n${{u}_{4}}=9=8+1={{2}^{3}}+1$.\n${{u}_{5}}=17=16+1={{2}^{4}}+1$\n………….\nVậy công thức tổng quát của dãy số là:${{u}_{n}}={{2}^{n-1}}+1$.\nQua đó ta thấy đáp án ${{u}_{n}}=\\frac{{{n}^{2}}+5}{3}$sai.",
+   "options": [
+    "${{u}_{n}}={{2}^{n-1}}+1$",
+    "$\\left( {{u}_{n}} \\right)$là dãy số tăng",
+    "Năm số hạng đầu của dãy số là:$2$, $3$, $5$, $9$, $17$",
+    "${{u}_{n}}=\\frac{{{n}^{2}}+5}{3}$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 25,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$biết ${{u}_{n}}=\\frac{{{n}^{2}}+3}{2{{n}^{2}}-1}$ với $n\\in {{N}^{*}}$. Tìm số hạng ${{u}_{5}}$.",
+   "explanation": "${{u}_{5}}=\\frac{{{5}^{2}}+3}{{{2.5}^{2}}-1}=\\frac{28}{49}=\\frac{4}{7}$.",
+   "options": [
+    "${{u}_{5}}=\\frac{7}{4}.$",
+    "${{u}_{5}}=\\frac{7}{9}.$",
+    "${{u}_{5}}=\\frac{24}{51}.$",
+    "${{u}_{5}}=\\frac{4}{7}.$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$, biết ${{u}_{n}}=\\left( a-5 \\right)n+5-a,\\forall n\\in \\mathbb{N}*$. Dãy số $\\left( {{u}_{n}} \\right)$là dãy số giảm khi và chỉ khi",
+   "explanation": "Xét ${{u}_{n+1}}-{{u}_{n}}=\\left( a-5 \\right)\\left( n+1 \\right)+5-a-\\left[ \\left( a-5 \\right)n+5-a \\right]=a-5$.\nĐể dãy số $\\left( {{u}_{n}} \\right)$là dãy giảm thì $a-5<0,\\forall n\\in \\mathbb{N}*\\Leftrightarrow a<5,\\forall n\\in \\mathbb{N}*$.",
+   "options": [
+    "$a\\le 5$",
+    "$a\\ge 5$",
+    "$a<5$",
+    "$a>5$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D02",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong các dãy số $\\left( {{u}_{n}} \\right)$ sau đây, dãy số nào bị chặn?",
+   "explanation": "Ta có $\\left| \\frac{{{\\left( -1 \\right)}^{n}}}{2n+1} \\right|=\\frac{1}{2n+1}<\\frac{1}{2n}\\le \\frac{1}{2}$ nên dãy ${{u}_{n}}=\\frac{{{\\left( -1 \\right)}^{n}}}{2n+1}$ bị chặn.",
+   "options": [
+    "${{u}_{n}}=\\frac{{{\\left( -1 \\right)}^{n}}}{2n+1}$",
+    "${{u}_{n}}=n+\\frac{1}{n}$",
+    "${{u}_{n}}=\\sqrt{{{n}^{2}}+1}$",
+    "${{u}_{n}}={{3.2}^{n}}$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D02",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho dãy số ${\\left( {{u}_{n}} \\right),}$ được xác định ${\\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & {{u}_{n+1}}=2{{u}_{n}} \\\\ \\end{aligned} \\right..}$ Số hạng tổng quát ${{{u}_{n}}}$ của dãy số là số hạng nào dưới đây?",
+   "explanation": "Từ công thức $\\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & {{u}_{n+1}}=2{{u}_{n}} \\\\ \\end{aligned} \\right.\\xrightarrow{{}}\\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & {{u}_{2}}=2{{u}_{1}}=2.2=4 \\\\ & {{u}_{3}}=2{{u}_{2}}=2.4=8 \\\\ \\end{aligned} \\right..$\nXét đáp án A với $n=1\\xrightarrow{{}}{{u}_{1}}={{1}^{1-1}}={{1}^{0}}=1\\xrightarrow{{}}$ A loại.\nXét đáp án B, ta thấy đều thỏa mãn.\nXét đáp án C với $n=1\\xrightarrow{{}}{{u}_{1}}={{2}^{1+1}}={{2}^{2}}=4\\xrightarrow{{}}$ C loại.\nDễ thấy đáp án D không thỏa mãn.",
+   "options": [
+    "${{{u}_{n}}={{n}^{n-1}}.}$",
+    "${{{u}_{n}}={{2}^{n}}.}$",
+    "${{{u}_{n}}={{2}^{n+1}}.}$",
+    "${{{u}_{n}}=2.}$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ với ${{u}_{n}}=\\sin \\frac{\\pi }{n+1}$. Khẳng định nào sau đây là đúng?",
+   "explanation": "Ta thấy dãy $\\left( \\frac{\\pi }{n+1} \\right)$ là dãy số giảm và $\\frac{\\pi }{n+1}\\in \\left( 0;\\frac{\\pi }{2} \\right],\\forall n\\in \\mathbb{N}*$.\nMặt khác hàm số $y=\\sin x$ đồng biến trên $\\left( 0;\\frac{\\pi }{2} \\right]$ nên $\\left( {{u}_{n}} \\right)$ là dãy số giảm và bị chặn.",
+   "options": [
+    "Dãy số $\\left( {{u}_{n}} \\right)$ là một dãy số giảm",
+    "Dãy số $\\left( {{u}_{n}} \\right)$ là một dãy số tăng",
+    "Số hạng thứ $n+1$ của dãy là ${{u}_{n+1}}=\\sin \\frac{\\pi }{n+1}$",
+    "Dãy số $\\left( {{u}_{n}} \\right)$ là dãy số không bị chặn"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Dãy số nào trong các dãy số sau đây là dãy số bị chặn?",
+   "explanation": "Xét dãy $\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=\\frac{n}{n+1};\\,\\forall n\\in {{\\mathbb{N}}^{*}}$. Ta có $0<n<n+1\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$ $\\Rightarrow 0<\\frac{n}{n+1}<1\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$nên $0<{{u}_{n}}<1\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$.\nSuy ra dãy số $\\left( {{u}_{n}} \\right)$bị chặn.\nXét dãy $\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=n+1;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$ta có ${{u}_{n}}=n+1\\ge 2\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$nên dãy số $\\left( {{u}_{n}} \\right)$bị chặn dưới.\nXét dãy $\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=-n\\,;\\forall n\\in {{\\mathbb{N}}^{*}}$ta có ${{u}_{n}}=-n\\le -1\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$nên dãy số $\\left( {{u}_{n}} \\right)$bị chặn trên.\nXét dãy $\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}={{n}^{2}}\\,;\\forall n\\in {{\\mathbb{N}}^{*}}$ta có ${{u}_{n}}={{n}^{2}}\\ge 1\\,;\\,\\forall n\\in {{\\mathbb{N}}^{*}}$nên dãy số $\\left( {{u}_{n}} \\right)$bị chặn dưới.",
+   "options": [
+    "$\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=\\frac{n}{n+1}\\,\\,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$",
+    "$\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=n+1\\,\\,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$",
+    "$\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}=-n\\,\\,\\,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$",
+    "$\\left( {{u}_{n}} \\right),\\,\\,{{u}_{n}}={{n}^{2}}\\,\\,\\,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D02",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng đầu tiên của dãy số là ${u_1=1 ; u_2=\\frac{5}{4} ; u_3=\\frac{7}{5} ; u_4=\\frac{3}{2} ; u_5=\\frac{11}{7}}$",
+    "b": "Số hạng ${u_1=1 ; u_2=\\frac{5}{4} ; u_3=\\frac{7}{5} ; u_4=\\frac{3}{2} ; u_5=\\frac{11}{7}}$",
+    "c": "Số hạng ${u_1=1 ; u_2=\\frac{5}{4} ; u_3=\\frac{7}{5} ; u_4=\\frac{3}{2} ; u_5=\\frac{11}{7}}$",
+    "d": "Số ${\\frac{167}{84}}$ là số hạng thứ 252 của dãy số ${\\left(u_n\\right)}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left(u_n\\right)}$ có số hạng tổng quát ${u_n=\\frac{2 n+1}{n+2}}$. Khi đó:",
+   "explanation": "a) b) c) Ta có: ${u_1=1 ; u_2=\\frac{5}{4} ; u_3=\\frac{7}{5} ; u_4=\\frac{3}{2} ; u_5=\\frac{11}{7}}$.\nd) Xét ${\\frac{2 n+1}{n+2}=\\frac{167}{84} \\Leftrightarrow 84(2 n+1)=167(n+2) \\Leftrightarrow n=250}$.\nVậy ${\\frac{167}{84}}$ là số hạng thứ 250 của dãy số ${\\left(u_n\\right)}$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng ${{u}_{1}}=\\frac{1}{2}$",
+    "b": "Số hạng ${{u}_{3}}=\\frac{3}{4}$",
+    "c": "$\\frac{10}{11}$ là số hạng thứ 11 của dãy số",
+    "d": "${{u}_{2023}}+{{u}_{2024}}>2$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left(u_n\\right)}$, biết ${u_n=\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\ldots+\\frac{1}{n(n+1)}}$. Khi đó:",
+   "explanation": "Ta có: $\\left\\{ \\begin{aligned} & \\frac{1}{1.2}=\\frac{1}{1}-\\frac{1}{2} \\\\ & \\frac{1}{2.3}=\\frac{1}{2}-\\frac{1}{3} \\\\ & \\frac{1}{3.4}=\\frac{1}{3}-\\frac{1}{4} \\\\ & ................... \\\\ & \\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1} \\\\ \\end{aligned} \\right.$\nSuy ra: ${u_n=\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\ldots+\\frac{1}{n(n+1)}}$\n${=\\frac{1}{1}-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+\\ldots-\\frac{1}{n}+\\frac{1}{n}-\\frac{1}{n+1}=1-\\frac{1}{n+1}=\\frac{n}{n+1} . }$\nVậy số hạng tổng quát của dãy số là: ${u_n=\\frac{n}{n+1}}$.\na) Số hạng ${{u}_{1}}=\\frac{1}{2}$\nb) Số hạng ${{u}_{3}}=\\frac{3}{4}$\nc) $\\frac{10}{11}$ là số hạng thứ 10 của dãy số\nd) ${{u}_{2023}}+{{u}_{2024}}<2$",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{u}_{n+1}}>{{u}_{n}},\\forall n\\in {{\\mathbb{N}}^{*}}$",
+    "b": "Dãy số ${\\left(u_n\\right)}$ là dãy số tăng",
+    "c": "${{u}_{n}}\\ge 1,\\forall n\\in {{\\mathbb{N}}^{*}}$",
+    "d": "Dãy số đã cho bị chặn trên"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left(u_n\\right)}$ có số hạng tổng quát ${u_n=n+\\frac{1}{n}}$. Khi đó:",
+   "explanation": "Với mọi số nguyên dương ${n}$, ta có:\n$\\begin{array}{llllll} {{u}_{n+1}}-{{u}_{n}} & =n+1+\\frac{1}{n+1}-\\left( n+\\frac{1}{n} \\right) \\\\ {} & =1-\\frac{1}{(n+1)n}=\\frac{(n+1)n-1}{(n+1)n}>0(\\text{v }\\!\\!\\grave{\\mathrm{i}}\\!\\!\\text{ }(n+1)n>1,\\forall n\\ge 1). \\\\ \\end{array}$\nSuy ra ${u_{n+1}>u_n, \\forall n \\in \\mathbb{N}^*}$. Vì vậy dãy số ${\\left(u_n\\right)}$ là dãy số tăng.\nMặt khác, áp dụng bất đẳng thức Cô-si cho hai số dương ${n, \\frac{1}{n}}$, ta được:\n${n+\\frac{1}{n} \\geq 2 \\sqrt{n \\cdot \\frac{1}{n}}=2 \\text { hay } u_n \\geq 2, \\forall n \\in \\mathbb{N}^* . }$\nVì vậy dãy số đã cho bị chặn dưới.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D02",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Sau 1 tháng, số tiền bà Hoa nhận được là khoảng $200,83$ (triệu đồng)",
+    "b": "Sau 2 tháng, số tiền bà nhận được là khoảng $201,67$ (triệu đồng);",
+    "c": "Sau 14 tháng, số tiền bà nhận được là khoảng $211,99$ (triệu đồng).",
+    "d": "Sau 17 tháng, số tiền bà nhận được là khoảng $215,65$ (triệu đồng)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Bà Hoa gửi vào một ngân hàng số tiền 200 triệu đồng với lãi suất ${5 \\%}$ một năm theo hình thức lãi kép, kì hạn 1 tháng. Số tiền (triệu đồng) của bà Hoa sau ${n}$ tháng được tính theo công thức ${T_n=200\\left(1+\\frac{0,05}{12}\\right)^n}$. Khi đó:",
+   "explanation": "Sau 1 tháng, số tiền bà Hoa nhận được là: ${T_1=200\\left(1+\\frac{0,05}{12}\\right)^1 \\approx 200,83}$ (triệu đồng)\nSau 2 tháng, số tiền bà nhận được là: ${T_2=200\\left(1+\\frac{0,05}{12}\\right)^2 \\approx 201,67}$ (triệu đồng);\nSau 14 tháng, số tiền bà nhận được là: ${T_{14}=200\\left(1+\\frac{0,05}{12}\\right)^{14} \\approx 211,99}$ (triệu đồng).\nSau 17 tháng, số tiền bà nhận được là: ${{T}_{17}}=200{{\\left( 1+\\frac{0,05}{12} \\right)}^{17}}\\approx 214,65$ (triệu đồng).",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính bị chặn của dãy số ${\\left(u_n\\right)}$, với ${u_n=2 n-1}$.",
+   "explanation": "Dãy số bị chặn dưới vì ${{u}_{n}}=2n-1>-1,\\forall n\\in \\mathbb{N}*$\nDãy số không bị chặn trên",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho dãy số $({{u}_{n}})$ được xác định như sau: $\\left\\{ \\begin{aligned} & {{u}_{1}}=1 \\\\ & {{u}_{n+1}}={{u}_{n}}+2 \\\\ \\end{aligned} \\right.$. Tìm số hạng ${{u}_{50}}$.",
+   "explanation": "Từ giả thiết ta có:\n$\\begin{aligned} & {{u}_{1}}=1 \\\\ & {{u}_{2}}={{u}_{1}}+2 \\\\ & {{u}_{3}}={{u}_{2}}+2 \\\\ & ... \\\\ & {{u}_{50}}={{u}_{49}}+2 \\\\ \\end{aligned}$\nCộng theo vế các đẳng thức trên, ta được:\n${{u}_{50}}=1+2.49=99$",
+   "short_value": 99,
+   "short_correct": "99",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left( {{u}_{n}} \\right)}$ với ${{{u}_{1}}=1}$ và ${{{u}_{n+1}}=3{{u}_{n}}+10}$ với mọi ${n\\ge 1.}$\nChứng minh rằng: ${{{u}_{n}}={{2.3}^{n}}-5\\text{ }\\forall n\\ge 1.}$",
+   "explanation": "Ta sẽ chứng minh ${{{u}_{n}}={{2.3}^{n}}-5\\text{ }\\left( 1 \\right)}$ bằng phương pháp quy nạp.\nVới ${n=1}$, ta có: ${{{u}_{1}}={{2.3}^{1}}-1=1}$ (đúng). Vậy ${\\left( 1 \\right)}$ đúng với ${n=1.}$\nGiả sử ${\\left( 1 \\right)}$ đúng với ${n=k\\left( k\\in {{N}^{*}} \\right)}$. Có nghĩa là ta có: ${{{u}_{k}}={{2.3}^{k}}-5\\text{ }\\left( 2 \\right)}$\nTa phải chứng minh ${\\left( 1 \\right)}$ đúng với ${n=k+1.}$ Có nghĩa ta phải chứng minh:\n${{{u}_{n+1}}={{2.3}^{k+1}}-5.}$\nTừ hệ thức xác định dãy số ${\\left( {{u}_{n}} \\right)}$ và từ (2) ta có:\n${{{u}_{k+1}}=3{{u}_{k}}+10=3.\\left( {{2.3}^{k}}-5 \\right)+10={{2.3}^{k}}.3-15+10={{2.3}^{k+1}}-5}$ (đpcm).",
+   "short_value": 2.3,
+   "short_correct": "2,3",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính tăng, giảm của dãy số ${\\left(u_n\\right)}$, với ${u_n=\\frac{1}{n+1}}$.",
+   "explanation": "Ta có: ${{u}_{n+1}}-{{u}_{n}}=\\frac{1}{n+1+1}-\\frac{1}{n+1}=\\frac{-1}{(n+1)(n+2)}<0,\\forall n\\in \\mathbb{N}\\text{*}$\nVậy ${\\left(u_n\\right)}$ là dãy số giảm",
+   "short_value": -1,
+   "short_correct": "-1",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Chứng minh rằng dãy số ${\\left( {{u}_{n}} \\right)}$, với ${{{u}_{n}}=\\frac{{{n}^{2}}+1}{2{{n}^{2}}-3}}$ là một dãy số bị chặn.",
+   "explanation": "Công thức ${{{u}_{n}}}$ được viết lại: ${{{u}_{n}}=\\frac{1}{2}+\\frac{5}{2\\left( 2{{n}^{2}}-3 \\right)}\\text{ }\\left( 1 \\right)}$\nDễ thấy ${\\forall n\\ge 1}$ ta có:${-1\\le \\frac{1}{2{{n}^{2}}-3}\\le \\frac{1}{5}.}$ Do đó từ ${\\left( 1 \\right)}$ suy ra ${-2\\le {{u}_{n}}\\le 1\\text{ }\\left( \\forall n\\ge 1 \\right)}$\nTừ đó suy ra${\\left( {{u}_{n}} \\right)}$ là một dãy số bị chặn.",
+   "short_value": 1,
+   "short_correct": "1",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Ông An gửi tiết kiệm 100 triệu đồng kì hạn 1 tháng với lãi suất ${6 \\%}$ một năm theo hình thức tính lãi kép. Số tiền (triệu đồng) của ông An thu được sau ${n}$ tháng được cho bởi công thức ${{A}_{n}}=100{{\\left( 1+\\frac{0,06}{12} \\right)}^{n}}\\text{. }$\na) Tìm số tiền ông An nhận được sau tháng thứ nhất, sau tháng thứ hai.\nb) Tìm số tiền ông An nhận được sau 1 năm.",
+   "explanation": "a) Số tiền ông An nhận được sau 1 tháng: ${A_1=100\\left(1+\\frac{0.06}{12}\\right)^1=100.5}$ (triệu đồng)\nSố tiền ông An nhận được sau 2 tháng: ${A_2=100\\left(1+\\frac{0.06}{12}\\right)^2=101.0025}$ (triệu đồng)\nb) Số tiền ông An nhận được sau 1 năm: ${A_{12}=100\\left(1+\\frac{0.06}{12}\\right)^{12}=106.1678}$ (triệu đồng)",
+   "short_value": 106.1678,
+   "short_correct": "106,1678",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  }
+ ],
+ "flags": []
+}

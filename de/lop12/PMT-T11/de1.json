@@ -1,0 +1,902 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "0",
+  "lesson": "on-tap",
+  "title": "500 bài toán thực tế Phạm Minh Tuấn — Tập 11",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một quả bóng bầu dục theo quy định được sử dụng trong giải bầu dục quốc gia có kích thước $28\\,\\left( cm \\right)$ từ đầu này đến đầu kia và đường kính $17\\left( cm \\right)$ ở phần dày nhất ( quy định có phép thay đổi một chút về các kích thước này) ( Nguồn: NFL).\n[[IMG:image1.jpeg]]\nHình dạng của một quả bóng bầu dục có kích thước nói trên có thể được tạo thành khi quay phần diện tích hình phẳng giới hạn bởi đồ thị hàm số $f\\left( x \\right)=a{{x}^{2}}+bx+c$, trục hoành và các đường thẳng $x=-4;\\,\\,x=24$, trong đó $x$ tính bằng centimet $\\left( cm \\right)$. Thể tích ( đơn vị: $c{{m}^{3}}$, kết quả làm tròn đến hàng đơn vị) của quả bóng bầu dục có kích thước nói trên bằng bao nhiêu?",
+   "explanation": "Đáp án: 3390\nPhần giải chi tiết\n[[IMG:image2.png]]\nTa thấy đồ thị hàm số $f\\left( x \\right)=a{{x}^{2}}+bx+c$ đi qua các điểm $\\left( -4;0 \\right),\\left( 24;0 \\right)$ và $\\left( 10;\\frac{17}{2} \\right)$ nên ta có hệ phương trình :\n$\\left\\{ \\begin{aligned} & {{\\left( -4 \\right)}^{2}}a+\\left( -4 \\right)b+c=0 \\\\ & {{24}^{2}}a+24b+c=0 \\\\ & {{10}^{2}}a+10b+c=\\frac{17}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{17}{392} \\\\ & b=\\frac{85}{98} \\\\ & c=\\frac{204}{49} \\\\ \\end{aligned} \\right.$\nVậy thể tích của quả bóng bầu dục trên là:\n$V=\\pi {{\\int\\limits_{-4}^{24}{\\left( -\\frac{17}{392}{{x}^{2}}+\\frac{85}{98}x+\\frac{204}{49} \\right)}}^{2}}\\text{d}x=\\frac{16284}{15}\\pi \\approx 3390\\left( c{{m}^{3}} \\right)$",
+   "short_value": 3390,
+   "short_correct": "3390",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nhà máy A chuyên sản suất một loại sản phẩm cho nhà máy B. Hai nhà máy thỏa thuận rằng, hàng tháng nhà máy A cung cấp cho nhà máy B số lượng sản phẩm theo đơn đặt hàng của nhà máy B (tối đa 100 tấn sản phẩm). Nếu số lượng đặt hàng là $x$tấn sản phẩm. Thì giá bán cho mỗi tấn sản phẩm là $p\\left( x \\right)=90-0,01{{x}^{2}}$(đơn vị triệu đồng). Chi phí để nhà máy A sản suất $x$ tấn sản phẩm trong một tháng là $C\\left( x \\right)=\\frac{1}{2}\\left( 200+27x \\right)$ (đơn vị: triệu đồng), thuế giá trị gia tăng mà nhà máy A phải đóng cho nhà nước là $10\\%$ tổng doanh thu mỗi tháng. Hỏi nhà máy A bán cho nhà máy B bao nhiêu tấn sản phẩm mỗi tháng để thu được lợi nhuận (sau khi đã trừ thuế giá trị gia tăng) cao nhất?",
+   "explanation": "Đáp số:50\nGiả sử số lượng đặt hàng là $x$tấn sản phẩm $0\\le x\\le 100$.\nDoanh thu $B\\left( x \\right)=x.p\\left( x \\right)=x\\left( 90-0,01{{x}^{2}} \\right)$.\nThuế giá trị gia tăng $T\\left( x \\right)=10\\%B\\left( x \\right)=\\frac{1}{10}x\\left( 90-0,01{{x}^{2}} \\right)$.\nLợi nhuận:\n$L\\left( x \\right)=B\\left( x \\right)-C\\left( x \\right)-T\\left( x \\right)=x\\left( 90-0,01{{x}^{2}} \\right)-\\frac{1}{2}\\left( 200+27x \\right)-\\frac{1}{10}x\\left( 90-0,01{{x}^{2}} \\right)$\n$=-\\frac{9}{100}{{x}^{3}}+\\frac{135}{2}x-100$.\n$L'\\left( x \\right)=-\\frac{27}{1000}{{x}^{2}}+\\frac{135}{2}=0\\Leftrightarrow x=50$.\nLập bảng biến thiên ta được lợi nhuận cao nhất khi $x=50$.",
+   "short_value": 50,
+   "short_correct": "50",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D12",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Giả sử 4 thành phố A, B, C, D với khoảng cách (đơn vị: km) giữa các thành phố được cho bởi bảng sau:\n|  | A | B | C | D |\n|---|---|---|---|---|\n| A | 0 | 10 | 15 | 20 |\n| B | 10 | 0 | 25 | 35 |\n| C | 15 | 25 | 0 | 30 |\n| D | 20 | 35 | 30 | 0 |\nTổng quãng đường (đơn vị:km) ngắn nhất để đi từ A qua tất cả các thành phố đúng một lần rồi quay về A bằng bao nhiêu?",
+   "explanation": "Đáp số:85\nĐể đi qua tất cả các thành phố đúng một lần và quay trở về $A$, ta có thể đi theo một trong các đường đi:\n| Đường đi | Tổng số km đường đi |\n|---|---|\n| $A\\to B\\to C\\to D\\to A$ | $10+25+30+20=85$ |\n| $A\\to B\\to D\\to C\\to A$ | $10+35+30+15=90$ |\n| $A\\to C\\to B\\to D\\to A$ | $15+25+35+20=95$ |\n| $A\\to C\\to D\\to B\\to A$ | $15+30+35+10=90$ |\n| $A\\to D\\to B\\to C\\to A$ | $20+35+25+15=95$ |\n| $A\\to D\\to C\\to B\\to A$ | $20+30+25+10=85$ |\nDo đó, tổng số km của đường đi nhận giá trị nhỏ nhất là 85.",
+   "short_value": 85,
+   "short_correct": "85",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một vật có trọng lượng $300~N$ được treo bằng ba sợi dây cáp không dãn có chiều dài bằng nhau, mỗi dây cáp có một đầu được gắn tại một trong các điểm $P\\left( -2;0;0 \\right),Q\\left( 1;\\sqrt{3};0 \\right),R\\left( 1;-\\sqrt{3};0 \\right)$ còn đầu kia gắn với vật tại điểm $S\\left( 0;0;-2\\sqrt{3} \\right)$ như hình vẽ (mỗi đơn vị trên trục tương ứng với $1N$). Gọi $\\overrightarrow{{{F}_{1}}},\\overrightarrow{{{F}_{2}}},\\overrightarrow{{{F}_{3}}}$ tương ứng là lực căng trên các sợi dây cáp $RS$, $QS$ và $PS$thì $\\overrightarrow{{{F}_{1}}}=\\left( a;b;c \\right)$. Giá trị của $b+c$ bằng bao nhiêu?\n[[IMG:image3.png]]",
+   "explanation": "Đáp số:-50\nTheo giả thiết, ta có các điểm $S\\left( 0;0;-2\\sqrt{3} \\right),P\\left( -2;0;0 \\right),Q\\left( 1;\\sqrt{3};0 \\right)$, $R\\left( 1;-\\sqrt{3};0 \\right)$.\nKhi đó: $\\overrightarrow{SP}=\\left( -2;0;2\\sqrt{3} \\right),\\overrightarrow{SQ}=\\left( 1;\\sqrt{3};2\\sqrt{3} \\right),\\overrightarrow{SR}=\\left( 1;-\\sqrt{3};2\\sqrt{3} \\right)$ $\\Rightarrow SP=SQ=SR=4$.\nLại có $\\overrightarrow{PQ}=\\left( 3;\\sqrt{3};0 \\right),\\overrightarrow{QR}=\\left( 0;-2\\sqrt{3};0 \\right)$, $\\overrightarrow{RP}=\\left( -3;\\sqrt{3};0 \\right)$ $\\Rightarrow PQ=QR=RP=2\\sqrt{3}$\n$\\Rightarrow $ tam giác $PQR$ đều.$\\left| {{{\\vec{F}}}_{1}} \\right|=\\left| {{{\\vec{F}}}_{2}} \\right|=\\left| {{{\\vec{F}}}_{3}} \\right|$.\nVì vậy, tồn tại hằng số $c\\ne 0$ sao cho:\n$\\overrightarrow{{{F}_{1}}}=c\\overrightarrow{SR}=\\left( c;-\\sqrt{3}c;2\\sqrt{3}c \\right);\\overrightarrow{{{F}_{2}}}=c\\overrightarrow{SQ}=\\left( c;\\sqrt{3}c;2\\sqrt{3}c \\right);\\overrightarrow{{{F}_{3}}}=c\\overrightarrow{SP}=\\left( -2c;0;2\\sqrt{3}c \\right)$\nSuy ra $\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}=\\left( 0;0;6\\sqrt{3}c \\right)$.\nVì vật cân bằng nên $\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}=-\\overrightarrow{P}\\Leftrightarrow 6\\sqrt{3}c=-300\\Leftrightarrow c=-\\frac{50\\sqrt{3}}{3}$\n$\\Rightarrow \\overrightarrow{{{F}_{1}}}=\\left( \\frac{-50\\sqrt{3}}{3};50;-100 \\right)\\Rightarrow \\left\\{ \\begin{aligned} & b=50 \\\\ & c=-100 \\\\ \\end{aligned} \\right.\\Rightarrow b+c=-50$",
+   "short_value": -50,
+   "short_correct": "-50",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 36,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Doanh thu sau 12 năm của máy$A$là $\\int\\limits_{0}^{12}{\\left( 650-3{{t}^{2}} \\right)}dx$ ( triệu đồng).",
+    "b": "Tổng chi phí vận hành và bảo trì của máy $A$ trong 6 năm là 1152 (triệu đồng).",
+    "c": "Tuổi thọ hữu ích của một máy là số năm T trước khi lợi nhuận (bằng doanh thu trừ chi phí) mà nó tạo ra bắt đầu giảm. Tuổi thọ hữu ích của máy $A$ này là 8 năm.",
+    "d": "Lợi nhuận do máy $A$ tạo ra trong suốt thời gian tuổi thọ hữu ích của nó là 2 532 (triệu đồng)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Giả sử rằng khi tăng $t$ năm tuổi, một máy công nghiệp $A$ tạo ra doanh thu với tốc độ\n${R}'\\left( t \\right)=650-3{{t}^{2}}$(triệu đồng/năm), thời điểm $t=0$ tính từ lúc máy $A$ bắt đầu hoạt động. Biết rằng chi phí biên cho vận hành và bảo trì là ${C}'\\left( t \\right)=48+12{{t}^{2}}$(triệu đồng/năm), ở đây $C\\left( t \\right)$ là chi phí vận hành và bảo trì của máy$A$khi nó được $t$ năm tuổi.",
+   "explanation": "a)Chọn đúng.\nDoanh thu sau 12 năm của máy$A$là $R\\left( t \\right)=\\int\\limits_{0}^{12}{\\left( 650-3{{t}^{2}} \\right)}dt$ ( triệu đồng).\nb) Chọn đúng\nChi phí vận hành và bảo trì của máy $A$ là $C\\left( t \\right)=\\int{\\left( 48+12{{t}^{2}} \\right)}dt$=$48t+4{{t}^{3}}+b$.\nChi phí ban đầu là 0, tức là $C\\left( 0 \\right)=0\\Rightarrow b=0$\nTổng chi phí trong 6 năm là $C\\left( 6 \\right)=48.6+{{4.6}^{3}}=1152$(triệu đồng).\nc) Chọn sai.\nLợi nhuận do máy $A$ tạo ra là ${P}'\\left( t \\right)={R}'\\left( t \\right)-{C}'\\left( t \\right)$ $=650-3{{t}^{2}}-\\left( 48+12{{t}^{2}} \\right)$ $=-15{{t}^{2}}+602$ .\n${P}'\\left( t \\right)=0\\to t=\\sqrt{\\frac{602}{15}}\\approx 6,33$năm. Lợi nhuận đạt cực đại tại $t=\\sqrt{\\frac{602}{15}}$và sẽ bắt đầu giảm ngay sau đó nên tuổi thọ hữu ích không thể là 8\nd) Chọn sai.\nLợi nhuận do máy $A$ tạo ra trong suốt thời gian tuổi thọ hữu ích của nó là\n$\\int\\limits_{0}^{\\sqrt{\\frac{602}{15}}}{\\left( -15{{t}^{2}}+602 \\right)}dt$ $=2542,5$ (triệu đồng).",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Quãng đường ( kết quả làm tròn đến hàng đơn vị) xe Taxi đi được từ trạm thu phí đến khi nhập làn khoảng $187m$.",
+    "b": "Xe cứu thương chuyển động với gia tốc $a=\\frac{300}{289}\\left( m/{{s}^{2}} \\right)$.",
+    "c": "Vận tốc( kết quả làm tròn đến hàng đơn vị) của xe Cứu thương tại thời điểm đuổi kịp xe Taxi khoảng $16\\left( m/{{s}^{2}} \\right)$.",
+    "d": "Trong khoảng thời gian kể từ lúc hai xe gặp nhau cho đến giây thứ $28$( kể từ khi Taxi chuyển động rời trạm thu phí) vận tốc trung bình của xe Cứu thương lớn hơn vận tốc trung bình của xe Taxi."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một người điều khiển xe Taxi xuất phát từ trạm thu phí muốn nhập làn vào đường cao tốc, chuyển động tăng tốc với tốc độ $v(t)=\\frac{1}{180}{{t}^{2}}+\\frac{116}{135}t\\left( m/s \\right)$( trong đó, $t$là thời gian tính bằng giây kể từ khi Taxi chuyển động rời trạm thu phí). Từ trạm thu phí đó, một xe Cứu thương cũng xuất phát, chuyển động thẳng cùng hướng với xe Taxi nhưng chậm hơn 1 giây so với xe Taxi và có gia tốc bằng $a\\left( m/{{s}^{2}} \\right)$( $a$ là hằng số). Sau khi xe Cứu thương xuất phát được $17$giây thì đuổi kịp xe Taxi. Biết rằng, xe Taxi nhập làn cao tốc sau 20 giây và cả hai xe duy trì sự tăng tốc trong $28$ giây kể từ khi Taxi rời trạm thu phí.",
+   "explanation": "a) Đúng. ${{S}_{\\text{taxi}}}=\\int\\limits_{0}^{20}{\\left( \\frac{1}{180}{{t}^{2}}+\\frac{116}{135}t \\right)}dt\\approx 187\\left( m \\right)$\nb) Đúng. Quãng đường xe cứu thương từ $t=1$đến $t=18$ là ${{S}_{ct}}=\\frac{1}{2}a{{.17}^{2}}=\\frac{289a}{2}$\nQuãng đường xe taxi đi từ $t=0$ đến $t=18$ là ${{S}_{\\text{tax}i}}=\\int\\limits_{0}^{18}{\\left( \\frac{1}{180}{{t}^{2}}+\\frac{116}{135}t \\right)dt}=150m$\nKhi đó ta có $\\frac{289a}{2}=150\\Rightarrow a=\\frac{300}{289}$\nc) Sai. Vận tốc xe cứu thương $\\frac{300}{289}.17\\approx 18$\nd) Đúng.\nQuãng đường xe cứu thương $\\frac{1}{2}.\\frac{300}{289}.289+\\frac{5100}{289}.11\\approx 344,3$\nVận tốc trung bình của xe cứu thương là $\\frac{344,3}{28}\\approx 12,3$\nQuãng đường taxi trong 28 giây là $\\int_{0}^{28}{\\left( \\frac{1}{180}{{t}^{2}}+\\frac{116}{135}t \\right)dt}\\approx 209,3$\nVận tốc trung bình của xe taxi là $\\frac{209,3}{28}\\approx 7,5$\nXe cứu thương có vận tốc trung bình lớn hơn",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 7,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một bể bơi ban đầu có dạng hình hộp chữ nhật $ABCD.A'B'C'D'.$Sau đó, người ta làm lại mặt đáy như hình vẽ. Biết rằng $A'B'MN$ và $MNEF$ là các hình chữ nhật, $(MNEF)//({A}'{B}'{C}'{D}')$, $AB=10$m, $AD=30$m, $A{A}'=20$m, $MF=DE=17$ m. Tính tỉ số thể tích của bể sau khi làm lại mặt đáy với thể tích của bể lúc ban đầu (kết quả làm tròn đến hàng phần trăm).\n[[IMG:image4.png]]\nĐÁP ÁN : 0,88",
+   "explanation": "[[IMG:image5.png]]\nGọi $K$ là giao điểm của $NE$ và $AA'.$\nGọi $H$ là giao điểm của $MF$ và $BB'.$\nThể tích của hình hộp chữ nhật $ABCD.A'B'C'D'$là $V=10.30.20=6000\\,\\,{{m}^{3}}.$\nThể tích của bể sau khi làm lại mặt đáy là\n${{V}_{1}}={{V}_{ABCD.KHFE}}+{{V}_{HB'M.KA'N}}=HK.HF.AK+\\frac{1}{2}HB'.HM.HK=10.30.17+\\frac{1}{2}.3.13.10=5295\\,{{m}^{3}}$\nTỉ số thể tích cần tìm là $\\frac{{{V}_{1}}}{V}\\approx 0,88.$",
+   "short_value": 0.88,
+   "short_correct": "0,88",
+   "ma": "de1.P3.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D02",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 8,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trên phần mềm mô phỏng việc điều khiển drone giao hàng trên không gian Oxyz. Một đồi gồm 3 drone giao hàng A, B, C có tọa độ là $A\\left( 1;1;1 \\right),\\,B\\left( 5;7;9 \\right),\\,C\\left( 9;11;4 \\right)$. Gọi ${{d}_{1}},\\,{{d}_{2}},\\,{{d}_{3}}$lần lượt là khoảng cách giữa các cặp drone. Tính tổng ${{d}_{1}}+{{d}_{2}}+{{d}_{3}}$ (kết quả được làm tròn đến hàng phần chục).\n[[IMG:image6.png]][[IMG:image6.png]][[IMG:image6.png]]",
+   "explanation": "Đáp án: 31.5\nTổng có ${{d}_{1}}+{{d}_{2}}+{{d}_{3}}=AB+BC+AC=\\sqrt{{{4}^{2}}+{{6}^{2}}+{{8}^{2}}}+\\sqrt{{{4}^{2}}+{{4}^{2}}+{{\\left( -5 \\right)}^{2}}}+\\sqrt{{{8}^{2}}+{{10}^{2}}+{{3}^{2}}}\\approx 31.5$",
+   "short_value": 31.5,
+   "short_correct": "31,5",
+   "ma": "de1.P3.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 9,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nhà máy A chuyên sản xuất một loại sản phẩm cung cấp cho nhà máy $\\text{B}$. Hai nhà máy thỏa thuận rằng, hàng tháng nhà máy A cung cấp cho nhà máy B số lượng sản phẩm theo đơn đặt hàng của B (tối đa 100 tấn sản phẩm). Nếu số lượng đặt hàng là $x$ tấn sản phẩm thì giá bán cho mỗi tấn sản phẩm là $P(x)=45-0,001{{x}^{2}}$ (triệu đồng). Chi phí để A sản xuất $x$ tấn sản phẩm trong một tháng gồm 100 triệu đồng chi phí cố định và 30 triệu đồng cho mỗi tấn sản phẩm. Nhà máy A cần bán cho nhà máy B bao nhiêu tấn sản phẩm mỗi tháng để lợi nhuận thu được lớn nhất? (kết quả làm tròn đến hàng phần chục).",
+   "explanation": "Đáp án: 70,7\nTổng chi phí cho $x$ tấn sản phẩm là: $C(x)=100+30x$, $0<x\\le 100$\nTổng doanh thu khi bán $x$ tấn sản phẩm là: $x.P(x)=x.(45-0,001{{x}^{2}})=45x-0,001{{x}^{3}}$\nLợi nhuận thu về khi bán hết $x$ tấn sản phẩm là: $L(x)=x.P(x)-C(x)=-0,001{{x}^{3}}+15x-55$\nTa có: ${{L}^{/}}(x)=-0,003{{x}^{2}}+15=0\\Leftrightarrow \\left[ \\begin{aligned} & x=50\\sqrt{2}\\approx 70,71\\,(n)\\Rightarrow L\\approx 652 \\\\ & x=-50\\sqrt{2}\\,(l) \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image7.png]]\nVậy nhà máy A cần bán 70,7 tấn sản phẩm cho nhà máy B để lợi nhuận thu về tối đa.",
+   "short_value": 70.7,
+   "short_correct": "70,7",
+   "ma": "de1.P3.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D12",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 10,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một vật trang trí có dạng một khối tròn xoay được tạo thành khi quay miền $\\left( R \\right)$ (phần gạch chéo trong hình vẽ) quanh trục $MN$. Biết rằng $ABCD$ là hình chữ nhật với $AB=6\\text{ cm,}$ $AD=10\\text{ cm}$. Gọi $M,N$ lần lượt là trung điểm của $AB,CD$. Hai đường cong là hình elip có hình chữ nhật cơ sở là $ABCD$ và đường tròn tiếp xúc với hai cạnh $AD$ và $BC$ (tham khảo hình vẽ). Tính thể tích của vật trang trí đó (kết quả làm tròn đến hàng phần chục theo đơn vị $\\text{c}{{\\text{m}}^{3}}$).\n[[IMG:image8.png]]\nĐÁP SỐ : 75,4",
+   "explanation": "Chọn hệ trục $Oxy$ như hình vẽ ($O$ là trung điểm của $MN$, tia $Ox$ là tia $ON$, tia $Oy$ vuông góc với $Ox$ và hướng lên trên)\nPhương trình elip là: $\\frac{{{x}^{2}}}{25}+\\frac{{{y}^{2}}}{9}=1$. Do đó: ${{y}^{2}}=9-\\frac{9{{x}^{2}}}{25}$.\nThể tích vật thể tròn xoay khi quay elip quanh $Ox$ là: ${{V}_{1}}=2\\pi \\int\\limits_{0}^{5}{\\left( 9-\\frac{9{{x}^{2}}}{25} \\right)}dx=60\\pi .$\nPhương trình đường tròn là: ${{x}^{2}}+{{y}^{2}}=9$. Do đó: ${{y}^{2}}=9-{{x}^{2}}$.\nThể tích vật thể tròn xoay khi quay đường tròn quanh $Ox$ là: ${{V}_{2}}=2\\pi \\int\\limits_{0}^{3}{\\left( 9-{{x}^{2}} \\right)}dx=36\\pi $.\nThể tích của vật trang trí là: $V={{V}_{1}}-{{V}_{2}}=24\\pi =75,4$ ($\\text{c}{{\\text{m}}^{3}}$)",
+   "short_value": 75.4,
+   "short_correct": "75,4",
+   "ma": "de1.P3.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 11,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Đường thẳng $AB$ có phương trình tham số là $\\left\\{ \\begin{aligned} & x=4-t \\\\ & y=-0,5+3t \\\\ & z=0,5-0,5t \\\\ \\end{aligned} \\right.\\left( t\\in \\mathbb{R} \\right)$.",
+    "b": "Khi máy bay cách mặt đất $120m$ thì vị trí của máy bay trên đường thẳng $AB$ là điểm $D\\left( 3,24;1,78;0,12 \\right)$.",
+    "c": "Độ cao của máy bay khi xuyên qua đám mây để hạ cánh là $0,42km$ (làm tròn kết quả tới hàng phần trăm).",
+    "d": "Theo quy định an toàn bay, người phi công phải nhìn thấy điểm cuối $G\\left( 4,5;5,5;0 \\right)$ của đường băng ở độ cao tối thiểu là $120m$. Nếu sau khi ra khỏi đám mây tầm nhìn của người phi công là $900m$ thì người phi công đã đạt được quy định an toàn bay."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong không gian $Oxyz$ (đơn vị trên mỗi trục tọa độ là ki-lô-mét), một máy bay đang ở vị trí $A\\left( 4;-0,5;0,5 \\right)$ và sẽ hạ cánh ở vị trí $B\\left( 3;2,5;0 \\right)$ ở trên đường băng $EG$ (hình vẽ). Có một lớp mây được mô phỏng bởi mặt phẳng $\\left( \\alpha \\right)$ đi qua ba điểm $M\\left( 8;0;0 \\right)$, $N\\left( 0;-8;0 \\right)$ và $P\\left( 0;0;0,8 \\right)$.\n[[IMG:image9.emf]]",
+   "explanation": "(a) Đ\nĐường thẳng $AB$ có một vectơ chỉ phương là $\\overrightarrow{AB}=\\left( -1;3;-0,5 \\right)$ và đi qua điểm $A\\left( 4;-0,5;0,5 \\right)$ nên có phương trình: $\\left\\{ \\begin{aligned} & x=4-t \\\\ & y=-0,5+3t \\\\ & z=0,5-0,5t \\\\ \\end{aligned} \\right.\\left( t\\in \\mathbb{R} \\right)$.\n(b) Đ\nMáy bay cách mặt đất $120m$ tức là ${{z}_{D}}=0,12$ suy ra $0,5-0,5t=0,12\\Leftrightarrow t=0,76$.\nDo đó $D\\left( 4-0,76;-0,5+3\\cdot 0,76;0,12 \\right)$ hay $D\\left( 3,24;1,78;0,12 \\right)$.\n(c) Đ\nPhương trình mặt phẳng $\\left( \\alpha \\right)$ là $\\frac{x}{8}+\\frac{y}{-8}+\\frac{z}{0,8}=1$.\nGọi giao điểm của $AB$ và $\\left( \\alpha \\right)$ là $C\\left( 4-t;-0,5+3t;0,5-0,5t \\right)$ suy ra\n$\\frac{4-t}{8}+\\frac{-0,5+3t}{-8}+\\frac{0,5-0,5t}{0,8}=1$.\nGiải phương trình trên thu được $t=\\frac{1}{6}$ suy ra $C\\left( \\frac{23}{6};0;\\frac{5}{12} \\right)$.\nKhi đó độ cao của máy bay là $\\frac{5}{12}\\approx 0,42\\left( km \\right)$.\n(d) S\nKhi máy bay ở độ cao $120m$ thì máy bay ở vị trí $D\\left( 3,24;1,78;0,12 \\right)$.\n$DG=\\left| \\overrightarrow{DG} \\right|=\\sqrt{{{\\left( 4,5-3,24 \\right)}^{2}}+{{\\left( 5,5-1,78 \\right)}^{2}}+{{\\left( 0-0,12 \\right)}^{2}}}\\approx 3,9>0,9$ do đó người phi công không đạt được quy định an toàn bay.",
+   "ma": "de1.P3.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 12,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$h\\left( t \\right)=-0,04{{t}^{3}}+0,6{{t}^{2}}\\,\\,\\,\\left( 0\\le t\\le 29 \\right)$.",
+    "b": "Tại thời điểm $t=3$ phút, độ cao của khinh khí cầu là 524,32m.",
+    "c": "Độ cao tối đa của khinh khí cầu khi bay là 540m.",
+    "d": "Sau 15 phút từ khi xuất phát thì khinh khí cầu trở lại độ cao khi bắt đầu xuất phát."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một khinh khí cầu bay với độ cao (so với mực nước biển) tại thời điểm $t$ là $h\\left( t \\right)$, trong đó $t$ tính bằng phút, $h\\left( t \\right)$ tính bằng mét. Tốc độ bay của khinh khí cầu được cho bởi hàm số $v\\left( t \\right)=-0,12{{t}^{2}}+1,2t$ với $v\\left( t \\right)$ tính bằng mét/phút. Tại thời điểm xuất phát ($t=0$) khinh khí cầu ở độ cao $520$m.",
+   "explanation": "(a) S\nTa có $h\\left( t \\right)=\\int{v\\left( t \\right)\\text{dt}=-0,04{{t}^{3}}+0,6{{t}^{2}}+C}$.\nTại thời điểm xuất phát ($t=0$), độ cao của khinh khí cầu là 520m nên $h\\left( 0 \\right)=520\\Rightarrow C=520$.\nVậy $h\\left( t \\right)=-0,04{{t}^{3}}+0,6{{t}^{2}}+520$.\n(b) Đ\nTại thời điểm $t=3$ phút, độ cao của khinh khí cầu là $h\\left( 3 \\right)=524,32$m.\n(c) Đ\nTa có ${h}'\\left( t \\right)=v\\left( t \\right)=-0,12{{t}^{2}}+1,2t$, suy ra ${h}'\\left( t \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & t=0 \\\\ & t=10 \\\\ \\end{aligned} \\right.$.\nTa có BBT:\n[[IMG:image10.png]]\nVậy độ cao tối đa của khinh khí cầu là 540m.\n(d) Đ\nKhi trở lại độ cao như lúc xuất phát thì $h\\left( t \\right)=520\\Leftrightarrow -0,04{{t}^{3}}+0,6{{t}^{2}}+520=520\\Leftrightarrow \\left[ \\begin{aligned} & t=0 \\\\ & t=15 \\\\ \\end{aligned} \\right.$.\nVậy sau 15 phút thì khinh khí cầu quay trở lại độ cao như lúc đầu.",
+   "ma": "de1.P3.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 21,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C2.B1.D09",
+   "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 13,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có bốn địa điểm $A,\\,B,\\,C,\\,D$ trong đó có $2$ con đường nối hai vị trí $A,\\,B$; có $3$ con đường nối hai vị trí $A,\\,C$; có $4$ con đường nối hai vị trí $C,\\,B$; có $5$ con đường nối hai vị trí $A,\\,D$; có $6$ con đường nối hai vị trí $B,\\,D$; có $7$ con đường nối hai vị trí $C,\\,D$ (số lượng con đường nối hai địa điểm được ghi trên đoạn thẳng nối hai điểm trong hình vẽ).\n[[IMG:image11.jpg]]\nMột người ở vị trí $A$ được giao nhiệm vụ đi đến ba địa điểm còn lại (mỗi địa điểm đến một lần) và quay về $A$. Có bao nhiêu cách để người đó thực hiện nhiệm vụ này?",
+   "explanation": "Đáp số: $1784$.\nTa xét các đường đi:\n$A\\to B\\to C\\to D\\to A$ có $2.4.7.5=280$ cách đi.\n$A\\to B\\to D\\to C\\to A$ có $2.6.7.3=252$ cách đi.\n$A\\to C\\to B\\to D\\to A$ có $3.4.6.5=360$ cách đi.\n$A\\to C\\to D\\to B\\to A$ có $3.7.6.2=252$ cách đi.\n$A\\to D\\to B\\to C\\to A$ có $5.6.4.3=360$ cách đi.\n$A\\to D\\to C\\to B\\to A$ có $5.7.4.2=280$ cách đi.\nVậy có $280+252+360+252+360+280=1784$ cách thực hiện nhiệm vụ.",
+   "short_value": 1784,
+   "short_correct": "1784",
+   "ma": "de1.P3.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 14,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một doanh nghiệp dự định sản xuất $200$ máy tính bảng dành cho học sinh. Nếu doanh nghiệp đó bán $x$ máy tính bảng $\\left( 1\\le x\\le 200,\\,x\\in \\mathbb{N} \\right)$ thì giá bán cho mỗi máy tính bảng là$p\\left( x \\right)=4000-10x$ (nghìn đồng), trong đó chí phí để sản xuất mỗi máy tính bảng là $c\\left( x \\right)={{x}^{2}}-70x+400+\\frac{1000}{x}$ (nghìn đồng). Hỏi doanh nghiệp đó sẽ bán bao nhiêu máy tính bảng để lợi nhuận cao nhất ?",
+   "explanation": "Đáp số: $60$.\nTổng doanh thu của doanh nghiệp khi bán $x$ máy tính bảng là:\n$R\\left( x \\right)=x.p\\left( x \\right)=x\\left( 4000-10x \\right)=-10{{x}^{2}}+4000x$.\nTổng chi phí của doanh nghiệp khi bán $x$ máy tính bảng là:\n$C\\left( x \\right)=x.c\\left( x \\right)=x\\left( {{x}^{2}}-70x+400+\\frac{1000}{x} \\right)={{x}^{3}}-70{{x}^{2}}+400x+1000$.\nLợi nhuận mà doanh nghiệp có được là:\n$L\\left( x \\right)=R\\left( x \\right)-C\\left( x \\right)=-10{{x}^{2}}+4000x-\\left( {{x}^{3}}-70{{x}^{2}}+400x+1000 \\right)=-{{x}^{3}}+60{{x}^{2}}+3600x-1000$.\nXét hàm số $L\\left( x \\right)=-{{x}^{3}}+60{{x}^{2}}+3600x-1000,\\left( 1\\le x\\le 200,\\,x\\in \\mathbb{N} \\right)$.\nTa có ${L}'\\left( x \\right)=-3{{x}^{2}}+120x+3600=0\\Leftrightarrow \\left[ \\begin{aligned} & x=60\\,\\left( TM \\right) \\\\ & x=-20\\left( L \\right) \\\\ \\end{aligned} \\right.$.\n$\\begin{aligned} & L\\left( 1 \\right)=2659 \\\\ & L\\left( 60 \\right)=215000 \\\\ & L\\left( 200 \\right)=-4881000 \\\\ \\end{aligned}$.\nTa thấy giá trị lớn nhất của $L\\left( x \\right)$ bằng $215000$ đạt được tại $x=60$.\nVậy để lợi nhuận cao nhất thì doanh nghiệp đó cần bán được $60$ máy tính bảng.",
+   "short_value": 60,
+   "short_correct": "60",
+   "ma": "de1.P3.C14",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 15,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một cái cổng được giới hạn bởi đoạn thẳng $AB$ và một phần parabol đi qua hai điểm $A,B$có trục đối xứng là đường thẳng $OH$( như hình vẽ dưới). Biết rắng $AB=OH=4$mét. Người ta dự kiến đặt một cánh cửa hình chữ nhật $CDEF$, trong đó $C,D$ nằm trên parabol còn $E,F$ nằm trên đoạn $AB$. Cánh cổng có chi phí là $200$ nghìn đồng/mét vuông. Phần còn lại của cổng được trang trí hoa văn với chi phí $300$ nghìn đồng/ mét vuông. Tổng chi phí thấp nhất để đặt làm cánh cửa và trang trí là bao nhiêu nghìn đồng? ( Làm tròn kết quả đến hàng đơn vị).\n[[IMG:image12.png]]",
+   "explanation": "Đáp án: $2584$\nLập hệ trục tọa độ $Oxy$ sao cho $H(0\\,;\\,0)$, $AB$ nằm trên trục $Ox$; điểm $O$ nằm trên $Oy$\n[[IMG:image13.png]]\nPhương trình của parabol có dạng $y=a{{x}^{2}}+c$. Đi qua điểm $B(2;0);O(0;4)$ thay tọa độ của hai điểm vào phương trình $(P)$ ta được hệ phương trình $\\left\\{ \\begin{aligned} & 4a+c=0 \\\\ & 0.a+c=4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & c=4 \\\\ \\end{aligned} \\right.$\nPhương trình của $(P)$ là $y=-{{x}^{2}}+4$\ndiện tích của $(P)$ tạo với trục hoành là $S=\\int\\limits_{-2}^{2}{(-}{{x}^{2}}+4)dx=\\frac{32}{3}$\nĐặt $HE=x\\Rightarrow DE=-{{x}^{2}}+4$. Diện tích hình chữ nhật là ${{S}_{1}}=EF.ED=2x.(-{{x}^{2}}+4)=-2{{x}^{3}}+8x$\nDiện tích trang trí hoa văn là ${{S}_{2}}=S-{{S}_{1}}=$ $\\frac{32}{3}-(-2{{x}^{3}}+8x)=2{{x}^{3}}-8x+\\frac{32}{3}$\nSố tiền nhà trường phải trả là $T=200.(-2{{x}^{3}}+8x)+300.(2{{x}^{3}}-8x+\\frac{32}{3})=200{{x}^{3}}-800x+3200$\n${T}'=600{{x}^{2}}-800=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{2\\sqrt{3}}{3} \\\\ & x=\\frac{-2\\sqrt{3}}{3} \\\\ \\end{aligned} \\right.$\n${{T}_{\\min }}=T(\\frac{2\\sqrt{3}}{3})=2584,159713$\nĐáp số là $2584$ nghìn đồng",
+   "short_value": 2584,
+   "short_correct": "2584",
+   "ma": "de1.P3.C15",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 27,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 16,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Vùng phủ sáng của ngọn hải đăng là khối cầu được giới hạn bởi mặt cầu có phương trình là ${{\\left( x-30 \\right)}^{2}}+{{\\left( y-55 \\right)}^{2}}+{{\\left( z-60 \\right)}^{2}}={{5000}^{2}}$ .",
+    "b": "Nếu người đi biển ở vị trí $A\\left( 7500;6500;0 \\right)$ thì người đó ở trong vùng phủ sáng của ngọn hải đăng.",
+    "c": "Nếu ngọn hải đăng phủ sáng một vùng trên mặt biển thì diện tích vùng sáng này không vượt quá $80$ triệu mét vuông.",
+    "d": "Nếu hai người đi biển ở trong vùng phủ sáng của ngọn hải đăng thì khoảng cách giữa hai người đó không vượt quá $10$ km ."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong không gian với hệ tọa độ $Oxyz$(đơn vị trên mỗi trục là mét), coi mặt biển là một phần của mặt phẳng $\\left( Oxy \\right)$. Một ngọn hải đăng cao $60\\text{ }m$ so với mực nước biển được đặt ở vị trí $I\\left( 30;55;60 \\right)$có bán kính phủ sáng là $5$ km .\n[[IMG:image14.png]]",
+   "explanation": "a)Đúng - b)sai –c)đúng- d) đúng\na) Đổi $5km=5000m$, Vùng phủ sáng của ngọn hải đăng là khối cầu được giới hạn bởi mặt cầu có phương trình là ${{\\left( x-30 \\right)}^{2}}+{{\\left( y-55 \\right)}^{2}}+{{\\left( z-60 \\right)}^{2}}={{5000}^{2}}$.\nb) $\\overrightarrow{IA}=\\left( 7470;6445;-60 \\right)\\Rightarrow IA=9866,23155m>5000$nên người đó không nằm trong vùng phủ sáng của hải đăng.\nc) Diện tích phủ sáng của hải đăng lên mặt biển là diện tích hình tròn có tâm là chân ngọn hải đăng , bán kính $R=\\sqrt{{{5000}^{2}}-{{60}^{2}}}=4999,639987m$, khi đó diện tích phủ sáng là $S=\\pi {{R}^{2}}\\approx 78528506,61{{m}^{2}}<80000000{{m}^{2}}$.\nd) Khoảng cách $d$ của hai người trong vùng phủ sáng sẽ không vượt quá đường kính đường tròn phủ sáng trên mặt biển ( câu c) , khi đó $d\\le 2R\\Leftrightarrow d\\le 2.\\sqrt{{{5000}^{2}}-{{60}^{2}}}<10000m$, hay $d<10km$",
+   "ma": "de1.P3.C16",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C5.B5.D06",
+   "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
+  },
+  {
+   "section": 3,
+   "n": 17,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Trong một giây đầu tiên, vận tốc của chất điểm là $v\\left( t \\right)=2t,\\text{ }0\\le t\\le 1$.",
+    "b": "Quãng đường chất điểm đi được trong hai giây đầu tiên là $2\\text{ m}$.",
+    "c": "Giá trị của $b$ và $c$ là $b=3,c=-\\frac{5}{2}$.",
+    "d": "Quãng đường chất điểm đi được trong khoảng thời gian $5$ giây là $7,7\\text{ m}$. (làm tròn đến hàng phần mười)"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một chất điểm chuyển động trên đường thẳng với vận tốc $v\\left( t \\right),\\text{ }0\\le t\\le 5$ ($t$ có đơn vị là giây và $v\\left( t \\right)$ có đơn vị mét/giây). Hàm số $v\\left( t \\right)$ có đồ thị gồm hai đoạn thẳng $OB,BC$ và đường cong $CD$ là một phần parabol $v\\left( t \\right)=a{{t}^{2}}+bt+c,\\text{ }\\left( a,b,c\\in \\mathbb{R} \\right)$ có đỉnh $C$ (như hình vẽ bên).\n[[IMG:image15.png]]",
+   "explanation": "a) Đúng\nĐường thẳng $OB:v\\left( t \\right)=mt+n$ đi qua hai điểm $O\\left( 0;0 \\right),\\text{ }B\\left( 1;2 \\right)$, ta có\n$\\left\\{ \\begin{aligned} & n=0 \\\\ & m+n=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & m=2 \\\\ & n=0 \\\\ \\end{aligned} \\right.\\Rightarrow OB:v\\left( t \\right)=2t$ với $0\\le t\\le 1$.\nb) Sai\nĐường thẳng $BC:v\\left( t \\right)=2$ với $1\\le t\\le 3$.\nQuãng đường chất điểm đi được trong hai giây đầu tiên là ${{S}_{1}}=\\int\\limits_{0}^{1}{2t\\text{dt}}+\\int\\limits_{1}^{2}{2\\text{dt}}=3\\text{ }\\left( \\text{m} \\right)$.\nc) Đúng\nParabol $v\\left( t \\right)=a{{t}^{2}}+bt+c$ nhận ${{x}_{C}}=3$ làm trục đối xứng nên đồ thị đi qua ba điểm $\\left( 1;0 \\right),$ $C\\left( 3;2 \\right),\\text{ }D\\left( 5;0 \\right)$, ta có\n$\\left\\{ \\begin{aligned} & a+b+c=0 \\\\ & 9a+3b+c=2 \\\\ & 25a+5b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{1}{2} \\\\ & b=3 \\\\ & c=-\\frac{5}{2} \\\\ \\end{aligned} \\right.$.\nĐường cong $CD$ là $v\\left( t \\right)=-\\frac{1}{2}{{t}^{2}}+3t-\\frac{5}{2}$ với $3\\le t\\le 5$.\nd) Đúng\nQuãng đường chất điểm đi được trong khoảng thời gian $5$ giây là\n$S=\\int\\limits_{0}^{1}{2t\\text{dt}}+\\int\\limits_{1}^{3}{2\\text{dt}}+\\int\\limits_{3}^{5}{\\left( -\\frac{1}{2}{{t}^{2}}+3t-\\frac{5}{2} \\right)\\text{dt}}=\\frac{23}{3}\\approx 7,7\\text{ }\\left( \\text{m} \\right).$",
+   "ma": "de1.P3.C17",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 23,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 18,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Anh Trí nhận thiết kế một logo hình con mắt ( phần được tô đậm ) cho một cơ sở y tế: Logo là một hình phẳng giới hạn bởi hai parabol $y=f\\left( x \\right)$ và $y=g\\left( x \\right)$ như hình vẽ ( đơn vị trên mỗi trục tọa độ là centimet). Chi phí sản xuất mỗi $c{{m}^{2}}$ trên logo là $1000$ đồng. Chi phí sản suất mỗi logo là bao nhiêu đồng? (Kết quả làm tròn đến hàng đơn vị)\n[[IMG:image16.png]]",
+   "explanation": "Đáp án: $9798$\nGọi phương trình parabol $y=g\\left( x \\right)$ là $g\\left( x \\right)=a{{x}^{2}}+bx+c$ với $a\\ne 0$ đi qua các điểm có tọa độ lần lượt là $\\left( 2;\\,1 \\right),\\,\\left( 0;\\,2 \\right),\\,\\left( -2;\\,1 \\right)$.\nLập hệ phương trình ba ẩn, từ đó suy ra được $\\left\\{ \\begin{aligned} & a=-\\frac{1}{4} \\\\ & b=0 \\\\ & c=2 \\\\ \\end{aligned} \\right.$ nên $g\\left( x \\right)=-\\frac{1}{4}{{x}^{2}}+2$\nGọi phương trình parabol $y=f\\left( x \\right)$ là $f\\left( x \\right)=m{{x}^{2}}+nx+p$ với $m\\ne 0$ đi qua các điểm có tọa độ lần lượt là $\\left( -2;\\,0 \\right),\\,\\left( 0;\\,-1 \\right),\\,\\left( 2;\\,0 \\right)$.\nLập hệ phương trình ba ẩn, từ đó suy ra được $\\left\\{ \\begin{aligned} & m=\\frac{1}{4} \\\\ & n=0 \\\\ & p=-1 \\\\ \\end{aligned} \\right.$ nên $f\\left( x \\right)=\\frac{1}{4}{{x}^{2}}-1$\nPhương trình hoành độ giao điểm:$f\\left( x \\right)=g\\left( x \\right)\\Leftrightarrow \\frac{1}{4}{{x}^{2}}-1=-\\frac{1}{4}{{x}^{2}}+2\\Leftrightarrow x=\\pm \\sqrt{6}$.\nDiện tích hình phẳng giới hạn bởi hai đường thẳng $y=f\\left( x \\right)$ và $y=g\\left( x \\right)$ là:\n${{S}_{2}}=\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| f\\left( x \\right)-g\\left( x \\right) \\right|\\text{d}x=}\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| \\left( -\\frac{1}{4}{{x}^{2}}+2 \\right)-\\left( \\frac{1}{4}{{x}^{2}}-1 \\right) \\right|\\text{d}x}$\nChi phí mỗi logo là:\n$T=1000.\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| \\left( -\\frac{1}{4}{{x}^{2}}+2 \\right)-\\left( \\frac{1}{4}{{x}^{2}}-1 \\right) \\right|\\text{d}x}\\approx 9798$ đồng.",
+   "short_value": 9798,
+   "short_correct": "9798",
+   "ma": "de1.P3.C18",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 19,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ mặt nước trong một bể nước, tại ba vị trí đôi một cách nhau $2$m, người ta lần lượt thả dây dọi để quả dọi chạm đáy bể. Phần dây dọi (thẳng) nằm trong nước tại ba vị trí đó lần lượt có độ dài là $4$m, $4,4$m, $4,8$m. Biết đáy bể là phẳng. Hỏi đáy bể so với mặt phẳng nằm ngang một góc bao nhiêu độ? (kết quả làm tròn đến hàng phần chục).",
+   "explanation": "Đáp án: $21,8$.\n[[IMG:image17.png]]\nChọn hệ trục tọa độ $Oxyz$như hình vẽ, ta có các tọa độ điểm tương ứng như sau:\n$O\\left( 0;0;0 \\right)$,$B\\left( 2;0;0 \\right)$,$A\\left( 1;\\sqrt{3};0 \\right)$,${O}'\\left( 0;0;-4 \\right)$,${B}'\\left( 2;0;-4,8 \\right)$,${A}'\\left( 1;\\sqrt{3};-4,4 \\right)$\nTa có: $\\overrightarrow{{O}'{A}'}=\\left( 1;\\sqrt{3};-0,4 \\right)$;$\\overrightarrow{{O}'{B}'}=\\left( 2;0;-0,8 \\right)\\Rightarrow {{\\vec{n}}_{{O}'{A}'{B}'}}=\\left[ \\overrightarrow{{O}'{A}'};\\overrightarrow{{O}'{B}'} \\right]=\\left( -0,8\\sqrt{3};0;-2\\sqrt{3} \\right)$\n${{\\vec{n}}_{Oxy}}=\\left( 0;0;1 \\right)$.\nSuy ra góc cần tìm là $\\alpha =\\left( \\left( Oxy \\right),\\left( {O}'{A}'{B}' \\right) \\right)$, với:\n$\\operatorname{Cos}\\alpha =\\frac{\\left| -0,8\\sqrt{3}.0+0.0+\\left( -2\\sqrt{3} \\right).1 \\right|}{\\sqrt{{{\\left( -0,8\\sqrt{3} \\right)}^{2}}+{{0}^{2}}+{{\\left( -2\\sqrt{3} \\right)}^{2}}}\\sqrt{{{0}^{2}}+{{0}^{2}}+{{1}^{2}}}}=\\frac{5\\sqrt{29}}{29}\\Rightarrow \\alpha \\approx 21,8{}^\\circ $.\nVậy đáy bể so với mặt phẳng nằm ngang một góc bằng $21,8{}^\\circ $.",
+   "short_value": 21.8,
+   "short_correct": "21,8",
+   "ma": "de1.P3.C19",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D02",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 20,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Quãng đường ${s(t)}$ mà xe ô tô đi được trong thời gian ${t}$ (giây) là một nguyên hàm của hàm số ${v(t)}$.",
+    "b": "${s(t)=-5 t^2+20 t}$ (m).",
+    "c": "Xe ô tô đó va vào chướng ngại vật ở trên đường.",
+    "d": "Thời gian kể từ lúc đạp phanh đến khi xe ô tô dừng hẳn là ${2}$ giây."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một xe ô tô đang chạy với tốc độ ${72}$ km/h thì người lái xe bất ngờ phát hiện chướng ngại vật trên đường cách đó ${50}$ mét. Người lái xe phản ứng một giây, sau đó đạp phanh khẩn cấp. Kể từ thời điểm này, ô tô chuyển động chậm dần đều với vận tốc ${v(t)=-10 t+20}$ (m/s), trong đó ${t}$ là thời gian tính bằng giây kể từ lúc đạp phanh. Gọi ${s(t)}$ là quãng đường xe ô tô đi được trong ${t}$ (giây) kể từ lúc đạp phanh.",
+   "explanation": "Ta có ${72}$ km/h = ${20}$ m/s.\nMột giây sau khi phát hiện chướng ngại vật, ô tô chạy thêm được ${20}$ m.\nKể từ lúc bắt đầu phanh, ô tô cách chướng ngại vật ${30}$ m.\na) Quãng đường ${s(t)}$ mà xe ô tô đi được trong thời gian ${t}$ (giây) là một nguyên hàm của hàm số ${v(t)}$.\nb) Ta có ${s(t)=\\int v(t)\\mathrm{\\,d}t=\\int \\left(-10t+20\\right)\\mathrm{\\,d}t=-5t^2+20t+C}$.\nDo ${s(0)=0}$ nên ${C=0}$, suy ra ${s(t)=-5 t^2+20 t}$ (m).\nc) Ta có ${v(t)=0\\Leftrightarrow -10t+20=0\\Leftrightarrow t=2 s.}$\nSau ${2}$ giây, kể từ lúc đạp phanh, ô tô dừng hẳn.\nQuãng đường ô tô đi được trong ${2}$ giây kể từ lúc đạp phanh là ${s(2)=20}$ (m).\nKhi đó ô tô còn cách chướng ngại vật ${10}$ m nên ô tô chưa va vào chướng ngại vật\nd) Thời gian kể từ lúc đạp phanh đến khi xe ô tô dừng hẳn là ${2}$ giây.",
+   "ma": "de1.P3.C20",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 21,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Anh A bơm nước vào một chiếc thùng nhựa đựng nước có dạng hình chóp cụt với hai đáy là hai hình chữ nhật, các cạnh bên bằng nhau và có kích thước như hình bên dưới, với tốc độ bơm nước vào thừng là$20$ lít/phút. Vận tốc nước dâng lên ở cạnh bên của thùng nhựa\n(đơn vị cm/phút) khi chiều cao mực nước là $25\\,cm$ bằng bao nhiêu? (Kết quả làm tròn đến hàng phần trăm)\n[[IMG:image18.png]]",
+   "explanation": "Đáp số: 2,64.\n[[IMG:image19.png]]\nGọi $K$ là hình chiếu vuông góc của ${B}'$ lên $BD$.\nSau t phút thì thể tích nước là ${{V}_{t}}=\\text{ }20000t\\text{ }\\left( c{{m}^{3}} \\right)$ và mực nước đạt chiều cao là $h={B}'H\\,\\left( cm \\right)$.\nVà mặt nước khi đó trùng với tứ giác $MNPQ$.\nTa có $\\frac{{B}'{C}'}{BC}=\\frac{{C}'{D}'}{CD}=\\frac{3}{4}\\Rightarrow {B}'{C}'=93\\Rightarrow {B}'{D}'=51\\sqrt{5}$.\nTa có $\\frac{h}{60}=\\frac{NH}{BK}=\\frac{NH}{\\frac{17\\sqrt{5}}{2}}\\Rightarrow NH=\\frac{17\\sqrt{5}}{120}h\\Rightarrow NQ={B}'{D}'+2NH=51\\sqrt{5}+\\frac{17\\sqrt{5}}{60}h$.\n$\\frac{{{S}_{MNPQ}}}{{{S}_{{A}'{B}'{C}'{D}'}}}={{\\left( \\frac{NQ}{{B}'{D}'} \\right)}^{2}}={{\\left( \\frac{51\\sqrt{5}+\\frac{17\\sqrt{5}}{60}h}{51\\sqrt{5}} \\right)}^{2}}={{\\left( \\frac{3060+17h}{3060} \\right)}^{2}}={{k}^{2}}$.\n$\\begin{aligned} & {{V}_{t}}=\\frac{1}{3}h\\left( {{S}_{{A}'{B}'{C}'{D}'}}+{{S}_{MNPQ}}+\\sqrt{{{S}_{{A}'{B}'{C}'{D}'}}.{{S}_{MNPQ}}} \\right)=\\frac{1}{3}h.{{S}_{{A}'{B}'{C}'{D}'}}.\\left( 1+k+{{k}^{2}} \\right) \\\\ & =2046h\\left[ 1+\\left( 1+\\frac{17}{3060}h \\right)+{{\\left( 1+\\frac{17}{3060}h \\right)}^{2}} \\right] \\\\ \\end{aligned}$\nSuy ra\n$\\begin{aligned} & {{{{V}'}}_{t}}={{\\left[ 2046h\\left[ 1+\\left( 1+\\frac{17}{3060}h \\right)+{{\\left( 1+\\frac{17}{3060}h \\right)}^{2}} \\right] \\right]}^{\\prime }}_{h}.{{{{h}'}}_{t}} \\\\ & \\Rightarrow {{{{V}'}}_{{{t}_{0}}}}={{\\left[ 2046h\\left[ 1+\\left( 1+\\frac{17}{3060}h \\right)+{{\\left( 1+\\frac{17}{3060}h \\right)}^{2}} \\right] \\right]}^{\\prime }}_{h=25}.{{{{h}'}}_{{{t}_{0}}}} \\\\ & \\Rightarrow {{{{V}'}}_{{{t}_{0}}}}\\approx 7961,4.{{{{h}'}}_{{{t}_{0}}}}\\Rightarrow {{{{h}'}}_{{{t}_{0}}}}=\\frac{{{{{V}'}}_{{{t}_{0}}}}}{7961,4}=\\frac{{{20000}_{{}}}}{7961,4}\\approx 2,51 \\\\ \\end{aligned}$\n(${{t}_{0}}$là thời gian để mực nước đạt đến độ cao $25\\,cm$).\nMà $\\frac{{B}'N}{{B}'B}=\\frac{h}{60}\\Rightarrow {B}'N=\\frac{{B}'B.h}{60}\\Rightarrow {B}'{{{N}'}_{{{t}_{0}}}}=\\frac{{B}'B}{60}{{{h}'}_{{{t}_{0}}}}=\\frac{\\sqrt{{{\\left( \\frac{17\\sqrt{5}}{2} \\right)}^{2}}+{{60}^{2}}}}{60}.2,51\\approx 2,63.$",
+   "short_value": 2.64,
+   "short_correct": "2,64",
+   "ma": "de1.P3.C21",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 36,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D06",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 22,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một tấm tôn hình vuông cạnh bằng $2m$, người ta cắt bỏ bốn tam giác cân bằng nhau có cạnh đáy là cạnh của hình vuông rồi ghép lại thành hình chóp tứ giác đều (tham khảo hình vẽ). Giả sử các mối hàn ghép là không đáng kể thì khối chóp được tạo thành có thể tích lớn nhất là bao nhiêu ${{m}^{3}}$. (Kết quả làm tròn đến hàng phần trăm)\n[[IMG:image20.emf]]",
+   "explanation": "Đáp số: 0,54\n[[IMG:image21.png]]\nGọi $x$ là độ dài cạnh của hình vuông $ABCD$, điều kiện $0<x<\\sqrt{2}$.\nGọi $O$ là tâm của hình vuông $ABCD$ thì $SO\\bot \\left( ABCD \\right)$.\nTa có: $SI=\\frac{2\\sqrt{2}-x}{2}$, $SO=\\sqrt{S{{I}^{2}}-O{{I}^{2}}}$ $=\\sqrt{{{\\left( \\frac{2\\sqrt{2}-x}{2} \\right)}^{2}}-{{\\left( \\frac{x}{2} \\right)}^{2}}}$ $=\\frac{\\sqrt{8-4\\sqrt{2}x}}{2}$.\nThể tích khối chóp là $V=\\frac{1}{3}SO.{{S}_{ABCD}}$ $=\\frac{1}{3}.\\frac{\\sqrt{8-4\\sqrt{2}x}}{2}.{{x}^{2}}$ $=\\frac{1}{6}\\sqrt{{{x}^{4}}\\left( 8-4\\sqrt{2}x \\right)}$.\nXét hàm số $y=f\\left( x \\right)={{x}^{4}}\\left( 8-4\\sqrt{2}x \\right)=8{{x}^{4}}-4\\sqrt{2.}{{x}^{5}}$, $0<x<\\sqrt{2}$.\nTa có ${f}'\\left( x \\right)=4\\left( 8{{x}^{3}}-5\\sqrt{2}{{x}^{4}} \\right)$.\nGiải phương trình ${f}'\\left( x \\right)=0$ $4\\left( 8{{x}^{3}}-5\\sqrt{2}{{x}^{4}} \\right)=0\\Leftrightarrow $$\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=\\frac{4\\sqrt{2}}{5} \\\\ \\end{aligned} \\right.$.\nBảng biến thiên:\n[[IMG:image22.png]]\nVậy $maxV=\\underset{\\left( 0;\\sqrt{2} \\right)}{\\mathop{max}}\\,\\left( \\frac{1}{6}\\sqrt{f\\left( x \\right)} \\right)$ $=\\frac{1}{6}\\sqrt{f\\left( \\frac{4\\sqrt{2}}{5} \\right)}\\approx 0,27\\left( {{m}^{3}} \\right)$.",
+   "short_value": 0.54,
+   "short_correct": "0,54",
+   "ma": "de1.P3.C22",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 19,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 23,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một biển quảng cáo có dạng hình vuông $ABCD$ cạnh bằng $4m$ và $I$ là trung điểm của đoạn thẳng $CD$. Trên tấm biển đó có đường parabol đỉnh $I$ đi qua $A,B$ và cắt đường chéo $BD$ tại $M$ (tham khảo hình vẽ).\n[[IMG:image23.png]]\nChi phí sơn phần tô hình tổ ong ( có diện tích ${{S}_{1}}$) là $200\\,000$ đồng/${{m}^{2}}$, chi phí sơn phần tô đậm (có diện tích ${{S}_{2}}$) là $150\\,000$ đồng/${{m}^{2}}$ và phần còn lại là $120\\,000$ đồng/${{m}^{2}}$. Số tiền cần chi trả để sơn tấm biến quảng cáo là bao nhiêu nghìn đồng?",
+   "explanation": "Đáp số: $2465$\n[[IMG:image24.png]]\nGắn hệ tọa độ $Oxy$ như hình vẽ, khi đó $I(2;4)$\nVì $\\left( P \\right)$ cắt trục hoành tại hai điểm $A\\left( 0;0 \\right)\\,\\,,\\,\\,B\\left( 4;0 \\right)$ nên ta có $(P):\\,y=kx(x-4)$,\nMà $(P)$ qua $I(2;4)\\Rightarrow -4.k=4\\Rightarrow k=-1$ , khi đó $(P):\\,y=-{{x}^{2}}+4x$\nGọi $d:\\,y=ax+b$, $d$ qua $D(0;4),\\,B(4;0)\\Rightarrow \\left\\{ \\begin{aligned} & 0a+b=4 \\\\ & 4a+b=0 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & b=4 \\\\ \\end{aligned} \\right.$, khi đó $d:\\,y=-x+4$\n$(P)\\cap d:\\left\\{ \\begin{aligned} & y=-{{x}^{2}}+4x \\\\ & y=-x+4 \\\\ \\end{aligned} \\right.\\Rightarrow B\\left( 4;0 \\right)\\,\\,,\\,\\,M(1;3)$\nTa có: ${{S}_{2}}=\\int\\limits_{0}^{1}{\\left( -{{x}^{2}}+4x \\right)}dx+{{S}_{\\Delta MHB}}=\\frac{5}{3}+\\frac{3.3}{2}=\\frac{37}{6}$\nSuy ra ${{S}_{1}}={{S}_{P}}-{{S}_{2}}=\\frac{2}{3}.4.4-\\frac{37}{6}=\\frac{9}{2}$\nKhi đó $S$ còn lại bằng ${{S}_{hv}}-{{S}_{1}}-{{S}_{2}}=4.4-\\frac{9}{2}-\\frac{37}{6}=\\frac{16}{3}$\nVậy số tiền cần trả là : $200.\\frac{9}{2}+150.\\frac{37}{6}+120.\\frac{16}{3}=2465$ (nghìn đồng)",
+   "short_value": 2465,
+   "short_correct": "2465",
+   "ma": "de1.P3.C23",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 26,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 24,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp bánh có dạng hình hộp chữ nhật $ABCD.{A}'{B}'{C}'{D}'$ có $AB=10cm$, $AD=20cm$, $A{A}'=30cm$. Số đo góc phẳng nhị diện $\\left[ {A}',BD,A \\right]$ bằng bao nhiêu độ ? (Kết quả làm tròn đến hàng phần chục).",
+   "explanation": "Đáp số: $73,4$\n[[IMG:image25.png]]\nDựng $AH$vuông góc với $BD$ tại $H$.\nKhi này, ta có: $\\left\\{ \\begin{aligned} & BD\\bot AH \\\\ & BD\\bot A{A}' \\\\ \\end{aligned} \\right.\\Rightarrow BD\\bot \\left( {A}'AH \\right)\\Rightarrow BD\\bot {A}'H$.\nDo đó góc phẳng nhị diện $\\left[ {A}',BD,A \\right]$ là góc $\\widehat{{A}'HA}$.\nDo $ABCD$ là hình chữ nhật nên $AH=\\frac{AB.AD}{\\sqrt{A{{B}^{2}}+A{{D}^{2}}}}=\\frac{10.20}{\\sqrt{{{10}^{2}}+{{20}^{2}}}}=4\\sqrt{5}$.\nXét tam giác ${A}'AH$ vuông tại $A$, ta có $\\tan \\widehat{{A}'HA}=\\frac{{A}'A}{AH}=\\frac{30}{4\\sqrt{5}}=\\frac{3\\sqrt{5}}{2}$.\n$\\Rightarrow \\widehat{{A}'HA}\\approx 73,{{4}^{0}}$.\nVậy phẳng nhị diện $\\left[ {A}',BD,A \\right]$ có số đo là $73,{{4}^{0}}$.",
+   "short_value": 73.4,
+   "short_correct": "73,4",
+   "ma": "de1.P3.C24",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D03",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 25,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Thống kê thời gian tự học môn Toán của 400 học sinh lớp 12 trong một ngày ta được kết quả trong bảng ghép nhóm sau\n| Thời gian (phút) | $\\left[ 0;20 \\right)$ | $\\left[ 20;40 \\right)$ | $\\left[ 40;60 \\right)$ | $\\left[ 60;80 \\right)$ | $\\left[ 80;100 \\right)$ |\n|---|---|---|---|---|---|\n| Số học sinh | $x$ | 120 | $y$ | 70 | 60 |\nBiết rằng $x,y$ là các số nguyên dương và khoảng tứ phân vị của mẫu số liệu bằng $\\frac{845}{21}$. Khi đó, thời gian tự học trung bình của 400 học sinh (tính theo mẫu số liệu ghép nhóm trên) là bao nhiêu phút?",
+   "explanation": "Vì tổng số học sinh là $400$ nên $x+120+y+70+60=400$hay $x+y=150$.\nTa có $\\frac{3n}{4}=300$và ${{x}_{300}}\\in \\left[ 60;80 \\right),{{x}_{301}}\\in \\left[ 60;80 \\right)$ nên ${{Q}_{3}}=60+\\frac{300-270}{70}\\left( 80-60 \\right)=\\frac{480}{7}$\nLại có $\\Delta Q={{Q}_{3}}-{{Q}_{1}}$ nên ${{Q}_{1}}={{Q}_{3}}-\\Delta Q=\\frac{85}{3}$.\nTa có $\\frac{n}{4}=100$ nên có thể sảy ra các trường hợp sau:\nTrường hợp 1: ${{x}_{100}}\\in \\left[ 0;20 \\right)$nên ${{Q}_{1}}=0+\\frac{100-0}{x}\\left( 20-0 \\right)=\\frac{2000}{x}=\\frac{85}{3}$hay $x=\\frac{1200}{17}$(loại vì $x\\notin \\mathbb{N}$).\nTrường hợp 2: ${{x}_{100}}\\in \\left[ 20;40 \\right)$nên ${{Q}_{1}}=20+\\frac{100-x}{120}\\left( 20-0 \\right)=20+\\frac{100-x}{6}=\\frac{85}{3}$hay $x=50$.\nKhi đó $y=150-x=100$.\nTa có bảng số số liệu\n| Thời gian (phút) | $\\left[ 0;20 \\right)$ | $\\left[ 20;40 \\right)$ | $\\left[ 40;60 \\right)$ | $\\left[ 60;80 \\right)$ | $\\left[ 80;100 \\right)$ |\n|---|---|---|---|---|---|\n| Giá trị đại diện | $10$ | $30$ | $50$ | $70$ | $90$ |\n| Số học sinh | $50$ | 120 | $100$ | 70 | 60 |\nThời gian tự học trung bình là: $\\overline{X}=\\frac{10.50+30.120+50.100+70.70+90.60}{400}=48,5$",
+   "short_value": 48.5,
+   "short_correct": "48,5",
+   "ma": "de1.P3.C25",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 26,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Kiến trúc sư thiết kế một con đường để chia khu đất hình chữ nhật $ABCD$ với $AB=40\\,m,AD=60\\,m$ thành hai phần (hai lề đường là các đường cong $HEK$ và $PQIR$). Trong đó phần giới hạn bởi đường cong $HEK$ và các đoạn $AH,AB,BK$ là sân chơi, phần giới hạn bởi đường cong $PQIR$ và các đoạn $PD,DC,CR$ để trồng hoa (tham khảo hình vẽ).\n[[IMG:image26.png]]\nNếu gắn một hệ trục toạ độ vuông góc có trục hoành, trục tung lần lượt cùng phương với các đường thẳng $AB,AD$ thì đường cong $PQIR$ là một phần của đồ thị hàm số bậc ba $y=f(x)$; Đường cong $HEK$ nhận được bằng cách tịnh tiến đường cong $PQIR$ theo phương thẳng đứng lên phía trên $10\\,m$. Biết $AP=30\\,m,BR=20\\,m$, điểm $Q$ cách các cạnh $AB,AD$ lần lượt $25\\,m$ và $20\\,m$, điểm $I$ cách các cạnh $AB,AD$ lần lượt $25\\,m$ và $35\\,m$. Gọi ${{S}_{1}}$ là diện tích phần sân chơi và ${{S}_{2}}$ là diện tích phần trồng hoa. Tính $\\frac{{{S}_{1}}}{{{S}_{2}}}$ (làm tròn kết quả đến hàng phần trăm).",
+   "explanation": "[[IMG:image27.png]]\nChọn hệ trục tọa độ $Oxy$ sao cho $O\\equiv D$, tia $Ox$ trùng với tia $DC$, tia $Oy$ trùng với tia $DA$\nĐường cong $PQIR$ là một phần của đồ thị hàm số bậc ba $y=f(x)=a{{x}^{3}}\\,+b{{x}^{2}}+cx+d$;\nĐồ thị hàm số $y=f(x)$ đi qua điểm $P\\left( 0\\,;\\,30 \\right)$, $Q\\left( 20\\,;\\,35 \\right)$, $I\\left( 35\\,;\\,35 \\right)$, $R\\left( 40\\,;\\,40 \\right)$ ta có\n$\\left\\{ \\begin{aligned} & d=30 \\\\ & {{20}^{3}}a+{{20}^{2}}b+20c=5 \\\\ & {{35}^{3}}a+{{35}^{2}}b+35c=5 \\\\ & {{40}^{3}}a+{{40}^{2}}b+40c=10 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{1}{700} \\\\ & b=\\frac{-3}{35} \\\\ & c=\\frac{9}{28} \\\\ & d=30 \\\\ \\end{aligned} \\right.$\nNên $y=f(x)=\\frac{1}{700}{{x}^{3}}\\,-\\frac{3}{35}{{x}^{2}}+\\frac{39}{28}x+30$\nĐường cong $HEK$ nhận được bằng cách tịnh tiến đường cong $PQIR$ theo phương thẳng đứng lên phía trên $10\\,m$ nên nó là phần đồ thị hàm số $g(x)=\\frac{1}{700}{{x}^{3}}\\,-\\frac{3}{35}{{x}^{2}}+\\frac{39}{28}x+40$\n${{S}_{2}}=\\int\\limits_{0}^{40}{\\left( \\frac{1}{700}{{x}^{3}}\\,-\\frac{3}{35}{{x}^{2}}+\\frac{39}{28}x+30 \\right)\\text{d}x}=1400$\n${{S}_{1}}=\\int\\limits_{0}^{40}{\\left( 60-\\frac{1}{700}{{x}^{3}}\\,+\\frac{3}{35}{{x}^{2}}-\\frac{39}{28}x-40 \\right)\\text{d}x}=600$\nSuy ra $\\frac{{{S}_{1}}}{{{S}_{2}}}=\\frac{600}{1400}=\\frac{3}{7}\\approx 0,43$.",
+   "short_value": 0.43,
+   "short_correct": "0,43",
+   "ma": "de1.P3.C26",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 27,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một phân xưởng sản xuất hai kiểu mũ. Thời gian để làm ra một chiếc mũ kiểu thứ nhất nhiều gấp đôi thời gian để làm ra một chiếc mũ kiểu thứ hai. Nếu chỉ sản xuất kiểu mũ thứ hai thì trong 1 giờ phân xưởng làm được 60 chiếc. Phân xưởng làm việc không quá 8 tiếng mỗi ngày và thị trường tiêu thụ tối đa trong một ngày là 200 chiếc mũ kiểu thứ nhất và 240 chiếc mũ kiểu thứ hai. Tiền lãi khi bán một chiếc mũ kiểu thứ nhất là 24 nghìn đồng, một chiếc mũ kiểu thứ hai là 15 nghìn đồng. Số tiền lãi lớn nhất mà phân xưởng thu được trong một ngày là bao nhiêu nghìn đồng?",
+   "explanation": "Vì thời gian để làm ra một chiếc mũ kiểu thứ nhất nhiều gấp đôi thời gian để làm ra một chiếc mũ kiểu thứ hai nên nếu chỉ sản xuất kiểu mũ thứ nhất thì trong 1 giờ phân xưởng làm được 30 chiếc.\nGọi $x,y$ là số giờ phân xưởng dùng để sản xuất mũ kiểu thứ nhất và mũ kiểu thứ hai. Từ giả thiết đề bài ta có hệ bất phương trình $\\left\\{ \\begin{aligned} & x,y\\ge 0 \\\\ & x+y\\le 8 \\\\ & 30x\\le 200 \\\\ & 60y\\le 240 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x,y\\ge 0 \\\\ & x+y\\le 8 \\\\ & x\\le \\frac{20}{3} \\\\ & y\\le 4 \\\\ \\end{aligned} \\right.$. (*)\nMiền nghiệm của hệ (*) là miền trong ngũ giác $OABCD$ (kể cả các cạnh của nó), trong đó $O\\left( 0;0 \\right),A\\left( 0;4 \\right),B\\left( 4;4 \\right),C\\left( \\frac{20}{3};\\frac{4}{3} \\right);D\\left( \\frac{20}{3};0 \\right)$\n[[IMG:image28.jpeg]]\nTổng tiền lãi mà phân xưởng thu được là $f\\left( x;y \\right)=24x+15y$ (nghìn đồng)\n$f\\left( O \\right)=0;f\\left( A \\right)=60;f\\left( B \\right)=156;f\\left( C \\right)=180;f\\left( D \\right)=160$.\nVậy số tiền lớn nhất mà xưởng thu được trong ngày là 180 (nghìn đồng)",
+   "short_value": 180,
+   "short_correct": "180",
+   "ma": "de1.P3.C27",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 28,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một doanh nghiệp dự định sản xuất không quá $500$ sản phẩm. Nếu doanh nghiệp sản xuất $x$ sản phẩm ($1\\le x\\le 500$) thì doanh thu nhận được khi bán hết số sản phẩm đó là $F\\left( x \\right)=-{{x}^{3}}-1999{{x}^{2}}+1001000x+250000$(đồng). Trong đó chi phí vận hành máy móc cho mỗi sản phẩm là $G\\left( x \\right)=\\frac{200000x}{3x+2}$(đồng). Tổng chi phí mua nguyên vật liệu là $H\\left( x \\right)=2{{x}^{3}}+100000x-50000$(đồng), nhưng do doanh nghiệp đó mua nguyên vật liệu với số lượng lớn nên được giảm $2\\%$cho $180$ sản phẩm đầu tiên doanh nghiệp sản xuất và giảm $3\\%$ cho các sản phẩm tiếp theo. Doanh nghiệp cần sản xuất bao nhiêu sản phẩm để lợi nhuận thu được là lớn nhất?",
+   "explanation": "Hàm doanh thu:$F\\left( x \\right)=-{{x}^{3}}-1999{{x}^{2}}+1001000x+250000$\nHàm chi phí vận hành máy móc mỗi sản phẩm: $G\\left( x \\right)=\\frac{200000x}{3x+2}$ ​\nHàm tổng chi phí mua nguyên vật liệu (trước giảm giá): $H\\left( x \\right)=2{{x}^{3}}+100000x-50000$\nTổng chi phí vận hành máy móc cho $x$ sản phẩm: $x.G\\left( x \\right)=\\frac{200000{{x}^{2}}}{3x+2}$​\nHàm lợi nhuận của doanh nghiệp:\n+ Nếu $1\\le x\\le 180$:\n$L\\left( x \\right)=F\\left( x \\right)-x.G\\left( x \\right)-0,98.H\\left( x \\right)$\n$=-{{x}^{3}}-1999{{x}^{2}}+1001000x+250000-\\frac{200000{{x}^{2}}}{3x+2}-0,98\\left( 2{{x}^{3}}+100000x-50000 \\right)$\n+ Nếu $180<x\\le 500$\n$L\\left( x \\right)=F\\left( x \\right)-x.G\\left( x \\right)-0,98.H\\left( 180 \\right)-0,97.H\\left( x-180 \\right)$\n$=-{{x}^{3}}-1999{{x}^{2}}+1001000x+250000-\\frac{200000{{x}^{2}}}{3x+2}-29021720-0,97.\\left[ 2{{\\left( x-180 \\right)}^{3}}+100000\\left( x-180 \\right)-50000 \\right]$\nSử dụng máy tính cầm tay, tìm được giá trị lớn nhất của hàm số $L\\left( x \\right)$. Ta có doanh nghiệp thu được lợi nhuận lớn nhất khi $x=185$(sản phẩm)\nĐáp án: $185$",
+   "short_value": 185,
+   "short_correct": "185",
+   "ma": "de1.P3.C28",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 29,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một phần mềm mô phỏng vận động viên tập bắn bia mục tiêu có kích thước nhỏ $\\left( 42\\times 42\\text{ }\\!\\!~\\!\\!\\text{ cm} \\right)$ trong không gian $Oxyz$. (Giả sử $\\left| \\text{i} \\right|=\\left| \\vec{j}\\left| = \\right|\\vec{k} \\right|=1\\text{ }\\!\\!~\\!\\!\\text{ cm}$). Cho biết vận động viên đó sử dụng thước ngắm 3 và đứng cách xa bia mục tiêu là $100m$, trục $d$ của nòng súng và cọc đỡ bia ${d}'$ lần lượt có phương trình $d:\\left\\{ \\begin{array}{llllll} x=t \\\\ y=2 \\\\ z=4 \\\\ \\end{array} \\right.$ và ${d}':\\left\\{ \\begin{array}{llllll} x=1 \\\\ y=2 \\\\ z=1+3{t}' \\\\ \\end{array} \\right.$. Để bắn trúng hồng tâm (thang điểm 10) thì vận động viên phải ngắm bắn vào điểm $N\\left( a;b;c \\right)\\in {d}'$ và cách giao điểm của $d$ và ${d}'$ một khoảng 6 cm. Khi $c<0$, tính giá trị biểu thức $2a-b+3c$.\n[[IMG:image29.png]]",
+   "explanation": "Đáp án: -6\nTheo đề bài ta có $\\text{ }\\!\\!~\\!\\!\\text{ }\\left( d \\right)\\cap \\left( {{d}'} \\right)=M\\left( 1;2;4 \\right)$\nMà $N\\left( a;b;c \\right)\\in \\left( {{d}'} \\right)\\Rightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=1+3{t}'<0 \\\\ \\end{aligned} \\right.\\Rightarrow {t}'<-\\frac{1}{3}$.\nSuy ra $\\overrightarrow{MN}=\\left( 0;0;3{t}'-3 \\right)$\nTa có $MN=6\\left( cm \\right)$ $\\Leftrightarrow \\sqrt{{{0}^{2}}+{{0}^{2}}+{{\\left( 3{t}'-3 \\right)}^{2}}}=6$\n$~\\Leftrightarrow \\left| 3{t}'-3 \\right|=6$ $\\Leftrightarrow \\left[ \\begin{matrix} 3{t}'-3=6 \\\\ 3{t}'-3=-6 \\\\ \\end{matrix} \\right.$ $\\Leftrightarrow \\left[ \\begin{aligned} & {t}'=3\\text{ (loai)} \\\\ & {t}'=-1\\text{ (nhan)} \\\\ \\end{aligned} \\right.$\nVới ${t}'=-1\\Rightarrow c=1+3.\\left( -1 \\right)=-2$ $\\Rightarrow N\\left( a;b;c \\right)=\\left( 1;2;-2 \\right)$\nVậy $2a-b+3c=2-2+3\\left( -2 \\right)=-6$",
+   "short_value": -6,
+   "short_correct": "-6",
+   "ma": "de1.P3.C29",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 26,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D05",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 30,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Một vectơ chỉ phương của đường thẳng $AB$ là $\\vec{u}=\\left( 0;5;1 \\right)$.",
+    "b": "Khi người thợ điện di chuyển đến vị trí điểm $D$ cách mặt đất 18m thì tọa độ điểm $D$ là $D\\left( 7;-5;18 \\right)$.",
+    "c": "Phương trình mặt phẳng $\\left( ABC \\right)$ là $x=7$.",
+    "d": "Khoảng cách từ Puly tại $A~$đến bàn đạp tại $C$ là $1,03$m (kết quả làm tròn đến hàng phần trăm)."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Năm 2011, kỹ sư Nguyễn Trí Hiếu, người Quảng Ngãi, đã sáng chế ra chiếc xe đu dây phục vụ công nhân điện lực di chuyển trên dây điện cao thế. Khi ở vị trí cân bằng, chiếc xe và đường dây điện sẽ cùng nằm trên một mặt phẳng vuông góc với mặt đất. Xe được cấu tạo bởi khung xe có gắn hai Puly tại vị trí A và B cách mặt đất lần lượt là 20 m và 19,9m (như hình). Xe đu dây di chuyển giống xe đạp, được kết hợp dây xích, líp, đĩa, bàn đạp, phanh.; bàn đạp đặt tại vị trí C.\nChọn hệ trục tọa độ $Oxyz$ sao cho mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất (mỗi đơn vị độ dài trong không gian $Oxyz$ tương ứng với 1m trên thực tế); tọa độ các điểm $A;B;C$ lần lượt là $\\left( 7;5;20 \\right)~;\\left( 7;5,5;19,9 \\right)~;\\left( 7;5;19 \\right)$.\n[[IMG:image30.png]]",
+   "explanation": "a) Sai, $\\overrightarrow{AB}=\\left( 0;0,5;-0,1 \\right)$ nên $\\vec{u}=\\left( 0;5;-1 \\right).$\nb) Sai, ta có đường thẳng $AB$ đi qua $A\\left( 7;5;20 \\right)$, VTCP $\\vec{u}=\\left( 0;5;-1 \\right)$ có phương trình tham số là $\\left\\{ \\begin{matrix} x=7 \\\\ y=5+5t \\\\ z=20-t \\\\ \\end{matrix} \\right.$.\nMặt đất là $\\left( Oxy \\right):z=0$, điểm $D\\left( 7;5+5t;20-t \\right)\\in AB$ cách mặt đất 18m hay $d\\left( D;\\left( Oxy \\right) \\right)=18\\Leftrightarrow \\left| 20-t \\right|=18\\Leftrightarrow \\left[ \\begin{matrix} t=2 \\\\ t=38 \\\\ \\end{matrix} \\right.$.\nKhi đó $D\\left( 7;15;18 \\right)$, $D\\left( 7;195;-18 \\right)$ loại do cao độ của dây không âm.\nc) Đúng, $\\left( ABC \\right)$ đi qua $A\\left( 7;5;20 \\right)$ và có VTPT $\\left[ \\overrightarrow{AB},~\\overrightarrow{AC} \\right]=\\left( -0,5;0;0 \\right)$ hay $\\vec{n}=\\left( 1;0;0 \\right)$.\nSuy ra $\\left( ABC \\right):~x=7$.\nd) Sai, $AC=1$.",
+   "ma": "de1.P3.C30",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 31,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tổng doanh thu trung bình mỗi tháng cơ sở sản xuất thu được khi chưa tăng giá là $1\\ 700\\ 000\\ 000$ nghìn đồng.",
+    "b": "Số khăn bán ra được mỗi tháng sau khi tăng giá là $34\\ 000-5x$ chiếc.",
+    "c": "Để đạt lợi nhuận lớn nhất thì sau khi tăng giá mỗi chiếc khăn lãi 41 nghìn đồng.",
+    "d": "Để đạt lợi nhuận lớn nhất thì số khăn bán ra giảm $12\\ 500$ chiếc."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một cơ sở sản xuất khăn đang bán mỗi chiếc khăn với giá $50\\ 000$ đồng một chiếc và mỗi tháng cơ sở bán được trung bình $34\\ 000$ chiếc. Cơ sở sản xuất đang có kế hoạch tăng giá bán để có lợi nhuận tốt hơn. Sau khi tham khảo thị trường, người quản lý nhận thấy rằng nếu từ mức giá $50\\ 000$ đồng mà cứ tăng thêm $1\\ 000$ đồng thì mỗi tháng sẽ bán ít hơn 500 chiếc. Biết vốn sản xuất một chiếc khăn không thay đổi là $32\\ 000$ đồng, gọi tiền cần tăng giá mỗi chiếc khăn là $x$ (nghìn đồng). Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Sai. Tổng doanh thu trung bình mỗi tháng cơ sở sản xuất thu được khi chưa tăng giá là\n$50\\ 000\\times 34\\ 000=1\\ 700\\ 000\\ 000$ (đồng).\nb) Sai. Mỗi 1.000 đồng tăng giá làm giảm 500 chiếc khăn bán được.\nDo đó nếu tăng giá $x$ nghìn đồng, số lượng khăn bán được giảm $500x$ chiếc.\nVậy số lượng khăn bán được sau khi tăng giá là $34\\ 000-500x$.\nc) Sai. Giá bán sau khi tăng giá: $50\\ 000+1\\ 000x=50+x$ (nghìn đồng).\nLãi mỗi chiếc khăn: $50+x-32=18+x$ (nghìn đồng).\nSố lượng khăn bán được: $34\\ 000-500x$.\nTổng lợi nhuận lúc này: $\\left( 18+x \\right)\\left( 34\\ 000-500x \\right)$.\nTa cần tìm giá trị của $x$ sao cho tổng lợi nhuận đạt giá trị lớn nhất.\nXét hàm số $f\\left( x \\right)=\\left( 18+x \\right)\\left( 34\\ 000-500x \\right)=-500{{x}^{2}}+25\\ 000x+612\\ 000$.\nTa có ${f}'\\left( x \\right)=-1\\ 000x+25\\ 000$; ${f}'\\left( x \\right)=0\\,\\,\\,\\Leftrightarrow \\,\\,\\,-1\\ 000x+25\\ 000=0$ $\\Leftrightarrow \\,\\,\\,x=25$.\nVì $f\\left( x \\right)$ là hàm số bậc hai với hệ số $a=-500<0$ nên suy ra $f\\left( x \\right)$ đạt GTLN tại $x=25$.\nKhi đó tiền lãi mỗi chiếc khăn là: $18+25=43$ (nghìn đồng).\nd) Đúng. Khi đạt lợi nhuận lớn nhất thì số lượng khăn bán ra giảm $500x=500.25=12\\ 500$ chiếc.",
+   "ma": "de1.P3.C31",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 16,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 32,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Quãng đường ô tô đi được từ lúc đạp phanh đến khi dừng ở trạm thu phí là $36,75\\,m$.",
+    "b": "Vận tốc của ô tô tại thời điểm người tài xế phanh gấp lần hai là $20\\,\\left( {m}/{s}\\; \\right)$",
+    "c": "Thời gian từ lúc ô tô phanh lần một cho đến khi dừng hẳn ở trạm thu phí là $3$giây.",
+    "d": "Tổng quãng đường ô tô chuyển động từ lúc phanh lần một đến lúc phanh lần hai là $76,75\\,m$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một ô tô đang di chuyển với vận tốc $21\\,\\left( {m}/{s}\\; \\right)$, khi còn cách trạm thu phí một đoạn thì người lái xe bắt đầu đạp phanh lần một, xe chuyển động thẳng, chậm dần đều với vận tốc biến thiên theo thời gian được xác định bởi quy luật ${{v}_{1}}\\left( t \\right)=-6t+21\\,\\left( {m}/{s}\\; \\right)$, trong đó thời gian $t$ tính bằng giây, đến đúng trạm thu phí thì xe dừng hẳn. Sau khi trả phí, xe ô tô bắt đầu chuyển động nhanh dần đều với vận tốc ${{v}_{2}}\\left( t \\right)=5t\\,\\left( {m}/{s}\\; \\right)$, đi được $4$giây, ô tô gặp chướng ngại vật nên phải phanh gấp lần hai. Khi đó:",
+   "explanation": "a) Đúng.\nĐến đúng trạm thu phí thì xe dừng hẳn nên ${{v}_{1}}\\left( t \\right)=0\\Leftrightarrow -6t+21\\,=0\\Leftrightarrow t=\\frac{7}{2}$ (giây)\nKhi đó quãng đường ô tô đi được từ lúc đạp phanh đến khi dừng ở trạm thu phí là:\n${{S}_{1}}=\\int\\limits_{0}^{\\frac{7}{2}}{\\left( -6t+21 \\right)}\\,\\text{d}t=36,75\\,\\left( m \\right)$.\nb) Đúng.\nVận tốc của ô tô tại thời điểm người tài xế phanh gấp lần hai là ${{v}_{2}}\\left( 4 \\right)=5.4=20\\,\\left( {m}/{s}\\; \\right)$\nc) Sai.\nĐến đúng trạm thu phí thì xe dừng hẳn nên ${{v}_{1}}\\left( t \\right)=0\\Leftrightarrow -6t+21\\,=0\\Leftrightarrow t=\\frac{7}{2}=3,5$ (giây)\nd) Đúng.\nQuãng đường ô tô đi được sau khi trả phí đến khi phanh lần hai là: ${{S}_{2}}=\\int\\limits_{0}^{4}{5t}\\,\\text{d}t=40\\,\\left( m \\right)$.\nVậy tổng quãng đường ô tô chuyển động từ lúc phanh lần một đến lúc phanh lần hai là: $S={{S}_{1}}+{{S}_{2}}=76,75\\,\\left( m \\right)$.",
+   "ma": "de1.P3.C32",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 19,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  }
+ ],
+ "flags": []
+}

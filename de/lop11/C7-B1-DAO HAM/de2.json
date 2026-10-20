@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "7",
+  "lesson": "1",
+  "title": "Bài 1. Đạo hàm"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Số gia của hàm số $y=f\\left( x \\right)=\\frac{{{x}^{2}}}{2}$ ứng với số gia của đối số tại ${{x}_{0}}=-1$ là:",
+   "explanation": "Gọi $\\Delta x$ là số gia của đối số tại ${{x}_{0}}=-1$ và $\\Delta y$ tương ứng là số gia của hàm số.\nTa có:\n$\\Delta y=f\\left( {{x}_{0}}+\\Delta x \\right)-f\\left( {{x}_{0}} \\right)=\\frac{{{\\left( {{x}_{0}}+\\Delta x \\right)}^{2}}}{2}-\\frac{x_{0}^{2}}{2}=\\frac{{{\\left( -1+\\Delta x \\right)}^{2}}}{2}-\\frac{1}{2}=\\frac{1-2\\Delta x+{{\\left( \\Delta x \\right)}^{2}}-1}{2}=\\frac{1}{2}{{\\left( \\Delta x \\right)}^{2}}-\\Delta x$",
+   "options": [
+    "$\\frac{1}{2}{{\\left( \\Delta x \\right)}^{2}}-\\Delta x$",
+    "$\\frac{1}{2}\\left[ {{\\left( \\Delta x \\right)}^{2}}-\\Delta x \\right]$",
+    "$\\frac{1}{2}\\left[ {{\\left( \\Delta x \\right)}^{2}}+\\Delta x \\right]$",
+    "$\\frac{1}{2}{{\\left( \\Delta x \\right)}^{2}}+\\Delta x$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm $f$ xác định bởi $f(x)=\\left\\{ \\begin{matrix} \\frac{\\sqrt{{{x}^{2}}+1}-1}{x}\\,\\,\\,\\,\\,(x\\ne 0) \\\\ 0\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,(x=0) \\\\ \\end{matrix} \\right.$. Giá trị ${f}'\\left( 0 \\right)$ bằng",
+   "explanation": "Ta có: $\\text{{f}'}(0)=\\underset{\\text{x}\\to 0}{\\mathop{\\lim }}\\,\\frac{\\text{f}(\\text{x})-\\text{f}(0)}{\\text{x}-0}=\\underset{\\text{x}\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sqrt{{{\\text{x}}^{2}}+1}-1}{{{x}^{2}}}\\underset{\\text{x}\\to 0}{\\mathop{=\\lim }}\\,\\frac{1}{\\sqrt{{{\\text{x}}^{2}}+1}+1}=\\frac{1}{2}$.",
+   "options": [
+    "$0$",
+    "$1$",
+    "$\\frac{1}{2}$",
+    "không tồn tại"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hàm số $f$ Xác định trên $\\mathbb{R}\\backslash \\left\\{ 2 \\right\\}$ bởi $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{3}}-4{{x}^{2}}+3x}{{{x}^{2}}-3x+2}\\,\\,\\left( x\\ne 1 \\right) \\\\ & 0\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( x=1 \\right) \\\\ \\end{aligned} \\right.\\,\\,\\,\\,$. Giá trị của ${f}'\\left( 1 \\right)$ bằng?",
+   "explanation": "$f'\\left( 1 \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{3}}-4{{x}^{2}}+3x}{\\left( x-1 \\right)\\left( {{x}^{2}}-3x+2 \\right)}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x\\left( x-3 \\right)}{\\left( x-1 \\right)\\left( x-2 \\right)}=+\\infty $",
+   "options": [
+    "$\\frac{3}{2}$",
+    "$1$",
+    "$0$",
+    "Không tồn tại"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hệ số góc của tiếp tuyến của đồ thị hàm số $y=f(x)$ tại điểm $M({{x}_{0}};{{y}_{0}})$, trong đó${{y}_{0}}=f({{x}_{0}})$\nlà",
+   "explanation": "Theo định nghĩa về hệ số góc của tiếp tuyến của đồ thị hàm số.",
+   "options": [
+    "$k=f'({{x}_{0}})$",
+    "$k=f'({{y}_{0}})$",
+    "$k=f({{x}_{0}})$",
+    "$k=f({{y}_{0}})$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tiếp tuyến của đồ thị hàm số $y=f(x)$ tại điểm $M({{x}_{0}};{{y}_{0}})$, trong đó${{y}_{0}}=f({{x}_{0}})$ có phương trình là",
+   "explanation": "Theo định nghĩa về phương trình tiếp tuyến của đồ thị hàm số.",
+   "options": [
+    "$y-{{y}_{0}}=f'({{x}_{0}})(x-{{x}_{0}})$",
+    "$y-{{y}_{0}}=f({{x}_{0}})(x-{{x}_{0}})$",
+    "$y-{{y}_{0}}=f'({{y}_{0}})(x-{{x}_{0}})$",
+    "$y-{{y}_{0}}=f({{y}_{0}})(x-{{x}_{0}})$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Hệ số góc $k$ của tiếp tuyến của đồ thị hàm số $y={{x}^{2}}+x-2$ tại điểm $M\\left( 1;0 \\right)$ là",
+   "explanation": "Ta có: $f'(x)=2x+1\\Rightarrow k=f'(1)=3.$",
+   "options": [
+    "$k=-1.$",
+    "$k=1.$",
+    "$k=2.$",
+    "$k=3.$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tiếp tuyến của đồ thị hàm số $y={{x}^{3}}$ tại điểm $M(1;1)$ có phương trình là",
+   "explanation": "Ta có: $f'(x)=3{{x}^{2}}\\Rightarrow k=f'(1)=3.$\nTiếp tuyến của đồ thị hàm số $y={{x}^{3}}$ tại điểm $M(1;1)$: $y=3(x-1)+1$\n$=3x-2$.",
+   "options": [
+    "$y=3x-2.$",
+    "$y=3x-1.$",
+    "$y=3x-4.$",
+    "$y=3x-3.$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\sin x$. Tính $\\underset{h\\to 0}{\\mathop{\\lim }}\\,\\frac{f\\left( x+h \\right)-f\\left( x \\right)}{h}$",
+   "explanation": "Ta có: $\\underset{h\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sin \\left( x+h \\right)-\\sin x}{h}=\\underset{h\\to 0}{\\mathop{\\lim }}\\,\\frac{2\\cos \\left( x+\\frac{h}{2} \\right)\\sin \\frac{h}{2}}{h}=\\underset{h\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sin \\frac{h}{2}}{\\frac{h}{2}}\\cos \\left( x+\\frac{h}{2} \\right)=1.\\cos x=\\cos x$\nVì:$\\underset{h\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sin \\frac{h}{2}}{\\frac{h}{2}}=1$.",
+   "options": [
+    "$\\cos \\frac{x}{2}$",
+    "$2\\sin \\frac{x}{2}$",
+    "$\\cos x$",
+    "$-\\cos x$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tiếp tuyến của đồ thị hàm số $y={{x}^{3}}+2$ tại điểm ${{x}_{0}}=1$ có hệ số góc là",
+   "explanation": "Ta có $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{f(x)-f(1)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+2-3}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-1}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{(x-1)({{x}^{2}}+x+1)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,({{x}^{2}}+x+1)=3$\nVậy hệ số góc cần tìm là ${{f}^{'}}({{x}_{0}})={{f}^{'}}(1)=3$",
+   "options": [
+    "3",
+    "10",
+    "2",
+    "-5"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tìm hệ số góc của tiếp tuyến của đồ thị hàm số $y=\\frac{1}{x+1}$ tại điểm có hoành độ ${{x}_{_{0}}}=-2$.",
+   "explanation": "Tập xác định: $D=R\\backslash \\{-1\\}$\nĐặt $f(x)=\\frac{1}{x+1}$ suy ra ${f}'(x)=\\frac{-1}{{{(x+1)}^{2}}}$ ${f}'(-2)=\\frac{-1}{{{(-1+1)}^{2}}}=-1$.\nVậy hệ số góc của tiếp tuyến của đồ thị hàm số $y=\\frac{1}{x+1}$ là $-1$.",
+   "options": [
+    "$-1$",
+    "0",
+    "1",
+    "2"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một vật di chuyển theo phương thẳng đứng lên trên từ độ cao $20m$ so với mặt đất với vận tốc ban đầu là $15m/s$. Độ cao $s$ của nó tính bằng mét sau $t$ giây kể từ khi bắt đầu chuyển động$t=0$ được cho bởi công thức $s=20+15t-5{{t}^{2}}$. Tìm vận tốc của vật khi nó chạm đất.",
+   "explanation": "Vận tốc của vật tại thời điểm $t$ là $v\\left( t \\right)={s}'\\left( t \\right)=15-10t$\nKhi vật chạm đất thì $s=0\\Rightarrow 20+15t-5{{t}^{2}}=0\\Rightarrow \\left[ \\begin{matrix} t=-1 \\\\ t=4 \\\\ \\end{matrix} \\right.$\nVật sau khi chuyển động sẽ chạm đất khi $t=4$\nVậy vận tốc của vật khi nó chạm đất là $v\\left( 4 \\right)={s}'\\left( 4 \\right)=15-10.4=-25{m}/{s}\\;$\nVậy tốc độ khi vật chạm đất là $-25{m}/{s}\\;$.",
+   "options": [
+    "$5m/s$",
+    "$15m/s$",
+    "$25m/s$",
+    "$-25m/s$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong một trò chơi điện tử, máy bay xuất hiện ở góc trái màn hình rồi bay sang phải theo quỹ đạo $\\left( C \\right)$ là đồ thị của hàm số $y=-1-\\frac{1}{x},\\left( x>0 \\right)$. Biết rằng tên lửa được bắn ra từ máy bay tại một điểm thuộc $\\left( C \\right)$ sẽ bay theo phương tiếp tuyến của $\\left( C \\right)$ tại điểm đó. Tìm hoành độ ${{x}_{0}}$ thuộc $\\left( C \\right)$ sao cho tên lửa bắn ra từ đó sẽ bắn trúng mục tiêu ở trên màn hình có tọa độ $\\left( 4,0 \\right)$.\n[[IMG:image20.png]]",
+   "explanation": "Với ${{x}_{0}}>0$ tùy ý, ta có\n$f'\\left( {{x}_{0}} \\right)=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( {{x}_{0}} \\right)}{x-{{x}_{0}}}=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{-1-\\frac{1}{x}-\\left( -1-\\frac{1}{{{x}_{0}}} \\right)}{x-{{x}_{0}}}=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{x-{{x}_{0}}}{x.{{x}_{0}}\\left( x-{{x}_{0}} \\right)}=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{1}{x.{{x}_{0}}}=\\frac{1}{x_{0}^{2}}$.\nVậy phương trình tiếp tuyến tại điểm ${{x}_{0}}$ là $y=f'\\left( {{x}_{0}} \\right)\\left( x-{{x}_{0}} \\right)+{{y}_{0}}=\\frac{1}{x_{0}^{2}}\\left( x-{{x}_{0}} \\right)-1-\\frac{1}{{{x}_{0}}}$.\nVì tiếp tuyến đi qua điểm $\\left( 4,0 \\right)$ nên $\\frac{1}{x_{0}^{2}}\\left( 4-{{x}_{0}} \\right)-1-\\frac{1}{{{x}_{0}}}=0\\Leftrightarrow \\left[ \\begin{aligned} & {{x}_{0}}=-1+\\sqrt{5} \\\\ & {{x}_{0}}=-1-\\sqrt{5} \\\\ \\end{aligned} \\right.$.\nĐối chiếu với điều kiện ${{x}_{0}}>0$, khi đó ta được ${{x}_{0}}=-1+\\sqrt{5}$.",
+   "options": [
+    "${{x}_{0}}=-1+\\sqrt{5}$",
+    "${{x}_{0}}=-1+\\sqrt{3}$",
+    "${{x}_{0}}=2$",
+    "${{x}_{0}}=-1+\\sqrt{2}$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{f}^{\\prime }}\\left( 0 \\right)=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{f(x)-f(0)}{x-0}$",
+    "b": "${{f}^{'}}\\left( 0 \\right)=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{4}{x+1}$",
+    "c": "Phương trình ${{3}^{x}}=3$ có nghiệm bằng $x=a-2$",
+    "d": "${{\\log }_{a}}9=3$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Dùng định nghĩa để tính đạo hàm của hàm số ${f(x)=\\frac{x-2}{x+1}}$ tại điểm ${x_0=0}$ ta được ${{f}^{\\prime }}(0)=a$. Khi đó:",
+   "explanation": "Ta có:\n${\\begin{aligned} f^{\\prime}(0) & =\\lim _{x \\rightarrow 0} \\frac{f(x)-f(0)}{x-0}=\\lim _{x \\rightarrow 0} \\frac{\\frac{x-2}{x+1}-(-2)}{x} \\\\ & =\\lim _{x \\rightarrow 0} \\frac{3 x}{x(x+1)}=\\lim _{x \\rightarrow 0} \\frac{3}{x+1}=3 .\\end{aligned}}$\nVậy ${f^{\\prime}(0)=3}$.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hệ số góc của tiếp tuyến của ${(C)}$ tại điểm ${M}$ bằng ${f^{\\prime}(3)=\\frac{2}{(1-3)^2}=\\frac{1}{2}}$",
+    "b": "Phương trình tiếp tuyến của ${(C)}$ tại ${M}$ song song với đường thẳng $y=-\\frac{1}{2}x-\\frac{5}{2}$",
+    "c": "Phương trình tiếp tuyến của ${(C)}$ tại ${M}$ vuông với đường thẳng $y=-2x-\\frac{5}{2}$",
+    "d": "Phương trình tiếp tuyến của ${(C)}$ tại ${M}$ đi qua điểm $A\\left( 0;-\\frac{5}{2} \\right)$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=\\frac{2}{1-x}}$ có đồ thị ${(C)}$ và điểm ${M(3 ;-1) \\in(C)}$. Khi đó:",
+   "explanation": "Từ ví dụ 4, ta có: ${f^{\\prime}(x)=\\left(\\frac{2}{1-x}\\right)^{\\prime}=\\frac{2}{(1-x)^2}}$ nên tiếp tuyến của ${(C)}$ tại ${M}$ có hệ số góc là: ${f^{\\prime}(3)=\\frac{2}{(1-3)^2}=\\frac{1}{2}}$.\nPhương trình tiếp tuyến của ${(C)}$ tại ${M}$ là: ${y-(-1)=\\frac{1}{2}(x-3) \\Leftrightarrow y=\\frac{1}{2} x-\\frac{5}{2}}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Có hai phương trình tiếp tuyến thỏa mãn.",
+    "b": "Hệ số góc của tiếp tuyến bằng $-2$",
+    "c": "Phương trình tiếp tuyến đi qua điểm $A\\left( 1;5 \\right)$",
+    "d": "Phương trình tiếp tuyến đi qua điểm $B\\left( 1;-7 \\right)$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Viết được phương trình tiếp tuyến của đồ thị hàm số ${y=\\frac{x+9}{x+1}}$ biết tiếp tuyến vuông góc với đường thẳng ${d: x-2 y+2=0}$. Khi đó:",
+   "explanation": "Đường thẳng ${d: x-2 y+2=0 \\Rightarrow y=\\frac{1}{2} x+1}$ nên đường thẳng ${d}$ có hệ số góc là ${k_d=\\frac{1}{2}}$.\nTiếp tuyến cần tìm có hệ số góc ${k}$ vuông góc với đường thẳng ${d}$\n${\\Rightarrow k \\cdot k_d=-1 \\Rightarrow k=-\\frac{1}{k_d}=-2 \\text {. } }$\nHoành độ tiếp điểm là nghiệm của phương trình ${y^{\\prime}=k \\Rightarrow \\frac{-8}{(x+1)^2}=-2 \\Rightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-3\\end{array}\\right.}$.\nVới ${x=1}$, phương trình tiếp tuyến là ${y=-2 x+7}$.\nVới ${x=-3}$, phương trình tiếp tuyến là ${y=-2 x-9}$.\nVậy có hai phương trình tiếp tuyến thỏa mãn là ${d_1: y=-2 x+7 ; y=-2 x-9}$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${f}'\\left( 1 \\right)=1$.",
+    "b": "Hàm số có đạo hàm tại ${{x}_{0}}=1$.",
+    "c": "Hàm số liên tục tại ${{x}_{0}}=1$.",
+    "d": "${f}'(x)=\\left\\{ \\begin{aligned} & 2x\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,\\,x\\ge 1 \\\\ & 2\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,\\,x<1 \\\\ \\end{aligned} \\right.$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=f(x)=\\left\\{ \\begin{aligned} & {{x}^{2}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,x\\ge 1 \\\\ & 2x-1\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,\\,x<1 \\\\ \\end{aligned} \\right.$. Khi đó :",
+   "explanation": "Ta có: $f(1)=1$\n$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,{{x}^{2}}=1$ và $\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,(2x-1)=1$.\nVậy hàm số liên tục tại ${{x}_{0}}=1$. C đúng.\nTa có: $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{f(x)-f(1)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-1}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left( x+1 \\right)=2$\n$\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{f(x)-f(1)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{(2x-1)-1}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{2\\left( x-1 \\right)}{x-1}=2$\nVậy hàm số có đạo hàm tại ${{x}_{0}}=1$ và $\\Rightarrow {y}'=-2\\sin 2x\\Rightarrow {y}''=-4\\cos 2x\\Rightarrow {y}''\\left( 0 \\right)=-4$\nVậy a sai.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${y=f(x)=-2 x^3+x}$ có đồ thị ${(C)}$.\nViết phương trình tiếp tuyến của đồ thị ${(C)}$ tại điểm ${M(-2 ; 14)}$.",
+   "explanation": "Ta có: ${f^{\\prime}(x)=\\left(-2 x^3+x\\right)^{\\prime}=-6 x^2+1}$ nên hệ số góc của tiếp tuyến của ${(C)}$ tại điểm ${M(-2 ; 14)}$ là: ${f^{\\prime}(-2)=-6 \\cdot(-2)^2+1=-23}$.\nPhương trình tiếp tuyến của ${(C)}$ tại điểm ${M}$ là:\n${y-14=-23(x+2) \\Leftrightarrow y=-23 x-32 \\text {. } }$",
+   "short_value": null,
+   "short_correct": "y=-23x-32",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính đạo hàm của hàm số ${f(x)=\\sqrt{x^2+1}}$ tại ${x_0=-1}$.",
+   "explanation": "${f^{\\prime}(1)=\\lim _{x \\rightarrow 1} \\frac{f(x)-f(1)}{x-1}=\\lim _{x \\rightarrow 1} \\frac{\\sqrt{x^2+1}-\\sqrt{2}}{x-1}=\\lim _{x \\rightarrow 1} \\frac{x^2-1}{\\left(\\sqrt{x^2+1}+\\sqrt{2}\\right)(x-1)}=\\lim _{x \\rightarrow 1} \\frac{x+1}{\\left(\\sqrt{x^2+1}+\\sqrt{2}\\right)}=\\frac{1}{\\sqrt{2}} }$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=\\left\\{\\begin{array}{ll}2 x+1 & \\text { khi } x \\leq 1 \\\\ x^2+b x+1 & \\text { khi } x>1\\end{array}\\right.}$.\nTìm ${b}$ để hàm số này có đạo hàm tại ${x=1}$.",
+   "explanation": "Ta có: ${f(1)=3 ; \\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1^{-}}(2 x+1)=3 ; \\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{+}}\\left(x^2+b x+1\\right)=b+2}$.\nHàm số ${f(x)}$ có đạo hàm tại ${x=1}$ thì ${f(x)}$ liên tục tại ${x=1}$\n${\\Rightarrow \\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{-}} f(x)=f(1) \\Rightarrow b+2=3 \\Rightarrow b=1 \\text {. } }$Với ${b=1}$, thì ${f^{\\prime}\\left(1^{+}\\right)=f^{\\prime}\\left(1^{-}\\right)=3}$.\nVậy ${b=1}$ thì hàm số đã cho có đạo hàm tại ${x=1}$.",
+   "short_value": null,
+   "short_correct": "1",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một người gửi tiết kiệm khoản tiền 100 triệu đồng vào một ngân hàng với lãi suất ${7 \\% /}$ năm. Tính tổng số tiền vốn và lãi (làm tròn đến hàng phần nghìn) mà người đó nhận được sau 1 năm, nếu tiền lãi được tính theo thể thức:\nLãi kép với kì hạn 6 tháng;",
+   "explanation": "Số tiền vốn và lãi người đó nhận được sau một năm theo thể thức lãi kép với kì hạn 6 tháng là:\n$T=A\\cdot {{\\left( 1+\\frac{r}{2} \\right)}^{2}}=100{{(1+3,5\\%)}^{2}}=107,123$ (triệu đồng)",
+   "short_value": 107.123,
+   "short_correct": "107,123",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một vật được phóng theo phương thẳng đứng lên trên từ mặt đất, biết độ cao ${h}$ của nó (tính bằng mét) sau ${t}$ giây được cho bởi phương trình ${h(t)=24,5 t-4,9 t^2}$. Tìm vận tốc của vật khi nó chạm đất.",
+   "explanation": "Khi vật chạm đất thì ${h=0 \\Leftrightarrow 24,5 t-4,9 t^2=0 \\Rightarrow t=5}$.\nTa có: ${v(t)=h^{\\prime}(t)=24,5-9,8 t}$ nên tốc độ của vật tại thời điểm nó chạm đất ${t=5}$ là ${v(5)=\\left|h^{\\prime}(5)\\right|=|24,5-9,8.5|=24,5({~m} / {s})}$",
+   "short_value": null,
+   "short_correct": "24,5",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Ông Năm gửi tiết kiệm 200 triệu đồng với lãi suất ${9,1 \\% /}$ năm. Tính tổng số tiền vốn và lãi mà ông Năm nhận được sau một năm nếu tiền lãi được tính theo thể thức lãi kép với kì hạn 3 tháng (làm tròn đến chũ số thập phân thứ nhất).",
+   "explanation": "Ta có: ${A=200 ; r=14 \\%}$ và ${n=\\frac{12}{3}=4}$.\nVậy tổng số tiền vốn và lãi mà ông Năm nhận được sau một năm nếu tiền lãi được tính theo thể thức lãi kép với kì hạn 3 tháng là ${T=A\\left(1+\\frac{r}{n}\\right)^n=200 \\cdot\\left(1+\\frac{9,1 \\%}{4}\\right)^4 \\approx 218,8}$ triệu đồng.",
+   "short_value": null,
+   "short_correct": "218,8",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C9.B1.D01",
+   "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,123 @@
+{
+ "by": "Gemini 1 (gemini-flash-latest)",
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: {{1}} = {{2}} = {{3}} ({{4}})"
+    ],
+    "hint": "Chỉ ra hai góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Mà hai góc này ở vị trí {{5}}"
+    ],
+    "hint": "Xác định vị trí hai góc"
+   },
+   {
+    "lines": [
+     "Vậy {{6}} // {{7}} (dấu hiệu nhận biết)"
+    ],
+    "hint": "Kết luận hai đường thẳng song song"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{A}_1",
+     "\\widehat{A}_{1}",
+     "A_1"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 14
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{B}_2",
+     "\\widehat{B}_{2}",
+     "B_2"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 14
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "130^\\circ",
+     "130^{\\circ}",
+     "130°"
+    ],
+    "keywords": [],
+    "placeholder": "số đo góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "both",
+    "answers": [
+     "giả thiết",
+     "gt"
+    ],
+    "keywords": [
+     "giả thiết",
+     "gt"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "so le trong"
+    ],
+    "keywords": [
+     "so le trong"
+    ],
+    "placeholder": "vị trí góc",
+    "maxLen": 16
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "y"
+    ],
+    "keywords": [],
+    "placeholder": "đường thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "\\widehat{A}_1",
+   "\\widehat{B}_2",
+   "130^\\circ",
+   "giả thiết",
+   "x",
+   "y",
+   "\\widehat{B}_1",
+   "\\widehat{A}_2",
+   "50^\\circ",
+   "đồng vị",
+   "trong cùng phía",
+   "z"
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "de1.P2.C2": {
+  "tf_ans": {
+   "a": false,
+   "b": true,
+   "c": false,
+   "d": false
+  },
+  "sua_boi": "claude",
+  "ly_do": "Đáp án Đúng/Sai Claude đọc từ lời giải"
+ },
+ "de1.P3.C4": {
+  "short_correct": "0,29",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Điền đáp án rút từ kết luận của lời giải"
+ },
+ "de1.P3.C2": {
+  "short_correct": "0,33",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Đề đã yêu cầu làm tròn nhưng đáp án thừa chữ số thập phân → làm tròn đúng yêu cầu: 0,33"
+ },
+ "de1.P3.C3": {
+  "short_correct": "0,24",
+  "sua_boi": "grokbot",
+  "xac_nhan": true,
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): P = (30/50)(20/49) = 12/49 ≈ 0,24. Lời giải tính sai 3/5·20/49 = 12/29 (≈0,41); đúng là 12/49."
+ },
+ "de1.P3.C5": {
+  "question": "Lớp 12A có 30 học sinh, trong đó có 17 bạn nữ còn lại là nam. Có 3 bạn tên Minh, trong đó có 1 bạn nữ và 2 bạn nam. Thầy giáo gọi ngẫu nhiên 1 bạn lên bảng. Xác suất để bạn được gọi tên Minh, nhưng với điều kiện bạn đó là nam bằng $\\frac{a}{b}$ (với $\\frac{a}{b}$ là phân số tối giản). Tính giá trị biểu thức $T=a+b$.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "15",
+  "sua_boi": "grokbot",
+  "xac_nhan": true,
+  "ly_do": "P(Minh|nam)=2/13 ⇒ T=a+b=15 (đáp án cũ 0,2 là giá trị xác suất)"
+ },
+ "de2.P3.C1": {
+  "question": "Cho hai biến cố $A,\\,B$ có $P\\left( B \\right)=0,6;\\,\\,P\\left( A\\cap B \\right)=0,2$. Tính xác suất $P\\left( A\\left| B \\right. \\right)$.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "0,3",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Đáp án thập phân 0,333333 mà đề chưa nói làm tròn → thêm yêu cầu «Làm tròn kết quả đến chữ số thập phân thứ nhất», đáp án 0,3"
+ },
+ "de2.P3.C5": {
+  "question": "Có 40 phiếu thi Toán 12, mỗi phiếu chỉ có một câu hỏi, trong đó có 13 câu hỏi lý thuyết (gồm 5 câu hỏi khó và 8 câu hỏi dễ) và 27 câu hỏi bài tập (gồm 12 câu hỏi khó và 15 câu hỏi dễ). Lấy ngẫu nhiên ra một phiếu. Tìm xác suất rút được câu hỏi lý thuyết khó.\nLàm tròn kết quả đến chữ số thập phân thứ hai.",
+  "short_correct": "0,29",
+  "sua_boi": "thay",
+  "xac_nhan": true,
+  "ly_do": "Thầy sửa trực tiếp đề/đáp án trên trang soát làm tròn"
+ },
+ "de2.P3.C6": {
+  "question": "Một bình đựng 50 viên bi kích thước, chất liệu như nhau, trong đó có 30 viên bi xanh và 20 viên bi trắng. Lấy ngẫu nhiên ra một viên bi, rồi lại lấy ngẫu nhiên ra một viên bi nữa. Tính xác suất để lấy được một viên bi xanh ở lần thứ nhất và một viên bi trắng ở lần thứ hai.\nLàm tròn kết quả đến chữ số thập phân thứ hai.",
+  "short_correct": "0,24",
+  "sua_boi": "grokbot",
+  "xac_nhan": true,
+  "ly_do": "Giải lại độc lập: đáp án đúng là 0,24 (đáp án cũ 0,41 sai)"
+ },
+ "de1.P3.C1": {
+  "explanation": "Đáp số: 13.\n$P\\left( \\overline{A}|B \\right)=\\frac{a}{b}\\Leftrightarrow 1-P\\left( A|B \\right)=\\frac{a}{b}\\Leftrightarrow 1-\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{a}{b}\\Leftrightarrow 1-\\frac{0,2}{0,6}=\\frac{a}{b}\\Leftrightarrow \\frac{a}{b}=\\frac{2}{3}$\nVậy $M=13$.",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de2.P2.C2": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": false,
+   "d": false
+  },
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án ý b: đúng một con ra 3 chấm có 10 kết quả, P(B)=10/36 nên Sai; Sửa đáp án ý d: P(Ā|B)=4/10 ≠ 4/11 nên Sai"
+ },
+ "de2.P2.C4": {
+  "tf_ans": {
+   "a": true,
+   "b": true,
+   "c": false,
+   "d": false
+  },
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): P(A)P(B) = 0,5·0,6 = 0,3 = P(AB) nên A, B độc lập ⇒ ý a Đúng. b, c, d khớp."
+ }
+}

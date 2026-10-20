@@ -1,0 +1,647 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "6",
+  "lesson": "4",
+  "title": "Bài 4. Phương trình – bất phương trình mũ và lôgarit"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Giải bất phương trình: ${{\\left( \\frac{3}{4} \\right)}^{2x-1}}\\le {{\\left( \\frac{4}{3} \\right)}^{-2+x}}$ ta được nghiệm là",
+   "explanation": "Bất phương trình tương đương ${{\\left( \\frac{3}{4} \\right)}^{2x-1}}\\le {{\\left( \\frac{4}{3} \\right)}^{-2+x}}\\Leftrightarrow {{\\left( \\frac{3}{4} \\right)}^{2x-1}}\\le {{\\left( \\frac{3}{4} \\right)}^{2-x}}\\Leftrightarrow 2x-1\\ge 2-x\\Leftrightarrow x\\ge 1.$",
+   "options": [
+    "$x\\ge 1.$",
+    "$x<1.$",
+    "$x\\le 1.$",
+    "$x>1.$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D03",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tập nghiệm $S$ của bất phương trình ${{4}^{x}}<{{2}^{x+1}}$ là",
+   "explanation": "Ta có ${{4}^{x}}<{{2}^{x+1}}$ $\\Leftrightarrow {{2}^{2x}}<{{2}^{x+1}}\\Leftrightarrow 2x<x+1$ $\\Leftrightarrow x<1$.",
+   "options": [
+    "$S=\\left( 1;+\\infty \\right)$",
+    "$S=\\left( -\\infty ;1 \\right)$",
+    "$S=\\left( 0;1 \\right)$",
+    "$S=\\left( -\\infty ;+\\infty \\right)$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D03",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tập nghiệm của phương trình ${{9}^{x+1}}={{27}^{2x+1}}$ là",
+   "explanation": "Ta có: ${{9}^{x+1}}={{27}^{2x+1}}$ $\\Leftrightarrow {{3}^{2x+2}}={{3}^{6x+3}}$ $\\Leftrightarrow 2x+2=6x+3$ $\\Leftrightarrow x=-\\frac{1}{4}$.\nVậy tập nghiệm của phương trình là: $\\left\\{ -\\frac{1}{4} \\right\\}$.",
+   "options": [
+    "$\\left\\{ 0 \\right\\}$",
+    "$\\left\\{ -\\frac{1}{4} \\right\\}$",
+    "$\\varnothing $",
+    "$\\left\\{ -\\frac{1}{4};0 \\right\\}$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tập nghiệm $S$ của bất phương trình ${{\\log }_{2}}\\left( x-1 \\right)<3$ là",
+   "explanation": "${{\\log }_{2}}\\left( x-1 \\right)<3$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x-1>0 \\\\ & x-1<{{2}^{3}} \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x>1 \\\\ & x<9 \\\\ \\end{aligned} \\right.\\Leftrightarrow 1<x<9$.\nVậy tập nghiệm là $S=\\left( 1\\,;\\,9 \\right)$.",
+   "options": [
+    "$S=\\left( 1\\,;\\,9 \\right)$",
+    "$S=\\left( 1\\,;\\,10 \\right)$",
+    "$S=\\left( -\\infty \\,;\\,10 \\right)$",
+    "$S=\\left( -\\infty \\,;\\,9 \\right)$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Nghiệm của bất phương trình ${{\\log }_{\\frac{1}{2}}}\\left( x-3 \\right)\\ge 2$ là",
+   "explanation": "Điều kiện $x-3>0\\Leftrightarrow x>3$.\n${{\\log }_{\\frac{1}{2}}}\\left( x-3 \\right)\\ge 2$ $\\Leftrightarrow x-3\\le {{\\left( \\frac{1}{2} \\right)}^{2}}$ $\\Leftrightarrow x\\le \\frac{13}{4}$.\nKết hợp với điều kiện $x>3$ ta có tập nghiệm của bất phương trình là $3<x\\le \\frac{13}{4}$.",
+   "options": [
+    "$x\\le \\frac{13}{4}$",
+    "$x\\ge \\frac{13}{4}$",
+    "$3<x\\le \\frac{13}{4}$",
+    "$3\\le x\\le \\frac{13}{4}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D04",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Số nghiệm của phương trình ${{\\log }_{3}}\\left( {{x}^{2}}+4x \\right)+{{\\log }_{\\frac{1}{3}}}\\left( 2x+3 \\right)=0$ là",
+   "explanation": "Điều kiện $\\left\\{ \\begin{aligned} & {{x}^{2}}+4x>0 \\\\ & 2x+3>0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left[ \\begin{aligned} & x>0 \\\\ & x<-4 \\\\ \\end{aligned} \\right. \\\\ & x>-\\frac{3}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow x>0$.\nPhương trình $\\Leftrightarrow {{\\log }_{3}}\\left( {{x}^{2}}+4x \\right)={{\\log }_{3}}\\left( 2x+3 \\right)$ $\\Leftrightarrow {{x}^{2}}+4x=2x+3$ $\\Leftrightarrow {{x}^{2}}+2\\text{x}-3=0$\n$\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-3 \\\\ \\end{aligned} \\right.$.\nKết hợp điều kiện ta được $x=1$.",
+   "options": [
+    "$3$",
+    "$2$",
+    "$1$",
+    "$0$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tìm tập nghiệm của bất phương trình ${{\\log }_{\\frac{2}{5}}}\\left( x-4 \\right)+1>0$.",
+   "explanation": "${{\\log }_{\\frac{2}{5}}}\\left( x-4 \\right)+1>0$ $\\Leftrightarrow $ ${{\\log }_{\\frac{2}{5}}}\\left( x-4 \\right)>-1$ $\\Leftrightarrow $ $0<x-4<\\frac{5}{2}$ $\\Leftrightarrow $ $4<x<\\frac{13}{2}$.\nVậy tập nghiệm của bất phương trình là $S=\\left( 4;\\,\\frac{13}{2} \\right)$.",
+   "options": [
+    "$\\left( -\\infty ;\\,\\frac{13}{2} \\right)$",
+    "$\\left[ \\frac{13}{2};\\,+\\infty \\right)$",
+    "$\\left( 4;\\,+\\infty \\right)$",
+    "$\\left( 4;\\,\\frac{13}{2} \\right)$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D04",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tích các nghiệm của phương trình ${{\\log }_{\\frac{1}{\\sqrt{5}}}}\\left( {{6}^{x+1}}-{{36}^{x}} \\right)=-2$ bằng",
+   "explanation": "Ta có: ${{\\log }_{\\frac{1}{\\sqrt{5}}}}\\left( {{6}^{x+1}}-{{36}^{x}} \\right)=-2\\Leftrightarrow {{6}^{x+1}}-{{36}^{x}}=5\\Leftrightarrow \\left[ \\begin{aligned} & {{6}^{x}}=1 \\\\ & {{6}^{x}}=5 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x={{\\log }_{6}}5 \\\\ \\end{aligned} \\right.$.\nVậy tích các nghiệm của phương trình là $0$.",
+   "options": [
+    "$5$",
+    "$0$",
+    "$1$",
+    "${{\\log }_{6}}5$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Bất phương trình ${{2}^{{{x}^{2}}-3x+4}}\\le {{\\left( \\frac{1}{2} \\right)}^{2x-10}}$ có bao nhiêu nghiệm nguyên dương?",
+   "explanation": "Bất phương trình tương đương với ${{2}^{{{x}^{2}}-3x+4}}\\le {{2}^{10-2x}}$ $\\Leftrightarrow {{x}^{2}}-3x+4\\le 10-2x$ $\\Leftrightarrow {{x}^{2}}-x-6\\le 0$\n$\\Leftrightarrow -2\\le x\\le 3$.\nMà $x\\in {{\\mathbb{Z}}^{+}}$ nên $x\\in \\left\\{ 1;2;3 \\right\\}$.Vậy bất phương trình có có $3$ nghiệm nguyên dương.",
+   "options": [
+    "$2$",
+    "$4$",
+    "$6$",
+    "$3$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Phương trình ${{\\log }_{3}}\\left( {{2}^{x}}-1 \\right)=4$ có nghiệm là",
+   "explanation": "Ta có ${{\\log }_{3}}\\left( {{2}^{x}}-1 \\right)=4$ $\\Leftrightarrow {{2}^{x}}-1=81$ $\\Leftrightarrow x={{\\log }_{2}}82$.",
+   "options": [
+    "$x={{\\log }_{2}}82$",
+    "$x={{\\log }_{2}}65$",
+    "$x={{\\log }_{2}}81$",
+    "$x={{\\log }_{2}}66$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "E. coli là vi khuẩn đường ruột gây tiêu chảy, đau bụng dữ dội. Cứ sau $20$ phút thì số lượng vi khuẩn E. coli tăng gấp đôi. Ban đầu, chỉ có $40$ vi khuẩn E. coli trong đường ruột. Hỏi sau bao lâu, số lượng vi khuẩn E. coli là $671088640$ con?",
+   "explanation": "Gọi ${{N}_{0}}$ là số vi khuẩn ban đầu, ${{N}_{n}}=671088640$.\nVì cứ sau 20 phút (bằng $\\frac{1}{3}$ giờ) số lượng vi khuẩn tăng gấp đôi nên số lượng vi khuẩn tăng theo quy luật ${{N}_{n}}={{N}_{0}}{{.2}^{n}}\\Leftrightarrow 671088640={{40.2}^{n}}\\Rightarrow n=24$. Vậy sau $24.\\frac{1}{3}=8$ giờ thì số vi khuẩn đạt mức $671088640$ con.",
+   "options": [
+    "$48$ giờ",
+    "$24$ giờ",
+    "$12$ giờ",
+    "$8$ giờ"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một người gửi tiết kiệm vào ngân hàng với lãi suất $8,4\\%$/năm và tiền lãi hàng năm được nhập vào tiền vốn. Tính số năm tối thiểu người đó cần gửi để số tiền thu được nhiều hơn $2$ lần số tiền gửi ban đầu.",
+   "explanation": "Gọi số tiền gửi ban đầu là $A$ và số năm thỏa yêu cầu bài toán là $n$.\nTa có $A{{\\left( 1+8,4\\% \\right)}^{n}}>2A\\Leftrightarrow 1,{{084}^{n}}>2\\Leftrightarrow n>{{\\log }_{1,084}}2\\approx 8,59$.\nVậy số năm tối thiểu là $9$ năm.",
+   "options": [
+    "$10$ năm",
+    "$9$ năm",
+    "$8$ năm",
+    "$11$ năm"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình ${\\log _3 x=4}$ có một nghiệm duy nhất",
+    "b": "Phương trình ${\\log _2(2 x-2)=3}$ có điều kiện nghiệm là: $x>1$",
+    "c": "Phương trình ${\\log _4\\left(x^2+5 x+10\\right)=2}$ tổng các nghiệm của phương trình bằng $-5$",
+    "d": "Phương trình ${3 \\cdot e^{2 x+4}=4}$ có hai nghiệm phân biệt"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Giải được các phương trình sau. Khi đó:",
+   "explanation": "a) Điều kiện: ${x>0}$.\n${\\log _3 x=4 \\Rightarrow x=3^4=81}$ (thoả mãn điều kiện).\nVậy phương trình có nghiệm là ${x=81}$.\nb) Điều kiện: ${2 x-2>0 \\Leftrightarrow x>1}$.\n${\\log _2(2 x-2)=3 \\Rightarrow 2 x-2=2^3 \\Leftrightarrow x=5}$ (thoả mãn điều kiện).\nVậy phương trình có nghiệm là ${x=5}$.\nc) Điều kiện: ${{x}^{2}}+5x+10>0.\\text{(}*\\text{)}$\n${\\log _4\\left(x^2+5 x+10\\right)=2 \\Rightarrow x^2+5 x+10=4^2 \\Leftrightarrow\\left[\\begin{array}{l}x=1 \\\\ x=-6\\end{array}\\right.}$.\nThay lần lượt hai giá trị này vào ${(*)}$, ta thấy cả hai giá trị đều thoả mãn.\nVậy phương trình có tập nghiệm là ${S=\\{-6 ; 1\\}}$.\nd) ${3 \\cdot e^{2 x+4}=4 \\Leftrightarrow e^{2 x+4}=\\frac{4}{3} \\Leftrightarrow 2 x+4=\\ln \\left(\\frac{4}{3}\\right) \\Leftrightarrow x=\\frac{1}{2} \\ln \\left(\\frac{4}{3}\\right)-2}$.\nVậy phương trình có nghiệm là ${x=\\frac{1}{2} \\ln \\left(\\frac{4}{3}\\right)-2}$.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 27,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${16^x<\\frac{1}{4}}$ có tập nghiệm là $\\left( -\\infty ;-\\frac{1}{2} \\right)$",
+    "b": "${5^{x-1} \\geq\\left(\\frac{1}{25}\\right)^x}$ có nghiệm lớn nhất là $x=\\frac{1}{3}$",
+    "c": "${(0,3)^{x-2} \\leq 3}$ có nghiệm lớn nhất là $x=2+{{\\log }_{6}}3$",
+    "d": "${2.7^{x+2}>9}$ có tập nghiệm là $\\left( -2+{{\\log }_{7}}\\left( \\frac{9}{2} \\right);+\\infty \\right)$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Giải được các bất phương trình sau. Khi đó:",
+   "explanation": "a) ${16^x<\\frac{1}{4} \\Leftrightarrow 2^{4 x}<2^{-2} \\Leftrightarrow 4 x<-2 \\Leftrightarrow x<-\\frac{1}{2}}$ (do ${2>1}$).\nVậy nghiệm của bất phương trình là ${x<-\\frac{1}{2}}$.\nb) ${5^{x-1} \\geq\\left(\\frac{1}{25}\\right)^x \\Leftrightarrow 5^{x-1} \\geq 5^{-2 x} \\Leftrightarrow x-1 \\geq-2 x \\Leftrightarrow x \\geq \\frac{1}{3}(}$do ${5<1)}$.\nVậy nghiệm của bất phương trình là ${x \\geq \\frac{1}{3}}$.\nc) ${(0,3)^{x-2} \\leq 3 \\Leftrightarrow x-2 \\geq \\log _{0,3} 3 \\Leftrightarrow x \\geq 2+\\log _{0,3} 3}$ (do ${0<0,3<1}$).\nVậy nghiệm của bất phương trình là ${x \\geq 2+\\log _{0,3} 3}$.\nd) ${2.7^{x+2}>9 \\Leftrightarrow 7^{x+2}>\\frac{9}{2} \\Leftrightarrow x+2>\\log _7\\left(\\frac{9}{2}\\right) \\Leftrightarrow x>-2+\\log _7\\left(\\frac{9}{2}\\right)(\\operatorname{do} 7>1)}$.\nVậy nghiệm của bất phương trình là ${x>-2+\\log _7\\left(\\frac{9}{2}\\right)}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Bất phương trình tương đương với ${{2}^{x}}<32$.",
+    "b": "Bất phương trình tương đương với ${{2}^{x+5}}<1$.",
+    "c": "Bất phương trình tương đương với ${{2}^{x}}>\\frac{1}{32}$.",
+    "d": "Bất phương trình tương đương với ${{\\log }_{\\frac{1}{2}}}{{\\left( \\frac{1}{2} \\right)}^{x}}>{{\\log }_{\\frac{1}{2}}}32$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho bất phương trình $\\left(\\frac{1}{2}\\right)^{x}>32$. Các mệnh đề sau đúng hay sai?",
+   "explanation": "${{\\left( \\frac{1}{2} \\right)}^{x}}>32\\Leftrightarrow {{2}^{-x}}>{{2}^{5}}\\Leftrightarrow {{2}^{x}}<{{2}^{-5}}\\Leftrightarrow {{2}^{x+5}}<{{2}^{-5}}{{.2}^{5}}\\Leftrightarrow {{2}^{x+5}}<1$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Nếu tỉ lệ lạm phát là ${7 \\%}$ một năm thì sức mua của 100 triệu đồng sau hai năm sẽ còn lại 86490000 đồng.",
+    "c": "Nếu sức mua của 100 triệu đồng sau ba năm chỉ còn lại 80 triệu đồng thì tỉ lệ lạm phát trung bình của ba năm đó là $9,17\\%$ (làm tròn kết quả đến hàng phần trăm)?",
+    "d": "Nếu tỉ lệ lạm phát trung bình là ${6 \\%}$ một năm thì sau 15 năm sức mua của số tiền ban đầu chỉ còn lại một nửa"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Lạm phát là sự tăng mức giá chung một cách liên tục của hàng hoá và dịch vụ theo thời gian, tức là sự mất giá trị của một loại tiền tệ nào đó. Chẳng hạn, nếu lạm phát là ${5 \\%}$ một năm thì sức mua của 1 triệu đồng sau một năm chỉ còn là 950 nghìn đồng (vì đã giảm mất ${5 \\%}$ của 1 triệu đồng, tức là 50000 đồng). Nói chung, nếu tỉ lệ lạm phát trung bình là ${r \\%}$ một năm thì tổng số tiền ${P}$ ban đầu, sau ${n}$ năm số tiền đó chỉ còn giá trị là: ${A=P\\left(1-\\frac{r}{100}\\right)^n }$\nB) Nếu tỉ lệ lạm phát là ${7 \\%}$ một năm thì sức mua của 100 triệu đồng sau hai năm sẽ còn lại 96490000 đồng.",
+   "explanation": "a) b) Giả thiết cho ${P=100}$ triệu đồng, ${r \\%=7 \\%, n=2}$ năm.\nTa có: ${A=100.10^6\\left(1-\\frac{7}{100}\\right)^2=86490000}$ đồng.\nVậy sau hai năm sức mua còn lại của 100000000 là 86490000 đồng.\nc) Giả thiết cho ${P=100}$ triệu đồng, ${A=80}$ triệu đồng, ${n=3}$ năm.\nTa có: ${80=100\\left(1-\\frac{r}{100}\\right)^3 \\Leftrightarrow 1-\\frac{r}{100}=\\sqrt[3]{\\frac{4}{5}} \\Leftrightarrow r \\approx 7,17}$.\nVậy tỉ lệ lạm phát trung bình của ba năm là ${r \\% \\approx 7,17 \\%}$.\nd) Giả thiết cho ${P=X}$ triệu đồng, ${A=\\frac{X}{2}}$ triệu đồng, ${r \\%=6 \\%}$.\nTa có: ${\\frac{X}{2}=X\\left(1-\\frac{6}{100}\\right)^n \\Leftrightarrow(0,94)^n=\\frac{1}{2} \\Leftrightarrow n \\approx 11,2}$ (năm).\nVậy sau khoảng 12 năm sức mua của số tiền còn lại là một nửa.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm nghiệm phương trình ${\\log _{\\frac{1}{4}}(-x+2)=-2}$",
+   "explanation": "Điều kiện: ${-x+2>0 \\Leftrightarrow x<2}$.\n${\\log _{\\frac{1}{4}}(-x+2)=-2 \\Leftrightarrow-x+2=\\left(\\frac{1}{4}\\right)^{-2} \\Leftrightarrow x=-14}$ (thoả mãn điều kiện).\nVậy phương trình có nghiệm là ${x=-14}$.",
+   "short_value": null,
+   "short_correct": "-14",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tìm nghiệm phương trình ${\\log _3(2 x-3)=\\log _3(x-2)+1}$;",
+   "explanation": "Điều kiện: $\\left\\{ \\begin{array}{llllll} 2x-3>0 \\\\ x-2>0 \\\\ \\end{array} \\right.\\Leftrightarrow x>2.\\text{(}*\\text{)}$\n${{\\log }_{3}}(2x-3)={{\\log }_{3}}(x-2)+1\\Leftrightarrow {{\\log }_{3}}(2x-3)={{\\log }_{3}}(x-2)+{{\\log }_{3}}3$\n$\\Leftrightarrow {{\\log }_{3}}(2x-3)={{\\log }_{3}}3(x-2)\\Rightarrow 2x-3=3x-6\\Leftrightarrow x=3$(thỏa mãn điều kiện)\nVậy phương trình có nghiệm là ${x=3}$.",
+   "short_value": 3,
+   "short_correct": "3",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm nghiệm bất phương trình ${\\frac{0,5}{2^{x-2}} \\geq 4^{\\frac{x}{2}}}$",
+   "explanation": "${\\frac{0,5}{2^{x-2}} \\geq 4^{\\frac{x}{2}} \\Leftrightarrow 0,5 \\geq 2^{x-2} \\cdot 2^x \\Leftrightarrow 2^{-1} \\geq 2^{2 x-2} \\Leftrightarrow-1 \\geq 2 x-2 \\Leftrightarrow x \\leq \\frac{1}{2}(}$do ${2>1)}$.\nVậy nghiệm của bất phương trình là ${x \\leq \\frac{1}{2}}$.",
+   "short_value": null,
+   "short_correct": "x\\le\\dfrac{1}{2}|x≤\\dfrac{1}{2}|x<=\\dfrac{1}{2}",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D03",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một người gửi tiết kiệm 10 tỉ đồng theo thể thức lãi kép kì hạn 12 tháng với lãi suất ${7 \\%}$ một năm và lãi hẳng năm được nhập vào vốn. Sau ít nhất bao nhiêu năm người đó nhận được số tiền nhiều hơn 12 tỉ đồng?",
+   "explanation": "Theo công thức lãi kép: ${T=A(1+r)^n}$, số tiền người đó nhận được sau ${n}$ năm là:\n$T={{10.10}^{9}}{{(1+7\\%)}^{n}}={{10}^{10}}\\cdot 1,{{07}^{n}}$(đồng)\nĐể nhận được số tiền nhiều hơn 12 tỉ đồng thì\n${T=10^{10} \\cdot 1,07^n>12 \\cdot 10^9 \\Leftrightarrow 1,07^n>\\frac{6}{5} \\Leftrightarrow n>\\log _{1,07}\\left(\\frac{6}{5}\\right) \\approx 2,695 . }$\nVậy sau ít nhất 3 năm người đó nhận được số tiền nhiều hơn 12 tỉ đồng.",
+   "short_value": null,
+   "short_correct": "3",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Mức cường độ âm ${L}$ (đơn vị: ${{dB}}$) được tính bởi công thức\n${L=10 \\log \\left(\\frac{I}{10^{-12}}\\right)}$, trong đó ${I}$ (đơn vị: ${{W} / {m}^2}$) là cường độ âm. Hãy tính mức cường độ âm mà tai người có thể nghe được, biết rằng tai người có thể nghe được âm với cường độ âm từ ${10^{-12} {~W} / {m}^2}$ đến ${10^1 {~W} / {m}^2}$.",
+   "explanation": "Ta có:\n${\\begin{aligned} & 10^{-12} \\leq I \\leq 10^1 \\Leftrightarrow \\frac{10^{-12}}{10^{-12}} \\leq \\frac{I}{10^{-12}} \\leq \\frac{10^1}{10^{-12}} \\\\ & \\Leftrightarrow 1 \\leq \\frac{I}{10^{-12}} \\leq 10^{13} \\Leftrightarrow \\log 1 \\leq \\log \\left(\\frac{I}{10^{-12}}\\right) \\leq \\log 10^{13} \\\\ & \\Leftrightarrow 0 \\leq 10 \\log \\left(\\frac{I}{10^{-12}}\\right) \\leq 130(\\text { do } 10>1) \\\\ & \\Leftrightarrow 0 \\leq L \\leq 130 . \\end{aligned} }$\nVậy mức cường độ âm mà tai người có thể nghe được là từ ${0 {~dB}}$ đến ${130 {~dB}}$.",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Công thức tính khối lượng còn lại của một chất phóng xạ từ khối lượng ban đầu ${M_0}$ là:\n${M(t)=M_0 \\cdot 2^{-\\frac{t}{T}}}$, trong đó ${t}$ là thời gian tính từ thời điểm ban đầu; ${T}$ là chu kỳ bán rã chất phóng xạ. Đồng vị phóng xạ của polonium-209 có chu kỳ bán rã là 103 ngày, biết khối lượng ban đầu ${M_0=300 {~g}}$.\nHỏi khối lượng polonium-209 còn lại sau 515 ngày.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Khối lượng polonium-209 còn lại sau 515 ngày là: ${M(515)=300.2^{-\\frac{515}{103}}=9,375 {~g}}$.",
+   "short_value": null,
+   "short_correct": "9,4",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  }
+ ],
+ "flags": []
+}

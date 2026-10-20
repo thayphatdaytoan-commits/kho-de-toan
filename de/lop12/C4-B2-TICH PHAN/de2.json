@@ -1,0 +1,629 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "4",
+  "lesson": "2",
+  "title": "Bài 2. Tích phân",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hai hàm số $f\\left( x \\right)$, $g\\left( x \\right)$ liên tục trên đoạn $\\left[ c\\,;\\,d \\right]$ và số thực $k$. Trong các khẳng định sau, khẳng định nào sai",
+   "explanation": "Theo lý thuyết tính chất của tích phân nên đáp án C là sai.",
+   "options": [
+    "$\\int\\limits_{c}^{d}{\\left[ f\\left( x \\right)+g\\left( x \\right) \\right]\\text{d}x}=\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}+\\int\\limits_{c}^{d}{g\\left( x \\right)\\text{d}x}$",
+    "$\\int\\limits_{c}^{d}{\\left[ f\\left( x \\right)-g\\left( x \\right) \\right]\\text{d}x}=\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}-\\int\\limits_{c}^{d}{g\\left( x \\right)\\text{d}x}$",
+    "$\\int\\limits_{c}^{d}{\\left[ f\\left( x \\right).g\\left( x \\right) \\right]\\text{d}x}=\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}.\\int\\limits_{c}^{d}{g\\left( x \\right)\\text{d}x}$",
+    "$\\int\\limits_{c}^{d}{k\\text{f}\\left( x \\right)\\text{d}x}=k\\int\\limits_{c}^{d}{\\text{f}\\left( x \\right)dx}$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{1}{\\left( 2024x+2025 \\right)\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\begin{aligned} & \\int\\limits_{0}^{1}{\\left( 2024x+2025 \\right)\\text{d}x}=\\int\\limits_{0}^{1}{2024x\\text{d}x+\\int\\limits_{0}^{1}{2025}\\text{d}x} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\left( \\frac{2024{{x}^{2}}}{2}+2025x \\right)\\left| \\begin{matrix} ^{1} \\\\ _{0} \\\\ \\end{matrix} \\right.=\\left( \\frac{{{2024.1}^{2}}}{2}+2025.1 \\right)-\\left( \\frac{{{2024.0}^{2}}}{2}+2025.0 \\right) \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=3037 \\\\ \\end{aligned}$\nChọn đáp án C.",
+   "options": [
+    "$4049$",
+    "$-3037$",
+    "$3037$",
+    "$-4049$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{8}{\\left| {{x}^{2}}-6x \\right|\\text{d}x}$.",
+   "explanation": "Ta có:\n$\\begin{aligned} & \\int\\limits_{0}^{8}{\\left| {{x}^{2}}-6x \\right|\\text{d}x}=\\int\\limits_{0}^{6}{\\left| {{x}^{2}}-6x \\right|\\text{d}x+\\int\\limits_{6}^{8}{\\left| {{x}^{2}}-6x \\right|\\text{d}x}}=\\int\\limits_{0}^{6}{\\left( -{{x}^{2}}+6x \\right)\\text{d}x+\\int\\limits_{6}^{8}{\\left( {{x}^{2}}-6x \\right)\\text{d}x}} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\left( \\frac{-{{x}^{3}}}{3}+\\frac{6{{x}^{2}}}{2} \\right)\\left| \\begin{matrix} ^{6} \\\\ _{0} \\\\ \\end{matrix} \\right.+\\left( \\frac{{{x}^{3}}}{3}-\\frac{6{{x}^{2}}}{2} \\right)\\left| \\begin{matrix} ^{8} \\\\ _{6} \\\\ \\end{matrix} \\right.=\\frac{152}{3} \\\\ \\end{aligned}$\nChọn đáp án A.",
+   "options": [
+    "$\\frac{152}{3}$",
+    "$\\frac{64}{3}$",
+    "$\\frac{-64}{3}$",
+    "$\\frac{-152}{3}$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{6}{\\frac{2x+6}{x+2}\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{0}^{6}{\\frac{2x+6}{x+2}\\text{d}x}=\\int\\limits_{0}^{6}{\\left( 2+\\frac{2}{x+2} \\right)\\text{d}x}=\\left( 2x+2\\ln \\left| x+2 \\right| \\right)\\left| \\begin{matrix} ^{6} \\\\ _{0} \\\\ \\end{matrix} \\right.=12+2\\ln 8-2\\ln 2=12+2\\ln 4$\nChọn đáp án D.",
+   "options": [
+    "$8-2\\ln 4$",
+    "$12+4\\ln 4$",
+    "$10+2\\ln 6$",
+    "$12+2\\ln 4$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{\\frac{\\pi }{2}}{\\left( 2\\sin x+3\\cos x \\right)\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\begin{aligned} & \\int\\limits_{0}^{\\frac{\\pi }{2}}{\\left( 2\\sin x+3\\cos x \\right)\\text{d}x}=\\int\\limits_{0}^{\\frac{\\pi }{2}}{2\\sin x\\text{d}x+\\int\\limits_{0}^{\\frac{\\pi }{2}}{3\\cos x}\\text{d}x} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\left. \\left( -2\\cos x \\right) \\right|_{0}^{\\frac{\\pi }{2}}+\\left. \\left( 3\\sin x \\right) \\right|_{0}^{\\frac{\\pi }{2}}=3-\\left( -2 \\right)=5 \\\\ \\end{aligned}$\nChọn đáp án D.",
+   "options": [
+    "$-1$",
+    "$1$",
+    "$0$",
+    "$5$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{1}{{{2}^{x}}\\text{.}{{\\text{3}}^{x}}\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{0}^{1}{{{2}^{x}}\\text{.}{{\\text{3}}^{x}}\\text{d}x}=\\int\\limits_{0}^{1}{{{6}^{x}}\\text{d}x}=\\frac{{{6}^{x}}}{\\ln 6}\\left| \\begin{matrix} ^{1} \\\\ _{0} \\\\ \\end{matrix} \\right.=\\frac{{{6}^{1}}}{\\ln 6}-\\frac{{{6}^{0}}}{\\ln 6}=\\frac{5}{\\ln 6}$.",
+   "options": [
+    "$\\frac{6}{\\ln 6}$",
+    "$\\frac{7}{\\ln 6}$",
+    "$\\frac{5}{\\ln 6}$",
+    "$\\frac{8}{\\ln 18}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai hàm số $f\\left( x \\right)$, $g\\left( x \\right)$ liên tục trên đoạn $\\left[ c\\,;\\,d \\right]$ và số thực $k$. Cho các khẳng định sau:\n1) $\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}$ là diện tích của hình giới hạn bởi đồ thị hàm số $y=f\\left( x \\right)$, trục hoành và hai đường thẳng $x=c,x=d$.\n2) $\\int\\limits_{d}^{d}{f\\left( x \\right)\\text{d}x}=1$.\n3) $\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}=-\\int\\limits_{d}^{c}{f\\left( x \\right)\\text{d}x}$.\nSố khẳng định đúng là.",
+   "explanation": "Khẳng định 1 sai vì $\\int\\limits_{c}^{d}{f\\left( x \\right)\\text{d}x}$là diện tích của hình thang cong với $y=f\\left( x \\right)$ là hàm số “không âm” .\nKhẳng định 2 sai. Vì $\\int\\limits_{d}^{d}{f\\left( x \\right)\\text{d}x}=0$.\nKhẳng định 3 đúng (theo lý thuyết của tích phân).",
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{2}{{{\\left( {{x}^{2}}+1 \\right)}^{2}}\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{0}^{2}{{{\\left( {{x}^{2}}+1 \\right)}^{2}}\\text{d}x}=\\int\\limits_{0}^{2}{\\left( {{x}^{4}}+2{{x}^{2}}+1 \\right)\\text{d}x}=\\left( \\frac{{{x}^{5}}}{5}+\\frac{2{{x}^{3}}}{3}+x \\right)\\left| \\begin{matrix} ^{2} \\\\ _{0} \\\\ \\end{matrix} \\right.=\\left( \\frac{{{2}^{5}}}{5}+\\frac{{{2.2}^{3}}}{3}+2 \\right)-0=\\frac{206}{15}$",
+   "options": [
+    "$\\frac{206}{15}$",
+    "$\\frac{260}{15}$",
+    "$\\frac{33}{4}$",
+    "$\\frac{34}{3}$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{1}^{9}{\\frac{x\\sqrt{x}+1}{\\sqrt{x}}\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{1}^{9}{\\frac{x\\sqrt{x}+1}{\\sqrt{x}}\\text{d}x}=\\int\\limits_{1}^{9}{\\left( x+\\frac{1}{\\sqrt{x}} \\right)\\text{d}x}=\\left( \\frac{{{x}^{2}}}{2}+2\\sqrt{x} \\right)\\left| \\begin{matrix} ^{9} \\\\ _{1} \\\\ \\end{matrix} \\right.=\\left( \\frac{93}{2} \\right)-\\left( \\frac{5}{2} \\right)=44$",
+   "options": [
+    "$45$",
+    "$43$",
+    "$42$",
+    "$44$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{1}^{2}{\\frac{2{{x}^{3}}+2{{x}^{2}}+1}{x+1}\\text{d}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{1}^{2}{\\frac{2{{x}^{3}}+2{{x}^{2}}+1}{x+1}\\text{d}x}=\\int\\limits_{1}^{2}{\\left( 2{{x}^{2}}+\\frac{1}{x+1} \\right)\\text{d}x}=\\left( \\frac{2{{x}^{3}}}{3}+\\ln \\left| x+1 \\right| \\right)\\left| \\begin{matrix} ^{2} \\\\ _{1} \\\\ \\end{matrix} \\right.=\\left( \\frac{16}{3}+\\ln 3 \\right)-\\left( \\frac{2}{3}+\\ln 2 \\right)=\\frac{14}{3}+\\ln \\frac{3}{2}$.",
+   "options": [
+    "$\\frac{14}{3}+\\ln \\frac{3}{2}$",
+    "$\\frac{14}{3}+\\ln \\frac{3}{4}$",
+    "$11+\\ln \\frac{3}{4}$",
+    "$11+2\\ln \\frac{3}{4}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tính tích phân $\\int\\limits_{0}^{\\pi }{\\text{co}{{\\text{s}}^{2}}\\text{xd}x}$.",
+   "explanation": "Theo tính chất của tích phân, ta có:\n$\\int\\limits_{0}^{\\pi }{\\text{co}{{\\text{s}}^{2}}\\text{xd}x}=\\int\\limits_{0}^{\\pi }{\\frac{1+\\cos 2x}{2}\\text{d}x}=\\left. \\left( \\frac{x}{2}+\\frac{\\sin 2x}{4} \\right) \\right|_{0}^{\\pi }=\\frac{\\pi }{2}$",
+   "options": [
+    "$\\frac{\\pi }{3}$",
+    "$\\frac{\\pi }{2}$",
+    "$\\pi $",
+    "$\\frac{\\pi }{2}+\\frac{1}{4}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một ô tô chuyển động chậm dần đều với vận tốc $v\\left( t \\right)=27-9\\sqrt{t}$. Tính quãng đường mà ô tô di chuyển được từ thời điểm $t=0$ đến thời điểm mà vật dừng lại.",
+   "explanation": "Thời điểm vật dừng lại là $v=0\\Leftrightarrow 27-9\\sqrt{t}=0\\Leftrightarrow t=9\\,\\left( s \\right)$\nQuãng đường mà ô tô di chuyển được từ thời điểm $t=0$ đến thời điểm mà vật dừng lại là:\n$s\\left( t \\right)=\\int_{0}^{9}{\\left( 27-9\\sqrt{t} \\right)dt}=\\left. \\left( 27t-6t\\sqrt{t} \\right) \\right|_{0}^{9}=81\\left( m \\right)$.",
+   "options": [
+    "$120m$",
+    "$18m$",
+    "$81m$",
+    "$54m$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Diện tích $S$ của hình thang cong giới hạn bởi đồ thị hàm số $y=f\\left( x \\right)$, trục hoành và hai đường thẳng $x=1,\\ x=3$được tính bằng công thức $S=\\int\\limits_{1}^{3}{\\left( {{x}^{3}}+2x \\right)}dx$",
+    "b": "Gọi $F\\left( x \\right)=\\frac{{{x}^{4}}}{4}+2x$là một nguyên hàm của hàm số $f\\left( x \\right)$thì $S=F\\left( 3 \\right)-F\\left( 1 \\right)$.",
+    "c": "$I=10\\int\\limits_{1}^{3}{f\\left( x \\right)dx+6}\\int\\limits_{1}^{3}{g\\left( x \\right)dx=}356$.",
+    "d": "$J=\\int\\limits_{1}^{3}{f\\left( x \\right)dx+}\\int\\limits_{3}^{5}{f\\left( x \\right)dx=}\\int\\limits_{1}^{5}{f\\left( x \\right)dx}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)={{x}^{3}}+2x$ và hàm số $g\\left( x \\right)={{x}^{2}}+x$. Xét tính đúng - sai của các mệnh đề sau?",
+   "explanation": "a) Đúng: Vì hàm số $f\\left( x \\right)={{x}^{3}}+2x$ liên tục và không âm trên đoạn $\\left[ 1;3 \\right]$nên theo ý nghĩa hình học của tích phân thì $S=\\int\\limits_{1}^{3}{\\left( {{x}^{3}}+2x \\right)}dx$\nb) Sai: Vì $F\\left( x \\right)=\\frac{{{x}^{4}}}{4}+2x$ không là nguyên hàm của hàm số $f\\left( x \\right)$\nĐáp án đúng thì $F\\left( x \\right)=\\frac{{{x}^{4}}}{4}+{{x}^{2}}$\nc) Đúng:\n$F\\left( x \\right)=\\frac{{{x}^{4}}}{4}+{{x}^{2}}$là một nguyên hàm của hàm số $f\\left( x \\right)$, $F\\left( 3 \\right)=\\frac{117}{4};\\ F\\left( 1 \\right)=\\frac{5}{4}$\nnên $\\int\\limits_{1}^{3}{f\\left( x \\right)dx=\\frac{117}{4}-\\frac{5}{4}}=28$. Suy ra $10\\int\\limits_{1}^{3}{f\\left( x \\right)dx=280}$\n$G\\left( x \\right)=\\frac{{{x}^{3}}}{3}+\\frac{{{x}^{2}}}{2}$là một nguyên hàm của hàm số $g\\left( x \\right)$, $G\\left( 3 \\right)=\\frac{27}{2};\\ G\\left( 1 \\right)=\\frac{5}{6}$\nnên $\\int\\limits_{1}^{3}{g\\left( x \\right)dx=\\frac{27}{2}-\\frac{5}{6}}=\\frac{38}{3}$. Suy ra $6\\int\\limits_{1}^{3}{g\\left( x \\right)dx=76}$\nVậy $I=10\\int\\limits_{1}^{3}{f\\left( x \\right)dx+6}\\int\\limits_{1}^{3}{g\\left( x \\right)dx=}280+76=356$\nd) Đúng: Theo tính chất của tích phân",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$I=\\int\\limits_{0}^{1}{f\\left( x \\right)dx=\\int\\limits_{0}^{1}{\\left( {{x}^{5}}-4{{x}^{3}}-{{x}^{2}}+x+1 \\right)dx=\\left. \\left( \\frac{{{x}^{6}}}{6}-{{x}^{4}}-\\frac{{{x}^{3}}}{3}+\\frac{{{x}^{2}}}{2}+x \\right) \\right|}}_{1}^{0}$",
+    "b": "$I=\\int\\limits_{0}^{1}{f\\left( x \\right)dx=\\frac{1}{3}}$",
+    "c": "$I=\\int\\limits_{0}^{1}{f\\left( x \\right)dx=\\int\\limits_{0}^{1}{\\left( {{x}^{5}}-4{{x}^{3}} \\right)dx+\\int\\limits_{0}^{1}{\\left( {{x}^{2}}+x+1 \\right)dx}}}$.",
+    "d": "$J=\\int\\limits_{0}^{\\frac{1}{2}}{f\\left( 2x \\right)dx=}\\frac{1}{9}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)={{x}^{5}}-4{{x}^{3}}-{{x}^{2}}+x+1$ Xét tính đúng - sai của các mệnh đề sau?",
+   "explanation": "a) Sai: Vì Sai cận trên và cận dưới\nb) Đúng:\nc) Sai: Sai dấu\nSửa lại $I=\\int\\limits_{0}^{1}{f\\left( x \\right)dx=\\int\\limits_{0}^{1}{\\left( {{x}^{5}}-4{{x}^{3}} \\right)dx+\\int\\limits_{0}^{1}{\\left( -{{x}^{2}}+x+1 \\right)dx}}}$\nd) Sai:\nVì $I=\\int\\limits_{0}^{1}{f\\left( x \\right)dx=\\frac{1}{3}}$ nên $J=\\int\\limits_{0}^{\\frac{1}{2}}{f\\left( 2x \\right)dx=\\frac{1}{2}}\\int\\limits_{0}^{\\frac{1}{2}}{f\\left( 2x \\right)d\\left( 2x \\right)=}\\frac{1}{2}\\int\\limits_{0}^{1}{f\\left( x \\right)d\\left( x \\right)=}\\frac{1}{2}\\times \\frac{1}{3}=\\frac{1}{6}$",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f(x)=\\left| {{x}^{2}}-9 \\right|=\\left\\{ \\begin{aligned} & -{{x}^{2}}+9,\\,\\,0\\le x\\le 3 \\\\ & {{x}^{2}}-9,\\,\\,3\\le x\\le 9\\,\\, \\\\ \\end{aligned} \\right.$ .",
+    "b": "$\\int\\limits_{0}^{9}{f(x)dx=}-\\int\\limits_{0}^{3}{f(x)dx+\\int\\limits_{3}^{9}{f(x)dx}}$ .",
+    "c": "$\\int\\limits_{0}^{9}{f(x)dx=}-\\int\\limits_{0}^{3}{\\left( {{x}^{2}}-9 \\right)dx+\\int\\limits_{3}^{9}{\\left( {{x}^{2}}-9 \\right)dx}}$.",
+    "d": "$\\int\\limits_{0}^{9}{f(x)dx=}\\int\\limits_{0}^{m}{\\left( {{x}^{2}}-9 \\right)dx}+\\int\\limits_{m}^{9}{\\left( {{x}^{2}}-9 \\right)dx}\\,\\,\\forall m\\in \\left( 0,9 \\right)$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f(x)=\\left| {{x}^{2}}-9 \\right|$ với $0\\le x\\le 9$. Trong mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai.",
+   "explanation": "| a | B | c | d |\n|---|---|---|---|\n| Đ | S | Đ | S |\n[[IMG:image11.jpeg]]\na) Đúng vì từ bảng xét dấu ta thấy: ${{x}^{2}}-9\\le 0,\\,\\forall x\\in \\left[ 0,3 \\right]$ và ${{x}^{2}}-9\\ge 0,\\,\\forall x\\in \\left[ 3,9 \\right]$\nb) Sai vì $\\int\\limits_{0}^{9}{f(x)dx=}\\int\\limits_{0}^{3}{f(x)dx+\\int\\limits_{3}^{9}{f(x)dx}}$.\nc) Đúng vì theo bảng xét dấu ta có:\n$\\begin{aligned} & \\int\\limits_{0}^{9}{\\left| {{x}^{2}}-9 \\right|dx=}\\int\\limits_{0}^{3}{\\left| {{x}^{2}}-9 \\right|dx+\\int\\limits_{3}^{9}{\\left| {{x}^{2}}-9 \\right|dx=}}\\int\\limits_{0}^{3}{\\left[ -\\left( {{x}^{2}}-9 \\right) \\right]dx+\\int\\limits_{3}^{9}{\\left( {{x}^{2}}-9 \\right)dx}} \\\\ & =-\\int\\limits_{0}^{3}{\\left( {{x}^{2}}-9 \\right)dx+\\int\\limits_{3}^{9}{\\left( {{x}^{2}}-9 \\right)dx}} \\\\ \\end{aligned}$\nd) Sai.\nThế $m=1$ vào đẳng thức $\\int\\limits_{0}^{9}{f(x)dx=}\\int\\limits_{0}^{m}{\\left( {{x}^{2}}-9 \\right)dx}+\\int\\limits_{m}^{9}{\\left( {{x}^{2}}-9 \\right)dx}\\,$ ta được\n$\\int\\limits_{0}^{9}{\\left| {{x}^{2}}-9 \\right|dx=}\\int\\limits_{0}^{1}{\\left( {{x}^{2}}-9 \\right)dx}+\\int\\limits_{1}^{9}{\\left( {{x}^{2}}-9 \\right)dx}\\,\\,\\,\\left( 1 \\right)$.\nTa có: $\\left\\{ \\begin{aligned} & VP(1)=162 \\\\ & VT(1)=198 \\\\ \\end{aligned} \\right.$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f(x)=\\frac{1}{4}\\left( \\frac{1}{x+2}-\\frac{1}{x-2} \\right)$.",
+    "b": "$\\int\\limits_{3}^{4}{f\\left( x \\right)dx}>\\frac{1}{2}$",
+    "c": "$\\int\\limits_{3}^{4}{f\\left( x \\right)dx=}\\frac{1}{4}\\ln \\frac{a}{b}$ với $\\frac{a}{b}$ là phân số tối giản và $a,\\,\\,b\\in \\Nu $. Ta có: $a.b=15$.",
+    "d": "$\\int\\limits_{3}^{4}{\\left[ f\\left( x \\right)+\\frac{f'\\left( x \\right)}{{{f}^{2}}\\left( x \\right)} \\right]dx=}\\frac{1}{4}\\ln \\frac{5}{3}+7$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f(x)=\\frac{1}{{{x}^{2}}-4}$. Trong mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai.",
+   "explanation": "a) Sai\nTa có $f(x)=\\frac{1}{{{x}^{2}}-4}=\\frac{1}{\\left( x-2 \\right)\\left( x+2 \\right)}=\\frac{1}{4}\\left( \\frac{1}{x-2}-\\frac{1}{x+2} \\right)$\nb) Sai\n$\\int\\limits_{3}^{4}{f\\left( x \\right)dx}=\\int\\limits_{3}^{4}{\\frac{1}{\\left( x-2 \\right)\\left( x+2 \\right)}dx}=\\frac{1}{4}\\int\\limits_{3}^{4}{\\left( \\frac{1}{x-2}-\\frac{1}{x+2} \\right)dx}=\\frac{1}{4}\\left. \\left( \\ln \\left( x-2 \\right)-\\ln \\left( x+2 \\right) \\right) \\right|_{3}^{4}=\\left. \\frac{1}{4}\\ln \\frac{x-2}{x+2} \\right|_{3}^{4}=\\frac{1}{4}\\ln \\frac{5}{3}$.\nTa có $\\frac{1}{4}\\ln \\frac{5}{3}<0,5$.\nc) Đúng\nTheo câu b ta có\n$\\int\\limits_{3}^{4}{f\\left( x \\right)dx}=\\frac{1}{4}\\int\\limits_{3}^{4}{\\left( \\frac{1}{x-2}-\\frac{1}{x+2} \\right)dx}=\\frac{1}{4}\\left. \\left( \\ln \\left( x-2 \\right)-\\ln \\left( x+2 \\right) \\right) \\right|_{3}^{4}=\\frac{1}{4}\\ln \\frac{5}{3}$.\nDo đó ta có $a=5;\\,\\,b=3$. Vậy $a.b=15$.\nd) Sai\nTa có $\\int\\limits_{3}^{4}{\\left[ f\\left( x \\right)+\\frac{f'\\left( x \\right)}{{{f}^{2}}\\left( x \\right)} \\right]dx=\\int\\limits_{3}^{4}{f\\left( x \\right)}dx+\\int\\limits_{3}^{4}{\\frac{f'\\left( x \\right)}{{{f}^{2}}\\left( x \\right)}}dx}$.\nVới $\\int\\limits_{3}^{4}{f\\left( x \\right)dx=}\\frac{1}{4}\\ln \\frac{5}{3}$.\n$\\int\\limits_{3}^{4}{\\frac{f'\\left( x \\right)}{{{f}^{2}}\\left( x \\right)}}dx=\\left. -\\frac{1}{f\\left( x \\right)} \\right|_{3}^{4}=-12+5=-7$.\nVậy $\\int\\limits_{3}^{4}{\\left[ f\\left( x \\right)+\\frac{f'\\left( x \\right)}{{{f}^{2}}\\left( x \\right)} \\right]dx=}\\frac{1}{4}\\ln \\frac{5}{3}-7$.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D06",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho $\\int\\limits_{0}^{5}{f\\left( x \\right)\\text{d}x=-2}$. Tích phân $\\int\\limits_{0}^{5}{\\left[ 4f\\left( x \\right)-3{{x}^{2}} \\right]\\text{d}x}$ bằng",
+   "explanation": "$\\int\\limits_{0}^{5}{\\left[ 4f\\left( x \\right)-3{{x}^{2}} \\right]\\text{d}x}=4\\int\\limits_{0}^{5}{f\\left( x \\right)\\text{d}x}-\\int\\limits_{0}^{5}{3{{x}^{2}}\\text{d}x}=-8-\\left. {{x}^{3}} \\right|_{0}^{5}=-8-125=-133$.",
+   "short_value": -133,
+   "short_correct": "-133",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho $0\\le m\\le 2$ và tích phân $I=\\int\\limits_{0}^{m}{\\left| x-2 \\right|dx}=2$. Tìm m bằng",
+   "explanation": "Do : $x\\in \\left[ 0;m \\right]\\Rightarrow x-2\\le x-m\\le 0\\Rightarrow \\left| x-2 \\right|=2-x$\nVậy : $I=\\int\\limits_{0}^{m}{\\left( 2-x \\right)dx=\\left( 2x-\\frac{1}{2}{{x}^{2}} \\right)\\left| \\begin{matrix} m \\\\ 0 \\\\ \\end{matrix}=2m-\\frac{{{m}^{2}}}{2}=2 \\right.}\\Rightarrow m=2$",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Biết $\\int\\limits_{1}^{3}{\\frac{x+2}{x}}dx=a+b\\ln c,$ với $a,b,c\\in \\mathbb{Z},c<9.$ Tính tổng $S=a+b+c$",
+   "explanation": "Ta có $\\int\\limits_{1}^{3}{\\frac{x+2}{x}}dx=\\int\\limits_{1}^{3}{\\left( 1+\\frac{2}{x} \\right)dx}=\\int\\limits_{1}^{3}{dx}+\\int\\limits_{1}^{3}{\\frac{2}{x}}dx=2+2\\left. \\ln \\left| x \\right| \\right|_{1}^{3}=2+2\\ln 3.$\nDo đó $a=2,\\,b=2,\\,c=3\\Rightarrow S=7.$",
+   "short_value": 7,
+   "short_correct": "7",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Biết $I=\\int\\limits_{0}^{1}{\\frac{{{e}^{2x-1}}-{{e}^{-3x}}+1}{{{e}^{x}}}dx}=\\frac{1}{4{{e}^{a}}}-\\frac{b}{e}+\\frac{7}{4}$ $\\left( a,b\\in \\mathbb{R} \\right)$. Tính $P=a+b$ bằng",
+   "explanation": "$I=\\int\\limits_{0}^{1}{\\frac{{{e}^{2x-1}}-{{e}^{-3x}}+1}{{{e}^{x}}}dx}=\\int\\limits_{0}^{1}{\\left( {{e}^{x-1}}-{{e}^{-4x}}+{{e}^{-x}} \\right)dx}=\\left. \\left( {{e}^{x-1}}-\\frac{{{e}^{-4x}}}{-4}+\\frac{{{e}^{-x}}}{-1} \\right) \\right|_{0}^{1}=\\frac{1}{4{{e}^{4}}}-\\frac{2}{e}+\\frac{7}{4}$\nDo đó $a=4,\\,b=2$ $\\Rightarrow P=4+2=6$.",
+   "short_value": 6,
+   "short_correct": "6",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Biết rằng $\\int\\limits_{0}^{\\frac{\\pi }{4}}{\\frac{4\\cos x-2\\sin x}{\\sin x+3\\cos x}\\text{d}x}=\\frac{a\\pi }{2}+b\\ln 2-c\\ln 3$, với $a,\\,b,\\,c\\in \\mathbb{Q}$. Tính $P=abc$.",
+   "explanation": "Trả lời: $\\frac{3}{4}$.\nTa có $\\int\\limits_{0}^{\\frac{\\pi }{4}}{\\frac{4\\cos x-2\\sin x}{\\sin x+3\\cos x}\\text{d}x}=\\int\\limits_{0}^{\\frac{\\pi }{4}}{\\frac{\\sin x+3\\cos x+\\cos x-3\\sin x}{\\sin x+3\\cos x}\\text{d}x}=\\int\\limits_{0}^{\\frac{\\pi }{4}}{\\left( 1+\\frac{{{\\left( \\sin x+3\\cos x \\right)}^{\\prime }}}{\\sin x+3\\cos x} \\right)\\text{d}x}$\n$=\\left. x \\right|\\underset{0}{\\overset{\\frac{\\pi }{4}}{\\mathop{{}}}}\\,+\\left. \\ln \\left( \\sin x+3\\cos x \\right) \\right|\\underset{0}{\\overset{\\frac{\\pi }{4}}{\\mathop{{}}}}\\,=\\frac{\\pi }{4}+\\ln \\left( 2\\sqrt{2} \\right)-\\ln 3=\\frac{1}{2}.\\frac{\\pi }{2}+\\frac{3}{2}\\ln 2-\\ln 3$.\nTừ đây ta có $a=\\frac{1}{2},\\,b=\\frac{3}{2},\\,c=1$ nên $P=\\frac{3}{4}$.",
+   "short_value": 0.75,
+   "short_correct": "0,75",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D03",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một xe mô tô phân khối lớn sau khi chờ hết đèn đỏ đã bắt đầu phóng nhanh với vận tốc tăng liên tục được biểu thị bằng đồ thị là đường Parabol như hình vẽ. Biết rằng sau $15s$ thì xe đạt đến vận tốc cao nhất $60m/s$ và bắt đầu giảm tốc. Hỏi từ lúc bắt đầu đến lúc đạt vận tốc cao nhất thì xe đã đi được quãng đường bao nhiêu mét?\n[[IMG:image12.jpeg]]",
+   "explanation": "Trả lời: 600.\nHàm số vận tốc có đồ thị là đường Parabol $v\\left( t \\right)=a{{t}^{2}}+bt+c\\left( a\\ne 0 \\right)$, theo hình vẽ ta thấy đỉnh của Parabol là $I\\left( 15;60 \\right)$, đồng thời đi qua gốc $O\\left( 0;0 \\right)$, suy ra:\n$\\left\\{ \\begin{aligned} & a{{.0}^{2}}+b.0+c=0 \\\\ & \\frac{-b}{2a}=15 \\\\ & a{{.15}^{2}}+b.15+c=60 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=0 \\\\ & 30a+b=0 \\\\ & a{{.15}^{2}}+b.15+0=60 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{4}{15} \\\\ & b=8 \\\\ & c=0 \\\\ \\end{aligned} \\right.$ $\\Rightarrow v\\left( t \\right)=-\\frac{4}{15}{{t}^{2}}+8t$.\nTheo đồ thị xe bắt đầu tăng tốc lúc $t=0$ và đạt vận tốc cao nhất lúc $t=15s$ nên quãng đường đi được của xe từ lúc bắt đầu tăng tốc đến lúc đạt vận tốc cao nhất là:\n$\\int\\limits_{0}^{15}{v\\left( t \\right)dt}=\\int\\limits_{0}^{15}{\\left( -\\frac{4}{15}{{t}^{2}}+8t \\right)dt}=\\left. \\left( -\\frac{4}{45}{{t}^{3}}+4{{t}^{2}} \\right) \\right|_{0}^{15}=600\\,m$.\nVậy từ lúc bắt đầu tăng tốc đến lúc vận tốc đạt cao nhất thì xe đi được quãng đường dài $600\\,m$.",
+   "short_value": 600,
+   "short_correct": "600",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 19,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B2.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  }
+ ],
+ "flags": []
+}

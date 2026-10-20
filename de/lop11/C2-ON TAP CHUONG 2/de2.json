@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "2",
+  "lesson": "on-tap",
+  "title": "Chương 2 – Bài on-tap"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$ thỏa $\\left\\{ \\begin{aligned} & {{u}_{5}}+3{{u}_{3}}-{{u}_{2}}=-21 \\\\ & 3{{u}_{7}}-2{{u}_{4}}=-34 \\\\ \\end{aligned} \\right.$. Tổng $15$ số hạng đầu của cấp số cộng là.",
+   "explanation": "Giả sử cấp số cộng có số hạng đầu là ${{u}_{1}}$ và công sai là $d$.\nKhi đó, $\\left\\{ \\begin{aligned} & {{u}_{5}}+3{{u}_{3}}-{{u}_{2}}=-21 \\\\ & 3{{u}_{7}}-2{{u}_{4}}=-34 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}+4d+3\\left( {{u}_{1}}+2d \\right)-\\left( {{u}_{1}}+d \\right)=-21 \\\\ & 3\\left( {{u}_{1}}+6d \\right)-2\\left( {{u}_{1}}+3d \\right)=-34 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & 3{{u}_{1}}+9d=-21 \\\\ & {{u}_{1}}+12d=-34 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & d=-3 \\\\ \\end{aligned} \\right.$.\nTừ đó suy ra ${{S}_{15}}=\\frac{15}{2}.\\left[ 2.2+\\left( 15-1 \\right).\\left( -3 \\right) \\right]=-285$.",
+   "options": [
+    "$-244$",
+    "$-274$",
+    "$-253$",
+    "$-285$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho dãy số ${{u}_{n}}$ biết $\\left\\{ \\begin{aligned} & {{u}_{1}}=3 \\\\ & {{u}_{n+1}}=3{{u}_{n}} \\\\ \\end{aligned} \\right.$, $\\forall n\\in {{\\mathbb{N}}^{*}}$. Tìm số hạng tổng quát của dãy số $\\left( {{u}_{n}} \\right)$.",
+   "explanation": "Ta có $\\frac{{{u}_{n+1}}}{{{u}_{n}}}=3$.\nDo đó dãy số $3f\\left( 1 \\right)-f\\left( 0 \\right)=12$ là một cấp số nhân với $10=\\int\\limits_{a}^{b}{\\left( 2x+1 \\right){f}'\\left( x \\right)\\text{d}x}$, công bội $q=3$.\nVậy số hạng tổng quát của cấp số nhân là: ${{u}_{n}}={{u}_{1}}.{{q}^{n-1}}$ $={{3.3}^{n-1}}$ $={{3}^{n}}$.",
+   "options": [
+    "${{u}_{n}}={{3}^{n}}$",
+    "${{u}_{n}}={{3}^{n+1}}$",
+    "${{u}_{n}}={{3}^{n-1}}$",
+    "${{u}_{n}}={{n}^{n+1}}$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[1D3-0.0-2] Cho cấp số nhân $\\left( {{u}_{n}} \\right)$ thỏa mãn: $\\left\\{ \\begin{aligned} & {{u}_{1}}+{{u}_{2}}+{{u}_{3}}=13 \\\\ & {{u}_{4}}-{{u}_{1}}=26 \\\\ \\end{aligned} \\right.$. Tổng $8$ số hạng đầu của cấp số nhân $\\left( {{u}_{n}} \\right)$là",
+   "explanation": "Ta có : $\\left\\{ \\begin{aligned} & {{u}_{1}}+{{u}_{2}}+{{u}_{3}}=13 \\\\ & {{u}_{4}}-{{u}_{1}}=26 \\\\ \\end{aligned} \\right.$$\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}\\left( 1+q+{{q}^{2}} \\right)=13 \\\\ & {{u}_{1}}\\left( {{q}^{3}}-1 \\right)=26 \\\\ \\end{aligned} \\right.$$\\Rightarrow \\frac{\\left( {{q}^{3}}-1 \\right)}{\\left( 1+q+{{q}^{2}} \\right)}=\\frac{26}{13}$ $\\Rightarrow q-1=2$ $\\Rightarrow q=3$ $\\Rightarrow {{u}_{1}}=1$.\n${{S}_{8}}=\\frac{1\\left( 1-{{3}^{8}} \\right)}{1-3}=3280$.",
+   "options": [
+    "${{S}_{8}}=3280$",
+    "${{S}_{8}}=9841$",
+    "${{S}_{8}}=3820$",
+    "${{S}_{8}}=1093$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B3.D03",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Dãy số nào sau đây là một cấp số cộng?",
+   "explanation": "Chọn A\nDãy số ở đáp án A thỏa ${{u}_{n+1}}-{{u}_{n}}=2$ với mọi $n\\ge 1$ nên là cấp số cộng.",
+   "options": [
+    "$\\left( {{u}_{n}} \\right):\\left\\{ \\begin{matrix} {{u}_{1}}=1 \\\\ {{u}_{n+1}}={{u}_{n}}+2,\\,\\,\\forall n\\ge 1 \\\\ \\end{matrix} \\right.$",
+    "$\\left( {{u}_{n}} \\right):\\left\\{ \\begin{matrix} {{u}_{1}}=3 \\\\ {{u}_{n+1}}=2{{u}_{n}}+1,\\,\\,\\forall n\\ge 1 \\\\ \\end{matrix} \\right.$",
+    "$\\left( {{u}_{n}} \\right):\\,$ $1$; $3$; $6$; $10$; $15$; $\\ldots $",
+    "$\\left( {{u}_{n}} \\right):\\,$ $-1$; $1$; $-1$; $1$; $-1$; $\\ldots $"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Trong các dãy số sau, dãy số nào là một cấp số cộng?",
+   "explanation": "Chọn C\nDãy số $\\left( {{u}_{n}} \\right)$ có tính chất ${{u}_{n+1}}={{u}_{n}}+d$ thì được gọi là một cấp số cộng.\nTa thấy dãy số: $1;-3;-7;-11;-15$ là một cấp số cộng có số hạng đầu là 1 và công sai bằng $-4.$",
+   "options": [
+    "$1;-2;-4;-6;-8$",
+    "$1;-3;-6;-9;-12.$",
+    "$1;-3;-7;-11;-15.$",
+    "$1;-3;-5;-7;-9$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Xác định $a$ để 3 số $1+2a;2{{a}^{2}}-1;-2a$ theo thứ tự thành lập một cấp số cộng?",
+   "explanation": "Chọn D\nTheo công thức cấp số cộng ta có: $2(2{{a}^{2}}-1)=(1+2a)+(-2a)\\Leftrightarrow {{a}^{2}}=\\frac{3}{4}\\Leftrightarrow a=\\pm \\frac{\\sqrt{3}}{2}$.",
+   "options": [
+    "Không có giá trị nào của $a$",
+    "$a=\\pm \\frac{\\sqrt{3}}{4}$",
+    "$a=\\pm 3$",
+    "$a=\\pm \\frac{\\sqrt{3}}{2}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong các dãy số sau đây, dãy số nào là cấp số cộng?",
+   "explanation": "Chọn B\nTa có ${{u}_{n+1}}-{{u}_{n}}=3(n+1)+2018-(3n+2018)=3\\Leftrightarrow {{u}_{n+1}}={{u}_{n}}+3$.\nVậy dãy số trên là cấp số cộng có công sai $d=3$.",
+   "options": [
+    "${{u}_{n}}=3{{n}^{2}}+2017$",
+    "${{u}_{n}}=3n+2018$",
+    "${{u}_{n}}=\\,\\,{{3}^{n}}$",
+    "${{u}_{n}}={{\\left( -3 \\right)}^{n+1}}$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right),$biết ${{u}_{n}}=\\frac{2{{n}^{2}}-1}{{{n}^{2}}+3}.$ Tìm số hạng ${{u}_{5}}.$",
+   "explanation": "Chọn C\nTa có ${{u}_{5}}=\\frac{{{2.5}^{2}}-1}{{{5}^{2}}+3}=\\frac{7}{4}$",
+   "options": [
+    "${{u}_{5}}=\\frac{1}{4}.$",
+    "${{u}_{5}}=\\frac{17}{12}.$",
+    "${{u}_{5}}=\\frac{7}{4}.$",
+    "${{u}_{5}}=\\frac{71}{39}.$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right),$ biết ${{u}_{n}}={{\\left( -1 \\right)}^{n}}.2n.$ Mệnh đề nào sau đây sai?",
+   "explanation": "Chọn D\nVì ${{u}_{4}}={{\\left( -1 \\right)}^{4}}.2.4=8$",
+   "options": [
+    "${{u}_{1}}=-2.$",
+    "${{u}_{2}}=4.$",
+    "${{u}_{3}}=-6.$",
+    "${{u}_{4}}=-8.$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right),$ biết ${{u}_{n}}={{\\left( -1 \\right)}^{n}}.\\frac{{{2}^{n}}}{n}.$ Tìm số hạng ${{u}_{3}}.$",
+   "explanation": "Chọn D\nTa có ${{u}_{3}}={{\\left( -1 \\right)}^{3}}\\frac{{{2}^{3}}}{3}=-\\frac{8}{3}$",
+   "options": [
+    "${{u}_{3}}=\\frac{8}{3}.$",
+    "${{u}_{3}}=2.$",
+    "${{u}_{3}}=-2.$",
+    "${{u}_{3}}=-\\frac{8}{3}.$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Chọn cấp số nhân trong các dãy số sau:",
+   "explanation": "Chọn D\nDãy số : $1;\\text{ }-{{x}^{2}};\\text{ }{{x}^{4}};\\text{ }-{{x}^{6}}\\text{; }...$ là cấp số nhân có số hạng đầu ${{u}_{1}}=1;\\text{ }$ công bội $q=-{{x}^{2}}$.",
+   "options": [
+    "$1;\\text{ }0,2;\\text{ }0,04;\\text{ 0,0008; }...$",
+    "$2;\\text{ 22};\\text{ 222};2222\\text{; }...$",
+    "$x;\\text{ }2x;\\text{ }3x;\\text{ }4x\\text{; }...$",
+    "$1;\\text{ }-{{x}^{2}};\\text{ }{{x}^{4}};\\text{ }-{{x}^{6}}\\text{; }...$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D03",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong các dãy số sau đây, dãy số nào là một cấp số cộng?",
+   "explanation": "Chọn D\nTheo định nghĩa cấp số cộng ta có: ${{u}_{n+1}}={{u}_{n}}+d\\Leftrightarrow {{u}_{n+1}}-{{u}_{n}}=d,\\text{ }\\forall n\\ge 1,\\text{ }d=const$\nThử các đáp án ta thấy với dãy số: ${{u}_{n}}=2n-3,\\text{ }n\\ge 1$ thì:\n$\\left\\{ \\begin{aligned} & {{u}_{n}}=2n-3 \\\\ & {{u}_{n+1}}=2\\left( n+1 \\right)-3=2n-1 \\\\ \\end{aligned} \\right.\\Rightarrow {{u}_{n+1}}-{{u}_{n}}=2=const$",
+   "options": [
+    "$u _ { n } = n ^ { 2 } + 1 , \\quad n \\geq 1$",
+    "${u _ { n } = 2 ^ { n } , \\quad n \\geq 1}$",
+    "${u _ { n } = \\sqrt { n + 1 } , n \\geq 1}$",
+    "${u _ { n } = 2 n - 3 , \\quad n \\geq 1}$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng thứ 3 của dãy là $\\frac{2}{9}$",
+    "b": "Số hạng thứ 5 của dãy là $\\frac{2}{81}$",
+    "c": "Tổng 10 số hạng đầu của cấp số là $\\frac{59048}{19683}$",
+    "d": "Số $\\frac{2}{6561}$ là số hạng thứ 8 của cấp số"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số nhân $({{u}_{n}})$ thỏa: $\\left\\{ \\begin{aligned} & {{u}_{4}}=\\frac{2}{27} \\\\ & {{u}_{3}}=243{{u}_{8}} \\\\ \\end{aligned} \\right.$.",
+   "explanation": "Gọi $q$ là công bội của cấp số. Theo giả thiết ta có:\n$\\left\\{ \\begin{aligned} & {{u}_{1}}{{q}^{3}}=\\frac{2}{27} \\\\ & {{u}_{1}}{{q}^{2}}=243.{{u}_{1}}{{q}^{7}} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}{{q}^{3}}=\\frac{2}{27} \\\\ & {{q}^{5}}=\\frac{1}{243} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & q=\\frac{1}{3} \\\\ & {{u}_{1}}=2 \\\\ \\end{aligned} \\right.$\na) b) Năm số hạng đầu của cấp số là:\n${{u}_{1}}=2,{{u}_{2}}=\\frac{2}{3},{{u}_{3}}=\\frac{2}{9};{{u}_{4}}=\\frac{2}{27},{{u}_{5}}=\\frac{2}{81}$.\nc) Tổng 10 số hạng đầu của cấp số\n${{S}_{10}}={{u}_{1}}\\frac{{{q}^{10}}-1}{q-1}=2.\\frac{{{\\left( \\frac{1}{3} \\right)}^{10}}-1}{\\frac{1}{3}-1}=3\\left[ 1-{{\\left( \\frac{1}{3} \\right)}^{10}} \\right]=\\frac{59048}{19683}$.\nd) Ta có: ${{u}_{n}}=\\frac{2}{{{3}^{n-1}}}\\Rightarrow {{u}_{n}}=\\frac{2}{6561}\\Leftrightarrow {{3}^{n-1}}=6561={{3}^{8}}\\Rightarrow n=9$\nVậy $\\frac{2}{6561}$ là số hạng thứ 9 của cấp số.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 25,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B3.D03",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Công sai của cấp số cộng là $d=-3$",
+    "b": "Số hạng thứ 100 của cấp số là ${{u}_{100}}=-290$",
+    "c": "Tổng 15 số hạng đầu của cấp số bằng $-285$",
+    "d": "Tổng $S={{u}_{4}}+{{u}_{5}}+...+{{u}_{30}}=-1542$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số cộng $({{u}_{n}})$ thỏa: $\\left\\{ \\begin{aligned} & {{u}_{5}}+3{{u}_{3}}-{{u}_{2}}=-21 \\\\ & 3{{u}_{7}}-2{{u}_{4}}=-34 \\\\ \\end{aligned} \\right.$.",
+   "explanation": "a) Từ giả thiết bài toán, ta có: $\\left\\{ \\begin{aligned} & {{u}_{1}}+4d+3({{u}_{1}}+2d)-({{u}_{1}}+d)=-21 \\\\ & 3({{u}_{1}}+6d)-2({{u}_{1}}+3d)=-34 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}+3d=-7 \\\\ & {{u}_{1}}+12d=-34 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & d=-3 \\\\ \\end{aligned} \\right.$.\nb) Số hạng thứ 100 của cấp số: ${{u}_{100}}={{u}_{1}}+99d=-295$\nc) Tổng của 15 số hạng đầu: ${{S}_{15}}=\\frac{15}{2}\\left[ 2{{u}_{1}}+14d \\right]=-285$\nd) Ta có: $S={{u}_{4}}+{{u}_{5}}+...+{{u}_{30}}=\\frac{27}{2}\\left[ 2{{u}_{4}}+26d \\right]$\n$=27\\left( {{u}_{1}}+16d \\right)=-1242$.\nChú ý: Ta có thể tính $S$ theo cách sau:\n$S={{S}_{30}}-{{S}_{3}}=15\\left( 2{{u}_{1}}+29d \\right)-\\frac{3}{2}\\left( 2{{u}_{1}}+2d \\right)=-1242$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{u}_{3}}=3$",
+    "b": "${{u}_{4}}=10$",
+    "c": "${{u}_{6}}=37$",
+    "d": "${{u}_{101}}=14952$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ xác định bởi $\\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & {{u}_{n+1}}={{u}_{n}}+3n-2\\,\\left( n\\in {{\\mathbb{N}}^{*}} \\right) \\\\ \\end{aligned} \\right.$. Khi đó",
+   "explanation": "Theo công thức truy hồi của dãy số $\\left( {{u}_{n}} \\right)$ ta có ${{u}_{n+1}}-{{u}_{n}}=3n-2$.\nĐặt ${{v}_{n}}={{u}_{n+1}}-{{u}_{n}}$ $\\Rightarrow {{v}_{n}}=3n-2$.\nTa có ${{v}_{n+1}}-{{v}_{n}}$ $=\\left[ 3\\left( n+1 \\right)-2 \\right]-\\left( 3n-2 \\right)$ $=3$,$\\forall n\\in {{\\mathbb{N}}^{*}}$ nên $\\left( {{v}_{n}} \\right)$ là một cấp số cộng có số hạng đầu ${{v}_{1}}=3.1-2=1$ và công sai $d=3$.\nTa lại có: ${{u}_{n}}=\\left( {{u}_{n}}-{{u}_{n-1}} \\right)+\\left( {{u}_{n-1}}-{{u}_{n-2}} \\right)+...+\\left( {{u}_{2}}-{{u}_{1}} \\right)+{{u}_{1}}$ $={{v}_{n-1}}+{{v}_{n-2}}+...+{{v}_{1}}+2$.\nMà ${{v}_{n-1}}+{{v}_{n-2}}+...+{{v}_{1}}={{S}_{n-1}}$ $=\\frac{n-1}{2}\\left[ 2{{v}_{1}}+\\left( n-2 \\right)d \\right]$ $=\\frac{\\left[ 2+3\\left( n-2 \\right) \\right]\\left( n-1 \\right)}{2}$ $=\\frac{\\left( n-1 \\right)\\left( 3n-4 \\right)}{2}$\nVậy ${{u}_{n}}=\\frac{\\left( n-1 \\right)\\left( 3n-4 \\right)}{2}+2$ $\\Rightarrow {{u}_{101}}=\\frac{100.299}{2}+2=14952$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng đầu tiên của dãy là ${{u}_{1}}=\\frac{11}{2}$",
+    "b": "Số hạng thứ 3 của dãy là ${{u}_{3}}=\\frac{25}{4}$",
+    "c": "Tổng 5 số hạng đầu của dãy bằng $\\frac{127}{4}$",
+    "d": "Dãy số có duy nhất một số hạng nguyên"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số $({{u}_{n}})$ được xác định bởi ${{u}_{n}}=\\frac{{{n}^{2}}+3n+7}{n+1}$",
+   "explanation": "Ta có năm số hạng đầu của dãy\n${{u}_{1}}=\\frac{{{1}^{2}}+3.1+7}{1+1}=\\frac{11}{2}$, ${{u}_{2}}=\\frac{17}{3},{{u}_{3}}=\\frac{25}{4},{{u}_{4}}=7,{{u}_{5}}=\\frac{47}{6}$\nTa có: ${{u}_{n}}=n+2+\\frac{5}{n+1}$, do đó ${{u}_{n}}$ nguyên khi và chỉ khi $\\frac{5}{n+1}$ nguyên hay $n+1$ là ước của 5.\nĐiều đó xảy ra khi $n+1=5\\Leftrightarrow n=4$\nVậy dãy số có duy nhất một số hạng nguyên là ${{u}_{4}}=7$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho dãy số $({{u}_{n}})$ được xác định như sau: $\\left\\{ \\begin{aligned} & {{u}_{1}}=1;\\,{{u}_{2}}=2 \\\\ & {{u}_{n+2}}=2{{u}_{n+1}}+3{{u}_{n}}+5 \\\\ \\end{aligned} \\right.$. Tìm số hạng ${{u}_{8}}$.",
+   "explanation": "${{u}_{3}}=2{{u}_{2}}+3{{u}_{1}}+5=12$ ${{u}_{4}}=2{{u}_{3}}+3{{u}_{2}}+5=35$ ${{u}_{5}}=2{{u}_{4}}+3{{u}_{3}}+5=111$\n${{u}_{6}}=2{{u}_{5}}+3{{u}_{4}}+5=332$ ${{u}_{7}}=2{{u}_{6}}+3{{u}_{5}}+5=1002$ ${{u}_{8}}=2{{u}_{7}}+3{{u}_{6}}+5=3005$",
+   "short_value": 3005,
+   "short_correct": "3005",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Định x để 3 số ${10-3x,2{{x}^{2}}+3,7-4x}$ theo thứ tự đó lập thành 1 cấp số cộng.",
+   "explanation": "Theo tính chất cấp số cộng ta có: ${\\left( 10-3x \\right)+\\left( 7-4x \\right)=2\\left( 2{{x}^{2}}+3 \\right)}$\n${\\Leftrightarrow 17-7x=4{{x}^{2}}+6\\Leftrightarrow 4{{x}^{2}}+7x-11=0\\Leftrightarrow x=1\\vee \\text{ }x=-\\frac{11}{4}}$.",
+   "short_value": null,
+   "short_correct": "x=1;x=-\\dfrac{11}{4}",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho ${\\left(u_n\\right)}$ là cấp số cộng với số hạng đầu ${u_1=4}$ và công sai ${d=-10}$. Viết công thức số hạng tổng quát ${u_n}$.",
+   "explanation": "${{u}_{n}}=4+\\left( n-1 \\right)\\left( -10 \\right)=-10\\text{ }n+14$\nVậy công thức số hạng tổng quát ${u_n=-10 n+14}$",
+   "short_value": null,
+   "short_correct": "u_n=-10n+14",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một quốc gia có dân số năm 2011 là ${P}$ triệu người. Trong 10 năm tiếp theo, mỗi năm dân số tăng ${a \\%}$. Dân số các năm từ năm 2011 đến năm 2021 của quốc gia đó tạo thành một cấp số nhân. Tìm công bội của cấp số nhân này.",
+   "explanation": "Dân số qua các năm là:\n$\\begin{aligned} & {{u}_{2011}}=P \\\\ & {{u}_{2012}}=P+aP=P(1+a)={{u}_{2011}}\\cdot (1+a) \\\\ & {{u}_{2013}}=P(1+a)+aP(1+a)=P{{(1+a)}^{2}}={{u}_{2012}}\\cdot (1+a) \\\\ & \\ldots .. \\\\ & {{u}_{n+1}}={{u}_{n}}(1+a) \\\\ \\end{aligned}$\nVậy dân số các năm tạo thành cấp số nhân có công bội là $1+a$",
+   "short_value": null,
+   "short_correct": "1+a",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B3.D03",
+   "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số $({{u}_{n}})$ được xác định bởi: $\\left\\{ \\begin{aligned} & {{u}_{1}}=\\frac{1}{2} \\\\ & {{u}_{n+1}}={{u}_{n}}+2n \\\\ \\end{aligned} \\right.$. Tìm số hạng ${{u}_{50}}$.",
+   "explanation": "Từ giả thiết ta có:\n$\\begin{aligned} & {{u}_{1}}=\\frac{1}{2} \\\\ & {{u}_{2}}={{u}_{1}}+2.2 \\\\ & {{u}_{3}}={{u}_{2}}+2.3 \\\\ & ... \\\\ & {{u}_{50}}={{u}_{49}}+2.50 \\\\ \\end{aligned}$\nCộng theo vế các đẳng thức trên, ta được:\n${{u}_{50}}=\\frac{1}{2}+2.(2+3+\\,...\\,+50)=\\frac{1}{2}+2.\\sum\\limits_{x=2}^{50}{x=2548,5}$",
+   "short_value": 2450.5,
+   "short_correct": "2450,5",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B1.D01",
+   "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left( {{u}_{n}} \\right)}$ được xác định bởi ${\\left\\{ \\begin{aligned} & {{u}_{1}}=2 \\\\ & {{u}_{n+1}}=4{{u}_{n}}+9 \\\\ \\end{aligned} \\right.,\\forall n\\ge 1}$. Chứng minh rằng dãy số ${\\left( {{v}_{n}} \\right)}$ xác định bởi ${{{v}_{n}}={{u}_{n}}+3,\\forall n\\ge 1}$ là một cấp số nhân. Hãy xác định số hạng đầu và công bội của cấp số nhân đó.",
+   "explanation": "Vì có ${{{v}_{n}}={{u}_{n}}+3\\text{ (1) }\\Rightarrow {{v}_{n+1}}={{u}_{n+1}}+3\\text{ (2)}}$.\nTheo đề ${{{u}_{n+1}}=4{{u}_{n}}+9\\Rightarrow {{u}_{n+1}}+3=4\\left( {{u}_{n}}+3 \\right)}$ (3).\nThay (1) và (2) vào (3) được: ${{{v}_{n+1}}=4{{v}_{n}},\\forall n\\ge 1\\Rightarrow \\frac{{{v}_{n+1}}}{{{v}_{n}}}=4}$(không đổi). Kết luận ${\\left( {{v}_{n}} \\right)}$ là cấp số nhân với công bội ${q=4}$ và số hạng đầu ${{{v}_{1}}={{u}_{1}}+3=5}$.",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  }
+ ],
+ "flags": []
+}

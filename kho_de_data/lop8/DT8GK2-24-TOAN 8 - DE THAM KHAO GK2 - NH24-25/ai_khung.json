@@ -1,0 +1,412 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Để vẽ một đường thẳng, ta cần xác định ít nhất {{1}} điểm thuộc đường thẳng đó.",
+     "Với $({{d}_{1}}): y = \\frac{-1}{2}x$, ta có thể chọn $x=0 \\Rightarrow y={{2}}$ và $x=2 \\Rightarrow y={{3}}$."
+    ],
+    "hint": "Xác định điểm cho đường thẳng thứ nhất"
+   },
+   {
+    "lines": [
+     "Với $({{d}_{2}}): y = x+2$, ta có thể chọn $x=0 \\Rightarrow y={{4}}$ và $x=-2 \\Rightarrow y={{5}}$."
+    ],
+    "hint": "Xác định điểm cho đường thẳng thứ hai"
+   },
+   {
+    "lines": [
+     "Sau khi xác định các điểm, ta {{6}} chúng trên mặt phẳng tọa độ.",
+     "Cuối cùng, ta {{7}} các điểm đã đánh dấu để hoàn thành việc vẽ hai đường thẳng."
+    ],
+    "hint": "Thực hiện vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "hai",
+     "2"
+    ],
+    "placeholder": "số điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0",
+     "không"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-1"
+    ],
+    "keywords": [
+     "-1",
+     "âm một"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2",
+     "hai"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0",
+     "không"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "đánh dấu"
+    ],
+    "keywords": [
+     "đánh dấu",
+     "xác định"
+    ],
+    "placeholder": "hành động",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "input",
+    "answers": [
+     "nối"
+    ],
+    "keywords": [
+     "nối",
+     "vẽ"
+    ],
+    "placeholder": "hành động",
+    "maxLen": 12
+   }
+  ],
+  "pool": [],
+  "ordered": false
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ có {{2}} là phân giác $B\\hat{D}C$ nên:",
+     "$\\frac{FC}{FB}=\\frac{{{3}}}{DB}$ (tính chất đường phân giác)"
+    ],
+    "hint": "Áp dụng tính chất đường phân giác trong tam giác BDC"
+   },
+   {
+    "lines": [
+     "Mà {{4}} = {{5}} (vì {{6}} là trung tuyến của $\\triangle ABC$)",
+     "Nên $\\frac{FC}{FB}=\\frac{DA}{DB}$"
+    ],
+    "hint": "Sử dụng tính chất đường trung tuyến"
+   },
+   {
+    "lines": [
+     "Tương tự, xét $\\triangle ADB$ có {{7}} là phân giác $A\\hat{D}B$ nên:",
+     "$\\frac{EA}{EB}=\\frac{DA}{DB}$ (tính chất đường phân giác)",
+     "Từ đó $\\frac{EA}{EB}=\\frac{{{8}}}{FB}$",
+     "$\\Rightarrow $ {{9}} // {{10}}$ (theo định lí {{11}} đảo)"
+    ],
+    "hint": "Chứng minh EF song song AC"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle BDA$ có {{12}} // {{13}}$ (chứng minh trên)",
+     "Theo định lí Thales, ta có $\\frac{ME}{AD}=\\frac{BM}{BD}$",
+     "Xét $\\triangle BDC$ có {{14}} // {{15}}$ (chứng minh trên)",
+     "Theo định lí Thales, ta có $\\frac{MF}{DC}=\\frac{BM}{BD}$",
+     "Suy ra $\\frac{ME}{AD}=\\frac{{{16}}}{DC}$"
+    ],
+    "hint": "Thiết lập tỉ lệ để chứng minh M là trung điểm"
+   },
+   {
+    "lines": [
+     "Mà {{17}} = {{18}}$ (chứng minh trên)",
+     "Nên {{19}} = {{20}}$",
+     "Vậy {{21}} là trung điểm của {{22}}$."
+    ],
+    "hint": "Kết luận M là trung điểm của EF"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BDC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "DF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "DA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "DE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "FC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "EF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "Thales"
+    ],
+    "keywords": [],
+    "placeholder": "tên định lí",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "ME"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "MF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "MF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "ME"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "MF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "EF"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "BDC",
+   "DF",
+   "DC",
+   "DA",
+   "BD",
+   "DE",
+   "FC",
+   "EF",
+   "AC",
+   "Thales",
+   "ME",
+   "AD",
+   "MF",
+   "M",
+   "AB",
+   "BC",
+   "ABC",
+   "E",
+   "F",
+   "đồng vị",
+   "so le trong"
+  ]
+ }
+}

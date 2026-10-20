@@ -1,0 +1,635 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "2",
+  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho $A$, $B$ là hai biến cố. Công thức xác xuất toàn phần nào sau đây đúng?",
+   "explanation": "Theo định lý về công thức xác suất toàn phần, ta có đáp án như trên.",
+   "options": [
+    "$P(A)=P(A).P(A|B)+P(\\overline{A}).P(A|\\overline{B})$",
+    "$P(A)=P(B).P(A|B)+P(\\overline{B}).P(A|\\overline{B})$",
+    "$P(A)=P(A).P(\\overline{A}|B)+P(\\overline{A}).P(A|\\overline{B})$",
+    "$P(B)=P(B).P(A|B)+P(\\overline{B}).P(A|\\overline{B})$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D04",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho $A$, $B$ là hai biến cố. Biết $P(B)=0,2$. Nếu $B$không xảy ra thì thỉ lệ $A$xảy ra là $2\\%$. Nếu $B$ xảy ra thì tỉ lệ $A$ xảy ra $4\\%$. Xác suất của biến cố $A$là bao nhiêu?",
+   "explanation": "$P(B)=0,2\\Rightarrow P(\\overline{B})=0,8$.\nVì $B$ xảy ra thì tỉ lệ $A$ sảy ra $4\\%$ nên $P(A|B)=0,04$.\nTương tự ta cũng có $P(A|\\overline{B})=0,02$. Theo công thức xác suất toàn phần ta có:\n$P(A)=P(B).P(A|B)+P(\\overline{B}).P(A|\\overline{B})=0,2.0,04+0,8.0,02=0,024$.",
+   "options": [
+    "$0,018$",
+    "$0,036$",
+    "$0,028$",
+    "$0,024$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A,\\,B$ thỏa mãn $P\\left( \\overline{B} \\right)=0,2;\\,P\\left( A|B \\right)=0,5;\\,P\\left( \\left. A \\right|\\overline{B} \\right)=0,3$. Khi đó, $P\\left( A \\right)$ bằng",
+   "explanation": "Ta có: $P\\left( B \\right)=1-P\\left( \\overline{B} \\right)=0,8$.\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,8.0,5+0,2.0,3=0,46$.",
+   "options": [
+    "$0,46$",
+    "$0,34$",
+    "$0,15$",
+    "$0,31$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hai biến cố $A,\\,B$ thỏa mãn $P\\left( A \\right)=0,4;\\,P\\left( A|B \\right)=0,5;\\,P\\left( \\left. A \\right|\\overline{B} \\right)=0,1$. Khi đó, $P\\left( B \\right)$ bằng",
+   "explanation": "Đặt $P\\left( B \\right)=x$, suy ra $P\\left( \\overline{B} \\right)=1-x$.\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)$\n$\\Leftrightarrow 0,4=0,5x+0,1\\left( 1-x \\right)$\n$\\Leftrightarrow 0,3=0,4x$\n$\\Leftrightarrow x=0,75$\nVậy $P\\left( B \\right)=0,75$.",
+   "options": [
+    "$0,9$",
+    "$0,25$",
+    "$0,2$",
+    "$0,75$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hai biến cố ${A, B}$ với $P(B)=0,6$, $P(A|B)=0,7$ và $P(A|\\overline{B})=0,4$. Khi đó, $P(A)$ bằng",
+   "explanation": "Ta có: $P(\\overline{B})=1-P(B)=1-0,6=0,4$.\nTheo công thức xác suất toàn phần:\n$P(A)=P(B).P(A|B)+P(\\bar{B}).P(A|\\bar{B})=0,6.0,7+0,4.0,4=0,58$.",
+   "options": [
+    "${0,7}$",
+    "${0,4}$",
+    "${0,58}$",
+    "${0,52}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố ${A,B}$ thỏa mãn $P(A)=0,4$, $P(B)=0,3$, $P(A|B)=0,25$. Khi đó, $P(B|A)$ bằng",
+   "explanation": "Theo công thức Bayes, ta có\n$P(B|A)=\\frac{P(B).P(A|B)}{P(A)}=\\frac{0,3.0,25}{0,4}=0,1875$.",
+   "options": [
+    "${0,1875}$",
+    "${0,48}$",
+    "${0,333}$",
+    "${0,95}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Giả sử $A$ và $B$ là hai biến cố ngẫu nhiên thỏa mãn $P\\left( A \\right)>0$ và $0<P\\left( B \\right)<1$. Khẳng định nào sau đây đúng?",
+   "explanation": "Giả sử $A$ và $B$ là hai biến cố ngẫu nhiên thỏa mãn $P\\left( A \\right)>0$ và $0<P\\left( B \\right)<1$, khi đó ta có công thức Bayes $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$ hay $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}$.",
+   "options": [
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)+P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$",
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)-P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$",
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|\\overline{B} \\right)+P\\left( \\overline{B} \\right)P\\left( A|B \\right)}$",
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D04",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Người ta điều tra thấy ở một địa phương nọ có $3\\%$ tài xế sử dụng điện thoại di động khi lái xe. Người ta nhận thấy khi tài xế lái xe gây ra tai nạn thì có $21\\%$ là do tài xế sử dụng điện thoại. Hỏi việc sử dụng điện thoại di động khi lái xe làm tăng xác suất gây tai nạn lên bao nhiêu lần?",
+   "explanation": "Ta gọi $A$ là biến cố “Tài xế sử dụng điện thoại di động khi lái xe”, $B$ là biến cố “Tài xế lái xe gây tai nạn”.\nKhi đó $P\\left( A \\right)=3\\%=0,03,\\,P\\left( A|B \\right)=21\\%=0,21.\\,$\nTheo công thức Bayes: $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}\\Rightarrow \\frac{P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,21}{0,03}=7.$\nVậy việc sử dụng điện thoại di động khi lái xe làm tăng xác suất gây tai nạn lên $7$ lần.",
+   "options": [
+    "$3$",
+    "$7$",
+    "$5$",
+    "$6$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ sao cho $P\\left( A \\right)=0,6$; $P\\left( B \\right)=0,4$; $P\\left( A|B \\right)=0,3$. Khi đó $P\\left( B|A \\right)$ bằng?",
+   "explanation": "Áp dụng công thức Bayes, ta có: $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,4.0,3}{0,6}=0,2$.",
+   "options": [
+    "$0,2$",
+    "$0,3$",
+    "$0,4$",
+    "$0,6$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Giả sử $A$ và $B$ là hai biến cố ngẫu nhiên thỏa mãn $P\\left( A \\right)>0$ và $0<P\\left( B \\right)<1$. Khẳng định nào dưới đây sai?",
+   "explanation": "Giả sử $A$ và $B$ là hai biến cố ngẫu nhiên thỏa mãn $P\\left( A \\right)>0$ và $0<P\\left( B \\right)<1$. Khi đó, công thức Bayes:\n$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$ hay còn có thể viết dưới dạng: $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}$.",
+   "options": [
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( A \\right)P\\left( B|A \\right)}$",
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$",
+    "$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}$",
+    "$P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D04",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một công ty may có hai chi nhánh cùng sản xuất một loại áo, trong đó có $56\\%$áo ở chi nhánh I và $44\\%$ áo ở chi nhánh II. Tại chi nhánh I có $75\\%$ áo chất lượng cao và tại chi nhánh II có $68\\%$ áo chất lượng cao ( kích thước và hình dáng bề ngoài của các áo là như nhau). Chọn ngẫu nhiên $1$ áo . Xác suất chọn được áo chất lượng cao là (làm tròn đến chữ số thập phân thứ hai)",
+   "explanation": "Gọi $A$ là biến cố áo được chọn là áo chất lượng cao. $B$ là biến cố áo được chọn ở chi nhánh $I$ và $\\overline{B}$ là biến cố áo được chọn ở chi nhánh $II$.\nTừ giải thiết ta có $P\\left( B \\right)=0,56$, $P\\left( \\left. A \\right|B \\right)=0,75$, $P\\left( \\overline{B} \\right)=0,44$, $P\\left( \\left. A \\right|\\overline{B} \\right)=0,68$.\nTheo công thức xác suất toàn phần ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A\\left| B \\right. \\right)+P\\left( \\overline{B} \\right).P\\left( \\left. A \\right|\\overline{B} \\right)=0,56.0,75+0,44.0,68=0,7192\\approx 0,72$.\nVậy xác suất chọn được áo chất lượng cao là $0,72$.",
+   "options": [
+    "$0,72$",
+    "$0,35$",
+    "$0,82$",
+    "$0,55$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Được biết có $5\\%$ đàn ông bị mù màu, và $0,25\\%$ phụ nữ bị mù màu (Nguồn: F. M. Dekking et al., A modern introduction to probability and statistics – Understanding why and how, Springer, 2005). Giả sử số đàn ông bằng số phụ nữ. Chon một người bị mù màu. Xác suất để người đó là đàn ông là bao nhiêu?",
+   "explanation": "Gọi $A$ là biến cố người được chọn là đàn ông, $B$ là biến cố người được chọn mù màu.\nTheo đề bài ra ta có $P\\left( \\left. B \\right|A \\right)=0,05;P\\left( \\left. B \\right|\\overline{A} \\right)=0,0025$.\nVì số đàn ông bằng số phụ nữ nên ta có $P\\left( A \\right)=P\\left( \\overline{A} \\right)=0,5$.\nÁp dụng công thức Bayes ta có xác suất để chọn được một người đàn ông mù màu là\n$P\\left( \\left. A \\right|B \\right)=\\frac{P\\left( A \\right).P\\left( \\left. B \\right|A \\right)}{P\\left( A \\right).P\\left( \\left. B \\right|A \\right)+P\\left( \\overline{A} \\right).P\\left( \\left. B \\right|\\overline{A} \\right)}=\\frac{0,5.0,05}{0,5.0,05+0,5.0,0025}=\\frac{20}{21}.$",
+   "options": [
+    "$\\frac{19}{21}$",
+    "$\\frac{20}{21}$",
+    "$\\frac{24}{25}$",
+    "$\\frac{18}{25}$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( \\overline{B} \\right)=0,07$.",
+    "b": "Công thức xác suất đầy đủ là $P\\left( A \\right)=P\\left( B \\right)P\\left( \\left. A \\right|B \\right)+P\\left( \\overline{B} \\right)P\\left( \\left. A \\right|\\overline{B} \\right)$.",
+    "c": "Công thức xác suất đầy đủ là $P\\left( A \\right)=P\\left( \\overline{B} \\right)P\\left( \\left. A \\right|B \\right)+P\\left( B \\right)P\\left( \\left. A \\right|\\overline{B} \\right)$.",
+    "d": "$P\\left( A \\right)=0,017$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho $A$ và $B$là hai biến cố của cùng phép thử, biết rằng $P\\left( B \\right)=0,3$,$\\,P\\left( \\left. A \\right|B \\right)=0,01$ và $P\\left( \\left. A \\right|\\overline{B} \\right)=0,02$.",
+   "explanation": "a) Sai.\n$P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=1-0,3=0,7$.\nb) Đúng.\nTheo công thức được nêu trong sách giáo khoa.\nc) Sai.\nd) Đúng.\n$P\\left( A \\right)=P\\left( B \\right)P\\left( \\left. A \\right|B \\right)+P\\left( \\overline{B} \\right)P\\left( \\left. A \\right|\\overline{B} \\right)$\n$=0,3\\cdot 0,01+0,7\\cdot 0,02=0,017$.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất một khách hàng mua điện thoại Samsung là $0,75$.",
+    "b": "Xác suất để một khách hàng mua điện thoại Iphone là $0,15$.",
+    "c": "Xác suất để một khách hàng mua ốp điện thoại biết rằng khách hàng đó đã mua điện thoại Samsung là $0,6$, xác suất để một khách hàng mua ốp điện thoại biết rằng khách hàng đó đã mua Iphone là $0,3$.",
+    "d": "Xác suất một khách hàng mua điện thoại kèm ốp là $0,525$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một cửa hàng chỉ bán hai loại điện thoại là Samsung và Iphone. Tỷ lệ khách hàng mua điện thoại Samsung là $75\\%$. Trong số các khách hàng mua điện thoại Samsung thì có $60\\%$ mua kèm ốp điện thoại. Tỷ lệ khách hàng mua điện thoại Iphone kèm ốp điện thoại trong số những khách hàng mua điện thoại Iphone là $30\\%.$",
+   "explanation": "Gọi $A$ là biến cố một khách hàng mua điện thoại kèm ốp, $B$ là biến cố một khách hàng mua điện thoại Samsung\na) Đúng.\n$P(B)=75\\%=0.75$.\nb) Sai.\nXác suất để một khách hàng mua điện thoại Iphone là $P\\left( \\overline{B} \\right)=1-0,75=0,25$.\nc) Đúng.\n$P\\left( \\left. A \\right|B \\right)=60\\%=0,6;\\,P\\left( \\left. A \\right|\\overline{B} \\right)=30\\%=0,3$.\nd) Đúng.\n$P\\left( A \\right)=P\\left( B \\right)P\\left( \\left. A \\right|B \\right)+P\\left( \\overline{B} \\right)P\\left( \\left. A \\right|\\overline{B} \\right)$\n$=0,75\\cdot 0,6+0,25\\cdot 0,3=0,525$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để người đó mắc bệnh khi chưa kiểm tra là $0,02$.",
+    "b": "Xác suất kết quả dương tính nếu người đó mắc bệnh là: $0,99$.",
+    "c": "Xác suất kết quả dương tính nếu người đó không mắc bệnh là: $0,01$.",
+    "d": "Biết rằng đã có kết quả chuẩn đoán là dương tính, xác suất để người đó thực sự bị bệnh là $0,25$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một căn bệnh có 2% dân số mắc phải. Một phương pháp chẩn đoán được phát triển có tỷ lệ chính xác là 99%. Với những người bị bệnh, phương pháp này sẽ đưa ra kết quả dương tính 99% số trường hợp. Với người không mắc bệnh, phương pháp này cũng chuẩn đoán đúng 97%. Lấy một người đi kiểm tra.",
+   "explanation": "a) Đúng.\nGọi $A$ là biến cố “người đó mắc bệnh”\nXác suất để người đó mắc bệnh khi chưa kiểm tra:$P\\left( A \\right)=2\\%=0,02$\nb) Đúng\nGọi $B$ là biến cố “kết quả kiểm tra người đó là dương tính”\nXác suất kết quả dương tính nếu người đó mắc bệnh là: $P\\left( B|A \\right)=99\\%=0,99$\nc) Sai\nXác xuất kết quả âm tính nếu người đó không mắc bệnh là: $P\\left( \\overline{B}|\\overline{A} \\right)=97\\%=0,97$.\nXác suất kết quả dương tính nếu người đó không mắc bệnh là: $P\\left( B|\\bar{A} \\right)=1-P\\left( \\overline{B}|\\overline{A} \\right)=1-0,97=0,03$\nd) Sai\nDo đó xác suất để người đó không mắc bệnh khi chưa kiểm tra: $P\\left( {\\bar{A}} \\right)=1-0,02=0,98$\nXác suất để người đó thực sự bị bệnh là\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)}=\\frac{0,02.0,99}{0,02.0,99+0,98.0,03}=\\frac{33}{82}\\approx 0,402.$",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để lấy được bi đánh số có màu vàng là $0,6$.",
+    "b": "Xác suất để lấy được bi không đánh số có màu đỏ là $0,8$.",
+    "c": "Xác suất để viên bi được lấy ra có đánh số là $0,36$.",
+    "d": "Xác suất để lấy viên bi màu đỏ có đánh số là $\\frac{2}{3}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một chiếc hộp có 50 viên bi, trong đó có 30 viên bi màu đỏ và 20 viên bi màu vàng; các viên bi có kích thước và khối lượng như nhau. Sau khi kiểm tra, người ta thấy có 80% số viên bi màu đỏ đánh số và 60% số viên bi màu vàng có đánh số, những viên bi còn lại không đánh số. Lấy ra ngẫu nhiên một viên bi trong hộp.",
+   "explanation": "Gọi $A$ là biến cố “viên bi được lấy ra có đánh số”\nGọi $B$ là biến cố “viên bi được lấy ra có màu đỏ”, suy ra $\\bar{B}$ là biến cố “viên bi được lấy ra có màu vàng”,\na) Đúng\n$P\\left( A|\\bar{B} \\right)=60\\%=0,6$\nb) Sai\n$P\\left( A|B \\right)=80\\%=0,8$, nên $P\\left( \\overline{A}|B \\right)=1-P\\left( A|B \\right)=1-0,8=0,2$.\nc) Sai\nTa có: $P\\left( B \\right)=\\frac{30}{50}=0,6$; $P\\left( {\\bar{B}} \\right)=\\frac{20}{50}=0,4$\nVậy $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( {\\bar{B}} \\right).P\\left( A|\\bar{B} \\right)=0,6.0,8+0,4.0,6=0,72$\nd) Đúng\nTa có:$P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,6.0,8}{0,72}=\\frac{2}{3}$.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một hộp có 80 viên bi, trong đó có 50 viên bi màu đỏ và 30 viên bi màu vàng; các viên bi có kích thước và khối lượng như nhau. Sau khi kiểm tra, người ta thấy có 90% số viên bi màu đỏ được đánh số và 50% số viên bi màu vàng được đánh số, những viên bi còn lại không đánh số. Lấy ra ngẫu nhiên một viên bi trong hộp. Tính xác suất để viên bi được lấy ra có đánh số (kết quả để dưới dạng số thập phân và làm tròn đến hàng phần trăm) .",
+   "explanation": "Đáp số: $0,75$.\nGọi $A$là biến cố: “ Viên bi được lấy ra có đánh số”\nGọi $B$là biến cố: “ Viên bi được lấy ra có màu đỏ”, suy ra $\\overline{B}$là biến cố: “ Viên bi được lấy ra có màu vàng”.\nKhi đó, ta có:\n$P\\left( B \\right)=\\frac{50}{80}=\\frac{5}{8};\\text{ }P\\left( \\overline{B} \\right)=\\frac{30}{80}=\\frac{3}{8}$;\n$P\\left( A|B \\right)=90\\%=\\frac{9}{10};\\text{ }P\\left( A|\\overline{B} \\right)=50\\%=\\frac{1}{2}$.\nÁp dụng công thức xác suất toàn phần, ta có:\n$P(A)=P(B).P\\left( A|B \\right)\\text{+}P(\\overline{B}).P\\left( A|\\overline{B} \\right)=\\frac{5}{8}.\\frac{9}{10}+\\frac{3}{8}.\\frac{1}{2}=\\frac{3}{4}=0,75$.",
+   "short_value": 0.75,
+   "short_correct": "0,75",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một lô linh kiện có chứa 40% linh kiện do nhà máy I sản xuất và 60% linh kiện do nhà máy II sản xuất. Biết tỉ lệ phế phẩm của nhà máy I, II lần lượt là 3%, 4%. Một khách hàng lấy ngẫu nhiên một linh kiện từ lô hàng đó. Tính xác suất để linh kiện được lấy ra là linh kiện tốt ( kết quả để dưới dạng số thập phân và làm tròn đến hàng phần trăm) .",
+   "explanation": "Đáp số: 0,96.\nGọi $A$là biến cố: “ linh kiện được lấy ra là linh kiện tốt”\nGọi $B$là biến cố: “ linh kiện được lấy ra do nhà máy I sản xuất ”, suy ra $\\overline{B}$là biến cố: “ linh kiện được lấy ra do nhà máy II sản xuất”.\nKhi đó, ta có:\n$P\\left( B \\right)=40\\%=\\frac{2}{5};\\text{ }P\\left( \\overline{B} \\right)=60\\%=\\frac{3}{5}$;\n$P\\left( A|B \\right)=100\\%-3\\%=97\\%=\\frac{97}{100};\\text{ }P\\left( A|\\overline{B} \\right)=100\\%-4\\%=96\\%=\\frac{96}{100}=\\frac{24}{25}$.\nÁp dụng công thức xác suất toàn phần, ta có:\n$P(A)=P(B).P\\left( A|B \\right)\\text{+}P(\\overline{B}).P\\left( A|\\overline{B} \\right)=\\frac{2}{5}.\\frac{97}{100}+\\frac{3}{5}.\\frac{24}{25}=\\frac{241}{250}\\approx 0,96$.",
+   "short_value": 0.96,
+   "short_correct": "0,96",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty du lịch bố trí chỗ nghỉ cho đoàn khách tại ba khách sạn $A,\\,B,\\,C$ theo tỉ lệ $20$% , $50$% , $30$% . Tỉ lệ hỏng điều hòa ở ba khách sạn lần lượt là $5$% , $4$% , $8$% . Tính xác suất để:\na) Một khách ở khách sạn $A$, biết khách đó ở phòng điều hòa bị hỏng.\nb) Một khách ở khách sạn $C$, biết khách đó ở phòng điều hòa không bị hỏng.\n(kết quả để dưới dạng số thập phân và làm tròn đến hàng phần trăm)",
+   "explanation": "Đáp số: a) 0,19.\nb) 0,29.\nGọi biến cố $H$: “Khách nghỉ ở phòng có điều hòa bị hỏng”\n$A$: “Khách nghỉ tại khách sạn $A$”\n$B$: “Khách nghỉ tại khách sạn $B$”\n$C$: “Khách nghỉ tại khách sạn $C$”\nTheo bài ra ta có: $P\\left( A \\right)=0,2$; $P\\left( B \\right)=0,5$; $P\\left( C \\right)=0,3$.\n$P\\left( H|A \\right)=0,05$; $P\\left( H|B \\right)=0,04$; $P\\left( H|C \\right)=0,08$\nÁp dụng công thức xác suất toàn phần, ta có:\n$P\\left( H \\right)\\,=\\,P\\left( A \\right).P\\left( H|A \\right)\\,+\\,P\\left( B \\right).P\\left( H|B \\right)\\,+\\,P\\left( C \\right).P\\left( H|C \\right)\\,\\,$\n$=\\,0,2.\\,0,05\\,+\\,0,5.0,04\\,+\\,0,3.0,08$\n$=\\,0,054$.\na) Áp dụng công thức Bayes, xác suất để một khách ở khách sạn $A$, biết khách đó ở phòng điều hòa bị hỏng là:\n$P\\left( A|H \\right)\\,=\\,\\frac{P\\left( A \\right).P\\left( H|A \\right)}{P\\left( H \\right)}\\,=\\,\\frac{0,2.0,05}{0,054}\\,=\\,\\frac{5}{27}\\,\\simeq \\,0,19$.\nb) Áp dụng công thức Bayes, xác suất để một khách ở khách sạn $C$, biết khách đó ở phòng điều hòa không bị hỏng là:\n$P\\left( C|\\overline{H} \\right)\\,=\\,\\frac{P\\left( C \\right).P\\left( \\overline{H}|C \\right)}{P\\left( \\overline{H} \\right)}\\,=\\,\\frac{0,3.\\left( 1-\\,0,08 \\right)}{1-0,054}\\,=\\,\\frac{138}{473}\\,\\simeq \\,0,29$.",
+   "short_value": 0.054,
+   "short_correct": "0,05",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hộp$I$gồm $5$ bi trắng và 5 bi đỏ, hộp $II$gồm $6$bi trắng và 4 bi đỏ. Bỏ ngẫu nhiên hai bi từ hộp $I$ sang hộp $II$. Sau đó lấy ngẫu nhiên từ hộp $II$ một bi.  Giả sử lấy được viên bi trắng. Tính xác suất để lấy được bi trắng từ hộp $I$.\n(làm tròn đến hàng phần trăm)",
+   "explanation": "Đáp số: a) 0,58.\nb) 0,14.\nGọi ${{K}_{1}}$: “Bi lấy ra từ hộp II là bi của hộp $I$”\n${{K}_{2}}$: “Bi lấy ra từ hộp $II$ là bi của hộp $II$”\n$A$: “Lấy được bi trắng”\na) Ta có : $P\\left( {{K}_{1}} \\right)\\,=\\,\\frac{C_{2}^{1}}{C_{12}^{1}}\\,=\\,\\frac{1}{6}$; $P\\left( {{K}_{2}} \\right)\\,=\\,\\frac{C_{10}^{1}}{C_{12}^{1}}\\,=\\,\\frac{5}{6}$.\n$P\\left( A|{{K}_{1}} \\right)\\,=\\,\\frac{C_{5}^{1}}{C_{10}^{1}}\\,=\\,\\frac{1}{2}$; $P\\left( A|{{K}_{2}} \\right)\\,=\\,\\frac{C_{6}^{1}}{C_{10}^{1}}\\,=\\,\\frac{3}{5}$.\nÁp dụng công thức xác suất toàn phần, ta có xác suất để lấy được bi trắng là:\n$P\\left( A \\right)\\,=\\,P\\left( {{K}_{1}} \\right).P\\left( A|{{K}_{1}} \\right)\\,+P\\left( {{K}_{2}} \\right).P\\left( A|{{K}_{2}} \\right)\\,=\\,\\frac{1}{6}.\\frac{1}{2}\\,+\\,\\frac{5}{6}.\\frac{3}{5}=\\frac{7}{12}\\simeq \\,0,58$.\nb) Áp dụng công thức Bayes, xác suất để lấy được bi trắng của hộp $I$ là:\n$P\\left( {{K}_{1}}|A \\right)\\,=\\,\\frac{P\\left( {{K}_{1}} \\right).P\\left( A|{{K}_{1}} \\right)}{P\\left( A \\right)\\,}\\,\\,=\\,\\frac{\\frac{1}{6}.\\frac{1}{2}}{\\frac{7}{12}}\\,=\\,\\frac{1}{7}\\,\\simeq \\,0,14$.",
+   "short_value": 0.6,
+   "short_correct": "0,14",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một xét nghiệm Covid – 19 cho kết quả dương tính với $90\\%$ các trường hợp thực sự nhiễm virus và cho kết quả âm tính với $80\\%$ các trường hợp thực sự không nhiễm virus. Biết rằng tỉ lệ người nhiễm Covid – 19 trong một cộng đồng nào đó là $1\\%$. Một người trong cộng đồng đó cho kết quả xét nghiệm dương tính. Xác suất để người đó thực sự bị nhiễm virus có dạng $\\frac{a}{b}$ (Phân số tối giản). Giá trị của $a+b$ bằng bao nhiêu?",
+   "explanation": "Đáp số: 24.\nGọi $A$ là biến cố “Người đó bị nhiễm Virus”.\n$B$ là biến cố “Người đó cho kết quả dương tính”.\nXét nghiệm Covid – 19 cho kết quả dương tính với $90\\%$ các trường hợp thực sự nhiễm virus$P\\left( B|A \\right)=0,9$.\nXét nghiệm Covid – 19 cho kết quả âm tính với $80\\%$ các trường hợp thực sự không nhiễm virus, nên cho kết quả dương tính với $20\\%$ các trường hợp không thực sự nhiễm virus $P\\left( B|\\bar{A} \\right)=0,2$\n$P\\left( A \\right)=0,01\\Rightarrow P\\left( {\\bar{A}} \\right)=0,99$\nDo đó xác suất để người đó cho kết quả dương tính là:\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=0,01.0,9+0,99.0,2=0,207$\nXác suất để người nhiễm virus cho kết quả dương tính là:\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,01.0,9}{0,207}=\\frac{1}{23}$\nVậy $a=1,b=23\\Rightarrow a+b=24$.",
+   "short_value": 24,
+   "short_correct": "24",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 15,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tỷ lệ người nghiện thuốc lá tại một vùng là $30\\%$. Biết rằng tỷ lệ người bị viêm họng trong số những người nghiện thuốc là $60\\%$, còn tỷ lệ người bị viêm họng trong số những người không nghiện là $40\\%$. Lấy ngẫu nhiên một người thấy người ấy không bị viêm họng. Tính xác suất người đó nghiện thuốc lá. (Làm tròn kết quả tới hàng phần trăm)",
+   "explanation": "Đáp số: 0,22.\nGọi $A$ là biến cố “Người này bị nghiện thuốc lá”\nB là biến cố “Người này không bị viêm họng”\nTa có $P\\left( A \\right)=0,3\\Rightarrow P\\left( {\\bar{A}} \\right)=0,7$.\nTỷ lệ người bị viêm họng trong số người bị nghiện thuốc là $P\\left( \\bar{B}|A \\right)=0,6$\nTỷ lệ người bị viêm họng trong số người không bị nghiện thuốc là $P\\left( \\bar{B}|\\bar{A} \\right)=0,4$\nDo đó $P\\left( {\\bar{B}} \\right)=P\\left( A \\right).P\\left( \\bar{B}|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( \\bar{B}|\\bar{A} \\right)=0,3.0,6+0,7.0,4=0,46$.\nSuy ra $P\\left( B \\right)=1-P\\left( {\\bar{B}} \\right)=0,54$.\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,3.0,4}{0,54}=\\frac{2}{9}\\approx 0,22$.",
+   "short_value": 0.22,
+   "short_correct": "0,22",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  }
+ ],
+ "flags": []
+}

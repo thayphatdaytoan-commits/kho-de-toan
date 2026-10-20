@@ -1,0 +1,626 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "8",
+  "lesson": "1",
+  "title": "Bài 1. Quy tắc đếm",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một người có $5$ cái quần khác nhau, $7$ cái áo khác nhau, $9$chiếc cà vạt khác nhau. Để chọn một cái quần hoặc một cái áo hoặc một cái cà vạt thì số cách chọn khác nhau là:",
+   "explanation": "Nếu chọn một cái quần thì sẽ có $5$ cách.\nNếu chọn một cái áo thì sẽ có $7$ cách.\nNếu chọn một cái cà vạt thì sẽ có $9$ cách.\nTheo qui tắc cộng, ta có $5+7+9=21$ cách chọn.",
+   "options": [
+    "$12$",
+    "$315$",
+    "$6615$",
+    "$21$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tủ lạnh nhà bạn An có 20 hộp sữa và 15 cái bánh quy, trong đó có 12 hộp sữa có hương dâu và 8 hộp sữa sô cô la, 8 cái bánh quy hương sô cô la và 7 cái bánh quy hương dâu. Bạn An đang cần lựa 1 món bánh sô cô la và 1 hộp sữa dâu để ăn bữa chiều. Hỏi bạn An có bao nhiêu cách chọn?",
+   "explanation": "Để bạn An chọn 1 hộp sữa hương sô cô la và 1 bánh quy hương dâu thì trải qua 2 giai đoạn\nGiai đoạn 1. Chọn 1 hộp sữa hương dâu trong 12 hộp sữa hương dâu có 12 cách chọn.\nGiai đoạn 2. Chọn 1 bánh quy sô cô la trong 8 bánh quy sô cô la có 8 cách chọn.\nVậy theo quy tắc nhân có $8.12=96$cách chọn 1 hộp sữa hương sô cô la và 1 bánh quy hương dâu.",
+   "options": [
+    "$96$",
+    "$84$",
+    "$15$",
+    "$35$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cửa hàng tiện lợi có bán combo bánh ngọt và đồ uống. Các loại bánh ngọt và đồ uống được mô tả bằng sơ đồ hình cây sau:\n[[IMG:image13.png]]\nHãy cho biết có bao nhiêu cách để khách hàng có thể lựa chọn được combo gồm một bánh ngọt và một loại đồ uống?",
+   "explanation": "Từ sơ đồ hình cây trên ta có:\nChọn bánh ngọt có 5 cách chọn.\nChọn đồ uống có 4 cách chọn.\nVậy có $5.4=20$ cách chọn 1 combo đồ uống và bánh ngọt.",
+   "options": [
+    "$20$",
+    "$12$",
+    "$3$",
+    "$4$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một thùng trong đó có $19$ hộp đựng bút màu đỏ, $15$ hộp đựng bút màu xanh. Số cách khác nhau để chọn được đồng thời một hộp màu đỏ, một hộp màu xanh là",
+   "explanation": "Để chọn một hộp màu đỏ và một hộp màu xanh, ta có:\nCó $19$ cách chọn hộp màu đỏ.\nCó $15$ cách chọn hộp màu xanh.\nVậy theo qui tắc nhân ta có $19\\times 15=285$ cách.",
+   "options": [
+    "$19$",
+    "$285$",
+    "$15$",
+    "$34$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Từ thành phố A có 9 con đường đi đến thành phố B, từ thành phố A có 8 con đường đi đến thành phố C, từ thành phố B đến thành phố D có 5 con đường, từ thành phố C đến thành phố D có 10 con đường và không có con đường nào nối thành phố B với thành phố C. Hỏi có bao nhiêu cách đi từ thành phố A đến thành phố D?",
+   "explanation": "Đề đi từ A đến D ta có cách đi như sau:\nTrường hợp 1: Đi ABD có $9.5=45$.\nTrường hợp 2: Đi ACD có $8.10=80$.\nVậy có tất cả $45+80=125$cách đi từ A đến D",
+   "options": [
+    "32",
+    "125",
+    "122",
+    "137"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Hùng muốn qua nhà Huy để cùng Huy đến chơi nhà Nam. Từ nhà Hùng đến nhà Huy có $5$ con đường đi, từ nhà Huy tới nhà Nam có $8$ con đường đi. Hỏi Hùng có bao nhiêu cách chọn đường đi đến nhà Nam?",
+   "explanation": "Từ Hùng $\\xrightarrow{{}}$ Huy có $5$ cách.\nTừ Huy $\\xrightarrow{{}}$ Nam có $8$ cách.\nVậy theo qui tắc nhân ta có $5\\times 8=40$ cách.",
+   "options": [
+    "$5$",
+    "$8$",
+    "$13$",
+    "$40$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên có 3 chữ số đôi một khác nhau?",
+   "explanation": "Gọi số cần lập là $\\overline{abc}$ có ba chữ số đôi một khác nhau.\nChữ số $a$ có $9$ cách chọn.\nChữ số $b$ có $9$ cách chọn.\nChữ số $c$ có $8$ cách chọn.\nDo đó có $9.9.8=648$ cách lập số.",
+   "options": [
+    "$1000$",
+    "$720$",
+    "$648$",
+    "$729$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho tập hợp $A=\\left\\{ \\,1;\\,2;\\,4;\\,5;\\,7;\\,8 \\right\\}.$Có bao nhiêu số tự nhiên gồm 4 chữ số được lập từ $A$ sao cho các chữ số khác nhau từng đôi một.",
+   "explanation": "Gọi số có bốn chữ số có dạng $\\overline{{{a}_{1}}{{a}_{2}}{{a}_{3}}{{a}_{4}}}$ trong đó ${{a}_{1}}\\ne {{a}_{2}}\\ne {{a}_{3}}\\ne {{a}_{4}}.$\nKhi đó ta trải qua các giai đoạn sau\nGiai đoạn 1: Chọn ${{a}_{1}}$ có 6 cách chọn.\nGiai đoạn 2: Chọn ${{a}_{2}}$ có 5 cách chọn.\nGiai đoạn 3: Chọn ${{a}_{3}}$ có 4 cách chọn.\nGiai đoạn 4: Chọn ${{a}_{4}}$ có 3 cách chọn.\nVậy theo quy tắc nhân có $6.5.4.3=360$ số tự nhiên gồm 4 chữ số được lập từ $A$ sao cho các chữ số khác nhau từng đôi một.",
+   "options": [
+    "$360.$",
+    "$26$",
+    "$189$",
+    "$180$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Từ các số $0;1;2;3;4;5$ có thể lập được bao nhiêu số chẵn gồm $4$ chữ số khác nhau?",
+   "explanation": "Gọi số cần tìm có dạng $\\overline{abcd}$ với $\\left( a,b,c,d \\right)\\in A=\\left\\{ 0;1;2;3;4;5 \\right\\}$\nVì $\\overline{abcd}$ là số chẵn $\\Rightarrow d=\\left\\{ 0,2,4 \\right\\}.$\nTH1. Nếu $d=0$ số cần tìm là $\\overline{abc0}$ Khi đó:\n$\\bullet $ $a$ được chọn từ tập $A\\backslash \\left\\{ 0 \\right\\}$ nên có $5$ cách chọn.\n$\\bullet $ $b$ được chọn từ tập $A\\backslash \\left\\{ 0,a \\right\\}$ nên có $4$ cách chọn\n$\\bullet $ $c$ được chọn từ tập $A\\backslash \\left\\{ 0,a,b \\right\\}$ nên có $3$ cách chọn.\nNhư vậy, ta có $5\\times 4\\times 3=60$ số có dạng $\\overline{abc0}$\nTH2. Nếu $d=\\left\\{ 2,4 \\right\\}\\Rightarrow d$ có $2$ cách chọn.\nKhi đó $a$ có $4$ cách chọn $b$ có $4$ cách chọn và $c$ có $3$ cách chọn.\nNhư vậy, ta có $2\\times 4\\times 4\\times 3=96$ số cần tìm như trên.\nVậy có tất cả $60+96=156$ số cần tìm.",
+   "options": [
+    "$120$",
+    "$200$",
+    "$156$",
+    "$240$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Từ các chữ số $0,1,\\,2,\\,3,\\,4,\\,5,\\,6$ thể lập được bao nhiêu số tự nhiên chẵn có ba chữ số?",
+   "explanation": "Gọi số có ba chữ số cần tìm là $n=\\overline{abc}$ , với $a\\ne 0$ và $c$ là số chẵn chọn từ các số đã cho.\n$a\\ne 0$ nên có $6$ cách chọn, $c$ chẵn nên có $4$ cách chọn và $b$ tùy ý nên có $7$ cách chọn.\nVậy số các số cần tìm là $6\\times 4\\times 7=168$.",
+   "options": [
+    "$168$",
+    "$210$",
+    "$105$",
+    "$145$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho tập hợp $A=\\left\\{ 0;\\,1;\\,2;\\,3;\\,4;\\,5;\\,6;\\,7 \\right\\}.$Có bao nhiêu số tự nhiên gồm 4 chữ số được lập từ $A$ sao cho các chữ số khác nhau từng đôi một và là số lẻ.",
+   "explanation": "Gọi số có bốn chữ số có dạng $\\overline{{{a}_{1}}{{a}_{2}}{{a}_{3}}{{a}_{4}}}$ trong đó ${{a}_{1}}\\ne {{a}_{2}}\\ne {{a}_{3}}\\ne {{a}_{4}},\\,{{a}_{1}}\\ne 0$và ${{a}_{4}}\\in \\left\\{ 1;\\,3;\\,5;\\,7 \\right\\}.$\nKhi đó ta trải qua các giai đoạn sau\nGiai đoạn 1: Chọn ${{a}_{4}}$ có 4 cách chọn.\nGiai đoạn 2: Chọn ${{a}_{1}}$ có 6 cách chọn.\nGiai đoạn 3: Chọn ${{a}_{2}}$ có 6 cách chọn.\nGiai đoạn 4: Chọn ${{a}_{3}}$ có 5 cách chọn.\nVậy theo quy tắc nhân có $4.6.6.5=720$ số tự nhiên gồm 4 chữ số được lập từ $A$ sao cho các chữ số khác nhau từng đôi một và là số lẻ.",
+   "options": [
+    "$720$",
+    "$1470$",
+    "$210$",
+    "$750$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên có 3 chữ số đôi một phân biệt và chia hết cho $5$?",
+   "explanation": "Gọi $x=\\overline{abc}$ là số tự nhiên có 3 chữ số đôi một phân biệt và chia hết cho $5$. Vì $x\\vdots 5$nên $c\\in \\left\\{ 0;5 \\right\\}$.\nTH1: $c=0$\n+ Chọn $c$: có 1 cách.\n+ Chọn $a$: có 9 cách ($a\\ne 0$).\n+ Chọn $b$: có 8 cách ($b\\ne 0,b\\ne a$).\n$\\Rightarrow $có $1.9.8=72$số.\nTH2: $c=5$\n+ Chọn $c$: có 1 cách.\n+ Chọn $a$: có 8 cách ($a\\ne 5,\\,a\\ne 0$).\n+ Chọn $b$: có 8 cách ($b\\ne 5,b\\ne a$).\n$\\Rightarrow $có $1.8.8=64$số.\nTheo quy tắc cộng, ta có tất cả: $72+64=136$số.",
+   "options": [
+    "$136$",
+    "$128$",
+    "$256$",
+    "$1458$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Nếu chọn một cái quần có 4 cách.",
+    "b": "Nếu chọn một cái áo có 3 cách.",
+    "c": "Nếu chọn một cái cà vạt có 6 cách.",
+    "d": "Để chọn một cái quần hoặc một cái áo hoặc một cái cà vạt thì người đó có 13 cách chọn khác nhau"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một người có 4 cái quần khác nhau, 6 cái áo khác nhau, 3 chiếc cà vạt khác nhau. Khi đó:",
+   "explanation": "- Phương án 1: Nếu chọn một cái quần có 4 cách.\n- Phương án 2: Nếu chọn một cái áo có 6 cách.\n- Phương án 3: Nếu chọn một cái cà vạt có 3 cách.\nTheo quy tắc cộng, ta có ${4+6+3=13}$ cách chọn.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn một đề tài lịch sử có 720 cách.",
+    "b": "Chọn một đề tài thiên nhiên có 5 cách.",
+    "c": "Chọn một đề tài văn hóa có 3 cách.",
+    "d": "Mỗi thí sinh có 360 khả năng lựa chọn đề tài"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Trong một cuộc thi tìm hiểu về đất nước Việt Nam, ban tổ chức công bố danh sách các đề tài bao gồm: 6 đề tài về lịch sử, 5 đề tài về thiên nhiên, 4 đề tài về con người và 3 đề tài về văn hóa. Mỗi thí sinh được quyền chọn một đề tài, khi đó:",
+   "explanation": "Việc chọn một đề tài có bốn phương án thực hiện:\nChọn một đề tài lịch sử có 6 cách.\nChọn một đề tài thiên nhiên có 5 cách.\nChọn một đề tài con người có 4 cách.\nChọn một đề tài văn hóa có 3 cách.\nTheo quy tắc cộng, số cách chọn một đề tài là: ${6+5+4+3=18}$ cách.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Có 2 cách di chuyển từ thành phố A đến thành phố C mà không đi qua thành phố B",
+    "b": "Có 1 cách di chuyển từ thành phố A đến thành phố C mà đi qua thành phố B",
+    "c": "Có 3 cách đi từ thành phố A đến thành phố B mà không đi qua thành phố C",
+    "d": "Có 3 cách đi từ thành phố A đến thành phố C rồi quay trở lại thành phố A"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Hình sau đây biểu diễn các con đường một chiều nối các thành phố ${{A}, {B}}$ và ${{C}}$, khi đó:\n[[IMG:image25.png]]",
+   "explanation": "a) Có 2 cách.\nb) Có 1 cách.\nc) Có 3 cách\nd) Có ${3 \\cdot 4=12}$ (cách).",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Có 5040 cách xếp hàng tùy ý 7 học sinh",
+    "b": "Có 208 cách xếp hàng để học sinh cùng giới đứng cạnh nhau",
+    "c": "Có 144 cách xếp hàng để học sinh nam và nữ xếp xen kẽ.",
+    "d": "Có 700 cách xếp hàng để học sinh nữ đứng cạnh nhau."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Có 3 học sinh nữ và 4 học sinh nam cùng xếp theo một hàng ngang, khi đó:",
+   "explanation": "a) Xếp một học sinh vào vị trí thứ nhất: có 7 cách.\nXếp một học sinh vào vị trí thứ hai: có 6 cách.\nCác vị trí tiếp theo lần lượt có số cách tương ứng là ${5,4,3,2,1}$ (cách).\nVậy số cách xếp hàng tùy ý 7 học sinh trên là: ${7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1=5040}$.\nb) Xếp các em nữ trong một hàng 3 người, ta có: ${3 \\times 2 \\times 1=6}$ (cách).\nXếp các em nam trong một hàng 4 người, ta có: ${4 \\times 3 \\times 2 \\times 1=24}$ (cách).\nSố cách hoán đổi vị trí của hai nhóm trên là 2.\nVậy số cách xếp học sinh thỏa mãn là: ${6 \\times 24 \\times 2=288}$ (cách).\nc) Hàng được xếp phải thỏa mãn: Nam-Nữ-Nam-Nữ-Nam-Nữ-Nam.\nChọn một nam sinh cho vị trí thứ nhất: có 4 cách.\nChọn một nữ sinh cho vị trí thứ hai: có 3 cách.\nSố cách chọn học sinh cho các vị trí tiếp theo lần lượt là: ${3,2,2,1}$.\nVậy số cách xếp thỏa mãn là: ${4 \\times 3 \\times 3 \\times 2 \\times 2 \\times 1=144}$ (cách).\nd) Gọi X là nhóm gồm 3 học sinh nữ.\nSố cách xếp 3 học sinh trong ${X}$ là: ${3 \\times 2 \\times 1=6}$ (cách).\nLúc này ta có 5 phần tử để đưa vào hàng gồm có ${X}$ cùng với 4 nam sinh ( ${X}$ được tính là 1 phần tử).\nChọn 1 phần tử cho vị trí thứ nhất: có 5 (cách).\nSố cách chọn phần tử cho các vị trí tiếp theo lần lượt là ${4,3,2,1}$.\nVậy số cách xếp hàng thỏa mãn là: ${6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1=720}$ (cách).",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 19,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có bao nhiêu số chẵn gồm bốn chữ số đôi một khác nhau được lập từ các chữ số ${0,1,2,3,4,5,6}$",
+   "explanation": "Trường hợp 1: ${d=0}$. Chọn ${d}$ có 1 cách.\nChọn ${a}$ có 6 cách (khác d).\nChọn ${b}$ có 5 cách (khác ${a, d)}$.\nChọn ${c}$ có 4 cách (khác ${a, b, d}$).\nVậy trường hợp 1 có ${1.6 \\cdot 5 \\cdot 4=120}$ số thoả mãn đề bài.\nTrường hợp 2: ${d \\neq 0}$. Chọn ${d}$ có 3 cách ${(2,4,6)}$.\nChọn ${a}$ có 5 cách (khác 0 và ${d}$ ).\nChọn ${b}$ có 5 cách (khác ${a, d)}$.\nChọn ${c}$ có 4 cách (khác ${a, b, d}$ ).\nVậy trường hợp 2 có ${3 \\cdot 5 \\cdot 5 \\cdot 4=300}$ số thoả mãn đề bài.\nNhư vậy có ${120+300=420}$ số thoả mãn đề bài.",
+   "short_value": 420,
+   "short_correct": "420",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Khối lớp 10 gồm ba lớp ${10 {~A}, 10 {~B}}$ và ${10 {C}}$ lân lượt có sĩ số là 46 học sinh, 45 học sinh và 43 học sinh. Hỏi có bao nhiêu cách để chọn một học sinh lớp 10 tham gia đội văn nghệ của trường?",
+   "explanation": "Số cách chọn một học sinh tham gia đội văn nghệ của trường là: $46+45+43=134\\text{ (c }\\!\\!\\acute{\\mathrm{a}}\\!\\!\\text{ ch)}\\text{. }$",
+   "short_value": 134,
+   "short_correct": "134",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Để đi từ thành phố ${{A}}$ đến thành phố ${{C}}$, bắt buộc phải đi qua thành phố ${{B}}$. Biết rằng có 5 cách để đi từ thành phố ${{A}}$ đến thành phố ${{B}}$, đồng thời có 3 cách để đi từ thành phố ${{B}}$ đến thành phố ${{C}}$. Hỏi có bao nhiêu cách để đi từ thành phố ${{A}}$ đến thành phố C?",
+   "explanation": "Có 5 cách để đi từ thành phố ${{A}}$ đến thành phố ${{B}}$, và có 3 cách để đi từ thành phố\nB đến thành phố C. Áp dụng quy tắc nhân, ta có số cách di chuyển từ thành phố\nA đến thành phố C là: 5·3=15 (cách).",
+   "short_value": 15,
+   "short_correct": "15",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Bạn Nam muốn tạo một số có hai chữ số bằng cách quay hai vòng quay sau đây. Biết rằng số nhận được ở vòng quay I, II lần lượt là chữ số hàng chục, chữ số hàng đơn vị. Hỏi có thể tạo được bao nhiêu số có hai chữ số như vậy?\n[[IMG:image26.png]]",
+   "explanation": "Vòng quay ${I}$ có 3 lựa chọn ${(1 ; 2 ; 4)}$ để được chữ số hàng chục và vòng quay II có 3 lựa chọn ${(1 ; 5 ; 7)}$ để được chữ số hàng đơn vị. Áp dụng quy tắc nhân, ta có số các số có hai chữ số được tạo thành là: ${3 \\cdot 3=9}$ (số).",
+   "short_value": 9,
+   "short_correct": "9",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D02",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một người gieo đồng xu hai mặt, sau mỗi lần gieo thì kết quả nhận được luôn là sấp hoặc ngửa. Hỏi nếu người đó gieo 10 lân thì có bao nhiêu khả năng xảy ra?",
+   "explanation": "Với mỗi đồng xu được gieo, ta có 2 khả năng có thể xảy ra (sấp hoặc ngửa). Áp dụng quy tắc nhân, ta có số khả năng xảy ra khi gieo một đồng xu hai mặt 10 lần là ${2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2=1024}$ (khả năng).",
+   "short_value": 1024,
+   "short_correct": "1024",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D03",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong một cuộc thi thuyết trình, mỗi thí sinh phải lựa chọn một đề tài trong các chủ đề được đưa ra. Trong đó: chủ đề Kinh tế có 5 đề tài, chủ đề Văn hoá có 8 đề tài và chủ đề Xã hội có 10 đề tài. Hỏi mỗi thí sinh dự thi có bao nhiêu cách để lựa chọn đề tài thuyết trình?",
+   "explanation": "Có ${5+8+10=23}$ đề tài thuyết trình.",
+   "short_value": 23,
+   "short_correct": "23",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B1.D01",
+   "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
+  }
+ ],
+ "flags": []
+}

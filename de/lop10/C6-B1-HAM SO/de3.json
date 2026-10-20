@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "6",
+  "lesson": "1",
+  "title": "Bài 1. Hàm số",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tìm tập xác định của hàm số $y=\\sqrt{x+2}+\\frac{{{x}^{3}}}{4\\left| x \\right|-3}$?",
+   "explanation": "Điều kiện xác định của hàm số $\\left\\{ \\begin{aligned} & x+2\\ge 0 \\\\ & 4\\left| x \\right|-3\\ne 0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\ge -2 \\\\ & x\\ne -\\frac{3}{4} \\\\ & x\\ne \\frac{3}{4} \\\\ \\end{aligned} \\right.$.\nNên tập xác định của hàm số là $D=\\left[ -2;+\\infty \\right)\\backslash \\left\\{ -\\frac{3}{4};\\frac{3}{4} \\right\\}$.",
+   "options": [
+    "$D=\\left[ -2;+\\infty \\right)$",
+    "$D=\\left[ -2;+\\infty \\right)\\backslash \\left\\{ -\\frac{3}{4};\\frac{3}{4} \\right\\}$",
+    "$D=\\left\\{ -\\frac{3}{4};\\frac{3}{4} \\right\\}$",
+    "$D=\\mathbb{R}\\backslash \\left\\{ -\\frac{3}{4};\\frac{3}{4} \\right\\}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Điểm nào dưới đây không thuộc đồ thị của hàm số $y={{x}^{2}}+3x-2$?",
+   "explanation": "Ta có: $x=1\\Rightarrow y=1+3-2=2$ nên $P$ thuộc đồ thị hàm số.\n$x=0\\Rightarrow y=-2$ nên $N$ thuộc đồ thị hàm số.\n$x=-1\\Rightarrow y=1-3-2=-4$ nên $Q$ thuộc đồ thị hàm số và $M$ không thuộc đồ thị hàm số.",
+   "options": [
+    "Điểm $P(1;2)$",
+    "Điểm $N(0;-2)$",
+    "Điểm $M(-1;-6)$",
+    "Điểm $Q(-1;-4)$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C6.B1.D03",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tìm $m$ để điểm $M\\left( -1;2 \\right)$ thuộc đồ thị hàm số $y=m{{x}^{3}}-2({{m}^{2}}+1){{x}^{2}}+2{{m}^{2}}-m$.",
+   "explanation": "Điểm $M\\left( -1;2 \\right)$ thuộc đồ thị hàm số $y=m{{x}^{3}}-2({{m}^{2}}+1){{x}^{2}}+2{{m}^{2}}-m$ khi và chỉ khi\n$-m-2\\left( {{m}^{2}}+1 \\right)+2{{m}^{2}}-m=2$\n$\\Leftrightarrow -2m-2=2$\n$\\Leftrightarrow m=-2$",
+   "options": [
+    "$m=1$",
+    "$m=-1$",
+    "$m=-2$",
+    "$m=2$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C6.B1.D03",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hàm số bậc hai $ $$y=f\\left( x \\right)=a{{x}^{2}}+bx+c,\\,\\left( a\\ne 0 \\right)$ có đồ thị như hình vẽ sau. Khẳng định nào sau đây là đúng?\n[[IMG:image93.png]]",
+   "explanation": "Dựa và hình vẽ ta thấy hàm số đồng biến trên khoảng $\\left( -1;+\\infty \\right)$ và nghịch biến trên khoảng $\\left( -\\infty ;-1 \\right)$.",
+   "options": [
+    "Hàm số đồng biến trên khoảng $\\left( -\\infty ;0 \\right)$",
+    "Hàm số đồng biến trên khoảng $\\left( -1;+\\infty \\right)$",
+    "Hàm số nghịch biến trên khoảng $\\left( -\\infty ;0 \\right)$",
+    "Hàm số nghich biến trên khoảng $\\left( -1;+\\infty \\right)$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C6.B2.D01",
+   "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như sau\n[[IMG:image91.png]]\nMệnh đề nào dưới đây đúng?",
+   "explanation": "Từ bảng biến thiên ta thấy hàm số đồng biến trên khoảng $\\left( 1;3 \\right)$.",
+   "options": [
+    "Hàm số đồng biến trên khoảng $\\left( -1;1 \\right)$",
+    "Hàm số đồng biến trên khoảng $\\left( 1;3 \\right)$",
+    "Hàm số nghịch biến trên khoảng $\\left( 1;+\\infty \\right)$",
+    "Hàm số nghịch biến trên khoảng $\\left( -\\infty ;3 \\right)$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D02",
+   "dang_toan_web": "Tính đồng biến, nghịch biến của hàm số và đồ thị hàm số."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có đồ thị là đường cong trong hình bên.\n[[IMG:image94.png]]\nHàm số đã cho nghịch biến trên khoảng nào dưới đây?",
+   "explanation": "Từ đồ thị hàm số $y=f\\left( x \\right)$ ta có hàm số đồng biến trên hai khoảng $\\left( 1;+\\infty \\, \\right)$ và $\\left( -1;0 \\right)$",
+   "options": [
+    "$\\left( -1\\,;\\,0 \\right)$",
+    "$\\left( -\\infty \\,;\\,0 \\right)$",
+    "$\\left( 0\\,;\\,+\\infty \\right)$",
+    "$\\left( 0\\,;\\,1 \\right)$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D02",
+   "dang_toan_web": "Tính đồng biến, nghịch biến của hàm số và đồ thị hàm số."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tập xác định của hàm số $y=f(x)$ là tập hợp tất cả các giá trị của $x$ sao cho",
+   "explanation": "Ta có: Tập xác định của hàm số $y=f(x)$ là tập hợp tất cả các giá trị của $x$ sao cho biểu thức $f(x)$ có nghĩa.",
+   "options": [
+    "biểu thức $f(x)$ có nghĩa",
+    "giá trị biểu thức $f(x)>0$",
+    "biểu thức $f(x)\\ne 0$",
+    "biểu thức $f(x)\\ge 0$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tập xác định D của hàm số: $y=f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{2x-3}{x-5}\\text{ khi }x\\le 0 \\\\ & \\sqrt{5-x}\\text{ khi }x>0 \\\\ \\end{aligned} \\right.$ là",
+   "explanation": "Với $x\\le 0$ thì $x-5\\ne 0$ nên hàm số xác định với mọi $x\\le 0$.\nVới $x>0$: Hàm số xác định khi $5-x\\ge 0\\Leftrightarrow x\\le 5$.\nVậy $D=\\left( -\\infty ;0 \\right]\\cup \\left( 0;5 \\right]=\\left( -\\infty ;5 \\right]$.",
+   "options": [
+    "$D=\\mathbb{R}\\backslash \\left\\{ 5 \\right\\}$",
+    "$D=\\left( 5;+\\infty \\right)$",
+    "$D=\\left( -\\infty ;5 \\right]$",
+    "$D=\\left[ 5;+\\infty \\right)$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong các hàm số sau, hàm số nào có tập xác định là $\\mathbb{R}$?",
+   "explanation": "+ Hàm số $y=\\frac{x+1}{x-1}$ có tập xác định là $\\mathbb{R}\\backslash \\left\\{ 1 \\right\\}$.\n+ Hàm số $y=\\frac{{{x}^{2}}+2x}{x+1}$ và $y=\\frac{1-x}{x+1}$ có tập xác định là $\\mathbb{R}\\backslash \\left\\{ -1 \\right\\}$.\n+ Hàm số $y=\\frac{x-1}{{{x}^{2}}+1}$ có tập xác định là $\\mathbb{R}.$",
+   "options": [
+    "$y=\\frac{x+1}{x-1}$",
+    "$y=\\frac{x-1}{{{x}^{2}}+1}$",
+    "$y=\\frac{{{x}^{2}}+2x}{x+1}$",
+    "$y=\\frac{1-x}{x+1}$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)=-3{{x}^{2}}+{{m}^{2}}x+m+1$ (với m là tham số). Tìm các giá trị của $m$ để đồ thị hàm số qua điểm $M\\left( 0;5 \\right)$?",
+   "explanation": "Ta có: $f\\left( 0 \\right)=-{{3.0}^{2}}+{{m}^{2}}.0+m+1=m+1$.\nĐể $f\\left( 0 \\right)=5$ thì $m+1=5\\Leftrightarrow m=4$.",
+   "options": [
+    "$m=0$",
+    "$m=2$",
+    "$m=4$",
+    "$m=1$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C6.B2.D02",
+   "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có đồ thị như hình vẽ. Điểm nào sau đây không thuộc đồ thị hàm số?\n[[IMG:image95.png]]",
+   "explanation": "Quan sát đồ thị hàm số, ta thấy điểm $\\left( 3;4 \\right)$ không thuộc đồ thị hàm số.",
+   "options": [
+    "$\\left( 2;5 \\right)$",
+    "$\\left( 0;3 \\right)$",
+    "$\\left( 3;4 \\right)$",
+    "$\\left( 1;5 \\right)$"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D03",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho Parabol $y=a{{x}^{2}}+bx+c\\left( a\\ne 0 \\right)$ có đỉnh $I\\left( -1;4 \\right)$ và đi qua điểm$A\\left( -2;5 \\right)$.\nTính $M=a.b-c$.",
+   "explanation": "Parabol đã cho có đỉnh $I\\left( -1;4 \\right)$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & \\frac{-b}{2a}=-1 \\\\ & 4=a{{\\left( -1 \\right)}^{2}}+b\\left( -1 \\right)+c \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & 2a-b=0 \\\\ & a-b+c=4 \\\\ \\end{aligned} \\right.$.\nParabol đã cho đi qua điểm $A\\left( -2;5 \\right)$ $\\Leftrightarrow 5=a{{\\left( -2 \\right)}^{2}}+b\\left( -2 \\right)+c\\Leftrightarrow 4a-2b+c=5$.\nTa có hệ phương trình $\\left\\{ \\begin{aligned} & 2a-b\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=0 \\\\ & a-b+c\\,\\,\\,\\,\\,\\,\\,=4 \\\\ & 4a-2b+c=5 \\\\ \\end{aligned} \\right.\\Leftrightarrow $ $\\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=5 \\\\ \\end{aligned} \\right.$.\nVậy $M=-3$.",
+   "options": [
+    "$M=7$",
+    "$M=8$",
+    "$M=-3$",
+    "$M=-2$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C6.B2.D01",
+   "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Điểm ${(0 ; 0)}$ và ${(2 ;-5)}$thuộc đồ thị hàm số đã cho",
+    "b": "Điểm ${(1 ;-1)}$ không thuộc đồ thị hàm số đã cho",
+    "c": "Điểm thuộc đồ thị hàm số có hoành độ $-1$ là ${(-1 ;-3)}$",
+    "d": "Những điểm thuộc đồ thị hàm số có tung độ bằng 0 là ${(0 ; 0)}$ và ${\\left(\\frac{1}{2} ; 0\\right)}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${y=-2 x^2+x}$. Khi đó:",
+   "explanation": "Điểm ${(0 ; 0)}$ thuộc đồ thị hàm số vì ${0=-2.0^2+0}$ (đúng).\nĐiểm ${(2 ;-5)}$ không thuộc đồ thị hàm số vì ${-5=-2.2^2+2}$ (sai).\nĐiểm ${(1 ;-1)}$ thuộc đồ thị hàm số vì ${-1=-2 \\cdot 1^2+1}$ (đúng).\nVới ${x=-1}$ thì ${y=-2.1^2-1=-3}$, ta có điểm ${(-1 ;-3)}$ thuộc đồ thị.\nVới ${y=0}$ thì ${0=-2 x^2+x \\Leftrightarrow x(-2 x+1)=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ -2 x+1=0\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=\\frac{1}{2}\\end{array}\\right.\\right.}$.\nVậy có hai điểm thuộc đồ thị có tung độ bằng 0 là ${(0 ; 0)}$ và ${\\left(\\frac{1}{2} ; 0\\right)}$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D03",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hàm số ${y=\\sqrt{x+1}}$ có tập xác định là ${D=[-1 ;+\\infty)}$",
+    "b": "Hàm số ${y=\\frac{1}{\\sqrt{3-2 x}}}$ có tập xác định là $D=\\left( -\\infty ;\\frac{2}{3} \\right]$",
+    "c": "Hàm số ${y=\\frac{\\sqrt{2-x}}{x^2-9}}$ có tập xác định là $D=(-\\infty ;2)\\backslash \\{-3\\}$",
+    "d": "Hàm số ${y=\\frac{3|x-1|+1}{(x+2) \\sqrt{x}}}$ có tập xác định là ${D=(0 ;+\\infty)}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính đúng, sai của các khẳng định sau:",
+   "explanation": "a) Hàm số xác định khi và chỉ khi ${x+1 \\geq 0 \\Leftrightarrow x \\geq-1}$.\nTập xác định hàm số: ${D=[-1 ;+\\infty)}$.\nb) Hàm số xác định khi và chỉ khi ${3-2 x>0 \\Leftrightarrow x<\\frac{3}{2}}$.\nTập xác định hàm số: ${D=\\left(-\\infty ; \\frac{2}{3}\\right)}$.\nc) Hàm số xác định khi và chỉ khi ${\\left\\{\\begin{array}{l}2-x \\geq 0 \\\\ x^2-9 \\neq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 2 \\\\ x^2 \\neq 9\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 2 \\\\ x \\neq \\pm 3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\leq 2 \\\\ x \\neq-3\\end{array}\\right.\\right.\\right.\\right.}$.\nTập xác định hàm số: ${D=(-\\infty ; 2] \\backslash\\{-3\\}}$.\nd) Hàm số xác định khi và chỉ khi ${\\left\\{\\begin{array}{l}x+2 \\neq 0 \\\\ x>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq-2 \\\\ x>0\\end{array} \\Leftrightarrow x>0\\right.\\right.}$.\nTập xác định hàm số: ${D=(0 ;+\\infty)}$.",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${f(-1)=3}$",
+    "b": "$f(4)=3$",
+    "c": "Hàm số đồng biến trên khoảng ${(-1 ; 2)}$",
+    "d": "Hàm số nghịch biến trên khoảng ${(2 ; 4)}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${y=f(x)}$ có đồ thị trên đoạn ${[-4 ; 4]}$ như hình vẽ.\n[[IMG:image96.png]]\nKhi đó:",
+   "explanation": "Quan sát đồ thị ta thấy ${f(-1)=3}$ và ${f(4)=5}$.\nQuan sát đồ thị trên đoạn ${[-4 ; 4]}$\n+ Trên khoảng ${(-4 ;-1)}$ đồ thị hàm số đi lên nên hàm số đồng biến trên khoảng ${(-4 ;-1)}$\n+ Trên khoảng ${(-1 ; 2)}$ đồ thị hàm số đi xuống nên hàm số nghịch biến trên khoảng ${(-1 ; 2)}$\n+ Trên khoảng ${(2 ; 4)}$ đồ thị hàm số đi lên nên hàm số đồng biến trên khoảng ${(2 ; 4)}$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D02",
+   "dang_toan_web": "Tính đồng biến, nghịch biến của hàm số và đồ thị hàm số."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( x \\right)$đồng biến trên khoảng $\\left( -\\infty ;-1 \\right)$.",
+    "b": "$f\\left( x \\right)$nghịch biến trên khoảng $\\left( -\\infty ;0 \\right)$.",
+    "c": "$f\\left( x \\right)$đồng biến trên khoảng $\\left( 1;+\\infty \\right)$.",
+    "d": "$f\\left( x \\right)$nghịch biến trên khoảng $\\left( -1;1 \\right)$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có đồ thị như hình vẽ\n[[IMG:image97.png]]\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "Nhìn đồ thị ta thấy hàm số đồng biến trên $\\left( 1;+\\infty \\right)$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C6.B1.D02",
+   "dang_toan_web": "Tính đồng biến, nghịch biến của hàm số và đồ thị hàm số."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm tập xác định hàm số ${y=\\frac{\\sqrt[3]{x+2}}{x \\sqrt{x+2}}}$",
+   "explanation": "Hàm số xác định ${\\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x+2>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\neq 0 \\\\ x>-2\\end{array}\\right.\\right.}$.\nTập xác định hàm sộ: ${D=(-2 ;+\\infty) \\backslash\\{0\\}}$.",
+   "short_value": null,
+   "short_correct": "(-2;+\\infty )\\backslash \\{0\\}",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${y=f(x)=m x^3-2\\left(m^2+1\\right) x^2+2 m^2-m}$ với ${m}$ là tham số. Tìm tất cả các giá trị của ${m}$ sao cho ${f(-1)=2}$.",
+   "explanation": "${f(-1)=2 \\Leftrightarrow 2=-m-2\\left(m^2+1\\right)+2 m^2-m \\Leftrightarrow m=-2}$.\nVậy ${m=-2}$ là giá trị cần tìm.",
+   "short_value": -2,
+   "short_correct": "-2",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D02",
+   "dang_toan_web": "Tính đồng biến, nghịch biến của hàm số và đồ thị hàm số."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm giá trị của tham số ${m}$ để: Hàm số ${y=\\sqrt{x-m}+\\sqrt{2 x-m+1}}$ xác định trên ${(0 ;+\\infty)}$.",
+   "explanation": "Hàm số xác định khi ${\\left\\{\\begin{array}{l}x-m \\geq 0 \\\\ 2 x-m-1 \\geq 0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq m \\\\ x \\geq \\frac{m+1}{2}\\end{array}\\right.\\right.}$\nTH1: Nếu ${m \\geq \\frac{m+1}{2} \\Leftrightarrow m \\geq 1}$ thì ${(*) \\Leftrightarrow x \\geq m}$ suy ra TXĐ của hàm số là ${{D}=[m ;+\\infty)}$.\nKhi đó, hàm số xác định trên ${(0 ;+\\infty) \\Leftrightarrow(0 ;+\\infty) \\subset[m ;+\\infty) \\Leftrightarrow m \\leq 0}$ (không thỏa)\nTH2: Nếu ${m \\leq \\frac{m+1}{2} \\Leftrightarrow m \\leq 1}$ thì ${(*) \\Leftrightarrow x \\geq \\frac{m+1}{2}}$ suy ra TXĐ. ${D=\\left[\\frac{m+1}{2} ;+\\infty\\right)}$.\nKhi đó, hàm số xác định trên ${(0 ;+\\infty) \\Leftrightarrow(0 ;+\\infty) \\subset\\left[\\frac{m+1}{2} ;+\\infty\\right) \\Leftrightarrow \\frac{m+1}{2} \\leq 0 \\Leftrightarrow m \\leq-1}$ (thỏa mãn điều kiện ${m \\leq 1}$). Vậy ${m \\leq-1}$ là giá trị cần tìm.",
+   "short_value": null,
+   "short_correct": "m\\le -1|m≤ -1|m<= -1",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=x^3-3 x+1}$. Tính ${P=f(2)+f(-1)}$.",
+   "explanation": "Ta có ${\\left\\{\\begin{array}{l}f(2)=2^3-3.2+1=3 \\\\ f(-1)=(-1)^3-3(-1)+1=3\\end{array}\\right.}$. Suy",
+   "short_value": 6,
+   "short_correct": "6",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D03",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm ${m}$ để hàm số ${y=\\frac{\\sqrt{x-2 m+3}}{x-m}+\\frac{3 x-1}{\\sqrt{-x+m+5}}}$ xác định trên khoảng ${(0 ; 1)}$.",
+   "explanation": "Điều kiện xác định của hàm số ${\\left\\{\\begin{array}{l}x-2 m+3 \\geq 0 \\\\ x-m \\neq 0 \\\\ -x+m+5>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x \\geq 2 m-3 \\\\ x \\neq m \\\\ x<m+5\\end{array}\\right.\\right.}$\nHàm số ${y=\\frac{\\sqrt{x-2 m+3}}{x-m}+\\frac{3 x-1}{\\sqrt{-x+m+5}}}$ xác định trên khoảng ${(0 ; 1)}$ khi và chỉ khi\n$(0;1)\\subset D\\Leftrightarrow \\left\\{ \\begin{matrix} \\begin{aligned} & 2m-3\\le 0 \\\\ & m\\ge -4 \\\\ & m\\ne (0;1) \\\\ \\end{aligned} \\\\ \\end{matrix}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} \\begin{aligned} & m\\le \\frac{3}{2} \\\\ & m\\ge -4 \\\\ & \\left[ \\begin{array}{llllll} \\begin{aligned} & m\\ge 1 \\\\ & m\\le 0 \\\\ \\end{aligned} \\\\ \\end{array} \\right. \\\\ \\end{aligned} \\\\ \\end{array}\\Leftrightarrow m\\in [-4;0]\\cup \\left[ 1;\\frac{3}{2} \\right] \\right. \\right.$",
+   "short_value": null,
+   "short_correct": "[-4;0]\\cup [1;\\frac{3}{2}]|[-4;0]\\cup [1;3/2]",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C6.B1.D01",
+   "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${y=f(x)=-3 x^2+m^2 x+m+1}$ (với m là tham số)\nTìm các giá trị của ${m}$ để đồ thị của hàm số ${y=f(x)}$ đi qua điểm ${A(1 ; 0)}$.",
+   "explanation": "Đồ thị của hàm số ${y=f(x)}$ đi qua điểm ${A(1 ; 0)}$ khi và chỉ khi ${0=-3+m^2+m+1}$\n$\\Leftrightarrow {{m}^{2}}+m-2=0\\Leftrightarrow \\left[ \\begin{matrix} \\begin{aligned} & m=1 \\\\ & m=-2 \\\\ \\end{aligned} \\\\ \\end{matrix} \\right.\\text{. }$",
+   "short_value": null,
+   "short_correct": "1;-2|-2;1|m=1 hoặc m=-2",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C6.B2.D02",
+   "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."
+  }
+ ],
+ "flags": []
+}

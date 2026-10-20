@@ -1,0 +1,635 @@
+{
+ "by": "DeepSeek",
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Tam giác {{1}} vuông tại {{2}} có đường cao {{3}} (vì {{4}} là hình chiếu của {{5}} trên {{6}})."
+    ],
+    "hint": "Xét tam giác vuông và đường cao"
+   },
+   {
+    "lines": [
+     "Áp dụng hệ thức lượng trong tam giác vuông: ${{7}}^2 = {{8}} \\cdot {{9}}$."
+    ],
+    "hint": "Áp dụng hệ thức lượng"
+   },
+   {
+    "lines": [
+     "Tam giác {{10}} vuông tại {{11}} có đường cao {{12}} (vì {{13}} là hình chiếu của {{14}} trên {{15}})."
+    ],
+    "hint": "Xét tam giác vuông còn lại"
+   },
+   {
+    "lines": [
+     "Áp dụng hệ thức lượng trong tam giác vuông: ${{16}}^2 = {{17}} \\cdot {{18}}$."
+    ],
+    "hint": "Áp dụng hệ thức lượng"
+   },
+   {
+    "lines": [
+     "Từ đó suy ra ${{19}} \\cdot {{20}} = {{21}} \\cdot {{22}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "SHC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "CT"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường cao",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "T"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "SC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "ST"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "SBC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "CV"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường cao",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "V"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "SB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "SC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "SV"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "SB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "ST"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "SV"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "SB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "SHC",
+   "C",
+   "CT",
+   "T",
+   "SH",
+   "SC",
+   "ST",
+   "SBC",
+   "CV",
+   "V",
+   "SB",
+   "SV",
+   "HB",
+   "H",
+   "B",
+   "S",
+   "CH",
+   "CB",
+   "TC",
+   "VC"
+  ]
+ },
+ "5c": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có ${{1}} \\perp {{2}}$."
+    ],
+    "hint": "Chứng minh vuông góc"
+   },
+   {
+    "lines": [
+     "Chứng minh được $\\widehat{{{3}}} = \\widehat{{{4}}} = {{5}}$ (do cùng phụ với góc $\\widehat{{{6}}}$)."
+    ],
+    "hint": "Chứng minh hai góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Trong tam giác vuông ${{7}}$, ta có ${{8}} = {{9}} \\cdot \\cos {{10}} = {{11}} \\cdot \\cos {{12}}$."
+    ],
+    "hint": "Tính cạnh trong tam giác vuông"
+   },
+   {
+    "lines": [
+     "Trong tam giác vuông ${{13}}$, ta có ${{14}} = {{15}} \\cdot \\cos {{16}} = {{17}} \\cdot \\cos {{18}}$."
+    ],
+    "hint": "Tính cạnh trong tam giác vuông"
+   },
+   {
+    "lines": [
+     "Suy ra ${{19}} = {{20}} \\cdot \\cos {{21}} \\cdot \\cos {{22}} = {{23}} \\cdot \\cos^2 {{24}}$."
+    ],
+    "hint": "Biến đổi biểu thức"
+   },
+   {
+    "lines": [
+     "Mặt khác, từ giả thiết và tính chất hình học, ta có $\\cos {{25}} = \\cos {{26}}$, do đó ${{27}} = {{28}} \\cdot \\cos^3 {{29}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "SM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "TV"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HSM"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MST"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "SHB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "SHT"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "HT"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "SH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "HT"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "26",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "27",
+    "mode": "drag",
+    "answers": [
+     "HT"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "28",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "29",
+    "mode": "drag",
+    "answers": [
+     "x"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "SM",
+   "TV",
+   "HSM",
+   "H",
+   "x",
+   "MST",
+   "SHB",
+   "HB",
+   "SHT",
+   "HT",
+   "SH",
+   "SB",
+   "ST",
+   "SC",
+   "M",
+   "T",
+   "V",
+   "B",
+   "S",
+   "C"
+  ]
+ }
+}

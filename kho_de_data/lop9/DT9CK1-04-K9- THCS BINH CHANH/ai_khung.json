@@ -1,0 +1,717 @@
+{
+ "by": "DeepSeek",
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Tam giác {{1}} vuông tại {{2}} ({{3}} là tiếp tuyến của đường tròn (O))",
+     "Suy ra tam giác {{1}} nội tiếp đường tròn đường kính {{4}}"
+    ],
+    "hint": "Chứng minh tam giác vuông nội tiếp"
+   },
+   {
+    "lines": [
+     "Suy ra {{5}}, {{6}}, {{7}} thuộc đường tròn đường kính {{4}} (1)"
+    ],
+    "hint": "Suy ra ba điểm thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Tam giác {{8}} vuông tại {{9}} ({{10}} là tiếp tuyến của đường tròn (O))",
+     "Suy ra tam giác {{8}} nội tiếp đường tròn đường kính {{4}}"
+    ],
+    "hint": "Chứng minh tam giác vuông nội tiếp"
+   },
+   {
+    "lines": [
+     "Suy ra {{11}}, {{12}}, {{7}} thuộc đường tròn đường kính {{4}} (2)"
+    ],
+    "hint": "Suy ra ba điểm thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra: 4 điểm {{5}}, {{6}}, {{7}}, {{11}} cùng thuộc đường tròn đường kính {{4}}."
+    ],
+    "hint": "Kết luận bốn điểm cùng thuộc đường tròn"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MAO"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "MBO"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "MAO",
+   "MBO",
+   "MA",
+   "MB",
+   "OM",
+   "M",
+   "A",
+   "B",
+   "O",
+   "AB",
+   "OA",
+   "OB"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: {{1}} = {{2}} (bán kính)",
+     "{{3}} = {{4}} (tính chất 2 tiếp tuyến cắt nhau)",
+     "Suy ra {{5}} là đường trung trực của {{6}}"
+    ],
+    "hint": "Chứng minh đường trung trực"
+   },
+   {
+    "lines": [
+     "Suy ra {{5}} $\\perp$ {{6}} tại {{7}}."
+    ],
+    "hint": "Suy ra vuông góc"
+   },
+   {
+    "lines": [
+     "Ta có: $\\widehat{{{8}}}+\\widehat{{{9}}}=90^o$ ({{10}} $\\perp$ {{11}} tại {{12}})",
+     "$\\widehat{{{13}}}+\\widehat{{{14}}}=90^o$ ($\\triangle {{15}}$ vuông tại {{16}})",
+     "mà $\\widehat{{{9}}}=\\widehat{{{14}}}$ ($\\triangle {{17}}$ cân tại {{18}})"
+    ],
+    "hint": "Chứng minh hai góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $\\widehat{{{8}}}=\\widehat{{{13}}}$",
+     "Suy ra {{19}} là phân giác của $\\widehat{{{20}}}$."
+    ],
+    "hint": "Kết luận phân giác"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "MAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BAO"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "BAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "ABO"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "ACB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "OAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "MAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "OA",
+   "OB",
+   "MA",
+   "MB",
+   "OM",
+   "AB",
+   "H",
+   "MAB",
+   "BAO",
+   "BAC",
+   "ABO",
+   "ACB",
+   "OAB",
+   "MAC",
+   "A",
+   "B",
+   "C",
+   "O",
+   "M",
+   "AC",
+   "BD",
+   "BC"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi {{1}} là giao điểm của {{2}} và {{3}}.",
+     "Chứng minh: $\\triangle {{4}}$ vuông tại {{5}}",
+     "Suy ra {{6}} $\\perp$ {{7}} tại {{5}}",
+     "mà {{8}} $\\perp$ {{7}}",
+     "Suy ra {{6}} // {{8}}"
+    ],
+    "hint": "Chứng minh hai đường thẳng song song"
+   },
+   {
+    "lines": [
+     "Chứng minh: {{9}} là trung điểm {{10}}"
+    ],
+    "hint": "Chứng minh trung điểm"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{11}}$ có: {{12}} // {{13}} (cùng $\\perp$ {{14}})",
+     "Suy ra $\\frac{{{{12}}}}{{{{13}}}}=\\frac{{{{15}}}}{{{{16}}}}$ (Hệ quả Thales) (3)"
+    ],
+    "hint": "Áp dụng hệ quả Thales"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{17}}$ có: {{18}} // {{19}} (cùng $\\perp$ {{14}})",
+     "Suy ra $\\frac{{{{18}}}}{{{{19}}}}=\\frac{{{{15}}}}{{{{16}}}}$ (Hệ quả Thales) (4)"
+    ],
+    "hint": "Áp dụng hệ quả Thales"
+   },
+   {
+    "lines": [
+     "Từ (3) và (4) suy ra $\\frac{{{{12}}}}{{{{13}}}}=\\frac{{{{18}}}}{{{{19}}}}$",
+     "mà {{13}} = {{19}} ({{9}} trung điểm {{10}})",
+     "Suy ra {{12}} = {{18}}, mà {{20}} $\\in$ {{21}}",
+     "Suy ra {{20}} là trung điểm {{21}}."
+    ],
+    "hint": "Kết luận trung điểm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "DA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "BM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "ABD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "DE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "BE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "DBM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "IC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "BD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "DI"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "DM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "DME"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "IA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "ME"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "I"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "E",
+   "DA",
+   "BM",
+   "ABD",
+   "A",
+   "DE",
+   "AB",
+   "OM",
+   "M",
+   "BE",
+   "DBM",
+   "IC",
+   "MB",
+   "BD",
+   "DI",
+   "DM",
+   "DME",
+   "IA",
+   "ME",
+   "I",
+   "AC",
+   "D",
+   "B",
+   "C",
+   "O",
+   "H"
+  ]
+ }
+}

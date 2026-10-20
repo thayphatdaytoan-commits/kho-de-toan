@@ -1,0 +1,448 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle$ {{1}} và $\\triangle$ {{2}} có:",
+     "• $\\widehat{ABC} = \\widehat{AHB} =$ {{3}}$^0$ (giả thiết)",
+     "• $\\widehat{A}$ {{4}}",
+     "Suy ra $\\triangle BCA \\backsim \\triangle HBA$ ({{5}})"
+    ],
+    "hint": "Chứng minh hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Áp dụng định lý {{6}} trong $\\triangle$ {{7}} vuông tại {{8}}:",
+     "• ${{AB}^2} + {{BC}^2} = {{AC}^2}$",
+     "Thay số: ${{AB}^2} +$ {{9}}$^2 =$ {{10}}$^2$, suy ra $AB =$ {{11}} cm."
+    ],
+    "hint": "Tính độ dài cạnh AB"
+   },
+   {
+    "lines": [
+     "Từ $\\triangle BCA \\backsim \\triangle HBA$ suy ra $\\frac{AB}{AH} = \\frac{AC}{AB}$ (cạnh {{12}} tỉ lệ)",
+     "Thay số: $\\frac{12}{AH} = \\frac{20}{12}$, suy ra $AH =$ {{13}} cm."
+    ],
+    "hint": "Tính độ dài cạnh AH"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BCA"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "HBA"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "placeholder": "số đo góc",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "chung"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 8
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 8
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "Pytago"
+    ],
+    "placeholder": "tên định lý",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 4
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "16"
+    ],
+    "placeholder": "độ dài cạnh",
+    "maxLen": 4
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "20"
+    ],
+    "placeholder": "độ dài cạnh",
+    "maxLen": 4
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "12"
+    ],
+    "placeholder": "độ dài cạnh",
+    "maxLen": 4
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "tương ứng"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "7.2"
+    ],
+    "placeholder": "độ dài cạnh",
+    "maxLen": 4
+   }
+  ],
+  "pool": [
+   "BCA",
+   "HBA",
+   "90",
+   "chung",
+   "g.g",
+   "Pytago",
+   "ABC",
+   "B",
+   "16",
+   "20",
+   "12",
+   "tương ứng",
+   "7.2",
+   "ABD",
+   "HBC",
+   "ADC",
+   "10",
+   "15",
+   "25",
+   "c.g.c",
+   "c.c.c",
+   "đối đỉnh",
+   "so le trong"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle$ {{1}} và $\\triangle$ {{2}} có:",
+     "• $\\widehat{BAD} = \\widehat{CHB} =$ {{3}}$^0$ (giả thiết)",
+     "• Ta có $\\widehat{ABD} = \\widehat{HCB}$ (cùng phụ với $\\widehat{HBC}$)"
+    ],
+    "hint": "Xác định các yếu tố bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle$ {{4}} $\\backsim \\triangle$ {{5}} ({{6}})"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Do đó $\\frac{AD}{HB} = \\frac{DB}{BC}$ (cạnh {{7}} tỉ lệ)",
+     "Suy ra {{8}}.{{9}} = {{10}}.{{11}} (đpcm)."
+    ],
+    "hint": "Suy ra đẳng thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ADB"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "HBC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "placeholder": "số đo góc",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "ADB"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "HBC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 8
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "tương ứng"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "DB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   }
+  ],
+  "pool": [
+   "ADB",
+   "HBC",
+   "90",
+   "g.g",
+   "tương ứng",
+   "AD",
+   "BC",
+   "HB",
+   "DB",
+   "BCA",
+   "HBA",
+   "ABC",
+   "ADC",
+   "45",
+   "60",
+   "c.g.c",
+   "c.c.c",
+   "đối đỉnh"
+  ]
+ },
+ "6c": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle$ {{1}} có {{2}} $\\parallel$ {{3}}, theo hệ quả {{4}}:",
+     "• $\\frac{HI}{BC}=\\frac{DI}{DC}$, suy ra $\\frac{DI}{HI}=\\frac{DC}{BC}$ (1)"
+    ],
+    "hint": "Áp dụng định lý Thalès cho tam giác BDC"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle$ {{5}} có {{6}} $\\parallel$ {{7}}, theo hệ quả {{8}}:",
+     "• $\\frac{HI}{AD}=\\frac{CI}{DC}$, suy ra $\\frac{CI}{HI}=\\frac{DC}{AD}$ (2)"
+    ],
+    "hint": "Áp dụng định lý Thalès cho tam giác ADC"
+   },
+   {
+    "lines": [
+     "Cộng (1) và (2) theo vế: $\\frac{DI}{HI}+\\frac{CI}{HI}=\\frac{DC}{BC}+\\frac{DC}{AD}$",
+     "Suy ra $\\frac{DC}{HI}=\\frac{DC}{BC}+\\frac{DC}{AD}$",
+     "Chia cả hai vế cho {{9}} (khác 0), ta được $\\frac{1}{HI}=\\frac{1}{BC}+\\frac{1}{AD}$ (đpcm)."
+    ],
+    "hint": "Cộng các đẳng thức và biến đổi"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BDC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "HI"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "Thalès"
+    ],
+    "placeholder": "tên định lý",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "ADC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "HI"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "Thalès"
+    ],
+    "placeholder": "tên định lý",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "DC"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   }
+  ],
+  "pool": [
+   "BDC",
+   "HI",
+   "BC",
+   "Thalès",
+   "ADC",
+   "AD",
+   "DC",
+   "ABC",
+   "HBC",
+   "ABD",
+   "AB",
+   "BH",
+   "CD",
+   "Pytago",
+   "đồng dạng",
+   "cộng vế"
+  ]
+ }
+}

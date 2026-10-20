@@ -1,0 +1,368 @@
+{
+ "by": "Gemini 1 (gemini-flash-latest)",
+ "5a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét {{1}} và {{2}} có:",
+     "• $AB =$ {{3}} (vì $\\Delta ABC$ cân tại $A$)",
+     "• $BD =$ {{4}} ($D$ là trung điểm của $BC$)",
+     "• $AD$ là {{5}}"
+    ],
+    "hint": "Xét hai tam giác và chỉ ra ba cặp cạnh"
+   },
+   {
+    "lines": [
+     "Vậy $\\Delta ABD = \\Delta ACD$ ({{6}})"
+    ],
+    "hint": "Kết luận hai tam giác bằng nhau"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "\\Delta ABD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "\\Delta ACD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "both",
+    "answers": [
+     "CD",
+     "DC"
+    ],
+    "keywords": [
+     "cd",
+     "dc"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "both",
+    "answers": [
+     "cạnh chung"
+    ],
+    "keywords": [
+     "cạnh chung",
+     "canh chung"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "c.c.c",
+     "c-c-c",
+     "ccc"
+    ],
+    "keywords": [
+     "c.c.c",
+     "ccc",
+     "c-c-c"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "\\Delta ABD",
+   "\\Delta ACD",
+   "AC",
+   "CD",
+   "cạnh chung",
+   "BC",
+   "AD",
+   "\\Delta ABC",
+   "c.g.c",
+   "đối đỉnh"
+  ]
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét {{1}} và {{2}} có:"
+    ],
+    "hint": "Xét hai tam giác vuông cần chứng minh"
+   },
+   {
+    "lines": [
+     "• $EH$ là {{3}}",
+     "• $\\widehat{EHD} = \\widehat{EHC} = 90^\\circ$ (vì $EH \\perp$ {{4}})",
+     "• $HD =$ {{5}} (vì $H$ là {{6}} của $DC$)"
+    ],
+    "hint": "Chỉ ra các yếu tố bằng nhau của hai tam giác"
+   },
+   {
+    "lines": [
+     "Vậy $\\Delta EHD = \\Delta EHC$ ({{7}})"
+    ],
+    "hint": "Kết luận hai tam giác bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $DE = EC$ (hai {{8}} tương ứng)"
+    ],
+    "hint": "Suy ra hai đoạn thẳng bằng nhau"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "\\Delta EHD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "\\Delta EHC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "both",
+    "answers": [
+     "cạnh chung"
+    ],
+    "keywords": [
+     "cạnh chung",
+     "canh chung"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "DC",
+     "CD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "HC",
+     "CH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "both",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [
+     "trung điểm",
+     "trung diem"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "7",
+    "mode": "input",
+    "answers": [
+     "c.g.c",
+     "c-g-c",
+     "cgc"
+    ],
+    "keywords": [
+     "c.g.c",
+     "cgc",
+     "c-g-c"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "both",
+    "answers": [
+     "cạnh"
+    ],
+    "keywords": [
+     "cạnh",
+     "canh"
+    ],
+    "placeholder": "yếu tố",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "\\Delta EHD",
+   "\\Delta EHC",
+   "cạnh chung",
+   "DC",
+   "HC",
+   "trung điểm",
+   "cạnh",
+   "ED",
+   "EC",
+   "\\Delta EDC",
+   "góc",
+   "c.c.c"
+  ]
+ },
+ "5c": {
+  "blocks": [
+   {
+    "lines": [
+     "Vì $D$ là {{1}} của $BC$ nên $AD$ là đường trung tuyến của $\\Delta ABC$.",
+     "Mà $AD$ cắt $BE$ tại $G$ nên $G$ là {{2}} của $\\Delta ABC$."
+    ],
+    "hint": "Xác định trọng tâm của tam giác"
+   },
+   {
+    "lines": [
+     "Vì $F$ là trung điểm của $AB$ nên $CF$ cũng là {{3}} của $\\Delta ABC$.",
+     "Do đó theo tính chất trọng tâm: $CG =$ {{4}} $GF$."
+    ],
+    "hint": "Sử dụng tính chất đường trung tuyến thứ ba"
+   },
+   {
+    "lines": [
+     "Mặt khác do $\\Delta ABC$ cân tại $A$ nên $CG =$ {{5}}.",
+     "Suy ra $BG =$ {{6}}."
+    ],
+    "hint": "Kết luận hệ thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "both",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [
+     "trung điểm",
+     "trung diem"
+    ],
+    "placeholder": "vai trò của D",
+    "maxLen": 16
+   },
+   {
+    "id": "2",
+    "mode": "both",
+    "answers": [
+     "trọng tâm"
+    ],
+    "keywords": [
+     "trọng tâm",
+     "trong tam"
+    ],
+    "placeholder": "vai trò của G",
+    "maxLen": 16
+   },
+   {
+    "id": "3",
+    "mode": "both",
+    "answers": [
+     "đường trung tuyến",
+     "trung tuyến"
+    ],
+    "keywords": [
+     "trung tuyến",
+     "trung tuyen"
+    ],
+    "placeholder": "tên đường",
+    "maxLen": 20
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "BG",
+     "GB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "2GF",
+     "2.GF",
+     "2 GF"
+    ],
+    "keywords": [
+     "2gf",
+     "2 gf",
+     "2.gf"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "trung điểm",
+   "trọng tâm",
+   "đường trung tuyến",
+   "BG",
+   "AG",
+   "GD",
+   "đường cao",
+   "trực tâm"
+  ]
+ }
+}

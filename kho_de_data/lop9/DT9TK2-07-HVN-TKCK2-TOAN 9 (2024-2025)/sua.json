@@ -1,0 +1,117 @@
+{
+ "de1.P4.C2": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Chứng tỏ phương trình luôn có hai nghiệm phân biệt ${x}_{1}$ , ${x}_{2}$ .",
+    "explanation": "$\\Delta = (-3)^2 - 4.2.(-4) = 9 + 32 = 41 > 0$.\nVậy phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+    "points": 0.5,
+    "type": "proof_frame",
+    "frame": {
+     "blocks": [
+      {
+       "lines": [
+        "Tính $\\Delta = ({{1}})^2 - 4.{{2}}.({{3}}) = {{4}}$."
+       ],
+       "hint": "Tính Delta"
+      },
+      {
+       "lines": [
+        "Vì $\\Delta$ {{5}} {{6}} nên phương trình có hai nghiệm phân biệt $x_1, x_2$."
+       ],
+       "hint": "Kết luận nghiệm"
+      }
+     ],
+     "blanks": [
+      {
+       "id": "1",
+       "mode": "input",
+       "answers": [
+        "-3"
+       ],
+       "keywords": [
+        "-3"
+       ],
+       "placeholder": "hệ số b",
+       "maxLen": 4
+      },
+      {
+       "id": "2",
+       "mode": "input",
+       "answers": [
+        "2"
+       ],
+       "keywords": [
+        "2"
+       ],
+       "placeholder": "hệ số a",
+       "maxLen": 4
+      },
+      {
+       "id": "3",
+       "mode": "input",
+       "answers": [
+        "-4"
+       ],
+       "keywords": [
+        "-4"
+       ],
+       "placeholder": "hệ số c",
+       "maxLen": 4
+      },
+      {
+       "id": "4",
+       "mode": "input",
+       "answers": [
+        "41"
+       ],
+       "keywords": [
+        "41"
+       ],
+       "placeholder": "giá trị Delta",
+       "maxLen": 4
+      },
+      {
+       "id": "5",
+       "mode": "input",
+       "answers": [
+        ">"
+       ],
+       "keywords": [
+        ">"
+       ],
+       "placeholder": "dấu so sánh",
+       "maxLen": 2
+      },
+      {
+       "id": "6",
+       "mode": "input",
+       "answers": [
+        "0"
+       ],
+       "keywords": [
+        "0"
+       ],
+       "placeholder": "giá trị",
+       "maxLen": 2
+      }
+     ],
+     "pool": [],
+     "ordered": false
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Không giải phương trình, tính giá trị biểu thức $P=\\frac{{{x}_{1}}^{2}}{{x}_{1}-2 }+\\frac{{{x}_{2}}^{2}}{{x}_{2}-2 }$ .",
+    "explanation": "Theo định lí Viète: $x_1 + x_2 = \\frac{3}{2}$, $x_1 x_2 = -2$.\n$P = \\frac{x_1^2}{x_1 - 2} + \\frac{x_2^2}{x_2 - 2} = \\frac{x_1^2(x_2 - 2) + x_2^2(x_1 - 2)}{(x_1 - 2)(x_2 - 2)}$.\nTử số: $x_1^2 x_2 + x_2^2 x_1 - 2(x_1^2 + x_2^2) = x_1 x_2 (x_1 + x_2) - 2[(x_1 + x_2)^2 - 2x_1 x_2]$.\n$= (-2) \\cdot \\frac{3}{2} - 2\\left[ \\left(\\frac{3}{2}\\right)^2 - 2(-2) \\right] = -3 - 2\\left( \\frac{9}{4} + 4 \\right) = -3 - 2 \\cdot \\frac{25}{4} = -3 - \\frac{25}{2} = -\\frac{31}{2}$.\nMẫu số: $(x_1 - 2)(x_2 - 2) = x_1 x_2 - 2(x_1 + x_2) + 4 = -2 - 3 + 4 = -1$.\nVậy $P = \\frac{-31/2}{-1} = \\frac{31}{2}$.",
+    "points": 1,
+    "type": "short_answer",
+    "shortCorrect": "15,5|31/2"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) S=3/2, P=−2: tử = PS−2(S²−2P) = −3−12,5 = −15,5; mẫu (x1−2)(x2−2)=P−2S+4 = −1 ⇒ P=15,5 (thử số: x≈2,3508; −0,8508 ⇒ 15,753−0,254=15,499). Key −4,5 sai"
+ }
+}

@@ -1,0 +1,705 @@
+{
+ "by": "DeepSeek",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị cho $({{d}_{1}}):y=3x-1$:",
+     "Chọn $x=0 \\Rightarrow y={{1}}$; chọn $x=1 \\Rightarrow y={{2}}"
+    ],
+    "hint": "Lập bảng giá trị đường thẳng thứ nhất"
+   },
+   {
+    "lines": [
+     "Lập bảng giá trị cho $({{d}_{2}}):y=x+3$:",
+     "Chọn $x=0 \\Rightarrow y={{3}}$; chọn $x={{4}} \\Rightarrow y=0"
+    ],
+    "hint": "Lập bảng giá trị đường thẳng thứ hai"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng $({{d}_{1}})$ đi qua hai điểm $(0;{{1}})$ và $({{5}};2)"
+    ],
+    "hint": "Vẽ đường thẳng thứ nhất"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng $({{d}_{2}})$ đi qua hai điểm $(0;{{3}})$ và $({{4}};0)"
+    ],
+    "hint": "Vẽ đường thẳng thứ hai"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "-1"
+    ],
+    "keywords": [
+     "-1"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "giá trị x",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "hoành độ",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "-1",
+   "2",
+   "3",
+   "-3",
+   "1",
+   "0",
+   "4",
+   "-2"
+  ],
+  "ordered": false
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: $\\Delta AMO$ vuông tại {{1}} (do MA là tiếp tuyến)",
+     "Suy ra {{2}}, M, O thuộc đường tròn đường kính {{3}}"
+    ],
+    "hint": "Chứng minh ba điểm thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Ta có: $\\Delta BMO$ vuông tại {{4}} (do MB là tiếp tuyến)",
+     "Suy ra {{5}}, M, O thuộc đường tròn đường kính {{6}}"
+    ],
+    "hint": "Chứng minh ba điểm còn lại thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Suy ra: M, {{7}}, O, {{8}} cùng thuộc một đường tròn"
+    ],
+    "hint": "Kết luận bốn điểm cùng thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Ta có: {{9}} = {{10}} (MA, MB là tiếp tuyến)",
+     "Và {{11}} = {{12}} = R"
+    ],
+    "hint": "Chứng minh các đoạn thẳng bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra {{13}} là đường trung trực của {{14}}"
+    ],
+    "hint": "Chứng minh đường trung trực"
+   },
+   {
+    "lines": [
+     "Do đó $MO\\bot {{15}}$ tại {{16}}"
+    ],
+    "hint": "Kết luận vuông góc tại trung điểm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "OM",
+     "MO"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "OM",
+     "MO"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "MO",
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "A",
+   "B",
+   "H",
+   "O",
+   "M",
+   "MA",
+   "MB",
+   "OA",
+   "OB",
+   "AB",
+   "OM",
+   "MO",
+   "AM",
+   "BM"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: $\\Delta ABC$ nội tiếp (O), BC là đường kính",
+     "Suy ra $\\Delta ABC$ vuông tại {{1}} nên {{2}} $\\bot$ {{3}}"
+    ],
+    "hint": "Chứng minh tam giác vuông và vuông góc"
+   },
+   {
+    "lines": [
+     "Mà $MO\\bot {{4}}$ nên {{5}} // {{6}}",
+     "Suy ra $\\widehat{MCA}=\\widehat{{{7}}}$"
+    ],
+    "hint": "Chứng minh hai đường thẳng song song"
+   },
+   {
+    "lines": [
+     "Mà $\\widehat{OEH}=\\widehat{CMO}$ (cùng phụ $\\widehat{{{8}}}$)",
+     "Do đó $\\widehat{MCA}=\\widehat{{{9}}}$ (1)"
+    ],
+    "hint": "Chứng minh hai góc bằng nhau thứ nhất"
+   },
+   {
+    "lines": [
+     "Ta có: $\\widehat{MAC}={{90}^{o}}+\\widehat{OAC}$ và $\\widehat{OAE}={{90}^{o}}+\\widehat{{{10}}}$",
+     "Suy ra $\\widehat{MAC}=\\widehat{{{11}}}$ (2)"
+    ],
+    "hint": "Chứng minh hai góc bằng nhau thứ hai"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra $\\Delta MAC$ đồng dạng $\\Delta {{12}}$"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{MA}{OA}=\\frac{AC}{{{13}}}$ nên $MA.{{14}}=OA.{{15}}"
+    ],
+    "hint": "Suy ra đẳng thức tích"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MO",
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "CMO"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "MOE"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "OEH"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "OAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OAE"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "OAE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "A",
+   "AC",
+   "AB",
+   "MO",
+   "OM",
+   "CMO",
+   "MOE",
+   "OEH",
+   "OAC",
+   "OAE",
+   "AE",
+   "MA",
+   "OA",
+   "AM"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "$\\Delta AMO$ vuông tại {{1}}, đường cao {{2}}:",
+     "$OH\\cdot OM=O{{A}^{2}}=O{{C}^{2}}$"
+    ],
+    "hint": "Hệ thức lượng trong tam giác vuông"
+   },
+   {
+    "lines": [
+     "$\\Delta OKM$ đồng dạng $\\Delta {{3}}$ (g.g)",
+     "Suy ra $OH\\cdot OM=OK\\cdot {{4}}"
+    ],
+    "hint": "Chứng minh hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Nên $OK\\cdot OE=O{{C}^{2}}$",
+     "Mà $\\widehat{{{5}}}$ chung"
+    ],
+    "hint": "Thay thế và nhận xét góc chung"
+   },
+   {
+    "lines": [
+     "Do đó $\\Delta COE$ đồng dạng $\\Delta {{6}}$ (c.g.c)"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\widehat{OCE}=\\widehat{{{7}}}={{90}^{o}}$",
+     "Nên $EC\\bot {{8}}$ tại {{9}}"
+    ],
+    "hint": "Suy ra góc vuông và vuông góc"
+   },
+   {
+    "lines": [
+     "Vậy EC là {{10}} của (O)"
+    ],
+    "hint": "Kết luận tiếp tuyến"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "OHE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OE"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "COE"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "KOC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OKC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "tiếp tuyến"
+    ],
+    "keywords": [],
+    "placeholder": "cụm từ",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "A",
+   "AH",
+   "OHE",
+   "OE",
+   "COE",
+   "KOC",
+   "OKC",
+   "OC",
+   "C",
+   "tiếp tuyến",
+   "OA",
+   "OM",
+   "H",
+   "K"
+  ]
+ }
+}

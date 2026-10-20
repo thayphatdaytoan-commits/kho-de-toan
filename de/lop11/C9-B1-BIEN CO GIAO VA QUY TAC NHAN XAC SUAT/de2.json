@@ -1,0 +1,650 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "9",
+  "lesson": "1",
+  "title": "Bài 1. Biến cố giao và quy tắc nhân xác suất"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho một phép thử có không gian mẫu là $\\Omega $ và $A$ là một biến cố. Tìm mệnh đề sai trong các mệnh đề sau.",
+   "explanation": "Mệnh đề sai là: hai biến cố xung khắc là hai biến cố đối nhau.\nXét các mệnh đề còn lại:\nHai biến cố đối nhau là hai biến cố xung khắc là mệnh đề đúng, vì $A\\cap \\overline{A\\,}=\\varnothing $.\n$A$ và $\\Omega \\backslash A$ là hai biến cố xung khắc đúng.\n$A$ và $\\Omega $ không phải là hai biến cố xung khắc đúng, vì $A\\cap \\Omega =A$.",
+   "options": [
+    "Hai biến cố đối nhau là hai biến cố xung khắc",
+    "Hai biến cố xung khắc là hai biến cố đối nhau",
+    "$A$ và $\\Omega \\backslash A$ là hai biến cố xung khắc",
+    "$A$ và $\\Omega $ không phải là hai biến cố xung khắc"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hai biến cố $A$ và $B$ độc lập. Tìm mệnh đề sai trong các mệnh đề sau.",
+   "explanation": "Hai biến cố $A$ và $\\overline{A}$ không độc lập, vì nếu $A$ xảy ra thì xác suất xảy ra $\\overline{A}$ bằng 0 và ngược lại nếu $A$ không xảy ra thì xác suất xảy ra $\\overline{A}$ bằng 1.\nHoặc: $\\left\\{ \\begin{aligned} & P\\left( A\\,\\overline{A} \\right)=P\\left( \\varnothing \\right)=0 \\\\ & P\\left( A \\right).P\\left( \\overline{A} \\right)=P\\left( A \\right).\\left[ 1-P\\left( A \\right) \\right] \\\\ \\end{aligned} \\right.$ $\\Rightarrow \\,\\,\\,P\\left( A\\,\\overline{A} \\right)\\ne P\\left( A \\right).P\\left( \\overline{A} \\right)$ khi $0<P\\left( A \\right)<1$.\nDo đó biến cố $A$ và $\\overline{A}$ không độc lập.\nVậy mệnh đề sai là: hai biến cố $A$ và $\\overline{A}$ độc lập.",
+   "options": [
+    "Hai biến cố $A$ và $\\overline{B}$ độc lập",
+    "Hai biến cố $\\overline{A}$ và $B$ độc lập",
+    "Hai biến cố $\\overline{A}$ và $\\overline{B}$ độc lập",
+    "Hai biến cố $A$ và $\\overline{A}$ độc lập"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $A$ và $B$ là hai biến cố độc lập với nhau, $P\\left( A \\right)=0,4$, $P\\left( B \\right)=0,3$. Khi đó $P\\left( AB \\right)$ bằng",
+   "explanation": "Do $A$ và $B$ là hai biến cố độc lập với nhau nên $P\\left( AB \\right)=P\\left( A \\right).P\\left( B \\right)=0,4.0,3=0,12$.",
+   "options": [
+    "$0,58$",
+    "$0,7$",
+    "$0,1$",
+    "$0,12$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $A$ và $B$ là hai biến cố độc lập. Biết $P\\left( A \\right)=0,7$ và $P\\left( B \\right)=0,2$. Hãy tính xác suất của biến cố $\\bar{A}B$.",
+   "explanation": "Vì $\\bar{A}$ là biến cố đối của $A$ nên $P\\left( {\\bar{A}} \\right)=1-P\\left( A \\right)=0,3$. Do $\\bar{A}$ và $B$ độc lập nên $P\\left( \\bar{A}B \\right)=P\\left( {\\bar{A}} \\right).P\\left( B \\right)=0,3.0,2=0,06$.",
+   "options": [
+    "$0,06$",
+    "$0,9$",
+    "$0,14$",
+    "$0,24$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gieo một con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố “Số chấm xuất hiện trên con xúc xắc là một số chẵn”, $B$ là biến cố “Số chấm xuất hiện trên con xúc xắc chia hết cho 3”. Tìm tập hợp mô tả biến cố $AB$.",
+   "explanation": "Tập hợp mô tả các biến cố: $A=\\left\\{ 2\\,;\\ 4\\,;\\ 6 \\right\\}$, $B=\\left\\{ 3\\,;\\ 6 \\right\\}$.\nTừ đó suy ra $AB=\\left\\{ 6 \\right\\}$.",
+   "options": [
+    "$\\left\\{ 2\\,;\\ 3\\,;\\ 4\\,;\\ 6 \\right\\}$",
+    "$\\left\\{ 2\\,;\\ 4\\,;\\ 6 \\right\\}$",
+    "$\\left\\{ 3\\,;\\ 6 \\right\\}$",
+    "$\\left\\{ 6 \\right\\}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gieo hai con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố “Tổng số chấm xuất hiện trên hai con xúc xắc bằng 4”, $B$ là biến cố “Tích số chấm xuất hiện trên hai con xúc xắc bằng 4”. Tìm tập hợp mô tả biến cố $AB$.",
+   "explanation": "Tập hợp mô tả các biến cố: $A=\\left\\{ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right) \\right\\}$, $B=\\left\\{ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right) \\right\\}$.\nSuy ra $AB=\\left\\{ \\left( 2\\,;\\ 2 \\right) \\right\\}$.",
+   "options": [
+    "$\\left\\{ \\left( 2\\,;\\ 2 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 1 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 3\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right) \\right\\}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gieo hai con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố “Tổng số chấm xuất hiện trên hai con xúc xắc bằng 5”, $C$ là biến cố “Có ít nhất một con xúc xắc xuất hiện mặt 1 chấm”. Tìm tập hợp mô tả biến cố $AC$.",
+   "explanation": "Tập hợp mô tả các biến cố: $A=\\left\\{ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 2 \\right) \\right\\}$,\n$C=\\left\\{ \\left( 1\\,;\\ 6 \\right)\\,,\\ \\left( 6\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 5 \\right)\\,,\\ \\left( 5\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 2 \\right)\\,,\\ \\left( 2\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 1 \\right) \\right\\}$.\nTừ đó suy ra $AC=\\left\\{ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 1 \\right) \\right\\}$.",
+   "options": [
+    "$\\left\\{ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 2\\,;\\ 3 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 1 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 4\\,;\\ 1 \\right)\\,,\\ \\left( 3\\,;\\ 2 \\right) \\right\\}$",
+    "$\\left\\{ \\left( 1\\,;\\ 5 \\right)\\,,\\ \\left( 2\\,;\\ 3 \\right) \\right\\}$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Xét phép thử \"Bạn thứ nhất gieo đồng xu, sau đó bạn thứ hai gieo con súc sắc\". Gọi $A$ là biến cố “Đồng xu xuất hiện mặt ngửa”, $B$ là biến cố “Con súc sắc xuất hiện mặt 4 chấm”. Tính xác suất của biến cố $A\\overline{B}$.",
+   "explanation": "Không gian mẫu của phép thử là\n$\\Omega =\\left\\{ \\left( S,1 \\right),\\left( S,2 \\right),\\left( S,3 \\right),\\left( S,4 \\right),\\left( S,5 \\right),\\left( S,6 \\right),\\left( N,1 \\right),\\left( N,2 \\right),\\left( N,3 \\right),\\left( N,4 \\right),\\left( N,5 \\right),\\left( N,6 \\right) \\right\\}$.\nTập hợp mô tả các biến cố: $A=\\left\\{ \\left( N,1 \\right),\\left( N,2 \\right),\\left( N,3 \\right),\\left( N,4 \\right),\\left( N,5 \\right),\\left( N,6 \\right) \\right\\}$, $B=\\left\\{ \\left( S,4 \\right),\\left( N,4 \\right) \\right\\}$,\n$\\overline{B}=\\left\\{ \\left( S,1 \\right),\\left( S,2 \\right),\\left( S,3 \\right),\\left( S,5 \\right),\\left( S,6 \\right),\\left( N,1 \\right),\\left( N,2 \\right),\\left( N,3 \\right),\\left( N,5 \\right),\\left( N,6 \\right) \\right\\}$.\nTừ đó suy ra $A\\overline{B}=\\left\\{ \\left( N,1 \\right),\\left( N,2 \\right),\\left( N,3 \\right),\\left( N,5 \\right),\\left( N,6 \\right) \\right\\}$.\nVậy xác suất của biến cố $A\\overline{B}$ là $P\\left( A\\overline{B} \\right)=\\frac{n\\left( A\\overline{B} \\right)}{n\\left( \\Omega \\right)}=\\frac{5}{12}$.",
+   "options": [
+    "$\\frac{1}{3}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{5}{12}$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Xét phép thử \"Bạn thứ nhất gieo đồng xu, sau đó bạn thứ hai gieo con súc sắc\". Gọi $A$ là biến cố “Đồng xu xuất hiện mặt sấp”, $B$ là biến cố “Con súc sắc xuất hiện mặt 6 chấm”. Tìm tập hợp mô tả biến cố $AB$.",
+   "explanation": "Tập hợp mô tả các biến cố: $A=\\left\\{ \\left( S,1 \\right),\\left( S,2 \\right),\\left( S,3 \\right),\\left( S,4 \\right),\\left( S,5 \\right),\\left( S,6 \\right) \\right\\}$, $B=\\left\\{ \\left( S,6 \\right),\\left( N,6 \\right) \\right\\}$.\nTừ đó suy ra $AB=\\left\\{ \\left( S,6 \\right) \\right\\}$.",
+   "options": [
+    "$\\left\\{ \\left( S,4 \\right),\\left( S,5 \\right),\\left( S,6 \\right) \\right\\}$",
+    "$\\left\\{ \\left( S,6 \\right),\\left( N,6 \\right) \\right\\}$",
+    "$\\left\\{ \\left( N,6 \\right) \\right\\}$",
+    "$\\left\\{ \\left( S,6 \\right) \\right\\}$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một hộp chứa 22 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 22. Chọn ra ngẫu nhiên 1 thẻ từ hộp. Gọi $A$ là biến cố “Số ghi trên thẻ được chọn chia hết cho 2”, $B$ là biến cố “Số ghi trên thẻ được chọn chia hết cho 3”. Tính xác suất của biến cố $AB$.",
+   "explanation": "Không gian mẫu $\\Omega =\\left\\{ 1\\,;\\ 2\\,;\\ 3\\,;\\ ...\\,;\\ 22 \\right\\}$, suy ra $n\\left( \\Omega \\right)=22$.\nTa có $A$ là biến cố “Số ghi trên thẻ được chọn chia hết cho 2” $\\Rightarrow \\,\\,\\,A=\\left\\{ 2\\,;\\ 4\\,;\\ 6\\,;\\ ...\\,;\\ 22 \\right\\}$, $n\\left( A \\right)=11.$\n$B$ là biến cố “Số ghi trên thẻ được chọn chia hết cho 3” $\\Rightarrow \\,\\,\\,B=\\left\\{ 3\\,;\\ 6\\,;\\ 9\\,;\\ 12\\,;\\ 15\\,;\\ 18\\,;\\ 21 \\right\\}$, $n\\left( B \\right)=7$.\nTa cũng có $A\\cap B=\\left\\{ 6\\,;\\ 12\\,;\\ 18 \\right\\}$, suy ra $P\\left( AB \\right)=\\frac{3}{22}$.",
+   "options": [
+    "$\\frac{3}{22}$",
+    "$\\frac{7}{22}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{7}{44}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Hộp thứ nhất chứa 4 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 4. Hộp thứ hai chứa 5 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 5. Lấy ra ngẫu nhiên từ mỗi hộp 1 thẻ. Gọi $A$ là biến cố “Tổng các số ghi trên 2 thẻ bằng 6”, $B$ là biến cố “Tích các số ghi trên 2 thẻ là số chẵn”. Tính xác suất của biến cố $AB$.",
+   "explanation": "Không gian mẫu $\\Omega =\\left\\{ \\begin{aligned} & \\left( 1\\,;\\ 1 \\right)\\,,\\ \\left( 1\\,;\\ 2 \\right)\\,,\\ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 1\\,;\\ 4 \\right)\\,,\\ \\left( 1\\,;\\ 5 \\right) \\\\ & \\left( 2\\,;\\ 1 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right)\\,,\\ \\left( 2\\,;\\ 3 \\right)\\,,\\ \\left( 2\\,;\\ 4 \\right)\\,,\\ \\left( 2\\,;\\ 5 \\right) \\\\ & \\left( 3\\,;\\ 1 \\right)\\,,\\ \\left( 3\\,;\\ 2 \\right)\\,,\\ \\left( 3\\,;\\ 3 \\right)\\,,\\ \\left( 3\\,;\\ 4 \\right)\\,,\\ \\left( 3\\,;\\ 5 \\right) \\\\ & \\left( 4\\,;\\ 1 \\right)\\,,\\ \\left( 4\\,;\\ 2 \\right)\\,,\\ \\left( 4\\,;\\ 3 \\right)\\,,\\ \\left( 4\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 5 \\right) \\\\ \\end{aligned} \\right\\}$, suy ra $n\\left( \\Omega \\right)=4.5=20$.\nTa có $A$ là biến cố “Tổng các số ghi trên 2 thẻ bằng 6” $\\Rightarrow \\,\\,\\,A=\\left\\{ \\left( 1\\,;\\ 5 \\right)\\,,\\ \\left( 2\\,;\\ 4 \\right)\\,,\\ \\left( 3\\,;\\ 3 \\right)\\,,\\ \\left( 4\\,;\\ 2 \\right) \\right\\}$.\n$B$ là biến cố “Tích các số ghi trên 2 thẻ là số chẵn”.\nSuy ra tập hợp mô tả biến cố $AB$ là $AB=\\left\\{ \\left( 2\\,;\\ 4 \\right)\\,,\\ \\left( 4\\,;\\ 2 \\right) \\right\\}$, $n\\left( AB \\right)=2$.\nDo đó $P\\left( AB \\right)=\\frac{2}{20}=\\frac{1}{10}$.",
+   "options": [
+    "$\\frac{1}{10}$",
+    "$\\frac{1}{5}$",
+    "$\\frac{1}{4}$",
+    "$\\frac{3}{20}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Hộp thứ nhất chứa 3 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 3. Hộp thứ hai chứa 5 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 5. Lấy ra ngẫu nhiên từ mỗi hộp 1 thẻ. Gọi $A$ là biến cố “Tổng các số ghi trên 2 thẻ bằng 6”, $B$ là biến cố “Tích các số ghi trên 2 thẻ là số lẻ”. Biến cố nào dưới đây xung khắc với cả hai biến cố $A$ và $B$?",
+   "explanation": "Biến cố xung khắc với cả hai biến cố $A$ và $B$ thì phải thỏa mãn\n“Các số ghi trên 2 thẻ có tổng khác 6 và có tích là số chẵn”.\nGọi $E$ là biến cố “Tích các số ghi trên 2 thẻ bằng 2” $E$ xung khắc với $B$.\nTa có $E=\\left\\{ \\left( 1\\,;\\ 2 \\right)\\,,\\ \\left( 2\\,;\\ 1 \\right) \\right\\}$ $E$ xung khắc với $A$.\nVậy $E$ xung khắc với cả $A$ và $B$.\nCác phương án còn lại:\nGọi $F$ là biến cố “Tích các số ghi trên 2 thẻ bằng 1” $F$ không xung khắc với $B$ loại.\nGọi $G$ là biến cố “Tổng các số ghi trên 2 thẻ bằng 2” xung khắc với $A$.\nTa có $G=\\left\\{ \\left( 1\\,;\\ 1 \\right) \\right\\}$ $G$ không xung khắc với $B$ loại.\nGọi $H$ là biến cố “Tổng các số ghi trên 2 thẻ bằng 4” xung khắc với $A$.\nTa có $H=\\left\\{ \\left( 1\\,;\\ 3 \\right)\\,,\\ \\left( 2\\,;\\ 2 \\right)\\,,\\ \\left( 3\\,;\\ 1 \\right) \\right\\}$ $H$ không xung khắc với $B$ loại.",
+   "options": [
+    "Tích các số ghi trên 2 thẻ bằng 1",
+    "Tích các số ghi trên 2 thẻ bằng 2",
+    "Tổng các số ghi trên 2 thẻ bằng 2",
+    "Tổng các số ghi trên 2 thẻ bằng 4"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P(AB)=0,24$",
+    "b": "$P(A\\bar{B})=0,16$",
+    "c": "$P(\\bar{A}\\bar{B})=0,24$",
+    "d": "$P(\\bar{A}B)=0,24$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho ${A}$ và ${B}$ là hai biến cố độc lập với nhau. Biết ${P(A)=0,4}$ và ${P(B)=0,6}$. Khi đó:",
+   "explanation": "Vì ${A}$ và ${B}$ là hai biến cố độc lập với nhau nên:\n$\\begin{aligned} & P(AB)=P(A)\\times P(B)=0,4\\times 0,6=0,24 \\\\ & P(\\bar{A}B)=P(\\bar{A})\\times P(B)=0,6\\times 0,6=0,36 \\\\ & P(\\bar{A}\\bar{B})=P(\\bar{A})\\times P(\\bar{B})=0,6\\times 0,4=0,24 \\\\ & P(A\\bar{B})=P(A)\\times P(\\bar{B})=0,4\\times 0,4=0,16 \\\\ \\end{aligned}$",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Có đúng 1 người câu được cá bằng: $0,34$",
+    "b": "Có đúng 2 người câu được cá bằng: $0,29$",
+    "c": "Người thứ 3 luôn luôn câu được cá bằng: $0,3$",
+    "d": "Có ít nhất 1 người câu được cá bằng: $0,21$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Có ba người cùng đi câu cá. Xác suất câu được cá của người thứ nhất là 0,5 . Xác suất câu được cá của người thứ hai là 0,4 . Xác suất câu được cá của người thứ ba là 0,3 . Khi đó xác suất của biến cố:",
+   "explanation": "Gọi ${A}$ là biến cố \"người thứ nhất câu được cá\". ${B}$ là biến cố \"người thứ hai câu được cá\". ${C}$ là biến cố \"người thứ ba câu được cá\".\nTa có: ${P(A)=0,5 ; P(B)=0,4 ; P(C)=0,3}$.\nSuy ra ${P(\\bar{A})=0,5 ; P(\\bar{B})=0,6 ; P(\\bar{C})=0,7}$.\na) Gọi ${X}$ là biến cố “Có đúng 1 người câu được cá”, sẽ xảy ra các trường hợp sau:\nBiến cố 1: Người thứ nhất câu được cá, người thứ hai và người thứ ba không câu được cá.\nBiến cố 2: Người thứ hai câu được cá, người thứ nhất và người thứ ba không câu được cá.\nBiến cố 3: Người thứ ba câu được cá, người thứ nhất và người thứ hai không câu được cá.\nVì 3 biến cố này xung khắc nên có:\n${\\begin{aligned} & P(X)=P(A \\cap \\bar{B} \\cap \\bar{C})+P(\\bar{A} \\cap B \\cap \\bar{C})+P(\\bar{A} \\cap \\bar{B} \\cap C) \\\\ & P(X)=P(A) P(\\bar{B}) P(\\bar{C})+P(\\bar{A}) P(B) P(\\bar{C})+P(\\bar{A}) P(\\bar{B}) P(C) \\\\ & P(X)=0,5 \\times 0,6 \\times 0,7+0,5 \\times 0,4 \\times 0,7+0,5 \\times 0,6 \\times 0,3=0,44 . \\end{aligned} }$\nb) Gọi ${Y}$ là biến cố \"Có đúng 2 người câu được cá”, sẽ xảy ra các trường hợp sau:\nBiến cố 1 : Người thứ nhất và người thứ hai câu được cá, người thứ ba không câu được cá.\nBiến cố 2: Người thứ hai và người thứ ba câu được cá, người thứ nhất không câu được cá.\nBiến cố 3 : Người người thứ nhất và thứ ba câu được cá, người thứ hai không câu được cá.\nVì 3 biến cố này xung khắc nên có:\n${\\begin{aligned} & P(Y)=P(A \\cap B \\cap \\bar{C})+P(\\bar{A} \\cap B \\cap C)+P(A \\cap \\bar{B} \\cap C) \\\\ & P(Y)=P(A) P(B) P(\\bar{C})+P(\\bar{A}) P(B) P(C)+P(A) P(\\bar{B}) P(C) \\\\ & P(Y)=0,5 \\times 0,4 \\times 0,7+0,5 \\times 0,4 \\times 0,3+0,5 \\times 0,6 \\times 0,3=0,29 . \\end{aligned} }$\nc) Gọi ${Z}$ là biến cố \"Người thứ 3 luôn luôn câu được cá\", sẽ xảy ra các trường hợp sau:\nBiến cố 1 : Cả ba người luôn câu được cá.\nBiến cố 2: Người thứ nhất câu được cá, người thứ hai không câu được cá, người thứ ba câu được cá.\nBiến cố 3: Người người thứ nhất không câu được cá, người thứ hai câu được cá, người thứ ba câu được cá.\nBiến cố 4: Người người thứ nhất và thứ hai không câu được cá, người thứ ba câu được cá.\nVì 4 biến cố này xung khắc nên có:\n${\\begin{aligned} & P(Z)=P(A \\cap B \\cap C)+P(A \\cap \\bar{B} \\cap C)+P(\\bar{A} \\cap B \\cap C)+P(\\bar{A} \\cap \\bar{B} \\cap C) \\\\ & P(Z)=P(A) P(B) P(C)+P(A) P(\\bar{B}) P(C)+P(\\bar{A}) P(B) P(C)+P(\\bar{A}) P(\\bar{B}) P(C) \\\\ & P(Z)=0,5 \\times 0,4 \\times 0,3+0,5 \\times 0,6 \\times 0,3+0,5 \\times 0,4 \\times 0,3+0,5 \\times 0,6 \\times 0,3=0,3 . \\end{aligned} }$\nd) Gọi ${T}$ là biến cố \"Có ít nhất 1 người câu được cá\", suy ra ${\\bar{T}}$ là biến cố \"Cả 3 người không câu được cá\". ${P(T)=1-P(\\bar{T})=1-0,5 \\times 0,6 \\times 0,7=0,79}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 23,
+    "so_dau_bang": 21,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "xác suất hai động cơ điều hoạt động bình thương là $0,855$",
+    "b": "xác suất hai động cơ điều bị hỏng là $0,005$",
+    "c": "Xác suất để động cơ $I$ hoạt động, động cơ $II$ hỏng là $0,095$.",
+    "d": "xác suất ít nhất một động cơ hoạt động là $0,905$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một chiếc máy bay có $2$ động cơ $I,II$. Xác suất để động cơ $I$ hoạt động bình thường là $0,95$. Xác suất để động cơ $II$ bị hỏng là $0,1$. Khi đó:",
+   "explanation": "a) $A$ = “Động cơ $I$ hoạt động bình thường” $\\Rightarrow P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=1-0,95=0,05$\n$B$ = “Động cơ $II$ hoạt động bình thường” $\\Rightarrow P\\left( B \\right)=1-P\\left( \\overline{B} \\right)=1-0,1=0,9$\nNhư vậy xác suất để hai động cơ hoạt động bình thường là: $0,9.0,95=0,855$\nb) Xác suất để hai động cơ đều hỏng là: $0,1.0,05=0,005$\nc) Ta có ba trường hợp\nXác suất để động cơ $I$ hoạt động, động cơ $II$ hỏng:$0,95.0,1=0,095$.\nXác suất để động cơ $II$ hoạt động, động cơ $I$ hỏng:$0,05.0,9=0,045$.\nXác suất để hai động cơ đều hoạt động là: $0,9.0,95=0,855$\nSuy ra xác suất để ít nhất một động cơ hoạt động là: $0,095+0,045+0,855=0,995$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "xác suất để học sinh đó đúng cả $4$câu là $0,00390625$",
+    "b": "xác suất để học sinh đó không đúng câu nào là $0,31640625$",
+    "c": "xác suất để học sinh đó đúng $1$ câu là $0,68359375$",
+    "d": "xác suất để học sinh đó đúng ít nhất $1$ câu là $0,421875$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một bài kiểm tra trắc nghiệm gồm $4$ câu. Mỗi câu gồm $4$ đáp án trong đó chỉ có $1$ đáp án đúng. Một học sinh làm bài ngẫu nhiên.",
+   "explanation": "a) Gọi $A$là biến cố “chọn được đáp án đúng cho mỗi câu hỏi”.\nTa có $P\\left( A \\right)=\\frac{1}{4}$. Khi đó $P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=1-\\frac{1}{4}=\\frac{3}{4}$.\nSuy ra xác suất để học sinh chọn đúng cả bốn câu là ${{\\left( \\frac{1}{4} \\right)}^{4}}=0,00390625$.\nb) Xác suất để học sinh chọn không đúng câu nào là ${{\\left( \\frac{3}{4} \\right)}^{4}}=0,31640625$.\nc) Xác suất để học sinh chọn đúng một câu là $C_{4}^{1}.\\frac{1}{4}.{{\\left( \\frac{3}{4} \\right)}^{3}}=0,421875$.\nd) Xác suất để học sinh chọn đúng ít nhất một câu là $1-{{\\left( \\frac{3}{4} \\right)}^{4}}=0,68359375$.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C8.B3.D04",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Hộp ${A}$ đựng 5 tấm thẻ được đánh số từ 1 đến 5 , hộp ${B}$ đựng 6 tấm thẻ được đánh số từ 1 đến 6 , hai thẻ khác nhau ở mỗi hộp đánh hai số khác nhau. Chọn ngẫu nhiên từ hộp ${A}$ một tấm thẻ và từ hộp ${B}$ hai tấm thẻ. Gọi ${X}$ là biến cố: \"Chọn được thẻ mang số lẻ từ hộp ${A}$ \", ${Y}$ là biến cố: \"Chọn được thẻ mang số chăn từ hộp ${A}$ \", và ${Z}$ là biến cố: \"Chọn được hai thẻ mang số lẻ từ hộp ${B}$ \". Tính xác suất để tích số được ghi trên ba tấm thẻ thu được là số chẵn.",
+   "explanation": "Ta có: ${X=\\{1 ; 3 ; 5\\}, Y=\\{2 ; 4\\} \\Rightarrow X \\cap Y=\\varnothing}$. Vậy ${X, Y}$ là hai biến cố xung khắc.\nNhận xét: Để có được tích ba số ghi trên ba thẻ là số lẻ thì cả ba thẻ thu được đều mang số lẻ. Gọi ${U}$ là biến cố: \"Tích ba số ghi trên ba thẻ là số lẻ\" thì ${P(\\bar{U})}$ là xác suất cần tìm.\nDễ thấy mỗi cặp biến cố ${X}$ và ${Z, Y}$ và ${Z}$ là độc lập.\nTa có: ${P(X)=\\frac{3}{5}, P(Y)=\\frac{2}{5}, P(Z)=\\frac{C_3^2}{C_6^2}=\\frac{1}{5}}$.\nKhi đó: ${P(U)=P(X Z)=P(X) \\cdot P(Z)=\\frac{3}{5} \\cdot \\frac{1}{5}=\\frac{3}{25}}$.\nSuy ra ${P(\\bar{U})=1-P(U)=1-\\frac{3}{25}=\\frac{22}{25}}$.",
+   "short_value": null,
+   "short_correct": "\\dfrac{22}{25}",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một lô hàng có 20 sản phẩm giống nhau trong đó có 4 sản phẩm không đạt chất lượng còn lại là sản phẩm đạt chất lượng tốt. Mỗi lần kiểm tra, người ta chọn ra ngẫu nhiên 2 sản phẩm. Tính xác suất để lấy ra được ít nhất một sản phẩm tốt.",
+   "explanation": "Gọi ${A}$ là biến cố \"Lấy ra 2 sản phẩm được ít nhất một sản phẩm tốt\". Biến cố ${A}$ xảy ra khi lấy ra được 1 sản phẩm tốt và một sản phẩm không đạt chất lượng hoặc lấy ra được 2 sản phẩm đều tốt. Xác suất của biến cố ${A: P(A)=\\frac{C_{16}^1 \\times C_4^1 \\times C_{16}^2}{C_{20}^2}=\\frac{92}{95}}$.",
+   "short_value": null,
+   "short_correct": "\\dfrac{92}{95}",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D02",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một chiếc máy có hai động cơ I và II hoạt động độc lập với nhau. Xác suất để động cơ I chạy tốt là 0,8 và xác suất để động cơ II chạy tốt là 0,7 . Hãy tính xác suất để cả hai động cơ đều chạy tốt là bao nhiêu?",
+   "explanation": "Gọi ${A}$ là biến cố: \"Động cơ I chạy tốt\"\n${B}$ là biến cố: \"Động cơ II chạy tốt\"\n${C}$ là biến cố: \"Cả hai động cơ đều chạy tốt\".\nTa thấy ${A, B}$ là hai biến cố độc lập với nhau và ${C=A B}$.\nTheo công thức nhân xác suất ta có: ${P(C)=P(A B)=P(A) \\cdot P(B)=0,8 \\cdot 0,7=0,56}$.",
+   "short_value": null,
+   "short_correct": "0,56",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L11.C8.B1.D01",
+   "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nhà trường muốn chọn một đội văn nghệ có đủ cả nam và nữ gồm 12 em đi biểu diễn từ một nhóm học sinh gồm 10 nam sinh và 8 nữ sinh. Tính xác xuất để đội văn nghệ được chọn có:\na) Đúng 6 bạn nam.\nb) Ít nhất 6 bạn nữ.",
+   "explanation": "a) Gọi ${A}$ là biến cố \"Chọn đội văn nghệ gồm 12 bạn có đủ cả nam và nữ trong đó có đúng 6 bạn nam”.\n${P(A)=\\frac{C_{10}^6 \\times C_8^6}{C_{18}^{12}}=\\frac{70}{221} }$\nb) Gọi ${B}$ là biến cố “Chọn đội văn nghệ gồm 12 bạn có đủ cả nam và nữ trong đó có ít nhất 6 bạn nữ”.\n${P(B)=\\frac{C_{10}^6 \\times C_8^6+C_{10}^5 \\times C_8^7+C_{10}^4 \\times C_8^8}{C_{18}^{12}}=\\frac{193}{442} . }$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một xạ thủ bắn lần lượt 2 viên đạn vào một bia. Xác suất trúng đích của viên thứ nhất và viên thứ hai lần lượt là 0,8 và 0,7 . Biết rằng kết quả các lần bắn là độc lập với nhau. Tính xác suất của các biến cố sau:\na) \"Cả hai lần bắn đều trúng đích\".\nb) \"Ít nhất 1 lần bắn trúng đích\".",
+   "explanation": "a) Gọi ${A}$ là biến cố “Cả hai lần bắn đều trúng đích\". Vì kết quả các lần bắn là độc lập với nhau suy ra: ${P(A)=0,8 \\times 0,7=0,56}$.\nb) Gọi ${B}$ là biến cố: \"Ít nhất 1 lần bắn trúng đích\".\n${P(B)=0,8 \\times 0,3+0,2 \\times 0,7+0,8 \\times 0,7=0,94 \\text {. } }$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một bệnh truyền nhiễm có xác suất lây bệnh là 0,9 nếu tiếp xúc với người bệnh mà không đeo khẩu trang; là 0,15 nếu tiếp xúc với người bệnh mà có đeo khẩu trang. Anh Hà tiếp xúc với một người bệnh hai lần, trong đó có một lần đeo khẩu trang và một lần không đeo khẩu trang. Tính xác suất anh Hà bị lây bệnh từ người bệnh mà anh tiếp xúc đó.",
+   "explanation": "Gọi ${A}$ là biến cố “anh Hà bị lây bệnh từ người bệnh nếu tiếp xúc với người bệnh mà không đeo khẩu trang\". ${P(A)=0,9}$.\nGọi ${B}$ là biến cố “anh Hà bị lây bệnh từ người bệnh nếu tiếp xúc với người bệnh mà có đeo khẩu trang\". ${P(B)=0,15}$.\nVì ${A}$ và ${B}$ là 2 biến cố độc lập. Xác suất của biến cố \"anh Hà bị lây bệnh từ người bệnh mà anh tiếp xúc đó” là: ${P(A B)=0,9 \\times 0,15=0,135}$.",
+   "short_value": null,
+   "short_correct": "0,135",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L11.C8.B3.D01",
+   "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
+  }
+ ],
+ "flags": []
+}

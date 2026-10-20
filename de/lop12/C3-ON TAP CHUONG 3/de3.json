@@ -1,0 +1,639 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "3",
+  "lesson": "on-tap",
+  "title": "Bài on-tap. Ôn tập chương 3",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho mẫu số liệu ghép nhóm:\n| Nhóm | ${\\left[a_1 ; a_2\\right)}$ | ${\\ldots}$ | ${\\left[a_{;} ; a_{i+1}\\right)}$ | ${\\ldots}$ | ${\\left[a_k ; a_{k+1}\\right)}$ |\n|---|---|---|---|---|---|\n| Tần số | ${m_1}$ | ${\\ldots}$ | ${m_i}$ | ${\\ldots}$ | ${m_k}$ |\ntrong đó các tần số ${m_1>0, m_k>0}$ và ${n=m_1+\\ldots+m_k}$ là cỡ mẫu. Khoảng biến thiên của mẫu số liệu ghép nhóm trên là",
+   "explanation": "Khoảng biến thiên của mẫu số liệu ghép nhóm trên là ${R=a_{k+1}-a_1}$.",
+   "options": [
+    "${R=a_{k+1}-a_1}$",
+    "$R={{a}_{1}}-{{a}_{k+1}}$",
+    "$R={{a}_{k+1}}+{{a}_{1}}$",
+    "$R={{a}_{k+1}}-{{a}_{k}}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho mẫu số liệu ghép nhóm có tứ phân vị thứ nhất, thứ hai, thứ ba lần lượt là ${Q_1, Q_2}$, ${Q_3}$. Khoảng tứ phân vị của mẫu số liệu ghép nhóm đó bằng:",
+   "explanation": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm là ${Q_3-Q_1}$.",
+   "options": [
+    "${{Q}_{2}}-{{Q}_{1}}$",
+    "${Q_1-Q_3}$",
+    "${Q_3-Q_1}$",
+    "${{Q}_{1}}-{{Q}_{2}}$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một người ghi lại thời gian đàm thoại của một số cuộc gọi cho kết quả như bảng sau:\n| Thời gian ${{t}}$ (phút) | ${[0 ; 1)}$ | $[1;2)$ | $[2;3)$ | ${[3 ; 4)}$ | ${[4 ; 5)}$ |\n|---|---|---|---|---|---|\n| Số cuộc gọi | 8 | $17$ | 25 | 20 | 10 |",
+   "explanation": "Cỡ mẫu ${n=80}$. Giả sử ${x_1, x_2, \\ldots, x_{80}}$ là thời gian đàm thoại của 80 cuộc gọi và giả sử dãy số liệu gốc này đã được sắp xếp theo thứ tự tăng dần.\nVì ${\\frac{n}{4}=20}$ và ${8<20<8+17}$ nên nhóm chứa tứ phân vị thứ nhất là nhóm ${[1 ; 2)}$ và tứ phân vị thứ nhất là: ${Q_1=1+\\frac{\\frac{80}{4}-8}{17} \\cdot 1=\\frac{29}{17}}$\nvi ${\\frac{3 n}{4}=60}$ và ${8+17+25<60<8+17+25+20}$ nên nhóm chứa tứ phân vị thứ ba là nhóm ${[3 ; 4)}$ và tứ phân vị thứ ba là: ${Q_3=3+\\frac{\\frac{3.80}{4}-(8+17+25)}{20} \\cdot 1=3,5}$\nVậy khoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${3,5-\\frac{29}{17}=\\frac{61}{34}}$.",
+   "options": [
+    "$\\frac{61}{34}$",
+    "$3,5$",
+    "$\\frac{29}{17}$",
+    "$\\frac{177}{34}$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Sau khi kiểm tra sức khỏe tổng quát, kết quả số cân nặng của học sinh lớp 12A sĩ số 40 HS được thể hiện trong bảng số liệu sau: ( đơn vị: kg)\n| Cân nặng | $[40;50)$ | $[50;60)$ | $[60;70)$ | $[70;80)$ | $[80;90)$ |\n|---|---|---|---|---|---|\n| Số HS | 7 | 12 | 12 | 7 | 2 |\nTứ phân vị thứ nhất của mẫu số liệu trên gần nhất với giá trị nào trong các giá trị sau?",
+   "explanation": "Tứ phân vị thứ nhất của dãy số liệu thuộc nhóm $[50;60)$ nên tứ phân vị thứ nhất của mẫu số liệu là ${{Q}_{1}}=50+\\frac{\\frac{40}{4}-7}{12}(60-50)=52,5$",
+   "options": [
+    "$50$",
+    "$50,5$",
+    "$52,5$",
+    "$55,5$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Chỉ số ô nhiễm không khí (AQI) tại thủ đô Hà Nội trong tháng 6/2024 được thống kê vào 10h30 sáng các ngày trong tháng thể hiện trong bảng số liệu sau:\n| Chỉ số (AQI) | $[130;145)$ | $[145;160)$ | $[160;175)$ | $[175;190)$ | $[190;205)$ |\n|---|---|---|---|---|---|\n| Số ngày | 8 | 7 | 6 | 7 | 2 |\nTứ phân vị thứ ba của mẫu số liệu trên gần nhất với giá trị nào trong các giá trị sau?",
+   "explanation": "Tứ phân vị thứ ba của dãy số liệu thuộc nhóm $[175;190)$ nên tứ phân vị thứ ba của mẫu số liệu là ${{Q}_{3}}=175+\\frac{\\frac{30.3}{4}-(8+7+6)}{7}(190-175)=178,2$",
+   "options": [
+    "$175$",
+    "$176,5$",
+    "$180,2$",
+    "$178,2$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong kì thi chọn học sinh giỏi ở cụm trường THPT A, môn Toán có 25 học sinh tham gia kết quả điểm bài thi của học sinh được thể hiện trong bảng sau:\n| Điểm bài thi | $[10;12)$ | $[12;14)$ | $[14;16)$ | $[16;18)$ | $[18;20)$ |\n|---|---|---|---|---|---|\n| Số lần | 4 | 6 | 8 | 4 | 3 |\nKhoảng biến thiên của mẫu số liệu ghép nhóm nhận giá trị nào trong các giá trị dưới đây?",
+   "explanation": "Khoảng biến thiên của mẫu số liệu là: $20-10=10$",
+   "options": [
+    "$18,5$",
+    "$10,5$",
+    "$8$",
+    "$10$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Đo cân nặng của 1 lớp gồm $40$ học sinh lớp 12A ta được bảng số liệu như sau:\n| Khối lượng(kg) | [40;45) | [45;50) | [50;55) | [55;60) | [60;65) | [65;70) | [70;75) | [75;80] |\n|---|---|---|---|---|---|---|---|---|\n| Số học sinh | 4 | 13 | 7 | 5 | 6 | 2 | 1 | 2 |\nTứ phân vị thứ nhất của mẫu số liệu ghép nhóm thuộc khoảng nào sau đây?",
+   "explanation": "",
+   "options": [
+    "$\\left[ 40;45 \\right]$",
+    "$\\left[ 45;50 \\right]$",
+    "$\\left[ 50;55 \\right]$",
+    "$\\left[ 55;60 \\right]$. Giải Chọn B Tứ phân vị thứ nhất của mẫu số liệu ${{x}_{1}};{{x}_{2}};...;{{x}_{40}}$ là ${{x}_{10}}\\in \\left[ 45;50 \\right)$ Nên ta có tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${{Q}_{1}}=45+\\frac{\\frac{40}{4}-4}{13}.5\\approx 47,3$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Thống kê điểm thi đánh giá năng lực của một trường THPT qua thang điểm $120$ môn Toán\n| Điểm | $\\left[ 0;20 \\right)$ | $\\left[ 20;40 \\right)$ | $\\left[ 40;60 \\right)$ | $\\left[ 60;80 \\right)$ | $\\left[ 80;100 \\right]$ |\n|---|---|---|---|---|---|\n| Số học sinh | $25$ | $35$ | $37$ | $15$ | $8$ |\nĐiểm trung bình của tất cả các học sinh tham gia dự thi thuộc khoảng nào sau đây?",
+   "explanation": "",
+   "options": [
+    "$\\left[ 40;45 \\right]$",
+    "$\\left[ 45;50 \\right]$",
+    "$\\left[ 50;55 \\right]$",
+    "$\\left[ 55;60 \\right]$. Giải Chọn A Tổng số HS tham gia dự thi: $25+35+37+15+8=120$. Điểm trung bình của các thí sinh dự thi là: $\\overline{x}=\\frac{25.10+35.30+37.50+15.70+8.90}{120}=41$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Đo chiều cao các em học sinh khối $10$ ta thu được kết quả\n| Chiều cao(cm) | Số học sinh |\n|---|---|\n| [150;152) | 5 |\n| [152;154) | 18 |\n| [154;156) | 40 |\n| [156;158) | 26 |\n| [158;160) | 8 |\n| [160;162] | 3 |\nPhương sai của mẫu số liệu ghép nhóm trên là $a,bcde$. Với $a,b,c,d,e$ là các số tự nhiên. Khi đó $a+b+c+d+e$ bằng.",
+   "explanation": "",
+   "options": [
+    "$20.$",
+    "$21.$",
+    "$22.$",
+    "$23.$ Giải Chọn D Tổng số HS: 100 Giá trị trung bình của mẫu số liệu $\\overline{x}=\\frac{5.151+18.153+40.155+26.157+8.159+3.161}{100}=155,46$ Khi đó phương sai của mẫu số liệu là: $s_{x}^{2}=\\frac{5{{\\left( 151-155,46 \\right)}^{2}}+18{{\\left( 153-155,46 \\right)}^{2}}+40{{\\left( 155-155,46 \\right)}^{2}}+26{{\\left( 157-155,46 \\right)}^{2}}+8{{\\left( 159-155,46 \\right)}^{2}}+3{{\\left( 161-155,46 \\right)}^{2}}}{100}=4,7084$Vậy $a+b+c+d+e=4+7+0+8+4=23$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Số đặc trưng nào sau đây không sử dụng để đo mức độ phân tán của mẫu số liệu ghép nhóm?",
+   "explanation": "+ Khoảng biến thiên của mẫu số liệu ghép nhóm xấp xỉ cho khoảng biến thiên của mẫu số liệu gốc. hoảng biến thiên được dùng để đo mức độ phân tán của mẫu số liệu ghép nhóm. Khoảng biến thiên càng lớn thì mẫu số liệu càng phân tán.\n+ Trung vị của mẫu số liệu ghép nhóm xấp xỉ cho trung vị của mẫu số liệu gốc, nó chia mẫu số liệu thành hai phần, mỗi phần chứa 50% giá trị.\n+ Phương sai của mẫu số liệu ghép nhóm xấp xỉ cho phương sai của mẫu số liệu gốc. Phương sai được dùng để đo mức độ phân tán của mẫu số liệu ghép nhóm xung quanh số trung bình của mẫu số liệu đó. Phương sai càng lớn thì mẫu số liệu càng phân tán.\n+ Khoảng tứ phân vị của mẫu số liệu ghép nhóm xấp xỉ cho khoảng tứ phân vị của mẫu số liệu gốc. Khoảng tứ phân vị được dùng để đo mức độ phân tán của mẫu số liệu ghép nhóm. Khoảng tứ phân vị càng lớn thì mẫu số liệu càng phân tán.",
+   "options": [
+    "Khoảng biến thiên",
+    "Trung vị",
+    "Phương sai",
+    "Khoảng tứ phân vị"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Ý nghĩa độ lệch chuẩn của mẫu số liệu ghép nhóm",
+   "explanation": "Ý nghĩa độ lệch chuẩn của mẫu số liệu ghép nhóm: Độ lệch chuẩn của mẫu số liệu ghép nhóm xấp xỉ cho độ lệch chuẩn của mẫu số liệu gốc. Độ lệch chuẩn được dùng để đo mức độ phân tán của mẫu số liệu ghép nhóm xung quanh số trung bình của mẫu số liệu đó. Độ lệch chuẩn càng lớn thì mẫu số liệu càng phân tán.",
+   "options": [
+    "dùng để đo mức độ phân tán của mẫu số liệu ghép nhóm xung quanh số trung bình của mẫu số liệu đó",
+    "cho biết vị trí trung tâm của mẫu số liệu và có thể dùng để đại diện cho mẫu số liệu",
+    "chia mẫu số liệu thành hai phần, mỗi phần chứa 50% giá trị",
+    "chia mẫu số liệu thành bốn phần, mỗi phần chứa 25% giá trị"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Quãng đường đi bộ tập thể dục mỗi ngày (đơn vị: km) của bác An trong 20 ngày được thống kê\nlại ở bảng sau:\n| Quãng đường (km) | [2,2; 2,6) | [2,6; 3,0) | [3,0; 3,4) | [3,4; 3,8) | [3,8; 4,2) |\n|---|---|---|---|---|---|\n| Số ngày | 3 | 6 | 5 | 5 | 1 |\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm trên có giá trị gần nhất với giá trị nào dưới đây?",
+   "explanation": "| Quãng đường (km) | [2,2; 2,6) | [2,6; 3,0) | [3,0; 3,4) | [3,4; 3,8) | [3,8; 4,2) |\n|---|---|---|---|---|---|\n| Giá trị đại diện | 2,4 | 2,8 | 3,2 | 3,6 | 4,0 |\n| Số ngày | 3 | 6 | 5 | 5 | 1 |\nSố trung bình của mẫu số liệu ghép nhóm là\n$\\bar{x}=\\frac{3.2,4+6.2,8+5.3,2+5.3,6+1.4,0}{20}=3,1$\nPhương sai của mẫu số liệu ghép nhóm là\n${{s}^{2}}=\\frac{3.2,{{4}^{2}}+6.2,{{8}^{2}}+5.3,{{2}^{2}}+5.3,{{6}^{2}}+1.4,{{0}^{2}}}{20}-3,{{1}^{2}}=0,206$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là\n$s=\\sqrt{0,206}\\approx 0,45$",
+   "options": [
+    "3,1",
+    "0,042",
+    "0,206",
+    "0,45"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Bảng tần số ghép nhóm của mẫu số liệu trên là:",
+    "b": "Trung bình mỗi em chạy $50\\,\\,m$ hết số thời gian là $7,5\\,\\,\\left( gi\\hat{a}y \\right)$.",
+    "c": "Khoảng biến thiên của mẫu số liệu ghép nhóm trên là $R=3,1$",
+    "d": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm trên là ${{\\Delta }_{Q}}=0,781$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Thành tích chạy $50\\,\\,m$ của $30$ em học sinh lớp 10 trường THPT A được thống kê như bảng sau. (đơn vị: giây)\n[[IMG:image19.png]]",
+   "explanation": "a. Đúng\nBảng tần số ghép nhóm của mẫu số liệu trên là:\n[[IMG:image20.png]]\nb. Sai\nTổng số học sinh là $n=30$.\nTrung bình mỗi em chạy $50\\,\\,m$ hết số thời gian là:\n$\\bar{x}=\\frac{6,25.2+6,75.5+7,25.10+7,75.9+8,25.3+8,75.1}{30}=7,4\\,\\,\\left( gi\\hat{a}y \\right).$\nc. Sai\nKhoảng biến thiên của mẫu số liệu ghép nhóm trên là $R=9,0-6,0=3,0.$\nd. Đúng\n- Cỡ mẫu là $n=30$.\nGọi ${{x}_{1}},\\ldots ,{{x}_{30}}$ là thời gian chạy $50\\,\\,m$ của $30$ học sinh và giả sử dãy này đã được sắp xếp theo thứ tự tăng dần.\nKhi đó, trung vị là $\\frac{{{x}_{15}}+{{x}_{16}}}{2}$. Do 2 giá trị ${{x}_{15}},{{x}_{16}}$ thuộc nhóm $\\left[ 7,0\\,\\,;\\,\\,7,5 \\right)$ nên nhóm này chứa trung vị. Do đó:\n${{M}_{e}}=7,0+\\frac{\\frac{30}{2}-\\left( 2+5 \\right)}{10}\\cdot 0,5=7,4$.\nTứ phân vị thứ hai $Q_2$ chính là trung vị $M_e$.\n- Tứ phân vị thứ nhất $Q_1$\nNhóm chứa $Q_1$ là nhóm thứ $3$: $\\left[ 7,0\\,\\,;\\,\\,7,5 \\right)$. Khi đó ${{Q}_{1}}=7,0+\\frac{\\frac{30}{4}-\\left( 2+5 \\right)}{10}\\cdot 0,5=7,025$.\n- Tứ phân vị thứ ba ${{Q}_{3}}$\nNhóm chứa ${{Q}_{3}}$ là nhóm thứ $4$: $\\left[ 7,5\\,\\,;\\,\\,8,0 \\right)$.\nKhi đó ${{Q}_{3}}=7,5+\\frac{\\frac{3.30}{4}-\\left( 2+5+10 \\right)}{9}\\cdot 0,5=7,80\\left( 5 \\right)\\approx 7,806$.\n- Khoảng tứ phân vị của mẫu số liệu ghép nhóm trên là ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=7,806-7,025=0,781$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 21,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D06",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tổng số học sinh được khảo sát là ${42}$.",
+    "b": "Mốt của mẫu số liệu lớn hơn ${54}$.",
+    "c": "Khoảng tứ phân vị của mẫu số liệu lớn hơn ${38}$.",
+    "d": "Phương sai của mẫu số liệu nhỏ hơn ${610}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Khảo sát thời gian xem điện thoại trong một ngày của một số học sinh khối ${12}$ thu được mẫu\nsố liệu ghép nhóm sau\n[[IMG:image21.png]]\nCác khẳng định sau đây đúng hay sai?",
+   "explanation": "[[IMG:image22.png]]\na) Tổng số học sinh được khảo sát là ${n=4+8+12+10+8=42}$.\nb) Nhóm có tần số lớn nhất là ${[40;60)}$.\nMốt của mẫu số liệu là\n${M_0 = 40+ \\frac{12-8}{(12-8)+(12-10)} \\cdot (60-40) \\approx 53{,}3.}$\nc)\nGọi ${x_1,{x_2},\\ldots,{x_{42}}}$ là thời gian xem điện thoại trong ngày của ${42}$ học sinh khối ${12}$ và giả sử dãy này đã sắp xếp theo thứ tự tăng dần.\nKhi đó tứ phân vị thứ nhất ${Q_1}$ là trung vị của dãy ${x_1}$, ${x_2}$,..., ${x_{21}}$ nên ${Q_1=x_{11}}$. Do đó ${Q_1}$ thuộc nhóm ${[20; 40)}$.\nTứ phân vị thứ ba ${Q_3}$ là trung vị của dãy ${x_{22}}$, ${x_{23}}$,..., ${x_{42}}$ nên ${Q_3=x_{32}}$. Do đó ${Q_3}$ thuộc nhóm ${[60; 80)}$.\nSuy ra ${Q_1 = 20 + \\frac{\\frac{42}{4} - 4}{8} \\cdot (40-20) = 36{,}25}$.\n${Q_3 = 60 + \\frac{\\frac{3 \\cdot 42}{4} - 24}{10} \\cdot (80-60) = 75}$.\nKhoảng tứ phân vị của mẫu số liệu là ${\\Delta Q= Q_3-Q_1 =75 - 36{,}25 = 38{,}75}$.\nd) Số trung bình của mẫu số liệu là\n${\\overline{x} = \\frac{4 \\cdot 10 +8 \\cdot 30 +12 \\cdot 50 +10 \\cdot 70 +8 \\cdot 90}{42} \\approx 54{,}76.}$\nPhương sai của mẫu số liệu là\n${s^2 = \\frac{4 \\cdot \\left (10- 54{,}76\\right )^2 +8 \\cdot \\left (30- 54{,}76\\right )^2 +12 \\cdot \\left (50- 54{,}76\\right )^2 +10 \\cdot \\left (70- 54{,}76\\right )^2 +8 \\cdot \\left (90- 54{,}76\\right )^2}{42} \\approx 605{,}9.}$",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D06",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tần suất của khối lượng trứng $\\left[ 30;36 \\right)$là $19\\%$.",
+    "b": "Số trung vị của mẫu số liệu là 43.",
+    "c": "Khoảng biến thiên của mẫu số liệu 39,18.",
+    "d": "Độ lệch chuẩn của mẫu số liệu là $\\frac{6\\sqrt{17}}{5}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một trang trại phân 1000 quả trứng thành 5 loại, tùy theo khối lượng ( đã được làm tròn) của chúng được thống kê bởi bảng dưới đây:\n| Khối lượng ( gam) | $\\left[ 30;36 \\right)$ | $\\left[ 36;42 \\right)$ | $\\left[ 42;48 \\right)$ | $\\left[ 48;54 \\right)$ | $\\left[ 54;\\,60 \\right)$ |\n|---|---|---|---|---|---|\n| Số trứng | 45 | 190 | 500 | 250 | 15 |",
+   "explanation": "a)Tần suất của khối lượng trứng $\\left[ 30;36 \\right)$là $\\frac{190}{1000}.100=19\\%$.\nb)Nhóm chứa trung vị là nhóm $\\left[ 42;48 \\right)$.\n${{M}_{e}}=42+\\frac{\\frac{1000}{2}-235}{500}.\\left( 48-42 \\right)=\\frac{2259}{50}.$\nc)Khoảng biến thiên của mẫu số liệu là: $60-30=30$.\nd)Ta có bảng sau:\n| Khối lượng ( gam) | $\\left[ 30;36 \\right)$ | $\\left[ 36;42 \\right)$ | $\\left[ 42;48 \\right)$ | $\\left[ 48;54 \\right)$ | $\\left[ 54;\\,60 \\right)$ |\n|---|---|---|---|---|---|\n| Số trứng | 45 | 190 | 500 | 250 | 15 |\n| Giá trị đại diện | 33 | 39 | 45 | 51 | 57 |\nPhương sai là:\n${{s}^{2}}=\\frac{{{33}^{2}}.45+{{39}^{2}}.190+{{45}^{2}}.500+{{51}^{2}}.250+{{57}^{2}}.15}{1000}-{{45}^{2}}=24,48.$\nVậy độ lệch chuẩn của mẫu số liệu là\n$s=\\sqrt{24,48}=\\frac{6\\sqrt{17}}{5}.$",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D06",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xét số liệu ở Nha Trang thì khoảng tứ phân vị của mẫu số liệu ghép nhóm là: $32,64$",
+    "b": "Nếu so sánh theo khoảng tứ phân vị thì số giờ nắng trong tháng 6 của Quy Nhơn đồng đều hơn",
+    "c": "Xét số liệu của Quy Nhơn ta có độ lệch chuẩn của mẫu số liệu ghép nhóm (làm tròn kết quả đến hàng phần trăm) là: $30,59$",
+    "d": "Nếu so sánh theo độ lệch chuẩn thì số giờ nắng trong tháng 6 của Nha Trang đồng đều hơn"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Bảng sau thống kê lại tổng số giờ nắng trong tháng 6 của các năm từ 2002 đến 2021 tại hai trạm quan trắc đặt ở Nha Trang và Quy Nhơn.\n| Số giờ nắng | ${[130 ; 160)}$ | ${[160 ; 190)}$ | ${[190 ; 220)}$ | ${[220 ; 250)}$ | ${[250 ; 280)}$ | ${[280 ; 310)}$ |\n|---|---|---|---|---|---|---|\n| Số năm ở Nha Trang | 1 | 1 | 1 | 8 | 7 | 2 |\n| Số năm ở Quy Nhơn | 0 | 1 | 2 | 4 | 10 | 3 |\n(Nguồn: Tổng cục Thống kê)\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "Cỡ mẫu: ${n=20}$\nGọi ${x_1 ; x_2 ; \\ldots ; x_{20}}$ là mẫu số liệu gốc về số giờ nắng trong tháng 6 trong 20 năm của Nha Trang được xếp theo thứ tự không giảm.\n${\\begin{aligned} & \\text { Ta \\text{có}: } x_1 \\in[130 ; 160) ; x_2 \\in[160 ; 190) ; x_3 \\in[190 ; 220) ; x_4 ; \\ldots ; x_{11} \\in[220 ; 250) ; x_{12} ; \\ldots ; x_{18} \\in[250 ; 280) \\text {; } \\\\ & x_{19} ; x_{20} \\in[280 ; 310) \\end{aligned} }$\nTứ phân vị thứ nhất của mẫu số liệu gốc là ${\\frac{1}{2}\\left(x_5+x_6\\right) \\in[220 ; 250)}$. Do đó, tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${Q_1=220+\\frac{\\frac{20}{4}-(1+1+1)}{8}(250-220)=227,5}$\nTứ phân vị thứ ba của mẫu số liệu gốc là ${\\frac{1}{2}\\left(x_{15}+x_{16}\\right) \\in[250 ; 280)}$. Do đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là: ${Q_3=250+\\frac{\\frac{3.20}{4}-(1+1+1+8)}{7}(280-250)=\\frac{1870}{7}}$\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${\\Delta_Q=Q_3-Q_1=39,64}$\nGọi ${y_1 ; y_2 ; \\ldots ; y_{50}}$ là mẫu số liệu gốc về số giờ nắng trong tháng 6 trong 20 năm của Quy Nhơn được xếp theo thứ tự không giảm.\nTa có:\n$\\begin{aligned} & {{y}_{1}};\\in [160;190);{{y}_{2}};{{y}_{3}}\\in [190;220);{{y}_{4}};\\ldots ;{{y}_{7}}\\in [220;250);{{y}_{8}};\\ldots ;{{y}_{17}}\\in [250;280); \\\\ & {{y}_{4=18}};\\ldots ;{{y}_{20}}\\in [280;310) \\\\ \\end{aligned}$\nTứ phân vị thứ nhất của mẫu số liệu gốc là ${\\frac{1}{2}\\left(y_5+y_6\\right) \\in[220 ; 250)}$. Do đó, tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${Q_1{ }^{\\prime}=220+\\frac{\\frac{20}{4}-(1+2)}{4}(250-220)=235}$\nTứ phân vị thứ ba của mẫu số liệu gốc là ${\\frac{1}{2}\\left(y_{15}+y_{16}\\right) \\in[250 ; 280)}$. Do đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là: ${Q_3{ }^{\\prime}=250+\\frac{\\frac{3.20}{4}-(1+2+4)}{10}(280-250)=274}$\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${\\Delta_Q{ }^{\\prime}=Q_3{ }^{\\prime}-Q_1{ }^{\\prime}=39}$\nVậy nếu so sánh theo khoảng tứ phân vị thì số giờ nắng trong tháng 6 của Quy Nhơn đồng đều hơn\nXét số liệu của Nha Trang:\nSố trung bình: ${\\overline{x_X}=\\frac{1.145+1.175+1.205+8.235+7.265+2.295}{20}=242,5}$\nĐộ lệch chuẩn: ${\\sigma_X=\\sqrt{\\frac{1.145^2+1.175^2+1.205^2+8.235^2+7.265^2+2.295^2}{20}-242,5^2} \\approx 35,34}$\nXét số liệu của Quy Nhơn:\nSố trung bình: ${\\overline{x_Y}=\\frac{1.175+2.205+4.235+10.265+3.295}{20}=253}$\nĐộ lệch chuẩn: ${\\sigma_Y=\\sqrt{\\frac{1.175^2+2.205^2+4.235^2+10.265^2+3.295^2}{20}-253^2} \\approx 30,59}$\nVậy nếu so sánh theo độ lệch chuẩn thì số giờ nắng trong tháng 6 của Quy Nhơn đồng đều hơn",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 20,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C3.B1.D06",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Kết quả đo chiều cao của 250 cây dừa đột biến 3 năm tuổi ở một viện nghiên cứu được tổng hợp ở bảng sau:\n| Chiều cao ${\\left({m}^2\\right)}$ | ${[8,5 ; 8,8)}$ | ${[8,8 ; 9,1)}$ | ${[9,1 ; 9,4)}$ | ${[9,4 ; 9,7)}$ | ${[9,7 ; 10)}$ |\n|---|---|---|---|---|---|\n| Số cây | 36 | 45 | 83 | 65 | 21 |\nTìm khoảng biến thiên của mẫu số liệu ghép nhóm trên?",
+   "explanation": "Đáp án: 1,5.\n$R=10-8,5=1,5$.",
+   "short_value": 1.5,
+   "short_correct": "1,5",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Bảng dưới đây biểu diễn mẫu số liệu ghép nhóm về chiều cao (đơn vị: Centimet) của 43 học sinh trong một lớp học khối 11 của một trường phổ thông\n| Nhóm | Tần số |\n|---|---|\n| $\\left[ 150;155 \\right)$ | 5 |\n| $\\left[ 155;160 \\right)$ | 10 |\n| $\\left[ 160;165 \\right)$ | 12 |\n| $\\left[ 165;170 \\right)$ | 9 |\n| $\\left[ 170;175 \\right)$ | 4 |\n| $\\left[ 175;180 \\right)$ | 3 |\n|  | $n=43$ |\nTứ phân vị thứ hai của mẫu số liệu ghép nhóm trên bằng (làm tròn đến hàng phần trăm)",
+   "explanation": "Số phần tử của mẫu là $n=43$. Ta có $\\frac{n}{2}=21,5$ mà $5+10<21,5<5+10+12$. Suy ra nhóm 3 là nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng $21,5$. Xét nhóm 3 là nhóm $\\left[ 160;165 \\right)$ có $s=160;\\,\\,h=165-160=5;\\,\\,\\,{{n}_{3}}=12,\\,\\,\\,c{{f}_{2}}=5+10=15$.\nTừ đó ta có tứ phân vị thứ 2 là: ${{Q}_{2}}=160+\\left( \\frac{21,5-15}{12} \\right).5\\approx 162,71\\,\\,\\,\\left( cm \\right)$",
+   "short_value": 162.71,
+   "short_correct": "162,71",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Chỉ số AQI là chỉ số thể hiện chất lượng không khí. Có $5$ thông số ảnh hưởng đến chỉ số AQI là Ozone mặt đất, ô nhiễm phân tử (bụi min PM2.5 và PM10), $CO$, $N{{O}_{2}}$, $S{{O}_{2}}$ (với $N{{O}_{2}}$, $S{{O}_{2}}$là tác nhân gây ra mưa axit). Chỉ số AQI từ 0-50 là mức tốt, từ 51-100 là trung bình, từ 101-150 là không tốt cho các nhóm nhạy cảm, từ 151-200 là không lành mạnh, từ 201-300 là rất không tốt, và trên 301 là rất nguy hiểm. Hà Nội của chúng ta là một trong những thành phố ô nhiễm nhất thế giới. Ngày 5/3/2024 chỉ số AQI của Hà Nội đạt mức 241 và là thành phố ô nhiễm nhất thế giới ngày hôm đó. Chỉ số AQI của một số các thành phố ngày 24/6/2024 được cho trong bảng sau\n| Chỉ số AQI | $\\left[ 0;50 \\right)$ | $\\left[ 50;100 \\right)$ | $\\left[ 100;150 \\right)$ | $\\left[ 150;200 \\right)$ |\n|---|---|---|---|---|\n| Số thành phố | $73$ | $47$ | $7$ | $2$ |\nKhoảng biến thiên của mẫu số liệu trên là ……………..",
+   "explanation": "Khoảng biến thiên của mẫu số liệu trên là $200-0=200$.",
+   "short_value": 200,
+   "short_correct": "200",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B1.D02",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Thống kê lượng khách du lịch đến tỉnh Quảng Ninh từ năm $2007$ đến năm $2023$ cho kết quả như sau (đơn vị: triệu người).\n| $3,4$ | $4,2$ | $5,0$ | $5,4$ | $6,2$ | $7$ | $7,5$ | $7,5$ | $7,8$ |\n|---|---|---|---|---|---|---|---|---|\n| $8,3$ | $9,87$ | $12,2$ | $14$ | $8,8$ | $4,4$ | $9,5$ | $15,5$ |  |\nGhép nhóm dãy số liệu trên thành các nhóm có độ dài bằng nhau đầu tiên là $\\left[ 1;5 \\right)$rồi cho biết khoảng tứ phân vị của mẫu số liệu ghép nhóm trên.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Số lượng khách du lịch đến tỉnh Quảng Ninh được cho dưới bảng sau\n| Lượng khách (triệu người) | $\\left[ 1;5 \\right)$ | $\\left[ 5;9 \\right)$ | $\\left[ 9;13 \\right)$ | $\\left[ 13;17 \\right)$ |\n|---|---|---|---|---|\n| Số năm | $3$ | $9$ | $3$ | $2$ |\nCỡ mẫu là $n=3+9+3+2=17$. Gọi ${{x}_{1}};\\,\\,{{x}_{2}};\\,....;\\,\\,{{x}_{17}}$ là số khách đến Quảng Ninh du lịch và giả sử rằng dãy số liệu gốc này đã được sắp xếp theo thứ tự tăng dần.\nTứ phân vị thứ nhất của mẫu số liệu gốc này là ${{x}_{5}}$ nên nhóm chứa tứ phân vị thứ nhất là nhóm $\\left[ 5;9 \\right)$ và ta có\n${{Q}_{1}}=5+\\left[ \\frac{\\frac{19}{4}-3}{9} \\right].4\\approx 5,78$.\nTứ phân vị thứ ba của mẫu số liệu gốc là ${{x}_{13}}$nên nhóm chứa tứ phân vị thứ ba là nhóm $\\left[ 9;13 \\right)$ và ta có\n${{Q}_{3}}=9+\\left[ \\frac{\\frac{3.19}{4}-12}{3} \\right].4=12$.\nVậy khoảng tứ phân vị của mẫu số liệu ghép nhóm là $\\Delta Q={{Q}_{3}}-{{Q}_{1}}=12-5,78=6,22.$",
+   "short_value": 4.4,
+   "short_correct": "4,4",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B1.D03",
+   "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Chiều dài của 40 bé sơ sinh 12 ngày tuổi được chọn ngẫu nhiên ở viện nhi trung ương được nghiên cứu thống kê ở bảng dưới đây:\n| Chiều dài (cm) | $\\left[ 44;46 \\right)$ | $\\left[ 46;48 \\right)$ | $\\left[ 48;50 \\right)$ | $\\left[ 50;52 \\right)$ | $\\left[ 52;54 \\right)$ | $\\left[ 54;56 \\right)$ |\n|---|---|---|---|---|---|---|\n| Số trẻ | 3 | 3 | 10 | 15 | 7 | 2 |\nTìm phương sai ( làm tròn đến hàng phần trăm) của 40 bé sơ sinh ở bảng thống kê trên",
+   "explanation": "Ta có bảng phân bố của mẫu ghép nhóm 40 bé sơ sinh\n| Chiều dài (cm) | $\\left[ 44;46 \\right)$ | $\\left[ 46;48 \\right)$ | $\\left[ 48;50 \\right)$ | $\\left[ 52;54 \\right)$ | $\\left[ 54;56 \\right)$ | $\\left[ 56;58 \\right)$ |\n|---|---|---|---|---|---|---|\n| Số trẻ | 3 | 3 | 10 | 15 | 7 | 2 |\n| Chiều dài đại diện (cm) | 45 | 47 | 49 | 51 | 53 | 55 |\nChiều dài trung bình của 40 trẻ là:\n$\\overline{x}=\\frac{45.3+47.3+49.10+51.15+53.7+55.2}{40}=50,3$ (cm)\nPhương sai của 40 bé sơ sinh ở bảng thống kê trên là:\n${{s}^{2}}=\\frac{3.{{\\left( 50,3-45 \\right)}^{2}}+3.{{\\left( 50,3-47 \\right)}^{2}}....+2.{{\\left( 55-50,3 \\right)}^{2}}}{40}=5,9$",
+   "short_value": 5.9,
+   "short_correct": "5,91",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty bất động sản Đất Vàng thực hiện cuộc khảo sát khách hàng xem họ có nhu cầu mua nhà ở mức giá nào để tiến hành dự án xây nhà ở Thăng Long group sắp tới. Kết quả khảo sát 500 khách hàng được ghi lại ở bảng sau:\n| Mức giá (triệu đồng) | ${[10 ; 14)}$ | ${[14 ; 18)}$ | ${[18 ; 22)}$ | ${[22 ; 26)}$ | ${[26 ; 30)}$ |\n|---|---|---|---|---|---|\n| Số khách hàng | 75 | 105 | 179 | 96 | 45 |\nĐộ lệch chuẩn ( làm tròn đến hàng phần trăm) của mức giá đất là bao nhiêu ?",
+   "explanation": "Bảng phân bố tần số tần suất của bảng số liệu của công ty bất động sản Đất Vàng\n| Mức giá (triệu đồng) | ${[10 ; 14)}$ | ${[14 ; 18)}$ | ${[18 ; 22)}$ | ${[22 ; 26)}$ | ${[26 ; 30)}$ |\n|---|---|---|---|---|---|\n| Số khách hàng | 75 | 105 | 179 | 96 | 45 |\n| Mức giá đại diện | 12 | 16 | 20 | 24 | 28 |\nMức giá trung bình của công ty là $\\overline{x}=19,448$ ( triệu đồng)\nPhương sai của mức giá là: ${{s}^{2}}=21,5$\nĐộ lệch chuẩn của mức giá $\\sqrt{{{s}^{2}}}=4,6$",
+   "short_value": 4.6,
+   "short_correct": "4,64",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D02",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  }
+ ],
+ "flags": []
+}

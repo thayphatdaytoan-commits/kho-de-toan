@@ -1,0 +1,639 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "4",
+  "lesson": "1",
+  "title": "Bài 1. Nguyên hàm"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Hàm số $F\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)$ trên khoảng $K$ nếu",
+   "explanation": "Theo định nghĩa thì hàm số $F\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)$ trên khoảng $K$ nếu${F}'\\left( x \\right)=f\\left( x \\right),\\forall x\\in K.$",
+   "options": [
+    "${F}'\\left( x \\right)=-f\\left( x \\right),\\forall x\\in K$",
+    "${f}'\\left( x \\right)=F\\left( x \\right),\\forall x\\in K$",
+    "${F}'\\left( x \\right)=f\\left( x \\right),\\forall x\\in K$",
+    "${f}'\\left( x \\right)=-F\\left( x \\right),\\forall x\\in K$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D08",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Họ nguyên hàm của hàm số $f\\left( x \\right)=\\frac{{{x}^{2}}}{2}+2x-5$ là",
+   "explanation": "$\\int{f\\left( x \\right)\\text{d}x}=\\int{\\left( \\frac{{{x}^{2}}}{2}+2x-5 \\right)}\\text{d}x=\\frac{1}{2}.\\frac{{{x}^{3}}}{3}+2\\frac{{{x}^{2}}}{2}-5x+C=\\frac{{{x}^{3}}}{6}+{{x}^{2}}-5x+C$.",
+   "options": [
+    "$\\frac{2{{x}^{3}}}{3}+{{x}^{2}}-5x+C$",
+    "$\\frac{{{x}^{3}}}{3}+{{x}^{2}}-5x+C$",
+    "$\\frac{{{x}^{3}}}{6}+{{x}^{2}}-5x+C$",
+    "$\\frac{{{x}^{3}}}{6}+{{x}^{2}}-5x$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Họ nguyên hàm của hàm số $f\\left( x \\right)=\\frac{1}{3\\sqrt[3]{{{x}^{2}}}}+\\frac{1}{\\sqrt{x}}+\\frac{3}{2}\\sqrt{x}$ là",
+   "explanation": "$\\begin{aligned} & \\int{f\\left( x \\right)}\\text{d}x=\\int{\\left( \\frac{1}{3\\sqrt[3]{{{x}^{2}}}}+\\frac{1}{\\sqrt{x}}+\\frac{3}{2}\\sqrt{x} \\right)}\\text{d}x=\\int{\\frac{{{x}^{-\\frac{2}{3}}}}{3}\\text{d}x+}\\int{{{x}^{-\\frac{1}{2}}}\\text{d}x}+\\frac{3}{2}\\int{{{x}^{\\frac{1}{2}}}\\text{d}x} \\\\ & \\text{ }=3.\\frac{{{x}^{\\frac{1}{3}}}}{3}+2{{x}^{\\frac{1}{2}}}+\\frac{3}{2}.\\frac{2}{3}{{x}^{\\frac{3}{2}}}+C=\\sqrt[3]{x}+2\\sqrt{x}+x\\sqrt{x}+C. \\\\ \\end{aligned}$",
+   "options": [
+    "$3\\sqrt[3]{x}+2\\sqrt{x}+x\\sqrt{x}+C$",
+    "$\\frac{\\sqrt[3]{x}}{9}+2\\sqrt{x}+\\frac{9x\\sqrt{x}}{4}+C$",
+    "$\\sqrt[3]{x}+2\\sqrt{x}+x\\sqrt{x}+C$",
+    "$\\sqrt[3]{x}+\\sqrt{x}+x\\sqrt{x}+C$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Gọi $F\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)$, với $f\\left( x \\right)=3\\sin x+\\frac{4}{\\text{co}{{\\text{s}}^{2}}x}$, biết $F\\left( 0 \\right)=2$. Tính $F\\left( \\frac{\\pi }{3} \\right)$.",
+   "explanation": "Ta có: $\\int{f\\left( x \\right)\\text{d}x}=\\int{\\left( 3\\sin x+\\frac{4}{{{\\cos }^{2}}x} \\right)\\text{d}x}=3\\int{\\sin x\\text{d}x}+4\\int{\\frac{1}{{{\\cos }^{2}}x}\\text{d}x}$ $=-3\\cos x+4\\tan x+C$.\nDo đó $F\\left( x \\right)=-3\\cos x+4\\tan x+C$.\n$F\\left( 0 \\right)=2\\Leftrightarrow -3+C=2\\Leftrightarrow C=5$.\nSuy ra $F\\left( x \\right)=-3\\cos x+4\\tan x+5$.\nVậy $F\\left( \\frac{\\pi }{3} \\right)=-3\\cos \\frac{\\pi }{3}+4\\tan \\frac{\\pi }{3}+5=\\frac{7}{2}+4\\sqrt{3}$.",
+   "options": [
+    "$\\frac{13}{2}+4\\sqrt{3}$",
+    "$\\frac{7}{2}+4\\sqrt{3}$",
+    "$-\\frac{3}{2}+4\\sqrt{3}$",
+    "$-\\frac{5}{2}-4\\sqrt{3}$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B1.D05",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho $\\int{{{5}^{x}}\\text{d}x=F\\left( x \\right)}+C$. Khẳng định nào dưới đây đúng?",
+   "explanation": "Do $F\\left( x \\right)$ là một nguyên hàm của hàm số ${{5}^{x}}$ nên ${F}'\\left( x \\right)={{5}^{x}}.$",
+   "options": [
+    "${F}'\\left( x \\right)={{5}^{x}}.\\ln x$",
+    "${F}'\\left( x \\right)={{5}^{x}}$",
+    "${F}'\\left( x \\right)={{5}^{x}}+C$",
+    "${F}'\\left( x \\right)=-{{5}^{x}}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D03",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hàm số $F\\left( x \\right)={{e}^{{{x}^{3}}}}$ là nguyên hàm của hàm số nào trong các hàm số sau:",
+   "explanation": "Ta có $f\\left( x \\right)={F}'\\left( x \\right)$ suy ra $f\\left( x \\right)=3{{x}^{2}}.{{e}^{{{x}^{3}}}}$.",
+   "options": [
+    "$f\\left( x \\right)=3{{x}^{2}}.{{e}^{{{x}^{3}}}}$",
+    "$f\\left( x \\right)={{x}^{2}}.{{e}^{{{x}^{3}}}}$",
+    "$f\\left( x \\right)={{e}^{3{{x}^{2}}}}$",
+    "$f\\left( x \\right)=\\frac{{{e}^{{{x}^{3}}}}}{3{{x}^{2}}}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D08",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Khẳng định nào dưới đây đúng?",
+   "explanation": "Ta có $\\int{\\frac{2}{x}}\\text{d}x=2\\int{\\frac{1}{x}}\\text{d}x=2\\ln \\left| x \\right|+C$.",
+   "options": [
+    "$\\int{\\frac{2}{x}}\\text{d}x=2\\ln x+C$",
+    "$\\int{\\frac{2}{x}}\\text{d}x=2\\ln \\left| x \\right|$",
+    "$\\int{\\frac{2}{x}}\\text{d}x=2\\ln \\left| x \\right|+C$",
+    "$\\int{\\frac{2}{x}}\\text{d}x=\\ln \\left| x \\right|+C$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D08",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tìm nguyên hàm của hàm số $f\\left( x \\right)=\\frac{3x+7}{x+2}$.",
+   "explanation": "Ta có $f\\left( x \\right)=\\frac{3x+7}{x+2}=3+\\frac{1}{x+2}$.\n$\\int{f\\left( x \\right)}\\text{d}x=\\int{\\left( 3+\\frac{1}{x+2} \\right)}\\text{d}x=3\\int{\\text{d}x}+\\int{\\frac{1}{x+2}}\\text{d}x=3x+\\ln \\left| x+2 \\right|+C$.",
+   "options": [
+    "$\\int{f\\left( x \\right)}\\text{d}x=3+\\ln \\left| x+2 \\right|+C$",
+    "$\\int{f\\left( x \\right)}\\text{d}x=3x+\\ln \\left( x+2 \\right)+C$",
+    "$\\int{f\\left( x \\right)}\\text{d}x=3x+\\ln \\left| x+2 \\right|+C$",
+    "$\\int{f\\left( x \\right)}\\text{d}x=\\ln \\left| x+2 \\right|+C$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một nguyên hàm của $f\\left( x \\right)=\\frac{x+2}{x+1}$ trên $\\left( -1;\\,+\\infty \\right)$ là",
+   "explanation": "Trên $\\left( -1;\\,+\\infty \\right)$ ta có ${{\\left( x+\\ln \\left( x+1 \\right) \\right)}^{\\prime }}=\\frac{x+2}{x+1}=f\\left( x \\right)$.\nVậy một nguyên hàm của $f\\left( x \\right)=\\frac{x+2}{x+1}$ trên $\\left( -1;\\,+\\infty \\right)$ là $x+\\ln \\left( x+1 \\right)$.",
+   "options": [
+    "$x-\\frac{1}{{{\\left( x+1 \\right)}^{2}}}$",
+    "$x-\\ln \\left( x+1 \\right)$",
+    "$-\\frac{1}{{{\\left( x+1 \\right)}^{2}}}$",
+    "$x+\\ln \\left( x+1 \\right)$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một nguyên hàm của $f\\left( x \\right)=\\frac{{{x}^{2}}+x}{x+2}$ trên $\\left( -2;\\,+\\infty \\right)$ là",
+   "explanation": "Trên $\\left( -2;\\,+\\infty \\right)$ ta có ${{\\left( \\frac{{{x}^{2}}}{2}-x+2\\ln \\left( x+2 \\right) \\right)}^{\\prime }}=\\frac{{{x}^{2}}+x}{x+2}=f\\left( x \\right)$.\nVậy một nguyên hàm của $f\\left( x \\right)=\\frac{{{x}^{2}}+x}{x+2}$ trên $\\left( -2;\\,+\\infty \\right)$ là $\\frac{{{x}^{2}}}{2}-x+2\\ln \\left( x+2 \\right)$.",
+   "options": [
+    "$1-\\frac{2}{{{\\left( x+2 \\right)}^{2}}}$",
+    "$\\frac{{{x}^{2}}}{2}-x+2\\ln \\left( x+2 \\right)$",
+    "$1+\\frac{2}{{{\\left( x+2 \\right)}^{2}}}$",
+    "$\\frac{{{x}^{2}}}{2}-x-2\\ln \\left( x+2 \\right)$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D04",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Họ tất cả các nguyên hàm của $f\\left( x \\right)={{x}^{2}}+\\sin 2x$ là",
+   "explanation": "Ta có $\\int{f\\left( x \\right)\\text{dx}}=\\int{\\left( {{x}^{2}}+\\sin 2x \\right)\\text{dx}}=\\frac{{{x}^{3}}}{3}-\\frac{1}{2}\\cos 2x+C$.",
+   "options": [
+    "$2x+2\\cos 2x+C$",
+    "$2x-2\\cos 2x+C$",
+    "$\\frac{{{x}^{3}}}{3}-\\frac{1}{2}\\cos 2x+C$",
+    "$\\frac{{{x}^{3}}}{3}+\\frac{1}{2}\\cos 2x+C$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D02",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho ${f}'\\left( x \\right)=2x-\\cos 2x$. Tìm $f\\left( x \\right)$ biết $f\\left( 0 \\right)=0$.",
+   "explanation": "Ta có $f\\left( x \\right)=\\int{{f}'\\left( x \\right)\\text{dx}}=\\int{\\left( 2x-\\cos 2x \\right)\\text{d}x}={{x}^{2}}-\\frac{1}{2}\\sin 2x+C$.\nMà $f\\left( 0 \\right)=0\\Rightarrow C=0$. Vậy $f\\left( x \\right)={{x}^{2}}-\\frac{1}{2}\\sin 2x$.",
+   "options": [
+    "$f\\left( x \\right)=\\frac{{{x}^{2}}}{2}-\\frac{1}{2}\\sin 2x$",
+    "$f\\left( x \\right)={{x}^{2}}+\\frac{1}{2}\\sin 2x$",
+    "$f\\left( x \\right)={{x}^{2}}-\\frac{1}{2}\\sin 2x$",
+    "$f\\left( x \\right)={{x}^{2}}+\\sin 2x$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D05",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( x \\right)={{x}^{2}}+3x-2$.",
+    "b": "${f}'\\left( x \\right)=2x+3$.",
+    "c": "$\\int{f\\left( x \\right)\\text{d}x=}\\int{\\left( x+2 \\right)\\text{d}x.}\\int{\\left( x+1 \\right)\\text{d}x}$.",
+    "d": "$\\int{f\\left( x \\right)\\text{d}x=}\\frac{1}{3}{{x}^{3}}+\\frac{3}{2}{{x}^{2}}+2x+C$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left( x+2 \\right)\\left( x+1 \\right)$",
+   "explanation": "a) Sai vì theo phép nhân đa thức $f\\left( x \\right)={{x}^{2}}+3x+2$.\nb) Đúng vì ${f}'\\left( x \\right)=2x+3$\nc) Sai vì không có tính chất $\\int{f\\left( x \\right)\\text{d}x=}\\int{\\left( x+2 \\right)\\text{d}x.}\\int{\\left( x+1 \\right)\\text{d}x}$.\nd) Đúng vì $\\int{f\\left( x \\right)\\text{d}x=\\int{\\left( {{x}^{2}}+3x+2 \\right)\\text{d}x=}}\\int{{{x}^{2}}\\text{d}x+3\\int{x\\text{d}x+\\int{\\text{2d}x=}}}\\frac{1}{3}{{x}^{3}}+\\frac{3}{2}{{x}^{2}}+2x+C$.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$\\int{f\\left( x \\right)\\text{d}x=}\\frac{\\int{\\left( 2x+1 \\right)\\text{d}x}}{\\int{\\left( x-2 \\right)\\text{d}x}}$.",
+    "b": "${f}'\\left( x \\right)=\\frac{-5}{{{\\left( x-2 \\right)}^{2}}}$.",
+    "c": "$\\int{f\\left( x \\right)\\text{d}x=}2x+5\\ln \\left| x-2 \\right|+C$. ( $C$ hằng số).",
+    "d": "Nếu $\\int{f\\left( x \\right)\\text{d}x=}ax+b\\ln \\left| x-2 \\right|+C$ với $a,b\\in \\mathbb{Q}$ thì $a+b=-3$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\frac{2x+1}{x-2}$",
+   "explanation": "a) $\\int{f\\left( x \\right)\\text{d}x=}\\frac{\\int{\\left( 2x+1 \\right)\\text{d}x}}{\\int{\\left( x-2 \\right)\\text{d}x}}$ sai theo tính chất của nguyên hàm.\nb) Đúng vì ${f}'\\left( x \\right)=\\frac{2.\\left( -2 \\right)-1.1}{{{\\left( x-2 \\right)}^{2}}}=\\frac{-5}{{{\\left( x-2 \\right)}^{2}}}$\nc) Đúng vì\n$\\int{\\frac{2x+1}{x-2}}\\ \\text{d}x$ $=$ $\\int{\\frac{2x-4+5}{x-2}}\\ \\text{d}x$ $=$ $\\int{\\left( \\frac{2x-4}{x-2}+\\ \\frac{5}{x-2} \\right)}\\,\\text{d}x$ $=$ $\\int{\\left( 2+\\ \\frac{5}{x-2} \\right)}\\,\\text{d}x$ $=$ $2x+5\\ln \\left| x-2 \\right|+C$.\nd) Sai, vì ta có ở ý c: $\\int{\\frac{2x+1}{x-2}}\\ \\text{d}x$ $=$ $2x+5\\ln \\left| x-2 \\right|+C$.\nDo đó $a=2$ và $b=5$.\nVậy $S=a+b=2+5=7$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${F}'\\left( 0 \\right)=0$.",
+    "b": "$F\\left( 1 \\right)=0$.",
+    "c": "$\\int{F\\left( x \\right)\\text{d}x}=\\frac{{{2}^{x}}}{\\ln 2}-\\frac{2}{3}{{x}^{3}}+C$.",
+    "d": "$\\int{\\frac{f(x)}{x{{.2}^{x}}}\\text{d}x}=\\ln \\left| x \\right|+\\frac{4}{\\ln 2}{{.2}^{-x}}+C$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Gọi $F\\left( x \\right)$ là một nguyên hàm của hàm $f(x)={{2}^{x}}-4x$ trên $\\mathbb{R}$ thoả mãn $F\\left( 0 \\right)=\\frac{1}{\\ln 2}$.",
+   "explanation": "a) Ta có ${F}'\\left( x \\right)=f\\left( x \\right)={{2}^{x}}-4x\\Rightarrow {F}'\\left( 0 \\right)={{2}^{0}}-4.0=1$.\n=> Mệnh đề a) sai.\nb)$\\int{f(x)\\text{d}x}=\\int{\\left( {{2}^{x}}-4x \\right)\\text{d}x}=\\frac{{{2}^{x}}}{\\ln 2}-2{{x}^{2}}+C$ $\\Rightarrow F\\left( x \\right)=\\frac{{{2}^{x}}}{\\ln 2}-2{{x}^{2}}+C$.\n$F\\left( 0 \\right)=\\frac{1}{\\ln 2}\\Leftrightarrow \\frac{{{2}^{0}}}{\\ln 2}-{{2.0}^{2}}+C=\\frac{1}{\\ln 2}\\Leftrightarrow C=0\\Rightarrow F\\left( x \\right)=\\frac{{{2}^{x}}}{\\ln 2}-2{{x}^{2}}\\Rightarrow F\\left( 1 \\right)=\\frac{2}{\\ln 2}-2.$\n=> Mệnh đề b) sai.\nc) $\\int{F(x)\\text{d}x}=\\int{\\left( \\frac{{{2}^{x}}}{\\ln 2}-2{{x}^{2}} \\right)\\text{d}x}=\\frac{{{2}^{x}}}{{{\\ln }^{2}}2}-\\frac{2}{3}{{x}^{3}}+C$.\n=> Mệnh đề c) sai.\nd) $\\int{\\frac{f(x)}{x{{.2}^{x}}}\\text{d}x}=\\int{\\frac{{{2}^{x}}-4x}{x{{.2}^{x}}}\\text{d}x}=\\int{\\left( \\frac{1}{x}-{{4.2}^{-x}} \\right)\\text{d}x}=\\int{\\frac{1}{x}\\text{d}x}-4\\int{{{2}^{-x}}\\text{d}x}$ $=\\ln \\left| x \\right|+\\frac{4}{\\ln 2}{{.2}^{-x}}+C$\n=> Mệnh đề d) đúng.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$f\\left( 0 \\right)=0$.",
+    "b": "${F}'\\left( 0 \\right)=2$",
+    "c": "Hệ số góc của tiếp tuyến với đồ thị hàm số $F\\left( x \\right)$ tại điểm có hoành độ ${{x}_{0}}=\\frac{\\pi }{2}$ là $k=\\sqrt{{{2}^{\\pi }}}$.",
+    "d": "$F\\left( -1 \\right)=\\frac{1}{2\\ln 2}+\\sin 1$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $F\\left( x \\right)$ là một nguyên hàm của hàm số $f\\left( x \\right)={{2}^{x}}-\\cos x$ trên $\\left[ 0;+\\infty \\right)$ thoả mãn $F\\left( 0 \\right)=\\frac{2}{\\ln 2}$.",
+   "explanation": "a) $f\\left( 0 \\right)={{2}^{0}}-\\cos 0=0$.\nVậy mệnh đề đã cho đúng.\nb) ${F}'\\left( x \\right)=f\\left( x \\right)={{2}^{x}}-\\cos x\\Rightarrow {F}'\\left( 0 \\right)={{2}^{0}}-\\cos 0=0$.\nVậy mệnh đề đã cho sai.\nc) Hệ số góc của tiếp tuyến với đồ thị hàm số $F\\left( x \\right)$ tại điểm có hoành độ ${{x}_{0}}=\\frac{\\pi }{2}$ là $k={F}'\\left( \\frac{\\pi }{2} \\right)=f\\left( \\frac{\\pi }{2} \\right)={{2}^{\\frac{\\pi }{2}}}-\\cos \\frac{\\pi }{2}=\\sqrt{{{2}^{\\pi }}}$.\nVậy mệnh đề đã cho đúng.\nd) $\\int{f(x)\\text{d}x}=\\int{\\left[ {{2}^{x}}-\\cos x \\right]\\text{d}x}=\\frac{{{2}^{x}}}{\\ln 2}-\\sin x+C$ $\\Rightarrow F\\left( x \\right)=\\frac{{{2}^{x}}}{\\ln 2}-\\sin x+C$.\nGiả thiết $F\\left( 0 \\right)=\\frac{1}{\\ln 2}\\Leftrightarrow \\frac{{{2}^{0}}}{\\ln 2}-\\sin 0+C=\\frac{1}{\\ln 2}\\Leftrightarrow C=0$ $\\Rightarrow F\\left( x \\right)=\\frac{{{2}^{x}}}{\\ln 2}-\\sin x$ $\\Rightarrow F\\left( -1 \\right)=\\frac{{{2}^{-1}}}{\\ln 2}-\\sin \\left( -1 \\right)=\\frac{1}{2\\ln 2}+\\sin 1$.\nVậy mệnh đề đã cho đúng.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 26,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D07",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Nguyên hàm $I=\\int{\\frac{1}{2\\tan x+1}\\text{d}x}=\\frac{x}{5}+\\frac{a}{b}\\ln \\left| 2\\sin x+\\cos x \\right|+C$, với $a;\\,b\\in {{\\mathbb{N}}^{*}}$; $\\frac{a}{b}$ là phân số tối giản. Giá trị của $P=a+2b$ bằng?",
+   "explanation": "Đáp án : 12\nTa có $I=\\int{\\frac{1}{2\\tan x+1}\\text{d}x}=\\int{\\frac{\\cos x}{2\\sin x+\\cos x}\\text{d}x}$.\nĐặt $J=\\int{\\frac{\\sin x}{2\\sin x+\\cos x}\\text{d}x}$.\nKhi đó $2J+I=\\int{\\frac{2\\sin x}{2\\sin x+\\cos x}\\text{d}x}+\\int{\\frac{\\cos x}{2\\sin x+\\cos x}}\\text{d}x$ $=\\int{\\frac{2\\sin x+\\cos x}{2\\sin x+\\cos x}\\text{d}x}=\\int{\\text{d}x}$ $=x+{{C}_{1}}$ $\\left( 1 \\right)$.\nMặt khác ta lại có : $2I-J=\\int{\\frac{2\\cos x-\\sin x}{2\\sin x+\\cos x}\\text{d}x}$ $=\\ln \\left| 2\\sin x+\\cos x \\right|+{{C}_{2}}$ $\\left( 2 \\right)$.\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ $\\Rightarrow I=\\frac{x}{5}+\\frac{2}{5}\\ln \\left| 2\\sin x+\\cos x \\right|+C$.\nVậy $\\left\\{ \\begin{aligned} & a=2 \\\\ & b=5 \\\\ \\end{aligned} \\right.$ $\\Rightarrow a+2b=12$.",
+   "short_value": 12,
+   "short_correct": "12",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D02",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số bậc ba $y=f\\left( x \\right)$ có ${f}'\\left( x \\right)=3{{x}^{2}}+2x-m+1$, $f\\left( 2 \\right)=1$. Đồ thị hàm số $y=f\\left( x \\right)$ đi qua điểm $M\\left( 1;\\,-3 \\right)$. Tính $f\\left( -1 \\right)$",
+   "explanation": "Đáp án $7$.\nTa có $f\\left( x \\right)=\\int{{f}'\\left( x \\right)\\text{d}x}$ $=\\int{\\left( 3{{x}^{2}}+2x-m+1 \\right)\\text{d}x}$ $={{x}^{3}}+{{x}^{2}}+\\left( 1-m \\right)x+C$.\nTheo giả thiết $\\left\\{ \\begin{aligned} & f\\left( 2 \\right)=1 \\\\ & f\\left( 1 \\right)=-3 \\\\ \\end{aligned} \\right.$ $$ $\\Rightarrow \\left\\{ \\begin{aligned} & {{2}^{3}}+{{2}^{2}}+\\left( 1-m \\right).2+C=1 \\\\ & 1+1+\\left( 1-m \\right)+C=-3 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & -2m+C=-13 \\\\ & -m+C=-6 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m=7 \\\\ & C=1 \\\\ \\end{aligned} \\right.$. Suy ra $f\\left( x \\right)={{x}^{3}}+{{x}^{2}}-6x+1$. Vậy $f\\left( -1 \\right)=7$.",
+   "short_value": null,
+   "short_correct": "7",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D01",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho $F(x)$ là một nguyên hàm của hàm số $f\\left( x \\right)=\\frac{2x+1}{{{x}^{4}}+2{{x}^{3}}+{{x}^{2}}}$ trên khoảng $\\left( 0;+\\infty \\right)$ thỏa mãn $F\\left( 1 \\right)=\\frac{1}{2}$. Giá trị của biểu thức $S=F\\left( 1 \\right)+F\\left( 2 \\right)+F\\left( 3 \\right)+\\ldots +F\\left( 2021 \\right)$ viết dưới dạng $a+\\frac{1}{b}$ (với $a,\\,b\\in \\mathbb{N}$). Tổng $a+b$ bằng?",
+   "explanation": "Xét trên khoảng $\\left( 0;+\\infty \\right)$:\nTa có $f\\left( x \\right)=\\frac{2x+1}{{{x}^{4}}+2{{x}^{3}}+{{x}^{2}}}=\\frac{2x+1}{{{x}^{2}}{{\\left( x+1 \\right)}^{2}}}$.\nKhi đó\n$F\\left( x \\right)=\\int{f\\left( x \\right)\\text{d}x=\\int{\\frac{\\left( 2x+1 \\right)}{{{\\left( {{x}^{2}}+x \\right)}^{2}}}\\text{d}t}=\\int{\\frac{1}{{{\\left( {{x}^{2}}+x \\right)}^{2}}}\\text{d}\\left( {{x}^{2}}+x \\right)}}=-\\frac{1}{{{x}^{2}}+x}+C=-\\frac{1}{x\\left( x+1 \\right)}+C$.\nMặt khác, $F\\left( 1 \\right)=\\frac{1}{2}$ $\\Rightarrow -\\frac{1}{2}+C=\\frac{1}{2}$ $\\Rightarrow C=1$.\nVậy $F\\left( x \\right)=-\\frac{1}{x\\left( x+1 \\right)}+1=-\\left[ \\frac{1}{x}-\\frac{1}{x+1} \\right]+1$.\nSuy ra\n$S=F\\left( 1 \\right)+F\\left( 2 \\right)+F\\left( 3 \\right)+\\ldots +F\\left( 2021 \\right)=-\\left( \\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+...+\\frac{1}{2021.2022} \\right)+2021$\n$=-\\left( 1-\\frac{1}{2}+\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{3}-\\frac{1}{4}+...+\\frac{1}{2021}-\\frac{1}{2022} \\right)+2021=-\\left( 1-\\frac{1}{2022} \\right)+2021$\n$=2020+\\frac{1}{2022}=a+\\frac{1}{b}.$ Suy ra $a=2020;b=2022$.\nVậy tổng $a+b=2020+2022=4042$.",
+   "short_value": 4042,
+   "short_correct": "4042",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D05",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một chất điểm chuyển động trên đường thẳng nằm ngang với gia tốc phụ thuộc thời gian $t$(s) là $a\\left( t \\right)=2t-7$(m/s2). Biết vận tốc đầu bằng 10 (m/s), hỏi sau bao lâu thì chất điểm đạt vận tốc 18 (m/s)?",
+   "explanation": "Đáp án : 8.\nTa có $v\\left( t \\right)=\\int{a\\left( t \\right)\\text{d}t}=\\int{\\left( 2t-7 \\right)\\text{d}t}={{t}^{2}}-7t+C$, mặt khác $v\\left( 0 \\right)=10$ nên $C=v\\left( 0 \\right)=10$.\n$\\Rightarrow v\\left( t \\right)={{t}^{2}}-7t+10$.\nĐể chất điểm đạt vận tốc 18 (m/s) thì $v\\left( t \\right)=18\\Leftrightarrow {{t}^{2}}-7t-8=0\\Leftrightarrow \\left[ \\begin{aligned} & t=8\\,\\text{ }\\left( \\text{nh }\\!\\!\\ddot{\\mathrm{E}}\\!\\!\\text{ n} \\right) \\\\ & t=-1\\text{ }\\left( \\text{lo }\\!\\!{}^\\text{1}\\!\\!\\text{ i} \\right) \\\\ \\end{aligned} \\right.$.\nVậy tại thời điểm $t=8$(s) thì chất điểm đạt vận tốc 18 (m/s).",
+   "short_value": 8,
+   "short_correct": "8",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D06",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ liên tục trên đoạn $\\left[ -1;\\,3 \\right],$có đồ thị là một phần của parabol và một phần là đoạn thẳng như trong hình bên dưới. Biết $F\\left( x \\right)$ là nguyên hàm của $f\\left( x \\right)$ và $F\\left( x \\right)$ liên tục trên đoạn $\\left[ -1;\\,3 \\right]$ thỏa mãn $F\\left( -1 \\right)=-\\frac{5}{3}.$ Giá trị của $F\\left( 0 \\right)+F\\left( 3 \\right)$ bằng bao nhiêu? (kết quả lấy đến chữ số thập phân thứ nhất sau dấu phảy).\n[[IMG:image18.png]]",
+   "explanation": "Đáp án : $1,8.$\n+) Trên $\\left[ -1;\\,2 \\right]$, đồ thị hàm số $y=f\\left( x \\right)$ là một phần của parabol $\\left( P \\right):y=a{{\\text{x}}^{2}}+bx+c$ đi qua các điểm $\\left( -1;1 \\right),\\,\\left( 0;2 \\right),\\,\\left( 2;-2 \\right)$ nên $\\left\\{ \\begin{aligned} & a.{{\\left( -1 \\right)}^{2}}+b.\\left( -1 \\right)+c=1 \\\\ & c=2 \\\\ & a{{.2}^{2}}+b.2+c=-2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & b=0 \\\\ & c=2 \\\\ \\end{aligned} \\right.\\Rightarrow \\left( P \\right):\\,y=-{{x}^{2}}+2.$\n+) Trên $\\left[ 2;\\,3 \\right]$, đồ thị hàm số $y=f\\left( x \\right)$ là đoạn thẳng $\\left( d \\right):y=m\\text{x}+n$ đi qua các điểm $\\left( 2;-2 \\right),\\,\\left( 3;3 \\right)$ nên $\\left\\{ \\begin{aligned} & 2m+n=-2 \\\\ & 3m+n=3 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & m=5 \\\\ & n=-12 \\\\ \\end{aligned} \\right.\\Rightarrow \\left( d \\right):\\,y=5x-12.$\nVậy $f\\left( x \\right)=\\left\\{ \\begin{aligned} & -{{x}^{2}}+2\\,\\,\\,\\,\\text{khi}\\,\\,-1\\le x\\le 2 \\\\ & \\,\\,5x-12\\,\\,\\text{khi}\\,\\,\\,\\,\\,\\,2\\le x\\le 3 \\\\ \\end{aligned} \\right.$.\n+) Từ đó $F\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{-{{x}^{3}}}{3}+2x+{{C}_{1}}\\,\\,\\,\\,\\text{khi}\\,\\,-1\\le x\\le 2 \\\\ & \\frac{5{{x}^{2}}}{2}-12x+{{C}_{2}}\\,\\,\\,\\text{khi}\\,\\,\\,\\,\\,\\,2\\le x\\le 3 \\\\ \\end{aligned} \\right..$\nDo $F\\left( -1 \\right)=-\\frac{5}{3}\\Rightarrow {{C}_{1}}=0.$\nTa có $F\\left( x \\right)$liên tục tại $x=2$ nên $\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,\\left( \\frac{-{{x}^{3}}}{3}+2x \\right)=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\left( \\frac{5{{x}^{2}}}{2}-12x+{{C}_{2}} \\right)\\Rightarrow {{C}_{2}}=\\frac{46}{3}.$\nKhi đó : $F\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{-{{x}^{3}}}{3}+2x\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,-1\\le x\\le 2 \\\\ & \\frac{5{{x}^{2}}}{2}-12x+\\frac{46}{3}\\,\\,\\,\\text{khi}\\,\\,\\,\\,\\,\\,2\\le x\\le 3 \\\\ \\end{aligned} \\right..$\nVậy $F\\left( 0 \\right)+F\\left( 3 \\right)=\\frac{11}{6}\\approx 1,8.$",
+   "short_value": 1.8,
+   "short_correct": "1,8",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 31,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D05",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một bác thợ xây bơm nước vào bể chứa nước. Gọi $h\\left( t \\right)$ là thể tích nước bơm được sau $t$ phút. Biết ${h}'\\left( t \\right)=3a{{t}^{2}}+bt$ và ban đầu bể không có nước. Sau $5$ phút thì thể tích nước trong bể là $150\\,d{{m}^{3}},$sau $10$ phút thì thể tích nước trong bể là $1100\\,d{{m}^{3}}$. Thể tích của nước trong bể sau khi bơm được $20$ phút là bao nhiêu $d{{m}^{3}}?$",
+   "explanation": "Đáp án: 8400.\nTa có: $h\\left( t \\right)=\\int{{h}'\\left( t \\right)\\text{d}t}=\\int{\\left( 3a{{t}^{2}}+bt \\right)\\text{d}t}=a{{t}^{3}}+b\\frac{{{t}^{2}}}{2}+C.$\nDo ban đầu bể không có nước nên $h\\left( 0 \\right)=0\\Leftrightarrow C=0\\Rightarrow h\\left( t \\right)=a{{t}^{3}}+b\\frac{{{t}^{2}}}{2}.$\nLúc $5$ phút: $h\\left( 5 \\right)=a{{.5}^{3}}+b.\\frac{{{5}^{2}}}{2}=150\\,\\,\\left( 1 \\right).$\nLúc $10$ phút: $h\\left( 10 \\right)=a{{.10}^{3}}+b.\\frac{{{10}^{2}}}{2}=1100\\,\\,\\left( 2 \\right).$\nTừ $\\left( 1 \\right)$và $\\left( 2 \\right)$suy ra $a=1,\\,b=2\\Rightarrow h\\left( t \\right)={{t}^{3}}+{{t}^{2}}\\Rightarrow h\\left( 20 \\right)={{20}^{3}}+{{20}^{2}}=8400\\,d{{m}^{3}}.$",
+   "short_value": null,
+   "short_correct": "8400",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B1.D06",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  }
+ ],
+ "flags": []
+}

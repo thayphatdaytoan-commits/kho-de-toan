@@ -1,0 +1,321 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "1a": {
+  "blocks": [
+   {
+    "lines": [
+     "Hàm số ${d}_{1}: y=$ {{1}} $x+$ {{2}} có hệ số góc là {{3}}."
+    ],
+    "hint": "Xác định hệ số góc của d1"
+   },
+   {
+    "lines": [
+     "Hàm số ${d}_{2}: y=$ {{4}} $x-$ {{5}} có hệ số góc là {{6}}."
+    ],
+    "hint": "Xác định hệ số góc của d2"
+   },
+   {
+    "lines": [
+     "Ta thấy hệ số góc của ${d}_{1}$ là {{7}} và của ${d}_{2}$ là {{8}}."
+    ],
+    "hint": "So sánh hệ số góc"
+   },
+   {
+    "lines": [
+     "Vì {{9}} $\\neq$ {{10}} nên hai đường thẳng ${d}_{1}$ và ${d}_{2}$ {{11}} nhau."
+    ],
+    "hint": "Kết luận vị trí tương đối"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "-2"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "3"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "-2"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "1"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "3"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "1"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "-2"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "1"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "-2"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "1"
+    ],
+    "placeholder": "hệ số góc",
+    "maxLen": 4
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "cắt"
+    ],
+    "placeholder": "vị trí tương đối",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "-2",
+   "1",
+   "3",
+   "cắt",
+   "song song",
+   "trùng"
+  ]
+ },
+ "1b": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Bảng giá trị:",
+     "$x$ $0$ $1$",
+     "${d}_{1}: y=$ {{1}} $x+$ {{2}} $3$ $1$",
+     "${d}_{2}:y=$ {{3}} $x-$ {{4}} $-3$ $-2$"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Đồ thị: [[IMG:image3.png]]"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 4
+   }
+  ],
+  "pool": []
+ },
+ "4a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle$ {{1}} và $\\triangle$ {{2}}:"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\widehat{BAC}=\\widehat{AHC}=$ {{3}}$^\\circ$"
+    ],
+    "hint": "Xác định cặp góc bằng nhau thứ nhất"
+   },
+   {
+    "lines": [
+     "$\\widehat{C}$ {{4}}"
+    ],
+    "hint": "Xác định cặp góc bằng nhau thứ hai"
+   },
+   {
+    "lines": [
+     "Vậy $\\triangle$ {{5}} $\\backsim\\triangle$ {{6}} ({{7}})."
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{AB}{HA}=\\frac{AC}{HC}=\\frac{BC}{AC}$"
+    ],
+    "hint": "Suy ra các cặp cạnh tỉ lệ"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 6
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "HAC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 6
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "placeholder": "số đo góc",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "chung"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 8
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 6
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "HAC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 6
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 6
+   }
+  ],
+  "pool": [
+   "ABC",
+   "HAC",
+   "AHB",
+   "90",
+   "chung",
+   "c.c.c",
+   "c.g.c",
+   "g.g",
+   "đối đỉnh"
+  ]
+ }
+}

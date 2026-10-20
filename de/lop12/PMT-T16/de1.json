@@ -1,0 +1,715 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "0",
+  "lesson": "on-tap",
+  "title": "500 bài toán thực tế Phạm Minh Tuấn — Tập 16",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image1.png]][[IMG:image2.png]]Một quả trứng khủng long đồ chơi bằng nhựa có thiết diện qua trục lớn là một đường elip. Biết độ dài mỗi trục là 12 cm và 8 cm.\nBên trong quả trứng người ta cần thiết kế một chiếc hộp hình trụ để đựng các đồ chơi trẻ con như bóng đèn xanh đỏ, kẹo v.v...\nHỏi khối trụ như thế có thể tích tối đa bao nhiêu $c{{m}^{3}}$ (làm tròn đến hàng đơn vị).",
+   "explanation": "Đáp số: 232\nGắn elip lên hệ trục tọa độ Oxy như hình vẽ, elip có $2a=12\\Rightarrow a=6\\,;\\,\\,2b=8\\Rightarrow b=4$.\n[[IMG:image3.png]]Phương trình chính tắc elip (E): $\\frac{{{x}^{2}}}{36}+\\frac{{{y}^{2}}}{16}=1$.\nĐặt chiều cao và bán kính đáy hình trụ nội tiếp elip là h , r thì điểm tiếp xúc $M\\left( \\frac{h}{2}\\,;\\,r \\right)$ với $0<h<12\\,;\\,\\,0<r<4$.\nĐiểm M thuộc (E): $\\frac{{{x}^{2}}}{36}+\\frac{{{y}^{2}}}{16}=1\\Rightarrow \\frac{{{\\left( \\frac{h}{2} \\right)}^{2}}}{36}+\\frac{{{r}^{2}}}{16}=1$ $\\Rightarrow \\frac{{{h}^{2}}}{144}+\\frac{{{r}^{2}}}{16}=1\\Rightarrow {{r}^{2}}=16\\left( 1-\\frac{{{h}^{2}}}{144} \\right)$.\nThể tích khối trụ là $V=\\pi {{r}^{2}}h=\\pi 16\\left( 1-\\frac{{{h}^{2}}}{144} \\right)\\cdot h=\\pi \\left( 16h-\\frac{{{h}^{3}}}{9} \\right)$.\nTa có ${V}'=\\pi \\left( 16-\\frac{{{h}^{2}}}{3} \\right)\\,;\\,\\,{V}'=0\\Rightarrow 16-\\frac{{{h}^{2}}}{3}=0\\Rightarrow {{h}^{2}}=48\\Rightarrow h=4\\sqrt{3}\\in \\left( 0\\,;\\,\\,12 \\right)$.\nGiá trị lớn nhất của thể tích khối trụ là ${{V}_{\\max }}=V\\left( 4\\sqrt{3} \\right)=\\pi \\left( 16\\cdot 4\\sqrt{3}-\\frac{{{\\left( 4\\sqrt{3} \\right)}^{3}}}{9} \\right)\\approx 232\\,\\,c{{m}^{3}}$.",
+   "short_value": 232,
+   "short_correct": "232",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 26,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một nhóm học sinh lớp 12 đã lên bản thiết kế mẫu hoa văn cho một loại gạch men lát nền nhà. Các em đã vẽ 4 đường cong như hình, từ đó tạo thành một hình (H) khép kín ở giữa viên gạch để tạo điểm nhấn. Cụ thể cách dựng hình được thực hiện như sau:\nDựng hệ trục Oxy với điểm O là tâm của viên gạch, tia Ox hướng sang phải và tia Oy hướng lên trên, đơn vị trên mỗi trục là 5 cm.\nCác em lấy O là tâm viên gạch và A là trung điểm một cạnh viên gạch, xác định được điểm B thỏa mãn $\\overrightarrow{OB}=\\frac{5}{6}\\overrightarrow{OA}$.\nDựng đường thẳng $\\Delta :5x-9=0$. Đường cong $\\left( {{L}_{1}} \\right)$ là tập hợp các điểm M thỏa mãn $3MB=5d\\left( M\\,,\\,\\,\\Delta \\right)$.\nLấy đối xứng đường cong $\\left( {{L}_{1}} \\right)$ qua tâm O và qua các đường chéo của viên gạch thì được các đường cong còn lại.\n| [[IMG:image4.png]] | [[IMG:image5.png]] |\n|---|---|\nBiết viên gạch là hình vuông có kích thước $60\\,\\,cm$; hỏi diện tích hình (H) là bao nhiêu centimét vuông (làm tròn đến hàng đơn vị)?",
+   "explanation": "Đáp số: 1168\nTa chọn hệ trục tọa độ như hình vẽ với mỗi đơn vị trên trục bằng 5 cm.\nĐường cong $\\left( {{L}_{1}} \\right)$ là tập hợp điểm M thỏa $3MB=5d\\left( M\\,,\\,\\,\\Delta \\right)$ hay $\\frac{MB}{d\\left( M\\,,\\,\\,\\Delta \\right)}=\\frac{5}{3}$ (1).\n[[IMG:image6.png]]Phương trình $\\Delta :x=\\frac{9}{5}$ (2).\nTừ (1) và (2) ta thấy M thuộc một nhánh của hyperbol $\\left( {{L}_{1}} \\right)$: $\\frac{{{x}^{2}}}{{{a}^{2}}}-\\frac{{{y}^{2}}}{{{b}^{2}}}=1$; trong đó điểm $B\\left( 5\\,;\\,\\,0 \\right)$ là một trong hai tiểu điểm của $\\left( {{L}_{1}} \\right)$ nên $c=5$.\nĐường chuẩn $x=\\frac{a}{e}=\\frac{{{a}^{2}}}{c}=\\frac{9}{5}\\Rightarrow a=3$ (thử lại ta thấy $\\frac{MB}{d\\left( M\\,,\\,\\,\\Delta \\right)}=\\frac{5}{3}=e$ (hợp lí)).\nDo ${{c}^{2}}={{a}^{2}}+{{b}^{2}}\\Rightarrow b=\\sqrt{{{c}^{2}}-{{a}^{2}}}=4$. Phương trình $\\left( {{L}_{1}} \\right)$:$\\,\\,\\,\\left( x>3 \\right)$.\nXét giao điểm của $\\left( {{L}_{1}} \\right)$ với đương thẳng $y=x$, ta có $\\frac{{{x}^{2}}}{9}-\\frac{{{x}^{2}}}{16}=1\\,\\,\\,\\left( x>3 \\right)\\Rightarrow x=\\frac{12\\sqrt{7}}{7}\\approx 4,54$.\nTừ phương trình $\\frac{{{x}^{2}}}{9}-\\frac{{{y}^{2}}}{16}=1\\Rightarrow \\frac{{{y}^{2}}}{16}=\\frac{{{x}^{2}}}{9}-1\\Rightarrow \\,\\,\\,\\left( x>3 \\right)$.\nDiện tích cần tính là $S=8\\left( \\int\\limits_{0}^{3}{x\\text{d}x}+\\int\\limits_{3}^{\\frac{12\\sqrt{7}}{7}}{\\left( x-4\\sqrt{\\frac{{{x}^{2}}}{9}-1} \\right)\\text{d}x} \\right)\\times 25\\approx \\,\\,c{{m}^{2}}$.",
+   "short_value": 1168,
+   "short_correct": "1168",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 25,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image7.png]]Jack có một chiếc điện thoại thông minh đã được sạc đầy pin. Nếu Jack không sử dụng điện thoại một phút nào thì máy sẽ hết pin sau 96 tiếng; còn nếu anh ấy sử dụng điện thoại liên tục thì máy sẽ hết pin sau 8 tiếng. Biết Jack đã không sử dụng chiếc smartphone trong suốt 36 tiếng, sau đó lại dùng nó 90 phút liên tục. Hỏi Jack còn dùng điện thoại được bao nhiêu phút nữa trước khi máy hết pin?",
+   "explanation": "Đáp số: 210\nTa chuẩn hóa tổng thời lượng pin điện thoại ban đầu là 1.\nNếu Jack không sử dụng điện thoại thì sau 96 tiếng smartphone mới hết pin. Suy ra sau mỗi tiếng không sử dụng, thời lượng pin sẽ giảm đi $\\frac{1}{96}$.\nNếu Jack dùng điện thoại liên tục thì sau 8 tiếng, smartphone sẽ hết pin. Suy ra sau mỗi tiếng sử dụng, thời lượng pin sẽ giảm đi $\\frac{1}{8}$.\nSau khi Jack không sử dụng điện thoại trong suốt 36 tiếng, thời lượng pin giảm $36\\times \\frac{1}{96}=\\frac{3}{8}$. Thời lượng pin còn lại là: $1-\\frac{3}{8}=\\frac{5}{8}$.\nSau khi Jack sử dụng điện thoại liên tục trong 90 phút, tức $\\frac{3}{2}$ tiếng, thời lượng pin tiếp tục giảm đi: $\\frac{3}{2}\\times \\frac{1}{8}=\\frac{3}{16}$. Thời lượng pin còn lại là:$\\frac{5}{8}-\\frac{3}{16}=\\frac{7}{16}$.\nVậy trước khi điện thoại hết pin, Jack còn có thể sử dụng: $\\frac{7}{16}\\div \\frac{1}{8}=3,5$ giờ = 210 phút.",
+   "short_value": 210,
+   "short_correct": "210",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image8.png]]Từ một khối gỗ hình lập phương có cạnh bằng 5 dm, người thợ mộc chỉ cần đến hai lát cắt là có thể tạo ra một khối gỗ có dạng hình chóp S.ABCD với đáy ABCD là hình vuông và $SA=AB=5\\,\\,dm$. Người thợ cần tạo ra một vật để trang trí theo yêu cầu của khách hàng, anh đã chọn M là trung điểm SB, N thuộc cạnh SD sao cho $SN=2ND$; sau đó anh ta tiếp tục thực hiện các lát cắt để có được vật thể hình tứ diện ACMN, thể tích vật thể sau cùng mà người thợ mộc làm ra là bao nhiêu $d{{m}^{3}}$ (làm tròn đến hàng phần chục)?",
+   "explanation": "Đáp số: 10,4\n[[IMG:image9.png]]Gọi $O$ là giao điểm của $AC$và $BD$ trong mặt phẳng đáy.\nTa có ${{V}_{S.ABCD}}=\\frac{1}{3}SA.{{S}_{ABCD}}=\\frac{{{5}^{3}}}{3}=\\frac{125}{3}$.\nVì OM là đường trung bình tam giác SBD nên $OM\\text{//}SD$ $\\Rightarrow SD\\text{//}\\left( AMC \\right)$.\nDo đó $d\\left( N\\,,\\,\\,\\,\\left( AMC \\right) \\right)=d\\left( D\\,,\\,\\,\\,\\left( AMC \\right) \\right)=d\\left( B\\,,\\,\\,\\left( AMC \\right) \\right)$.\nSuy ra: ${{V}_{ACMN}}={{V}_{N.MAC}}={{V}_{D.MAC}}={{V}_{B.MAC}}={{V}_{M.ABC}}$.\nTa lại có $\\frac{{{V}_{M.ABC}}}{{{V}_{S.ABC}}}=\\frac{d\\left( M\\,,\\,\\,\\left( ABCD \\right) \\right)\\cdot {{S}_{ABC}}}{d\\left( S\\,,\\,\\,\\left( ABCD \\right) \\right)\\cdot {{S}_{ABCD}}}=\\frac{\\frac{1}{2}d\\left( S\\,,\\,\\,\\left( ABCD \\right) \\right)\\cdot \\frac{1}{2}\\cdot {{S}_{ABCD}}}{d\\left( S\\,,\\,\\,\\left( ABCD \\right) \\right)\\cdot {{S}_{ABCD}}}=\\frac{1}{4}$\n$\\Rightarrow {{V}_{M.ABC}}=\\frac{1}{4}{{V}_{S.ABC}}=\\frac{1}{4}\\cdot \\frac{125}{3}=\\frac{125}{12}\\approx 10,4\\,\\,d{{m}^{3}}$.",
+   "short_value": 10.4,
+   "short_correct": "10,4",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D04",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Bể nước được bơm đầy sau 18 phút.",
+    "b": "Tốc độ dâng lên của nước là 0,23 dm/phút khi thể tích nước trong bể bằng $\\frac{1}{3}$ thể tích của bể.",
+    "c": "Khi mực nước cách miệng bể 0,5 dm, người ta ngừng bơm và bắt đầu xả ra với ước lượng tốc độ giảm chiều cao của mực nước trong bể theo thời gian $t$ (phút) được mô hình hóa bởi hàm số: ${h}'\\left( t \\right)=\\frac{1}{350}t-\\frac{193}{700}$ (dm/phút). Sau 5 phút, thể tích nước trong bể là 11,97 dm³.",
+    "d": "Cùng với dữ kiện của c) thì sau 23,59 phút nước trong bể vừa được xả hết."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image10.png]]Một cái bể nước có dạng khối chóp tứ giác đều ngược với cạnh đáy bằng $3\\sqrt{2}\\,\\,dm$ và chiều cao bằng $6\\,\\,dm$ (tham khảo hình vẽ bên – các kích thước được nêu ra là phần bên trong hình). Nước được bơm vào bể với tốc độ không đổi là 2 lít/phút và ban đầu bể không chứa nước (các kết quả bên dưới được làm tròn đến hai chữ số thập phân sau dấu phẩy).",
+   "explanation": "a) Mệnh đề đúng.\nThể tích chậu nước hình chóp tứ giác đều là ${{V}_{cha\\ddot{a}u}}=\\frac{1}{3}\\cdot {{\\left( 3\\sqrt{2} \\right)}^{2}}\\cdot 6=36\\,\\,d{{m}^{3}}=36$ lít.\nThời gian bơm nước đầy bể là $\\frac{36}{2}=18$ phút.\nb) Mệnh đề đúng.\nGọi V(t), $h$(t) lần lượt là thể tích và chiều cao của nước sau t phút.\nTa có $\\frac{V\\left( t \\right)\\,\\,\\,}{{{V}_{cha\\ddot{a}u}}}={{\\left( \\frac{h\\left( t \\right)}{6} \\right)}^{3}}\\Rightarrow V\\left( t \\right)={{\\left( \\frac{h\\left( t \\right)}{6} \\right)}^{3}}\\cdot 36\\,\\,\\,\\text{hay}\\,\\,\\,V\\left( t \\right)=\\frac{{{h}^{3}}\\left( t \\right)}{6}$ (*).\nĐạo hàm hai vế của (*) theo biến t ta được: $\\frac{\\text{d}V\\left( t \\right)}{\\text{d}t}=\\frac{{{h}^{2}}\\left( t \\right)}{2}\\cdot \\frac{\\text{d}h\\left( t \\right)}{\\text{d}t}$ (**).\nThời điểm thể tích nước bằng $\\frac{1}{3}$ thể tích chậu thì: ${{\\left( \\frac{h\\left( t \\right)}{6} \\right)}^{3}}=\\frac{1}{3}\\Rightarrow \\frac{h\\left( t \\right)}{6}=\\sqrt[3]{\\frac{1}{3}}\\Rightarrow h\\left( t \\right)=6\\cdot \\sqrt[3]{\\frac{1}{3}}\\approx 4,16\\,\\,dm$.\nThay $\\frac{dV\\left( t \\right)}{dt}=2$ lít/phút$=2$ dm/phút; $h\\left( t \\right)\\approx 4,16\\,\\,dm$ vào (**), thì:$\\frac{dh\\left( t \\right)}{dt}\\approx 0,23$ dm/phút.\nc) Mệnh đề đúng.\nMực nước cách miệng bể 0,5 dm nên chiều cao ban đầu bằng $5,5\\,\\,dm$.\nChiều cao của nước trong chậu sau 5 phút là $h\\left( 5 \\right)=5,5+\\int\\limits_{0}^{5}{\\left( \\frac{1}{350}t-\\frac{193}{700} \\right)\\text{d}t}=\\frac{291}{70}\\approx 4,16\\,\\,dm$.\nThể tích nước còn lại trong bể là $V\\left( 5 \\right)={{\\left( \\frac{h\\left( 5 \\right)}{6} \\right)}^{3}}\\cdot 36\\approx 11,97\\,\\,d{{m}^{3}}$.\nd) Mệnh đề sai.\nThời gian để mực nước trong chậu đang là 5,5 dm trở về 0 dm thỏa mãn phương trình $5,5+\\int\\limits_{0}^{t}{\\left( \\frac{1}{350}t-\\frac{193}{700} \\right)\\text{d}t}=0\\Rightarrow t\\approx 22,59$ phút.\nVới khoảng thời gian 22, 59 phút thì nước trong bể vừa được xả hết.",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 19,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D06",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tại thời điểm ban đầu $t=0$ giây, vận tốc của con ngựa vằn là 20 m/s.",
+    "b": "Tốc độ của sư tử giảm dần theo thời gian, trong khi tốc độ của ngựa vằn tăng dần theo thời gian.",
+    "c": "Sư tử ở gần ngựa vằn nhất khi ${{{v}'}_{1}}\\left( t \\right)={{{v}'}_{2}}\\left( t \\right)$ và khoảng cách ngắn nhất giữa chúng là 1,72 mét (làm tròn đến hàng phần trăm theo đơn vị mét).",
+    "d": "Sư tử sẽ không bắt được ngựa vằn và khoảng cách ngắn nhất giữa chúng là 1,92 mét (làm tròn đến hàng phần trăm theo đơn vị mét)."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "[[IMG:image11.png]]Một con sư tử đang đuổi theo một con ngựa vằn và chúng cùng chạy trên một đường thẳng. Ngựa vằn đã nhận ra sư tử khi sư tử cách nó khoảng 40 m. Từ thời điểm này, sư tử đuổi theo ngựa vằn với tốc độ ${{v}_{1}}\\left( t \\right)=15{{e}^{-0,1t}}\\text{ }\\!\\!~\\!\\!\\text{ }m/s$ và ngựa vằn bỏ chạy với tốc độ ${{v}_{2}}\\left( t \\right)=20-20{{e}^{-0,1t}}\\text{ }\\!\\!~\\!\\!\\text{ }m/s$ ($t$ được tính bằng giây với $0\\le t\\le 60$).",
+   "explanation": "a) Mệnh đề sai.\nVận tốc ban đầu của con ngựa vằn là ${{v}_{2}}\\left( 0 \\right)=20-20{{e}^{0}}=0$m/s.\nb) Mệnh đề đúng.\nTa có: ${{{v}'}_{1}}\\left( t \\right)=-0,1\\cdot 15{{e}^{-0,1t}}<0,\\,\\,\\forall t\\in \\left[ 0\\,;\\,\\,60 \\right].$ Suy ra tốc độ sư tử giảm dần theo thời gian.\nTa có: ${{{v}'}_{2}}\\left( t \\right)=-0,1\\cdot \\left( -20 \\right){{e}^{-0,1t}}=2{{e}^{-0,1t}}>0,\\,\\,\\forall t\\in \\left[ 0\\,;\\,\\,60 \\right].$Suy ra tốc độ của ngựa vằn tăng dần theo thời gian.\nc) Mệnh đề sai.\nKhoảng cách giữa sư tử và ngựa vằn là $d\\left( t \\right)=40+\\int_{0}^{t}{\\left[ {{v}_{2}}\\left( t \\right)-{{v}_{1}}\\left( t \\right) \\right]\\text{d}t}$.\nTa có ${d}'\\left( t \\right)={{v}_{2}}\\left( t \\right)-{{v}_{1}}\\left( t \\right)\\,;\\,\\,{d}'\\left( t \\right)=0\\Rightarrow {{v}_{2}}\\left( t \\right)={{v}_{1}}\\left( t \\right)$.\n[[IMG:image12.png]]Giải phương trình này, ta có: $20-20{{e}^{-0,1t}}=15{{e}^{-0,1t}}$ $\\Leftrightarrow 20=35{{e}^{-0,1t}}$ $\\Leftrightarrow \\frac{20}{35}={{e}^{-0,1t}}$ $\\Leftrightarrow \\text{ln}\\frac{20}{35}=-0,1t$ $\\Leftrightarrow t=\\frac{\\text{ln}\\frac{20}{35}}{-0,1}\\approx 5,6\\,\\,\\,\\left( s \\right)$.\nBảng biến thiên:\nVậy sư tử ở gần ngựa vằn nhất khi ${{v}_{1}}\\left( t \\right)={{v}_{2}}\\left( t \\right)$, và khoảng cách ngắn nhất giữa chúng là 1,92 mét.\nd) Mệnh đề đúng.\nTừ bảng biến thiên, ta thấy khoảng cách ngắn nhất giữa hai con vật là 1,92 mét; kể từ thời điềm gần nhất đó, sư tử dần bị bỏ lại phía sau và sư tử không thể bắt được ngựa vằn.",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C2.B3.D08",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 7,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Vùng thượng quyển loãng sao Thủy có tâm $\\left( 1\\,;\\,\\,2\\,;\\,\\,0 \\right)$, bán kính bằng $3$.",
+    "b": "Hai tiểu hành tinh ở các vị trí A, B sẽ bị hút xuống bề mặt sao Thủy.",
+    "c": "Các nhà quan sát cho rằng có một sao chổi mang tên Haxen di chuyển theo quỹ đạo đường thẳng với vận tốc 51,5 km/s; khoảng cách ngắn nhất từ tâm sao Thủy đến sao chổi bằng $\\frac{\\sqrt{871}}{10}$ nghìn km. Thời gian sao chổi đi trong vùng thượng quyển loãng của sao Thủy bằng 20 giây (làm tròn đến hàng đơn vị của giây).",
+    "d": "Sao chổi Haxen di chuyển theo phương vectơ $\\vec{u}=\\left( 0\\,;\\,\\,5\\,;\\,\\,2 \\right)$. Giả sử M, N là điểm đầu và điểm cuối mà sao chổi này đi qua thuộc vùng thượng quyển loãng của sao Thủy. Giá trị nhỏ nhất của tổng $AM+BN$ bằng $3\\,970$ km (làm tròn đến hàng đơn vị của km)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": "C",
+   "flags": [],
+   "question": "[[IMG:image13.png]]Sao Thủy gần như không có khí quyển thật sự như Trái Đất hay sao Kim. Tuy nhiên, nó có một lớp khí rất mỏng gọi là exosphere – tức là thượng quyển loãng, gồm các hạt khí cực kỳ thưa thớt như hydro, heli, oxy, natri...Trong không gian Oxyz, đơn vị trên mỗi trục là nghìn km, vùng thượng quyển loãng của sao Thủy được mô hình hóa bởi phương trình mặt cầu ${{x}^{2}}+{{y}^{2}}+{{z}^{2}}-2x-4y-4=0$. Các nhà khoa học không gian đang quan sát các tiểu hành tinh ở các vị trí có tọa độ $A\\left( 4\\,;\\,\\,2\\,;\\,\\,4 \\right)\\,,\\,\\,B\\left( 1\\,;\\,\\,4\\,;\\,\\,2 \\right)$ và xem xét sự di chuyển của chúng. Nếu tiểu hành tinh nằm trong vùng thượng quyển loãng thì nó sẽ bị hút xuống bề mặt sao Thủy.",
+   "explanation": "a) Mệnh đề đúng.\nVùng thượng quyển loãng sao Thủy có tâm $I\\left( 1\\,;\\,\\,2\\,;\\,\\,0 \\right)$, bán kính $R=\\sqrt{{{1}^{2}}+{{2}^{2}}+{{0}^{2}}+4}=3$.\nb) Mệnh đề sai.\nTa có $IA=\\sqrt{{{\\left( 4-1 \\right)}^{2}}+{{\\left( 2-2 \\right)}^{2}}+{{\\left( 4-0 \\right)}^{2}}}=5\\,;\\,\\,IB=\\sqrt{{{\\left( 1-1 \\right)}^{2}}+{{\\left( 4-2 \\right)}^{2}}+{{\\left( 2-0 \\right)}^{2}}}=2\\sqrt{2}$.\nVì $IA>R\\,;\\,\\,IB<R$ nên tiểu hành tinh A nằm ngoài vùng thượng quyển loãng, còn tiểu hành tinh B thì nằm tròn vùng thượng quyển loãng của sao Thủy và nó sẽ bị hút xuống bề mặt sao Thủy.\nc) Mệnh đề sai.\nGọi d là quỹ đạo đường thẳng của sao chổi và H là hình chiếu vuông góc của tâm I trên d.\nGọi M, N là điểm đầu và điểm cuối của sao chổi trong vùng thượng quyển loãng của sao Thủy.\nTa có $IH=\\frac{\\sqrt{871}}{10}$; suy ra $MN=2MH=2\\sqrt{{{R}^{2}}-I{{H}^{2}}}=2\\sqrt{9-\\frac{871}{100}}=\\frac{\\sqrt{29}}{5}$ (nghìn km).\nThời gian sao chổi di chuyển trong vùng thượng quyển loãng: $\\frac{\\sqrt{29}}{5}\\times 1000:51,5\\approx 21$ (giây).\nd) Mệnh đề đúng.\n[[IMG:image14.png]]\nĐặt $\\overrightarrow{MN}=\\left( 0\\,;\\,\\,5k\\,;\\,\\,2k \\right)$; ta có $M{{N}^{2}}=25{{k}^{2}}+4{{k}^{2}}=\\frac{29}{25}\\Rightarrow k=\\frac{1}{5}$; suy ra $\\overrightarrow{MN}=\\left( 0\\,;\\,\\,1\\,;\\,\\,\\frac{2}{5} \\right)$.\nsao cho AMNC là hình bình hành; suy ra $C\\left( 4\\,;\\,\\,3\\,;\\,\\,\\frac{22}{5} \\right)$.\nKhi đó $AM=CN$ và $AM+BN=CN+BN\\ge BC=\\frac{\\sqrt{394}}{5}\\approx 3,97$.\nVậy giá trị nhỏ nhất của biểu thức $AM+BN$ là khoảng $3\\,970$ km.",
+   "ma": "de1.P3.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C5.B2.D05",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 8,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image15.png]]Buổi họp mặt cuối năm của VFF diễn ra trong không khí hân hoan phấn khởi sau khi ĐTQG Việt Nam vô địch AFF cup 2024. Vào cuối buổi họp thì HLV Kim Sang-sik chỉ bắt tay với một số người, còn lại tất cả thành viên đều bắt tay với nhau, hai người bất kì thì bắt tay không quá một lần. Hỏi cuộc họp này có bao nhiêu người tham dự biết rằng đã có tổng cộng 2014 cái bắt tay được thực hiện?",
+   "explanation": "Đáp số: 64\nGọi n là người có mặt trong cuộc họp $\\left( n\\in \\mathbb{N} \\right)$.\nSố cái bắt tay tối đa trong cuộc họp là $C_{n}^{2}$.\nTrong thực tế thì tổng cộng số cái bắt tay là 2014; vì vậy $C_{n}^{2}>2014$\n$\\Rightarrow \\frac{n!}{2\\left( n-2 \\right)!}>2014\\Rightarrow n\\left( n-1 \\right)>4028\\Rightarrow {{n}^{2}}-n-4028>0\\Rightarrow n>63,97$.\nVới $n=64$ thì số cái bắt tay tối đa là $C_{64}^{2}=2\\,016$; số người mà ông Kim không bắt tay là $2016-2014=2$ (thỏa mãn).\nVới $n=65$ thì số cái bắt tay tối đa là $C_{65}^{2}=2\\,080$; số người mà ông Kim không bắt tay là $2080-2014=66$ (vô lí vì trong phòng họp đang có 65 người).\nTa không cần thử lại với $n>65$ vì luôn xảy ra điều vô lí như trên.\nVậy số người tham dự cuộc họp là 64.",
+   "short_value": 64,
+   "short_correct": "64",
+   "ma": "de1.P3.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 9,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image16.png]]Hình dáng phần đất liền của hai xã thuộc tỉnh Đồng Tháp được mô hình hóa bởi đồ thị hàm số $y=\\frac{{{x}^{2}}+ax+b}{x-2}$; biết đồ thị có một điểm cực trị là $\\left( 1\\,;\\,\\,1 \\right)$, với hệ trục tọa độ Oxy như hình vẽ, đơn vị trên mỗi trục là 10 mét. Để thuận tiện cho giao thông hai xã, lãnh đạo tỉnh đã phê duyệt dự án xây một chiếc cầu nối phần đất liền của hai xã này. Nhằm tiết kiệm chi phí cho công trình, người kỹ sư trưởng thiết kế có nhiệm vụ nghiên cứu để chọn được hai vị trí A, B trên phần đất liền hai xã sao cho độ dài chiếc cầu (đoạn AB) là ngắn nhất có thể. Hỏi độ dài ngắn nhất của chiếc cầu đó (tính theo đường chim bay) là bao nhiêu mét (làm tròn đến hàng phần chục)?",
+   "explanation": "Đáp số: 43,9\nTa có ${y}'=\\frac{{{x}^{2}}-4x-2a-b}{{{\\left( x-2 \\right)}^{2}}}$. Vì $\\left( 1\\,;\\,\\,1 \\right)$ là điểm cực trị của đồ thị hàm số nên $\\left\\{ \\begin{aligned} & y\\left( 1 \\right)=1 \\\\ & {y}'\\left( 1 \\right)=0 \\\\ \\end{aligned} \\right.$\n$\\Rightarrow \\left\\{ \\begin{aligned} & \\frac{1+a+b}{1-2}=1 \\\\ & {{1}^{2}}-4\\cdot 1-2a-b=0 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a+b=-2 \\\\ & 2a+b=-3 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & b=-1 \\\\ \\end{aligned} \\right.$.\nHàm số trở thành $y=\\frac{{{x}^{2}}-x-1}{x-2}=x+1+\\frac{1}{x-2},\\,\\,\\,x\\ne 2$.\nGọi $A\\left( 2+a\\,;\\,\\,3+a+\\frac{1}{a} \\right)\\,,\\,\\,B\\left( 2-b\\,;\\,\\,3-b-\\frac{1}{b} \\right)$ là hai điểm thuộc hai nhánh đồ thị với $a\\,,\\,\\,b>0$. Ta có: $A{{B}^{2}}={{\\left( a+b \\right)}^{2}}+{{\\left( a+b+\\frac{1}{a}+\\frac{1}{b} \\right)}^{2}}={{\\left( a+b \\right)}^{2}}+{{\\left( a+b+\\frac{a+b}{ab} \\right)}^{2}}={{\\left( a+b \\right)}^{2}}\\left[ 1+{{\\left( 1+\\frac{1}{ab} \\right)}^{2}} \\right]$\n$={{\\left( a+b \\right)}^{2}}\\left( 2+\\frac{2}{ab}+\\frac{1}{{{a}^{2}}{{b}^{2}}} \\right)\\overset{AM-GM}{\\mathop{\\ge }}\\,4ab\\left( 2+\\frac{2}{ab}+\\frac{1}{{{a}^{2}}{{b}^{2}}} \\right)$ $=8+8ab+\\frac{4}{ab}\\overset{AM-GM}{\\mathop{\\ge }}\\,8+8\\sqrt{2}$.\nĐộ dài ngắn nhất của cây cầu (theo đường chim bay) là $AB\\times 10=\\sqrt{8+8\\sqrt{2}}\\times 10\\approx \\,\\,m$.\nDấu “=” xảy ra khi và chỉ khi $a=b$ và $8ab=\\frac{4}{ab}\\Leftrightarrow a=b=\\frac{1}{\\sqrt[4]{2}}$.",
+   "short_value": 43.9,
+   "short_correct": "43,9",
+   "ma": "de1.P3.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 26,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 10,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image17.png]]Một cái chậu đựng nước có dạng hình chóp cụt đều đáy là các tam giác cạnh bằng 1 dm và 3 dm. Chiều cao chậu nước bằng 4 dm. Người ta bơm nước vào chậu với lưu lượng không đổi 0,5 lít/phút. Đến phút thứ 10 thì tốc độ dâng lên của nước trong chậu là bao nhiêu dm/phút? (Kết quả được làm tròn đến hàng phần trăm).",
+   "explanation": "Đáp số: 0,17\n[[IMG:image18.png]]\nGọi MN là độ dài cạnh tam giác đều theo mực nước tức thời (MN thay đổi).\nĐặt $MN=a\\times h+b$ (hàm số bậc nhất theo h).\nKhi $h=0$ thì $MN=1$; khi $h=4$ thì $MN=3$.\nDo đó $\\left\\{ \\begin{aligned} & b=1 \\\\ & 4a+b=3 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & b=1 \\\\ & a=\\frac{1}{2} \\\\ \\end{aligned} \\right.$; suy ra $MN=0,5h+1$.\nDiện tích mặt nước tức thời là $S=\\frac{M{{N}^{2}}\\sqrt{3}}{4}=\\frac{{{\\left( 0,5h+1 \\right)}^{2}}\\sqrt{3}}{4}$.\nThể tích nước tức thời là $V=\\frac{1}{3}h\\left( {{S}_{0}}+\\sqrt{{{S}_{0}}S}+S \\right)$; ${{S}_{0}}$ là diện tích mặt nước ban đầu (đáy nhỏ).\n$V=\\frac{1}{3}h\\left( \\frac{\\sqrt{3}}{4}+\\sqrt{\\frac{\\sqrt{3}}{4}\\cdot \\frac{{{\\left( 0,5h+1 \\right)}^{2}}\\sqrt{3}}{4}}+\\frac{{{\\left( 0,5h+1 \\right)}^{2}}\\sqrt{3}}{4} \\right)$ $=\\frac{h\\sqrt{3}}{12}\\left[ 1+\\left( 1+0,5h \\right)+{{\\left( 1+0,5h \\right)}^{2}} \\right]$.\n$V=\\frac{h\\sqrt{3}}{12}\\left( 0,25{{h}^{2}}+1,5h+3 \\right)=\\frac{\\sqrt{3}}{12}\\left( 0,25{{h}^{3}}+1,5{{h}^{2}}+3h \\right)$ (*).\nSau 10 phút thì lượng nước trong chậu là $V=0,5\\times 10=5\\,\\,d{{m}^{3}}$.\nDo đó $\\frac{\\sqrt{3}}{12}\\left( 0,25{{h}^{3}}+1,5{{h}^{2}}+3h \\right)=5\\Rightarrow h\\approx 3,27\\,\\,dm$ (Lưu vào A).\nTừ (*) đạo hàm hai vế theo t ta được: $\\frac{\\text{d}V}{\\text{d}t}=\\frac{\\sqrt{3}}{12}\\left( 0,75{{h}^{2}}+3h+3 \\right)\\cdot \\frac{\\text{d}h}{\\text{d}t}\\,\\,\\,\\left( ** \\right)$.\nThay các giá trị $h=A\\,;\\,\\,V=5\\,;\\,\\,\\frac{\\text{d}V}{\\text{d}t}=0,5$ vào (**) ta được: $\\frac{\\text{d}h}{\\text{d}t}\\approx 0,17$ dm/phút.\nVậy tốc độ dâng lên của nước trong chậu xấp xỉ 0,17 dm/phút.",
+   "short_value": 0.17,
+   "short_correct": "0,17",
+   "ma": "de1.P3.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 24,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D04",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 11,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Quả bóng có tâm $I\\left( 2\\,;\\,\\,-1\\,;\\,\\,-1 \\right)$ và bán kính $R=\\sqrt{6}$.",
+    "b": "Khoảng cách từ tâm quả bóng đến đường thẳng d bằng $2\\sqrt{6}$.",
+    "c": "Nếu $\\text{cos}\\widehat{AIB}$ bằng $\\frac{a}{b}$ (phân số tối giản) thì giá trị ${{a}^{2}}+{{b}^{2}}=82$.",
+    "d": "Một con kiến bò từ vị trí A đến vị trí B trên quả bóng với tốc độ 2 cm/s; thời gian ngắn nhất cho chuyến đi này là 21 giây (làm tròn đến hàng đơn vị)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image19.png]]Xét một hệ trục tọa độ Oxyz được cho sẵn, đơn vị trên mỗi trục là dm, mặt ngoài của một quả bóng được mô hình hóa bởi phương trình mặt cầu ${{\\left( x-2 \\right)}^{2}}+{{\\left( y+1 \\right)}^{2}}+{{\\left( z+1 \\right)}^{2}}=6$, quả bóng nằm yên trên sàn nhà. Người ta nhìn thấy một tấm ván ngã xuống đè lên quả bóng, phần giao của tấm ván và sàn nhà là đường thẳng d có phương trình $\\frac{x+2}{2}=\\frac{y+1}{-3}=\\frac{z}{1}$. Gọi $A,\\,\\,B$ lần lượt là hai tiếp điểm của tấm ván, sàn nhà với quả bóng và I là tâm quả bóng.",
+   "explanation": "a) Mệnh đề đúng.\nMặt ngoài quả bóng là mặt cầu $\\left( S \\right)$ có tâm $I\\left( 2\\,;\\,\\,-1\\,;\\,\\,-1 \\right)$ và bán kính $R=\\sqrt{6}$.\nb) Mệnh đề sai.\nĐường thẳng d: $\\frac{x+2}{2}=\\frac{y+1}{-3}=\\frac{z}{1}$ qua $A\\left( -2\\,;\\,\\,-1\\,;\\,\\,0 \\right)$ và có vectơ chỉ phương ${{\\vec{u}}_{d}}=\\left( 2\\,;\\,\\,-3\\,;\\,\\,1 \\right)$.\nTa có: $\\overrightarrow{AI}=\\left( 4\\,;\\,\\,0\\,;\\,\\,-1 \\right)\\,;\\,\\,\\left[ {{{\\vec{u}}}_{d}}\\,,\\,\\,\\overrightarrow{AI} \\right]=\\left( 3\\,;\\,\\,6\\,;\\,\\,12 \\right)$.\nDo đó $d\\left( I\\,,\\,\\,d \\right)=\\frac{\\left| \\left[ {{{\\vec{u}}}_{d}}\\,,\\,\\,\\overrightarrow{AI} \\right] \\right|}{\\left| {{{\\vec{u}}}_{d}} \\right|}=\\frac{\\sqrt{{{3}^{2}}+{{6}^{2}}+{{12}^{2}}}}{\\sqrt{{{2}^{2}}+{{\\left( -3 \\right)}^{2}}+{{1}^{2}}}}=\\frac{3\\sqrt{6}}{2}$.\n[[IMG:image20.png]]c) Mệnh đề đúng.\nGọi K là hình chiếu của I trên d thì $KI=\\frac{3\\sqrt{6}}{2}$ và $KA\\bot IA$; suy ra $\\text{cos}\\widehat{AIK}=\\frac{IA}{IK}=\\frac{2}{3}.$\nDo vậy $\\text{cos}\\widehat{AIB}=2\\text{co}{{\\text{s}}^{2}}\\widehat{AIK}-1$ $=2\\times {{\\left( \\frac{2}{3} \\right)}^{2}}-1=-\\frac{1}{9}=\\frac{a}{b}\\Rightarrow {{a}^{2}}+{{b}^{2}}=82$.\nd) Mệnh đề sai.\nĐộ dài cung tròn bé nhất mà con kiến có thể đi: ${{l}_{\\overset\\frown{AB}}}=R\\times \\widehat{AIB}=\\sqrt{6}\\times \\arccos \\left( -\\frac{1}{9} \\right)\\approx 4,12\\,\\,dm$.\nThời gian tối thiểu để kiến đến nơi là $\\frac{{{l}_{\\overset\\frown{AB}}}\\times 10}{2}\\approx 21$ giây.",
+   "ma": "de1.P3.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 12,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image21.png]]Một mảnh đất hình chữ nhật có kích thước $40\\,m\\times 50\\,m$ đang được người chủ trồng cỏ tự nhiên. Vào buổi sáng, khi mặt trời vừa lên, mảnh đất này bị một mái nhà xưởng gần đó chắn ánh sáng. Khi mặt trời lên cao hơn, ánh sáng đã chiếu từ từ lên mảnh đất. Ta xem ranh giới giữa phần được chiếu sáng và phần tối là các đường thẳng song song thay đổi.\nCó thời điểm đường ranh giới này đi qua hai điểm A, M như hình vẽ (M là trung điểm một cạnh hình chữ nhật).\nKhi diện tích phần tối của mảnh đất bằng $75\\,\\,{{m}^{2}}$, người ta đo được tốc độ giảm cạnh theo phương AD bằng 2 cm/s; hỏi tốc độ giảm diện tích phần tối của mảnh đất là bao nhiêu $c{{m}^{2}}$/s? Kết quả được làm tròn đến hàng phần chục.",
+   "explanation": "Đáp số: 3873\n[[IMG:image22.png]]\nXét tam giác ABM vuông tại B có $\\tan \\widehat{BAM}=\\frac{BM}{AB}=\\frac{2}{5}$.\nĐặt $x=DF\\in \\left[ 0\\,;\\,\\,40 \\right]\\,,\\,\\,y=DE\\in \\left[ 0\\,;\\,\\,50 \\right]$ (x, y thay đổi (giảm) vì ánh sáng ngày càng lan rộng).\nVì $EF\\text{//}AM$ nên $\\tan \\widehat{FED}=\\tan \\widehat{BAM}\\Leftrightarrow \\frac{x}{y}=\\frac{2}{5}\\Leftrightarrow $.\nDiện tích phần tối tức thời là $S=\\frac{1}{2}xy=\\frac{1}{2}x\\cdot \\frac{5x}{2}\\,\\,\\,\\text{hay}\\,\\,\\,$ (1).\nKhi diện tích phần tối bằng $75\\,\\,{{m}^{2}}$ thì $\\frac{5}{4}{{x}^{2}}=75\\Rightarrow {{x}^{2}}=60\\Rightarrow x=2\\sqrt{15}$ m.\nĐạo hàm hai vế của (1) theo biến t ta được: $\\,\\,\\,(2)$.\nThay $x=2\\sqrt{15}\\,\\,m=200\\sqrt{15}\\,\\,cm$ và $\\frac{dx}{dt}=2$ cm/s vào (2), ta được $\\frac{dS}{dt}\\approx \\,\\,c{{m}^{2}}$/s.",
+   "short_value": 3873,
+   "short_correct": "3873",
+   "ma": "de1.P3.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 18,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 13,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image23.png]]Một tấm cầu dốc kê bậc thềm được làm bằng kim loại như hình vẽ. Biết chiều cao tối đa của cầu dốc là 0,3 m và bề mặt cầu là hình vuông có cạnh bằng 1 m. Hãy tính góc tạo bởi đường chéo bề mặt cầu dốc với mặt phẳng sàn nhà theo đơn vị độ (làm tròn kết quả đến hàng phần chục).",
+   "explanation": "Đáp số: 12,2\n[[IMG:image24.png]]\nXét mô hình cầu dốc với các kí hiệu như hình vẽ.\nVì AF là hình chiếu của BF trên (ACFD) nên $\\left( BF,\\,\\,\\left( ACFD \\right) \\right)=\\left( BF,\\,\\,AF \\right)=\\widehat{BFA}$.\nHình vuông BCFE có cạnh bằng 1 m nên có đường chéo $BF=\\sqrt{2}\\,\\,m$; $AB=0,3\\,\\,m$.\nTam giác ABF vuông tại A có: $\\sin \\widehat{BFA}=\\frac{AB}{BF}=\\frac{3\\sqrt{2}}{20}\\Rightarrow \\widehat{BFA}\\approx 12,{{2}^{\\circ }}$. Vậy $\\left( BF,\\,\\,\\left( ACFD \\right) \\right)=\\widehat{BFA}\\approx 12,{{2}^{\\circ }}$.",
+   "short_value": 12.2,
+   "short_correct": "12,2",
+   "ma": "de1.P3.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B4.D06",
+   "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
+  },
+  {
+   "section": 3,
+   "n": 14,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có hai vợ chồng đã nghĩ ra một trò chơi đầy trí tuệ như sau: Họ sử dụng hai ly nước giống hệt nhau, mỗi ly chứa tối đa 240 ml nước. Ban đầu, người vợ có một ly nước đầy và người chồng có một cái ly rỗng. Bước thứ nhất người vợ rót 1/2 lượng nước trong ly của mình sang ly của người chồng; bước tiếp theo người chồng lại rót 1/3 lượng nước trong ly của mình sang cho ly người vợ. Quá trình này cứ tiếp tục mà mỗi lần rót thì mẫu số được cộng thêm 1; trò chơi này hấp dẫn đến mức cả hai người thực hiện đến bước thứ 100 thì dừng lại, hỏi lượng nước trong ly người chồng khi đó là bao nhiêu ml? (Làm tròn kết quả đến hàng đơn vị, giả sử trong quá trình rót nước không có giọt nước nào tràn ra ngoài).\n[[IMG:image25.png]]",
+   "explanation": "Đáp số: 119\nTa có thể thực hiện việc rót theo sơ đồ sau:\n| Ban đầu | Ly người vợ: V ml | Ly người chồng: 0 ml |\n|---|---|---|\n| Bước thứ nhất:Vợ rót 1/2 nước trong ly cho chồng | $\\frac{1}{2}V$ | $\\frac{1}{2}V$ |\n| Bước thứ hai:Chồng rót 1/3 nước trong ly cho vợ | $\\frac{1}{2}V+\\frac{1}{6}V=\\frac{2}{3}V$ | $\\frac{1}{3}V$ |\n| Bước thứ ba:Vợ rót 1/4 nước trong ly cho chồng | $\\frac{2}{3}V-\\frac{1}{4}\\cdot \\frac{2}{3}V=\\frac{1}{2}V$ | $\\frac{1}{2}V$ |\n| Bước thứ tư:Chồng rót 1/5 nước trong ly cho vợ | $\\frac{1}{2}V+\\frac{1}{5}\\cdot \\frac{1}{2}V=\\frac{3}{5}V$ | $\\frac{2}{5}V$ |\n| Bước thứ năm:Vợ rót 1/6 nước trong ly cho chồng | $\\frac{3}{5}V-\\frac{1}{6}\\cdot \\frac{3}{5}V=\\frac{1}{2}V$ | $\\frac{1}{2}V$ |\nQuá trình này được lặp đi lặp lại và ta thấy rằng trong các bước lẻ (người vợ rót nước cho người chồng) thì lượng nước hai ly bằng nhau.\nBước thứ 99 thì lượng nước hai ly bằng nhau.\nBước thứ 100 (người chồng rót 1/101 nước trong ly cho vợ), lượng nước trong ly người chồng là $\\frac{1}{2}V-\\frac{1}{101}\\cdot \\frac{1}{2}V=\\frac{50V}{101}=\\frac{50\\cdot 240}{101}\\approx 119\\,\\,ml$.",
+   "short_value": 119,
+   "short_correct": "119",
+   "ma": "de1.P3.C14",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 15,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Mặt cầu (S) có tâm $I\\left( -1\\,;\\,\\,2\\,;\\,\\,1 \\right)$ và bán kính $R=1$.",
+    "b": "Mặt phẳng (P) và mặt cầu (S) không có điểm chung.",
+    "c": "Người chơi đứng ở vị trí giao điểm của (P) và Ox, khoảng cách từ tâm quả cầu đến đường bay viên đạn bằng bằng $\\frac{\\sqrt{66}}{2}$",
+    "d": "Khoảng cách lớn nhất từ vị trí người bắn đến mục tiêu bằng $3\\sqrt{2}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image26.png]]Trong một mô hình game 3D, với hệ trục tọa độ thích hợp, người chơi cùng với khẩu súng của anh ta được mô phỏng như một chất điểm di chuyển trên mặt phẳng $\\left( P \\right):x-2y+2z-3=0$ và nhắm bắn các mục tiêu di động trên mặt cầu (S) có phương trình ${{x}^{2}}+{{y}^{2}}+{{z}^{2}}+2x-4y-2z+5=0$. Người chơi vẫn có thể bắn trúng mục tiêu nếu nó di chuyển trên bán cầu khuất phía sau tầm nhìn. Sau khi trò chơi bắt đầu, anh ta quyết định nhắm bắn theo phương vectơ $\\vec{u}=\\left( 1\\,;\\,\\,0\\,;\\,\\,1 \\right)$.",
+   "explanation": "a) Mệnh đề đúng.\nMặt cầu (S) có tâm $I\\left( -1\\,;\\,\\,2\\,;\\,\\,1 \\right)$ và bán kính $R=1$.\nb) Mệnh đề đúng.\nTa có $d\\left( I\\,,\\,\\,\\left( P \\right) \\right)=\\frac{\\left| -1-4+2-3 \\right|}{\\sqrt{1+4+4}}=2>R$; do đó (P) và mặt cầu (S) không có điểm chung.\nc) Mệnh đề đúng.\nGiao điểm của (P) và Ox là điểm ${{M}_{0}}\\left( 3\\,;\\,\\,0\\,;\\,\\,0 \\right)\\Rightarrow \\overrightarrow{IM}=\\left( 4\\,;\\,\\,-2\\,;\\,\\,-1 \\right)$; $\\left[ \\overrightarrow{IM}\\,,\\,\\,\\vec{u} \\right]=\\left( -2\\,;\\,\\,-5\\,;\\,\\,2 \\right)$.\nKhoảng cách từ I đến đường bay viên đạn là $d=\\frac{\\left| \\left[ \\overrightarrow{IM}\\,,\\,\\,\\vec{u} \\right] \\right|}{\\left| {\\vec{u}} \\right|}=\\frac{\\sqrt{4+25+4}}{\\sqrt{1+0+1}}=\\frac{\\sqrt{66}}{2}$.\nd) Mệnh đề đúng.\nGọi M thuộc (P), N thuộc (S) theo thứ tự là vị trí người chơi và vị trí mục tiêu đang bắn; H là hình chiếu của điểm N trên (P).\nMN hợp với (P) một góc $\\varphi $ thỏa mãn $\\sin \\varphi =\\frac{\\left| \\vec{u}\\cdot {{{\\vec{n}}}_{P}} \\right|}{\\left| {\\vec{u}} \\right|\\cdot \\left| {{{\\vec{n}}}_{P}} \\right|}=\\frac{\\left| 1+0+2 \\right|}{\\sqrt{1+0+1}\\cdot \\sqrt{1+4+4}}=\\frac{\\sqrt{2}}{2}$.\n[[IMG:image27.png]]Xét tam giác MNH vuông tại H, ta có $\\sin \\varphi =\\frac{NH}{MN}\\Rightarrow MN=\\frac{NH}{\\sin \\varphi }\\,\\,\\,\\text{hay}\\,\\,\\,MN=\\sqrt{2}NH$.\nDễ thấy MN lớn nhất khi và chỉ khi NH lớn nhất; mà $NH\\le d\\left( I\\,,\\,\\,\\left( P \\right) \\right)+R=2+1=3$.\nDo đó MN lớn nhất bằng $3\\sqrt{2}$; khi đó N, I, H thẳng hàng.",
+   "ma": "de1.P3.C15",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 16,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Thể tích của bể bơi sau khi nước được làm đầy là $6,25\\pi \\,\\,\\,{{m}^{3}}$.",
+    "b": "$32a+1=0$ và $4b-1=0$.",
+    "c": "Sau 4 giờ kể từ lúc bể bị rò, lượng nước bị mất đi bằng $\\frac{75\\pi }{16}\\,\\,\\,{{m}^{3}}$.",
+    "d": "Lượng nước bị rò rỉ ra ngoài một nửa sau $8-4\\sqrt{2}$ giờ."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image28.png]]Một bể bơi hình trụ có đường kính 5 m và chiều cao 1 m; bể được bơm nước vào với tốc độ không đổi ${{v}_{0}}$. Sau khi nước được bơm đầy, bể bơi bị thủng một lỗ ở đáy và nước chảy ra ngoài; bể bơi chảy hết nước trong 8 giờ. Biết tốc độ giảm chiều cao của bể bơi khi nước chảy ra ngoài vào thời điểm $t$ giờ (tính từ lúc nước đầy bể và ngừng bơm) được cho bởi hàm số ${h}'\\left( t \\right)=at+b$, với $a,\\,\\,b\\in \\mathbb{R}$. Lúc nước chảy hết ra ngoài thì tốc độ giảm chiều cao bằng 0.",
+   "explanation": "a) Mệnh đề đúng.\nBể ước hình trụ có bán kính đáy $r=2,5\\,\\,m$, chiều cao $h=1\\,\\,m$\nThể tích khi đầy $V=\\pi {{r}^{2}}h=\\pi \\cdot 2,{{5}^{2}}\\cdot 1=6,25\\pi \\,\\,{{m}^{3}}.$\nb) Mệnh đề sai.\nTa có ${h}'\\left( 8 \\right)=0$ $\\Rightarrow 8a+b=0\\,\\,\\,\\text{(1)}$.\nChiều cao của nước thời điểm t là $h\\left( t \\right)=\\int\\limits_{{}}^{{}}{\\left( at+b \\right)\\text{d}t}=\\frac{a}{2}{{t}^{2}}+bt+c$.\nVì $\\left\\{ \\begin{aligned} & h\\left( 0 \\right)=1 \\\\ & h\\left( 8 \\right)=0 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & c=1 \\\\ & 32a+8b+1=0\\,\\,\\,\\left( 2 \\right) \\\\ \\end{aligned} \\right.$.\nTừ (1) và (2) suy ra $a=\\frac{1}{32}\\,,\\,\\,b=-\\frac{1}{4}$. Khi đó $32a-1=0$ và $4b+1=0$.\nc) Mệnh đề đúng.\nChiều cao mực nước trong bể sau 4 giờ là: $h\\left( 4 \\right)=\\frac{1}{64}\\cdot {{4}^{2}}-\\frac{1}{4}\\cdot 4+1=0,25\\,\\,m$.\nLượng nước còn lại trong bể sau 4 giờ là $\\pi {{r}^{2}}\\cdot h\\left( 4 \\right)=\\pi \\cdot 2,{{5}^{2}}\\cdot 0,25=\\frac{25\\pi }{16}\\,\\,{{m}^{3}}$.\nLượng nước đã thoát ra sau 4 giờ là $6,25\\pi -\\frac{25\\pi }{16}=\\frac{75\\pi }{16}\\,\\,{{m}^{3}}$.\nd) Mệnh đề đúng.\nLượng nước còn lại khi đã mất một nửa là $\\frac{6,25\\pi }{2}=\\frac{25\\pi }{8}\\,\\,{{m}^{3}}$.\nChiều cao tương ứng $h\\left( {{t}_{1}} \\right)$ của bể thỏa mãn $\\pi \\cdot 2,{{5}^{2}}\\cdot h\\left( {{t}_{1}} \\right)=\\frac{25\\pi }{8}\\Rightarrow h\\left( {{t}_{1}} \\right)=0,5\\,\\,m$.\nTa có $h\\left( {{t}_{1}} \\right)=\\frac{1}{64}t_{1}^{2}-\\frac{1}{4}{{t}_{1}}+1=0,5\\Rightarrow \\left[ \\begin{aligned} & {{t}_{1}}=8+4\\sqrt{2}\\approx 13,7>8 \\\\ & {{t}_{1}}=8-4\\sqrt{2}\\approx 2,3\\in \\left( 0\\,;\\,\\,8 \\right) \\\\ \\end{aligned} \\right.$.\nTa thấy ${{t}_{1}}=8-4\\sqrt{2}$ (giờ) thỏa mãn đề bài.",
+   "ma": "de1.P3.C16",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 31,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C4.B1.D06",
+   "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
+  },
+  {
+   "section": 3,
+   "n": 17,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chiều cao của B so với mặt đất là ${{h}_{B}}=23+20\\sin \\alpha $ (mét).",
+    "b": "Khi $\\alpha ={{45}^{\\text{o}}}$ thì chiều cao của B so với mặt đất là $37,14\\,\\,m$ (làm tròn kết quả đến hàng phần trăm).",
+    "c": "Chiều cao của C so với mặt đất là ${{h}_{C}}=23-20\\cos \\alpha $ (mét).",
+    "d": "Khi B ở vị trị có độ cao 33 m thì C ở độ cao 13 m so với mặt đất?"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "[[IMG:image29.png]][[IMG:image30.png]]Một mô hình trò chơi vòng quay ở công viên có chiều cao tối đa 23 m so với mặt đất, bán kính vòng quay là 20 m. Hai bạn Hoa và Mai cùng chơi chung lượt quay và ngồi trong hai ca bin B, C mà góc $\\widehat{BOC}={{90}^{\\circ }}$ (hình vẽ); $\\alpha $ là một góc lượng giác hợp bởi tia đầu OA, tia cuối OB.",
+   "explanation": "a) Mệnh đề đúng.\nChiều cao của B là ${{h}_{B}}=23+20\\sin \\alpha $ (mét).\nb) Mệnh đề đúng.\nVới $\\alpha ={{45}^{\\text{o}}}$ thì ${{h}_{B}}=23+20\\sin {{45}^{\\text{o}}}=23+10\\sqrt{2}\\approx 37,14\\,\\,m$.\nc) Mệnh đề đúng.\nChiều cao của C là ${{h}_{C}}=23+20\\sin \\left( OA\\,,\\,\\,OC \\right)=23+20\\sin \\left( \\alpha +{{270}^{\\text{o}}} \\right)$\n$=23-20\\sin \\left( \\alpha +{{90}^{\\text{o}}} \\right)=23-20\\cos \\alpha $ (m).\nd) Mệnh đề sai.\nKhi B ở vị trí có độ cao 33 m thì ${{h}_{B}}=23+20\\sin \\alpha =33\\Rightarrow \\sin \\alpha =\\frac{1}{2}$.\nKhi đó $\\cos \\alpha =\\pm \\sqrt{1-{{\\sin }^{2}}\\alpha }=\\pm \\frac{\\sqrt{3}}{2}$.\nDo đó ${{h}_{C}}=23-20\\cos \\alpha =23\\pm 20.\\frac{\\sqrt{3}}{2}=23\\pm 10\\sqrt{3}$ (m).",
+   "ma": "de1.P3.C17",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C5.B3.D02",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 18,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một chiến sĩ đặc công đang nấp ở bờ sông, cần phải bơi qua bờ bên kia để tấn công mục tiêu. Có thể xem con sông này là thẳng và có độ rộng 100 m; vận tốc bơi của chiến sĩ bằng một phần ba vận tốc chạy bộ. Biết rằng mục tiêu tấn công cách chiến sĩ 1 km theo đường chim bay; hỏi chiến sĩ phải bơi bao nhiêu mét để đến được mục tiêu nhanh nhất (làm tròn kết quả đến hàng đơn vị)?\n[[IMG:image31.png]][[IMG:image32.png]]",
+   "explanation": "Đáp số: 106\n[[IMG:image33.png]]\nGọi C là hình chiếu vuông góc của A (vị trí chiến sĩ xuất phát) đối với bờ bên kia và D thuộc đoạn BC là vị trí mà chiến sĩ sẽ bơi đến trước khi chạy bộ tấn công mục tiêu tại A.\nTa chuẩn hóa bài toán như sau:\n1 đơn vị độ dài = 100 m; khi đó $AC=1\\,,\\,\\,AB=10$.\nVận tốc bơi trên sông của chiến sĩ là 1 (đơn vị vận tốc); vận tốc chạy của chiến sĩ là 3 (đơn vị vận tốc).\nĐặt $AD=x\\in \\left( 1\\,;\\,\\,10 \\right)\\Rightarrow CD=\\sqrt{{{x}^{2}}-1}$;$BC=\\sqrt{A{{B}^{2}}-A{{C}^{2}}}=3\\sqrt{11}$; $BD=BC-CD=3\\sqrt{11}-\\sqrt{{{x}^{2}}-1}$.\nTổng thời gian từ khi chiến sĩ xuất phát đến khi tiếp cận mục tiêu là:\n$t=\\frac{AD}{1}+\\frac{BD}{3}=\\frac{x}{1}+\\frac{3\\sqrt{11}-\\sqrt{{{x}^{2}}-1}}{3}=\\sqrt{11}-\\frac{1}{3}\\sqrt{{{x}^{2}}-1}+x$\nXét hàm $f\\left( x \\right)=\\sqrt{11}-\\frac{1}{3}\\sqrt{{{x}^{2}}-1}+x$; $x\\in \\left( 1\\,;\\,\\,10 \\right)$; ${f}'\\left( x \\right)=1-\\frac{1}{3}\\frac{x}{\\sqrt{{{x}^{2}}-1}}$;\n${f}'\\left( x \\right)=0\\Rightarrow \\frac{x}{\\sqrt{{{x}^{2}}-1}}=3\\Rightarrow 3\\sqrt{{{x}^{2}}-1}=x$ $\\Rightarrow 9{{x}^{2}}-9={{x}^{2}}\\Rightarrow x=\\frac{3\\sqrt{2}}{4}>0$.\n[[IMG:image34.png]]Bảng biến thiên:\nChiến sĩ tiếp cận mục tiêu nhanh nhất khi $BD=x=\\frac{3\\sqrt{2}}{4}$. Do đó chiến sỹ phải bơi một đoạn\n$AD\\times 100=\\frac{3\\sqrt{2}}{4}\\times 100\\approx 106$ (m).",
+   "short_value": 106,
+   "short_correct": "106",
+   "ma": "de1.P3.C18",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 27,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 19,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một người nghệ sĩ đã vẽ hình chiếc nơ theo một cách khác lạ so với các nhà thiết kế. Anh ta vẽ hình chữ nhật ABCD tâm O có chiều dài bằng 4 dm, chiều rộng bằng 2 dm. Chiếc nơ chính là hình (H) nằm bên trong hình chữ nhật sao cho khi kẻ tia Ot bất kì cắt (H) và cạnh hình chữ nhật lần lượt tại M và N thì $MN=1$ dm. Tính diện tích chiếc nơ hình (H) đó theo $d{{m}^{2}}$ (làm tròn đến hàng phần chục).\n[[IMG:image35.png]][[IMG:image36.png]]",
+   "explanation": "Đáp số: 1,52\nXét hình vẽ và các kí hiệu như sau.\n[[IMG:image37.png]]Gọi $\\varphi =\\left( Ox\\,,\\,\\,Ot \\right)$ thì $\\cos \\varphi =\\frac{OH}{ON}=\\frac{2}{{{r}_{\\varphi }}+1}\\Rightarrow $; với ${{r}_{\\varphi }}=OM$ quay quanh gốc O khi $0<\\varphi <\\widehat{HOA}$.\nGọi $\\theta =\\left( Oy\\,,\\,\\,O{t}' \\right)$ thì $\\cos \\theta =\\frac{OK}{O{N}'}=\\frac{1}{{{r}_{\\theta }}+1}$ $\\Rightarrow $; với ${{r}_{\\theta }}=O{M}'$ quay quanh gốc O khi $0<\\theta <\\widehat{AOK}$.\nTa có: $\\tan \\widehat{AOK}=\\frac{AK}{OK}=2\\Rightarrow \\widehat{AOK}=\\arctan 2$.\nDo đó diện tích cần tính là $S=4\\cdot \\frac{1}{2}\\cdot \\left[ \\int\\limits_{0}^{\\arctan 0,5}{{{\\left( \\frac{2}{\\cos \\varphi }-1 \\right)}^{2}}\\text{d}\\varphi }+\\int\\limits_{0}^{act\\tan 2}{{{\\left( \\frac{1}{\\cos \\theta }-1 \\right)}^{2}}\\text{d}\\theta } \\right]\\approx 1,52\\,\\,d{{m}^{2}}$.",
+   "short_value": 1.52,
+   "short_correct": "1,52",
+   "ma": "de1.P3.C19",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 15,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 20,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp phấn không bụi có dạng hình hộp chữ nhật, chiều cao hộp phấn bằng 8,2 cm và đáy của nó có hai kích thước là 8,5 cm; 10,5 cm (xem hình vẽ). Tìm số đo góc phẳng nhị diện $\\left[ A,\\,\\,{B}'{D}',\\,\\,{A}' \\right]$ (tính theo độ, làm tròn kết quả đến hàng phần chục).\n[[IMG:image38.png]][[IMG:image39.png]]",
+   "explanation": "Đáp số: 51,1\n[[IMG:image40.png]]Trong mặt phẳng $\\left( {A}'{B}'{C}'{D}' \\right)$, kẻ ${A}'H\\bot {B}'{D}'$ tại H.\nTa có: $\\left\\{ \\begin{aligned} & {B}'{D}'\\bot {A}'H \\\\ & {B}'{D}'\\bot A{A}'\\,\\,\\left( \\text{do}\\,\\,A{A}'\\bot \\left( {A}'{B}'{C}'{D}' \\right) \\right) \\\\ \\end{aligned} \\right.$ $\\Rightarrow {B}'{D}'\\bot \\left( A{A}'H \\right)\\Rightarrow {B}'{D}'\\bot AH$.\nDo đó $\\widehat{AH{A}'}$ là góc phẳng nhị diện $\\left[ A,\\,\\,{B}'{D}',\\,\\,{A}' \\right]$.\nTam giác ${A}'{B}'{C}'$ vuông tại ${A}'$ có đường cao ${A}'H$ nên $\\frac{1}{{A}'{{H}^{2}}}=\\frac{1}{{A}'{{{{B}'}}^{2}}}+\\frac{1}{{A}'{{{{D}'}}^{2}}}\\Rightarrow {A}'H=\\frac{{A}'{B}'.{A}'{D}'}{\\sqrt{{A}'{{{{B}'}}^{2}}+{A}'{{{{D}'}}^{2}}}}=\\frac{357}{2\\sqrt{730}}$.\nTam giác $AH{A}'$ vuông tại ${A}'$ có $\\tan \\widehat{AH{A}'}=\\frac{A{A}'}{{A}'H}=\\frac{8,2}{\\frac{357}{2\\sqrt{730}}}\\Rightarrow \\widehat{AH{A}'}$.",
+   "short_value": 51.1,
+   "short_correct": "51,1",
+   "ma": "de1.P3.C20",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D03",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 21,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image41.png]]Một trò chơi điện tử có luật chơi như sau:\nNgười chơi xuất phát từ A và đi qua tất cả vị trí B, C, D, E trước khi về lại A để kết thúc lượt chơi của mình. Mỗi vị trí người chơi đi qua đúng 1 lần (trừ điểm A).\nThông số trên mỗi đoạn đường đi gồm: x (huy chương) liên quan đến phần thưởng và y (quái vật) liên quan đến chướng ngại vật; điểm số người chơi đạt được trên mỗi đoạn đường có dạng $3x-2y$. Hỏi tổng số điểm tối đa mà người chơi đạt được là bao nhiêu?",
+   "explanation": "Đáp số: 44\nNgười chơi đi qua các con đường hợp lệ cùng với số điểm tương ứng như sau:\n$A\\to B\\to C\\to E\\to D\\to A$; số điểm là $3\\left( 5+6+6+3+4 \\right)-2\\left( 3+4+6+0+1 \\right)=44$.\n$A\\to B\\to C\\to D\\to E\\to A$; số điểm là $3\\left( 5+6+4+3+8 \\right)-2\\left( 3+4+5+0+6 \\right)=42$.\n$A\\to E\\to B\\to C\\to D\\to A$; số điểm là $3\\left( 8+0+6+4+4 \\right)-2\\left( 6+1+4+5+1 \\right)=32$.\n$A\\to E\\to D\\to C\\to B\\to A$; số điểm là $3\\left( 8+3+4+6+5 \\right)-2\\left( 6+0+5+4+3 \\right)=42$.\n$A\\to D\\to C\\to B\\to E\\to A$; số điểm là $3\\left( 4+4+6+0+8 \\right)-2\\left( 1+5+4+1+6 \\right)=32$.\n$A\\to D\\to E\\to C\\to B\\to A$; số điểm là $3\\left( 4+3+6+6+5 \\right)-2\\left( 1+0+6+4+3 \\right)=44$.\nSố điểm tối đa mà người chơi đạt được là 44.",
+   "short_value": 44,
+   "short_correct": "44",
+   "ma": "de1.P3.C21",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 22,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Đường thẳng qua $A$ và vuông góc với mặt phẳng (P) có phương trình chính tắc là $\\frac{x-40}{3}=\\frac{y+15}{1}=\\frac{z-15}{-2}$.",
+    "b": "Tổng khoảng cách từ hai vị trí chiến đấu cơ đến mặt phẳng chứa đường băng là $110\\,\\,m$(làm tròn đến hàng đơn vị của mét).",
+    "c": "Tọa độ ${A}'$ đối xứng với A qua (P) là ${A}'\\left( -20\\,;\\,\\,5\\,;\\,\\,-25 \\right)$.",
+    "d": "Người chỉ huy ở tàu sân bay phát tín hiệu để hai chiến đấu cơ đáp xuống các vị trí M, N cách nhau $5\\sqrt{6}\\,\\,m$. Tổng đường bay ngắn nhất $AM+BN$ bằng 115 m (làm tròn đến hàng đơn vị)."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image42.png]]Trong không gian Oxyz cho trước, đơn vị trên mỗi trục là mét, có hai chiếc chiến đấu cơ từ hai vị trí $A\\left( 40\\,;\\,\\,-15\\,;\\,\\,15 \\right)\\,,\\,\\,B\\left( 55\\,;\\,\\,-10\\,;\\,\\,65 \\right)$ cần đáp xuống hai vị trí thuộc tàu sân bay hải quân để nạp nhiên liệu. Bề mặt chứa các đường băng trên tàu là mặt phẳng (P) có phương trình $3x-y+2z-25=0$",
+   "explanation": "a) Mệnh đề sai.\nĐường thẳng qua $A$ và vuông góc với mặt phẳng (P) có phương trình chính tắc là $\\frac{x-40}{3}=\\frac{y+15}{-1}=\\frac{z-15}{2}$.\nb) Mệnh đề sai.\nTa có: $d\\left( A\\,,\\,\\,\\left( P \\right) \\right)+d\\left( B\\,,\\,\\,\\left( P \\right) \\right)=\\frac{\\left| 120+15+30-25 \\right|}{\\sqrt{9+1+4}}+\\frac{\\left| 165+10+130-25 \\right|}{\\sqrt{9+1+4}}=30\\sqrt{14}\\approx 112\\,\\,m$.\nc) Mệnh đề đúng.\nGọi H là hình chiếu vuông góc của A trên (P) thì tọa độ H thỏa hệ phương trình $\\left\\{ \\begin{aligned} & \\frac{x-40}{3}=\\frac{y+15}{-1}=\\frac{z-15}{2} \\\\ & 3x-y+2z-25=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x+3y+5=0 \\\\ & 2y+z+15=0 \\\\ & 3x-y+2z-25=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=10 \\\\ & y=-5 \\\\ & z=-5 \\\\ \\end{aligned} \\right.$ hay $H\\left( 10\\,;\\,\\,-5\\,;\\,\\,-5 \\right)$. [[IMG:image43.png]]${A}'$ đối xứng với A qua (P) nên H là trung điểm của $A{A}'\\Rightarrow {A}'\\left( -20\\,;\\,\\,5\\,;\\,\\,-25 \\right)$.\nd) Mệnh đề đúng. Lấy điểm E thỏa mãn $\\overrightarrow{{A}'E}=\\overrightarrow{MN}$; suy ra ${A}'M=EN$. Vì ${A}'$ cố định mà ${A}'E=5\\sqrt{6}$ nên E thuộc đường tròn tâm ${A}'$, bán kính $r=5\\sqrt{6}$; đường tròn này thuộc mặt phẳng (Q) qua ${A}'$ và song song với (P). Gọi K, F theo thứ tự là hình chiếu vuông góc của B trên (P), (Q) suy ra $K\\left( -5\\,;\\,\\,10\\,;\\,\\,25 \\right)\\Rightarrow HK=15\\sqrt{6}$; $KF=H{A}'=AH=10\\sqrt{33}$. Ta có $AM+BN={A}'M+BN=EN+BN\\ge BE$. Dấu đẳng thức xảy ra khi $E\\,,\\,\\,N\\,,\\,\\,B$ thẳng hàng theo thứ tự đó (H, M, N, K thẳng hàng). Ta có: $BE=\\sqrt{B{{F}^{2}}+{{\\left( {A}'F-{A}'E \\right)}^{2}}}$ $=\\sqrt{{{\\left( BK+KF \\right)}^{2}}+{{\\left( HK-MN \\right)}^{2}}}$ $=\\sqrt{{{\\left( 20\\sqrt{14}+10\\sqrt{14} \\right)}^{2}}+{{\\left( 15\\sqrt{6}-5\\sqrt{6} \\right)}^{2}}}$ $=20\\sqrt{33}$. Vậy tổng độ dài bé nhất $AM+BN$ là $20\\sqrt{33}\\approx 115$ m.",
+   "ma": "de1.P3.C22",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 31,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C5.B3.D02",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 23,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Sau 10 giây, bán kính quá bong bóng bằng 6,4 cm (làm tròn đến hàng phần chục của cm).",
+    "b": "Người bơm không thể để cho thể tích quả bong bóng vượt quá 113 lít (làm tròn đến hàng phần chục của lít).",
+    "c": "Khi đường kính của quả bong bóng là 50 cm thì bán kính của quả bóng đang tăng với tốc độ 0,01 cm/s (làm tròn đến hàng phần trăm của cm/s).",
+    "d": "Nếu sau khi bơm được 4 giây, người bơm tăng tốc độ bơm thêm $5\\,\\,c{{m}^{3}}$ trên một giây thì sau 189 giây (làm tròn đến hàng đơn vị của giây), bong bóng sẽ bể."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[[IMG:image44.png]]Một người đang bơm khí vào một quả bong bóng với tốc độ $100\\,\\,c{{m}^{3}}$/s. Quả bóng ngày càng to dần nhưng luôn có dạng hình cầu. Đây là loại bong bóng mà nếu người bơm để bán kính vượt quá 30 cm thì bong bóng sẽ bể.",
+   "explanation": "a) Mệnh đề sai.\nGọi $V\\left( t \\right)$, ${{R}_{t}}$ là thể tích và bán kính quả bóng bóng sau t giây, ta có $V\\left( t \\right)=\\frac{4}{3}\\pi R_{t}^{3}\\,\\,\\,(*)$.\nSau 10 giây, thể tích quả bóng là $V\\left( 10 \\right)=100\\times 10=1\\,000\\,\\,c{{m}^{3}}$.\nTa có $V\\left( 10 \\right)=\\frac{4}{3}\\pi R_{10}^{3}=1000\\Rightarrow {{R}_{10}}\\approx 6,2\\,\\,cm$.\nb) Mệnh đề đúng.\nBán kính tối đa của quả bong bóng là 30 cm; thể tích tối đa của quả bong bóng là $\\frac{4}{3}\\pi \\cdot {{30}^{3}}\\approx 113\\,097\\,\\,c{{m}^{3}}\\approx 113$ lít.\nc) Mệnh đề đúng.\nKhi bán kính bong bóng bằng $\\frac{50}{2}=25\\,\\,cm$ thì thể tích bong bóng là $\\frac{4\\pi \\cdot {{25}^{3}}}{3}=\\frac{62\\,500\\pi }{3}\\,\\,c{{m}^{3}}$.\nĐạo hàm hai vế của (*) theo t, ta được: $\\frac{\\text{d}V\\left( t \\right)}{\\text{d}t}=4\\pi R_{t}^{2}\\cdot \\frac{\\text{d}{{R}_{t}}}{\\text{d}t}\\,\\,\\,(**)$.\nThay ${{R}_{t}}=25\\,\\,cm\\,;\\,\\,\\frac{\\text{d}V\\left( t \\right)}{\\text{d}t}=100\\,\\,c{{m}^{3}}/s$ vào (**), ta có: $\\frac{\\text{d}{{R}_{t}}}{\\text{d}t}=\\frac{100}{4\\pi \\cdot {{25}^{2}}}\\approx 0,01$ cm/s.\nd) Mệnh đề sai. Thể tích bong bóng sau $t+4$ giây là ($t\\ge 0$) là $V\\left( t \\right)=100\\cdot 4+\\int\\limits_{0}^{t}{\\left( 5t+100 \\right)\\text{d}t}$. Thể tích tối đa của bong bóng là $\\frac{4}{3}\\pi \\cdot {{30}^{3}}\\,\\,c{{m}^{3}}$. Xét $V\\left( t \\right)=100\\cdot 4+\\int\\limits_{0}^{t}{\\left( 5t+100 \\right)\\text{d}t}=\\frac{4}{3}\\pi \\cdot {{30}^{3}}\\Rightarrow t\\approx 193$ giây.",
+   "ma": "de1.P3.C23",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C5.B5.D06",
+   "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
+  },
+  {
+   "section": 3,
+   "n": 24,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Điểm có tọa độ $\\left( 9\\,;\\,\\,3 \\right)$ thuộc đường cong $y={{\\log }_{a}}x$.",
+    "b": "Chủ dự án muốn xây dựng một nơi trực tiêp nhìn ra biển để du khách tham quan, ăn uống...Họ đã lựa chọn khu vực tam giác cong ABC như trong hình (đường cong AC tiếp giáp biển); diện tích khu vực này là 536 ${{m}^{2}}$ (làm tròn đến hàng đơn vị).",
+    "c": "Chủ dự án đã thuê một số kỹ sư rất giỏi toán (đặc biệt giỏi về hàm số mũ-log) đi khảo sát khu vực này và họ nhận thấy có thể bồi đắp thêm cho hòn đảo thứ hai để đường cong giáp biển $y=g\\left( x \\right)$ của nó đối xứng với đường cong $y={{\\log }_{a}}x$ qua đường thẳng $y=x+1$. Khi đó đường cong $g\\left( x \\right)=1+3\\cdot {{3}^{x}}$.",
+    "d": "Chủ dự án định xây một cây cầu nối liền hai hòn đảo, khoảng cách ngắn nhất theo đường chim bay của cây cầu bằng 285 m (làm tròn đến hàng đơn vị của mét)."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Vịnh Hạ Long là một địa danh du lịch được nhiều người biết đến trên thế giới, nơi đây vẫn còn nhiều quần thể đảo lớn nhỏ chưa được khám phá. Một công ty du lịch quyết định khai thác khu vực có một số đảo nhỏ với hình dáng đặc biệt nếu nhìn từ trên xuống; trong số đó có hai hòn đảo mà phần giới hạn đất liền của nó được mô phỏng như hai đồ thị hàm số trên hình. Với hệ trục tọa độ Oxy thích hợp, đơn vị trên mỗi trục là 100 mét, đường cong mô tả cho hòn đảo thứ nhất có dạng $y={{\\log }_{a}}x$ đi qua điểm có tọa độ $\\left( 3\\,;\\,\\,1 \\right)$.\n[[IMG:image45.png]][[IMG:image46.png]][[IMG:image47.png]]",
+   "explanation": "a) Mệnh đề sai.\nĐường cong $y={{\\log }_{a}}x$ đi qua điểm $\\left( 3\\,;\\,\\,1 \\right)$ nên $1={{\\log }_{a}}3\\Rightarrow a=3$.\nKhi đó hàm số trở thành $y={{\\log }_{3}}x$; đường cong này không đi qua điểm $\\left( 9\\,;\\,\\,3 \\right)$.\nb) Mệnh đề sai.\nĐiểm $A\\left( {{x}_{A}}\\,;\\,\\,-1 \\right)$ thuộc đồ thị hàm só $y={{\\log }_{3}}x\\Rightarrow {{\\log }_{3}}x=-1\\Rightarrow x={{3}^{-x}}=\\frac{1}{3}$.\nDiện tích tam giác cong ABC là phần hình phẳng được giới hạn bởi hai đồ thị $y={{\\log }_{3}}x\\,;\\,\\,y=-1$ cùng các đường thẳng $x=\\frac{1}{3}\\,;\\,\\,x=4$.\nDo đó diện tích cần tính là $S=100\\times \\int\\limits_{1/3}^{4}{\\left| {{\\log }_{3}}x-\\left( -1 \\right) \\right|\\text{d}x}\\approx 571\\,\\,{{m}^{2}}$.\nc) Mệnh đề đúng.\nGọi $M\\left( {{x}_{M}}\\,;\\,\\,{{y}_{M}} \\right)\\in \\left( {{C}_{1}} \\right):y={{\\log }_{3}}x$ và $N\\left( x\\,;\\,\\,y \\right)\\in \\left( {{C}_{2}} \\right):y=g\\left( x \\right)$.\nM, N đối xứng qua $x-y+1=0$ nên ta có: $\\left\\{ \\begin{aligned} & \\frac{x+{{x}_{M}}}{2}-\\frac{y+{{y}_{M}}}{2}+1=0 \\\\ & 1\\cdot \\left( x-{{x}_{M}} \\right)+1\\cdot \\left( y-{{y}_{M}} \\right)=0 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & x-y+{{x}_{M}}-{{y}_{M}}+2=0 \\\\ & x+y-{{x}_{M}}-{{y}_{M}}=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{y}_{M}}=x+1 \\\\ & {{x}_{M}}=y-1 \\\\ \\end{aligned} \\right.$ hay $M\\left( y-1\\,;\\,\\,x+1 \\right)$. Vì $M\\in \\left( {{C}_{1}} \\right)$ nên $x+1={{\\log }_{3}}\\left( y-1 \\right)\\Rightarrow y-1={{3}^{x+1}}\\Rightarrow y={{3}^{x+1}}+1\\,\\,\\,\\text{hay}\\,\\,\\,g\\left( x \\right)=1+3\\cdot {{3}^{x}}$. [[IMG:image48.png]]\nd) Mệnh đề sai. Xét tiếp tuyến của đường cong $y={{\\log }_{3}}x$ biết tiếp tuyến song song với đường thẳng $y=x+1$. Hệ số góc tiếp tuyến là $k=1$; gọi $M\\left( {{x}_{0}}\\,;\\,\\,{{y}_{0}} \\right)$ là tiếp điểm thì ${f}'\\left( {{x}_{0}} \\right)=k\\Rightarrow \\frac{1}{{{x}_{0}}\\ln 3}=1\\Rightarrow {{x}_{0}}=\\frac{1}{\\ln 3};\\,\\,{{y}_{0}}={{\\log }_{3}}\\frac{1}{\\ln 3}$. Độ dài ngắn nhất cây cầu (theo đường chim bay) bằng hai lần khoảng cách từ $M\\left( \\frac{1}{\\ln 3}\\,;\\,\\,{{\\log }_{3}}\\frac{1}{\\ln 3} \\right)$ đến đường thẳng $y=x+1$. Ta có: ${{d}_{\\min }}=2\\cdot \\frac{\\left| \\frac{1}{\\ln 3}-{{\\log }_{3}}\\frac{1}{\\ln 3}+1 \\right|}{\\sqrt{2}}\\times 100\\approx 282$ (m).",
+   "ma": "de1.P3.C24",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 43,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 25,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong kỳ nghỉ hè bạn Phong muốn đi du lịch qua các địa điểm A, B, C, D, E như hình vẽ. Khoảng cách giữa các điểm du lịch như sau: $AB=16,\\,BC=17,\\,CD=11,\\,DE=15,\\,EA=14,\\,AC=6,\\,CE=20,\\,EB=5,\\,BD=3,\\,DA=9$\n( đơn vị kilomet). Biết rằng số tiền bạn Phong phải trả cho 1 km là 15000 đồng. Giả sử rằng bạn Phong xuất phát từ điểm A đi qua các điểm B, C, D, E đúng 1 lần sau đó trở về A. Số tiền bạn Phong phải trả thấp nhất là bao nhiêu. (Kết quả tính theo đơn vị nghìn đồng.)\n[[IMG:image50.emf]]",
+   "explanation": "Để đi từ A qua các điểm B, C, D, E đúng 1 lần sau đó trở về A bạn Phong có thể đi 24 con đường khác nhau và tương ứng với các cách đi như sau:\ncầu: Tìm hành trình ngắn nhất và chi phí tương ứng (đơn vị: nghìn đồng).\nBảng tổng hợp tất cả các hành trình:\n| STT | Hành trình | Tổng quãng đường (km) |\n|---|---|---|\n| 1 | A → B → C → D → E → A | 73 |\n| 2 | A → B → C → E → D → A | 77 |\n| 3 | A → B → D → C → E → A | 64 |\n| 4 | A → B → D → E → C → A | 55 |\n| 5 | A → B → E → C → D → A | 61 |\n| 6 | A → B → E → D → C → A | 53 |\n| 7 | A → C → B → D → E → A | 55 |\n| 8 | A → C → B → E → D → A | 52 |\n| 9 | A → C → D → B → E → A | 39 |\n| 10 | A → C → D → E → B → A | 53 |\n| 11 | A → C → E → B → D → A | 43 |\n| 12 | A → C → E → D → B → A | 60 |\n| 13 | A → D → B → C → E → A | 63 |\n| 14 | A → D → B → E → C → A | 43 |\n| 15 | A → D → C → B → E → A | 56 |\n| 16 | A → D → C → E → B → A | 61 |\n| 17 | A → D → E → B → C → A | 52 |\n| 18 | A → D → E → C → B → A | 77 |\n| 19 | A → E → B → C → D → A | 56 |\n| 20 | A → E → B → D → C → A | 39 |\n| 21 | A → E → C → B → D → A | 63 |\n| 22 | A → E → C → D → B → A | 64 |\n| 23 | A → E → D → B → C → A | 55 |\n| 24 | A → E → D → C → B → A | 73 |\nKết luận:\nCó hai hành trình ngắn nhất với tổng quãng đường là 39 km:\n1. A → C → D → B → E → A\n2. A → E → B → D → C → A\nChi phí: 39 km × 15.000 = 585.000 đồng = 585 nghìn đồng.",
+   "short_value": 585,
+   "short_correct": "585",
+   "ma": "de1.P3.C25",
+   "dac_trung": {
+    "so_dong_loi_giai": 34,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  }
+ ],
+ "flags": []
+}

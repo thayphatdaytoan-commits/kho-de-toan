@@ -1,0 +1,494 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Để vẽ đường thẳng d: y = 2x, ta lập bảng giá trị:",
+     "Với x = 0, y = {{1}}",
+     "Với x = 1, y = {{2}}"
+    ],
+    "hint": "Lập bảng giá trị cho d"
+   },
+   {
+    "lines": [
+     "Đường thẳng d đi qua hai điểm (0;0) và {{3}}"
+    ],
+    "hint": "Xác định điểm để vẽ d"
+   },
+   {
+    "lines": [
+     "Để vẽ đường thẳng d’: y = -x + 2, ta lập bảng giá trị:",
+     "Với x = 0, y = {{4}}",
+     "Với x = 2, y = {{5}}"
+    ],
+    "hint": "Lập bảng giá trị cho d'"
+   },
+   {
+    "lines": [
+     "Đường thẳng d’ đi qua hai điểm (0;2) và {{6}}"
+    ],
+    "hint": "Xác định điểm để vẽ d'"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "(1;2)"
+    ],
+    "keywords": [
+     "1;2"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "(2;0)"
+    ],
+    "keywords": [
+     "2;0"
+    ],
+    "placeholder": "tọa độ điểm",
+    "maxLen": 8
+   }
+  ],
+  "pool": []
+ },
+ "5a": {
+  "blocks": [
+   {
+    "lines": [
+     "Theo {{1}}, {{2}} là trung điểm của cạnh {{3}}.",
+     "Và {{4}} là trung điểm của cạnh {{5}}."
+    ],
+    "hint": "Xác định các trung điểm đã cho"
+   },
+   {
+    "lines": [
+     "Xét {{6}} {{7}} có:",
+     "• {{8}} là trung điểm của {{9}} (giả thiết)",
+     "• {{10}} là trung điểm của {{11}} (giả thiết)",
+     "Từ đó suy ra {{12}} là đường trung bình của {{13}} {{14}}."
+    ],
+    "hint": "Suy ra đường trung bình của tam giác"
+   },
+   {
+    "lines": [
+     "Do đó, {{15}} // {{16}} (tính chất đường trung bình của tam giác)."
+    ],
+    "hint": "Chứng minh hai đoạn thẳng song song"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "giả thiết"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "N"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "tam giác"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "N"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "tam giác"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "MN"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "giả thiết",
+   "M",
+   "AB",
+   "N",
+   "BC",
+   "tam giác",
+   "ABC",
+   "MN",
+   "AC",
+   "A",
+   "B",
+   "C",
+   "AM",
+   "BN",
+   "MC",
+   "đối đỉnh",
+   "c.c.c",
+   "g.c.g"
+  ]
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét \\(\\triangle BMN\\) có:",
+     "\\(MT\\) là tia phân giác của \\(\\widehat{BMN}\\) ({{1}})",
+     "Theo tính chất đường phân giác trong tam giác, ta có:",
+     "\\(\\frac{MB}{MN} = \\frac{{{2}}}}{{{3}}}\\) (1)"
+    ],
+    "hint": "Áp dụng tính chất đường phân giác"
+   },
+   {
+    "lines": [
+     "Vì {{4}} là trung điểm của {{5}} (giả thiết) nên \\(MB = \\frac{{{6}}}}{2}\\).",
+     "Vì {{7}} là trung điểm của {{8}} (giả thiết) nên \\(MN\\) là đường trung bình của \\(\\triangle ABC\\).",
+     "Suy ra \\(MN = \\frac{{{9}}}}{2}\\) (tính chất đường trung bình)."
+    ],
+    "hint": "Xác định độ dài các đoạn thẳng"
+   },
+   {
+    "lines": [
+     "Từ đó, ta có tỉ số:",
+     "\\(\\frac{MB}{MN} = \\frac{\\frac{AB}{2}}{\\frac{AC}{2}} = \\frac{{{10}}}}{{{11}}}\\) (2)"
+    ],
+    "hint": "Thiết lập tỉ số từ đường trung bình"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra \\(\\frac{{{12}}}}{{{13}}} = \\frac{{{14}}}}{{{15}}}\\) (điều phải chứng minh)."
+    ],
+    "hint": "Kết luận đẳng thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "giả thiết"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "TB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "TN"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "N"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "TB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "TN"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "giả thiết",
+   "TB",
+   "TN",
+   "M",
+   "AB",
+   "N",
+   "BC",
+   "AC",
+   "MN",
+   "BM",
+   "BN",
+   "MC",
+   "NC",
+   "AM",
+   "đối đỉnh",
+   "cạnh chung",
+   "c.g.c",
+   "g.c.g"
+  ]
+ }
+}

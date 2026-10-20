@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "9",
+  "lesson": "3",
+  "title": "Bài 3. Ôn tập chương ix",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một nhóm gồm 6 học sinh nam và 4 học sinh nữ. Chọn ngẫu nhiên đồng thời 3 học sinh trong nhóm đó. Xác suất để trong 3 học sinh được chọn luôn có học sinh nữ bằng",
+   "explanation": "Số phần từ của không gian mẫu $n\\left( \\Omega \\right)=C_{10}^{3}=120$.\nGọi $A$ là biến cố sao cho 3 học sinh được chọn có học sinh nữ,\n$\\Rightarrow \\overline{A}$ là biến cố sao cho 3 học sinh được chọn không có học sinh nữ $\\Rightarrow n\\left( \\overline{A} \\right)=C_{6}^{3}$ $=20$.\nVậy xác suất cần tìm $P\\left( A \\right)=$ $1-P\\left( \\overline{A} \\right)=$ $1-\\frac{n\\left( \\overline{A} \\right)}{n\\left( \\Omega \\right)}$ $=\\frac{5}{6}$.",
+   "options": [
+    "$\\frac{1}{3}$",
+    "$\\frac{5}{6}$",
+    "$\\frac{2}{3}$",
+    "$\\frac{1}{6}$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Gieo một con súc sắc cân đối đồng chất hai lần. Tính số phần tử của biến cố $A$: “Cả hai lần gieo có tổng số chấm bằng $9$”?",
+   "explanation": "Mô tả biến cố $A=\\left\\{ \\left( 3;6 \\right),\\left( 4;5 \\right),\\ \\left( 5;4 \\right),\\left( 6;3 \\right) \\right\\}$.\nVậy số phần tử của biến cố $A$ bằng $4$.",
+   "options": [
+    "$3$",
+    "$4$",
+    "$2$",
+    "$5$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một hộp chứa 20 thẻ được đánh số từ 1 đến 20. Lấy ngẫu nhiên 1 thẻ từ hộp đó. Tính xác suất thẻ lấy được ghi số lẻ và chia hết cho 3.",
+   "explanation": "Ta có: $n\\left( \\Omega \\right)=C_{20}^{1}=20$.\nGọi $A$ là biến cố lấy được một tấm thẻ ghi số lẻ và chia hết cho 3$\\Rightarrow A=\\left\\{ 3;9;15 \\right\\}$.\nDo đó $n\\left( A \\right)=3$ $\\Rightarrow P\\left( A \\right)=\\frac{3}{20}=0,15$.",
+   "options": [
+    "$0,3$",
+    "$0,5$",
+    "$0,2$",
+    "$0,15$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Gieo một con súc xắc cân đối và đồng chất hai lần. Xác suất để ít nhất một lần xuất hiện mặt sáu chấm là:",
+   "explanation": "$n\\left( \\Omega \\right)=6.6=36$. Gọi $A$ là biến cố:”ít nhất một lần xuất hiện mặt sáu chấm”.\nKhi đó biến cố $\\overline{A}$:”không có lần nào xuất hiện mặt sáu chấm”.\nTa có $n\\left( \\overline{A} \\right)=5.5=25$. Vậy $P(A)=1-P\\left( \\overline{A} \\right)=1-\\frac{25}{36}=\\frac{11}{36}$.",
+   "options": [
+    "$\\frac{8}{36}$",
+    "$\\frac{12}{36}$",
+    "$\\frac{11}{36}$",
+    "$\\frac{6}{36}$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho đa giác đều 32 cạnh. Gọi $S$ là tập hợp các tứ giác tạo thành có 4 đỉnh lấy từ các đỉnh của đa giác đều. Chọn ngẫu nhiên một phần tử của $S$. Xác suất để chọn được một hình chữ nhật là",
+   "explanation": "Số phần tử của không gian mẫu là số cách chọn 4 đỉnh trong 32 đỉnh để tạo thành tứ giác, ta có: $\\left| \\Omega \\right|=C_{32}^{4}$.\nGọi $A$ là biến cố \"chọn được hình chữ nhật\".\nĐể chọn được hình chữ nhật cần chọn 2 trong 16 đường chéo đi qua tâm của đa giác, do đó số phần tử của $A$ là $C_{16}^{2}$.\nXác suất biến cố $A$ là $P\\left( A \\right)=\\frac{C_{16}^{2}}{C_{32}^{4}}=\\frac{3}{899}$.",
+   "options": [
+    "$\\frac{1}{385}$",
+    "$\\frac{1}{261}$",
+    "$\\frac{3}{899}$",
+    "$\\frac{1}{341}$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một hộp đựng $9$ thẻ được đánh số từ $1$ đến $9$. Rút ngẫu nhiên hai thẻ và nhân hai số trên hai thẻ lại với nhau. Tính xác suất để kết quả thu được là một số chẵn.",
+   "explanation": "Số phần tử của không gian mẫu là $n\\left( \\Omega \\right)=C_{9}^{2}=36$.\nGọi $A$ là biến cố “tích hai số ghi trên thẻ là số chẵn”, suy ra $\\overline{A}$ là biến cố “tích hai số ghi trên thẻ là số lẻ”$\\Rightarrow n\\left( \\overline{A} \\right)=C_{5}^{2}=10$.\nVậy xác suất cần tìm là $P\\left( A \\right)=1-P\\left( \\overline{A} \\right)=1-\\frac{n\\left( \\overline{A} \\right)}{n\\left( \\Omega \\right)}=\\frac{13}{18}$.",
+   "options": [
+    "$\\frac{5}{18}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{8}{9}$",
+    "$\\frac{13}{18}$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Gieo ngẫu nhiên đồng thời bốn đồng xu. Tính xác xuất để ít nhất hai đồng xu lật ngửa?",
+   "explanation": "Số phần tử không gian mẫu $n\\left( \\Omega \\right)=2.2.2.2=16.$\nGọi $A$ là biến cố: “Có nhiều nhất một đồng xu lật ngửa”. Khi đó, ta có hai trường hợp\nTrường hợp 1. Không có đồng xu nào lật ngửa $\\Rightarrow $ có một kết quả.\nTrường hợp 2. Có một đồng xu lật ngửa $\\Rightarrow $ có bốn kết quả.\nVậy xác suất để ít nhất hai đồng xu lật ngửa là\n$P=1-P\\left( A \\right)=1-\\frac{1+4}{16}=\\frac{11}{16}.$",
+   "options": [
+    "$\\frac{11}{15}.$",
+    "$\\frac{10}{9}.$",
+    "$\\frac{11}{12}.$",
+    "$\\frac{11}{16}.$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một hộp đèn có 12 bóng, trong đó có 4 bóng hỏng. Lấy ngẫu nhiên 3 bóng. Tính xác suất để trong 3 bóng có ít nhất 1 bóng hỏng.",
+   "explanation": "Gọi B là biến cố “Trong 3 bóng lấy ra đều là bóng tốt”.\nTa có: $n\\left( {{\\Omega }_{B}} \\right)=C_{8}^{3}=\\frac{8!}{3!.5!}=56$\nGọi C là biến cố “Trong 3 bóng lấy ra có ít nhất 1 bóng hỏng”\nkhi đó $C=\\overline{B}$.\n$P\\left( C \\right)=P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=1-\\frac{56}{220}=\\frac{41}{55}$",
+   "options": [
+    "$\\frac{40}{51}$",
+    "$\\frac{55}{112}$",
+    "$\\frac{41}{55}$",
+    "$\\frac{3}{7}$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Bạn A có $7$ cái kẹo vị hoa quả và $6$ cái kẹo vị socola. A lấy ngẫu nhiên $5$ cái kẹo cho vào hộp để tặng cho em gái. Tính xác suất để $5$ cái kẹo có cả vị hoa quả và vị socola.",
+   "explanation": "Chọn $5$ cái kẹo trong $13$ cái kẹo nên $n\\left( \\Omega \\right)=C_{13}^{5}$.\nĐặt $A$ là biến cố “chọn được $5$ cái kẹo có đủ hai vị”.\nSuy ra $\\overline{A}$ là biến cố “chọn $5$ cái kẹo chỉ có một vị”$\\Rightarrow n\\left( \\overline{A} \\right)=C_{7}^{5}+C_{6}^{5}$.\nVậy $P\\left( A \\right)=1-\\frac{C_{7}^{5}+C_{6}^{5}}{C_{13}^{5}}=\\frac{140}{143}$",
+   "options": [
+    "$P=\\frac{140}{143}$",
+    "$P=\\frac{79}{156}$",
+    "$P=\\frac{103}{117}$",
+    "$P=\\frac{14}{117}$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Gieo đồng tiền 5 lần cân đối và đồng chất. Xác suất để được ít nhất một lần xuất hiện mặt sấp là",
+   "explanation": "Phép thử: Gieo đồng tiền $5$ lần cân đối và đồng chất\nTa có $n\\left( \\Omega \\right)={{2}^{5}}=32$\nBiến cố $A$: Được ít nhất một lần xuất hiện mặt sấp\n$\\overline{A}$: Tất cả đều là mặt ngửa\n$n\\left( {\\bar{A}} \\right)=1$\n$\\Rightarrow n\\left( A \\right)=n\\left( \\Omega \\right)-n\\left( {\\bar{A}} \\right)=31$\n$\\Rightarrow p\\left( A \\right)=\\frac{n\\left( A \\right)}{n\\left( \\Omega \\right)}=\\frac{31}{32}$.",
+   "options": [
+    "$\\dfrac{1}{32}$",
+    "$\\dfrac{31}{32}$",
+    "$\\dfrac{21}{32}$",
+    "$\\dfrac{11}{32}$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một hộp đựng $9$ thẻ được đánh số từ $1$ đến $9$. Rút ngẫu nhiên hai thẻ và nhân hai số trên hai thẻ lại với nhau. Tính xác suất để kết quả thu được là một số chẵn.",
+   "explanation": "Số phần tử của không gian mẫu là $n\\left( \\Omega \\right)=C_{9}^{2}=36$.\nGọi $A$ là biến cố “tích hai số ghi trên thẻ là số chẵn”, suy ra $\\overline{A}$ là biến cố “tích hai số ghi trên thẻ là số lẻ”. Tức là ta rút ra được hai thẻ được đánh số lẻ trong $5$ thẻ đánh số lẻ.\n$\\Rightarrow n\\left( \\overline{A} \\right)=C_{5}^{2}=10$.\nVậy xác suất cần tìm là $P\\left( A \\right)=1-P\\left( \\overline{A} \\right)=1-\\frac{n\\left( \\overline{A} \\right)}{n\\left( \\Omega \\right)}=\\frac{13}{18}$.",
+   "options": [
+    "$\\frac{5}{18}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{8}{9}$",
+    "$\\frac{13}{18}$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Ba người cùng bắn vào 1 bia. Xác suất để người thứ nhất, thứ hai,thứ ba bắn trúng đích lần lượt là 0,8; 0,6; 0,5. Xác suất để có đúng 2 người bắn trúng đích bằng:",
+   "explanation": "Gọi X là biến cố: “có đúng 2 người bắn trúng đích “\nGọi A là biến cố: “người thứ nhất bắn trúng đích “=>$P\\left( A \\right)=0,8;P\\left( \\overline{A} \\right)=0,2.$\nGọi B là biến cố: “người thứ hai bắn trúng đích “=>$P\\left( B \\right)=0,6;P\\left( \\overline{B} \\right)=0,4.$\nGọi C là biến cố: “người thứ ba bắn trúng đích “=>$P\\left( C \\right)=0,5;P\\left( \\overline{C} \\right)=0,5.$\nTa thấy biến cố A, B, C là 3 biến cố độc lập nhau, theo công thức nhân xác suất ta có:\n$P\\left( X \\right)=P\\left( A.B.\\overline{C} \\right)+P\\left( A.\\overline{B}.C \\right)+P\\left( \\overline{A}.B.C \\right)=0,8.0,6.0,5+0,8.0,4.0,5+0,2.0,6.0,5=0,46.$",
+   "options": [
+    "0,96",
+    "0,46",
+    "0,92",
+    "0,24"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất \"Số chấm xuất hiện trên hai con xúc xắc hơn kém nhau 2 chấm\" bằng:$\\frac{2}{9}$",
+    "b": "Xác suất \"Tích số chấm xuất hiện trên hai con xúc xắc chia hết cho 5\" bằng: $\\frac{11}{36}$",
+    "c": "Xác suất \"Tích số chấm xuất hiện trên hai con xúc xắc là một số chẵn\" bằng: $\\frac{5}{6}$",
+    "d": "Xác suất \"Tổng số chấm xuất hiện trên hai con xúc xắc là số lẻ\" bằng: $\\frac{1}{2}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Gieo hai con xúc xắc. Khi đó:",
+   "explanation": "Không gian mẫu $\\Omega =\\{\\left. (i;j) \\right|i,j=1,2,3,\\ldots ,6\\}$.\nSố các kết quả có thể xảy ra của phép thử là ${n(\\Omega)=6.6=36}$.\na) Gọi ${A}$ là biến cố \"Số chấm xuất hiện trên hai con xúc xắc hơn kém nhau 2 chấm\".\n$A=\\left\\{ \\left( 1;3 \\right);\\left( 2;4 \\right);\\left( 3;5 \\right);\\left( 4;6 \\right);\\left( 3;1 \\right);\\left( 4;2 \\right);\\left( 5;3 \\right);\\left( 6;4 \\right) \\right\\}$\n${n(A)=8}$. Suy ra ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2}{9}}$.\nb) Gọi ${B}$ là biến cố \"Tích số chấm xuất hiện trên hai con xúc xắc chia hết cho ${5^{\\prime \\prime}}$.\n$B=\\left\\{ \\left( 1;5 \\right);\\left( 2;5 \\right);\\left( 3;5 \\right);\\left( 4;5 \\right);\\left( 5;5 \\right);\\left( 6;5 \\right);\\left( 5;1 \\right);\\left( 5;2 \\right);\\left( 5;3 \\right);\\left( 5;4 \\right);\\left( 5;6 \\right) \\right\\}$ ${n(B)=11}$.\nSuy ra ${P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{11}{36}}$.\nc) Gọi C: \"Tích số chấm xuất hiện trên hai con xúc xắc là một số chẵn\". Biến cố đối ${\\bar{C}}$: \"Tích số chấm xuất hiện trên hai con xúc xắc là một số lẻ\". ${n(\\bar{C})=3.3=9}$. Suy ra ${P(\\bar{C})=\\frac{n(\\bar{C})}{n(\\Omega)}=\\frac{1}{4}}$. ${P(C)+P(\\bar{C})=1 \\Rightarrow P(C)=1-P(\\bar{C})=\\frac{3}{4}}$\nd) Gọi D: \"Tổng số chấm xuất hiện trên hai con xúc xắc là số lẻ\".\n${\\bar{D}}$: \"Tổng số chấm xuất hiện trên hai con xúc xắc là số chẵn\".\nTa có tổng số chấm xuất hiện trên hai con xúc xắc là số chẵn khi và chỉ khi cả hai số đó đều là số lẻ hoặc đều là số chẵn.\n$n(\\bar{D})=2.3.3=18.\\text{ Suy ra }P(\\bar{D})=\\frac{n(\\bar{D})}{n(\\Omega )}=\\frac{1}{2}\\Rightarrow P(D)=1-P(\\bar{D})=\\frac{1}{2}\\text{. }$",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 27,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D05",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$n(\\Omega )=6$",
+    "b": "Số kết quả thuận lợi của biến cố: \"Thu được mặt có số chấm chia hết cho 2\" bằng: 3",
+    "c": "Số kết quả thuận lợi của biến cố: \"Thu được mặt có số chấm nhỏ hơn 5\" bằng: 4",
+    "d": "Số kết quả thuận lợi của biến cố: \"Thu được mặt có số chấm là số lẻ\" bằng: 3"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Xét phép thử là gieo một con súc sắc một lần.",
+   "explanation": "a) Ta có: ${\\Omega=\\{1,2,3,4,5,6\\} \\Rightarrow n(\\Omega)=6}$.\nb) Ta có: ${A=\\{2,4,6\\} \\Rightarrow n(A)=3}$.\nc) Ta có: $B=\\{1,2,3,4\\}\\Rightarrow n(B)=4$.\nd) Ta có $C=\\left\\{ 1;3;5 \\right\\}\\Rightarrow n(C)=3$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B1.D01",
+   "dang_toan_web": "Không gian mẫu và biến cố."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất \"Các thẻ ghi số ${1,2,3}$ được rút\" bằng:$\\frac{5}{42}$",
+    "b": "Xác suất \"Có đúng 1 trong 3 thẻ ghi số ${1,2,3}$ được rút\" bằng: $\\frac{6}{11}$",
+    "c": "Xác suất \"Không thẻ nào trong 3 thẻ ghi số ${1,2,3}$ được rút\" bằng: $\\frac{1}{21}$",
+    "d": "Xác suất \"Có ít nhất một trong 3 thẻ ghi số ${1,2,3}$ được rút\" bằng: $\\frac{20}{21}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp đựng 9 thẻ được đánh số từ 1 đến 9. Rút ngẫu nhiên 5 thẻ. Khi đó:",
+   "explanation": "${n(\\Omega)=C_9^5=126}$.\na) ${n(A)=C_6^2=15 ; P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{15}{126}=\\frac{5}{42}}$.\nb) ${n(B)=C_3^1 C_6^4=45 ; P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{45}{126}=\\frac{5}{14}}$.\nc) ${n(C)=C_6^5=6 ; P(C)=\\frac{n(C)}{n(\\Omega)}=\\frac{6}{126}=\\frac{1}{21}}$.\nd) Biến cố đối ${\\bar{D}=C}$: \"Không thẻ nào trong 3 thẻ ghi số ${1,2,3}$ được rứt\".\n$\\Rightarrow P(\\bar{D})=\\frac{1}{21};P(D)=1-P(\\bar{D})=\\frac{20}{21}\\text{. }$",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "\"Số chấm xuất hiện trên hai con xúc xắc hơn kém nhau 2 chấm\" bằng 8",
+    "b": "\"Tích số chấm xuất hiện trên hai con xúc xắc chia hết cho 5 \" bằng 12",
+    "c": "\"Tích số chấm xuất hiện trên hai con xúc xắc là một số lẻ\" bằng 9",
+    "d": "\"Tổng số chấm xuất hiện trên hai con xúc xắc là số chẵn\" bằng 15"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Gieo hai con xúc xắc. Khi đó, số các kết quả thuận lợi cho biến cố:",
+   "explanation": "a) Gọi ${A}$ là biến cố \"Số chấm xuất hiện trên hai con xúc xắc hơn kém nhau 2 chấm\".\n$A=\\left\\{ \\left( 1;3 \\right);\\left( 2;4 \\right);\\left( 3;5 \\right);\\left( 4;6 \\right);\\left( 3;1 \\right);\\left( 4;2 \\right);\\left( 5;3 \\right);\\left( 6;4 \\right) \\right\\}$\nNhư vậy có 8 kết quả thuận lợi cho biến cố ${A}$.\nb) Gọi ${B}$ là biến cố \"Tích số chấm xuất hiện trên hai con xúc xắc chia hết cho ${5^{\\prime \\prime}}$.\n$B=\\left\\{ \\left( 1;5 \\right);\\left( 2;5 \\right);\\left( 3;5 \\right);\\left( 4;5 \\right);\\left( 5;5 \\right);\\left( 6;5 \\right);\\left( 5;1 \\right);\\left( 5;2 \\right);\\left( 5;3 \\right);\\left( 5;4 \\right);\\left( 5;6 \\right) \\right\\}$\nNhư vậy có 11 kết quả thuận lợi cho biến cố ${B}$.\nc) Tích số chấm xuất hiện trên hai con xúc xắc là một số lẻ khi và chỉ khi cả hai số đều là số lẻ.\nDo đó số các kết quả thuận lợi cho biến cố \"Tích số chấm xuất hiện trên hai con xúc xắc là một số lẻ\" là ${3.3=9}$.\nd) Tổng số chấm xuất hiện trên hai con xúc xắc là số chẵn khi và chỉ khi cả hai số đó đều là số lẻ hoặc đều là số chẵn.\nDo đó số các kết quả thuận lợi cho biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc là số chẵn\" là ${2.3 .3=18}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D05",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp chứa 12 quả bóng được đánh số từ 1 đến 12. Bình và An mỗi người lấy ra ngẫu nhiên 1 quả bóng từ hộp.\nCó bao nhiêu kết quả thuận lợi cho biến cố \"Tích hai số ghi trên hai quả bóng chia hết cho $3''$.",
+   "explanation": "Số kết quả có thể xảy ra của phép thử là ${12.11=132}$.\nVì số kết quả thuận lợi cho biến cố \"Tích hai số ghi trên hai quả bóng không chia hết cho $3''$ là ${8.7=56}$.\nNên số kết quả thuận lợi cho biến cố \"Tích hai số ghi trên hai quả bóng chia hết cho 3 \" là ${132-56=76}$.",
+   "short_value": 76,
+   "short_correct": "76",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B1.D01",
+   "dang_toan_web": "Không gian mẫu và biến cố."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong giải bóng đá nữ ở trường THPT có 12 đội tham gia, trong đó có hai đội của hai lớp $10~\\text{A}2$ và ${10 {~A} 5}$. Ban tổ chức tiến hành bốc thăm ngẫu nhiên để chia thành hai bảng đấu ${{A}, {B}}$ mỗi bảng 6 đội. Xác định số phần tử của biến cố để 2 đội của hai lớp ${10 {~A} 2}$ và ${10 {~A} 5}$ ở cùng một bảng.",
+   "explanation": "Gọi ${A}$ là biến cố: \"2 đội của hai lớp ${10 {~A} 2}$ và ${10 {~A} 5}$ ở cùng một bảng\". Bốc 4 đội từ 10 đội không tính hai lớp ${10 {~A} 2}$ và ${10 {~A} 5}$ vào bảng đã xếp hai đội của hai lớp ${10 {~A} 2}$ và ${10 {~A} 5}$; 6 đội còn lại vào một bảng - hoán vị hai bảng.\nTa có: ${n(A)=C_{10}^4 .2 !=420}$.",
+   "short_value": 420,
+   "short_correct": "420",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho tập hợp ${A=\\{1 ; 2 ; 3 ; 4 ; 5\\}}$. Gọi ${S}$ là tập hợp các số tự nhiên có 5 chữ số trong đó chữ số 3 có mặt đúng ba lần, các chữ số còn lại có mặt không quá một lần. Chọn ngẫu nhiên một số từ ${S}$, tính xác suất để số được chọn chia hết cho 3 .",
+   "explanation": "Gọi số cần tìm của tập ${S}$ có dạng ${\\overline{a b c d e}}$.\n- Sắp chữ số 3 vào ba vị trí, có ${C_5^3=10}$ cách.\n- Còn lại hai vị trí, chọn 2 số trong 4 số ${\\{1 ; 2 ; 4 ; 5\\}}$ xếp vào hai vị trí đó, có ${A_4^2=12}$ cách.\nDo đó tập ${S}$ có ${10.12=120}$ phần tử. Suy ra ${n(\\Omega)=C_{120}^1=120}$.\nGọi ${A}$ : \"Số tự nhiên được chọn chia hết cho 3\".\nXét số tự nhiên chứa ba chữ số 3 , hai chữ số còn lại là 1 và 2 .\n(Tổng ${3+3+3+1+2}$ chia hết cho 3 ).\n- Sắp chữ số 3 vào ba vị trí, có ${C_5^3=10}$ cách.\n- Đặt hai chữ số 1,2 vào hai vị trí còn lại, có 2 cách.\nSuy ra có ${2 \\cdot C_5^3=20}$ số thỏa mãn.\nTương tự trường hợp trên mà ta thay cặp số ${(1,2)}$ thành cặp số ${(1,5)}$ thì có 20 số thỏa mãn; và hai cặp số ${(2,4),(4,5)}$ cũng cho ta kết quả tương tự.\nVậy ${n(A)=20+20+20+20=80}$. Suy ra ${P=\\frac{80}{120}=\\frac{2}{3}}$.",
+   "short_value": 0.6666666666666666,
+   "short_correct": "\\frac{2}{3}|2/3",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một túi đựng 6 bi xanh và 4 bi đỏ. Lấy ngẫu nhiên 2 bi, tính xác suất để cả hai bi được lấy đều là bi đỏ.",
+   "explanation": "Số phần tử của không gian mẫu là ${n(\\Omega)=C_{10}^2=45}$.\nGọi biến cố ${A}$ : \"Hai bi lấy ra đều là bi đỏ\". Khi đó ${n(A)=C_4^2=6}$.\nVậy xác suất cần tính là ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2}{15}}$.",
+   "short_value": 0.13333333333333333,
+   "short_correct": "\\frac{2}{15}|2/15",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai đường thẳng song song ${a}$ và ${b}$. Trên đường thẳng ${a}$ lấy 6 điểm phân biệt; trên đường thẳng ${b}$ lấy 5 điểm phân biệt. Chọn ngẫu nhiên 3 điểm trong các điểm đã cho trên hai đường thẳng ${a}$ và ${b}$. Tính xác xuất để 3 điểm được chọn tạo thành một tam giác.",
+   "explanation": "Số phần tử của không gian mẫu ${n(\\Omega)=C_{11}^3=165}$.\nGọi ${A}$ là biến cố: \"3 điểm được chọn lập thành một tam giác\".\nTrường hợp 1: Chọn 2 điểm trên đường thẳng ${a}$ và 1 điểm trên đường thẳng ${b}$, có ${C_6^2 \\cdot C_5^1}$ cách.\nTrường hợp 2: Chọn 1 điểm trên đường thẳng ${a}$ và 2 điểm trên đường thẳng ${b}$, có ${C_6^1 \\cdot C_5^2}$ cách.\nNên ${n(A)=C_6^2 C_5^1+C_6^1 \\cdot C_5^2=135}$.\nVậy xác suất để 3 điểm được chọn tạo thành một tam giác là ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{9}{11}}$.",
+   "short_value": 0.8181818181818182,
+   "short_correct": "\\frac{9}{11}|9/11",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ 12 học sinh gồm 5 học sinh giỏi, 4 học ${\\sinh}$ khá, 3 học sinh trung bình, giáo viên muốn thành lập 4 nhóm làm 4 bài tập lớn khác nhau, mỗi nhóm 3 học sinh. Tính xác suất để nhóm nào cũng có học sinh giỏi và học sinh khá.",
+   "explanation": "Ta có số phần tử không gian mẫu là ${n(\\Omega)=C_{12}^3 \\cdot C_9^3 \\cdot C_6^3 \\cdot C_3^3}$.\nGọi ${A}$ là biến cố: \"Để nhóm nào cũng có học sinh giỏi và học sinh khá\".\nĐánh số 4 nhóm là ${A, B, C, D}$.\nBước 1: Xếp vào mỗi nhóm một học sinh khá có 4 ! cách.\nBước 2: Xếp 5 học sinh giỏi vào 4 nhóm thì có 1 nhóm có 2 học sinh giỏi. Chọn nhóm có 2 học sinh giỏi có 4 cách, chọn 2 học sinh giỏi có ${C_5^2}$ cách, xếp 3 học sinh giỏi còn lại có 3 ! cách.\nBước 3: Xếp 3 học sinh trung bình có 3 ! cách.\n${P(A)=\\frac{4 ! \\cdot 4 \\cdot C_5^2 \\cdot 3 ! \\cdot 3 !}{C_{12}^3 C_9^3 C_6^3 C_3^3}=\\frac{36}{385} \\text {. } }$",
+   "short_value": null,
+   "short_correct": "\\frac{36}{385}|36/385",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  }
+ ],
+ "flags": []
+}

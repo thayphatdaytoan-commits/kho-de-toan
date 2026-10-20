@@ -1,0 +1,896 @@
+{
+ "by": "DeepSeek",
+ "1a": {
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị:",
+     "$x=0 \\Rightarrow y=$ {{1}}",
+     "$x=1 \\Rightarrow y=$ {{2}}"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng đi qua hai điểm $({{3}};{{4}})$ và $({{5}};{{6}})$"
+    ],
+    "hint": "Vẽ đường thẳng qua hai điểm"
+   },
+   {
+    "lines": [
+     "Đường thẳng này là đồ thị của hàm số $y=$ {{7}}"
+    ],
+    "hint": "Kết luận đồ thị hàm số"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "hoành độ",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "tung độ",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "hoành độ",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "tung độ",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "input",
+    "answers": [
+     "2x+1",
+     "2x + 1"
+    ],
+    "keywords": [
+     "2x+1",
+     "2x"
+    ],
+    "placeholder": "công thức hàm số",
+    "maxLen": 16
+   }
+  ],
+  "pool": [],
+  "ordered": false
+ },
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+     "$\\widehat{{{3}}}=\\widehat{{{4}}}={{90}^{0}}$ (đường cao AH, $\\triangle ABC$ vuông tại A)"
+    ],
+    "hint": "Xét hai tam giác bằng nhau"
+   },
+   {
+    "lines": [
+     "$\\widehat{{{5}}}$ là góc chung"
+    ],
+    "hint": "Chỉ ra góc chung"
+   },
+   {
+    "lines": [
+     "Vậy $\\triangle {{6}}\\backsim \\triangle {{7}}$ ({{8}})"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "g - g",
+     "g-g",
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "CHA",
+   "CAB",
+   "C",
+   "g - g",
+   "g-g",
+   "g.g",
+   "A",
+   "B",
+   "H",
+   "c.g.c",
+   "c.c.c"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét tam giác {{1}} có $IN//AH$ (cùng vuông góc với BC) và I là trung điểm {{2}}, suy ra N là trung điểm {{3}}"
+    ],
+    "hint": "Chứng minh N là trung điểm"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{4}}$ và $\\triangle {{5}}$ có $\\widehat{{{6}}}$ chung và $\\widehat{{{7}}}=\\widehat{{{8}}}={{90}^{0}}$, suy ra $\\triangle {{9}}\\backsim \\triangle {{10}}$ ({{11}})"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Từ $\\triangle {{12}}\\backsim \\triangle {{13}}$ suy ra $\\frac{{{14}}}{{{15}}}=\\frac{{{16}}}{{{17}}}$ hay $A{{B}^{2}}=CB.\\,HB$ (1)"
+    ],
+    "hint": "Suy ra hệ thức cạnh"
+   },
+   {
+    "lines": [
+     "Ta có $BH=BN-NH=BN-NC$ (2) và $BC=BN+NC$ (3)"
+    ],
+    "hint": "Biến đổi các đoạn thẳng"
+   },
+   {
+    "lines": [
+     "Thay (2), (3) vào (1) ta được $A{{B}^{2}}=CB.\\,HB=\\left( BN+NC \\right)\\left( BN-NC \\right)=B{{N}^{2}}-N{{C}^{2}}$"
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AHC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HC"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AHB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AHB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AHB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "g - g",
+     "g-g",
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "AHB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AHC",
+   "AC",
+   "HC",
+   "AHB",
+   "CAB",
+   "B",
+   "g - g",
+   "g-g",
+   "g.g",
+   "AB",
+   "CB",
+   "HB",
+   "AH",
+   "BC",
+   "c.g.c",
+   "c.c.c"
+  ]
+ },
+ "6c": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi K là giao điểm {{1}} và {{2}}"
+    ],
+    "hint": "Xác định giao điểm"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{3}}$ và $\\triangle {{4}}$ có $\\widehat{{{5}}}=\\widehat{{{6}}}$ (cùng phụ với góc B) và $\\widehat{{{7}}}=\\widehat{{{8}}}$ (cùng phụ với $\\widehat{BAN}$), suy ra $\\triangle {{9}}\\backsim \\triangle {{10}}$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Từ $\\triangle {{11}}\\backsim \\triangle {{12}}$ suy ra $\\frac{{{13}}}{{{14}}}=\\frac{{{15}}}{{{16}}}$ (1)"
+    ],
+    "hint": "Suy ra tỉ số cạnh"
+   },
+   {
+    "lines": [
+     "Ta có $\\widehat{{{17}}}=\\widehat{{{18}}}$ (đối đỉnh) và $\\widehat{{{19}}}=\\widehat{{{20}}}$ (cùng phụ $\\widehat{KNH}$), suy ra $\\widehat{{{21}}}=\\widehat{{{22}}}$"
+    ],
+    "hint": "Chứng minh hai góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{23}}$ và $\\triangle {{24}}$ có $\\widehat{{{25}}}=\\widehat{{{26}}}$ (cùng phụ với $\\widehat{BAN}$) và $\\widehat{{{27}}}=\\widehat{{{28}}}$, suy ra $\\triangle {{29}}\\backsim \\triangle {{30}}$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Từ $\\triangle {{31}}\\backsim \\triangle {{32}}$ suy ra $\\frac{{{33}}}{{{34}}}=\\frac{{{35}}}{{{36}}}$ (2)"
+    ],
+    "hint": "Suy ra tỉ số cạnh"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra $\\frac{AV}{AC}=\\frac{VB}{AI}\\Rightarrow \\frac{VB}{AV}=\\frac{AI}{AC}=\\frac{1}{2}$ (I là trung điểm AC), do đó B là trung điểm AV"
+    ],
+    "hint": "Kết luận trung điểm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "VH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "CNA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "VAH"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "ACN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AVH"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "CAN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "CNA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "CNA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "VH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "AV"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "BHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "KHN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "KHN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "ANI"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "BHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "ANI"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "VBH"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "AIN"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "BVH"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "26",
+    "mode": "drag",
+    "answers": [
+     "IAN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "27",
+    "mode": "drag",
+    "answers": [
+     "BHV"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "28",
+    "mode": "drag",
+    "answers": [
+     "ANI"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "29",
+    "mode": "drag",
+    "answers": [
+     "VBH"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "30",
+    "mode": "drag",
+    "answers": [
+     "AIN"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "31",
+    "mode": "drag",
+    "answers": [
+     "VBH"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "32",
+    "mode": "drag",
+    "answers": [
+     "AIN"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "33",
+    "mode": "drag",
+    "answers": [
+     "VH"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "34",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "35",
+    "mode": "drag",
+    "answers": [
+     "VB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "36",
+    "mode": "drag",
+    "answers": [
+     "AI"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "VH",
+   "AN",
+   "AHV",
+   "CNA",
+   "VAH",
+   "ACN",
+   "AVH",
+   "CAN",
+   "AV",
+   "AC",
+   "BHV",
+   "KHN",
+   "ANI",
+   "VBH",
+   "AIN",
+   "BVH",
+   "IAN",
+   "VB",
+   "AI",
+   "AH",
+   "HC",
+   "g - g",
+   "c.g.c"
+  ]
+ }
+}

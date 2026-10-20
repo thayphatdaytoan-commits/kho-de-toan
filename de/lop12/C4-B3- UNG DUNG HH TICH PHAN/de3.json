@@ -1,0 +1,634 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "4",
+  "lesson": "3",
+  "title": "Bài 3. Ứng dụng hình học của tích phân",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hai hàm số $f(x)$ và $g(x)$ liên tục trên $\\left[ a\\,;\\,b \\right]$. Diện tích hình phẳng giới hạn bởi đồ thị của các hàm số $y=f(x)$, $y=g(x)$ và các đường thẳng $x=a$, $x=b$ bằng",
+   "explanation": "Theo lý thuyết thì diện tích hình phẳng được giới hạn bởi đồ thị của các đường $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ được tính theo công thức $S=\\int\\limits_{a}^{b}{\\left| f\\left( x \\right)-g\\left( x \\right) \\right|\\text{d}x}$.",
+   "options": [
+    "$\\left| \\int\\limits_{a}^{b}{\\left[ f(x)-g(x) \\right]\\text{d}x} \\right|$",
+    "$\\int\\limits_{a}^{b}{\\left| f(x)+g(x) \\right|\\text{d}x}$",
+    "$\\int\\limits_{a}^{b}{\\left| f(x)-g(x) \\right|\\text{d}x}$",
+    "$\\int\\limits_{a}^{b}{\\left[ f(x)-g(x) \\right]\\text{d}x}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B3.D08",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Gọi $S$ là diện tích của hình phẳng giới hạn bởi các đường $y=2x$, $y=0$,$x=0$,$x=2$. Mệnh đề nào dưới đây đúng?",
+   "explanation": "Diện tích hình phẳng đã cho được tính bởi công thức $S=\\int\\limits_{0}^{2}{2x}dx$.",
+   "options": [
+    "$S=\\int\\limits_{0}^{2}{2x}dx$",
+    "$S=\\pi \\int\\limits_{0}^{2}{{{x}^{2}}}dx$",
+    "$S=\\pi \\int\\limits_{0}^{2}{2x}dx$",
+    "$S=-\\int\\limits_{0}^{2}{x}dx$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y={{x}^{2}}-4x+3$, trục hoành và hai đường thẳng $x=1,\\,x=2$ bằng",
+   "explanation": "Ta có:$S=\\int\\limits_{1}^{2}{\\left| {{x}^{2}}-4x+3 \\right|\\text{d}x=}\\left| \\int\\limits_{1}^{2}{\\left( {{x}^{2}}-4x+3 \\right)\\text{d}x} \\right|=\\frac{2}{3}$.",
+   "options": [
+    "$\\frac{2}{3}$",
+    "$\\frac{3}{2}$",
+    "$\\frac{1}{3}$",
+    "$\\frac{7}{3}$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tính diện tích $S$ hình phẳng giới hạn bởi các đường $y={{x}^{2}}+2,\\,x=0,\\,x=2$ và trục hoành.",
+   "explanation": "Ta có: $S=\\int\\limits_{0}^{2}{\\left| {{x}^{2}}+2 \\right|}\\,\\text{d}x=\\int\\limits_{0}^{2}{\\left( {{x}^{2}}+2 \\right)}\\,\\text{d}x=\\frac{20}{3}$.",
+   "options": [
+    "$S=\\frac{20}{3}$",
+    "$S=\\frac{16}{3}$",
+    "$S=\\frac{13}{6}$",
+    "$S=\\frac{13}{3}$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Gọi $S$ là diện tích của hình phẳng giới hạn bởi các đường $y={{2024}^{x}}$, trục $Ox$, trục $Oy$, $x=2$. Mệnh đề nào dưới đây đúng?",
+   "explanation": "Diện tích của hình phẳng giới hạn bởi các đường $y={{2024}^{x}}$, trục $Ox$, trục $Oy$, $x=2$là\n$S=\\int\\limits_{0}^{2}{{{2024}^{x}}\\text{d}x}$.",
+   "options": [
+    "$S=\\pi \\int\\limits_{0}^{2}{{{2024}^{x}}\\text{d}x}$",
+    "$S=\\int\\limits_{0}^{2}{{{2024}^{x}}\\text{d}x}$",
+    "$S=\\pi \\int\\limits_{0}^{2}{{{2024}^{2x}}\\text{d}x}$",
+    "$S=\\int\\limits_{0}^{2}{{{2024}^{2x}}\\text{d}x}$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Diện tích phần hình phẳng gạch chéo trong hình vẽ bên được tính theo công thức nào dưới đây?\n[[IMG:image45.png]]",
+   "explanation": "Từ đồ thị ta thấy $-{{x}^{2}}+3\\ge {{x}^{2}}-2x-1$, $\\forall x\\in \\left[ -1\\,;\\,2 \\right]$.\nVậy diện tích phần hình phẳng gạch chéo trong hình vẽ là\n$S=\\int\\limits_{-1}^{2}{\\left[ \\left( -{{x}^{2}}+3 \\right)-\\left( {{x}^{2}}-2x-1 \\right) \\right]\\text{d}x}$ $=\\int\\limits_{-1}^{2}{\\left( -2{{x}^{2}}+2x+4 \\right)\\text{d}x}$.",
+   "options": [
+    "$\\int\\limits_{-1}^{2}{\\left( 2{{x}^{2}}-2x-4 \\right)\\text{d}x}$",
+    "$\\int\\limits_{-1}^{2}{\\left( 2{{x}^{2}}+2x-4 \\right)\\text{d}x}$",
+    "$\\int\\limits_{-1}^{2}{\\left( -2{{x}^{2}}+2x+4 \\right)\\text{d}x}$",
+    "$\\int\\limits_{-1}^{2}{\\left( -2{{x}^{2}}-2x+4 \\right)\\text{d}x}$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D02",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Diện tích hình phẳng giới hạn bởi đường cong $y=x\\ln x$, trục hoành và đường thẳng $x=e$ là",
+   "explanation": "Phương trình hoành độ của đường cong $y=x\\ln x$ và trục hoành là\n$x\\ln x=0\\Leftrightarrow \\left\\{ \\begin{aligned} & x>0 \\\\ & \\left[ \\begin{aligned} & x=0 \\\\ & \\ln x=0 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x>0 \\\\ & \\left[ \\begin{aligned} & x=0 \\\\ & x=1 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.\\Leftrightarrow x=1$.\nVậy diện tích hình phẳng giới hạn bởi đường cong $y=x\\ln x$, trục hoành và đường thẳng $x=e$ là $S=\\int\\limits_{1}^{e}{\\left| x\\ln x \\right|\\text{d}x}=\\int\\limits_{1}^{e}{x\\ln x\\text{d}x}$.\nĐặt $\\left\\{ \\begin{aligned} & u=\\ln x \\\\ & \\text{d}v=x\\text{d}x \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\text{d}u=\\frac{1}{x}\\text{d}x \\\\ & v=\\frac{{{x}^{2}}}{2} \\\\ \\end{aligned} \\right.$. Suy ra $S=\\frac{{{x}^{2}}}{2}\\ln x\\left| \\begin{aligned} & e \\\\ & 1 \\\\ \\end{aligned} \\right.-\\frac{1}{2}\\int\\limits_{1}^{e}{x\\text{d}x}=\\frac{{{e}^{2}}}{2}-\\frac{{{x}^{2}}}{4}\\left| \\begin{aligned} & e \\\\ & 1 \\\\ \\end{aligned} \\right.=\\frac{{{e}^{2}}+1}{4}$.",
+   "options": [
+    "$\\frac{{{e}^{2}}-1}{2}$",
+    "$\\frac{{{e}^{2}}+1}{2}$",
+    "$\\frac{{{e}^{2}}+1}{4}$",
+    "$\\frac{{{e}^{2}}-1}{4}$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Diện tích phần tô đậm của hình vẽ dưới đây là\n[[IMG:image46.png]]",
+   "explanation": "Diện tích phần tô đậm của hình vẽ là $S=\\int\\limits_{-1}^{1}{\\left| {{x}^{2}}-1 \\right|}\\,\\text{dx=}\\frac{4}{3}$.",
+   "options": [
+    "$\\frac{3}{4}$",
+    "$1$",
+    "$\\frac{\\pi }{2}$",
+    "$\\frac{4}{3}$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D02",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hình phẳng $\\left( H \\right)$ giới hạn bởi các đường $y=-{{x}^{2}}+1$, $y=0$, $x=-2$, $x=3$. Gọi $V$ là thể tích của khối tròn xoay được tạo thành khi quay $\\left( H \\right)$ xung quanh trục $Ox$. Mệnh đề nào dưới đây đúng?",
+   "explanation": "Thể tích của khối tròn xoay được tạo thành khi quay $\\left( H \\right)$ xung quanh trục $Ox$ là:\n$V=\\pi \\int\\limits_{-2}^{3}{{{\\left( -{{x}^{2}}+1 \\right)}^{2}}\\text{d}x}$.",
+   "options": [
+    "$V=\\pi \\int\\limits_{-2}^{3}{\\left( -{{x}^{2}}+1 \\right)\\text{d}x}$",
+    "$V=\\int\\limits_{-2}^{3}{{{\\left( -{{x}^{2}}+1 \\right)}^{2}}\\text{d}x}$",
+    "$V=\\int\\limits_{-2}^{3}{\\left| \\left( -{{x}^{2}}+1 \\right) \\right|\\text{d}x}$",
+    "$V=\\pi \\int\\limits_{-2}^{3}{{{\\left( -{{x}^{2}}+1 \\right)}^{2}}\\text{d}x}$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho khối tròn xoay như hình vẽ\n[[IMG:image47.png]]\nThể tích của khối tròn xoay đó là",
+   "explanation": "Thể tích cần tìm là: $V=\\pi \\int\\limits_{1}^{2}{{{\\left( \\frac{1}{x} \\right)}^{2}}\\text{d}x}=\\pi \\int\\limits_{1}^{2}{\\frac{1}{{{x}^{2}}}\\text{d}x}=\\left. \\pi \\left( -\\frac{1}{x} \\right) \\right|_{1}^{2}=\\frac{\\pi }{2}$.",
+   "options": [
+    "$\\pi $",
+    "$\\frac{3\\pi }{4}$",
+    "$2\\pi $",
+    "$\\frac{\\pi }{2}$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hình phẳng giới hạn bởi đồ thị hàm số $f\\left( x \\right)=\\cos \\frac{x}{2}$, trục hoành và hai đường thẳng $x=0;x=\\pi $. Thể tích khối tròn xoay tạo thành khi cho hình phẳng đó quay quanh trục $Ox$là",
+   "explanation": "Thể tích cần tìm là: $V=\\pi \\int\\limits_{0}^{\\pi }{{{\\cos }^{2}}\\frac{x}{2}\\text{d}x}=\\frac{\\pi }{2}\\int\\limits_{0}^{\\pi }{\\left( 1+\\cos x \\right)\\text{d}x}=\\left. \\frac{\\pi }{2}\\left( x+\\sin x \\right) \\right|_{0}^{\\pi }=\\frac{{{\\pi }^{2}}}{2}$.",
+   "options": [
+    "$\\frac{{{\\pi }^{2}}}{2}$",
+    "${{\\pi }^{2}}-\\pi $",
+    "${{\\pi }^{2}}-1$",
+    "$2\\pi $"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hình phẳng $\\left( S \\right)$ giới hạn bởi đồ thị hàm số $y=\\sqrt{2-{{x}^{3}}}$, trục hoành và hai đường thẳng $x=-1$ và $x=1$. Thể tích của khối tròn xoay khi quay $\\left( S \\right)$ quanh $Ox$là",
+   "explanation": "Thể tích cần tìm là: $V=\\pi \\int\\limits_{-1}^{1}{\\left( 2-{{x}^{3}} \\right)\\text{d}x}=\\left. \\pi \\left( 2x-\\frac{{{x}^{4}}}{4} \\right) \\right|_{-1}^{1}=4\\pi $.",
+   "options": [
+    "$\\frac{58}{7}\\pi $",
+    "$4\\pi $",
+    "$\\frac{20}{7}\\pi $",
+    "$\\frac{27}{6}\\pi $"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Cho hàm số $y=f\\left( x \\right)$ liên tục trên $\\left[ a;b \\right].$ Diện tích hình phẳng $S$ giới hạn bởi đường cong $y=f\\left( x \\right),$ trục hoành và các đường $x=a,$ $x=b$ $\\left( a<b \\right)$ được xác định bởi công thức $S=\\int\\limits_{a}^{b}{f\\left( x \\right)\\text{d}x}.$",
+    "b": "Gọi $S$ là diện tích của hình phẳng giới hạn bởi các đường $y={{2}^{x}},$ $y=0$ và các đường $x=0,$ $x=2.$ Khi đó ta có$S=\\int\\limits_{0}^{2}{{{2}^{x}}\\text{d}x}.$",
+    "c": "Diện tích hình phẳng $S$ giới hạn bởi các đồ thị hàm số $y={{x}^{3}}-x,$ $y=2x$ và các đường $x=-1,$ $x=1$ được xác định bởi công thức $S=\\int\\limits_{-1}^{0}{\\left( {{x}^{3}}-3x \\right)\\text{d}x+\\int\\limits_{0}^{1}{\\left( 3x-{{x}^{3}} \\right)\\text{d}x}}.$",
+    "d": "Biết rằng đường parabol $\\left( P \\right):{{y}^{2}}=2x$ chia đường tròn $\\left( C \\right):{{x}^{2}}+{{y}^{2}}=8$ thành hai phần lần lượt có diện tích là ${{S}_{1}},$ ${{S}_{2}}$ (hình bên). Khi đó ${{S}_{2}}-{{S}_{1}}=a\\pi -\\frac{b}{c}$ với $a,\\text{ }b,\\text{ }c$ nguyên dương và $\\frac{b}{c}$ là phân số tối giản. Tổng $a+b+c$ bằng $15.$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Xét tính đúng sai của các mệnh đề sau:\n[[IMG:image48.png]]",
+   "explanation": "a) Ta có $S=\\int\\limits_{a}^{b}{\\left| f\\left( x \\right) \\right|\\text{d}x}.$\nb) Ta có $S=\\int\\limits_{0}^{2}{\\left| {{2}^{x}} \\right|}\\text{d}x=\\int\\limits_{0}^{2}{{{2}^{x}}\\text{d}x}$ (do ${{2}^{x}}>0,\\forall x\\in \\left[ 0;2 \\right]$).\nc) Phương trình hoành độ giao điểm: ${{x}^{3}}-x=2x\\Leftrightarrow \\left[ \\begin{aligned} & x=0\\in \\left[ -1;1 \\right] \\\\ & x=\\pm \\sqrt{3}\\notin \\left[ -1;1 \\right] \\\\ \\end{aligned} \\right..$ Do đó\n$S=\\int\\limits_{-1}^{0}{\\left| {{x}^{3}}-x-2x \\right|\\text{d}x+\\int\\limits_{0}^{1}{\\left| {{x}^{3}}-x-2x \\right|\\text{d}x}}$ $\\overset{\\text{xet dau}}{\\mathop{=}}\\,\\int\\limits_{-1}^{0}{\\left( {{x}^{3}}-3x \\right)\\text{d}x+\\int\\limits_{0}^{1}{\\left( 3x-{{x}^{3}} \\right)\\text{d}x}}.$\nd) Diện tích hình tròn $S=8\\pi .$\nPhương trình hoành độ giao điểm của $\\left( P \\right)$ và $\\left( C \\right)$ là\n$\\left\\{ \\begin{aligned} & {{y}^{2}}=2x \\\\ & {{x}^{2}}+{{y}^{2}}=8 \\\\ \\end{aligned} \\right.\\to \\left\\{ \\begin{aligned} & x\\ge 0 \\\\ & {{x}^{2}}+2x=8 \\\\ \\end{aligned} \\right.\\leftrightarrow x=2.$\nSuy ra ${{S}_{1}}=2.\\left( \\int\\limits_{0}^{2}{\\sqrt{2x}\\text{d}x+}\\int\\limits_{2}^{2\\sqrt{2}}{\\sqrt{8-{{x}^{2}}}\\text{d}x} \\right)=\\frac{4}{3}+2\\pi .$\n[[IMG:image49.png]]\nSuy ra ${{S}_{2}}=S-{{S}_{1}}=6\\pi -\\frac{4}{3}$$\\xrightarrow{{}}{{S}_{2}}-{{S}_{1}}=4\\pi -\\frac{8}{3}\\xrightarrow{{}}\\left\\{ \\begin{aligned} & a=4 \\\\ & b=8 \\\\ & c=3 \\\\ \\end{aligned} \\right..$ Vậy $a+b+c=15.$",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 23,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{S}_{1}}=\\frac{1}{3}$",
+    "b": "${{S}_{2}}=\\frac{3}{2}$",
+    "c": "$S={{S}_{1}}+{{S}_{2}}$",
+    "d": "$S=\\frac{11}{6}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho đường $y={{x}^{2}}$ có đồ thị là $\\left( P \\right)$, $y=-\\frac{1}{3}x+\\frac{4}{3}$ có đồ thị là $\\left( d \\right)$và trục hoành.\nGọi ${{S}_{1}}$ là diện tích giới hạn bởi $\\left( P \\right)$,trục hoành và đường thẳng $x=1$\nGọi ${{S}_{2}}$ là diện tích giới hạn bởi $\\left( d \\right)$,trục tung, trục hoành và đường thẳng $x=4$\nGọi $S$ là diện tích giới hạn bởi $\\left( P \\right)$, $\\left( d \\right)$ và trục hoành.\n[[IMG:image50.png]]\nCác mệnh đề sau đúng hay sai?",
+   "explanation": "a) ${{S}_{1}}=\\int\\limits_{0}^{1}{\\left| {{x}^{2}} \\right|}dx=\\int\\limits_{0}^{1}{{{x}^{2}}}dx=\\frac{1}{3}$,do đó: ${{S}_{1}}=\\frac{1}{3}$ là mệnh đề đúng\nb) ${{S}_{2}}=\\int\\limits_{0}^{4}{\\left| -\\frac{1}{3}x+\\frac{4}{3} \\right|}dx=\\frac{8}{3}$,do đó: ${{S}_{2}}=\\frac{3}{2}$ là mệnh đề sai\nc) $S=\\int\\limits_{0}^{1}{\\left| {{x}^{2}} \\right|\\operatorname{d}x}+\\int\\limits_{1}^{4}{\\left| -\\frac{1}{3}x+\\frac{4}{3} \\right|\\operatorname{d}x}=\\frac{11}{6}\\ne {{S}_{1}}+{{S}_{2}}$, do đó: $S={{S}_{1}}+{{S}_{2}}$ là mệnh đề sai\nd) $S=S=\\int\\limits_{0}^{1}{\\left| {{x}^{2}} \\right|\\operatorname{d}x}+\\int\\limits_{1}^{4}{\\left| -\\frac{1}{3}x+\\frac{4}{3} \\right|\\operatorname{d}x}=\\int\\limits_{0}^{1}{{{x}^{2}}\\operatorname{d}x}+\\int\\limits_{1}^{4}{\\left( -\\frac{1}{3}x+\\frac{4}{3} \\right)\\operatorname{d}x}$ $=\\left. \\frac{{{x}^{3}}}{3} \\right|_{0}^{1}+\\left. \\left( -\\frac{1}{6}{{x}^{2}}+\\frac{4}{3}x \\right) \\right|_{1}^{4}$ $=\\frac{11}{6}$, do đó: $S=\\frac{11}{6}$ là mệnh đề đúng",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Diện tích hình phẳng được giới hạn bởi đồ thị hàm số $y=\\sqrt{x}$, trục hoành và hai đường thẳng $x=0,x=4$ là $S=\\pi \\int\\limits_{0}^{4}{xdx.}$",
+    "b": "Gọi $V$ là thể tích của khối tròn xoay giới hạn bởi đồ thị hàm số $y=2{{e}^{x}}$, trục hoành và hai đường thẳng$x=0,x=4$ khi quay quanh trục $Ox.$ Khi đó, $V=2\\pi \\left( {{e}^{8}}-1 \\right)$",
+    "c": "Diện tích của hình H là ${{S}_{H}}=2{{e}^{4}}-\\frac{16}{3}$.",
+    "d": "Thể tích khối tròn xoay giới hạn bởi hình H khi quay quanh trục Ox là $2\\pi \\left( {{e}^{8}}-5 \\right)$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Gọi H là hình phẳng giới hạn bởi các đồ thị hàm số $y=\\sqrt{x},y=2{{e}^{x}}$ và hai đường thẳng $x=0,x=4.$",
+   "explanation": "a) Sai\nDiện tích hình phẳng được giới hạn bởi đồ thị hàm số $y=\\sqrt{x}$, trục hoành và hai đường thẳng $x=0,x=4$ là $S=\\int\\limits_{0}^{4}{\\sqrt{x}dx.}$\nb) Đúng\nGọi $V$ là thể tích của khối tròn xoay giới hạn bởi đồ thị hàm số $y=2{{e}^{x}}$, trục hoành và hai đường thẳng$x=0,x=4$ khi quay quanh trục $Ox.$\nKhi đó, $V=\\pi \\int\\limits_{0}^{4}{{{\\left( 2{{e}^{x}} \\right)}^{2}}dx}=\\pi \\int\\limits_{0}^{4}{4{{e}^{2x}}dx}=\\left. 2\\pi {{e}^{2x}} \\right|_{0}^{4}=2\\pi \\left( {{e}^{8}}-1 \\right)$\nc) Sai\nDiện tích của hình H là ${{S}_{H}}=\\int\\limits_{0}^{4}{\\left| 2{{e}^{x}}-\\sqrt{x} \\right|dx=\\int\\limits_{0}^{4}{\\left( 2{{e}^{x}}-\\sqrt{x} \\right)dx}=}\\left. \\left( 2{{e}^{x}}-\\frac{2}{3}x\\sqrt{x} \\right) \\right|_{0}^{4}=2{{e}^{4}}-\\frac{22}{3}$.\n( Vì $2{{e}^{x}}-\\sqrt{x}>0,\\forall x\\in \\left[ 0;4 \\right]$)\nd) Đúng\nThể tích khối tròn xoay giới hạn bởi hình H khi quay quanh trục Ox là $V=\\pi \\int\\limits_{0}^{4}{\\left| {{\\left( 2{{e}^{x}} \\right)}^{2}}-{{\\left( \\sqrt{x} \\right)}^{2}} \\right|dx}=\\pi \\int\\limits_{0}^{4}{\\left| 4{{e}^{2x}}-x \\right|dx}=\\pi \\int\\limits_{0}^{4}{\\left( 4{{e}^{2x}}-x \\right)dx}=\\left. \\pi \\left( 2{{e}^{2x}}-\\frac{{{x}^{2}}}{2} \\right) \\right|_{0}^{4}=2\\pi \\left( {{e}^{8}}-5 \\right)$",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Công thức tính diện tích hình phẳng $\\left( H \\right)$ là $\\int_{0}^{4}{\\sqrt{x}dx}$.",
+    "b": "Diện tích hình phẳng $\\left( H \\right)$ là $\\frac{19}{6}$.",
+    "c": "Thể tích khối tròn xoay giới hạn bởi đồ thị hàm số $y=\\sqrt{x}$, $x=0,\\,x=4$ và trục hoành $Ox$ là $8\\pi $.",
+    "d": "Gọi $V$ là thể tích khối tròn xoay tạo thành khi quanh hình phẳng giới hạn bởi các đường $y=\\sqrt{x}$, $x=0,\\,x=4$ và trục $Ox$. Đường thẳng $x=a\\left( 0<a<4 \\right)$ cắt đồ thị hàm số $y=\\sqrt{x}$tại $M$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hình phẳng $\\left( H \\right)$ giới hạn bởi đồ thị các hàm số $y=\\sqrt{x}$, trục hoành $Ox$và hai đường thẳng $x=0,\\,x=4$. Các khẳng định sau là đúng hay sai?\n[[IMG:image52.png]]\nGọi ${{V}_{1}}$ là thể tích khối tròn xoay tạo thành khi quay tam giác $MOH$quanh trục $Ox$. Biết rằng $V=2{{V}_{1}}$. Khi đó $a=3$.",
+   "explanation": "a) Ta có $S=\\int_{0}^{4}{\\sqrt{x}dx}$. Vậy a) Đúng.\nb) $S=\\int_{0}^{4}{\\sqrt{x}dx}=\\frac{2}{3}{{x}^{\\frac{3}{2}}}\\left. {} \\right|_{0}^{4}=\\frac{16}{3}$. Vậy b) Sai\nc) Ta có $V=\\pi \\int_{0}^{4}{{{\\left( \\sqrt{x} \\right)}^{2}}dx=}\\pi \\int_{0}^{4}{xdx=}8\\pi $. Vậy c) Đúng\nd) $V=\\pi \\int_{0}^{4}{{{\\left( \\sqrt{x} \\right)}^{2}}dx=}\\pi \\int_{0}^{4}{xdx=}8\\pi $ $\\Rightarrow {{V}_{1}}=\\frac{V}{2}=4\\pi $\n[[IMG:image53.png]]\nTam giác $MOH$quanh trục $Ox$ tạo nên hai khối nón chung đáy. Gọi $N$là hình chiếu vuông góc của $M$ trên trục $Ox$. Suy ra $r=MN={{y}_{M}}=y\\left( a \\right)=\\sqrt{a}$.\n$\\Rightarrow {{V}_{1}}=\\frac{1}{3}.OH.\\pi .{{r}^{2}}=\\frac{1}{3}.4.\\pi .{{\\left( \\sqrt{a} \\right)}^{2}}=\\frac{4\\pi a}{3}$. Suy ra $4\\pi =\\frac{4\\pi a}{3}\\Rightarrow a=3$\nVậy d) Đúng.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right):y={{x}^{2}}-1$ và hai tiếp tuyến của $\\left( P \\right)$tại $A\\left( -1;0 \\right)$ và $B\\left( 2;3 \\right)$. ( làm tròn đến hàng phần trăm)\nĐiền đáp án:…………………….",
+   "explanation": "Phương trình tiếp tuyến của $\\left( P \\right)$ tại $A\\left( -1;0 \\right)$ là ${{d}_{2}}:y=-2x-2$\nPhương trình tiếp tuyến của $\\left( P \\right)$ tại $B\\left( 2;3 \\right)$ là ${{d}_{1}}:y=4x-5$\n[[IMG:image54.png]]\nTheo hình vẽ ta suy ra diện tích hình phẳng cần tìm là\n$\\begin{aligned} & S=\\int\\limits_{-1}^{\\frac{1}{2}}{\\left( {{x}^{2}}-1-\\left( -2x-2 \\right) \\right)dx+}\\int\\limits_{\\frac{1}{2}}^{2}{\\left( {{x}^{2}}-1-\\left( 4x-5 \\right) \\right)dx} \\\\ & \\,\\,\\,\\,\\,=\\int\\limits_{-1}^{\\frac{1}{2}}{\\left( {{x}^{2}}+2x+1 \\right)dx+\\int\\limits_{\\frac{1}{2}}^{2}{\\left( {{x}^{2}}-4x+4 \\right)dx}} \\\\ & \\,\\,\\,\\,\\,=\\left. \\left( \\frac{1}{3}{{x}^{3}}+{{x}^{2}}+x \\right) \\right|_{-1}^{\\frac{1}{2}}+\\left. \\left( \\frac{1}{3}{{x}^{3}}-2{{x}^{2}}+4x \\right) \\right|_{\\frac{1}{2}}^{2} \\\\ & \\,\\,\\,\\,\\,=\\frac{9}{4}=2,25 \\\\ \\end{aligned}$",
+   "short_value": 2.25,
+   "short_correct": "2,25",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Gọi ${ S }$ là diện tích mặt phẳng giới hạn bởi parabol $y={{x}^{2}}+2x-3$ và đường thẳng $y=kx+1$ với ${k}$ là tham số thực. Tìm ${k}$ để ${S}$ nhỏ nhất.\nĐiền đáp án:…………………….",
+   "explanation": "Ta có ${{x}^{2}}+2x-3=kx+1\\Leftrightarrow {{x}^{2}}-\\left( k-2 \\right)x-4=0$\nDo $ac=-4<0$ PT trên luôn có hai nghiệm phân biệt ${{x}_{1}},{{x}_{2}}$ thỏa mãn $\\left\\{ \\begin{matrix} {{x}_{1}}+{{x}_{2}}=k-2 \\\\ {{x}_{1}}.{{x}_{2}}=-4 \\\\ \\end{matrix} \\right.$\nGiả sử ${{x}_{1}}<{{x}_{2}}\\Rightarrow S=\\left| \\int\\limits_{{{x}_{1}}}^{{{x}_{2}}}{\\left( {{x}^{2}}-\\left( k-2 \\right)x-4 \\right)dx} \\right|=\\left| \\left( \\frac{{{x}^{3}}}{3}-\\frac{k-2}{2}{{x}^{2}}-4x \\right)\\left| \\begin{matrix} {{x}_{2}} \\\\ {{x}_{1}} \\\\ \\end{matrix} \\right. \\right|$\n$=\\left| \\frac{1}{3}\\left( x_{2}^{3}-x_{1}^{3} \\right)-\\frac{k-2}{2}\\left( x_{2}^{2}-x_{1}^{2} \\right)-4\\left( {{x}_{2}}-{{x}_{1}} \\right) \\right|=\\left| \\left( {{x}_{2}}-{{x}_{1}} \\right)\\left| \\frac{1}{3}\\left[ x_{1}^{2}+x_{2}^{2}+{{x}_{1}}.{{x}_{2}} \\right] \\right|-\\frac{k-2}{2}\\left( {{x}_{1}}+{{x}_{2}} \\right)-4 \\right|$\n$=\\sqrt{{{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-4{{x}_{1}}.{{x}_{2}}}\\left| \\frac{1}{3}\\left[ {{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-{{x}_{1}}.{{x}_{2}} \\right]-\\frac{k-2}{2}\\left( {{x}_{1}}+{{x}_{2}} \\right)-4 \\right|=\\sqrt{{{\\left( k-2 \\right)}^{2}}+16}\\left| \\frac{{{\\left( k-2 \\right)}^{2}}}{6}+\\frac{8}{3} \\right|$\nVậy S nhỏ nhất khi ${k=2}$.",
+   "short_value": 0,
+   "short_correct": "2",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính diện tích hình phẳng được giới hạn bởi các đường $y=\\frac{10}{3}x-{{x}^{2}}$ và $y=\\left\\{ \\begin{aligned} & -x\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,\\,\\,x\\le 1 \\\\ & x-2\\,\\,\\,\\,\\,khi\\,\\,x>1\\,\\, \\\\ \\end{aligned} \\right.$\nĐiền đáp án:…………………….",
+   "explanation": "[[IMG:image55.png]]\nKhi $x\\le 1$ ta xét phương trình hoành độ giao điểm $\\frac{10}{3}x-{{x}^{2}}=-x$ giải ra nghiệm $x=0$\nKhi $x>1$ ta xét phương trình hoành độ giao điểm $\\frac{10}{3}x-{{x}^{2}}=x-2$ giải ra nghiệm $x=3$\nVậy diện tích hình phẳng là\n$S=\\int\\limits_{0}^{1}{\\left( \\frac{10}{3}x-{{x}^{2}}+x \\right)dx+}\\int\\limits_{1}^{3}{\\left( \\frac{10}{3}x-{{x}^{2}}-x+2 \\right)dx=\\frac{13}{2}.}$",
+   "short_value": 3,
+   "short_correct": "6,5|13/2",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hình phẳng $\\left( H \\right)$ giới hạn bởi các đường $y=\\left| {{x}^{2}}-1 \\right|$ và $y=k$, với $0<k<1$. Tìm $k$ để diện tích hình phẳng $\\left( H \\right)$ gấp hai lần diện tích hình phẳng được kẻ sọc ở hình vẽ bên. Khi đó $k=\\sqrt[m]{n}-p$ thì giá trị của $m+n+p$ bằng bao nhiêu?\n[[IMG:image56.png]]\nĐiền đáp án:…………………….",
+   "explanation": "[[IMG:image57.png]]\nGọi $S$ là diện tích hình phẳng $\\left( H \\right)$. Lúc dó $S=2{{S}_{1}}+2{{S}_{2}}$, trong đó ${{S}_{1}}$ là diện tích phần gạch sọc ở bên phải $Oy$ và ${{S}_{2}}$ là diện tích phần gạch ca rô trong hình vẽ bên.\nGọi$A,$ $B$ là các giao diếm có hoành độ dương của đường thẳng $y=k$ và đồ thị hàm số$y=\\left| {{x}^{2}}-1 \\right|$, trong đó $A\\left( \\sqrt{1-k};k \\right)$ và $B\\left( \\sqrt{1+k};k \\right)$.\nThco yêu cầu bài toán $S=2\\cdot 2{{S}_{1}}\\Leftrightarrow {{S}_{1}}={{S}_{2}}$.\n$\\Leftrightarrow \\int\\limits_{0}^{\\sqrt{1-k}}{\\left( 1-{{x}^{2}}-k \\right)\\text{d}x}\\text{ }\\!\\!~\\!\\!\\text{ }=\\int\\limits_{\\sqrt{1-k}}^{1}{\\left( k-1-{{x}^{2}} \\right)\\text{d}x}+\\int\\limits_{1}^{\\sqrt{1+k}}{\\left( k-{{x}^{2}}+1 \\right)\\text{d}x}$.\n$\\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }\\left( 1-k \\right)\\sqrt{1-k}-\\frac{1}{3}\\left( 1-k \\right)\\sqrt{1-k}=\\frac{1}{3}-\\left( 1-k \\right)-\\frac{1}{3}\\left( 1-k \\right)\\sqrt{1-k}$.\n$+\\left( 1-k \\right)\\sqrt{1-k}+\\left( 1+k \\right)\\sqrt{1+k}-\\frac{1}{3}\\left( 1+k \\right)\\sqrt{1+k}-\\left( 1+k \\right)+\\frac{1}{3}$.\n$\\begin{aligned} & \\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }\\frac{2}{3}\\left( 1+k \\right)\\sqrt{1+k}=\\frac{4}{3} \\\\ & \\Leftrightarrow {{\\left( \\sqrt{1+k} \\right)}^{3}}=2 \\\\ & \\Leftrightarrow k=\\sqrt[3]{4}-1=\\sqrt[m]{n}-p \\\\ \\end{aligned}$.\nVậy $m=3;n=4;p=1\\Rightarrow m+n+p=8$",
+   "short_value": 8,
+   "short_correct": "8",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D02",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một khối cầu có bán kính là $5\\left( \\text{dm} \\right)$, người ta cắt bỏ hai phần của khối cầu bằng hai mặt phẳng song song cùng vuông góc đường kính và cách tâm một khoảng $3\\left( \\text{dm} \\right)$ để làm một chiếc lu đựng nước. Tính thể tích nước mà chiếc lu chứa được ( quy tròn đến hàng đơn vị của decimét khối).\n[[IMG:image58.png]]\nĐiền đáp án:…………………….",
+   "explanation": "[[IMG:image59.png]]\nTrong mặt phẳng tọa độ $Oxy$, xét đường tròn $(C):{{x}^{2}}+{{y}^{2}}=25$.\nTa thấy nếu cho nửa trên trục $Ox$ của $\\left( C \\right)$ quay quanh trục $Ox$ ta được mặt cầu bán kính bằng 5.\nNếu cho hình phẳng $\\left( H \\right)$ giới hạn bởi nửa trên trục $Ox$ của $\\left( C \\right)$, trục $Ox$, hai đường thẳng $x=0,\\text{ }x=3$ quay xung quanh trục $Ox$ ta sẽ được khối tròn xoay chính là một nửa của cái lu.\nTa có ${{x}^{2}}+{{y}^{2}}=25\\Leftrightarrow y=\\pm \\sqrt{25-{{x}^{2}}}$.\n$\\Rightarrow $ Nửa trên trục $Ox$ của $\\left( C \\right)$ có phương trình $y=\\sqrt{25-{{x}^{2}}}$.\nDo đó, thể tích vật thể tròn xoay khi cho $\\left( H \\right)$ quay quanh $Ox$ là:\n${{V}_{1}}=\\pi \\int\\limits_{0}^{3}{\\left( 25-{{x}^{2}} \\right)\\text{d}x}=\\left. \\pi \\left( 25x-\\frac{{{x}^{3}}}{3} \\right) \\right|_{0}^{3}=66\\pi $.\n$V=2{{V}_{1}}=132\\pi \\left( \\text{d}{{\\text{m}}^{3}} \\right)\\approx 415\\left( \\text{d}{{\\text{m}}^{3}} \\right)$.\nVậy thể tích nước mà chiếc lu chứa được khoảng $415\\text{d}{{\\text{m}}^{3}}$.",
+   "short_value": 3,
+   "short_correct": "415",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D04",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Biết $F\\left( x \\right)$ và $G\\left( x \\right)$ là hai nguyên hàm của hàm số $f\\left( x \\right)$ trên $\\mathbb{R}$ và thoả mãn $\\int\\limits_{0}^{4}{f\\left( x \\right)\\text{d}x}=F\\left( 4 \\right)-G\\left( 0 \\right)+2m$, với $m>0$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=F\\left( x \\right)$, $y=G\\left( x \\right)$; $x=0$ và $x=4$. Khi $S=8$ thì $m$ bằng?\nĐiền đáp án:…………………….",
+   "explanation": "Trả lời: $m=1$\nTheo đề ta có $\\int\\limits_{0}^{4}{f\\left( x \\right)\\text{d}x}=F\\left( 4 \\right)-G\\left( 0 \\right)+2m\\Rightarrow F\\left( x \\right)\\left| \\underset{0}{\\overset{4}{\\mathop {}}}\\, \\right.=F\\left( 4 \\right)-G\\left( 0 \\right)+2m$\n$\\Rightarrow F\\left( 4 \\right)-F\\left( 0 \\right)=F\\left( 4 \\right)-G\\left( 0 \\right)+2m\\Rightarrow G\\left( 0 \\right)-F\\left( 0 \\right)=2m$. $\\left( 1 \\right)$\nMặt khác, do $F\\left( x \\right)$ và $G\\left( x \\right)$ là hai nguyên hàm của hàm số $f\\left( x \\right)$ trên $\\mathbb{R}$ nên ta có $G\\left( x \\right)-F\\left( x \\right)=C$ (không đổi) với mọi $x\\in \\mathbb{R}$. $\\left( 2 \\right)$\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ suy ra $G\\left( x \\right)-F\\left( x \\right)=2m>0$, với mọi $x\\in \\mathbb{R}$.\nKhi đó ta có $S=\\int\\limits_{0}^{4}{\\left| G\\left( x \\right)-F\\left( x \\right) \\right|\\text{d}x=\\int\\limits_{0}^{4}{\\text{2}m.\\text{d}x}}=2mx\\left| \\underset{0}{\\overset{4}{\\mathop{{}}}}\\, \\right.=8m$.\nTheo đề ta có $8m=8\\Leftrightarrow m=1$.",
+   "short_value": 1,
+   "short_correct": "1",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D01",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  }
+ ],
+ "flags": []
+}

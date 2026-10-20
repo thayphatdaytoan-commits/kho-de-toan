@@ -1,0 +1,638 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "2",
+  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho 2 biến cố $A$ và $B$, tìm $P\\left( A \\right)$ biết $P\\left( A|B \\right)=0,8;$ $P\\left( A|\\overline{B} \\right)=0,3$; $P\\left( B \\right)=0,4$.",
+   "explanation": "Ta có $P\\left( B \\right)=0,4\\Rightarrow P\\left( \\overline{B} \\right)=1-0,4=0,6$.\nTheo công thức xác suất toàn phần:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)$ $\\Leftrightarrow P\\left( A \\right)=0,4.0,8\\,+0,6.0,3=0,5$.",
+   "options": [
+    "$0,1$",
+    "$0,5$",
+    "$0,04$",
+    "$0,55$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho 2 biến cố $A$ và $B$ biết $P\\left( A|B \\right)=0,08;$ $P\\left( \\overline{A}|\\overline{B} \\right)=0,63;$ $P\\left( B \\right)=0,03$. Khi đó xác suất xảy ra biến cố $A$ là bao nhiêu?",
+   "explanation": "Ta có: $P\\left( B \\right)=0,03\\Rightarrow P\\left( \\overline{B} \\right)=1-0,03=0,97$.\n$P\\left( \\overline{A}|\\overline{B} \\right)=0,63\\Rightarrow P\\left( A|\\overline{B} \\right)=1-0,63=0,37$.\nTheo công thức xác suất toàn phần:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)$ $\\Leftrightarrow P\\left( A \\right)=0,03.0,08+0,97.0,37=0,3613$.",
+   "options": [
+    "$0,112$",
+    "$0,5231$",
+    "$0,3613$",
+    "$0,063$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ với $0<P\\left( B \\right)<1$. Khẳng định nào sau đây là đúng?",
+   "explanation": "Theo công thức xác suất toàn phần, ta có: $P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)$.",
+   "options": [
+    "$P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)$",
+    "$P\\left( A \\right)=P\\left( A \\right)P\\left( A|B \\right)+P\\left( \\overline{A} \\right)P\\left( A|\\overline{B} \\right)$",
+    "$P\\left( A \\right)=P\\left( B \\right)P\\left( A|\\overline{B} \\right)+P\\left( \\overline{B} \\right)P\\left( A|B \\right)$",
+    "$P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)-P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D04",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$. Biết $P\\left( B \\right)=0,01$; $P\\left( A|B \\right)=0,7$; $P\\left( A|\\overline{B} \\right)=0,09$. Khi đó $P\\left( A \\right)$ bằng",
+   "explanation": "Ta có: $P\\left( B \\right)=0,01\\Rightarrow P\\left( \\overline{B} \\right)=1-0,01=0,99$.\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( A \\right)=P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)=0,01.0,7+0,99.0,09=0,0961$.",
+   "options": [
+    "$0,0079$",
+    "$0,0961$",
+    "$0,0916$",
+    "$0,0970$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ với $P\\left( B \\right)=0,8$, $P\\left( A|B \\right)=0,7$, $P\\left( A|\\overline{B} \\right)=0,45$. Tính $P\\left( A \\right)$.",
+   "explanation": "Ta có $P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=1-0,8=0,2$.\nCông thức xác suất toàn phần$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,8.0,7+0,2.0,45=0,65$.",
+   "options": [
+    "$0,25$",
+    "$0,65$",
+    "$0,55$",
+    "$0,5$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( A \\right)=0,2$, $P\\left( B \\right)=0,26$, $P\\left( B|A \\right)=0,7$. Tính $P\\left( A|B \\right)$.",
+   "explanation": "Theo công thức Bayes, ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}$.",
+   "options": [
+    "$\\frac{7}{13}$",
+    "$\\frac{6}{13}$",
+    "$\\frac{4}{13}$",
+    "$\\frac{9}{13}$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( B \\right)=0,8$, $P\\left( A|B \\right)=0,7$, $P\\left( A|\\overline{B} \\right)=0,45$. Tính $P\\left( B|A \\right)$.",
+   "explanation": "+ Ta có: $P\\left( \\overline{B} \\right)=1-0,8=0,2$.\n+ Công thức Bayes: $P\\left( B|A \\right)=\\frac{P\\left( B \\right)P\\left( A|B \\right)}{P\\left( B \\right)P\\left( A|B \\right)+P\\left( \\overline{B} \\right)P\\left( A|\\overline{B} \\right)}$\n$\\Rightarrow P\\left( B|A \\right)=\\frac{0,8.0,7}{0,8.0,7+0,2.0,45}=\\frac{56}{65}$.",
+   "options": [
+    "$0,25$",
+    "$\\frac{56}{65}$",
+    "$0,65$",
+    "$0,5$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "dap_an_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( A \\right)=0,2$, $P\\left( B|A \\right)=0,7$, $P\\left( B|\\overline{A} \\right)=0,15$. Tính $P\\left( A|B \\right)$.",
+   "explanation": "+ Ta có: $P\\left( A \\right)=0,2$ $\\Rightarrow P\\left( \\overline{A} \\right)=0,8$, $P\\left( B|A \\right)=0,7$, $P\\left( B|\\overline{A} \\right)=0,15$.\n+ $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)$ $\\Rightarrow P\\left( B \\right)=0,2.0,7+0,8.0,15=0,26$.\n+ Theo công thức Bayes: $P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}$ $\\Rightarrow P\\left( A|B \\right)=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}$.",
+   "options": [
+    "$\\frac{7}{13}$",
+    "$\\frac{6}{13}$",
+    "$\\frac{4}{13}$",
+    "$\\frac{9}{13}$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Hai máy tự động sản xuất cùng một loại chi tiết, trong đó máy I sản xuất $35\\%,$máy II sản xuất $65\\%$tổng sản lượng. Tỉ lệ phế phẩm của các máy lần lượt là $0,3\\%$và $0,7\\%.$Chọn ngẫu nhiên $1$ sản phẩm từ kho. Tính xác suất để chọn được phế phẩm?",
+   "explanation": "Gọi ${{A}_{1}}$là biến cố “Sản phẩm được chọn do máy I sản xuất”\n${{A}_{2}}$ là biến cố “Sản phẩm được chọn do máy II sản xuất”\nB là biến cố “Sản phẩm được chọn là phế phẩm”\nTa có $P\\left( {{A}_{1}} \\right)=0,35$, $P\\left( {{A}_{2}} \\right)=0,65$, $P\\left( B|{{A}_{1}} \\right)=0,003$, $P\\left( B|{{A}_{2}} \\right)=0,007$\n$P\\left( B \\right)=P\\left( B|{{A}_{1}} \\right).P\\left( {{A}_{1}} \\right)+P\\left( B|{{A}_{2}} \\right).P\\left( {{A}_{2}} \\right)=0,0056$",
+   "options": [
+    "$0,0056$",
+    "$0,0065$",
+    "$0,065$",
+    "$0,056$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Hai máy tự động sản xuất cùng một loại chi tiết, trong đó máy I sản xuất $35\\%,$máy II sản xuất $65\\%$tổng sản lượng. Tỉ lệ phế phẩm của các máy lần lượt là $0,3\\%$và $0,7\\%.$Chọn ngẫu nhiên 1 sản phẩm từ kho. Tính xác suất để chọn được phế phẩm do máy I sản xuất?",
+   "explanation": "Gọi ${{A}_{1}}$là biến cố “Sản phẩm được chọn do máy I sản xuất”\n${{A}_{2}}$ là biến cố “Sản phẩm được chọn do máy II sản xuất”\nB là biến cố “Sản phẩm được chọn là phế phẩm”\nSuy ra ${{A}_{1}}|B$ là biến cố “chọn được phế phẩm do máy I sản xuất”\nTa có $P\\left( {{A}_{1}} \\right)=0,35$, $P\\left( {{A}_{2}} \\right)=0,65$, $P\\left( B|{{A}_{1}} \\right)=0,003$, $P\\left( B|{{A}_{2}} \\right)=0,007$\n$P\\left( B \\right)=P\\left( B|{{A}_{1}} \\right).P\\left( {{A}_{1}} \\right)+P\\left( B|{{A}_{2}} \\right).P\\left( {{A}_{2}} \\right)=0,0056$\nTheo công thức Bayes có:\n$P\\left( {{A}_{1}}|B \\right)=\\frac{P\\left( B|{{A}_{1}} \\right).P\\left( {{A}_{1}} \\right)}{P\\left( B \\right)}=0,1875$.",
+   "options": [
+    "$0,0056$",
+    "$0,1875$",
+    "$0,1785$",
+    "$0,1587$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Người ta khảo sát khả năng chơi nhạc cụ của một nhóm học sinh tại trường X . Nhóm này có $70\\%$ học sinh là nam. Kết quả khảo sát cho thấy có $30\\%$ học sinh nam và $15\\%$ học sinh nữ biết chơi ít nhất một nhạc cụ. Chọn ngẫu nhiên một học sinh trong nhóm này. Tính xác suất để chọn được học sinh biết chơi ít nhất một nhạc cụ.",
+   "explanation": "Xét phép thử chọn ngẫu nhiên một học sinh trong nhóm.\nGọi $A$ là biến cố \"Chọn được một học sinh biết chơi ít nhất một nhạc cụ\" và $B,\\bar{B}$ lần lượt là các biến cố \"Chọn được một học sinh nam\" và \"Chọn được một học sinh nữ\".\nTheo đề bài: $P(B)=70\\%=0,7;P(\\overline{B})=1-0,7=0,3$;\n$P(A\\mid B)=30\\%=0,3;P(A\\mid \\bar{B})=15\\%=0,15.$\nÁp dụng công thức xác suất toàn phần, ta có:\n$P(A)=P(B)\\cdot P(A\\mid B)+P(\\bar{B})\\cdot P(A\\mid \\bar{B})=0,7\\cdot 0,3+0,3\\cdot 0,15=0,255.$\nVậy xác suất để chọn được một học sinh biết chơi nhạc cụ là $0,255$.",
+   "options": [
+    "$0,45$",
+    "$0,35$",
+    "$0,255$",
+    "$0,128$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Kết quả khảo sát tại một xã cho thấy có $25\\%$ cư dân hút thuốc lá. Tỉ lệ cư dân thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp trong số những người hút thuốc lá và không hút thuốc lá lần lượt là $60\\%$ và $25\\%$. Nếu ta gặp một cư dân của xã thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp thì xác suất người đó có hút thuốc lá là bao nhiêu?",
+   "explanation": "Giả sử ta gặp một cư dân của xã, gọi $A$ là biến cố \"Người đó có hút thuốc lá\" và $B$ là biến cố \"Người đó thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp\". Ta có sơ đồ hình cây sau:\n[[IMG:image9.png]]\nTa có $P(B)=P(A)\\cdot P(B\\mid A)+P(\\bar{A})\\cdot P(B\\mid \\bar{A})=0,15+0,1875=0,3375$.\nTheo công thức Bayes, ta có $P(A\\mid B)=\\frac{P(A)P(B\\mid A)}{P(B)}=\\frac{0,15}{0,3375}=\\frac{4}{9}$.\nVậy nếu ta gặp một cư dân của xã thường xuyên gặp các vấn đề sức khoẻ về đường hô hấp thì xác suất người đó có hút thuốc lá là $\\frac{4}{9}$.",
+   "options": [
+    "$\\frac{4}{9}$",
+    "$\\frac{5}{9}$",
+    "$\\frac{7}{9}$",
+    "$\\frac{8}{9}$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để lấy được bi xanh từ hộp thứ nhất là $\\frac{3}{8}$.",
+    "b": "Xác suất để lấy được bi vàng từ hộp thứ nhất là $\\frac{5}{7}$.",
+    "c": "Biết rằng lấy được bi màu xanh từ hộp thứ nhất. Xác suất để lấy được 2 viên bi khác màu từ hộp thứ hai là $\\frac{9}{13}$.",
+    "d": "Xác suất để lấy được 2 bi vàng từ hộp thứ hai là $\\frac{5}{32}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Hộp thứ nhất chứa $5$ viên bi vàng, $3$ viên bi xanh. Hộp thứ hai chứa $4$ viên bi vàng, $5$ viên bi xanh và $3$ viên bi đỏ. Lấy ngẫu nhiên $1$ viên bi từ hộp thứ nhất bỏ vào hộp thứ hai, sau đó lấy ra $2$ viên bi bất kỳ từ hộp thứ hai.",
+   "explanation": "Gọi $A$ là biến cố lấy được bi xanh từ hộp thứ nhất\na) Đúng. Ta có: $P\\left( A \\right)=\\frac{3}{8}$.\nb) Sai. Ta có $\\overline{A}$ là biến cố lấy được bi vàng từ hộp thứ nhất, ta có: $P\\left( \\overline{A} \\right)=\\frac{5}{8}$.\nc) Đúng.\nGọi ${{B}_{1}}$ là biến cố lấy được 2 bi khác màu từ hộp thứ hai. Ta có:\n$P\\left( {{B}_{1}}|A \\right)=\\frac{C_{4}^{1}.C_{6}^{1}+C_{4}^{1}.C_{3}^{1}+C_{3}^{1}.C_{6}^{1}}{C_{13}^{2}}=\\frac{9}{13}$.\nd) Sai.\nGọi ${{B}_{2}}$ là biến cố lấy được 2 bi vàng từ hộp thứ hai. Ta có:\n$P\\left( {{B}_{2}} \\right)=P\\left( A \\right).P\\left( {{B}_{2}}|A \\right)+P\\left( \\overline{A} \\right).P\\left( {{B}_{2}}|\\overline{A} \\right)=\\frac{3}{8}\\cdot \\frac{C_{4}^{2}}{C_{13}^{2}}+\\frac{5}{8}\\cdot \\frac{C_{5}^{2}}{C_{13}^{2}}=\\frac{17}{156}.$",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Khi VĐV được chọn là nam, xác suất để VĐV này chưa hoàn thành sub 4 cự ly Marathon là $68\\%$.",
+    "b": "Xác suất để thành viên được chọn đã hoàn thành sub 4 là $22\\%$.",
+    "c": "Xác suất để thành viên được chọn là nữ đã hoàn thành sub 4 là $2\\%$.",
+    "d": "Biết rằng VĐV được chọn đã hoàn thành sub 4, xác suất để VĐV đó là nam bằng $96\\%$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "(NB-NB-TH-TH) Chạy Marathon là môn thể thao mà tại đó, người chơi sẽ hoàn thành quãng đường 42,195 km trong khoảng thời gian nhất định. FM sub 4 là thành tích dành cho những người chơi hoàn thành quãng đường Marathon dưới 4 giờ.\nTrong CLB AKR, tỷ lệ thành viên nam là $72\\%$, tỷ lệ thành viên nữ là $28\\%$. Đối với nam, tỷ lệ VĐV hoàn thành Marathon sub 4 là $32\\%$; đối với nữ tỷ lệ VĐV hoàn thành sub 4 là $3\\%$. Chọn ngẫu nhiên 1 thành viên từ CLB AKR:",
+   "explanation": "Gọi $A$ là biến cố VĐV được chọn là nam.\nGọi $B$ là biến cố VĐV được chọn đã hoàn thành cự ly Marathon sub 4.\na) Đúng.\nKhi VĐV được chọn là nam, xác suất để VĐV này chưa hoàn thành sub 4 cự ly Marathon là:\n$P\\left( \\overline{B}|A \\right)=1-P\\left( B|A \\right)=1-32\\%=68\\%$.\nb) Sai.\nXác suất để VĐV được chọn đã hoàn thành sub 4 là:\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)=0,72.0,32+0,28.0,03\\approx 0,24=24\\%$.\nc) Sai.\nXác suất để VĐV được chọn là nữ và đã hoàn thành sub 4 là:\n$P\\left( \\overline{A}.B \\right)=P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)=0,28.0,03\\approx 0,0084\\approx 0,84\\%$.\nd) Đúng.\nBiết VĐV đã hoàn thành sub 4, xác suất để VĐV đó là nam là:\n$\\begin{aligned} & P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)} \\\\ & =\\frac{0,72.0,32}{0,72.0,32+0,28.0,03}\\approx 0,96=96\\% \\\\ \\end{aligned}$",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để hai viên bi lấy ra từ hộp hai là bi đỏ bằng $\\frac{19}{45}$.",
+    "b": "Xác suất để hai viên bi lấy ra từ hộp hai có 1 bi đỏ và 1 bi xanh bằng $\\frac{1}{9}$.",
+    "c": "Biết rằng hai viên bi lấy ra từ hộp thứ hai là bi đỏ. Xác suất để 2 viên bi lấy ra từ hộp thứ nhất cũng là bi đỏ bằng $\\frac{14}{19}$.",
+    "d": "Biết rằng hai viên bi lấy ra từ hộp thứ hai có 1 bi đỏ và 1 bi xanh. Xác suất để 2 viên bi lấy ra từ hộp thứ nhất cũng có 1 bi đỏ và 1 bi xanh bằng $\\frac{5}{19}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Hộp thứ nhất có $1$ viên bi xanh và $5$ viên bi đỏ. Hộp thứ hai có 3 viên bi xanh và $5$ viên bi đỏ. Các viên bi là khác nhau. Lấy ra ngẫu nhiên đồng thời 2 viên bi từ hộp thứ nhất chuyển sang hộp thứ hai. Sau đó lại lấy ra ngẫu nhiên $2$ viên bi từ hộp thứ hai.",
+   "explanation": "Gọi $A$ là biến cố “Lấy được hai viên bi đỏ từ hộp thứ nhất” và $B$ là biến cố “Lấy được hai viên bi đỏ từ hộp thứ hai”.\nGọi $C$ là biến cố “Lấy được 1 viên bi đỏ và 1 viên bi xanh từ hộp thứ nhất” và $D$ là biến cố “Lấy được 1 viên bi đỏ và 1 viên bi xanh từ hộp thứ hai”.\nTa có: $P\\left( A \\right)=\\frac{C_{5}^{2}}{C_{6}^{2}}=\\frac{2}{3}$; $P\\left( B|A \\right)=\\frac{C_{7}^{2}}{C_{10}^{2}}=\\frac{7}{15}$; $P\\left( C \\right)=\\frac{C_{1}^{1}C_{5}^{1}}{C_{6}^{2}}=\\frac{1}{3}$; $P\\left( D|C \\right)=\\frac{C_{4}^{1}C_{6}^{1}}{C_{10}^{2}}=\\frac{8}{15}$.\nSuy ra $P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=\\frac{1}{3}$; $P\\left( B|\\overline{A} \\right)=\\frac{C_{6}^{2}}{C_{10}^{2}}=\\frac{1}{3}$; $P\\left( \\overline{C} \\right)=1-P\\left( C \\right)=\\frac{2}{3}$; $P\\left( D|\\overline{C} \\right)=\\frac{C_{3}^{1}C_{7}^{1}}{C_{10}^{2}}=\\frac{7}{15}$\na) Đúng.\n$P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)=\\frac{2}{3}.\\frac{7}{15}+\\frac{1}{3}.\\frac{1}{3}=\\frac{19}{45}.$\nb) Sai.\n$P\\left( D \\right)=P\\left( C \\right).P\\left( D|C \\right)+P\\left( \\overline{C} \\right).P\\left( D|\\overline{C} \\right)=\\frac{1}{3}.\\frac{8}{15}+\\frac{2}{3}.\\frac{7}{15}=\\frac{22}{45}.$\nc) Đúng.\nÁp dụng công thức Bayes ta có $P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{2}{3}.\\frac{7}{15}:\\frac{19}{45}=\\frac{14}{19}$.\nd) Sai.\n$P\\left( C|D \\right)=\\frac{P\\left( C \\right).P\\left( D|C \\right)}{P\\left( D \\right)}=\\frac{1}{3}.\\frac{8}{15}:\\frac{22}{45}=\\frac{4}{11}$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất nhân viên được chọn có mua bảo hiểm nhân thọ là $0,061$.",
+    "b": "Biết rằng nhân viên được chọn có mua bảo hiểm nhân thọ. Xác suất nhân viên đó là nam là $\\frac{55}{118}$.",
+    "c": "Biết rằng nhân viên được chọn có mua bảo hiểm nhân thọ. Xác suất nhân viên đó là nữ là $\\frac{63}{118}$",
+    "d": "Biết rằng nhân viên được chọn có mua bảo hiểm nhân thọ. Khi đó nhân viên đó là nam nhiều hơn là nữ."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một doanh nghiệp có 45% nhân viên là nữ. Tỉ lệ nhân viên nữ và tỉ lệ nhân viên nam mua bảo hiểm nhân thọ lần lượt là 7% và 5%. Chọn ngẫu nhiên một nhân viên của doanh nghiệp",
+   "explanation": "Gọi A là biến cố “Nhân viên được chọn là nữ” và B là biến cố “Nhân viên được chọn có mua bảo hiểm nhân thọ”.\nTheo đề ta có $P\\left( A \\right)=0,45$; $P\\left( B|A \\right)=0,07$; $P\\left( B|\\overline{A} \\right)=0,05$. Suy ra $P\\left( \\overline{A} \\right)=0,55$\na) Sai.\nTa có $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)=0,45.0,07+0,55.0,05=0,059$.\nb) Đúng\n$P\\left( \\overline{A}|B \\right)=\\frac{P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)}{P\\left( B \\right)}=\\frac{0,55.0,05}{0,059}=\\frac{55}{118}$ .\nc) Đúng\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,45.0,07}{0,059}=\\frac{63}{118}$.\nd) Sai\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,45.0,07}{0,059}=\\frac{63}{118}$\nDo $P\\left( A|B \\right)=\\frac{63}{118}>\\frac{55}{118}=P\\left( \\overline{A}|B \\right)$ nên nhân viên được chọn có mua bảo hiểm nhân thọ là nữ sẽ nhiều hơn là nam.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tại một địa phương có 500 người cao tuổi, bao gồm 260 nam và 240 nữ. Trong nhóm người cao tuổi nam và nữ lần lượt có ${40 \\%}$ và ${55 \\%}$ bị bệnh tiểu đường. Chọn ngẫu nhiên một người. Xác suất để chọn được một người không bị bệnh tiểu đường là bao nhiêu? (kết quả làm tròn đến hàng phần trăm)",
+   "explanation": "Xét các biến cố:\n${A}$ : \"Chọn được người không bị bệnh tiểu đường\";\n${B}$ : \"Chọn được người cao tuổi là nam\";\n${\\bar{B}}$ : \"Chọn được người cao tuổi là nữ\".\nTừ giả thiết, ta có: $\\text{P}\\left( B \\right)=\\frac{260}{500}=0,52$; $\\text{P}\\left( A\\mid B \\right)=1-0,4=0,6$;\n$\\text{P}\\left( {\\bar{B}} \\right)=\\frac{240}{500}=0,48$; $\\text{P}\\left( A\\mid \\bar{B} \\right)=1-0,55=0,45$.\nTheo công thức xác suất toàn phần, ta có:\n$\\text{P}(A)=\\text{P}(B)\\cdot \\text{P}(A\\mid B)+\\text{P}(\\bar{B})\\cdot \\text{P}(A\\mid \\bar{B})=0,52\\cdot 0,6+0,48\\cdot 0,45=0,528\\approx 0,53$.\nVậy xác suất để chọn được một người không bị bệnh tiểu đường là $0,53$.",
+   "short_value": 0.53,
+   "short_correct": "0,53",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có hai hộp bóng bàn, các quả bóng bàn có kích thước và hình dạng như nhau. Hộp thứ nhất có 3 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng. Hộp thứ hai có 6 quả bóng bàn màu trắng và 4 quả bóng bàn màu vàng. Lấy ngẫu nhiên 4 quả bóng bàn ở hộp thứ nhất bỏ vào hộp thứ hai rồi lấy ngẫu nhiên 1 quả bóng bàn ở hộp thứ hai ra. Tính xác suất để lấy được quả bóng bàn màu vàng từ hộp thứ hai.",
+   "explanation": "Vì hộp thứ nhất có 3 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng nên khi lấy 4 quả bóng bàn ở hộp thứ nhất thì có hai khả năng: khả năng thứ nhất là lấy được 3 quả bóng bàn màu trắng và 1 quả bóng bàn màu vàng; khả năng thứ hai là lấy được 2 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng.\nXét các biến cố:\nA : \"Lấy được quả bóng bàn màu vàng từ hộp thứ hai\";\n${B}$ : \"Lấy được 4 quả bóng bàn ở hộp thứ nhất, trong đó có 1 quả bóng bàn màu vàng\";\n${\\bar{B}}$ : \"Lấy được 4 quả bóng bàn ở hộp thứ nhất, trong đó có 2 quả bóng bàn màu vàng\".\nTrường hợp 1: Số cách lấy 4 quả bóng bàn từ hộp thứ nhất là ${\\mathrm{C}_5^4}$, có 1 cách lấy 3 quả bóng bàn màu trắng và 2 cách lấy 1 quả bóng bàn màu vàng, suy ra $\\text{P}\\left( B \\right)=\\frac{1\\cdot 2}{\\text{C}_{5}^{4}}=\\frac{2}{5}$.\nVi khi đó hộp thứ hai có 9 quả bóng bàn màu trắng và 5 quả bóng bàn màu vàng nên ${\\mathrm{P}(A \\mid B)=\\frac{5}{14}}$.\nTrường hợp 2: Số cách lấy 4 quả bóng bàn từ hộp thứ nhất là ${\\mathrm{C}_5^4}$, có ${\\mathrm{C}_3^2}$ cách lấy 2 quả bóng bàn màu trắng và 1 cách lấy 2 quả bóng bàn màu vàng, suy ra ${\\mathrm{P}(\\bar{B})=\\frac{\\mathrm{C}_3^2 \\cdot 1}{\\mathrm{C}_5^4}=\\frac{3}{5}}$.\nVì khi đó hộp thứ hai có 8 quả bóng bàn màu trắng và 6 quả bóng bàn màu vàng nên ${\\mathrm{P}(A \\mid \\bar{B})=\\frac{6}{14}}$.\nTheo công thức xác suất toàn phần, ta có:\n$\\text{P}\\left( A \\right)\\text{=P}\\left( B \\right)\\cdot \\text{P}\\left( A\\mid B \\right)+\\text{P}\\left( {\\bar{B}} \\right)\\text{.P}\\left( A\\mid \\bar{B} \\right)=\\frac{2}{5}\\cdot \\frac{5}{14}+\\frac{3}{5}\\cdot \\frac{6}{14}=0,4$.\nVậy xác suất để lấy được quả bóng bàn màu vàng từ hộp thứ hai là $0,4$.",
+   "short_value": 0.4,
+   "short_correct": "0,4",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong một đợt nghiên cứu tỷ lệ ung thư do hút thuốc lá gây nên, người ta thấy rằng tại tỉnh Hà Nam tỉ lệ người dân của tỉnh nghiện thuốc lá là 20%; tỉ lệ người bị bệnh ung thư trong số người nghiện thuốc lá là 70%, trong số người không nghiện thuốc lá là 15%. Hỏi khi gặp một người bị bệnh ung thư tại tỉnh này thì xác suất người đó nghiện thuốc lá là bao nhiêu ( kết quả làm tròn đến hàng phần trăm)?",
+   "explanation": "Gọi $A$ là biến cố “người nghiện thuốc lá”, suy ra $\\bar{A}$ là biến cố “người không nghiện thuốc lá”\nGọi $B$ là biến cố “người bị bệnh ung thư”\nTheo giả thiết ta có:\n$\\begin{aligned} & P\\left( A \\right)=0,2\\Rightarrow P\\left( {\\bar{A}} \\right)=0,8 \\\\ & P\\left( B|A \\right)=0,7 \\\\ & P\\left( B|\\bar{A} \\right)=0,15 \\\\ \\end{aligned}$\nÁp dụng công thức xác suất toàn phần ta có: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=0,2.0,7+0,8.0,15=0,26$\nXác suất mà người đó là nghiện thuốc lá khi biết bị bệnh ung thư là $P\\left( A|B \\right)$\nTheo công thức Bayes, ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}\\approx 0,54$.\nNhư vậy khi gặp một người bị bệnh ung thư tại tỉnh này thì xác suất (làm tròn đến hàng phần trăm) người đó nghiện thuốc lá là $0,54$.",
+   "short_value": 0.54,
+   "short_correct": "0,54",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D03",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một đội bắn súng gồm có 8 nam và 2 nữ. Xác suất bắn trúng của các xạ thủ nam là 0,8 còn của các xạ thủ nữ là 0,9. Chọn ngẫu nhiên một xạ thủ bắn một viên đạn và xạ thủ đó đã bắn trúng. Tính xác suất (làm tròn đến hàng phần trăm) để xạ thủ đó là nữ?",
+   "explanation": "Gọi $A$ là biến cố “Xạ thủ được chọn là nữ”, suy ra $\\bar{A}$ là biến cố “xạ thủ được chọn là nam”\nGọi $B$ là biến cố “xạ thủ được chọn bắn trúng”\nTheo giả thiết ta có:\n$\\begin{aligned} & P\\left( A \\right)=\\frac{2}{2+8}=\\frac{1}{5}\\Rightarrow P\\left( {\\bar{A}} \\right)=\\frac{4}{5} \\\\ & P\\left( B|A \\right)=0,9 \\\\ & P\\left( B|\\bar{A} \\right)=0,8 \\\\ \\end{aligned}$\nÁp dụng công thức xác suất toàn phần ta có: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=\\frac{1}{5}.0,9+\\frac{4}{5}.0,8=0,82$\nXác suất để xạ thủ được chọn ra bắn trúng đó là nữ là $P\\left( A|B \\right)$\nTheo công thức Bayes, ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{\\frac{1}{5}.0,9}{0,82}=\\frac{9}{41}\\approx 0,22$.\nVậy xác suất để xạ thủ bắn trúng đó là nữ là $0,22$.",
+   "short_value": 0.22,
+   "short_correct": "0,22",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một nhà máy sản xuất bóng đèn có tỉ lệ bóng đèn đạt tiêu chuẩn là 80%. Trước khi xuất ra thị trường, mỗi bóng đèn đều được kiểm tra chất lượng. Vì sự kiểm tra không thể tuyệt đối hoàn hảo nên tỉ lệ công nhận một bóng đèn đạt tiêu chuẩn là 0,9 và tỉ lệ loại bỏ một bóng hỏng là 0,95. Hãy tính tỉ lệ bóng đạt tiêu chuẩn sau khi qua khâu kiểm tra chất lượng.",
+   "explanation": "Gọi $A$ là biến cố “bóng đạt chuẩn sau khi qua kiểm tra chất lượng”\n$B$ là biến cố “sản phẩm đạt tiêu chuẩn”.\nTheo bài ra ta có: $P\\left( B \\right)=0,8$; $P\\left( \\overline{B} \\right)=1-0,8=0,2$\nDo tỉ lệ công nhận một bóng đèn đạt tiêu chuẩn là 0,9 nên $P\\left( A|B \\right)=0,9$.\nTỉ lệ loại bỏ một bóng hỏng là 0,95 nên $P\\left( A|\\overline{B} \\right)=1-0,95=0,05$.\nTheo công thức xác suất toàn phần ta có: $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,8.0,9+0,2.0,05=0,73$.\nĐáp số: $0,73$.",
+   "short_value": 0.73,
+   "short_correct": "0,73",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một lớp học có số học sinh nữ chiếm 45% tổng số học sinh cả lớp. Cuối năm tổng kết, lớp học đó có tỉ lệ học sinh giỏi là nữ là 30%, học sinh giỏi là nam chiếm 40%. Giáo viên chủ nhiệm cần chọn 1 học sinh của lớp để đại diện cho lớp lên nhận thưởng.\nBiết rằng học sinh được chọn là học sinh giỏi. Tính xác suất để em đó là nữ (làm tròn đến hàng phần trăm).",
+   "explanation": "Gọi $A$ là biến cố “học sinh được chọn là học sinh giỏi”\nvà $B$ là biến cố “học sinh được chọn là học sinh nữ”.\nTheo bài ra ta có: $P\\left( B \\right)=0,45;\\begin{matrix} {} \\\\ \\end{matrix}P\\left( \\overline{B} \\right)=1-0,45=0,55$.\nDo lớp học đó có tỉ lệ học sinh giỏi là nữ là 30%, học sinh giỏi là nam chiếm 40% nên:\n$P\\left( A|B \\right)=0,3$ và $P\\left( A|\\overline{B} \\right)=0,4$.\nTheo công thức xác suất toàn phần ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,45.0,3+0,55.0,4\\simeq 0,36$.\nĐáp số: $0,36$\nGọi $C$ là biến cố “học sinh giỏi được chọn là học sinh nữ” thì $C=B|A$, nên, theo công thức Bayes ta có: $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,45.0,3}{0,355}\\simeq 0,38$.\nĐáp số: $0,38$.",
+   "short_value": 0.4,
+   "short_correct": "0,38",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  }
+ ],
+ "flags": []
+}

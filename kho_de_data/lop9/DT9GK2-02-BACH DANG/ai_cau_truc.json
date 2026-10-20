@@ -1,0 +1,410 @@
+{
+ "truong": "THCS BẠCH ĐẰNG",
+ "nam_hoc": "2024-2025",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số $y=-{{x}^{2}}$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị (P) của hàm số trên.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "",
+     "loi_giai": "Lập đúng BGT\\n Vẽ đúng đồ thị của hàm số.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y=-{{x}^{2}}$. Vẽ đồ thị (P) của hàm số trên.",
+     "diem": 1,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -5,
+       "ymax": 2
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -x^2",
+        "kind": "quad",
+        "a": -1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm M thuộc (P) có hoành độ bằng tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "M(-1 ;-1)",
+     "loi_giai": "Để hoành độ bằng tung độ, ta có $x = y$.\\n Thay vào hàm số $y=-{{x}^{2}}$, ta được $x = -x^2$.\\n $x^2 + x = 0 \\Rightarrow x(x+1) = 0$.\\n Suy ra $x=0$ hoặc $x=-1$.\\n Nếu $x=0$, thì $y=0$. Điểm $(0;0)$.\\n Nếu $x=-1$, thì $y=-(-1)^2 = -1$. Điểm $(-1;-1)$.\\n Vậy các điểm M thuộc (P) có hoành độ bằng tung độ là $(0;0)$ và $(-1;-1)$.\\n (Đáp án của đề chỉ ghi M(-1;-1) nhưng có thể có cả (0;0) nếu không có điều kiện gì thêm)",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Cho hàm số $y=-{{x}^{2}}$. Tìm những điểm M thuộc đồ thị (P) có hoành độ bằng tung độ.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$M(0; 0)$ và $M(-1; -1)$",
+       "$M(0; 0)$ và $M(1; 1)$",
+       "$M(-1; -1)$ và $M(1; -1)$",
+       "$M(-1; 1)$ và $M(1; -1)$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Giải các phương trình sau:",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "$2{{x}^{2}}-6=0$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "$x=\\pm \\sqrt{3}$",
+     "loi_giai": "$2{{x}^{2}}-6=0$\\n $2{{x}^{2}}=6$\\n ${{x}^{2}}=3$\\n $x=\\pm \\sqrt{3}$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Giải phương trình: $2{{x}^{2}}-6=0$",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$x = \\pm 3$",
+       "$x = \\pm \\sqrt{3}$",
+       "$x = \\sqrt{3}$",
+       "$x = \\pm \\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "B"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "$x\\left( x+1 \right)=2$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "$x_{1}=1; x_{2}=-2$",
+     "loi_giai": "$x\\left( x+1 \right)=2$\\n ${{x}^{2}}+x=2$\\n ${{x}^{2}}+x-2=0$\\n Ta có $a=1, b=1, c=-2$. Vì $a+b+c = 1+1-2=0$ nên phương trình có hai nghiệm:\\n ${{x}_{1}}=1$\\n ${{x}_{2}}=\\frac{c}{a}=\\frac{-2}{1}=-2$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Giải phương trình: $x\\left( x+1 \\right)=2$",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "1",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "-2",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x_1 =$ {{1}} hoặc $x_2 =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "1"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "-2"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Cho phương trình: $3{{x}^{2}}-5x+1=0$ (1)",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình (1) có nghiệm.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Phương trình đã cho là $3{{x}^{2}}-5x+1=0$.\\n Ta có các hệ số $a=3, b=-5, c=1$.\\n Tính biệt thức $\\Delta = b^2 - 4ac = (-5)^2 - 4(3)(1) = 25 - 12 = 13$.\\n Vì $\\Delta = 13 > 0$ nên phương trình (1) có hai nghiệm phân biệt.\\n Vậy phương trình (1) luôn có nghiệm.",
+     "cum": [
+      "$\\Delta =13>0$"
+     ],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $3{{x}^{2}}-5x+1=0$ (1). Chứng tỏ phương trình (1) có nghiệm.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi ${{x}_{1}};\\,{{x}_{2}}$là 2 nghiệm của phương trình (1). Không giải phương trình, tính giá trị của biểu thức: $A={{\\left( {{x}_{1}}-{{x}_{2}} \right)}^{2}}-3x_{1}^{2}.x_{2}^{2}$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10/9",
+     "loi_giai": "Theo định lí Viète, ta có:\\n ${{x}_{1}}+{{x}_{2}}=S=\\frac{-b}{a}=\\frac{-(-5)}{3}=\\frac{5}{3}$\\n ${{x}_{1}}.{{x}_{2}}=P=\\frac{c}{a}=\\frac{1}{3}$\\n Biểu thức $A={{\\left( {{x}_{1}}-{{x}_{2}} \right)}^{2}}-3x_{1}^{2}.x_{2}^{2}$\\n Ta có ${{\\left( {{x}_{1}}-{{x}_{2}} \right)}^{2}} = x_1^2 - 2x_1x_2 + x_2^2 = (x_1+x_2)^2 - 4x_1x_2 = S^2 - 4P$.\\n Và $x_{1}^{2}.x_{2}^{2} = (x_1x_2)^2 = P^2$.\\n Thay vào biểu thức A:\\n $A = S^2 - 4P - 3P^2$\\n $A = {{\\left( \\frac{5}{3} \\right)}^{2}} - 4\\left( \\frac{1}{3} \\right) - 3{{\\left( \\frac{1}{3} \\right)}^{2}}$\\n $A = \\frac{25}{9} - \\frac{4}{3} - 3\\left( \\frac{1}{9} \\right)$\\n $A = \\frac{25}{9} - \\frac{12}{9} - \\frac{3}{9}$\\n $A = \\frac{25-12-3}{9} = \\frac{10}{9}$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $3{{x}^{2}}-5x+1=0$ (1). Gọi ${{x}_{1}};\\,{{x}_{2}}$ là 2 nghiệm của phương trình (1). Không giải phương trình, tính giá trị của biểu thức: $A={{\\left( {{x}_{1}}-{{x}_{2}} \\right)}^{2}}-3x_{1}^{2}.x_{2}^{2}$",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo hệ thức Viète: $S = x_1 + x_2 = \\dfrac{5}{3}$ và $P = x_1 x_2 =$ {{1}}",
+       "$A = (x_1 - x_2)^2 - 3x_1^2 x_2^2 = S^2 -$ {{2}} $P - 3P^2$",
+       "$A = \\left(\\dfrac{5}{3}\\right)^2 - 4\\cdot \\dfrac{1}{3} - 3\\cdot\\left(\\dfrac{1}{3}\\right)^2 = \\dfrac{25}{9} - \\dfrac{ {{3}} }{9} - \\dfrac{3}{9}$",
+       "$A =$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "12"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "10/9"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "[[IMG:image1.jpeg]]Phần bên trong của bể chứa nước sinh hoạt có dạng hình trụ với đường kính đáy là $2m$ và chiều cao là $1,5\\,m$. Để bơm nước vào bể, anh Tuyên đã mua một cái máy bơm mới với lưu lượng nước của nhà sản xuất đưa ra là $3,6\\,{{m}^{3}}/h$ - một giờ máy bơm được $3,6\\,{{m}^{3}}$ nước. Sau một năm sử dụng, lưu lượng nước của máy bơm bị giảm $10\\%$ so với năm trước đó. Hỏi trong năm thứ 3 kể từ lúc mua, để bơm đầy bể chứa nước sinh hoạt trên thì máy bơm cần thời gian là bao lâu? (kết quả làm tròn đến chữ số hàng phần trăm) \\n Công thức tính thể tích hình trụ là: $V=\\pi .{{R}^{2}}.h$. Trong đó: $\\pi =3,14$; $R$ là bán kính đáy của hình trụ; $h$ là chiều cao của hình trụ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.62 h",
+     "loi_giai": "Bán kính đáy của bể là $R = \\frac{2}{2} = 1\\,m$.\\n Chiều cao của bể là $h = 1,5\\,m$.\\n Thể tích của bể chứa nước là $V = \\pi .{{R}^{2}}.h = 3,14 \\times 1^2 \\times 1,5 = 4,71\\left( {{m}^{3}} \\right)$.\\n Lưu lượng nước của máy bơm ban đầu là $3,6\\,{{m}^{3}}/h$.\\n Sau một năm sử dụng, lưu lượng giảm $10\\%$, tức còn $90\\%$ so với năm trước.\\n Lưu lượng nước trong năm thứ nhất (sau 1 năm sử dụng) là $3,6 \\times 0,9 = 3,24\\,{{m}^{3}}/h$.\\n Lưu lượng nước trong năm thứ hai (sau 2 năm sử dụng) là $3,24 \\times 0,9 = 2,916\\,{{m}^{3}}/h$.\\n Vậy, lưu lượng nước của máy bơm trong năm thứ 3 (kể từ lúc mua, tức là sau 2 năm sử dụng) là $3,6 \\times 0,9 \\times 0,9 = 2,916\\left( {{m}^{3}}/h \\right)$.\\n Thời gian để máy bơm đầy bể chứa nước sinh hoạt là:\\n $T = \\frac{V}{\\text{Lưu lượng}} = \\frac{4,71}{2,916} \\approx 1,61515...\\left( h \\right)$.\\n Làm tròn đến chữ số hàng phần trăm, ta được $T \\approx 1,62\\left( h \\right)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 3,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "1.62"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy $R =$ {{1}} $\\text{m}$, thể tích bể $V = 3{,}14 \\cdot 1^2 \\cdot 1{,}5 =$ {{2}} $\\text{m}^3$",
+       "Lưu lượng máy bơm trong năm thứ 3: $3{,}6 \\cdot 0{,}9 \\cdot 0{,}9 =$ {{3}} $\\text{m}^3/\\text{h}$",
+       "Thời gian cần để bơm đầy bể: $t = \\dfrac{4{,}71}{2{,}916} \\approx$ {{4}} $\\text{h}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4.71 | 4,71"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2.916 | 2,916"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1.62 | 1,62"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Một người dự định đi xe máy từ tỉnh A đến tỉnh B cách nhau 90 km trong một thời gian đã định. Sau khi đi được 1 giờ, người đó nghỉ 9 phút. Do đó, để đến tỉnh B đúng hẹn, người ấy phải tăng vận tốc thêm 4 km/h. Tính vận tốc lúc đầu của người đó.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "36 km/h",
+     "loi_giai": "Gọi vận tốc lúc đầu của người đó là $x$ (km/h). Điều kiện $x > 0$.\\n Thời gian dự định đi hết quãng đường là $\\frac{90}{x}$ (giờ).\\n Quãng đường người đó đi được trong 1 giờ đầu là $1 \\times x = x$ (km).\\n Quãng đường còn lại là $90 - x$ (km).\\n Thời gian nghỉ là 9 phút = $\\frac{9}{60} = \\frac{3}{20}$ (giờ).\\n Vận tốc sau khi tăng là $x + 4$ (km/h).\\n Thời gian đi quãng đường còn lại là $\\frac{90-x}{x+4}$ (giờ).\\n Vì người đó đến tỉnh B đúng hẹn nên ta có phương trình:\\n $1 + \\frac{3}{20} + \\frac{90-x}{x+4} = \\frac{90}{x}$\\n Quy đồng mẫu số và giải phương trình:\\n $\\frac{20x(x+4) + 3x(x+4) + 20x(90-x)}{20x(x+4)} = \\frac{90 \\times 20(x+4)}{20x(x+4)}$\\n $20x^2 + 80x + 3x^2 + 12x + 1800x - 20x^2 = 1800x + 7200$\\n $3x^2 + 92x + 1800x = 1800x + 7200$\\n $3x^2 + 92x - 7200 = 0$\\n Tính $\\Delta' = (46)^2 - 3(-7200) = 2116 + 21600 = 23716$.\\n $\\sqrt{\\Delta'} = \\sqrt{23716} \\approx 153.99$\\n Hoặc dùng $\\Delta = b^2 - 4ac = 92^2 - 4(3)(-7200) = 8464 + 86400 = 94864$.\\n $\\sqrt{\\Delta} = \\sqrt{94864} = 308$.\\n $x_1 = \\frac{-92 + 308}{2 \\times 3} = \\frac{216}{6} = 36$ (thỏa mãn điều kiện $x > 0$)\\n $x_2 = \\frac{-92 - 308}{2 \\times 3} = \\frac{-400}{6} = -\\frac{200}{3}$ (loại vì $x < 0$)\\n Vậy vận tốc lúc đầu của người đó là 36 km/h.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Vận tốc lúc đầu của người đó:",
+        "dap_an": "36",
+        "don_vi": "km/h"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là vận tốc lúc đầu của người đó (km/h, điều kiện $x > 0$)",
+        "Biểu diễn thời gian dự định đi hết quãng đường (giờ) theo $x$: {{1}}",
+        "Biểu diễn quãng đường còn lại (km) theo $x$: {{2}}",
+        "Biểu diễn vận tốc trên quãng đường còn lại (km/h) theo $x$: {{3}}",
+        "Biểu diễn thời gian đi quãng đường còn lại (giờ) theo $x$: {{4}}",
+        "Phương trình: {{5}}",
+        "Giải phương trình ta tìm được $x =$ {{6}}",
+        "Vậy vận tốc lúc đầu của người đó là {{7}} km/h"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "90/x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "90-x"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "x+4"
+        },
+        {
+         "id": "4",
+         "loai": "bt",
+         "dap_an": "(90-x)/(x+4)"
+        },
+        {
+         "id": "5",
+         "loai": "bt",
+         "dap_an": "1+3/20+(90-x)/(x+4)=90/x"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "36"
+        },
+        {
+         "id": "7",
+         "loai": "so",
+         "dap_an": "36"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Bạn Hà gieo đồng thời hai con xúc xắc 6 mặt cân đối và đồng chất. Xác suất để tích số chấm trên mặt xuất hiện của hai con súc xắc là một số chia hết cho 6 là bao nhiêu? (Kết quả làm tròn đến chữ số thập phân thứ hai sau dấu phẩy).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.42",
+     "loi_giai": "Mô tả được không gian mẫu: Khi gieo đồng thời hai con xúc xắc 6 mặt, mỗi con có 6 khả năng xuất hiện (từ 1 đến 6 chấm). Không gian mẫu $\\Omega$ gồm các cặp số $(i, j)$ với $i, j \\in \\{1, 2, 3, 4, 5, 6\\}$.\\n Tính được số phần tử của không gian mẫu: $n(\\Omega) = 6 \\times 6 = 36$.\\n Nêu được các kết quả của phép thử là đồng khả năng.\\n Gọi A là biến cố \"tích số chấm trên mặt xuất hiện của hai con súc xắc là một số chia hết cho 6\".\\n Nêu được các kết quả thuận lợi của biến cố A (các cặp $(i, j)$ sao cho $i \\times j$ chia hết cho 6):\\n (1,6), (2,3), (2,6), (3,2), (3,4), (3,6), (4,3), (4,6), (5,6), (6,1), (6,2), (6,3), (6,4), (6,5), (6,6).\\n Tính được số phần tử của biến cố A: $n(A) = 15$.\\n Tính được xác suất: $P(A) = \\frac{n(A)}{n(\\Omega)} = \\frac{15}{36} = \\frac{5}{12}$.\\n $P(A) \\approx 0,4166...$\\n Làm tròn đến chữ số thập phân thứ hai, ta được $P(A) \\approx 0,42$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 2,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số phần tử của không gian mẫu: $n(\\Omega) = 6 \\times 6 =$ {{1}}",
+       "Số kết quả thuận lợi cho biến cố $A$ là $n(A) =$ {{2}}",
+       "Xác suất của biến cố $A$: $P(A) = \\dfrac{15}{36} \\approx$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "36"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.42 | 0,42"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "tn_diem": 0
+}

@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "5",
+  "lesson": "on-tap",
+  "title": "Chương 5 – Bài on-tap"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Biết $\\lim \\frac{2{{n}^{3}}+{{n}^{2}}-4}{a{{n}^{3}}+2}=\\frac{1}{2}$ với $a$ là tham số. Khi đó $a-{{a}^{2}}$ bằng",
+   "explanation": "Ta có $\\lim \\frac{2{{n}^{3}}+{{n}^{2}}-4}{a{{n}^{3}}+2}=\\lim \\frac{{{n}^{3}}\\left( 2+\\frac{1}{n}-\\frac{4}{{{n}^{3}}} \\right)}{{{n}^{3}}\\left( a+\\frac{2}{{{n}^{3}}} \\right)}=\\frac{2}{a}=\\frac{1}{2}$.\nSuy ra $a=4$. Khi đó $a-{{a}^{2}}=4-{{4}^{2}}=-12$.",
+   "options": [
+    "$-12$",
+    "$-2$",
+    "$0$",
+    "$-6$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B1.D01",
+   "dang_toan_web": "Giới hạn của dãy số: Các định lí về giới hạn, tổng của cấp số nhân lùi vô hạn."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tìm $L=\\lim \\left( \\frac{1}{1}+\\frac{1}{1+2}+...+\\frac{1}{1+2+...+n} \\right)$",
+   "explanation": "Ta có $1+2+3+...+k$ là tổng của cấp số cộng có ${{u}_{1}}=1$, $d=1$ nên $1+2+3+...+k=\\frac{\\left( 1+k \\right)k}{2}$\n$\\Rightarrow \\frac{1}{1+2+...+k}=\\frac{2}{k\\left( k+1 \\right)}$ $=\\frac{2}{k}-\\frac{2}{k+1}$, $\\forall k\\in {{\\mathbb{N}}^{*}}$.\n$L=\\lim \\left( \\frac{2}{1}-\\frac{2}{2}+\\frac{2}{2}-\\frac{2}{3}+\\frac{2}{3}-\\frac{2}{4}+...+\\frac{2}{n}-\\frac{2}{n+1} \\right)$ $=\\lim \\left( \\frac{2}{1}-\\frac{2}{n+1} \\right)$ $=2$.",
+   "options": [
+    "$L=\\frac{5}{2}$",
+    "$L=+\\infty $",
+    "$L=2$",
+    "$L=\\frac{3}{2}$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tính $I=\\lim \\,\\left[ n\\left( \\sqrt{{{n}^{2}}+2}-\\sqrt{{{n}^{2}}-1} \\right) \\right]$.",
+   "explanation": "Ta có: $I=\\lim \\,\\left[ n\\left( \\sqrt{{{n}^{2}}+2}-\\sqrt{{{n}^{2}}-1} \\right) \\right]$ $=\\lim \\,\\frac{3n}{\\sqrt{{{n}^{2}}+2}+\\sqrt{{{n}^{2}}-1}}$ $=\\lim \\,\\frac{3}{\\sqrt{1+\\frac{2}{{{n}^{2}}}}+\\sqrt{1-\\frac{1}{{{n}^{2}}}}}=\\frac{3}{2}$",
+   "options": [
+    "$I=+\\infty $",
+    "$I=\\frac{3}{2}$",
+    "$I=1,499$",
+    "$I=0$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Trong các giới hạn hữu hạn sau, giới hạn nào có giá trị khác với các giới hạn còn lại?",
+   "explanation": "Ta có\n$\\lim \\frac{3n-1}{3n+1}=\\lim \\frac{3-\\frac{1}{n}}{3+\\frac{1}{n}}=\\frac{3}{3}=1\\,\\,$vì $\\lim \\frac{1}{n}=0$; $\\lim \\frac{2n+1}{2n-1}=\\lim \\frac{2+\\frac{1}{n}}{2-\\frac{1}{n}}=\\frac{2}{2}=1$ vì $\\lim \\frac{1}{n}=0$\n$\\lim \\frac{4n+1}{3n-1}=\\lim \\frac{4+\\frac{1}{n}}{3-\\frac{1}{n}}=\\frac{4}{3}$ vì $\\lim \\frac{1}{n}=0$; $\\lim \\frac{n+1}{n-1}=\\lim \\frac{1+\\frac{1}{n}}{1-\\frac{1}{n}}=1$ vì $\\lim \\frac{1}{n}=0$.",
+   "options": [
+    "$\\lim \\frac{3n-1}{3n+1}$",
+    "$\\lim \\frac{2n+1}{2n-1}$",
+    "$\\lim \\frac{4n+1}{3n-1}$",
+    "$\\lim \\frac{n+1}{n-1}$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tính $\\lim n\\left( \\sqrt{4{{n}^{2}}+3}-\\sqrt[3]{8{{n}^{3}}+n} \\right)$.",
+   "explanation": "Ta có: $\\lim n\\left( \\sqrt{4{{n}^{2}}+3}-\\sqrt[3]{8{{n}^{3}}+n} \\right)$ $=\\lim n\\left[ \\left( \\sqrt{4{{n}^{2}}+3}-2n \\right)+\\left( 2n-\\sqrt[3]{8{{n}^{3}}+n} \\right) \\right]$\n$=\\lim \\left[ n\\left( \\sqrt{4{{n}^{2}}+3}-2n \\right)+n\\left( 2n-\\sqrt[3]{8{{n}^{3}}+n} \\right) \\right]$.\nTa có: $\\lim n\\left( \\sqrt{4{{n}^{2}}+3}-2n \\right)$ $=\\lim \\frac{3n}{\\left( \\sqrt{4{{n}^{2}}+3}+2n \\right)}$ $=\\lim \\frac{3}{\\left( \\sqrt{4+\\frac{3}{{{n}^{2}}}}+2 \\right)}=\\frac{3}{4}$.\nTa có: $\\lim n\\left( 2n-\\sqrt[3]{8{{n}^{3}}+n} \\right)$ $=\\lim \\frac{-{{n}^{2}}}{\\left( 4{{n}^{2}}+2n\\sqrt[3]{8{{n}^{3}}+n}+\\sqrt[3]{{{\\left( 8{{n}^{3}}+n \\right)}^{2}}} \\right)}$\n$=\\lim \\frac{-1}{\\left( 4+2\\sqrt[3]{8+\\frac{1}{{{n}^{2}}}}+\\sqrt[3]{{{\\left( 8+\\frac{1}{{{n}^{2}}} \\right)}^{2}}} \\right)}=-\\frac{1}{12}$.\nVậy $\\lim n\\left( \\sqrt{4{{n}^{2}}+3}-\\sqrt[3]{8{{n}^{3}}+n} \\right)=\\frac{3}{4}-\\frac{1}{12}$ $=\\frac{2}{3}$.",
+   "options": [
+    "$+\\infty $",
+    "$1$",
+    "$-\\infty $",
+    "$\\frac{2}{3}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Giới hạn $\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{{{x}^{2}}-4}$ bằng",
+   "explanation": "$\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{{{x}^{2}}-4}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{\\left( x-2 \\right)\\left( x+2 \\right)}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{1}{x+2}=\\frac{1}{4}$.",
+   "options": [
+    "$2$",
+    "$4$",
+    "$\\frac{1}{4}$",
+    "$0$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tính giới hạn $L=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{x-3}{x+3}$",
+   "explanation": "Ta có $L=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{x-3}{x+3}$ $=\\frac{3-3}{3+3}=0$.",
+   "options": [
+    "$L=-\\infty $",
+    "$L=0$",
+    "$L=+\\infty $",
+    "$L=1$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{4x+1}{-x+1}$ bằng",
+   "explanation": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{4x+1}{-x+1}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{4+\\frac{1}{x}}{-1+\\frac{1}{x}}$ $=-4$.",
+   "options": [
+    "$2$",
+    "$4$",
+    "$-1$",
+    "$-4$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{3x+2}{2x-4}$ bằng",
+   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{3x+2}{2x-4}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{3+\\frac{2}{x}}{2-\\frac{4}{x}}$ $=\\frac{3}{2}$.",
+   "options": [
+    "$-\\frac{1}{2}$",
+    "$-\\frac{3}{4}$",
+    "$1$",
+    "$\\frac{3}{2}$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Trong các mệnh đề sau, mệnh đề nào sai?",
+   "explanation": "Ta có: $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{x}=+\\infty $ do $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,x=0$và $x>0$. Vậy đáp án A đúng.\nSuy ra đáp án B sai.\nCác đáp án C và D đúng. Giải thích tương tự đáp án $A$.",
+   "options": [
+    "$\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{x}=+\\infty $",
+    "$\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{x}=-\\infty $",
+    "$\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{{{x}^{5}}}=+\\infty $",
+    "$\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{\\sqrt{x}}=+\\infty $"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tính giới hạn $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}$.",
+   "explanation": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2+\\frac{1}{x}}{1+\\frac{1}{x}}=2$.",
+   "options": [
+    "$\\frac{1}{2}$",
+    "$1$",
+    "$2$",
+    "$-1$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Xác định $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\left| x \\right|}{{{x}^{2}}}$.",
+   "explanation": "Ta có $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{\\left| x \\right|}{{{x}^{2}}}=\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{x}{{{x}^{2}}}=\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{x}=+\\infty $.\n$\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\frac{\\left| x \\right|}{{{x}^{2}}}=\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\frac{-x}{{{x}^{2}}}=\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\frac{-1}{x}=+\\infty $.\nVậy không tồn tại $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\left| x \\right|}{{{x}^{2}}}$.",
+   "options": [
+    "$0$",
+    "$-\\infty $",
+    "Không tồn tại",
+    "$+\\infty $"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Để dãy số $\\left( {{u}_{n}} \\right)$ có giới hạn bằng $2$, thì giá trị $a=10.$",
+    "b": "Để dãy số $\\left( {{u}_{n}} \\right)$ có giới hạn bằng $3$, thì giá trị $a=10.$",
+    "c": "Để dãy số $\\left( {{u}_{n}} \\right)$ có giới hạn bằng $4$, thì giá trị $a=20.$",
+    "d": "Để dãy số $\\left( {{u}_{n}} \\right)$ có giới hạn bằng $5$, thì giá trị $a=30.$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ với ${{u}_{n}}=\\frac{an+4}{5n+3}$ trong đó $a$ là tham số thực. Khi đó:",
+   "explanation": "Ta có $\\lim {{u}_{n}}=\\lim \\frac{an+4}{5n+3}=\\lim \\frac{a+\\frac{4}{n}}{5+\\frac{3}{n}}=\\frac{a}{5}.$",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B1.D01",
+   "dang_toan_web": "Giới hạn của dãy số: Các định lí về giới hạn, tổng của cấp số nhân lùi vô hạn."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$a>0$",
+    "b": "$b>0$",
+    "c": "$a>b$",
+    "d": "$I=a+b=\\frac{19}{32}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{x-\\sqrt{x+2}}{{{x}^{2}}-4} & \\text{khi} & x>2 \\\\ {{x}^{2}}+ax+3b & \\text{khi} & x<2 \\\\ 2a+b-6 & \\text{khi} & x=2 \\\\ \\end{array} \\right.$ liên tục tại $x=2$. Khi đó:",
+   "explanation": "Để hàm $f\\left( x \\right)$ liên tục tại $x=2$ cần có $\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 2 \\right)$\nTa có: $\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\left( \\frac{x-\\sqrt{x+2}}{{{x}^{2}}-4} \\right)=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-x-2}{\\left( x+2 \\right)\\left( x-2 \\right)\\left( x+\\sqrt{x+2} \\right)}=\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\frac{x+1}{\\left( x+2 \\right)\\left( x+\\sqrt{x+2} \\right)}=\\frac{3}{16}$.\n$\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+ax+3b \\right)=\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+ax+3b \\right)=2a+3b+4$\n$f\\left( 2 \\right)=2a+b-6$\nSuy ra ta được hệ phương trình: $\\left\\{ \\begin{aligned} & 2a+b-6=\\frac{3}{16} \\\\ & 2a+3b+4=\\frac{3}{16} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{179}{32} \\\\ & b=-5 \\\\ \\end{aligned} \\right.\\Rightarrow a+b=\\frac{19}{32}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-x \\right)=0$.",
+    "b": "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-2x \\right)=+\\infty $.",
+    "c": "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-x \\right)=\\frac{1}{2}$.",
+    "d": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-2x \\right)=-\\infty $."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Các mệnh đề sau đúng hay sai?",
+   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-x \\right)=+\\infty $ nên phương án a sai.\nTa có: $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-2x \\right)=\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,x\\left( \\sqrt{1+\\frac{1}{x}}-2 \\right)=-\\infty $ nên phương án b sai.\nTa có: $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-x \\right)=\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{x}{\\sqrt{{{x}^{2}}+x}+x} \\right)\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{1}{\\sqrt{1+\\frac{1}{x}}+1} \\right)=\\frac{1}{2}$ nên đáp án c đúng.\nTa có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+x}-2x \\right)=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( -x \\right)\\left( \\sqrt{1+\\frac{1}{x}}+2 \\right)=+\\infty $ nên đáp án d sai.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$L=5$ khi $a=-10$",
+    "b": "$L>0$ khi $a>0$",
+    "c": "$L<0$ khi $a>0$",
+    "d": "$L=-1$ thì $a$ là một nghiệm của phương trình ${{x}^{2}}-3x+2=0$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho$L=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)$. Khi đó:",
+   "explanation": "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{ax+5}{\\sqrt{{{x}^{2}}+ax+5}-x}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{x\\left( a+\\frac{5}{x} \\right)}{\\left| x \\right|\\sqrt{1+\\frac{a}{x}+\\frac{5}{{{x}^{2}}}}-x}$\n$=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{a+\\frac{5}{x}}{-\\sqrt{1+\\frac{a}{x}+\\frac{5}{{{x}^{2}}}}-1}=-\\frac{a}{2}$.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số $\\left( {{v}_{n}} \\right)$ với ${{v}_{n}}=\\frac{1}{{{n}^{3}}}+2$. Bằng định nghĩa hãy chứng minh rằng $\\lim {{v}_{n}}=2$.",
+   "explanation": "Ta có: $\\lim \\left( {{v}_{n}}-2 \\right)=\\lim \\left( \\frac{1}{{{n}^{3}}}+2-2 \\right)=\\lim \\frac{1}{{{n}^{3}}}=0$\nVậy $\\lim {{v}_{n}}=2$",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true,
+   "muc_do": "VD",
+   "dang": "L11.C5.B1.D01",
+   "dang_toan_web": "Giới hạn của dãy số: Các định lí về giới hạn, tổng của cấp số nhân lùi vô hạn."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tìm các giá trị của $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} & \\text{khi} & x<0 \\\\ m+\\frac{1-x}{1+x} & \\text{khi} & x\\ge 0 \\\\ \\end{array} \\right.$ liên tục tại $x=0$?",
+   "explanation": "Tập xác định: $D=\\mathbb{R}$ và $x=0\\in D$.\n$f\\left( 0 \\right)=m+1$.\n$\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\left( m+\\frac{1-x}{1+x} \\right)=m+1$.\n$\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\left( \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} \\right)=$ $\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\frac{-2x}{x\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,\\frac{-2}{\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=-1$.\nĐể hàm liên tục tại $x=0$ thì $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 0 \\right)$ $\\Leftrightarrow m+1=-1\\Leftrightarrow m=-2$.\nVậy $m=-2$ thỏa mãn đề bài.",
+   "short_value": -2,
+   "short_correct": "-2",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "(*) Chứng minh rằng dãy số sau có giới hạn là $0$ : ${{u}_{n}}=\\frac{{{15}^{n}}}{{{2}^{n}}\\left( {{9}^{n}}+{{25}^{n}} \\right)}$",
+   "explanation": "${{u}_{n}}=\\frac{{{15}^{n}}}{{{2}^{n}}\\left( {{9}^{n}}+{{25}^{n}} \\right)}=\\frac{{{3}^{n}}{{.5}^{n}}}{{{2}^{n}}\\left( {{3}^{2n}}+{{5}^{2n}} \\right)}\\le \\frac{\\frac{{{3}^{2n}}+5}{2}}{{{2}^{n}}\\left( {{3}^{2n}}+{{5}^{2n}} \\right)}=\\frac{1}{{{2}^{n+1}}}\\le {{\\left( \\frac{1}{2} \\right)}^{n}}$\nMà $\\lim {{\\left( \\frac{1}{2} \\right)}^{n}}=0\\Rightarrow $ đ.p.c.m",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Tìm giá trị của $a;b;c$để $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt{ax+b}+cx}{{{x}^{3}}-2{{x}^{2}}+x}=-\\frac{1}{2}$.",
+   "explanation": "Ta có\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt{ax+b}+cx}{{{x}^{3}}-2{{x}^{2}}+x}=-\\frac{1}{2}\\Leftrightarrow \\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{-(c{{x}^{2}}-ax-b)}{x{{\\left( x-1 \\right)}^{2}}\\left( \\sqrt{ax+b}-cx \\right)}=-\\frac{1}{2}\\,\\,\\,\\,(*)$\nĐể xảy ra (*) thì điều kiện cần là\n$\\left\\{ \\begin{aligned} & -({{c}^{2}}{{x}^{2}}-ax-b)=k{{(x-1)}^{2}}\\,\\,\\,(k\\ne 0) \\\\ & \\sqrt{a.1+b}-c\\ne 0 \\\\ & \\frac{k}{\\sqrt{a.1+b}-c}=-\\frac{1}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & k<0 \\\\ & \\,a=-2k,\\,\\,b=k\\, \\\\ & \\sqrt{a+b}-c\\ne 0\\, \\\\ & \\left[ \\begin{aligned} & \\left\\{ \\begin{aligned} & c=\\sqrt{-k} \\\\ & \\frac{k}{\\sqrt{-2k+k}-\\sqrt{-k}}=-\\frac{1}{2}\\,\\,\\,(PTVN) \\\\ \\end{aligned} \\right. \\\\ & \\left\\{ \\begin{aligned} & c=-\\sqrt{-k} \\\\ & \\frac{k}{\\sqrt{-2k+k}+\\sqrt{-k}}=-\\frac{1}{2}\\Rightarrow k=-1 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.\\, \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a=-2k=2 \\\\ & b=k=-1 \\\\ & c=\\sqrt{-k}=1 \\\\ \\end{aligned} \\right.$\nThử lại: với $a=2,b=-1,\\,c=1$ thỏa mãn yêu cầu bài toán.",
+   "short_value": 1,
+   "short_correct": "1",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C5.B2.D01",
+   "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số ${f(x)=2 x-\\sin x, g(x)=\\sqrt{x-1}}$.\nXét tính liên tục hàm số ${y=f(x) \\cdot g(x)}$ và ${y=\\frac{f(x)}{g(x)}}$.",
+   "explanation": "Hàm số ${f(x)=2 x-\\sin x}$ liên tục với mọi ${x \\in \\mathbb{R}}$\nHàm số ${g(x)=\\sqrt{x-1}}$ liên tục trên khoảng ${[1 ;+\\infty)}$\nSuy ra: hàm số ${y=f(x) . g(x)}$ liên tục trên khoảng ${[1 ;+\\infty)}$\n${g(x) \\neq 0}$ khi ${x \\neq 1}$\nSuy ra hàm số ${y=\\frac{f(x)}{g(x)}}$ liên tục trên khoảng ${(1 ;+\\infty)}$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một bãi đậu xe ô tô đưa ra giá ${C(x)}$ (đồng) khi thời gian đậu xe là ${x}$ (giờ) như sau:\n$C(x)=\\left\\{ \\begin{matrix} 60000\\text{ khi }0<x\\le 2 \\\\ 100000\\text{ khi }2<x\\le 4 \\\\ 200000\\text{ khi }4<x\\le 24 \\\\ \\end{matrix} \\right.$\nXét tính liên tục của hàm số ${C(x)}$.",
+   "explanation": "${{C}({x})=60000}$ khi ${x \\in(0 ; 2)}$ nên hàm số ${{C}({x})}$ liên tục trên ${(0 ; 2)}$\n${C({x})=100000}$ khi ${x \\in(2 ; 4)}$ nên hàm số ${{C}({x})}$ liên tục trên ${(2 ; 4)}$\n${{C}({x})=200000}$ khi ${x \\in(4 ; 24)}$ nên hàm số ${{C}({x})}$ liên tục trên $\\left( 4;24 \\right)$\nTa có:\n$\\begin{aligned} & \\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,C(x)=60000 \\\\ & \\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,C(x)=100000 \\\\ \\end{aligned}$\nVậy không tồn tại ${\\lim _{x \\rightarrow 2}}$ hay hàm số ${{C}({x})}$ không liên tục tại $2$\n$\\begin{aligned} & \\underset{x\\to {{4}^{-}}}{\\mathop{\\lim }}\\,C(x)=100000 \\\\ & \\underset{x\\to {{4}^{+}}}{\\mathop{\\lim }}\\,C(x)=200000 \\\\ \\end{aligned}$\nVậy không tồn tại ${\\lim _{x \\rightarrow 4}}$ hay hàm số ${{C}({x})}$ không liên tục tại $4$",
+   "short_value": null,
+   "short_correct": "không liên tục",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C5.B3.D01",
+   "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
+  }
+ ],
+ "flags": []
+}

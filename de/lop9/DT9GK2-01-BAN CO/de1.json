@@ -1,0 +1,507 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "dt9gk2",
+  "title": "Giữa kỳ II Toán 9 – Bàn Cờ",
+  "exam_type": "midterm"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_b_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị (P).",
+     "explanation": "Lập BGT và vẽ đúng .",
+     "points": 1,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 2
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p",
+        "label": "y = -x^2/2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm M thuộc đồ thị (P) sao cho tung độ và hoành độ đối nhau.",
+     "explanation": "- Vì điểm M có tung độ và hoành độ đối nhau nên y = -x\n- Thay y = -x vào hàm số ta có: $-\\frac{1}{2}{{x}^{2}}=-x$\n- Suy ra: ${{x}^{2}}-2x=0$\n- Giải phương trình ta được x = 0 hoặc x = 2\n- Với x = 0 suy ra y = 0\n- Với x = 2 suy ra y = -2\n- Vậy tọa độ điểm M là :$(0;0)\\,\\,\\,;\\,\\,\\,(2;-2)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$M(0; 0)$ và $M(-2; 2)$",
+      "$M(0; 0)$ và $M(4; -4)$",
+      "$M(2; 2)$ và $M(-2; -2)$",
+      "$M(0; 0)$ và $M(2; -2)$"
+     ],
+     "correctAnswer": 3
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol (P): $\\quad y=\\quad \\frac{-1}{2}{{x}^{2}}(P)$",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "$5{{x}^{2}}+2x-16=0$",
+     "explanation": "$\\quad \\Delta =324$\n$\\quad \\quad {{x}_{1}}\\,\\,\\,=\\,\\,-2\\,\\,;\\,\\,\\,{{x}_{_{2}}}=\\frac{8}{5}$",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "8/5"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}, $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "8/5"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "${{x}^{2}}-3x=0$",
+     "explanation": "$\\quad {{x}^{2}}-3x=0$\n$\\quad \\quad x(x-3)=0$\n$\\quad \\quad x=0\\,\\,\\,hay\\,\\,\\,x=3$\n$\\quad \\quad KL\\,:$",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}, $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 2",
+   "question": "Giải các phương trình",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "tinh_gia_tri",
+    "kieu": "dong",
+    "dong": [
+     "Theo định lí Viète: $S = x_1 + x_2 =$ {{1}}, $P = x_1 x_2 =$ {{2}}",
+     "$A = (x_1+x_2)^2 - 5x_1x_2 = S^2 - 5P =$ {{3}} $- 5\\cdot$ {{4}}",
+     "$A =$ {{5}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "10"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "24"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "100"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "24"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "-20"
+     }
+    ]
+   },
+   "bai_goc": "Bài 3",
+   "points": 2,
+   "question": "Cho phương trình $\\,\\,\\,{{x}^{2}}-10x+24=0$ có 2 nghiệm x1 và x2 .\nKhông giải phương trình hãy tính giá trị của các biểu thức sau :\n$A=x_{1}^{2}+x_{2}^{2}-3{{x}_{1}}{{x}_{2}}$",
+   "explanation": "S = 10 ; P = 24\nA = $ {{S}^{2}}-2P-3P$ = - 20",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy tính diện tích bề mặt của một quả bóng tennis",
+     "explanation": "Diện tích bề mặt của một quả bóng tennis :${{S}_{bm}}=4\\pi {{\\text{R}}^{2}}=4\\pi {{\\left( \\frac{6,35}{2} \\right)}^{2}}\\approx 126,7c{{m}^{2}}$",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính của quả bóng tennis: $R = 6{,}35 : 2 =$ {{1}} $\\text{cm}$",
+       "Diện tích bề mặt của quả bóng: $S = 4\\pi R^2 = 4\\pi \\cdot ($ {{2}} $)^2 \\approx$ {{3}} $\\text{cm}^2$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3.175 | 3,175"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3.175 | 3,175"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "126.7 | 126,7"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hộp nhựa xếp vừa đủ\\[3\\]quả bóng có thể tích là bao nhiêu?\n( Kết quả làm tròn đến hàng phần chục )",
+     "explanation": "Chiều cao của hộp nhựa: 3 . 6,35 = 19,05 cm\nThể tích hộp nhựa là: $V=\\pi {{\\text{r}}^{2}}\\text{h=}\\pi {{\\left( \\frac{6,35}{2} \\right)}^{2}}.19,05\\approx 603,3\\left( c{{m}^{3}} \\right)$",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều cao của hộp nhựa: $h = 3 \\cdot 6{,}35 =$ {{1}} $\\text{cm}$",
+       "Thể tích của hộp nhựa: $V = \\pi r^2 h = \\pi \\cdot ($ {{2}} $)^2 \\cdot$ {{3}} $\\approx$ {{4}} $\\text{cm}^3$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "19.05 | 19,05"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3.175 | 3,175"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "19.05 | 19,05"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "603.3 | 603,3"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 2,
+   "bai_goc": "Bài 4",
+   "question": "Quả bóng tennis có đường kính 2,5 inch tương ứng với 6,35cm được đựng vừa đủ 3 quả trong một hộp nhựa mỏng hình trụ. Với diện tích bề mặt của hình cầu là: $S=4\\pi {{R}^{2}}$và thể tích hình trụ là :$V=\\pi {{r}^{2}}h$. Trong đó R là bán kính hình cầu; r là bán kính đáy và h là chiều cao hình trụ.\n[[IMG:image1.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 7,
+   "n": 2,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Vận tốc của người đi xe đạp khi đi từ A đến B: {{1}} km/h"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "12"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là vận tốc của người đi xe đạp khi đi từ A đến B (km/h, điều kiện $x > 0$)",
+     "Biểu diễn thời gian của người đi xe đạp khi đi từ A đến B (giờ) theo $x$: {{1}}",
+     "Biểu diễn vận tốc của người đi xe đạp khi đi từ B đến A (km/h) theo $x$: {{2}}",
+     "Biểu diễn thời gian của người đi xe đạp khi đi từ B đến A (giờ) theo $x$: {{3}}",
+     "Phương trình: {{4}}",
+     "Giải phương trình ta tìm được $x =$ {{5}}",
+     "Vậy vận tốc của người đi xe đạp khi đi từ A đến B là {{6}} km/h"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "36/x"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "x+3"
+     },
+     {
+      "id": "3",
+      "loai": "bt",
+      "dap_an": "36/(x+3)"
+     },
+     {
+      "id": "4",
+      "loai": "bt",
+      "dap_an": "36/x - 36/(x+3) = 36/60"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "12"
+     },
+     {
+      "id": "6",
+      "loai": "so",
+      "dap_an": "12"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 2,
+   "question": "Một người đi xe đạp từ A đến B cách nhau 36 km. Khi đi từ B trở về A, người \nđó tăng vận tốc thêm 3 km/h, vì vậy thời gian về ít hơn thời gian đi là 36 phút.Tính vận tốc của người đi xe đạp khi đi từ A đến B .",
+   "explanation": "Gọi vận tốc của người đi xe đạp khi đi từ A đến B là x (km/h), (x > 0 ).\nThời gian của người đi xe đạp khi đi từ A đến B là 36/x (giờ)\nVận tốc của người đi xe đạp khi đi từ B đến A là x + 3 (km/h)\nThời gian của người đi xe đạp khi đi từ B đến A là 36/(x +3) (giờ)\nTa có phương trình: $\\frac{36}{x}-\\frac{36}{x+3}=\\frac{36}{60}$\nX = 12 (nhận) , x= -15 (loại)\nVậy vận tốc của người đi xe đạp khi đi từ A đến B là 12 km/h",
+   "ma": "de1.P7.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D01",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 7,
+   "n": 3,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "tinh_gia_tri",
+    "kieu": "dong",
+    "dong": [
+     "Số phần tử của không gian mẫu: $n(\\Omega) =$ {{1}}",
+     "Các kết quả thuận lợi cho $A$ là các số nguyên tố $\\{2; 3; 5; 7; 11\\}$, có $n(A) =$ {{2}}",
+     "Xác suất của biến cố $A$: $P(A) = \\dfrac{n(A)}{n(\\Omega)} =$ {{3}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "12"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "5"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "5/12"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Một đĩa tròn bằng bìa cứng được chia làm 12 phần bằng nhau và ghi các số 1; 2; 3; ...;11; 12. Quay chiếc đĩa một lần và ghi lại số mà chiếc kim trên đĩa chỉ vào. \nTính xác suất của biến cố A: “Chiếc kim chỉ vào hình quạt ghi số nguyên tố”.",
+   "explanation": "Không gian mẫu của phép thử là $\\Omega$ = {1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12}.\nCác kết quả thuận lợi cho biến cố A là: 2; 3; 5; 7; 11. Xác suất của biến cố là P(A)=5/12",
+   "ma": "de1.P7.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D01",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  }
+ ],
+ "flags": []
+}

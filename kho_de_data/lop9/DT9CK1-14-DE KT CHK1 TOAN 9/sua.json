@@ -1,0 +1,68 @@
+{
+ "de1.P4.C3": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Xác định $a$ và $b$ trong công thức trên.",
+    "explanation": "Đồ thị hàm số $y = ax + b$ qua hai điểm $(0;635)$ và $(1500;760)$.\nNên $635 = a \\cdot 0 + b \\Rightarrow b = 635$.\nVà $760 = a \\cdot 1500 + 635 \\Rightarrow a = \\frac{1}{12}$.\nVậy $y = \\frac{1}{12}x + 635$.",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "khac",
+     "kieu": "dong",
+     "dong": [
+      "$a =$ {{1}} ; $b =$ {{2}}"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "-1/12"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "760"
+      }
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Tính áp suất của khí quyển tại đỉnh Phan Xi Păng biết độ cao tại đây là 3147 mét.",
+    "explanation": "Thay $x = 3147$ vào $y = \\frac{1}{12}x + 635$ ta được:\n$y = \\frac{1}{12} \\cdot 3147 + 635 \\approx 897,3$.\nVậy áp suất trên đỉnh Phan Xi Păng tại độ cao 3147 m khoảng 897,3 mmHg.",
+    "points": 0.25,
+    "type": "short_answer",
+    "shortCorrect": "497,75|497,8"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): Đề: ở độ cao 0 m áp suất 760, ở 1500 m là 635 ⇒ b=760, a=(635−760)/1500=−1/12; y(3147)=760−262,25=497,75. Key a=1/12,b=635, (b) 897,3 do lời giải đổi chỗ 2 điểm. NONKEY: lời giải sai theo"
+ },
+ "de1.P4.C5": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Hỏi sau hai lần giảm giá thì chiếc ti vi được bán với giá bao nhiêu?",
+    "explanation": "Giá ti vi sau lần giảm thứ nhất: $7\\,500\\,000 \\cdot 80\\% = 6\\,000\\,000$ đồng.\nGiá ti vi sau lần giảm thứ hai: $6\\,000\\,000 \\cdot 95\\% = 5\\,700\\,000$ đồng.\nVậy sau hai lần giảm giá, chiếc ti vi được bán với giá 5,7 triệu đồng.",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "5700000"
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Sau khi bán hết lô hàng gồm 25 chiếc ti vi thì siêu thị lời được 22 triệu đồng. Hỏi giá vốn của một chiếc ti vi là bao nhiêu?",
+    "explanation": "Tổng doanh thu: $7\\,500\\,000 \\cdot 80\\% \\cdot 15 + 7\\,500\\,000 \\cdot 80\\% \\cdot 95\\% \\cdot 10 = 161\\,250\\,000$ đồng.\nTổng vốn: $161\\,250\\,000 - 22\\,000\\,000 = 139\\,250\\,000$ đồng.\nGiá vốn một chiếc ti vi: $139\\,250\\,000 : 25 = 5\\,570\\,000$ đồng.",
+    "points": 0.25,
+    "type": "short_answer",
+    "shortCorrect": "5000000"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) Doanh thu 6tr·15 + 5,7tr·10 = 147tr; vốn 147−22=125tr ⇒ 5 000 000/chiếc. Key 4690000 và lời giải (161,25tr → 5 570 000) đều sai. NONKEY: lời giải sai"
+ }
+}

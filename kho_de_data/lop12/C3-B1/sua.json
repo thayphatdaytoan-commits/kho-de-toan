@@ -1,0 +1,107 @@
+{
+ "de1": {
+  "bo_de": true,
+  "sua_boi": "claude",
+  "ly_do": "Đề trùng đề đã có trên web — mặc định bỏ"
+ },
+ "de3.P3.C1": {
+  "short_correct": "15",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Điền đáp án rút từ kết luận của lời giải"
+ },
+ "de3.P3.C2": {
+  "short_correct": "12,65",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Điền đáp án rút từ kết luận của lời giải"
+ },
+ "de2.P1.C8": {
+  "answer": "B",
+  "sua_boi": "claude",
+  "ly_do": "Đáp án Claude đọc từ lời giải (đề không ghi «Chọn X»)"
+ },
+ "de3.P3.C6": {
+  "question": "Kết quả điều tra về số giờ làm thêm trong một tuần của 100 sinh viên được cho ở biểu đồ bên.\n[[IMG:image37.png]]\nTìm khoảng tứ phân vị của số liệu đó.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "3,3",
+  "sua_boi": "claude",
+  "xac_nhan": true,
+  "ly_do": "Đáp án thập phân 3,27 mà đề chưa nói làm tròn → thêm yêu cầu «Làm tròn kết quả đến chữ số thập phân thứ nhất», đáp án 3,3"
+ },
+ "de3.P3.C3": {
+  "ly_do": "IQR = 116,357 → 116,4",
+  "question": "Một người thống kê lại thời gian thực hiện các cuộc gọi điện thoại của người đó trong một tuần ở bảng sau:\n| Thời gian (đơn vị: giây) | ${[0 ; 60)}$ | ${[60 ; 120)}$ | ${[120 ; 180)}$ | ${[180 ; 240)}$ | ${[240 ; 300)}$ | ${[300 ; 360)}$ |\n|---|---|---|---|---|---|---|\n| Số cuộc gọi | 8 | 10 | 7 | 5 | 2 | 1 |\nHãy tìm khoảng tứ phân vị của mẫu số liệu ghép nhóm trên.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "116,4",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de3.P3.C4": {
+  "ly_do": "IQR = 9,722 → 9,7",
+  "question": "Số điểm một cầu thủ bóng rổ ghi được trong 20 trận đấu được cho ở bảng sau:\n| Điểm số | ${[5,5 ; 10,5)}$ | ${[10,5 ; 15,5)}$ | ${[15,5 ; 20,5)}$ | ${[20,5 ; 25,5)}$ |\n|---|---|---|---|---|\n| Số trận | 3 | 9 | 2 | 6 |\nHãy tìm khoảng tứ phân vị của mẫu số liệu ghép nhóm trên.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "9,7",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de3.P3.C5": {
+  "ly_do": "IQR = 23,667 → 23,7",
+  "question": "Điểm thi môn Toán (thang điểm 100, điểm được làm tròn đến 1) của 60 thí sinh được cho mẫu số liệu ghép nhóm như sau:\n| Điểm | ${[0 ; 9,5)}$ | ${[9,5 ; 19,5)}$ | ${[19,5 ; 29,5)}$ | ${[29,5 ; 39,5)}$ | ${[39,5 ; 49,5)}$ |\n|---|---|---|---|---|---|\n| Số thí sinh | 1 | 2 | 4 | 6 | 15 |\n| Điểm | ${[49,5 ; 59,5)}$ | ${[59,5 ; 69,5)}$ | ${[69,5 ; 79,5)}$ | ${[79,5 ; 89,5)}$ | ${[89,5 ; 99,5)}$ |\n| Số thí sinh | 12 | 10 | 6 | 3 | 1 |\nTính khoảng tứ phân vị của mẫu số liệu ghép nhóm\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+  "short_correct": "23,7",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de1.P2.C2": {
+  "tf_ans": {
+   "a": false,
+   "b": true,
+   "c": true,
+   "d": false
+  },
+  "ly_do": "Đáp án theo lời giải: a sai (trung bình bằng nhau), b đúng, c đúng, d sai (Hùng đồng đều hơn)",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de1.P2.C3": {
+  "question": "Điểm kiểm tra giữa học kì I môn Toán của 2 nhóm học sinh được cho trong 2 bảng sau:\n[[IMG:image21.png]]\n[[IMG:image22.png]]\nChọn Đúng hoặc Sai trong mỗi ý sau:",
+  "tf": {
+   "a": "Khoảng biến thiên của hai mẫu số liệu đã cho ở hai bảng trên là $6$.",
+   "b": "Khoảng tứ phân vị của mẫu số liệu đã cho ở bảng nhóm học sinh 1 xấp xỉ là 5,8.",
+   "c": "Điểm kiểm tra trung bình của hai nhóm học sinh trên là xấp xỉ bằng nhau.",
+   "d": "Điểm kiểm tra của nhóm học sinh 1 đồng đều hơn của nhóm học sinh 2."
+  },
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": false
+  },
+  "ly_do": "Tách mệnh đề a–d từ đề bài; đáp án theo lời giải",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de1.P2.C4": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": true
+  },
+  "ly_do": "Đáp án theo lời giải: a Đ, b S, c Đ, d Đ",
+  "sua_boi": "claude",
+  "xac_nhan": true
+ },
+ "de2.P2.C4": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": false,
+   "d": false
+  },
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án ý c: Q1≈6,84, ΔQ≈4,94 nên 3 không phải giá trị ngoại lệ"
+ },
+ "de1.P1.C3": {
+  "answer": "C",
+  "sua_boi": "grokbot",
+  "ly_do": "Khôi phục: R1=30-5=25, R2=25-5=20 nên R1>R2 (phương án C); dựng lại 18/10 đổi nhầm thành A"
+ }
+}

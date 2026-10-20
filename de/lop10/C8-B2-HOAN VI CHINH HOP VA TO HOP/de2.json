@@ -1,0 +1,626 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "8",
+  "lesson": "2",
+  "title": "Bài 2. Hoán vị,chỉnh hợp và tổ hợp",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Có bao nhiêu cách sắp xếp chỗ ngồi cho ${8}$ người khách vào ${8}$ ghế kê thành một dãy?",
+   "explanation": "Sắp xếp 8 người khách vào 8 ghế ngồi có 8! = 40320 cách.",
+   "options": [
+    "${40320}$",
+    "${56}$",
+    "${28}$",
+    "${64}$ $ $"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Sắp xếp năm bạn học sinh A, B, C, D, E vào một chiếc ghế dài có 5 chỗ ngồi. Số cách sắp xếp sao cho bạn A và bạn E luôn ngồi ở hai đầu ghế là",
+   "explanation": "Xếp A và E ngồi hai đầu ghế có $2!$ cách xếp. Mỗi cách xếp 3 bạn B, C, D vào 3 ghế còn lại là một hoán vị của 3 phần tử nên có có $3!$ cách. Vậy có $2!.3!=12$ cách.",
+   "options": [
+    "$120$",
+    "$16$",
+    "$12$",
+    "$24$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Từ các chữ số $1,2,3,4$ lập được bao nhiêu số tự nhiên có 4 chữ số khác nhau?",
+   "explanation": "Mỗi số tự nhiên có 4 chữ số khác nhau được tạo thành từ các số trên là một hoàn vị của 4 phần tử. Vậy có $4!=24$ số tự nhiên thỏa mãn yêu cầu bài toán.",
+   "options": [
+    "$16$",
+    "$256$",
+    "$24$",
+    "$12$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Từ 6 chữ số 4;5;6;7;8;9. Hỏi có bao nhiêu số tự nhiên gồm 3 chữ số khác nhau được lập thành từ 6 chữ số đó?",
+   "explanation": "Số có ba chữ số khác nhau được lập thành từ sáu chữ số đã cho là một chỉnh hợp chập 3 của 6.\nSuy ra có $A_{6}^{3}$=120 số.",
+   "options": [
+    "120",
+    "216",
+    "180",
+    "256"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho tập $A=\\left\\{ 1,\\,2,\\,3,\\,5,\\,7,\\,9 \\right\\}$. Từ tập $A$ có thể lập được bao nhiêu số tự nhiên là số gồm bốn chữ số khác nhau?",
+   "explanation": "Tập $A$ gồm có $6$ phần tử là những số tự nhiên khác $0$.\nDo đó từ tập $A$ có thể lập được $A_{6}^{4}=360$ số tự nhiên là số gồm bốn chữ số khác nhau.",
+   "options": [
+    "$720$",
+    "$360$",
+    "$120$",
+    "$24$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho $n,\\,k$là hai số tự nhiên,$1\\le k\\le n$. Trong các mệnh đề sau, mệnh đề nào đúng?",
+   "explanation": "Chọn B",
+   "options": [
+    "$A_{n}^{k}=\\frac{n!}{k!}$",
+    "$A_{n}^{k}=\\frac{n!}{\\left( n-k \\right)!}$",
+    "$A_{n}^{k}=\\frac{n!}{n-k}$",
+    "$A_{n}^{k}=\\frac{n!}{k!\\left( n-k \\right)!}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Câu lạc bộ Ghita có 16 thành viên. Số cách chọn một ban chấp hành bất kì gồm một trưởng ban,\nmột phó ban, một thư kí và một thủ quỹ được chọn từ $16$ thành viên là:",
+   "explanation": "",
+   "options": [
+    "$4$",
+    "$\\dfrac{16!}{4}$",
+    "$\\dfrac{16!}{12!.4!}$",
+    "$\\frac{16!}{12!}$. Lờigiải Chọn $4$ trong $16$ thành viên để bầu ban chấp hành có số cách chọn là: $A_{16}^{4}=\\frac{16!}{12!}$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Xếp ngẫu nhiên 5 lá phiếu có ghi số thứ tự từ 1 đến 5 cạnh nhau. Có bao nhiêu cách xếp để\ncác phiếu ghi số chẵn luôn ở cạnh nhau?",
+   "explanation": "Xếp ngẫu nhiên các phiếu ghi số $1,2,3,5$ cạnh nhau ta có $4!=24$.\nVì các phiếu ghi số chẵn ở cạnh nhau nên ta xếp phiếu ghi số 4 vào cạnh phiếu ghi số2 có 2 cách. Vậy có $2.24=48$.",
+   "options": [
+    "48",
+    "24",
+    "120",
+    "60"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một lớp có 45 học sinh. Hỏi có bao nhiêu cách chọn 3 học sinh để làm vệ sinh lớp học trong một ngày?",
+   "explanation": "Mỗi cách chọn 3 học sinh để làm vệ sinh lớp học trong một ngày là một tổ hợp chập 3 của 45 phần tử.\nDo đó số cách phân công 3 học sinh là: $C_{45}^{3}=14190$.",
+   "options": [
+    "$14190.$",
+    "$900$",
+    "$24360$",
+    "$90.$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho $15$ điểm trên cùng một mặt phẳng sao cho không có ba điểm nào thẳng hàng. Có bao nhiêu tam giác có cả ba đỉnh là 3 trong số 15 điểm đã cho?",
+   "explanation": "Số tam giác thỏa mãn yêu cầu bài toán là $C_{15}^{3}=455$.",
+   "options": [
+    "$3375$",
+    "$2730$",
+    "$455$",
+    "$45$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Từ các chữ số $1,\\text{ }2,\\text{ 3, 4, 5, 6, 7}$ lập được bao nhiêu số tự nhiên gồm hai chữ số khác nhau?.",
+   "explanation": "Số các số tự nhiên gồm hai chữ số khác nhau được lấy ra từ $7$ chữ số trên là: $A_{7}^{2}$.",
+   "options": [
+    "$C_{7}^{2}$",
+    "${{2}^{7}}$",
+    "$A_{7}^{2}$",
+    "${{7}^{2}}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho đa giác đều $n$ đỉnh, $n\\in \\mathbb{N}$ và $n\\ge 3.$ Tìm $n$ biết rằng đa giác đã cho có $170$ đường chéo.",
+   "explanation": "Đa giác lồi $n$ đỉnh thì có $n$ cạnh. Nếu vẽ tất cả các đoạn thẳng nối từng cặp trong $n$ đỉnh này thì có một bộ gồm các cạnh và các đường chéo.\nVậy để tính số đường chéo thì lấy tổng số đoạn thẳng dựng được trừ đi số cạnh, với\nTất cả đoạn thẳng dựng được là bằng cách lấy ra $2$ điểm bất kỳ trong $n$ điểm, tức là số đoạn thẳng chính là số tổ hợp chập $2$ của $n$ phần tử.\nNhư vậy, tổng số đoạn thẳng là $C_{n}^{2}.$\nSố cạnh của đa giác lồi là $n.$\nSuy ra số đường chéo của đa giác đều $n$ đỉnh là $C_{n}^{2}-n=\\frac{n\\left( n-3 \\right)}{2}.$\nTheo bài ra, ta có $\\left\\{ \\begin{aligned} & n\\ge 3 \\\\ & \\frac{n\\left( n-3 \\right)}{2}=170 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & n\\ge 3 \\\\ & {{n}^{2}}-3n-340=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow n=20$",
+   "options": [
+    "$n=15$",
+    "$n=27$",
+    "$n=8$",
+    "$n=20$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số khả năng khách lên tàu tùy ý là 9 khả năng",
+    "b": "Số khả năng 3 hành khách lên cùng một toa là 1 khả năng",
+    "c": "Số khả năng mỗi khách lên một toa là 6 khả năng",
+    "d": "Số khả năng có 2 hành khách cùng lên một toa, hành khách thứ ba thì lên toa khác là 18"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một đoàn tàu nhỏ có 3 toa khách đỗ ở sân ga. Có 3 hành khách không quen biết cùng bước lên tàu, khi đó:",
+   "explanation": "a) Khách lên tàu tùy ý nên mỗi khách sẽ có 3 lựa chọn. Vậy số khả năng thỏa mãn là ${3 \\times 3 \\times 3=27}$.\nb) Số khả năng 3 hành khách lên cùng một toa là 3\nc) Số cách chọn 3 toa để xếp 3 hành khách là: ${A_3^3=3 !=6}$.\nd) Giai đoạn 1: Chia 3 hành khách ra làm hai nhóm X, Y: một nhóm có 2 người và một nhóm có 1 người. Số cách thực hiện là: ${C_3^2 \\times 1}$.\nGiai đoạn 2: Chọn 2 trong 3 toa tàu để xếp hai nhóm vào, số cách thực hiện là ${A_3^2}$.\nVậy số cách xếp khách lên tàu thỏa mãn là ${C_3^2 \\times 1 \\times A_3^2=18}$.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số cách chọn 4 bông tùy ý là 126 cách",
+    "b": "Số cách chọn 4 bông mà số bông mỗi màu bằng nhau là 50 cách",
+    "c": "Số cách chọn 4 bông, trong đó có 3 bông hồng và 1 bông trắng là: 30 cách",
+    "d": "Số cách chọn 4 bông có đủ hai màu: $120$ (cách)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Có 5 bông hồng, 4 bông trắng (mỗi bông đều khác nhau về hình dáng). Một người cần chọn một bó bông từ số bông này",
+   "explanation": "a) Số cách chọn 4 bông từ 9 bông: ${C_9^4=126}$ (cách).\nb) Số cách chọn 2 bông hồng từ 5 bông hồng: ${C_5^2}$ (cách).\nSố cách chọn 2 bông trắng từ 4 bông trắng: ${C_4^2}$ (cách).\nSố cách chọn một bó bông thỏa mãn đề bài: ${C_5^2 \\cdot C_4^2=60}$ (cách).\nc) 3 bông hồng, 1 bông trắng: có ${C_5^3 \\cdot C_4^1=40}$ (cách).\nd) Cách giải 1: Làm trực tiếp.\nTrường hợp 1: 3 bông hồng, 1 bông trắng: có ${C_5^3 \\cdot C_4^1=40}$ (cách).\nTrường hợp 2: 2 bông hồng, 2 bông trắng: có ${C_5^2 \\cdot C_4^2=60}$ (cách).\nTrường hợp 3: 1 bông hồng, 3 bông trắng: có ${C_5^1 \\cdot C_4^3=20}$ (cách).\nTheo quy tắc cộng ta có tất cả ${40+60+20=120}$ (cách chọn).\nCách giải 2: Phương pháp loại trừ.\nSố cách chọn 4 bông từ 9 bông (tùy ý): ${C_9^4=126}$ (cách).\nSố cách chọn 4 bông chỉ một màu (hồng hoặc trắng): ${C_5^4+C_4^4=6}$ (cách).\nVậy số cách chọn 4 bông có đủ hai màu: ${126-6=120}$ (cách).",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn 2 bi xanh, 1 bi đỏ và 1 bi vàng có: $300$ cách.",
+    "b": "Chọn 1 bi xanh, 2 bi đỏ và 1 bi vàng có: $120$ cách.",
+    "c": "Chọn 1 bi xanh, 1 bi đỏ và 2 bi vàng có: $180$ cách.",
+    "d": "Có $600$cách chọn ngẫu nhiên 4 viên bi từ hộp sao cho có đủ cả ba màu."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp có 6 viên bi xanh, 5 viên bi đỏ và 4 viên bi vàng, chọn ngẫu nhiên 4 viên bi, khi đó:",
+   "explanation": "a) Chọn 2 bi xanh, 1 bi đỏ và 1 bi vàng có: ${C_6^2 \\cdot 5.4=300}$ cách.\nb) Chọn 1 bi xanh, 2 bi đỏ và 1 bi vàng có: ${6 . C_5^2 .4=240}$ cách.\nc) Chọn 1 bi xanh, 1 bi đỏ và 2 bi vàng có: ${6.5 \\cdot C_4^2=180}$ cách.\nd) ${300+240+180=720}$ cách.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chọn 5 học sinh tùy ý từ 9 học sinh có: $120$ cách.",
+    "b": "Chọn 5 học sinh chỉ có lớp ${12 {~A}}$ và ${12 {~B}}$ có: $21$ cách.",
+    "c": "Chọn 5 học sinh chỉ có lớp $12B$ và ${12 {C}}$ có: $2$ cách.",
+    "d": "Có $90$ cách chọn sao cho lớp nào cũng có học sinh được chọn"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Đội văn nghệ của nhà trường gồm 4 học sinh lớp ${12 {~A}, 3}$ học sinh lớp ${12 {~B}}$ và 2 học sinh lớp ${12 {C}}$. Chọn ngẫu nhiên 5 học sinh từ đội văn nghệ để biểu diễn trong lễ bế giảng, khi đó:",
+   "explanation": "Chọn 5 học sinh tùy ý từ 9 học sinh có: ${C_9^5=126}$ cách.\n* Chọn 5 học sinh có cả học sinh 2 lớp, xảy ra các tình huống sau:\nChọn 5 học sinh chỉ có lớp ${12 {~A}}$ và ${12 {~B}}$ có: ${C_7^5=21}$ cách.\nChọn 5 học sinh chỉ có lớp ${12 {~A}}$ và ${12 {C}}$ có: ${C_6^5=6}$ cách.\nChọn 5 học sinh chỉ có lớp $12B$ và ${12 {C}}$ có: ${C_5^5=1}$ cách.\n* Chọn 5 học sinh chỉ có một lớp duy nhất: không có.\nVậy số cách chọn 5 học sinh sao cho lớp nào cũng có học sinh là:\n${126-(21+6+1)=98 \\text { \\text{cách}. } }$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có bao nhiêu số tự nhiên chia hết cho 2 mà mỗi số có ba chữ số khác nhau?",
+   "explanation": "Gọi số có ba chữ số cần tìm là ${\\overline{a b c}(a \\neq 0)}$.\nVì số cần tìm chia hết cho 2 nên số cách chọn chữ số c là 5 cách.\nSố cách chọn chữ số a là ${C_8^1}$ (cách).\nSố cách chọn chữ số b là ${C_8^1}$ (cách).\nVậy số các số chia hết cho 2 mà mỗi số có ba chữ số khác nhau là: $5\\cdot C_{8}^{1}\\cdot C_{8}^{1}=5\\cdot 8\\cdot 8=320$ (số)",
+   "short_value": 320,
+   "short_correct": "320",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Lớp 10B có 15 bạn (trong đó có lớp trưởng) tham gia hoạt động trò chơi do Đoàn trường tổ chức. Trong trò chơi chạy tiếp sức, cô giáo phải xếp đội hình gồm 6 bạn và thứ tự chạy của họ. Hỏi cô giáo có bao nhiêu cách xếp đội hình để lớp trưởng là người chạy cuối.",
+   "explanation": "Lớp trưởng là người chạy cuối: có 1 cách xếp.\nMỗi cách xếp đội hình 5 bạn còn lại trong 14 bạn là một chỉnh hợp chập 5 của 14 phần tử nên số cách xếp đội hình theo yêu cầu là: ${{A}_{14}^{5} .1=240240}$.",
+   "short_value": 240240,
+   "short_correct": "240240",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D01",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho 18 điểm phân biệt. Hỏi có bao nhiêu vectơ khác ${\\overrightarrow{0}}$ sao cho điểm đầu và điểm cuối của mỗi vectơ đó là 2 trong 18 điểm đã cho?",
+   "explanation": "Mỗi cách chọn một vectơ là một cách chọn 2 điểm trong 18 điểm đã cho rồi xếp thứ tự điểm đầu và điểm cuối, tức là một chỉnh hợp chập 2 của 18 phần tử. Vậy số vectơ thoả mãn đề bài là: ${{A}_{18}^{2}=306}$.",
+   "short_value": 306,
+   "short_correct": "306",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai dãy ghế được xếp như sau:\n[[IMG:image15.png]]\nMột đội chơi có 15 người gồm 7 nam và 8 nữ. Chọn ngẫu nhiên 8 bạn ngồi vào hai dãy ghế để tham gia trả lời câu hỏi. Hai người được gọi là ngồi đối diện nhau nếu ngồi ở hai dãy và có cùng số ghế. Hỏi có bao nhiêu cách xếp để mỗi bạn nam ngồi đối diện với một bạn nữ?",
+   "explanation": "Vì mỗi bạn nam ngồi đối diện một bạn nữ nên có 4 bạn nam và 4 bạn nữ được chọn ngồi vào hai dãy ghế.\nChọn 1 bạn nam thứ nhất xếp vào chỗ bất kì trong 8 chỗ có ${7.8=56}$ cách.\nChọn 1 bạn nam thứ hai xếp vào chỗ bất kì trong 7 chỗ còn lại và không đối diện với bạn nam thứ nhất có ${6.6=36}$ cách.\nChọn 1 bạn nam thứ ba xếp vào chỗ bất kì trong 6 chỗ còn lại và không đối diện với bạn nam thứ nhất, thứ hai có ${5.4=20}$ cách.\nChọn 1 bạn nam thứ tư xếp vào chỗ bất kì trong 5 chỗ còn lại và không đối diện với bạn nam thứ nhất, thứ hai, thứ ba có ${4.2=8}$ cách.\nChọn 4 bạn nữ và xếp vào 4 ghế còn lại có ${{A}_{8}^{4}}$ cách.\nVậy có ${56 \\cdot 36 \\cdot 20 \\cdot 8 \\cdot A_{8}^{4}=541900800}$ cách xếp để mỗi bạn nam ngồi đối diện với một bạn nữ.",
+   "short_value": 541900800,
+   "short_correct": "541900800",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D04",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ ${n}$ điểm phân biệt, ta lập được 153 đoạn thẳng có hai đầu mút là 2 trong ${n}$ điểm đã cho. Tìm ${n}$.",
+   "explanation": "Số đoạn thẳng lập được từ ${n}$ điểm đã cho là ${{C}_{n}^{2}}$.\nTheo đề bài, ta có: $C_{n}^{2}=153\\Leftrightarrow \\frac{n!}{2!(n-2)!}=153\\Leftrightarrow \\frac{n(n-1)(n-2)!}{2(n-2)!}=153\\Leftrightarrow \\frac{n(n-1)}{2}=153$\n$\\Leftrightarrow {{n}^{2}}-n-306=0.\\text{ Suy ra }n=18.\\text{ }$",
+   "short_value": 18,
+   "short_correct": "18",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D02",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tính số đường chéo của một đa giác lồi có 14 đỉnh.",
+   "explanation": "Tổng số đoạn thẳng lập được từ ${n(n>3)}$ đỉnh là ${{C}_{n}^{2}}$. Trong số các đoạn thẳng đó thì có ${n}$ cạnh của đa giác, còn lại là đường chéo.\nVậy số đường chéo của đa giác ${n}$ đỉnh là: ${{C}_{n}^{2}-n=\\frac{n !}{2 !(n-2) !}-n=\\frac{n(n-3)}{2}}$. Với ${n=14}$ ta có số đường chéo của đa giác lồi 14 đỉnh là: ${\\frac{14(14-3)}{2}=77}$.",
+   "short_value": 77,
+   "short_correct": "77",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C8.B2.D03",
+   "dang_toan_web": "Hoán vị, Chỉnh hợp và Tổ hợp."
+  }
+ ],
+ "flags": []
+}

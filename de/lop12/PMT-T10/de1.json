@@ -1,0 +1,850 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "0",
+  "lesson": "on-tap",
+  "title": "500 bài toán thực tế Phạm Minh Tuấn — Tập 10",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 3,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Biểu thức tính $B\\left( x \\right)$ theo $x$ là $B\\left( x \\right)=220+x$( nghìn đồng).",
+    "b": "Biểu thức tính $L\\left( x \\right)$ theo $x$ là $L\\left( x \\right)=-{{x}^{3}}+3{{x}^{2}}+220x-500$ (nghìn đồng).",
+    "c": "Lợi nhuận tối đa của hộ làm nghề dệt vải lụa tơ tằm có thể đạt được là 1200 nghìn đồng.",
+    "d": "Hộ làm nghề dệt này cần sản xuất và bán ra mỗi ngày 10 mét vải lụa để thu được lợi nhuận tối đa."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản xuất mỗi ngày được $x$mét vải lụa ($1\\le x\\le 18$). Tổng chi phí sản xuất $x$ mét vải lụa, tính bằng nghìn đồng, cho bởi hàm chi phí $C\\left( x \\right)={{x}^{3}}-3{{x}^{2}}-20x+500$. Giả sử hộ làm nghề dệt này bán hết sản phẩm mỗi ngày với giá 220 nghìn đồng/mét. Gọi $B\\left( x \\right)$ là số tiền bán được và $L\\left( x \\right)$là lợi nhuận khi bán $x$ mét vải lụa.",
+   "explanation": "(a) Sai | (b) Sai| (c) Đúng | (d) Đúng\n(a) $B\\left( x \\right)=220.x$\nChọn SAI.\n(b) $L\\left( x \\right)=B(x)-C(x)=220x-{{x}^{3}}+3{{x}^{2}}+20x-500=-{{x}^{3}}+3{{x}^{2}}+240x-500$\nChọn SAI.\n(c) $L'(x)=-3{{x}^{2}}+6x+240;\\,L'(x)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-8 \\\\ & x=10 \\\\ \\end{aligned} \\right.$\nVì $1\\le x\\le 18\\Rightarrow x=10$\nTa có $L(1)=-258;\\,L(10)=1200;\\,L(18)=-1040$\nLợi nhuận tối đa của hộ làm nghề dệt vải lụa tơ tằm có thể đạt được là 1200 nghìn đồng.\nChọn ĐÚNG.\n(d) Hộ làm nghề dệt này cần sản xuất và bán ra mỗi ngày 10 mét vải lụa để thu được lợi nhuận tối đa.\nChọn ĐÚNG.",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong không gian với hệ trục tọa độ $Oxyz,$ một tấm bảng đồng chất có dạng hình vuông $ABCD$ tâm $O'$ được treo nghiêng bởi $4$ sợi dây $IA,IB,IC,ID$ gắn cố định tại điểm $I\\left( 0;0;9 \\right)$ như hình vẽ. Điểm $O'\\left( 0;0;5 \\right)$; $A\\left( -\\sqrt{2};\\sqrt{2};5 \\right),$ điểm $D$ có hoành độ dương và góc $\\widehat{O'ID}$ đạt giá trị lớn nhất. Gọi $\\overrightarrow{{{F}_{1}}},\\overrightarrow{{{F}_{2}}},\\overrightarrow{{{F}_{3}}},\\overrightarrow{{{F}_{4}}}$ lần lượt là lực căng của các sợi dây $IB,IC,ID,IA.$\nIO’CBAD$\\overrightarrow{{{F}_{1}}}$ $\\overrightarrow{{{F}_{3}}}$\nBiết $\\left| \\overrightarrow{{{F}_{1}}} \\right|=50\\text{N}$ và $\\left| \\overrightarrow{{{F}_{2}}} \\right|=40\\text{N}\\text{.}$ Tính khối lượng $m$(kg) của tấm bảng (kết quả làm tròn đến hàng đơn vị) (Cho gia tốc trọng trường $g=9,8\\text{ }(\\text{m/}{{\\text{s}}^{2}})$ và trọng lượng của tấm bảng được tính bằng công thức $P=m.g$).",
+   "explanation": "Đáp án: $15$\nDo $O'$ là trung điểm đoạn $AC$ nên $C\\left( \\sqrt{2};\\,-\\sqrt{2};\\,5 \\right)$ và gọi $D\\left( a;\\,b;\\,c \\right)$\nKhi đó $\\overrightarrow{O'D}=\\left( a;\\,b;\\,c-5 \\right)$; $\\overrightarrow{AC}=\\left( 2\\sqrt{2};\\,-2\\sqrt{2};0 \\right)$ mà hai vectơ này vuông góc với nhau nên có\n$2\\sqrt{2}a=2\\sqrt{2}b\\Leftrightarrow a=b\\Rightarrow \\overrightarrow{CD}=\\left( a-\\sqrt{2};\\,a+\\sqrt{2};\\,c-5 \\right);\\,\\overrightarrow{AD}=\\left( a+\\sqrt{2};\\,a-\\sqrt{2};\\,c-5 \\right)$\nmà hai vectơ này cũng vuông góc với nhau nên\n${{a}^{2}}-2+{{a}^{2}}-2+{{(c-5)}^{2}}=0\\Leftrightarrow {{(c-5)}^{2}}=4-2{{a}^{2}}\\Rightarrow c-5=\\sqrt{4-2{{a}^{2}}}$ (với $4-2{{a}^{2}}\\ge 0$) có $c-5\\ge 0$\nTa có: $\\overrightarrow{ID}=\\left( a;\\,a;\\,\\sqrt{4-2{{a}^{2}}}-4 \\right);\\,\\overrightarrow{IO'}=\\left( 0;\\,0;\\,-4 \\right)\\Rightarrow \\cos \\widehat{O'ID}=\\frac{16-4\\sqrt{4-2{{a}^{2}}}}{4\\sqrt{{{a}^{2}}+{{a}^{2}}+{{\\left( 4-\\sqrt{4-2{{a}^{2}}} \\right)}^{2}}}}$\nKhảo sát hàm số $f\\left( a \\right)=\\frac{4-\\sqrt{4-2{{a}^{2}}}}{\\sqrt{{{a}^{2}}+{{a}^{2}}+{{\\left( 4-\\sqrt{4-2{{a}^{2}}} \\right)}^{2}}}}$ trên đoạn $\\left[ -\\sqrt{2};\\sqrt{2} \\right]$ tìm được $f\\left( a \\right)$ đạt GTNN tại $a=\\pm \\frac{\\sqrt{6}}{2}$\nVậy tọa độ các điểm: $A\\left( -\\sqrt{2};\\sqrt{2};5 \\right)$; $B\\left( -\\frac{\\sqrt{6}}{2};\\,-\\frac{\\sqrt{6}}{2};\\,4 \\right)$; $C\\left( \\sqrt{2};\\,-\\sqrt{2};\\,5 \\right)$; $D\\left( \\frac{\\sqrt{6}}{2};\\,\\frac{\\sqrt{6}}{2};\\,6 \\right)$\nTa có: $\\overrightarrow{IA}=\\left( -\\sqrt{2};\\,\\sqrt{2};\\,-4 \\right)\\Rightarrow \\left| \\overrightarrow{IA} \\right|=2\\sqrt{5}$; $\\overrightarrow{IC}=\\left( \\sqrt{2};\\,-\\sqrt{2};\\,-4 \\right)\\Rightarrow \\left| \\overrightarrow{IC} \\right|=2\\sqrt{5}$\nVậy $\\left| \\overrightarrow{{{F}_{4}}} \\right|=\\left| \\overrightarrow{{{F}_{2}}} \\right|=k.2\\sqrt{5}=40\\Rightarrow k=4\\sqrt{5}$\nSuy ra $\\overrightarrow{{{F}_{4}}}=\\left( -4\\sqrt{10};\\,4\\sqrt{10};\\,-16\\sqrt{5} \\right)$; $\\overrightarrow{{{F}_{2}}}=\\left( 4\\sqrt{10};\\,-4\\sqrt{10};\\,-16\\sqrt{5} \\right)$\nTương tự $\\overrightarrow{IB}=\\left( -\\frac{\\sqrt{6}}{2};\\,-\\frac{\\sqrt{6}}{2};\\,-5 \\right)\\Rightarrow \\left| \\overrightarrow{IB} \\right|=2\\sqrt{7}$; $\\overrightarrow{ID}=\\left( \\frac{\\sqrt{6}}{2};\\,\\frac{\\sqrt{6}}{2};\\,-3 \\right)\\Rightarrow \\left| \\overrightarrow{ID} \\right|=2\\sqrt{3}$\nSử dụng tỉ lệ giữa độ dài dây và độ lớn lực: $\\frac{\\left| \\overrightarrow{{{F}_{1}}} \\right|}{\\left| \\overrightarrow{{{F}_{3}}} \\right|}=\\frac{2\\sqrt{7}}{2\\sqrt{3}}\\Rightarrow \\left| \\overrightarrow{{{F}_{3}}} \\right|=\\frac{50\\sqrt{21}}{7}$\nSuy ra $\\overrightarrow{{{F}_{3}}}=\\left( \\frac{25\\sqrt{42}}{14};\\,\\frac{25\\sqrt{42}}{14};\\,-\\frac{75\\sqrt{7}}{7} \\right)$; $\\overrightarrow{{{F}_{1}}}=\\left( -\\frac{25\\sqrt{42}}{14};\\,-\\frac{25\\sqrt{42}}{14};\\,-\\frac{125\\sqrt{7}}{7} \\right)$\nĐể hệ cân bằng thì $\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}+\\overrightarrow{{{F}_{4}}}=\\overrightarrow{P}=\\left( 0;\\,0;\\,-32\\sqrt{5}-\\frac{200\\sqrt{7}}{7} \\right)\\Rightarrow \\left| \\overrightarrow{P} \\right|=\\frac{200\\sqrt{7}}{7}+32\\sqrt{5}$\nVậy khối lượng của thanh kim loại là: $m=\\frac{P}{g}=\\frac{\\frac{200\\sqrt{7}}{7}+32\\sqrt{5}}{9,8}\\approx 15$(kg).",
+   "short_value": 15,
+   "short_correct": "15",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 49,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D03",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một vật chuyển động theo quy luật $s=s(t)=\\frac{1}{3}{{t}^{3}}-\\frac{3}{2}{{t}^{2}}+10t+2$ với $t$ (giây) là khoảng thời gian tính từ lúc vật bắt đầu chuyển động và $s$ (mét) là quãng đường vật đi được trong thời gian đó. Tính quãng đường mà vật đi được khi vận tốc đạt 20 m/s (làm tròn kết quả đến hàng phần chục).",
+   "explanation": "Đáp án: 56,2\nVận tốc của vật là: $v=v(t)={s}'(t)={{t}^{2}}-3t+10$ (m/s)\nKhi vận tốc đạt 20 m/s thì ta có phương trình :\n${{t}^{2}}-3t+10=20\\Leftrightarrow \\left[ \\begin{aligned} & t=5 \\\\ & t=-2\\,\\,(KTM) \\\\ \\end{aligned} \\right.$\nVậy quãng đường mà vật đi được khi vận tốc đạt 20 m/s là :\n$s(5)=\\frac{1}{3}{{.5}^{3}}-\\frac{3}{2}{{.5}^{2}}+10.5+2=\\frac{337}{6}\\approx 56,2$ (m)",
+   "short_value": 56.2,
+   "short_correct": "56,2",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một người đưa thư xuất phát từ bưu điện ( vị trí A) và phải đi qua các con đường để phát thư rồi\nquay lại bưu điện. Sơ đồ các con đường cần đi qua và độ dài của chúng ( tính theo mét ) được biểu diễn ở hình vẽ dưới. Khi đó, quãng đường ngắn nhất người ta đưa thư có thể lựa chọn là đi bao nhiêu mét?\n[[IMG:image1.png]]",
+   "explanation": "Trả lời: 8400\nTổng quãng đường người đưa thư phải đi qua các con đường là; 7.500 (mét).\nNgười đưa thư cần quay lại bưu điện, khi đó để quãng đường đi là ngắn thì quãng đường đi\nquay lại bưu điện là ngắn nhất, quãng đường quay lại bưu điện ngắn nhất là $D\\to C\\to B\\to A$.\nVậy quãng đường ngắn nhất để người đưa thư xuất phát từ bưu điện ( vị trí A) và phải đi qua các\ncon đường để phát thư rồi quay lại bưu điện: $7.500+400+300+200=8.400$(mét).",
+   "short_value": 8400,
+   "short_correct": "8400",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 1,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Bác Vinh muốn làm cửa rào sắt có hình dạng và kích thước như hình vẽ bên dưới, biết đường cong phía trên là một parabol, tứ giác $ABDE$ là hình chữ nhật. Giá của cánh cửa sau khi hoàn thành là $700\\,000$ đồng/${{\\text{m}}^{\\text{2}}}.$ Hỏi bác Vinh phải trả số tiền bao nhiêu triệu đồng để làm một cửa sắt như vậy? (làm tròn kết quả đến hàng phần trăm).\n[[IMG:image2.png]]",
+   "explanation": "Ta dễ tính được diện tích hình chữ nhật $ABDE$ là:\n${{S}_{1}}=5.1,5=7,5\\,\\,\\left( {{\\text{m}}^{2}} \\right).$\nTa thấy $d\\left( C\\,,\\,AB \\right)=2-1,5=0,5\\,\\,\\left( \\text{m} \\right).$ Suy ra diện tích phần vòm cổng parabol là:\n${{S}_{2}}=\\frac{2}{3}d\\left( C\\,,\\,AB \\right).AB=\\frac{2}{3}.0,5.5=\\frac{5}{3}\\,\\,\\left( {{\\text{m}}^{2}} \\right).$\nVậy số tiền bác Vinh phải trả để làm cửa sắt là:\n$700\\,000.\\left( {{S}_{1}}+{{S}_{2}} \\right)\\approx 6,42$ (triệu đồng).",
+   "short_value": 6.42,
+   "short_correct": "6,42",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một nhà địa chất học đang ở địa điểm $A$ trên sa mạc. Anh ta muốn đến điểm $B$ và cách $A$ một khoảng bằng $70\\,km$. Trong sa mạc, xe anh ta chỉ có thể di chuyển với vận tốc $30\\,km/h$. Nhà địa chất phải đến được điểm $B$ sau 2 giờ, vì vậy nếu anh ta đi từ $A$ đến $B$ sẽ không thể đến đúng giờ được. Rất may, có một con đường nhựa song song với đường nối $A$ và $B$và cách $AB$một đoạn $10\\,km$. Trên đường nhựa đó, xe nhà địa chất có thể di chuyển với vận tốc $50\\,km/h$. Thời gia ngắn nhất để nhà địa chất di chuyển từ $A$ đến $B$ là bao nhiêu phút?\n[[IMG:image3.png]]",
+   "explanation": "Trả lời: $116$.\n[[IMG:image4.png]]\nGọi $H,\\,K$ lần lượt là hình chiếu của $C,\\,D$ trên $AB.$\nĐặt $AH=x,\\,BK=y\\,\\,\\left( 0<x<70;\\,0<y<70 \\right)$.\nKhi đó:\n+ Thời gian nhà địa chất đi trên sa mạc là: $\\frac{AC+BD}{30}=\\frac{\\sqrt{{{x}^{2}}+100}+\\sqrt{{{y}^{2}}+100}}{30}$.\n+ Thời gian nhà địa chất đi trên đường nhựa là: $\\frac{CD}{50}=\\frac{HK}{50}=\\frac{70-\\left( x+y \\right)}{50}$.\nVậy tổng thời gian nhà địa chất di chuyển là\n$T=\\frac{\\sqrt{{{x}^{2}}+100}+\\sqrt{{{y}^{2}}+100}}{30}+\\frac{70-\\left( x+y \\right)}{50}$.\nTa có:\n$T\\ge \\frac{\\sqrt{{{\\left( x+y \\right)}^{2}}+{{\\left( 10+10 \\right)}^{2}}}}{30}+\\frac{70-\\left( x+y \\right)}{50}$.\nĐặt $t=x+y$ suy ra $T\\ge \\frac{\\sqrt{{{t}^{2}}+400}}{30}+\\frac{70-t}{50}$.\nXét hàm số $f\\left( t \\right)=\\frac{\\sqrt{{{t}^{2}}+400}}{30}+\\frac{70-t}{50}\\Rightarrow {f}'\\left( t \\right)=0\\Leftrightarrow t=15$ ( sử dụng MTCT).\nVậy $MinT=f\\left( 15 \\right)=\\frac{29}{15}\\,\\left( h \\right)=116\\,\\left( p \\right)$.",
+   "short_value": 116,
+   "short_correct": "116",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 15,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 7,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Gia tốc tức thời của chuyển động này là $5\\,\\left( m/{{s}^{2}} \\right)$.",
+    "b": "Thời gian kể từ lúc đạp phanh đến khi xe máy dừng hẳn là 2 giây.",
+    "c": "Quãng đường xe máy đi được sau 0,5 giây kể từ lúc đạp phanh là 6 m.",
+    "d": "Để giữ khoảng cách an toàn, người điều khiển xe máy phải bắt đầu đạp phanh khi cách xe đang dừng phía trước tối thiểu một khoảng 11m (giả sử ngay lúc đạp phanh thì xe phía trước đang đứng yên)"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Để đảm bảo an toàn khi lưu thông trong thành phố thì các xe khi dừng lại phải cách nhau một khoảng tối thiểu là 1 m. Một xe máy di chuyển trên đường thì gặp đèn đỏ từ xa, người điều khiển xe máy đạp phanh và xe chuyển động chậm dần đều với vận tốc $v\\left( t \\right)=10-5t\\,\\left( m/s \\right)$, trong đó $t$ là khoảng thời gian tính bằng giây kể từ lúc đạp phanh.",
+   "explanation": "| a) Sai | b) Đúng | c) Sai | d) Đúng |\n|---|---|---|---|\na) Sai. $v\\left( t \\right)=10-5t\\,\\Rightarrow a\\left( t \\right)=-5$.\nb) Đúng. Xe dừng hẳn khi $v\\left( t \\right)=10-5t\\,=0\\Leftrightarrow t=2$.\nc) Sai. Khoảng thời gian xe đi được sau 0,5 giây từ khi đạp phanh là $\\int\\limits_{0}^{0,5}{\\left( 10-5t\\, \\right)}dt=\\frac{35}{8}=4,375$.\nd) Đúng. Để giữ khoảng cách an toàn, người điều khiển xe máy phải bắt đầu đạp phanh khi cách xe đang dừng phía trước tối thiểu một khoảng $1+\\int\\limits_{0}^{2}{\\left( 10-5t\\, \\right)}dt=11$ (m).",
+   "ma": "de1.P3.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B3.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 8,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trên sân vận động, người ta tổ chức một cuộc thi chạy thông minh. Sân vận động là hình chữ nhật $ABC\\text{D}$ có kích thước $AB=100m$ và $C\\text{D}=80m$. Ở chính giữa sân người ta vẽ một hình tròn có tâm trùng với tâm của hình chữ nhật, bán kính bằng 25m như hình vẽ. Lấy E là một vị trí trên cạnh AB sao cho $EB=20m$. Mỗi vận động viên cần xuất phát từ một điểm M trên đường tròn và chạy theo cung đường $MDCBEM\\text{D}$. Vận động viên thắng cuộc là người chạy với quãng đường ngắn nhất. Tính độ dài quãng đường ngắn nhất vận động viên phải chạy( đơn vị m, kết quả làm tròn đến hàng đơn vị).",
+   "explanation": "Trả lời: $352$\n[[IMG:image5.png]]\nTổng quãng đường đi của vận động viên là $\\text{S=MD}+DC+CB+BE+EM+M\\text{D=2MD+ME}+200$\nGắn hệ trục toạ độ gốc O.\nKhi đó $E\\left( 30;40 \\right),D\\left( -50;-40 \\right)$.\nPhương trình đường tròn ( C ) là ${{x}^{2}}+{{y}^{2}}={{25}^{2}}=625$\n$ME=\\sqrt{{{(x-30)}^{2}}+{{(y-40)}^{2}}}=\\sqrt{{{x}^{2}}+{{y}^{2}}-60x-80y+1875+625}$\n$=\\sqrt{4{{x}^{2}}+4{{y}^{2}}-60x-80y+625}\\,=2\\sqrt{{{\\left( x-\\frac{15}{2} \\right)}^{2}}+{{(y-10)}^{2}}}=2MF$ với $F\\left( \\frac{15}{2};10 \\right)$\nVậy $S=2(MD+MF)+200$ mà D nằm ngoài đường tròn (C) còn F nằm bên trong đường tròn (C) nên $MD+MF\\ge DF$, dấu bằng xảy ra khi M là giao điểm của đoạn DF với đường tròn (C)\nTa có $DF=\\frac{5\\sqrt{929}}{2}$ nên $S\\ge 5\\sqrt{929}+200\\,\\simeq 352$\nVậy độ dài quãng đường ngắn nhất vận động viên phải chạy là 352 m",
+   "short_value": 352,
+   "short_correct": "352",
+   "ma": "de1.P3.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 9,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nhân dịp kỷ niệm $50$ năm ngày thành lập trường, các học sinh lựa chọn tham gia thi đấu thể thao hoặc biểu diễn văn nghệ. Lớp $12A$ có $60\\%$ số học sinh tham gia thi đấu thể thao và còn lại $40\\%$ số học sinh tham gia biểu diễn văn nghệ. Biết rằng các bạn nữ đều tham gia biểu diễn văn nghệ. Trong số các bạn nam có $20\\%$ tham gia văn nghệ và $80\\%$ tham gia thi đấu thể thao. Chọn ngẫu nhiên $1$ học sinh trong lớp. Biết rằng học sinh này tham gia biểu diễn văn nghệ, xác suất để học sinh này là nữ là bao nhiêu phần trăm?",
+   "explanation": "Trả lời: $0,625$\nGọi $A$: “Bạn được chọn là nam” và $B$: “Bạn được chọn tham gia biểu diễn văn nghệ”.\nKhi đó, $\\overline{A}$: “Bạn được chọn là nữ” và $\\overline{B}$: “Bạn được chọn tham gia thi đấu thể thao”.\nLớp $12A$ có $60\\%$ số học sinh tham gia thi đấu thể thao và còn lại $40\\%$ nên $P\\left( B \\right)=0,4$ và $P\\left( \\overline{B} \\right)=0,4$.\nCác bạn nữ đều tham gia biểu diễn văn nghệ nên $P\\left( B|\\overline{A} \\right)=1$.\nTrong số các bạn nam có $20\\%$ tham gia văn nghệ và $80\\%$ tham gia thi đấu thể thao nên ta có $P\\left( B|A \\right)=0,2$ và $P\\left( \\overline{B}|A \\right)=0,8$.\nTa có: $P\\left( B \\right)=P\\left( B|A \\right)P\\left( A \\right)+P\\left( B|\\overline{A} \\right)P\\left( \\overline{A} \\right)$\n$\\Leftrightarrow 0,4=0,2\\left( 1-P\\left( \\overline{A} \\right) \\right)+1\\cdot P\\left( \\overline{A} \\right)\\Leftrightarrow P\\left( \\overline{A} \\right)=0,25$\nKhi đó, xác suất để chọn ra một học sinh là nữ với điều kiện có tham gia biểu diễn văn nghệ là\n$P\\left( \\overline{A}|B \\right)=\\frac{P\\left( B|\\overline{A} \\right)P\\left( \\overline{A} \\right)}{P\\left( B \\right)}=\\frac{P\\left( \\overline{A} \\right)}{P\\left( B \\right)}=\\frac{0,25}{0,4}=0,625$.",
+   "short_value": 0.625,
+   "short_correct": "0,625",
+   "ma": "de1.P3.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 10,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Để chuẩn bị quảng bá sản phẩm, người ta trang trí tấm pano dạng parabol như hình vẽ, biết OS = 8m, AB = 6m với O là trung điểm của AB. Tấm pano được chia thành ba phần để trang trí với mức chi phí khác nhau: phần trên là phần kẻ sọc giá 100 000 đồng/m², phần giữa là hình quạt tâm O bán kính 3m được tô đậm giá 200 000 đồng/m², phần còn lại giá 150 000 đồng/m². Tính tổng chi phí để trang trí tấm pano (đơn vị triệu đồng, kết quả làm tròn đến hàng phần trăm).\n[[IMG:image6.png]]",
+   "explanation": "Đáp án: 4,44\n[[IMG:image7.png]]\nLắp hệ trục $Oxy$ với tia $Ox$ trùng với tia $OB$, tia $Oy$ trùng với tia $OS$ như hình vẽ.\nKhi đó ta có: $A\\left( -3;0 \\right),\\,B\\left( 3;0 \\right),\\,S\\left( 0;8 \\right)$.\nSuy ra parabol có phương trình là: $y=-\\frac{8}{9}{{x}^{2}}+8$ $\\left( P \\right)$.\nRìa của hình quạt là cung tròn của đường tròn $\\left( C \\right)$ có phương trình:\n${{x}^{2}}+{{y}^{2}}=9\\Leftrightarrow y=\\pm \\sqrt{9-{{x}^{2}}}$.\nHoành độ điểm $D$ là nghiệm phương trình: $-\\frac{8}{9}{{x}^{2}}+8=\\sqrt{9-{{x}^{2}}},\\,0<x<3\\Leftrightarrow x=\\frac{3\\sqrt{55}}{8}$.\nTa có: ${{y}_{D}}=-\\frac{8}{9}{{x}_{D}}^{2}+8=\\frac{9}{8}$. Suy ra: $D\\left( \\frac{3\\sqrt{55}}{8};\\frac{9}{8} \\right)$.\nPhương trình $OD$: $y=\\frac{3}{\\sqrt{55}}.x$.\nVì tấm pano đối xứng qua trục $Oy$ nên ta có:\nDiện tích phần kẻ sọc: ${{S}_{1}}=2.\\int\\limits_{0}^{\\frac{3\\sqrt{55}}{8}}{\\left( -\\frac{8}{9}{{x}^{2}}+8-\\sqrt{9-{{x}^{2}}} \\right)\\text{d}x}\\approx 17,94$m2.\nDiện tích phần tô đậm: ${{S}_{2}}=2.\\int\\limits_{0}^{\\frac{3\\sqrt{55}}{8}}{\\left( \\sqrt{9-{{x}^{2}}}-\\frac{3}{\\sqrt{55}}.x \\right)}\\text{d}x\\approx 10,68$m2.\nDiện tích phần còn lại: $S=\\int\\limits_{-3}^{3}{\\left( -\\frac{8}{9}{{x}^{2}}+8 \\right)dx}-\\left( {{S}_{1}}+{{S}_{2}} \\right)\\approx 3,38$m2.\nTổng chi phí để trang trí tấm pano là:\n$100{{S}_{1}}+200{{S}_{2}}+150S\\approx 4\\,440$ nghìn đồng $\\approx 4,44$ triệu đồng.",
+   "short_value": 4.44,
+   "short_correct": "4,44",
+   "ma": "de1.P3.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 11,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một máy bay đang bay ở độ cao 10km so với mặt đất, thu phát tín hiệu qua một ăng-ten ra đa như hình vẽ. Khi máy bay cách ra đa 16km, ra đa phát hiện khoảng cách giữa máy bay ra đa thay đổi với tốc độ 546km/h. Tìm vận tốc của máy bay (đơn vị km/h, kết quả làm tròn đến hàng đơn vị).\n[[IMG:image8.jpeg]]",
+   "explanation": "Đáp án: 699\n[[IMG:image9.jpeg]]\nGọi $A$ là vị trí khi máy bay ở vị trí thẳng đứng so với ăng-ten ra đa, $O$ là vị trí ăng-ten ra đa và $B$ là vị trí máy bay cách ra đa 16km như đề bài.\nKhi đó ta có: $OA=10$km, $OB=16$km, $AB=\\sqrt{O{{B}^{2}}-O{{A}^{2}}}=2\\sqrt{39}$km.\nGiả sử máy bay bay theo phương ngang với vận tốc không đổi là ${{v}_{0}}$ km/h (${{v}_{0}}>0$).\nĐặt mốc $t=0$ giờ khi máy bay ở vị trí thẳng đứng so với ăng-ten ra đa.\nKhoảng cách từ máy bay đến ăng-ten ra đa sau $t$ giờ bay được: $f\\left( t \\right)=\\sqrt{{{10}^{2}}+{{\\left( {{v}_{0}}.t \\right)}^{2}}}$ km.\nKhoảng cách giữa máy bay và ăng-ten ra đa thay đổi với tốc độ:\n$v\\left( t \\right)={f}'\\left( t \\right)=\\frac{{{v}_{0}}^{2}.t}{\\sqrt{{{10}^{2}}+{{\\left( {{v}_{0}}.t \\right)}^{2}}}}$ km/h.\nTại vị trí $B$, khoảng cách giữa máy bay và ăng-ten ra đa thay đổi với tốc độ: $v\\left( t \\right)=546$ km/h.\nSuy ra: $t=\\sqrt{\\frac{{{546}^{2}}.100}{{{v}_{0}}^{4}-{{546}^{2}}.{{v}_{0}}^{2}}}$.\nKhi đó ta có $AB={{v}_{0}}.t\\Leftrightarrow 2\\sqrt{39}={{v}_{0}}.\\sqrt{\\frac{{{546}^{2}}.100}{{{v}_{0}}^{4}-{{546}^{2}}.{{v}_{0}}^{2}}}\\Leftrightarrow {{v}_{0}}\\approx 699$km/h (vì ${{v}_{0}}>0$).",
+   "short_value": 699,
+   "short_correct": "699",
+   "ma": "de1.P3.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 12,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Giá trị của $b$bằng $12,5$.",
+    "b": "Thời gian ô tô đạt vận tốc tối đa cho phép là $5\\,s$.",
+    "c": "Khoảng cách giữa ô tô và đuôi tàu sau $3\\,s$ là $51,25\\,m$.",
+    "d": "Thời gian ô tô bắt kịp đuôi tàu kể từ lúc ô tô bắt đầu tăng tốc là $15,75\\,s$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trên đường quốc lộ, một ô tô đang di chuyển với vận tốc $45\\,km/h$. Cùng lúc, một đoàn tàu chạy song song với đường quốc lộ với vận tốc $60\\,km/h$. Khi ô tô cách đuôi tàu $100\\,m$thì ô tô bắt đầu tăng tốc với vận tốc $v(t)=2,5t+b\\,(m/s)$, với $t$ là thời gian kể từ lúc ô tô bắt đầu tăng tốc. Khi đạt đến tốc độ tối đa cho phép $90\\,km/h$ thì ô tô giữ nguyên vận tốc.",
+   "explanation": "(a) Đúng | (b) Đúng| (c) Sai | (d) Đúng\na)\nTại thời điểm ô tô bắt đầu tăng tốc, tức $t=0$. Ô tô đang di chuyển với vận tốc $45\\,km/h=12,5\\,m/s$ nên: $v(0)=2,5.0+b\\,=12,5\\Rightarrow b=12,5$.\nChọn ĐÚNG.\nb)\nTốc độ tối đa cho phép của ô tô là $90\\,km/h=\\,25\\,m/s$. Ta có $v(t)=2,5t+12,5\\,=25\\Rightarrow t=5\\,(s)$\nVậy sau $5\\,s$ kể từ lúc tăng tốc, ô tô đạt vận tốc tối đa cho phép.\nChọn ĐÚNG.\nc) Sau $3\\,s$ kể từ lúc bắt đầu tăng tốc, quãng đường ô tô đã đi được là: $\\int\\limits_{0}^{3}{v(t)dt=}\\int\\limits_{0}^{3}{(2,5t+12,5)dt=}48,75\\,(m)$\nTrong $3\\,s$ quãng đường tàu đã đi được là: $\\frac{50}{3}.3=50\\,m$\nDo vậy khoảng cách giữa đuôi tàu và ô tô là: $100-48,75+50=101,25\\,m$.\nChọn SAI.\nd)\nQuãng đường ô tô đi được từ lúc tăng tốc đến khi vận tốc ô tô đạt mức tối đa là: $\\int\\limits_{0}^{5}{v(t)dt=}\\int\\limits_{0}^{5}{(2,5t+12,5)dt=}93,75\\,(m)$\nDo vậy khoảng cách giữa đuôi tàu và ô tô là: $100-93.75+\\frac{50}{3}.5=\\frac{1075}{12}\\,m$.\nVì vậy trong $5\\,s$ kể từ lúc bắt đầu tăng tốc đến khi đạt vận tốc tối đa, ô tô vẫn chưa đuổi kịp đuôi tàu.\nGọi $x\\,(s)$ là thời gian ô tô đuổi kịp đuôi tàu (không tính $5\\,s$ đầu tiên kể từ lúc xe bắt đầu tăng tốc). Để ô tô đuổi kịp đuôi tàu thì: Hiệu giữa Quãng đường ô tô đi được và quãng đường tàu hoả đi được bằng $100\\,m$, nên ta có: $93,75+25.x-\\frac{50}{3}(x+5)=100\\Rightarrow x=10,75\\,(s)$\nDo đó để đuổi kịp đuôi tàu, thời gian ô tô đã đi kể từ lúc bắt đầu tăng tốc là: $10,75+5=15,75\\,\\,(s)$\nChọn ĐÚNG.",
+   "ma": "de1.P3.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 19,
+    "so_dau_bang": 22,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C4.B2.D05",
+   "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
+  },
+  {
+   "section": 3,
+   "n": 13,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Biết người được chọn là trẻ em, xác suất để người đó yêu thích bộ phim là $0,56$.",
+    "b": "Xác suất để người đó không xem tiếp phần 2 là $0,59$.",
+    "c": "Biết người đó sẽ xem tiếp phần 2 của bộ phim, xác suất để người đó là trẻ em lớn hơn $0,85$.",
+    "d": "Biết người đó yêu thích bộ phim, xác suất để người đó không xem tiếp phần 2 là $0,37$ (làm tròn đến hàng phần trăm)."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Khảo sát những người xem bộ phim hoạt hình vừa được phát hành cho thấy $70\\%$ người xem là trẻ em và $30\\%$ là người lớn. Trong số các trẻ em đến xem phim có $50\\%$ yêu thích bộ phim và khẳng định sẽ đi xem tiếp phần 2, $30\\%$ yêu thích bộ phim nhưng sẽ không xem tiếp phần 2; $20\\%$ còn lại không thích bộ phim và không xem tiếp phần 2. Trong số những người lớn đi xem phim có $20\\%$ yêu thích bộ phim và khẳng định sẽ xem tiếp phần 2, $10\\%$ yêu thích bộ phim nhưng sẽ không xem tiếp phần 2; $70\\%$ còn lại không thích bộ phim và không xem tiếp phần 2. Chọn ngẫu nhiên 1 người đã xem phim.",
+   "explanation": "| a) Sai | b) Đúng | c) Đúng | d) Đúng |\n|---|---|---|---|\nGọi $A$ là biến cố “Người đó là trẻ em”\n$B$ là biến cố “Người đó thích bộ phim”\n$C$ là biến cố “Người đó xem tiếp phần 2 bộ phim”\nXét người đi xem là trẻ em có $P\\left( A \\right)=0,7$.\nSuy ra $P\\left( BC \\right)=50\\%=0,5$, $P\\left( B\\overline{C} \\right)=30\\%=0,3$, $P\\left( \\overline{B}\\overline{C} \\right)=20\\%=0,2$, $P\\left( \\overline{B}C \\right)=0$.\nXét người đi xem là người lớn có $P\\left( \\overline{A} \\right)=0,3$.\n$P\\left( BC \\right)=20\\%=0,2$, $P\\left( B\\overline{C} \\right)=10\\%=0,1$, $P\\left( \\overline{B}\\overline{C} \\right)=70\\%=0,7$, $P\\left( \\overline{B}C \\right)=0$.\n(a) Sai\nTa có $P\\left( B\\left| A \\right. \\right)=0,5+0,3=0,8$.\n(b) Đúng\nTa có $\\overline{C}=\\overline{C}AB\\cup \\overline{C}A\\overline{B}\\cup \\overline{C}\\overline{A}B\\cup \\overline{C}\\overline{A}\\overline{B}$.\n$P\\left( \\overline{C} \\right)=P\\left( \\overline{C}AB \\right)+P\\left( \\overline{C}A\\overline{B} \\right)+P\\left( \\overline{C}\\overline{A}B \\right)+P\\left( \\overline{C}\\overline{A}\\overline{B} \\right)$\n$=0,7\\cdot 0,3+0,7\\cdot 0,2+0,3\\cdot 0,1+0,3\\cdot 0,7=0,59$.\n(c) Đúng\n$P\\left( C \\right)=1-P\\left( \\overline{C} \\right)=0,41$.\n$P\\left( A\\left| C \\right. \\right)=\\frac{P\\left( AC \\right)}{P\\left( C \\right)}$.\n$P\\left( AC \\right)=P\\left( AC\\overline{B} \\right)+P\\left( ACB \\right)=0,7\\cdot 0+0,7\\cdot 0,5=0,35$.\nSuy ra $P\\left( A\\left| C \\right. \\right)=\\frac{P\\left( AC \\right)}{P\\left( C \\right)}=\\frac{0,35}{0,41}\\approx 0,854>0,85$.\n(d) Đúng\n$P\\left( \\overline{C}\\left| B \\right. \\right)=\\frac{P\\left( \\overline{C}B \\right)}{P\\left( B \\right)}$\n$P\\left( \\overline{C}B \\right)=P\\left( \\overline{C}BA \\right)+P\\left( \\overline{C}B\\overline{A} \\right)=0,3\\cdot 0,7+0,1\\cdot 0,3=0,24$.\n$P\\left( B \\right)=P\\left( BA\\overline{C} \\right)+P\\left( BAC \\right)+P\\left( B\\overline{A}C \\right)+P\\left( B\\overline{A}\\overline{C} \\right)$\n$=0,7\\cdot 0,3+0,7\\cdot 0,5+0,3\\cdot 0,2+0,3\\cdot 0,1=0,65$.\nSuy ra $P\\left( \\overline{C}\\left| B \\right. \\right)=\\frac{0,24}{0,65}\\approx 0,37$.",
+   "ma": "de1.P3.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 26,
+    "so_dau_bang": 38,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 14,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một sợi dây kim loại được treo giữa hai bức tường cách nhau 2 mét như hình vẽ. Độ cao so với mặt đất của mỗi điểm trên sợi dây này được cho bởi hàm số $h\\left( x \\right)={{\\text{e}}^{-2x}}+{{\\text{e}}^{x}}\\,\\left( 0\\le x\\le 2 \\right)$, trong đó $x$ (mét) là khoảng cách từ mỗi điểm trên sợi dây đến bức tường phía bên trái. Hỏi sợi dây sẽ gần với mặt đất một khoảng ngắn nhất là bao nhiêu mét (làm tròn kết quả đến hang phần trăm)?\n[[IMG:image10.png]]",
+   "explanation": "Ta có ${h}'\\left( x \\right)=-2{{\\text{e}}^{-2x}}+{{e}^{x}};{h}'\\left( x \\right)=0\\Leftrightarrow x=\\frac{1}{3}\\ln 2\\in \\left( 0;2 \\right)$.\nKhi đó sợi dây sẽ gần với mặt đất một khoảng ngắn nhất bằng $h\\left( \\frac{1}{3}\\ln 2 \\right)=1\\text{,}89$.",
+   "short_value": 1.89,
+   "short_correct": "1,89",
+   "ma": "de1.P3.C14",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 15,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Bạn Hoa vừa mê học toán, vừa mê một bạn nam lớp bên cạnh. Ngày sinh nhật Hoa thì bạn nam ấy đã tặng cho Hoa một tờ giấy, trong đó có vẽ hai hình elip ghép lại tạo ra hình trái tim rất đẹp. Phần hai cánh có diện tích ${{S}_{1}},{{S}_{2}}$ được tô màu vàng, phần có diện tích ${{S}_{3}}$, ${{S}_{4}}$, ${{S}_{5}}$, ${{S}_{6}}$ được tô màu đỏ. Hoa vui vẻ đón nhận “món quà” nhưng sau đó lại tỏ ra khó hiểu. Một người bạn đã tư vấn cho Hoa rằng màu đỏ tượng trưng cho tình yêu, màu vàng lại tượng trưng cho tình bạn, bây giờ chỉ còn cách tính tỉ số $\\frac{{{S}_{3}}+{{S}_{4}}+{{S}_{5}}+{{S}_{6}}}{{{S}_{1}}+{{S}_{2}}}$ bằng bao nhiêu mới biết Crush thực sự có tình cảm với Hoa hay chỉ xem Hoa là bạn, các em hay tính giúp bạn Hoa tỉ số trên (làm tròn kết quả đến hàng phần trăm); biết rằng khoảng cách từ $O$ đến giao điểm hai elip bằng $1\\text{,}8\\,\\text{cm}$.\n[[IMG:image11.png]]",
+   "explanation": "Thực hiện phép quay $45{}^\\circ $ ta được hình như sau\n[[IMG:image12.png]]\nGọi $\\left( {{E}_{1}} \\right)$ là elip có phương trình $\\frac{{{x}^{2}}}{8}+\\frac{{{y}^{2}}}{{{b}^{2}}}=1$.\nVì $\\left( \\frac{9\\sqrt{2}}{10};\\frac{9\\sqrt{2}}{10} \\right)\\in \\left( {{E}_{1}} \\right)$ nên ${{b}^{2}}=\\frac{648}{319}$.\nSuy ra $\\left( {{E}_{1}} \\right):\\frac{{{x}^{2}}}{8}+\\frac{{{y}^{2}}}{\\tfrac{648}{319}}=1\\Rightarrow y=\\frac{18\\sqrt{2}}{\\sqrt{319}}\\sqrt{1-\\frac{{{x}^{2}}}{8}}$ và $\\left( {{E}_{2}} \\right):\\frac{{{x}^{2}}}{\\tfrac{648}{319}}+\\frac{{{y}^{2}}}{8}=1\\Rightarrow y=2\\sqrt{2}\\sqrt{1-\\frac{{{x}^{2}}}{\\tfrac{648}{319}}}$.\nKhi đó ${{S}_{1}}+{{S}_{2}}=4\\int\\limits_{0}^{\\tfrac{9\\sqrt{2}}{10}}{\\left( 2\\sqrt{2}\\sqrt{1-\\frac{{{x}^{2}}}{\\tfrac{648}{319}}}-\\frac{18\\sqrt{2}}{\\sqrt{319}}\\sqrt{1-\\frac{{{x}^{2}}}{8}} \\right)\\text{d}x}\\approx 5\\text{,}14$\n${{S}_{3}}+{{S}_{4}}+{{S}_{5}}+{{S}_{6}}=4\\int\\limits_{0}^{\\sqrt{\\tfrac{648}{319}}}{\\left( 2\\sqrt{2}\\sqrt{1-\\frac{{{x}^{2}}}{\\tfrac{648}{319}}} \\right)\\text{d}x-\\left( {{S}_{1}}+{{S}_{2}} \\right)}\\approx 7\\text{,53}$.\nVậy tỉ số $\\frac{{{S}_{3}}+{{S}_{4}}+{{S}_{5}}+{{S}_{6}}}{{{S}_{1}}+{{S}_{2}}}\\approx 1\\text{,}46$.",
+   "short_value": 1.46,
+   "short_correct": "1,46",
+   "ma": "de1.P3.C15",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 16,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có hai thùng hàng $A$ và $B$ được đặt trên sàn nhà kho. Hai thùng được nối với nhau bằng một sợi dây dài $15m$, sợi dây luôn căng và được kéo qua một ròng rọc gần tại điểm $P$ trên trần nhà. Biết trần nhà cao $4m$ so với mặt sản (đoạn $PQ=4m$) và trong quá trình di chuyển, hai thùng hàng luôn nằm trên mặt sản (bỏ qua lực ma sát).\n[[IMG:image13.png]]\nNếu thùng $A$ cách $Q$ khoảng $3m$ và đang được kéo ra xa ở với tốc độ không đối $0,5m/s$, hỏi thùng ở $B$ đang di chuyến về phía $Q$ với tốc độ bao nhiêu $m/s$ (Làm tròn kết quả đến hàng phần trăm).",
+   "explanation": "Ta có: $PA=\\sqrt{P{{Q}^{2}}+Q{{P}^{2}}}=\\sqrt{{{4}^{2}}+{{3}^{2}}}=5\\Rightarrow BP=10$.\nTa có: $BQ=\\sqrt{B{{P}^{2}}-P{{Q}^{2}}}=\\sqrt{{{10}^{2}}-{{4}^{2}}}=2\\sqrt{21}$.\nGọi ${{v}_{A}}$, ${{v}_{B}}$ lần lượt là vận tốc của hai thùng hàng.\nDo cả hai cùng chuyển động đều trong cùng một khoảng thời gian nên:\n$\\frac{BQ}{{{v}_{B}}}=\\frac{QA}{{{v}_{A}}}\\Leftrightarrow {{v}_{B}}=\\frac{BQ\\cdot {{v}_{A}}}{QA}=\\frac{2\\sqrt{21}\\cdot 0.5}{3}=\\frac{\\sqrt{21}}{3}\\approx 1,53\\left( m/s \\right)$.",
+   "short_value": 1.53,
+   "short_correct": "1,53",
+   "ma": "de1.P3.C16",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D05",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 17,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong chuyện cổ tích \"Cây tre trăm đốt\", khi không vác được cây tre dài đến $100$ đốt về nhà, anh Khoai ngồi khóc. Bụt hiện lên, bảy cho anh một cách hay: “Con hãy đọc câu thần chú “xác suất, xác suất” thì cây tre sẽ phân tách ra nhiều thanh nhỏ để con có thể mang được về nhà\". Biết rằng sau mỗi câu thần chú như thể thì cây tre $100$ đốt được tách ra một cách ngẫu nhiên thành các đoạn ngắn có chiều dài $2$ đốt và $5$ đốt (có thể chỉ có một loại). Tính xác suất để số đoạn $2$ đốt nhiều hơn số đoạn $5$ đốt đúng $1$ đơn vị (làm tròn kết quả đến hàng phần trăm).",
+   "explanation": "Gọi số đoạn tre có chiều dài $2$ đốt và $5$ đốt mà cây tre có thể phân tách được thành lần lượt là $x$ và $y$ $\\left( x,y\\in \\mathbb{N} \\right)$.\nKhi đó, ta có: ${\\sin 7 x \\cdot \\sin x=\\sin 5 x \\cdot \\sin 3 x}$.\nDo $y\\in \\mathbb{N}$ nên $\\left\\{ \\begin{matrix} 20-2\\cdot \\frac{x}{5}\\ge 0 \\\\ x\\,\\,\\vdots \\,\\,5 \\\\ \\end{matrix} \\right.\\Rightarrow x\\in \\left\\{ 0;5;...;50 \\right\\}$.\nDo ứng với mỗi giá trị $x$ ta có một giá trị $y$ tương ứng nên ta có $11$ cách chia cây tre thành $2$ loại có chiều dài $2$ đốt và $5$ đốt.\nGọi $\\Omega $ là không gian mẫu $\\Rightarrow n\\left( \\Omega \\right)=11$.\nGọi $A$: “Cây tre được chia thành đoạn có chiều dài $2$ đốt và $5$ đốt sao cho số đoạn $2$ đốt nhiều hơn số đoạn $5$ đốt đúng $1$ đơn vị”\nĐể số đoạn có có chiều dài $2$ đốt nhiều hơn số đoạn có chiều dài $5$ đốt đúng một đơn vị thì $x-y=1$. Khi đó, ta có hệ phương trình: $\\left\\{ \\begin{matrix} 2x+5y=100 \\\\ x-y=1 \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{matrix} x=15 \\\\ y=14 \\\\ \\end{matrix} \\right.\\Rightarrow n\\left( A \\right)=1$.\nKhi đó, $P\\left( A \\right)=\\frac{n\\left( A \\right)}{n\\left( \\Omega \\right)}=\\frac{1}{11}\\approx 0,09$.",
+   "short_value": 0.09,
+   "short_correct": "0,09",
+   "ma": "de1.P3.C17",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D04",
+   "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 18,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Vào ngày lễ tình nhân, Ronaldo đã tặng cho cô bạn gái Georgina một viên kim cương vô cùng giá trị. Viên kim cương nằm trong một gói quà độc đáo có dạng hình chóp tứ giác đều với cạnh đáy bằng 4 dm, vị trí đặt kim cương là tâm của mặt cầu nội tiếp hình chóp đó. Từ vị trí tâm $O$ của đáy hình chóp, có một sợi dây dùng để treo một quả cầu nhỏ, bên trong quả cầu đó chứa những lời cầu chúc có cánh của huyền thoại bóng đá dành cho người tình. Gói quà được treo cân bằng trong căn phòng sao cho đỉnh hình chóp ở vị trí cao nhất và đáy hình chóp song song với mặt đất; khi đó viên kim cương và quả cầu đối xứng nhau qua $O$; đồng thời tâm quả cầu cách đều tất cả các cạnh hình chóp. Hỏi gói quà hình chóp đều đó có thể tích bao nhiêu dm khối (làm tròn đền hàng đơn vị)?\n[[IMG:image14.jpeg]][[IMG:image15.png]]",
+   "explanation": "Đáp án: 9,4\n[[IMG:image16.png]]\nGọi các điểm như hình vẽ, bán kính đường tròn nội tiếp bằng $r$ dm, chiều cao hình chóp bằng $SO=h$ dm.\nTa có: $\\frac{SI}{IO}=\\frac{SM}{OM}$ $~\\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }\\frac{h-r}{r}=\\frac{\\sqrt{{{h}^{2}}+4}}{2}$ $~\\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }{{r}^{2}}{{h}^{2}}+8rh=4{{h}^{2}}\\Leftrightarrow h=\\frac{8r}{4-{{r}^{2}}}$.(1)\nLại có:$\\text{ }\\!\\!~\\!\\!\\text{ }SA=\\sqrt{S{{O}^{2}}+O{{A}^{2}}}=\\sqrt{{{h}^{2}}+8}$ và $JM=\\sqrt{{{r}^{2}}+4}$.\n$K$ là hình chiếu của $J$ lên $SA$, ta có: $\\Delta SKJ\\backsim \\Delta SOA$.\nSuy ra: $\\frac{JK}{OA}=\\frac{SJ}{SA}\\Leftrightarrow JK=2\\sqrt{2}.\\frac{h+r}{\\sqrt{{{h}^{2}}+8}}$.\nTheo đề, ta có: $JM=JK\\Leftrightarrow \\sqrt{{{r}^{2}}+4}=2\\sqrt{2}.\\frac{h+r}{\\sqrt{{{h}^{2}}+8}}$ $\\Leftrightarrow {{r}^{2}}{{h}^{2}}+32=4{{h}^{2}}+16rh$.(2)\nTừ (1) và (2) ta được: $\\left\\{ \\begin{aligned} & 32-8rh=16rh \\\\ & h=\\frac{8r}{4-{{r}^{2}}} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & rh=\\frac{4}{3} \\\\ & \\frac{4}{3}=\\frac{8{{r}^{2}}}{4-{{r}^{2}}} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & h=\\frac{2\\sqrt{7}}{3} \\\\ & r=\\frac{2}{\\sqrt{7}} \\\\ \\end{aligned} \\right.$.\nVậy $V=\\frac{1}{3}.\\frac{2\\sqrt{7}}{3}\\cdot {{4}^{2}}=\\frac{32\\sqrt{7}}{9}\\approx 9,4$.",
+   "short_value": 9.4,
+   "short_correct": "9,4",
+   "ma": "de1.P3.C18",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 29,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 19,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Đường ống dẫn dầu trên không là hệ thống đường ống được treo trên các giá đỡ hoặc cột cao, dùng để vận chuyển dầu thô hoặc các sản phẩm dầu mỏ từ nơi này đến nơi khác mà không cần chôn dưới lòng đất. Hệ thống này thường được sử dụng trong các khu vực có địa hình khó khăn, vùng băng giá, rừng rậm..., những nơi mà việc đào đường ống ngầm không khả thi.\nVới hệ trục tọa độ $Oxyz$ thích hợp, đơn vị trên mỗi trục là mét, người ta thiết lập một đường ống dẫn dầu trên không dọc theo đường thẳng $d:\\left\\{ \\begin{aligned} & x=t \\\\ & y=0 \\\\ & z=16 \\\\ \\end{aligned} \\right.$ ($t$ là tham số). Vì địa hình phức tạp, người ta đành chọn điểm $A\\left( 12;10;15 \\right)$ cạnh vách núi để làm điểm trung chuyển từ mặt đất (mặt phẳng $\\left( Oxy \\right)$) đến đường ống này. Dựa vào kinh nghiệm của mình, họ phải chọn ví trí $B$ thuộc đường ống và ví trị $C$ thuộc mặt đất sao cho tổng độ dài các đoạn đường $AB,BC,AC$ là bé nhất, tìm giá trị bé nhất đó theo đơn vị mét, làm tròn đến hàng phần chục.\n[[IMG:image17.png]]",
+   "explanation": "Đáp án: 42,6\nLây ${A}'\\left( 12;10;-15 \\right)$ đối xứng $A$ qua $\\left( Oxy \\right)$ $\\Rightarrow \\text{ }\\!\\!~\\!\\!\\text{ }CA=C{A}'$.\nKhi đó:$AB+BC+AC=AB+BC+{A}'C\\ge AB+{A}'B$.\nSuy ra:$\\text{ }\\!\\!~\\!\\!\\text{ }AB+BC+AC\\ge AB+{A}'B$.\nKẻ $AH\\bot d$ tại $H$ $\\Rightarrow H\\left( 12;0;16 \\right)$\nTa có: $A{A}'\\bot d$ $\\Rightarrow \\left\\{ \\begin{array}{llllll} AB\\ge AH \\\\ {A}'B\\ge {A}'H \\\\ \\end{array} \\right.$. Khi đó:$\\text{ }\\!\\!~\\!\\!\\text{ }AB+BC+CA\\ge AH+{A}'H\\approx 42,6$.",
+   "short_value": 42.6,
+   "short_correct": "42,6",
+   "ma": "de1.P3.C19",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B2.D08",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 20,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Ngày thứ $80$ trong năm có đúng $10$ giờ có ánh sáng mặt trời.",
+    "b": "Đạo hàm của hàm số đã cho là $d'\\left( t \\right)=\\frac{3\\pi }{182}\\cos \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]$.",
+    "c": "Nghiệm của phương trình $d'\\left( t \\right)=0$ trên đoạn $\\left[ 1;171 \\right]$ là $t=171$.",
+    "d": "Ngày thứ $160$ có số giờ sáng lớn nhất trong năm."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Số giờ có ánh sáng mặt trời của thành phố $A$ ở vĩ độ $40{}^\\circ $ Bắc trong ngày thứ $t$ của một năm không nhuận được cho bởi hàm số: $d\\left( t \\right)=3\\sin \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]+12$ với $t\\in \\mathbb{N}$ và $0<t\\le 365$.\n[[IMG:image18.png]]",
+   "explanation": "Chọn (a) Sai | (b) Đúng | (c) Đúng | (d) Sai\n(a) Số giờ có ánh sáng của ngày thứ $80$ trong năm là $d\\left( t \\right)=3\\sin \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]+12=12$\nChọn SAI.\n(b) Đạo hàm của hàm số đã cho là $d'\\left( t \\right)=\\frac{3\\pi }{182}\\cos \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]$.\nChọn ĐÚNG.\n(c) Ta có $d'\\left( t \\right)=0\\Leftrightarrow \\frac{3\\pi }{182}\\cos \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]=0$.\n$\\begin{aligned} & \\cos \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]=0\\Leftrightarrow \\frac{\\pi }{182}\\left( t-80 \\right)=\\frac{\\pi }{2}+k\\pi \\left( k\\in \\mathbb{Z} \\right) \\\\ & \\Leftrightarrow t-80=91+182k\\Leftrightarrow \\xrightarrow{\\left[ 1;171 \\right]}t=171 \\\\ \\end{aligned}$.\nChọn ĐÚNG.\n(d) $\\sin \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]\\le 1\\Leftrightarrow 3\\sin \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]+12\\le 15$.\nSuy ra\n$\\begin{aligned} & Maxd\\left( t \\right)=15\\Leftrightarrow \\sin \\left[ \\frac{\\pi }{182}\\left( t-80 \\right) \\right]=1\\Leftrightarrow \\frac{\\pi }{182}\\left( t-80 \\right)=\\frac{\\pi }{2}+k2\\pi \\left( k\\in \\mathbb{Z} \\right) \\\\ & \\Leftrightarrow t=171+364k\\xrightarrow{\\left[ 0;365 \\right]}t=171 \\\\ \\end{aligned}$.\nChọn SAI.",
+   "ma": "de1.P3.C20",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 22,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B2.D01",
+   "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
+  },
+  {
+   "section": 3,
+   "n": 21,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Thời điểm xe đạt vận tốc $80m/s$ là ${{t}_{1}}=\\frac{80}{a}\\left( s \\right)$.",
+    "b": "Quãng đường mà xe chuyển động với vận tốc không đổi bằng $4,5km$.",
+    "c": "$\\frac{40}{a}+\\frac{40}{b}=9$",
+    "d": "Tổng quãng đường xe đi được trong $74$ giây là $5,6$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trên một đường đua, một chiếc xe công thức I bắt đầu chuyển động và nó tăng tốc với gia tốc $a\\left( m/{{s}^{2}} \\right)$ không đổi, khi vận tốc đạt $80m/s$ thì xe chuyển động đều trong thời gian $56$ giây; sau đó nó giảm vận tốc với gia tốc $b\\left( m/{{s}^{2}} \\right)$ không đổi cho đến khi dừng lại ($80$ và $80$ là các số dương). Biết tổng thời gian chuyển động của xe là $74$ giây.\n[[IMG:image19.png]]",
+   "explanation": "Chọn (a) Đúng | (b) Sai | (c) Đúng | (d) Sai\n(a) Ta có ${{v}_{1}}\\left( t \\right)=\\int{adt}=at+C,{{v}_{1}}\\left( 0 \\right)=0\\Leftrightarrow C=0$.\nSuy ra ${{v}_{1}}\\left( t \\right)=at\\Rightarrow {{v}_{1}}\\left( {{t}_{1}} \\right)=a{{t}_{1}}=80\\Rightarrow {{t}_{1}}=\\frac{80}{a}$.\nChọn ĐÚNG.\n(b) Quãng đường mà xe chuyển động với vận tốc không đổi bằng $s=80.56=4480m=4,48km$.\nChọn SAI.\n(c) Ta có ${{v}_{2}}\\left( t \\right)=\\int{-bdt}=-bt+C,{{v}_{2}}\\left( 0 \\right)=80\\Leftrightarrow C=80$.\nSuy ra ${{v}_{2}}\\left( t \\right)=80-bt$, khi vật dừng $-b{{t}_{2}}+80=0\\Leftrightarrow {{t}_{2}}=\\frac{80}{b}$.\nVậy ta có ${{t}_{1}}+{{t}_{2}}=74-56\\Leftrightarrow \\frac{80}{a}+\\frac{80}{b}=18\\Leftrightarrow \\frac{40}{a}+\\frac{40}{b}=9$.\nChọn ĐÚNG.\n(d) Tổng quãng đường xe đi được trong $74$ giây là\n$\\begin{aligned} & \\int\\limits_{0}^{\\frac{80}{a}}{at}dt+\\int\\limits_{0}^{\\frac{80}{b}}{\\left( 80-bt \\right)}dt+4480=\\left. \\frac{a{{t}^{2}}}{2} \\right|_{0}^{\\frac{80}{a}}+\\left. \\left( 80t-\\frac{b{{t}^{2}}}{2} \\right) \\right|_{0}^{\\frac{80}{a}}+4480 \\\\ & =\\frac{{{80}^{2}}}{2a}+\\frac{{{80}^{2}}}{2b}+4480=3200\\left( \\frac{1}{a}+\\frac{1}{b} \\right)+4480=80.\\left( \\frac{40}{a}+\\frac{40}{b} \\right)+4480=5200m=5,2km \\\\ \\end{aligned}$.\nChọn SAI.",
+   "ma": "de1.P3.C21",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 34,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 22,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Mặt cầu (S) có tâm $I\\left( 1;2;-3 \\right)$ và bán kính $R=3\\sqrt{3}$.",
+    "b": "Nếu đặt $MA=MB=MC=x>0$ thì $AB=x,BC=x\\sqrt{3},AC=x\\sqrt{2}$",
+    "c": "Tam giác $ABC$ cân.",
+    "d": "Độ dài bé nhất của $OM$ là $2,26$(kết quả được làm tròn đến hàng phần trăm)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Nguồn sáng phát ra từ một cây đèn pin khi chiếu vào một quả cầu phản quang sẽ cho ta hình ảnh của một mặt cầu tiếp xúc với các đường sinh của một hình nón (xem hình vẽ). giả sử nguồn sáng phát ra từ điểm $M$, trong một hệ trục toạ độ $Oxyz$ cho sẵn với đơn vị trên mỗi trục là mét, các tiếp tuyến $MA,MB,MC$ thoả mãn $AMB={{60}^{0}},\\,\\,BMC={{90}^{0}},CMA={{120}^{0}}$. Mặt cầu $(S)$ có phương trình${{x}^{2}}+{{y}^{2}}+{{z}^{2}}-2\\text{x}-4y+6z-13=0$\n[[IMG:image20.png]]",
+   "explanation": "(a) Đúng.\n${{x}^{2}}+{{y}^{2}}+{{z}^{2}}-2\\text{x}-4y+6z-13=0\\Leftrightarrow {{\\left( x-1 \\right)}^{2}}+{{\\left( y-2 \\right)}^{2}}+{{\\left( z+3 \\right)}^{2}}=27\\Rightarrow I(1;2;-3),R=3\\sqrt{3}$\n(b) Sai.\nTam giác $MAB$ đều nên $MA=x$\nTam giác $MBC$ vuông cân tại M nên $BC=x\\sqrt{2}$.\nTam giác $MAC$ có $A{{C}^{2}}=M{{A}^{2}}+M{{C}^{2}}-2.MA.MC.\\cos {{120}^{0}}\\Rightarrow AC=x\\sqrt{3}$\n(c) Sai.\nTa có $A{{B}^{2}}+B{{C}^{2}}=3{{\\text{x}}^{2}}=A{{C}^{2}}\\Rightarrow $ $ABC$ vuông tại(B)\n(d) Đúng.\nGọi K là trung điểm của AC ta có 3 điểm $M,K,I$ thẳng hàng.\nXét tam giác $MAI$ vuông tại A ta có $MI=\\frac{3\\sqrt{3}}{\\sin {{60}^{0}}}=6;\\,\\,OI=\\sqrt{14}<MI$\nTa có $MO+OI\\ge MI\\Rightarrow MO\\ge MI-OI=6-\\sqrt{14}\\approx 2,26$.\nĐẳng thức xảy ra khi $M,O,I$ thẳng hàng.",
+   "ma": "de1.P3.C22",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 18,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C5.B4.D06",
+   "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
+  },
+  {
+   "section": 3,
+   "n": 23,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để đồng xu fair coin được chọn và mặt sấp xuất hiện bằng $\\frac{1}{2}$.",
+    "b": "Xác suất xuất hiện mặt ngửa bằng $\\frac{5}{8}$.",
+    "c": "Nếu biết mặt ngửa đã xuất hiện, xác suất đồng xu có hai mặt ngửa đã được chọn bằng $\\frac{3}{5}$.",
+    "d": "Nếu gieo đồng xu lần đầu xuất hiện mặt ngửa, xác suất để khi gieo đồng xu đó lần thứ hai vẫn xuất hiện mặt ngửa bằng $\\frac{7}{10}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một túi chứa ba đồng xu công bằng (fair coin - tức đồng xu có đủ hai mặt sấp ngửa) và một đồng xu có hai mặt ngửa (double-heađe coin). Một đồng xu được chọn ngẫu nhiên từ túi và được gieo để xem mặt hiện ra là ngửa hay sấp.\n[[IMG:image21.png]]",
+   "explanation": "(a) Sai.\nGọi A là biến cố:” đồng xu fair coin được chọn”\nB là biến cố:”Mặt sấp xuất hiện khi gieo đồng xu”\n$P\\left( A\\cap B \\right)=P\\left( A \\right).P\\left( \\left. B \\right|A \\right)=\\frac{3}{4}.\\frac{1}{2}=\\frac{3}{8}$\n(b) Đúng.\n$P\\left( \\overline{B} \\right)=P\\left( A \\right).P\\left( \\left. \\overline{B} \\right|A \\right)+P\\left( \\overline{A} \\right).P\\left( \\left. \\overline{B} \\right|\\overline{A} \\right)=\\frac{3}{4}.\\frac{1}{2}+\\frac{1}{4}.1=\\frac{5}{8}$\n(c) Sai.\n$P\\left( \\left. \\overline{A} \\right|\\overline{B} \\right)=\\frac{P\\left( \\overline{A} \\right)P\\left( \\left. \\overline{B} \\right|\\overline{A} \\right)}{P\\left( \\overline{B} \\right)}=\\frac{\\frac{1}{4}.1}{\\frac{5}{8}}=\\frac{2}{5}$\n(d) Đúng\nGọi C: “lần đầu xuất hiện mặt ngửa”\nD:” lần 2 xuất hiện mặt ngửa”\nTa có $P\\left( \\left. D \\right|C \\right)=\\frac{P\\left( D\\cap C \\right)}{P\\left( C \\right)}$\nTa tính $P\\left( D\\cap C \\right)$\nTH1: lần 1 chọn được đồng xu fair coin\n+)xác suất chọn được 1 đồng xu fair coin là $\\frac{3}{4}$\n+)Xác suất khi gieo 1 đồng xu fair coin lần đầu xuất hiện mặt ngửa là $\\frac{1}{2}$.\n+) Xác suất khi gieo 1 đồng xu fair coin lần hai xuất hiện mặt ngửa là $\\frac{1}{2}$.\nVậy xác suất để lần 1 xuất hiện mặt ngửa và lần hai ngửa là $\\frac{3}{4}.\\frac{1}{2}.\\frac{1}{2}=\\frac{3}{16}$\nTH2: Lần 1 chọn được đồng xu double-heađe coin\nTương tự TH1\nXác suất để lần 1 xuất hiện mặt ngửa và lần hai ngửa là $\\frac{1}{4}.1.1=\\frac{1}{4}$.\n$P\\left( D\\cap C \\right)=\\frac{3}{16}+\\frac{1}{4}=\\frac{7}{16}$\nVậy $P\\left( \\left. D \\right|C \\right)=\\frac{P\\left( D\\cap C \\right)}{P\\left( C \\right)}=\\frac{\\frac{7}{16}}{\\frac{5}{8}}=\\frac{7}{10}$",
+   "ma": "de1.P3.C23",
+   "dac_trung": {
+    "so_dong_loi_giai": 23,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 24,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một cửa hàng điện tử dự định kinh doanh hai loại tivi: loại 50 inch và loại 55 inch với số vốn ban đầu không vượt quá $1\\text{,}8$ tỉ đồng. Giá nhập vào tivi loại 50 inch là 15 triệu đồng/1 chiếc và lợi nhuận dự kiến 2 triệu đồng/1 chiếc, giá nhập vào tivi loại 55 inch là 25 triệu đồng/1 chiếc và lợi nhuận dự kiến 3 triệu đồng/1 chiếc. Cửa hàng ước tính rằng tổng nhu cầu tiêu thụ của thị trường sẽ không vượt quá 100 chiếc tivi cả hai loại. Lợi nhuận lớn nhất mà cửa hàng có thể thu được là bao nhiêu triệu đồng (sau khi đã bán hết hàng)?",
+   "explanation": "Gọi $x$, $y$ lần lượt là số tivi loại 50 inch và 55 inch.\nĐiều kiện $x,y\\in \\mathbb{N}$.\nTổng nhu cầu tiêu thụ của thị trường không vượt quá 100 chiếc tivi cả hai loại nên $x+y\\le 100$.\nSố vốn ban đầu không vượt quá $1\\text{,}8$ tỉ đồng suy ra $15x+25y\\le 1800$.\nLợi nhuận $L\\left( x;y \\right)=2x+3y$.\nTa có hệ bất phương trình $\\left\\{ \\begin{aligned} & x\\ge 0 \\\\ & y\\ge 0 \\\\ & x+y\\le 100 \\\\ & 3x+5y\\le 360. \\\\ \\end{aligned} \\right.$\nCác đường thẳng giao nhau tại các điểm có tọa độ $A\\left( 100;0 \\right)$, $B\\left( 70;30 \\right)$.\nKhi đó $L\\left( 100;0 \\right)=200$, $L\\left( 70;30 \\right)=230$.\nLợi nhuận lớn nhất mà cửa hàng có thể thu được là 230 nhiêu triệu đồng.",
+   "short_value": 230,
+   "short_correct": "230",
+   "ma": "de1.P3.C24",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 25,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Hình vẽ bên minh hoạ hình ảnh một toà nhà trong không gian với hệ toạ độ Oxyz (đơn vị trên mỗi trục toạ độ là mét). Biết $OABC.DEFG$. là hình chóp cụt có hai đáy nằm trên hai mặt phẳng song song, $OABC$ là hình chữ nhật nằm trong mặt phẳng $\\left( Oxy \\right)$, $OA=100\\,m$, $OC=60\\,m$ và điểm $D\\left( 10;\\,10;\\,8 \\right)$. Khoảng cách từ $B$ đến mặt phẳng $\\left( OCGD \\right)$ bằng bao nhiêu mét (kết quả làm tròn đến hàng phần chục)?\n[[IMG:image22.tmp]]",
+   "explanation": "Trả lời: 62,5\nTa có $O\\left( 0;\\,0;\\,0 \\right)$, $C\\left( 0;\\,60;\\,0 \\right)$, $D\\left( 10;\\,10;\\,8 \\right)$ và $B\\left( 100;\\,60;\\,0 \\right)$.\n$\\left( OCGD \\right)$ có một vectơ pháp tuyến là $\\overrightarrow{n}=\\left[ \\overrightarrow{OC},\\,\\overrightarrow{OD} \\right]=\\left( 480;\\,0;\\,-600 \\right)$.\nVậy phương trình mặt phẳng $\\left( OCGD \\right)$ là\n$480\\left( x-0 \\right)+0\\left( y-0 \\right)-600\\left( z-0 \\right)=0$\n$\\Leftrightarrow 4x-5z=0$.\n$d\\left( B,\\left( OCGD \\right) \\right)=\\frac{\\left| 4\\cdot 100-0 \\right|}{\\sqrt{{{4}^{2}}+{{\\left( -5 \\right)}^{2}}}}\\approx 62,5$.",
+   "short_value": 62.5,
+   "short_correct": "62,5",
+   "ma": "de1.P3.C25",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D01",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 26,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một chiếc hộp có 50 viên bi, trong đó có 30 viên bi màu xanh và 20 viên bi màu đỏ, các viên bi có kích thước và khối lượng giống nhau. Sau khi kiểm tra, người ta thấy có 70% số viên bi màu xanh được đánh số và 60% số viên bi màu đỏ được đánh số, những viên bi còn lại không đánh số. Lấy ngẫu nhiên một viên bi từ hộp đó. Biết rằng, viên bi lấy ra được đánh số, xác suất để viên bi đó có màu xanh bằng bao nhiêu (kết quả làm tròn đến hàng phần trăm)?",
+   "explanation": "Trả lời: 0,64\nGọi $A$ là biến cố: “Viên bi lấy ra có màu xanh”.\nSuy ra $\\overline{A}$ là biến cố: “Viên bi lấy ra có màu đỏ”.\n$B$ là biến cố: “Viên bi lấy ra được đánh số”.\n$P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( B\\left| A \\right. \\right)\\cdot P\\left( A \\right)}{P\\left( B\\left| A \\right. \\right)\\cdot P\\left( A \\right)+P\\left( B\\left| \\overline{A} \\right. \\right)\\cdot P\\left( \\overline{A} \\right)}$.\nTa có $P\\left( A \\right)=\\frac{30}{30+20}=\\frac{3}{5}$ $\\Rightarrow P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=\\frac{2}{5}$.\n$P\\left( B\\left| A \\right. \\right)=70\\%=0,7$ và $P\\left( B\\left| \\overline{A} \\right. \\right)=60\\%=0,6$.\nVậy $P\\left( A\\left| B \\right. \\right)=\\frac{0,7\\cdot \\frac{3}{5}}{0,7\\cdot \\frac{3}{5}+0,6\\cdot \\frac{2}{5}}=\\frac{7}{11}\\approx 0,64$",
+   "short_value": 0.64,
+   "short_correct": "0,64",
+   "ma": "de1.P3.C26",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 27,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Để trang trí một bảng gỗ hình chữ nhật ABCD có chiều dài $AB=8dm$ và chiều rộng $AD=6dm$, người ta thiết kế một logo là hình phẳng giới hạn bởi nửa đường tròn đường kính $MN=6dm$, tiếp xúc với BC; hai đường cong $IM,IN$ là một phần của các đường parabol lần lượt có đỉnh là các điểm $M,N$ và parabol có trục đối xứng lần lượt là $AB,CD$, với I là trung điểm của AD (tham khảo hình vẽ). Phần logo được sơn màu xanh với chi phí 50000 đồng/$1d{{m}^{2}}$ và phần còn lại của bảng gỗ được sơn màu trắng với chi phí 30000 đồng/$1d{{m}^{2}}$. Hỏi cần bỏ ra bao nhiêu nghìn đồng để trang trí bảng gỗ trên (kết quả làm tròn đến hàng đơn vị).\n[[IMG:image23.png]]",
+   "explanation": "Đáp số: 1923.\nChọn gốc tọa độ O là giao điểm của đường thẳng đi qua I và vuông góc với MN.\nGọi $\\left( P \\right)$ của đường cong IN có dạng: $y=a{{x}^{2}}+bx+c$. Từ giả thiết, ta có:\n$\\left\\{ \\begin{aligned} & c=5 \\\\ & -\\frac{b}{2a}=3 \\\\ & 9a+3b+5=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{5}{9} \\\\ & b=-\\frac{10}{3} \\\\ & c=5 \\\\ \\end{aligned} \\right.\\Rightarrow y=\\frac{5}{9}{{x}^{2}}-\\frac{10}{3}x+5$\nKhi đó, diện tích giới hạn bởi các đường cong IM, IN, và trục $Ox$ bằng:\n${{S}_{1}}=2\\int\\limits_{0}^{3}{\\left( \\frac{5}{9}{{x}^{2}}-\\frac{10}{3}x+5 \\right)}dx=10\\left( d{{m}^{2}} \\right)$\nTừ giả thiết bài toán, ta thấy phần tô đâm phía dưới MN là nửa đường tròn tâm O, bán kính bằng 3. Do vậy có diện tích: ${{S}_{2}}=\\frac{9\\pi }{2}\\left( d{{m}^{2}} \\right)$.\nDiện tích phần sơn trắng bằng: ${{S}_{3}}=48-10-\\frac{9\\pi }{2}=38-\\frac{9\\pi }{2}\\left( d{{m}^{2}} \\right)$.\nSố tiền cần bỏ ra (nghìn đồng) để trang trí bảng gỗ trên bằng:\n$\\left( \\frac{9\\pi }{2}+10 \\right).50000+\\left( 38-\\frac{9\\pi }{2} \\right).30000\\approx 1923$(nghìn đồng).",
+   "short_value": 1923,
+   "short_correct": "1923",
+   "ma": "de1.P3.C27",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 15,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 28,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một xe ôtô chở khách du lịch có sức chứa tối đa 29 hành khách. Trong khu du lịch Đền Hùng, một đoàn khách gồm 40 người đang đi bộ và muốn thuê xe về khách sạn. Người lái xe đưa ra thỏa thuận với đoàn khách du lịch như sau: Nếu một chuyến xe chở x (người) thì giá tiền cho mỗi người là $\\frac{{{\\left( 100-x \\right)}^{2}}}{40}$ (nghìn đồng) và một chuyến không chở dưới 15 người. Hỏi với thỏa thuận như trên thì cần trả ít nhất bao nhiêu nghìn đồng để cả đoàn được đưa về khách sạn bằng xe du lịch?",
+   "explanation": "Trả lời: 6288\nTheo bài thì ta có: xe ôtô chở khách du lịch có sức chứa tối đa 29 hành khách và một chuyến không chở dưới 15 người. Do vậy muốn chở hết 40 người về khách sạn thì ta cần hai lượt.\nTheo giả thiết: Nếu một chuyến xe chở x (người) thì giá tiền cho mỗi người là $\\frac{{{\\left( 100-x \\right)}^{2}}}{40}$ (nghìn đồng). Khi đó ta có các trường hợp sau:\n+) TH1: lượt 1 chở 16 người và lượt 2 chở 24 người. Số tiền là: 6288 nghìn đồng.\n+) TH2: lượt 1 chở 17 người và lượt 2 chở 23 người. Số tiền là: 6337 nghìn đồng.\n+) TH3: lượt 1 chở 18 người và lượt 2 chở 22 người. Số tiền là: 6372 nghìn đồng.\n+) TH4: lượt 1 chở 19 người và lượt 2 chở 21 người. Số tiền là: 6393 nghìn đồng.\n+) TH5: lượt 1 chở 20 người và lượt 2 chở 20 người. Số tiền là: 6400 nghìn đồng.\nTa thấy cần ít nhất số tiền 6288 nghìn đồng thì cả đoàn được đưa về khách sạn bằng xe du lịch.",
+   "short_value": 6288,
+   "short_correct": "6288",
+   "ma": "de1.P3.C28",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C3.B2.D05",
+   "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
+  },
+  {
+   "section": 3,
+   "n": 29,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Đường thẳng mô tả đường đi của máy bay đi qua điểm $N\\left( -597;-110;8 \\right)$.",
+    "b": "Vị trí đầu tiên mà máy bay xuất hiện trên màn hình radar là điểm $P\\left( 40;415;8 \\right)$.",
+    "c": "Nếu thời gian máy bay xuất hiện trên màn hình rađar là 30 phút thì thời gian máy bay di chuyển từ M đến khi xuất hiện lần cuối cùng trên màn hình rađar là 54 phút.",
+    "d": "Khoảng cách giữa máy bay và đài kiểm soát không lưu luôn lớn hơn 294 km."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong không gian với hệ trục toạ độ $Oxyz$, đài kiểm soát không lưu của sân bay đặt tại điểm $O\\left( 0;0;0 \\right)$; đơn vị độ dài trên mỗi trục ứng với 1 km. Máy bay bay trong phạm vi cách đài kiểm soát không lưu 417 km sẽ hiển thị trên màn hình radar. Một máy bay đang ở vị trí $M\\left( -779;-260;8 \\right)$chuyển động thẳng đều với tốc độ không đổi theo hướng của véc tơ $\\overrightarrow{u}\\left( 91;75;0 \\right)$.",
+   "explanation": "| a) Đúng | b) Sai | c) Đúng | d) Đúng |\n|---|---|---|---|\na) Đúng.\nTa có $\\overrightarrow{MN}=\\left( 182;150;0 \\right)=2.\\overrightarrow{u}\\Rightarrow $ Đường thẳng mô tả đường đi của máy bay đi qua điểm $N\\left( -597;-110;8 \\right)$.\nb) Sai.\nPhương trình đường đi của máy bay là $\\left\\{ \\begin{matrix} x=-779+91t \\\\ y=-260+75t \\\\ z=8 \\\\ \\end{matrix} \\right.$\nGọi $K\\left( -779+91t;-260+75t;8 \\right)$ là điểm mà máy bay đầu tiên xuât hiện trên màn hình radar.\n$OK=417\\Leftrightarrow {{\\left( -779+91t \\right)}^{2}}+{{\\left( -260+75t \\right)}^{2}}+64={{417}^{2}}\\Leftrightarrow 13906{{t}^{2}}-180778t+500616=0$ $\\left[ \\begin{matrix} t=4 \\\\ t=9 \\\\ \\end{matrix}\\Rightarrow \\left[ \\begin{matrix} {{K}_{1}}\\left( -415;-40;8 \\right) \\\\ {{K}_{2}}\\left( 40;415;8 \\right) \\\\ \\end{matrix} \\right. \\right.$.\nVậy vị trí xuất hiện đầu tiên là ${{K}_{1}}\\left( -415;-40;8 \\right)$.\nc) Đúng.\nTa có ${{K}_{1}}{{K}_{2}}=\\sqrt{{{455}^{2}}+{{375}^{2}}}$.Độ lớn của vận tốc là $v=\\frac{{{K}_{1}}{{K}_{2}}}{30}$.\nThời gian đi từ M đến vị trí cuối cùng ${{K}_{2}}$ là $\\frac{M{{K}_{2}}}{v}=54$phút.\nd) Đúng.\nGọi $H$ là trung điểm ${{K}_{1}}{{K}_{2}}$. Khi đó $H\\left( -\\frac{375}{2};\\frac{455}{2};8 \\right)$.\nKhoảng cách ngắn nhất giữa máy bay và đài kiểm soát không lưu\n$d\\left( O,d \\right)=OH\\approx 294,9>294$ (km).",
+   "ma": "de1.P3.C29",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 18,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 30,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để hộp được chọn là hộp loại I bằng $\\frac{3}{8}$",
+    "b": "Nếu hộp được lấy là hộp loại I thì xác suất để cả hai sản phẩm lấy ra không có phế phẩm bằng $\\frac{776}{825}$.",
+    "c": "Xác suất cả hai sản phẩm lấy ra không có phế phẩm bằng $\\frac{1833}{2000}$.",
+    "d": "Biết rằng trong hai sản phẩm lấy ra có đúng một phế phẩm, xác suất để hộp lấy ra là hộp loại I bằng $\\frac{203}{2475}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong một lô sản phẩm có 3 hộp loại I và 5 hộp loại II. Biết rằng trong mỗi hộp loại I có 97 sản phẩm tốt và 3 phế phẩm, trong mỗi hộp loại II có 95 sản phẩm tốt và 5 phế phẩm. Lấy ngẫu nhiên từ lô sản phẩm đó một hộp, rồi từ hộp đó lấy ngẫu nhiên đồng thời hai sản phẩm.",
+   "explanation": "| a) Đúng | b) Đúng | c) Sai | d) Sai |\n|---|---|---|---|\na) Đúng\nXác suất để hộp được chọn là hộp loại I bằng $\\frac{3}{8}$.\nb) Đúng\nGọi A là biến cố “hộp lấy ra loại I”\nB là biến cố:” 2 sản phẩm lấy ra không có phế phẩm “\nTa có $P\\left( \\left. B \\right|A \\right)=\\frac{C_{97}^{2}}{C_{100}^{2}}=\\frac{776}{825}$\nc) Sai\n$P\\left( B \\right)=P\\left( A \\right).P\\left( \\left. B \\right|A \\right)+P\\left( \\overline{A} \\right).P\\left( \\left. B \\right|\\overline{A} \\right)=\\frac{3}{8}.\\frac{C_{97}^{2}}{C_{100}^{2}}+\\frac{5}{8}.\\frac{C_{95}^{2}}{C_{100}^{2}}\\approx 0,916$.\nd) Sai\nC là biến cố: “Lấy ra được 1 phế phẩm và 1 sản phẩm tốt”\n$P\\left( C|A \\right)=\\frac{97.3}{C_{100}^{2}}=\\frac{97}{1650}$\n$P\\left( C|\\bar{A} \\right)=\\frac{95.5}{C_{100}^{2}}=\\frac{19}{198}$\n$P\\left( A|C \\right)=\\frac{P\\left( AC \\right)}{P\\left( C \\right)}=\\frac{\\frac{3}{8}.\\frac{97}{1650}}{\\frac{3}{8}.\\frac{97}{1650}+\\frac{5}{8}.\\frac{19}{198}}=\\frac{873}{3248}$.",
+   "ma": "de1.P3.C30",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  }
+ ],
+ "flags": []
+}

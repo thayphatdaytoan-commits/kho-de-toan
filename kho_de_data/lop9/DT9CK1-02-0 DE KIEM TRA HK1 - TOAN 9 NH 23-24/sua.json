@@ -1,0 +1,56 @@
+{
+ "de1.P3.C6": {
+  "question": "Một công ty giao cho cửa hàng 100 hộp bánh để bán ra thị trường. Lúc đầu cửa hàng bán 24 hộp bánh với giá bán một hộp bánh là 200 000 đồng. Do nhu cầu của thị trường nên 56 hộp bánh tiếp theo mỗi hộp bánh có giá bán tăng 15% so với giá bán lúc đầu. Còn 20 hộp bánh cuối cùng mỗi hộp bánh có giá bán giảm 10% so với giá bán lúc đầu. Biết rằng: Với số tiền thu được khi bán 100 hộp bánh, sau khi trừ đi 10% tiền thuế giá trị gia tăng VAT cửa hàng vẫn lãi 1 152 000 đồng. Hỏi mỗi hộp bánh công ty giao cho cửa hàng có giá là bao nhiêu?",
+  "explanation": "Số tiền thuế VAT:\n21 280 000 . 10% = 2 128 000 (đồng)\nTổng số tiền thu được sau khi trừ thuế là:\n21 280 000 – 2 128 000 = 19 152 000 (đồng)\nSố tiền vốn của 100 cái bánh:\n19 152 000 – 1 152 000 = 18 000 000 (đồng)\nSố tiền vốn của 1 hộp bánh là:\n18 000 000 : 100 = 180 000 (đồng)",
+  "xac_nhan": true,
+  "sua_boi": "thay",
+  "ly_do": "",
+  "short_correct": "180000"
+ },
+ "de1.P3.C5": {
+  "question": "Một công ty giao cho cửa hàng 100 hộp bánh để bán ra thị trường. Lúc đầu cửa hàng bán 24 hộp bánh với giá bán một hộp bánh là 200 000 đồng. Do nhu cầu của thị trường nên 56 hộp bánh tiếp theo mỗi hộp bánh có giá bán tăng 15% so với giá bán lúc đầu. Còn 20 hộp bánh cuối cùng mỗi hộp bánh có giá bán giảm 10% so với giá bán lúc đầu. Hỏi số tiền thu cửa hàng được khi bán 100 hộp bánh là bao nhiêu?",
+  "explanation": "Số tiền bán bánh lần thứ nhất là:\n24 . 200 000 = 4 800 000 (đồng)\nSố tiền bán bánh lần thứ hai là:\n56 . 200 000 . 115% = 12 880 000 (đồng)\nSố tiền bán bánh lần thứ ba là:\n20 . 200 000 . 90% = 3 600 000 (đồng)\nTổng số tiền thu được sau khi bán hết 100 cái bánh là:\n4 800 000 + 12 880 000 + 3 600 000 = 21 280 000 (đồng)",
+  "xac_nhan": true,
+  "sua_boi": "thay",
+  "ly_do": "",
+  "short_correct": "21280000"
+ },
+ "de1.P3.C7": {
+  "question": "Tòa nhà The Landmark 81 là một tòa nhà chọc trời ngay bên bờ sông Sài Gòn tại TPHCM. Tòa nhà này có 81 tầng, cao nhất Đông Nam Á (năm 2018). Ý tưởng thiết kế của The Landmark 81 được lấy cảm hứng từ những bó tre truyền thống, tượng trưng cho sức mạnh và sự đoàn kết trong văn hóa Việt Nam. Tại một thời điểm tia sáng mặt trời tạo với mặt đất một góc là 75° thì người ta đo được bóng của tòa nhà trên mặt đất dài khoảng 124m. Hãy ước tính chiều cao của tòa nhà này. (Làm tròn kết quả đến chữ số thập phân thứ nhất)\n[[IMG:image2.jpeg#0.2738,0.0000,0.3666,0.0000]][[IMG:image3.emf]] ",
+  "explanation": "Xét $\\Delta AHM$ vuông tại H, ta có:\n$\\tan M=\\frac{AH}{HM}$\n$\\tan 75{}^\\circ =\\frac{AH}{124}$\n$\\Rightarrow AH=\\tan 75{}^\\circ .124$\n$AH\\approx 462,8$\nVậy chiều cao của tòa nhà Landmark 81 là khoảng 462,8m",
+  "xac_nhan": true,
+  "sua_boi": "thay",
+  "ly_do": "",
+  "short_correct": "462,8"
+ },
+ "de1.P4.C3": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Hãy lập hàm số A theo t.",
+    "explanation": "A: tổng số tiền khách trả khi thuê xe\nt: là số km tiếp theo sau 2km đầu\nTa có hàm số: A = 11 000.(t – 2) + 30 000\nA = 11 000.t + 8 000",
+    "points": 0.5,
+    "type": "multiple_choice",
+    "options": [
+     "$A = 11000t + 8000$",
+     "$A = 11000t - 30000$",
+     "$A = 11000t + 30000$",
+     "$A = 11000t - 8000$"
+    ],
+    "correctAnswer": 2
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Hãy tính số tiền mà khách hàng phải thanh toán khi thuê xe với tổng quãng đường là 200km (đã bao gồm 2km đầu)?",
+    "explanation": "Thay t = 198 vào công thức A = 11 000.t + 8 000 ta có:\nA = 11 000 . 198 + 8 000\nA = 2 208 000 đồng\nVậy số tiền mà khách phải trả khi đi 200km là 2 208 000 đồng",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "2208000"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) t = số km sau 2km đầu ⇒ A=30000+11000t (C); key A (11000t+8000) dùng t là tổng km. (b) key 2208000 khớp với C. NONKEY: lời giải (a),(b) dùng 11000t+8000 nhưng ra 2208000 (sai số học)"
+ }
+}

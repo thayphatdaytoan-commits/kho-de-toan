@@ -1,0 +1,804 @@
+{
+ "by": "Gemini 2 (gemini-flash-latest)",
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Vì $\\triangle ABC$ vuông tại {{1}} nên $\\widehat{EAF} = {{2}}^\\circ$.",
+     "Do $ME \\bot$ {{3}} tại $E$ nên $\\widehat{AEM} = {{4}}^\\circ$.",
+     "Do $MF \\bot$ {{5}} tại $F$ nên $\\widehat{MFA} = {{6}}^\\circ$."
+    ],
+    "hint": "Chỉ ra các góc vuông từ giả thiết"
+   },
+   {
+    "lines": [
+     "Xét tứ giác {{7}} có:",
+     "$\\widehat{EAF} = \\widehat{AEM} = \\widehat{MFA} = {{8}}^\\circ$."
+    ],
+    "hint": "Xét tứ giác có ba góc vuông"
+   },
+   {
+    "lines": [
+     "Tứ giác có {{9}} góc vuông là {{10}}.",
+     "Suy ra tứ giác {{11}} là {{12}}."
+    ],
+    "hint": "Kết luận hình chữ nhật"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [
+     "90"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab",
+     "ba"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [
+     "90"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac",
+     "ca"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [
+     "90"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AEMF"
+    ],
+    "keywords": [
+     "aemf"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [
+     "90"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "ba",
+     "3"
+    ],
+    "keywords": [
+     "ba",
+     "3"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "hình chữ nhật"
+    ],
+    "keywords": [
+     "hinh chu nhat"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 16
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AEMF"
+    ],
+    "keywords": [
+     "aemf"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "hình chữ nhật"
+    ],
+    "keywords": [
+     "hinh chu nhat"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "A",
+   "90",
+   "AB",
+   "AC",
+   "AEMF",
+   "ba",
+   "hình chữ nhật",
+   "B",
+   "BC",
+   "hình thoi",
+   "hình vuông",
+   "bốn"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét tứ giác {{1}} có:",
+     "$E$ là trung điểm của {{2}} và $E$ là trung điểm của {{3}} (giả thiết).",
+     "Mà hai đường chéo $AB$ và $MH$ cắt nhau tại {{4}},",
+     "suy ra tứ giác {{5}} là {{6}}."
+    ],
+    "hint": "Chứng minh tứ giác là hình bình hành"
+   },
+   {
+    "lines": [
+     "Lại có $AB \\bot$ {{7}} tại $E$ (giả thiết),",
+     "suy ra hình bình hành $AHBM$ là {{8}}."
+    ],
+    "hint": "Chứng minh tứ giác là hình thoi"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow BM =$ {{9}} (tính chất {{10}})."
+    ],
+    "hint": "Suy ra hai cạnh bằng nhau"
+   },
+   {
+    "lines": [
+     "Có $BM = \\frac{1}{2}$ {{11}} (vì $M$ là trung điểm của {{12}}).",
+     "Suy ra $BH = \\frac{1}{2}$ {{13}} hay $BC = 2$ {{14}}."
+    ],
+    "hint": "Chứng minh hệ thức độ dài"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AHBM"
+    ],
+    "keywords": [
+     "ahbm"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab",
+     "ba"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MH",
+     "HM"
+    ],
+    "keywords": [
+     "mh",
+     "hm"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [
+     "e"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AHBM"
+    ],
+    "keywords": [
+     "ahbm"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "hình bình hành"
+    ],
+    "keywords": [
+     "hinh binh hanh"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 16
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "HM",
+     "MH"
+    ],
+    "keywords": [
+     "hm",
+     "mh"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "hình thoi"
+    ],
+    "keywords": [
+     "hinh thoi"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 16
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BH",
+     "HB"
+    ],
+    "keywords": [
+     "bh",
+     "hb"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "hình thoi"
+    ],
+    "keywords": [
+     "hinh thoi"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc",
+     "cb"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc",
+     "cb"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc",
+     "cb"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "BH",
+     "HB"
+    ],
+    "keywords": [
+     "bh",
+     "hb"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AHBM",
+   "AB",
+   "MH",
+   "E",
+   "hình bình hành",
+   "HM",
+   "hình thoi",
+   "BH",
+   "BC",
+   "AC",
+   "A",
+   "M",
+   "hình chữ nhật",
+   "hình vuông"
+  ]
+ },
+ "6c": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $E$ là trung điểm của $AB$ nên $AE = \\frac{1}{2}$ {{1}},",
+     "$F$ là trung điểm của $AC$ nên $AF = \\frac{1}{2}$ {{2}}."
+    ],
+    "hint": "Biểu diễn độ dài hai cạnh kề"
+   },
+   {
+    "lines": [
+     "Hình chữ nhật {{3}} là {{4}} khi hai cạnh kề bằng nhau:",
+     "$AE =$ {{5}}."
+    ],
+    "hint": "Nêu điều kiện để là hình vuông"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{1}{2}$ {{6}} $= \\frac{1}{2}$ {{7}},",
+     "tức là $AB =$ {{8}}."
+    ],
+    "hint": "Quy về quan hệ giữa AB và AC"
+   },
+   {
+    "lines": [
+     "Tam giác vuông $ABC$ có $AB = AC$ nên $\\triangle ABC$ {{9}} tại {{10}}.",
+     "Vậy để tứ giác {{11}} là hình vuông thì $\\triangle ABC$ phải {{12}} tại $A$."
+    ],
+    "hint": "Kết luận điều kiện của tam giác ABC"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab",
+     "ba"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac",
+     "ca"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AEMF"
+    ],
+    "keywords": [
+     "aemf"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "hình vuông"
+    ],
+    "keywords": [
+     "hinh vuong"
+    ],
+    "placeholder": "loại hình",
+    "maxLen": 16
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AF",
+     "FA"
+    ],
+    "keywords": [
+     "af",
+     "fa"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab",
+     "ba"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac",
+     "ca"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac",
+     "ca"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "vuông cân"
+    ],
+    "keywords": [
+     "vuong can"
+    ],
+    "placeholder": "tính chất tam giác",
+    "maxLen": 16
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AEMF"
+    ],
+    "keywords": [
+     "aemf"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "vuông cân"
+    ],
+    "keywords": [
+     "vuong can"
+    ],
+    "placeholder": "tính chất tam giác",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "AB",
+   "AC",
+   "AEMF",
+   "hình vuông",
+   "AF",
+   "vuông cân",
+   "A",
+   "BC",
+   "đều",
+   "cân",
+   "hình thoi",
+   "hình chữ nhật"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Trục ngang biểu diễn {{1}} (từ Thứ Hai đến Chủ Nhật).",
+     "Trục đứng biểu diễn {{2}} tự học (đơn vị: {{3}})."
+    ],
+    "hint": "Xác định các trục biểu diễn"
+   },
+   {
+    "lines": [
+     "Từ {{4}}, xác định số giờ tự học của bạn Tú mỗi ngày.",
+     "Đánh dấu các {{5}} có độ cao tương ứng với {{6}} của từng ngày."
+    ],
+    "hint": "Xác định các điểm dữ liệu"
+   },
+   {
+    "lines": [
+     "Nối các điểm liên tiếp bằng các {{7}}.",
+     "Ghi tên biểu đồ: {{8}} tự học tại nhà của bạn Tú trong một tuần."
+    ],
+    "hint": "Vẽ đoạn thẳng nối dữ liệu"
+   },
+   {
+    "lines": [
+     "Ta thu được {{9}} hoàn chỉnh biểu diễn số liệu: [[IMG:image5.png]].",
+     "Vậy biểu đồ cần vẽ là {{10}}."
+    ],
+    "hint": "Kết luận biểu đồ đoạn thẳng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "các ngày"
+    ],
+    "keywords": [
+     "cac ngay",
+     "ngay"
+    ],
+    "placeholder": "đối tượng",
+    "maxLen": 16
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "thời gian"
+    ],
+    "keywords": [
+     "thoi gian"
+    ],
+    "placeholder": "đại lượng",
+    "maxLen": 16
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "giờ"
+    ],
+    "keywords": [
+     "gio"
+    ],
+    "placeholder": "đơn vị",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "biểu đồ cột"
+    ],
+    "keywords": [
+     "bieu do cot"
+    ],
+    "placeholder": "tên biểu đồ",
+    "maxLen": 16
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "điểm"
+    ],
+    "keywords": [
+     "diem"
+    ],
+    "placeholder": "hình học",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "số giờ"
+    ],
+    "keywords": [
+     "so gio"
+    ],
+    "placeholder": "đại lượng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "đoạn thẳng"
+    ],
+    "keywords": [
+     "doan thang"
+    ],
+    "placeholder": "loại đường",
+    "maxLen": 16
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "Thời gian"
+    ],
+    "keywords": [
+     "thoi gian"
+    ],
+    "placeholder": "tên tiêu đề",
+    "maxLen": 16
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "biểu đồ đoạn thẳng"
+    ],
+    "keywords": [
+     "bieu do doan thang"
+    ],
+    "placeholder": "loại biểu đồ",
+    "maxLen": 20
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "biểu đồ đoạn thẳng"
+    ],
+    "keywords": [
+     "bieu do doan thang"
+    ],
+    "placeholder": "loại biểu đồ",
+    "maxLen": 20
+   }
+  ],
+  "pool": [
+   "các ngày",
+   "thời gian",
+   "giờ",
+   "biểu đồ cột",
+   "điểm",
+   "số giờ",
+   "đoạn thẳng",
+   "Thời gian",
+   "biểu đồ đoạn thẳng",
+   "phút",
+   "đường cong",
+   "hình quạt",
+   "tần số"
+  ]
+ }
+}

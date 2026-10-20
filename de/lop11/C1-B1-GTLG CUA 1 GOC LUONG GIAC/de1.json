@@ -1,0 +1,274 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "1",
+  "lesson": "1",
+  "title": "Bài 2. Các phép biến đổi lượng giác",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Biết một góc lượng giác cùng tia đầu, tia cuối với góc $\\alpha $ có số đo là $\\frac{33\\pi }{4}$ khi đó $\\alpha =\\frac{\\pi }{4}$",
+    "b": "Biết một góc lượng giác cùng tia đầu, tia cuối với góc $\\alpha $ có số đo là $-\\frac{291983\\pi }{3}$ khi đó $\\alpha =\\frac{\\pi }{4}$",
+    "c": "Biết một góc lượng giác cùng tia đầu, tia cuối với góc $\\alpha $ có số đo là $-\\frac{291983\\pi }{3}$ khi đó $\\alpha =\\frac{\\pi }{3}$",
+    "d": "Biết một góc lượng giác cùng tia đầu, tia cuối với góc $\\alpha $ có số đo là $30$ khi đó $\\alpha >5$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho số đo $\\alpha $ của góc lượng giác $\\left( Ou,Ov \\right)$ với $0\\le \\alpha \\le 2\\pi $,",
+   "explanation": "a) Mọi góc lượng giác $\\left( Ou,Ov \\right)$ có số đo là $\\frac{33\\pi }{4}+k2\\pi ,\\,\\,k\\in Z$\nVì $0\\le \\alpha \\le 2\\pi $ nên $0\\le \\frac{33\\pi }{4}+k2\\pi \\le 2\\pi ,\\,\\,k\\in Z\\Leftrightarrow 0\\le \\frac{33}{4}+k2\\le 2,\\,\\,k\\in Z$\n$\\Leftrightarrow -\\frac{33}{8}\\le k\\le -\\frac{25}{8},\\,\\,k\\in Z\\Leftrightarrow k=-4$\nSuy ra $\\alpha =\\frac{33\\pi }{4}+\\left( -4 \\right).2\\pi =\\frac{\\pi }{4}$\nb) c) Mọi góc lượng giác $\\left( Ou,Ov \\right)$ có số đo là $-\\frac{291983\\pi }{3}+k2\\pi ,\\,\\,k\\in Z$\nVì $0\\le \\alpha \\le 2\\pi $ nên $0\\le -\\frac{291983\\pi }{3}+k2\\pi \\le 2\\pi ,\\,\\,k\\in Z\\Leftrightarrow 0\\le -\\frac{291983}{3}+k2\\le 2,\\,\\,k\\in Z$\n$\\Leftrightarrow \\frac{291983}{6}\\le k\\le \\frac{291989}{6}\\,,\\,\\,k\\in Z\\Leftrightarrow k=$\nSuy ra $\\alpha =-\\frac{291983\\pi }{3}+48664.2\\pi =\\frac{\\pi }{3}$\nc) Mọi góc lượng giác $\\left( Ou,Ov \\right)$ có số đo là $30+k2\\pi ,\\,\\,k\\in Z$\nVì $0\\le \\alpha \\le 2\\pi $ nên $0\\le 30+k2\\pi \\le 2\\pi ,\\,\\,k\\in Z\\Leftrightarrow 0\\le \\frac{15}{\\pi }+k\\le 1,\\,\\,k\\in Z$\n$\\Leftrightarrow -\\frac{15}{\\pi }\\le k\\le \\frac{\\pi -15}{\\pi },\\,\\,k\\in Z\\Leftrightarrow k=-4$\nSuy ra $\\alpha =30+\\left( -4 \\right).2\\pi =30-8\\pi \\approx 4,867$.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 18,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C1.B1.D03",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình đã cho tương đương với phương trình $\\frac{1-\\cos 4x}{2}+\\frac{1+\\cos 10x}{2}=1$",
+    "b": "Nghiệm dương nhỏ nhất của phương trình là: $x=\\frac{\\pi }{7}$",
+    "c": "Nghiệm âm lớn nhất của phương trình nhỏ hơn $-\\frac{\\pi }{3}$",
+    "d": "Tổng nghiệm âm lớn nhất và nghiệm dương nhỏ nhất bằng 0"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình lượng giác ${{\\sin }^{2}}2x+{{\\cos }^{2}}5x=1$, vậy:",
+   "explanation": "Phương trình $\\Leftrightarrow \\frac{1-\\cos 4x}{2}+\\frac{1+\\cos 10x}{2}=1$\n$\\Leftrightarrow \\cos 10x=\\cos 4x\\Leftrightarrow \\left[ \\begin{aligned} & 10x=4x+k2\\pi \\\\ & 10x=-4x+k2\\pi \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{k\\pi }{3} \\\\ & x=\\frac{k\\pi }{7} \\\\ \\end{aligned} \\right.$\nVậy nghiệm dương nhỏ nhất và nghiệm âm lớn nhất của phương trình là: $x=\\frac{\\pi }{7},x=-\\frac{\\pi }{7}$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$-\\frac{29\\pi }{7}$ là số đo của một góc lượng giác có cùng tia đầu, tia cuối với góc đã cho",
+    "b": "$-\\frac{22}{7}$ là số đo của một góc lượng giác có cùng tia đầu, tia cuối với góc đã cho",
+    "c": "$\\frac{6\\pi }{7}$ là số đo của một góc lượng giác có cùng tia đầu, tia cuối với góc đã cho",
+    "d": "$\\frac{41\\pi }{7}$ là số đo của một góc lượng giác có cùng tia đầu, tia cuối với góc đã cho"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho góc lượng giác $\\left( Ou,Ov \\right)$ có số đo $-\\frac{\\pi }{7}$. Khi đó:",
+   "explanation": "Hai góc có cùng tia đầu, tia cuối thì sai khác nhau một bội của $2\\pi $ do đó\nVì $-\\frac{29\\pi }{7}-\\left( -\\frac{\\pi }{7} \\right)=\\left( -2 \\right).2\\pi $, $\\,-\\frac{22}{7}-\\left( -\\frac{\\pi }{7} \\right)=-3\\pi $, $\\frac{6\\pi }{7}-\\left( -\\frac{\\pi }{7} \\right)=\\pi $ và $\\frac{41\\pi }{7}-\\left( -\\frac{\\pi }{7} \\right)=3.2\\pi $ nên các số $-\\frac{29\\pi }{7};\\,\\,\\,\\frac{41\\pi }{7}$ là số đo của một góc lượng giác có cùng tia đầu, tia cuối với góc đã cho.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C1.B1.D03",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình đã cho tương đương với phương trình $1+\\sin 2x=3+\\cos 6x$",
+    "b": "Nghiệm dương nhỏ nhất của phương trình lớn hơn $\\frac{\\pi }{7}$",
+    "c": "Nghiệm âm lớn nhất của phương trình là $x=-\\frac{\\pi }{8}$",
+    "d": "Tổng nghiệm âm lớn nhất và nghiệm dương nhỏ nhất bằng 0"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình lượng giác ${{(\\sin x+\\cos x)}^{2}}=2{{\\cos }^{2}}3x$, vậy:",
+   "explanation": "Phương trình $\\Leftrightarrow 1+\\sin 2x=1+\\cos 6x$\n$\\Leftrightarrow \\cos 6x=\\sin 2x=\\cos \\left( \\frac{\\pi }{2}-2x \\right)\\Leftrightarrow \\left[ \\begin{aligned} & 6x=\\frac{\\pi }{2}-2x+k2\\pi \\\\ & 6x=-\\frac{\\pi }{2}+2x+k2\\pi \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{\\pi }{16}+\\frac{k\\pi }{4} \\\\ & x=-\\frac{\\pi }{8}+\\frac{k\\pi }{2} \\\\ \\end{aligned} \\right.$\nVậy nghiệm dương nhỏ nhất và nghiệm âm lớn nhất của phương trình đã cho là: $x=\\frac{\\pi }{16},x=-\\frac{\\pi }{8}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho các góc $\\alpha $, $\\beta $ thỏa mãn $\\frac{\\pi }{2}<\\alpha $, $\\beta <\\pi $, $\\sin \\alpha =\\frac{1}{3}$, $\\cos \\beta =-\\frac{2}{3}$. Tính $\\sin \\left( \\alpha +\\beta \\right)$.",
+   "explanation": "Do $\\frac{\\pi }{2}<\\alpha $, $\\beta <\\pi $$\\Rightarrow \\left\\{ \\begin{aligned} & \\cos \\alpha <0 \\\\ & \\sin \\beta >0 \\\\ \\end{aligned} \\right.$.\nTa có $\\cos \\alpha =-\\ \\sqrt{1-{{\\sin }^{2}}\\alpha }=-\\ \\sqrt{1-\\frac{1}{9}}=-\\ \\frac{2\\sqrt{2}}{3}$. $\\sin \\beta =\\sqrt{1-{{\\cos }^{2}}\\beta }=\\sqrt{1-\\frac{4}{9}}=\\frac{\\sqrt{5}}{3}$.\nSuy ra $\\sin \\left( \\alpha +\\beta \\right)=\\sin \\alpha .\\cos \\beta +\\cos \\alpha .\\sin \\beta =\\frac{1}{3}.\\left( -\\frac{2}{3} \\right)+\\left( -\\frac{2\\sqrt{2}}{3} \\right).\\frac{\\sqrt{5}}{3}=-\\ \\frac{2+2\\sqrt{10}}{9}$.\nVậy $\\sin \\left( \\alpha +\\beta \\right)=-\\ \\frac{2+2\\sqrt{10}}{9}$.",
+   "short_value": 1,
+   "short_correct": "-\\dfrac{2+2\\sqrt{10}}{9}|-\\dfrac{2+2√10}{9}",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:oRzxJRSbfxvsO35uthIa"
+   ],
+   "question": "Tìm giá trị lớn nhất của biểu thức ${{\\sin }^{4}}x+{{\\cos }^{7}}x$",
+   "explanation": "Vì $-1\\le \\cos x\\le 1$, ta có: ${{\\sin }^{4}}x+{{\\cos }^{7}}x\\le {{\\sin }^{4}}x+{{\\cos }^{4}}x=1-\\frac{1}{2}{{\\sin }^{2}}2x\\le 1$.\nVậy giá trị lớn nhất của biểu thức ${{\\sin }^{4}}x+{{\\cos }^{7}}x$ là $1$.",
+   "short_value": 1,
+   "short_correct": "1",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nếu $\\alpha $ là góc nhọn và $\\sin \\frac{\\alpha }{2}=\\sqrt{\\frac{x-1}{2x}}$ thì $\\tan \\alpha $ bằng bao nhiêu?",
+   "explanation": "Ta có: $0<\\alpha <{{90}^{0}}$ $\\Leftrightarrow 0<\\frac{\\alpha }{2}<{{45}^{0}}$ $\\Rightarrow 0<\\sin \\frac{\\alpha }{2}<\\frac{\\sqrt{2}}{2}$ $\\Leftrightarrow 0<\\sqrt{\\frac{x-1}{2x}}<\\frac{\\sqrt{2}}{2}$ $\\Leftrightarrow x>0$\n${{\\sin }^{2}}\\frac{\\alpha }{2}+{{\\cos }^{2}}\\frac{\\alpha }{2}=1$ $\\Rightarrow \\cos \\frac{\\alpha }{2}=\\sqrt{1-{{\\sin }^{2}}\\frac{\\alpha }{2}}$, vì $0<\\frac{\\alpha }{2}<{{45}^{0}}$\n$\\Leftrightarrow \\cos \\frac{\\alpha }{2}=\\sqrt{\\frac{x+1}{2x}}$ $\\Rightarrow \\tan \\frac{\\alpha }{2}=\\sqrt{\\frac{x-1}{x+1}}$\n$tan\\alpha =\\frac{2\\tan \\frac{\\alpha }{2}}{1-{{\\tan }^{2}}\\frac{\\alpha }{2}}=\\frac{2\\sqrt{\\frac{x-1}{x+1}}}{1-\\frac{x-1}{x+1}}=\\sqrt{{{x}^{2}}-1}$.",
+   "short_value": 1,
+   "short_correct": "\\sqrt{x^2-1}|\\sqrt{x^{2}-1}|sqrt(x^2-1)|√(x²-1)",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho biểu thức $A={{\\sin }^{2}}x.{{\\tan }^{2}}x+4{{\\sin }^{2}}x-{{\\tan }^{2}}x+3{{\\cos }^{2}}x$. Biết $A$ không phụ thuộc vào $x$ (luôn bằng một hằng số). Tìm giá trị của $A$.",
+   "explanation": "${{\\sin }^{2}}x.{{\\tan }^{2}}x+4{{\\sin }^{2}}x-{{\\tan }^{2}}x+3{{\\cos }^{2}}x=\\left( {{\\sin }^{2}}x-1 \\right){{\\tan }^{2}}x+4{{\\sin }^{2}}x+3{{\\cos }^{2}}x$.\n$=-{{\\cos }^{2}}x.{{\\tan }^{2}}x+4{{\\sin }^{2}}x+3{{\\cos }^{2}}x=-{{\\sin }^{2}}x+4{{\\sin }^{2}}x+3\\left( 1-{{\\sin }^{2}}x \\right)=3$.",
+   "short_value": 3,
+   "short_correct": "3",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Khi một tia sáng truyền từ ông khí vào mặt nước thì một phần tia sáng bị phản xạ trên bề mặt, phần còn lại bị khúc xạ như trong Hình 1.26. Góc tới $i$ liên hệ với góc khúc xạ $r$ bởi Định luật khúc xạ ánh s $\\frac{\\text{sin}i}{\\text{sin}r}=\\frac{{{n}_{2}}}{{{n}_{1}}}\\text{. }\\!\\!~\\!\\!\\text{ }$\n[[IMG:image31.png]]\nỞ đây, ${{n}_{1}}$ và ${{n}_{2}}$ tương ứng là chiết suất của môi trường 1 (không khí) và môi trường 2 (nước). Cho biết góc tới $i={{50}^{\\circ }}$, hãy tính góc khúc xạ, biết rằng chiết suất của không khí bằng 1 còn chiết suất của nước là 1,33 .\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Theo bài ra ta có: $\\text{i}={{50}^{\\circ }},{{\\text{n}}_{1}}=1,{{\\text{n}}_{2}}=1,33$, thay vào $\\frac{\\text{sin}i}{\\text{sinr}}=\\frac{{{n}_{2}}}{{{n}_{1}}}$ ta được:\n$\\begin{array}{rrrrrr} {} & \\frac{\\text{sin}{{50}^{\\circ }}}{\\text{sin}r}=\\frac{1,33}{1}\\text{ }\\!\\!~\\!\\!\\text{ (k }\\!\\!~\\!\\!\\text{ sin }\\!\\!~\\!\\!\\text{ }r\\ne 0\\text{ }\\!\\!~\\!\\!\\text{ ) }\\!\\!~\\!\\!\\text{ } \\\\ {} & ~\\Rightarrow \\text{sin}r=\\frac{\\text{sin}{{50}^{\\circ }}}{1,33} \\\\ {} & ~\\Leftrightarrow \\text{sin}r\\approx 0,57597\\text{ }\\!\\!~\\!\\!\\text{ (thoa }\\!\\!~\\!\\!\\text{ m }\\!\\!\\tilde{\\mathrm{a}}\\!\\!\\text{ n }\\!\\!~\\!\\!\\text{ ki) }\\!\\!~\\!\\!\\text{ } \\\\ {} & ~\\Leftrightarrow \\text{sin}r\\approx \\text{sin}\\left( {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}} \\right) \\\\ \\end{array}$\n$\\begin{array}{rrrrrr} {} & ~\\Leftrightarrow \\left[ \\begin{matrix} r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ r\\approx {{180}^{\\circ }}-{{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ \\end{matrix}\\left( k\\in \\mathbb{Z} \\right) \\right. \\\\ {} & ~\\Leftrightarrow \\left[ \\begin{matrix} r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ r\\approx {{144}^{\\circ }}{{50}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ \\end{matrix}\\left( k\\in \\mathbb{Z} \\right) \\right. \\\\ \\end{array}$Mà ${{0}^{\\circ }}<r<{{90}^{\\circ }}$ nên $r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}$.\nVậy góc khúc xạ $r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}$.",
+   "short_value": 1.33,
+   "short_correct": "35,2",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "VD",
+   "dang": "L11.C1.B1.D01",
+   "dang_toan_web": "Góc lượng giác và giá trị lượng giác của các góc lượng giác."
+  }
+ ],
+ "flags": [
+  "phan_1_co_0_cau_nhung_de_ghi_12",
+  "phan_3_co_5_cau_nhung_de_ghi_6"
+ ]
+}

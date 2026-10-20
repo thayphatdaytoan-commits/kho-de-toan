@@ -1,0 +1,575 @@
+{
+ "by": "Gemini 2 (gemini-flash-latest)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Bảng giá trị tương ứng giữa $x$ và $y$ của hàm số $y=\\frac{1}{2}x^2$:",
+     "• Khi $x = 0 \\Rightarrow y =$ {{1}}",
+     "• Khi $x = \\pm 2 \\Rightarrow y =$ {{2}}"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Đồ thị $(P)$ là một đường cong parabol đi qua gốc tọa độ $O(0;0)$, nhận trục {{3}} làm trục đối xứng.",
+     "Do hệ số $a = \\frac{1}{2} > 0$ nên đồ thị có bề lõm quay lên {{4}}."
+    ],
+    "hint": "Xác định tính chất và vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "Oy",
+     "tung"
+    ],
+    "keywords": [
+     "oy",
+     "tung"
+    ],
+    "placeholder": "tên trục",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "trên",
+     "phía trên"
+    ],
+    "keywords": [
+     "tren"
+    ],
+    "placeholder": "hướng quay",
+    "maxLen": 12
+   }
+  ],
+  "pool": []
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xét phương trình $x^2+9x-10=0$ có các hệ số $a = 1;\\ b = 9;\\ c =$ {{1}}.",
+     "Ta có biệt thức: $\\Delta = b^2 - 4ac = 9^2 - 4 \\cdot 1 \\cdot (${{2}}$) = $ {{3}}."
+    ],
+    "hint": "Tính biệt thức Delta"
+   },
+   {
+    "lines": [
+     "Vì $\\Delta = 121$ {{4}} $0$,",
+     "nên phương trình luôn có {{5}} nghiệm phân biệt."
+    ],
+    "hint": "Kết luận số nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "-10"
+    ],
+    "keywords": [
+     "-10"
+    ],
+    "placeholder": "hệ số c",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-10"
+    ],
+    "keywords": [
+     "-10"
+    ],
+    "placeholder": "hệ số c",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "121"
+    ],
+    "keywords": [
+     "121"
+    ],
+    "placeholder": "giá trị delta",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     ">"
+    ],
+    "keywords": [
+     ">",
+     "lon hon"
+    ],
+    "placeholder": "dấu so sánh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "hai",
+     "2"
+    ],
+    "keywords": [
+     "hai",
+     "2"
+    ],
+    "placeholder": "số nghiệm",
+    "maxLen": 12
+   }
+  ],
+  "pool": []
+ },
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Do $BE$ là đường cao nên $BE \\bot$ {{1}} tại $E$, suy ra $\\triangle BEC$ vuông tại {{2}}.",
+     "Do đó $\\triangle BEC$ nội tiếp đường tròn đường kính {{3}} (1)."
+    ],
+    "hint": "Chứng minh tam giác BEC nội tiếp"
+   },
+   {
+    "lines": [
+     "Do $CF$ là đường cao nên $CF \\bot$ {{4}} tại $F$, suy ra $\\triangle BFC$ vuông tại {{5}}.",
+     "Do đó $\\triangle BFC$ nội tiếp đường tròn đường kính {{6}} (2)."
+    ],
+    "hint": "Chứng minh tam giác BFC nội tiếp"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra bốn điểm $B$, {{7}}, $E$, {{8}} cùng thuộc đường tròn đường kính {{9}}.",
+     "Vậy tứ giác {{10}} nội tiếp đường tròn đường kính {{11}}."
+    ],
+    "hint": "Kết luận tứ giác BCEF nội tiếp"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [
+     "e"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [
+     "f"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [
+     "c"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [
+     "f"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "BCEF"
+    ],
+    "keywords": [
+     "bcef"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AC",
+   "E",
+   "BC",
+   "AB",
+   "F",
+   "C",
+   "BCEF",
+   "AH",
+   "D",
+   "EF",
+   "AEHF"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét hai tam giác vuông $\\triangle AEB$ và $\\triangle$ {{1}} có góc $\\widehat{BAC}$ chung.",
+     "Suy ra $\\triangle AEB \\backsim \\triangle AFC$ (g-g) $\\Rightarrow \\frac{AE}{{{2}}} = \\frac{AB}{AC} \\Rightarrow \\frac{AE}{AB} = \\frac{AF}{AC}$."
+    ],
+    "hint": "Chứng minh cặp tam giác vuông đồng dạng"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle AEF$ và $\\triangle ABC$ có: góc $\\widehat{BAC}$ chung và $\\frac{AE}{AB} = \\frac{{{3}}}{AC}$.",
+     "Do đó $\\triangle AEF \\backsim$ {{4}} ({{5}}), suy ra $\\widehat{AEF} = \\widehat{ABC}$."
+    ],
+    "hint": "Chứng minh tam giác AEF và ABC đồng dạng"
+   },
+   {
+    "lines": [
+     "Trong đường tròn $(O)$, ta có $\\widehat{AKC} =$ {{6}} (hai góc nội tiếp cùng chắn cung {{7}}).",
+     "Suy ra $\\widehat{AEN} =$ {{8}} (vì cùng bằng góc $\\widehat{ABC}$)."
+    ],
+    "hint": "Chứng minh hai góc AEN và AKC bằng nhau"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle AEN$ và $\\triangle AKC$ có: góc {{9}} chung và $\\widehat{AEN} = \\widehat{AKC}$.",
+     "Nên $\\triangle AEN \\backsim \\triangle AKC$ ({{10}}), suy ra $\\widehat{ANE} =$ {{11}}."
+    ],
+    "hint": "Chứng minh tam giác AEN và AKC đồng dạng"
+   },
+   {
+    "lines": [
+     "Mà $\\widehat{ACK} = 90^\\circ$ (góc nội tiếp chắn {{12}} đường tròn).",
+     "Suy ra $\\widehat{ANE} = 90^\\circ \\Rightarrow$ {{13}} $\\bot EF$. Vậy {{14}} $\\bot EF$."
+    ],
+    "hint": "Kết luận AK vuông góc với EF"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AFC"
+    ],
+    "keywords": [
+     "afc"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AF"
+    ],
+    "keywords": [
+     "af"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AF"
+    ],
+    "keywords": [
+     "af"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "\\triangle ABC",
+     "ABC"
+    ],
+    "keywords": [
+     "abc"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 16
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "c-g-c",
+     "c.g.c"
+    ],
+    "keywords": [
+     "c.g.c",
+     "cgc",
+     "c-g-c"
+    ],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ABC}",
+     "ABC"
+    ],
+    "keywords": [
+     "abc"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{AKC}",
+     "AKC"
+    ],
+    "keywords": [
+     "akc"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{A_1}",
+     "\\widehat{KAC}",
+     "KAC"
+    ],
+    "keywords": [
+     "a1",
+     "kac"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "g-g",
+     "g.g"
+    ],
+    "keywords": [
+     "g.g",
+     "gg",
+     "g-g"
+    ],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ACK}",
+     "ACK"
+    ],
+    "keywords": [
+     "ack"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "nửa"
+    ],
+    "keywords": [
+     "nua"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "keywords": [
+     "an"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AK"
+    ],
+    "keywords": [
+     "ak"
+    ],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AFC",
+   "AF",
+   "\\triangle ABC",
+   "c-g-c",
+   "\\widehat{ABC}",
+   "AC",
+   "\\widehat{AKC}",
+   "\\widehat{A_1}",
+   "g-g",
+   "\\widehat{ACK}",
+   "nửa",
+   "AN",
+   "AK",
+   "c-c-c",
+   "AB",
+   "\\widehat{AHB}",
+   "BC"
+  ]
+ }
+}

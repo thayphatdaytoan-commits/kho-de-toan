@@ -1,0 +1,632 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "4",
+  "lesson": "4",
+  "title": "Bài 4. Tích vô hướng của hai vecto"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hình vuông $ABCD$ cạnh $a.$ Đẳng thức nào sau đây đúng?",
+   "explanation": "Ta có $\\left( \\overrightarrow{AB},\\overrightarrow{AC} \\right)=\\widehat{BAC}={{45}^{0}}$ nên $\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AC.\\cos {{45}^{0}}=a.a\\sqrt{2}.\\frac{\\sqrt{2}}{2}={{a}^{2}}$",
+   "options": [
+    "$\\overrightarrow{AB}.\\overrightarrow{AC}={{a}^{2}}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{AC}={{a}^{2}}\\sqrt{2}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{AC}=\\frac{\\sqrt{2}}{2}{{a}^{2}}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{AC}=\\frac{1}{2}{{a}^{2}}$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hình vuông $ABCD$ cạnh $a$. Gọi $E$ là điểm đối xứng của $D$ qua $C.$ Đẳng thức nào sau đây đúng?",
+   "explanation": "EDCABTa có $C$ là trung điểm của $DE$ nên $DE=2a.$\nKhi đó $\\overrightarrow{AE}.\\overrightarrow{AB}=\\left( \\overrightarrow{AD}+\\overrightarrow{DE} \\right).\\overrightarrow{AB}=\\underbrace{\\overrightarrow{AD}.\\overrightarrow{AB}}_{0}+\\overrightarrow{DE}.\\overrightarrow{AB}$\n$=DE.AB.\\cos \\left( \\overrightarrow{DE},\\overrightarrow{AB} \\right)=DE.AB.\\cos {{0}^{0}}=2{{a}^{2}}.$",
+   "options": [
+    "$\\overrightarrow{AE}.\\overrightarrow{AB}=2{{a}^{2}}.$",
+    "$\\overrightarrow{AE}.\\overrightarrow{AB}=\\sqrt{3}{{a}^{2}}.$",
+    "$\\overrightarrow{AE}.\\overrightarrow{AB}=\\sqrt{5}{{a}^{2}}.$",
+    "$\\overrightarrow{AE}.\\overrightarrow{AB}=5{{a}^{2}}.$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho tam giác $ABC$. Tập hợp các điểm $M$ thỏa mãn $\\overrightarrow{MA}.\\overrightarrow{BC}=0$ là:",
+   "explanation": "Ta có $\\overrightarrow{MA}.\\overrightarrow{BC}=0\\Leftrightarrow MA\\bot BC.$\nVậy tập hợp các điểm $M$ là đường thẳng đi qua $A$ và vuông góc với $BC.$",
+   "options": [
+    "một điểm",
+    "đường thẳng",
+    "đoạn thẳng",
+    "đường tròn"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C4.B3.D02",
+   "dang_toan_web": "Tích của một số với một vectơ và các tính chất."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho tam giác đều $ABC$ cạnh $a=2$. Hỏi mệnh đề nào sau đây sai?",
+   "explanation": "Ta đi tính tích vô hướng ở các phương án. So sánh vế trái với vế phải.\nXét (A):$\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AC\\cos {{60}^{\\text{o}}}=2x\\Rightarrow \\left( \\overrightarrow{AB}.\\overrightarrow{AC} \\right)\\overrightarrow{BC}=2\\overrightarrow{BC}$nên loại A.\nXét (B):$\\overrightarrow{BC}.\\overrightarrow{CA}=BC.AC\\cos {{120}^{\\text{o}}}=-2$nên loại B.\nXét (C):$\\left( \\overrightarrow{AB}+\\overrightarrow{BC} \\right).\\overrightarrow{AC}=\\overrightarrow{AC}.\\overrightarrow{AC}=4$, $\\overrightarrow{BC}.\\overrightarrow{CA}=2.2.\\cos {{120}^{\\text{o}}}=-2$ nên chọn C.",
+   "options": [
+    "$\\left( \\overrightarrow{AB}.\\overrightarrow{AC} \\right)\\overrightarrow{BC}=2\\overrightarrow{BC}$",
+    "$\\overrightarrow{BC}.\\overrightarrow{CA}=-2$",
+    "$\\left( \\overrightarrow{AB}+\\overrightarrow{BC} \\right).\\overrightarrow{AC}=-4$",
+    "$\\left( \\overrightarrow{BC}-\\overrightarrow{AC} \\right).\\overrightarrow{BA}=2$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho ${M}$ là trung điểm ${AB}$, tìm biểu thức sai:",
+   "explanation": "Xét (A):$\\overrightarrow{MA},\\overrightarrow{AB}$ ngược hướng suy ra $\\overrightarrow{MA}.\\overrightarrow{AB}=MA.AB.\\cos {{180}^{\\text{o}}}=-MA.AB$ nên loại A.\nXét (B):$\\overrightarrow{MA},\\overrightarrow{MB}$ngược hướng suy ra $\\overrightarrow{MA}.\\overrightarrow{MB}=MA.MB.\\cos {{180}^{\\text{o}}}=-MA.MB$ nên loại B.\nXét (C): $\\overrightarrow{AM},\\overrightarrow{AB}$ cùng hướng suy ra $\\overrightarrow{AM}.\\overrightarrow{AB}=AM.AB.\\cos {{0}^{\\text{o}}}=AM.AB$nên loại C.\nXét (D):$\\overrightarrow{MA},\\overrightarrow{MB}$ ngược hướng suy ra $\\overrightarrow{MA}.\\overrightarrow{MB}=MA.MB.\\ \\cos {{180}^{\\text{o}}}=-MA.MB$ nên chọn D.",
+   "options": [
+    "$\\overrightarrow{MA}.\\overrightarrow{AB}=-MA.AB$",
+    "$\\overrightarrow{MA}.\\overrightarrow{MB}=-MA.MB$",
+    "$\\overrightarrow{AM}.\\overrightarrow{AB}=AM.AB$",
+    "$\\overrightarrow{MA}.\\overrightarrow{MB}=MA.MB$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho tam giác đều ${ABC}$ cạnh bằng ${a}$ và ${H}$ là trung điểm ${BC}$. Tính ${\\overrightarrow{AH}.\\overrightarrow{CA}}$",
+   "explanation": "Ta có $\\overrightarrow{AH}.\\overrightarrow{CA}=AH.CA.\\cos \\left( \\overrightarrow{AH},\\overrightarrow{CA} \\right)=\\frac{a\\sqrt{3}}{2}.a.\\cos {{150}^{\\text{o}}}=-\\frac{3{{a}^{2}}}{4}$.",
+   "options": [
+    "$\\frac{3{{a}^{2}}}{4}$",
+    "$\\frac{-3{{a}^{2}}}{4}$",
+    "$\\frac{3{{a}^{2}}}{2}$",
+    "$\\frac{-3{{a}^{2}}}{2}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Biết${\\overrightarrow{a}}$, ${\\overrightarrow{b}}$ ${\\ne \\overrightarrow{0}}$ và ${\\overrightarrow{a}.\\overrightarrow{b}=-\\left| \\overrightarrow{a} \\right|.\\left| \\overrightarrow{b} \\right|}$. Câu nào sau đây đúng",
+   "explanation": "Ta có $\\overrightarrow{a}.\\overrightarrow{b}=-\\left| \\overrightarrow{a} \\right|.\\left| \\overrightarrow{b} \\right|\\Leftrightarrow \\left| \\overrightarrow{a} \\right|.\\left| \\overrightarrow{b} \\right|\\cos \\left( \\overrightarrow{a},\\overrightarrow{b} \\right)=-\\left| \\overrightarrow{a} \\right|.\\left| \\overrightarrow{b} \\right|\\Leftrightarrow \\cos \\left( \\overrightarrow{a},\\overrightarrow{b} \\right)=-1$nên $\\overrightarrow{a}$và $\\overrightarrow{b}$ ngược hướng",
+   "options": [
+    "$\\overrightarrow{a}$và $\\overrightarrow{b}$ cùng hướng",
+    "$\\overrightarrow{a}$và $\\overrightarrow{b}$nằm trên hai dường thẳng hợp với nhau một góc ${{120}^{\\text{o}}}$",
+    "$\\overrightarrow{a}$và $\\overrightarrow{b}$ ngược hướng",
+    "A, B, C đều sai"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho 2 vectơ ${\\overrightarrow{a}}$ và ${\\overrightarrow{b}}$ có ${\\left| \\overrightarrow{a} \\right|=4}$, ${\\left| \\overrightarrow{b} \\right|=5}$ và ${\\left( \\overrightarrow{a},\\overrightarrow{b} \\right)={{120}^{\\text{o}}}}$.Tính ${\\left| \\overrightarrow{a}+\\overrightarrow{b} \\right|}$",
+   "explanation": "Ta có $\\left| \\overrightarrow{a}+\\overrightarrow{b} \\right|=\\sqrt[{}]{{{\\left( \\overrightarrow{a}+\\overrightarrow{b} \\right)}^{2}}}=\\sqrt[{}]{{{\\overrightarrow{a}}^{2}}+{{\\overrightarrow{b}}^{2}}+2\\overrightarrow{a}.\\overrightarrow{b}}=\\sqrt[{}]{{{\\left| \\overrightarrow{a} \\right|}^{2}}+{{\\left| \\overrightarrow{b} \\right|}^{2}}+2\\left| \\overrightarrow{a} \\right|\\left| \\overrightarrow{b} \\right|\\ \\cos \\left( \\overrightarrow{a},\\overrightarrow{b} \\right)}=\\sqrt{21}$.",
+   "options": [
+    "$\\sqrt{21}$",
+    "$\\sqrt{61}$",
+    "$21$",
+    "$61$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho hai vectơ $\\vec{a}$ và $\\overrightarrow{b}$. Đẳng thức nào sau đây sai?",
+   "explanation": "Nhận thấy C và D chỉ khác nhau về hệ số $\\frac{1}{2}$ và $\\xrightarrow{{}}\\vec{a}.\\overrightarrow{b}=\\frac{1}{2}\\left( {{\\left| \\vec{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| {\\vec{a}} \\right|}^{2}}-{{\\left| \\overrightarrow{b} \\right|}^{2}} \\right).$ $\\frac{1}{4}$ nên thử kiểm tra đáp án C và D.\nTa có ${{\\left| \\overrightarrow{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| \\overrightarrow{a}-\\overrightarrow{b} \\right|}^{2}}={{\\left( \\overrightarrow{a}+\\overrightarrow{b} \\right)}^{2}}-{{\\left( \\overrightarrow{a}-\\overrightarrow{b} \\right)}^{2}}=4\\overrightarrow{a}\\overrightarrow{b}\\xrightarrow{{}}\\overrightarrow{a}.\\overrightarrow{b}=\\frac{1}{4}\\left( {{\\left| \\overrightarrow{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| \\overrightarrow{a}-\\overrightarrow{b} \\right|}^{2}} \\right)$ Chọn C.\n$\\bullet $ A đúng, vì ${{\\left| \\overrightarrow{a}+\\overrightarrow{b} \\right|}^{2}}={{\\left( \\overrightarrow{a}+\\overrightarrow{b} \\right)}^{2}}=\\left( \\overrightarrow{a}+\\overrightarrow{b} \\right).\\left( \\overrightarrow{a}+\\overrightarrow{b} \\right)=\\overrightarrow{a}.\\overrightarrow{a}+\\overrightarrow{a}.\\overrightarrow{b}+\\overrightarrow{b}.\\overrightarrow{a}+\\overrightarrow{b}.\\overrightarrow{b}={{\\left| \\overrightarrow{a} \\right|}^{2}}+{{\\left| \\overrightarrow{b} \\right|}^{2}}+2\\overrightarrow{a}.\\overrightarrow{b}$\n$\\bullet $ B đúng, vì ${{\\left| \\overrightarrow{a}-\\overrightarrow{b} \\right|}^{2}}={{\\left( \\overrightarrow{a}-\\overrightarrow{b} \\right)}^{2}}=\\left( \\overrightarrow{a}-\\overrightarrow{b} \\right).\\left( \\overrightarrow{a}-\\overrightarrow{b} \\right)=\\overrightarrow{a}.\\overrightarrow{a}-\\overrightarrow{a}.\\overrightarrow{b}-\\overrightarrow{b}.\\overrightarrow{a}+\\overrightarrow{b}.\\overrightarrow{b}={{\\left| \\overrightarrow{a} \\right|}^{2}}+{{\\left| \\overrightarrow{b} \\right|}^{2}}-2\\overrightarrow{a}.\\overrightarrow{b}$\n$\\xrightarrow{{}}\\vec{a}.\\overrightarrow{b}=\\frac{1}{2}\\left( {{\\left| {\\vec{a}} \\right|}^{2}}+{{\\left| \\overrightarrow{b} \\right|}^{2}}-{{\\left| \\vec{a}-\\overrightarrow{b} \\right|}^{2}} \\right)$ $$",
+   "options": [
+    "$\\vec{a}.\\overrightarrow{b}=\\frac{1}{2}\\left( {{\\left| \\vec{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| {\\vec{a}} \\right|}^{2}}-{{\\left| \\overrightarrow{b} \\right|}^{2}} \\right)$",
+    "$\\vec{a}.\\overrightarrow{b}=\\frac{1}{2}\\left( {{\\left| {\\vec{a}} \\right|}^{2}}+{{\\left| \\overrightarrow{b} \\right|}^{2}}-{{\\left| \\vec{a}-\\overrightarrow{b} \\right|}^{2}} \\right)$",
+    "$\\vec{a}.\\overrightarrow{b}=\\frac{1}{2}\\left( {{\\left| \\vec{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| \\vec{a}-\\overrightarrow{b} \\right|}^{2}} \\right)$",
+    "$\\vec{a}.\\overrightarrow{b}=\\frac{1}{4}\\left( {{\\left| \\vec{a}+\\overrightarrow{b} \\right|}^{2}}-{{\\left| \\vec{a}-\\overrightarrow{b} \\right|}^{2}} \\right)$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho tam giác đều $ABC$ có cạnh bằng $a.$ Tính tích vô hướng $\\overrightarrow{AB}.\\overrightarrow{BC}.$",
+   "explanation": "Xác định được góc $\\left( \\overrightarrow{AB},\\overrightarrow{BC} \\right)$ là góc ngoài của góc $\\widehat{B}$ nên $\\left( \\overrightarrow{AB},\\overrightarrow{BC} \\right)={{120}^{0}}$\nDo đó $\\overrightarrow{AB}.\\overrightarrow{BC}=AB.BC.cos\\left( \\overrightarrow{AB},\\overrightarrow{BC} \\right)=a.a.cos{{120}^{0}}=-\\frac{{{a}^{2}}}{2}$",
+   "options": [
+    "$\\overrightarrow{AB}.\\overrightarrow{BC}={{a}^{2}}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{BC}=\\frac{{{a}^{2}}\\sqrt{3}}{2}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{BC}=-\\frac{{{a}^{2}}}{2}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{BC}=\\frac{{{a}^{2}}}{2}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho tam giác đều $ABC$ có cạnh bằng $a$ và chiều cao $AH$. Mệnh đề nào sau đây là sai?",
+   "explanation": "Xác định được góc $\\left( \\overrightarrow{AC},\\overrightarrow{CB} \\right)$ là góc ngoài của góc $\\widehat{A}$ nên $\\left( \\overrightarrow{AC},\\overrightarrow{CB} \\right)={{120}^{0}}$\nDo đó $\\overrightarrow{AC}.\\overrightarrow{CB}=AC.CB.cos\\left( \\overrightarrow{AC},\\overrightarrow{CB} \\right)=a.a.cos{{120}^{0}}=-\\frac{{{a}^{2}}}{2}$",
+   "options": [
+    "$\\overrightarrow{AH}.\\overrightarrow{BC}=0$",
+    "$\\left( \\overrightarrow{AB},\\overrightarrow{HA} \\right)={{150}^{0}}$",
+    "$\\overrightarrow{AB}.\\overrightarrow{AC}=\\frac{{{a}^{2}}}{2}$",
+    "$\\overrightarrow{AC}.\\overrightarrow{CB}=\\frac{{{a}^{2}}}{2}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho tam giác $ABC$ vuông tại $A$ và có $AB=c,\\text{ }AC=b.$ Tính $\\overrightarrow{BA}.\\overrightarrow{BC}.$",
+   "explanation": "Ta có $\\overrightarrow{BA}.\\overrightarrow{BC}=BA.BC.cos\\left( \\overrightarrow{BA},\\overrightarrow{BC} \\right)=BA.BC.cos\\widehat{B}=c.\\sqrt{{{b}^{2}}+{{c}^{2}}}.\\frac{c}{\\sqrt{{{b}^{2}}+{{c}^{2}}}}={{c}^{2}}$\nCách khác. Tam giác $ABC$ vuông tại $A$ suy ra $AB\\bot AC$ $\\Rightarrow \\,\\,\\overrightarrow{AB}.\\overrightarrow{AC}=0$\nTa có $\\overrightarrow{BA}.\\overrightarrow{BC}=\\overrightarrow{BA}.\\left( \\overrightarrow{BA}+\\overrightarrow{AC} \\right)={{\\overrightarrow{BA}}^{2}}+\\overrightarrow{BA}.\\overrightarrow{AC}=A{{B}^{2}}={{c}^{2}}$",
+   "options": [
+    "$\\overrightarrow{BA}.\\overrightarrow{BC}={{b}^{2}}$",
+    "$\\overrightarrow{BA}.\\overrightarrow{BC}={{c}^{2}}$",
+    "$\\overrightarrow{BA}.\\overrightarrow{BC}={{b}^{2}}+{{c}^{2}}$",
+    "$\\overrightarrow{BA}.\\overrightarrow{BC}={{b}^{2}}-{{c}^{2}}$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$\\overrightarrow{AE}=\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AD}$",
+    "b": "$\\overrightarrow{AF}=\\frac{1}{4}\\overrightarrow{AB}+\\frac{5}{4}\\overrightarrow{AD}.$",
+    "c": "$\\overrightarrow{EF}=\\frac{-3}{4}\\overrightarrow{AB}+\\frac{1}{4}\\overrightarrow{AD}.$",
+    "d": "Tam giác ${A E F}$vuông cân."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hình vuông ${A B C D}$ cạnh ${a}$. Lấy ${E}$ là trung điểm của ${B C}$, điểm ${F}$ thoả mãn ${\\overrightarrow{B F}=\\frac{3}{4} \\overrightarrow{B D}}$ Khi đó:\n[[IMG:image15.png]]",
+   "explanation": "Ta có: ${\\overrightarrow{A E}=\\overrightarrow{A B}+\\overrightarrow{B E}=\\overrightarrow{A B}+\\frac{1}{2} \\overrightarrow{B C}=\\overrightarrow{A B}+\\frac{1}{2} \\overrightarrow{A D}}$.\n$\\begin{aligned} & \\overrightarrow{AF}=\\overrightarrow{AB}+\\overrightarrow{BF}=\\overrightarrow{AB}+\\frac{3}{4}\\overrightarrow{BD}=\\overrightarrow{AB}+\\frac{3}{4}(\\overrightarrow{AD}-\\overrightarrow{AB})=\\frac{1}{4}\\overrightarrow{AB}+\\frac{3}{4}\\overrightarrow{AD}. \\\\ & \\overrightarrow{EF}=\\overrightarrow{AF}-\\overrightarrow{AE}=\\left( \\frac{1}{4}\\overrightarrow{AB}+\\frac{3}{4}\\overrightarrow{AD} \\right)-\\left( \\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AD} \\right)=\\frac{-3}{4}\\overrightarrow{AB}+\\frac{1}{4}\\overrightarrow{AD}. \\\\ \\end{aligned}$\nTa có: ${\\overrightarrow{A F} \\cdot \\overrightarrow{E F}=\\left(\\frac{1}{4} \\overrightarrow{A B}+\\frac{3}{4} \\overrightarrow{A D}\\right) \\cdot\\left(\\frac{-3}{4} \\overrightarrow{A B}+\\frac{1}{4} \\overrightarrow{A D}\\right)}$\n$=\\frac{-3}{16}{{\\overrightarrow{AB}}^{2}}-\\frac{1}{2}\\overrightarrow{AB}\\cdot \\overrightarrow{AD}+\\frac{3}{16}{{\\overrightarrow{AD}}^{2}}=0\\Rightarrow AF\\bot EF\\text{. }$\nTa có: ${\\overrightarrow{A F}^{2}=\\left(\\frac{1}{4} \\overrightarrow{A B}+\\frac{3}{4} \\overrightarrow{A D}\\right)^{2}=\\frac{1}{16} \\overrightarrow{A B}^{2}+\\frac{3}{8} \\overrightarrow{A B} \\cdot \\overrightarrow{A D}+\\frac{9}{16} \\overrightarrow{A D}^{2}=\\frac{5}{8} \\overrightarrow{A B}^{2}}$.\n${{\\overrightarrow{EF}}^{2}}={{\\left( \\frac{-3}{4}\\overrightarrow{AB}+\\frac{1}{4}\\overrightarrow{AD} \\right)}^{2}}=\\frac{9}{16}{{\\overrightarrow{AB}}^{2}}-\\frac{3}{8}\\overrightarrow{AB}\\cdot \\overrightarrow{AD}+\\frac{1}{16}{{\\overrightarrow{AD}}^{2}}=\\frac{5}{8}{{\\overrightarrow{AB}}^{2}}.$\n${\\Rightarrow A F^{2}=E F^{2}=\\frac{5}{8} \\overrightarrow{A B}^{2} \\Rightarrow A F=E F}$. Vậy tam giác ${A E F}$ vuông cân tại ${F}$.\nChú ý: Ta có thể chứng minh tam giác ${A E F}$ vuông bằng định lí Pythagore.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 25,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$\\overrightarrow{AB}\\cdot \\overrightarrow{AC}=20$",
+    "b": "$\\overrightarrow{AD}=\\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AC}$",
+    "c": "$BC=3\\sqrt{5}$",
+    "d": "${A D \\perp B E}$ khi $k=\\frac{14}{15}$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho tam giác ${A B C}$ có có ${A B=4 \\sqrt{2}, A C=6, \\widehat{B A C}=45^{\\circ}}$. Gọi ${D}$ là trung điểm của đoạn thẳng ${B C}$. Điểm ${E}$ thoả mãn ${\\overrightarrow{A E}=k \\overrightarrow{A C}(k \\in \\mathbb{R})}$ (Hình). Khi đó:\n[[IMG:image16.png]]",
+   "explanation": "a) Ta có: ${\\overrightarrow{A B} \\cdot \\overrightarrow{A C}=A B \\cdot A C \\cdot \\cos A=4 \\sqrt{2} \\cdot 6 \\cdot \\cos 45^{\\circ}=24}$.\nb) Ta có: ${\\overrightarrow{B C}=\\overrightarrow{A C}-\\overrightarrow{A B}, \\overrightarrow{A D}=\\frac{1}{2} \\overrightarrow{A B}+\\frac{1}{2} \\overrightarrow{A C}}$.\nKhi đó:\n$\\begin{array}{llllll} {{\\overrightarrow{BC}}^{2}} & ={{(\\overrightarrow{AC}-\\overrightarrow{AB})}^{2}}={{\\overrightarrow{AC}}^{2}}-2\\overrightarrow{AC}\\cdot \\overrightarrow{AB}+{{\\overrightarrow{AB}}^{2}}={{6}^{2}}-2\\cdot 24+{{(4\\sqrt{2})}^{2}}=20 \\\\ {} & \\Rightarrow BC=2\\sqrt{5}. \\\\ {{\\overrightarrow{AD}}^{2}} & ={{\\left( \\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AC} \\right)}^{2}}=\\frac{1}{4}\\left( {{\\overrightarrow{AB}}^{2}}+2\\overrightarrow{AB}\\cdot \\overrightarrow{AC}+{{\\overrightarrow{AC}}^{2}} \\right) \\\\ {} & =\\frac{1}{4}\\left[ {{(4\\sqrt{2})}^{2}}+2\\cdot 24+{{6}^{2}} \\right]=29\\Rightarrow AD=\\sqrt{29}. \\\\ \\end{array}$\nc) Ta có: ${\\overrightarrow{B E}=\\overrightarrow{A E}-\\overrightarrow{A B}=k \\overrightarrow{A C}-\\overrightarrow{A B}}$. Từ đó, ta có:\n${\\overrightarrow{A D} \\cdot \\overrightarrow{B E}=\\frac{1}{2}(\\overrightarrow{A B}+\\overrightarrow{A C}) \\cdot(k \\overrightarrow{A C}-\\overrightarrow{A B})}$\n$\\begin{aligned} & =\\frac{1}{2}\\left( k\\overrightarrow{AB}\\cdot \\overrightarrow{AC}+k{{\\overrightarrow{AC}}^{2}}-{{\\overrightarrow{AB}}^{2}}-\\overrightarrow{AB}\\cdot \\overrightarrow{AC} \\right)=\\frac{1}{2}\\left[ 24k+{{6}^{2}}\\cdot k-{{(4\\sqrt{2})}^{2}}-24 \\right] \\\\ & =30k-28. \\\\ \\end{aligned}$\nKhi đó ${A D \\perp B E \\Leftrightarrow \\overrightarrow{A D} \\cdot \\overrightarrow{B E}=0 \\Leftrightarrow 30 k-28=0 \\Leftrightarrow k=\\frac{14}{15}}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 29,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$(\\overrightarrow{AB},\\overrightarrow{AC})=30{}^\\circ $",
+    "b": "${(\\overrightarrow{A H}, \\overrightarrow{C B})=90^{\\circ}}$",
+    "c": "$(\\overrightarrow{CA},\\overrightarrow{BC})=120{}^\\circ $",
+    "d": "$(\\overrightarrow{AH},\\overrightarrow{BA})=130{}^\\circ $"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho tam giác ${A B C}$ đều, đường cao ${A H}$. Khi đó:",
+   "explanation": "a) Ta có: ${(\\overrightarrow{A B}, \\overrightarrow{A C})=\\widehat{B A C}=60^{\\circ}}$.\nb) Ta có: ${(\\overrightarrow{A H}, \\overrightarrow{C B})=90^{\\circ}}$ do ${A H \\perp B C}$.\nc) Cách giải 1: Gọi ${D}$ là điểm đối xứng với ${B}$ qua ${C}$, ta có: ${\\overrightarrow{B C}=\\overrightarrow{C D}}$.\nKhi đó: ${(\\overrightarrow{C A}, \\overrightarrow{B C})=(\\overrightarrow{C A}, \\overrightarrow{C D})=\\widehat{A C D}=120^{\\circ}}$.\nCách giải 2: Áp dụng tính chất được rút ra từ định nghĩa:\n${(\\vec{a}, \\vec{b})=180^{\\circ}-(-\\vec{a}, \\vec{b})=180^{\\circ}-(\\vec{a},-\\vec{b})}$, ta được:\n${(\\overrightarrow{C A}, \\overrightarrow{B C})=180^{\\circ}-(\\overrightarrow{C A}, \\overrightarrow{C B})=180^{\\circ}-\\widehat{A C B}=180^{\\circ}-60^{\\circ}=120^{\\circ}}$.\nd) Ta có: ${(\\overrightarrow{A H}, \\overrightarrow{B A})=180^{\\circ}-(\\overrightarrow{A H}, \\overrightarrow{A B})=180^{\\circ}-\\widehat{B A H}=180^{\\circ}-30^{\\circ}=150^{\\circ}}$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$(\\overrightarrow{AB},\\overrightarrow{AC})={{60}^{{}^\\circ }}$",
+    "b": "$(\\overrightarrow{AB},\\overrightarrow{DA})={{30}^{{}^\\circ }}$",
+    "c": "$\\overrightarrow{DA}\\cdot \\overrightarrow{DC}=3$",
+    "d": "$\\overrightarrow{OB}\\cdot \\overrightarrow{BA}=-3$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hình thoi ${A B C D}$ có cạnh bằng 2 và góc ${B}$ bằng ${60^{\\circ}}$. Khi đó:",
+   "explanation": "[[IMG:image18.png]]\nXét hình thoi ${A B C D}$ có ${\\widehat{A B C}=60^{\\circ} \\Rightarrow \\widehat{B A D}=120^{\\circ}}$; tam giác ${A B C}$ có ${A B=B C=2, \\widehat{A B C}=60^{\\circ} \\Rightarrow \\Delta A B C}$ đều cạnh ${2 \\Rightarrow O B=\\frac{2 \\sqrt{3}}{2}=\\sqrt{3}}$.\nTa có: ${(\\overrightarrow{A B}, \\overrightarrow{A C})=\\widehat{B A C}=60^{\\circ}}$,$(\\overrightarrow{AB},\\overrightarrow{DA})={{180}^{{}^\\circ }}-(\\overrightarrow{AB},\\overrightarrow{AD})={{180}^{{}^\\circ }}-\\widehat{BAD}={{180}^{{}^\\circ }}-{{120}^{{}^\\circ }}={{60}^{{}^\\circ }}$\nTa có: ${\\overrightarrow{D A} \\cdot \\overrightarrow{D C}=|\\overrightarrow{D A}| \\cdot|\\overrightarrow{D C}| \\cos (\\overrightarrow{D A}, \\overrightarrow{D C})=D A \\cdot D C \\cdot \\cos \\widehat{A D C}=2 \\cdot 2 \\cdot \\cos 60^{\\circ}=2}$;\n$\\overrightarrow{OB}\\cdot \\overrightarrow{BA}=-\\overrightarrow{BO}\\cdot \\overrightarrow{BA}=-|\\overrightarrow{BO}|\\cdot |\\overrightarrow{BA}|\\cdot \\cos \\widehat{ABO}=-BO\\cdot BA\\cdot \\cos {{30}^{{}^\\circ }}=-\\sqrt{3}\\cdot 2\\cdot \\frac{\\sqrt{3}}{2}=-3.$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 25,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho tam giác ${A B C}$ có ${B C=a, C A=b, A B=c}$. Biết ${M}$ là trung điểm của ${B C}$.\nTính ${\\overrightarrow{A M}^2}$?",
+   "explanation": "Vì ${M}$ là trung điểm của ${B C}$, nên: ${\\overrightarrow{A M}=\\frac{1}{2}(\\overrightarrow{A B}+\\overrightarrow{A C})}$; ${\\overrightarrow{A M}^2=\\frac{1}{4}(\\overrightarrow{A B}+\\overrightarrow{A C})^2=\\frac{1}{4}\\left(\\overrightarrow{A B}^2+2 \\overrightarrow{A B} \\cdot \\overrightarrow{A C}+\\overrightarrow{A C}^2\\right)}$. Mà ${\\overrightarrow{A B} \\cdot \\overrightarrow{A C}=\\frac{b^2+c^2-a^2}{2} ;}$\nSuy ra: ${\\overrightarrow{A M}^2=\\frac{1}{4}\\left(c^2+2 \\cdot \\frac{b^2+c^2-a^2}{2}+b^2\\right)=\\frac{2\\left(b^2+c^2\\right)-a^2}{4}}$.\n(đây cũng là công thức để tính độ dài đường trung tuyến tam giác).",
+   "short_value": null,
+   "short_correct": "\\frac{2(b^{2}+c^{2})-a^{2}}{4}",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho nửa đường tròn đường kính ${A B}$. Biết rằng ${A C}$ và ${B D}$ là hai dây thuộc nửa đường tròn cắt nhau tại ${E}$. Tính $\\overrightarrow{AE}\\cdot \\overrightarrow{AC}+\\overrightarrow{BE}\\cdot \\overrightarrow{BD}$ biết $AB=2$.",
+   "explanation": "Ta có: ${\\overrightarrow{A E} \\cdot \\overrightarrow{A C}+\\overrightarrow{B E} \\cdot \\overrightarrow{B D}=\\overrightarrow{A E} \\cdot(\\overrightarrow{A B}+\\overrightarrow{B C})+\\overrightarrow{B E} \\cdot(\\overrightarrow{B A}+\\overrightarrow{A D})}$\n$=\\overrightarrow{AE}\\cdot \\overrightarrow{AB}+\\overrightarrow{AE}\\cdot \\overrightarrow{BC}+\\overrightarrow{BE}\\cdot \\overrightarrow{BA}+\\overrightarrow{BE}\\cdot \\overrightarrow{AD}\\text{. }$\nVì ${A B}$ là đường kính nửa đường tròn nên\n$\\widehat{ADB}={{90}^{{}^\\circ }},\\widehat{ACB}={{90}^{{}^\\circ }}\\Rightarrow \\overrightarrow{AE}\\cdot \\overrightarrow{BC}=0,\\overrightarrow{BE}\\cdot \\overrightarrow{AD}=0.\\text{ }$\nKhi đó: ${\\overrightarrow{A E} \\cdot \\overrightarrow{A C}+\\overrightarrow{B E} \\cdot \\overrightarrow{B D}=\\overrightarrow{A E} \\cdot \\overrightarrow{A B}+\\overrightarrow{B E} \\cdot \\overrightarrow{B A}=\\overrightarrow{A E} \\cdot \\overrightarrow{A B}+\\overrightarrow{E B} \\cdot \\overrightarrow{A B}}$\n$=\\overrightarrow{AB}(\\overrightarrow{AE}+\\overrightarrow{EB})=\\overrightarrow{AB}\\cdot \\overrightarrow{AB}={{\\overrightarrow{AB}}^{2}}=A{{B}^{2}}=4$",
+   "short_value": 4,
+   "short_correct": "4",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hình vuông ${A B C D}$, điểm ${M}$ nằm trên đoạn thẳng ${A C}$ sao cho ${A M=\\frac{A C}{4}}$. Gọi ${N}$ là trung điểm ${C D}$. Khi đó ${B M N}$ là tam giác vuông cân tại đỉnh nào?",
+   "explanation": "Đặt ${\\overrightarrow{A D}=\\vec{a}, \\overrightarrow{A B}=\\vec{b}}$.\nKhi đó: ${\\overrightarrow{A M}=\\frac{1}{4} \\overrightarrow{A C}=\\frac{1}{4}(\\vec{a}+\\vec{b})}$\n$\\overrightarrow{AN}=\\overrightarrow{AD}+\\overrightarrow{DN}=\\vec{a}+\\frac{1}{2}\\vec{b}$\n${\\overrightarrow{M B}=\\overrightarrow{A B}-\\overrightarrow{A M}=\\vec{b}-\\frac{1}{4}(\\vec{a}+\\vec{b})=\\frac{1}{4}(-\\vec{a}+3 \\vec{b})}$ và\n${\\overrightarrow{M N}=\\overrightarrow{A N}-\\overrightarrow{A M}=\\vec{a}+\\frac{1}{2} \\vec{b}-\\frac{1}{4}(\\vec{a}+\\vec{b})=\\frac{1}{4}(3 \\vec{a}+\\vec{b})}$.\nTa có: ${\\overrightarrow{M B} \\cdot \\overrightarrow{M N}=\\frac{1}{16}(-\\vec{a}+3 \\vec{b})(3 \\vec{a}+\\vec{b})=\\frac{1}{16}\\left(-3 \\vec{a}^2+3 \\vec{b}^2+8 \\vec{a} \\cdot \\vec{b}\\right)}$\n${=\\frac{1}{16}\\left(-3 A D^2+3 A B^2+0\\right)=0 \\Rightarrow M B \\perp M N(1)}$.\nHơn nữa: ${\\overrightarrow{M B}^2=\\frac{1}{16}(-\\vec{a}+3 \\vec{b})^2=\\frac{1}{16}\\left(\\vec{a}^2+9 \\vec{b}^2-6 \\vec{a} \\cdot \\vec{b}\\right)=\\frac{1}{16}\\left(A D^2+9 A B^2-0\\right)=\\frac{5}{8} A B^2}$;\n${\\overrightarrow{M N}^2=\\frac{1}{16}(3 \\vec{a}+\\vec{b})^2=\\frac{1}{16}\\left(9 \\vec{a}^2+\\vec{b}^2+6 \\vec{a} \\cdot \\vec{b}\\right)=\\frac{1}{16}\\left(9 A D^2+A B^2+0\\right)=\\frac{5}{8} A B^2}$.\nSuy ra $MB=MN$(2). Từ (1) và (2) suy ra $\\Delta BMN$vuông cân tại đỉnh $M.$ ${}$",
+   "short_value": null,
+   "short_correct": "M",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 26,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho tam giác ${A B C}$ cân tại ${A}$. Gọi ${H}$ là trung điểm của ${B C, D}$ là hình chiếu của ${H}$ trên ${A C, M}$ là trung điểm của ${H D}$. Tính ${\\Rightarrow \\overrightarrow{A M} \\cdot \\overrightarrow{B D}=\\frac{1}{2}(\\overrightarrow{A H} \\cdot \\overrightarrow{H D}+\\overrightarrow{A D} \\cdot \\overrightarrow{H C})}$",
+   "explanation": "[[IMG:image19.png]]\nTa cần chứng minh: ${\\overrightarrow{A M} \\cdot \\overrightarrow{B D}=0}$. Ta có: ${\\overrightarrow{B D}=\\overrightarrow{B H}+\\overrightarrow{H D}=\\overrightarrow{H C}+\\overrightarrow{H D} ; \\overrightarrow{A M}=\\frac{1}{2}(\\overrightarrow{A H}+\\overrightarrow{A D})}$\nDo đó: ${\\overrightarrow{A M} \\cdot \\overrightarrow{B D}=\\frac{1}{2}(\\overrightarrow{A H}+\\overrightarrow{A D})(\\overrightarrow{H C}+\\overrightarrow{H D})}$ ${=\\frac{1}{2}(\\overrightarrow{A H} \\cdot \\overrightarrow{H C}+\\overrightarrow{A H} \\cdot \\overrightarrow{H D}+\\overrightarrow{A D} \\cdot \\overrightarrow{H C}+\\overrightarrow{A D} \\cdot \\overrightarrow{H D})}$,\nmà ${\\left\\{\\begin{array}{l}\\overrightarrow{A H} \\cdot \\overrightarrow{H C}=0(\\text { do } A H \\perp B C) \\\\ \\overrightarrow{A D} \\cdot \\overrightarrow{H D}=0(\\text { do } H D \\perp A C)\\end{array}\\right.}$ ${\\Rightarrow \\overrightarrow{A M} \\cdot \\overrightarrow{B D}=\\frac{1}{2}(\\overrightarrow{A H} \\cdot \\overrightarrow{H D}+\\overrightarrow{A D} \\cdot \\overrightarrow{H C})}$\n${=\\frac{1}{2}[\\overrightarrow{A H} \\cdot \\overrightarrow{H D}+(\\overrightarrow{A H}+\\overrightarrow{H D}) \\cdot \\overrightarrow{H C}]}$\n${=\\frac{1}{2}(\\overrightarrow{A H} \\cdot \\overrightarrow{H D}+\\underbrace{\\overrightarrow{A H} \\cdot \\overrightarrow{H C}}_0+\\overrightarrow{H D} \\cdot \\overrightarrow{H C})=\\frac{1}{2} \\overrightarrow{H D} \\cdot(\\overrightarrow{A H}+\\overrightarrow{H C})=\\frac{1}{2} \\overrightarrow{H D} \\cdot \\overrightarrow{A C}=0}$.\nVậy ${A M \\perp D B}$.",
+   "short_value": 0,
+   "short_correct": "0",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C4.B5.D01",
+   "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai điểm ${A, B}$ cố định có khoảng cách bằng ${a}$. Tập hợp điểm ${M}$ sao cho:\n${\\overrightarrow{M A} \\cdot \\overrightarrow{M B}=\\frac{3 a^2}{4}}$ là đường tròn có bán kính bằng bao nhiêu?",
+   "explanation": "Gọi ${I}$ là trung điểm của ${A B}$ ta có:\n${\\overrightarrow{M A} \\cdot \\overrightarrow{M B}=\\frac{3 a^2}{4} \\Leftrightarrow(\\overrightarrow{M I}+\\overrightarrow{I A})(\\overrightarrow{M I}+\\overrightarrow{I B})=\\frac{3 a^2}{4}}$\n$\\Leftrightarrow (\\overrightarrow{MI}+\\overrightarrow{IA})(\\overrightarrow{MI}-\\overrightarrow{IA})=\\frac{3{{a}^{2}}}{4}\\Leftrightarrow M{{I}^{2}}-I{{A}^{2}}=\\frac{3{{a}^{2}}}{4}$ ${}$\n$\\overset{IA=\\frac{a}{2}}{\\mathop{\\Leftrightarrow }}\\,M{{I}^{2}}=\\frac{{{a}^{2}}}{4}+\\frac{3{{a}^{2}}}{4}\\Leftrightarrow MI=a.$\nVậy tập hợp điểm ${M}$ là đường tròn tâm ${I}$ bán kính ${R=a}$.",
+   "short_value": null,
+   "short_correct": "a|$a$",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C4.B3.D02",
+   "dang_toan_web": "Tích của một số với một vectơ và các tính chất."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hình vuông ${A B C D}$ cạnh ${a}$ và số thực ${k}$. Tập hợp điểm ${M}$ sao cho ${\\overrightarrow{M A} \\cdot \\overrightarrow{M C}+\\overrightarrow{M B} \\cdot \\overrightarrow{M D}=k}$ là đường tròn có bán kính bằng bao nhiêu?",
+   "explanation": "Gọi I là tâm của hình vuông $ABCD$\nTa có ${: \\overrightarrow{M A} \\cdot \\overrightarrow{M C}=(\\overrightarrow{M I}+\\overrightarrow{I A})(\\overrightarrow{M I}+\\overrightarrow{I C})}$ ${=(\\overrightarrow{M I}+\\overrightarrow{I A})(\\overrightarrow{M I}-\\overrightarrow{I A})=\\overrightarrow{M I}^2-\\overrightarrow{I A}^2=M I^2-I A^2}$.\nHoàn toàn tương tự, ta có: ${\\overrightarrow{M B} \\cdot \\overrightarrow{M D}=M I^2-I B^2}$.\nKhi đó: ${\\overrightarrow{M A} \\cdot \\overrightarrow{M C}+\\overrightarrow{M B} \\cdot \\overrightarrow{M D}=k \\Leftrightarrow 2 M I^2-I A^2-I B^2=k \\Leftrightarrow 2 M I^2-2 I A^2=k}$\n$\\Leftrightarrow M{{I}^{2}}=\\frac{k}{2}+I{{A}^{2}}\\Leftrightarrow M{{I}^{2}}=\\frac{k}{2}+\\frac{{{a}^{2}}}{2}\\Leftrightarrow MI=\\sqrt{\\frac{k+{{a}^{2}}}{2}}$\n(trong đó ${I A^2=\\left(\\frac{A C}{2}\\right)^2=\\left(\\frac{a \\sqrt{2}}{2}\\right)^2=\\frac{a^2}{2}}$).\nNếu ${k<-a^2}$: Tập hợp điểm ${M}$ là tập rỗng.\nNếu ${k=-a^2}$ thì ${M I=0 \\Leftrightarrow M \\equiv I}$ (điểm ${M}$ trùng với điểm ${I}$).\nNếu ${k>-a^2}$ thì ${M I=\\sqrt{\\frac{k+a^2}{2}}}$.\nKhi đó tập hợp điểm ${M}$ là đường tròn tâm ${I}$, bán kính ${R=\\sqrt{\\frac{k+a^2}{2}}}$.",
+   "short_value": null,
+   "short_correct": "\\sqrt{\\frac{k+a^{2}}{2}}|√k+a^{2/2}",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C4.B3.D02",
+   "dang_toan_web": "Tích của một số với một vectơ và các tính chất."
+  }
+ ],
+ "flags": []
+}

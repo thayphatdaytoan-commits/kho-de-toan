@@ -1,0 +1,468 @@
+{
+ "by": "DeepSeek",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Hệ số góc là {{1}}"
+    ],
+    "hint": "Xác định hệ số góc"
+   },
+   {
+    "lines": [
+     "Bảng giá trị:",
+     "$x=0 \\Rightarrow y={{2}}$; $x=1 \\Rightarrow y={{3}}$"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Vẽ đường thẳng đi qua hai điểm $({{4}};{{5}})$ và $({{6}};{{7}})$"
+    ],
+    "hint": "Vẽ đồ thị hàm số"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "\\frac{4}{5}"
+    ],
+    "keywords": [],
+    "placeholder": "hệ số góc",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "3"
+    ],
+    "keywords": [],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "4"
+    ],
+    "keywords": [],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "0"
+    ],
+    "keywords": [],
+    "placeholder": "hoành độ",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "3"
+    ],
+    "keywords": [],
+    "placeholder": "tung độ",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "1"
+    ],
+    "keywords": [],
+    "placeholder": "hoành độ",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "4"
+    ],
+    "keywords": [],
+    "placeholder": "tung độ",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "\\frac{4}{5}",
+   "3",
+   "4",
+   "0",
+   "1",
+   "2",
+   "5"
+  ]
+ },
+ "5a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+     "• Góc ${{3}}$ chung",
+     "• $A\\overset{\\wedge }{\\mathop{H}}\\,C=B\\overset{\\wedge }{\\mathop{A}}\\,C$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\triangle {{4}} \\backsim \\triangle {{5}}$ ({{6}})"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\frac{CH}{CA}=\\frac{CA}{{{7}}}$"
+    ],
+    "hint": "Suy ra tỉ số đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow A{{C}^{2}}=CH.{{8}}$"
+    ],
+    "hint": "Suy ra hệ thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "ACB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "g-g",
+     "g.g",
+     "gg"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "CHA",
+   "CAB",
+   "ACB",
+   "g-g",
+   "g.g",
+   "gg",
+   "CB",
+   "CA",
+   "AB",
+   "BC",
+   "c.g.c",
+   "c.c.c"
+  ]
+ },
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "$\\left\\{ \\begin{align} & ED//AH \\\\ & BC\\bot AH \\\\ \\end{align} \\right.\\Rightarrow BC\\bot {{1}}$",
+     "• $C\\overset{\\wedge }{\\mathop{D}}\\,E=C\\overset{\\wedge }{\\mathop{A}}\\,B$",
+     "• Góc ${{2}}$ chung"
+    ],
+    "hint": "Chỉ ra các góc bằng nhau"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\triangle {{3}} \\backsim \\triangle {{4}}$ ({{5}})"
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\frac{CD}{CA}=\\frac{CE}{{{6}}}$"
+    ],
+    "hint": "Suy ra tỉ số đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow CD.{{7}}=CE.{{8}}$"
+    ],
+    "hint": "Suy ra hệ thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ED"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "ACB"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "CDE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "g-g",
+     "g.g",
+     "gg"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp đồng dạng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "CA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ED",
+   "ACB",
+   "CDE",
+   "CAB",
+   "g-g",
+   "g.g",
+   "gg",
+   "CB",
+   "CA",
+   "AB",
+   "BC",
+   "c.g.c",
+   "c.c.c"
+  ]
+ },
+ "5c": {
+  "blocks": [
+   {
+    "lines": [
+     "$\\triangle {{1}} \\backsim \\triangle {{2}}$",
+     "$\\Rightarrow \\frac{AB}{AC}=\\frac{HA}{{{3}}}$"
+    ],
+    "hint": "Suy ra tỉ số từ hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$ED//AH \\Rightarrow \\frac{AE}{AC}=\\frac{HD}{{{4}}}$"
+    ],
+    "hint": "Áp dụng định lí Ta-lét"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\frac{AB}{AC}=\\frac{HD}{HC}$ (vì ${{5}}=AB$)"
+    ],
+    "hint": "Thay đoạn thẳng bằng nhau"
+   },
+   {
+    "lines": [
+     "$\\Rightarrow \\frac{HA}{HC}=\\frac{HD}{HC}$",
+     "$\\Rightarrow HA={{6}}$"
+    ],
+    "hint": "Kết luận hai đoạn thẳng bằng nhau"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "HC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AE"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "HD"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "CAB",
+   "CHA",
+   "HC",
+   "AE",
+   "HD",
+   "AB",
+   "AC",
+   "HA",
+   "BC",
+   "ED"
+  ]
+ }
+}

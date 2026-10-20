@@ -1,0 +1,693 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị tương ứng giữa $x$ và $y = -0,5x^2$.",
+     "$x$: -4; -2; {{1}}; 2; 4",
+     "$y = -0,5x^2$: -8; {{2}}; 0; {{3}}; -8"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các điểm thuộc đồ thị: $(-4;-8), (-2;$ {{4}} $), (0;0), (2;$ {{5}} $), (4;-8).$"
+    ],
+    "hint": "Xác định tọa độ điểm"
+   },
+   {
+    "lines": [
+     "Vẽ parabol đi qua các điểm đã xác định."
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị x",
+    "maxLen": 4
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "tọa độ y",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "tọa độ y",
+    "maxLen": 4
+   }
+  ],
+  "pool": []
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Tính $\\Delta = ({{1}})^2 - 4.{{2}}.({{3}}) = {{4}}$."
+    ],
+    "hint": "Tính Delta"
+   },
+   {
+    "lines": [
+     "Vì $\\Delta$ {{5}} {{6}} nên phương trình có hai nghiệm phân biệt $x_1, x_2$."
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "hệ số b",
+    "maxLen": 4
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "hệ số a",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-4"
+    ],
+    "keywords": [
+     "-4"
+    ],
+    "placeholder": "hệ số c",
+    "maxLen": 4
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "41"
+    ],
+    "keywords": [
+     "41"
+    ],
+    "placeholder": "giá trị Delta",
+    "maxLen": 4
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     ">"
+    ],
+    "keywords": [
+     ">"
+    ],
+    "placeholder": "dấu so sánh",
+    "maxLen": 2
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị",
+    "maxLen": 2
+   }
+  ],
+  "pool": []
+ },
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $\\triangle$ {{1}} vuông tại {{2}} (vì {{3}} là tiếp tuyến của (O)),",
+     "$\\triangle$ {{4}} vuông tại {{5}} (vì {{6}} là tiếp tuyến của (O))."
+    ],
+    "hint": "Xác định tam giác vuông"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle$ {{7}}, $\\triangle$ {{8}} nội tiếp đường tròn đường kính {{9}}."
+    ],
+    "hint": "Kết luận tam giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Do đó 4 điểm {{10}}, {{11}}, {{12}}, {{13}} cùng thuộc đường tròn đường kính {{14}}.",
+     "Vậy tứ giác {{15}} nội tiếp."
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Ta có {{16}} = {{17}} ({{18}}),",
+     "và {{19}} = {{20}} (tính chất hai tiếp tuyến cắt nhau)."
+    ],
+    "hint": "Xác định các cặp cạnh bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra {{21}} là đường trung trực của {{22}}.",
+     "Vậy {{23}} $\\bot$ {{24}} tại {{25}}."
+    ],
+    "hint": "Kết luận đường trung trực và vuông góc"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OBM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OBM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "MAOB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "bán kính"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 4
+   }
+  ],
+  "pool": [
+   "OAM",
+   "A",
+   "MA",
+   "OBM",
+   "B",
+   "MB",
+   "OM",
+   "O",
+   "M",
+   "AB",
+   "MAOB",
+   "OA",
+   "OB",
+   "bán kính",
+   "H",
+   "AD",
+   "OC",
+   "OE",
+   "chung",
+   "đối đỉnh"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle$ {{1}} và $\\triangle$ {{2}} có:",
+     "$\\widehat{OHE} = \\widehat{OCM} = 90^0$",
+     "$\\widehat{HOE} = \\widehat{COM}$ ({{3}})."
+    ],
+    "hint": "Xét cặp tam giác đồng dạng thứ nhất"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle$ {{4}} $\\sim$ $\\triangle$ {{5}} ({{6}}),",
+     "do đó $\\frac{OH}{OC} = \\frac{OE}{OM} \\Rightarrow OC \\cdot OE = OH \\cdot OM$ (1)."
+    ],
+    "hint": "Kết luận đồng dạng và hệ thức"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle$ {{7}} và $\\triangle$ {{8}} có:",
+     "$\\widehat{OHA} = \\widehat{OAM} = 90^0$",
+     "$\\widehat{HOA} = \\widehat{AOM}$ ({{9}})."
+    ],
+    "hint": "Xét cặp tam giác đồng dạng thứ hai"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle$ {{10}} $\\sim$ $\\triangle$ {{11}} ({{12}}),",
+     "do đó $\\frac{OH}{OA} = \\frac{OA}{OM} \\Rightarrow OH \\cdot OM = OA^2$ (2)."
+    ],
+    "hint": "Kết luận đồng dạng và hệ thức"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra {{13}} = {{14}}."
+    ],
+    "hint": "Kết luận cuối cùng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "OHE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "OCM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "góc chung"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OHE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "OCM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "g-g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "góc chung"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "OHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "g-g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "OA^2"
+    ],
+    "keywords": [],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "OC.OE"
+    ],
+    "keywords": [],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "OHE",
+   "OCM",
+   "góc chung",
+   "g-g",
+   "OHA",
+   "OAM",
+   "OA^2",
+   "OC.OE",
+   "c-c-c",
+   "c-g-c",
+   "OM",
+   "AB",
+   "AD",
+   "đối đỉnh"
+  ]
+ }
+}

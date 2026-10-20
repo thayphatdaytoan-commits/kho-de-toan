@@ -1,0 +1,236 @@
+{
+ "by": "Gemini 1 (gemini-flash-latest)",
+ "5b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét tam giác {{1}} vuông tại {{2}}, {{3}} là đường cao ứng với cạnh huyền {{4}}."
+    ],
+    "hint": "Xác định đường cao trong tam giác ABH"
+   },
+   {
+    "lines": [
+     "Theo {{5}}: $BH^2 = BM \\cdot {{6}}$ suy ra $BM = \\frac{BH^2}{{{7}}}$.",
+     "Trong tam giác ABC vuông tại A: $BH = BC \\cdot \\cos B$, $BA = BC \\cdot \\cos B$.",
+     "Do đó $BM = \\frac{(BC\\cos B)^2}{BC\\cos B} = BC\\cos B$."
+    ],
+    "hint": "Tính độ dài đoạn thẳng BM theo hệ thức lượng"
+   },
+   {
+    "lines": [
+     "Tương tự, xét tam giác {{8}} vuông tại {{9}}, {{10}} là đường cao ứng với cạnh huyền {{11}}.",
+     "Theo hệ thức lượng: $CH^2 = CK \\cdot {{12}}$ suy ra $CK = \\frac{CH^2}{{{13}}}$."
+    ],
+    "hint": "Thiết lập hệ thức lượng trong tam giác ACH"
+   },
+   {
+    "lines": [
+     "Trong tam giác {{14}}: $CH = {{15}} \\cdot \\sin B$, $CA = BC \\cdot \\sin B$.",
+     "Do đó $CK = \\frac{(BC\\sin B)^2}{BC\\sin B} = BC\\sin B$.",
+     "Vậy $BM + CK = BC\\cos B + BC\\sin B = {{16}}(\\cos B + \\sin B)$."
+    ],
+    "hint": "Tính CK và tính tổng BM cộng CK"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ABH",
+     "HAB",
+     "BHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HM",
+     "MH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "hệ thức lượng"
+    ],
+    "keywords": [
+     "hệ thức lượng"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BA",
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "BA",
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "ACH",
+     "HAC",
+     "CHA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "HK",
+     "KH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "CA",
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "CA",
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "ABC",
+     "BAC",
+     "CAB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ABH",
+   "ACH",
+   "ABC",
+   "H",
+   "A",
+   "HM",
+   "HK",
+   "AH",
+   "AB",
+   "BA",
+   "AC",
+   "CA",
+   "BC",
+   "BH",
+   "CH",
+   "hệ thức lượng",
+   "định lí Pythagore",
+   "tỉ số lượng giác"
+  ]
+ }
+}

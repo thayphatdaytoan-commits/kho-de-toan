@@ -1,0 +1,415 @@
+{
+ "truong": "THCS LẠC LONG QUÂN",
+ "nam_hoc": "",
+ "tn": [
+  {
+   "n": 1,
+   "question": "Cho hàm số $y = x^2$. Khi $y = 9$ thì:",
+   "options": [
+    "$x = 3$",
+    "$x = -3$",
+    "$x = 3$ hay $x = -3$",
+    "$x = 81$"
+   ],
+   "answer": "C",
+   "explanation": ""
+  },
+  {
+   "n": 2,
+   "question": "Phương trình nào dưới đây không phải là phương trình bậc hai một ẩn?",
+   "options": [
+    "$x^2 - 2x = 0$",
+    "$x^2 + 5 = 0$",
+    "$3x^2 - x - 1 = 0$",
+    "$2x - 5 = 0$"
+   ],
+   "answer": "D",
+   "explanation": ""
+  },
+  {
+   "n": 3,
+   "question": "Cho phương trình $-2x^2 + x + 5 = 0$ có 2 nghiệm phân biệt $x_1, x_2$, khi đó: $x_1 + x_2 = ?$",
+   "options": [
+    "$\\frac{1}{2}$",
+    "$\\frac{-1}{2}$",
+    "$\\frac{-5}{2}$",
+    "$\\frac{5}{2}$"
+   ],
+   "answer": "A",
+   "explanation": ""
+  },
+  {
+   "n": 4,
+   "question": "Điểm kiểm tra thường xuyên môn toán của các bạn tổ 1 được ghi lại như sau: [[TABLE]]| 5 | 6 | 9 | 7 | 6 | 8 | 6 | 7 | 5 | 6 | 8 | 7 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\nĐiểm có tần số lớn nhất là:",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "9"
+   ],
+   "answer": "B",
+   "explanation": ""
+  },
+  {
+   "n": 5,
+   "question": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất. Xác suất để “Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10” là:",
+   "options": [
+    "$\\frac{7}{36}$",
+    "$\\frac{1}{9}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{5}{36}$"
+   ],
+   "answer": "C",
+   "explanation": ""
+  },
+  {
+   "n": 6,
+   "question": "Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$, ta có:",
+   "options": [
+    "$\\widehat{ABC}=\\widehat{ADC}$",
+    "$\\widehat{ABC}=\\widehat{ACD}$",
+    "$\\widehat{ABC}+\\widehat{ACD}=180^0$",
+    "$\\widehat{ABC}+\\widehat{ADC}=180^0$"
+   ],
+   "answer": "D",
+   "explanation": ""
+  },
+  {
+   "n": 7,
+   "question": "Trong các đa giác sau, có mấy đa giác đều?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": "B",
+   "explanation": ""
+  },
+  {
+   "n": 8,
+   "question": "Khi quay hình chữ nhật $ABCD$ một vòng quanh cạnh $AB$ ta được một hình trụ có bán kính bằng độ dài đoạn thẳng:",
+   "options": [
+    "$AB$",
+    "$AC$",
+    "$AD$",
+    "$DC$"
+   ],
+   "answer": "C",
+   "explanation": ""
+  }
+ ],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số (P): $y=\\frac{1}{2}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị của hàm số (P).",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Bảng giá trị:\n$x$ | -2 | -1 | 0 | 1 | 2\n$y=\\frac{1}{2}x^2$ | 2 | 0.5 | 0 | 0.5 | 2\nVẽ parabol đi qua các điểm trên.",
+     "cum": [
+      "Lập bảng giá trị tương ứng giữa $x$ và $y$.",
+      "Vẽ hệ trục tọa độ $Oxy$.",
+      "Biểu diễn các điểm thuộc đồ thị.",
+      "Vẽ parabol đi qua các điểm đó."
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm đã biểu diễn."
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số (P): $y=\\frac{1}{2}x^2$. Vẽ đồ thị của hàm số (P).",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -2,
+       "ymax": 8
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p",
+        "label": "y = 1/2 x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm thuộc đồ thị hàm số (P) có tung độ gấp đôi hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0;0); (4;8)",
+     "loi_giai": "Điểm thuộc đồ thị hàm số (P) có tung độ gấp đôi hoành độ nên $y = 2x$.\n$\\frac{1}{2}x^2 = 2x$\n$\\frac{1}{2}x^2 - 2x = 0$\nGiải phương trình ta được: $x=0$ hay $x=4$.\nKhi $x = 0$ thì $y = 0$.\nKhi $x = 4$ thì $y = 8$.\nVậy điểm cần tìm là $(0;0)$ và $(4;8)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số (P): $y=\\frac{1}{2}x^2$. Tìm các điểm thuộc đồ thị hàm số (P) có tung độ gấp đôi hoành độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Điểm thứ nhất: $(x_1; y_1) = ($ {{1}} $;$ {{2}} $)$; Điểm thứ hai: $(x_2; y_2) = ($ {{3}} $;$ {{4}} $)$",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0"
+       },
+       {
+        "id": "2",
+        "answer": "0"
+       },
+       {
+        "id": "3",
+        "answer": "4"
+       },
+       {
+        "id": "4",
+        "answer": "8"
+       }
+      ]
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: $2x^2-5x-8=0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Vì $\\Delta = (-5)^2 - 4 \\cdot 2 \\cdot (-8) = 89 > 0$.\nVậy phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "cum": [
+      "Tính $\\Delta = (-5)^2 - 4 \\cdot 2 \\cdot (-8) = 89$.",
+      "Vì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$."
+     ],
+     "nhieu": [
+      "Vì $\\Delta > 0$ nên phương trình có nghiệm kép."
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $2x^2-5x-8=0$. Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị biểu thức: $A=\\left( x_1^2-3 \\right)\\left( x_2^2-3 \\right)-x_1-x_2$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "-81/4",
+     "loi_giai": "Theo hệ thức Viète ta có: $x_1+x_2=\\frac{5}{2}$; $x_1x_2=\\frac{-8}{2}=-4$.\n$A = (x_1^2-3)(x_2^2-3)-x_1-x_2$\n$A = x_1^2x_2^2 - 3x_1^2 - 3x_2^2 + 9 - (x_1+x_2)$\n$A = (x_1x_2)^2 - 3(x_1^2+x_2^2) + 9 - (x_1+x_2)$\n$A = (x_1x_2)^2 - 3[(x_1+x_2)^2 - 2x_1x_2] + 9 - (x_1+x_2)$\n$A = (-4)^2 - 3\\left[ \\left( \\frac{5}{2} \\right)^2 - 2 \\cdot (-4) \\right] + 9 - \\frac{5}{2} = \\frac{-81}{4}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $2x^2-5x-8=0$. Biết rằng phương trình có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình, hãy tính giá trị biểu thức: $A=\\left( x_1^2-3 \\right)\\left( x_2^2-3 \\right)-x_1-x_2$",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Ông Út có một số phòng trọ và nhà xưởng cho thuê. Tháng đầu, số phòng trọ cho thuê nhiều hơn nhà xưởng 7 căn, mỗi xưởng lấy với giá 8 triệu đồng, tổng số tiền thu được là 42 triệu đồng. Tháng thứ hai, số phòng trọ cho thuê giảm 2 căn so với tháng đầu, còn số nhà xưởng không đổi nhưng tiền cho thuê mỗi xưởng tăng thêm 0,5 triệu (so với tháng đầu) nên tổng số tiền thu được là 39,9 triệu đồng. Hỏi tháng đầu ông Út cho thuê bao nhiêu phòng trọ, bao nhiêu nhà xưởng?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10 phòng trọ; 3 nhà xưởng",
+     "loi_giai": "Gọi $x$ (căn) là số nhà xưởng ông Út cho thuê tháng đầu ($x \\in \\mathbb{N}^*$).\nSố phòng trọ tháng đầu là $x+7$.\nTheo đề ta có phương trình:\n$\\frac{42-8x}{x+7} = \\frac{39,9-8,5x}{x+5}$\n$42x+210-8x^2-40x = 39,9x+279,3-8,5x^2-59,5x$\n$0,5x^2+21,6x-69,3=0$\n$x=3$ (nhận); $x=-46,2$ (loại).\nVậy: Tháng đầu ông Út cho thuê 3 xưởng và $3+7=10$ phòng trọ.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tháng đầu ông Út cho thuê {{1}} phòng trọ và {{2}} nhà xưởng.",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "10"
+       },
+       {
+        "id": "2",
+        "answer": "3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Sĩ số học sinh khối 9 của một trường được biểu diễn bởi biểu đồ sau: [[IMG:image1.tmp]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Khối 9 trường đó có bao nhiêu học sinh?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "274",
+     "loi_giai": "Sĩ số các lớp 9/1, 9/2, 9/3, 9/4, 9/5, 9/6 lần lượt là 44; 42; 47; 46; 48; 47.\nTổng số học sinh khối 9 là: $44+42+47+46+48+47=274$ (học sinh).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Sĩ số học sinh khối 9 của một trường được biểu diễn bởi biểu đồ sau: [[IMG:image1.tmp]] Khối 9 trường đó có bao nhiêu học sinh?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Chọn ngẫu nhiên một lớp 9 của trường đó. Tính xác suất của các biến cố sau:\nA: “Lớp có học sinh nữ nhiều hơn nam”\nB: “Lớp có sĩ số dưới 45 học sinh”",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=2/3; P(B)=1/3",
+     "loi_giai": "Lớp có học sinh nữ nhiều hơn nam là: 9/1, 9/4, 9/5, 9/6 nên $n(A)=4$.\nXác suất của biến cố A là $\\frac{4}{6}=\\frac{2}{3}$.\nLớp có sĩ số dưới 45 học sinh là 9/1, 9/2 nên $n(B)=2$.\nXác suất của biến cố B là $\\frac{2}{6}=\\frac{1}{3}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Sĩ số học sinh khối 9 của một trường được biểu diễn bởi biểu đồ sau: [[IMG:image1.tmp]] Chọn ngẫu nhiên một lớp 9 của trường đó. Tính xác suất của các biến cố sau:\nA: “Lớp có học sinh nữ nhiều hơn nam”\nB: “Lớp có sĩ số dưới 45 học sinh”",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}} ; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2/3"
+       },
+       {
+        "id": "2",
+        "answer": "1/3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Thớt là một dụng cụ sử dụng trong bếp của mỗi gia đình để thái, chặt, ... Một cái thớt hình trụ có đường kính đáy 22 cm, cao 4 cm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính tổng diện tích hai mặt thớt (làm tròn đến cm2).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "760 cm2",
+     "loi_giai": "Diện tích một mặt thớt là: $\\pi \\left( \\frac{22}{2} \\right)^2 = 121\\pi$ (cm$^2$).\nDiện tích hai mặt thớt là: $121\\pi \\cdot 2 = 242\\pi \\approx 760$ (cm$^2$).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thớt là một dụng cụ sử dụng trong bếp của mỗi gia đình để thái, chặt, ... Một cái thớt hình trụ có đường kính đáy 22 cm, cao 4 cm. Tính tổng diện tích hai mặt thớt (làm tròn đến cm2).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Cho biết loại gỗ làm thớt có khối lượng 500 kg/m3. Hỏi thớt nặng bao nhiêu gam (làm tròn đến hàng đơn vị)? Công thức tính thể tích hình trụ là V = S · h (S là diện tích đáy và h là chiều cao hình trụ).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "760 g",
+     "loi_giai": "Đổi 500 kg/m$^3$ = 0,5 g/cm$^3$.\nThể tích thớt là: $121\\pi \\cdot 4 = 484\\pi$ (cm$^3$).\nThớt đó nặng là: $484\\pi \\cdot 0,5 = 242\\pi \\approx 760$ (g).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thớt là một dụng cụ sử dụng trong bếp của mỗi gia đình để thái, chặt, ... Một cái thớt hình trụ có đường kính đáy 22 cm, cao 4 cm. Cho biết loại gỗ làm thớt có khối lượng 500 kg/m3. Hỏi thớt nặng bao nhiêu gam (làm tròn đến hàng đơn vị)? Công thức tính thể tích hình trụ là V = S · h (S là diện tích đáy và h là chiều cao hình trụ).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Cho đường tròn (O; R) và điểm M nằm ngoài đường tròn (O). Kẻ hai tiếp tuyến MA, MB của đường tròn (O) (A, B là tiếp điểm) và cát tuyến MCD (C nằm giữa M và D). Vẽ OE vuông góc với CD tại E. [[IMG:image2.tmp]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: Năm điểm O, A, M, B, E cùng thuộc một đường tròn.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có tam giác OAM vuông tại A (MA là tiếp tuyến).\nSuy ra tam giác OAM nội tiếp đường tròn đường kính OM (1).\nTa có tam giác OBM vuông tại B (MB là tiếp tuyến).\nSuy ra tam giác OBM nội tiếp đường tròn đường kính OM (2).\nTa có tam giác OEM vuông tại E (OE vuông góc với CD).\nSuy ra tam giác OEM nội tiếp đường tròn đường kính OM (3).\nTừ (1), (2), (3) suy ra năm điểm O, A, M, B, E cùng thuộc đường tròn đường kính OM.",
+     "cum": [
+      "Ta có tam giác OAM vuông tại A (MA là tiếp tuyến).",
+      "Suy ra tam giác OAM nội tiếp đường tròn đường kính OM (1).",
+      "Ta có tam giác OBM vuông tại B (MB là tiếp tuyến).",
+      "Suy ra tam giác OBM nội tiếp đường tròn đường kính OM (2).",
+      "Ta có tam giác OEM vuông tại E (OE vuông góc với CD).",
+      "Suy ra tam giác OEM nội tiếp đường tròn đường kính OM (3).",
+      "Từ (1), (2), (3) suy ra năm điểm O, A, M, B, E cùng thuộc đường tròn đường kính OM."
+     ],
+     "nhieu": [
+      "Ta có tam giác OAM vuông tại A (MA là tiếp tuyến). Suy ra tam giác OAM nội tiếp đường tròn đường kính OA."
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O; R) và điểm M nằm ngoài đường tròn (O). Kẻ hai tiếp tuyến MA, MB của đường tròn (O) (A, B là tiếp điểm) và cát tuyến MCD (C nằm giữa M và D). Vẽ OE vuông góc với CD tại E. Chứng minh: Năm điểm O, A, M, B, E cùng thuộc một đường tròn.",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Đoạn thẳng AB cắt OM và CD lần lượt tại H và K. Chứng minh: KD. KC = KE . KM",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét tam giác KDB và tam giác KAC có:\n$\\widehat{DKB}=\\widehat{AKC}$ (đối đỉnh)\n$\\widehat{KDB}=\\widehat{KAC}$ (cùng chắn cung BC của đường tròn (O))\nNên $\\Delta KDB \\sim \\Delta KAC$ (g.g)\nSuy ra $\\frac{KD}{KA}=\\frac{KB}{KC}$\nNên $KD \\cdot KC = KB \\cdot KA$ (4)\nXét tam giác KEB và tam giác KAM có:\n$\\widehat{EKB}=\\widehat{AKM}$ (đối đỉnh)\n$\\widehat{KEB}=\\widehat{KAM}$ (2 góc nội tiếp cùng chắn cung BM của đường tròn đường kính OM)\nNên $\\Delta KEB \\sim \\Delta KAM$ (g.g)\nSuy ra $\\frac{KE}{KA}=\\frac{KB}{KM}$\nNên $KE \\cdot KM = KB \\cdot KA$ (5)\nTừ (4) và (5) suy ra $KD \\cdot KC = KE \\cdot KM$.",
+     "cum": [
+      "Xét tam giác KDB và tam giác KAC có: $\\widehat{DKB}=\\widehat{AKC}$ (đối đỉnh), $\\widehat{KDB}=\\widehat{KAC}$ (cùng chắn cung BC của đường tròn (O)).",
+      "Nên $\\Delta KDB \\sim \\Delta KAC$ (g.g).",
+      "Suy ra $\\frac{KD}{KA}=\\frac{KB}{KC}$ nên $KD \\cdot KC = KB \\cdot KA$ (4).",
+      "Xét tam giác KEB và tam giác KAM có: $\\widehat{EKB}=\\widehat{AKM}$ (đối đỉnh), $\\widehat{KEB}=\\widehat{KAM}$ (2 góc nội tiếp cùng chắn cung BM của đường tròn đường kính OM).",
+      "Nên $\\Delta KEB \\sim \\Delta KAM$ (g.g).",
+      "Suy ra $\\frac{KE}{KA}=\\frac{KB}{KM}$ nên $KE \\cdot KM = KB \\cdot KA$ (5).",
+      "Từ (4) và (5) suy ra $KD \\cdot KC = KE \\cdot KM$."
+     ],
+     "nhieu": [
+      "Xét tam giác KDB và tam giác KAC có: $\\widehat{DKB}=\\widehat{AKC}$ (đối đỉnh), $\\widehat{KDB}=\\widehat{KAC}$ (cùng chắn cung BC của đường tròn (O)). Nên $\\Delta KDB = \\Delta KAC$ (g.c.g)."
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O; R) và điểm M nằm ngoài đường tròn (O). Kẻ hai tiếp tuyến MA, MB của đường tròn (O) (A, B là tiếp điểm) và cát tuyến MCD (C nằm giữa M và D). Vẽ OE vuông góc với CD tại E. Đoạn thẳng AB cắt OM và CD lần lượt tại H và K. Chứng minh: KD. KC = KE . KM",
+     "diem": 0.75
+    },
+    {
+     "nhan": "c",
+     "de": "Khi R = 5cm, CD = 8cm và MD = 14cm, tính bán kính đường tròn ngoại tiếp tam giác EKH.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.7 cm",
+     "loi_giai": "+ Tam giác ODC cân tại O, OE là đường cao\nSuy ra OE là đường trung tuyến\nNên ED = EC = 8: 2 = 4 cm\n+ Xét tam giác OEC vuông tại E\n$OE=\\sqrt{OC^2-EC^2}=\\sqrt{5^2-4^2}=3$ (cm)\nĐặt $x = KE$\nTa có $KD \\cdot KC = KE \\cdot KM$\nSuy ra $(x+4)(4-x)=x(10-x)$\nNên $x = 1,6$ hay $KE = 1,6$ (cm)\n+ Xét tam giác OEK vuông tại E\n$OK=\\sqrt{OE^2+EK^2}=\\sqrt{3^2+1,6^2}=3,4$ (cm)\n+ Ta có tam giác OEK vuông tại E và tam giác OHK vuông tại H\nSuy ra tam giác OEK và tam giác OHK nội tiếp đường tròn đường kính OK\nNên 4 điểm O, E, H, K cùng thuộc đường tròn đường kính OK\nVậy bán kính đường tròn ngoại tiếp tam giác EKH là:\n$OK : 2 = 3,4 : 2 = 1,7$ (cm).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O; R) và điểm M nằm ngoài đường tròn (O). Kẻ hai tiếp tuyến MA, MB của đường tròn (O) (A, B là tiếp điểm) và cát tuyến MCD (C nằm giữa M và D). Vẽ OE vuông góc với CD tại E. Đoạn thẳng AB cắt OM và CD lần lượt tại H và K. Khi R = 5cm, CD = 8cm và MD = 14cm, tính bán kính đường tròn ngoại tiếp tam giác EKH.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "DeepSeek",
+ "tn_diem": 0.25
+}

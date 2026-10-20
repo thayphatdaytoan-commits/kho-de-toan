@@ -1,0 +1,56 @@
+{
+ "de1.P4.C1": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Cho hệ phương trình $\\left\\{ \\begin{matrix} x+y=3 \\\\ 2x-y=0 \\\\ \\end{matrix} \\right.$. Trong hai cặp số $\\left( 0,3 \\right)$ và $\\left( 1,2 \\right)$, cặp số nào là nghiệm của hệ phương trình đã cho.",
+    "explanation": "Cặp số $\\left( 0,3 \\right)$ không phải là nghiệm của hệ phương trình vì $\\left\\{ \\begin{matrix} 0+3=3 \\\\ 2.0-3=-3\\ne 0 \\\\ \\end{matrix} \\right.$\nCặp số $\\left( 1,2 \\right)$ là nghiệm của hệ phương trình vì $\\left\\{ \\begin{matrix} 1+2=3 \\\\ 2.1-2=0 \\\\ \\end{matrix} \\right.$",
+    "points": 0.5,
+    "type": "multiple_choice",
+    "options": [
+     "$(3;0)$",
+     "$(0;3)$",
+     "$(1;2)$",
+     "$(2;1)$"
+    ],
+    "correctAnswer": 2
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Giải hệ phương trình $\\left\\{ \\begin{matrix} -3x+y=4 \\\\ 6x-2y=7 \\\\ \\end{matrix} \\right.$",
+    "explanation": "$\\left\\{ \\begin{matrix} -3x+y=4 \\\\ 6x-2y=7 \\\\ \\end{matrix} \\right.$\n$\\left\\{ \\begin{matrix} y=3x+4 \\\\ 6x-2(3x+4)=7 \\\\ \\end{matrix} \\right.$\n$\\left\\{ \\begin{matrix} y=3x+4 \\\\ 6x-6x-8=7 \\\\ \\end{matrix} \\right.$\n$\\left\\{ \\begin{matrix} y=3x+4 \\\\ 0x=15 \\\\ \\end{matrix} \\right.$\nPhương trình $0x=15$ vô nghiệm.\nVậy hệ phương trình vô nghiệm.",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "Vô nghiệm"
+   },
+   {
+    "id": "c",
+    "label": "c",
+    "question": "Giải phương trình sau: $\\frac{7}{2x-3}+\\frac{1}{2\\left( x-1 \\right)}=\\frac{3}{x-1}$",
+    "explanation": "Đkxđ: $x\\ne 1;\\,x\\ne \\frac{3}{2}$\n$\\frac{7}{2x-3}+\\frac{1}{2\\left( x-1 \\right)}=\\frac{3}{x-1}$\n$\\frac{7.2\\left( x-1 \\right)}{\\left( 2x-3 \\right).2\\left( x-1 \\right)}+\\frac{1.\\left( 2x-3 \\right)}{2\\left( x-1 \\right)\\left( 2x-3 \\right)}=\\frac{3.2.\\left( 2x-3 \\right)}{2\\left( x-1 \\right)\\left( 2x-3 \\right)}$\n$14x-14+2x-3=12x-18$\n$4x=4$\n$x=1$\nGiá trị $x=1$ không thỏa điều kiện xác định.\nVậy phương trình đã cho vô nghiệm.",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "x=-1/4|-1/4|-0,25"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (c) MTC 2(x−1)(2x−3): 14(x−1)+(2x−3)=6(2x−3) ⇒ 16x−17=12x−18 ⇒ x=−1/4 (thỏa ĐK; thử lại: −2−0,4=−2,4=3/(−1,25)). Key \"Vô nghiệm\" sai. NONKEY: lời giải sai"
+ },
+ "de1.P3.C1": {
+  "type": "multiple_choice",
+  "question": "Bác Khang muốn rào xung quanh mảnh vườn hình chữ nhật có số đo chiều rộng là x (m). Chiều dài dài hơn chiều rộng 5 m. Bác Khang ước lượng là $x<20$. Bác có tấm lưới dài khoảng 95 m. Tấm lưới này có đủ dài để bác Khang rào vườn không?",
+  "explanation": "Chiều dài của mảnh vườn là: $x+5$. Chu vi của mảnh vườn là: $(x+x+5).2=4x+10$ (m). Vì $x<20$, suy ra $4x<80$. Cộng 10 vào hai vế, ta được $4x+10<90$. Do đó, chu vi mảnh vườn nhỏ hơn 90 m, nên tấm lưới dài 95 m đủ để rào vườn.",
+  "options": [
+   "A. Đủ, vì chu vi vườn nhỏ hơn 90 m.",
+   "B. Không đủ, vì chu vi vườn lớn hơn 95 m.",
+   "C. Đủ, vì chu vi vườn bằng 95 m.",
+   "D. Không đủ, vì chu vi vườn lớn hơn 90 m."
+  ],
+  "answer": "A",
+  "xac_nhan": false,
+  "sua_boi": "AI",
+  "ly_do": "AI đổi dạng short_answer → multiple_choice (Gemini 1 (gemini-2.5-flash)) — thầy chưa soát"
+ }
+}

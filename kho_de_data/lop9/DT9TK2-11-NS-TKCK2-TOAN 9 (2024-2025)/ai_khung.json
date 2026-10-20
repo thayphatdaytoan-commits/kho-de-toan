@@ -1,0 +1,818 @@
+{
+ "by": "Gemini 2 (gemini-flash-latest)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Bảng giá trị tương ứng giữa $x$ và $y$:",
+     "• Với $x = 0$ thì $y =$ {{1}}",
+     "• Với $x = \\pm 2$ thì $y =$ {{2}}"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Đồ thị hàm số $y = 0,5x^2$ là một đường parabol $(P)$:",
+     "• Đi qua gốc tọa độ {{3}}.",
+     "• Nhận trục {{4}} làm trục đối xứng.",
+     "• Nằm ở phía {{5}} trục hoành."
+    ],
+    "hint": "Đặc điểm đồ thị parabol"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "0"
+    ],
+    "keywords": [
+     "0"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "O(0;0)",
+     "O",
+     "(0;0)"
+    ],
+    "keywords": [
+     "o",
+     "0;0"
+    ],
+    "placeholder": "tọa độ gốc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "Oy",
+     "tung"
+    ],
+    "keywords": [
+     "oy",
+     "tung"
+    ],
+    "placeholder": "trục đối xứng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "trên"
+    ],
+    "keywords": [
+     "trên",
+     "tren"
+    ],
+    "placeholder": "vị trí",
+    "maxLen": 12
+   }
+  ],
+  "pool": []
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xét phương trình bậc hai $-3x^2 + 6x + 1 = 0$ có các hệ số:",
+     "• $a =$ {{1}}",
+     "• $c =$ {{2}}"
+    ],
+    "hint": "Xác định hệ số a và c"
+   },
+   {
+    "lines": [
+     "Vì $a = -3$ và $c = 1$ nên $a$ và $c$ {{3}} dấu (do $a \\cdot c =$ {{4}} $< 0$)."
+    ],
+    "hint": "Xét dấu tích ac"
+   },
+   {
+    "lines": [
+     "Do $a$ và $c$ trái dấu nên phương trình luôn có {{5}} phân biệt."
+    ],
+    "hint": "Kết luận số nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "hệ số a",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "hệ số c",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "trái",
+     "trái dấu"
+    ],
+    "keywords": [
+     "trái",
+     "trai"
+    ],
+    "placeholder": "quan hệ dấu",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "tích ac",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "hai nghiệm",
+     "2 nghiệm"
+    ],
+    "keywords": [
+     "hai nghiệm",
+     "2 nghiệm",
+     "nghiệm"
+    ],
+    "placeholder": "kết luận nghiệm",
+    "maxLen": 16
+   }
+  ],
+  "pool": []
+ },
+ "6a": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi {{1}} là {{2}} của cạnh {{3}}."
+    ],
+    "hint": "Xác định tâm đường tròn ngoại tiếp"
+   },
+   {
+    "lines": [
+     "Tam giác $ABC$ vuông tại {{4}} có đường {{5}} bằng nửa cạnh huyền {{6}},",
+     "suy ra $IA = IB = IC$ (1)."
+    ],
+    "hint": "Tính chất tam giác vuông ABC"
+   },
+   {
+    "lines": [
+     "Tam giác $MDC$ vuông tại {{7}} (tam giác nội tiếp chắn {{8}} đường tròn đường kính {{9}})",
+     "$\\Rightarrow \\triangle BDC$ vuông tại {{10}} $\\Rightarrow IB = IC =$ {{11}} (2)."
+    ],
+    "hint": "Tính chất tam giác vuông BDC"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra $IA = IB = IC =$ {{12}}."
+    ],
+    "hint": "Bắc cầu các đoạn thẳng bằng nhau"
+   },
+   {
+    "lines": [
+     "Vậy tứ giác {{13}} là tứ giác nội tiếp đường tròn tâm {{14}}, đường kính {{15}}."
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "I"
+    ],
+    "keywords": [
+     "i"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [
+     "trung điểm"
+    ],
+    "placeholder": "khái niệm",
+    "maxLen": 16
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "trung tuyến"
+    ],
+    "keywords": [
+     "trung tuyến"
+    ],
+    "placeholder": "tên đường",
+    "maxLen": 16
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "D"
+    ],
+    "keywords": [
+     "d"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "nửa"
+    ],
+    "keywords": [
+     "nửa"
+    ],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MC",
+     "CM"
+    ],
+    "keywords": [
+     "mc"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "D"
+    ],
+    "keywords": [
+     "d"
+    ],
+    "placeholder": "tên đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "ID",
+     "DI"
+    ],
+    "keywords": [
+     "id"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "ID",
+     "DI"
+    ],
+    "keywords": [
+     "id"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "ABCD"
+    ],
+    "keywords": [
+     "abcd"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "I"
+    ],
+    "keywords": [
+     "i"
+    ],
+    "placeholder": "tên tâm",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "BC",
+     "CB"
+    ],
+    "keywords": [
+     "bc"
+    ],
+    "placeholder": "tên đường kính",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "I",
+   "trung điểm",
+   "BC",
+   "A",
+   "trung tuyến",
+   "D",
+   "nửa",
+   "MC",
+   "ID",
+   "ABCD",
+   "AB",
+   "AC",
+   "trọng tâm",
+   "B",
+   "CD",
+   "đối đỉnh"
+  ]
+ },
+ "6b": {
+  "blocks": [
+   {
+    "lines": [
+     "Vì tứ giác {{1}} {{2}} đường tròn $(O)$ nên {{3}} $= \\widehat{MND}$ (cùng chắn cung {{4}})."
+    ],
+    "hint": "Góc nội tiếp trong tứ giác MNCD"
+   },
+   {
+    "lines": [
+     "Vì {{5}} là tứ giác {{6}} nên $\\widehat{MCD} +$ {{7}} $= 180^\\circ$ (tổng hai góc đối)."
+    ],
+    "hint": "Tổng hai góc đối của tứ giác MCDS"
+   },
+   {
+    "lines": [
+     "Mà $\\widehat{ASM} +$ {{8}} $= 180^\\circ$ (hai góc {{9}})."
+    ],
+    "hint": "Sử dụng tính chất kề bù"
+   },
+   {
+    "lines": [
+     "Suy ra $\\widehat{ASM} =$ {{10}},",
+     "nên {{11}} $= \\widehat{MND}$ (điều phải chứng minh)."
+    ],
+    "hint": "Bắc cầu suy ra kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MNCD"
+    ],
+    "keywords": [
+     "mncd"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "nội tiếp"
+    ],
+    "keywords": [
+     "nội tiếp"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 16
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{MCD}",
+     "\\widehat{DCM}"
+    ],
+    "keywords": [
+     "mcd"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MD",
+     "DM"
+    ],
+    "keywords": [
+     "md"
+    ],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "MCDS"
+    ],
+    "keywords": [
+     "mcds"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "nội tiếp"
+    ],
+    "keywords": [
+     "nội tiếp"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 16
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{MSD}",
+     "\\widehat{DSM}"
+    ],
+    "keywords": [
+     "msd"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{MSD}",
+     "\\widehat{DSM}"
+    ],
+    "keywords": [
+     "msd"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "kề bù"
+    ],
+    "keywords": [
+     "kề bù"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 16
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{MCD}",
+     "\\widehat{DCM}"
+    ],
+    "keywords": [
+     "mcd"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ASM}",
+     "\\widehat{MSA}"
+    ],
+    "keywords": [
+     "asm"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "MNCD",
+   "nội tiếp",
+   "\\widehat{MCD}",
+   "MD",
+   "MCDS",
+   "\\widehat{MSD}",
+   "kề bù",
+   "\\widehat{ASM}",
+   "\\widehat{MND}",
+   "\\widehat{ABC}",
+   "ABCD",
+   "đối đỉnh",
+   "so le trong",
+   "CD"
+  ]
+ },
+ "6c": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét đường tròn tâm {{1}} ta có $\\widehat{SCM} =$ {{2}} (1) (hai góc nội tiếp cùng chắn cung {{3}})."
+    ],
+    "hint": "Góc nội tiếp trong đường tròn (O)"
+   },
+   {
+    "lines": [
+     "Xét đường tròn tâm {{4}} ta có $\\widehat{SDM} =$ {{5}} hay {{6}} $= \\widehat{ACB}$ (2) (hai góc nội tiếp cùng chắn cung {{7}})."
+    ],
+    "hint": "Góc nội tiếp trong đường tròn (I)"
+   },
+   {
+    "lines": [
+     "Từ (1) và (2) suy ra {{8}} $= \\widehat{ACB}$,",
+     "tức là $\\widehat{SCA} =$ {{9}} (vì $M$ thuộc đoạn {{10}})."
+    ],
+    "hint": "Bắc cầu hai góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Hay {{11}} là tia phân giác của góc {{12}}."
+    ],
+    "hint": "Kết luận tia phân giác"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "keywords": [
+     "o"
+    ],
+    "placeholder": "tên tâm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{SDM}",
+     "\\widehat{MDS}"
+    ],
+    "keywords": [
+     "sdm"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "SM",
+     "MS"
+    ],
+    "keywords": [
+     "sm"
+    ],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "I"
+    ],
+    "keywords": [
+     "i"
+    ],
+    "placeholder": "tên tâm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ACB}",
+     "\\widehat{BCA}"
+    ],
+    "keywords": [
+     "acb"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ADB}",
+     "\\widehat{BDA}"
+    ],
+    "keywords": [
+     "adb"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AB",
+     "BA"
+    ],
+    "keywords": [
+     "ab"
+    ],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{SCM}",
+     "\\widehat{MCS}"
+    ],
+    "keywords": [
+     "scm"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{ACB}",
+     "\\widehat{BCA}"
+    ],
+    "keywords": [
+     "acb"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AC",
+     "CA"
+    ],
+    "keywords": [
+     "ac"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "CA",
+     "AC"
+    ],
+    "keywords": [
+     "ca"
+    ],
+    "placeholder": "tên tia",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "\\widehat{SCB}",
+     "\\widehat{BCS}"
+    ],
+    "keywords": [
+     "scb"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 16
+   }
+  ],
+  "pool": [
+   "O",
+   "\\widehat{SDM}",
+   "SM",
+   "I",
+   "\\widehat{ACB}",
+   "\\widehat{ADB}",
+   "AB",
+   "\\widehat{SCM}",
+   "AC",
+   "CA",
+   "\\widehat{SCB}",
+   "\\widehat{SCA}",
+   "\\widehat{BAC}",
+   "BC",
+   "AD",
+   "M",
+   "đối đỉnh"
+  ]
+ }
+}

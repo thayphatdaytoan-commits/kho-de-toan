@@ -1,0 +1,827 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "0",
+  "lesson": "on-tap",
+  "title": "500 bài toán thực tế Phạm Minh Tuấn — Tập 6",
+  "exam_type": "lesson"
+ },
+ "no": 1,
+ "sections": {
+  "3": null
+ },
+ "questions": [
+  {
+   "section": 3,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình mặt phẳng chứa ba trạm thu sóng có vector pháp tuyến là $\\overrightarrow{n}=(1;6;-5)$",
+    "b": "Khoảng cách lớn nhất từ vệ tinh $S$ đến mặt phẳng chứa ba trạm thu sóng (tức là điểm cao nhất hoặc thấp nhất của vệ tinh so với mặt phẳng chứa các trạm) có giá trị lớn hơn $2$",
+    "c": "Nếu một tàu vũ trụ đang bay theo đường thẳng: ${ \\frac{x-5}{2} = \\frac{y+3}{-1} = \\frac{z-2}{4} }$thì thời điểm nào đó nó sẽ đi vào vùng quỹ đạo của vệ tinh",
+    "d": "Khi khoảng cách từ vệ tinh $S$ đến mặt phẳng chứa ba trạm thu sóng là nhỏ nhất thì góc thu sóng $\\theta $ được tạo thành từ vệ tinh $S$ đến trạm thu sóng $A$ với mặt phẳng chứa ba trạm thu sóng sao cho tín hiệu được truyền ổn định và không bị nhiễu sóng. Góc $\\theta $ nhỏ hơn ${{1}^{0}}$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một trạm kiểm soát không gian trên Trái Đất cần tính toán vị trí của một vệ tinh viễn thông ${S}$ đang di chuyển trong không gian. Vệ tinh này truyền tín hiệu đến ba trạm thu sóng trên mặt đất có tọa độ:${A(3,-2,5)}$, ${B(-1,4,-3)}$, ${C(6,1,2)}$. Vệ tinh ${S(x,y,z)}$ luôn nằm trên một mặt cầu cố định do ảnh hưởng của trường hấp dẫn. Phương trình mặt cầu mô tả quỹ đạo vệ tinh là:$\\left( T \\right):{{(x-1)}^{2}}+{{(y+2)}^{2}}+{{(z-3)}^{2}}=1$. Trong quá trình truyền tín hiệu, vệ tinh cần đảm bảo một góc thu sóng tối ưu với mặt phẳng chứa ba trạm mặt đất để tránh hiện tượng nhiễu sóng. Trạm kiểm soát phải giải quyết các vấn đề sau:\n[[IMG:image1.jpeg]]",
+   "explanation": "Ý a) Xác định phương trình mặt phẳng chứa ba trạm thu sóng\nMặt phẳng chứa ba điểm ${A(3,-2,5), B(-1,4,-3), C(6,1,2)}$ có dạng:\n$\\left( ABC \\right):ax+by+cz+d=0.$\nTa tìm vector pháp tuyến của mặt phẳng bằng cách lấy tích có hướng của hai vector:\n${ \\overrightarrow{AB} = (-4, 6, -8), \\quad \\overrightarrow{AC} = (3, 3, -3). }$\nSuy ra $\\overrightarrow{{{n}_{\\left( ABC \\right)}}}=\\left[ \\overrightarrow{AB};\\overrightarrow{AC} \\right]=(6;-36;-30)$\nVậy phương trình mặt phẳng $\\left( ABC \\right)$có dạng: $6x-36y-30z+d=0.$\nThay điểm ${A(3, -2, 5)}$ vào phương trình để tìm d: $6(3)-36.(-2)-30.5+d=0\\Rightarrow d=60$\nVậy phương trình mặt phẳng $\\left( ABC \\right)$là: $x-6y-5z+10=0$\nÝ b) Tìm khoảng cách xa nhất trên mặt cầu xa nhất so với mặt phẳng\nKhoảng cách từ tâm mặt cầu ${I(1,-2,3)}$ đến mặt phẳng:\n$d=\\frac{|1\\cdot 1+(-6)\\cdot (-2)+(-5)\\cdot 3+10|}{\\sqrt{{{1}^{2}}+{{(-6)}^{2}}+{{(-5)}^{2}}}}=\\frac{|1+12-15+10|}{\\sqrt{62}}=\\frac{8}{\\sqrt{62}}>r=1.$\nKhoảng cách lớn nhất trên mặt cầu đến mặt phẳng là: ${{d}_{\\max }}=d+r=\\frac{8}{\\sqrt{62}}+1\\approx 2,016\\text{ }$\nÝ c) Kiểm tra xem tàu vũ trụ bay theo đường thẳng ${\\frac{x-5}{2} = \\frac{y+3}{-1} = \\frac{z-2}{4}}$ có đi vào vùng quỹ đạo vệ tinh hay không.\nTham số hóa đường thẳng:\n${ x = 5 + 2t, \\quad y = -3 - t, \\quad z = 2 + 4t. }$\nThay vào phương trình mặt cầu:\n${{(5+2t-1)}^{2}}+{{(-3-t+2)}^{2}}+{{(2+4t-3)}^{2}}=1\\Rightarrow $ Phương trình này vô nghiệm\nVậy tàu vũ trụ bay theo đường thẳng ${\\frac{x-5}{2} = \\frac{y+3}{-1} = \\frac{z-2}{4}}$ không đi vào vùng quỹ đạo vệ tinh\nÝ d) Tìm góc thu sóng $\\theta =\\left( \\widehat{SA,\\left( ABC \\right)} \\right)$\nKhi khoảng cách từ điểm thuộc mặt cầu đến mặt phẳng chứa ba trạm thu sóng nhỏ nhất:${{d}_{\\min }}=\\left| d-r \\right|=\\frac{8}{\\sqrt{62}}-1$\nKhi đó $I,S,H$ thẳng hàng, với $S$ là hình chiếu vuông góc của $S$ lên $\\left( ABC \\right)$ $\\Rightarrow S=IH\\cap \\left( T \\right)$\nPhương trình $IH:\\left\\{ \\begin{aligned} & x=1+t \\\\ & y=-2-6t \\\\ & z=3-5t \\\\ \\end{aligned} \\right.$\n$\\Rightarrow {{(1+t-1)}^{2}}+{{(-2-6t+2)}^{2}}+{{(3-5t-3)}^{2}}=1\\Rightarrow t=-\\frac{1}{\\sqrt{62}}$\n$\\Rightarrow S\\left( 1-\\frac{1}{\\sqrt{62}};-2+\\frac{6}{\\sqrt{62}};3+\\frac{5}{\\sqrt{62}} \\right)\\Rightarrow \\overrightarrow{SA}=\\left( 2+\\frac{1}{\\sqrt{62}};-\\frac{6}{\\sqrt{62}};2-\\frac{5}{\\sqrt{62}} \\right)$\nVậy $\\sin \\theta =\\frac{\\left| \\overrightarrow{{{n}_{\\left( ABC \\right)}}}.\\overrightarrow{SA} \\right|}{\\left| \\overrightarrow{{{n}_{\\left( ABC \\right)}}} \\right|\\left| \\overrightarrow{SA} \\right|}=\\frac{\\left| 1.\\left( 2+\\frac{1}{\\sqrt{62}} \\right)-6.\\left( -\\frac{6}{\\sqrt{62}} \\right)-5.\\left( 2-\\frac{5}{\\sqrt{62}} \\right) \\right|}{\\sqrt{1+36+25}\\sqrt{{{\\left( 2+\\frac{1}{\\sqrt{62}} \\right)}^{2}}+{{\\left( -\\frac{6}{\\sqrt{62}} \\right)}^{2}}+{{\\left( 2-\\frac{5}{\\sqrt{62}} \\right)}^{2}}}}=\\frac{8-\\sqrt{62}}{\\sqrt{558-16\\sqrt{62}}}$\nSuy ra $\\theta \\approx 0,{{35}^{0}}$",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 27,
+    "so_dau_bang": 43,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D06",
+   "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hình vẽ bên trái thể hiện một phần bản đồ của thành phố Hồ Chí Minh và bảng dưới bên phải liệt kê các cây cầu/hầm đi qua từng khu vực. Kí hiệu “0” biểu diễn đầu cuối của cây cầu. Ví dụ cầu chữ Y bắt từ đỉnh A qua đỉnh C nên tại A và C ta kí hiệu “0”. Biết rằng\n[[IMG:image2.png]]\nBiết rằng ta cần vạch ra các đường đi phù hợp sao cho có thể đi qua hết tất cả cây cầu/hầm dù chỉ 1 lần thông qua việc vẽ mô hình lí thuyết đồ thị với điểm đầu và cuối lần lượt là F và D. Nếu 4 cây cầu bắt qua giữa A và B cần phải đi qua liên tiếp nhau trong đường đi và trước khi về lại D phải qua cầu Rạch Ông thì có tất cả bao nhiêu đường đi?",
+   "explanation": "Từ bảng bên phải ta suy ra số lượng số “0” ở mỗi đỉnh thể hiện bậc của mỗi đỉnh, tức ta lần lượt suy ra:\n$\\deg \\left( A \\right)=6,\\deg \\left( B \\right)=8,\\deg \\left( C \\right)=2,\\deg \\left( D \\right)=3,\\deg \\left( E \\right)=4,\\deg \\left( F \\right)=1$\nTừ đó ta có hình vẽ như sau (hình bên dưới).\n[[IMG:image3.png]]\nTiếp đến ta có chuỗi lập luận như sau:\nVì FA chỉ có 1 con đường duy nhất nên chỉ có 1 con đường từ F đến A.\nKế đến do từ A đến B có 4 cây cầu phải đi qua liên tiếp (có 4! cách) nên ta sẽ đơn giản hóa đồ thị như sau:\n- Ta đã đánh giá được đoạn F-A nên ta bỏ trước đoạn F-A.\n- Do chỉ có về A nên ta bỏ đi nhánh A-B. (hình trái)\n- Do ACD liên tiếp và là con đường duy nhất nên ta bỏ đoạn A-C. (hình giữa)\n- Tiếp đến từ C chỉ có 1 cách đi tới D nên ta bỏ đoạn C-D. Khi đó ta có 2 khả năng như hình phải.\n[[IMG:image4.png]]\nNhư vậy sau khi bỏ nhánh C-D, ta nhận xét được rằng phải đi hết 3 cây cầu bắt giữa B và E liên tiếp để về lại đích D tức ta có 3! cách. Từ đây kết luận tổng số đường đi là: $2.4!.3!=288$ (cách).",
+   "short_value": 288,
+   "short_correct": "288",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D10",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một công ty xây dựng đang thiết kế một bồn chứa nước dạng lăng trụ lục giác đều $MNPQRS.{M}'{N}'{P}'{Q}'{R}'{S}'$ để lắp đặt vào bên trong một thùng chứa hình hộp chữ nhật $ABCD.{A}'{B}'{C}'{D}'$. Biết bồn chứa có thể tích bằng $810\\sqrt{3}\\,c{{m}^{3}}$ và độ dài cạnh đáy là $6\\,cm$ nội tiếp trong thùng chứa (hai đáy lăng trụ nội tiếp hai đáy khối hộp, minh họa đáy dưới $MNPQRS$ nội tiếp đáy dưới hộp $ABCD$ như hình dưới đây). Yêu cầu kỹ thuật là cần xác định độ dốc của một ống dẫn nước ${A\\prime B}$ đến mặt phẳng ${BCC\\prime }$ để đảm bảo nước chảy dễ dàng. Hãy tính tang góc giữa đoạn ống dẫn nước ${A\\prime B}$ và mặt phẳng ${BCC\\prime }$ để hoàn thiện thiết kế này.\n[[IMG:image5.png]]",
+   "explanation": "[[IMG:image6.png]]\nGọi $O$ tâm lục giác đều $MNPQRS$, khi đó ${{S}_{MNPQRS}}=6{{S}_{MNO}}=6\\frac{{{6}^{2}}\\sqrt{3}}{4}=54\\sqrt{3}\\left( c{{m}^{2}} \\right)$.\nSuy ra chiều cao của khối lăng trụ lục giác đều là $15\\left( cm \\right)$.\nTa có ${A}'{B}'\\bot \\left( BC{C}' \\right)$ nên ${B}'$ là hình chiếu của ${A}'$ trên $\\left( BC{C}' \\right)$.\nKhi đó $\\left( {A}'B,\\left( BC{C}' \\right) \\right)=\\left( {A}'B,B{B}' \\right)=\\widehat{{A}'B{B}'}$.\nTam giác ${A}'B{B}'$ vuông tại ${B}'$ nên $\\tan \\widehat{{A}'B{B}'}=\\frac{{A}'{B}'}{B{B}'}=\\frac{12}{15}=\\frac{4}{5}=0,8$.",
+   "short_value": 0.8,
+   "short_correct": "0,8",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D05",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty sản xuất các đĩa kim loại hình tròn dùng trong linh kiện máy móc công nghiệp. Các đĩa này được cắt từ một khối cầu kim loại đặc có phương trình: ${x^2 + y^2 + z^2 - 2x - 4z - 7 = 0}$. Để tạo ra các đĩa, người thợ sử dụng máy cắt phẳng đi qua một đường ray được mô phỏng bởi đường thẳng ${d}$ có phương trình: ${\\frac{x-1}{1} = \\frac{y}{1} = \\frac{z+1}{2}}$. Mỗi lần điều chỉnh độ nghiêng của máy cắt sẽ tạo ra các đĩa tròn có bán kính ${r}$ khác nhau. Biết rằng bán kính của các đĩa thay đổi từ ${r_2}$ (nhỏ nhất) đến ${r_1}$ (lớn nhất). Hỏi tỉ lệ ${\\frac{r_1}{r_2}}$ giữa bán kính lớn nhất và nhỏ nhất của các đĩa kim loại là bao nhiêu?",
+   "explanation": "[[IMG:image7.emf]]\nMặt cầu $\\left( S \\right)$ có tâm $I\\left( 1;0;2 \\right)$ và bán kính $R=2\\sqrt{3}$.\nGọi hình chiếu vuông góc của $I$ trên $d$ là $K$. Giả sử hình chiếu của $I$.\ntrên mặt phẳng $\\left( P \\right)$ là $H$ khi đó $IH\\bot d$. Do đó nếu hình chiếu của $I$ trên mặt phẳng $\\left( P \\right)$ mà nằm trên đường thẳng d thì chỉ có thể trùng với điểm $H$. Mà tam giác $IKH$ luôn vuông góc tại $H$ do đó khoảng cách từ $I$ đến $\\left( P \\right)$ lớn nhất khi $H\\equiv K$. Vậy khoảng cách từ $I$ đến $\\left( P \\right)$ lớn nhất là khoảng cách từ $I$ đến $d$.\nTừ phương trình đường thẳng ta có $VTCP:\\overrightarrow{u}\\left( 1;1;2 \\right);M\\left( 1;0;-1 \\right)\\in d$,$\\overrightarrow{IM}\\left( 0;0;-3 \\right)$.\nKhoảng cách lớn nhất là: $d=\\frac{\\left| \\left[ \\overrightarrow{IM};\\overrightarrow{u} \\right] \\right|}{\\left| \\overrightarrow{u} \\right|}=\\frac{\\sqrt{{{\\left( -3 \\right)}^{2}}+{{3}^{2}}+{{\\left( 0 \\right)}^{2}}}}{\\sqrt{{{\\left( 1 \\right)}^{2}}+{{\\left( 1 \\right)}^{2}}+{{\\left( 2 \\right)}^{2}}}}=\\sqrt{3}$.\nTa có bán kính của thiết diện bằng $r=\\sqrt{{{R}^{2}}-I{{H}^{2}}}$.\nBán kính của thiết diện lớn nhất khi $IH=0$ suy ra ${{r}_{1}}=R=2\\sqrt{3}$.\nBán kính của thiết diện nhỏ nhất khi khoảng cách từ $I$ đến $\\left( P \\right)$ lớn nhất $IH=d=\\sqrt{3}$.\nSuy ra ${{r}_{2}}=\\sqrt{{{R}^{2}}-I{{H}^{2}}}=\\sqrt{{{R}^{2}}-{{d}^{2}}}=3$.\nVậy $\\frac{{{r}_{1}}}{{{r}_{2}}}=\\frac{2\\sqrt{3}}{3}$.",
+   "short_value": 3,
+   "short_correct": "1,15",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D01",
+   "dang_toan_web": "Công thức xác suất toàn phần."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để con ngựa về đích ở lần gieo thứ nhất bằng ${\\frac{1}{6}}$",
+    "b": "Xác suất để con ngựa về đích ở lần gieo thứ hai bằng ${\\frac{5}{36}}$",
+    "c": "Xác suất để con ngựa về đích ở lần gieo thứ ba và trong cả ba lần gieo con ngựa đều được di chuyển bằng ${\\frac{5}{108}}$",
+    "d": "Xác suất để con ngựa về đích sau nhiều nhất ba lần gieo bằng ${\\frac{19}{54}}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan",
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong một trò chơi, con ngựa của bạn Toàn đang đứng ở vị trí xuất phát (như hình vẽ). Luật chơi như sau: Để di chuyển con ngựa, bạn Toàn cần gieo một con xúc xắc có sáu mặt cân đối, đồng chất. Ở mỗi lượt chơi, bạn có tối đa ba lần gieo. Ở lần gieo thứ nhất, con ngựa di chuyển đến ô có số thứ tự bằng số tương ứng với số chấm gieo được của con xúc xắc. Từ những lần gieo sau, nếu tổng của số tương ứng với số chấm gieo được của con xúc xắc và số tương ứng ghi ở ô con ngựa đang đứng lớn hơn 6 thì con ngựa sẽ đứng yên, còn nếu tổng này nhỏ hơn hoặc bằng 6 thì con ngựa được di chuyển số ô bằng số chấm gieo được. Con ngựa này gọi là về đích nếu nó đến được ô số 6.\n[[IMG:image8.png]]",
+   "explanation": "Mệnh đề a)\nGieo 1 lần: ${n(\\Omega) = 6}$. Gọi A: \"Sẽ gieo số 6\" $\\Rightarrow n\\left( A \\right)=1\\Rightarrow $ ${P_A = \\frac{1}{6}}$. ĐÚNG\nMệnh đề b)\nGieo 2 lần: ${n(\\Omega) = 6 \\times 6 = 36}$. Gọi B: \"Tổng 2 lần gieo bằng 6\"\nTa có $x+y=6\\Rightarrow $ $\\left( x;y \\right)=\\{(1;5),(2;4),(3;3),(4;2),(5;1)\\}$\n$n\\left( B \\right)=C_{5}^{1}.1=5\\Rightarrow $ ${P_B = \\frac{5}{36}}$. ĐÚNG\nMệnh đề c)\nGieo 3 lần: ${n(\\Omega) = 6 \\times 6 \\times 6}$. Gọi C: \"Tổng 3 lần gieo bằng 6\"\nTa có $x+y+z=6\\Rightarrow $ $n\\left( C \\right)=C_{n-1}^{k-1}=C_{6-1}^{3-1}=10$ (Chọn 2 trong 5 để xếp vào)\nSuy ra ${{P}_{C}}=\\frac{10}{36}=\\frac{5}{108}$. ĐÚNG\nCách 2: Liệt kê\nMệnh đề d)\n${x+y+z = 6}$\nDịch chuyển:\n+ Lần 1: 1 $\\to $ 5: Dịch chuyển\n+ Lần 2: $>$ 6: Đứng yên\n+ Lần 3: Di chuyển\n$\\underbrace{x+z}_{=6}+y>6\\Rightarrow C_{5}^{1}.C_{5}^{1}=25$cách$\\Rightarrow $ ${{P}_{D}}=\\frac{25}{6\\times 6\\times 6}=\\frac{25}{216}$\n$\\Rightarrow {{P}_{A}}+{{P}_{B}}+{{P}_{C}}+{{P}_{D}}=\\frac{101}{216}$. SAI",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 19,
+    "so_dau_bang": 31,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trạm kiểm soát không lưu đang theo dõi hai máy bay. Giả sử trong không gian với hệ trục tọa độ ${Oxyz}$, đơn vị đo lấy theo kilômét, tại cùng một thời điểm theo dõi ban đầu: máy bay thứ nhất ở tọa độ ${A(0; 35; 10)}$, bay theo hướng vectơ $\\overrightarrow{{{v}_{1}}}=(3;4;2)$ với tốc độ không đổi ${900}$ (km/h) và máy bay thứ hai ở tọa độ ${B(31; 10; 11)}$, bay theo hướng $\\overrightarrow{{{v}_{2}}}=(5;12;0)$ với tốc độ không đổi ${910}$ (km/h). Biết rằng khoảng cách an toàn tối thiểu giữa hai máy bay là 5 hải lý (khoảng 9.3 km). Nếu hai máy bay tiếp tục duy trì hướng và tốc độ bay như trên thì sau ít nhất bao nhiêu phút (kể từ thời điểm theo dõi ban đầu), hai máy bay vi phạm khoảng cách an toàn (kết quả làm tròn đến hàng phần trăm)?",
+   "explanation": "[[IMG:image9.png]]\nMáy bay 1:\n$\\overrightarrow{AM}=k\\overrightarrow{{{v}_{1}}}\\Leftrightarrow M=A+k\\overrightarrow{{{v}_{1}}}$\n$AM={{v}_{1}}t\\Rightarrow k\\left| \\overrightarrow{{{v}_{1}}} \\right|={{v}_{1}}t\\Rightarrow k.5=900t\\Rightarrow k=180t$\n$\\Rightarrow M=A+180\\overrightarrow{{{v}_{1}}}t\\Rightarrow M\\left( 540t;35+720t;10 \\right)$\nMáy bay 2:\n$\\overrightarrow{BN}=k\\overrightarrow{{{v}_{2}}}\\Leftrightarrow N=B+k\\overrightarrow{{{v}_{2}}}$\n$BN={{v}_{2}}t\\Rightarrow k\\left| \\overrightarrow{{{v}_{2}}} \\right|={{v}_{2}}t\\Rightarrow k.13=910t\\Rightarrow k=70t$\n$\\Rightarrow N=B+70\\overrightarrow{{{v}_{2}}}t\\Rightarrow N\\left( 31+350t;10+840t;11 \\right)$\nTa có $MN=9,3\\Rightarrow \\sqrt{{{\\left( 31+350t-540t \\right)}^{2}}+{{\\left( 10+840t-35-720t \\right)}^{2}}+1}=9,3$\nSuy ra $t=0,14031$ giờ $\\Rightarrow t=8,42$phút (thời gian lần đầu tiên)",
+   "short_value": 9.3,
+   "short_correct": "8,42",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 32,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "cursor",
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 7,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
+    "import_web: Câu 7: thiếu đáp án (trả lời ngắn)"
+   ],
+   "question": "Một cửa vòm có dạng hình parabol được lắp các tấm kính hình tròn đường kính 1 m và các tấm kính hình vuông có cạnh 1 m như hình vẽ. Phần còn lại của cửa được sơn màu trang trí với mức giá 1,2 triệu đồng /m². Chi phí sơn màu là bao nhiêu triệu đồng (kết quả làm tròn đến hàng phần chục).\n[[IMG:image10.png]]\n${{S}_{vang}}={{S}_{parabol}}-3{{S}_{tron}}-6{{S}_{vuong}}$\n${{S}_{parabol}}=\\frac{4}{3}Rh=\\frac{4}{3}2\\sqrt{2}.4=\\frac{32\\sqrt{2}}{3}$; ${{S}_{tron}}=\\pi {{R}^{2}}=\\frac{\\pi }{4}$; ${{S}_{vuong}}=1$\n${{S}_{vang}}=\\frac{32\\sqrt{2}}{3}-3.\\frac{\\pi }{4}-6.1$\nSố tiền = ${{S}_{vang}}\\times 1,2\\approx 8,1$ triệu",
+   "explanation": "",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de1.P3.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B2.D02",
+   "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
+  },
+  {
+   "section": 3,
+   "n": 8,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Phòng khách nhà bác Nam có dạng là một hình hộp chữ nhật $ABCD.A'B'C'D'$ với $AB=6\\ m$,$BC=7\\ m$, $AA'=3\\ m$. Để chuẩn bị đón Tết Nguyên Đán bác lên kế hoạch trang trí cho phần không gian của phòng khách bằng các dây đèn trang trí $NC,\\ BM,\\ EF$ được mắc như hình vẽ sau:\n[[IMG:image11.png]]\nBiết rằng $EF$song song với $AC$và $BN=2m;\\ DM=1m$. Giá mỗi mét dây đèn trang trí là 90000 đồng. Hỏi số tiền bác Nam cần dùng để mua dây đèn trang trí là bao nhiêu triệu đồng? (kết quả làm tròn đến hàng phần trăm).",
+   "explanation": "[[IMG:image12.png]]\nTa có: $\\left\\{ \\begin{aligned} & B{{D}^{2}}=A{{B}^{2}}+A{{D}^{2}}={{6}^{2}}+{{7}^{2}}=85 \\\\ & BM=\\sqrt{B{{D}^{2}}+D{{M}^{2}}}=\\sqrt{85+{{1}^{2}}}=\\sqrt{86} \\\\ & CN=\\sqrt{B{{N}^{2}}+B{{C}^{2}}}=\\sqrt{{{2}^{2}}+{{7}^{2}}}=\\sqrt{53} \\\\ \\end{aligned} \\right.$\nGắn hệ trục tọa độ không gian $\\left( Oxyz \\right)$, với $O\\equiv B'$ như hình vẽ trên.\nTa có: $A\\left( 0\\,;\\,6\\,;\\,3 \\right),\\,C\\left( 7\\,;\\,0\\,;\\,3 \\right),\\,B\\left( 0\\,;\\,0\\,;\\,3 \\right),\\,M\\left( 7\\,;\\,6\\,;\\,2 \\right),\\,N\\left( 0\\,;\\,0\\,;\\,1 \\right)$.\nPhương trình đường thẳng $BM$ qua $B\\left( 0\\,;\\,0\\,;\\,3 \\right)$ và có VTCP $\\overrightarrow{BM}=\\left( 7\\,;\\,6\\,;\\,-1 \\right)$ là:\n$\\left\\{ \\begin{aligned} & x=7m \\\\ & y=6m \\\\ & z=-m+3 \\\\ \\end{aligned} \\right.\\,,m\\in \\mathbb{R}$.\nPhương trình đường thẳng $CN$ qua $N\\left( 0\\,;\\,0\\,;\\,1 \\right)$ và có VTCP $\\overrightarrow{NC}=\\left( 7\\,;\\,0\\,;\\,2 \\right)$ là:\n$\\left\\{ \\begin{aligned} & x=7n \\\\ & y=0 \\\\ & z=2n+1 \\\\ \\end{aligned} \\right.\\,,n\\in \\mathbb{R}$.\nTa có: $\\left\\{ \\begin{aligned} & E\\in BM \\\\ & F\\in CN \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & E\\left( 7m\\,;\\,6m\\,;\\,-m+3 \\right) \\\\ & F\\left( 7n\\,;\\,0\\,;\\,2n+1 \\right) \\\\ \\end{aligned} \\right.$\n$\\Rightarrow \\overrightarrow{EF}=\\left( 7n-7m\\,;\\,-6m\\,;\\,2n+m-2 \\right)$.\nVì: $EF$song song với $AC$, nên $\\overrightarrow{EF}$ và $\\overrightarrow{AC}$ cùng phương.\n$\\Rightarrow \\overrightarrow{EF}=k.\\overrightarrow{AC},\\,k\\in \\mathbb{R}$.\n$\\Rightarrow \\left\\{ \\begin{aligned} & 7n-7m=7k \\\\ & -6m=-6k \\\\ & 2n+m-2=0k \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & n=\\frac{4}{5} \\\\ & m=\\frac{2}{5} \\\\ & k=\\frac{2}{5} \\\\ \\end{aligned} \\right.$\n$\\Rightarrow \\overrightarrow{EF}=\\left( \\frac{14}{5}\\,;\\,\\frac{-12}{5}\\,;\\,0 \\right)$.\n$\\Rightarrow EF=\\sqrt{{{\\left( \\frac{14}{5} \\right)}^{2}}+{{\\left( \\frac{-12}{5} \\right)}^{2}}+{{0}^{2}}}=\\frac{2\\sqrt{85}}{5}$.\nVậy số tiền (triệu đồng) bác Nam cần dùng để mua dây đèn trang trí là:\n$\\left( NC+BM+EF \\right).0,09=\\left( \\sqrt{53}+\\sqrt{86}+\\frac{2\\sqrt{85}}{5} \\right).0,09\\approx 1,82$ (triệu đồng).",
+   "short_value": 1.82,
+   "short_correct": "1,82",
+   "ma": "de1.P3.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 36,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D09",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 9,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Bạn Nam thường đi bơi ở hồ bơi Sky Garden cạnh nhà, hồ bơi có thiết kế là một hình chữ nhật với chiều dài $25\\ m$, chiều rộng $15,5\\ m$ và bên cạnh đó có một hồ bán nguyệt đường kính $10\\ m$(tham khảo hình vẽ 1). Trong một lần bể bơi vắng người nên Nam đã thực hiện một chu trình là bơi theo đoạn thẳng $AC$ rồi bơi tiếp theo đoạn thẳng $CM$, với $M$ là một vị trí bất kì trên hình bán nguyệt. Ngay sau đó bạn đi bộ theo một hướng qua điểm $D$dọc bờ của hồ bơi để quay lại vị trí $A$ và kết thúc chu trình. (tham khảo hình vẽ 2).\n[[IMG:image13.png]]\nBiết rằng vận tốc bơi của Nam là $2,7\\,km/h$, vận tốc đi bộ là $5,4\\,km/h$ và tốc độ bơi, vận tốc đi bộ không thay đổi trong một chu trình. Hỏi thời gian chậm nhất để Nam thực hiện xong chu trình trên là bao nhiêu phút? (kết quả làm tròn đến hàng phần trăm).",
+   "explanation": "[[IMG:image14.png]]\nĐổi đơn vị: $2,7\\,km/h=2700m/h;\\,\\,5,4\\,km/h=5400m/h$\nThời gian bạn Nam bơi từ $A$ đến $C$ là ${{t}_{1}}=\\frac{AC}{2700}.60=\\frac{\\sqrt{{{25}^{2}}+15,{{5}^{2}}}}{2700}.60\\approx 0,65\\,\\left( ph\\acute{u}t \\right)$\nThời gian bạn Nam đi bộ từ $D$ đến $A$ là ${{t}_{2}}=\\frac{15+15,5}{5400}.60\\approx 0,34\\,\\left( ph\\acute{u}t \\right)$\nGiả sử $\\widehat{MCD}=\\alpha \\,\\,\\left( 0<\\alpha <\\frac{\\pi }{2} \\right)$, khi đó:\n$CM=CD.\\cos \\alpha =10\\cos \\alpha $ và $\\widehat{MOD}=2\\alpha $ nên độ dài cung $\\overset\\frown{MD}$ bằng $\\frac{CD}{2}.2\\alpha =10\\alpha $.\nSuy ra thời gian Nam bơi từ $C$ đến $M$và đi bộ từ $M$ đến $D$ là:\n$t=\\left( \\frac{10\\cos \\alpha }{2700}+\\frac{10\\alpha }{5400} \\right).60=\\frac{1}{9}\\left( 2\\cos \\alpha +\\alpha \\right)$ (phút)\nThời gian để Nam thực hiện chu trình theo bài toán là: $T={{t}_{1}}+{{t}_{2}}+t$.\nThời gian thực hiện chu trình là chậm nhất khi là $t$ lớn nhất.\nXét hàm số $t=\\frac{1}{9}\\left( 2\\cos \\alpha +\\alpha \\right),\\,\\,\\left( 0<\\alpha <\\frac{\\pi }{2} \\right)$\n${t}'=\\frac{1}{9}\\left( -2\\sin \\alpha +1 \\right);\\,\\,{t}'=0\\Leftrightarrow \\sin \\alpha =\\frac{1}{2}\\Leftrightarrow \\alpha =\\frac{\\pi }{6}$\nLập bảng biến thiên ta có $\\underset{\\left( 0;\\,\\,\\frac{\\pi }{2} \\right)}{\\max}\\,t=t\\left( \\frac{\\pi }{6} \\right)=\\frac{1}{9}\\left( 2\\cos \\frac{\\pi }{6}+\\frac{\\pi }{6} \\right)\\approx 0,25\\,\\,(ph\\acute{u}t)$\nVậy thời gian chậm nhất để Nam thực hiện xong chu trình trên là $T\\approx 0,65+0,34+0,25\\approx 1,24$",
+   "short_value": 1.24,
+   "short_correct": "1,24",
+   "ma": "de1.P3.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 22,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D01",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 10,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Điểm $M$ thuộc mặt phẳng $\\left( AB{B}' \\right)$.",
+    "b": "Tọa độ điểm $P$ là $P\\left( 0;\\,4;\\,4 \\right)$.",
+    "c": "Mặt phẳng $\\left( {B}'PC \\right)$ có một véc tơ pháp tuyến là $\\overrightarrow{n}=\\left( 2;\\,-3;\\,6 \\right)$.",
+    "d": "$N$là điểm di động trên đoạn $A{A}'$. Dây cấp điện cho bóng đèn được đấu từ công tắc điện tại vị trí $M$ kéo đến điểm $N$rồi nối đến bóng đèn. Độ dài dây cấp điện cho bóng đèn tối thiểu bằng $\\sqrt{54}\\,\\left( m \\right)$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan"
+   ],
+   "question": "Một căn phòng có dạng là một hình hộp chữ nhật, được mô hình hóa và gắn hệ trục tọa độ $Oxyz$như hình vẽ sau:\n[[IMG:image15.png]]\nNgười ta thiết kế một công tắc điện tại điểm $M\\left( 3;\\,0;\\,2 \\right)$ và một bóng đèn để chiếu sáng căn phòng tại điểm $P$ là trung điểm của ${A}'{D}'$. Biết ${C}'\\left( 6;\\,8;\\,4 \\right)$. Khi đó:",
+   "explanation": "Mệnh đề a)\n$\\left( AB{B}' \\right)$ là mặt phẳng $\\left( Oxz \\right)$ nên $M\\left( 3;\\,0;\\,2 \\right)$ thuộc mặt phẳng $\\left( AB{B}' \\right)$.\nMệnh đề b)\nTa có $A'\\left( 0;0;4 \\right),D'\\left( 0;8;4 \\right)$ nên $P\\left( 0;\\,4;\\,4 \\right)$.\nMệnh đề c)\nTa có $B'\\left( 6;0;4 \\right)$, $P\\left( 0;4;4 \\right)$, $C\\left( 6;8;0 \\right)$ $\\Rightarrow \\overrightarrow{B'P}\\left( -6;4;0 \\right),\\overrightarrow{PC}\\left( 6;4;-4 \\right)$ và $\\overrightarrow{B'P}\\wedge \\overrightarrow{PC}=\\left( -16;-24;-48 \\right)$ nên mặt phẳng $\\left( {B}'PC \\right)$ có một véc tơ pháp tuyến là $\\overrightarrow{n}=\\left( 2;\\,3;\\,6 \\right)$\nMệnh đề d)\n[[IMG:image16.png]]\n[[IMG:image17.png]]\nTa có $M$ là tâm của hình chữ nhật $ABB'A'$.\nTrải hai hình chữ nhật $ABB'A'$ và $ADD'A'$ trên cùng một mặt phẳng, ta có độ dài dây cáp ngắn nhất khi 3 điểm $M,N,P$ thẳng hàng. Khi đó độ dài dây cáp bằng $MP$. Do $A'D'=8,AA'=4,AB=6$ nên $A'P=4,A'M=\\sqrt{13}$ và $\\begin{aligned} & \\cos \\widehat{MA'P}=\\cos \\left( {{90}^{o}}+\\widehat{MA'A} \\right)=\\sin \\left( -\\widehat{MA'A} \\right)=-\\sin \\left( \\widehat{MA'A} \\right)=-\\sin \\left( \\widehat{BA'A} \\right) \\\\ & =-\\frac{AB}{A'B}=-\\frac{6}{2\\sqrt{13}}=-\\frac{3}{\\sqrt{13}} \\\\ \\end{aligned}$.\nÁp dụng định lý cosin ta có $M{{P}^{2}}=A'{{M}^{2}}+A'{{P}^{2}}-2A'M.A'P.\\cos \\widehat{MA'P}=53$. Vậy độ dài dây cáp tối thiểu bằng $\\sqrt{53}$.",
+   "ma": "de1.P3.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D08",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 11,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Độ dài cạnh bên của khung đèn bằng $7-x\\ (dm)$.",
+    "b": "Khi $x=2\\ (dm)$thì độ dài đường cao của khung đèn là $3\\sqrt{3}\\ (dm)$.",
+    "c": "Khi tất cả các cạnh của khung đèn bằng nhau thì diện tích giấy màu cần dùng là $\\frac{49\\sqrt{3}}{4}\\,d{{m}^{2}}$.",
+    "d": "Thể tích phần không gian của đèn lồng lớn nhất khi $x=3,25\\,dm$(kết quả làm tròn đến hàng phần trăm)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_tu_bang_menh_de_can_xac_nhan"
+   ],
+   "question": "Nhân dịp Tết Trung thu, bác Hà làm các đèn lồng cho con. Mỗi đèn bác dùng một sợi dây đồng dài $28\\text{ }dm$ cắt thành $3$ đoạn để uốn làm khung đèn. Đoạn thứ nhất bác uốn thành hình vuông$ABCD$ có cạnh bằng $x\\ (dm)$ để làm đáy, hai đoạn còn lại có độ dài bằng nhau uốn thành các đường gấp khúc$ASC$và $BSD$. Khung đèn sau khi hoàn thiện có hình dạng là một hình chóp chóp tứ giác đều $S.ABCD$ và mặt ngoài của đèn được dán giấy màu để trang trí (xem các mối nối, dán là không đáng kể). Khi đó ta có:",
+   "explanation": "[[IMG:image18.png#0.1118,0.0724,0.0866,0.0927]]\nMệnh đề a)\nĐộ dài sợi dây đồng là $28\\,\\,\\left( dm \\right)$được cắt thành $3$ đoạn.\nĐoạn thứ nhất uốn thành hình vuông $ABCD$ có cạnh là $x\\,\\,\\left( dm \\right)$với $x>0$.\nHai đoạn còn lại có độ dài bằng nhau nên ta có độ dài $2$ sợi dây còn lại là $28-4x\\,\\,\\,\\left( dm \\right).$\nĐộ dài cạnh bên của khung đèn là $\\frac{28-4x}{4}=7-x\\,\\,\\left( dm \\right)$ với $0<x<7$.\nMệnh đề b)\nKhi $x=2\\,\\,\\left( dm \\right)$ thì hình vuông$ABCD$ có cạnh bằng $2$ $\\left( dm \\right)$.\nCạnh bên của khung đèn bằng $5\\,\\,\\left( dm \\right)$.\nGọi $O$ là giao điểm của $AC$ và $BD$, do $S.ABCD$là hình chóp tứ giác đều nên $SO\\bot \\left( ABCD \\right)$ suy ra $SO$ là đường cao của hình chóp. $AC=2\\sqrt{2}\\,\\,\\left( dm \\right),$ $OC=\\sqrt{2}\\,\\,\\left( dm \\right)$; $SO=\\sqrt{S{{C}^{2}}-O{{C}^{2}}}=\\sqrt{{{5}^{2}}-{{\\sqrt{2}}^{2}}}=\\sqrt{23}\\,\\,\\left( dm \\right)$.\nMệnh đề c)\nKhung đèn có tất cả $8$ cạnh, tất cả các cạnh khung đèn bằng nhau thì cạnh của khung đèn bằng $3,5$ $\\left( dm \\right)$.\nDiện tích hình vuông $ABCD$ bằng $12,25$ $\\left( d{{m}^{2}} \\right)$.\nDiện tích bốn mặt bên của đèn bằng $\\frac{49\\sqrt{3}}{4}$ $\\left( d{{m}^{2}} \\right)$.\nDiện tích giấy màu cần dùng là $\\frac{49+49\\sqrt{3}}{4}\\,\\,\\left( d{{m}^{2}} \\right)$.\nMệnh đề d)\nDiện tích hình vuông $ABCD$ bằng ${{x}^{2}}$ $\\left( d{{m}^{2}} \\right)$.\n$AC=x\\sqrt{2}\\,\\,\\left( dm \\right),OC=\\frac{x\\sqrt{2}}{2}\\left( dm \\right)$.\nĐường cao của đèn bằng\n$SO=\\sqrt{S{{C}^{2}}-O{{C}^{2}}}=\\sqrt{{{\\left( 7-x \\right)}^{2}}-{{\\left( \\frac{x\\sqrt{2}}{2} \\right)}^{2}}}=\\sqrt{\\frac{1}{2}{{x}^{2}}-14x+49}$ $\\left( dm \\right)$.\nThể tích phần không gian của đèn lồng\n$V=\\frac{1}{3}.{{x}^{2}}.\\sqrt{\\frac{1}{2}{{x}^{2}}-14x+49}$.\nTìm điều kiện của $x$.\nTa có $\\left\\{ \\begin{aligned} & 0<x<7 \\\\ & \\frac{1}{2}{{x}^{2}}-14x+49>0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & 0<x<7 \\\\ & x<14-7\\sqrt{2},x>14+7\\sqrt{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow 0<x<14-7\\sqrt{2}$.\nXét $V=\\frac{1}{3}.{{x}^{2}}.\\sqrt{\\frac{1}{2}{{x}^{2}}-14x+49}$, $0<x<14-7\\sqrt{2}$.\nSuy ra $V'=\\frac{1}{6}.\\frac{3{{x}^{5}}-70{{x}^{4}}+196{{x}^{3}}}{\\sqrt{\\frac{1}{2}{{x}^{6}}-14{{x}^{5}}+49{{x}^{4}}}}$, $V'=0\\Leftrightarrow x=\\frac{35-7\\sqrt{13}}{3}$.\nDựa vào BTT, thể tích phần không gian của đèn lồng lớn nhất khi $x=\\frac{35-7\\sqrt{13}}{3}\\approx 3,25\\,\\,\\left( dm \\right)$.",
+   "ma": "de1.P3.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 27,
+    "so_dau_bang": 21,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D04",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 12,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một ống khói có cấu trúc gồm một khối chóp cụt tứ giác đều có thể tích ${{V}_{1}}$ và một khối hộp chữ nhất có thể tích ${{V}_{2}}$ ghép lại với nhau như hình vẽ bên dưới. Cho biết bản vẽ hình chiếu của ống khói với phương chiếu trùng với phương của một cạnh đáy khối chóp cụt, hãy tính tỉ số thể tích $\\frac{{{V}_{1}}}{{{V}_{2}}}$, kết quả làm tròn đến hàng phần trăm.\n[[IMG:image19.jpg]]",
+   "explanation": "[[IMG:image20.png]]\nGọi $h$ là chiều cao của khối chóp cụt.\nTa có $h=\\frac{x}{2}\\text{tan}{{60}^{\\circ }}=\\frac{x\\sqrt{3}}{2}$.\nThể tích khối chóp cụt: ${{V}_{1}}=\\frac{1}{3}h\\left( {{x}^{2}}+\\sqrt{{{x}^{2}}.{{(2x)}^{2}}}+{{(2x)}^{2}} \\right)=\\frac{7\\sqrt{3}}{6}{{x}^{3}}$\nThể tích khối hộp chữ nhật: ${{V}_{2}}=x.x.2x=2{{x}^{3}}$\nVậy $\\frac{{{V}_{1}}}{{{V}_{2}}}=\\frac{7\\sqrt{3}}{12}\\approx 1,01$",
+   "short_value": 1.01,
+   "short_correct": "1,01",
+   "ma": "de1.P3.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C2.B3.D10",
+   "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
+  },
+  {
+   "section": 3,
+   "n": 13,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Người ta muốn lắp một ống dẫn dầu từ nhà máy lọc dầu ở vị trí A đến kho chứa dầu đặt ở vị trí B qua một con sông rộng 2 km, dài 6 km. Chi phí lắp đặt đường ống dẫn dầu trên mặt đất để nối từ nhà máy lọc dầu đến trạm trung chuyển tại vị trí P là 4 tỷ VNĐ/km và chi phí lắp đặt ống dẫn dầu dưới dòng sông để nối từ P đến kho chứa dầu tại vị trí B là 8 tỷ VNĐ/km (như hình vẽ dưới). Hỏi để chi phí lắp đặt ít nhất, cần đặt vị trí P cách nhà máy lọc dầu là bao nhiêu kilômét? (làm tròn kết quả đến hàng phần trăm).\n[[IMG:image21.png]]",
+   "explanation": "Đặt $AP=6-x,0<x<6$. Suy ra $PB=\\sqrt{4+{{x}^{2}}}$.\nXét hàm cho phí: $f\\left( x \\right)=4\\left( 6-x \\right)+8\\sqrt{4+{{x}^{2}}}$\nCó ${f}'\\left( x \\right)=-4+\\frac{8x}{\\sqrt{4+{{x}^{2}}}}=0\\Leftrightarrow \\left[ \\begin{array}{llllll} x=\\frac{2\\sqrt{3}}{3} \\\\ x=\\frac{-2\\sqrt{3}}{3}\\text{ }\\!\\!~\\!\\!\\text{ (L) }\\!\\!~\\!\\!\\text{ } \\\\ \\end{array} \\right.$\nTa có $\\underset{\\left( 0;6 \\right)}{\\mathop{\\text{min}}}\\,f\\left( x \\right)=f\\left( \\frac{2\\sqrt{3}}{3} \\right)$.\nVậy để chi phí lắp đặt ít nhất, cần đặt vị trí P cách nhà máy lọc dầu $6-\\frac{2\\sqrt{3}}{3}\\approx 4,85$.",
+   "short_value": 4.85,
+   "short_correct": "4,85",
+   "ma": "de1.P3.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 9,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B2.D08",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 14,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong đợt ủng hộ sách giáo khoa cho những học sinh bị ảnh hưởng do trận lũ lụt vừa qua, lớp 12A nhận được 20 cuốn gồm 5 cuốn sách Toán học, 7 cuốn sách Vật lí, 8 cuốn sách Hóa học, các sách cùng môn học là giống nhau. Số sách này được chia đều cho 10 học sinh, mỗi học sinh chỉ được nhận đúng 2 cuốn sách khác môn học. Trong số 10 học sinh nhận sách đợt này có bạn Hưng và bạn Thành. Tính xác suất để 2 cuốn sách mà bạn Hưng nhận được giống 2 cuốn sách của bạn Thành (làm tròn kết quả đến hàng phần trăm).",
+   "explanation": "Ta chia 20 cuốn thành 10 bộ, mỗi bộ là hai cuốn sách khác môn học, giả sử có:\n- a bộ Toán-Lí.\n- b bộ Lí - Hóa.\n- c bộ Toán - Hóa.\nTa có số sách Lí là $a+b$, số sách Toán là $a+c$, số sách Hóa là $b+c$.\nSuy ra $\\left\\{ \\begin{array}{llllll} a+b=7 \\\\ a+c=5 \\\\ b+c=8 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} a=2 \\\\ b=5 \\\\ c=3 \\\\ \\end{array} \\right. \\right.$\nVậy có 2 bộ Toán - Lí, 5 bộ Lí - Hóa, 3 bộ Toán - Hóa.\nGọi A là biến cố \"Nhận bộ Toán - Lí\", có xác suất Thành nhận là:\n${{P}_{1}}\\left( A \\right)=\\frac{2}{10}$, suy ra xác suất Hưng nhận là ${{P}_{2}}\\left( A \\right)=\\frac{1}{9}$.\nGọi B là biến cố \"Nhận bộ Lí - Hóa\", có xác suất Thành nhận là:\n${{P}_{1}}\\left( B \\right)=\\frac{5}{10}$, suy ra xác suất Hưng nhận là ${{P}_{2}}\\left( B \\right)=\\frac{4}{9}$.\nGọi C là biến cố \"Nhận bộ Toán - Hóa\", có xác suất Thành nhận là:\n${{P}_{1}}\\left( C \\right)=\\frac{3}{10}$, suy ra xác suất Hưng nhận là ${{P}_{2}}\\left( C \\right)=\\frac{2}{9}$.\nVậy xác suất để 2 cuốn sách mà bạn Hưng nhận được giống 2 cuốn sách của bạn Thành là\n$P={{P}_{1}}\\left( A \\right).{{P}_{2}}\\left( A \\right)+{{P}_{1}}\\left( B \\right).{{P}_{2}}\\left( B \\right)+{{P}_{1}}\\left( C \\right).{{P}_{2}}\\left( C \\right)=\\frac{2}{10}.\\frac{1}{9}+\\frac{5}{10}.\\frac{4}{9}+\\frac{3}{10}.\\frac{2}{9}=\\frac{14}{45}\\approx 0,31$.",
+   "short_value": 0.31,
+   "short_correct": "0,31",
+   "ma": "de1.P3.C14",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 15,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một mô hình khối tròn xoay có trục là đường thẳng $MN$, khi ta cắt khối tròn xoay đó bởi một mặt phẳng đi qua trục của khối tròn xoay thì ta được mặt cắt có dạng như hình vẽ dưới đây\n[[IMG:image22.png#0.2423,0.0452,0.4718,0.1298]]\nBiết $MN=20\\,\\text{cm}$, $ABCD$ là hình chữ nhật có $AB=16\\text{cm},AD=32\\text{cm}$, hai cung $APD$ và $BQC$ là một phần của các đường parabol với đỉnh lần lượt là $P,\\,Q$ và $PQ=8\\,\\text{cm}$. Tính thể tích của mô hình đó.",
+   "explanation": "Chọn hệ tọa $Oxy$ như hình vẽ dưới đây\n[[IMG:image23.png#0.1439,0.2153,0.2934,0.1641]]\nKhi đó, cung$APD$ là một phần của đường parabol đỉnh $P\\left( 0;4 \\right)$và bề lõm quay lên nên có phương trình dạng $y=a{{x}^{2}}+4,a>0$.\nParabol đi qua $D\\left( 16;8 \\right)$ nên ta có $8=256a+4\\Leftrightarrow a=\\frac{1}{64}$ $\\Rightarrow y=\\frac{1}{64}{{x}^{2}}+4$.\nTương tự, ta có cung $BQC$ là một phần của đường parabol có phương trình là $y=-\\frac{1}{64}{{x}^{2}}-4$.\nThể tích của khối tròn xoay cần tìm là $V={{V}_{1}}-2{{V}_{2}}$.\n${{V}_{1}}$ là thể tích của khối tròn xoay do hình phẳng giới hạn bởi parabol $y=\\frac{1}{64}{{x}^{2}}+4$, trục hoành và hai đưởng thẳng $x=-16,\\,x=16$ quay quanh $Ox$ nên\n${{V}_{1}}=\\pi \\int\\limits_{-16}^{16}{{{\\left( \\frac{1}{64}{{x}^{2}}+4 \\right)}^{2}}\\text{d}x}=\\frac{14336}{15}\\pi \\,\\,\\,\\left( \\text{c}{{\\text{m}}^{\\text{3}}} \\right)$\n${{V}_{2}}$ là thể tích của khối nón có bán kính đáy bằng $8$ và chiều cao bằng $6$ nên ${{V}_{2}}=\\frac{1}{3}\\pi {{.8}^{2}}.6=128\\pi \\,\\,\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nDo đó $V=\\frac{14336}{15}\\,\\pi -2.128\\pi =\\frac{10496}{15}\\pi \\approx 2198,3\\,\\,\\left( \\text{c}{{\\text{m}}^{\\text{3}}} \\right)$.",
+   "short_value": 2198.3,
+   "short_correct": "2198,3",
+   "ma": "de1.P3.C15",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 16,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Từ hình chữ nhật $ABCD$ có chiều dài $AB=10$ cm và chiều rộng $BC=5$ cm; Người ta cắt bỏ miền $\\left( R \\right)$ được giới hạn bởi cạnh $CD$ của hình chữ nhật và hai nửa đường parabol có chung đỉnh là trung điểm của cạnh $AB$, chúng lần lượt đi qua hai đầu mút $C,D$ của hình chữ nhật đó (phần tô đậm như hình vẽ). Phần còn lại cho quay quanh trục $AB$ để tạo nên một đồ vật làm trang trí, thể tích của vật trang trí đó bằng (làm tròn đến hàng phần chục)\n[[IMG:image24.png]]",
+   "explanation": "[[IMG:image25.png]]\nKhi quay hình chữ nhật $ABCD$ quanh trục $AB$ ta được khối trụ có\nBán kính đáy $r=BC=5$ cm.\nChièu cao $h=AB=10$ cm.\nDo đó thể tích khối trụ này có thể tích ${{V}_{1}}=\\pi {{.5}^{2}}.10=250\\pi \\left( \\text{c}{{\\text{m}}^{3}} \\right)$\nMặt khác, chọn hệ trục tọa độ như hình vẽ thì $C\\left( 5;5 \\right)$ và parabol bên phải trục $Ox$ có dạng $\\left( {{P}_{1}} \\right):{{y}^{2}}=2px$.\nTa có $C\\in \\left( {{P}_{1}} \\right)\\Leftrightarrow p=\\frac{5}{2}\\Rightarrow \\left( {{P}_{1}} \\right):{{y}^{2}}=5x$ hay $y=\\sqrt{5x}$.\nKhi đó miền $\\left( R \\right)$ khi quay quanh trục $Ox$ có thể tích ${{V}_{2}}=2\\pi \\int\\limits_{0}^{5}{\\left[ {{5}^{2}}-5x \\right]\\,\\text{d}x}=2\\pi \\left. \\left( 25x-\\frac{5}{2}{{x}^{2}} \\right) \\right|_{0}^{5}=125\\pi $\nVậy thể tích phần còn lại là $V={{V}_{1}}-{{V}_{2}}=125\\pi \\approx 392,7\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.",
+   "short_value": 392.7,
+   "short_correct": "392,7",
+   "ma": "de1.P3.C16",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 17,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 17,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Người ta thiết kế một cái phễu có dạng gồm một hình trụ và một hình nón như hình vẽ.\n[[IMG:image26.png]]\nBiết chiều cao của phễu là $AB=6cm$. Phần hình nón có thiết diện qua trục là một tam giác đều và thể tích phần khối trụ bằng 6 lần thể tích khối nón. Tính thể tích cái phễu đó, làm tròn kết quả tới hàng phần trăm.",
+   "explanation": "[[IMG:image27.png]]\nGọi tâm đường tròn đáy của khối nón là.$C$. Dựa vào hình vẽ ta có:\n$AB=AC+BC=6cm$.\nDo khối nón và khối trụ có cùng bán kính đáy và thể tích của khối trụ gấp 6 lần thể tích khối nón nên ta có $AC=2BC$.\nTừ đó tính được $AC=4cm;BC=2cm$.\nGọi thiết diện qua trục của khối nón là tam giác đều $\\Delta BDE$.\nTa có $B{{D}^{2}}-D{{C}^{2}}=B{{C}^{2}}\\Rightarrow 4D{{C}^{2}}-D{{C}^{2}}=4\\Rightarrow D{{C}^{2}}=\\frac{4}{3}cm$.\nDo khối nón và khối trụ có cùng bán kính đáy và thể tích của khối trụ gấp 6 lần thể tích khối nón nên thể tích cái phễu bằng $7$ lần thể tích khối nón. Gọi thể tích cái phễu là $V$.\nVậy $V=7.\\frac{1}{3}\\pi .C{{D}^{2}}.BC=\\frac{56\\pi }{9}c{{m}^{3}}\\approx 19,55c{{m}^{3}}$.",
+   "short_value": 19.55,
+   "short_correct": "19,55",
+   "ma": "de1.P3.C17",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D01",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 18,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một vật trang trí có dạng khối tròn xoay tạo thành khi quay miền $(R)$(phần gạch chéo trong hình vẽ) quay xung quanh trục $AB$. Biết $ABCD$ là hình chữ nhật cạnh $AB=3cm$,$AD=2cm$; $F$ là trung điểm của $BC$; điểm $E$ cách $AD$ một đoạn bằng $1cm$.\n[[IMG:image28.png]]\nThể tích của vật thể trang trí trên là (quy tròn đến hàng phần mười)",
+   "explanation": "Chọn hệ trục $Oxy$ có $O\\equiv A$; $B\\in Ox;D\\in Oy$.\nTa có: $A\\left( 0;0 \\right);\\,\\,D\\left( 0;2 \\right);\\,\\,B\\left( 3;0 \\right);\\,\\,E\\left( 1;1 \\right)$\n[[IMG:image29.png]]\nĐường tròn tâm $I\\left( 0;1 \\right)$ chứa cung $ED$ có phương trình là: ${{x}^{2}}+{{\\left( y-1 \\right)}^{2}}=1$.\nNên cung trên của đường tròn tâm $I$ có phương trình là: $y=1+\\sqrt{1-{{x}^{2}}}$.\nThể tích của vật thể trang trí là:\n$V=\\pi \\int\\limits_{0}^{1}{{{\\left( 1+\\sqrt{1-{{x}^{2}}} \\right)}^{2}}dx}+\\pi \\int\\limits_{1}^{3}{{{1}^{2}}dx}\\approx 16,5(c{{m}^{3}})$.",
+   "short_value": 16.5,
+   "short_correct": "16,5",
+   "ma": "de1.P3.C18",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 19,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một biển quảng cáo có dạng hình vuông $ABCD$ cạnh $AB=4m$. Trên tấm biển đó có các cung tròn tâm $A$ và tâm $B$có cùng bán kính $R=4m$, hai cung tròn cắt nhau như hình vẽ.\n[[IMG:image30.png]]\nChi phí để sơn phần gạch chéo là $150000$ đồng/${{m}^{2}}$, chi phí sơn màu đen là $100000$ đồng $/{{m}^{2}}$, chi phí để sơn phần còn lại là $250000$đồng $/{{m}^{2}}$. Hỏi số tiền để sơn bảng quảng cáo theo cách trên là bao nhiêu, đơn vị triệu đồng, làm tròn đến chữ số thập phân thứ nhất.",
+   "explanation": "Chọn hệ tọa độ $Oxy$ sao cho $A\\equiv O\\left( 0;0 \\right)$, $B$thuộc tia $Ox$, $D$ thuộc tia $Oy$.\nSuy ra cung tròn $\\overset\\frown{BD}$ là phần đồ thị của hàm số $y=\\sqrt{16-{{x}^{2}}}$, cung tròn $\\overset\\frown{AC}$ là phần đồ thị của hàm số $y=\\sqrt{16-{{\\left( x-4 \\right)}^{2}}}$ với $0\\le x\\le 4$.\nXét phương trình $\\sqrt{16-{{x}^{2}}}=\\sqrt{16-{{\\left( x-4 \\right)}^{2}}}\\Leftrightarrow x=2$.\nDiện tích phần gạch chéo là ${{S}_{1}}=\\int\\limits_{2}^{4}{\\sqrt{16-{{x}^{2}}}dx+\\int\\limits_{0}^{2}{\\sqrt{16-{{\\left( x-4 \\right)}^{2}}}dx}}$.\nDiện tích phần màu đen là ${{S}_{2}}=\\frac{1}{4}\\pi {{r}^{2}}-{{S}_{1}}+\\frac{1}{4}\\pi {{r}^{2}}-{{S}_{1}}=8\\pi -2{{S}_{1}}$ ($r=4$là bán kính hai đường tròn tâm $A$ và $B$)\nDiện tích phần còn lại là ${{S}_{3}}=16-{{S}_{1}}-{{S}_{2}}$.\nSố tiền để sơn bảng quảng cáo là $0,15.{{S}_{1}}+0,1.{{S}_{2}}+0,25.{{S}_{3}}\\approx 2,2$ (triệu đồng)",
+   "short_value": 2.2,
+   "short_correct": "2,2",
+   "ma": "de1.P3.C19",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 20,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một chiếc tạ tay có hình dạng gồm 3 khối trụ, trong đó hai khối trụ hai đầu bằng nhau và khối trụ làm tay cầm ở giữa. Gọi khối trụ làm đầu tạ làMcw| $\\left( {{T}_{1}} \\right)$ và khối trụ làm tay cầm là $\\left( {{T}_{2}} \\right)$ lần lượt có bán kính và chiều cao tương ứng là ${{r}_{1}},\\,\\,{{h}_{1}},\\,\\,{{r}_{2}},\\,\\,{{h}_{2}}$ thỏa mãn ${{r}_{1}}=4{{r}_{2}},\\,\\,{{h}_{1}}=\\frac{1}{2}{{h}_{2}}$ (tham khảo hình vẽ).\n[[IMG:image31.png]]\nBiết rằng thể tích của khối trụ tay cầm $\\left( {{T}_{2}} \\right)$ bằng $30\\,\\,\\left( c{{m}^{3}} \\right)$ và toàn bộ chiếc tạ làm bằng inox có khối lượng riêng $D=7,7\\,\\,g/c{{m}^{3}}$. Khối lượng của chiếc tạ tay bằng bao nhiêu? (đơn vị $kg$, làm tròn đến hàng đơn vị)?",
+   "explanation": "Ta có: ${{V}_{\\left( {{T}_{1}} \\right)}}=\\pi r_{1}^{2}{{h}_{1}}=\\pi {{\\left( 4{{r}_{2}} \\right)}^{2}}.\\frac{1}{2}{{h}_{2}}=8\\pi r_{2}^{2}{{h}_{2}}=8{{V}_{\\left( {{T}_{2}} \\right)}}=240\\,\\,\\left( c{{m}^{3}} \\right)$\nThể tích chiếc tạ tay là $V=2{{V}_{\\left( {{T}_{1}} \\right)}}+{{V}_{\\left( {{T}_{2}} \\right)}}=510\\,\\,\\left( c{{m}^{3}} \\right)$.\nVậy khối lượng chiếc tạ tay là $m=D.V=3927\\,\\,\\left( g \\right)=3,927\\approx 4\\,\\,\\left( kg \\right)$.",
+   "short_value": 4,
+   "short_correct": "4",
+   "ma": "de1.P3.C20",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D04",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 21,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một chiếc đồng hồ cát như hình vẽ, gồm hai phần đối xứng nhau qua mặt phẳng nằm ngang và đặt trong một hình trụ. Thiết diện thẳng đứng qua trục của nó là hai Parabol chung đỉnh và đối xứng nhau qua mặt phẳng nằm ngang. Ban đầu lượng cát dồn hết ở phần trên của đồng hồ thì chiều cao của mực cát bằng $\\frac{2}{3}$ chiều cao của bên đó (xem hình vẽ). Cát chảy từ trên xuống dưới với lưu lượng không đổi $14,75$ cm3/phút. Khi chiều cao của cát còn $4$ $\\,\\left( \\text{cm} \\right)$ thì bề mặt trên cùng của cát tạo thành một đường tròn có chu vi $8\\pi $ $\\left( \\text{cm} \\right)$. Biết sau $20$ phút thì cát chảy hết xuống phần bên dưới của đồng hồ. Hỏi chiều cao của khối trụ bên ngoài, làm tròn đến hàng đơn vị?\n[[IMG:image32.png]]",
+   "explanation": "[[IMG:image33.png]]\nGắn hệ trục tọa độ như hình vẽ. Gọi phương trình parabol $\\left( P \\right)$ là $y=a{{x}^{2}}+bx+c\\,\\left( a\\ne 0 \\right)$.\nTheo giả thiết, đường tròn thiết diện chu vi $8\\pi $ $\\left( \\text{cm} \\right)$: $2\\pi r=8\\pi \\Leftrightarrow r=4$ $\\left( \\text{cm} \\right)$.\nVì parabol $\\left( P \\right)$ đi qua ba điểm $O\\left( 0;0 \\right),A\\left( 4;4 \\right)$ và $B\\left( -4;4 \\right)$, suy ra $\\left\\{ \\begin{aligned} & c=0 \\\\ & 16a+4b=4 \\\\ & 16a-4b=4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{1}{4} \\\\ & b=0 \\\\ & c=0 \\\\ \\end{aligned} \\right.$.\nNên phương trình parabol $\\left( P \\right):\\,y=\\frac{1}{4}{{x}^{2}}$.\nThể tích phần cát ban đầu chính bằng thể tích khối tròn xoay sinh ra khi quay nhánh phải của parabol $\\left( P \\right)$ quanh trục $Oy$và bằng thể tích cát chảy trong $20$ phút.\nTa có:\nThể tích cát chảy trong $20$ phút: $20.14,75=295$ $\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nSuy ra $\\text{V=}\\pi \\int\\limits_{0}^{h}{{{\\left( 2\\sqrt{y} \\right)}^{2}}\\text{d}y}=295$ $\\left( \\text{c}{{\\text{m}}^{3}} \\right)$ $\\Leftrightarrow 2\\pi {{h}^{2}}=295\\Leftrightarrow h=\\sqrt{\\frac{295}{2\\pi }}$ $\\left( \\text{cm} \\right)$.\nVậy chiều cao của khối trụ bên ngoài là: $2.\\frac{3}{2}h=3\\sqrt{\\frac{295}{2\\pi }}\\approx 21$ $\\left( \\text{cm} \\right)$.",
+   "short_value": 21,
+   "short_correct": "21",
+   "ma": "de1.P3.C21",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 22,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một khối nón $\\left( N \\right)$ có bán kính bằng $4$ và chiều cao bằng $27$, được làm bằng chất liệu không thấm nước có khối lượng riêng lớn hơn khối lượng riêng của nước. Khối $\\left( N \\right)$ được đặt trong một cái cốc hình trụ đường kính bằng $24$, sao cho đáy $\\left( N \\right)$ tiếp xúc với đáy cốc (tham khảo hình vẽ). Đổ nước vào cốc đến khi mức nước đạt độ cao bằng $27$ thì lấy khối $\\left( N \\right)$ ra. Độ cao của nước trong cốc sau khi đã lấy khối $\\left( N \\right)$ ra bằng\n[[IMG:image34.png]]",
+   "explanation": "Gọi thể tích khối trụ và $V$. Ta có thể tích khối trụ $V=\\pi {{.12}^{2}}.27=3888\\pi $.\nGọi ${{V}_{1}}$ thể tích khối nón ${{V}_{1}}=\\frac{1}{3}\\pi {{4}^{2}}.27=144\\pi $\nGọi ${{V}_{2}},{{h}_{2}}$ lần lượt là thể tích lượng nước đổ vào và độ cao của nước sau khi lấy khối nón ra\nTa có ${{V}_{2}}=\\pi .{{R}^{2}}.{{h}_{2}}=\\pi .{{h}_{2}}{{.12}^{2}}$.\nTa có ${{V}_{2}}=V-{{V}_{1}}$ $\\Leftrightarrow \\pi .{{h}_{2}}{{.12}^{2}}=3888\\pi -144\\pi $ $\\Leftrightarrow {{h}_{2}}=\\frac{3888\\pi -144\\pi }{{{12}^{2}}\\pi }=26.$",
+   "short_value": 26,
+   "short_correct": "26",
+   "ma": "de1.P3.C22",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D06",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 23,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Có một bể hình hộp chữ nhật chứa đầy nước. Người ta cho ba khối nón giống nhau có thiết diện qua trục là một tam giác vuông cân vào bể sao cho ba đường tròn đáy của ba khối nón tiếp xúc với nhau, một khối nón có đường tròn đáy chỉ tiếp xúc với một cạnh của đáy bể và hai khối nón còn lại có đường tròn đáy tiếp xúc với hai cạnh của đáy bể. Sau đó người ta đặt lên đỉnh của ba khối nón một khối cầu có bán kính bằng $\\frac{4}{3}$ lần bán kính đáy của khối nón. Biết khối cầu vừa đủ ngập trong nước và lượng nước trào ra là $\\frac{337\\pi }{3}\\,\\,\\left( \\text{c}{{\\text{m}}^{3}} \\right).$ Tính thể tích nước ban đầu ở trong bể, làm tròn đến hàng phần chục.\n[[IMG:image35.png]]",
+   "explanation": "Gọi $x\\left( cm \\right)$ là bán kính đáy khối nón.\nDo thiết diện qua trục của khối nón là tam giác vuông cân nên đường cao của khối nón là\n$x\\left( cm \\right)$.\nThể tích của ba khối nón là $3.\\frac{1}{3}\\pi {{x}^{2}}.x=\\pi {{x}^{3}}\\left( c{{m}^{3}} \\right).$\nBán kính khối cầu là: $\\frac{4}{3}x\\left( cm \\right)$.\nThể tích khối cầu là: $\\frac{4}{3}\\pi {{\\left( \\frac{4}{3}x \\right)}^{3}}=\\pi \\frac{256}{81}{{x}^{3}}\\left( c{{m}^{3}} \\right).$\nThể tích nước trào ra bằng tổng thể tích ba khối nón và thể tích khối cầu nên ta có:\n$\\pi {{x}^{3}}+\\pi \\frac{256}{81}{{x}^{3}}=\\frac{337\\pi }{3}\\,\\,\\left( \\text{c}{{\\text{m}}^{3}} \\right)\\Leftrightarrow \\frac{337}{81}{{x}^{3}}=\\frac{337}{3}\\Leftrightarrow {{x}^{3}}=27\\Leftrightarrow x=3.$\nDo đó, bán kính đáy khối nón và chiều cao khối nón là $3\\left( cm \\right)$và bán kính khối cầu là\n$\\frac{4}{3}.3=4\\left( cm \\right)$.\nBa tâm đường tròn đáy của ba khối nón tạo thành một tam giác đều cạnh bằng $2x=6\\left( cm \\right)$ và\nđường cao là $3\\sqrt{3}\\left( cm \\right).$\nChiều dài của bể bằng hai lần đường kính đáy khối nón là $12\\left( cm \\right).$\nChiều rộng của bể bằng tổng độ dài đường kính đáy khối nón và đường cao của tam giác đều\ntạo bởi tâm ba đường tròn đáy là $6+3\\sqrt{3}\\left( cm \\right).$\nGọi $S$ là điểm tiếp xúc của khối cầu với bể, $A,B,C$ là các đỉnh của khối nón. Ta có $S.ABC$là\nhình chóp tam giác đều nội tiếp trong khối cầu, tam giác đều$ABC$có cạnh bằng 6 cm và đường\ncao bằng $3\\sqrt{3}\\left( cm \\right)$.\nGọi $O$là tâm khối cầu, và $H$là tâm giác đều $ABC$.\nTa có\n$\\begin{aligned} & AH=\\frac{2}{3}.3\\sqrt{3}=2\\sqrt{3}\\Rightarrow OH=\\sqrt{O{{A}^{2}}-A{{H}^{2}}}=\\sqrt{{{4}^{2}}-{{\\left( 2\\sqrt{3} \\right)}^{2}}}=2 \\\\ & \\Rightarrow SH=SO+OH=4+2=6(cm). \\\\ \\end{aligned}$\nChiều cao của bể là 6 + 3 = 9 (cm).\nThể tích của bể là: $12.\\left( 6+3\\sqrt{3} \\right).9\\approx 1209,2\\left( c{{m}^{3}} \\right)$.\nVậy thể tích nước ban đầu trong bể là $12.\\left( 6+3\\sqrt{3} \\right).9\\approx 1209,2\\left( c{{m}^{3}} \\right)$.",
+   "short_value": 1209.2,
+   "short_correct": "1209,2",
+   "ma": "de1.P3.C23",
+   "dac_trung": {
+    "so_dong_loi_giai": 24,
+    "so_dau_bang": 22,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B3.D01",
+   "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 24,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một bồn chứa dầu tinh luyện có hình dạng như hình vẽ, gồm một hình trụ và một hình nón. Biết chiều cao của bồn là $AB=4,5m$, phần hình nón có thiết diện qua trục là một tam giác đều và thể tích phần khối trụ bằng $6$ lần thể tích phần khối nón.\n[[IMG:image36.jpeg]] [[IMG:image37.png]]\nThể tích của bồn chứa dầu tinh luyện đó, làm tròn đến hàng phần trăm?",
+   "explanation": "Gọi $r$ bán kính hình trụ $\\Rightarrow $ bán kính hình nón bằng $r$, ($r>0$, đơn vị $m$).\nGọi $h$ chiều cao hình nón $\\Rightarrow $ chiều cao hình trụ bằng $4,5-h$, ($0<h<4,5$, đơn vị $m$).\nTa có thể tích hình trụ là: ${{V}_{Tr}}=\\pi {{r}^{2}}.\\left( 4,5-h \\right)$.\nThể tích hình nón là: ${{V}_{n}}=\\frac{1}{3}\\pi {{r}^{2}}.h$.\nMà thể tích phần khối trụ bằng $6$ lần thể tích phần khối nón nên:\n$\\pi {{r}^{2}}.\\left( 4,5-h \\right)=6.\\frac{1}{3}\\pi {{r}^{2}}.h$ $\\Leftrightarrow h=1,5\\,m$.\nDo phần hình nón có thiết diện qua trục là một tam giác đều nên : $h=r\\sqrt{3}$\n$\\Leftrightarrow r=\\frac{h}{\\sqrt{3}}=\\frac{1,5}{\\sqrt{3}}=\\frac{\\sqrt{3}}{2}\\,m$.\nVậy thể tích của bồn chứa dầu tinh luyện:$V={{V}_{Tr}}+{{V}_{n}}=\\pi {{r}^{2}}.\\left( 4,5-h \\right)+\\frac{1}{3}\\pi {{r}^{2}}.h=\\pi {{\\left( \\frac{\\sqrt{3}}{2} \\right)}^{2}}.\\left( 4,5-1,5 \\right)+\\frac{1}{3}\\pi {{\\left( \\frac{\\sqrt{3}}{2} \\right)}^{2}}.1,5\\approx 8,25\\,{{m}^{3}}$.",
+   "short_value": 8.25,
+   "short_correct": "8,25",
+   "ma": "de1.P3.C24",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D05",
+   "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
+  },
+  {
+   "section": 3,
+   "n": 25,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Bạn An là người có sở thích tái chế đồ cũ. Để tận dụng đồ dùng trong nhà bạn dùng hai hình cầu có bán kính lần lượt là $R=10\\,cm$ và $r=2\\sqrt{13}\\,cm$ và một phần của mặt trụ để làm hồ lô đựng nước như hình vẽ bên dưới đây. Biết giao của hai mặt cầu là đường tròn bán kính ${{r}_{1}}=6\\,cm$ và cổ của hồ lô là một hình trụ có bán kính đáy bằng ${{r}_{2}}=4\\,cm$, chiều cao bằng $4\\,cm$. Giả sử độ dày của hồ lô không đáng kể. Hồ lô đựng được $V$ lít nước. Giá trị của $V$ bằng bao nhiêu, làm tròn đến hàng phần chục?\n[[IMG:image38.png]]",
+   "explanation": "* Thể tích khối cầu bán kính $R=10\\,cm$ là ${{V}_{1}}=\\frac{4}{3}\\pi {{R}^{3}}=\\frac{4000\\pi }{3}$.\n* Thể tích khối cầu bán kính $r=2\\sqrt{13}\\,cm$ là ${{V}_{2}}=\\frac{4}{3}\\pi {{r}^{3}}=\\frac{416\\sqrt{13}\\pi }{3}$.\n* Thể tích khối trụ bán kính ${{r}_{2}}=4\\,cm,\\,h=4\\,cm$ là ${{V}_{3}}=\\pi r_{2}^{2}h=64\\pi $.\n* Xét chỏm cầu của hình cầu bán kính $R=10\\,cm$ nằm trong hình cầu bán kính $r=2\\sqrt{13}\\,cm$.\n+ Chiều cao: ${{h}_{1}}=R-\\sqrt{{{R}^{2}}-r_{1}^{2}}=10-8=2$.\n+ Thể tích: ${{V}_{4}}=\\pi h_{1}^{2}\\left( R-\\frac{{{h}_{1}}}{3} \\right)=\\pi .4\\left( 10-\\frac{2}{3} \\right)=\\frac{112\\pi }{3}$\n* Xét chỏm cầu của hình cầu bán kính $r=2\\sqrt{13}\\,cm$ nằm trong hình cầu bán kính $R=10\\,cm$.\n+ Chiều cao: ${{h}_{2}}=r-\\sqrt{{{r}^{2}}-r_{1}^{2}}=2\\sqrt{13}-4$.\n+ Thể tích: ${{V}_{5}}=\\pi h_{2}^{2}\\left( r-\\frac{{{h}_{2}}}{3} \\right)=\\pi .{{\\left( 2\\sqrt{13}-4 \\right)}^{2}}\\left( 2\\sqrt{13}-\\frac{2\\sqrt{13}-4}{3} \\right)$.\n* Xét chỏm cầu của hình cầu bán kính $r=2\\sqrt{13}\\,cm$ nằm trong hình trụ.\n+ Chiều cao: ${{h}_{3}}=r-\\sqrt{{{r}^{2}}-r_{2}^{2}}=2\\sqrt{13}-6$.\n+ Thể tích: ${{V}_{6}}=\\pi h_{3}^{2}\\left( r-\\frac{{{h}_{3}}}{3} \\right)=\\pi .{{\\left( 2\\sqrt{13}-6 \\right)}^{2}}\\left( 2\\sqrt{13}-\\frac{2\\sqrt{13}-6}{3} \\right)$.\nThể tích của khối hồ lô là $V={{V}_{1}}+{{V}_{2}}+{{V}_{3}}-{{V}_{4}}-{{V}_{5}}-{{V}_{6}}=\\frac{5360\\pi }{3}\\approx 5613\\,c{{m}^{3}}$.",
+   "short_value": 5613,
+   "short_correct": "5613",
+   "ma": "de1.P3.C25",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 31,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 26,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Mỗi chiếc cống bê tông cốt thép hình trụ dùng để thoát nước gồm thân cống, đầu cống và đuôi cống (trong hình vẽ minh hoạ), được sản xuất bằng bê tông và thép (các chất phụ gia không đáng kể). Tổng độ dài phần thân cống và đầu cống bằng $250 \\mathrm{~cm}$, độ dày của thành cống là $12 \\mathrm{~cm}$, đường kính trong $125 \\mathrm{~cm}$. Đầu cống có độ dài phần ngoài (phần rộng hơn) là $20 \\mathrm{~cm}$, dày $20 \\mathrm{~cm}$. Phần đuôi cống có thể tích bằng phần lõm vào ở miệng cống (phần hình chữ nhật nhỏ không có gạch sọc). Khi sản xuất mỗi chiếc cống như thế nhà đầu tư cần đúng $1,3 \\mathrm{~m}^3$ bê tông. Phần cốt thép cần để sản xuất một chiếc cống đó có thể tích là $V$. Giá trị của $V$ bằng bao nhiêu, làm tròn đến hàng phần chục?\n[[IMG:image39.png]]",
+   "explanation": "[[IMG:image40.png]]\n[[IMG:image41.png]]\nVì phần đuôi cống có thể tích bằng phần lõm vào ở miệng cống nên ta tách phần gạch sọc đuôi cống gắn vào phần đầu cống còn khuyết để tính toán.\nTa cần tích 2 phần diện tích ${{V}_{1}}$ và ${{V}_{2}}$ như hình vẽ dưới:\n[[IMG:image42.png]]\nTa xét 2 phần thể tích ruột riêng biệt.\nPhần đầu tiên ứng với hình chữ nhật lớn có chiều dài là $230cm$ và chiều rộng là $12cm$.\nPhần số hai ứng với hình vuông có cạnh là $20cm$\n$\\Rightarrow \\left\\{ \\begin{aligned} & {{V}_{h1}}=\\pi .{{r}^{2}}.{{h}_{1}}=\\pi .{{\\left( \\frac{125}{2} \\right)}^{2}}.230=898437,5\\pi \\\\ & {{V}_{h2}}=\\pi .{{r}^{2}}.{{h}_{2}}=\\pi .{{\\left( \\frac{125}{2} \\right)}^{2}}.20=78125\\pi \\\\ \\end{aligned} \\right.$, đơn vị $c{{m}^{3}}$\nVậyoFw| phần thể tích ${{V}_{1}}$ và ${{V}_{2}}$ tương ứng:\n$\\Rightarrow \\left\\{ \\begin{aligned} & {{V}_{1}}=\\pi .r_{1}^{2}.{{h}_{1}}-{{V}_{h1}}=\\pi .{{\\left( \\frac{149}{2} \\right)}^{2}}.230-898437,5\\pi =378120\\pi \\\\ & {{V}_{2}}=\\pi .r_{2}^{2}.{{h}_{2}}-{{V}_{h2}}=\\pi .{{\\left( \\frac{165}{2} \\right)}^{2}}.20-78125\\pi =58000\\pi \\\\ \\end{aligned} \\right.$, đơn vị $c{{m}^{3}}$\nĐể tính ${{V}_{ct}}$ cốt thép ta lấy ${{V}_{t}}$ tổng trừ đi ${{V}_{bt}}$ bê tông\n${{V}_{t}}={{V}_{1}}+{{V}_{2}}=436120\\pi \\left( c{{m}^{3}} \\right)$\n${{V}_{bt}}=1,3{{m}^{3}}=1300000c{{m}^{3}}$\n$\\Rightarrow {{V}_{ct}}={{V}_{t}}-{{V}_{bt}}\\approx 70111,4\\left( c{{m}^{3}} \\right)$",
+   "short_value": 70111.4,
+   "short_correct": "70111,4",
+   "ma": "de1.P3.C26",
+   "dac_trung": {
+    "so_dong_loi_giai": 15,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 27,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một công ty quảng cáo $X$ muốn làm một bức tranh trang trí hình $MNEF$ở chính giữa của một bức tường hình chữ nhật $ABCD$ có chiều cao $BC=6m$, chiều dài $CD=12m$(hình vẽ bên). Cho biết $MNEF$là hình chữ nhật có $MN=4m$, cung EIF có hình dạng là một phần của cung parabol có đỉnh $I$ là trung điểm của cạnh $AB$ và đi qua 2 điểm $C,D$.Kinh phí làm bức tranh là $900000$đồng/${{m}^{2}}$. Hỏi công ty X cần bao nhiêu tiền để làm bức tranh đó, đơn vị triệu đồng?\n[[IMG:image43.emf]]",
+   "explanation": "[[IMG:image44.emf]]\nGắn hệ trục tọa độ như hình vẽ trên, đồ thị hàm số parabol $y=a{{x}^{2}}+bx+c$qua 3 điểm $C\\left( 6;0 \\right);D\\left( -6;0 \\right);I\\left( 0;6 \\right)$, ta có hệ phương trình:\n$\\left\\{ \\begin{aligned} & 36a+6b+c=0 \\\\ & 36a-6b+c=0 \\\\ & c=6 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{1}{6} \\\\ & b=0 \\\\ & c=6 \\\\ \\end{aligned} \\right.$\nSuy ra hàm số parabol là: $y=f\\left( x \\right)=-\\frac{1}{6}{{x}^{2}}+6$.\nDiện tích MNEF là diện tích hình phẳng giới hạn bởi đồ thị hàm số $y=f\\left( x \\right)=-\\frac{1}{6}{{x}^{2}}+6$, trục hoành và hai đường thẳng $x=-2;x=2$.\nSuy ra ${{S}_{MNEF}}=S=\\int\\limits_{-2}^{2}{\\left( -\\frac{1}{6}{{x}^{2}}+6 \\right)}dx=\\frac{208}{9}{{m}^{2}}$.\nVậy số tiền để làm bức tranh đó là: $\\frac{208}{9}.900000=20.800.000=20,8$ triệu đồng.",
+   "short_value": 20.8,
+   "short_correct": "20,8",
+   "ma": "de1.P3.C27",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B5.D04",
+   "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 28,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Dự án công trình nông thôn mới trên đoạn đường Trường THCS&THPT Tân Tiến, chủ đầu tư cần sản xuất khoảng $800$ chiếc cống dẫn nước như nhau có dạng hình trụ từ bê tông. Mỗi chiếc cống có chiều cao $1\\,\\text{m}$, bán kính trong bằng $\\text{30}\\,\\text{cm}$ và độ dày của bê tông bằng $10\\,\\text{cm}$ (xem hình minh họa). Nếu giá bê tông là $1.000.000$ đồng/ ${{\\text{m}}^{3}}$ thì để sản xuất $800$ chiếc cống trên thì chủ đầu tư cần hết bao nhiêu tiền bê tông? (Làm tròn đến hàng triệu đồng).\n[[IMG:image45.jpeg]][[IMG:image46.png]]",
+   "explanation": "Đổi $10\\,\\text{cm}=0,1\\,\\text{m}$; $30\\,\\text{cm}=0,3\\,\\text{m}$.\nGọi ${{V}_{1}}$ là thể tích khối trụ với hai đáy là hình tròn lớn (đường tròn giới hạn bởi vành ngoài cống nước)\n${{V}_{2}}$ là thể tích khối trụ với hai đáy là hình tròn nhỏ (đường tròn giới hạn bởi vành trong cống nước).\nTa có: ${{V}_{1}}=\\pi R_{1}^{2}h=\\pi {{\\left( 0,1+0,3 \\right)}^{2}}.1=0,16\\pi \\,\\,\\left( {{\\text{m}}^{\\text{3}}} \\right)$.\n${{V}_{2}}=\\pi R_{2}^{2}h=\\pi .0,{{3}^{2}}.1=0,09\\pi \\,\\,\\left( {{\\text{m}}^{\\text{3}}} \\right)$.\nThể tích khối bê tông cho một chiếc cống là $V={{V}_{1}}-{{V}_{2}}=0,16\\pi -0,09\\pi =0,07\\pi \\,\\,\\left( {{\\text{m}}^{\\text{3}}} \\right)$.\nThể tích khối bê tông cho $800$ chiếc cống là $800.0,07\\pi =56\\pi \\,\\,\\left( {{\\text{m}}^{\\text{3}}} \\right)$.\nSố tiền cần để sản xuất $800$ chiếc cống là $56\\pi .1000000\\approx 176000000$ (đồng)",
+   "short_value": 176000000,
+   "short_correct": "176000000",
+   "ma": "de1.P3.C28",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C5.B1.D08",
+   "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
+  },
+  {
+   "section": 3,
+   "n": 29,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Cho hình vuông có độ dài cạnh bằng $8 \\mathrm{~cm}$ và một hình tròn có bán kính $5 \\mathrm{~cm}$ được xếp chồng lên nhau sao cho tâm của hình tròn trùng với tâm của hình vuông như hình vẽ bên. Tính thể tích $V$ của vật thể tròn xoay tạo thành khi quay mô hình trên quanh trục $XY$. Làm tròn đến hàng đơn vị\n[[IMG:image47.png]]",
+   "explanation": "[[IMG:image48.png]]\nChọn hệ trục toạ độ $Oxy$ như hình vẽ. Khi đó, phương trình đường tròn là: ${{x}^{2}}+{{y}^{2}}=25$. Do tính chất đối xứng của vật thể đã cho nên ta chỉ cần xét phần hình phẳng nằm ở góc phần tư thứ nhất.\nTa chia phần hình phẳng này thành ba phần có thể tích tạo thành khi xoay quanh trục hoành lần lượt là ${{V}_{1}},{{V}_{2}},{{V}_{3}}$.\nXét vật thể tròn xoay giới hạn bởi các hàm số: $y=\\sqrt{25-{{x}^{2}}}$, trục hoành và hai đường thẳng $x=0,x=3$ xoay quanh trục hoành. Thể tích vật thể này là:\n${{V}_{1}}=\\pi \\int_{0}^{3}{\\left( 25-{{x}^{2}} \\right)\\text{d}x}=66\\pi \\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nXét vật thể tròn xoay giới hạn bởi các hàm số: $y=4$, trục hoành và hai đường thẳng $x=3,x=4$ xoay quanh trục hoành. Thể tích vật thể này là:\n${{V}_{2}}=\\pi \\int_{3}^{4}{16\\text{d}x}=16\\pi \\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nXét vật thể tròn xoay giới hạn bởi các hàm số: $y=\\sqrt{25-{{x}^{2}}}$, trục hoành và hai đường thẳng $x=4,x=5$ xoay quanh trục hoành. Thể tích vật thể này là:\n${{V}_{3}}=\\pi \\int_{4}^{5}{\\left( 25-{{x}^{2}} \\right)\\text{d}x}=\\frac{14}{3}\\pi \\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nVậy thể tích của vật thể tròn xoay tạo thành là:\n$V=2.\\left( {{V}_{1}}+{{V}_{2}}+{{V}_{3}} \\right)=2.\\left( 66\\pi +16\\pi +\\frac{14}{3}\\pi \\right)=\\frac{520\\pi }{3}~\\approx 545\\text{c}{{\\text{m}}^{3}}$.",
+   "short_value": 545,
+   "short_correct": "545",
+   "ma": "de1.P3.C29",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 19,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D03",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  },
+  {
+   "section": 3,
+   "n": 30,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Một bông hoa tai bằng vàng có dạng xích nối như hình vẽ. Biết phía trên là hình trụ có thiết diện qua trục là một hình vuông cạnh $1\\,\\,cm$. Phía dưới là 3 quả cầu nối tiếp nhau sao cho đường kính của chúng và chiều cao hình trụ tạo thành cấp số nhân với công bội $q=2$. (Giả sử phần dây nối có thể tích không đáng kể). Tính thể tích bông hoa tai, làm tròn đến hàng đơn vị?\n[[IMG:image49.emf]]",
+   "explanation": "Thể tích hình trụ là ${{V}_{1}}=\\pi {{r}^{2}}h=\\pi .\\frac{1}{4}.1=\\frac{\\pi }{4}\\,\\,\\left( \\text{c}{{\\text{m}}^{3}} \\right)$(đvtt).\nGọi ${{r}_{1}},\\,\\,{{r}_{2}},\\,\\,{{r}_{3}}$ lần lượt là thể tích của ba khối cầu trong bông hoa tai.\nDo đường kính của hình cầu và chiều cao hình trụ tạo thành cấp số nhân với công bội $q=2$ nên ta có ${{r}_{1}}=h=1,\\,\\,{{r}_{2}}=2,\\,\\,{{r}_{3}}=4$.\nVậy thể tích phần hình cầu là\n${{V}_{2}}=\\frac{4}{3}\\pi {{r}_{1}}^{3}+\\frac{4}{3}\\pi {{r}_{2}}^{3}+\\frac{4}{3}\\pi {{r}_{3}}^{3}=\\frac{4}{3}\\pi \\left( {{r}_{1}}^{3}+{{r}_{2}}^{3}+{{r}_{3}}^{3} \\right)=\\frac{4}{3}\\pi \\left( {{1}^{3}}+{{2}^{3}}+{{4}^{3}} \\right)\\,\\,\\left( \\text{c}{{\\text{m}}^{3}} \\right)$ (đvtt).\nVậyuc4| thể tích của bông hoa tai là $V={{V}_{1}}+{{V}_{2}}=\\frac{1171}{12}\\pi \\approx 307\\,\\,(\\text{c}{{\\text{m}}^{3}})$.",
+   "short_value": 307,
+   "short_correct": "307",
+   "ma": "de1.P3.C30",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C4.B3.D07",
+   "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
+  }
+ ],
+ "flags": []
+}

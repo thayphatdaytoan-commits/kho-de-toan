@@ -1,0 +1,666 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "1",
+  "lesson": "2",
+  "title": "Bài 2. Tập hợp và các phép toán trên tập hợp"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Hỏi tập hợp $A=\\left\\{ {{k}^{2}}+1|k\\in Z,\\left| k \\right|\\le 2 \\right\\}$ có bao nhiêu phần tử?",
+   "explanation": "Ta có: $\\left| k \\right|\\le 2,k\\in Z\\Leftrightarrow k\\in \\left\\{ \\pm 1;0;\\pm 2 \\right\\}$. Vậy tập hợp $A$ có 5 phần tử.",
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$5$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "thay",
+   "muc_do": "NB",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Hãy liệt kê các phần tử của tập hợp $X=\\left\\{ x\\in \\mathbb{R}|{{x}^{2}}+x+1=0 \\right\\}$.",
+   "explanation": "${{x}^{2}}+x+1=0$ vô nghiệm nên $X=\\left\\{ x\\in \\mathbb{R}|{{x}^{2}}+x+1=0 \\right\\}=\\varnothing $.",
+   "options": [
+    "$X=\\varnothing $",
+    "$X=\\left\\{ \\varnothing \\right\\}$",
+    "$X=\\left\\{ 0 \\right\\}$",
+    "$X=0$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "thay",
+   "muc_do": "NB",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Hãy liệt kê các phần tử của tập $X=\\left\\{ x\\in \\mathbb{R}\\left| 2{{x}^{2}}-5x+3=0 \\right. \\right\\}.$",
+   "explanation": "Ta có $2{{x}^{2}}-5x+3=0\\,\\Leftrightarrow \\left[ \\begin{aligned} & x=1\\in \\mathbb{R} \\\\ & x=\\frac{3}{2}\\in \\mathbb{R} \\\\ \\end{aligned} \\right.$ nên $X=\\left\\{ 1;\\frac{3}{2} \\right\\}.$",
+   "options": [
+    "$X=\\left\\{ 0 \\right\\}.$",
+    "$X=\\left\\{ 1 \\right\\}.$",
+    "$X=\\left\\{ \\frac{3}{2} \\right\\}.$",
+    "$X=\\left\\{ 1;\\frac{3}{2} \\right\\}.$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho tập hợp $A=\\left\\{ x\\in R\\left| {{x}^{2}}-4x+4=0 \\right. \\right\\}$, khẳng định nào sau đây đúng?",
+   "explanation": "$ $\nPhương trình ${{x}^{2}}-4x+4=0$có 1 nghiệm kép.",
+   "options": [
+    "Tập hợp $A$có 1 phần tử",
+    "Tập hợp $A$có 2 phần tử",
+    "Tập hợp $A=\\varnothing $",
+    "Tập hợp $A$có vô số phần tử"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Tìm số phần tử của tập hợp $A=\\left\\{ x\\in \\mathbb{Z}|-3<x\\le 4 \\right\\}$.",
+   "explanation": "Ta có: $A=\\left\\{ x\\in \\mathbb{Z}|-3<x\\le 4 \\right\\}=\\left\\{ -2;-1;0;1;2;3;4 \\right\\}$, suy ra $n(A)=7$.",
+   "options": [
+    "$6$",
+    "$5$",
+    "$8$",
+    "$7$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Tập hợp nào sau đây có đúng hai tập con?",
+   "explanation": "Ta có tập hợp$\\left\\{ x \\right\\}$ có đúng 2 tập con là: $\\varnothing ;\\,\\left\\{ x \\right\\}$. Nên chọn đáp án",
+   "options": [
+    "$\\left\\{ x;\\,y \\right\\}$",
+    "$\\left\\{ x;\\,\\varnothing \\right\\}$",
+    "$\\left\\{ x \\right\\}$",
+    "$\\left\\{ x;\\,y;\\,\\varnothing \\right\\}$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho tập $X=\\left\\{ 4;5 \\right\\}$, số tập con có một phần tử của $X$là",
+   "explanation": "Tập con một phần tử của $X$là $\\left\\{ 4 \\right\\};\\left\\{ 5 \\right\\}$.",
+   "options": [
+    "$4$",
+    "$2$",
+    "$5$",
+    "$3$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Hãy liệt kê các phần tử của tập $X=\\left\\{ x\\in \\mathbb{Q}|\\left( {{x}^{2}}-x-6 \\right)\\left( {{x}^{2}}-5 \\right)=0 \\right\\}$.",
+   "explanation": "Ta có $\\left( {{x}^{2}}-x-6 \\right)\\left( {{x}^{2}}-5 \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & {{x}^{2}}-x-6=0 \\\\ & {{x}^{2}}-5=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=-2 \\\\ & x=3 \\\\ & x=\\sqrt{5}\\notin \\mathbb{Q} \\\\ & x=-\\sqrt{5}\\notin \\mathbb{Q} \\\\ \\end{aligned} \\right.$.\nDo vậy $X=\\left\\{ -2;3 \\right\\}$, chọn đáp án. C.",
+   "options": [
+    "$X=\\left\\{ -\\sqrt{5};\\sqrt{5} \\right\\}$",
+    "$X=\\left\\{ -\\sqrt{5};-2;\\sqrt{5};3 \\right\\}$",
+    "$X=\\left\\{ -2;3 \\right\\}$",
+    "$X=\\left\\{ \\sqrt{5};3 \\right\\}$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Trong các tập hợp sau, tập nào là tập rỗng?",
+   "explanation": "Ta có:\n${{x}^{2}}+5x-6=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-6 \\\\ \\end{aligned} \\right.$. Vậy $A=\\left\\{ -6;1 \\right\\}$.\n$3{{x}^{2}}-5x+2=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=\\frac{2}{3} \\\\ \\end{aligned} \\right.$. Vậy $B=\\left\\{ 1;\\frac{2}{3} \\right\\}$.\n${{x}^{2}}+x-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{-1+\\sqrt{5}}{2} \\\\ & x=\\frac{-1-\\sqrt{5}}{2} \\\\ \\end{aligned} \\right.$. Vì $x\\in \\mathbb{Z}$ nên $C=\\varnothing $.\n${{x}^{2}}+5x-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{-5+\\sqrt{29}}{2} \\\\ & x=\\frac{-5-\\sqrt{29}}{2} \\\\ \\end{aligned} \\right.$. Vậy $D=\\left\\{ \\frac{-5+\\sqrt{29}}{2};\\frac{-5-\\sqrt{29}}{2} \\right\\}$.",
+   "options": [
+    "$\\left\\{ \\left. x\\in \\mathbb{R} \\right|{{x}^{2}}+5x-6=0 \\right\\}$",
+    "$\\left\\{ \\left. x\\in \\mathbb{Q} \\right|3{{x}^{2}}-5x+2=0 \\right\\}$",
+    "$\\left\\{ \\left. x\\in \\mathbb{Z} \\right|{{x}^{2}}+x-1=0 \\right\\}$",
+    "$\\left\\{ \\left. x\\in \\mathbb{R} \\right|{{x}^{2}}+5x-1=0 \\right\\}$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 20,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho $A$ là tập hợp các hình tứ giác; $B$ là tập hợp các hình bình hành; $C$ là tập hợp các hình thoi; $D$ là tập hợp các hình vuông. Trong các khẳng định sau khẳng định nào sai?\n$\\left( I \\right)\\ C\\subset B\\subset A$ $\\left( II \\right)\\ C\\subset D\\subset A$ $\\left( III \\right)\\ D\\subset B\\subset A$",
+   "explanation": "Ta có hình vuông là một hình thoi; hình thoi là một hình bình hành; hình bình hành là một hình tứ giác và điều ngược lại chưa chắc đúng.\nDo đó $\\left( II \\right)$ sai",
+   "options": [
+    "$\\left( I \\right)$",
+    "$\\left( II \\right)$",
+    "$\\left( III \\right)$",
+    "$\\left( I \\right)$ và $\\left( III \\right)$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho tập hợp $A=\\left\\{ x\\in \\mathbb{N} \\left( {{x}^{3}}-9x \\right)\\left( 2{{x}^{2}}-5x+2 \\right)=0 \\right\\}$. $A$ viết theo kiểu liệt kê các phần tử là",
+   "explanation": "Ta có: $\\left( {{x}^{3}}-9x \\right)\\left( 2{{x}^{2}}-5x+2 \\right)=0$ $\\Leftrightarrow x\\left( {{x}^{2}}-9 \\right)\\left( 2{{x}^{2}}-5x+2 \\right)=0$\n$\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & {{x}^{2}}-9=0 \\\\ & 2{{x}^{2}}-5x+2=0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=3 \\\\ & x=-3 \\\\ & x=2 \\\\ & x=\\frac{1}{2} \\\\ \\end{aligned} \\right.$\nMà $x\\in \\mathbb{N}$ nên $\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=3 \\\\ & x=2 \\\\ \\end{aligned} \\right.$.",
+   "options": [
+    "$\\left\\{ 0;\\,2;\\,3;\\,-3 \\right\\}$",
+    "$\\left\\{ 0;\\,2;\\,3 \\right\\}$",
+    "$\\left\\{ 0;\\,\\frac{1}{2};\\,2;\\,3;\\,-3 \\right\\}$",
+    "$\\left\\{ 2;\\,3 \\right\\}$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 17,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho $A=\\left\\{ {x\\in \\mathbb{N}}/{\\left( {{x}^{4}}-5{{x}^{2}}+4 \\right)\\left( 3{{x}^{2}}-10x+3 \\right)=0}\\; \\right\\}$, $A$ được viết theo kiểu liệt kê là",
+   "explanation": "Ta có: $\\left( {{x}^{4}}-5{{x}^{2}}+4 \\right)\\left( 3{{x}^{2}}-10x+3 \\right)=0$$\\Rightarrow \\left[ \\begin{aligned} & {{x}^{4}}-5{{x}^{2}}+4=0 \\\\ & 3{{x}^{2}}-10x+3=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=\\pm 1;\\,x=\\pm 2 \\\\ & x=\\frac{1}{3};x=3 \\\\ \\end{aligned} \\right.$.\nVậy $x\\in \\left\\{ 1;-1;2;-2;3;\\frac{1}{3} \\right\\}$.",
+   "options": [
+    "$\\left\\{ 1;4;3 \\right\\}$",
+    "$\\left\\{ 1;2;3 \\right\\}$",
+    "$\\left\\{ 1;-1;2;-2;3;\\frac{1}{3} \\right\\}$",
+    "$\\left\\{ -1;1;2;-2;3 \\right\\}$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Các số tự nhiên lẻ có một chữ số đều thuộc tập hợp $A$.",
+    "b": "$B=\\left\\{ -1;3 \\right\\}$.",
+    "c": "Tập hợp $A$ có 4 phần tử.",
+    "d": "Số phần tử của tập $A$ gấp 4 lần số phần tử của tập hợp $B$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho tập hợp $A$ gồm các số nguyên tố có một chữ số và tập hợp $B=\\left\\{ x\\in \\mathbb{N}|{{x}^{2}}-2x-3=0 \\right\\}$",
+   "explanation": "a) Sai: $\\left\\{ 1;9 \\right\\}\\notin A$.\nb) Sai: $-1\\notin \\mathbb{N}$.\nc) Đúng: $A=\\left\\{ 2;3;5;7 \\right\\}$.\nd) Đúng: Tập hợp $A$ có 4 phần tử .\nPhương trình ${{x}^{2}}-2x-3=0$ có nghiệm: ${{x}_{1}}=-1\\notin \\mathbb{N};{{x}_{2}}=3\\notin \\mathbb{N}$ nên tập hợp $B$ có 1 phần tử.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tập hợp $A$ có hai tập hợp con khác rỗng.",
+    "b": "$A\\subset B$.",
+    "c": "$\\left\\{ 3;4;5 \\right\\}\\subset B$.",
+    "d": "Không có giá trị nào của $m$ để $A=C$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho ba tập hợp $A=\\left\\{ x\\in \\mathbb{N}\\left| \\left( 2x+1 \\right)\\left( {{x}^{2}}-7x+10 \\right)=0 \\right. \\right\\}$, $B=\\left\\{ x\\in \\mathbb{R}\\left| 2<x\\le 5 \\right. \\right\\}$ và $C=\\left\\{ 2;m;5 \\right\\}$",
+   "explanation": "Ta có: $\\left( 2x+1 \\right)\\left( {{x}^{2}}-7x+10 \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & 2x+1=0 \\\\ & {{x}^{2}}-7x+10=0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=-\\frac{1}{2}\\notin \\mathbb{N} \\\\ & x=2\\in \\mathbb{N} \\\\ & x=5\\in \\mathbb{N} \\\\ \\end{aligned} \\right.\\Rightarrow A=\\left\\{ 2;5 \\right\\}$\n$B=\\left( 2;5 \\right]$\na) Sai vì $A$ có 3 tập con khác rỗng là: $\\left\\{ 2 \\right\\},\\left\\{ 5 \\right\\},A$\nb) Sai vì $2\\notin B=\\left( 2;5 \\right]$\nc) Đúng\nd) Sai vì $A=C$ khi $m=2$ hoặc $m=5$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$A\\subset B$.",
+    "b": "$B\\subset X$.",
+    "c": "Tập $B$ có tất cả 8 tập con.",
+    "d": "$X=Y$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho các tập hợp $A=\\left\\{ x\\in \\mathbb{N},2{{x}^{2}}-3x+1=0 \\right\\},B=\\left\\{ x\\in {{\\mathbb{N}}^{*}},x<2 \\right\\},X=\\left\\{ x\\in \\mathbb{Z},\\left| x \\right|<3 \\right\\}$ và $Y=\\left\\{ y\\in \\mathbb{R},\\left( {{y}^{2}}-1 \\right)\\left( {{y}^{2}}-4 \\right)=0 \\right\\}$. Ta có",
+   "explanation": "Ta có $2{{x}^{2}}-3x+1=0\\Leftrightarrow x=1$ hoặc $x=\\frac{1}{2}$, suy ra $A=\\left\\{ 1 \\right\\}$; $B=\\left\\{ x\\in {{\\mathbb{N}}^{*}},x<2 \\right\\}=\\left\\{ 1,2 \\right\\}$; $X=\\left\\{ x\\in \\mathbb{Z},\\left| x \\right|<3 \\right\\}=\\left\\{ -2,-1,0,1,2 \\right\\}$; $\\left( {{y}^{2}}-1 \\right)\\left( {{y}^{2}}-4 \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & {{y}^{2}}-1=0 \\\\ & {{y}^{2}}-4=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & y=\\pm 1 \\\\ & y=\\pm 2 \\\\ \\end{aligned} \\right.$ $\\Rightarrow Y=\\left\\{ -2,-1,1,2 \\right\\}$.\na) Đúng.\nb) Đúng.\nc) Sai vì tập $B$ có 2 phần tử nên có 4 tập con.\nd) Sai vì $0\\in X$ nhưng $0\\notin Y$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$A\\ne \\varnothing \\Leftrightarrow m\\ge \\frac{-1}{3}$.",
+    "b": "Với $m=3$ thì $A\\cap B\\ne \\varnothing $.",
+    "c": "Có $6$ giá trị nguyên của tham số $m$ để $A\\subset B$.",
+    "d": "Có $7$ giá trị nguyên nhỏ hơn $10$ của tham số $m$ để $A\\cup B=\\mathbb{R}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai tập hợp $A=\\left[ 1-m;\\frac{m+3}{2} \\right]\\ne \\varnothing $ và $B=\\left( -\\infty ;-3 \\right)\\cup \\left( 3;+\\infty \\right)$.",
+   "explanation": "a) (Đúng) Ta có: $A\\ne \\varnothing \\Leftrightarrow 1-m\\le \\frac{m+3}{2}\\Leftrightarrow 2-2m\\le m+3\\Leftrightarrow m\\ge \\frac{-1}{3}$.\nb) (Sai) Với $m=3$ thì $A=\\left[ -2;3 \\right]$. Khi đó $A\\cap B=\\varnothing $.\nc) (Sai) Để $A\\subset B$ thì $\\left\\{ \\begin{aligned} & \\left[ \\begin{aligned} & \\frac{m+3}{2}<-3 \\\\ & 1-m>3 \\\\ \\end{aligned} \\right. \\\\ & 1-m\\le \\frac{m+3}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left[ \\begin{aligned} & m<-9 \\\\ & m<-2 \\\\ \\end{aligned} \\right. \\\\ & m\\ge \\frac{-1}{3} \\\\ \\end{aligned} \\right.$.\nSuy ra không tồn tại giá trị của $m$ thỏa mãn.\nd) (Sai) Để $A\\cup B=\\mathbb{R}$ thì $\\left\\{ \\begin{aligned} & 1-m\\le -3 \\\\ & \\frac{m+3}{2}\\ge 3 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & m\\ge 4 \\\\ & m\\ge 3 \\\\ \\end{aligned} \\right.\\Leftrightarrow m\\ge 4$.\nVậy có 6 giá trị nguyên nhỏ hơn 10 của tham số $m$ để $A\\cup B=\\mathbb{R}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "muc_do": "TH",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho ${A=[2 m-1 ; 2 m+3)}$ và ${B=(-7 ; 2]}$ với ${m \\in \\mathbb{R}}$. Tìm ${m}$ để tập hợp ${A \\cap B}$ chứa đúng một phần tử.",
+   "explanation": "Để tập hợp ${A \\cap B}$ chứa đúng một phần tử thì ${2 m-1=2}$ hay ${m=\\frac{3}{2}}$.",
+   "short_value": 1.5,
+   "short_correct": "1,5|3/2",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho hai tập hợp: ${A=[m-3 ; m+2], B=(-3 ; 5)}$ với ${m \\in \\mathbb{R}}$. Tìm tất cả các giá trị của ${m}$ để:\n${A \\cap B}$ khác tập rỗng.",
+   "explanation": "Trước hết, ta tìm ${m}$ để ${A \\cap B=\\varnothing}$.\nĐể ${A \\cap B=\\varnothing}$ thì ${\\left[\\begin{array}{l}m+2 \\leq-3 \\\\ m-3 \\geq 5\\end{array} \\Leftrightarrow\\left[\\begin{array}{l}m \\leq-5 \\\\ m \\geq 8 .\\end{array}\\right.\\right.}$\nVậy để ${A \\cap B}$ khác tập rỗng thì ${-5<m<8}$.",
+   "short_value": null,
+   "short_correct": "-5<m<8|(-5;8)",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai tập hợp ${A=[-4 ; 1], B=[-3 ; m]}$. Tìm ${m}$ để ${A \\cup B=A}$ ?",
+   "explanation": "Điều kiện: ${m>-3}$.\nTa có: ${A \\cup B=A}$ khi và chỉ khi ${B \\subset A}$, tức là ${m \\leqslant 1}$.\nĐối chiếu điều kiện, ta được ${-3<m \\leqslant 1}$.",
+   "short_value": null,
+   "short_correct": "-3<m\\le 1|-3<m≤1|(-3;1]",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Cho tập hợp $B=\\left\\{ \\left. x\\in \\mathbb{Z} \\right|\\left| {{x}^{2}}+1 \\right|\\le 2 \\right\\}$. Tập hợp ${B}$ có bao nhiêu tập con gồm 2 phần tử?",
+   "explanation": "Ta có: ${\\left\\{\\begin{array}{l}x \\in \\mathbb{Z} \\\\ \\left|x^2+1\\right| \\leq 2\\end{array} \\Rightarrow\\left[\\begin{array}{l}x=-1 \\\\ x=0 \\\\ x=1\\end{array} \\Rightarrow B=\\{-1 ; 0 ; 1\\}\\right.\\right.}$.\nCác tập con của tập ${B}$ gồm 2 phần tử là: ${\\{-1 ; 0\\},\\{0 ; 1\\},\\{-1 ; 1\\}}$.\nVậy có 3 tập con của ${B}$ gồm 2 phần tử.",
+   "short_value": 3,
+   "short_correct": "3",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:Xd81HvHruBNWSdyweTt2"
+   ],
+   "question": "Lớp 10A có 45 học sinh trong đó có 25 em học giỏi môn Toán, 23 em học giỏi môn Lý, 20 em học giỏi môn Hóa, 11 em học giỏi cả môn Toán và môn Lý, 8 em học giỏi cả môn Lý và môn Hóa, 9 em học giỏi cả môn Toán và môn Hóa. Hỏi lớp 10 A có bao nhiêu bạn học giỏi cả ba môn Toán, Lý, Hóa? (biết rằng mỗi học sinh trong lớp học giỏi ít nhất một trong ba môn Toán, Lý, Hóa).",
+   "explanation": "Gọi ${T, L, H}$ lần lượt là tập hợp các học sinh giỏi môn Toán, Lý, Hóa.\nTa có: ${|T \\cup L \\cup H|=|T|+|L|+|H|-|T \\cap L|-|L \\cap H|-|H \\cap T|+|T \\cap L \\cap H|}$ ${\\Leftrightarrow 45=25+23+20-11-8-9+|T \\cap L \\cap H|}$\n${\\Leftrightarrow|T \\cap L \\cap H|=5}$.\n[[IMG:image9.png]]\nVậy có 5 học sinh giỏi cả 3 môn.",
+   "short_value": 5,
+   "short_correct": "5",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D02",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai tập ${A=\\left[m-1 ; \\frac{m+3}{2}\\right]}$ và ${B=(-\\infty ;-3) \\cup[3 ;+\\infty)}$. Tìm tập hợp các giá trị thực của ${m}$ để ${A \\cap B \\neq \\varnothing}$.",
+   "explanation": "Để ${A \\cap B \\neq \\varnothing}$ thì điều kiện là ${\\left\\{\\begin{array}{l}m-1<\\frac{m+3}{2} \\\\ {\\left[\\begin{array}{l}m-1<-3 \\\\ \\frac{m+3}{2} \\geq 3\\end{array}\\right.}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}m<5 \\\\ {\\left[\\begin{array}{l}m<-2 \\\\ m \\geq 3\\end{array}\\right.}\\end{array}\\right.\\right.}$\nVậy ${m \\in(-\\infty-2) \\cup[3 ; 5)}$.",
+   "short_value": null,
+   "short_correct": "(-\\infty;-2)\\cup[3;5)|m<-2 hoặc 3≤m<5",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C1.B2.D01",
+   "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."
+  }
+ ],
+ "flags": [
+  "de_trung_web:Xd81HvHruBNWSdyweTt2:16/22"
+ ],
+ "bo_de": true
+}

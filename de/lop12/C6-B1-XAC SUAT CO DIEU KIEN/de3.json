@@ -1,0 +1,149 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "1",
+  "title": "Bài 1. Xác suất có điều kiện",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hai biến cố $A$ và $B$ độc lập.",
+    "b": "Biết công ty thắng thầu dự án 1, thì xác suất công ty thắng thầu dự án 2 là : 0,75",
+    "c": "Biết công ty không thắng thầu dự án 1, thì xác suất công ty thắng thầu dự án 2 là :$\\frac{2}{3}$",
+    "d": "Xác suất công ty thắng thầu đúng 1 dự án là : 0,3"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty đấu thầu hai dự án. Khả năng thắng thầu các dự án lần lượt là $0,4$và $0,5$. Khả năng thắng thầu cả hai dự án là $0,3$. Gọi $A,B$lần lượt là biến cố thắng thầu dự án 1 và dự án 2.",
+   "explanation": "a) Ta có $P\\left( A \\right).P\\left( B \\right)=0,4.0,5=0,2\\ne 0,3=P\\left( AB \\right)$.\nb) Xác suất để công ty thắng thầu dự án 2 khi đã biết thắng dự án 1 là $P\\left( B\\backslash A \\right)$\nTa có $P\\left( B\\backslash A \\right)=\\frac{P\\left( AB \\right)}{P\\left( A \\right)}=\\frac{0,3}{0,4}=0,75$.\nc) Xác suất để công ty thắng thầu dự án 2 khi đã biết điều kiện không thắng dự án 1 là:$P\\left( B\\backslash \\overline{A} \\right)=\\frac{P\\left( \\overline{A}B \\right)}{P\\left( \\overline{A} \\right)}$\nVì hai biến cố $\\overline{A}B$ và $A\\overline{B}$ xung khắc nhau và $\\overline{A}B\\cup A\\overline{B}=B$ nên theo tính chất của xác suất ta có\n$P\\left( \\overline{A}B \\right)=P\\left( B \\right)-P\\left( AB \\right)$.\nSuy ra $P\\left( B\\backslash \\overline{A} \\right)=\\frac{P\\left( \\overline{A}B \\right)}{P\\left( \\overline{A} \\right)}=\\frac{P\\left( B \\right)-P\\left( AB \\right)}{1-P\\left( A \\right)}=\\frac{0,5-0,3}{1-0,4}=\\frac{1}{3}$.\nd) Xác suất để công ty thắng thầu đúng 1 dự án là $P\\left( A\\overline{B}+\\overline{A}B \\right)$\nVì hai biến cố $\\overline{A}B$ và $A\\overline{B}$ xung khắc nhau nên $P\\left( A\\overline{B}+\\overline{A}B \\right)=P\\left( A\\overline{B} \\right)+P\\left( \\overline{A}B \\right)$.\nVì hai biến cố $\\overline{A}B$ và $AB$ xung khắc nhau và $\\overline{A}B\\cup AB=B$ nên theo tính chất của xác suất ta có\n$P\\left( \\overline{A}B \\right)=P\\left( B \\right)-P\\left( AB \\right)\\begin{matrix} {} & \\left( 1 \\right) \\\\ \\end{matrix}$.\n[[IMG:image18.png]]\nVì hai biến cố $A\\overline{B}$ và $AB$ xung khắc nhau và $\\text{A}\\overline{B}\\cup AB=A$ nên theo tính chất của xác suất ta có\n$P\\left( A\\overline{B} \\right)=P\\left( A \\right)-P\\left( AB \\right)\\begin{matrix} {} & \\left( 2 \\right) \\\\ \\end{matrix}$.\n[[IMG:image19.png]]\nTừ $\\left( 1 \\right)$và $\\left( 2 \\right)$ta được như sau:\n$\\begin{aligned} & P\\left( A\\overline{B}+\\overline{A}B \\right)=P\\left( A \\right)-P\\left( AB \\right)+P\\left( B \\right)-P\\left( AB \\right) \\\\ & =P\\left( A \\right)+P\\left( B \\right)-2P\\left( AB \\right)=0,4+0,5-2.0,3=0,3. \\\\ \\end{aligned}$",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất xảy ra biến cố $B$ là: $P\\left( B \\right)=$ $\\frac{2}{5}$.",
+    "b": "Xác suất xảy ra biến cố $A$khi $B$ xảy ra là: $P\\left( A\\backslash B \\right)=\\frac{3}{5}$.",
+    "c": "Xác suất xảy ra biến cố $A$khi $B$không xảy ra là: $P\\left( A\\backslash \\overline{B} \\right)=\\frac{5}{9}$.",
+    "d": "Xác suất xảy ra cả biến cố $A$ và $B$ là:$P\\left( AB \\right)=\\frac{4}{15}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một hộp chứa 4 quả bóng màu đỏ và 6 quả bóng màu xanh. Lấy từ hộp hai lần liên tiếp mỗi lần 1 quả bóng. Gọi A là biến cố “Lần 2 lấy được quả màu xanh”; B là biến cố “ Lần 1 lấy được quả bóng màu đỏ”. Khi đó",
+   "explanation": "a) Ta có $P\\left( B \\right)=\\frac{n\\left( B \\right)}{n\\left( \\Omega \\right)}=\\frac{4}{10}=\\frac{2}{5}$.\nb) Lần 1 lấy được quả bóng màu đỏ nên số bóng còn lại là 9 nên $n\\left( \\Omega \\right)=9$. Do có 6 quả bóng màu xanh và lần 1 lấy được quả bóng đỏ nên số phần tử thuận lợi cho biến cố $A$là $n\\left( A \\right)=6$\n$P\\left( A\\backslash B \\right)=\\frac{6}{9}=\\frac{2}{3}$.\nc) Do biến cố $B$ không xảy ra tức là lần 1 lấy 1 quả màu xanh nên số bóng còn lại là 5 quả xanh và 4 quả đỏ. Do đó $P\\left( A\\backslash \\overline{B} \\right)=\\frac{5}{9}$.\nd) Ta có $P\\left( AB \\right)=P\\left( B \\right).P\\left( A\\backslash B \\right)=\\frac{2}{5}.\\frac{6}{9}=\\frac{4}{15}$.\nChú ý: Không thể tính theo công thức $P\\left( AB \\right)=P\\left( A \\right).P\\left( B\\backslash A \\right)$.",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để bạn được chọn là nam là $0,48$.",
+    "b": "Xác suất để bạn được chọn là nữ là $0,5$.",
+    "c": "Xác suất để bạn được chọn là nam và tham gia trò chơi Đảo hải tặc là $0,195$.",
+    "d": "Xác suất để bạn được chọn là nữ và tham gia trò chơi Sóng thần là $0,156$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một nhóm học sinh gồm $12$ nam và $13$ nữ đi tham quan Công viên nước Hạ Long, tới lúc tham gia trò chơi mỗi học sinh chọn một trong hai trò chơi là Sóng thần hoặc Đảo hải tặc. Xác suất chọn trò chơi Sóng thần của mỗi học sinh nam là $0,6$ và của mỗi học sinh nữ là $0,3$. Chọn ngẫu nhiên một bạn của nhóm. Xét tính đúng, sai của mỗi khẳng định sau?",
+   "explanation": "Gọi $A$ là biến cố “chọn được bạn nam” và $B$ là biến cố “chọn được bạn tham gia trò chơi Sóng thần”.\nNhóm có $12$ nam và $13$ nữ nên xác suất để chọn được một bạn nam là $\\frac{12}{25}=0,48$.\nNhóm có $12$ nam và $13$ nữ nên xác suất để chọn được một bạn nữ là $\\frac{13}{25}=0,52$.\nTa có $P\\left( A \\right)=\\frac{12}{25}=0,48$ và $P\\left( B|A \\right)=0,6$ và $P\\left( B|\\overline{A} \\right)=0,3$.\nTa có sơ đồ hình cây như sau:\n[[IMG:image20.png]]\nXác suất để bạn được chọn là nam và tham gia trò chơi Đảo hải tặc là $P\\left( A\\overline{B} \\right)=0,192$.\nXác suất để bạn được chọn là nữ và tham gia trò chơi Sóng thần $P\\left( \\overline{A}B \\right)=0,156$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để hàng qua cửa đã thanh toán là $99,9\\%$.",
+    "b": "Xác suất để hàng qua cửa chưa thanh toán và thiết bị phát chuông cảnh báo là $1\\%$.",
+    "c": "Xác suất để hàng qua cửa đã thanh toán và thiết bị phát chuông cảnh báo là $0,1\\%$.",
+    "d": "Xác suất để hàng qua cửa chưa thanh toán và thiết bị không phát chuông cảnh báo là $0,001\\%$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Ở cửa ra vào của nhà sách Nguyễn Văn Cừ có một thiết bị cảnh báo hàng hóa chưa được thanh toán khi qua cửa. Thiết bị phát chuông cảnh báo với $99\\%$ các hàng hóa ra cửa mà chưa thanh toán và $0,1\\%$ các hàng hóa đã thanh toán. Tỷ lệ hàng hóa qua cửa không được thanh toán là $0,1\\%$. Chọn ngẫu nhiên một hàng hóa khi đi qua cửa. Xét tính đúng sai của các mệnh đề sau?",
+   "explanation": "Gọi $A$ là biến cố “Hàng qua cửa đã được thanh toán” và $B$ là biến cố “Thiết bị phát chuông cảnh báo”.\nTỷ lệ hàng qua cửa không được thanh toán là $0,1\\%$ tức là $P\\left( \\overline{A} \\right)=0,1\\%$ suy ra $P\\left( A \\right)=100\\%-0,1\\%=99,9\\%$.\nTa có $P\\left( B|A \\right)=0,1\\%$ và $P\\left( B|\\overline{A} \\right)=99\\%$;\n$P\\left( \\overline{B}|A \\right)=100\\%-P\\left( B|A \\right)=99,9\\%$; $P\\left( \\overline{B}|\\overline{A} \\right)=100\\%-P\\left( B|\\overline{A} \\right)=1\\%$.\nTa có sơ đồ hình cây như sau:\n[[IMG:image21.png]]\nTừ đây ta có:\nXác suất để hàng qua cửa đã thanh toán là $99,9\\%$.\nXác suất để hàng qua cửa chưa thanh toán và thiết bị phát chuông cảnh báo là $P\\left( \\overline{A}B \\right)=0,099\\%$\nXác suất để hàng hóa qua cửa đã thanh toán và thiết bị phát chuông cảnh báo là $P\\left( \\overline{A}B \\right)=0,1\\%$\nXác suất để hàng qua cửa chưa thanh toán và thiết bị không phát chuông cảnh báo là $P\\left( \\overline{A}\\overline{B} \\right)=0,001\\%$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  }
+ ],
+ "flags": [
+  "phan_1_co_0_cau_nhung_de_ghi_12",
+  "phan_3_co_0_cau_nhung_de_ghi_6"
+ ]
+}

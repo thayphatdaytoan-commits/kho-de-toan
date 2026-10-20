@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "9",
+  "lesson": "2",
+  "title": "Bài 2. Thực hành tính xác suất theo định nghĩa cổ điển"
+ },
+ "no": 1,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một đội gồm 5 nam và 8 nữ. Lập một nhóm gồm 4 người hát tốp ca, tính xác suất để trong 4 người được chọn có ít nhất 3 nữ.",
+   "explanation": "Không gian mẫu là chọn tùy ý $4$ người từ $13$ người.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{13}^{4}=715$.\nGọi $A$ là biến cố $''$4 người được chọn có ít nhất 3 nữ$''$. Ta có hai trường hợp thuận lợi cho biến cố $A$ như sau:\n● TH1: Chọn 3 nữ và 1 nam, có $C_{8}^{3}C_{5}^{1}$ cách.\n● TH2: Chọn cả 4 nữ, có $C_{8}^{4}$ cách.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=C_{8}^{3}C_{5}^{1}+C_{8}^{4}=350$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{350}{715}=\\frac{70}{143}$.",
+   "options": [
+    "$\\frac{70}{143}.$",
+    "$\\frac{73}{143}.$",
+    "$\\frac{56}{143}.$",
+    "$\\frac{87}{143}.$"
+   ],
+   "ma": "de1.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 7,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho tập hợp $A=\\left\\{ \\text{2; 3; 4; 5; 6; 7; 8} \\right\\}$. Gọi $S$ là tập hợp các số tự nhiên có $4$ chữ số đôi một khác nhau được lập thành từ các chữ số của tập $A$. Chọn ngẫu nhiên một số từ $S$, tính xác suất để số được chọn mà trong mỗi số luôn luôn có mặt hai chữ số chẵn và hai chữ số lẻ.",
+   "explanation": "Số phần tử của tập $S$ là $A_{7}^{4}=840.$\nKhông gian mẫu là chọn ngẫu nhiên $1$ số từ tập $S$.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{840}^{1}=840.$\nGọi $X$ là biến cố $''$Số được chọn luôn luôn có mặt hai chữ số chẵn và hai chữ số lẻ$''$.\n● Số cách chọn hai chữ số chẵn từ bốn chữ số $\\text{2};\\text{ 4};\\text{ 6};\\text{ 8}$ là $C_{4}^{2}=6$ cách.\n● Số cách chọn hai chữ số lẻ từ ba chữ số $\\text{3};\\text{ 5};\\text{ 7}$ là $C_{3}^{2}=3$ cách.\n● Từ bốn chữ số được chọn ta lập số có bốn chữ số khác nhau, số cách lập tương ứng với một hoán vị của $4$ phần tử nên có $4!$ cách.\nSuy ra số phần tử của biến cố $X$ là $\\left| {{\\Omega }_{X}} \\right|=C_{4}^{2}.C_{3}^{2}.4!=432.$\nVậy xác suất cần tính $P\\left( X \\right)=\\frac{\\left| {{\\Omega }_{X}} \\right|}{\\left| \\Omega \\right|}=\\frac{432}{840}=\\frac{18}{35}.$",
+   "options": [
+    "$\\frac{1}{5}.$",
+    "$\\frac{3}{35}.$",
+    "$\\frac{17}{35}.$",
+    "$\\frac{18}{35}.$"
+   ],
+   "ma": "de1.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Gọi $S$ là tập hợp các số tự nhiên có $3$ chữ số đôi một khác nhau được lập thành từ các chữ số $\\text{1; 2; 3; 4; 6}$. Chọn ngẫu nhiên một số từ $S$, tính xác xuất để số được chọn chia hết cho $3$.",
+   "explanation": "Số phần tử của $S$ là $A_{5}^{3}=60$.\nKhông gian mẫu là chọn ngẫu nhiên $1$ số từ tập $S$.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{60}^{1}=60.$\nGọi $A$ là biến cố $''$Số được chọn chia hết cho $3$ $''$. Từ $5$ chữ số đã cho ta có $4$ bộ gồm ba chữ số có tổng chia hết cho $3$ là $\\left( 1;\\text{ }2;\\text{ }3 \\right)$, $\\left( 1;\\text{ }2;\\text{ }6 \\right)$, $\\left( 2;\\text{ }3;\\text{ }4 \\right)$ và $\\left( 2;\\text{ }4;\\text{ }6 \\right)$. Mỗi bộ ba chữ số này ta lập được $3!=6$ số thuộc tập hợp $S$.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=6.4=24$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{24}{60}=\\frac{2}{5}.$",
+   "options": [
+    "$\\frac{1}{10}.$",
+    "$\\frac{3}{5}.$",
+    "$\\frac{2}{5}.$",
+    "$\\frac{1}{15}.$"
+   ],
+   "ma": "de1.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Có $20$ tấm thẻ được đánh số từ $1$ đến $20$. Chọn ngẫu nhiên ra $8$ tấm thẻ, tính xác suất để có $3$ tấm thẻ mang số lẻ, $5$ tấm thẻ mang số chẵn trong đó chỉ có đúng $1$ tấm thẻ mang số chia hết cho $10$.",
+   "explanation": "Không gian mẫu là cách chọn $8$ tấm thể trong $20$ tấm thẻ.\nSuy ra số phần tử của không mẫu là $\\left| \\Omega \\right|=C_{20}^{8}=25970$.\nGọi $A$ là biến cố $''$ $3$ tấm thẻ mang số lẻ, $5$ tấm thẻ mang số chẵn trong đó chỉ có đúng $1$ tấm thẻ mang số chia hết cho $10$ $''$. Để tìm số phần tử của $A$ ta làm như sau:\n● Đầu tiên chọn $3$ tấm thẻ trong $10$ tấm thẻ mang số lẻ, có $C_{10}^{3}$ cách.\n● Tiếp theo chọn $4$ tấm thẻ trong $8$ tấm thẻ mang số chẵn (không chia hết cho $10$), có $C_{8}^{4}$ cách.\n● Sau cùng ta chọn $1$ trong $2$ tấm thẻ mang số chia hết cho $10$, có $C_{2}^{1}$ cách.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=C_{10}^{3}.C_{8}^{4}.C_{2}^{1}=16800$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{C_{10}^{3}.C_{8}^{4}.C_{2}^{1}}{C_{20}^{8}}=\\frac{560}{4199}$.",
+   "options": [
+    "$\\frac{560}{4199}.$",
+    "$\\frac{4}{15}.$",
+    "$\\frac{11}{15}.$",
+    "$\\frac{3639}{4199}.$"
+   ],
+   "ma": "de1.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Gọi $S$ là tập hợp các số tự nhiên có hai chữ số. Chọn ngẫu nhiên đồng thời hai số từ tập hợp $S$. Tính xác suất để hai số được chọn có chữ số hàng đơn vị giống nhau.",
+   "explanation": "Số phần tử của tập $S$ là $9.10=90$.\nKhông gian mẫu là chọn ngẫu nhiên $2$ số từ tập $S$.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{90}^{2}=4005$.\nGọi $X$ là biến cố $''$Số được chọn có chữ số hàng đơn vị giống nhau$''$. Ta mô tả không gian của biến cố $X$ nhưu sau:\n● Có $10$ cách chọn chữ số hàng đơn vị (chọn từ các chữ số $\\left\\{ 0;\\text{ }1;\\text{ }2;\\text{ }3;...;\\text{ }9 \\right\\}$).\n● Có $C_{9}^{2}$ cách chọn hai chữ số hàng chục (chọn từ các chữ số $\\left\\{ 1;\\text{ }2;\\text{ }3;...;\\text{ }9 \\right\\}$).\nSuy ra số phần tử của biến cố $X$ là $\\left| {{\\Omega }_{X}} \\right|=10.C_{9}^{2}=360$.\nVậy xác suất cần tính $P\\left( X \\right)=\\frac{\\left| {{\\Omega }_{X}} \\right|}{\\left| \\Omega \\right|}=\\frac{360}{4005}=\\frac{8}{89}.$",
+   "options": [
+    "$\\frac{8}{89}.$",
+    "$\\frac{81}{89}.$",
+    "$\\frac{36}{89}.$",
+    "$\\frac{53}{89}.$"
+   ],
+   "ma": "de1.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Giải bóng chuyền VTV Cup gồm $9$ đội bóng tham dự, trong đó có $6$ đội nước ngoài và $3$ đội của Việt Nam. Ban tổ chức cho bốc thăm ngẫu nhiên để chia thành $3$ bảng $A,\\text{ }B,\\text{ }C$ và mỗi bảng có $3$đội. Tính xác suất để $3$ đội bóng của Việt Nam ở $3$ bảng khác nhau.",
+   "explanation": "Không gian mẫu là số cách chia tùy ý $9$ đội thành $3$ bảng.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{9}^{3}.C_{6}^{3}.C_{3}^{3}$.\nGọi $X$ là biến cố $''$ $3$ đội bóng của Việt Nam ở $3$ bảng khác nhau$''$.\n● Bước 1. Xếp $3$ đội Việt Nam ở $3$ bảng khác nhau nên có $3!$ cách.\n● Bước 2. Xếp $6$ đội còn lại vào $3$ bảng $A,\\text{ }B,\\text{ }C$ này có $C_{6}^{2}.C_{4}^{2}.C_{2}^{2}$ cách.\nSuy ra số phần tử của biến cố $X$ là $\\left| {{\\Omega }_{X}} \\right|=3!.C_{6}^{2}.C_{4}^{2}.C_{2}^{2}$.\nVậy xác suất cần tính $P\\left( X \\right)=\\frac{\\left| {{\\Omega }_{X}} \\right|}{\\left| \\Omega \\right|}=\\frac{3!.C_{6}^{2}.C_{4}^{2}.C_{2}^{2}}{C_{9}^{3}.C_{6}^{3}.C_{3}^{3}}=\\frac{540}{1680}=\\frac{9}{28}$.",
+   "options": [
+    "$\\frac{3}{56}.$",
+    "$\\frac{19}{28}.$",
+    "$\\frac{9}{28}.$",
+    "$\\frac{53}{56}.$"
+   ],
+   "ma": "de1.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong giải cầu lông kỷ niệm ngày truyền thống học sinh sinh viên có 8 người tham gia trong đó có hai bạn Việt và Nam. Các vận động viên được chia làm hai bảng $A$ và $B$, mỗi bảng gồm 4 người. Giả sử việc chia bảng thực hiện bằng cách bốc thăm ngẫu nhiên, tính xác suất để cả $2$ bạn Việt và Nam nằm chung $1$ bảng đấu.",
+   "explanation": "Không gian mẫu là số cách chia tùy ý $8$ người thành $2$ bảng.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{8}^{4}.C_{4}^{4}$.\nGọi $X$ là biến cố $''$ $2$ bạn Việt và Nam nằm chung $1$ bảng đấu$''$.\n● Bước 1. Xếp $2$ bạn Việt và Nam nằm chung $1$ bảng đấu nên có $C_{2}^{1}$ cách.\n● Bước 2. Xếp $6$ bạn còn lại vào $2$ bảng $A,\\text{ }B$ cho đủ mỗi bảng là $4$ bạn thì có $C_{6}^{2}.C_{4}^{4}$ cách.\nSuy ra số phần tử của biến cố $X$ là $\\left| {{\\Omega }_{X}} \\right|=C_{2}^{1}.C_{6}^{2}.C_{4}^{4}$.\nVậy xác suất cần tính $P\\left( X \\right)=\\frac{\\left| {{\\Omega }_{X}} \\right|}{\\left| \\Omega \\right|}=\\frac{C_{8}^{4}.C_{4}^{4}}{C_{2}^{1}.C_{6}^{2}.C_{4}^{4}}=\\frac{3}{7}$.",
+   "options": [
+    "$\\frac{6}{7}.$",
+    "$\\frac{5}{7}.$",
+    "$\\frac{4}{7}.$",
+    "$\\frac{3}{7}.$"
+   ],
+   "ma": "de1.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một bộ đề thi toán học sinh giỏi lớp $12$ mà mỗi đề gồm $5$ câu được chọn từ $15$ câu dễ, $10$ câu trung bình và $5$ câu khó. Một đề thi được gọi là$''$Tốt$''$ nếu trong đề thi có cả ba câu dễ, trung bình và khó, đồng thời số câu dễ không ít hơn $2$. Lấy ngẫu nhiên một đề thi trong bộ đề trên. Tìm xác suất để đề thi lấy ra là một đề thi $''$Tốt$''$.",
+   "explanation": "Số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{30}^{5}=142506$.\nGọi $A$ là biến cố $''$Đề thi lấy ra là một đề thi $''$Tốt$''$ $''$.\nVì trong một đề thi $''$Tốt$''$ có cả ba câu dễ, trung bình và khó, đồng thời số câu dễ không ít hơn 2 nên ta có các trường hợp sau đây thuận lợi cho biến cố $A$.\n● Đề thi gồm 3 câu dễ, 1 câu trung bình và 1 câu khó: có $C_{15}^{3}C_{10}^{1}C_{5}^{1}$ đề.\n● Đề thi gồm 2 câu dễ, 2 câu trung bình và 1 câu khó: có $C_{15}^{3}C_{10}^{1}C_{5}^{1}$ đề.\n● Đề thi gồm 2 câu dễ, 1 câu trung bình và 2 câu khó: có $C_{15}^{2}C_{10}^{1}C_{5}^{2}$ đề.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=C_{15}^{3}C_{10}^{1}C_{5}^{1}+C_{15}^{3}C_{10}^{1}C_{5}^{1}+C_{15}^{2}C_{10}^{1}C_{5}^{2}=56875$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{56875}{142506}=\\frac{625}{1566}$.",
+   "options": [
+    "$\\frac{941}{1566}.$",
+    "$\\frac{2}{5}.$",
+    "$\\frac{4}{5}.$",
+    "$\\frac{625}{1566}.$"
+   ],
+   "ma": "de1.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Có $3$ bì thư giống nhau lần lượt được đánh số thứ tự từ $1$ đến $3$ và $3$ con tem giống nhau lần lượt đánh số thứ tự từ $1$ đến $3$. Dán $3$ con tem đó vào $3$ bì thư sao cho không có bì thư nào không có tem. Tính xác suất để lấy ra được $2$ bì thư trong $3$ bì thư trên sao cho mỗi bì thư đều có số thứ tự giống với số thứ tự con tem đã dán vào nó.",
+   "explanation": "Không gian mẫu là số cách dán $3$ con tem trên $3$ bì thư, tức là hoán vị của $3$ con tem trên $3$ bì thư. Suy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=3!=6$.\nGọi $A$ là biến cố $''$ $2$ bì thư lấy ra có số thứ tự giống với số thứ tự con tem đã dán vào nó$''$. Thế thì bì thư còn lại cũng có số thứ tự giống với số thứ tự con tem đã dán vào nó. Trường hợp này có $1$ cách duy nhất.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=1$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{1}{6}.$",
+   "options": [
+    "$\\frac{5}{6}.$",
+    "$\\frac{1}{6}.$",
+    "$\\frac{2}{3}.$",
+    "$\\frac{1}{2}.$"
+   ],
+   "ma": "de1.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Một trường THPT có $10$ lớp $12$, mỗi lớp cử $3$ học sinh tham gia vẽ tranh cổ động. Các lớp tiến hành bắt tay giao lưu với nhau (các học sinh cùng lớp không bắt tay với nhau). Tính số lần bắt tay của các học sinh với nhau, biết rằng hai học sinh khác nhau ở hai lớp khác nhau chỉ bắt tay đúng $1$ lần.",
+   "explanation": "Mỗi lớp cử ra $3$ học sinh nên $10$lớp cử ra 30 học sinh.\nSuy ra số lần bắt tay là $C_{30}^{2}$ (bao gồm các học sinh cùng lớp bắt tay với nhau).\nSố lần bắt tay của các học sinh học cùng một lớp là $10.C_{3}^{2}$.\nVậy số lần bắt tay của các học sinh với nhau là $C_{30}^{2}-10.C_{3}^{2}=405$.",
+   "options": [
+    "$405.$",
+    "$435.$",
+    "$30.$",
+    "$45.$"
+   ],
+   "ma": "de1.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một hộp có $10$ phiếu, trong đó có $2$ phiếu trúng thưởng. Có $10$ người lần lượt lấy ngẫu nhiên mỗi người $1$ phiếu. Tính xác suất người thứ ba lấy được phiếu trúng thưởng.",
+   "explanation": "Không gian mẫu là mỗi người lấy ngẫu nhiên $1$ phiếu.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=10!$.\nGọi $A$ là biến cố $''$Người thứ ba lấy được phiếu trúng thưởng$''$. Ta mô tả khả năng thuận lợi của biến cố $A$ như sau:\n● Người thứ ba có $C_{2}^{1}=2$ khả năng lấy được phiếu trúng thưởng.\n● $9$ người còn lại có số cách lấy phiếu là $9!$.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=2.9!$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{2.9!}{10!}=\\frac{1}{5}.$",
+   "options": [
+    "$\\frac{4}{5}.$",
+    "$\\frac{3}{5}.$",
+    "$\\frac{1}{5}.$",
+    "$\\frac{2}{5}.$"
+   ],
+   "ma": "de1.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Có $6$ học sinh lớp $11$ và $3$ học sinh lớp $12$ được xếp ngẫu nhiên vào $9$ ghế thành một dãy. Tính xác suất để xếp được $3$ học sinh lớp $12$ xen kẽ giữa $6$ học sinh lớp $11$.",
+   "explanation": "Không gian mẫu là số cách sắp xếp tất cả $9$ học sinh vào một ghế dài.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=9!$.\nGọi $A$ là biến cố $''$Xếp $3$ học sinh lớp $12$ xen kẽ giữa $6$ học sinh lớp $11$ $''$. Ta mô tả khả năng thuận lợi của biến cố $A$ như sau:\n● Đầu tiên xếp $6$ học sinh lớp $11$ thành một dãy, có $6!$ cách.\n● Sau đó xem $6$ học sinh này như $6$ vách ngăn nên có $7$ vị trí để xếp $3$ học sinh lớp $12$ (gồm $5$ vị trí giữa $6$ học sinh và $2$ vị trí hai đầu). Do đó có $A_{7}^{3}$ cách xếp $3$ học sinh lớp $12$.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=6!.A_{7}^{3}$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{6!.A_{7}^{3}}{9!}=\\frac{5}{12}.$",
+   "options": [
+    "$\\frac{5}{12}.$",
+    "$\\frac{7}{12}.$",
+    "$\\frac{1}{1728}.$",
+    "$\\frac{5}{72}.$"
+   ],
+   "ma": "de1.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số cách chọn ra 3 bạn trong lớp 10A là $15180$ (cách)",
+    "b": "Xác suất của các biến cố \"Ba bạn được chọn đều là nam\" bằng: $\\frac{5}{33}$",
+    "c": "Xác suất của các biến cố \"Ba bạn được chọn đều là nữ\" bằng: $\\frac{133}{1158}$",
+    "d": "Xác suất của các biến cố \"Trong ba học sinh được chọn có hai bạn nam và một bạn nữ\" bằng: $\\frac{105}{253}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Trong lớp ${10 {~A}}$ có 25 bạn nam và 21 bạn nữ. Giáo viên chọn ngẫu nhiên 3 bạn trong lớp để làm cán bộ lớp. Khi đó:",
+   "explanation": "Số cách chọn ra 3 bạn trong lớp 10A gồm 46 bạn (25 bạn nam và 21 bạn nữ) là:${C_{46}^3=15180}$ (cách). Do đó, ${n(\\Omega)=15180}$.\nSuy ra ${n(A)=2300}$.\nXác suất của biến cố ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2300}{15180}=\\frac{5}{33}}$.\nSố cách chọn được 3 bạn nữ từ 21 bạn nữ là: ${C_{21}^3=1330}$ (cách).\nSuy ra ${n(B)=1330}$.\nXác suất của biến cố ${B}$ là: ${P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{1330}{15180}=\\frac{133}{1518}}$.\nSố cách chọn được 2 bạn nam và 1 bạn nữ là: ${C_{25}^2 \\cdot C_{21}^1=6300}$ (cách).\nSuy ra ${n(C)=6300}$.\nXác suất của biến cố ${C}$ là: ${P(C)=\\frac{n(C)}{n(\\Omega)}=\\frac{6300}{15180}=\\frac{105}{253}}$.",
+   "ma": "de1.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D04",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Xác suất để: Nam gieo được số chấm nhỏ hơn 3; bằng $\\frac{1}{9}$",
+    "b": "Xác suất để: Việt gieo được số chấm nhỏ hơn 3; bằng ${\\frac{1}{3}}$",
+    "c": "Xác suất để: cả hai bạn đều gieo được số chấm nhỏ hơn 3; bằng ${\\frac{1}{3}}$",
+    "d": "Xác suất để: cả hai bạn đều gieo được số chấm không nhỏ hơn $4$; bằng $\\frac{1}{4}$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Hai bạn Nam và Việt, mỗi người gieo một viên xúc xắc 6 mặt cân đối. Khi đó:",
+   "explanation": "a) Không gian mẫu là: ${\\Omega=\\{1 ; 2 ; 3 ; 4 ; 5 ; 6\\}}$. Do đó, ta có ${n(\\Omega)=6}$.\nGọi ${A}$ là biến cố Nam gieo được số chấm nhỏ hơn ${3 .}$\nTa có ${A=\\{1 ; 2\\}}$ suy ra ${n(A)=2}$.\nVậy xác suất của biến cố ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2}{6}=\\frac{1}{3}}$.\nb) Tương tự câu a), ta tính được xác suất để Việt được số chấm nhỏ hơn 3 là ${\\frac{1}{3}}$.\nc) Không gian mẫu của phép thử hai bạn Nam và Việt cùng gieo xúc xắc được mô tả như bảng sau:\n[[IMG:image7.png]]\nGọi ${C}$ là biến cố cả hai bạn đều gieo được số chấm nhỏ hơn ${3 .}$\nDựa vào bảng, ta có ${n(\\Omega)=36, n(C)=4}$.\nVậy xác suất của biến cố ${C}$ là: ${P(C)=\\frac{n(C)}{n(\\Omega)}=\\frac{4}{36}=\\frac{1}{9}}$.\nd) Gọi ${D}$ là biến cố cả hai bạn đều gieo được số chấm không nhỏ hơn ${4 .}$\nDựa vào bảng ở câu c), ta có ${n(D)=9}$.\nVậy xác suất của biến cố ${D}$ là: ${P(D)=\\frac{n(D)}{n(\\Omega)}=\\frac{9}{36}=\\frac{1}{4}}$.",
+   "ma": "de1.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 16,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D05",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$n(\\Omega )=6$",
+    "b": "Xác suất để thu được mặt có số chấm chia hết cho 2 là $\\frac{1}{2}$",
+    "c": "Xác suất để thu được mặt có số chấm nhỏ hơn 4 là $\\frac{1}{2}$",
+    "d": "Xác suất để thu được mặt có số chấm lớn hơn 4 là $\\frac{1}{2}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Gieo một con súc sắc. Khi đó:",
+   "explanation": "a) Ta có ${\\Omega=\\{1 ; 2 ; 3 ; 5 ; 6\\} \\Rightarrow n(\\Omega)=6}$.\nb) Gọi ${A}$ là biến cố: \"Số chấm thu được chia hết cho 2 \".\nTa có: ${A=\\{2 ; 4 ; 6\\} \\Rightarrow n(A)=3}$. Suy ra: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{6}=\\frac{1}{2}}$.\nc) Gọi ${B}$ là biến cố: \"Số chấm thu được nhỏ hơn 4 \".\nTa có: ${B=\\{1 ; 2 ; 3\\} \\Rightarrow n(B)=3}$. Suy ra: ${P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{3}{6}=\\frac{1}{2}}$.\nd) Gọi C là biến cố: \"Số chấm thu được lớn hơn 4 \".\nTa có: $C=\\{5;6\\}\\Rightarrow n(C)=2$. Suy ra: $P(B)=\\frac{n(C)}{n(\\Omega )}=\\frac{2}{6}=\\frac{1}{3}$.",
+   "ma": "de1.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 21,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D05",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$n(\\Omega )=8$",
+    "b": "Xác suất để thu được 3 mặt giống nhau bằng $\\frac{1}{4}$",
+    "c": "Xác suất để thu được ít nhất một mặt ngửa bằng $\\frac{1}{8}$",
+    "d": "Xác suất để không thu được một mặt ngửa nào bằng $\\frac{7}{8}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Ném 3 đồng xu đồng chất (giả thiết các đồng xu hoàn toàn giống nhau gồm 2 mặt: sấp và ngửa). Khi đó:",
+   "explanation": "a) Ta có: ${\\Omega=\\{S S S, S S N, S N S, S N N, N N N, N N S, N S S, N S N\\} \\Rightarrow n(\\Omega)=8}$.\nb) Gọi ${A}$ là biến cố: \"Thu được 3 mặt giống nhau\".\nTa có: ${A=\\{S S S, N N N\\} \\Rightarrow n(A)=2}$.\nXác suất của ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2}{8}=\\frac{1}{4}}$.\nc) Gọi ${C}$ là biến cố: \"Thu được ít nhất một mặt ngửa\".\nTa xét biến cố đối của ${C}$ là ${\\bar{C}}$ \"Không thu được một mặt ngửa nào\". Suy ra ${n(\\bar{C})=1}$. Do vậy ${P(C)=1-P(\\bar{C})=1-\\frac{n(\\bar{C})}{n(\\Omega)}=1-\\frac{1}{8}=\\frac{7}{8}}$.",
+   "ma": "de1.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Chọn ngẫu nhiên 2 số trong tập hợp ${X=\\{1 ; 2 ; 3 ; \\ldots}$; 50}. Tính xác suất của biến cố sau:\nA: \"Hai số được chọn là số chẵn\";",
+   "explanation": "Số cách chọn 2 số từ tập hợp ${X}$ gồm 50 số là: ${C_{50}^2=1225}$ (cách).\nDo đó, ${n(\\Omega)=1225}$.\nTrong tập hợp X có 25 số chẵn $\\{2;4;6...;50\\}$, nên số cách lấy ra 2 số chẵn là: ${C_{25}^2=300}$ (cách). Do đó, ${n(A)=300}$.\nXác suất của biến cố ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{300}{1225}=\\frac{12}{49}}$.",
+   "short_value": 0.24489795918367346,
+   "short_correct": "\\frac{12}{49}|12/49",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Chọn ngẫu nhiên 2 số trong tập hợp ${X=\\{1 ; 2 ; 3 ; \\ldots}$; 50}. Tính xác suất của biến cố sau:\nB: \"Trong hai số được chọn có một số lớn hơn 25, số còn lại nhỏ hơn hoặc bằng 25.\"",
+   "explanation": "Số cách chọn 2 số từ tập hợp ${X}$ gồm 50 số là: ${C_{50}^2=1225}$ (cách).\nSố cách chọn một số lớn hơn 25 là 25 cách.\nSố cách chọn số còn lại nhỏ hơn hoặc bằng 25 là 25 cách.\nDo đó, ta có ${n(B)=25 \\cdot 25=625}$.\nXác suất của biến cố ${B}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{625}{1225}=\\frac{25}{49}}$.",
+   "short_value": 0.5102040816326531,
+   "short_correct": "\\frac{25}{49}|25/49",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Gieo một đồng xu cân đối liên tiếp một số lân. Biết rằng xác suất để mặt ngửa không xuất hiện lần nào là ${\\frac{1}{1024}}$. Tính xác suất để mặt ngửa xuất hiện ít nhất một lần.",
+   "explanation": "Biến cố \"Mặt ngửa xuất hiện ít nhất một lần\" là biến cố đối của biến cố \"Mặt ngửa không xuất hiện lần nào\". Do vậy, xác suất để mặt ngửa xuất hiện ít nhất một lần\nlà ${1-\\frac{1}{1024}=\\frac{1023}{1024}}$.",
+   "short_value": 0.9990234375,
+   "short_correct": "\\frac{1023}{1024}|1023/1024",
+   "ma": "de1.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D02",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong tủ có 4 đôi giày khác loại. Bạn Lan lấy ra ngẫu nhiên 2 chiếc giày. Tính xác suất để lấy ra được một đôi giày hoàn chỉnh.",
+   "explanation": "Gọi ${A}$ là biến cố \"Lấy ra được một đôi giày hoàn chỉnh\".\nTa có: ${n(\\Omega)=C_8^2=28, n(A)=4}$.\nVậy xác suất của biến cố ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{28}=\\frac{1}{7}}$.",
+   "short_value": 0.14285714285714285,
+   "short_correct": "\\frac{1}{7}|1/7",
+   "ma": "de1.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một lớp học có 26 bạn nam và 20 bạn nữ. Chọn ngẫu nhiên một bạn trong lớp. Tính xác suất để bạn được chọn là nam.",
+   "explanation": "Ta có ${n(\\Omega)=26+20=46}$.\nGọi ${A}$ là biến cố bạn được chọn là nam. Vì lớp học có 26 bạn nam nên có 26 cách\nchọn một bạn nam. Do đó, ta có ${n(A)=26}$.\nVậy xác suất của biến cố ${A}$ là: ${P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{26}{46}=\\frac{13}{23}}$.",
+   "short_value": 0.5652173913043478,
+   "short_correct": "\\frac{13}{23}|13/23",
+   "ma": "de1.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D03",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Thùng ${I}$ chứa các quả bóng được đánh số ${1 ; 2 ; 3 ; 4}$. Thùng ${I I}$ chứa các quả bóng được đánh số ${1 ; 2 ; 3 ; 4}$. Lấy ra ngẫu nhiên một quả bóng ở mỗi thùng. Tính xác suất để quả bóng lấy ra ở thùng ${I}$ được đánh số lớn hơn quả bóng lấy ra ở thùng ${I I}$.",
+   "explanation": "Ta lập được bảng mô tả không gian mẫu như sau:\n[[IMG:image8.png]]\nGọi ${E}$ là biến cố quả bóng lấy ra ở thùng ${I}$ được đánh số lớn hơn quả bóng lấy ra ở\nthùng II. Dựa vào bảng, ta có ${n(\\Omega)=16, n(E)=6}$.\nVậy xác suất của biến cố ${E}$ là: ${P(E)=\\frac{n(E)}{n(\\Omega)}=\\frac{6}{16}=\\frac{3}{8}}$.",
+   "short_value": 0.375,
+   "short_correct": "0,375",
+   "ma": "de1.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L10.C9.B2.D01",
+   "dang_toan_web": "Định nghĩa cổ điển của xác suất."
+  }
+ ],
+ "flags": []
+}

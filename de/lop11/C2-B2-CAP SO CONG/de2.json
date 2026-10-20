@@ -1,0 +1,629 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "2",
+  "lesson": "2",
+  "title": "Bài 2. Cấp số cộng"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho ${\\left(u_n\\right)}$ là cấp số cộng có ${S_n=n^2+4 n}$ với ${n \\in \\mathbb{N}^*}$. Số hạng đầu ${u_1}$ và công sai ${d}$ của cấp số cộng đó là:",
+   "explanation": "",
+   "options": [
+    "${u_1=3, d=2}$",
+    "${u_1=5, d=2}$",
+    "${u_1=8, d=-2}$",
+    "${u_1=-5, d=2}$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B2.D04",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Biết các số $C_{n}^{1};\\text{ }C_{n}^{2};\\text{ }C_{n}^{3}$ theo thứ tự lập thành một cấp số cộng với $n>3.$ Tìm n.",
+   "explanation": "Ba số $C_{n}^{1};\\text{ }C_{n}^{2};\\text{ }C_{n}^{3}$ theo thứ tự ${{u}_{1}},\\,\\,{{u}_{2}},\\,\\,{{u}_{3}}$ lập thành cấp số cộng nên\n${{u}_{1}}+{{u}_{3}}=2{{u}_{2}}\\Leftrightarrow C_{n}^{1}+C_{n}^{3}=2C_{n}^{2}\\,\\,\\left( n\\ge 3 \\right)\\Leftrightarrow n+\\frac{\\left( n-2 \\right)\\left( n-1 \\right)n}{6}=2.\\frac{\\left( n-1 \\right)n}{2}$\n$\\Leftrightarrow 1+\\frac{{{n}^{2}}-3n+2}{6}=n-1\\Leftrightarrow {{n}^{2}}-9n+14\\Leftrightarrow \\left[ \\begin{aligned} & n=2 \\\\ & n=7 \\\\ \\end{aligned} \\right.\\Leftrightarrow n=7\\,\\left( n\\ge 3 \\right).$\nNhận xét: Nếu ${{u}_{k-1}},\\,\\,{{u}_{k}},\\,\\,{{u}_{k+1}}$ là ba số hạng liên tiếp của một cấp số cộng thì ta có ${{u}_{k-1}}+{{u}_{k+1}}=2{{u}_{k}}.$",
+   "options": [
+    "$n=5.$",
+    "$n=7.$",
+    "$n=9.$",
+    "$n=11.$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$ với ${{u}_{n}}=3-2n$ thì ${{S}_{60}}$ bằng",
+   "explanation": "Ta có ${{u}_{n+1}}=1-2n$, Ta có ${{u}_{n+1}}-{{u}_{n}}=-2,\\,\\forall n\\in {{\\mathbb{N}}^{*}}$, suy ra $\\left( {{u}_{n}} \\right)$ là cấp số cộng có ${{u}_{1}}=1$ và công sai $d=-2$. Vậy ${{S}_{60}}=\\frac{60}{2}\\left( 2{{u}_{1}}+59d \\right)=-3840$.",
+   "options": [
+    "$-6960$",
+    "$-117$",
+    "đáp án khác",
+    "$-116$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [
+    "trung_web:oFuO2TWCBL5REimySRPV"
+   ],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$thỏa mãn ${{u}_{1}}=4,\\,\\,{{u}_{3}}=10.$Công sai của cấp số cộng bằng",
+   "explanation": "Gọi $d$là công sai của cấp số cộng $\\left( {{u}_{n}} \\right)$.\nTa có ${{u}_{1}}=4,\\ {{u}_{3}}=10$suy ra $\\left\\{ \\begin{aligned} & {{u}_{1}}=4 \\\\ & {{u}_{1}}+2d=10 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{u}_{1}}=4 \\\\ & d=3 \\\\ \\end{aligned} \\right.$.\nVậy công sai của cấp số cộng $\\left( {{u}_{n}} \\right)$là $d=3.$.",
+   "options": [
+    "$6.$",
+    "$-6.$",
+    "$3.$",
+    "$-3.$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho cấp số cộng có ${{u}_{1}}=-3,\\,d=4$. Chọn khẳng định đúng trong các khẳng định sau",
+   "explanation": "Ta có ${{u}_{n}}={{u}_{1}}+\\left( n-1 \\right)d\\Rightarrow {{u}_{3}}={{u}_{1}}+2d=-3+2.4=5$.",
+   "options": [
+    "${{u}_{5}}=15$",
+    "${{u}_{4}}=8$",
+    "${{u}_{3}}=5$",
+    "${{u}_{2}}=2$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$ có ${{u}_{1}}=1,\\,\\,d=4$. Tìm số hạng ${{u}_{12}}$.",
+   "explanation": "Ta có: ${{u}_{12}}={{u}_{1}}+11d=45$.",
+   "options": [
+    "${{u}_{12}}=31$",
+    "${{u}_{12}}=13$",
+    "${{u}_{12}}=45$",
+    "${{u}_{12}}=17$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$ có ${{u}_{1}}=2$, $d=3$. Số hạng thứ 7 của cấp số cộng này là",
+   "explanation": "Ta có: số hạng tổng quát của cấp số cộng là: ${{u}_{n}}={{u}_{1}}+\\left( n-1 \\right)d\\Rightarrow {{u}_{7}}=2+6.3=20$.",
+   "options": [
+    "20",
+    "21",
+    "19",
+    "23"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$có số hạng đầu ${{u}_{1}}=-5$và công sai $d=3$. Số 100 là số hạng thứ mấy của cấp số cộng?",
+   "explanation": "Ta có: ${{u}_{n}}={{u}_{1}}+\\left( n-1 \\right)d\\Leftrightarrow 100=-5+\\left( n-1 \\right).3\\Leftrightarrow 100=3n-8\\Leftrightarrow n=36$.",
+   "options": [
+    "15",
+    "20",
+    "35",
+    "36"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D02",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Gọi $S$ là tập hợp tất cả các số tự nhiên $k$ sao cho $C_{14}^{k}$, $C_{14}^{k+1}$, $C_{14}^{k+2}$ theo thứ tự đó lập thành một cấp số cộng. Tính tổng tất cả các phần tử của $S$.",
+   "explanation": "Ta có $C_{14}^{k}+C_{14}^{k+2}=2C_{14}^{k+1}\\Leftrightarrow \\frac{14!}{k!\\left( 14-k \\right)!}+\\frac{14!}{\\left( k+2 \\right)!\\left( 12-k \\right)!}=2\\frac{14!}{\\left( k+1 \\right)!\\left( 13-k \\right)!}$\n$\\Leftrightarrow \\frac{1}{\\left( 14-k \\right)\\left( 13-k \\right)}+\\frac{1}{\\left( k+1 \\right)\\left( k+2 \\right)}=\\frac{2}{\\left( k+1 \\right)\\left( 13-k \\right)}$\n$\\Leftrightarrow \\left( k+1 \\right)\\left( k+2 \\right)+\\left( 14-k \\right)\\left( 13-k \\right)=2\\left( k+2 \\right)\\left( 14-k \\right)$\n$\\Leftrightarrow {{k}^{2}}-12k+32=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & k=8 \\\\ & k=4 \\\\ \\end{aligned} \\right.$.\nVậy chọn.",
+   "options": [
+    "$8$",
+    "$6$",
+    "$10$",
+    "$12$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D04",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Phương trình ${{x}^{3}}+ax+b=0$ có ba nghiệm lập thành cấp số cộng khi và chỉ khi",
+   "explanation": "Gỉa sử phương trình có ba nghiệm lập thành cấp số cộng khi đó ta có:\n${{x}_{1}}+{{x}_{3}}=2{{x}_{2}}$,${{x}_{1}}+{{x}_{2}}+{{x}_{3}}=0$ $\\Leftrightarrow {{x}_{2}}=0$.\nThay ${{x}_{2}}=0$ vào phương trình $b=0$. Ta có: $b=0$ $\\Rightarrow {{x}^{3}}+ax=0$ $\\Rightarrow a<0.$\n$\\Rightarrow b=0,a<0$ thỏa mãn.",
+   "options": [
+    "$b=0,$ $a<0$",
+    "$b=0,$ $a=1$",
+    "$b=1,$ $a=-2$",
+    "$b=-2,$ $a=1$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Có bao nhiêu giá trị nguyên của tham số $a$ thuộc đoạn $\\left[ 0;2018 \\right]$ sao cho ba số ${{5}^{x+1}}+{{5}^{1-x}}$; $\\frac{a}{2}$; ${{25}^{x}}+{{25}^{-x}}$ theo thứ tự đó lập thành một cấp số cộng?",
+   "explanation": "Ba số ${{5}^{x+1}}+{{5}^{1-x}}$; $\\frac{a}{2}$; ${{25}^{x}}+{{25}^{-x}}$, theo thứ tự đó lập thành cấp số cộng khi và chỉ khi\n$a=\\left( {{5}^{x+1}}+{{5}^{1-x}} \\right)+\\left( {{25}^{x}}+{{25}^{-x}} \\right)$ $\\ge 2\\sqrt{{{5}^{x+1}}\\cdot {{5}^{1-x}}}+2\\sqrt{{{25}^{x}}\\cdot {{25}^{-x}}}$ $=12$.\nDấu “=” xảy ra khi và chỉ khi $\\left\\{ \\begin{aligned} & {{5}^{x+1}}={{5}^{1-x}} \\\\ & {{25}^{x}}={{25}^{-x}} \\\\ \\end{aligned} \\right.\\Leftrightarrow x=0$.\nNhư vậy nếu xét $a\\in \\left[ 0;2018 \\right]$ thì ta nhận $a\\in \\left[ 12;2018 \\right]$. Có $2007$ số $a$ thoả đề.",
+   "options": [
+    "$2008$",
+    "$2006$",
+    "$2018$",
+    "$2007$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D06",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$, $n\\in {{\\mathbb{N}}^{*}}$ có số hạng tổng quát ${{u}_{n}}=1-3n$. Tổng của $10$ số hạng đầu tiên của cấp số cộng bằng",
+   "explanation": "Ta có: ${{u}_{n}}=1-3n$ $\\Rightarrow $ $\\left\\{ \\begin{aligned} & {{u}_{1}}=1-3.1=-2 \\\\ & {{u}_{10}}=1-3.10=-29 \\\\ \\end{aligned} \\right.$.\nÁp dụng công thức: $S=\\frac{n\\left( {{u}_{1}}+{{u}_{n}} \\right)}{2}=\\frac{10\\left( {{u}_{1}}+{{u}_{10}} \\right)}{2}=-155$.",
+   "options": [
+    "$-59048$",
+    "$-59049$",
+    "$-155$",
+    "$-310$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D04",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Công sai của cấp số cộng bằng $7$",
+    "b": "Số hạng ${{u}_{85}}=501$",
+    "c": "Số hạng ${{u}_{10}}=52$",
+    "d": "Tổng của 85 số hạng đầu ${{S}_{85}}=21165$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số cộng ${\\left(u_n\\right)}$, biết rằng: ${u_1=-3, u_6=27}$, khi đó:",
+   "explanation": "Ta có: ${u_6=u_1+5 d \\Leftrightarrow 27=-3+5 d \\Leftrightarrow d=6}$.\nVậy ${{u}_{n}}={{u}_{1}}+(n-1)d=-3+(n-1)\\cdot 6=-9+6n$\n${{S}_{85}}=\\frac{85}{2}\\left( 2{{u}_{1}}+84d \\right)=\\frac{85}{2}[2\\cdot (-3)+84\\cdot 6]=21165$",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D04",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng ${{u}_{1}}=5$",
+    "b": "Tổng ${{u}_{1}}+{{u}_{3}}=14$",
+    "c": "Công sai của cấp số cộng bằng $3$",
+    "d": "Số hạng ${{u}_{11}}=25$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số cộng ${\\left(u_n\\right)}$, gọi ${S_n}$ là tổng ${n}$ số hạng đầu tiên của nó. Biết ${S_7=77}$ và ${S_{12}=192}$. Khi đó:",
+   "explanation": "Gọi ${d}$ là công sai của cấp số cộng.\nTa có: ${\\left\\{\\begin{array}{l}S_7=77 \\\\ S_{12}=192\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{7}{2}\\left(2 u_1+6 d\\right)=77 \\\\ \\frac{12}{2}\\left(2 u_1+11 d\\right)=192\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}7 u_1+21 d=77 \\\\ 12 u_1+66 d=192\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1=5 \\\\ d=2\\end{array}\\right.\\right.\\right.\\right.}$.\nKhi đó: ${u_n=u_1+(n-1) d=5+2(n-1)=3+2 n}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D04",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{u}_{11}}=-65$",
+    "b": "${{u}_{5}}+{{u}_{7}}=-50$",
+    "c": "Số -849 là số hạng thứ 123 của cấp số cộng",
+    "d": "Số $-114$ là số hạng thứ 18 của cấp số cộng"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số cộng ${\\left(u_n\\right)}$ có ${u_1=5}$ và ${d=-7}$. Khi đó",
+   "explanation": "Công thức số hạng tổng quát của cấp số cộng là: ${u_n=u_1+(n-1) d=5+(n-1) \\cdot(-7)=-7 n+12 }$\na) Ta có: ${u_{11}=-7.11+12=-65}$.\nb) ${{u}_{5}}+{{u}_{7}}=-60$\nc) Ta có: ${-849=-7 n+12 \\Rightarrow n=123}$.\nd) Ta có $-114=-7n+12\\Rightarrow n=18$",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Số hạng ${{u}_{1}}=21$",
+    "b": "Công sai của cấp số cộng bằng $-2$",
+    "c": "Số hạng ${{u}_{11}}=-9$",
+    "d": "Số $-6048$ là số hạng thứ $2024$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho cấp số cộng ${\\left(u_n\\right)}$ thoả mãn ${\\left\\{\\begin{array}{l}u_1-u_3+u_5=15 \\\\ u_1+u_6=27\\end{array}\\right.}$. Khi đó",
+   "explanation": "Áp dụng công thức số hạng tổng quát của cấp số cộng: ${u_n=u_1+(n-1) d}$.\nKhi đó: ${\\left\\{\\begin{array}{l}u_1-u_3+u_5=15 \\\\ u_1+u_6=27\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1-\\left(u_1+2 d\\right)+\\left(u_1+4 d\\right)=15 \\\\ u_1+\\left(u_1+4 d\\right)=27\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1+2 d=15 \\\\ 2 u_1+5 d=27\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1=21 \\\\ d=-3\\end{array}\\right.\\right.\\right.\\right.}$.\nSuy ra ${{u}_{n}}={{u}_{1}}+(n-1)d=21+(n-1).(-3)=-3n+24$\nVậy ${{u}_{11}}=-9$\nTa có $-6048=-3n+24\\Rightarrow n=2024$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C2.B2.D03",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm ${x}$ để ba số ${10-3 x, 2 x^2+3,7-4 x}$ theo thứ tự lập thành một cấp số cộng.",
+   "explanation": "Ba số ${10-3 x, 2 x^2+3,7-4 x}$ theo thứ tự lập thành cấp số cộng khi\n${\\left(2 x^2+3\\right)-(10-3 x)=(7-4 x)-\\left(2 x^2+3\\right) \\Leftrightarrow 4 x^2+7 x-11=0 \\Leftrightarrow\\left[\\begin{array}{l} x=1 \\\\ x=\\frac{-11}{4} \\end{array}\\right. }$",
+   "short_value": null,
+   "short_correct": "x=1;x=-\\dfrac{11}{4}",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D05",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left(u_n\\right)}$ với ${u_n=-2 n+3}$. Chứng minh rằng ${\\left(u_n\\right)}$ là một cấp số cộng. Xác định số hạng đầu và công sai của cấp số cộng này.",
+   "explanation": "Ta có: ${u_n-u_{n-1}=(-2 n+3)-[-2(n-1)+3]=-2}$, với mọi ${n \\geq 2}$\nDo đó ${\\left(u_n\\right)}$ là cấp số cộng có số hạng đầu là ${u_1=1}$ và công sai bằng ${{d}=-2}$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho dãy số ${\\left(u_n\\right)}$ với ${u_n=4 n-3}$. Chứng minh rằng ${\\left(u_n\\right)}$ là một cấp số cộng. Xác định số hạng đầu ${u_1}$ và công sai ${d}$ của cấp số cộng này. Từ đó viết số hạng tổng quát ${u_n}$ dưới dạng ${u_n=u_1+(n-1) d}$.",
+   "explanation": "Ta có: ${u_n-u_{n-1}=(4 n-3)-[4(n-1)-3]=4}$, với mọi ${n \\geq 2}$\nDo đó ${\\left(u_n\\right)}$ là cấp số cộng có số hạng đầu là ${u_1=1}$ và công sai bằng ${{d}=4}$\nSố hạng tổng quát: ${u_n=1+4(n-1)}$",
+   "short_value": null,
+   "short_correct": "",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Giá của một chiếc xe ô tô lúc mới mua là 680 triệu đồng. Cứ sau mỗi năm sử dụng, giá của chiếc xe ô tô giảm 55 triệu đồng. Tính giá còn lại của chiếc xe sau 5 năm sử dụng.",
+   "explanation": "Giá của chiếc xe sau n năm là: ${u_n=680-55(n-1)}$\nVậy sau 5 năm sử dụng giá của chiếc xe là: ${u_5=680-55(5-1)=460}$",
+   "short_value": 405,
+   "short_correct": "405",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D06",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
+   ],
+   "question": "Vào năm 2020, dân số của một thành phố là khoảng 1,2 triệu người. Giả sử mỗi năm, dân số của thành phố này tăng thêm khoảng 30 nghìn người. Hãy ước tính dân số của thành phố này vào năm 2030.",
+   "explanation": "Dân số mỗi năm của thành phố lập thành cấp số cộng có ${u_1=1200}$, công sai $d=30$\nDân số mỗi năm có dạng tổng quát là: ${u_n=1200+30(n-1)}$\nDân số của năm 2030 tức $n=11;{{u}_{11}}=1200+30(11-1)=1500$",
+   "short_value": 1500,
+   "short_correct": "1500",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D06",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nếu anh Nam nhận được lời mời làm việc cho một công ty nước ngoài với mức lương khởi điểm là 35000 đô la mỗi năm và được tăng thêm 1400 đô la lương mỗi năm, thì sẽ mất bao nhiêu năm làm việc để tổng lương mà anh Nam nhận được là 319200 đô la?",
+   "explanation": "Áp dụng công thức tính tổng ${n}$ số hạng đầu của cấp số cộng với\n$\\begin{aligned} & {{S}_{n}}=319200,{{u}_{1}}=35000,d=1400, \\\\ & 319200={{S}_{n}}=\\frac{n}{2}[2\\cdot 35000+(n-1)\\cdot 1400]. \\\\ \\end{aligned}$\nSuy ra ${n=8}$.\nVậy sau 8 năm làm việc thì tổng lương mà anh Nam nhận được là 319200 đô la.",
+   "short_value": null,
+   "short_correct": "8",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C2.B2.D06",
+   "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
+  }
+ ],
+ "flags": []
+}

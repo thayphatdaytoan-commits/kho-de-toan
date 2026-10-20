@@ -1,0 +1,337 @@
+{
+ "truong": "THCS Đa Phước",
+ "nam_hoc": "2023-2024",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Thực hiện phép tính:",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "$5\\sqrt{5}\\,-\\,2\\sqrt{80}\\,+\\,3\\sqrt{20}$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3\\sqrt{5}",
+     "loi_giai": "$5\\sqrt{5}-2\\sqrt{80}+3\\sqrt{20}=5\\sqrt{5}-8\\sqrt{5}+6\\sqrt{5}=3\\sqrt{5}$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thực hiện phép tính: $5\\sqrt{5}\\,-\\,2\\sqrt{80}\\,+\\,3\\sqrt{20}$",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$3\\sqrt{5}$",
+       "$-3\\sqrt{5}$",
+       "$7\\sqrt{5}$",
+       "$-7\\sqrt{5}$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "$\\sqrt{(3+\\sqrt{2})^2}+\\sqrt{6-4\\sqrt{2}}$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5",
+     "loi_giai": "$\\sqrt{(3+\\sqrt{2})^2}+\\sqrt{6-4\\sqrt{2}}=\\sqrt{(3+\\sqrt{2})^2}+\\sqrt{(\\sqrt{4}-\\sqrt{2})^2}=|3+\\sqrt{2}|+|\\sqrt{4}-\\sqrt{2}|=3+\\sqrt{2}+2-\\sqrt{2}=5$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thực hiện phép tính: $\\sqrt{(3+\\sqrt{2})^2}+\\sqrt{6-4\\sqrt{2}}$",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "c",
+     "de": "$\\frac{\\sqrt{6}+\\sqrt{2}}{\\sqrt{3}+1}-\\frac{4}{\\sqrt{6}-\\sqrt{2}}$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "-\\sqrt{6}",
+     "loi_giai": "$\\frac{\\sqrt{6}+\\sqrt{2}}{\\sqrt{3}+1}-\\frac{4}{\\sqrt{6}-\\sqrt{2}}=\\frac{\\sqrt{2}(\\sqrt{3}+1)}{\\sqrt{3}+1}-\\frac{4(\\sqrt{6}+\\sqrt{2})}{(\\sqrt{6}-\\sqrt{2})(\\sqrt{6}+\\sqrt{2})}=\\sqrt{2}-\\frac{4(\\sqrt{6}+\\sqrt{2})}{4}=\\sqrt{2}-(\\sqrt{6}+\\sqrt{2})=-\\sqrt{6}$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thực hiện phép tính: $\\frac{\\sqrt{6}+\\sqrt{2}}{\\sqrt{3}+1}-\\frac{4}{\\sqrt{6}-\\sqrt{2}}$",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$-\\sqrt{6}$",
+       "$\\sqrt{6}$",
+       "$-\\sqrt{2}$",
+       "$\\sqrt{2}$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho hai hàm số (d1) y = 2x $-$ 1 và (d2) y = $-$ x + 2",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị của hai hàm số (d1) và (d2) cùng một mặt phẳng tọa độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Hình vẽ",
+     "loi_giai": "Bảng giá trị vẽ đúng",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hai hàm số (d1) y = 2x $-$ 1 và (d2) y = $-$ x + 2. Vẽ đồ thị của hai hàm số (d1) và (d2) cùng một mặt phẳng tọa độ.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = 2x - 1",
+        "kind": "linear",
+        "a": 2,
+        "b": -1,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "y = -x + 2",
+        "kind": "linear",
+        "a": -1,
+        "b": 2,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ giao điểm của hai đồ thị (d1) và (d2) bằng phép toán.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(1;1)",
+     "loi_giai": "Phương trình hoành độ giao điểm: 2x – 1 = –x + 2 $\\Leftrightarrow$ 3x = 3 $\\Leftrightarrow$ x = 1 $\\Rightarrow$ y = 2x – 1 = 2.1 – 1 = 1. Vậy tọa độ giao điểm của (d1) và (d2) là (1;1)",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hai hàm số (d1) y = 2x $-$ 1 và (d2) y = $-$ x + 2. Tìm tọa độ giao điểm của hai đồ thị (d1) và (d2) bằng phép toán.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$x =$ {{1}} ; $y =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1"
+       },
+       {
+        "id": "2",
+        "answer": "1"
+       }
+      ]
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Giải phương trình: $\\sqrt{4x+4}+\\sqrt{9x+9}=15$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "8",
+     "loi_giai": "[[IMG:image2.png]] Vậy $S=\\{8\\}$",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Nhiệt độ ở mặt đất đo được khoảng 30°C. Biết rằng cứ lên 1km thì nhiệt độ giảm đi 5°C. Biết rằng mối liên hệ giữa nhiệt độ y (°C) và độ cao x (km) là 1 hàm số bậc nhất có dạng $y=ax+b$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Xác định các hệ số a và b.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "a=-5; b=30",
+     "loi_giai": "Nhiệt độ ở mặt đất đo được khoảng 30°C => x = 0; y = 30. Thế x = 0, y = 30 vào hàm số ta được: 30 = a.0 + b $\\Leftrightarrow$ b = 30 $\\Rightarrow$ y = a.x + 30. Vì cứ lên 1km thì nhiệt độ giảm đi 5°C => x = 1; y = 25. Thế x = 1; y = 25 vào hàm số ta được: 25 = a.1 + 30 $\\Leftrightarrow$ a = -5. Vậy a = -5 ; b = 30",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhiệt độ ở mặt đất đo được khoảng 30°C. Biết rằng cứ lên 1km thì nhiệt độ giảm đi 5°C. Biết rằng mối liên hệ giữa nhiệt độ y (°C) và độ cao x (km) là 1 hàm số bậc nhất có dạng $y=ax+b$. Xác định các hệ số a và b.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$a =$ {{1}} ; $b =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "-5"
+       },
+       {
+        "id": "2",
+        "answer": "30"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hãy tính nhiệt độ khi ở độ cao 3km so với mặt đất.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "15",
+     "loi_giai": "Thế x = 3 vào hàm số y = -5x + 30 ta được: y = -5.3 + 30 = 15. Vậy nhiệt độ khi ở độ cao 3km so với mặt đất là 15°C.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhiệt độ ở mặt đất đo được khoảng 30°C. Biết rằng cứ lên 1km thì nhiệt độ giảm đi 5°C. Biết rằng mối liên hệ giữa nhiệt độ y (°C) và độ cao x (km) là 1 hàm số bậc nhất có dạng $y=ax+b$. Hãy tính nhiệt độ khi ở độ cao 3km so với mặt đất.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Theo quy định của cửa hàng xe máy, để hoàn thành chỉ tiêu một tháng, mỗi nhân viên phải bán được trung bình một chiếc xe máy một ngày (tháng có 30 ngày thì chỉ tiêu là 30 chiếc xe máy, tháng có 31 ngày thì chỉ tiêu là 31 chiếc xe máy). Nhân viên nào hoàn thành chỉ tiêu trong một tháng thì nhận được lương cơ bản là 9 000 000 đồng. Nếu trong tháng nhân viên nào bán vượt chỉ tiêu thì được hưởng thêm 15% số tiền lời của số xe máy bán vượt đó. Trong tháng 11, anh Nam bán được 50 chiếc xe máy, mỗi xe máy cửa hàng lời được 2 000 000 đồng. Tính tổng số tiền lương anh Nam nhận được của tháng 11. Biết rằng tháng 11 có 30 ngày. [[IMG:image1.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "15000000",
+     "loi_giai": "Số tiền lương của anh Nam là: 9 000 000 + (50-30).2 000 000. 15% = 15 000 000 (đồng)",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Một thủy thủ lái ca nô ra biển về hướng đông bắc với một góc nghiêng 41°. Đi được 3km, anh ta phát hiện sắp hết nhiên liệu nên vội vã quay ca nô vào bờ theo hướng thẳng góc với bờ biển (như hình), đi được 1,2km thì ca nô hết nhiên liệu anh ta phải dùng chèo để đưa ca nô vào bờ. Hỏi người thủy thủ đó phải chèo bằng tay bao nhiêu km mới vào được đến bờ. (Làm tròn kết quả đến chữ số thập phân thứ nhất)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.1",
+     "loi_giai": "[[IMG:image3.png]] Ta có: $\\widehat{B}=\\widehat{NOB}=41^\\circ$ (so le trong). AB = OB.cosB = 3.cos41° ≈ 2,26 (km). Vậy người đó phải chèo tay quãng đường khoảng: 2,26 – 1,2 = 1,06 (km) ≈ 1,1 km. [[IMG:image4.png]]",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Từ M nằm ngoài đường tròn (O), vẽ hai tiếp tuyến MA và MB (A và B là tiếp điểm). Gọi H là giao điểm của OM và AB.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: OM $\\perp$ AB tại H.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Trong (O), có OA = OB = R. MA = MB (tính chất 2 tiếp tuyến cắt nhau tại M). Nên OM là đường trung trực của AB. Suy ra OM vuông góc với AB tại H.",
+     "cum": [
+      "Trong (O), có OA = OB = R",
+      "MA = MB (tính chất 2 tiếp tuyến cắt nhau tại M)",
+      "Nên OM là đường trung trực của AB",
+      "Suy ra OM vuông góc với AB tại H"
+     ],
+     "nhieu": [
+      "Vì OA = OB nên tam giác OAB cân tại O, suy ra OM là đường cao"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ M nằm ngoài đường tròn (O), vẽ hai tiếp tuyến MA và MB (A và B là tiếp điểm). Gọi H là giao điểm của OM và AB. Chứng minh: OM $\\perp$ AB tại H.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Kẻ đường kính AD. Gọi C là giao điểm của (O) và MD (C khác D). Chứng minh 4 điểm A, H, C, M cùng thuộc một đường tròn.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Vì tam giác ACD nội tiếp đường tròn đường kính AD. Nên tam giác ACD vuông tại C. Vì Tam giác AHM vuông tại H. Nên tam giác AHM nội tiếp đường tròn, đường kính AM => A, H, M thuộc đường tròn, đường kính AM (1). Vì Tam giác ACM vuông tại C. Nên tam giác ACM nội tiếp đường tròn, đường kính AM => A, C, M thuộc đường tròn, đường kính AM (2). Từ (1) và (2) suy ra: M,A,H,C cùng thuộc 1 đường tròn.",
+     "cum": [
+      "Vì tam giác ACD nội tiếp đường tròn đường kính AD nên tam giác ACD vuông tại C",
+      "Vì tam giác AHM vuông tại H nên tam giác AHM nội tiếp đường tròn đường kính AM, suy ra A, H, M thuộc đường tròn đường kính AM (1)",
+      "Vì tam giác ACM vuông tại C nên tam giác ACM nội tiếp đường tròn đường kính AM, suy ra A, C, M thuộc đường tròn đường kính AM (2)",
+      "Từ (1) và (2) suy ra M, A, H, C cùng thuộc một đường tròn"
+     ],
+     "nhieu": [
+      "Vì tam giác ACD vuông tại C nên C thuộc đường tròn đường kính AD, suy ra A, C, D cùng thuộc một đường tròn"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ M nằm ngoài đường tròn (O), vẽ hai tiếp tuyến MA và MB (A và B là tiếp điểm). Gọi H là giao điểm của OM và AB. Kẻ đường kính AD. Gọi C là giao điểm của (O) và MD (C khác D). Chứng minh 4 điểm A, H, C, M cùng thuộc một đường tròn.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Chứng minh AC = DM.cos$\\widehat{AMC}$. sin$\\widehat{CHB}$",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Cm: $\\Delta MHC \\sim \\Delta MDO$. Suy ra: $\\widehat{MHC}=\\widehat{MDO}$. Ta có: $\\sin CHB=\\cos MHC=\\cos MDO=\\frac{CD}{AD}$ => $CD=AD.\\sin CHB$. Ta có: $\\cos AMC=\\frac{CM}{AM}$ $\\Rightarrow CM=AM.\\cos AMC$. Mà $AC^2=CD.CM=AD.\\sin CHB.AM.\\cos AMC$. $AC^2=AC.DM.\\sin CHB.\\cos AMC$. Vậy $AC=DM.\\sin CHB.\\cos AMC$.",
+     "cum": [
+      "Cm: $\\Delta MHC \\sim \\Delta MDO$",
+      "Suy ra: $\\widehat{MHC}=\\widehat{MDO}$",
+      "Ta có: $\\sin CHB=\\cos MHC=\\cos MDO=\\frac{CD}{AD}$ => $CD=AD.\\sin CHB$",
+      "Ta có: $\\cos AMC=\\frac{CM}{AM}$ $\\Rightarrow CM=AM.\\cos AMC$",
+      "Mà $AC^2=CD.CM=AD.\\sin CHB.AM.\\cos AMC$",
+      "$AC^2=AC.DM.\\sin CHB.\\cos AMC$",
+      "Vậy $AC=DM.\\sin CHB.\\cos AMC$"
+     ],
+     "nhieu": [
+      "Cm: $\\Delta MHC \\sim \\Delta MDO$ suy ra $\\widehat{MHC}=\\widehat{MDO}$, từ đó $AC=DM.\\cos CHB.\\sin AMC$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ M nằm ngoài đường tròn (O), vẽ hai tiếp tuyến MA và MB (A và B là tiếp điểm). Gọi H là giao điểm của OM và AB. Kẻ đường kính AD. Gọi C là giao điểm của (O) và MD (C khác D). Chứng minh AC = DM.cos$\\widehat{AMC}$. sin$\\widehat{CHB}$",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "DeepSeek",
+ "tn_diem": 0.25
+}

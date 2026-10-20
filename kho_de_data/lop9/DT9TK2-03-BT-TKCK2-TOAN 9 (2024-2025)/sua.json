@@ -1,0 +1,522 @@
+{
+ "de1.P4.C4": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Lượng nước được chứa trong ly là bao nhiêu centimet khối? (làm tròn đến hàng phần trăm).",
+    "explanation": "Bán kính đáy của ly là $r=5:2=2,5$ cm.\nLượng nước chứa trong ly là: $V=\\pi {{r}^{2}}h\\approx 3,14.2,{{5}^{2}}.10\\approx 196,35\\left( c{{m}^{3}} \\right)$.",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "Bán kính đáy: $r=5:2=$ {{1}} cm",
+      "Lượng nước: $V=\\pi r^2h\\approx 3,14\\cdot$ {{2}} $\\cdot 10\\approx$ {{3}} $cm^3$"
+     ],
+     "o": [
+      {
+       "id": "1",
+       "loai": "so",
+       "dap_an": "2.5"
+      },
+      {
+       "id": "2",
+       "loai": "so",
+       "dap_an": "6.25"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "196.25|196,25|196.35"
+      }
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Người ta thả vào ly nước 5 viên bi hình cầu có cùng thể tích, đồng chất và ngập hoàn toàn trong nước làm nước trong ly dâng lên bằng miệng ly. Hỏi bán kính của mỗi viên bi là bao nhiêu cm? (Kết quả làm tròn đến hàng phần trăm).",
+    "explanation": "Lượng nước dâng lên chính là thể tích của cả 5 viên bi nên thể tích của 5 viên bi là: $\\pi .{{\\left( 5:2 \\right)}^{2}}.\\left( 15-10 \\right)=31,25\\pi \\left( c{{m}^{3}} \\right)$.\nThể tích của một viên bi: $V=\\frac{31,25\\pi }{5}=6,25\\pi \\left( c{{m}^{3}} \\right)$.\nBán kính của một viên bi: $R=\\sqrt[3]{\\frac{3V}{4\\pi }}=\\sqrt[3]{\\frac{3.6,25\\pi }{4\\pi }}\\approx 1,67\\left( cm \\right)$.",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "1,67"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) Đề cho π≈3,14 và khung ghi 3,14·6,25·10 = 196,25; key 196,35 là tính bằng π máy tính. Đề xuất chấp nhận 196,25 (giữ 196,35 làm phương án phụ)"
+ },
+ "de1.P4.C5": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Chứng minh tứ giác MAOB nội tiếp.",
+    "explanation": "Vì $OAM$ vuông tại $A$ nên $OAM$ nội tiếp đường tròn đường kính $OM$ (1).\nVì $OBM$ vuông tại $B$ nên $OBM$ nội tiếp đường tròn đường kính $OM$ (2).\nTừ (1) và (2) suy ra 4 điểm $M,A,O,B$ cùng thuộc đường tròn đường kính $OM$.\nVậy tứ giác $MAOB$ nội tiếp.",
+    "points": 0.5,
+    "type": "proof_frame",
+    "frame": {
+     "blocks": [
+      {
+       "lines": [
+        "Vì {{1}} là tiếp tuyến nên {{2}} $\\perp$ {{3}}, suy ra $\\widehat{OAM}=$ {{4}}."
+       ],
+       "hint": "Xác định góc vuông thứ nhất"
+      },
+      {
+       "lines": [
+        "Vì {{5}} là tiếp tuyến nên {{6}} $\\perp$ {{7}}, suy ra $\\widehat{OBM}=$ {{8}}."
+       ],
+       "hint": "Xác định góc vuông thứ hai"
+      },
+      {
+       "lines": [
+        "Tứ giác {{9}} có $\\widehat{OAM}+\\widehat{OBM}=$ {{10}} nên {{11}} đường tròn."
+       ],
+       "hint": "Kết luận tứ giác nội tiếp"
+      }
+     ],
+     "blanks": [
+      {
+       "id": "1",
+       "mode": "drag",
+       "answers": [
+        "MA"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "2",
+       "mode": "drag",
+       "answers": [
+        "OA"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "3",
+       "mode": "drag",
+       "answers": [
+        "MA"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "4",
+       "mode": "drag",
+       "answers": [
+        "90°"
+       ],
+       "keywords": [],
+       "placeholder": "số đo góc",
+       "maxLen": 6
+      },
+      {
+       "id": "5",
+       "mode": "drag",
+       "answers": [
+        "MB"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "6",
+       "mode": "drag",
+       "answers": [
+        "OB"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "7",
+       "mode": "drag",
+       "answers": [
+        "MB"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "8",
+       "mode": "drag",
+       "answers": [
+        "90°"
+       ],
+       "keywords": [],
+       "placeholder": "số đo góc",
+       "maxLen": 6
+      },
+      {
+       "id": "9",
+       "mode": "drag",
+       "answers": [
+        "MAOB"
+       ],
+       "keywords": [],
+       "placeholder": "tên tứ giác",
+       "maxLen": 12
+      },
+      {
+       "id": "10",
+       "mode": "drag",
+       "answers": [
+        "180°"
+       ],
+       "keywords": [],
+       "placeholder": "tổng số đo góc",
+       "maxLen": 6
+      },
+      {
+       "id": "11",
+       "mode": "drag",
+       "answers": [
+        "nội tiếp"
+       ],
+       "keywords": [],
+       "placeholder": "tính chất",
+       "maxLen": 12
+      }
+     ],
+     "pool": [
+      "MA",
+      "MB",
+      "OA",
+      "OB",
+      "MO",
+      "AB",
+      "90°",
+      "180°",
+      "MAOB",
+      "OAM",
+      "OBM",
+      "nội tiếp",
+      "vuông góc",
+      "song song",
+      "tiếp tuyến"
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Vẽ đường kính AD của đường tròn (O). Đường thẳng MD cắt đường tròn (O) tại N. Chứng minh: MN.MD = MH.MO.",
+    "explanation": "Chứng minh được $MO\\perp AB$.\nChứng minh được $M{{A}^{2}}=MH.MO$.\nChứng minh được $M{{A}^{2}}=MN.MD$.\nSuy ra $MN.MD=MH.MO$.",
+    "points": 0.75,
+    "type": "proof_frame",
+    "frame": {
+     "blocks": [
+      {
+       "lines": [
+        "Vì {{1}} $=$ {{2}} và {{3}} $=$ {{4}} nên {{5}} là đường trung trực của {{6}}, suy ra {{7}} $\\perp$ {{8}} tại {{9}}."
+       ],
+       "hint": "Chứng minh MO vuông góc AB"
+      },
+      {
+       "lines": [
+        "Trong tam giác vuông {{10}} có đường cao {{11}}, suy ra $M{{A}^{2}}=$ {{12}}."
+       ],
+       "hint": "Hệ thức lượng trong tam giác vuông thứ nhất"
+      },
+      {
+       "lines": [
+        "Vì {{13}} là đường kính nên $\\widehat{AND}=$ {{14}}, suy ra {{15}} $\\perp$ {{16}}."
+       ],
+       "hint": "Xác định góc vuông thứ ba"
+      },
+      {
+       "lines": [
+        "Trong tam giác vuông {{17}} có đường cao {{18}}, suy ra $M{{A}^{2}}=$ {{19}}."
+       ],
+       "hint": "Hệ thức lượng trong tam giác vuông thứ hai"
+      },
+      {
+       "lines": [
+        "Từ $M{{A}^{2}}=$ {{20}} và $M{{A}^{2}}=$ {{21}} suy ra {{22}} $=$ {{23}}."
+       ],
+       "hint": "Kết luận đẳng thức cần chứng minh"
+      }
+     ],
+     "blanks": [
+      {
+       "id": "1",
+       "mode": "drag",
+       "answers": [
+        "MA"
+       ],
+       "keywords": [],
+       "placeholder": "tên cạnh",
+       "maxLen": 12
+      },
+      {
+       "id": "2",
+       "mode": "drag",
+       "answers": [
+        "MB"
+       ],
+       "keywords": [],
+       "placeholder": "tên cạnh",
+       "maxLen": 12
+      },
+      {
+       "id": "3",
+       "mode": "drag",
+       "answers": [
+        "OA"
+       ],
+       "keywords": [],
+       "placeholder": "tên cạnh",
+       "maxLen": 12
+      },
+      {
+       "id": "4",
+       "mode": "drag",
+       "answers": [
+        "OB"
+       ],
+       "keywords": [],
+       "placeholder": "tên cạnh",
+       "maxLen": 12
+      },
+      {
+       "id": "5",
+       "mode": "drag",
+       "answers": [
+        "MO"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "6",
+       "mode": "drag",
+       "answers": [
+        "AB"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "7",
+       "mode": "drag",
+       "answers": [
+        "MO"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "8",
+       "mode": "drag",
+       "answers": [
+        "AB"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "9",
+       "mode": "drag",
+       "answers": [
+        "H"
+       ],
+       "keywords": [],
+       "placeholder": "tên điểm",
+       "maxLen": 12
+      },
+      {
+       "id": "10",
+       "mode": "drag",
+       "answers": [
+        "MAO"
+       ],
+       "keywords": [],
+       "placeholder": "tên tam giác",
+       "maxLen": 12
+      },
+      {
+       "id": "11",
+       "mode": "drag",
+       "answers": [
+        "AH"
+       ],
+       "keywords": [],
+       "placeholder": "tên đường cao",
+       "maxLen": 12
+      },
+      {
+       "id": "12",
+       "mode": "drag",
+       "answers": [
+        "MH.MO"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      },
+      {
+       "id": "13",
+       "mode": "drag",
+       "answers": [
+        "AD"
+       ],
+       "keywords": [],
+       "placeholder": "tên đường kính",
+       "maxLen": 12
+      },
+      {
+       "id": "14",
+       "mode": "drag",
+       "answers": [
+        "90°"
+       ],
+       "keywords": [],
+       "placeholder": "số đo góc",
+       "maxLen": 6
+      },
+      {
+       "id": "15",
+       "mode": "drag",
+       "answers": [
+        "AN"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "16",
+       "mode": "drag",
+       "answers": [
+        "MD"
+       ],
+       "keywords": [],
+       "placeholder": "tên đoạn thẳng",
+       "maxLen": 12
+      },
+      {
+       "id": "17",
+       "mode": "drag",
+       "answers": [
+        "MAD"
+       ],
+       "keywords": [],
+       "placeholder": "tên tam giác",
+       "maxLen": 12
+      },
+      {
+       "id": "18",
+       "mode": "drag",
+       "answers": [
+        "AN"
+       ],
+       "keywords": [],
+       "placeholder": "tên đường cao",
+       "maxLen": 12
+      },
+      {
+       "id": "19",
+       "mode": "drag",
+       "answers": [
+        "MN.MD"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      },
+      {
+       "id": "20",
+       "mode": "drag",
+       "answers": [
+        "MH.MO"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      },
+      {
+       "id": "21",
+       "mode": "drag",
+       "answers": [
+        "MN.MD"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      },
+      {
+       "id": "22",
+       "mode": "drag",
+       "answers": [
+        "MN.MD"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      },
+      {
+       "id": "23",
+       "mode": "drag",
+       "answers": [
+        "MH.MO"
+       ],
+       "keywords": [],
+       "placeholder": "biểu thức",
+       "maxLen": 12
+      }
+     ],
+     "pool": [
+      "MA",
+      "MB",
+      "OA",
+      "OB",
+      "MO",
+      "AB",
+      "H",
+      "AH",
+      "AD",
+      "AN",
+      "MD",
+      "MAO",
+      "MAD",
+      "MNO",
+      "90°",
+      "MH.MO",
+      "MN.MD",
+      "MA.MB",
+      "OA.OB",
+      "đường kính",
+      "tiếp tuyến",
+      "đường trung trực"
+     ]
+    }
+   },
+   {
+    "id": "c",
+    "label": "c",
+    "question": "Giả sử MO = 4cm và R = 2cm. Tính diện tích phần hình giới hạn bởi MA, MB và cung nhỏ AB.",
+    "explanation": "Trong $OAM$ ta có $\\cos \\widehat{AOM}=\\frac{OA}{OM}=\\frac{2}{4}=\\frac{1}{2}$, suy ra $\\widehat{AOM}=60{}^\\circ $.\nSuy ra $\\widehat{AOB}=120{}^\\circ $.\nDiện tích hình quạt $AOB$: ${{S}_{AOB}}=\\frac{n}{360}\\pi {{R}^{2}}=\\frac{120}{360}\\pi {{2}^{2}}=\\frac{4}{3}\\pi $.\nChứng minh $OH=\\frac{O{{A}^{2}}}{OM}=\\frac{4}{4}=1$. Suy ra $HM=3$.\nChứng minh được $A{{H}^{2}}=HO.HM=1.3=3$, suy ra $AH=\\sqrt{3}$.\nDiện tích tứ giác $MAOB$ là ${{S}_{MAOB}}=\\frac{1}{2}AB.OM=\\frac{1}{2}.2\\sqrt{3}.4=4\\sqrt{3}$.\nDiện tích phần hình giới hạn bởi $MA,MB$ và cung nhỏ $AB$ là $S={{S}_{MAOB}}-{{S}_{OAB}}=4\\sqrt{3}-\\frac{4}{3}\\pi \\approx 2,74\\,\\,\\left( c{{m}^{2}} \\right)$.",
+    "points": 0.75,
+    "type": "short_answer",
+    "shortCorrect": "2,74|2.74"
+   }
+  ],
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (c) S = S(MAOB) − S(quạt) = 4√3 − 4π/3 ≈ 2,74 cm² (lời giải cũng ra 2,74); key 8,5 sai"
+ }
+}

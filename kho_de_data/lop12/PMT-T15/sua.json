@@ -1,0 +1,36 @@
+{
+  "de1.P3.C3": {
+    "type": "true_false_group",
+    "question": "Một nhà sản xuất muốn thiết kế một hộp đựng kẹo dạng hình tròn xoay gồm hai phần: Phần thứ nhất được tạo thành khi quay “nửa” hình elip quanh một trục; phần thứ hai là nửa hình cầu có bán kính bằng 4 cm. Nếu xét trong hệ trục tọa độ Oxy, đơn vị trên trục là cm thì \"nửa\" hình elip quay quanh trục Ox để tạo thành phần thứ nhất có phương trình là $\\frac{{{x}^{2}}}{64}+\\frac{{{y}^{2}}}{16}=1$ với $-8\\le x\\le 0$ (xem hình minh họa).\n[[IMG:image3.png]] [[IMG:image4.png]]",
+    "tf": {
+      "a": "Thể tích của phần không gian “chứa” trong phần thứ hai (nửa khối cầu) bằng $\\frac{32}{3}\\pi $ (cm³).",
+      "b": "Đường thuộc góc phần tư thứ hai trong hệ trục $Oxy$ là đồ thị của hàm số $y=\\sqrt{16-\\frac{{{x}^{2}}}{4}},-8\\le x\\le 0$.",
+      "c": "Thể tích của phần không gian “chứa” trong phần thứ nhất được tính bởi công thức $V=\\pi \\int\\limits_{-8}^{0}{\\sqrt{16-\\frac{{{x}^{2}}}{4}}}\\text{d}x$ (cm³).",
+      "d": "Thể tích phần không gian bên trong của hộp đựng kẹo cần thiết kế là $24\\pi $ (cm³)."
+    },
+    "tf_ans": {"a": false, "b": true, "c": false, "d": false},
+    "xac_nhan": true,
+    "sua_boi": "cursor",
+    "ly_do": "Câu đúng/sai a)–d) bị đọc thành trả lời ngắn (128). Lời giải ghi a) Sai, b) Đúng, c) Sai, d) Sai; đã kiểm: nửa cầu 128π/3, công thức thể tích thiếu bình phương, tổng 128π."
+  },
+  "de1.P3.C17": {
+    "tf_ans": {"a": true, "b": false, "c": false, "d": true},
+    "xac_nhan": true,
+    "sua_boi": "cursor",
+    "ly_do": "Bảng đáp án «ĐÚNG | SAI | SAI | ĐÚNG»; ý d: S=50(1/a+1/b)+400=550 m nên Đúng."
+  },
+  "de1.P3.C28": {
+    "explanation": "Đặt $DE=x\\,\\,\\left( m \\right)\\,,\\,\\,AF=y\\,\\,\\left( m \\right)$. Ta có $CD=\\sqrt{{{x}^{2}}+16}$ và $\\widehat{AFB}={{180}^{\\circ }}-{{60}^{\\circ }}={{120}^{\\circ }}$; suy ra $AB=\\sqrt{{{y}^{2}}+0,{{5}^{2}}-2\\cdot 0,5\\cdot y\\cos {{120}^{\\circ }}}=\\sqrt{{{y}^{2}}+0,5y+0,25}$.\nTa có $AB+CD+1=20\\Leftrightarrow \\sqrt{{{y}^{2}}+0,5y+0,25}+\\sqrt{{{x}^{2}}+16}=19\\,\\,\\,\\left( * \\right)$.\nThay $y=6$ vào (*) ta được $\\sqrt{{{x}^{2}}+16}+\\sqrt{{{6}^{2}}+0,5\\cdot 6+0,25}=19\\Rightarrow x\\approx 12,1$ (Lưu vào A).\nĐạo hàm hai vế của (*) theo biến t ta được:\n$\\frac{2y+0,5}{2\\sqrt{{{y}^{2}}+0,5y+0,25}}\\cdot \\frac{\\text{d}y}{\\text{d}t}+\\frac{x}{\\sqrt{{{x}^{2}}+16}}\\cdot \\frac{\\text{d}x}{\\text{d}t}=0\\,\\,\\,\\left( ** \\right)$\nThay $y=6$ m; $x=A\\approx 12,1$ m; $\\frac{\\text{d}x}{\\text{d}t}=-1$ m/s (do x ngày càng giảm theo thời gian t) vào (**) ta tính được $\\frac{\\text{d}y}{\\text{d}t}\\approx 0,95$ m/s hay đầu dây A rời xa điểm F với tốc độ khoảng $0,95$ m/s.",
+    "short_correct": "0,95",
+    "xac_nhan": true,
+    "sua_boi": "cursor",
+    "ly_do": "Công thức (*) và (**) bị MathType chuyển rỗng; viết lại và giải lại: dy/dt = 0,9494/0,9976 ≈ 0,95."
+  },
+  "de1.P3.C27": {
+    "short_correct": "34,1",
+    "explanation": "Đồ thị hàm số có tiệm cận đứng $x=-b=1\\Rightarrow b=-1$.\nKhi đó đồ thị hàm số $y=\\frac{x+a}{x-1}$ qua $\\left( 2;\\,3 \\right)\\Rightarrow 3=\\frac{2+a}{2-1}\\Rightarrow a=1$; hàm số là $y=\\frac{x+1}{x-1}$ (C).\nGọi $M\\left( {{x}_{0}};\\,\\frac{{{x}_{0}}+1}{{{x}_{0}}-1} \\right)\\in \\left( C \\right),\\,{{x}_{0}}>1$. Tổng khoảng cách từ $M$ đến hai đường thẳng ${{\\Delta }_{1}},\\,{{\\Delta }_{2}}$ là\n$d=\\frac{\\left| 2{{x}_{0}}+\\frac{{{x}_{0}}+1}{{{x}_{0}}-1}-4 \\right|}{\\sqrt{5}}+\\frac{\\left| {{x}_{0}}+2\\cdot \\frac{{{x}_{0}}+1}{{{x}_{0}}-1}-2 \\right|}{\\sqrt{5}}$\n$\\Rightarrow \\sqrt{5}d=\\frac{2x_{0}^{2}-5{{x}_{0}}+5}{{{x}_{0}}-1}+\\frac{x_{0}^{2}-{{x}_{0}}+4}{{{x}_{0}}-1}=\\frac{3x_{0}^{2}-6{{x}_{0}}+9}{{{x}_{0}}-1}$ (vì các tử số luôn dương và ${{x}_{0}}-1>0$).\nĐặt $g\\left( x \\right)=\\frac{3{{x}^{2}}-6x+9}{x-1}=3\\left( x-1 \\right)+\\frac{6}{x-1}$ với $x>1$. Ta có $\\underset{\\left( 1;\\,+\\infty  \\right)}{\\min}\\,g\\left( x \\right)=g\\left( 1+\\sqrt{2} \\right)=6\\sqrt{2}$, nên $\\sqrt{5}d\\ge 6\\sqrt{2}$.\nDấu bằng xảy ra khi ${{x}_{0}}=1+\\sqrt{2}\\Rightarrow M\\left( 1+\\sqrt{2};\\,1+\\sqrt{2} \\right)$.\nKhoảng cách $OM$ trên thực tế là $10\\sqrt{{{\\left( 1+\\sqrt{2} \\right)}^{2}}+{{\\left( 1+\\sqrt{2} \\right)}^{2}}}=10\\left( 2+\\sqrt{2} \\right)\\approx 34,1$ mét.",
+    "xac_nhan": true,
+    "sua_boi": "cursor",
+    "ly_do": "Đáp án tự lấy sai (−1); lời giải bỏ trống kết quả cuối. Giải lại: OM=10(2+√2)≈34,1 m. Viết lại lời giải (mất công thức hàm số, \\text ngoài công thức)."
+  }
+}

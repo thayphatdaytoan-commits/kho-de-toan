@@ -1,0 +1,632 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "6",
+  "lesson": "1",
+  "title": "Bài 1. Xác suất có điều kiện",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$ là hai biến cố độc lập, với $P\\left( A \\right)=0,2024$, $P\\left( B \\right)=0,2025$. Tính $P\\left( A|B \\right)$.",
+   "explanation": "Chọn D\n$A$ và $B$ là hai biến cố độc lập nên: $P\\left( A|B \\right)=P\\left( A \\right)=0,2024$",
+   "options": [
+    "$0,7976$",
+    "$0,7975$",
+    "$0,2025$",
+    "$0,2024$"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D04",
+   "dang_toan_web": "Công thức nhân xác suất đối với hai biến cố không độc lập."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( A \\right)=0,8$, $P\\left( B \\right)=0,65$, $P\\left( A\\cap \\bar{B} \\right)=0,55$. Tính $P\\left( A\\cap B \\right)$.",
+   "explanation": "Chọn A\nTa có: $P\\left( A\\cap \\bar{B} \\right)+P\\left( A\\cap B \\right)=P\\left( A \\right)\\Rightarrow P\\left( A\\cap B \\right)=P\\left( A \\right)-P\\left( A\\cap \\bar{B} \\right)=0,8-0,55=0,25$",
+   "options": [
+    "$0,25$",
+    "$0,1$",
+    "$0,15$",
+    "$0,35$"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( A \\right)=0,6$, $P\\left( B \\right)=0,7$, $P\\left( A\\cap B \\right)=0,3$. Tính $P\\left( \\bar{B}|A \\right)$.",
+   "explanation": "Chọn B\nTa có: $P\\left( \\bar{B}|A \\right)=1-P\\left( B|A \\right)=1-\\frac{P\\left( A\\cap B \\right)}{P\\left( A \\right)}=1-\\frac{0,3}{0,6}=1-\\frac{1}{2}=\\frac{1}{2}$",
+   "options": [
+    "$\\frac{3}{7}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{6}{7}$",
+    "$\\frac{1}{7}$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Gieo lần lượt hai con xúc xắc cân đối và đồng chất. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc bằng 6. Biết rằng con xúc xắc thứ nhất xuất hiện mặt 4 chấm.",
+   "explanation": "Chọn C\nGọi $A$ là biến cố “con xúc xắc thứ nhất xuất hiện mặt 4 chấm”\nGọi $B$ là biến cố “Tổng số chấm xuất hiện trên 2 con xúc xắc bằng 6”.\nKhi con xúc xắc thứ nhất đã xuất hiện mặt 4 chấm thì lần thứ hai xuất hiện 2 chấm thì tổng hai lần xuất hiện là 6 chấm thì $P\\left( B|A \\right)=\\frac{1}{6}$",
+   "options": [
+    "$\\frac{2}{6}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{1}{6}$",
+    "$\\frac{5}{6}$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một lớp có 50 học sinh, trong đó có 30 học sinh nam và 20 học sinh nữ. Có 5 học sinh nam được học sinh giỏi và có 6 học sinh nữ được học sinh giỏi. Xác suất để chọn được một bạn nữ là học sinh giỏi",
+   "explanation": "Chọn D\nGọi A là biến cố chọn được học sinh giỏi.\nGọi B là biến cố chọn được học sinh là nữ.\nKhi đó $n(A\\cap B)=6$\nXác suất để chọn được một học sinh nữ và học sinh đó là học sinh giỏi là:\n$P(A\\backslash B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{n(A\\cap B)}{n(B)}=\\frac{6}{20}=\\frac{3}{10}$",
+   "options": [
+    "$\\frac{5}{9}$",
+    "$\\frac{2}{3}$",
+    "$\\frac{7}{9}$",
+    "$\\frac{3}{10}$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một gia đình có 2 đứa trẻ. Biết rằng có ít nhất 1 đứa trẻ là con gái. Hỏi xác suất 2 đứa trẻ đều là con gái là bao nhiêu? Cho biết xác suất để một đứa trẻ là trai hoặc gái là bằng nhau.",
+   "explanation": "Chọn D\nGiới tính cả 2 đứa trẻ là ngẫu nhiên và không liên quan đến nhau.\nDo gia đình có 2 đứa trẻ nên sẽ có thể xảy ra 4 khả năng:\n(trai, trai), (gái, gái), (gái, trai), (trai, gái).\nGọi A là biến cố “Cả hai đứa trẻ đều là con gái”\nGọi B là biến cố “Có ít nhất một đứa trẻ là con gái”\nTa có $P\\left( A \\right)=\\frac{1}{4};P\\left( B \\right)=\\frac{3}{4}$\nDo nếu xảy ra A thì đương nhiên sẽ xảy ra B nên ta có:\n$P\\left( A\\cap B \\right)=P\\left( A \\right)=\\frac{1}{4}$\nSuy ra, xác suất để cả hai đứa trẻ đều là con gái khi biết ít nhất có một đứa trẻ là gái là\n$P\\left( A|B \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{\\frac{1}{4}}{\\frac{3}{4}}=\\frac{1}{3}$",
+   "options": [
+    "$\\frac{3}{5}$",
+    "$\\frac{3}{4}$",
+    "$\\frac{1}{4}$",
+    "$\\frac{1}{3}$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A,B$ có xác suất $\\Rho \\left( A \\right)=0,4;\\Rho \\left( B \\right)=0,6;\\Rho \\left( AB \\right)=0,2$. Tính xác suất $\\Rho \\left( A|B \\right)$.",
+   "explanation": "Theo định nghĩa xác suất có điều kiện, ta có $\\Rho \\left( A|B \\right)=\\frac{\\Rho \\left( AB \\right)}{\\Rho \\left( B \\right)}=\\frac{0,2}{0,6}=\\frac{1}{3}$.",
+   "options": [
+    "$\\frac{1}{3}$",
+    "$\\frac{1}{2}$",
+    "$0,3$",
+    "$0,25$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hai biến cố $A,B$ có xác suất $\\Rho \\left( A \\right)=0,4;\\Rho \\left( B \\right)=0,3;\\Rho \\left( A|B \\right)=0,25$. Tính xác suất $\\Rho \\left( B|A \\right)$.",
+   "explanation": "Theo định nghĩa xác suất có điều kiện, ta có $\\Rho \\left( A|B \\right)=\\frac{\\Rho \\left( AB \\right)}{\\Rho \\left( B \\right)}$.\nDo đó $\\Rho \\left( AB \\right)=\\Rho \\left( A|B \\right).\\Rho \\left( B \\right)=0,3.0,25=0,075$.\nTừ đó suy ra $\\Rho \\left( B|A \\right)=\\frac{\\Rho \\left( AB \\right)}{\\Rho \\left( A \\right)}=\\frac{0,075}{0,4}=0,1875$.",
+   "options": [
+    "$0,1875$",
+    "$0,48$",
+    "$\\frac{1}{3}$",
+    "$0,95$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho một hộp kín có 6 thẻ ATM của ACB và 4 thẻ ATM của Vietcombank. Lấy ngẫu nhiên lần lượt 2 thẻ (lấy không hoàn lại). Tìm xác suất để lần thứ hai lấy được thẻ ATM của Vietcombank nếu biết lần thứ nhất đã lấy được thẻ ATM của ACB.",
+   "explanation": "Gọi $A$ là biến cố “lần thứ hai lấy được thẻ ATM Vietcombank”, $B$ là biến cố “lần thứ nhất lấy được thẻ ATM của ACB”. Ta cần tìm $\\Rho \\left( A|B \\right)$.\nSau khi lấy lần thứ nhất (biến cố $B$ xảy ra) trong hộp còn lại $9$ thẻ (trong đó có $4$ thẻ Vietcombank) nên $\\Rho \\left( A|B \\right)=\\frac{4}{9}$.",
+   "options": [
+    "$\\frac{1}{3}$",
+    "$\\frac{2}{3}$",
+    "$\\frac{2}{9}$",
+    "$\\frac{4}{9}$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Một nhóm 50 học sinh có 23 bạn biết chơi cầu lông mà không biết chơi bóng đá và 21 bạn biết chơi bóng đá mà không biết chơi cầu lông. Biết rằng mỗi học sinh trong nhóm này biết chơi bóng đá hoặc cầu lông. Chọn ngẫu nhiên một học sinh trong nhóm. Tính xác suất học sinh này biết chơi bóng đá, biết rằng bạn ấy biết chơi cầu lông.",
+   "explanation": "Gọi $A$ là biến cố “học sinh được chọn biết chơi bóng đá”, $B$ là biến cố “học sinh được chọn biết chơi cầu lông”.\nTa có $n\\left( AB \\right)=50-\\left( 23+21 \\right)=6$ và $n\\left( B \\right)=23+6=29$. Do đó $\\Rho \\left( A|B \\right)=\\frac{\\Rho \\left( AB \\right)}{\\Rho \\left( B \\right)}=\\frac{6}{29}$.",
+   "options": [
+    "$\\frac{23}{29}$",
+    "$\\frac{6}{29}$",
+    "$\\frac{21}{29}$",
+    "$\\frac{6}{23}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Một bình đựng 3 bi xanh và 2 bi trắng. Lấy ngẫu nhiên lần 1 một viên bi (không bỏ vào lại), rồi lần 2 một viên bi. Tính xác suất để lần 1 lấy một viên bi xanh, lần 2 lấy một viên bi trắng.",
+   "explanation": "Gọi $A$ là biến cố “lấy một bi xanh lần thứ nhất” thì $\\Rho \\left( A \\right)=\\frac{3}{5}$.\nGọi $B$ là biến cố “lấy một bi trắng lần thứ hai”.\nGọi $C$ là biến cố “lấy lần 1 lấy một viên bi xanh, lần 2 lấy một viên bi trắng”.\nNếu $A$ đã xảy ra thì trong bình chỉ còn 2 bi xanh, 2 bi trắng. Khi đó $\\Rho \\left( B|A \\right)=\\frac{2}{4}=\\frac{1}{2}$.\nMà $C=AB$, do đó theo công thức nhân ta có $\\Rho \\left( C \\right)=\\Rho \\left( AB \\right)=\\Rho \\left( A \\right).\\Rho \\left( B|A \\right)=\\frac{3}{5}.\\frac{1}{2}=\\frac{3}{10}$.",
+   "options": [
+    "$\\frac{1}{5}$",
+    "$\\frac{1}{10}$",
+    "$\\frac{1}{3}$",
+    "$\\frac{3}{10}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một công ty đấu thầu 2 dự án. Khả năng thắng thầu của các dự án I và II lần lượt là $0,4$ và $0,5$. Khả năng thắng thầu của hai dự án là $0,3$. Gọi $A,B$ lần lượt là biến cố thắng thầu dự án I và dự án II. Biết công ty thắng thầu dự án I, tìm xác suất công ty thắng thầu dự án II.",
+   "explanation": "Gọi $C$ là biến cố “công ty thắng dự án II biết công ty thắng thầu dự án I”.\nTa có $\\Rho \\left( C \\right)=\\Rho \\left( B|A \\right)=\\frac{\\Rho \\left( AB \\right)}{\\Rho \\left( A \\right)}=\\frac{0,3}{0,4}=0,75$.",
+   "options": [
+    "$0,25$",
+    "$0,5$",
+    "$0,75$",
+    "$0,125$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Với $\\Omega $ là không gian mẫu. $n\\left( \\Omega \\right)=196$.",
+    "b": "$P\\left( B \\right)=\\frac{8}{13}$",
+    "c": "$P\\left( AB \\right)=\\frac{24}{91}$",
+    "d": "$P\\left( A|B \\right)=\\frac{6}{13}$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
+   "answer": null,
+   "flags": [
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+   ],
+   "question": "Trong một hộp có 8 viên bi màu xanh và 6 viên bi màu đỏ, các viên bi cùng kích thước và cùng khối lượng. Bạn Hùng lấy ngẫu nhiên một viên bi từ hộp, không trả lại. Sau đó bạn Nam lấy ngẫu nhiên một viên bi trong số các bi còn lại trong hộp. Gọi $A$ là biến cố: “Hùng lấy được viên bi màu đỏ”, $B$ là biến cố: “Nam lấy được viên bi màu xanh”. Các khẳng định sau đây đúng hay sai?",
+   "explanation": "Sai\nNam có 14 cách lấy ngẫu nhiên một viên bi trong hộp\nHùng có 13 cách lấy một viên bi còn lại trong hộp (vì Nam lấy bi và không trả lại)\nDo đó $n\\left( \\Omega \\right)=14.13=182$.\nSai\nNam có 8 cách lấy một viên bi màu xanh, Hùng có 13 cách lấy một viên bi còn lại trong hộp. Dó đó $n\\left( B \\right)=8.13=104\\Rightarrow P\\left( B \\right)=\\frac{n\\left( B \\right)}{n\\left( \\Omega \\right)}=\\frac{4}{7}$.\nĐúng\nNam có 8 cách lấy một viên bi màu xanh, Hùng có 6 cách lấy một viên bi màu đỏ. Do đó $n\\left( AB \\right)=8.6=48\\Rightarrow P\\left( AB \\right)=\\frac{n\\left( AB \\right)}{n\\left( \\Omega \\right)}=\\frac{24}{91}$.\nĐúng\nTa có: $P\\left( A|B \\right)=\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{6}{13}$",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 14,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( AB \\right)=\\frac{1}{6}$",
+    "b": "$P\\left( B \\right)=\\frac{11}{36}$",
+    "c": "$P\\left( A|B \\right)=\\frac{5}{6}$",
+    "d": "$P\\left( \\overline{A}|B \\right)=\\frac{4}{11}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Gieo hai con xúc xắc cân đối và đồng chất. Gọi $A$ là biến cố: “Tích số chấm xuất hiện trên hai con xúc xắc là số chẵn”, $B$ là biến cố: “Có đúng một con xúc xắc xuất hiện mặt 3 chấm”. Các khẳng định sau đây đúng hay sai?",
+   "explanation": "Đúng\n$n\\left( \\Omega \\right)=6.6=36$. $AB=\\left\\{ (3,2);(3,4);(3,6);(2,3);(4,3);(6,3) \\right\\}\\Rightarrow n\\left( AB \\right)=6$\nDo đó $P\\left( AB \\right)=\\frac{6}{36}=\\frac{1}{6}$.\nĐúng\nTa có $\\overline{B}=\\left\\{ \\left( i;j \\right)|i,j\\in \\left\\{ 1,2,4,5,6 \\right\\} \\right\\}\\Rightarrow n\\left( \\overline{B} \\right)=5.5=25\\Rightarrow $ $n\\left( B \\right)=36-n\\left( \\overline{B} \\right)=11$. Do đó $P\\left( B \\right)=\\frac{11}{36}$.\nSai\nTa có $P\\left( A|B \\right)=\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{1}{6}:\\frac{11}{36}=\\frac{6}{11}$.\nĐúng\nTa có: $\\overline{A}B=\\left\\{ \\left( 3,1 \\right);\\left( 3,5 \\right);\\left( 1,3 \\right);\\left( 5,3 \\right) \\right\\}\\Rightarrow n\\left( \\overline{A}B \\right)=4$\nDo đó $P\\left( \\overline{A}|B \\right)=\\frac{n\\left( \\overline{A}B \\right)}{n\\left( B \\right)}=\\frac{4}{11}$",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 23,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$P\\left( A \\right)=0,6\\text{ }$và $P\\left( \\overline{B} \\right)=0,3\\text{ }$.",
+    "b": "$P\\left( A|B \\right)=\\frac{2}{3}$",
+    "c": "$P\\left( \\overline{B}|A \\right)=\\frac{1}{3}$",
+    "d": "$P\\left( \\overline{A}\\cap B \\right)=\\frac{3}{5}$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai biến cố $A$ và $B$, với $P\\left( \\overline{A} \\right)=0,4\\text{ , }P\\left( B \\right)=0,7\\text{ , }P\\left( A\\cap B \\right)=0,3$.",
+   "explanation": "a) Đúng.\nTa có: $P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=0,6$\n$P\\left( B \\right)=1-P\\left( \\overline{B} \\right)=0,3$.\nb) Sai.\nTa có: $P\\left( A|B \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{0,3}{0,7}=\\frac{3}{7}$.\nc) Sai.\nTa có: $P\\left( \\overline{B}|A \\right)=1-P\\left( B|A \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( A \\right)}=1-\\frac{0,3}{0,6}=0,5$.\nd) Sai.\nTa có: $P\\left( \\overline{A}\\cap B \\right)=P\\left( \\overline{A}|B \\right).P\\left( B \\right)$\nMà $P\\left( \\overline{A}|B \\right)=1-P\\left( A|B \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=1-\\frac{0,3}{0,7}=\\frac{4}{7}$\n$P\\left( \\overline{B}\\cap A \\right)=P\\left( \\overline{A}|B \\right).P\\left( B \\right)=\\frac{4}{7}.0,7=\\frac{2}{5}$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 19,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$A$và $B$ là hai biến cố độc lập.",
+    "b": "Xác suất công ty thắng thầu đúng 1 dự án là $0,5$.",
+    "c": "Biết công ty thắng thầu dự án 1, xác suất công ty thắng thầu dự án 2 là $0,3$.",
+    "d": "Biết công ty không thắng thầu dự án 1, xác suất công ty thắng thầu dự án 2 là $0,8$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty xây dựng đấu thầy 2 dự án. Khả năng thắng thầu của dự án 1 là $0,5$ và dự án 2 là $0,6$. Khả năng thắng thầu của cả 2 dự án là $0,3$. Gọi $A,B$ lần lượt là biến cố thắng thầu dự án 1 và dự án 2.",
+   "explanation": "a) Sai.\n$A$và $B$ là hai biến cố độc lập thì $P\\left( A\\cap B \\right)=P\\left( A \\right).P\\left( B \\right)$\nMà $0,5.0,6\\ne 0,3$ nên $A$và $B$ không độc lập\nb) Đúng.\nGọi $C$ là biến cố công ty chỉ thắng thầu 1 dự án:\n$P\\left( C \\right)=P\\left( A\\cap \\overline{B} \\right)+P\\left( \\overline{A}\\cap B \\right)=P\\left( A \\right)-P\\left( A\\cap B \\right)+P\\left( B \\right)-P\\left( A\\cap B \\right)$\n$=P\\left( A \\right)+P\\left( B \\right)-2P\\left( A\\cap B \\right)=0,5+0,6-2.0,3=0,5$.\nc) Sai.\nGọi $D$ là biến cố công ty thầu dự án 2 biết thắng thầu dự án 1\n$P\\left( D \\right)=P\\left( B|A \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( A \\right)}=\\frac{0,3}{0,5}=\\frac{3}{5}$.\nd) Sai.\nGọi $E$ là biến cố công ty thầu dự án 2 biết không thắng thầu dự án 1\n$P\\left( E \\right)=P\\left( B|\\overline{A} \\right)=\\frac{P\\left( \\overline{A}\\cap B \\right)}{P\\left( \\overline{A} \\right)}=\\frac{P\\left( B \\right)-P\\left( A\\cap B \\right)}{P\\left( \\overline{A} \\right)}=\\frac{0,6-0,3}{0,5}=\\frac{3}{5}$.",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C6.B1.D06",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai biến cố $A,\\,B$ có $P\\left( B \\right)=0,6;\\,\\,P\\left( A\\cap B \\right)=0,2$. Tính xác suất $P\\left( A\\left| B \\right. \\right)$.\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "explanation": "Đáp án: $\\frac{1}{3}$.\nTheo công thức xác suất của $A$ với điều kiện $B$, ta có: $P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{0,2}{0,6}=\\frac{1}{3}$.",
+   "short_value": 0.3333333333333333,
+   "short_correct": "0,3",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Trong kì kiếm tra môn Toán của một trường THPT có 400 học sinh tham gia, trong đó có 190 học sinh nam và 210 học sinh nữ. Khi công bố kết quả của kì kiểm tra đó, có 100 học sinh đạt điểm giỏi, trong đó có 48 học sinh nam và 52 học sinh nữ. Chọn ra ngẫu nhiên một học sinh trong số 400 học sinh đó. Tính xác suất để học sinh được chọn ra đạt điểm giỏi, biết rằng học sinh đó là nữ (làm tròn kết quả đến hàng phần trăm).",
+   "explanation": "Đáp án: $0,25$.\nXét hai biến cố sau:\n$A$: “Học sinh được chọn ra đạt điểm giỏi”;\n$B$: “Học sinh được chọn ra là học sinh nữ”.\nKhi đó, xác suất để học sinh được chọn ra đạt điểm giỏi, biết rằng học sinh đó là nữ là xác suất của $A$ với điều kiện $B$.\nCó 52 học sinh nữ đạt điểm giỏi nên: $P\\left( A\\cap B \\right)=\\frac{52}{400}=0,13$.\nCó 210 học sinh nữ nên: $P\\left( B \\right)=\\frac{210}{400}=0,525$.\nDo đó, $P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{0,13}{0,525}\\approx 0,25$.\nVậy xác suất để học sinh được chọn ra đạt điểm giỏi, biết rằng học sinh đó là nữ là $0,25$.",
+   "short_value": 0.25,
+   "short_correct": "0,25",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty bảo hiểm nhận thấy có 51% số người mua bảo hiểm ô tô là nam, và có $33\\%$ số người mua bảo hiểm ô tô là nam trên 50 tuổi. Biết một người mua bảo hiểm ô tô là nam, tính xác suất người đó trên 50 tuổi (làm tròn đến hàng phần trăm).",
+   "explanation": "Đáp số: 0,65.\nGọi A là biến cố “Người mua bảo hiểm ô tô là nam, B là biến cố “Người mua bảo hiểm ô tô trên 50 tuổi”. Ta cần tính $P\\left( B|A \\right)$.\nDo có 51% người mua bảo hiểm ô tô là nam nên $P\\left( A \\right)=0,51$.\nDo có 33% số người mua bảo hiểm ô tô là nam trên 50 tuổi nên $P\\left( AB \\right)=0,33$.\nVậy $P\\left( B|A \\right)=\\frac{P\\left( AB \\right)}{P\\left( A \\right)}=\\frac{0,33}{0,51}=\\frac{11}{17}\\approx 0,65$.",
+   "short_value": 0.65,
+   "short_correct": "0,65",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai biến cố A và B có $P\\left( A \\right)=0,4;\\,P\\left( B \\right)=0,3;\\,P\\left( A|B \\right)=0,5.$ Tính $P\\left( \\overline{A}|B \\right)$.",
+   "explanation": "Đáp số: 0,5.\nTheo công thức nhân xác suất, ta có $P\\left( AB \\right)=P\\left( B \\right)P\\left( A|B \\right)=0,3.0,5=0,15$.\nVì $\\overline{A}B$ và AB là hai biến cố xung khắc và $\\overline{A}B\\cup AB=B$ nên theo tính chất của xác suất, ta có\n$P\\left( \\overline{A}B \\right)=P\\left( B \\right)-P\\left( AB \\right)=0,3-0,15=0,15$\nTheo công thức tính xác suất có điều kiện, $P\\left( \\overline{A}|B \\right)=\\frac{P\\left( \\overline{A}B \\right)}{P\\left( B \\right)}=\\frac{0,15}{0,3}=0,5$.",
+   "short_value": 0.5,
+   "short_correct": "0,5",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D01",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có 40 phiếu thi Toán 12, mỗi phiếu chỉ có một câu hỏi, trong đó có 13 câu hỏi lý thuyết (gồm 5 câu hỏi khó và 8 câu hỏi dễ) và 27 câu hỏi bài tập (gồm 12 câu hỏi khó và 15 câu hỏi dễ). Lấy ngẫu nhiên ra một phiếu. Tìm xác suất rút được câu hỏi lý thuyết khó.\nLàm tròn kết quả đến chữ số thập phân thứ hai.",
+   "explanation": "Đáp số: $\\frac{5}{17}$.\nGọi A là biến cố: “rút ra được câu hỏi lý thuyết”\nGọi B là biến cố: “rút ra được câu khó”\nNếu biết B đã xảy ra (nghĩa là câu hỏi rút ra là một câu trong số 17 câu khó) thì xác suất để câu hỏi đó là lý thuyết (nghĩa là câu hỏi đó là một câu trong số 5 câu hỏi lý thuyết khó ) chính là xác suất A có điều kiện B đã xảy ra. Ta đi tính $P\\left( A|B \\right)$\nTa có:\n$P\\left( A \\right)=\\frac{13}{40}$\n$P\\left( B \\right)=\\frac{17}{40}$\n$P\\left( A\\cap B \\right)=\\frac{5}{40}$\nVậy $P\\left( A|B \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{\\frac{5}{40}}{\\frac{17}{40}}=\\frac{5}{17}$.",
+   "short_value": 0.29411764705882354,
+   "short_correct": "0,29",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một bình đựng 50 viên bi kích thước, chất liệu như nhau, trong đó có 30 viên bi xanh và 20 viên bi trắng. Lấy ngẫu nhiên ra một viên bi, rồi lại lấy ngẫu nhiên ra một viên bi nữa. Tính xác suất để lấy được một viên bi xanh ở lần thứ nhất và một viên bi trắng ở lần thứ hai.\nLàm tròn kết quả đến chữ số thập phân thứ hai.",
+   "explanation": "Đáp số: $\\frac{12}{29}$.\nGọi A là biến cố: “Lấy được một viên bi xanh ở lần thứ nhất”,\nGọi B là biến cố: “Lấy được một viên bi trắng ở lần thứ hai”.\nTa cần tính xác suất $P\\left( A\\cap B \\right)$\nTheo công thức nhân xác suất $P\\left( A\\cap B \\right)=P\\left( A \\right)\\,.\\,P\\left( B|A \\right)$\nVì có 30 viên bi xanh trong tổng số 50 viên bi nên $P\\left( A \\right)=\\frac{30}{50}=\\frac{3}{5}$\nNếu A đã xảy ra, tức là một viên bi xanh đã được lấy ra ở lần thứ nhất, thì còn lại trong bình 49 viên bi trong đó số viên bi trắng là 20, do đó$P\\left( B|A \\right)=\\frac{20}{49}$\nVậy xác suất cần tìm là$P\\left( A\\cap B \\right)=P\\left( A \\right)\\,.\\,P\\left( B|A \\right)=\\frac{3}{5}\\,.\\,\\frac{20}{49}=\\frac{12}{29}$",
+   "short_value": 0.41379310344827586,
+   "short_correct": "0,24",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "VD",
+   "dang": "L12.C6.B1.D02",
+   "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
+  }
+ ],
+ "flags": []
+}

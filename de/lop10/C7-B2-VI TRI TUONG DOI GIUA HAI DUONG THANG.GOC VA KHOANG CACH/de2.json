@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "10",
+  "chapter": "7",
+  "lesson": "2",
+  "title": "Bài 2. Vị trí tương đối giữa hai đường thẳng.góc và khoảng cách",
+  "exam_type": "lesson"
+ },
+ "no": 2,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Xác định vị trí tương đối của hai đường thẳng\n$\\Delta_1:7x+2y-1=0$ và $\\Delta_2:\\left\\{\\begin{array}{l}x=4+t\\\\ y=1-5t\\end{array}\\right.$",
+   "explanation": "$\\left. \\begin{aligned} & {{\\Delta }_{1}}:7x+2y-1=0\\to {{{\\vec{n}}}_{1}}=\\left( 7;2 \\right) \\\\ & {{\\Delta }_{2}}:\\left\\{ \\begin{aligned} & x=4+t \\\\ & y=1-5t \\\\ \\end{aligned} \\right.\\to \\,\\,{{{\\vec{u}}}_{2}}=\\left( 1;-5 \\right)\\to {{{\\vec{n}}}_{2}}=\\left( 5;1 \\right) \\\\ \\end{aligned} \\right\\}\\to \\left\\{ \\begin{aligned} & \\frac{7}{5}\\not{=}\\frac{2}{1} \\\\ & {{{\\vec{n}}}_{1}}\\cdot {{{\\vec{n}}}_{2}}\\not{=}0 \\\\ \\end{aligned} \\right.\\to {{\\Delta }_{1}},\\,\\,{{\\Delta }_{2}}$ cắt nhau nhưng không vuông góc.",
+   "options": [
+    "Trùng nhau",
+    "Song song",
+    "Vuông góc với nhau",
+    "Cắt nhau nhưng không vuông góc nhau"
+   ],
+   "ma": "de2.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong mặt phẳng tọa độ, cho hai đường thẳng ${{d}_{1}}:\\,\\left\\{ \\begin{aligned} & x\\,=\\,-1\\,+\\,3t \\\\ & y\\,=\\,t \\\\ \\end{aligned} \\right.$ và ${{d}_{2}}:\\,\\,\\left\\{ \\begin{aligned} & x\\,=\\,2\\,+6\\,u \\\\ & y\\,=\\,1\\,+\\,2u \\\\ \\end{aligned} \\right.$. Vị trí tương đối của hai đường thẳng ${{d}_{1}}$ và ${{d}_{2}}$ là",
+   "explanation": "Ta có véctơ chỉ phương của hai đường thẳng ${{d}_{1}}$ và ${{d}_{2}}$ lần lượt là ${{\\vec{u}}_{1}}\\,=\\,\\left( 3\\,;\\,1 \\right)$, ${{\\vec{u}}_{2}}\\,=\\,\\left( 6\\,;\\,2 \\right)\\,$ $\\Rightarrow \\,{{\\vec{u}}_{2}}\\,=\\,3{{\\vec{u}}_{1}}\\,\\,\\left( 1 \\right)\\,$.\nLấy điểm $M\\left( -1;\\,0 \\right)\\,\\,\\in \\,\\,{{d}_{1}}$. Thay tọa độ điểm $M$ vào phương trình của ${{d}_{2}}$ thấy thỏa mãn $\\Rightarrow \\,M\\left( -1\\,;\\,0 \\right)\\,\\,\\in \\,\\,{{d}_{2}}$ $\\Rightarrow {{d}_{1}}$ và ${{d}_{2}}$ trùng nhau.",
+   "options": [
+    "${{d}_{1}}\\,\\equiv \\,{{d}_{2}}$",
+    "${{d}_{1}}\\,\\text{//}\\,{{d}_{2}}$",
+    "${{d}_{1}}\\bot \\,\\,{{d}_{2}}$",
+    "Cắt nhau và không vuông góc"
+   ],
+   "ma": "de2.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho 3 đường thẳng ${{d}_{1}}:2x+y-1=0,~~~{{d}_{2}}:x+2y+1=0,$ ${{d}_{3}}:mx-y-7=0$. Tìm $m$ để ba đường thẳng đồng quy.",
+   "explanation": "Tọa độ giao điểm của ${{d}_{1}}$ và ${{d}_{2}}$ là nghiệm của hệ $\\left\\{ \\begin{aligned} & 2x+y-1=0 \\\\ & x+2y+1=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=1 \\\\ & y=-1 \\\\ \\end{aligned} \\right.$.\nVậy ${{d}_{1}}$ cắt ${{d}_{2}}$ tại $A\\left( 1;-1 \\right)$.\nĐể 3 đường thẳng ${{d}_{1}},{{d}_{2}},{{d}_{3}}$ đồng quy thì ${{d}_{3}}$ phải đi qua điểm $A$\n$\\Rightarrow m+1-7=0\\Leftrightarrow m=6.$\n$Oy\\cap d:\\left\\{ \\begin{aligned} & x=2t \\\\ & y=-5+15t \\\\ \\end{aligned} \\right.\\xrightarrow{{}}\\left\\{ \\begin{aligned} & y=0 \\\\ & x=2t \\\\ & y=-5+15t \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & t=\\frac{1}{3} \\\\ & x=\\frac{2}{3},\\,\\,y=0 \\\\ \\end{aligned} \\right..$",
+   "options": [
+    "$m=5$",
+    "$m=-5$",
+    "$m=-6$",
+    "$m=6$"
+   ],
+   "ma": "de2.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tìm tọa độ giao điểm của hai đường thẳng $7x-3y+16=0$ và $x+10=0$ .",
+   "explanation": "$\\left\\{ \\begin{aligned} & {{d}_{1}}:7x-3y+16=0 \\\\ & {{d}_{2}}:x+10=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=-10 \\\\ & y=-18 \\\\ \\end{aligned} \\right..$",
+   "options": [
+    "$(-10;-18)$",
+    "$(10;18)$",
+    "$(-10;18)$",
+    "$(10;-18)$"
+   ],
+   "ma": "de2.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tính góc tạo bởi giữa hai đường thẳng\n$d_1:6x-5y+15=0$ và $d_2:\\left\\{\\begin{array}{l}x=10-6t\\\\ y=1+5t\\end{array}\\right.$",
+   "explanation": "$\\left\\{ \\begin{aligned} & {{d}_{1}}:6x-5y+15=0\\to {{{\\vec{n}}}_{1}}=\\left( 6;-5 \\right) \\\\ & {{d}_{2}}:\\left\\{ \\begin{aligned} & x=10-6t \\\\ & y=1+5t \\\\ \\end{aligned} \\right.\\to {{{\\vec{n}}}_{2}}=\\left( 5;6 \\right) \\\\ \\end{aligned} \\right.\\to {{\\vec{n}}_{1}}\\cdot {{\\vec{n}}_{2}}=0\\xrightarrow{\\varphi =\\left( {{d}_{1}};{{d}_{2}} \\right)}\\varphi ={{90}^{\\circ }}.$",
+   "options": [
+    "$30{}^\\circ .$",
+    "$45{}^\\circ .$",
+    "$60{}^\\circ .$",
+    "$90^\\circ.$"
+   ],
+   "ma": "de2.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Có hai giá trị ${{m}_{1}},\\,\\,{{m}_{2}}$ để đường thẳng $d:\\,\\,x+my-3=0$ hợp với đường thẳng${d}':\\,\\,x+y=0$ một góc $60{}^\\circ $. Tổng ${{m}_{1}}+{{m}_{2}}$ bằng:",
+   "explanation": "Gọi ${{\\vec{n}}_{d}}$, ${{\\vec{n}}_{{{d}'}}}$ lần lượt là hai vectơ pháp tuyến của hai đường thẳng $d:\\,\\,x+my-3=0$ và ${d}':\\,\\,x+y=0$\nTa có $\\left( d,\\,{d}' \\right)=60{}^\\circ \\Leftrightarrow \\left| \\cos \\left( {{{\\vec{n}}}_{d}},{{{\\vec{n}}}_{{{d}'}}} \\right) \\right|=\\frac{1}{2}$ $\\Leftrightarrow \\frac{\\left| {{{\\vec{n}}}_{d}}.{{{\\vec{n}}}_{{{d}'}}} \\right|}{\\left| {{{\\vec{n}}}_{d}} \\right|.\\left| {{{\\vec{n}}}_{{{d}'}}} \\right|}=\\frac{1}{2}$\n$\\Leftrightarrow \\frac{\\left| m+1 \\right|}{\\sqrt{2}\\sqrt{1+{{m}^{2}}}}=\\frac{1}{2}$ $\\Leftrightarrow 2\\left| m+1 \\right|=\\sqrt{2}.\\sqrt{{{m}^{2}}+1}$ $\\Leftrightarrow {{m}^{2}}+4m+1=0$.\n$\\Rightarrow {{m}_{1}}+{{m}_{2}}=-\\frac{b}{a}=-4.$",
+   "options": [
+    "$-1$",
+    "$1$",
+    "$-4$",
+    "$4$"
+   ],
+   "ma": "de2.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong mặt phẳng với hệ tọa độ $Oxy$ , cho hai đường thẳng có phương trình $d_1:mx+(m-1)y+2m=0$ và $d_2:2x+y-1=0$ . Nếu $d_1$ song song $d_2$ thì:",
+   "explanation": "$\\begin{aligned} & \\left\\{ \\begin{aligned} & {{d}_{1}}:mx+\\left( m-1 \\right)y+2m=0 \\\\ & {{d}_{2}}:2x+y-1=0 \\\\ \\end{aligned} \\right.\\xrightarrow{{{d}_{1}}||{{d}_{2}}}\\frac{m}{2}=\\frac{m-1}{1}\\not{=}\\frac{2m}{-1} \\\\ & \\Leftrightarrow \\left\\{ \\begin{aligned} & -1\\not{=}2 \\\\ & m=2m-2 \\\\ \\end{aligned} \\right.\\Leftrightarrow m=2.\\,\\, \\\\ \\end{aligned}$",
+   "options": [
+    "$m=2.$",
+    "$m=-1.$",
+    "$m=-2.$",
+    "$m=1.$"
+   ],
+   "ma": "de2.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Khoảng cách từ điểm $M(2;0)$ đến đường thẳng $\\Delta:\\left\\{\\begin{array}{l}x=1+3t\\\\ y=2+4t\\end{array}\\right.$ bằng:",
+   "explanation": "$\\Delta :\\left\\{ \\begin{matrix} x=1+3t \\\\ y=2+4t \\\\ \\end{matrix} \\right.\\to \\Delta :4x-3y+2=0\\to d\\left( M;\\Delta \\right)=\\frac{\\left| 8+0+2 \\right|}{\\sqrt{16+9}}=2.$",
+   "options": [
+    "$2.$",
+    "$\\dfrac{2}{5}.$",
+    "$\\dfrac{10}{\\sqrt{5}}.$",
+    "$\\dfrac{\\sqrt{5}}{2}.$"
+   ],
+   "ma": "de2.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tìm tất cả các giá trị của tham số $m$ để khoảng cách từ điểm $A(-1;2)$ đến đường thẳng $\\Delta:mx+y-m+4=0$ bằng $2\\sqrt{5}$ .",
+   "explanation": "$d\\left( A;\\Delta \\right)=\\frac{\\left| -m+2-m+4 \\right|}{\\sqrt{{{m}^{2}}+1}}=2\\sqrt{5}\\Leftrightarrow \\left| m-3 \\right|=\\sqrt{5}.\\sqrt{{{m}^{2}}+1}\\Leftrightarrow 4{{m}^{2}}+6m-4=0$\n$\\Leftrightarrow \\left[ \\begin{aligned} & m=-2 \\\\ & m=\\frac{1}{2} \\\\ \\end{aligned} \\right..$",
+   "options": [
+    "$m=2.$",
+    "$\\left[\\begin{array}{l}m=-2\\\\ m=\\dfrac{1}{2}\\end{array}\\right.$",
+    "$m=-\\dfrac{1}{2}$",
+    "Không tồn tại $m$"
+   ],
+   "ma": "de2.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Trong mặt phẳng $Oxy,$ cosin góc giữa hai đường thẳng ${{\\Delta }_{1}}:3x+4y+1=0$ và ${{\\Delta }_{2}}:\\left\\{ \\begin{aligned} & x=15+12t \\\\ & y=1+5t \\\\ \\end{aligned} \\right.$ bằng",
+   "explanation": "Vectơ pháp tuyến của đường thẳng ${{\\Delta }_{1}}$ là $\\overrightarrow{{{n}_{1}}}=\\left( 3;4 \\right).$\nVectơ pháp tuyến của đường thẳng ${{\\Delta }_{2}}$ là $\\overrightarrow{{{n}_{2}}}=\\left( 5;-12 \\right).$\n$\\Rightarrow \\cos \\left( {{\\Delta }_{1}},{{\\Delta }_{2}} \\right)=\\left| \\cos \\left( \\overrightarrow{{{n}_{1}}},\\overrightarrow{{{n}_{2}}} \\right) \\right|=\\frac{\\left| \\overrightarrow{{{n}_{1}}}.\\overrightarrow{{{n}_{2}}} \\right|}{\\left| \\overrightarrow{{{n}_{1}}} \\right|.\\left| \\overrightarrow{{{n}_{2}}} \\right|}=\\frac{33}{65}$.",
+   "options": [
+    "$-\\frac{56}{65}$",
+    "$-\\frac{33}{65}$",
+    "$\\frac{56}{65}$",
+    "$\\frac{33}{65}$"
+   ],
+   "ma": "de2.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho đường thẳng $d_1:10x+5y-1=0$ và $d_2:\\left\\{\\begin{array}{l}x=2+t\\\\ y=1-t\\end{array}\\right.$ . Tính cosin của góc tạo bởi giữa hai đường thẳng đã cho.",
+   "explanation": "$\\left\\{ \\begin{aligned} & {{d}_{1}}:10x+5y-1=0\\to {{{\\vec{n}}}_{1}}=\\left( 2;1 \\right) \\\\ & {{d}_{2}}:\\left\\{ \\begin{matrix} x=2+t \\\\ y=1-t \\\\ \\end{matrix} \\right.\\to {{{\\vec{n}}}_{2}}=\\left( 1;1 \\right) \\\\ \\end{aligned} \\right.\\xrightarrow{\\varphi =\\left( {{d}_{1}};{{d}_{2}} \\right)}\\cos \\varphi =\\frac{\\left| 2+1 \\right|}{\\sqrt{4+1}.\\sqrt{1+1}}=\\frac{3}{\\sqrt{10}}.$",
+   "options": [
+    "$\\dfrac{3\\sqrt{10}}{10}$",
+    "$\\dfrac{3}{5}$",
+    "$\\dfrac{\\sqrt{10}}{10}$",
+    "$\\dfrac{3}{10}$"
+   ],
+   "ma": "de2.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong mặt phẳng $Oxy$, cho hai điểm $A\\left( 2;2 \\right),B\\left( 5;1 \\right)$. Tìm tọa độ điểm $C$ trên đường thẳng $\\text{ }\\!\\!\\Delta\\!\\!\\text{ }:x-2y+8=0$ sao cho diện tích tam giác $ABC$ bằng $17$.",
+   "explanation": "Ta có: $\\overrightarrow{AB}=\\left( 3;-1 \\right)$\nPhương trình đường thẳng $AB:x+3y-8=0$.\nVì $C\\in \\Delta $ nên$C\\left( 2c-8;c \\right)$ $\\Rightarrow {{S}_{\\vartriangle CAB}}=\\frac{1}{2}d\\left( C,AB \\right)\\cdot AB=17\\Leftrightarrow \\frac{1}{2}\\cdot \\frac{\\left| 5c-16 \\right|}{\\sqrt{10}}\\cdot \\sqrt{10}=17\\Leftrightarrow \\left[ \\begin{array}{llllll} c=10 \\\\ c=-\\frac{18}{5} \\\\ \\end{array} \\right.$.\nVậy $C\\left( 12;10 \\right)$ và $C\\left( -\\frac{76}{5};-\\frac{18}{5} \\right)$.",
+   "options": [
+    "$C\\left( 12;10 \\right)$ và $C\\left( -\\frac{76}{5};-\\frac{18}{5} \\right)$",
+    "$C\\left( -12;10 \\right)$",
+    "$C\\left( \\frac{1}{5};\\frac{41}{10} \\right)$",
+    "$C\\left( -4;2 \\right)$"
+   ],
+   "ma": "de2.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ lần lượt có vectơ chỉ phương ${\\vec{u}_1=(5 ;-6)}$, ${\\vec{u}_2=(5 ; 6)}$",
+    "b": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ song song",
+    "c": "$M(7;3)$ là tọa độ giao điểm hai đường ${\\Delta_1, \\Delta_2}$.",
+    "d": "${\\Delta_1, \\Delta_2}$vuông góc với nhau."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai đường thẳng ${\\Delta_1:\\left\\{\\begin{array}{l}x=2+5 t \\\\ y=3-6 t\\end{array}\\right.}$ và ${\\Delta_2:\\left\\{\\begin{array}{l}x=7+5 t^{\\prime} \\\\ y=-3+6 t^{\\prime}\\end{array}\\right.}$. Khi đó:",
+   "explanation": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ lần lượt có vectơ chỉ phương ${\\vec{u}_1=(5 ;-6)}$, ${\\vec{u}_2=(5 ; 6)}$ với ${5.6 \\neq-6.5}$ nên hai vectơ này không cùng phương. Vì vậy hai đường thẳng ${\\Delta_1, \\Delta_2}$ cắt nhau.\nGiải hệ ${\\left\\{\\begin{array}{l}2+5 t=7+5 t^{\\prime} \\\\ 3-6 t=-3+6 t^{\\prime}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}5 t-5 t^{\\prime}=5 \\\\ -6 t-6 t^{\\prime}=-6\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}t=1 \\\\ t^{\\prime}=0\\end{array} \\Rightarrow M(7 ;-3)\\right.\\right.\\right.}$ là tọa độ giao điểm hai đường ${\\Delta_1, \\Delta_2}$.\nTa có: ${\\vec{u}_1=(5 ;-6), \\vec{u}_2=(5 ; 6) \\vec{u}_1 \\cdot \\vec{u}_2=5.5-6.6=-11 \\neq 0}$. Suy ra hai đường thẳng đã cho chỉ cắt nhau mà không vuông góc.",
+   "ma": "de2.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 15,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${M(2 ;-1) ; 3 x-4 y-12=0}$ khi đó $d(M,\\Delta )=\\frac{3}{5}$",
+    "b": "${M(4 ;-5) ;\\left\\{\\begin{array}{l}x=2 t \\\\ y=2+3 t\\end{array}\\right.}$ khi đó $d(M,\\Delta )=2\\sqrt{13}$",
+    "c": "${\\Delta_1: 7 x+y-3=0}$ và ${\\Delta_2: 7 x+y+12=0}$ có ${\\Delta_1 / / \\Delta_2}$",
+    "d": "${\\Delta_1: 7 x+y-3=0}$ và ${\\Delta_2: 7 x+y+12=0}$ khi đó $d\\left( {{\\Delta }_{1}},{{\\Delta }_{2}} \\right)=\\frac{\\sqrt{2}}{2}$"
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Xác định tính đúng, sai của các khẳng định sau:",
+   "explanation": "a) Ta có: ${d(M, \\Delta)=\\frac{|3 \\cdot 2-4 \\cdot(-1)-12|}{\\sqrt{3^2+(-4)^2}}=\\frac{2}{5}}$.\nb) Ta có ${\\Delta:\\left\\{\\begin{array}{l}x=2 t \\\\ y=2+3 t\\end{array} \\Rightarrow \\Delta: \\frac{x}{2}=\\frac{y-2}{3} \\Rightarrow \\Delta: 3 x-2 y+4=0\\right.}$.\nDo đó: ${d(M, \\Delta)=\\frac{|3 \\cdot 4-2 \\cdot(-5)+4|}{\\sqrt{3^2+(-2)^2}}=2 \\sqrt{13}}$.\nc) Ta dễ dàng chứng minh được ${\\Delta_1 / / \\Delta_2}$. Ta có ${M(0 ; 3) \\in \\Delta_1}$.\nd) Khi đó: ${d\\left(\\Delta_1, \\Delta_2\\right)=d\\left(M, \\Delta_2\\right)=\\frac{|7.0+3+12|}{\\sqrt{7^2+1^2}}=\\frac{3 \\sqrt{2}}{2}}$.",
+   "ma": "de2.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${{\\Delta }_{1}}$ có vectơ pháp tuyến ${{\\vec{n}}_{1}}=(-1;-1)$",
+    "b": "${{\\Delta }_{2}}$ có vectơ pháp tuyến ${{\\vec{n}}_{2}}=(2;-1)$",
+    "c": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ cắt nhau.",
+    "d": "${\\Delta_1, \\Delta_2}$ cắt nhau tại điểm có tọa độ $\\left( \\frac{7}{2};-\\frac{2}{3} \\right)$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho ${\\Delta_1: x-y-3=0, \\Delta_2:\\left\\{\\begin{array}{l}x=1-t \\\\ y=2+2 t\\end{array}\\right.}$. Khi đó:",
+   "explanation": "${\\Delta_1, \\Delta_2}$ có cặp vectơ pháp tuyến ${\\vec{n}_1=(-1 ;-1), \\vec{n}_2=(2 ; 1)}$ với ${-1.1 \\neq-1.2}$ nên hai vectơ này không cùng phương. Do đó hai đường thẳng ${\\Delta_1, \\Delta_2}$ cắt nhau. Thay phương trình ${\\Delta_2}$ vào phương trình ${\\Delta_1:(1-t)-(2+2 t)-3=0}$\n$\\Leftrightarrow -3t-4=0\\Leftrightarrow t=-\\frac{4}{3}\\Rightarrow \\left\\{ \\begin{array}{llllll} x=\\frac{7}{3} \\\\ y=-\\frac{2}{3} \\\\ \\end{array} \\right.$\nVậy ${\\Delta_1, \\Delta_2}$ cắt nhau tại điểm có tọa độ ${\\left(\\frac{7}{3} ;-\\frac{2}{3}\\right)}$.",
+   "ma": "de2.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$d$ cắt ${\\Delta_1:-x+3 y=0}$ tại ${A\\left(\\frac{3}{5} ; \\frac{1}{5}\\right)}$",
+    "b": "$d//{{\\Delta }_{2}}:y=-\\frac{1}{2}x+3$",
+    "c": "$d//{{\\Delta }_{3}}:3x+6y+3=0$",
+    "d": "$d$ trùng với ${{\\Delta }_{4}}:2x+y-1=0$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho đường thẳng ${d: x+2 y-1=0}$. Khi đó:",
+   "explanation": "a) Ta có ${\\frac{1}{-1} \\neq \\frac{2}{3}}$ nên ${d}$ cắt ${\\Delta_1}$. Tọa độ giao điểm của ${d}$ và ${\\Delta_1}$ là nghiệm của hệ phương trình: ${\\left\\{\\begin{array}{l}x+2 y-1=0 \\\\ -x+3 y=0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x=\\frac{3}{5} \\\\ y=\\frac{1}{5}\\end{array}\\right.\\right.}$\nVậy $d$ cắt ${\\Delta_1}$ tại ${A\\left(\\frac{3}{5} ; \\frac{1}{5}\\right)}$\nb) ${\\Delta_2: y=-\\frac{1}{2} x+3 \\Leftrightarrow x+2 y-6=0}$. Ta có ${\\frac{1}{1}=\\frac{2}{2} \\neq \\frac{-1}{-6}}$ nên ${d / / \\Delta_2}$\nc) Ta có ${\\frac{1}{3}=\\frac{2}{6} \\neq \\frac{-1}{3}}$ nên ${d / / \\Delta_3}$\nd) $d$ cắt ${{\\Delta }_{4}}:2x+y-1=0$",
+   "ma": "de2.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm tham số ${m}$ để các đường thẳng sau đây song song:\n${\\Delta_1:\\left\\{\\begin{array}{l}x=8-(m+1) t \\\\ y=10+t\\end{array}\\right.}$ và ${\\Delta_2: m x+2 y-14=0}$.",
+   "explanation": "${\\Delta_1, \\Delta_2}$ lần lượt có vectơ pháp tuyến ${\\vec{n}_1=(1 ; m+1), \\vec{n}_2=(m ; 2)}$.\nĐiều kiện cần: ${\\Delta_1 / / \\Delta_2 \\Rightarrow \\vec{n}_1}$ cùng phương với ${\\vec{n}_2}$\n$\\Rightarrow 1.2=(m+1)m\\Rightarrow {{m}^{2}}+m-2=0\\Rightarrow \\left[ \\begin{array}{llllll} m=1 \\\\ m=-2 \\\\ \\end{array} \\right.\\text{. }$\nThử lại (điều kiện đủ):\n- Với ${m=1}$ thì ${\\Delta_1:\\left\\{\\begin{array}{l}x=8-2 t \\\\ y=10+t\\end{array}, \\Delta_2: x+2 y-14=0\\right.}$ (hai đường thẳng này đã có cặp vectơ pháp tuyến cùng phương nhau). Vì ${A(8 ; 10) \\in \\Delta_1, A \\notin \\Delta_2}$ nên ${\\Delta_1 / / \\Delta_2}$. Do vậy ${m=1}$ thỏa mãn đề bài.\n- Với ${m=-2}$ thì ${\\Delta_1:\\left\\{\\begin{array}{l}x=8+t \\\\ y=10+t\\end{array}, \\Delta_2:-2 x+2 y-14=0\\right.}$ (hai đường thẳng này đã có cặp vectơ pháp tuyến cùng phương nhau). Vì ${A(8 ; 10) \\in \\Delta_1, A \\notin \\Delta_2}$ nên ${\\Delta_1 / / \\Delta_2}$. Do vậy ${m=-2}$ thỏa mãn đề bài.\nVậy ta tìm được hai giá trị ${{m}}$ thỏa mãn là ${m=1 ; m=-2}$.",
+   "short_value": -2,
+   "short_correct": "-2",
+   "ma": "de2.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Định ${m}$ để hai đường thẳng ${\\Delta_1: 2 x-3 y+4=0}$ và ${\\Delta_2:\\left\\{\\begin{array}{l}x=2-3 t \\\\ y=1-4 m t\\end{array}\\right.}$ vuông góc với nhau.",
+   "explanation": "${\\Delta_1, \\Delta_2}$ có hai vectơ pháp tuyến là ${\\vec{n}_1=(2 ;-3), \\vec{n}_2=(4 m ;-3)}$.\nTa có: ${\\Delta_1 \\perp \\Delta_2 \\Leftrightarrow \\vec{n}_1 \\cdot \\vec{n}_2=0 \\Leftrightarrow 2 \\cdot 4 m+(-3) \\cdot(-3)=0 \\Leftrightarrow m=-\\frac{9}{8}}$.",
+   "short_value": -1.125,
+   "short_correct": "-1,125",
+   "ma": "de2.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "thay",
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai đường thẳng ${\\Delta_1: x+y-10=0}$ và ${\\Delta_1: 2 x+m y+999=0}$. Tìm ${m}$ để góc tạo bởi hai đường thẳng trên bằng $45{}^\\circ $.",
+   "explanation": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ có cặp vectơ pháp tuyến ${\\vec{n}_1=(1 ; 1), \\vec{n}_2=(2 ; m)}$.\nTa có: $\\cos \\left( {{\\Delta }_{1}},{{\\Delta }_{2}} \\right)=\\frac{\\left| {{{\\vec{n}}}_{1}}\\cdot {{{\\vec{n}}}_{2}} \\right|}{\\left| {{{\\vec{n}}}_{1}} \\right|\\cdot \\left| {{{\\vec{n}}}_{2}} \\right|}=\\frac{|1\\cdot 2+1\\cdot m|}{\\sqrt{2}\\cdot \\sqrt{4+{{m}^{2}}}}=\\cos 45{}^\\circ \\Rightarrow \\frac{|1\\cdot 2+1\\cdot m|}{\\sqrt{2}\\cdot \\sqrt{4+{{m}^{2}}}}=\\frac{\\sqrt{2}}{2}$ ${\\Rightarrow 4+m^2=4+4 m+m^2 \\Rightarrow m=0}$. Vậy ${m=0}$ thỏa mãn đề bài.",
+   "short_value": 0,
+   "short_correct": "0",
+   "ma": "de2.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Viết phương trình đường thẳng ${\\Delta}$ đi qua ${M}$ và cách đều các điểm ${P, Q}$ với ${M(2 ; 5), P(-1 ; 2), Q(5 ; 4)}$.",
+   "explanation": "Gọi ${\\vec{n}=(a ; b)}$ là vectơ pháp tuyến của đường thẳng ${\\Delta}$ cần tìm.\n${\\Delta}$ qua ${M(2 ; 5) \\Rightarrow \\Delta: a(x-2)+b(y-5)=0 \\Rightarrow \\Delta: a x+b y-2 a-5 b=0}$.\nTa có: ${d(P, d)=d(Q, d) \\Leftrightarrow \\frac{|-a+2 b-2 a-5 b|}{\\sqrt{a^2+b^2}}=\\frac{|5 a+4 b-2 a-5 b|}{\\sqrt{a^2+b^2}}}$\n$\\Leftrightarrow |-3a-3b|=|3a-b|\\Leftrightarrow \\left[ \\begin{array}{llllll} -3a-3b=3a-b \\\\ -3a-3b=-3a+b \\\\ \\end{array}\\Leftrightarrow \\left[ \\begin{array}{llllll} 3a=-b \\\\ b=0 \\\\ \\end{array} \\right. \\right.\\text{. }$\nVới ${3 a=-b}$; chọn ${a=1 \\Rightarrow b=-3 \\Rightarrow d: x-3 y+13=0}$.\nVới ${b=0}$; chọn ${a=1 \\Rightarrow d: x=2}$.\nVậy có hai phương trình đường thẳng thỏa mãn đề bài:\n${d: x-3 y+13=0}$ hay ${d: x=2}$.",
+   "short_value": null,
+   "short_correct": "x-3y+13=0 hoặc x=2|x-3y+13=0;x=2",
+   "ma": "de2.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Có hai con tàu ${A, B}$ xuất phát từ hai bến, chuyển động theo đường thẳng ngoài biển. Trên màn hình ra-đa của trạm điều khiển (xem như mặt phẳng tọa độ ${O x y}$ với đơn vị trên các trục tính bằng ki-lô-mét), tại thời điểm ${t}$ (giờ), vị trí của tàu ${A}$ có tọa độ được xác định bởi công thức ${\\left\\{\\begin{array}{l}x=3-33 t \\\\ y=-4+25 t\\end{array}\\right.}$; vị trí tàu ${B}$ có tọa độ là ${(4-30 t ; 3-40 t)}$.\nTính gần đúng côsin góc giữa hai đường đi của hai tàu ${A, B}$.",
+   "explanation": "Hai đường đi (giả sử là hai đường thẳng ${d_1, d_2}$) của hai tàu có cặp vectơ chỉ phương ${\\vec{u}_1=(-33 ; 25), \\vec{u}_2=(-30 ;-40)}$; côsin góc tạo bởi hai đường thẳng là: ${\\cos \\left(d_1, d_2\\right)=\\frac{\\left|\\vec{u}_1 \\cdot \\vec{u}_2\\right|}{\\left|\\vec{u}_1\\right| \\cdot\\left|\\vec{u}_2\\right|}=\\frac{|-33 \\cdot(-30)+25(-40)|}{\\sqrt{(-33)^2+25^2} \\cdot \\sqrt{(-30)^2+(-40)^2}} \\approx 0,00483}$.",
+   "short_value": null,
+   "short_correct": "0,00483",
+   "ma": "de2.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm ${m}$ để hai đường thẳng ${\\Delta_1:\\left\\{\\begin{array}{l}x=8+(m+1) t \\\\ y=10-t\\end{array}\\right.}$ và ${\\Delta_2: m x+6 y-76=0}$ song song với nhau.",
+   "explanation": "Hai đường thẳng ${\\Delta_1, \\Delta_2}$ có cặp vectơ pháp tuyến ${\\vec{n}_1=(1 ; m+1), \\vec{n}_2=(m ; 6)}$.\nĐiều kiện cần để ${\\Delta_1, \\Delta_2}$ song song nhau là ${\\vec{n}_1, \\vec{n}_2}$ cùng phương\n${\\Leftrightarrow 1.6=(m+1) m \\Leftrightarrow m^2+m-6=0 \\Leftrightarrow\\left[\\begin{array}{l}m=2 \\\\ m=-3\\end{array}\\right.}$.\nThử lại:\nVới ${m=2}$ thì ${\\Delta_2: 2 x+6 y-76=0 \\Leftrightarrow x+3 y-38=0}$.\nTa có ${A(8 ; 10) \\in \\Delta_1, A \\in \\Delta_2}$ nên loại ${m=2}$.\nVới ${m=-3}$ thì ${\\Delta_2:-3 x+6 y-76=0}$. Ta có ${A(8 ; 10) \\in \\Delta_1, A \\notin \\Delta_2}$ nên loại ${m=-3}$ thỏa mãn.\nVậy với ${m=-3}$ thì ${\\Delta_1, \\Delta_2}$ song song nhau.",
+   "short_value": -3,
+   "short_correct": "-3",
+   "ma": "de2.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L10.C7.B1.D01",
+   "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
+  }
+ ],
+ "flags": []
+}

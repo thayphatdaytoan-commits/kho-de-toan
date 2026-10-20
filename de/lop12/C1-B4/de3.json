@@ -1,0 +1,917 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "1",
+  "lesson": "4",
+  "title": "Bài 4. Sự biến thiên và cực trị của hàm số",
+  "exam_type": "lesson"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như sau\n[[IMG:image12.png]]\nBảng biến thiên trên là hàm số nào sau đây",
+   "explanation": "Đây là dáng điệu của hàm số bậc 3 nên ta loại $y={{x}^{4}}+3{{x}^{2}}+2$ và $y=\\frac{x+1}{x-2}$.\nTừ bảng biến thiên ta có $\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty ;\\underset{x\\to -\\infty }{\\lim}\\,y=-\\infty $ và $\\underset{x\\to +\\infty }{\\lim}\\,y=\\underset{x\\to +\\infty }{\\lim}\\,\\left( {{x}^{3}}-3{{x}^{2}}+2 \\right)=+\\infty ;$\n$\\underset{x\\to -\\infty }{\\lim}\\,y=\\underset{x\\to -\\infty }{\\lim}\\,\\left( {{x}^{3}}-3{{x}^{2}}+2 \\right)=-\\infty $ nên đáp án $y={{x}^{3}}-3{{x}^{2}}+2$ thỏa mãn.",
+   "options": [
+    "$y={{x}^{3}}-3{{x}^{2}}+2$",
+    "$y=-{{x}^{3}}+3{{x}^{2}}+2$",
+    "$y={{x}^{4}}+3{{x}^{2}}+2$",
+    "$y=\\frac{x+1}{x-2}$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B4.D02",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?\n[[IMG:image13.png]]",
+   "explanation": "+) Đồ thị hàm số $y=\\frac{x-2}{x+2}$ có tiệm cận đứng là $x=-2$. Loại A\n+) Đồ thị hàm số $y=\\frac{2x+4}{x-2}$ có tiệm cận ngang là $y=2$. Loại B\n+) Đồ thị hàm số $y=\\frac{x+1}{x-2}$ cắt trục tung tại điểm có tung độ bằng $-\\frac{1}{2}$. Loại C.\n+) Đồ thị hàm số $y=\\frac{x+2}{x-2}$ có tiệm cận ngang là $y=1$, tiệm cận đứng $x=2$, cắt trục hoành tại điểm có hành độ bằng $-2$ và cắt trục tung tại điểm có tung độ bằng $-1$.",
+   "options": [
+    "$y=\\frac{x-2}{x+2}$",
+    "$y=\\frac{2x+4}{x-2}$",
+    "$y=\\frac{x+1}{x-2}$",
+    "$y=\\frac{x+2}{x-2}$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B4.D01",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ có đồ thị như sau\n[[IMG:image14.png]]\nKhẳng định nào sau đây SAI?",
+   "explanation": "Căn cứ vào đồ thị ta có:\nĐồ thị hàm số có tiệm cận đứng $x=2$.\nĐồ thị hàm số có tiệm cận xiên $y=x+1$.\n$\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty ;\\underset{x\\to -\\infty }{\\lim}\\,y=-\\infty $.\nTọa độ giao điểm của đồ thị $y=f\\left( x \\right)$ và trục $Ox$ là $A\\left( {{x}_{0}};0 \\right)$ với $0<{{x}_{0}}<1$.",
+   "options": [
+    "Đồ thị hàm số có tiệm cận đứng $x=2$",
+    "Đồ thị hàm số có tiệm cận xiên $y=x+1$",
+    "$\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty ;\\underset{x\\to -\\infty }{\\lim}\\,y=-\\infty $",
+    "Tọa độ giao điểm của đồ thị và trục $Ox$ là $A\\left( 0;1 \\right)$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B4.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?\n[[IMG:image15.png]]",
+   "explanation": "+) Đồ thị hàm số $y=\\frac{x-1}{x+1}$ không có tiệm cận xiên. Loại A\n+) Đồ thị hàm số $y={{x}^{4}}-2{{x}^{2}}$ không có tiệm cận xiên. Loại B\n+) Đồ thị hàm số $y={{x}^{3}}-3{{x}^{2}}$ không có tiệm cận xiên. Loại D\n+) Đồ thị hàm số $y=\\frac{{{x}^{2}}+4}{x}$ có tiệm cận xiên là $y=x$, tiệm cận đứng $x=0$.",
+   "options": [
+    "$y=\\frac{x-1}{x+1}$",
+    "$y={{x}^{4}}-2{{x}^{2}}$",
+    "$y=\\frac{{{x}^{2}}+4}{x}$",
+    "$y={{x}^{3}}-3{{x}^{2}}$"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L12.C1.B4.D01",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=\\frac{2x-4}{x-1}$. Tọa độ giao điểm của đồ thị và trục $Oy$ là",
+   "explanation": "Cho $x=0$, ta được $y=\\frac{2.0-4}{0-1}=4$. Tọa độ giao điểm với trục $Oy$ là $\\left( 0;4 \\right)$.",
+   "options": [
+    "$\\left( 2;0 \\right)$",
+    "$\\left( 0;2 \\right)$",
+    "$\\left( 4;0 \\right)$",
+    "$\\left( 0;4 \\right)$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Đường cong trong hình bên là đồ thị của hàm số nào dưới đây?\n[[IMG:image16.png]]",
+   "explanation": "+) Hàm số $y=\\frac{x-1}{x}$ không xác định tại $x=0$. Loại A\n+) Hàm số $y={{x}^{3}}+3{{x}^{2}}-4$ có hệ số $a=1>0$. Loại B\n+) Ta có $y=-{{x}^{3}}+3x-4\\Rightarrow {y}'=-3{{x}^{2}}+3$\n${y}'=0\\Leftrightarrow -3{{x}^{2}}+3=0\\Leftrightarrow x=\\pm 1$. Hàm số có hai điểm cực trị $x=\\pm 1$. Loại C\n+) Ta có $y=-{{x}^{3}}+3{{x}^{2}}-4\\Rightarrow {y}'=-3{{x}^{2}}+6x$\n${y}'=0\\Leftrightarrow -3{{x}^{2}}+6x=0\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=2 \\\\ \\end{aligned} \\right.$. Hàm số có hai điểm cực trị $x=0,\\,x=2$.",
+   "options": [
+    "$y=\\frac{x-1}{x}$",
+    "$y={{x}^{3}}+3{{x}^{2}}-4$",
+    "$y=-{{x}^{3}}+3x-4$",
+    "$y=-{{x}^{3}}+3{{x}^{2}}-4$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D01",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=\\frac{{{x}^{2}}+2x-1}{x-1}$ và $y=2x-7$. Hai đồ thị cắt nhau tại hai điểm thì tổng hoành độ hai giao điểm bằng",
+   "explanation": "Phương trình hoành độ giao điểm của hai đồ thị: $\\frac{{{x}^{2}}+2x-1}{x-1}=2x-7\\,\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\ne 1 \\\\ & {{x}^{2}}-11x+8=0 \\\\ \\end{aligned} \\right.$.\n$\\Leftrightarrow \\left[ \\begin{aligned} & {{x}_{1}}=\\frac{11-\\sqrt{89}}{2} \\\\ & {{x}_{2}}=\\frac{11+\\sqrt{89}}{2} \\\\ \\end{aligned} \\right.$.\nsuy ra, tổng hoành độ của hai giao điểm là: ${{x}_{1}}+{{x}_{2}}=\\frac{11-\\sqrt{89}}{2}+\\frac{11+\\sqrt{89}}{2}=11$.",
+   "options": [
+    "$7$",
+    "$5$",
+    "$8$",
+    "$11$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Cho hàm số $y=f\\left( x \\right)$ xác định trên $\\mathbb{R}\\backslash \\left\\{ -1 \\right\\}$, liên tục trên mỗi khoảng xác định và có bảng biến thiên như hình sau\n[[IMG:image17.jpeg]]\nSố giao điểm của đường thẳng $y=1$ và đồ thị của hàm số $y=f\\left( x \\right)$ là",
+   "explanation": "[[IMG:image18.png]]\nSố giao điểm của đường thẳng $y=1$ và đồ thị của hàm số $y=f\\left( x \\right)$ là 3.",
+   "options": [
+    "$3$",
+    "$2$",
+    "$1$",
+    "$0$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Cho hàm số $y=\\frac{\\left( a-1 \\right)x+b}{\\left( c-1 \\right)x+d},\\,\\,d<0$ có đồ thị như hình trên. Khẳng định nào dưới đây là đúng?\n[[IMG:image19.png]]",
+   "explanation": "Theo bài ra, đường tiệm cận đứng của đồ thị hàm số là $x=-\\frac{d}{c-1}.$\nĐường tiệm cận ngang của đồ thị hàm số là: $y=\\frac{a-1}{c-1}.$.\nNhìn đồ thị ta thấy: $x=-\\frac{d}{c-1}>0$ mà $d<0\\Rightarrow c-1>0\\Rightarrow c>1$.\n$y=\\frac{a-1}{c-1}>0\\Rightarrow a-1>0\\Rightarrow a>1$.\nĐồ thị cắt trục tung tại điểm có tung độ bằng $\\frac{b}{d}<0\\Rightarrow b>0$.",
+   "options": [
+    "$a>1,\\,b>0,\\,c<1$",
+    "$a>1,\\,b<0,\\,c>1$",
+    "$a<1,\\,b>0,\\,c<1$",
+    "$a>1,\\,b>0,\\,c>1$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D05",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Một công ty chuyên sản xuất thùng phi nhận được đơn đặt hàng với yêu cầu là thùng phi phải có dạng hình trụ và chứa được $16\\pi \\left( {{m}^{3}} \\right)$ mỗi chiếc. Hỏi chiếc thùng phải có chiều cao $h$ và bán kính đáy $R$bằng bao nhiêu để sản xuất ít tốn vật liệu nhất?",
+   "explanation": "Do thùng phi có dạng hình trụ nên:\n${{V}_{tru}}=\\pi {{R}^{2}}h=16\\pi \\Leftrightarrow h=\\frac{16}{{{R}^{2}}}\\,\\,\\,\\,\\,\\,\\,\\left( 1 \\right)$\nDiện tích toàn phần của thùng phi là:\n${{S}_{Tp}}=2\\pi {{R}^{2}}+2\\pi Rh=2\\pi R\\left( h+R \\right)\\,\\,\\,\\,\\,\\,\\,\\left( 2 \\right)$\nThay (1) vào (2) ta được:\n${{S}_{Tp}}=2\\pi \\left( \\frac{16}{R}+{{R}^{2}} \\right)\\Rightarrow S{{'}_{Tp}}=2\\pi \\left( -\\frac{16}{{{R}^{2}}}+2R \\right)=\\frac{4\\pi }{{{R}^{2}}}\\left( {{R}^{3}}-8 \\right)\\Rightarrow S{{'}_{Tp}}=0\\Leftrightarrow R=2$\nBảng biến thiên\n[[IMG:image20.png]]Vậy để sản xuất thùng phi ít tốn vật liệu nhất thì $R=2\\left( m \\right)$ và chiều cao là $h=4\\left( m \\right)$.",
+   "options": [
+    "$R=4\\left( m \\right),h=2\\left( m \\right)$",
+    "$R=2\\left( m \\right),h=4\\left( m \\right)$",
+    "$R=2\\left( m \\right),h=2\\left( m \\right)$",
+    "$R=4\\left( m \\right),h=4\\left( m \\right)$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 16,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Gọi $S$ là tập hợp các giá trị $m$ để tiệm cận xiên của đồ thị hàm số $y=\\frac{m{{x}^{2}}+x-3}{x-1}$ tạo với hai trục hệ tọa độ $Oxy$ một tam giác có diện tích bằng $2$. Khi đó tổng các giá trị của $S$ bằng",
+   "explanation": "với $m=0$ ta có $y=\\frac{x-3}{x-1}$. Khi đó đồ thị hàm số không có tiệm cận xiên.\nvới $m=2$ ta có $y=\\frac{2{{x}^{2}}+x-3}{x-1}=2x+3$. Khi đó đồ thị hàm số không có tiệm cận xiên.\nvới $m\\ne 0;m\\ne 2$ ta có $y=mx+m+1+\\frac{m-2}{x-1}$.\nTa có: $\\underset{x\\to \\pm \\infty }{\\lim}\\,\\left( y-mx-m-1 \\right)=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{m-2}{x-1}=0$ nên đường tiệm cận xiên của đồ thị hàm số là $y=mx+m+1$.\nGiao điểm của tiệm cận xiên với trục $Ox$ là $\\left( \\frac{-m-1}{m};0 \\right)$;\nGiao điểm của tiệm cận xiên với trục $Oy$ là $\\left( 0;m+1 \\right)$.\nĐường tiệm cận xiên tạo thành một tam giác thì diện tích của tam giác:\n$S=\\frac{1}{2}.\\left| m+1 \\right|.\\left| \\frac{-m-1}{m} \\right|=2\\Leftrightarrow {{\\left( m+1 \\right)}^{2}}=4\\left| m \\right|\\Leftrightarrow \\left[ \\begin{aligned} & {{m}^{2}}+2m+1=4m;\\,\\,\\,\\,\\,\\,\\,khi\\,\\,m\\ge 0 \\\\ & {{m}^{2}}+2m+1=-4m;\\,\\,\\,khi\\,\\,m<0 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left[ \\begin{aligned} & {{m}^{2}}-2m+1=0;\\,\\,\\,\\,\\,\\,\\,khi\\,\\,m\\ge 0 \\\\ & {{m}^{2}}+6m+1=0;\\,\\,\\,\\,\\,\\,\\,khi\\,\\,m<0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & m=\\frac{1}{2} \\\\ & m=-3+2\\sqrt{2} \\\\ & m=-3-2\\sqrt{2} \\\\ \\end{aligned} \\right.$.\nVậy tổng giá trị của $S$ bằng $\\frac{-11}{2}$.",
+   "options": [
+    "$\\frac{7}{2}$",
+    "$-\\frac{3}{2}$",
+    "$\\frac{5}{2}$",
+    "$-\\frac{11}{2}$"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 23,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Một bể ban đầu chứa $150$ lít nước. Sau đó, cứ mỗi phút người ta bơm thêm $50$ lít nước, đồng thời cho vào bể $20$ gam chất khử trùng ( hòa tan ). Đặt $f\\left( t \\right)$ gam/lít là nồng độ chất khử trùng trong bể sau $t$ phút ( $t\\ge 0$), biết rằng sau khi khảo sát sự biến thiên của hàm số $f\\left( t \\right)$, ta thấy giá trị $f\\left( t \\right)$ tăng theo $t$ nhưng không vượt ngưỡng $p$ gam/lít. Tìm số $p$ ( kết quả thể hiện dưới dạng số thập phân ).",
+   "explanation": "Sau $t$ phút, trong bể chứa $\\left( 50t+150 \\right)$lít nước và $20t$gam chất khử trùng.\nSuy ra nồng độ chất khử trùng trong bể sau $t$ phút là $f\\left( t \\right)=\\frac{20t}{50t+150}$gam/lít.\nKhảo sát sự biến thiên hàm số $f\\left( t \\right)=\\frac{20t}{50t+150}$, $t\\ge 0$.\nTa có: ${f}'\\left( t \\right)=\\frac{3000}{{{\\left( 50t+150 \\right)}^{2}}}>0,\\forall t\\ge 0$\n$\\underset{t\\to +\\infty }{\\lim}\\,f\\left( t \\right)=\\underset{t\\to +\\infty }{\\lim}\\,\\frac{20t}{50t+150}=\\underset{t\\to +\\infty }{\\lim}\\,\\frac{20}{50+\\frac{150}{t}}=\\frac{2}{5}=0,4$\nBảng biến thiên\n[[IMG:image21.png]]\nDựa vào BBT ta thấy giá trị $f\\left( t \\right)$ tăng theo $t$ nhưng không vượt ngưỡng $0,4$gam/lít.\nVậy $p=0,4$.",
+   "options": [
+    "$p=0,4$",
+    "$p=0,3$",
+    "$p=0,2$",
+    "$p=0,1$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tập xác định của hàm số đã cho là $\\left( 0\\,;\\,+\\infty \\right)$.",
+    "b": "Đồ thị của hàm số đã cho đi qua điểm $\\left( 0\\,;2 \\right)$.",
+    "c": "Hàm số đạt cực trị tại $x=0$.",
+    "d": "Giá trị lớn nhất của hàm số đã cho trên đoạn $\\left[ 0;2 \\right]$ bằng $4$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y={{x}^{3}}-3x+2$. Khi đó",
+   "explanation": "a) SAI vì Tập xác định của hàm số đã cho là $\\mathbb{R}$.\nb) ĐÚNG. Thay $x=0$ ta được $y=2$.\nc) SAI. Ta có $y'=3{{x}^{2}}-3$. Ta thấy $y'\\left( 0 \\right)=-3\\ne 0$. Suy ra hàm số không đạt cực trị tại điểm $x=0$.\nd) ĐÚNG. Ta có $y'=3{{x}^{2}}-3$.Suy ra $y'=0\\Leftrightarrow x=1\\,\\left( TM \\right);x=-1\\,\\left( KTM \\right)$.\n$y\\left( 0 \\right)=2;y\\left( 2 \\right)=4;y\\left( 1 \\right)=0$. Vậy giá trị lớn nhất của hàm số đã cho trên đoạn $\\left[ 0;2 \\right]$ bằng $4$.",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hàm số nghịch biến trên từng khoảng xác định.",
+    "b": "Giao điểm với trục tung là điểm có tung độ âm.",
+    "c": "Giao điểm với trục hoành là điểm có hoành độ âm.",
+    "d": "Trong các số $a,b,c$ có hai số âm."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho đồ thị hàm số $y=\\frac{bx-c}{x-a}$ ($a,b,c\\in \\mathbb{R}$) có đồ thị như hình vẽ bên dưới.\n[[IMG:image35.png]]",
+   "explanation": "a) Đúng.\nHàm số nghịch biến trên từng khoảng xác định.\nb) Đúng.\nGiao điểm với trục tung là điểm có tung độ âm.\nc) Đúng.\nGiao điểm với trục hoành là điểm có hoành độ âm.\nd) Sai.\nTiệm cận đứng ${x=a>0}$.\nTiệm cận ngang ${y=b>0}$.\nĐồ thị hàm số cắt trục tung tại điểm có tung độ ${\\frac{c}{a}<0 \\Rightarrow c<0}$ (vì ${a>0}$ ).",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Tập xác định của hàm số đã cho là $\\mathbb{R}$.",
+    "b": "Đồ thị hàm số có tiệm cận đứng là đường thẳng $x=2$ và có tiệm cận xiên là đường thẳng $y=x$.",
+    "c": "Tổng giá trị cực đại và giá trị cực tiểu của hàm số đã cho bằng $4$.",
+    "d": "Cho đường thẳng $y=mx-2$. Khi đó có đúng 8 giá trị nguyên của tham số $m$ không vượt quá 10 để đồ thị hàm số đã cho cắt đường thẳng $y=mx-2$ tại hai điểm phân biệt nằm về hai phía so với tiệm cận đứng của đồ thị $\\left( C \\right)$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=\\frac{{{x}^{2}}-2x+4}{x-2}$ có đồ thị $\\left( C \\right)$. Khi đó",
+   "explanation": "a) SAI vì Tập xác định của hàm số đã cho là $\\mathbb{R}\\backslash \\left\\{ 2 \\right\\}$.\nb) ĐÚNG. Dễ thấy tiệm cận đứng là $x=2$. Ta có $\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\frac{{{x}^{2}}-2x+4}{x-2}-x \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\frac{4}{x-2} \\right)=0;$\n$\\underset{x\\to -\\infty }{\\lim}\\,\\left( \\frac{{{x}^{2}}-2x+4}{x-2}-x \\right)=\\underset{x\\to -\\infty }{\\lim}\\,\\left( \\frac{4}{x-2} \\right)=0$. Vậy phương trình tiệm cận xiên là $y=x$.\nc) ĐÚNG. Ta có $y'=1-\\frac{4}{{{\\left( x-2 \\right)}^{2}}}$. Ta thấy $y'=0\\Leftrightarrow x=0;x=4$. $y\\left( 0 \\right)=-2;y\\left( 4 \\right)=6$. Vậy tổng các giá trị cực đại và giá trị cực tiểu là $-2+6=4$.\nd) SAI. Phương trình hoành độ giao điểm\n$\\frac{{{x}^{2}}-2x+4}{x-2}=mx-2$\nDễ thấy phương trình không có nghiệm $x=2$ nên phương trình tương đương\n$\\left( m-1 \\right){{x}^{2}}-2mx=0$.\nNếu $m=1$ thì phương trình có nghiệm duy nhất $x=0$(KTM).\nNếu $m\\ne 1$, phương trình đã cho có hai nghiệm $x=0;x=\\frac{2m}{m-1}$.\nYêu cầu bài toán tương đương $\\frac{2m}{m-1}>2\\Leftrightarrow \\frac{2}{m-1}>0\\Leftrightarrow m>1$.\nVậy có 9 giá trị nguyên của tham số $m$ thỏa mãn là $2;3;4;5;6;7;8;9;10$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 23,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Đồ thị hàm số có tiệm cận đứng là $x=1$.",
+    "b": "Phương trình tiếp tuyến của đồ thị $\\left( C \\right)$ tại điểm điểm có hoành độ $M\\left( 0;-1 \\right)$ là $y=2x-1$.",
+    "c": "Tồn tại tiếp tuyến của đồ thị vuông góc với nhau.",
+    "d": "Để đường thẳng $y=k$ cắt $\\left( C \\right)$ tại hai điểm phân biệt $A,B$ sao cho $OA\\bot OB$ thì $k$ là nghiệm của phương trình ${{k}^{2}}-k-1=0$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho hàm số $y=x-\\frac{1}{x+1}$ có đồ thị là $\\left( C \\right)$.",
+   "explanation": "a) Sai.\nĐồ thị ${(C)}$ có tiệm cận đứng là ${x=-1}$.\nb) Đúng.\nĐồ thị ${(C)}$ cắt trục ${O y}$ tại ${M(0 ;-1)}$.\nTa có ${y\\prime =1+\\frac{1}{(x+1)^2} \\Rightarrow y\\prime (0)=2}$.\nPhương trình tiếp tuyến của ${(C)}$ tại ${M}$ là ${y=2 x-1}$.\nc) Sai.\nTiếp tuyến của đồ thị ${(C)}$ tại tiếp điểm ${M_1\\left(x_1 ; y_1\\right)}$ có hệ số góc ${k_1=y\\prime \\left(x_1\\right)=1+\\frac{1}{\\left(x_1+1\\right)^2}>0}$. Tiếp tuyến của đồ thị ${(C)}$ tại tiếp điểm ${M_2\\left(x_2 ; y_2\\right)}$ có hệ số góc ${k_2=y\\prime \\left(x_2\\right)=1+\\frac{1}{\\left(x_2+1\\right)^2}>0}$. Khi đó ${k_1 k_2>0}$ nên không tồn tại hai tiếp tuyến của đồ thị vuông góc với nhau.\nd) Đúng.\nPhương trình hoành độ giao điểm giữa đồ thị ${(C)}$ và đường thẳng ${y=k}$ là\n${}$ $x-\\frac{1}{x+1}=k\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\ne -1 \\\\ & {{x}^{2}}+x-1=k\\left( x+1 \\right).\\text{ (1)} \\\\ \\end{aligned} \\right.\\text{ (I)}$\nNhận thấy ${x=-1}$ không thỏa mãn (1) nên $(I)\\Leftrightarrow {{x}^{2}}+\\left( 1-k \\right)x-1-k=0.\\text{ (2)}$\nPhương trình (2) có ${\\Delta=(1-k)^2+4(1+k)=k^2+2 k+5=(k+1)^2+4>0, \\forall k}$.\nDo đó, đường thẳng ${y=k}$ luôn cắt đồ thị ${(C)}$ tại hai điểm phân biệt ${A\\left(x_A ; k\\right), B\\left(x_B ; k\\right)}$ với ${x_A, x_B}$ là nghiệm của phương trình (2).\nTheo Vi-et thì ${x_A x_B=-1-k}$.\nTa có ${O A \\perp O B \\Leftrightarrow \\overrightarrow{O A} \\cdot \\overrightarrow{O B}=0 \\Leftrightarrow x_A x_B+k^2=0 \\Leftrightarrow-1-k+k^2=0}$.\nVậy ${O A \\perp O B}$ thì ${k}$ là nghiệm của phương trình ${k^2-k-1=0}$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B4.D04",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y={{x}^{3}}-3{{x}^{2}}+2$. Giá trị cực tiểu của hàm số đã cho bằng bao nhiêu?",
+   "explanation": "Trả lời: -2\nTa có BBT:\n[[IMG:image24.png]]\nVậy ${{y}_{CT}}=-2$.",
+   "short_value": -2,
+   "short_correct": "-2",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=\\frac{5x-3}{2x+6}$. Đồ thị hàm số có đường tiệm cận đứng và ngang lần lượt là các đường thẳng $x=a$ và $y=b$. Tính $a+4b?$",
+   "explanation": "Trả lời: 7\nTa có $\\underset{x\\to -{{3}^{+}}}{\\lim}\\,\\frac{5x-3}{2x+6}=-\\infty ;\\underset{x\\to -{{3}^{-}}}{\\lim}\\,\\frac{5x-3}{2x+6}=+\\infty .$ZS\n$\\underset{x\\to +\\infty }{\\lim}\\,\\frac{5x-3}{2x+6}=\\frac{5}{2};\\underset{x\\to -\\infty }{\\lim}\\,\\frac{5x-3}{2x+6}=\\frac{5}{2}.$\nDo đó đồ thị hàm số nhận các đường thẳng $x=-3$và $y=\\frac{5}{2}$là các tiệm cận đứng và ngang\nNhư vậy, $a=-3;b=\\frac{5}{2}\\Rightarrow a+4b=-3+4.\\frac{5}{2}=7$",
+   "short_value": 7,
+   "short_correct": "7",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho đồ thị hàm số $f(x)=\\frac{5{{x}^{2}}-6x+9}{x-1}$ có tâm đối xứng là $I(a\\,;\\,b)$. Giá trị của biểu thức $C=a+3b$ là bao nhiêu?",
+   "explanation": "Trả lời: 13\nTa có $f(x)=5x-1+\\frac{8}{x-1}$ nên đồ thị hàm số nhận hai đường thẳng $x=1$ và $y=5x-1$ tương ứng là TCĐ và TCX. Suy ra $a=1,\\,\\,b=4\\Rightarrow C=1+3\\cdot 4=13$.",
+   "short_value": 13,
+   "short_correct": "13",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y={{x}^{3}}-3x+2$ có đồ thị $\\left( C \\right)$ và $y=\\frac{x+2}{x-1}$ có đồ thị $\\left( T \\right)$. Số giao điểm của $\\left( C \\right)$ với $\\left( T \\right)$ là?",
+   "explanation": "Trả lời: 2\nXét phương trình hoành độ giao điểm: ( ĐK$x\\ne 1$)\n$\\begin{aligned} & {{x}^{3}}-3x+2=\\frac{x+2}{x-1}\\Leftrightarrow \\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}-\\frac{x+2}{x-1}=0 \\\\ & \\Leftrightarrow \\left( x+2 \\right).\\left( {{\\left( x-1 \\right)}^{2}}-\\frac{1}{x-1} \\right)=0\\Rightarrow \\left[ \\begin{aligned} & x+2=0 \\\\ & {{\\left( x-1 \\right)}^{3}}=1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=-2(TM) \\\\ & x=2(TM) \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$\nVậy số giao điểm của $\\left( C \\right)$ với $\\left( T \\right)$ là $2$.",
+   "short_value": 2,
+   "short_correct": "2",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Cho hàm số $y=f(x)={{2024}^{x}}-{{2024}^{-x}}+x+\\sin x$. Có bao nhiêu giá trị nguyên của tham số m để phương trình $f(x+3)+f\\left( {{x}^{3}}-4x+m \\right)=0$ có đúng ba nghiệm phân biệt?",
+   "explanation": "Trả lời: 3\nHàm số $y=f(x)={{2024}^{x}}-{{2024}^{-x}}+x+\\sin x$ xác định trên $\\mathbb{R}$ và\n$f(-x)={{2024}^{-x}}-{{2024}^{x}}-x-\\sin x=-f(x)$\n, suy ra $f(x)$ là hàm số lẻ.\nMặt khác, ${y}'={f}'(x)={{2024}^{x}}.\\ln 2024+{{2024}^{-x}}.\\ln 2024+1+\\cos x>0,\\,\\,\\forall x\\in \\mathbb{R}$.\nDo đó, $f(x)$ đồng biến trên $\\mathbb{R}$.\nKhi đó, phương trình\n$f(x+3)+f\\left( {{x}^{3}}-4x+m \\right)=0\\Leftrightarrow f(x+3)=-f\\left( {{x}^{3}}-4x+m \\right)$\n$\\Leftrightarrow f(x+3)=f\\left( -{{x}^{3}}+4x-m \\right)\\Leftrightarrow x+3=-{{x}^{3}}+4x-m$\n$\\Leftrightarrow {{x}^{3}}-3x+3=-m$\nĐặt $g(x)={{x}^{3}}-3x+3\\Rightarrow {g}'(x)=3{{x}^{2}}-3$.\nTa có ${g}'(x)=0\\Leftrightarrow 3{{x}^{2}}-3=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-1 \\\\ \\end{aligned} \\right.$.\nBảng biến thiên:\n[[IMG:image25.png]]\nTừ bảng biến thiên suy ra phương trình đã cho có 3 nghiệm phân biệt khi và chỉ khi đường thẳng $y=-m$ cắt đồ thị hàm số $g(x)={{x}^{3}}-3x+3$ tại 3 điểm phân biệt\n$\\Leftrightarrow 1<-m<5\\Leftrightarrow -5<m<-1$.\nVậy có 3 giá trị nguyên của m thoả đề.",
+   "short_value": 3,
+   "short_correct": "3",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 17,
+    "so_dau_bang": 28,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [
+    "trung_web:QTLRYNenZiqXXTfzdHH0"
+   ],
+   "question": "Một cốc chứa $25$ml dung dịch $NaOH$với nồng độ $100$ mg/ml. Một bình chứa dung dịch $NaOH$ khác với nồng độ $9$mg/ml được trộn vào cốc. Gọi $C\\left( x \\right)$ là nồng độ của $NaOH$ sau khi trộn $x$(ml) từ bình chứa, ta thấy nồng độ của $NaOH$trong cốc sẽ luôn giảm theo $x$ nhưng luôn lớn hơn một số $a$. Tính $a$?",
+   "explanation": "Trả lời: 9\nTổng khối lượng của $NaOH$ sau khi trộn $x$(ml) là: $25.100+9x=2500+9x$(mg)\nTổng thể tích của dung dịch sau khi trộn là: $25+x$.\nTa có $C\\left( x \\right)=\\frac{2500+9x}{25+x};x\\ge 0.$\nTa có TXĐ của hàm số là $D=\\left[ 0;+\\infty \\right)$\nCó ${{C}^{'}}\\left( x \\right)=\\frac{9.\\left( 25+x \\right)-(2500+9x)}{{{\\left( 25+x \\right)}^{2}}}=\\frac{-2275}{{{\\left( 25+x \\right)}^{2}}}<0,\\forall x\\in D$\nLại có $\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\frac{2500+9x}{25+x} \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{\\frac{2500}{x}+9}{\\frac{25}{x}+1}=9$\nDo đó nồng độ $NaOH$ luôn giảm nhưng luôn lớn hơn $9$mg/ml.\n⬩Đề ❹: ỨNG DỤNG.",
+   "short_value": 9,
+   "short_correct": "9",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Chiều dài dây để uốn ra bán nguyệt là $\\frac{\\pi x}{2}$.",
+    "b": "Giá trị của $y$ tính theo $x$ là $4-\\frac{x\\left( 4+\\pi \\right)}{4}$.",
+    "c": "Diện tích của cửa sổ là $S=4x-{{x}^{2}}$.",
+    "d": "Khi diện tích của cửa sổ lớn nhất thì $y=\\frac{16}{8+\\pi }$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Để làm một cửa sổ có dạng một hình bán nguyệt và một hình chữ nhật ghép lại như hình vẽ bên dưới, người ta dùng $8 \\text{m}$ dây thép để làm các đường viền. Gọi $x, y$ là độ dài cạnh của khung hình chữ nhật.\n[[IMG:image54.tmp]]",
+   "explanation": "a) Bán kính của hình bán nguyệt là $\\frac{x}{2}$ nên nửa chu vi bán nguyệt là $\\frac{\\pi x}{2}$\nb) Ta có $2\\left( x+y \\right)+\\frac{\\pi x}{2}=8\\Leftrightarrow y=4-\\frac{x\\left( 4+\\pi \\right)}{4}$.\nc) Diện tích của cửa sổ:$S=xy+\\frac{1}{2}\\pi {{\\left( \\frac{x}{2} \\right)}^{2}}=x\\left( 4-x-\\frac{\\pi x}{4} \\right)+\\frac{\\pi {{x}^{2}}}{8}=4x-{{x}^{2}}-\\frac{\\pi {{x}^{2}}}{8}$.\nd) $S$ đạt giá trị lớn nhất khi $x=\\frac{4}{2+\\frac{\\pi }{4}}=\\frac{16}{8+\\pi }$ nên $y=4-x-\\frac{\\pi x}{4}=\\frac{16}{8+\\pi }$.",
+   "ma": "de3.P2.C1b",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 10,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Để tổng chiều dài của dây ngắn nhất thì $x\\in \\left( 0;30 \\right)$.",
+    "b": "Chiều dài sợi dây nối từ cọc đến đỉnh cột cao $28 \\text{m}$ là $\\sqrt{1684+{{x}^{2}}}$.",
+    "c": "Tổng chiều dài của dây là $\\sqrt{144+{{x}^{2}}}+\\sqrt{1684-60x+{{x}^{2}}}$.",
+    "d": "Tổng chiều dài ngắn nhất của dây là $48,5 \\text{m}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Có hai cây cột, một cây cao $12 \\text{m}$ và một cây cao $28 \\text{m}$đứng cách nhau $30 \\text{m}\\text{.}$Chúng được giữ bằng hai sợi dây, gắn vào một cọc duy nhất nối từ mặt đất đến đỉnh mỗi cột. Gọi $x$ là khoảng cách từ cột cao $12 \\text{m}$ đến cọc.\n[[IMG:image55.png]]",
+   "explanation": "a) Rõ ràng để tổng chiều dài dây ngắn nhất thì cọc phải nằm trong khoảng giữa hai cây cột nên $x\\in \\left( 0;30 \\right)$.\nb) $AC=x\\Rightarrow BC=30-x$ nên chiều dài sợi dây nối từ cọc đến đỉnh cột cao $28 \\text{m}$ là $\\sqrt{{{28}^{2}}+{{\\left( 30-x \\right)}^{2}}}=\\sqrt{1684-60x+{{x}^{2}}}$.\nc) Chiều dài sợi dây nối từ cọc đến đỉnh cột cao $12 \\text{m}$ là $\\sqrt{{{12}^{2}}+{{x}^{2}}}=\\sqrt{144+{{x}^{2}}}$ suy ra tổng chiều dài của sợi dây là $\\sqrt{144+{{x}^{2}}}+\\sqrt{1684-60x+{{x}^{2}}}$.\nd) Xét hàm số $f\\left( x \\right)=\\sqrt{144+{{x}^{2}}}+\\sqrt{1684-60x+{{x}^{2}}}$ với $x\\in \\left[ 0;30 \\right]$\nTa có ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{144+{{x}^{2}}}}+\\frac{x-30}{\\sqrt{1684-60x+{{x}^{2}}}}$\n${f}'\\left( x \\right)=0\\Leftrightarrow x\\sqrt{1684-60x+{{x}^{2}}}=\\left( 30-x \\right)\\sqrt{144+{{x}^{2}}}$\n$\\begin{aligned} & \\Rightarrow {{x}^{2}}\\left( 1684-60x+{{x}^{2}} \\right)={{\\left( 30-x \\right)}^{2}}\\left( 144+{{x}^{2}} \\right) \\\\ & \\Leftrightarrow 640{{x}^{2}}+8540x-129600=0 \\\\ & \\Leftrightarrow x=9; x=-\\frac{45}{2} \\\\ \\end{aligned}$\nDo $x\\in \\left[ 0;30 \\right]$ nên ta nhận $x=9$\nTa có $f\\left( 0 \\right)\\approx 53,04; f\\left( 9 \\right)=50; f\\left( 30 \\right)=60,31$\nVậy chiều dài ngắn nhất của dây là $50 \\text{m}$.",
+   "ma": "de3.P2.C2b",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 20,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Dân số của quốc gia này ở năm $2030$ vượt mức $110$ triệu người.",
+    "b": "Dân số của quốc gia này ở năm $2035$ vượt mức $115$ triệu người.",
+    "c": "Vào năm $2030$ thì tốc độ tăng dân số là $1,6$ triệu người/năm.",
+    "d": "Vào năm $2026$ thì tốc độ tăng dân số là $1,6$ triệu người/năm."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Dân số của một quốc gia sau $t$ (năm) bắt đầu từ năm $2023$ được tính theo công thức $N\\left( t \\right)=100{{e}^{0,012t}}$ (trong đó $N\\left( t \\right)$ được tính bằng triệu người, $0\\le t\\le 50$)",
+   "explanation": "a) Dân số của quốc gia này ở năm $2030$ là $N\\left( 7 \\right)=100{{e}^{0,012.7}}\\approx 108,8$ triệu người.\nb) Dân số của quốc gia này ở năm $2035$ là $N\\left( 12 \\right)=100{{e}^{0,012.12}}\\approx 115,5$ triệu người.\nc) Hàm tốc độ tăng dân số là ${N}'\\left( t \\right)=1,2{{e}^{0,012t}}$. Ta có:\n$1,2{{e}^{0,012t}}=1,6\\Leftrightarrow t\\approx 2,34$.\nVậy thời vào năm $2026$, tốc độ tăng dân số là $1,6$ triệu người/năm\nd) Hàm tốc độ tăng dân số là ${N}'\\left( t \\right)=1,2{{e}^{0,012t}}$. Ta có:\n$1,2{{e}^{0,012t}}=1,6\\Leftrightarrow t\\approx 2,34$.\nVậy thời vào năm $2026$, tốc độ tăng dân số là $1,6$ triệu người/năm.",
+   "ma": "de3.P2.C3b",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "sua_boi": "grokbot",
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D07",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Khi $x=20\\,km$ thì đường dây điện nối từ $C$ về $G$ dài $100km$.",
+    "b": "Khi $x=20\\,km$ thì tổng chi phí mắc điện là $560.000USD$.",
+    "c": "Tổng chi phí mắc điện nhỏ nhất khi $x=50km$.",
+    "d": "Tổng chi phí mắc điện nhỏ nhất là $540.000USD$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Đường dây điện $110KV$ kéo từ trạm phát ( điểm $A$) trong đất liền ra Côn Đảo ( điểm$C$). Biết $BC=60km$, $AB=100km$, góc $\\widehat{ABC}=90{}^\\circ $, như hình vẽ. Mỗi $km$ dây điện dưới nước chi phí là $5000\\,USD$, chi phí cho mỗi $km$ dây điện trên bờ là $3000\\,USD$. Đặt $x=AG$.\n[[IMG:image56.png]]",
+   "explanation": "[[IMG:image57.png]]\na) Có $AG=x\\Rightarrow BG=100-x$ với $0\\le x\\le 100$.\nXét tam giác $CBG$ vuông tại $B$ có $CG=\\sqrt{C{{B}^{2}}+B{{G}^{2}}}=\\sqrt{3600+{{\\left( 100-x \\right)}^{2}}}$.\nKhi $x=20\\,km\\Rightarrow CG=100\\,km$.\nb) Chi phí tiền mắc điện là $f\\left( x \\right)=3000x+5000.\\sqrt{3600+{{\\left( 100-x \\right)}^{2}}}$\nKhi $x=20\\,km\\Rightarrow CG=100\\,km$ và tổng chi phí mắc điện là $T=f\\left( 20 \\right)=560.000\\,USD$.\nc) Để chi phí mắc điện ít nhất thì $f\\left( x \\right)$ đạt giá trị nhỏ nhất.\nTa có ${f}'\\left( x \\right)=3000-5000\\frac{\\left( 100-x \\right)}{\\sqrt{3600+{{\\left( 100-x \\right)}^{2}}}}$\n$\\Rightarrow {f}'\\left( x \\right)=0$$\\Rightarrow {f}'\\left( x \\right)=0\\Leftrightarrow 3000=5000\\frac{\\left( 100-x \\right)}{\\sqrt{3600+{{\\left( 100-x \\right)}^{2}}}}\\Leftrightarrow \\left[ \\begin{aligned} & x=55 \\\\ & x=145(l) \\\\ \\end{aligned} \\right.$.\nTa có\n$\\begin{aligned} & f\\left( 0 \\right)=583095,1895\\text{US}D \\\\ & f\\left( 55 \\right)=540.000USD \\\\ & f\\left( 100 \\right)=600.000\\text{US}D \\\\ \\end{aligned}$\nVậy chi phí mắc điện nhỏ nhất khi $x=55km$.\nd) chi phí mắc điện nhỏ nhất là $540.000USD$",
+   "ma": "de3.P2.C4b",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 28,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Từ một miếng tôn dạng nửa hình tròn có bán kính $R=4$dm, người ta muốn cắt ra một hình chữ nhật. Hỏi diện tích lớn nhất của hình chữ nhật có thể cắt được là bao nhiêu?",
+   "explanation": "Trả lời: 16\n[[IMG:image58.png]]\nGọi hình chữ nhật cần tính diện tích là $MNPQ$ có $OP=x$ $\\left( 0<x<4 \\right)$, $ON=4$.\nKhi đó diện tích của hình chữ nhật $MNPQ$ là: $S=MN.NP$ $=2x\\sqrt{16-{{x}^{2}}}$.\nXét hàm số :$f\\left( x \\right)=2x\\sqrt{16-{{x}^{2}}}$trên $\\left( 0;\\,4 \\right)$.\nTa có : ${f}'\\left( x \\right)=2\\sqrt{16-{{x}^{2}}}-\\frac{2{{x}^{2}}}{\\sqrt{16-{{x}^{2}}}}$ $=\\frac{-4{{x}^{2}}+32}{\\sqrt{16-{{x}^{2}}}}$; ${f}'\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=2\\sqrt{2}\\in \\left( 0;\\,4 \\right) \\\\ & x=-2\\sqrt{2}\\notin \\left( 0;\\,4 \\right) \\\\ \\end{aligned} \\right.$.\nBBT:\n[[IMG:image59.png]]\nTa có: $\\underset{\\left( 0;\\,4 \\right)}{\\max}\\,f\\left( x \\right)=f\\left( 2\\sqrt{2} \\right)=16$.\nVậy diện tích lớn nhất của hình chữ nhật có thể cắt được là $16\\,\\text{(d}{{\\text{m}}^{\\text{2}}}\\text{)}$.",
+   "short_value": 16,
+   "short_correct": "16",
+   "ma": "de3.P3.C1b",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản suất mỗi ngày được $x$ mét vải lụa $(1\\le x\\le 18)$. Tổng chi phí sản xuất $x$ mét vải lụa, tính bằng nghìn đồng, cho bởi hàm chi phí:\n$C(x)={{x}^{3}}-3{{x}^{2}}-20x+500$.\nGiả sử hộ làm nghề dệt này bán hết sản phẩm mỗi ngày với giá $220$ nghìn đồng/mét. Gọi $L(x)$ là lợi nhuận thu được khi bán $x$ mét vải lụa. Hỏi lợi nhuận tối đa của hộ làm nghề dệt vải lụa tơ tằm trong một ngày? (đơn vị triệu đồng)",
+   "explanation": "Trả lời: 1,2\nSố tiền thu về khi bán $x$ mét vải lụa là: $220x$.\nLợi nhuận thu được khi bán $x$ mét vải lụa là:\n$L(x)=220x-({{x}^{3}}-3{{x}^{2}}-20x+500)=-{{x}^{3}}+3{{x}^{2}}+240x-500$\nXét hàm số $L(x)=-{{x}^{3}}+3{{x}^{2}}+240x-500$ với $x\\in [1;18]$\n${L}'(x)=-3{{x}^{2}}+6x+240$; ${L}'(x)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=10\\in [1;18] \\\\ & x=-8\\notin [1;18] \\\\ \\end{aligned} \\right.$\nBảng biến thiên\n[[IMG:image60.png]]\nVậy hộ làm nghề dệt này thu được lợi nhuận tối đa trong một ngày là $1,2$ triệu đồng khi sản xuất $10$ mét vải lụa trong một ngày.",
+   "short_value": 1.2,
+   "short_correct": "1,2",
+   "ma": "de3.P3.C2b",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 8,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Cho hai vị trí $A,B$ cách nhau $615\\text{ }\\!\\!~\\!\\!\\text{ m}$, cùng nằm về một phía bờ sông như hình vẽ.\n[[IMG:image61.png]]\nKhoảng cách từ $A$ và từ $B$ đến bờ sông lần lượt là $118\\text{ }\\!\\!~\\!\\!\\text{ m}$ và $487\\text{ }\\!\\!~\\!\\!\\text{ m}$. Một người đi từ $A$ đến bờ sông để lấy nước mang về $B$. Đoạn đường ngắn nhất là số nguyên dương mà người đó có thể đi là bao nhiêu?",
+   "explanation": "Trả lời: 780\nGiả sử người đó đi từ $A$ đến $M$ để lấy nước và đi từ $M$ về $B$ dễ dàng tính được $BD=369,EF=492$.\n[[IMG:image62.png]]\nTa đặt $EM=x$, khi đó ta được:\n$MF=492-x,AM=\\sqrt{{{x}^{2}}+{{118}^{2}}},BM=\\sqrt{{{(492-x)}^{2}}+{{487}^{2}}}\\text{.}$\nNhư vậy ta có hàm số $f\\left( x \\right)$ được xác định bằng tổng quãng đường $AM$ và $MB$:\n$f\\left( x \\right)=\\sqrt{{{x}^{2}}+{{118}^{2}}}+\\sqrt{{{(492-x)}^{2}}+{{487}^{2}}}\\text{ }\\!\\!~\\!\\!\\text{ }$ với$x\\in \\left[ 0;492 \\right]$\nTa cần tìm giá trị nhỏ nhất của $f\\left( x \\right)$ để có được quãng đường ngắn nhất và từ đó xác định được vị trí điểm $M$.\n${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}-\\frac{492-x}{\\sqrt{{{(492-x)}^{2}}+{{487}^{2}}}}\\text{. }\\!\\!~\\!\\!\\text{ }$\n${f}'\\left( x \\right)=0$ $\\Leftrightarrow \\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}=\\frac{492-x}{\\sqrt{{{(492-x)}^{2}}+{{487}^{2}}}}\\Leftrightarrow x\\sqrt{{{(492-x)}^{2}}+{{487}^{2}}}=\\left( 492-x \\right)\\sqrt{{{x}^{2}}+{{118}^{2}}}$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} {{x}^{2}}\\left[ {{\\left( 492-x \\right)}^{2}}+{{487}^{2}} \\right]={{(492-x)}^{2}}\\left( {{x}^{2}}+{{118}^{2}} \\right) \\\\ 0\\le x\\le 492 \\\\ \\end{matrix}\\Leftrightarrow \\left\\{ \\begin{matrix} {{(487x)}^{2}}={{(58056-118x)}^{2}} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right. \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} x=\\frac{58056}{605}\\text{ }\\!\\!~\\!\\!\\text{ hay }\\!\\!~\\!\\!\\text{ }x=-\\frac{58056}{369}\\Leftrightarrow x=\\frac{58056}{605} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right.$\nHàm số $f\\left( x \\right)$ liên tục trên đoạn $\\left[ 0;492 \\right]$. So sánh các giá trị của $f\\left( 0 \\right),f\\left( \\frac{58056}{605} \\right),f\\left( 492 \\right)$ ta có giá trị nhỏ nhất là $f\\left( \\frac{58056}{605} \\right)\\approx 780\\text{ }\\!\\!~\\!\\!\\text{ m}$\nKhi đó quãng đường đi ngắn nhất là xấp xỉ $780\\text{ }\\!\\!~\\!\\!\\text{ m}$.",
+   "short_value": 780,
+   "short_correct": "780",
+   "ma": "de3.P3.C3b",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 22,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Hai thành phố A và B cách nhau một con sông. Người ta xây dựng một cây cầu $EF$ bắc qua sông biết rằng thành phố $A$ cách con sông một khoảng là $4km$ và thành phố $B$ cách con sông một khoảng là $6km$(hình vẽ), biết $HE+KF=20km$ và độ dài $EF$ không đổi. Hỏi xây cây cầu cách thành phố $A$ là bao nhiêu $km$ để đường đi từ thành phố A đến thành phố B là ngắn nhất (đi theo đường $AEFB$)? (kết quả làm tròn đến phần chục)\n[[IMG:image63.png#0.0000,0.0477,0.0000,0.0505]]",
+   "explanation": "Trả lời: 8,94\nĐặt $HE={{x}_{{}}}{{,}_{{}}}FK=y$, với $x,\\,y>0$\nTa có: $HE+KF=20\\Rightarrow x+y=20$, $\\left\\{ \\begin{aligned} & AE=\\sqrt{16+{{x}^{2}}} \\\\ & BF=\\sqrt{36+{{y}^{2}}}=\\sqrt{36+{{\\left( 20-x \\right)}^{2}}} \\\\ \\end{aligned} \\right.$\nNhận xét: Vì $EF$ không đổi nên $AB$ ngắn nhất khi $AE+BF$ nhỏ nhất.\nTa có $AE+BF$ $=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{(20-x)}^{2}}+36}=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{x}^{2}}-40x+436}=f(x)$\n${f}'(x)=\\frac{x}{\\sqrt{{{x}^{2}}+16}}+\\frac{x-20}{\\sqrt{{{x}^{2}}-40x+436}},\\,\\forall x\\in \\left( 0;20 \\right)$.\nCho ${f}'(x)=0\\Rightarrow x=8$\nBảng biến thiên\n[[IMG:image64.png]]\nVậy $AE=\\sqrt{{{8}^{2}}+16}\\approx 8,94km$",
+   "short_value": 8.94,
+   "short_correct": "8,9",
+   "ma": "de3.P3.C4b",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 16,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D03",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Bác nông dân có ba tấm lưới thép B40, mỗi tấm dài $\\sqrt{\\frac{700}{\\sqrt{3}}}\\,\\left( m \\right)$ và muốn rào một khu vườn có dạng hình thang cân $ABCD$ như trong hình vẽ. Khu vườn có 3 mặt rào, mặt còn lại tiếp giáp với bờ sông nên không cần rào. Hỏi diện tích lớn nhất mà bác nông dân có thể rào được là bao nhiêu mét vuông?\n[[IMG:image65.jpeg]]\n[[IMG:image66.png]]",
+   "explanation": "Trả lời: 525\n[[IMG:image67.png]]\nGọi $a=\\sqrt{\\frac{700}{\\sqrt{3}}}\\,\\left( m \\right)$. Dựng các đường cao $AE$ và $BF$ của hình thang cân $ABCD$ như hình vẽ trên.\nVì $ABCD$ là hình thang cân nên $DE=FC$và $EF=AB=a$.\nĐặt $DE=FC=x\\,\\,\\,\\left( x>0 \\right)$. Ta có $DC=DE+EF+FC=x+a+x=2x+a$\nTa có $AE=\\sqrt{A{{D}^{2}}-D{{E}^{2}}}=\\sqrt{{{a}^{2}}-{{x}^{2}}}$\nTa thấy, $x$ phải thỏa mãn điều kiện $0<x<a$.\nDiện tích của hình thang cân $ABCD$ là\n$S=\\frac{1}{2}\\left( AB+CD \\right)AE=\\frac{1}{2}\\left( a+2x+a \\right)\\sqrt{{{a}^{2}}-{{x}^{2}}}=\\left( a+x \\right)\\sqrt{{{a}^{2}}-{{x}^{2}}}$\nXét hàm số $S\\left( x \\right)=\\left( a+x \\right)\\sqrt{{{a}^{2}}-{{x}^{2}}}$ với $x\\in \\left( 0;a \\right)$. $\\Rightarrow S'\\left( x \\right)=\\frac{-2{{x}^{2}}-ax+{{a}^{2}}}{\\sqrt{{{a}^{2}}-{{x}^{2}}}}$\n$\\Rightarrow S'\\left( x \\right)=0\\Leftrightarrow \\frac{-2{{x}^{2}}-ax+{{a}^{2}}}{\\sqrt{{{a}^{2}}-{{x}^{2}}}}=0\\Leftrightarrow -2{{x}^{2}}-ax+{{a}^{2}}=0\\Leftrightarrow \\left( x+a \\right)\\left( a-2x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-a\\,\\,\\left( l \\right) \\\\ & x=\\frac{a}{2}\\,\\,\\left( n \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên của hàm số $S\\left( x \\right)$như sau:\n[[IMG:image68.png]]\nCăn cứ vào bảng biến thiên, ta thấy hàm số $S\\left( x \\right)$ đạt giá trị lớn nhất bằng $\\frac{3{{a}^{2}}\\sqrt{3}}{4}$tại $x=\\frac{a}{2}$.\nThay $a=\\sqrt{\\frac{700}{\\sqrt{3}}}$ vào biểu thức $\\frac{3{{a}^{2}}\\sqrt{3}}{4}=\\frac{3.{{\\left( \\sqrt{\\frac{700}{\\sqrt{3}}} \\right)}^{2}}.\\sqrt{3}}{4}=525$\nVậy bác đó có thể rào được mảnh vườn có diện tích lớn nhất là $525\\,{{m}^{2}}$.",
+   "short_value": 525,
+   "short_correct": "525",
+   "ma": "de3.P3.C5b",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 32,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D02",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Một công ty bất động sản có $50$ căn hộ cho thuê. Biết rằng nếu cho thuê mỗi căn hộ với giá $2.000.000$ đồng mỗi tháng thì mọi căn hộ đều có người thuê và cứ mỗi lần tăng giá cho thuê mỗi căn hộ $100.000$ đồng mỗi tháng thì có thêm 2 căn hộ bị bỏ trống. Muốn có lợi nhuận cao nhất, công ty đó phải cho thuê với giá mỗi căn hộ là bao nhiêu (đơn vị tính bằng triệu đồng và làm tròn kết quả tới hàng phần trăm)?",
+   "explanation": "Trả lời: 2,25\nGọi $x$là giá thuê thực tế của mỗi căn hộ, ($x$: đồng; $x\\ge 2\\,\\,000\\,\\,000$ đồng)\n+) Khi tăng giá 100.000 đồng thì có 2 căn hộ bị bỏ trống.\nTăng giá $x-2.000.000$ đồng, ta có số căn hộ bị bỏ trống là $\\frac{2\\left( x-2.000.000 \\right)}{100.000}=\\frac{x-2.000.000}{50.000}$\nKhi cho thuê với giá $x$ đồng thì số căn hộ cho thuê là: $50-\\frac{x-2.000.000}{50.000}=-\\frac{x}{50.000}+90$\nGọi $F\\left( x \\right)$ là hàm lợi nhuận thu được khi cho thuê các căn hộ, ($F\\left( x \\right)$: đồng).\nTa có: $F\\left( x \\right)=\\left( -\\frac{x}{50.000}+90 \\right)x=-\\frac{1}{50.000}{{x}^{2}}+90x$\nTa tìm GTLN của $F\\left( x \\right)=-\\frac{1}{50.000}{{x}^{2}}+90x$, $x\\ge 2.000.000$\n${F}'\\left( x \\right)=-\\frac{1}{25.000}x+90$\n${F}'\\left( x \\right)=0\\Leftrightarrow -\\frac{1}{25.000}x+90=0\\Leftrightarrow x=2.250.000$\nBảng biến thiên:\n[[IMG:image69.png]]\nSuy ra $F\\left( x \\right)$ đạt giá trị lớn nhất khi $x=2.250.000$\nVậy công ty phải cho thuê với giá $2,25$ triệu đồng mỗi căn hộ thì thu được lợi nhuận lớn nhất.",
+   "short_value": 2.25,
+   "short_correct": "2,25",
+   "ma": "de3.P3.C6b",
+   "dac_trung": {
+    "so_dong_loi_giai": 14,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  }
+ ],
+ "flags": [
+  "phan_2_co_8_cau_nhung_de_ghi_4",
+  "phan_3_co_12_cau_nhung_de_ghi_6"
+ ]
+}

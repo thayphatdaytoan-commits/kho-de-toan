@@ -1,0 +1,452 @@
+{
+ "by": "Gemini 1 (gemini-2.5-flash)",
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Để vẽ đường thẳng $\\left( {{d}_{1}} \\right): y = -x + 3$, ta lập bảng giá trị.",
+     "Khi $x = 0$, $y = $ {{1}}.",
+     "Khi $y = 0$, $x = $ {{2}}."
+    ],
+    "hint": "Xác định các điểm của (d1)"
+   },
+   {
+    "lines": [
+     "Để vẽ đường thẳng $\\left( {{d}_{2}} \\right): y = \\frac{3}{2}x - 2$, ta lập bảng giá trị.",
+     "Khi $x = 0$, $y = $ {{3}}.",
+     "Khi $y = 0$, $x = $ {{4}}."
+    ],
+    "hint": "Xác định các điểm của (d2)"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "3"
+    ],
+    "keywords": [
+     "3"
+    ],
+    "placeholder": "giá trị x",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-2"
+    ],
+    "keywords": [
+     "-2"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "4/3"
+    ],
+    "keywords": [
+     "4/3"
+    ],
+    "placeholder": "giá trị x",
+    "maxLen": 5
+   }
+  ],
+  "pool": []
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: {{1}} = {{2}} (tính chất hai tiếp tuyến cắt nhau)",
+     "Và {{3}} = {{4}} (bán kính đường tròn)"
+    ],
+    "hint": "Xác định các cặp cạnh bằng nhau"
+   },
+   {
+    "lines": [
+     "Từ đó suy ra điểm {{5}} và điểm {{6}} cách đều hai điểm A và B.",
+     "Do đó, đường thẳng {{7}} là đường trung trực của đoạn thẳng {{8}}."
+    ],
+    "hint": "Suy ra tính chất đường trung trực"
+   },
+   {
+    "lines": [
+     "Mà điểm {{9}} nằm trên đoạn thẳng {{10}} và cũng nằm trên đường thẳng {{11}}.",
+     "Vậy {{12}} là trung điểm của đoạn thẳng {{13}}."
+    ],
+    "hint": "Kết luận về điểm K"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   }
+  ],
+  "pool": [
+   "MA",
+   "MB",
+   "OA",
+   "OB",
+   "O",
+   "M",
+   "OM",
+   "AB",
+   "K",
+   "OK",
+   "AK",
+   "R"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle ANB$ có A, N, B thuộc {{1}} và {{2}} là đường kính (giả thiết).",
+     "Suy ra $\\triangle ANB$ vuông tại {{3}}.",
+     "Do đó {{4}} $\\bot$ {{5}}."
+    ],
+    "hint": "Chứng minh NB vuông góc AB"
+   },
+   {
+    "lines": [
+     "Mà {{6}} $\\bot$ {{7}} (chứng minh trên) nên {{8}} // {{9}}.",
+     "Suy ra $\\widehat{HNB} = \\widehat{AOM}$ (hai góc {{10}})."
+    ],
+    "hint": "Chứng minh OM song song NB và suy ra góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Mặt khác, $\\widehat{AOM} = \\widehat{BOM}$ (tính chất {{11}} cắt nhau).",
+     "Từ đó ta có $\\widehat{HNB} = \\widehat{BOM}$."
+    ],
+    "hint": "Xác định thêm cặp góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle OBM$ và $\\triangle NHB$ có:",
+     "• $\\widehat{HNB} = \\widehat{BOM}$ (chứng minh trên)",
+     "• $\\widehat{OBM} = \\widehat{NHB} = {{12}}^{0}$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Vậy $\\triangle OBM$ đồng dạng $\\triangle NHB$ theo trường hợp {{13}}.",
+     "Suy ra $\\frac{MB}{BH} = \\frac{MO}{BN}$ hay {{14}}.{{15}} = {{16}}.{{17}}."
+    ],
+    "hint": "Kết luận đồng dạng và đẳng thức cần chứng minh"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "(O)"
+    ],
+    "placeholder": "tên đường tròn",
+    "maxLen": 8
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AN"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 8
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "NB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "NB"
+    ],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 8
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "đồng vị"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "hai tiếp tuyến"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "input",
+    "answers": [
+     "90"
+    ],
+    "keywords": [
+     "90"
+    ],
+    "placeholder": "giá trị góc",
+    "maxLen": 5
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 8
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "BN"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "MO"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 8
+   }
+  ],
+  "pool": [
+   "(O)",
+   "AN",
+   "B",
+   "NB",
+   "AB",
+   "OM",
+   "đồng vị",
+   "hai tiếp tuyến",
+   "g.g",
+   "MB",
+   "BN",
+   "BH",
+   "MO",
+   "A",
+   "M",
+   "O",
+   "c.g.c",
+   "so le trong"
+  ]
+ }
+}

@@ -1,0 +1,641 @@
+{
+ "meta": {
+  "grade": "12",
+  "chapter": "1",
+  "lesson": "3",
+  "title": "Bài 3. Đường tiệm cận",
+  "exam_type": "lesson"
+ },
+ "no": 4,
+ "sections": {},
+ "questions": [
+  {
+   "section": 0,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "[Mức độ 1] Cho hàm số $y=\\frac{2{{x}^{2}}-3x-3}{x-2}$. Tiệm cận xiên của đồ thị hàm số là đường thẳng",
+   "explanation": "Ta có :$y=\\frac{2{{x}^{2}}-3x-3}{x-2}=2x+1-\\frac{1}{x-2}$ $\\Rightarrow \\underset{x\\to \\mp \\infty }{\\lim}\\,\\left[ y-\\left( 2x+1 \\right) \\right]=\\underset{x\\to \\mp \\infty }{\\lim}\\,\\frac{-1}{x-2}=0$.\nDo đó tiệm cận xiên của đồ thị hàm số là đường thẳng có phương trình $y=2x+1$.",
+   "options": [
+    "$y=2x-1$",
+    "$y=2x+1$",
+    "$y=2x-3$",
+    "$y=2x+3$"
+   ],
+   "ma": "de4.P0.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L12.C1.B3.D02",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "[Mức độ 2] Xác định toạ độ giao điểm của đường tiệm cận đứng và đường tiệm cận xiên của đồ thị hàm số $y=\\frac{2{{x}^{2}}-3x+2}{x-1}$",
+   "explanation": "Ta có :$y=\\frac{2{{x}^{2}}-3x+2}{x-1}=2x-1+\\frac{1}{x-1}$nên đồ thị hàm số có tiệm cận đứng là đường thẳng$x=1$ và đường tiệm cận xiên là đường thẳng $y=2x-1$.\nXét hệ phương trình $\\left\\{ \\begin{aligned} & x=1 \\\\ & y=2x-1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=1 \\\\ & y=1 \\\\ \\end{aligned} \\right.$ nên giao điểm của hai đường tiệm cận là $I\\left( 1;\\,1 \\right)$.",
+   "options": [
+    "$\\left( 1  ;\\,2 \\right)$",
+    "$\\left( 1;\\,1 \\right)$",
+    "$\\left( 1;\\,-1 \\right)$",
+    "$\\left( 1;\\,0 \\right)$"
+   ],
+   "ma": "de4.P0.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D07",
+   "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
+  },
+  {
+   "section": 0,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "[Mức độ 2] Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như sau :\n[[IMG:image47.png]]\nTổng số tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là",
+   "explanation": "Ta có :$\\underset{x\\to -\\infty }{\\lim}\\,\\,y=2,\\,\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\,y=+\\infty $ nên hàm số có tiệm cận ngang là$y=2$và tiệm cận\nđứng là $x=0$.",
+   "options": [
+    "$1$",
+    "$3$",
+    "$4$",
+    "$2$"
+   ],
+   "ma": "de4.P0.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "[Mức độ 2] Số tiệm cận đứng của đồ thị hàm số$y=\\frac{\\sqrt{x+9}-3}{{{x}^{2}}+x}$ là",
+   "explanation": "Tập xác định :$D=\\left[ -9\\,;\\,\\,+\\infty \\right)\\text{ }\\!\\!\\backslash\\!\\!\\text{ }\\left\\{ 0\\,;\\,-1 \\right\\}$.\n$\\underset{x\\to 0}{\\lim}\\,y=\\underset{x\\to 0}{\\lim}\\,\\frac{x}{x\\left( x+1 \\right)\\left( \\sqrt{x+9}+3 \\right)}=\\underset{x\\to 0}{\\lim}\\,\\frac{1}{\\left( x+1 \\right)\\left( \\sqrt{x+9}+3 \\right)}=\\frac{1}{6}$ $\\Rightarrow $ $x=0$ không là tiệm cận đứng của đồ thị hàm số.\n$\\underset{x\\to -{{1}^{+}}}{\\lim}\\,y=\\underset{x\\to -{{1}^{+}}}{\\lim}\\,\\frac{\\sqrt{x+9}-3}{{{x}^{2}}+x}=+\\infty $ $\\Rightarrow x=-1$ là tiệm cận đứng của đồ thị hàm số.",
+   "options": [
+    "$3$",
+    "$2$",
+    "$0$",
+    "$1$"
+   ],
+   "ma": "de4.P0.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D03",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "[Mức độ 1] Phương trình đường tiệm cận ngang của đồ thị hàm số $y=\\frac{2x+1}{x-1}$ là",
+   "explanation": "Ta có $\\underset{x\\to \\pm \\infty }{\\lim}\\,y=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{2x+1}{x-1}=2$.\nVậy $y=2$ là phương trình đường tiệm cận ngang của đồ thị hàm số $y=\\frac{2x+1}{x-1}$.",
+   "options": [
+    "$x=2$",
+    "$y=2$",
+    "$x=1$",
+    "$y=1$"
+   ],
+   "ma": "de4.P0.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L12.C1.B3.D02",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "[Mức độ 1] Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số lần lượt là\n[[IMG:image48.png]]",
+   "explanation": "Dựa vào đồ thị, đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số lần lượt là $x=1;y=1$",
+   "options": [
+    "$x=-1;y=1$",
+    "$x=1;y=-1$",
+    "$x=-1;y=-1$",
+    "$x=1;y=1$"
+   ],
+   "ma": "de4.P0.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "[Mức độ 1] Phương trình đường tiệm cận xiên của đồ thị hàm số $y=\\frac{{{x}^{2}}-x+1}{x+1}$ là",
+   "explanation": "Ta có $y=\\frac{{{x}^{2}}-x+1}{x+1}=x-2+\\frac{3}{x+1}$.\nSuy ra: $\\underset{x\\to \\pm \\infty }{\\lim}\\,\\left[ y-\\left( x-2 \\right) \\right]=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{3}{x+1}=0$\nVậy $y=x-2$ là phương trình đường tiệm cận xiên của đồ thị hàm số $y=\\frac{{{x}^{2}}-x+1}{x+1}$.",
+   "options": [
+    "$y=x+2$",
+    "$y=x-2$",
+    "$y=x+1$",
+    "$y=x-1$"
+   ],
+   "ma": "de4.P0.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L12.C1.B3.D04",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 2] Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như hình vẽ\n[[IMG:image49.png]]\nTổng số đường tiệm cận đứng và đường tiệm cận ngang của đồ thị hàm số bằng",
+   "explanation": "Dựa vào bảng biến thiên ta có $\\underset{x\\to -{{2}^{-}}}{\\lim}\\,y=+\\infty $ và $\\underset{x\\to {{2}^{+}}}{\\lim}\\,y=-\\infty $ suy ra đường tiệm cận đứng của đồ thị hàm số là đường thẳng $x=-2$ và $x=2$.\nDựa vào bảng biến thiên ta có $\\underset{x\\to -\\infty }{\\lim}\\,y=0$ và $\\underset{x\\to +\\infty }{\\lim}\\,y=0$ suy ra đường tiệm cận ngang của đồ thị hàm số là đường thẳng $y=0$.\nVậy đồ thị hàm số có $3$ đường tiệm cận.",
+   "options": [
+    "$3$",
+    "$4$",
+    "$1$",
+    "$2$"
+   ],
+   "ma": "de4.P0.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "[Mức độ 1] Cho hàm số $y=f\\left( x \\right)$ có đồ thị như hình vẽ. Tìm khẳng định đúng trong các khẳng định sau?\n[[IMG:image50.png]]",
+   "explanation": "Chọn đáp án C\nĐồ thị hàm số $y=f\\left( x \\right)$có một tiệm cận đứng và một tiệm cận xiên.",
+   "options": [
+    "Đồ thị hàm số $y=f\\left( x \\right)$có một tiệm cận đứng và một tiệm cận ngang",
+    "Đồ thị hàm số $y=f\\left( x \\right)$có một tiệm cận xiên và một tiệm cận ngang",
+    "Đồ thị hàm số $y=f\\left( x \\right)$có một tiệm cận đứng và một tiệm cận xiên",
+    "Đồ thị hàm số $y=f\\left( x \\right)$có hai tiệm cận xiên"
+   ],
+   "ma": "de4.P0.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 1,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "NB",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "[Mức độ 2] Đồ thị hàm số nào sau đây có tiệm cận xiên:",
+   "explanation": "Chọn đáp án D\nHàm số $y={{x}^{2}}-2x$ và $y=x+1$ có đồ thị lần lượt là parabol và đường thẳng nên không có tiệm cận xiên.\nĐồ thị hàm số $y=\\frac{x}{x+2}$ có tiệm cận ngang là $y=1$ nên không có tiệm cận xiên.\nVậy đáp án ta chọn là $y=\\frac{{{x}^{2}}}{x+1}$.",
+   "options": [
+    "$y={{x}^{2}}-2x$",
+    "$y=x+1$",
+    "$y=\\frac{x}{x+2}$",
+    "$y=\\frac{{{x}^{2}}}{x+1}$"
+   ],
+   "ma": "de4.P0.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D04",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "[Mức độ 2] Tiệm cận xiên của đồ thị hàm số $y=\\frac{{{x}^{2}}+3x+5}{x+2}$ là",
+   "explanation": "Chọn đáp án B\nGọi phương trình đường tiệm cận xiên là $y=ax+b$.\nKhi đó\n$a=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{f\\left( x \\right)}{x}=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{{{x}^{2}}+3x+5}{{{x}^{2}}+2x}=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{{{x}^{2}}\\left( 1+\\frac{3}{x}+\\frac{5}{{{x}^{2}}} \\right)}{{{x}^{2}}\\left( 1+\\frac{2}{x} \\right)}=1$.\n$b=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\left( f\\left( x \\right)-ax \\right)=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\left( \\frac{{{x}^{2}}+3x+5}{x+2}-x \\right)=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{x+5}{x+2}=\\underset{x\\to \\pm \\infty }{\\lim}\\,\\frac{x\\left( 1+\\frac{5}{x} \\right)}{x\\left( 1+\\frac{2}{x} \\right)}=1$.\nVậy phương trình đường tiệm cận xiên là $y=x+1$.",
+   "options": [
+    "$y=x$",
+    "$y=x+1$",
+    "$y=x+2$",
+    "$y=x+3$"
+   ],
+   "ma": "de4.P0.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D04",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "[Mức độ 2] Số tiệm cận xiên của đồ thị hàm số $y=\\sqrt{4{{x}^{2}}-x+3}$ là",
+   "explanation": "Chọn đáp án A\nTXĐ: $D=\\mathbb{R}$\nGọi phương trình đường tiệm cận xiên là $y=ax+b$.\nTrường hợp 1:\n$a=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{f\\left( x \\right)}{x}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{\\sqrt{4{{x}^{2}}-x+3}}{x}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x\\sqrt{4-\\frac{1}{x}+\\frac{3}{{{x}^{2}}}}}{x}=2$\n$b=\\underset{x\\to +\\infty }{\\lim}\\,\\left( f\\left( x \\right)-ax \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\sqrt{4{{x}^{2}}-x+3}-2x=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{-x+3}{\\sqrt{4{{x}^{2}}-x+3}+2x}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x\\left( -1+\\frac{3}{x} \\right)}{x\\left( \\sqrt{4-\\frac{1}{x}+\\frac{3}{{{x}^{2}}}}+2 \\right)}=-\\frac{1}{4}$\nKhi đó phương trình đường tiệm cận xiên là $y=2x-\\frac{1}{4}$.\nTrường hợp 2:\n$a=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{f\\left( x \\right)}{x}=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{\\sqrt{4{{x}^{2}}-x+3}}{x}=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{-x\\sqrt{4-\\frac{1}{x}+\\frac{3}{{{x}^{2}}}}}{x}=-2$\n$b=\\underset{x\\to -\\infty }{\\lim}\\,\\left( f\\left( x \\right)-ax \\right)=\\underset{x\\to -\\infty }{\\lim}\\,\\sqrt{4{{x}^{2}}-x+3}+2x=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{-x+3}{\\sqrt{4{{x}^{2}}-x+3}-2x}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x\\left( -1+\\frac{3}{x} \\right)}{x\\left( -\\sqrt{4-\\frac{1}{x}+\\frac{3}{{{x}^{2}}}}-2 \\right)}=\\frac{1}{4}$\nKhi đó phương trình đường tiệm cận xiên là $y=-2x+\\frac{1}{4}$.\nVậy đồ thị hàm số có hai đường tiệm cận xiên.",
+   "options": [
+    "2",
+    "3",
+    "0",
+    "1"
+   ],
+   "ma": "de4.P0.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 22,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L12.C1.B3.D04",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 13,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$x=1,x=-1$ là đường tiệm cận đứng của đồ thị hàm số $y=f\\left( x \\right)$",
+    "b": "$x=0$ là đường tiệm cận đứng của đồ thị hàm số $y=f\\left( x \\right)$",
+    "c": "$y=3;y=1$ là các đường tiệm cận ngang của đồ thị hàm số $y=f\\left( x \\right)$",
+    "d": "Tổng số đường tiệm cận đứng và ngang của đồ thị hàm số $y=f\\left( x \\right)$ là 3"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": "C",
+   "flags": [],
+   "question": "[Mức độ 3] Cho hàm số $y=f\\left( x \\right)$có bảng biến thiên như hình vẽ dưới đây\n[[IMG:image51.png]]\nXét tính đúng sai các mệnh đề sau:",
+   "explanation": "Dựa vào BBT, đồ thị hàm số $y=f\\left( x \\right)$ có hai đường tiệm cận đứng là $x=1,x=-1$, một tiệm cận ngang là $y=3$.\nDo đó đáp án đúng là: $x=1,x=-1$ là đường tiệm cận đứng của đồ thị hàm số $y=f\\left( x \\right)$ ; tổng số đường tiệm cận đứng và ngang của đồ thị hàm số $y=f\\left( x \\right)$ là 3.\nĐáp án sai là $x=0$ là đường tiệm cận đứng của đồ thị hàm số $y=f\\left( x \\right)$; $y=3;y=1$ là các đường tiệm cận ngang của đồ thị hàm số $y=f\\left( x \\right)$.",
+   "options": [],
+   "ma": "de4.P0.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 14,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Hàm số $y=g\\left( x \\right)$ có tập xác định là $D=\\mathbb{R}\\backslash \\left\\{ 1\\pm \\sqrt{3} \\right\\}.$",
+    "b": "Hàm số $y=g\\left( x \\right)$ có 2 tiện cận đứng.",
+    "c": "Hàm số $y=g\\left( x \\right)$ có 1 tiệm cận ngang là $y=1$.",
+    "d": "Tổng số đường tiệm cận của đồ thị hàm số $y=g\\left( x \\right)$ là 3."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Cho hàm số $y=f\\left( x \\right)$ liên tục trên $\\mathbb{R}\\backslash \\left\\{ 1 \\right\\}$ và có bảng biến thiên như sau\n[[IMG:image52.png]]\nXét hàm số $y=g\\left( x \\right)=f\\left( {{x}^{2}}-2x-2 \\right)$. Xét tính đúng/sai của các mệnh đề sau:",
+   "explanation": "Sai.\nTa có ${{x}^{2}}-2x-2\\ne 1\\Leftrightarrow \\left\\{ \\begin{matrix} x\\ne -1 \\\\ x\\ne 3 \\\\ \\end{matrix} \\right.$. Vậy hàm số $y=g\\left( x \\right)$ có tập xác định là $D=\\mathbb{R}\\backslash \\left\\{ -1;3 \\right\\}.$\nĐúng.\nDựa vào bảng biến thiên của hàm số $y=f\\left( x \\right)$ ta có:\nDo $\\underset{x\\to {{(-1)}^{+}}}{\\lim}\\,g\\left( x \\right)=\\underset{x\\to {{(-1)}^{+}}}{\\lim}\\,f\\left( {{x}^{2}}-2x-2 \\right)=+\\infty $ nên $x=-1$ là một tiệm cận đứng của đồ thị hàm số $y=g\\left( x \\right)$ .\nDo $\\underset{x\\to {{3}^{+}}}{\\lim}\\,g\\left( x \\right)=\\underset{x\\to {{3}^{+}}}{\\lim}\\,f\\left( {{x}^{2}}-2x-2 \\right)=-\\infty $ nên $x=3$ là một tiệm cận đứng của đồ thị hàm số $y=g\\left( x \\right)$ .\nVậy hàm số $y=g\\left( x \\right)$ có 2 tiện cận đứng $x=-1$ và $x=3$.\nSai.\nDo $\\underset{x\\to +\\infty }{\\lim}\\,g\\left( x \\right)=\\underset{x\\to +\\infty }{\\lim}\\,f\\left( {{x}^{2}}-2x-2 \\right)=-\\infty $ và $\\underset{x\\to -\\infty }{\\lim}\\,g\\left( x \\right)=\\underset{x\\to -\\infty }{\\lim}\\,f\\left( {{x}^{2}}-2x-2 \\right)=-\\infty $ nên đồ thị hàm số $y=g\\left( x \\right)$ không có tiệm cận ngang.\nSai.\nVậy đồ thị hàm số $y=g\\left( x \\right)=f\\left( {{x}^{2}}-2x-2 \\right)$ có $2$ đường tiệm cận đứng là $x=-1$;$x=3$ và không có tiệm cận ngang.",
+   "options": [],
+   "ma": "de4.P0.C14",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 24,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D01",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 15,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Khi $m=1$ thì đồ thị hàm số của $\\left( 1 \\right)$ không có tiệm cận ngang.",
+    "b": "Khi $m=1$ thì đồ thị hàm số của $\\left( 1 \\right)$ có tiệm cận đứng là $y=-3$.",
+    "c": "Khi $m=1$ thì đồ thị hàm số của $\\left( 1 \\right)$ có tiệm cận xiên là $y=x-2$.",
+    "d": "Khi góc giữa hai đường tiệm cận của đồ thị hàm số bằng 450 thì $m=2$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Cho hàm số $y=\\frac{m{{x}^{2}}+\\left( 3{{m}^{2}}-2 \\right)x-2}{x+3m}$ $\\left( 1 \\right)$, với $m$là tham số. Các mệnh đề sau đúng hay sai?",
+   "explanation": "Khi m =1 ta có $y=\\frac{{{x}^{2}}+x-2}{x+3}=x-2+\\frac{4}{x+3}$.\na. Đúng\nTa có $\\underset{x\\to -\\infty }{\\lim}\\,y=-\\infty ,\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty $ nên đồ thị hàm số của $\\left( 1 \\right)$không có tiệm cận ngang.\nb. Sai\nTa có$\\underset{x\\to -{{3}^{-}}}{\\lim}\\,y=-\\infty $ nên đồ thị hàm số của $\\left( 1 \\right)$ có tiệm cận đứng là $x=-3$.\nc. Đúng\nTa có$\\underset{x\\to -\\infty }{\\lim}\\,\\left[ \\frac{{{x}^{2}}+x-2}{x+3}-\\left( x-2 \\right) \\right]=\\underset{x\\to -\\infty }{\\lim}\\,\\left[ x-2+\\frac{4}{x+3}-\\left( x-2 \\right) \\right]=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{4}{x+3}=0$ nên đồ thị hàm số có tiệm cận xiên là $y=x-2$.\nd. Sai\nTa có $y=\\frac{m{{x}^{2}}+\\left( 3{{m}^{2}}-2 \\right)x-2}{x+3m}=mx-2+\\frac{6m-2}{x+3m}$ .\nGọi (Cm) là đồ thị hàm số của $\\left( 1 \\right)$.\n(Cm) có tiệm cận đứng ${{d}_{1}}:x=-3m\\Leftrightarrow x+3m=0$ và tiệm cận xiên ${{d}_{2}}:$ $y=mx-2\\Leftrightarrow mx-y-2=0$ $\\left( m\\ne \\frac{1}{3};m\\ne 0 \\right)$.\nTa có: $\\cos {{45}^{0}}=\\frac{\\left| m \\right|}{\\sqrt{{{m}^{2}}+1}}$ $\\Leftrightarrow \\frac{\\sqrt{2}}{2}=\\frac{\\left| m \\right|}{\\sqrt{{{m}^{2}}+1}}$ $\\Leftrightarrow {{m}^{2}}=1$ $\\Leftrightarrow m=\\pm 1$ (nhận).",
+   "options": [],
+   "ma": "de4.P0.C15",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 26,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D06",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 16,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Khi $m=2$ thì $\\left( d \\right)$ có phương trình là $y=2x+3$.",
+    "b": "Khi $m=1$ thì $\\left( d \\right)$ đi qua $A\\left( 1;\\,4 \\right)$ .",
+    "c": "Có 2 đường thẳng $\\left( d \\right)$ tạo với hai trục tọa độ một tam giác có diện tích bằng 9.",
+    "d": "Khoảng cách từ gốc tọa độ $O$ đến $\\left( d \\right)$ bằng $\\sqrt{3}$ thì $m=\\sqrt{5}$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Gọi $\\left( C \\right)$ là đồ thị của hàm số $y=\\frac{m{{x}^{2}}+\\left( 3-m \\right)x+{{m}^{2}}-2}{x-1}$, với $m$là tham số. Gọi $\\left( d \\right)$ là đường tiệm cận xiên của $\\left( C \\right)$. Các mệnh đề sau đúng hay sai?",
+   "explanation": "Ta có $y=mx+3+\\frac{{{m}^{2}}+1}{x-1}$, do đó $\\left( C \\right)$ có tiệm cận xiên là $\\left( d \\right)$: $y=mx+3\\left( m\\ne 0 \\right)$.\na Đúng.\nVới $m=2$ thì $\\left( d \\right)$ có phương trình là $y=2x+3$.\nb Đúng.\nTa có $A\\left( 1;4 \\right)\\in \\left( d \\right)\\Leftrightarrow 4=m+3\\Leftrightarrow m=1.$(nhận)\nc Đúng.\nGiao điểm của $\\left( d \\right)$ với hai trục tọa độ là $M\\left( 0;\\,3 \\right);\\,N\\left( -\\frac{3}{m};0 \\right)$.\nDiện tích tam giác vuông $OMN$ là $S=\\frac{1}{2}OM.ON=\\frac{1}{2}.3.\\left| \\frac{3}{m} \\right|=\\frac{9}{2\\left| m \\right|}$\nTa có $S=9\\Leftrightarrow \\frac{9}{2\\left| m \\right|}=9\\Leftrightarrow \\left| m \\right|=\\frac{1}{2}\\Leftrightarrow m=\\pm \\frac{1}{2}$. (nhận)\nVậy có 2 đường thẳng $\\left( d \\right)$ tạo với hai trục tọa độ một tam giác có diện tích bằng 9.\nd. Sai\nTa có $d\\left( O;\\left( d \\right) \\right)=\\sqrt{3}\\Leftrightarrow \\frac{3}{\\sqrt{{{m}^{2}}+1}}=\\sqrt{3}\\Leftrightarrow \\sqrt{{{m}^{2}}+1}=\\sqrt{3}\\Leftrightarrow {{m}^{2}}+1=3\\Leftrightarrow m=\\pm \\sqrt{2}$.",
+   "options": [],
+   "ma": "de4.P0.C16",
+   "dac_trung": {
+    "so_dong_loi_giai": 12,
+    "so_dau_bang": 27,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D06",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 17,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Có bao nhiêu giá trị nguyên dương của tham số $m$để đồ thị hàm số $y=\\frac{x-1}{{{x}^{2}}-8x+m}$có 3 đường tiệm cận?",
+   "explanation": "Đáp số: 14.\nTa có $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{x-1}{{{x}^{2}}-8x+m}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x-1}{{{x}^{2}}-8x+m}=0$ nên hàm số có một tiện cận ngang $y=0$.\nĐồ thị của hàm số có 3 đường tiệm cận khi và chỉ khi đồ thị của hàm số có hai đường tiệm cận đứng $\\Leftrightarrow $phương trình ${{x}^{2}}-8x+m=0$ có hai nghiệm phân biệt khác $1$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {\\Delta }'=16-m>0 \\\\ & m-7\\ne 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & m<16 \\\\ & m\\ne 7 \\\\ \\end{aligned} \\right.$.\nKết hợp với điều kiện $m$nguyên dương ta có $m\\in \\left\\{ 1;2;3;...;6;8;...;15 \\right\\}$. Vậy có $14$ giá trị của $m$ thỏa mãn đề bài.",
+   "options": [],
+   "ma": "de4.P0.C17",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "short_correct": "14",
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B3.D06",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 18,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 4] Cho hàm số bậc ba $y=f(x)$ có đồ thị như hình vẽ bên. Tìm số đường cận đứng của đồ thị hàm số $y=g(x)=\\frac{(x+1)({{x}^{2}}-1)}{{{f}^{2}}(x)-2f(x)}$.\n[[IMG:image53.png]]",
+   "explanation": "Ta có: ${{f}^{2}}(x)-2f(x)=0\\Leftrightarrow \\left[ \\begin{aligned} & f(x)=0\\,\\,\\,\\,(1) \\\\ & f(x)=2\\,\\,\\,\\,(2) \\\\ \\end{aligned} \\right..$\n[[IMG:image54.png#0.0821,0.0564,0.1011,0.0906]]\nDựa vào đồ thị hàm số, ta thấy:\n$(1)\\,$có nghiệm${{x}_{1}}=a<-1$ (nghiệm đơn) và ${{x}_{2}}=1$ (nghiệm kép)$\\Rightarrow f(x)=k(x-a){{(x-1)}^{2}}\\left( k\\ne 0 \\right)$\n$(2)$ có nghiệm ba nghiệm đơn ${{x}_{3}},\\text{ }{{x}_{4}},\\text{ }{{x}_{5}}$với ${{x}_{3}}=b<-1<{{x}_{4}}=0<1<{{x}_{5}}=c$ $\\Rightarrow f(x)-2=m(x-b)x(x-c)\\text{ }\\left( m\\ne 0 \\right).$\n$\\Rightarrow $Hàm số $y=g(x)$có tập xác định $D=\\mathbb{R}\\backslash \\left\\{ a;\\,b;\\,0;\\,1;\\,c \\right\\}$\nTại các điểm $x=a,\\text{ }x=b,\\text{ }x=0,\\text{ }x=1,\\text{ }x=c$ mẫu của $g\\left( x \\right)$ nhận giá trị bằng $0$còn tử nhận các giá trị dương. Và do hàm số xác định trên $D=\\mathbb{R}\\backslash \\left\\{ a;\\,b;\\,0;\\,1;\\,c \\right\\}$nên giới hạn một bên của hàm số $y=g\\left( x \\right)$tại các điểm $x=a,\\text{ }x=b,\\text{ }x=0,\\text{ }x=1,\\text{ }x=c$ là các giới hạn vô cực. Do đó, đồ thị hàm số $y=g\\left( x \\right)$có 5 tiệm cận đứng, đó là các đường thẳng $x=a,\\text{ }x=b,\\text{ }x=0,\\text{ }x=1,\\text{ }x=c$.\nVậy đồ thị hàm số $y=g\\left( x \\right)$có 5 tiệm cận đứng $x=a,\\text{ }x=b,\\text{ }x=0,\\text{ }x=1,\\text{ }x=c$.",
+   "options": [],
+   "ma": "de4.P0.C18",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 40,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "short_correct": "5",
+   "sua_boi": "claude",
+   "muc_do": "VDC",
+   "dang": "L12.C1.B3.D08",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 19,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 4] Cho $f\\left( x \\right)$ là hàm đa thức bậc ba và có đồ thị như hình vẽ bên dưới.\n[[IMG:image55.png]]\nCó bao nhiêu giá trị nguyên của tham số $m$ thuộc đoạn $\\left[ -100;100 \\right]$ để đồ thị hàm số $y=\\frac{\\sqrt{1+m{{x}^{2}}}}{f(x)-m}$ có đúng hai đường tiệm cận?",
+   "explanation": "TH1: $m=0$ $\\Rightarrow y=\\frac{1}{f(x)}$.\nĐồ thị hàm số có một TCN $y=0$ và ba tiệm cận đứng nên $m=0$ không thoả mãn.\nTH2: $m<0$\nĐồ thị hàm số không có TCN\nYêu cầu bài toán $\\Leftrightarrow f(x)=m$ có nghiệm, trong đó có đúng hai nghiệm thoả mãn $1+m{{x}^{2}}\\ge 0$.\nMà $m$là số nguyên nên dựa vào đồ thị ta chỉ cần xét $m\\in \\left\\{ -2;\\left. -1 \\right\\} \\right.$.\n+ Với $m=-2\\Rightarrow y=\\frac{\\sqrt{1-2{{x}^{2}}}}{f(x)+2}$. Khi đó $f(x)=-2$có hai nghiệm ${{x}_{1}}=0\\ ;{{x}_{2}}=a>2$. Nghiệm ${{x}_{2}}$ không thoả mãn điều kiện $1-2{{x}^{2}}\\ge 0$nên $m=-2$ không thoả mãn\n+ Với $m=-1\\Rightarrow y=\\frac{\\sqrt{1-{{x}^{2}}}}{f(x)+1}$ Khi đó $f(x)=-1$ có hai nghiệm ${{x}_{1}}=b\\ \\in \\left( -1;0 \\right);{{x}_{2}}=c\\in \\left( 0;1 \\right)$. Cả hai nghiệm đều thoả mãn điều kiện$1-{{x}^{2}}\\ge 0$ nên $m=-1$ thoả mãn.\nTH3: $m>0$. Khi đó $1+m{{x}^{2}}>0,\\forall x\\in R$.\nĐồ thị hàm số có một TCN $y=0$.\nYêu cầu bài toán $\\Leftrightarrow f(x)=m$có đúng một nghiệm $x\\in R\\Leftrightarrow m>2$.\nVì $m$nguyên thuộc đoạn $\\left[ -100;100 \\right]\\Rightarrow \\left\\{ \\begin{aligned} & m\\in Z \\\\ & m\\in \\left[ 3;100 \\right]\\cup \\left\\{ -1 \\right\\} \\\\ \\end{aligned} \\right.$nên có $99$giá trị.\nĐáp số : 99.",
+   "options": [],
+   "ma": "de4.P0.C19",
+   "dac_trung": {
+    "so_dong_loi_giai": 13,
+    "so_dau_bang": 26,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "short_correct": "99",
+   "sua_boi": "claude",
+   "muc_do": "VDC",
+   "dang": "L12.C1.B3.D08",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 20,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 4] Cho hàm số $y=\\frac{10+\\sqrt{6x-{{x}^{2}}}}{\\sqrt{{{x}^{2}}-4x+2m}}$có đồ thị $\\left( {{C}_{m}} \\right)$. Tìm số giá trị nguyên của tham số $m$ để $\\left( {{C}_{m}} \\right)$có đúng hai tiệm cận đứng.",
+   "explanation": "Điều kiện: $\\left\\{ \\begin{aligned} & 0\\le x\\le 6 \\\\ & {{x}^{2}}-4x+2m>0 \\\\ \\end{aligned} \\right.$\nTa có $10+\\sqrt{6x-{{x}^{2}}}\\ne 0\\,\\,\\forall x$ nên để $\\left( {{C}_{m}} \\right)$có hai tiệm cận đứng thì phương trình $\\sqrt{{{x}^{2}}-4x+2m}=0\\Leftrightarrow {{x}^{2}}-4x+2m=0\\left( * \\right)$có hai nghiệm phân biệt thuộc$\\left[ 0;6 \\right].$\nĐể phương trình có 2 nghiệm phân biệt thì $\\Delta '=4-2m>0\\Leftrightarrow m<2$.\nGiả sử 2 nghiệm phân biệt của (*) là ${{x}_{1}}<{{x}_{2}}$. Ta có $0\\le {{x}_{1}}<{{x}_{2}}\\le 6$.\nTheo định lí Vi-et ta có $\\left\\{ \\begin{aligned} & {{x}_{1}}+{{x}_{2}}=4 \\\\ & {{x}_{1}}.{{x}_{2}}=2m \\\\ \\end{aligned} \\right.$\nKhi đó\n$\\left\\{ \\begin{aligned} & {{x}_{1}}{{x}_{2}}\\ge 0 \\\\ & {{x}_{1}}+{{x}_{2}}\\ge 0 \\\\ & \\left( {{x}_{1}}-6 \\right)\\left( {{x}_{2}}-6 \\right)\\ge 0 \\\\ & \\left( {{x}_{1}}-6 \\right)+\\left( {{x}_{2}}-6 \\right)\\le 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{1}}{{x}_{2}}\\ge 0 \\\\ & {{x}_{1}}+{{x}_{2}}\\ge 0 \\\\ & {{x}_{1}}{{x}_{2}}-6\\left( {{x}_{1}}+{{x}_{2}} \\right)+36\\ge 0 \\\\ & \\left( {{x}_{1}}+{{x}_{2}} \\right)-12\\le 0 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & 2m\\ge 0 \\\\ & 4\\ge 0 \\\\ & 2m-24+36\\ge 0 \\\\ & 4-12\\le 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & m\\ge 0 \\\\ & 2m+12\\ge 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow m\\ge 0$\nVậy $0\\le m<2$và $m$ nguyên suy ra $m\\in \\left\\{ 0;\\,1\\, \\right\\}$ là giá trị cần tìm.\nĐáp số : 2.",
+   "options": [],
+   "ma": "de4.P0.C20",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "short_correct": "2",
+   "sua_boi": "claude",
+   "muc_do": "VDC",
+   "dang": "L12.C1.B3.D06",
+   "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
+  },
+  {
+   "section": 0,
+   "n": 21,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Người ta thống kê được chi phí sửa chữa, vận hành máy móc trong một năm của một xưởng sản xuất được tính bởi công thức $f\\left( x \\right)=\\frac{2000x-1500}{35x+5}$(triệu đồng). Biết $x$ là số năm kể từ lúc máy móc vận hành lần đầu tiên, số năm càng nhiều thì chi phí càng cao. Khi số năm $x$ đủ lớn thì chi phí vận hành máy móc trong một năm gần với số nào? (làm tròn đến 1 chữ số thập phân sau dấu phẩy).",
+   "explanation": "Ta có: $\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{2000x-1500}{35x+5}=\\frac{2000}{35}=\\frac{400}{7}$.\nDo đó đồ thị hàm số $y=f\\left( x \\right)$ nhận đường thẳng $y=\\frac{400}{7}$ làm tiệm cận ngang, tức là khi số năm $x$ càng lớn thì chi phí vận hành máy móc trong một năm càng tiến gần đến $\\frac{400}{7}\\approx 57,1$ (triệu đồng).",
+   "options": [],
+   "ma": "de4.P0.C21",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "short_correct": "57,1",
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  },
+  {
+   "section": 0,
+   "n": 22,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "[Mức độ 3] Để thiết kế một bể cá hình hộp chữ nhật có chiều cao là $80$ cm, thể tích là $12800$ cm3. Người thợ dùng loại kính để sử dụng làm mặt bên có giá thành $70000$ VNĐ/m2 và loại kính đề làm mặt đáy có giá thành $100000$ VNĐ/m2. Gọi$x$là chiều dài của đáy bể cá với$\\left( x>0,\\,\\,x\\,(m) \\right)$;$f\\left( x \\right)$là hàm số xác định chi phí để hoàn thành bể cá. Xác định các đường tiệm cận của đồ thị hàm số$f\\left( x \\right)$.......................",
+   "explanation": "Gọi$y$là chiều rộng của đáy bể cá $\\left( y>0,\\,y\\,(m) \\right)$ .\nTa có :$0,8xy=0,0128\\Rightarrow y=\\frac{0,016}{x}\\left( m \\right)$.\nGiá thành bể cá được xác định theo hàm số:\n$f\\left( x \\right)=2.0,8\\left( x+\\frac{0,016}{x} \\right).70000+100000.x.\\frac{0,016}{x}$ (VNĐ)\n$\\Rightarrow f\\left( x \\right)=112000\\left( x+\\frac{0,016}{x} \\right)+1600$(VNĐ)\n$\\Rightarrow f\\left( x \\right)=112000x+1600+\\frac{1792}{x}$(VNĐ).\nTa có:\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\left( 112000x+1600+\\frac{1792}{x} \\right)=+\\infty $.\n$\\underset{x\\to +\\infty }{\\lim}\\,\\left[ f\\left( x \\right)-(112000x+1600) \\right]=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{1792}{x}=0$\nNên đồ thị hàm $f\\left( x \\right)$ có tiệm cận đứng là $x=0$; tiệm cận xiên là$y=112000x+1600$.",
+   "options": [],
+   "ma": "de4.P0.C22",
+   "dac_trung": {
+    "so_dong_loi_giai": 10,
+    "so_dau_bang": 14,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true,
+   "muc_do": "VD",
+   "dang": "L12.C1.B5.D01",
+   "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
+  }
+ ],
+ "flags": []
+}

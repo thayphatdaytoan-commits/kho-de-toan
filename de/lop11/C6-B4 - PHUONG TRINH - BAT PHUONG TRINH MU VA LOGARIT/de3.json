@@ -1,0 +1,631 @@
+{
+ "meta": {
+  "grade": "11",
+  "chapter": "6",
+  "lesson": "4",
+  "title": "Bài 4. Phương trình – bất phương trình mũ và lôgarit"
+ },
+ "no": 3,
+ "sections": {
+  "1": 12,
+  "2": 4,
+  "3": 6
+ },
+ "questions": [
+  {
+   "section": 1,
+   "n": 1,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Nghiệm thực của phương trình ${{2}^{x}}=7$ là",
+   "explanation": "Ta có: ${{2}^{x}}=7$. Lấy logarit cơ số $2$ cho hai vế ta được nghiệm $x={{\\log }_{2}}7$.",
+   "options": [
+    "$x=\\sqrt{7}$",
+    "$x=\\frac{7}{2}$",
+    "$x={{\\log }_{2}}7$",
+    "$x={{\\log }_{7}}2$"
+   ],
+   "ma": "de3.P1.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 2,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Số nghiệm thực của phương trình ${{2}^{\\sqrt{x}}}={{2}^{2-x}}$ là",
+   "explanation": "Ta có: ${{2}^{\\sqrt{x}}}={{2}^{2-x}}\\Leftrightarrow \\sqrt{x}=2-x\\Leftrightarrow \\left\\{ \\begin{aligned} & 2-x\\ge 0 \\\\ & x={{\\left( 2-x \\right)}^{2}} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\le 2 \\\\ & {{x}^{2}}-5x+4=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\le 2 \\\\ & \\left[ \\begin{aligned} & x=1 \\\\ & x=4 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow x=1$.",
+   "options": [
+    "$3$",
+    "$1$",
+    "$2$",
+    "$0$"
+   ],
+   "ma": "de3.P1.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 3,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Trong các phương trình sau, phương trình nào vô nghiệm?",
+   "explanation": "Phương trình ${{3}^{x}}+2=0\\Leftrightarrow {{3}^{x}}=-2$.\nNếu $b\\le 0$ thì phương trình ${{a}^{x}}=b$ $\\left( a>0;a\\ne 1 \\right)$vô nghiệm.\nDo đó phương trình ${{3}^{x}}+2=0$ vô nghiệm.",
+   "options": [
+    "${{3}^{x}}+2=0$",
+    "${{5}^{x}}-1=0$",
+    "${{\\log }_{2}}x=3$",
+    "$\\log \\left( x-1 \\right)=1$"
+   ],
+   "ma": "de3.P1.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 4,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Kí hiệu $A$ và $B$ lần lượt là tập nghiệm của các phương trình ${{\\log }_{3}}x\\left( x+2 \\right)=1$ và ${{\\log }_{3}}\\left( x+2 \\right)+{{\\log }_{3}}x=1$. Khi đó khẳng định đúng là",
+   "explanation": "${{\\log }_{3}}x\\left( x+2 \\right)=1$ $\\Leftrightarrow {{x}^{2}}+2x-3=0$$\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-3 \\\\ \\end{aligned} \\right.$$\\Rightarrow A=\\left\\{ -3;\\text{ }1 \\right\\}$.\nVới điều kiện $x>0$, phương trình ${{\\log }_{3}}\\left( x+2 \\right)+{{\\log }_{3}}x=1$ $\\Leftrightarrow {{\\log }_{3}}x\\left( x+2 \\right)=1$\n$\\Leftrightarrow {{x}^{2}}+2x-3=0$$\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-3\\left( l \\right) \\\\ \\end{aligned} \\right.$$\\Rightarrow B=\\left\\{ 1 \\right\\}$. Vậy $B\\subset A$.",
+   "options": [
+    "$A=B$",
+    "$A\\subset B$",
+    "$B\\subset A$",
+    "$A\\cap B=\\varnothing $"
+   ],
+   "ma": "de3.P1.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 18,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "NB"
+   },
+   "muc_do": "NB",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 5,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Tập nghiệm của bất phương trình ${{3}^{x+2}}\\ge \\frac{1}{9}$ là",
+   "explanation": "${{3}^{x+2}}\\ge \\frac{1}{9}$ $\\Leftrightarrow {{3}^{x+2}}\\ge {{3}^{-2}}$ $\\Leftrightarrow x+2\\ge -2$ $\\Leftrightarrow x\\ge -4$.\nVậy tập nghiệm của bất phương trình là $S=\\left[ -4;+\\infty \\right)$.",
+   "options": [
+    "$\\left[ 0;+\\infty \\right)$",
+    "$\\left( -\\infty ;4 \\right)$",
+    "$\\left( -\\infty ;0 \\right)$",
+    "$\\left[ -4;+\\infty \\right)$"
+   ],
+   "ma": "de3.P1.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D03",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 6,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Tập nghiệm của bất phương trình ${{\\log }_{\\frac{1}{2}}}\\left( {{x}^{2}}-5x+7 \\right)>0$ là",
+   "explanation": "Ta có ${{\\log }_{\\frac{1}{2}}}\\left( {{x}^{2}}-5x+7 \\right)>0$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}^{2}}-5x+7>0\\,\\,\\left( luon\\,dung \\right) \\\\ & {{x}^{2}}-5x+7<1 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow {{x}^{2}}-5x+6<0$ $2<x<3$.\nVậy tập nghiệm của bất phương trình $S=\\left( 2;\\,3 \\right)$.",
+   "options": [
+    "$\\left( -\\infty ;\\,2 \\right)\\cup \\left( 3;\\,+\\infty \\right)$",
+    "$\\left( -\\infty ;\\,2 \\right)$",
+    "$\\left( 2;\\,3 \\right)$",
+    "$\\left( 3;\\,+\\infty \\right)$"
+   ],
+   "ma": "de3.P1.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 3,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D04",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 7,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Phương trình ${{\\log }_{3}}\\left( 3x-1 \\right)=2$ có nghiệm là",
+   "explanation": "Ta có ${{\\log }_{3}}\\left( 3x-1 \\right)=2$ $\\Leftrightarrow 3x-1=9$ $\\Leftrightarrow x=\\frac{10}{3}$.",
+   "options": [
+    "$x=\\frac{3}{10}$",
+    "$x=3$",
+    "$x=\\frac{10}{3}$",
+    "$x=1$"
+   ],
+   "ma": "de3.P1.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 5,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 8,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Nghiệm của phương trình ${{4}^{2x-3}}=5$ là",
+   "explanation": "Ta có: ${{4}^{2x-3}}=5\\Leftrightarrow 2x-3={{\\log }_{4}}5\\Leftrightarrow 2x=3+\\frac{1}{2}{{\\log }_{2}}5\\Leftrightarrow x=\\frac{3}{2}+\\frac{1}{4}{{\\log }_{2}}5$",
+   "options": [
+    "$x=\\frac{3}{2}+{{\\log }_{4}}5$",
+    "$x=\\frac{3}{2}+{{\\log }_{2}}5$",
+    "$x=\\frac{3}{2}+\\frac{1}{4}{{\\log }_{2}}5$",
+    "$x=3+{{\\log }_{4}}5$"
+   ],
+   "ma": "de3.P1.C8",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 9,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "A",
+   "flags": [],
+   "question": "Tính tổng tất cả các nghiệm của phương trình sau ${{3}^{2x+8}}-{{4.3}^{x+5}}+27=0$.",
+   "explanation": "Ta có\n${{3}^{2x+8}}-{{4.3}^{x+5}}+27=0\\Leftrightarrow {{\\left( {{3}^{\\left( x+4 \\right)}} \\right)}^{2}}-{{12.3}^{x+4}}+27=0\\Leftrightarrow \\left[ \\begin{matrix} {{3}^{x+4}}=9 \\\\ {{3}^{x+4}}=3 \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left[ \\begin{matrix} x=-2 \\\\ x=-3 \\\\ \\end{matrix} \\right.$\nTổng các nghiệm của phương trình đã cho bằng $-5$.",
+   "options": [
+    "$-5$",
+    "$5$",
+    "$\\frac{4}{27}$",
+    "$-\\frac{4}{27}$"
+   ],
+   "ma": "de3.P1.C9",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 10,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "B",
+   "flags": [],
+   "question": "Tập nghiệm của phương trình ${{4}^{x-{{x}^{2}}}}={{\\left( \\frac{1}{2} \\right)}^{x}}$ là",
+   "explanation": "Ta có ${{4}^{x-{{x}^{2}}}}={{\\left( \\frac{1}{2} \\right)}^{x}}$ $\\Leftrightarrow {{2}^{2x-2{{x}^{2}}}}={{2}^{-x}}$ $\\Leftrightarrow -2{{x}^{2}}+2x=-x$ $\\Leftrightarrow -2{{x}^{2}}+3x=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=\\frac{3}{2} \\\\ \\end{aligned} \\right.$.",
+   "options": [
+    "$\\left\\{ 0;\\,\\frac{2}{3} \\right\\}$",
+    "$\\left\\{ 0;\\,\\frac{3}{2} \\right\\}$",
+    "$\\left\\{ 0;\\,2 \\right\\}$",
+    "$\\left\\{ 0;\\,\\frac{1}{2} \\right\\}$"
+   ],
+   "ma": "de3.P1.C10",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 11,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "C",
+   "flags": [],
+   "question": "Một người gửi số tiền $100$ triệu đồng vào một ngân hàng với lãi suất $7$%/năm. Biết rằng nếu không rút tiền ra khỏi ngân hàng thì cứ sau mỗi năm, số tiền lãi nhập vào vốn ban đầu (người ta gọi là lãi kép). Để người đó lãnh được số tiền $250$ triệu thì người đó cần gửi trong khoảng thời gian ít nhất bao nhiêu năm? (nếu trong khoảng thời gian này không rút tiền ra và lãi suất không thay đổi).",
+   "explanation": "Áp dụng công thức tính lãi kép ${{P}_{n}}=P{{\\left( 1+r \\right)}^{n}}$ với $P$ là số tiền ban đầu, ${{P}_{n}}$ là số tiền sau $n$ năm, $r$ là lãi suất.\nTa có $250=100{{\\left( 1+0,07 \\right)}^{n}}$ $\\Leftrightarrow $ $n={{\\log }_{1,07}}2,5$ $\\Leftrightarrow n\\approx 13,54$.\nVậy cần gửi trong khoảng thời gian ít nhất $14$ năm.",
+   "options": [
+    "$12$ năm",
+    "$15$ năm",
+    "$14$ năm",
+    "$13$ năm"
+   ],
+   "ma": "de3.P1.C11",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 5,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 1,
+   "n": 12,
+   "type": "multiple_choice",
+   "tf": {},
+   "tf_ans": {},
+   "answer": "D",
+   "flags": [],
+   "question": "Các khí thải gây hiệu ứng nhà kính là nguyên nhân chủ yếu làm Trái đất nóng lên. Theo OECD (Tổ chức Hợp tác và Phát triển kinh tế thế giới), khi nhiệt độ Trái đất tăng lên thì tổng giá trị kinh tế toàn cầu giảm. Người ta ước tính rằng, khi nhiệt độ Trái đất tăng thêm $2{}^\\circ C$thì tổng giá trị kinh tế toàn cầu giảm $3\\%$; còn khi nhiệt độ Trái đất tăng thêm $5{}^\\circ C$ thì tổng giá trị kinh tế toàn cầu giảm $10\\%$. Biết rằng, nếu nhiệt độ Trái đất tăng thêm $t{}^\\circ C$, tổng giá trị kinh tế toàn cầu giảm $f\\left( t \\right)\\%$ thì $f\\left( t \\right)=k.{{a}^{t}}$ trong đó $k,a$ là các hằng số dương. Khi nhiệt độ Trái đất tăng thêm bao nhiêu độ thì tổng giá trị kinh tế toàn cầu giảm đến 20%?",
+   "explanation": "Ta có: $\\left\\{ \\begin{aligned} & k.{{a}^{2}}=3\\% \\\\ & k.{{a}^{5}}=10\\% \\\\ \\end{aligned} \\right.\\Rightarrow a=\\sqrt[3]{\\frac{10}{3}};k=\\frac{3\\%}{{{a}^{2}}}$\nTổng giá trị kinh tế toàn cầu giảm đến 20% $\\Rightarrow \\frac{3\\%}{{{a}^{2}}}.{{a}^{t}}=20\\%$ $\\Rightarrow {{a}^{t-2}}=\\frac{20}{3}$ $\\Rightarrow t=2+{{\\log }_{a}}\\frac{20}{3}=2+{{\\log }_{\\sqrt[3]{\\frac{10}{3}}}}\\frac{20}{3}\\approx 6,7$",
+   "options": [
+    "$8,4{}^\\circ C$",
+    "$9,3{}^\\circ C$",
+    "$7,6{}^\\circ C$",
+    "$6,7{}^\\circ C$"
+   ],
+   "ma": "de3.P1.C12",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 12,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 1,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình ${3^{x-1}=9}$ có một nghiệm",
+    "b": "Phương trình ${5^{x-1}=\\left(\\frac{1}{25}\\right)^x}$ có nghiệm lớn hơn 3.",
+    "c": "Phương trình ${3^{x-2}=6}$ có chung tập nghiệm với phương trình ${{x}^{2}}-2x+4=0$",
+    "d": "Phương trình ${7^{x+2}-40.7^x=9}$ có một nghiệm $x=a$, khi đó: $\\underset{x\\to a}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2x+5 \\right)=6$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Giải được các phương trình sau. Khi đó:",
+   "explanation": "a) ${3^{x-1}=9 \\Leftrightarrow 3^{x-1}=3^2 \\Leftrightarrow x-1=2 \\Leftrightarrow x=3}$.\nVậy phương trình có nghiệm là ${x=3}$.\nb) ${5^{x-1}=\\left(\\frac{1}{25}\\right)^x \\Leftrightarrow 5^{x-1}=5^{-2 x} \\Leftrightarrow x-1=-2 x \\Leftrightarrow x=\\frac{1}{3}}$.\nVậy phương trình có nghiệm là ${x=\\frac{1}{3}}$.\nc) ${3^{x-2}=6 \\Leftrightarrow x-2=\\log _3 6 \\Leftrightarrow x=\\log _3 6+2}$.\nVậy phương trình có nghiệm là ${x=\\log _3 6+2}$.\nd) ${7^{x+2}-40.7^x=9 \\Leftrightarrow 7^2 .7^x-40.7^x=9 \\Leftrightarrow 9.7^x=9 \\Leftrightarrow 7^x=1 \\Leftrightarrow x=0}$.\nVậy phương trình có nghiệm là ${x=0}$.\nSuy ra $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2x+5 \\right)=5$",
+   "ma": "de3.P2.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 33,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 2,
+   "type": "true_false_group",
+   "tf": {
+    "a": "$a>0$",
+    "b": "Ba số $a,2,3$ tạo thành cấp số cộng với công sai bằng $d=1$",
+    "c": "$\\underset{x\\to a}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2x+5 \\right)=7$",
+    "d": "Phương trình ${{x}^{2}}+x+a=0$ vô nghiệm"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình ${\\left(\\frac{3}{2}\\right)^{x-5}=\\left(\\frac{2}{3}\\right)^{x+3}}$. Biết phương trình có 1 nghiệm là $x=a$. Khi đó:",
+   "explanation": "a) ${\\left(\\frac{3}{2}\\right)^{x-5}=\\left(\\frac{2}{3}\\right)^{x+3} \\Leftrightarrow\\left(\\frac{3}{2}\\right)^{x-5}=\\left(\\frac{3}{2}\\right)^{-x-3} \\Leftrightarrow x-5=-x-3 \\Leftrightarrow x=1}$.\nVậy phương trình có nghiệm là ${x=1}$.\nb) Ba số $a,2,3$ tạo thành cấp số cộng với công sai bằng $d=1$\nc) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2x+5 \\right)=8$\nd) ${{x}^{2}}+x+1>0,\\forall x$",
+   "ma": "de3.P2.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 3,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình (*) có chung tập nghiệm với phương trình ${\\log _5 \\sqrt{x^2-3 x+21}=1 \\Rightarrow \\sqrt{x^2-3 x+21}=5 \\Rightarrow x^2-3 x-4=0 \\Leftrightarrow\\left[\\begin{array}{l} x=-1 \\\\ x=4 \\end{array}\\right. }$",
+    "b": "Tổng các nghiệm của phương trình (*) bằng $4$",
+    "c": "3 số ${{x}_{1}};{{x}_{2}};8$ tạo thành một cấp số cộng.",
+    "d": "$\\underset{x\\to {{x}_{1}}}{\\mathop{\\lim }}\\,\\left( x-2 \\right)+\\underset{x\\to {{x}_{2}}}{\\mathop{\\lim }}\\,\\left( x-2 \\right)=-1$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình ${\\log _5 \\sqrt{x^2-3 x+21}=1}$ (*), biết phương trình có hai nghiệm ${{x}_{1}},{{x}_{2}}\\,\\left( {{x}_{1}}<{{x}_{2}} \\right)$. Khi đó:",
+   "explanation": "Điều kiện: ${x^2-3 x+21>0}$. ${(*)}$\n${\\log _5 \\sqrt{x^2-3 x+21}=1 \\Rightarrow \\sqrt{x^2-3 x+21}=5 \\Rightarrow x^2-3 x-4=0 \\Leftrightarrow\\left[\\begin{array}{l} x=-1 \\\\ x=4 \\end{array}\\right. }$\nThay lần lượt hai giá trị này vào ${(*)}$, ta thấy cả hai giá trị đều thoả mãn. Vậy phương trình có tập nghiệm là ${S=\\{-1 ; 4\\}}$.",
+   "ma": "de3.P2.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 2,
+   "n": 4,
+   "type": "true_false_group",
+   "tf": {
+    "a": "${\\log _2(-x+3) \\geq 1}$ có nghiệm lớn nhất bằng $1$",
+    "b": "${\\log _{\\frac{1}{3}}(2 x-2) \\leq 3}$ có nghiệm bé nhất bằng $\\frac{55}{54}$",
+    "c": "${\\log _2\\left(x^2+5 x+4\\right)<2}$ có điều kiện nghiệm là $-4<x<-1$",
+    "d": "${\\log _{\\frac{1}{9}}(-2 x-1)>\\log _{\\frac{1}{9}}(x+1)}$ tập nghiệm của bất phương này là: $S=\\left( -\\frac{2}{3};-\\frac{1}{2} \\right)$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Giải được các bất phương trình sau. Khi đó:",
+   "explanation": "a) Điều kiện: ${-x+3>0 \\Leftrightarrow x<3}$. $\\text{(}*\\text{)}$\nKhi đó, do cơ số ${2>1}$ nên bất phương trình đã cho trở thành:\n${-x+3 \\geq 2^1 \\Leftrightarrow x \\leq 1 \\text {. } }$\nKết hợp với điều kiện $\\text{(}*\\text{)}$, ta được nghiệm của bất phương trình là ${x \\leq 1}$.\nb) Điều kiện: ${2 x-2>0 \\Leftrightarrow x>1}$. $\\text{(}*\\text{)}$\nKhi đó, do cơ số ${0<\\frac{1}{3}<1}$ nên bất phương trình đã cho trở thành:\n${2 x-2 \\geq\\left(\\frac{1}{3}\\right)^3 \\Leftrightarrow 2 x \\geq \\frac{55}{27} \\Leftrightarrow x \\geq \\frac{55}{54} . }$\nKết hợp với điều kiện ${(*)}$, ta được nghiệm của bất phương trình là ${x \\geq \\frac{55}{54}}$.\nc) Điều kiện: ${x^2+5 x+4>0 \\Leftrightarrow\\left[\\begin{array}{l}x>-1 \\\\ x<-4\\end{array}\\right.}$.\nKhi đó, do cơ số ${2>1}$ nên bất phương trình đã cho trở thành\n${x^2+5 x+4<2^2 \\Leftrightarrow x^2+5 x<0 \\Leftrightarrow-5<x<0 . }$\nKết hợp với điều kiện $\\text{(}*\\text{)}$, ta được tập nghiệm của bất phương trình là:\n${S=(-5 ;-4) \\cup(-1 ; 0) \\text {. } }$\nd) Điều kiện: ${\\left\\{\\begin{array}{l}-2 x-1>0 \\\\ x+1>0\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}x<-\\frac{1}{2} \\\\ x>-1\\end{array} \\Leftrightarrow-1<x<-\\frac{1}{2}\\right.\\right.}$. $\\text{(}*\\text{)}$\nKhi đó, do cơ số ${0<\\frac{1}{9}<1}$ nên bất phương trình đã cho trở thành:\n${-2 x-1<x+1 \\Leftrightarrow x>-\\frac{2}{3} }$. Kết hợp điều kiện $\\text{(}*\\text{)}$, nghiệm của bất phương trình là ${-\\frac{2}{3}<x<-\\frac{1}{2}}$.",
+   "ma": "de3.P2.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 16,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   },
+   "muc_do": "TH",
+   "dang": "L11.C6.B4.D06",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm nghiệm phương trình ${\\ln 2 x+\\ln (x-1)=\\ln x^2}$;",
+   "explanation": "Điều kiện: $\\left\\{ \\begin{array}{llllll} 2x>0 \\\\ x-1>0 \\\\ {{x}^{2}}>0 \\\\ \\end{array} \\right.\\Leftrightarrow x>1.\\text{(}*\\text{)}$\n${\\ln 2 x+\\ln (x-1)=\\ln x^2 \\Leftrightarrow \\ln [2 x(x-1)]=\\ln x^2 \\Rightarrow 2 x(x-1)=x^2}$\n${\\Leftrightarrow x^2-2 x=0 \\Leftrightarrow\\left[\\begin{array}{l}x=0 \\\\ x=2\\end{array}\\right.}$, ta thấy chỉ có nghiệm ${x=2}$ thoả mãn điều kiện $\\text{(}*\\text{)}$.\nVậy phương trình có nghiệm là ${x=2}$.",
+   "short_value": null,
+   "short_correct": "2",
+   "ma": "de3.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 13,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm nghiệm bất phương trình ${25^x-5^{1+x}-6 \\geq 0}$.",
+   "explanation": "${\\begin{aligned} & 25^x-5^{1+x}-6 \\geq 0 \\Leftrightarrow 5^{2 x}-5.5^x-6 \\geq 0 \\\\ & \\Leftrightarrow\\left(5^x\\right)^2-1-5 \\cdot\\left(5^x+1\\right) \\geq 0 \\Leftrightarrow\\left(5^x+1\\right)\\left(5^x-6\\right) \\geq 0 . \\end{aligned} }$\nVì ${5^x+1>0}$ nên bất phương trình trở thành: ${5^x \\geq 6 \\Leftrightarrow x \\geq \\log _5 6}$ (do ${5>1}$).\nVậy nghiệm của bất phương trình là ${x \\geq \\log _5 6}$.",
+   "short_value": null,
+   "short_correct": "x\\ge\\log_5 6|x≥\\log_5 6|x>=\\log_5 6",
+   "ma": "de3.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D03",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 3,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Tìm nghiệm phương trình ${\\log \\left(x^2-3 x+2\\right)=2 \\log _{100}(2 x-4)}$;",
+   "explanation": "Điều kiện: ${\\left\\{\\begin{array}{l}x^2-3 x+2>0 \\\\ 2 x-4>0\\end{array}\\right.}$.${(*)}$\n${\\begin{aligned} & \\log \\left(x^2-3 x+2\\right)=2 \\log _{100}(2 x-4) \\Leftrightarrow \\log \\left(x^2-3 x+2\\right)=\\log (2 x-4) \\\\ & \\Rightarrow x^2-3 x+2=2 x-4 \\Leftrightarrow x^2-5 x+6=0 \\Leftrightarrow\\left[\\begin{array}{l} x=2 \\\\ x=3 \\end{array}\\right. \\end{aligned} }$\nThay lần lượt hai giá trị này vào ${(*)}$, ta thấy chỉ có giá trị ${x=3}$ thoả mãn.\nVậy phương trình có nghiệm là ${x=3}$.",
+   "short_value": null,
+   "short_correct": "3",
+   "ma": "de3.P3.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 12,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D02",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 4,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Dân số ở một địa phương được ước tính theo công thức ${S=A \\cdot e^{r . t}}$, trong đó ${A}$ không đổi là dân số của năm 2023, ${S}$ là dân số sau ${t}$ năm, ${r}$ là tỉ lệ tăng dân số hằng năm. Hỏi đến năm nào thì dân số ở địa phương đó sẽ đạt gấp đôi dân số năm 2023? Biết ${r=1,13 \\% /}$năm.",
+   "explanation": "Dân số đạt gấp đôi nghĩa là ${S=2 A}$, ta có:\n${2 A=A \\cdot e^{1,13 \\% . t} \\Leftrightarrow e^{1,13 \\% . t}=2 \\Leftrightarrow 1,13 \\% . t=\\ln _e 2 \\Leftrightarrow t=\\frac{\\ln 2}{1,13 \\%} \\approx 61,34 \\text { (do } e>1 \\text { ). } }$\nVậy sau 62 năm tức đến năm 2085 thì dân số ở địa phương đó sẽ gấp đôi dân số năm 2023.",
+   "short_value": null,
+   "short_correct": "2085",
+   "ma": "de3.P3.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 8,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D01",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 5,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Số lượng của một loài vi khuẩn trong phòng thí nghiệm được tính theo công thức ${S(t)=A \\cdot e^{r t}}$, trong đó ${A}$ là số lượng vi khuẩn ban đầu, ${S(t)}$ là số lượng vi khuẩn có sau ${t}$ (phút), ${r}$ là tỉ lệ tăng trưởng ${(r>0), t}$ (tính theo phút) là thời gian tăng trưởng. Biết rằng số lượng vi khuẩn ban đầu có 500 con và sau 6 giờ có 2000 con. Hỏi ít nhất bao nhiêu giờ, kể từ lúc bắt đầu, số lượng vi khuẩn đạt ít nhất 120000 con?",
+   "explanation": "Ta có: ${A=500, S(360)=2000,6}$ giờ ${=360}$ phút.\nSau 6 giờ số lượng vi khuẩn là 2000 con, tức là: ${2000=500 \\cdot e^{r .360}}$\n$\\Leftrightarrow {{e}^{r.360}}=4\\Leftrightarrow r=\\frac{\\ln 4}{360}\\text{ (do }e>1\\text{)}\\text{. }$\nSố lượng vi khuẩn đạt ít nhất 120000 con, nghĩa là: ${500 \\cdot e^{\\frac{\\ln 4}{360} \\cdot t} \\geq 120000}$\n${\\Leftrightarrow e^{\\frac{\\ln 4}{360} \\cdot t} \\geq 240 \\Leftrightarrow \\frac{\\ln 4}{360} \\cdot t \\geq \\ln 240 \\Leftrightarrow t \\geq \\frac{360 \\cdot \\ln 240}{\\ln 4} \\approx 1423,24 \\text { (phút). } }$\nVậy sau ít nhất 24 (giờ) thì số lượng vi khuẩn đạt ít nhất 120000 con.",
+   "short_value": null,
+   "short_correct": "24",
+   "ma": "de3.P3.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 11,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  },
+  {
+   "section": 3,
+   "n": 6,
+   "type": "short_answer",
+   "tf": {},
+   "tf_ans": {},
+   "answer": null,
+   "flags": [],
+   "question": "Nếu một người gửi số tiền ${{A}}$ với lãi suất kép ${{r}}$ mỗi kì thì sau ${{n}}$ kì, số tiền ${{T}}$ người ấy thu được cả vốn lẫn lãi được cho bởi công thức ${T_n=A(1+r)^n}$.\nMột người gửi 150 triệu đồng vào một ngân hàng theo thể thức lãi suất kép với lãi suất cố định là ${8,4 \\% /}$ năm. Nếu theo kì hạn là 1 năm thì sau ít nhất bao nhiêu năm, người đó thu được cả vốn và tiền lãi hơn 200 triệu đồng (làm tròn kết quả đến hàng phần trăm)?",
+   "explanation": "Ta có: ${A=150}$ (triệu đồng), ${r=8,4 \\%}$\nVốn và tiền lãi hơn 200 triệu đồng nghĩa là ${T_n>200}$ (triệu đồng)\nTa có: ${150(1+8,4 \\%)^n>200 \\Leftrightarrow(1+8,4 \\%)^n>\\frac{4}{3} \\Leftrightarrow n>\\log _{1+8,4 \\%} \\frac{4}{3} \\approx 3,6}$\nVậy thực tế thì sau ít nhất 4 năm người đó thu được cả vốn và tiền lãi hơn 200 triệu đồng.",
+   "short_value": null,
+   "short_correct": "4",
+   "ma": "de3.P3.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "muc_do": "VD",
+   "dang": "L11.C6.B4.D05",
+   "dang_toan_web": "Phương trình, bất phương trình mũ và lôgarit cơ bản."
+  }
+ ],
+ "flags": []
+}
