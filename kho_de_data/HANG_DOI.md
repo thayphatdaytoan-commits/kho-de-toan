@@ -289,3 +289,10 @@ Câu có bảng «Mệnh đề | Đúng | Sai» được tách thành câu đún
 - Bẫy bộ Import web: đáp án ngắn chỉ gồm 1 chữ a–d bị hiểu là chữ cái phương án → viết «a|$a$»; dòng lời giải bắt đầu «Phương án A:» làm mất phương án → dùng «Xét (A):».
 - `kho_de_data/CAU_TRUNG_TRONG_KHO.md`: 213 câu trùng nội dung trong kho (chưa xoá).
 - LMK: câu Đúng/Sai và trả lời ngắn chưa có lời giải (sách có, chưa chép).
+
+## Rà soát THCS lớp 6-9 — muse (20/10/2026)
+- Người nhận: **muse** — đợt rà soát lại toàn bộ 130 câu lỗi nghiêm trọng đã phát hiện ở khối THCS (báo cáo rà soát trước đó), đối chiếu với VIEC_CAN_LAM.md.
+- Đã ghi vào `sua.json`: sửa 48 câu (đổi/thêm đáp án, sửa phương án, mẫu điền, lời giải, câu chữ mất ký hiệu), ghi `ghi_chu` 57 câu chờ thầy xem (đề có hai phương án cùng đúng, không có phương án đúng, thiếu dữ kiện — cần sửa bản đề gốc). Mọi entry đều có `sua_boi: muse`, entry sửa kèm `ly_do`.
+- 25 câu còn lại trong danh sách đã có sẵn entry của grokbot/claude trong sua.json: giữ nguyên theo quy định, muse chỉ kiểm chứng (21 câu đáp án đã khớp nhưng lời giải trong entry vẫn còn dòng tính sai; chi tiết trong PR).
+- Nhánh: `ai/muse-2026-10-20` (PR vào main). Không sửa file nào trong `de/`.
+
