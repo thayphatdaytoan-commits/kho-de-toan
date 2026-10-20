@@ -1,12 +1,12 @@
 # Việc cần làm (tự sinh mỗi lần đẩy kho — đừng sửa tay)
 
-Cập nhật: 2026-10-20 16:02. Kho có 19,496 câu; **3,924 câu còn cờ** cần xem. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ) ở `viec_can_lam.json`. Cách sửa: `HUONG_DAN_AI.md`.
+Cập nhật: 2026-10-20 16:08. Kho có 19,496 câu; **3,931 câu còn cờ** cần xem. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ) ở `viec_can_lam.json`. Cách sửa: `HUONG_DAN_AI.md`.
 
 ## Theo loại cờ
 
 | Cờ | Số câu | Nghĩa / việc cần làm |
 |---|---|---|
-| `dap_an_tu_giai_can_xac_nhan` | 1105 | đề gốc không có đáp án, máy tự giải → giải lại, đúng thì xac_nhan |
+| `dap_an_tu_giai_can_xac_nhan` | 1112 | đề gốc không có đáp án, máy tự giải → giải lại, đúng thì xac_nhan |
 | `import_web` | 692 | bộ import của web báo lỗi (thiếu đáp án, sai định dạng…) → sửa trường tương ứng |
 | `dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan` | 539 | đáp án trả lời ngắn lấy từ cuối lời giải → kiểm lại |
 | `thieu_dap_an_Chon_X` | 391 | trắc nghiệm thiếu dòng «Chọn X» → giải và ghi answer |
@@ -143,21 +143,21 @@ Cập nhật: 2026-10-20 16:02. Kho có 19,496 câu; **3,924 câu còn cờ** c�
 Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `ghi_chu` trong `sua.json` để thầy xử lý.
 
 - lop10/C2-B1-BPT BAC NHAT HAI AN/de3.json: image54.emf
-- lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image31.emf
 - lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image30.emf
-- lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image32.png
 - lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image35.emf
+- lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image32.png
+- lop10/C2-B3-ON TAP CUOI CHUONG 2/de2.json: image31.emf
 - lop10/C3-B1-GIA TRI LUONG GIAC CUA MOT GOC/de1.json: image15.png
-- lop10/C4-B1-KHAI NIEM VECTO/de3.json: image52.png
 - lop10/C4-B1-KHAI NIEM VECTO/de3.json: image50.png
+- lop10/C4-B1-KHAI NIEM VECTO/de3.json: image52.png
 - lop10/C5-B3-CAC SO DAC TRUNG DO DO PHAN TAN/de1.json: image11.png
 - lop10/C6-B4-PT QUY VE PT BAC HAI/de3.json: image18.png
 - lop10/C6-B5-ON TAP CHUONG 6/de2.json: image23.png
 - lop10/CK10-DH-03/de1.json: image5.png
 - lop10/CK10-DH-04/de1.json: image15.emf
 - lop10/CK10-DH-07/de1.json: image8.emf
-- lop10/CK10-DH-10/de1.json: image10.png
 - lop10/CK10-DH-10/de1.json: image12.emf
+- lop10/CK10-DH-10/de1.json: image10.png
 - lop10/CK10-DH-13/de1.json: image12.png
 - lop10/CK10-DH-15/de1.json: image5.png
 - lop10/CK10-DH-17/de1.json: image3.png
@@ -167,13 +167,13 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop10/CK10-EB-08/de1.json: image14.tmp
 - lop10/CK10-EB-09/de1.json: image3.png
 - lop10/CK10-EB-09/de1.json: image11.emf
-- lop10/CK10-EB-10/de1.json: image49.png
 - lop10/CK10-EB-10/de1.json: image35.emf
-- lop10/CK10-HCM-06/de1.json: image1.png
-- lop10/CK10-HCM-06/de1.json: image14.png
+- lop10/CK10-EB-10/de1.json: image49.png
 - lop10/CK10-HCM-06/de1.json: image4.png
+- lop10/CK10-HCM-06/de1.json: image14.png
 - lop10/CK10-HCM-06/de1.json: image13.emf
 - lop10/CK10-HCM-06/de1.json: image2.png
+- lop10/CK10-HCM-06/de1.json: image1.png
 - lop10/CK10-HCM-13/de1.json: image18.png
 - lop10/CK10-HCM-18/de1.json: image4.png
 - lop10/CK10-TDC-01/de1.json: image4.png
@@ -197,8 +197,8 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop11/C4-B3-DUONG THANG SONG SONG VOI MAT PHANG/de2.json: image39.emf
 - lop11/C4-B3-DUONG THANG SONG SONG VOI MAT PHANG/de3.json: image61.png
 - lop11/C4-B4-HAI MAT PHANG SONG SONG/de1.json: image22.png
-- lop11/C4-B4-HAI MAT PHANG SONG SONG/de2.json: image39.emf
 - lop11/C4-B4-HAI MAT PHANG SONG SONG/de2.json: image41.png
+- lop11/C4-B4-HAI MAT PHANG SONG SONG/de2.json: image39.emf
 - lop11/C4-B5-PHEP CHIEU SONG SONG/de1.json: image16.png
 - lop11/C6-B3 - HAM SO MU VA HAM SO LOGARIT/de2.json: image22.png
 - lop11/C6-B3 - HAM SO MU VA HAM SO LOGARIT/de2.json: image23.png
@@ -219,9 +219,9 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop11/C8-B4-KHOANG CACH TRONG KHONG GIAN/de2.json: image39.png
 - lop11/C8-B4-KHOANG CACH TRONG KHONG GIAN/de2.json: image49.emf
 - lop11/C8-B4-KHOANG CACH TRONG KHONG GIAN/de2.json: image48.emf
-- lop11/C8-BAI TAP CUOI CHUONG/de2.json: image63.tmp
-- lop11/C8-BAI TAP CUOI CHUONG/de2.json: image33.png
 - lop11/C8-BAI TAP CUOI CHUONG/de2.json: image38.emf
+- lop11/C8-BAI TAP CUOI CHUONG/de2.json: image33.png
+- lop11/C8-BAI TAP CUOI CHUONG/de2.json: image63.tmp
 - lop11/C8-BAI TAP CUOI CHUONG/de3.json: image80.emf
 - lop11/CK11-DH-03/de1.json: image4.png
 - lop11/CK11-EB-01/de1.json: image11.png
@@ -230,48 +230,48 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop11/CK11-EB-09/de1.json: image7.png
 - lop11/CK11-EB-10/de1.json: image10.png
 - lop11/CK11-VN-01/de1.json: image13.jpeg
-- lop11/CK11-VN-05/de1.json: image7.png
 - lop11/CK11-VN-05/de1.json: image4.png
 - lop11/CK11-VN-05/de1.json: image2.png
+- lop11/CK11-VN-05/de1.json: image7.png
 - lop11/GK11-02-DE 2/de1.json: image12.png
 - lop11/GK11-08-DE 8/de1.json: image4.png
 - lop11/GK11-08-DE 8/de1.json: image5.png
 - lop11/GK11-TDC-10/de1.json: image6.emf
-- lop11/GKF11-07-TO 7. DOT 8. DE GK2.CCST 11-DE 1 - AN MAMA/de1.json: image9.png
 - lop11/GKF11-07-TO 7. DOT 8. DE GK2.CCST 11-DE 1 - AN MAMA/de1.json: image8.png
+- lop11/GKF11-07-TO 7. DOT 8. DE GK2.CCST 11-DE 1 - AN MAMA/de1.json: image9.png
 - lop11/HK11-SP-04/de1.json: image1.png
 - lop11/HK11-SP-04/de1.json: image3.jpeg
-- lop11/HK11-SP-08/de1.json: image1.png
 - lop11/HK11-SP-08/de1.json: image3.emf
 - lop11/HK11-SP-08/de1.json: image2.jpeg
+- lop11/HK11-SP-08/de1.json: image1.png
 - lop11/HK11-SP-09/de1.json: image2.png
-- lop12/C1-B1/de1.json: image21.emf
 - lop12/C1-B1/de1.json: image20.emf
+- lop12/C1-B1/de1.json: image21.emf
 - lop12/C1-B2/de2.json: image39.png
+- lop12/C1-B2/de3.json: image47.png
 - lop12/C1-B2/de3.json: image49.png
 - lop12/C1-B2/de3.json: image43.emf
-- lop12/C1-B2/de3.json: image47.png
 - lop12/C1-B4/de2.json: image36.png
 - lop12/C1-B4/de3.json: image63.png
 - lop12/C1-ON CHUONG 1/de1.json: image13.emf
+- lop12/C1-ON CHUONG 1/de1.json: image14.emf
+- lop12/C1-ON CHUONG 1/de1.json: image17.png
+- lop12/C1-ON CHUONG 1/de1.json: image11.emf
 - lop12/C1-ON CHUONG 1/de1.json: image25.png
 - lop12/C1-ON CHUONG 1/de1.json: image21.emf
-- lop12/C1-ON CHUONG 1/de1.json: image14.emf
-- lop12/C1-ON CHUONG 1/de1.json: image11.emf
-- lop12/C1-ON CHUONG 1/de1.json: image17.png
-- lop12/C1-ON CHUONG 1/de3.json: image55.png
-- lop12/C1-ON CHUONG 1/de3.json: image65.png
 - lop12/C1-ON CHUONG 1/de3.json: image66.png
+- lop12/C1-ON CHUONG 1/de3.json: image65.png
+- lop12/C1-ON CHUONG 1/de3.json: image55.png
 - lop12/C1KT-B01/de1.json: image8.png
-- lop12/C1KT-B02/de1.json: image14.jpeg
 - lop12/C1KT-B02/de1.json: image2.png
+- lop12/C1KT-B02/de1.json: image14.jpeg
 - lop12/C1KT-B04/de1.json: image14.png
 - lop12/C1KT-B04/de1.json: image6.png
 - lop12/C1KT-B04/de1.json: image5.png
 - lop12/C1KT-B05/de1.json: image2.png
 - lop12/C2-B1/de1.json: image23.emf
-- lop12/C2-B1/de2.json: image43.emf
 - lop12/C2-B1/de2.json: image50.emf
+- lop12/C2-B1/de2.json: image43.emf
 - lop12/C2-B2/de1.json: image19.jpg
 - lop12/C2-B2/de2.json: image26.png
 - lop12/C2KT-B02/de1.json: image6.png
@@ -282,63 +282,63 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop12/C4-ON TAP CHUONG 4/de3.json: image49.jpeg
 - lop12/C4KT-B03/de1.json: image6.png
 - lop12/C4KT-B03/de1.json: image13.png
-- lop12/C4KT-KS/de1.json: image9.png
 - lop12/C4KT-KS/de1.json: image11.png
+- lop12/C4KT-KS/de1.json: image9.png
 - lop12/C5-B3- CONG THUC TINH GOC TRONG KHONG GIAN/de3.json: image28.png
 - lop12/C5KT-B02/de1.json: image2.png
-- lop12/C5KT-B03/de1.json: image7.png
 - lop12/C5KT-B03/de1.json: image3.jpeg
-- lop12/C5KT-B03/de1.json: image8.png
-- lop12/C5KT-B03/de1.json: image4.jpeg
 - lop12/C5KT-B03/de1.json: image5.png
+- lop12/C5KT-B03/de1.json: image4.jpeg
+- lop12/C5KT-B03/de1.json: image7.png
+- lop12/C5KT-B03/de1.json: image8.png
 - lop12/CK12-TDC-03/de1.json: image7.png
 - lop12/CK12-TV-01/de1.json: image14.png
 - lop12/CK12-TV-01/de1.json: image15.png
 - lop12/CK12-TV-01/de1.json: image17.png
 - lop12/CK12-TV-01/de1.json: image8.png
 - lop12/CK12-TV-01/de1.json: image13.png
-- lop12/CK12-TV-03/de1.json: image1.png
 - lop12/CK12-TV-03/de1.json: image9.png
-- lop12/CK12-TV-04/de1.json: image3.png
+- lop12/CK12-TV-03/de1.json: image1.png
 - lop12/CK12-TV-04/de1.json: image2.png
-- lop12/CK12-TV-05/de1.json: image9.png
+- lop12/CK12-TV-04/de1.json: image3.png
 - lop12/CK12-TV-05/de1.json: image13.emf
-- lop12/CK12-TV-06/de1.json: image6.png
+- lop12/CK12-TV-05/de1.json: image9.png
 - lop12/CK12-TV-06/de1.json: image13.emf
+- lop12/CK12-TV-06/de1.json: image6.png
 - lop12/CK12-TV-06/de1.json: image7.png
 - lop12/CK12-TV-07/de1.json: image8.png
-- lop12/CK12-TV-08/de1.json: image7.png
 - lop12/CK12-TV-08/de1.json: image5.png
+- lop12/CK12-TV-08/de1.json: image7.png
 - lop12/CK12-TV-09/de1.json: image8.emf
 - lop12/CK12-TV-09/de1.json: image10.emf
 - lop12/CK12-TV-10/de1.json: image6.png
-- lop12/CK12-WT-01/de1.json: image36.png
 - lop12/CK12-WT-01/de1.json: image34.wmf
+- lop12/CK12-WT-01/de1.json: image36.png
 - lop12/CK12-WT-02/de1.json: image6.png
 - lop12/CK12-WT-03/de1.json: image1.png
 - lop12/CK12-WT-06/de1.json: image5.png
 - lop12/DT26-00-DE KSCL-THPT LE THANH TONG-HCM/de1.json: image17.png
 - lop12/DT26-04-KSCL THPT -LIEN CAP DAI HOC HONG DUC/de1.json: image4.png
 - lop12/DT26-11-THPT NGUYEN KHUYEN - BINH DUONG/de1.json: image1.png
-- lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image10.png
 - lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image4.png
-- lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image11.png
 - lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image16.emf
+- lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image11.png
+- lop12/DT26-13-KSCL THPT NGUYEN KHUYEN - LTT - TPHCM/de1.json: image10.png
 - lop12/DT26-14-SO NINH BINH-L1/de1.json: image6.png
 - lop12/DT26-14-SO NINH BINH-L1/de1.json: image11.png
-- lop12/DT26-16-CHUYEN HA LONG - QUANG NINH/de1.json: image10.png
-- lop12/DT26-16-CHUYEN HA LONG - QUANG NINH/de1.json: image13.png
 - lop12/DT26-16-CHUYEN HA LONG - QUANG NINH/de1.json: image5.png
+- lop12/DT26-16-CHUYEN HA LONG - QUANG NINH/de1.json: image13.png
+- lop12/DT26-16-CHUYEN HA LONG - QUANG NINH/de1.json: image10.png
 - lop12/DT26-17-KSCL THPT LE QUY DON LAN 1 - HA NOI/de1.json: image11.png
 - lop12/DT26-18-KSCL THPT NGUYEN KHUYEN - HCM/de1.json: image20.png
-- lop12/DT26-20-THPT THIEU HOA -THANH HOA/de1.json: image7.png
 - lop12/DT26-20-THPT THIEU HOA -THANH HOA/de1.json: image8.png
+- lop12/DT26-20-THPT THIEU HOA -THANH HOA/de1.json: image7.png
 - lop12/DT26-21-THPT CHUYEN TRAN PHU LAN 1 -HAI PHONG/de1.json: image4.png
-- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image1.png
-- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image3.png
-- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image10.png
-- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image12.png
 - lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image2.png
+- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image3.png
+- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image12.png
+- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image10.png
+- lop12/DT26-22-KSCL THPT DONG HY - THAI NGUYEN/de1.json: image1.png
 - lop12/DT26-25-CUM TRUONG THPT HA-TINH - L1/de1.json: image13.png
 - lop12/DT26-27-CUM TRUONG THPT HA TINH - L1/de1.json: image13.png
 - lop12/DT26-29-SO PHU THO - L1/de1.json: image4.png
