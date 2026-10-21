@@ -1,165 +1,181 @@
 {
- "de1.P4.C2": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Chứng minh phương trình có hai nghiệm phân biệt.",
-    "explanation": "Tính $\\Delta = (-6)^2 - 4 \\cdot 3 \\cdot 1 = 36 - 12 = 24 > 0$.\nVậy phương trình có hai nghiệm phân biệt.",
-    "points": 0.5,
-    "type": "proof_frame",
-    "frame": {
-     "blocks": [
+  "de1.P4.C2": {
+    "parts": [
       {
-       "lines": [
-        "Tính $\\Delta = {{1}} - {{2}} = {{3}} > 0$"
-       ],
-       "hint": "Tính delta"
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh phương trình có hai nghiệm phân biệt.",
+        "explanation": "Tính $\\Delta = (-6)^2 - 4 \\cdot 3 \\cdot 1 = 36 - 12 = 24 > 0$.\nVậy phương trình có hai nghiệm phân biệt.",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Tính $\\Delta = {{1}} - {{2}} = {{3}} > 0$"
+              ],
+              "hint": "Tính delta"
+            },
+            {
+              "lines": [
+                "Vậy phương trình có {{4}} nghiệm phân biệt"
+              ],
+              "hint": "Kết luận"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "input",
+              "answers": [
+                "36"
+              ],
+              "keywords": [
+                "36"
+              ],
+              "placeholder": "giá trị",
+              "maxLen": 4
+            },
+            {
+              "id": "2",
+              "mode": "input",
+              "answers": [
+                "12"
+              ],
+              "keywords": [
+                "12"
+              ],
+              "placeholder": "giá trị",
+              "maxLen": 4
+            },
+            {
+              "id": "3",
+              "mode": "input",
+              "answers": [
+                "24"
+              ],
+              "keywords": [
+                "24"
+              ],
+              "placeholder": "giá trị",
+              "maxLen": 4
+            },
+            {
+              "id": "4",
+              "mode": "input",
+              "answers": [
+                "hai"
+              ],
+              "keywords": [
+                "hai"
+              ],
+              "placeholder": "số nghiệm",
+              "maxLen": 4
+            }
+          ],
+          "pool": [],
+          "ordered": false
+        }
       },
       {
-       "lines": [
-        "Vậy phương trình có {{4}} nghiệm phân biệt"
-       ],
-       "hint": "Kết luận"
+        "id": "b",
+        "label": "b",
+        "question": "Không giải phương trình, hãy tính giá trị biểu thức: $A = \\frac{x_1}{x_2} + \\frac{x_2}{x_1}$ (với $x_1, x_2$ là hai nghiệm của phương trình).",
+        "explanation": "Theo hệ thức Vi-ét, ta có: $x_1 + x_2 = 2$ và $x_1 x_2 = \\frac{1}{3}$.\nBiến đổi $A = \\frac{x_1^2 + x_2^2}{x_1 x_2} = \\frac{(x_1 + x_2)^2 - 2x_1 x_2}{x_1 x_2}$.\nThay số: $A = \\frac{2^2 - 2 \\cdot \\frac{1}{3}}{\\frac{1}{3}} = \\frac{\\frac{10}{3}}{\\frac{1}{3}} = 10$.",
+        "points": 1,
+        "type": "short_answer",
+        "shortCorrect": "10"
       }
-     ],
-     "blanks": [
+    ],
+    "sua_boi": "thay",
+    "ly_do": "AI sửa cả câu (Gemini 1 (gemini-3.5-flash)) — thầy đã soát",
+    "question": "Cho phương trình: $3x^2 - 6x + 1 = 0$",
+    "explanation": "Phương trình $3x^2 - 6x + 1 = 0$ có $\\Delta = 24 > 0$ nên có hai nghiệm phân biệt $x_1, x_2$.\nÁp dụng hệ thức Vi-ét để tính giá trị biểu thức $A = 10$.",
+    "xac_nhan": true,
+    "points": 1.5
+  },
+  "de1.P4.C4": {
+    "parts": [
       {
-       "id": "1",
-       "mode": "input",
-       "answers": [
-        "36"
-       ],
-       "keywords": [
-        "36"
-       ],
-       "placeholder": "giá trị",
-       "maxLen": 4
+        "id": "a",
+        "label": "a",
+        "question": "Biết rằng 8 miếng phô mai được xếp nằm sát nhau vừa khít trong hộp (Hình 3). Hỏi thể tích một miếng phô mai là bao nhiêu? (làm tròn kết quả đến chữ số thập phân thứ nhất)",
+        "explanation": "a) Thể tích hộp phô mai là: $V={{S}_{d\\acute{a}y}}.h={{\\left( 12,2:2 \\right)}^{2}}\\pi =37,21\\pi (c{{m}^{3}})$\nThể tích của một miếng phô mai là: 37,21:8 14,6 cm3.",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Bán kính đáy: $12,2:2=$ {{1}} (cm)",
+            "Thể tích hộp: $V=\\pi \\cdot {{2}}^2 \\cdot 2,4=$ {{3}} (cm$^3$)",
+            "Thể tích một miếng: ${{3}}:8\\approx$ {{4}} (cm$^3$)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "6.1"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "6.1"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "280.6|280.4|280.5"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "35.1"
+            }
+          ]
+        }
       },
       {
-       "id": "2",
-       "mode": "input",
-       "answers": [
-        "12"
-       ],
-       "keywords": [
-        "12"
-       ],
-       "placeholder": "giá trị",
-       "maxLen": 4
-      },
-      {
-       "id": "3",
-       "mode": "input",
-       "answers": [
-        "24"
-       ],
-       "keywords": [
-        "24"
-       ],
-       "placeholder": "giá trị",
-       "maxLen": 4
-      },
-      {
-       "id": "4",
-       "mode": "input",
-       "answers": [
-        "hai"
-       ],
-       "keywords": [
-        "hai"
-       ],
-       "placeholder": "số nghiệm",
-       "maxLen": 4
+        "id": "b",
+        "label": "b",
+        "question": "Người ta gói từng miếng phô mai bằng một loại giấy đặc biệt. Giả sử phần giấy gói vừa khít miếng phô mai. Hãy tính diện tích phần giấy gói mỗi miếng phô mai. (Làm tròn kết quả đến hàng đơn vị)",
+        "explanation": "b) Diện tích giấy gói mặt trên và dưới của miếng phô mai:$2{{S}_{quat}}=2.\\frac{\\pi {{R}^{2}}n}{360}=2.\\frac{\\pi {{\\left( 12,2:2 \\right)}^{2}}(360:8)}{360}=\\frac{3721}{400}\\pi $(cm2)\nDiện tích giấy gói hai mặt bên của miếng pho mai: $2{{S}_{1}}=2\\left( 12,2:2 \\right).2,4=29,28\\,\\,(c{{m}^{2}})$\nDiện tích giấy gói mặt trước của miếng phô mai: ${{S}_{2}}=\\frac{12,2\\pi }{8}\\cdot 2,4=3,66\\pi \\,(c{{m}^{2}})$\nDiện tích giấy gói miếng phô mai là:$\\frac{3721}{400}\\pi +29,28+3,66\\pi \\approx 70\\,(c{{m}^{2}})$",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "70"
       }
-     ],
-     "pool": [],
-     "ordered": false
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Không giải phương trình, hãy tính giá trị biểu thức: $A = \\frac{x_1}{x_2} + \\frac{x_2}{x_1}$ (với $x_1, x_2$ là hai nghiệm của phương trình).",
-    "explanation": "Theo hệ thức Vi-ét, ta có: $x_1 + x_2 = 2$ và $x_1 x_2 = \\frac{1}{3}$.\nBiến đổi $A = \\frac{x_1^2 + x_2^2}{x_1 x_2} = \\frac{(x_1 + x_2)^2 - 2x_1 x_2}{x_1 x_2}$.\nThay số: $A = \\frac{2^2 - 2 \\cdot \\frac{1}{3}}{\\frac{1}{3}} = \\frac{\\frac{10}{3}}{\\frac{1}{3}} = 10$.",
-    "points": 1,
-    "type": "short_answer",
-    "shortCorrect": "10"
-   }
-  ],
-  "sua_boi": "thay",
-  "ly_do": "AI sửa cả câu (Gemini 1 (gemini-3.5-flash)) — thầy đã soát",
-  "question": "Cho phương trình: $3x^2 - 6x + 1 = 0$",
-  "explanation": "Phương trình $3x^2 - 6x + 1 = 0$ có $\\Delta = 24 > 0$ nên có hai nghiệm phân biệt $x_1, x_2$.\nÁp dụng hệ thức Vi-ét để tính giá trị biểu thức $A = 10$.",
-  "xac_nhan": true,
-  "points": 1.5
- },
- "de1.P4.C4": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Biết rằng 8 miếng phô mai được xếp nằm sát nhau vừa khít trong hộp (Hình 3). Hỏi thể tích một miếng phô mai là bao nhiêu? (làm tròn kết quả đến chữ số thập phân thứ nhất)",
-    "explanation": "a) Thể tích hộp phô mai là: $V={{S}_{d\\acute{a}y}}.h={{\\left( 12,2:2 \\right)}^{2}}\\pi =37,21\\pi (c{{m}^{3}})$\nThể tích của một miếng phô mai là: 37,21:8 14,6 cm3.",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "Bán kính đáy: $12,2:2=$ {{1}} (cm)",
-      "Thể tích hộp: $V=\\pi \\cdot {{2}}^2 \\cdot 2,4=$ {{3}} (cm$^3$)",
-      "Thể tích một miếng: ${{3}}:8\\approx$ {{4}} (cm$^3$)"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "6.1"
-      },
-      {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "6.1"
-      },
-      {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "280.6|280.4|280.5"
-      },
-      {
-       "id": "4",
-       "loai": "so",
-       "dap_an": "35.1"
-      }
-     ]
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Người ta gói từng miếng phô mai bằng một loại giấy đặc biệt. Giả sử phần giấy gói vừa khít miếng phô mai. Hãy tính diện tích phần giấy gói mỗi miếng phô mai. (Làm tròn kết quả đến hàng đơn vị)",
-    "explanation": "b) Diện tích giấy gói mặt trên và dưới của miếng phô mai:$2{{S}_{quat}}=2.\\frac{\\pi {{R}^{2}}n}{360}=2.\\frac{\\pi {{\\left( 12,2:2 \\right)}^{2}}(360:8)}{360}=\\frac{3721}{400}\\pi $(cm2)\nDiện tích giấy gói hai mặt bên của miếng pho mai: $2{{S}_{1}}=2\\left( 12,2:2 \\right).2,4=29,28\\,\\,(c{{m}^{2}})$\nDiện tích giấy gói mặt trước của miếng phô mai: ${{S}_{2}}=\\frac{12,2\\pi }{8}\\cdot 2,4=3,66\\pi \\,(c{{m}^{2}})$\nDiện tích giấy gói miếng phô mai là:$\\frac{3721}{400}\\pi +29,28+3,66\\pi \\approx 70\\,(c{{m}^{2}})$",
-    "points": 0.5,
-    "type": "short_answer",
-    "shortCorrect": "70"
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) V hộp = π·6,1²·2,4 ≈ 280,6 cm³ (π=3,14: 280,4) ⇒ 1 miếng ≈ 35,1 cm³. Key 89,3 (=37,21·2,4, thiếu π) và 14,6 (=37,21π:8, thiếu chiều cao) sai. (b) 70 vẫn đúng (2·29,22/2… tổng ≈70,0). NONKEY: lời giải (a) sai"
- },
- "de1.P1.C8": {
-  "question": "Cho hình nón có bán kính đáy $r = 2 cm$, độ dài đường sinh $l = 5 cm.$ Tính diện tích xung quanh S_{xq} của hình nón đó?",
-  "explanation": "Công thức tính diện tích xung quanh của hình nón là $S_{xq} = \\pi rl$. Thay số vào công thức ta có: $S_{xq} = \\pi \\cdot 2 \\cdot 5 = 10\\pi \\, (cm^2).$",
-  "xac_nhan": true,
-  "sua_boi": "thay",
-  "ly_do": "",
-  "options": [
-   "$10\\pi \\, cm^2$",
-   "$20\\pi \\, cm^2$",
-   "$14\\pi \\, cm^2$",
-   "$7\\pi \\, cm^2$"
-  ],
-  "answer": "A"
- }
+    ],
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) V hộp = π·6,1²·2,4 ≈ 280,6 cm³ (π=3,14: 280,4) ⇒ 1 miếng ≈ 35,1 cm³. Key 89,3 (=37,21·2,4, thiếu π) và 14,6 (=37,21π:8, thiếu chiều cao) sai. (b) 70 vẫn đúng (2·29,22/2… tổng ≈70,0). NONKEY: lời giải (a) sai"
+  },
+  "de1.P1.C8": {
+    "question": "Cho hình nón có bán kính đáy $r = 2 cm$, độ dài đường sinh $l = 5 cm.$ Tính diện tích xung quanh S_{xq} của hình nón đó?",
+    "explanation": "Công thức tính diện tích xung quanh của hình nón là $S_{xq} = \\pi rl$. Thay số vào công thức ta có: $S_{xq} = \\pi \\cdot 2 \\cdot 5 = 10\\pi \\, (cm^2).$",
+    "xac_nhan": true,
+    "sua_boi": "thay",
+    "ly_do": "",
+    "options": [
+      "$10\\pi \\, cm^2$",
+      "$20\\pi \\, cm^2$",
+      "$14\\pi \\, cm^2$",
+      "$7\\pi \\, cm^2$"
+    ],
+    "answer": "A"
+  },
+  "de1.P4.C1": {
+    "ghi_chu": "Phần b: đề yêu cầu tìm điểm trên (P) y = -1/2 x^2 có tung độ bằng 4, nhưng -(1/2)x^2 = 4 tương đương x^2 = -8, vô nghiệm, nên theo đúng đề đã in thì không có điểm nào. Mẫu điền và lời giải hiện tại đều làm theo tung độ -4 (cho ra hai điểm (2 căn 2; -4) và (-2 căn 2; -4)): nhiều khả năng đề gốc là tung độ bằng -4, bị mất dấu trừ. Nhờ thầy đối chiếu bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C6": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C5": {
+    "ghi_chu": "Phan c: cac o dien 1-10 deu dung va ket luan SE vuong goc HD dung, nhung dong in san o buoc cuoi \"HD // EL (vi EL // AD)\" sai hinh hoc vi L nam tren HD (hai duong cat nhau tai L). Lap luan dung: duong thang qua dinh L va truc tam H cua tam giac ESL la duong cao nen LH vuong goc SE, ma L thuoc HD nen HD vuong goc SE. Can sua dong in san trong khung chung minh.",
+    "sua_boi": "muse"
+  }
 }

@@ -1,26 +1,55 @@
 {
- "de1.P4.C1": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Thực hiện phép tính: $25 + 12.5$",
-    "explanation": "$25 + 12.5 = 25 + 60 = 85$",
-    "points": 0.5,
-    "type": "short_answer",
-    "shortCorrect": "85"
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Thực hiện phép tính: $107 - \\{38 + [7.32 - 24 : 6 + (15 - 7)]\\} : 15$",
-    "explanation": "$107 - \\{38 + [7.9 - 4 + 8]\\} : 15$\n$= 107 - \\{38 + [63 - 4 + 8]\\} : 15$\n$= 107 - \\{38 + [59 + 8]\\} : 15$\n$= 107 - \\{38 + 67\\} : 15$\n$= 107 - 105 : 15$\n$= 107 - 7 = 100$",
-    "points": 1.5,
-    "type": "short_answer",
-    "shortCorrect": "100"
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) 107 − {38 + [7·3² − 24:6 + (15 − 7)]}:15 = 107 − {38 + 67}:15 = 107 − 7 = 100 (chính lời giải ra 100). Key 86 sai. NONKEY: đề mất chỉ số trên (7.32 = 7·3²). (a) 85 khớp."
- }
+  "de1.P4.C1": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Thực hiện phép tính: $25 + 12.5$",
+        "explanation": "$25 + 12.5 = 25 + 60 = 85$",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "85"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Thực hiện phép tính: $107 - \\{38 + [7.32 - 24 : 6 + (15 - 7)]\\} : 15$",
+        "explanation": "$107 - \\{38 + [7.9 - 4 + 8]\\} : 15$\n$= 107 - \\{38 + [63 - 4 + 8]\\} : 15$\n$= 107 - \\{38 + [59 + 8]\\} : 15$\n$= 107 - \\{38 + 67\\} : 15$\n$= 107 - 105 : 15$\n$= 107 - 7 = 100$",
+        "points": 1.5,
+        "type": "short_answer",
+        "shortCorrect": "100"
+      }
+    ],
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) 107 − {38 + [7·3² − 24:6 + (15 − 7)]}:15 = 107 − {38 + 67}:15 = 107 − 7 = 100 (chính lời giải ra 100). Key 86 sai. NONKEY: đề mất chỉ số trên (7.32 = 7·3²). (a) 85 khớp."
+  },
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Tính chu vi.",
+        "explanation": "Ta có: $CD = AB - EF = 20 - 10 = 10\\ (cm)$; $AF = BC + DE = 10 + 15 = 25\\ (cm)$.\nChu vi của hình là: $20 + 10 + 10 + 15 + 10 + 25 = 90\\ (cm)$",
+        "points": 1,
+        "type": "short_answer",
+        "shortCorrect": "90"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Tính diện tích.",
+        "explanation": "Diện tích của hình là:\n$20 \\cdot 10 + 15 \\cdot 10 = 350\\ (cm^2)$",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "350"
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phần a: hình L ABCDEF có AB = 20, BC = 10, DE = 15, EF = 10 nên CD = AB - EF = 10 cm và AF = BC + DE = 25 cm; chu vi = 90 cm. Lời giải cũ bỏ sót cạnh CD nên ra 80 cm. Phần b giữ nguyên (diện tích 350 cm^2 đúng).",
+    "xac_nhan": true
+  },
+  "de1.P1.C1": {
+    "ghi_chu": "Cau chu ghi dong thoi hai tap A khac nhau: A = {2;4;6;8;10} va A = {1;2;3;6;8}. Voi tap thu nhat chi B dung (kho chon B, khop); voi tap thu hai ca B va C cung dung. Can de goc xac dinh tap A dung va bo mot dinh nghia.",
+    "sua_boi": "muse"
+  }
 }

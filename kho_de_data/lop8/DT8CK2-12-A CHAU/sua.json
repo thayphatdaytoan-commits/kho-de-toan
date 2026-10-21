@@ -1,62 +1,156 @@
 {
- "de1.P4.C1": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "$(2x-5y)(3{{x}^{2}}-2xy+7y)$",
-    "explanation": "$(2x-5y)(3{{x}^{2}}-2xy+7y)$\n$=6{{x}^{3}}-4{{x}^{2}}y+14xy-15{{x}^{2}}y+10x{{y}^{2}}-35{{y}^{2}}$\n$=6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$",
-    "points": 0.75,
-    "type": "multiple_choice",
-    "options": [
-     "$6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}+35{{y}^{2}}$",
-     "$6{{x}^{3}}-19{{x}^{2}}y+14xy-10x{{y}^{2}}-35{{y}^{2}}$",
-     "$6{{x}^{3}}+19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$",
-     "$6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$"
+  "de1.P4.C1": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "$(2x-5y)(3{{x}^{2}}-2xy+7y)$",
+        "explanation": "$(2x-5y)(3{{x}^{2}}-2xy+7y)$\n$=6{{x}^{3}}-4{{x}^{2}}y+14xy-15{{x}^{2}}y+10x{{y}^{2}}-35{{y}^{2}}$\n$=6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$",
+        "points": 0.75,
+        "type": "multiple_choice",
+        "options": [
+          "$6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}+35{{y}^{2}}$",
+          "$6{{x}^{3}}-19{{x}^{2}}y+14xy-10x{{y}^{2}}-35{{y}^{2}}$",
+          "$6{{x}^{3}}+19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$",
+          "$6{{x}^{3}}-19{{x}^{2}}y+14xy+10x{{y}^{2}}-35{{y}^{2}}$"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "${{(3x+4)}^{2}}-(x-8)(9x+3)$",
+        "explanation": "${{(3x+4)}^{2}}-(x-8)(9x+3)$\n$=9{{x}^{2}}+24x+16-9{{x}^{2}}-3x+72x+24$\n$=93x+40$",
+        "points": 0.75,
+        "type": "multiple_choice",
+        "options": [
+          "$93x-40$",
+          "$9x+40$",
+          "$93x+40$",
+          "$93x+16$"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "$\\frac{2{{x}^{2}}-xy}{x-y}+\\frac{xy+{{y}^{2}}}{y-x}+\\frac{2{{y}^{2}}-{{x}^{2}}}{x-y}$",
+        "explanation": "$\\frac{2{{x}^{2}}-xy}{x-y}+\\frac{xy+{{y}^{2}}}{y-x}+\\frac{2{{y}^{2}}-{{x}^{2}}}{x-y}$\n$=\\frac{2{{x}^{2}}-xy-xy-{{y}^{2}}+2{{y}^{2}}-{{x}^{2}}}{x-y}$\n$=\\frac{{{x}^{2}}-2xy+{{y}^{2}}}{x-y}$\n$=\\frac{{{(x-y)}^{2}}}{x-y}$\n$=x-y$",
+        "points": 0.5,
+        "type": "multiple_choice",
+        "options": [
+          "$x+y$",
+          "$x-y$",
+          "$y-x$",
+          "$x-y+1$"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "question": "$\\frac{1}{2x-5}+\\frac{1}{2x+5}+\\frac{6x-25}{4{{x}^{2}}-25}$",
+        "explanation": "$\\frac{1}{2x-5}+\\frac{1}{2x+5}+\\frac{6x-25}{4{{x}^{2}}-25}$\n$=\\frac{2x+5+2x-5+6x-25}{(2x-5)(2x+5)}=...=5$",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "5/(2x+5)"
+      }
     ],
-    "correctAnswer": 3
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "${{(3x+4)}^{2}}-(x-8)(9x+3)$",
-    "explanation": "${{(3x+4)}^{2}}-(x-8)(9x+3)$\n$=9{{x}^{2}}+24x+16-9{{x}^{2}}-3x+72x+24$\n$=93x+40$",
-    "points": 0.75,
-    "type": "multiple_choice",
-    "options": [
-     "$93x-40$",
-     "$9x+40$",
-     "$93x+40$",
-     "$93x+16$"
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (d) Giống DT8CK1-13-A CHAU: kết quả 5/(2x+5); key '5' sai."
+  },
+  "de1.P4.C2": {
+    "ghi_chu": "Phần b: lỗi trùng với đề DT8CK1-13-A CHAU (đề CK2 lưu trùng CK1): với đa thức đã in 4y^2 + 9 + 12xy - 9x^2, cả 4 phương án đều không phải phân tích đúng; nghi bản đề gốc thiếu dấu trừ trước 4y^2. Phần a đã kiểm và đúng. Nhờ thầy đối chiếu bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C4": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Hãy chuyển đổi dữ liệu từ biểu đồ sang dạng bảng thống kê.",
+        "explanation": "Bảng thống kê:\nNăm | Giá trị xuất khẩu gạo (tỉ USD)\n2016 | 2,16\n2017 | 2,63\n2018 | 3,06\n2019 | 2,81\n2020 | 3,12\n2021 | 3,29\n2022 | 4",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "Năm 2016: {{1}} tỉ USD; Năm 2017: {{2}} tỉ USD; Năm 2018: {{3}} tỉ USD; Năm 2019: {{4}} tỉ USD; Năm 2020: {{5}} tỉ USD; Năm 2021: {{6}} tỉ USD; Năm 2022: {{7}} tỉ USD"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "2,16"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "2,63"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "3,06"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "2,81"
+            },
+            {
+              "id": "5",
+              "loai": "so",
+              "dap_an": "3,12"
+            },
+            {
+              "id": "6",
+              "loai": "so",
+              "dap_an": "3,29"
+            },
+            {
+              "id": "7",
+              "loai": "so",
+              "dap_an": "4"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Phân tích biểu đồ thống kê trên để tìm ra năm xuất khẩu gạo ít nhất và năm xuất khẩu gạo nhiều nhất?",
+        "explanation": "Năm xuất khẩu gạo thấp nhất là năm 2016 với 2,16 tỉ USD\nNăm xuất khẩu gạo cao nhất là năm 2022 với 4 tỉ USD.",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "Năm xuất khẩu gạo ít nhất: {{1}}; Năm xuất khẩu gạo nhiều nhất: {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "2016"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "2022"
+            }
+          ]
+        }
+      }
     ],
-    "correctAnswer": 2
-   },
-   {
-    "id": "c",
-    "label": "c",
-    "question": "$\\frac{2{{x}^{2}}-xy}{x-y}+\\frac{xy+{{y}^{2}}}{y-x}+\\frac{2{{y}^{2}}-{{x}^{2}}}{x-y}$",
-    "explanation": "$\\frac{2{{x}^{2}}-xy}{x-y}+\\frac{xy+{{y}^{2}}}{y-x}+\\frac{2{{y}^{2}}-{{x}^{2}}}{x-y}$\n$=\\frac{2{{x}^{2}}-xy-xy-{{y}^{2}}+2{{y}^{2}}-{{x}^{2}}}{x-y}$\n$=\\frac{{{x}^{2}}-2xy+{{y}^{2}}}{x-y}$\n$=\\frac{{{(x-y)}^{2}}}{x-y}$\n$=x-y$",
-    "points": 0.5,
-    "type": "multiple_choice",
-    "options": [
-     "$x+y$",
-     "$x-y$",
-     "$y-x$",
-     "$x-y+1$"
-    ],
-    "correctAnswer": 1
-   },
-   {
-    "id": "d",
-    "label": "d",
-    "question": "$\\frac{1}{2x-5}+\\frac{1}{2x+5}+\\frac{6x-25}{4{{x}^{2}}-25}$",
-    "explanation": "$\\frac{1}{2x-5}+\\frac{1}{2x+5}+\\frac{6x-25}{4{{x}^{2}}-25}$\n$=\\frac{2x+5+2x-5+6x-25}{(2x-5)(2x+5)}=...=5$",
-    "points": 0.5,
-    "type": "short_answer",
-    "shortCorrect": "5/(2x+5)"
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (d) Giống DT8CK1-13-A CHAU: kết quả 5/(2x+5); key '5' sai."
- }
+    "sua_boi": "muse",
+    "ly_do": "Phan a o so 4: bieu do ghi gia tri xuat khau gao nam 2019 la 2,81 ti USD; kho ghi 2,18 (dao chu so). Phan b da kiem chung dung.",
+    "xac_nhan": true
+  }
 }

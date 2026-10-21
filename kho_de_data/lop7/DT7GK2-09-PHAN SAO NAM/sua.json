@@ -1,0 +1,72 @@
+{
+  "de1.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Trong biểu đồ trên, có mấy loại trái cây cửa hàng A nhập về.",
+        "explanation": "Có 4 loại trái cây cửa hàng A nhập về",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "4"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Loại trái cây nào nhập về nhiều nhất, loại nào ít nhất, chiếm bao nhiêu phần trăm.",
+        "explanation": "Loại trái cây nhập về nhiều nhất là Cam, chiếm tỉ lệ 50%. Loại trái cây nhập về ít nhất là Mít, chiếm tỉ lệ 5%",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "Loại nhập về nhiều nhất là {{1}}, chiếm {{2}}%; loại nhập về ít nhất là {{3}}, chiếm {{4}}%"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "chu",
+              "dap_an": "Cam"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "50"
+            },
+            {
+              "id": "3",
+              "loai": "chu",
+              "dap_an": "Mít"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "5"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Nếu tổng các loại trái cây là 200kg thì Cam chiếm bao nhiêu kg?",
+        "explanation": "Nếu tổng các loại trái cây là 200kg thì Cam chiếm: $50\\%.200=100$(kg)",
+        "points": 1,
+        "type": "short_answer",
+        "shortCorrect": "100"
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Bieu do tron image5.png chi co 4 loai trai cay (Cam, Xoai, Buoi, Mit); phan a cua kho ghi 5 loai. Phan b (Cam 50%, Mit 5%) va phan c (Cam = 100 kg) khop bieu do.",
+    "xac_nhan": true
+  },
+  "de1.P4.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
+}
