@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kho đề Toán — xem đề trực tuyến</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:'Segoe UI',Arial,sans-serif;background:#f4f6fb;color:#1c2733}
+header.top{background:#12406e;color:#fff;padding:14px 20px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+header.top h1{font-size:20px;margin:0;font-weight:600}
+header.top .sub{opacity:.85;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.chip{border:1px solid #b9c8dc;background:#fff;color:#12406e;padding:6px 14px;border-radius:20px;cursor:pointer;font-size:14px}
+.chip.on{background:#12406e;color:#fff}
+input.search{flex:1;min-width:180px;padding:8px 12px;border:1px solid #b9c8dc;border-radius:8px;font-size:14px}
+h2.grade{margin:22px 0 8px;color:#12406e;font-size:18px}
+.card{background:#fff;border:1px solid #dde5f0;border-radius:10px;padding:12px 14px;margin:8px 0;cursor:pointer}
+.card:hover{border-color:#12406e;box-shadow:0 2px 8px rgba(18,64,110,.12)}
+.card .t{font-weight:600}
+.card .m{color:#5a6b80;font-size:13px;margin-top:2px}
+.tag{display:inline-block;background:#e8eff8;color:#12406e;border-radius:4px;padding:1px 7px;font-size:12px;margin-right:5px}
+.exam{background:#fff;border:1px solid #dde5f0;border-radius:10px;padding:22px 26px}
+.exam h2{margin:0 0 4px;font-size:20px;color:#12406e}
+.exam .meta{color:#5a6b80;font-size:13px;margin-bottom:14px}
+.sec{margin-top:20px}
+.sec h3{background:#eef3fa;border-left:4px solid #12406e;padding:7px 12px;font-size:16px;margin:0 0 10px}
+.q{padding:10px 4px;border-bottom:1px dashed #e1e8f2}
+.q .qh{font-weight:600;margin-bottom:4px}
+.q .qh .pts{color:#8a97a8;font-weight:400;font-size:12px}
+.badge{display:inline-block;background:#fdf0e2;color:#9a6206;border:1px solid #f0d9ae;border-radius:4px;font-size:11px;padding:0 5px;margin-left:6px;vertical-align:1px}
+.tfrow{padding:3px 0}
+.tfbadge{display:none;border-radius:4px;padding:0 7px;font-size:12px;font-weight:700;margin-left:6px}
+body.show-ans .tfbadge{display:inline-block}
+.tfbadge.dung{background:#e2f4e3;color:#22702c;border:1px solid #57a05e}
+.tfbadge.sai{background:#fdeaea;color:#aa3333;border:1px solid #dd9999}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;margin:6px 0 2px 14px}
+.opt{padding:3px 8px;border-radius:6px}
+body.show-ans .opt.correct{background:#e2f4e3;outline:1px solid #57a05e;font-weight:600}
+.ans{display:none;background:#f2f9f2;border:1px solid #cfe6cf;border-radius:8px;padding:8px 12px;margin:8px 0 2px;font-size:14.5px;white-space:pre-wrap}
+body.show-ans .ans{display:block}
+.ans .lb{font-weight:700;color:#22702c}
+.blank{display:inline-block;min-width:56px;border-bottom:2px dotted #12406e;text-align:center;color:#b00;font-weight:600;padding:0 4px}
+.blank .v{display:none}
+body.show-ans .blank .v{display:inline}
+body.show-ans .blank .h{display:none}
+img.qimg{max-width:520px;max-height:340px;display:block;margin:8px auto;border:1px solid #e1e8f2;border-radius:6px}
+.part{margin:6px 0 6px 14px}
+button.act{background:#12406e;color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer;font-size:14px}
+button.ghost{background:#fff;color:#12406e;border:1px solid #12406e}
+.small{font-size:13px;color:#5a6b80}
+@media print{ header.top,.bar,.noprint{display:none!important} .exam{border:0} body{background:#fff} }
+</style></head>
+<body>
+<header class="top"><h1>Kho đề Toán</h1><span class="sub">Xem đề, đáp án và lời giải — dữ liệu từ repo GitHub kho-de-toan</span></header>
+<div class="wrap"><div id="view"><p class="small">Đang tải…</p></div></div>
+
+<script>
+const SECNAME = s => s===1?'Trắc nghiệm':(s===2?'Đúng – Sai':(s===3?'Trả lời ngắn':'Tự luận'));
+const ETYPE = {midterm:'Giữa kì', final:'Cuối kì', lesson:'Theo bài học', entrance_univ:'Đề thi thử'};
+let CATALOG=[], EXAMS={}, IMGMAP={}, EMBED=false;
+let fGrade=0, fType='', fSearch='';
+const $=s=>document.querySelector(s);
+
+function esc(t){return (t??'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fixmath(t){
+  // dữ liệu kho lưu LaTeX với backslash gấp đôi trong $...$ -> thu về 1 backslash cho KaTeX
+  return t.replace(/\$([^$]+)\$/g,(m,g)=>'$'+g.replace(/\\\\/g,'\\')+'$');
+}
+function imgURL(exam, name){
+  name = name.split('#')[0].trim();
+  const variants = [name, name.replace(/\.(emf|wmf)$/i,'.png'), name.replace(/\.(emf|wmf)$/i,'.jpg'), name.replace(/\.(emf|wmf)$/i,'.svg')];
+  if(EMBED){
+    const m = IMGMAP[exam.path]||{};
+    for(const v of variants){ if(m[v]) return m[v]; }
+    return null;
+  }
+  return exam.imgbase + name;
+}
+function rich(exam, t){
+  if(t==null) return '';
+  t = fixmath(t.toString());
+  t = esc(t);
+  t = t.replace(/\[\[IMG:([^\]]+)\]\]/g,(m,n)=>{
+    const u = imgURL(exam,n);
+    return u? `<img class="qimg" src="${u}" alt="">` : ' <i>[hình minh họa]</i> ';
+  });
+  t = t.replace(/\n/g,'<br>');
+  return t;
+}
+function blanks(exam, line, answers){
+  // answers: {id: dap_an}
+  let t = rich(exam, line);
+  t = t.replace(/\{\{(\w+)\}\}/g,(m,id)=>{
+    const a = answers[id] ?? '';
+    return `<span class="blank"><span class="h">…</span><span class="v">${esc(a)}</span></span>`;
+  });
+  return t;
+}
+function mauAnswers(spec){
+  const o={}; (spec?.o||[]).forEach(x=>o[x.id]=x.dap_an); return o;
+}
+function expl(exam, q, label){
+  const e = q.explanation;
+  if(!e) return '';
+  return `<div class="ans"><span class="lb">${label||'Lời giải'}:</span> ${rich(exam,e)}</div>`;
+}
+function renderQ(exam, q){
+  const pts = q.points? ` <span class="pts">(${q.points} điểm)</span>`:'';
+  const bd = q.muc_do? `<span class="badge">${esc(q.muc_do)}</span>`:'';
+  let h = `<div class="q"><div class="qh">Câu ${q.n}${bd}${pts}</div>`;
+  const T = q.type;
+  if(T==='multiple_choice'){
+    h += `<div>${rich(exam,q.question)}</div>`;
+    const letters=['A','B','C','D','E','F'];
+    h += '<div class="opts">' + (q.options||[]).map((o,i)=>
+      `<div class="opt${q.answer===letters[i]?' correct':''}"><b>${letters[i]}.</b> ${rich(exam,o)}</div>`).join('') + '</div>';
+    if(q.answer) h += `<div class="ans"><span class="lb">Đáp án:</span> ${esc(q.answer)}</div>`;
+    h += expl(exam,q);
+  } else if(T==='fill_blanks'){
+    h += `<div>${rich(exam,q.question)}</div>`;
+    const ans={}; (q.blanks||[]).forEach(b=>ans[b.id]=b.correctAnswer);
+    h += `<div style="margin-top:6px">${blanks(exam,q.passage||'',ans)}</div>`;
+    h += expl(exam,q);
+  } else if(T==='form_mau' && q.mau_spec){
+    if(q.question) h += `<div>${rich(exam,q.question)}</div>`;
+    const ans = mauAnswers(q.mau_spec);
+    h += (q.mau_spec.dong||[]).map(d=>`<div>${blanks(exam,d,ans)}</div>`).join('');
+    if(q.mau_luyen?.dong) h += `<div class="ans"><span class="lb">Lời giải mẫu:</span><br>${q.mau_luyen.dong.map(d=>rich(exam,d)).join('<br>')}</div>`;
+    h += expl(exam,q);
+  } else if(T==='multi_part'){
+    if(q.question && q.question.trim() && !/^Bài \d+\.?$/.test(q.question.trim())) h += `<div>${rich(exam,q.question)}</div>`;
+    (q.parts||[]).forEach(p=>{
+      h += `<div class="part"><b>${esc(p.label||p.id)})</b> ${rich(exam,p.question||'')}`;
+      if(p.mau_spec?.dong){
+        const ans = mauAnswers(p.mau_spec);
+        h += p.mau_spec.dong.map(d=>`<div>${blanks(exam,d,ans)}</div>`).join('');
+      }
+      if(p.explanation) h += `<div class="ans"><span class="lb">Lời giải:</span> ${rich(exam,p.explanation)}</div>`;
+      h += '</div>';
+    });
+    h += expl(exam,q);
+  } else if(T==='true_false_group'){
+    h += `<div>${rich(exam,q.question)}</div>`;
+    const tf = q.tf||{}, ta = q.tf_ans||{};
+    h += '<div style="margin:4px 0 2px 14px">' + Object.keys(tf).sort().map(k=>
+      `<div class="tfrow"><b>${k})</b> ${rich(exam,tf[k])}<span class="tfbadge ${ta[k]?'dung':'sai'}">${ta[k]?'Đúng':'Sai'}</span></div>`).join('') + '</div>';
+    h += expl(exam,q);
+  } else if(T==='proof_frame'){
+    h += `<div>${rich(exam,q.question)}</div>`;
+    if(q.cum?.length) h += `<div class="ans"><span class="lb">Khung lời giải:</span><br>${q.cum.map(s=>rich(exam,s)).join('<br>')}</div>`;
+    h += expl(exam,q);
+  } else { // short_answer, essay, draw, khác
+    h += `<div>${rich(exam,q.question)}</div>`;
+    if(q.answer) h += `<div class="ans"><span class="lb">Đáp số:</span> ${rich(exam,q.answer)}</div>`;
+    h += expl(exam,q);
+  }
+  return h + '</div>';
+}
+function renderExam(exam, data){
+  const qs = [...(data.questions||[])].sort((a,b)=>(a.section-b.section)||(a.n-b.n));
+  const secs = [...new Set(qs.map(q=>q.section))].sort((a,b)=>a-b);
+  let h = `<div class="noprint" style="margin-bottom:12px"><button class="act ghost" onclick="goHome()">← Danh sách đề</button>
+    <button class="act" onclick="document.body.classList.toggle('show-ans')">Hiện / ẩn đáp án & lời giải</button>
+    <button class="act ghost" onclick="window.print()">In đề</button></div>`;
+  h += `<div class="exam"><h2>${esc(data.meta?.title||exam.folder)}</h2>
+    <div class="meta">Lớp ${exam.grade} · ${ETYPE[exam.exam_type]?ETYPE[exam.exam_type]+' · ':''}${qs.length} câu · Mã đề: ${esc(exam.folder)}</div>`;
+  for(const s of secs){
+    h += `<div class="sec"><h3>Phần ${s} · ${SECNAME(s)}</h3>` + qs.filter(q=>q.section===s).map(q=>renderQ(exam,q)).join('') + '</div>';
+  }
+  h += '</div>';
+  $('#view').innerHTML = h;
+  if(window.renderMathInElement) renderMathInElement($('#view'),{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});
+  window.scrollTo(0,0);
+}
+async function openExam(path){
+  const exam = CATALOG.find(e=>e.path===path);
+  if(EMBED){ renderExam(exam, EXAMS[path]); return; }
+  $('#view').innerHTML = '<p class="small">Đang tải đề…</p>';
+  const r = await fetch(path); const data = await r.json();
+  renderExam(exam, data);
+}
+function goHome(){ document.body.classList.remove('show-ans'); renderList(); }
+function renderList(){
+  const hadFocus = document.activeElement && document.activeElement.classList.contains('search');
+  const list = CATALOG.filter(e=>(!fGrade||e.grade===fGrade)&&(!fType||e.exam_type===fType)&&(!fSearch||(e.title+e.folder).toLowerCase().includes(fSearch)));
+  let h = `<div class="bar">
+    ${[0,6,7,8,9,10,11,12].map(g=>`<button class="chip${fGrade===g?' on':''}" onclick="fGrade=${g};renderList()">${g===0?'Tất cả các lớp':'Lớp '+g}</button>`).join('')}
+    <button class="chip${fType===''?' on':''}" onclick="fType='';renderList()">Cả hai kì</button>
+    <button class="chip${fType==='midterm'?' on':''}" onclick="fType='midterm';renderList()">Giữa kì</button>
+    <button class="chip${fType==='final'?' on':''}" onclick="fType='final';renderList()">Cuối kì</button>
+    <button class="chip${fType==='lesson'?' on':''}" onclick="fType='lesson';renderList()">Theo bài học</button>
+    <button class="chip${fType==='entrance_univ'?' on':''}" onclick="fType='entrance_univ';renderList()">Đề thi thử</button>
+    <input class="search" placeholder="Tìm theo tên đề, trường…" value="${esc(fSearch)}" oninput="fSearch=this.value.toLowerCase();renderList()">
+  </div>`;
+  const grades = [...new Set(list.map(e=>e.grade))].sort((a,b)=>a-b);
+  if(!list.length) h += '<p class="small">Không có đề nào khớp bộ lọc.</p>';
+  for(const g of grades){
+    h += `<h2 class="grade">Lớp ${g}</h2>` + list.filter(e=>e.grade===g).map(e=>
+      `<div class="card" onclick="openExam('${e.path.replace(/'/g,"\\'")}')"><div class="t">${esc(e.title)}</div>
+       <div class="m">${ETYPE[e.exam_type]?'<span class="tag">'+ETYPE[e.exam_type]+'</span>':''}<span class="tag">${e.nq} câu</span> ${esc(e.folder)}</div></div>`).join('');
+  }
+  $('#view').innerHTML = h;
+  if(hadFocus){ const inp = document.querySelector('input.search'); if(inp){ inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); } }
+}
+async function init(){
+  if(window.EMBEDDED){ EMBED=true; CATALOG=window.EMBEDDED.catalog; EXAMS=window.EMBEDDED.exams; IMGMAP=window.EMBEDDED.images; }
+  else { const r = await fetch('catalog.json'); CATALOG = await r.json(); }
+  renderList();
+}
+init();
+</script>
+</body></html>
