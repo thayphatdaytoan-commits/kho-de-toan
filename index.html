@@ -70,11 +70,15 @@ const $=s=>document.querySelector(s);
 
 function esc(t){return (t??'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fixmath(t){
-  // dữ liệu kho lưu LaTeX với backslash gấp đôi trong $...$ -> thu về 1 backslash cho KaTeX
-  return t.replace(/\$([^$]+)\$/g,(m,g)=>'$'+g.replace(/\\\\/g,'\\')+'$');
+  // LaTeX trong kho đã đúng: «\\» là XUỐNG DÒNG của cases/aligned/array (≈16.600 chỗ) — không được rút thành «\»
+  return t;
 }
+let ANH = {}; // đường dẫn đề → anh.json của bài: tên ảnh (kể cả vùng cắt «ảnh.emf#x,y,w,h») → file ảnh, ảnh cắt sẵn
 function imgURL(exam, name){
-  name = name.split('#')[0].trim();
+  name = name.trim();
+  const m = ANH[exam.path], goc = name.split('#')[0].trim();
+  if(!EMBED && m && (m[name] || m[goc])) return exam.imgbase.replace(/images\/$/, '') + (m[name] || m[goc]);
+  name = goc;
   const variants = [name, name.replace(/\.(emf|wmf)$/i,'.png'), name.replace(/\.(emf|wmf)$/i,'.jpg'), name.replace(/\.(emf|wmf)$/i,'.svg')];
   if(EMBED){
     const m = IMGMAP[exam.path]||{};
@@ -199,13 +203,15 @@ function renderQ(exam, q){
   return h + '</div>';
 }
 function renderExam(exam, data){
-  const qs = [...(data.questions||[])].sort((a,b)=>(a.section-b.section)||(a.n-b.n));
+  const tatCa = data.questions||[];
+  const qs = tatCa.filter(q=>!q.bo_cau).sort((a,b)=>(a.section-b.section)||(a.n-b.n)); // câu thầy đã «Bỏ câu» thì không hiện
+  const daBo = tatCa.length - qs.length;
   const secs = [...new Set(qs.map(q=>q.section))].sort((a,b)=>a-b);
   let h = `<div class="noprint" style="margin-bottom:12px"><button class="act ghost" onclick="goHome()">← Danh sách đề</button>
     <button class="act" onclick="document.body.classList.toggle('show-ans')">Hiện / ẩn đáp án & lời giải</button>
     <button class="act ghost" onclick="window.print()">In đề</button></div>`;
   h += `<div class="exam"><h2>${esc(data.meta?.title||exam.folder)}</h2>
-    <div class="meta">Lớp ${exam.grade} · ${ETYPE[exam.exam_type]?ETYPE[exam.exam_type]+' · ':''}${qs.length} câu · Mã đề: ${esc(exam.folder)}</div>`;
+    <div class="meta">Lớp ${exam.grade} · ${ETYPE[exam.exam_type]?ETYPE[exam.exam_type]+' · ':''}${qs.length} câu${daBo?` (đã ẩn ${daBo} câu thầy bỏ)`:''} · Mã đề: ${esc(exam.folder)}${exam.soan_boi?` · AI soạn: ${esc(exam.soan_boi)}`:''}</div>`;
   for(const s of secs){
     h += `<div class="sec"><h3>Phần ${s} · ${SECNAME(s)}</h3>` + qs.filter(q=>q.section===s).map(q=>renderQ(exam,q)).join('') + '</div>';
   }
@@ -219,6 +225,7 @@ async function openExam(path){
   if(EMBED){ renderExam(exam, EXAMS[path]); return; }
   $('#view').innerHTML = '<p class="small">Đang tải đề…</p>';
   const r = await fetch(path); const data = await r.json();
+  if(!(path in ANH)){ try{ const a = await fetch(path.replace(/[^/]+$/, 'anh.json')); ANH[path] = a.ok ? await a.json() : null; }catch(e){ ANH[path] = null; } }
   renderExam(exam, data);
 }
 function goHome(){ document.body.classList.remove('show-ans'); renderList(); }
@@ -239,7 +246,7 @@ function renderList(){
   for(const g of grades){
     h += `<h2 class="grade">Lớp ${g}</h2>` + list.filter(e=>e.grade===g).map(e=>
       `<div class="card" onclick="openExam('${e.path.replace(/'/g,"\\'")}')"><div class="t">${esc(e.title)}</div>
-       <div class="m">${ETYPE[e.exam_type]?'<span class="tag">'+ETYPE[e.exam_type]+'</span>':''}<span class="tag">${e.nq} câu</span> ${esc(e.folder)}</div></div>`).join('');
+       <div class="m">${ETYPE[e.exam_type]?'<span class="tag">'+ETYPE[e.exam_type]+'</span>':''}<span class="tag">${e.nq} câu</span>${e.soan_boi?`<span class="tag">AI soạn: ${esc(e.soan_boi)}</span>`:''}${e.co?`<span class="tag" style="background:#fdeaea;color:#aa3333">⚑ ${e.co} câu chờ duyệt</span>`:''} ${esc(e.folder)}</div></div>`).join('');
   }
   $('#view').innerHTML = h;
   if(hadFocus){ const inp = document.querySelector('input.search'); if(inp){ inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); } }
@@ -247,6 +254,11 @@ function renderList(){
 async function init(){
   if(window.EMBEDDED){ EMBED=true; CATALOG=window.EMBEDDED.catalog; EXAMS=window.EMBEDDED.exams; IMGMAP=window.EMBEDDED.images; }
   else { const r = await fetch('catalog.json'); CATALOG = await r.json(); }
+  CATALOG.forEach(e=>{ e.grade = +e.grade; }); // lọc «Lớp k» so sánh số
+  try{ // catalog.json + cap_nhat.json do máy thầy tự sinh mỗi lần đẩy kho
+    const c = await (await fetch('cap_nhat.json', {cache:'no-store'})).json();
+    $('header.top .sub').textContent = `Cập nhật ${new Date(c.luc).toLocaleString('vi-VN',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit',year:'numeric'})} · ${c.so_de} đề · ${c.so_cau.toLocaleString('vi-VN')} câu`;
+  }catch(e){}
   renderList();
 }
 init();

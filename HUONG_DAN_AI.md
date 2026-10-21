@@ -97,7 +97,18 @@ Không có mã phù hợp → ghi đề xuất vào `kho_de_data/dang_bai/de_xua
   và báo cho thầy — khi đó gửi lại.
 - Đẩy đề mới + hình lên `main` (hoặc nhánh `ai/…` rồi mở pull request). Commit message nêu rõ số đề, số hình.
 
-## 8. Xong một bài khi
+## 8. Trang xem kho (GitHub Pages: index.html)
+
+- `catalog.json` và `cap_nhat.json` do **máy thầy tự sinh** mỗi lần đẩy kho (đủ mọi đề trong `de/`, kể cả đề bạn soạn; bỏ đề thầy «bỏ cả đề»;
+  `nq` không tính câu đã bỏ; thêm `co` = số câu còn cờ, `soan_boi`). **Đừng sửa tay** hai file này — sẽ bị ghi đè.
+- `index.html` là giao diện, bạn được sửa, nhưng giữ các điều đã chốt:
+  - không biến đổi LaTeX: trong kho `\\` là **xuống dòng** của `cases`/`aligned`/`array` (khoảng 16.600 chỗ), không phải dấu `\` bị gấp đôi;
+  - tìm ảnh theo `anh.json` của bài trước (thẻ `[[IMG:ảnh.emf#x,y,w,h]]` có vùng cắt → file ảnh đã cắt sẵn), rồi mới đoán `images/<tên>`;
+  - ẩn câu có `bo_cau: true`;
+  - `grade` là SỐ, không phải chuỗi.
+- Trang này **công khai** (ai có link cũng xem được) — đừng đưa thêm dữ liệu nhạy cảm (khóa API, thông tin học sinh) vào repo.
+
+## 9. Xong một bài khi
 
 - Mọi câu có cờ đã có `xac_nhan`, sửa, `bo_cau` hoặc `ghi_chu` trong `sua.json`.
 - Câu thiếu `dang` / `muc_do` đã có trong `phan_loai.json` (nếu bạn được giao phân loại).
