@@ -46,6 +46,10 @@ body.show-ans .ans{display:block}
 body.show-ans .blank .v{display:inline}
 body.show-ans .blank .h{display:none}
 img.qimg{max-width:520px;max-height:340px;display:block;margin:8px auto;border:1px solid #e1e8f2;border-radius:6px}
+.dtab{border-collapse:collapse;margin:8px auto;max-width:100%}
+.dtab th,.dtab td{border:1px solid #b9c8dc;padding:4px 10px;text-align:center;font-size:14.5px}
+.dtab th{background:#eef3fa}
+.dtab img.qimg{display:inline-block;max-height:30px;max-width:60px;margin:0 2px;vertical-align:middle;border:0}
 .part{margin:6px 0 6px 14px}
 button.act{background:#12406e;color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer;font-size:14px}
 button.ghost{background:#fff;color:#12406e;border:1px solid #12406e}
@@ -76,18 +80,52 @@ function imgURL(exam, name){
     for(const v of variants){ if(m[v]) return m[v]; }
     return null;
   }
+  if(/\.(emf|wmf)$/i.test(name)) name = name.replace(/\.(emf|wmf)$/i,'.png');
   return exam.imgbase + name;
 }
-function rich(exam, t){
+function rich(exam, t, inCell){
   if(t==null) return '';
-  t = fixmath(t.toString());
+  t = t.toString();
+  const tables = [];
+  if(!inCell){
+    t = t.replace(/\[\[TABLE\]\]/g, '\n');
+    const lines = t.split('\n');
+    const out = [];
+    let i = 0;
+    while(i < lines.length){
+      if(/^\s*\|/.test(lines[i])){
+        const rows = [];
+        while(i < lines.length && /^\s*\|/.test(lines[i])){ rows.push(lines[i]); i++; }
+        tables.push(rows);
+        out.push('\u0001T' + (tables.length-1) + '\u0002');
+      } else { out.push(lines[i]); i++; }
+    }
+    t = out.join('\n');
+  }
+  t = fixmath(t);
   t = esc(t);
-  t = t.replace(/\[\[IMG:([^\]]+)\]\]/g,(m,n)=>{
+  t = t.replace(/\[\[(?:IMG|EQIMG):([^\]]+)\]\]/g,(m,n)=>{
     const u = imgURL(exam,n);
-    return u? `<img class="qimg" src="${u}" alt="">` : ' <i>[hình minh họa]</i> ';
+    return u? `<img class="qimg" src="${u}" alt="" onerror="this.style.display='none'">` : ' <i>[hình minh họa]</i> ';
   });
   t = t.replace(/\n/g,'<br>');
+  if(!inCell){
+    t = t.replace(/\u0001T(\d+)\u0002/g,(m,idx)=>renderTable(exam, tables[+idx]));
+  }
   return t;
+}
+function renderTable(exam, rows){
+  const parsed = rows.map(r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim()));
+  const isSep = r=>r.every(c=>/^:?-{2,}:?$/.test(c));
+  const body = parsed.filter(r=>!isSep(r));
+  if(!body.length) return '';
+  const hasHead = parsed.some(isSep);
+  let h = '<table class="dtab">';
+  body.forEach((r,i)=>{
+    const tag = (hasHead && i===0)? 'th':'td';
+    h += '<tr>' + r.map(c=>`<${tag}>${rich(exam,c,true)}</${tag}>`).join('') + '</tr>';
+  });
+  return h + '</table>';
 }
 function blanks(exam, line, answers){
   // answers: {id: dap_an}
