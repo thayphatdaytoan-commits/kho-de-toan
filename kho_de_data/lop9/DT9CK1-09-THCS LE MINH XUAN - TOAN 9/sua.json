@@ -1,0 +1,207 @@
+{
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Vẽ (D1) và (D2) trên cùng một hệ trục tọa độ.",
+        "explanation": "Bảng giá trị:\nĐồ thị:",
+        "points": 1,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Lập bảng giá trị của (D1):",
+                "Cho $x = 0 \\Rightarrow y =$ {{1}}",
+                "Cho $x =$ {{2}} $\\Rightarrow y = 0$"
+              ],
+              "hint": "Lập bảng giá trị (D1)"
+            },
+            {
+              "lines": [
+                "Lập bảng giá trị của (D2):",
+                "Cho $x = 0 \\Rightarrow y =$ {{3}}",
+                "Cho $x =$ {{4}} $\\Rightarrow y = 0$"
+              ],
+              "hint": "Lập bảng giá trị (D2)"
+            },
+            {
+              "lines": [
+                "Vẽ đường thẳng (D1) đi qua hai điểm {{5}} và {{6}}",
+                "Vẽ đường thẳng (D2) đi qua hai điểm {{7}} và {{8}}"
+              ],
+              "hint": "Vẽ hai đường thẳng"
+            },
+            {
+              "lines": [
+                "Hai đường thẳng (D1) và (D2) cắt nhau tại điểm {{9}}",
+                "Vậy đồ thị đã vẽ đúng trên cùng hệ trục tọa độ"
+              ],
+              "hint": "Kết luận đồ thị"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "input",
+              "answers": [
+                "-4"
+              ],
+              "keywords": [
+                "-4"
+              ],
+              "placeholder": "giá trị y",
+              "maxLen": 12
+            },
+            {
+              "id": "2",
+              "mode": "input",
+              "answers": [
+                "8"
+              ],
+              "keywords": [
+                "8"
+              ],
+              "placeholder": "giá trị x",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "input",
+              "answers": [
+                "1"
+              ],
+              "keywords": [
+                "1"
+              ],
+              "placeholder": "giá trị y",
+              "maxLen": 12
+            },
+            {
+              "id": "4",
+              "mode": "input",
+              "answers": [
+                "0.5",
+                "1/2"
+              ],
+              "keywords": [
+                "0.5",
+                "1/2"
+              ],
+              "placeholder": "giá trị x",
+              "maxLen": 12
+            },
+            {
+              "id": "5",
+              "mode": "input",
+              "answers": [
+                "(0;-4)"
+              ],
+              "keywords": [
+                "(0;-4)"
+              ],
+              "placeholder": "điểm",
+              "maxLen": 12
+            },
+            {
+              "id": "6",
+              "mode": "input",
+              "answers": [
+                "(8;0)"
+              ],
+              "keywords": [
+                "(8;0)"
+              ],
+              "placeholder": "điểm",
+              "maxLen": 12
+            },
+            {
+              "id": "7",
+              "mode": "input",
+              "answers": [
+                "(0;1)"
+              ],
+              "keywords": [
+                "0;1"
+              ],
+              "placeholder": "điểm",
+              "maxLen": 12
+            },
+            {
+              "id": "8",
+              "mode": "input",
+              "answers": [
+                "(0.5;0)",
+                "(1/2;0)"
+              ],
+              "keywords": [
+                "0.5;0",
+                "1/2;0"
+              ],
+              "placeholder": "điểm",
+              "maxLen": 12
+            },
+            {
+              "id": "9",
+              "mode": "input",
+              "answers": [
+                "(2;-3)"
+              ],
+              "keywords": [
+                "(2;-3)"
+              ],
+              "placeholder": "giao điểm",
+              "maxLen": 12
+            }
+          ],
+          "pool": [
+            "1",
+            "2",
+            "0.5",
+            "1/2",
+            "(0;1)",
+            "(2;0)",
+            "(0.5;0)",
+            "(1/2;0)",
+            "(1;0)",
+            "(0;2)",
+            "(2;1)",
+            "(1;2)"
+          ],
+          "ordered": false
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Tìm tọa độ giao điểm A của (D1) và (D2) bằng phép tính.",
+        "explanation": "Phương trình hoành độ giao điểm của (D1) và (D2):\n[[EQIMG:image1.wmf]] = – 2x + 1\n[[EQIMG:image4.wmf]] x = 2\nTìm được y = – 3.\nVậy tọa độ giao điểm của (D1) và (D2) là A (2 ; – 3)",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$x_A =$ {{1}} ; $y_A =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "2"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-3"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan a: anh image1.png doc ro (D1): y = (1/2)x - 4 va (D2): y = -2x + 1. Voi (D1): x = 0 thi y = -4; y = 0 thi x = 8; hai diem (0;-4) va (8;0); giao diem hai duong la (2;-3). Kho dien theo (D1) khac (o 1 = 1, o 2 = 2, o 5 = (0;1), o 6 = (2;0), o 9 = (0;1)) - sua ca 5 o; cac o cua (D2) va phan b dung.",
+    "xac_nhan": true
+  }
+}

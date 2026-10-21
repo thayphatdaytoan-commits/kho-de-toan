@@ -3,12 +3,13 @@
   "grade": "10",
   "chapter": "1",
   "lesson": "1",
-  "title": "Bài 1. Mệnh đề"
+  "title": "Bài 1. Mệnh đề",
+  "exam_type": "lesson"
  },
  "no": 2,
  "sections": {
   "1": 12,
-  "2": 16,
+  "2": 4,
   "3": 6
  },
  "questions": [
@@ -449,7 +450,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
-   "sua_boi": "thay",
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L10.C1.B1.D03",
    "dang_toan_web": "Mệnh đề phủ định, mệnh đề kéo theo, mệnh đề đảo, hai mệnh đề tương đương."
@@ -497,7 +498,7 @@
    "flags": [],
    "question": "Xét hai mệnh đề\n$P$: “$7$là số nguyên tố”;\n$Q$: “$6!+1$ chia hết cho $7$”\nPhát biểu mệnh đề $P\\Leftrightarrow Q$ bằng hai cách. Cho biết mệnh đề đó đúng hay sai.",
    "explanation": "“$7$là số nguyên tố nếu và chỉ nếu $6!+1$ chia hết cho $7$”\n“Điều kiện cần và đủ để $7$là số nguyên tố là $6!+1$ chia hết cho $7$”\nMệnh đề này đúng vì cả hai mệnh đề $P$ và $Q$ đều đúng.",
-   "short_value": null,
+   "short_value": 6,
    "short_correct": "Đúng",
    "ma": "de2.P3.C1",
    "dac_trung": {
@@ -522,7 +523,7 @@
    "flags": [],
    "question": "Xét tinh đúng sai của mệnh đề “Nếu ${{2}^{a}}-1$ là số nguyên tố thì $a$ là số nguyên tố”.",
    "explanation": "Giả sử ${{2}^{a}}-1$ là số nguyên tố mà $a$ không là số nguyên tố.\nKhi đó $\\left\\{ \\begin{aligned} & \\exists m,n\\in \\mathbb{N} \\\\ & m\\ne 1,\\,n\\ne 1 \\\\ \\end{aligned} \\right.$ sao cho $a=m.n$.\nKhi đó ${{2}^{a}}-1={{2}^{m.n}}-1=\\left( {{2}^{m}}-1 \\right)\\left[ {{\\left( {{2}^{m}} \\right)}^{n-1}}+{{\\left( {{2}^{m}} \\right)}^{n-2}}+...+1 \\right]$.\nSuy ra ${{2}^{a}}-1$ là hợp số (mâu thuẫn).\nVậy mệnh đề trên đúng.",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "Đúng",
    "ma": "de2.P3.C2",
    "dac_trung": {
@@ -597,7 +598,7 @@
    "flags": [],
    "question": "Xét tính đúng sai và nêu mệnh đề phủ định của mệnh đề “$\\exists x\\in \\mathbb{R}:\\,{{x}^{2}}-6x+5=0$”.",
    "explanation": "Mệnh đề “$\\exists x\\in \\mathbb{R}:\\,{{x}^{2}}-6x+5=0$” là mệnh đề đúng vì ${{x}^{2}}-6x+5=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=5. \\\\ \\end{aligned} \\right.$\nPhủ định của mệnh đề “$\\exists x\\in \\mathbb{R}:\\,{{x}^{2}}-6x+5=0$” là mệnh đề “$\\forall x\\in \\mathbb{R}:\\,{{x}^{2}}-6x+5\\ne 0$”.",
-   "short_value": 0,
+   "short_value": 5,
    "short_correct": "Đúng",
    "ma": "de2.P3.C5",
    "dac_trung": {
@@ -638,7 +639,5 @@
    "dang_toan_web": "Mệnh đề phủ định, mệnh đề kéo theo, mệnh đề đảo, hai mệnh đề tương đương."
   }
  ],
- "flags": [
-  "phan_2_co_4_cau_nhung_de_ghi_16"
- ]
+ "flags": []
 }

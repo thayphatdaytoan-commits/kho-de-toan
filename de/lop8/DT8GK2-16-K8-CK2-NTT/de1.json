@@ -125,6 +125,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L8.C8.B2.D02",
    "dang_toan_web": "Đường trung bình của tam giác."
@@ -154,6 +155,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L8.C8.B6.D01",
    "dang_toan_web": "Hình đồng dạng trong thực tiễn."
@@ -287,8 +289,33 @@
      "question": "Vẽ đồ thị hàm số trên",
      "explanation": "Bảng giá trị:\n$x=0 \\Rightarrow y=3$\n$x=-\\frac{3}{2} \\Rightarrow y=0$\nVẽ đúng mặt phẳng tọa độ.\nVẽ đúng đồ thị hàm số (đường thẳng đi qua hai điểm $(0;3)$ và $(-\\frac{3}{2};0)$).",
      "points": 1,
-     "type": "short_answer",
-     "shortCorrect": "Đồ thị hàm số $y=2x+3$ là đường thẳng đi qua hai điểm $(0;3)$ và $(-\\frac{3}{2};0)$"
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 3,
+       "ymin": -3,
+       "ymax": 7
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "f1",
+        "label": "y = 2x + 3",
+        "kind": "linear",
+        "a": 2,
+        "b": 3,
+        "need": 2,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1
+        ]
+       }
+      ]
+     }
     }
    ],
    "points": 2,

@@ -85,7 +85,19 @@ Không có mã phù hợp → ghi đề xuất vào `kho_de_data/dang_bai/de_xua
 - Câu trùng đề đã có trên web (cờ `trung_web`) do máy thầy xử lý — không cần làm gì.
 - Câu có hình: xem ảnh trước khi kết luận đề thiếu dữ kiện. Ảnh bị thiếu file (liệt kê cuối `VIEC_CAN_LAM.md`) → `ghi_chu`, không tự vẽ.
 
-## 7. Xong một bài khi
+## 7. Đề mới bạn tự soạn / chép và HÌNH ẢNH
+
+- Đề mới đặt ở `de/lop<k>/<mã bài mới>/de1.json` (cùng định dạng với đề có sẵn, `meta.soan_boi` = tên bạn). Mã bài mới phải **khác mọi bài
+  đang có** và nên chứa tên bạn, ví dụ `DT12GK1-MUSE-06-…`. Máy thầy không xóa thư mục bài do bạn tạo; bài có sẵn thì vẫn không được sửa.
+- **Hình**: nếu công cụ GitHub của bạn chỉ ghi được file chữ (không đẩy được file ảnh nhị phân), hãy gửi mỗi hình dưới dạng **base64**:
+  - file `de/lop<k>/<bài>/images/<tên ảnh>.b64`, ví dụ `images/image1.png.b64` cho `[[IMG:image1.png]]`;
+  - nội dung là chuỗi base64 của file ảnh (được phép có tiền tố `data:image/png;base64,`); đuôi hợp lệ: `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.svg`;
+  - hình vẽ đơn giản (bảng biến thiên, đồ thị, hình học) có thể gửi thẳng file `.svg` (là file chữ, không cần base64).
+  Máy thầy tự kiểm 10 phút một lần: giải mã thành ảnh thật, xóa file `.b64` và đẩy ảnh lên lại `main`. File `.b64` hỏng được giữ nguyên
+  và báo cho thầy — khi đó gửi lại.
+- Đẩy đề mới + hình lên `main` (hoặc nhánh `ai/…` rồi mở pull request). Commit message nêu rõ số đề, số hình.
+
+## 8. Xong một bài khi
 
 - Mọi câu có cờ đã có `xac_nhan`, sửa, `bo_cau` hoặc `ghi_chu` trong `sua.json`.
 - Câu thiếu `dang` / `muc_do` đã có trong `phan_loai.json` (nếu bạn được giao phân loại).

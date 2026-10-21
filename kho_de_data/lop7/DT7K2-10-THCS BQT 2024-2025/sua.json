@@ -1,0 +1,45 @@
+{
+  "de1.P4.C1": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Tìm x biết: $\\frac{-9}{x}=\\frac{-3}{2}$ với $x\\ne 0$",
+        "explanation": "Ta có : $\\frac{-9}{x}=\\frac{-3}{2} \\Rightarrow x.(-3)=(-9).2$\nVậy: $x=\\frac{(-9).2}{-3}=6$",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "6"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Cho biểu thức $M(x)={{x}^{2}}+2x-5$. Tính M(0); M(-1)",
+        "explanation": "$M(0) = 0^2 + 2.0 - 5 = -5$\n$M(-1) = (-1)^2 + 2.(-1) - 5 = 1 - 2 - 5 = -6$",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$M(0) =$ {{1}} ; $M(-1) =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "-5"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-6"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phần b: M(0) = -5 và M(-1) = 1 - 2 - 5 = -6. Mẫu điền cũ ghi -2 và 4, lời giải cũ cũng sai theo. Phần a giữ nguyên (x = 6 đúng).",
+    "xac_nhan": true
+  }
+}

@@ -60,6 +60,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C8.B3.D01",
    "dang_toan_web": "Tứ giác nội tiếp."
@@ -71,9 +72,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "cong_thuc_dang_anh_chua_OCR"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -81,7 +80,47 @@
      "question": "Vẽ (D1) và (D2) trên cùng mặt phẳng tọa độ.",
      "explanation": "Bảng giá trị của (D1) đúng\nVẽ (D1) đúng\nTương tự cho (D2)",
      "points": 1,
-     "type": "essay"
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 6,
+       "ymin": -3,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = x/2",
+        "kind": "linear",
+        "a": 0.5,
+        "b": 0,
+        "need": 2,
+        "xs": [
+         -2,
+         0,
+         2,
+         4
+        ]
+       },
+       {
+        "id": "d2",
+        "label": "y = -x/2 + 4",
+        "kind": "linear",
+        "a": -0.5,
+        "b": 4,
+        "need": 2,
+        "xs": [
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
     },
     {
      "id": "b",
@@ -122,7 +161,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -159,9 +199,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -182,10 +220,10 @@
      "id": "b",
      "label": "b",
      "question": "Nếu bạn An có 200 000 đồng để mua tập và một hộp bút thì tối đa bạn An mua được bao nhiêu quyển tập?",
-     "explanation": "Số tiền mua tập là: 200 000 – 30 000 = 170 000 (đ)\nTa có: 170 000 : 4000 = 40 dư 10\nVậy số quyển tập tối đa là 40 quyển.",
+     "explanation": "Số tiền mua tập là: $200\\,000 - 3\\,000 = 197\\,000$ (đồng)\nTa có: $197\\,000 : 4\\,000 = 49{,}25$\nVậy số quyển tập tối đa bạn An mua được là 49 quyển.",
      "points": 0.5,
      "type": "short_answer",
-     "shortCorrect": "40"
+     "shortCorrect": "49"
     }
    ],
    "points": 1,
@@ -199,7 +237,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -223,6 +262,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C3.B2.D05",
    "dang_toan_web": "Các phép biến đổi đơn giản biểu thức chứa căn thức bậc hai (Đưa thừa số ra ngoài/vào trong dấu căn, khử mẫu, trục căn thức)."

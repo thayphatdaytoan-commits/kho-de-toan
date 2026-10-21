@@ -1,75 +1,79 @@
 {
- "de1.P4.C4": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Tính thể tích của tháp nước đó?",
-    "explanation": "Vì tháp nước hình cầu có $R=6:2=3$ m nên thể tích của tháp nước là:\n$V=\\frac{4}{3}\\pi R^3=4.3,14.3^2=113,04\\ (m^3)=113040\\ (\\text{lít})$\nVậy thể tích của tháp nước là 113040 lít.",
-    "points": 1,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "$R=6:2=$ {{1}} (m)",
-      "$V=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\cdot 3,14\\cdot$ {{2}} $=$ {{3}} (m$^3$)",
-      "$=$ {{4}} (lít)"
-     ],
-     "o": [
+  "de1.P4.C4": {
+    "parts": [
       {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "3"
+        "id": "a",
+        "label": "a",
+        "question": "Tính thể tích của tháp nước đó?",
+        "explanation": "Vì tháp nước hình cầu có $R=6:2=3$ m nên thể tích của tháp nước là:\n$V=\\frac{4}{3}\\pi R^3=4.3,14.3^2=113,04\\ (m^3)=113040\\ (\\text{lít})$\nVậy thể tích của tháp nước là 113040 lít.",
+        "points": 1,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "$R=6:2=$ {{1}} (m)",
+            "$V=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\cdot 3,14\\cdot$ {{2}} $=$ {{3}} (m$^3$)",
+            "$=$ {{4}} (lít)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "3"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "27"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "113.04"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "113040"
+            }
+          ]
+        }
       },
       {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "27"
-      },
-      {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "113.04"
-      },
-      {
-       "id": "4",
-       "loai": "so",
-       "dap_an": "113040"
+        "id": "b",
+        "label": "b",
+        "question": "Biết rằng lượng nước đựng đầy trong bể đủ dùng cho một khu dân cư trong 5 ngày. Cho biết khu dân cư có 1304 người. Hỏi trong một ngày mức bình quân mỗi người dùng bao nhiêu lít nước (lấy $\\pi = 3,14$; biết $1 m^3 = 1000$ lít).",
+        "explanation": "Một ngày khu dân cư dùng hết số nước là: $113040:5=22608$ (lít)\nVậy trong một ngày mức bình quân mỗi người dùng $22608:1304=13,34$ lít.",
+        "points": 1,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Một ngày dùng: $113040:5=$ {{1}} (lít)",
+            "Bình quân mỗi người: $22608:1304=$ {{2}} (lít)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "22608"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "17.34"
+            }
+          ]
+        }
       }
-     ]
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Biết rằng lượng nước đựng đầy trong bể đủ dùng cho một khu dân cư trong 5 ngày. Cho biết khu dân cư có 1304 người. Hỏi trong một ngày mức bình quân mỗi người dùng bao nhiêu lít nước (lấy $\\pi = 3,14$; biết $1 m^3 = 1000$ lít).",
-    "explanation": "Một ngày khu dân cư dùng hết số nước là: $113040:5=22608$ (lít)\nVậy trong một ngày mức bình quân mỗi người dùng $22608:1304=13,34$ lít.",
-    "points": 1,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "Một ngày dùng: $113040:5=$ {{1}} (lít)",
-      "Bình quân mỗi người: $22608:1304=$ {{2}} (lít)"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "22608"
-      },
-      {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "17.34"
-      }
-     ]
-    }
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) 22608:1304 = 17,34 (lít/người/ngày); key/lời giải ghi 13,34 (sai số học). NONKEY: (a) lời giải ghi \"4.3,14.3^2\" (thiếu 1/3, mũ 2 thay 3) dù kết quả 113,04 đúng"
- }
+    ],
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) 22608:1304 = 17,34 (lít/người/ngày); key/lời giải ghi 13,34 (sai số học). NONKEY: (a) lời giải ghi \"4.3,14.3^2\" (thiếu 1/3, mũ 2 thay 3) dù kết quả 113,04 đúng"
+  },
+  "de1.P4.C3": {
+    "ghi_chu": "Phần b: biểu thức như đã chép B = x1^3(x1 - 1) + x2^3(x2 - x1) không đối xứng theo x1, x2 nên không có giá trị duy nhất theo hệ thức Viète (đổi vai trò hai nghiệm cho hai giá trị khác nhau, xấp xỉ 83,06 và 129,94); lời giải kho khai triển sai hạng tử x2^3(x2 - x1) để ra 83. Giá trị 83 chỉ hợp lý nếu đề là x2^3(x2 - 1). Nhờ thầy đối chiếu bản đề gốc.",
+    "sua_boi": "muse"
+  }
 }

@@ -1,0 +1,181 @@
+{
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh : a // b.",
+        "explanation": "Vì góc $\\widehat{{{A}_{1}}}$ và $\\widehat{{{B}_{1}}}$ có số đo bằng nhau (cùng bằng $70^0$) ở vị trí đồng vị nên a // b.",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Ta có: $\\widehat{A_1} = 70^\\circ$ ({{1}}),",
+                "và $\\widehat{B_1} = 70^\\circ$ ({{2}}).",
+                "Suy ra $\\widehat{A_1} =$ {{3}}."
+              ],
+              "hint": "So sánh số đo hai góc"
+            },
+            {
+              "lines": [
+                "Mà hai góc $\\widehat{A_1}$ và $\\widehat{B_1}$ ở vị trí {{4}}."
+              ],
+              "hint": "Xác định vị trí của hai góc"
+            },
+            {
+              "lines": [
+                "Do đó, {{5}} // {{6}} (dấu hiệu nhận biết hai đường thẳng song song)."
+              ],
+              "hint": "Kết luận hai đường thẳng song song"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "both",
+              "answers": [
+                "giả thiết",
+                "gt"
+              ],
+              "keywords": [
+                "giả thiết",
+                "gt"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 12
+            },
+            {
+              "id": "2",
+              "mode": "both",
+              "answers": [
+                "giả thiết",
+                "gt"
+              ],
+              "keywords": [
+                "giả thiết",
+                "gt"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "drag",
+              "answers": [
+                "\\widehat{B_1}"
+              ],
+              "keywords": [],
+              "placeholder": "tên góc",
+              "maxLen": 16
+            },
+            {
+              "id": "4",
+              "mode": "input",
+              "answers": [
+                "đồng vị"
+              ],
+              "keywords": [
+                "đồng vị",
+                "dong vi"
+              ],
+              "placeholder": "vị trí góc",
+              "maxLen": 16
+            },
+            {
+              "id": "5",
+              "mode": "drag",
+              "answers": [
+                "a"
+              ],
+              "keywords": [],
+              "placeholder": "đường thẳng",
+              "maxLen": 12
+            },
+            {
+              "id": "6",
+              "mode": "drag",
+              "answers": [
+                "b"
+              ],
+              "keywords": [],
+              "placeholder": "đường thẳng",
+              "maxLen": 12
+            }
+          ],
+          "pool": [
+            "giả thiết",
+            "\\widehat{B_1}",
+            "a",
+            "b",
+            "so le trong",
+            "trong cùng phía",
+            "đối đỉnh",
+            "\\widehat{A_2}",
+            "\\widehat{B_2}",
+            "c"
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Tính số đo \\[`{{\\hat{C}}_{1}},{{\\hat{C}}_{2}}`\\].",
+        "explanation": "Vì a // b nên $\\widehat{{{C}_{1}}}=\\widehat{{{D}_{1}}}$ (hai góc so le trong )\nMà $\\widehat{{{D}_{1}}}={{108}^{0}}$ nên $\\widehat{{{C}_{1}}}={{108}^{0}}$\n$\\widehat{{{C}_{1}}}=\\widehat{{{C}_{2}}}={{108}^{0}}$ (hai góc đối đỉnh )",
+        "points": 0.75,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$\\widehat{C_1} =$ {{1}}° ; $\\widehat{C_2} =$ {{2}}°"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "108"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "108"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Gọi Ax là tia phân giác của góc BAD. Tính số đo góc BAx.",
+        "explanation": "Ta có $\\widehat{BAD}$ kề bù với $\\widehat{A_1} = 70^0$ trên cát tuyến AB\n$\\widehat{BAD} = 180^0 - 70^0 = 110^0$\nVì Ax là tia phân giác của góc BAD nên $\\widehat{BAx} = \\frac{\\widehat{BAD}}{2} = \\frac{110^0}{2} = 55^0$",
+        "points": 0.75,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "$\\widehat{BAD} + \\widehat{A_1} = 180^0$ (hai góc kề bù) mà $\\widehat{A_1} = 70^0$ nên $\\widehat{BAD} = 180^0 - 70^0 =$ {{1}} $^0$",
+            "Vì Ax là tia phân giác nên $\\widehat{BAx} = \\dfrac{110^0}{2} =$ {{2}} $^0$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "110"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "55"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan c: tren hinh image14.png, ADC = D1 = 108 do (khong phai 70 do) va BAD khong cung cap trong cung phia voi ADC; dap so BAD = 110 do, BAx = 55 do dung nho BAD ke bu A1 = 70 do tren cat tuyen AB. Sua dong mau va loi giai.",
+    "xac_nhan": true
+  }
+}

@@ -170,10 +170,10 @@
    "question": "Kết quả làm tròn số - 17,85896 đến hàng phần nghìn là:",
    "explanation": "",
    "options": [
-    "17,90",
-    "17,859",
-    "17,86",
-    "17,8590"
+    "-17,90",
+    "-17,859",
+    "-17,86",
+    "-17,8590"
    ],
    "ma": "de1.P1.C6",
    "dac_trung": {
@@ -183,6 +183,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L7.C2.B3.D01",
    "dang_toan_web": "Làm tròn số và ước lượng."
@@ -212,6 +213,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L7.C3.B2.D06",
    "dang_toan_web": "Hình lăng trụ đứng tam giác và Hình lăng trụ đứng tứ giác."
@@ -299,6 +301,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L7.C4.B1.D04",
    "dang_toan_web": "Góc ở vị trí đặc biệt (kề bù, đối đỉnh). Tia phân giác của một góc."
@@ -328,6 +331,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L7.C4.B2.D02",
    "dang_toan_web": "Hai đường thẳng song song và dấu hiệu nhận biết."
@@ -579,7 +583,7 @@
      "id": "a",
      "label": "a",
      "question": "Chứng minh: x // y",
-     "explanation": "Ta có: ${{\\widehat{A}}_{1}}={{\\widehat{B}}_{2}}={{130}^{\\circ }}$ mà 2 góc này ở vị trí so le trong\nVậy x // y",
+     "explanation": "Ta có: ${{\\widehat{A}}_{1}}={{\\widehat{B}}_{1}}={{130}^{\\circ }}$ mà 2 góc này ở vị trí so le trong\nVậy x // y",
      "points": 0.5,
      "type": "proof_frame",
      "frame": {
@@ -620,11 +624,14 @@
         "id": "2",
         "mode": "drag",
         "answers": [
-         "\\widehat{B}_2",
-         "\\widehat{B}_{2}",
-         "B_2"
+         "\\widehat{B}_1",
+         "\\widehat{B}_{1}",
+         "B_1"
         ],
-        "keywords": [],
+        "keywords": [
+         "\\widehat{B}_1",
+         "B_1"
+        ],
         "placeholder": "tên góc",
         "maxLen": 14
        },
@@ -751,7 +758,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   }
  ],
  "flags": []

@@ -212,6 +212,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L7.C3.B1.D05",
    "dang_toan_web": "Hình hộp chữ nhật và Hình lập phương (Diện tích xung quanh, thể tích)."
@@ -441,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L7.C4.B2.D03",
    "dang_toan_web": "Hai đường thẳng song song và dấu hiệu nhận biết."
@@ -493,6 +495,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L7.C1.B2.D03",
    "dang_toan_web": "Các phép tính cộng, trừ, nhân, chia số hữu tỉ."
@@ -610,38 +613,44 @@
      "id": "b",
      "label": "b",
      "question": "Người ta muốn lót gạch bên trong lòng hồ (mặt đáy và 4 mặt xung quanh), biết mỗi viên gạch hình vuông có cạnh là 0,5m và mỗi thùng chứa 8 viên gạch. Hỏi để lót hết mặt trong của hồ thì cần mua bao nhiêu thùng gạch?",
-     "explanation": "Diện tích xung quanh bể bơi :\n(12+ 5).2.3= 102 ( m2)\nDiện tích của một viên gạch hình vuông:\n0,5.0,5= 0,25 ( m2)\nSố thùng gạch cần mua:\n(102: 0,25) : 8 = 51 ( thùng)",
+     "explanation": "Diện tích mặt đáy của hồ bơi là: $12.5 = 60\\ (m^2)$\nDiện tích xung quanh của hồ bơi là: $(12 + 5).2.3 = 102\\ (m^2)$\nDiện tích cần lót gạch (mặt đáy và 4 mặt xung quanh) là: $60 + 102 = 162\\ (m^2)$\nDiện tích một viên gạch là: $0,5.0,5 = 0,25\\ (m^2)$\nSố viên gạch cần là: $162 : 0,25 = 648$ (viên)\nSố thùng gạch cần mua là: $648 : 8 = 81$ (thùng)",
      "points": 0.5,
      "type": "form_mau",
      "mau_spec": {
       "mau": "tinh_gia_tri",
       "kieu": "dong",
       "dong": [
-       "Diện tích xung quanh: $(12+5)\\cdot 2\\cdot 3 = $ {{1}} (m$^2$)",
-       "Diện tích một viên gạch: $0,5\\cdot 0,5 = $ {{2}} (m$^2$)",
-       "Số viên gạch cần: $102 : 0,25 = $ {{3}} (viên)",
-       "Số thùng gạch cần mua: $408 : 8 = $ {{4}} (thùng)"
+       "Diện tích mặt đáy: $12\\cdot 5 = $ {{1}} (m$^2$)",
+       "Diện tích xung quanh: $(12+5)\\cdot 2\\cdot 3 = $ {{2}} (m$^2$)",
+       "Diện tích cần lót gạch: $60 + 102 = $ {{3}} (m$^2$)",
+       "Số viên gạch cần: $162 : 0,25 = $ {{4}} (viên)",
+       "Số thùng gạch cần mua: $648 : 8 = $ {{5}} (thùng)"
       ],
       "o": [
        {
         "id": "1",
         "loai": "so",
-        "dap_an": "102"
+        "dap_an": "60"
        },
        {
         "id": "2",
         "loai": "so",
-        "dap_an": "0.25"
+        "dap_an": "102"
        },
        {
         "id": "3",
         "loai": "so",
-        "dap_an": "408"
+        "dap_an": "162"
        },
        {
         "id": "4",
         "loai": "so",
-        "dap_an": "51"
+        "dap_an": "648"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "81"
        }
       ]
      }
@@ -658,7 +667,8 @@
     "thuc_te": true,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 4,
@@ -876,7 +886,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   }
  ],
  "flags": []

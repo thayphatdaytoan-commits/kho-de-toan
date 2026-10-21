@@ -1,0 +1,106 @@
+{
+  "de1.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Tính thể tích của ngôi nhà",
+        "explanation": "Ngôi nhà gồm 2 phần, một phần là lăng trụ đứng có đáy là tam giác, phần còn lại là hình hộp chữ nhật.\nThể tích hình lăng trụ: $V=\\frac{1}{2}.(15-8).10.20=700\\ (m^3)$.\nThể tích hình hộp chữ nhật: $V=10.20.8=1600\\ (m^3)$.\nThể tích ngôi nhà: $700+1600=2300\\ (m^3)$.",
+        "points": 0.75,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Thể tích hình lăng trụ: $V = \\frac{1}{2} \\cdot (15 - 8) \\cdot 10 \\cdot 20 =$ {{1}} $(m^3)$.",
+            "Thể tích hình hộp chữ nhật: $V = 10 \\cdot 20 \\cdot 8 =$ {{2}} $(m^3)$.",
+            "Thể tích ngôi nhà: {{3}} $+$ {{4}} $=$ {{5}} $(m^3)$."
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "700"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "1600"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "700"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "1600"
+            },
+            {
+              "id": "5",
+              "loai": "so",
+              "dap_an": "2300"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Biết rằng 1 lít sơn bao phủ được 4m2 tường. Hỏi cần ít nhất bao nhiêu lít sơn để sơn phủ được tường mặt ngoài ngôi nhà (không sơn cửa, tổng diện tích các cửa là 9m2)",
+        "explanation": "Diện tích tường mặt ngoài: $2.8.(10+20) + 2.\\frac{1}{2}.10.7 = 480 + 70 = 550$ m² (cộng cả hai mặt đầu hồi tam giác, cao $15 - 8 = 7$ m)\nDiện tích cần sơn: $550 - 9 = 541$ m²\nSố lít sơn cần: $541 : 4 = 135,25$ nên cần ít nhất 136 lít sơn",
+        "points": 0.75,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Diện tích xung quanh ngôi nhà: $S_{xq} = 2 \\cdot 8 \\cdot (10 + 20) =$ {{1}} $(m^2)$.",
+            "Diện tích cần sơn: {{2}} $- 9 =$ {{3}} $(m^2)$.",
+            "Số lít sơn để sơn phủ được tường mặt ngoài ngôi nhà là: {{4}} $: 4 = 117$ lít dư $3m^2$.",
+            "Vì dư $3m^2$ nên cần thêm 1 lít sơn, vậy cần ít nhất: $117 + 1 =$ {{5}} lít sơn."
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "550"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "550"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "541"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "541"
+            },
+            {
+              "id": "5",
+              "loai": "so",
+              "dap_an": "136"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan b: kho chi tinh 4 buc tuong chu nhat 480 m2, bo sot 2 mat dau hoi tam giac (moi mat 1/2.10.7 = 35 m2, mai cao 15 - 8 = 7 m tren hinh). Dung: tuong 550 m2, can son 541 m2, can 136 lit (kho: 471 m2, 118 lit).",
+    "xac_nhan": true
+  },
+  "de1.P7.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
+}

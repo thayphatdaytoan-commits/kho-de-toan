@@ -1,76 +1,84 @@
 {
- "de1.P1.C2": {
-  "answer": "A",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (2;1): hệ A: 4+3=7, 2−3=−1 ✓; hệ D: 2−1=1≠−1. Key D sai"
- },
- "de1.P4.C2": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "(2x + 3)(7 – 5x) = 0",
-    "explanation": "(2x + 3)(7 – 5x) = 0\nSuy ra 2x + 3 = 0 hoặc 7 – 5x = 0.\n2x + 3 = 0 ⇒ x = –3/2.\n7 – 5x = 0 ⇒ x = 7/5.\nVậy phương trình có hai nghiệm x = –3/2 và x = 7/5.",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "khac",
-     "kieu": "dong",
-     "dong": [
-      "$x_1 =$ {{1}} ; $x_2 =$ {{2}}"
-     ],
-     "o": [
+  "de1.P1.C2": {
+    "answer": "A",
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (2;1): hệ A: 4+3=7, 2−3=−1 ✓; hệ D: 2−1=1≠−1. Key D sai"
+  },
+  "de1.P4.C2": {
+    "parts": [
       {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "-3/2"
+        "id": "a",
+        "label": "a",
+        "question": "(2x + 3)(7 – 5x) = 0",
+        "explanation": "(2x + 3)(7 – 5x) = 0\nSuy ra 2x + 3 = 0 hoặc 7 – 5x = 0.\n2x + 3 = 0 ⇒ x = –3/2.\n7 – 5x = 0 ⇒ x = 7/5.\nVậy phương trình có hai nghiệm x = –3/2 và x = 7/5.",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$x_1 =$ {{1}} ; $x_2 =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "-3/2"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "7/5"
+            }
+          ]
+        }
       },
       {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "7/5"
-      }
-     ]
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "\\[\\frac{1}{x-2}+\\frac{2}{x+2}=\\frac{3}{{{x}^{2}}-4}\\]",
-    "explanation": "Điều kiện: x ≠ 2 và x ≠ –2.\nPhương trình trở thành: 1/(x–2) + 2/(x+2) = 3/[(x–2)(x+2)].\nQuy đồng: (x+2) + 2(x–2) = 3.\nSuy ra x + 2 + 2x – 4 = 3 ⇒ 3x – 2 = 3 ⇒ 3x = 5 ⇒ x = 5/3.\nKiểm tra điều kiện: x = 5/3 thỏa mãn.\nVậy phương trình có nghiệm x = 5/3.",
-    "points": 0.5,
-    "type": "short_answer",
-    "shortCorrect": "5/3"
-   },
-   {
-    "id": "c",
-    "label": "c",
-    "question": "\\[\\left\\{ \\begin{align} & x-2y=11 \\\\ & 5x+3y=3 \\\\ \\end{align} \\right.\\]",
-    "explanation": "Từ phương trình thứ nhất: x = 11 + 2y.\nThay vào phương trình thứ hai: 5(11 + 2y) + 3y = 3.\nSuy ra 55 + 10y + 3y = 3 ⇒ 13y = –52 ⇒ y = –4.\nDo đó x = 11 + 2.(–4) = 3.\nVậy hệ phương trình có nghiệm (x ; y) = (3 ; –4).",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "khac",
-     "kieu": "dong",
-     "dong": [
-      "$x =$ {{1}} ; $y =$ {{2}}"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "3"
+        "id": "b",
+        "label": "b",
+        "question": "\\[\\frac{1}{x-2}+\\frac{2}{x+2}=\\frac{3}{{{x}^{2}}-4}\\]",
+        "explanation": "Điều kiện: x ≠ 2 và x ≠ –2.\nPhương trình trở thành: 1/(x–2) + 2/(x+2) = 3/[(x–2)(x+2)].\nQuy đồng: (x+2) + 2(x–2) = 3.\nSuy ra x + 2 + 2x – 4 = 3 ⇒ 3x – 2 = 3 ⇒ 3x = 5 ⇒ x = 5/3.\nKiểm tra điều kiện: x = 5/3 thỏa mãn.\nVậy phương trình có nghiệm x = 5/3.",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "5/3"
       },
       {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "-4"
+        "id": "c",
+        "label": "c",
+        "question": "\\[\\left\\{ \\begin{align} & x-2y=11 \\\\ & 5x+3y=3 \\\\ \\end{align} \\right.\\]",
+        "explanation": "Từ phương trình thứ nhất: x = 11 + 2y.\nThay vào phương trình thứ hai: 5(11 + 2y) + 3y = 3.\nSuy ra 55 + 10y + 3y = 3 ⇒ 13y = –52 ⇒ y = –4.\nDo đó x = 11 + 2.(–4) = 3.\nVậy hệ phương trình có nghiệm (x ; y) = (3 ; –4).",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$x =$ {{1}} ; $y =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "3"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-4"
+            }
+          ]
+        }
       }
-     ]
-    }
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) ĐK x≠±2; (x+2)+2(x−2)=3 ⇒ 3x=5 ⇒ x=5/3 (lời giải cũng ra 5/3). Key \"x=1\" sai"
- }
+    ],
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) ĐK x≠±2; (x+2)+2(x−2)=3 ⇒ 3x=5 ⇒ x=5/3 (lời giải cũng ra 5/3). Key \"x=1\" sai"
+  },
+  "de1.P1.C7": {
+    "ghi_chu": "Không thêm đáp án được: cả 4 phương án đều bị mất đối số của hàm lượng giác (A và B cùng ghi sin = cos, C và D cùng ghi tan = cot). Với alpha + beta = 90 độ, các quan hệ đầy đủ sin alpha = cos beta, tan alpha = cot beta đều đúng nên đáp án phụ thuộc đối số đã mất. Nhờ thầy khôi phục câu chữ từ bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P3.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

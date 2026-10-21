@@ -1,137 +1,204 @@
 {
- "de1.P4.C2": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Chứng minh phương trình trên có hai nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$",
-    "explanation": "$a=2;b=-4;c=-1$\\n$\\Delta ={{(-4)}^{2}}-4.2.(-1)=24>0$\\nVậy phương trình có hai nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$.",
-    "points": 0.5,
-    "type": "proof_frame",
-    "frame": {
-     "blocks": [
+  "de1.P4.C2": {
+    "parts": [
       {
-       "lines": [
-        "Xác định hệ số: $a=$ {{1}}, $b=$ {{2}}, $c=$ {{3}}"
-       ],
-       "hint": "Xác định các hệ số"
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh phương trình trên có hai nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$",
+        "explanation": "$a=2;b=-4;c=-1$\\n$\\Delta ={{(-4)}^{2}}-4.2.(-1)=24>0$\\nVậy phương trình có hai nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$.",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Xác định hệ số: $a=$ {{1}}, $b=$ {{2}}, $c=$ {{3}}"
+              ],
+              "hint": "Xác định các hệ số"
+            },
+            {
+              "lines": [
+                "Tính $\\Delta =$ {{4}} $= {{(-4)}^{2}}-4.2.(-1)=$ {{5}}"
+              ],
+              "hint": "Tính biệt thức delta"
+            },
+            {
+              "lines": [
+                "Vì $\\Delta$ {{6}} 0 nên phương trình có {{7}} nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$"
+              ],
+              "hint": "Kết luận số nghiệm"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "input",
+              "answers": [
+                "2"
+              ],
+              "keywords": [
+                "2"
+              ],
+              "placeholder": "hệ số a",
+              "maxLen": 12
+            },
+            {
+              "id": "2",
+              "mode": "input",
+              "answers": [
+                "-4"
+              ],
+              "keywords": [
+                "-4"
+              ],
+              "placeholder": "hệ số b",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "input",
+              "answers": [
+                "-1"
+              ],
+              "keywords": [
+                "-1"
+              ],
+              "placeholder": "hệ số c",
+              "maxLen": 12
+            },
+            {
+              "id": "4",
+              "mode": "input",
+              "answers": [
+                "{{(-4)}^{2}}-4.2.(-1)",
+                "(-4)^2-4.2.(-1)"
+              ],
+              "keywords": [
+                "(-4)^2-4.2.(-1)",
+                "(-4)^2-4*2*(-1)"
+              ],
+              "placeholder": "biểu thức delta",
+              "maxLen": 24
+            },
+            {
+              "id": "5",
+              "mode": "input",
+              "answers": [
+                "24"
+              ],
+              "keywords": [
+                "24"
+              ],
+              "placeholder": "giá trị delta",
+              "maxLen": 12
+            },
+            {
+              "id": "6",
+              "mode": "input",
+              "answers": [
+                ">"
+              ],
+              "keywords": [
+                ">"
+              ],
+              "placeholder": "dấu so sánh",
+              "maxLen": 12
+            },
+            {
+              "id": "7",
+              "mode": "input",
+              "answers": [
+                "hai"
+              ],
+              "keywords": [
+                "hai"
+              ],
+              "placeholder": "số nghiệm",
+              "maxLen": 12
+            }
+          ],
+          "pool": [],
+          "ordered": false
+        }
       },
       {
-       "lines": [
-        "Tính $\\Delta =$ {{4}} $= {{(-4)}^{2}}-4.2.(-1)=$ {{5}}"
-       ],
-       "hint": "Tính biệt thức delta"
-      },
-      {
-       "lines": [
-        "Vì $\\Delta$ {{6}} 0 nên phương trình có {{7}} nghiệm phân biệt ${{x}_{1}};{{x}_{2}}$"
-       ],
-       "hint": "Kết luận số nghiệm"
+        "id": "b",
+        "label": "b",
+        "question": "Không giải phương trình, hãy tính giá trị của $A=\\frac{{{x}_{1}}}{{{x}_{2}}}+\\frac{{{x}_{2}}}{{{x}_{1}}}-3x_{1}^{2}x_{2}^{2}$",
+        "explanation": "Theo định lí Viète: $S={{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=2$; $P={{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{-1}{2}$\\n$A=\\frac{{{x}_{1}}}{{{x}_{2}}}+\\frac{{{x}_{2}}}{{{x}_{1}}}-3x_{1}^{2}x_{2}^{2}=\\frac{x_{1}^{2}+x_{2}^{2}}{{{x}_{1}}{{x}_{2}}}-3{{({{x}_{1}}{{x}_{2}})}^{2}}$\\n$=\\frac{{{({{x}_{1}}+{{x}_{2}})}^{2}}-2{{x}_{1}}{{x}_{2}}}{{{x}_{1}}{{x}_{2}}}-3{{({{x}_{1}}{{x}_{2}})}^{2}}$\\n$=\\frac{{{(2)}^{2}}-2.\\frac{-1}{2}}{\\frac{-1}{2}}-3.{{\\left( \\frac{-1}{2} \\right)}^{2}}=-\\frac{43}{3}$",
+        "points": 1,
+        "type": "short_answer",
+        "shortCorrect": "-10,75|-43/4"
       }
-     ],
-     "blanks": [
+    ],
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) S=2, P=−1/2: x1/x2+x2/x1=(S²−2P)/P=5/(−1/2)=−10; 3P²=3/4 ⇒ A=−43/4=−10,75. Key −43/3 sai"
+  },
+  "de1.P1.C5": {
+    "ghi_chu": "Không phương án nào đúng: gieo 2 lần một đồng xu có 4 kết quả (xanh;xanh), (xanh;đỏ), (đỏ;xanh), (đỏ;đỏ). Phương án A thiếu 2 kết quả, B thiếu 2 kết quả còn lại, C và D là không gian mẫu của một lần gieo. Kho chọn A. Nhờ thầy sửa phương án ở bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C3": {
+    "parts": [
       {
-       "id": "1",
-       "mode": "input",
-       "answers": [
-        "2"
-       ],
-       "keywords": [
-        "2"
-       ],
-       "placeholder": "hệ số a",
-       "maxLen": 12
+        "id": "a",
+        "label": "a",
+        "question": "Học sinh nữ của lớp 9C yêu thích môn thể thao nào nhất?",
+        "explanation": "Dựa vào biểu đồ, số học sinh nữ yêu thích bóng đá là 10, bóng rổ là 5, bơi là 6. Vậy môn bóng đá được yêu thích nhất.",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "bóng đá"
       },
       {
-       "id": "2",
-       "mode": "input",
-       "answers": [
-        "-4"
-       ],
-       "keywords": [
-        "-4"
-       ],
-       "placeholder": "hệ số b",
-       "maxLen": 12
-      },
-      {
-       "id": "3",
-       "mode": "input",
-       "answers": [
-        "-1"
-       ],
-       "keywords": [
-        "-1"
-       ],
-       "placeholder": "hệ số c",
-       "maxLen": 12
-      },
-      {
-       "id": "4",
-       "mode": "input",
-       "answers": [
-        "{{(-4)}^{2}}-4.2.(-1)",
-        "(-4)^2-4.2.(-1)"
-       ],
-       "keywords": [
-        "(-4)^2-4.2.(-1)",
-        "(-4)^2-4*2*(-1)"
-       ],
-       "placeholder": "biểu thức delta",
-       "maxLen": 24
-      },
-      {
-       "id": "5",
-       "mode": "input",
-       "answers": [
-        "24"
-       ],
-       "keywords": [
-        "24"
-       ],
-       "placeholder": "giá trị delta",
-       "maxLen": 12
-      },
-      {
-       "id": "6",
-       "mode": "input",
-       "answers": [
-        ">"
-       ],
-       "keywords": [
-        ">"
-       ],
-       "placeholder": "dấu so sánh",
-       "maxLen": 12
-      },
-      {
-       "id": "7",
-       "mode": "input",
-       "answers": [
-        "hai"
-       ],
-       "keywords": [
-        "hai"
-       ],
-       "placeholder": "số nghiệm",
-       "maxLen": 12
+        "id": "b",
+        "label": "b",
+        "question": "Chọn ngẫu nhiên một học sinh tham gia thi đấu thể thao của trường. Tính xác suất của biến cố sau: “Học sinh được chọn thích bóng rổ”.",
+        "explanation": "Tổng số học sinh yêu thích môn thể thao là: $12+10+4+5+5+6=42$\\n$\\Rightarrow n(\\Omega )=42$\\nTổng số học sinh yêu thích môn bóng rổ: $4+5=9$\\nXác suất của biến cố: “Học sinh được chọn thích bóng rổ” là $P=\\frac{9}{42}=\\frac{3}{14}$.",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Tổng số học sinh: $12+10+4+5+5+6=$ {{1}}",
+            "Số học sinh thích bóng rổ: $4+5=$ {{2}}",
+            "Xác suất: $P=\\dfrac{ {{3}} }{42}=$ {{4}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "42"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "9"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "9"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "3/14"
+            }
+          ]
+        }
       }
-     ],
-     "pool": [],
-     "ordered": false
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Không giải phương trình, hãy tính giá trị của $A=\\frac{{{x}_{1}}}{{{x}_{2}}}+\\frac{{{x}_{2}}}{{{x}_{1}}}-3x_{1}^{2}x_{2}^{2}$",
-    "explanation": "Theo định lí Viète: $S={{x}_{1}}+{{x}_{2}}=-\\frac{b}{a}=2$; $P={{x}_{1}}{{x}_{2}}=\\frac{c}{a}=\\frac{-1}{2}$\\n$A=\\frac{{{x}_{1}}}{{{x}_{2}}}+\\frac{{{x}_{2}}}{{{x}_{1}}}-3x_{1}^{2}x_{2}^{2}=\\frac{x_{1}^{2}+x_{2}^{2}}{{{x}_{1}}{{x}_{2}}}-3{{({{x}_{1}}{{x}_{2}})}^{2}}$\\n$=\\frac{{{({{x}_{1}}+{{x}_{2}})}^{2}}-2{{x}_{1}}{{x}_{2}}}{{{x}_{1}}{{x}_{2}}}-3{{({{x}_{1}}{{x}_{2}})}^{2}}$\\n$=\\frac{{{(2)}^{2}}-2.\\frac{-1}{2}}{\\frac{-1}{2}}-3.{{\\left( \\frac{-1}{2} \\right)}^{2}}=-\\frac{43}{3}$",
-    "points": 1,
-    "type": "short_answer",
-    "shortCorrect": "-10,75|-43/4"
-   }
-  ],
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (b) S=2, P=−1/2: x1/x2+x2/x1=(S²−2P)/P=5/(−1/2)=−10; 3P²=3/4 ⇒ A=−43/4=−10,75. Key −43/3 sai"
- }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan a: loi giai kho trich so lieu cua hoc sinh NAM (bong da 12, bong ro 4, boi 5); so dung cua hoc sinh NU tren bieu do image6.png la bong da 10, bong ro 5, boi 6. Ket luan bong da duoc nu thich nhat van dung.",
+    "xac_nhan": true
+  }
 }

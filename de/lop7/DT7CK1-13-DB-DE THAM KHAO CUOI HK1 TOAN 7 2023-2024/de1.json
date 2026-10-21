@@ -837,14 +837,14 @@
      "id": "c",
      "label": "c",
      "question": "Gọi Ax là tia phân giác của góc BAD. Tính số đo góc BAx.",
-     "explanation": "Vì a // b (chứng minh ở câu a) và AD là cát tuyến cắt a và b.\nTa có $\\widehat{BAD} + \\widehat{ADC} = 180^0$ (hai góc trong cùng phía)\n$\\widehat{BAD} + 70^0 = 180^0$\n$\\widehat{BAD} = 180^0 - 70^0 = 110^0$\nVì Ax là tia phân giác của góc BAD nên $\\widehat{BAx} = \\frac{\\widehat{BAD}}{2} = \\frac{110^0}{2} = 55^0$",
+     "explanation": "Ta có $\\widehat{BAD}$ kề bù với $\\widehat{A_1} = 70^0$ trên cát tuyến AB\n$\\widehat{BAD} = 180^0 - 70^0 = 110^0$\nVì Ax là tia phân giác của góc BAD nên $\\widehat{BAx} = \\frac{\\widehat{BAD}}{2} = \\frac{110^0}{2} = 55^0$",
      "points": 0.75,
      "type": "form_mau",
      "mau_spec": {
       "mau": "tinh_gia_tri",
       "kieu": "dong",
       "dong": [
-       "$\\widehat{BAD} + 70^0 = 180^0$ nên $\\widehat{BAD} = 180^0 - 70^0 =$ {{1}} $^0$",
+       "$\\widehat{BAD} + \\widehat{A_1} = 180^0$ (hai góc kề bù) mà $\\widehat{A_1} = 70^0$ nên $\\widehat{BAD} = 180^0 - 70^0 =$ {{1}} $^0$",
        "Vì Ax là tia phân giác nên $\\widehat{BAx} = \\dfrac{110^0}{2} =$ {{2}} $^0$"
       ],
       "o": [
@@ -873,7 +873,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   }
  ],
  "flags": []

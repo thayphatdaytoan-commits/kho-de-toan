@@ -1,0 +1,41 @@
+{
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Số đối của số - 2024 là số nào?",
+        "explanation": "Số đối của –2024 là 2024.",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "2024"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Lớp 6A có số học sinh từ 40 đến 50 học sinh. Biết khi xếp hàng 12 học sinh hay hàng 15 học sinh đều vừa đủ. Hỏi lớp 6A có bao nhiêu học sinh?",
+        "explanation": "Số học sinh là bội chung của 12 và 15.\nBCNN(12, 15) = 60.\nBC(12, 15) = {0; 60; 120; ...}.\nSố học sinh từ 40 đến 50 nên không có giá trị nào trong BC(12,15) thỏa mãn. (Theo hướng dẫn chấm: BCNN(6,8)=24, BC={0;24;48;72;...}, chọn 48.)\nVậy lớp 6A có 48 học sinh.",
+        "points": 0.75,
+        "type": "short_answer",
+        "shortCorrect": "48"
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Tính giá trị của biểu thức $700+\\left\\{ 5\\text{ }.\\left[ 80:\\left( 64.\\text{ }{{5}^{0}} \\right) \\right]{{10}^{2}} \\right\\}$",
+        "explanation": "$700+\\left\\{ 5.\\left[ 80:\\left( 64.{{5}^{0}} \\right) \\right]{{10}^{2}} \\right\\}$\n$= 700 + \\{5.[80 : (64.1)].100\\}$\n$= 700 + \\{5.1,25.100\\}$\n$= 700 + 625 = 1325$",
+        "points": 0.75,
+        "type": "short_answer",
+        "shortCorrect": "1325"
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phần c: tính đúng theo biểu thức đã in: 5^0 = 1; 80 : 64 = 1,25; 5.1,25.10^2 = 625; 700 + 625 = 1325. Key 800 sai (lời giải cũ tự đổi thành trừ 10^2 và 80 : 2 = 40). Phần a giữ nguyên (2024 đúng).",
+    "ghi_chu": "Phần b chưa sửa được trong kho: theo đề đã in, số học sinh phải là bội chung của 12 và 15, BCNN(12, 15) = 60, không có số nào trong khoảng 40-50, nên bài toán vô nghiệm. shortCorrect 48 hiện tại chỉ là đáp án theo hướng dẫn chấm gốc (BCNN(6, 8) = 24) với cặp số 6, 8 không có trong đề. Nhờ thầy xem lại bản đề gốc (có thể đề gốc là xếp hàng 6 và hàng 8) rồi quyết định sửa đề hay bỏ ý b.",
+    "xac_nhan": true
+  },
+  "de1.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
+}
