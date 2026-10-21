@@ -50,6 +50,7 @@ img.qimg{max-width:520px;max-height:340px;display:block;margin:8px auto;border:1
 .dtab th,.dtab td{border:1px solid #b9c8dc;padding:4px 10px;text-align:center;font-size:14.5px}
 .dtab th{background:#eef3fa}
 .dtab img.qimg{display:inline-block;max-height:30px;max-width:60px;margin:0 2px;vertical-align:middle;border:0}
+img.eqimg{display:inline-block;max-height:26px;max-width:140px;margin:0 2px;vertical-align:middle;border:0;border-radius:0}
 .part{margin:6px 0 6px 14px}
 button.act{background:#12406e;color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer;font-size:14px}
 button.ghost{background:#fff;color:#12406e;border:1px solid #12406e}
@@ -104,9 +105,10 @@ function rich(exam, t, inCell){
   }
   t = fixmath(t);
   t = esc(t);
-  t = t.replace(/\[\[(?:IMG|EQIMG):([^\]]+)\]\]/g,(m,n)=>{
+  t = t.replace(/\[\[(IMG|EQIMG):([^\]]+)\]\]/g,(m,kind,n)=>{
     const u = imgURL(exam,n);
-    return u? `<img class="qimg" src="${u}" alt="" onerror="this.style.display='none'">` : ' <i>[hình minh họa]</i> ';
+    const cls = kind==='EQIMG'? 'qimg eqimg':'qimg';
+    return u? `<img class="${cls}" src="${u}" alt="" onerror="this.style.display='none'">` : ' <i>[hình minh họa]</i> ';
   });
   t = t.replace(/\n/g,'<br>');
   if(!inCell){

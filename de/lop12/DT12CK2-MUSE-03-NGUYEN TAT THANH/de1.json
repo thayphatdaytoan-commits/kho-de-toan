@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "grade": "12",
+    "title": "Cuối kỳ II Toán 12 – THPT Chuyên Nguyễn Tất Thành – Quảng Ngãi – năm học 2025–2026",
+    "exam_type": "final",
+    "soan_boi": "muse",
+    "ngay_soan": "2026-10-21"
+  },
+  "questions": [
+    {
+      "section": 1,
+      "n": 1,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho hai mặt phẳng $(P): 2x-y-z-3=0$ và $(Q): x-z-2=0$. Góc giữa hai mặt phẳng $(P)$ và $(Q)$ bằng",
+      "options": [
+        "$30^{\\circ}$",
+        "$45^{\\circ}$",
+        "$60^{\\circ}$",
+        "$90^{\\circ}$"
+      ],
+      "answer": "A",
+      "explanation": "Mặt phẳng $(P)$ có vectơ pháp tuyến $n_1=(2;-1;-1)$, mặt phẳng $(Q)$ có vectơ pháp tuyến $n_2=(1;0;-1)$. Gọi $\\varphi$ là góc giữa hai mặt phẳng $(P)$ và $(Q)$, ta có $\\cos\\varphi=\\frac{|n_1\\cdot n_2|}{|n_1|\\cdot|n_2|}=\\frac{|2\\cdot 1+(-1)\\cdot 0+(-1)\\cdot(-1)|}{\\sqrt{6}\\cdot\\sqrt{2}}=\\frac{3}{\\sqrt{12}}=\\frac{\\sqrt{3}}{2}$. Vậy $\\varphi=30^{\\circ}$.",
+      "ma": "de1.P1.C1",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 2,
+      "type": "multiple_choice",
+      "text": "Hàm số nào sau đây không là một nguyên hàm của hàm số $f(x)=x^4-1$?",
+      "options": [
+        "$F(x)=\\frac{x^5}{5}-x+1$",
+        "$F(x)=\\frac{x^5}{5}-x+10$",
+        "$F(x)=\\frac{x^5}{5}-1$",
+        "$F(x)=\\frac{x^5}{5}-x-1$"
+      ],
+      "answer": "C",
+      "explanation": "Ta có $\\int(x^4-1)dx=\\frac{x^5}{5}-x+C$ nên các hàm số ở phương án A, B, D (ứng với $C=1$, $C=10$, $C=-1$) đều là nguyên hàm của $f(x)$. Với phương án C, $F(x)=\\frac{x^5}{5}-1$ có $F'(x)=x^4\\ne x^4-1$ nên $F(x)$ không là nguyên hàm của $f(x)$.",
+      "ma": "de1.P1.C2",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 3,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): (x-2)^2+(y+1)^2+(z-3)^2=9$. Tâm của $(S)$ có tọa độ là",
+      "options": [
+        "$(-4;2;-6)$",
+        "$(4;-2;6)$",
+        "$(2;-1;3)$",
+        "$(-2;1;-3)$"
+      ],
+      "answer": "C",
+      "explanation": "Mặt cầu $(S): (x-2)^2+(y+1)^2+(z-3)^2=9$ có tâm là điểm $I(2;-1;3)$ và bán kính $R=3$.",
+      "ma": "de1.P1.C3",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 4,
+      "type": "multiple_choice",
+      "text": "Cho hai hàm số $f(x)$ và $g(x)$ liên tục trên đoạn $[-2;3]$. Diện tích $S$ của hình phẳng giới hạn bởi đồ thị của hai hàm số $f(x)$, $g(x)$ và hai đường thẳng $x=-2$, $x=3$ được tính bởi công thức nào sau đây?",
+      "options": [
+        "$\\int_{-2}^{3}|f(x)+g(x)|dx$",
+        "$\\int_{-2}^{3}(f(x)-g(x))dx$",
+        "$\\int_{-2}^{3}(f(x)+g(x))dx$",
+        "$\\int_{-2}^{3}|f(x)-g(x)|dx$"
+      ],
+      "answer": "D",
+      "explanation": "Diện tích hình phẳng giới hạn bởi đồ thị của hai hàm số $f(x)$, $g(x)$ liên tục trên $[a;b]$ và hai đường thẳng $x=a$, $x=b$ được tính bởi công thức $S=\\int_{a}^{b}|f(x)-g(x)|dx$. Với $a=-2$, $b=3$ ta được công thức ở phương án D.",
+      "ma": "de1.P1.C4",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 5,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho hai đường thẳng $\\Delta$, $\\Delta'$ tương ứng có vectơ chỉ phương $u=(a;b;c)$, $u'=(a';b';c')$. Khi đó",
+      "options": [
+        "$\\sin(\\Delta,\\Delta')=\\frac{|aa'+bb'+cc'|}{\\sqrt{a^2+b^2+c^2}+\\sqrt{a'^2+b'^2+c'^2}}$",
+        "$\\sin(\\Delta,\\Delta')=\\frac{|aa'+bb'+cc'|}{\\sqrt{a^2+b^2+c^2}\\cdot\\sqrt{a'^2+b'^2+c'^2}}$",
+        "$\\cos(\\Delta,\\Delta')=\\frac{|aa'+bb'+cc'|}{\\sqrt{a^2+b^2+c^2}+\\sqrt{a'^2+b'^2+c'^2}}$",
+        "$\\cos(\\Delta,\\Delta')=\\frac{|aa'+bb'+cc'|}{\\sqrt{a^2+b^2+c^2}\\cdot\\sqrt{a'^2+b'^2+c'^2}}$"
+      ],
+      "answer": "D",
+      "explanation": "Góc giữa hai đường thẳng $\\Delta$ và $\\Delta'$ được xác định bởi $\\cos(\\Delta,\\Delta')=\\frac{|u\\cdot u'|}{|u|\\cdot|u'|}=\\frac{|aa'+bb'+cc'|}{\\sqrt{a^2+b^2+c^2}\\cdot\\sqrt{a'^2+b'^2+c'^2}}$, đúng với phương án D. Các phương án A, B dùng $\\sin$ nên sai; phương án C có mẫu số là tổng của hai căn nên sai.",
+      "ma": "de1.P1.C5",
+      "points": 0.25,
+      "muc_do": "TH"
+    },
+    {
+      "section": 1,
+      "n": 6,
+      "type": "multiple_choice",
+      "text": "Cho hai biến cố $A$, $B$ cùng liên quan đến một phép thử và $P(B)=0,8$; $P(AB)=0,36$. Tính $P(\\overline{A}|B)$",
+      "options": [
+        "$0,6$",
+        "$0,55$",
+        "$0,45$",
+        "$0,8$"
+      ],
+      "answer": "B",
+      "explanation": "Ta có $P(\\overline{A}|B)=\\frac{P(\\overline{A}B)}{P(B)}$. Vì $\\overline{A}B$ là biến cố đối của $AB$ trong $B$ nên $P(\\overline{A}B)=P(B)-P(AB)=0,8-0,36=0,44$. Do đó $P(\\overline{A}|B)=\\frac{0,44}{0,8}=0,55$.",
+      "ma": "de1.P1.C6",
+      "points": 0.25,
+      "muc_do": "TH"
+    },
+    {
+      "section": 1,
+      "n": 7,
+      "type": "multiple_choice",
+      "text": "Biết $F(x)$ và $G(x)$ là hai nguyên hàm của hàm số $f(x)$ trên đoạn $[a;b]$. Mệnh đề nào sau đây sai?",
+      "options": [
+        "$F(b)+G(a)=G(b)+F(a)$",
+        "$\\int_{a}^{b}f(x)dx=F(b)-G(a)$",
+        "$F(b)-F(a)=G(b)-G(a)$",
+        "$\\int_{a}^{b}f(x)dx=F(b)-F(a)$"
+      ],
+      "answer": "B",
+      "explanation": "Vì $F(x)$ và $G(x)$ cùng là nguyên hàm của $f(x)$ trên $[a;b]$ nên $\\int_{a}^{b}f(x)dx=F(b)-F(a)=G(b)-G(a)$. Từ đó $F(b)+G(a)=G(b)+F(a)$ nên A đúng; C và D đúng theo định nghĩa. Phương án B viết $\\int_{a}^{b}f(x)dx=F(b)-G(a)$ là sai (vế phải phải là $F(b)-F(a)$).",
+      "ma": "de1.P1.C7",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 8,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho điểm $M(x_0;y_0;z_0)$ và mặt phẳng $(P): 2x+3y-5z+7=0$. Khoảng cách từ điểm $M$ đến mặt phẳng $(P)$ được tính bởi công thức nào sau đây?",
+      "options": [
+        "$d(M,(P))=\\frac{|2x_0+3y_0-5z_0+7|}{\\sqrt{2^2+3^2+(-5)^2}}$",
+        "$d(M,(P))=|2x_0+3y_0-5z_0+7|$",
+        "$d(M,(P))=|2x_0+3y_0-5z_0|$",
+        "$d(M,(P))=\\frac{|2x_0+3y_0-5z_0|}{\\sqrt{2^2+3^2+(-5)^2}}$"
+      ],
+      "answer": "A",
+      "explanation": "Khoảng cách từ điểm $M(x_0;y_0;z_0)$ đến mặt phẳng $(P): 2x+3y-5z+7=0$ là $d(M,(P))=\\frac{|2x_0+3y_0-5z_0+7|}{\\sqrt{2^2+3^2+(-5)^2}}$, đúng với phương án A. Phương án D thiếu số hạng $+7$ ở tử số; các phương án B, C thiếu mẫu số.",
+      "ma": "de1.P1.C8",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 9,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x-3}{3}=\\frac{y-6}{2}=\\frac{z+9}{-1}$. Điểm nào dưới đây thuộc $d$?",
+      "options": [
+        "$P(3;2;-1)$",
+        "$M(3;6;9)$",
+        "$Q(3;2;1)$",
+        "$N(3;6;-9)$"
+      ],
+      "answer": "D",
+      "explanation": "Thay tọa độ điểm $N(3;6;-9)$ vào phương trình đường thẳng $d$: $\\frac{3-3}{3}=\\frac{6-6}{2}=\\frac{-9+9}{-1}=0$ nên $N$ thuộc $d$. Thay tọa độ các điểm $P$, $M$, $Q$ vào đều không thỏa mãn đồng thời cả ba tỉ số.",
+      "ma": "de1.P1.C9",
+      "points": 0.25,
+      "muc_do": "NB"
+    },
+    {
+      "section": 1,
+      "n": 10,
+      "type": "multiple_choice",
+      "text": "Cho hai biến cố $A$, $B$ cùng liên quan đến một phép thử. Từ sơ đồ cây ở hình bên, hãy tính $P(B)$.\n\n[[IMG:image1.png]]",
+      "options": [
+        "$0,48$",
+        "$0,9$",
+        "$0,52$",
+        "$0,1$"
+      ],
+      "answer": "A",
+      "explanation": "Từ sơ đồ cây: $P(A)=0,8$, $P(\\overline{A})=0,2$, $P(B|A)=0,5$, $P(B|\\overline{A})=0,4$. Theo công thức xác suất toàn phần, $P(B)=P(A)\\cdot P(B|A)+P(\\overline{A})\\cdot P(B|\\overline{A})=0,8\\cdot 0,5+0,2\\cdot 0,4=0,48$.",
+      "ma": "de1.P1.C10",
+      "points": 0.25,
+      "muc_do": "NB",
+      "images": [
+        "image1.png"
+      ]
+    },
+    {
+      "section": 1,
+      "n": 11,
+      "type": "multiple_choice",
+      "text": "Cho hai biến cố $A$, $B$ cùng liên quan đến một phép thử và $P(B)\\ne 0$. Chọn mệnh đề đúng trong các mệnh đề sau.",
+      "options": [
+        "$P(A|B)=\\frac{P(A)}{P(B)}$",
+        "$P(A|B)=\\frac{P(AB)}{P(B)}$",
+        "$P(A|B)=\\frac{P(A\\cup B)}{P(B)}$",
+        "$P(A|B)=\\frac{P(B)}{P(A)}$"
+      ],
+      "answer": "B",
+      "explanation": "Theo định nghĩa xác suất có điều kiện, với $P(B)\\ne 0$ ta có $P(A|B)=\\frac{P(AB)}{P(B)}$, đúng với phương án B.",
+      "ma": "de1.P1.C11",
+      "points": 0.25,
+      "muc_do": "TH"
+    },
+    {
+      "section": 1,
+      "n": 12,
+      "type": "multiple_choice",
+      "text": "Trong không gian $Oxyz$, cho đường thẳng $d$ đi qua điểm $M(2;-2;4)$ và có một vectơ chỉ phương $u=(-2;4;5)$. Phương trình tham số của $d$ là",
+      "options": [
+        "$\\begin{cases}x=1-2t\\\\y=-1+4t\\\\z=2+5t\\end{cases}$",
+        "$\\begin{cases}x=-2+2t\\\\y=4-2t\\\\z=5+4t\\end{cases}$",
+        "$\\begin{cases}x=2-2t\\\\y=-2+4t\\\\z=4+5t\\end{cases}$",
+        "$\\begin{cases}x=2+2t\\\\y=-2+4t\\\\z=4+5t\\end{cases}$"
+      ],
+      "answer": "C",
+      "explanation": "Đường thẳng $d$ đi qua điểm $M(2;-2;4)$ và có vectơ chỉ phương $u=(-2;4;5)$ nên có phương trình tham số là $\\begin{cases}x=2-2t\\\\y=-2+4t\\\\z=4+5t\\end{cases}$ $(t\\in\\mathbb{R})$, đúng với phương án C.",
+      "ma": "de1.P1.C12",
+      "points": 0.25,
+      "muc_do": "TH"
+    },
+    {
+      "section": 2,
+      "n": 1,
+      "type": "true_false_group",
+      "text": "Cho $(C)$ là đồ thị của hàm số $f(x)=x^2-4$ và $(H)$ là hình phẳng giới hạn bởi trục tung, trục hoành và $(d): y=2-x$.",
+      "tf": {
+        "a": "$x^3-4x$ là một nguyên hàm của $f(x)$.",
+        "b": "Diện tích của hình $(H)$ bằng $\\int_{0}^{2}(2-x)dx$.",
+        "c": "$(d)$ cắt $(C)$ tại hai điểm có hoành độ lần lượt là $-1$ và $2$.",
+        "d": "Diện tích hình phẳng giới hạn bởi $(C)$ và $(d)$ bằng $\\int_{-3}^{2}|(2-x)-(x^2-4)|dx$."
+      },
+      "tf_ans": {
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": true
+      },
+      "explanation": "a) Ta có $(x^3-4x)'=3x^2-4\\ne x^2-4$ nên $x^3-4x$ không là nguyên hàm của $f(x)$ (nguyên hàm của $f(x)$ là $\\frac{x^3}{3}-4x+C$). Vậy a) sai. b) Hình $(H)$ giới hạn bởi trục tung $(x=0)$, trục hoành $(y=0)$ và đường thẳng $(d): y=2-x$ là tam giác có các đỉnh $(0;0)$, $(2;0)$, $(0;2)$ nên diện tích của $(H)$ bằng $\\int_{0}^{2}(2-x)dx=2$. Vậy b) đúng. c) Hoành độ giao điểm của $(d)$ và $(C)$ là nghiệm của phương trình $x^2-4=2-x\\Leftrightarrow x^2+x-6=0\\Leftrightarrow x=-3$ hoặc $x=2$. Vậy hai hoành độ giao điểm là $-3$ và $2$, không phải $-1$ và $2$ nên c) sai. d) Vì $(C)$ và $(d)$ cắt nhau tại hai điểm có hoành độ $-3$ và $2$ nên diện tích hình phẳng giới hạn bởi $(C)$ và $(d)$ bằng $\\int_{-3}^{2}|(2-x)-(x^2-4)|dx$ $(=\\frac{125}{6})$. Vậy d) đúng.",
+      "ma": "de1.P2.C1",
+      "points": 1,
+      "muc_do": "TH"
+    },
+    {
+      "section": 2,
+      "n": 2,
+      "type": "true_false_group",
+      "text": "Trong không gian $Oxyz$, cho điểm $A(1;1;0)$, đường thẳng $d: \\frac{x}{1}=\\frac{y-1}{-1}=\\frac{z-1}{1}$ và mặt phẳng $(P): x+y-z+2=0$.",
+      "tf": {
+        "a": "Một vectơ chỉ phương của đường thẳng $d$ là $u=(1;-1;1)$.",
+        "b": "Đường thẳng $d$ và mặt phẳng $(P)$ song song với nhau.",
+        "c": "Đường thẳng $\\Delta$ đi qua điểm $A$ và vuông góc với mặt phẳng $(P)$ có phương trình tham số là $\\begin{cases}x=1+t\\\\y=1+t\\\\z=-t\\end{cases}$ $(t\\in\\mathbb{R})$.",
+        "d": "Xét điểm $M(a;b;c)$ thuộc đường thẳng $d$ với $a>0$; gọi $A$, $B$, $C$ lần lượt là hình chiếu vuông góc của $M$ trên các trục $Ox$, $Oy$, $Oz$ và $E$, $F$, $K$ lần lượt là hình chiếu vuông góc của $M$ trên các mặt phẳng $(Oxy)$, $(Oyz)$, $(Oxz)$. Khi $O, A, E, B, C, K, M, F$ là tám đỉnh của khối hộp chữ nhật có thể tích bằng $120$ thì $a^2+b^2+c=57$."
+      },
+      "tf_ans": {
+        "a": true,
+        "b": false,
+        "c": true,
+        "d": false
+      },
+      "explanation": "a) Từ phương trình chính tắc của $d$, một vectơ chỉ phương của $d$ là $u=(1;-1;1)$. Vậy a) đúng. b) Mặt phẳng $(P)$ có vectơ pháp tuyến $n=(1;1;-1)$. Ta có $u\\cdot n=1\\cdot 1+(-1)\\cdot 1+1\\cdot(-1)=-1\\ne 0$ nên $d$ không song song với $(P)$ (đường thẳng $d$ cắt mặt phẳng $(P)$). Vậy b) sai. c) Đường thẳng $\\Delta$ vuông góc với $(P)$ nên nhận $n=(1;1;-1)$ làm vectơ chỉ phương. Đường thẳng $\\Delta$ đi qua $A(1;1;0)$ nên có phương trình tham số là $\\begin{cases}x=1+t\\\\y=1+t\\\\z=-t\\end{cases}$ $(t\\in\\mathbb{R})$. Vậy c) đúng. d) Điểm $M(a;b;c)$ thuộc $d$ nên $M(t;1-t;1+t)$ với $t\\in\\mathbb{R}$. Các hình chiếu của $M$ lên các trục tọa độ và các mặt phẳng tọa độ cùng với gốc tọa độ $O$ tạo thành khối hộp chữ nhật có ba kích thước là $|a|$, $|b|$, $|c|$ nên thể tích của khối hộp là $V=|abc|=|t(1-t)(1+t)|$. Theo giả thiết $V=120$, tức $|t(1-t^2)|=120$, giải ra $t=5$ hoặc $t=-5$. Vì $a=t>0$ nên chọn $t=5$, tức $M(5;-4;6)$, khi đó $a^2+b^2+c=25+16+6=47\\ne 57$. Vậy d) sai. (Giá trị $57$ ứng với điểm $M(-5;6;-4)$ có hoành độ âm nên bị loại.)",
+      "ma": "de1.P2.C2",
+      "points": 1,
+      "muc_do": "TH"
+    },
+    {
+      "section": 2,
+      "n": 3,
+      "type": "true_false_group",
+      "text": "Trong không gian $Oxyz$, cho mặt cầu $(S): x^2+y^2+z^2+4x-2z-8=0$ có tâm $I$.",
+      "tf": {
+        "a": "Bán kính của mặt cầu $(S)$ bằng $\\sqrt{69}$.",
+        "b": "Gọi $B$ là giao điểm của tia $Oz$ và mặt cầu $(S)$ thì cao độ của điểm $B$ lớn hơn $3,5$.",
+        "c": "Mặt cầu $(S)$ cắt mặt phẳng $(P): x+2y-2z-11=0$ theo giao tuyến là một đường tròn.",
+        "d": "Mặt cầu $(S)$ cắt mặt phẳng $(Oxy)$ theo giao tuyến là một đường tròn có bán kính $r=\\sqrt{11}$."
+      },
+      "tf_ans": {
+        "a": false,
+        "b": true,
+        "c": false,
+        "d": false
+      },
+      "explanation": "Viết lại phương trình mặt cầu: $(S): (x+2)^2+y^2+(z-1)^2=13$ nên $(S)$ có tâm $I(-2;0;1)$ và bán kính $R=\\sqrt{13}$. a) Bán kính của $(S)$ bằng $\\sqrt{13}\\ne\\sqrt{69}$ nên a) sai. b) Giao điểm của tia $Oz$ $(x=0, y=0, z\\ge 0)$ với $(S)$ thỏa mãn $z^2-2z-8=0$, cho $z=4$ (nhận) hoặc $z=-2$ (loại vì không thuộc tia $Oz$). Vậy $B(0;0;4)$ có cao độ bằng $4>3,5$ nên b) đúng. c) Khoảng cách từ tâm $I$ đến mặt phẳng $(P)$ là $d(I,(P))=\\frac{|-2+2\\cdot 0-2\\cdot 1-11|}{\\sqrt{1^2+2^2+(-2)^2}}=\\frac{15}{3}=5$. Vì $d(I,(P))=5>\\sqrt{13}=R$ nên mặt phẳng $(P)$ không cắt mặt cầu $(S)$. Vậy c) sai. d) Thay $z=0$ vào phương trình $(S)$ ta được $x^2+y^2+4x-8=0$, tức $(x+2)^2+y^2=12$. Đây là đường tròn có bán kính $r=\\sqrt{12}=2\\sqrt{3}\\ne\\sqrt{11}$ nên d) sai.",
+      "ma": "de1.P2.C3",
+      "points": 1,
+      "muc_do": "TH"
+    },
+    {
+      "section": 2,
+      "n": 4,
+      "type": "true_false_group",
+      "text": "Một hộp có 10 viên kẹo màu vàng và 15 viên kẹo màu đỏ (các viên kẹo có hình dạng, kích thước và khối lượng như nhau). Bạn Kiên lấy ngẫu nhiên một viên kẹo bất kì trong hộp đó (không trả lại). Sau đó bạn Nam lấy ngẫu nhiên cùng lúc hai viên kẹo trong số những viên kẹo còn lại. Gọi $K$: “Kiên lấy được kẹo màu vàng” và $N$: “Nam lấy được hai viên kẹo cùng màu đỏ”.",
+      "tf": {
+        "a": "$P(K)=\\frac{10}{15}$.",
+        "b": "$P(N|K)=\\frac{C_{15}^{2}}{C_{25}^{2}}$.",
+        "c": "$P(N|\\overline{K})=\\frac{15}{25}\\cdot\\frac{C_{14}^{2}}{C_{24}^{2}}$.",
+        "d": "$P(K|N)=\\frac{10}{23}$."
+      },
+      "tf_ans": {
+        "a": false,
+        "b": false,
+        "c": false,
+        "d": true
+      },
+      "explanation": "Hộp có tất cả $10+15=25$ viên kẹo. a) $P(K)=\\frac{10}{25}=\\frac{2}{5}\\ne\\frac{10}{15}$ nên a) sai. b) Nếu Kiên lấy được kẹo màu vàng thì trong hộp còn $24$ viên, trong đó có $15$ viên đỏ. Nam lấy cùng lúc hai viên nên $P(N|K)=\\frac{C_{15}^{2}}{C_{24}^{2}}$. Khẳng định có mẫu số $C_{25}^{2}$ nên b) sai. c) Nếu Kiên không lấy được kẹo màu vàng (tức lấy được kẹo đỏ) thì trong hộp còn $24$ viên, trong đó có $14$ viên đỏ, nên $P(N|\\overline{K})=\\frac{C_{14}^{2}}{C_{24}^{2}}$. Khẳng định ở ý c) đã nhân thêm thừa số $\\frac{15}{25}$ (thừa số này làm cho vế trái thành $P(\\overline{K})\\cdot P(N|\\overline{K})=P(N\\cap\\overline{K})$) nên c) sai. d) Ta có $P(N|K)=\\frac{C_{15}^{2}}{C_{24}^{2}}=\\frac{105}{276}$ và $P(N|\\overline{K})=\\frac{C_{14}^{2}}{C_{24}^{2}}=\\frac{91}{276}$. Theo công thức xác suất toàn phần, $P(N)=P(K)\\cdot P(N|K)+P(\\overline{K})\\cdot P(N|\\overline{K})=\\frac{10}{25}\\cdot\\frac{105}{276}+\\frac{15}{25}\\cdot\\frac{91}{276}=\\frac{2415}{6900}=\\frac{7}{20}$. Theo công thức Bayes, $P(K|N)=\\frac{P(K)\\cdot P(N|K)}{P(N)}=\\frac{\\frac{10}{25}\\cdot\\frac{105}{276}}{\\frac{7}{20}}=\\frac{10}{23}$. Vậy d) đúng.",
+      "ma": "de1.P2.C4",
+      "points": 1,
+      "muc_do": "TH"
+    },
+    {
+      "section": 3,
+      "n": 1,
+      "type": "short_answer",
+      "text": "Cho biết nếu hàm số $f(x)$ liên tục trên đoạn $[a;b]$ thì $\\frac{1}{b-a}\\int_{a}^{b}f(x)dx$ là giá trị trung bình của $f(x)$ trên đoạn $[a;b]$. Gọi $M$ là tổng tất cả các giá trị dương của $b$ để giá trị trung bình của hàm số $3x^2-12x$ trên đoạn $[0;b]$ bằng $-2$. Tìm $M$.",
+      "answer": "6",
+      "explanation": "Giá trị trung bình của hàm số $3x^2-12x$ trên đoạn $[0;b]$ $(b>0)$ là $\\frac{1}{b}\\int_{0}^{b}(3x^2-12x)dx=\\frac{1}{b}[x^3-6x^2]_{0}^{b}=\\frac{b^3-6b^2}{b}=b^2-6b$. Theo giả thiết $b^2-6b=-2\\Leftrightarrow b^2-6b+2=0\\Leftrightarrow b=3-\\sqrt{7}$ hoặc $b=3+\\sqrt{7}$. Cả hai giá trị đều dương nên $M=(3-\\sqrt{7})+(3+\\sqrt{7})=6$.",
+      "ma": "de1.P3.C1",
+      "points": 0.5,
+      "muc_do": "VD"
+    },
+    {
+      "section": 3,
+      "n": 2,
+      "type": "short_answer",
+      "text": "Một viên gạch hình vuông cạnh 10 dm có trang trí và sơn màu hồng ở phần tô đậm như hình 1. Hình 2 là bản vẽ thiết kế viên gạch đó trong hệ tọa độ $Oxy$ với một đơn vị của mỗi trục ứng với 1 dm, $O$ là tâm hình vuông, các trục tọa độ lần lượt song song với các cạnh của hình vuông. Lúc này, mỗi hình $(C_1)$, $(C_2)$, $(C_3)$, $(C_4)$ là một phần của một trong hai đường hypebol $y=-\\frac{5}{x}$, $y=\\frac{5}{x}$. Diện tích phần sơn màu hồng là bao nhiêu $dm^2$ (làm tròn kết quả đến hàng phần mười)?\n\n[[IMG:image2.png]]\n\n[[IMG:image3.png]]",
+      "answer": "52,2",
+      "explanation": "Trong hệ tọa độ đã cho, viên gạch là hình vuông $[-5;5]\\times[-5;5]$ có diện tích $100$ $dm^2$. Phần không sơn màu hồng gồm bốn phần bằng nhau ở bốn góc (do tính đối xứng của hình qua hai trục tọa độ). Xét phần ở góc phần tư thứ nhất: nó giới hạn bởi đường hypebol $y=\\frac{5}{x}$, đường thẳng $y=5$ và đường thẳng $x=5$. Đường hypebol $y=\\frac{5}{x}$ cắt đường thẳng $y=5$ tại điểm có hoành độ $x=1$ nên diện tích phần này bằng $\\int_{1}^{5}(5-\\frac{5}{x})dx=[5x-5\\ln|x|]_{1}^{5}=20-5\\ln 5$. Diện tích phần không sơn màu hồng là $4(20-5\\ln 5)=80-20\\ln 5$. Vậy diện tích phần sơn màu hồng là $100-(80-20\\ln 5)=20+20\\ln 5\\approx 52,2$ $dm^2$.",
+      "ma": "de1.P3.C2",
+      "points": 0.5,
+      "muc_do": "VD",
+      "images": [
+        "image2.png",
+        "image3.png"
+      ]
+    },
+    {
+      "section": 3,
+      "n": 3,
+      "type": "short_answer",
+      "text": "Trong một khoảng thời gian nhất định và trên một hệ thống theo dõi có gắn hệ trục tọa độ $Oxyz$ (đơn vị trên mỗi trục là ki lô mét, mặt phẳng $(Oxy)$ được đặt trên mặt đất), một chiếc xe tải vận chuyển hàng chuyển động thẳng đều trên mặt đất và một drone giao hàng di chuyển đều trên không trung theo một đường thẳng $(d)$ có vectơ chỉ phương $u=(450;200;-3)$ (drone là thiết bị bay không người lái). Tại thời điểm ban đầu $(t=0)$, xe tải ở vị trí $A$ và drone ở vị trí $B(-1,503;1,169;0,0581)$. Tại thời điểm $t$ (giờ), xe tải ở vị trí có tọa độ là $(36t;27t;0)$. Cho biết gói hàng được drone thả rơi tự do theo phương thẳng đứng với thời gian rơi không đáng kể. Để gói hàng được thả chính xác xuống xe tải (xem hình minh họa) thì vận tốc di chuyển của drone là bao nhiêu ki lô mét/giờ (làm tròn kết quả đến hàng phần mười)?\n\n[[IMG:image4.png]]",
+      "answer": "49,2",
+      "explanation": "Gọi $v$ (km/h) là vận tốc di chuyển của drone. Vì drone chuyển động đều theo đường thẳng $(d)$ có vectơ chỉ phương $u=(450;200;-3)$ nên tồn tại hằng số $k>0$ sao cho tại thời điểm $t$ (giờ), vị trí của drone là $(-1,503+450kt; 1,169+200kt; 0,0581-3kt)$ và $v=k\\cdot|u|=k\\sqrt{450^2+200^2+(-3)^2}=k\\sqrt{242509}$. Gói hàng được thả rơi tự do theo phương thẳng đứng nên để gói hàng rơi trúng xe tải, hình chiếu vuông góc của drone xuống mặt đất (mặt phẳng $(Oxy)$) tại thời điểm thả phải trùng với vị trí của xe tải tại thời điểm đó, tức là: $-1,503+450kt=36t$ và $1,169+200kt=27t$. Suy ra $t(450k-36)=1,503$ và $t(200k-27)=-1,169$. Lập tỉ số hai phương trình, ta được $\\frac{450k-36}{200k-27}=\\frac{1,503}{-1,169}$, giải ra $k=0,1$ (khi đó $t=0,167$ giờ, thỏa mãn cả hai phương trình). Vậy vận tốc của drone là $v=0,1\\cdot\\sqrt{242509}\\approx 49,2$ km/h.",
+      "ma": "de1.P3.C3",
+      "points": 0.5,
+      "muc_do": "VDC",
+      "images": [
+        "image4.png"
+      ]
+    },
+    {
+      "section": 3,
+      "n": 4,
+      "type": "short_answer",
+      "text": "Một con chuột bị mắc kẹt trong một căn phòng với ba đường hầm dẫn ra bên ngoài, ta ký hiệu là A, B, C. Ba đường hầm nhìn hoàn toàn giống nhau nên con chuột chọn ngẫu nhiên một hầm để đi. +) Nếu chọn đường hầm A thì chuột thoát ra ngoài an toàn. +) Nếu chọn đường hầm B thì chuột chắc chắn bị mắc bẫy. +) Nếu chọn đường hầm C thì do có một con mèo canh giữ nên chuột chỉ có $60\\%$ khả năng thoát ra ngoài an toàn. Xác suất để con chuột thoát ra ngoài an toàn là số được viết dưới dạng phân số tối giản $\\frac{a}{b}$. Tìm tổng $a+b$.",
+      "answer": "23",
+      "explanation": "Con chuột chọn ngẫu nhiên một trong ba đường hầm nên xác suất chọn mỗi đường hầm đều bằng $\\frac{1}{3}$. Theo công thức xác suất toàn phần, xác suất để chuột thoát ra ngoài an toàn là $\\frac{1}{3}\\cdot 1+\\frac{1}{3}\\cdot 0+\\frac{1}{3}\\cdot 60\\%=\\frac{1,6}{3}=\\frac{8}{15}$. Phân số tối giản là $\\frac{a}{b}=\\frac{8}{15}$ nên $a+b=8+15=23$.",
+      "ma": "de1.P3.C4",
+      "points": 0.5,
+      "muc_do": "VDC"
+    },
+    {
+      "section": 4,
+      "n": 1,
+      "type": "essay",
+      "text": "Trong không gian $Oxyz$, cho hai điểm $A(0;-1;1)$, $B(-1;-3;0)$ và mặt phẳng $(P): x-2y-z+3=0$. Viết phương trình tham số của đường thẳng $AB$ và tìm tọa độ giao điểm của đường thẳng $AB$ với mặt phẳng $(P)$.",
+      "answer": "Đường thẳng $AB$ có phương trình tham số $\\begin{cases}x=-t\\\\y=-1-2t\\\\z=1-t\\end{cases}$ $(t\\in\\mathbb{R})$; giao điểm của $AB$ với $(P)$ là điểm $(1;1;2)$.",
+      "explanation": "Đường thẳng $AB$ đi qua điểm $A(0;-1;1)$ và có một vectơ chỉ phương là $(-1;-2;-1)$ (tọa độ của vectơ $AB$) nên có phương trình tham số là $\\begin{cases}x=-t\\\\y=-1-2t\\\\z=1-t\\end{cases}$ $(t\\in\\mathbb{R})$ (0,25 điểm). Gọi $M$ là giao điểm của đường thẳng $AB$ với mặt phẳng $(P)$. Vì $M$ thuộc $AB$ nên $M(-t;-1-2t;1-t)$; vì $M$ thuộc $(P)$ nên $-t-2(-1-2t)-(1-t)+3=0\\Leftrightarrow 4t+4=0\\Leftrightarrow t=-1$. Suy ra $M(1;1;2)$. Vậy giao điểm của đường thẳng $AB$ với mặt phẳng $(P)$ là điểm $(1;1;2)$ (0,25 điểm).",
+      "ma": "de1.P4.C1",
+      "points": 0.5,
+      "muc_do": "TH"
+    },
+    {
+      "section": 4,
+      "n": 2,
+      "type": "essay",
+      "text": "Bạn Thắng tham gia một trò chơi. Thắng được tung liên tiếp ba lần một đồng xu cân đối, đồng chất. Nếu đồng xu xuất hiện mặt ngửa Thắng được thưởng 50 điểm, ngược lại Thắng được thưởng 10 điểm. Tính xác suất để Thắng được ít nhất 80 điểm, biết rằng trong ba lần tung có ít nhất một lần xuất hiện mặt sấp.",
+      "answer": "$\\frac{3}{7}$",
+      "explanation": "Gọi $k$ là số lần xuất hiện mặt ngửa trong ba lần tung. Số điểm Thắng nhận được là $50k+10(3-k)=40k+30$. Thắng được ít nhất $80$ điểm khi $40k+30\\ge 80\\Leftrightarrow k\\ge 1,25$, tức $k\\ge 2$. Mặt khác, biết rằng trong ba lần tung có ít nhất một lần xuất hiện mặt sấp nên $k\\le 2$. Vậy điều kiện cần tìm tương đương với $k=2$, tức có đúng hai lần tung được mặt ngửa. Ba lần tung đồng xu có $2^3=8$ kết quả đồng khả năng. Loại kết quả cả ba lần đều là mặt ngửa (không có lần nào xuất hiện mặt sấp), còn lại $7$ kết quả: SNN, NSN, NNS, SSN, SNS, NSS, SSS (S là mặt sấp, N là mặt ngửa). Trong đó có $3$ kết quả để Thắng được ít nhất $80$ điểm là SNN, NSN, NNS. Vậy xác suất cần tìm là $\\frac{3}{7}$.",
+      "ma": "de1.P4.C2",
+      "points": 0.5,
+      "muc_do": "VD"
+    }
+  ],
+  "sections": {
+    "1": 12,
+    "2": 4,
+    "3": 4,
+    "4": 2
+  }
+}
