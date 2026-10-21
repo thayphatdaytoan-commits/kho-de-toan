@@ -1,14 +1,200 @@
 {
- "de1.P1.C6": {
-  "options": [
-   "-17,90",
-   "-17,859",
-   "-17,86",
-   "-17,8590"
-  ],
-  "answer": "B",
-  "sua_boi": "muse",
-  "ly_do": "Làm tròn -17,85896 đến hàng phần nghìn được -17,859 (phương án B, trị số của key đúng), nhưng cả 4 phương án đều bị mất dấu trừ khi nhập liệu. Đã khôi phục dấu trừ cho cả 4 phương án, giữ nguyên đáp án B.",
-  "xac_nhan": true
- }
+  "de1.P1.C6": {
+    "options": [
+      "-17,90",
+      "-17,859",
+      "-17,86",
+      "-17,8590"
+    ],
+    "answer": "B",
+    "sua_boi": "muse",
+    "ly_do": "Làm tròn -17,85896 đến hàng phần nghìn được -17,859 (phương án B, trị số của key đúng), nhưng cả 4 phương án đều bị mất dấu trừ khi nhập liệu. Đã khôi phục dấu trừ cho cả 4 phương án, giữ nguyên đáp án B.",
+    "xac_nhan": true
+  },
+  "de1.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh: x // y",
+        "explanation": "Ta có: ${{\\widehat{A}}_{1}}={{\\widehat{B}}_{1}}={{130}^{\\circ }}$ mà 2 góc này ở vị trí so le trong\nVậy x // y",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Ta có: {{1}} = {{2}} = {{3}} ({{4}})"
+              ],
+              "hint": "Chỉ ra hai góc bằng nhau"
+            },
+            {
+              "lines": [
+                "Mà hai góc này ở vị trí {{5}}"
+              ],
+              "hint": "Xác định vị trí hai góc"
+            },
+            {
+              "lines": [
+                "Vậy {{6}} // {{7}} (dấu hiệu nhận biết)"
+              ],
+              "hint": "Kết luận hai đường thẳng song song"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "drag",
+              "answers": [
+                "\\widehat{A}_1",
+                "\\widehat{A}_{1}",
+                "A_1"
+              ],
+              "keywords": [],
+              "placeholder": "tên góc",
+              "maxLen": 14
+            },
+            {
+              "id": "2",
+              "mode": "drag",
+              "answers": [
+                "\\widehat{B}_1",
+                "\\widehat{B}_{1}",
+                "B_1"
+              ],
+              "keywords": [
+                "\\widehat{B}_1",
+                "B_1"
+              ],
+              "placeholder": "tên góc",
+              "maxLen": 14
+            },
+            {
+              "id": "3",
+              "mode": "drag",
+              "answers": [
+                "130^\\circ",
+                "130^{\\circ}",
+                "130°"
+              ],
+              "keywords": [],
+              "placeholder": "số đo góc",
+              "maxLen": 12
+            },
+            {
+              "id": "4",
+              "mode": "both",
+              "answers": [
+                "giả thiết",
+                "gt"
+              ],
+              "keywords": [
+                "giả thiết",
+                "gt"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 12
+            },
+            {
+              "id": "5",
+              "mode": "input",
+              "answers": [
+                "so le trong"
+              ],
+              "keywords": [
+                "so le trong"
+              ],
+              "placeholder": "vị trí góc",
+              "maxLen": 16
+            },
+            {
+              "id": "6",
+              "mode": "drag",
+              "answers": [
+                "x"
+              ],
+              "keywords": [],
+              "placeholder": "đường thẳng",
+              "maxLen": 12
+            },
+            {
+              "id": "7",
+              "mode": "drag",
+              "answers": [
+                "y"
+              ],
+              "keywords": [],
+              "placeholder": "đường thẳng",
+              "maxLen": 12
+            }
+          ],
+          "pool": [
+            "\\widehat{A}_1",
+            "\\widehat{B}_2",
+            "130^\\circ",
+            "giả thiết",
+            "x",
+            "y",
+            "\\widehat{B}_1",
+            "\\widehat{A}_2",
+            "50^\\circ",
+            "đồng vị",
+            "trong cùng phía",
+            "z"
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Cho ${{\\widehat{C}}_{1}}={{100}^{\\circ }}$. Tính ${{\\widehat{D}}_{1}};\\,\\text{  }{{\\widehat{D}}_{2}}$.",
+        "explanation": "Ta có x // y (cmt) nên ${{\\widehat{D}}_{1}}={{\\widehat{C}}_{1}}={{100}^{\\circ }}$(2 góc so le trong)\n${{\\widehat{D}}_{2}}={{\\widehat{D}}_{1}}={{100}^{\\circ }}$(2 góc đối đỉnh)",
+        "points": 0.75,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$\\widehat{D}_1 =$ {{1}}° ; $\\widehat{D}_2 =$ {{2}}°"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "100"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "100"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Biết Cz là tia phân giác của $\\widehat{mCD}$. Tính \\[`{{\\widehat{\\text{C}}}_{2}}\\]",
+        "explanation": "Ta có $\\widehat{mCD}$và ${{\\widehat{\\text{C}}}_{2}}$ là hai góc kề bù nên: $\\begin{aligned} & \\widehat{mCD}+{{\\widehat{\\text{C}}}_{2}}={{180}^{\\circ }} \\ & \\Rightarrow \\widehat{mCD}+{{100}^{\\circ }}={{180}^{\\circ }} \\ & \\Rightarrow \\widehat{mCD}={{180}^{\\circ }}-{{100}^{\\circ }} \\ & \\Rightarrow \\widehat{mCD}={{80}^{\\circ }} \\end{aligned}$\nVì Cz là tia phân giác của $\\widehat{mCD}$nên:${{\\widehat{\\text{C}}}_{2}}={{\\widehat{\\text{C}}}_{3}}=\\frac{\\widehat{mCD}}{2}=\\frac{{{80}^{\\circ }}}{2}={{40}^{\\circ }}$",
+        "points": 0.75,
+        "type": "short_answer",
+        "shortCorrect": "${{\\widehat{\\text{C}}}_{2}}={{40}^{\\circ }}$"
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan a: tren hinh image13.png, goc 130 do tai B chinh la B1 (nhan 1 ngay tai goc do), khong phai B2. Sua o dien so 2 va loi giai; ket luan x // y van dung.",
+    "xac_nhan": true
+  }
 }

@@ -1,106 +1,114 @@
 {
- "de1.P7.C1": {
-  "mau_spec": {
-   "mau": "dap_so",
-   "kieu": "dong",
-   "dong": [
-    "$x =$ {{1}}"
-   ],
-   "o": [
-    {
-     "id": "1",
-     "loai": "so",
-     "dap_an": "-1"
-    }
-   ]
+  "de1.P7.C1": {
+    "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+        "$x =$ {{1}}"
+      ],
+      "o": [
+        {
+          "id": "1",
+          "loai": "so",
+          "dap_an": "-1"
+        }
+      ]
+    },
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 23/4 + (1/4):x = 11/2 ⇒ (1/4):x = −1/4 ⇒ x = −1 (key 1 sai dấu)."
   },
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 23/4 + (1/4):x = 11/2 ⇒ (1/4):x = −1/4 ⇒ x = −1 (key 1 sai dấu)."
- },
- "de1.P1.C7": {
-  "ghi_chu": "Câu hỏi khẳng định sai về hình hộp chữ nhật nhưng có tới 3 khẳng định sai: B (các mặt không phải hình vuông), C (hình hộp có 12 cạnh, không phải 8), D (có 8 đỉnh, không phải 12). Khẳng định A (4 đường chéo) lại đúng mà kho đang chọn A. Đáp án không duy nhất và key sai; nhờ thầy sửa lại câu hỏi/phương án ở bản đề gốc.",
-  "sua_boi": "muse"
- },
- "de1.P4.C2": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "Tính thể tích của hồ bơi.",
-    "explanation": "Thể tích của hồ bơi là:\nV = 12.5.3 = 180 ( m3)",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "Thể tích hồ bơi: $V = 12\\cdot 5\\cdot 3$",
-      "$= $ {{1}} $\\cdot 3$",
-      "$=$ {{2}} (m$^3$)"
-     ],
-     "o": [
+  "de1.P1.C7": {
+    "ghi_chu": "Câu hỏi khẳng định sai về hình hộp chữ nhật nhưng có tới 3 khẳng định sai: B (các mặt không phải hình vuông), C (hình hộp có 12 cạnh, không phải 8), D (có 8 đỉnh, không phải 12). Khẳng định A (4 đường chéo) lại đúng mà kho đang chọn A. Đáp án không duy nhất và key sai; nhờ thầy sửa lại câu hỏi/phương án ở bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P4.C2": {
+    "parts": [
       {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "60"
+        "id": "a",
+        "label": "a",
+        "question": "Tính thể tích của hồ bơi.",
+        "explanation": "Thể tích của hồ bơi là:\nV = 12.5.3 = 180 ( m3)",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Thể tích hồ bơi: $V = 12\\cdot 5\\cdot 3$",
+            "$= $ {{1}} $\\cdot 3$",
+            "$=$ {{2}} (m$^3$)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "60"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "180"
+            }
+          ]
+        }
       },
       {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "180"
+        "id": "b",
+        "label": "b",
+        "question": "Người ta muốn lót gạch bên trong lòng hồ (mặt đáy và 4 mặt xung quanh), biết mỗi viên gạch hình vuông có cạnh là 0,5m và mỗi thùng chứa 8 viên gạch. Hỏi để lót hết mặt trong của hồ thì cần mua bao nhiêu thùng gạch?",
+        "explanation": "Diện tích mặt đáy của hồ bơi là: $12.5 = 60\\ (m^2)$\nDiện tích xung quanh của hồ bơi là: $(12 + 5).2.3 = 102\\ (m^2)$\nDiện tích cần lót gạch (mặt đáy và 4 mặt xung quanh) là: $60 + 102 = 162\\ (m^2)$\nDiện tích một viên gạch là: $0,5.0,5 = 0,25\\ (m^2)$\nSố viên gạch cần là: $162 : 0,25 = 648$ (viên)\nSố thùng gạch cần mua là: $648 : 8 = 81$ (thùng)",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Diện tích mặt đáy: $12\\cdot 5 = $ {{1}} (m$^2$)",
+            "Diện tích xung quanh: $(12+5)\\cdot 2\\cdot 3 = $ {{2}} (m$^2$)",
+            "Diện tích cần lót gạch: $60 + 102 = $ {{3}} (m$^2$)",
+            "Số viên gạch cần: $162 : 0,25 = $ {{4}} (viên)",
+            "Số thùng gạch cần mua: $648 : 8 = $ {{5}} (thùng)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "60"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "102"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "162"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "648"
+            },
+            {
+              "id": "5",
+              "loai": "so",
+              "dap_an": "81"
+            }
+          ]
+        }
       }
-     ]
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "Người ta muốn lót gạch bên trong lòng hồ (mặt đáy và 4 mặt xung quanh), biết mỗi viên gạch hình vuông có cạnh là 0,5m và mỗi thùng chứa 8 viên gạch. Hỏi để lót hết mặt trong của hồ thì cần mua bao nhiêu thùng gạch?",
-    "explanation": "Diện tích mặt đáy của hồ bơi là: $12.5 = 60\\ (m^2)$\nDiện tích xung quanh của hồ bơi là: $(12 + 5).2.3 = 102\\ (m^2)$\nDiện tích cần lót gạch (mặt đáy và 4 mặt xung quanh) là: $60 + 102 = 162\\ (m^2)$\nDiện tích một viên gạch là: $0,5.0,5 = 0,25\\ (m^2)$\nSố viên gạch cần là: $162 : 0,25 = 648$ (viên)\nSố thùng gạch cần mua là: $648 : 8 = 81$ (thùng)",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "Diện tích mặt đáy: $12\\cdot 5 = $ {{1}} (m$^2$)",
-      "Diện tích xung quanh: $(12+5)\\cdot 2\\cdot 3 = $ {{2}} (m$^2$)",
-      "Diện tích cần lót gạch: $60 + 102 = $ {{3}} (m$^2$)",
-      "Số viên gạch cần: $162 : 0,25 = $ {{4}} (viên)",
-      "Số thùng gạch cần mua: $648 : 8 = $ {{5}} (thùng)"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "60"
-      },
-      {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "102"
-      },
-      {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "162"
-      },
-      {
-       "id": "4",
-       "loai": "so",
-       "dap_an": "648"
-      },
-      {
-       "id": "5",
-       "loai": "so",
-       "dap_an": "81"
-      }
-     ]
-    }
-   }
-  ],
-  "sua_boi": "muse",
-  "ly_do": "Phần b: mẫu điền và lời giải cũ quên diện tích mặt đáy 60 m^2, chỉ lót diện tích xung quanh 102 m^2 nên ra 51 thùng. Đúng phải lót 60 + 102 = 162 m^2, cần 648 viên, tức 81 thùng. Đã viết lại mẫu điền và lời giải phần b; phần a giữ nguyên (thể tích 180 m^3 đúng).",
-  "xac_nhan": true
- }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phần b: mẫu điền và lời giải cũ quên diện tích mặt đáy 60 m^2, chỉ lót diện tích xung quanh 102 m^2 nên ra 51 thùng. Đúng phải lót 60 + 102 = 162 m^2, cần 648 viên, tức 81 thùng. Đã viết lại mẫu điền và lời giải phần b; phần a giữ nguyên (thể tích 180 m^3 đúng).",
+    "xac_nhan": true
+  },
+  "de1.P4.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

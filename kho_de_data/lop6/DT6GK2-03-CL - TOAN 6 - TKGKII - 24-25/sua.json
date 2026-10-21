@@ -1,124 +1,128 @@
 {
- "de1.P1.C1": {
-  "answer": "C",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 2/3 + 1/5 = 10/15 + 3/15 = 13/15 ⇒ C. Key B (3/15) sai chắc chắn."
- },
- "de1.P6.C1": {
-  "ghi_chu": "Câu so sánh phân số có hai phương án cùng đúng: -2/3 > -5/4 là đúng (phương án D), nhưng phương án B (-2/3 >= -5/4) cũng đúng vì dấu > kéo theo >=. Đáp án kho chọn có trị số đúng nhưng câu hỏi không có đáp án duy nhất. Nhờ thầy bỏ phương án có dấu >= (hoặc đổi thành một quan hệ sai) trong bản đề gốc.",
-  "sua_boi": "muse"
- },
- "de1.P4.C1": {
-  "parts": [
-   {
-    "id": "a",
-    "label": "a",
-    "question": "\\[\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}\\]",
-    "explanation": "$\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}=\\frac{5}{15}-\\frac{9}{15}+\\frac{8}{15}$\n$=\\frac{4}{15}$",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "rut_gon_so",
-     "kieu": "dong",
-     "dong": [
-      "$\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}=\\frac{ {{1}} }{15}-\\frac{ {{2}} }{15}+\\frac{ {{3}} }{15}$",
-      "$=\\frac{ {{4}} }{15}$"
-     ],
-     "o": [
+  "de1.P1.C1": {
+    "answer": "C",
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 2/3 + 1/5 = 10/15 + 3/15 = 13/15 ⇒ C. Key B (3/15) sai chắc chắn."
+  },
+  "de1.P6.C1": {
+    "ghi_chu": "Câu so sánh phân số có hai phương án cùng đúng: -2/3 > -5/4 là đúng (phương án D), nhưng phương án B (-2/3 >= -5/4) cũng đúng vì dấu > kéo theo >=. Đáp án kho chọn có trị số đúng nhưng câu hỏi không có đáp án duy nhất. Nhờ thầy bỏ phương án có dấu >= (hoặc đổi thành một quan hệ sai) trong bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P4.C1": {
+    "parts": [
       {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "5"
+        "id": "a",
+        "label": "a",
+        "question": "\\[\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}\\]",
+        "explanation": "$\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}=\\frac{5}{15}-\\frac{9}{15}+\\frac{8}{15}$\n$=\\frac{4}{15}$",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "rut_gon_so",
+          "kieu": "dong",
+          "dong": [
+            "$\\frac{1}{3}-\\frac{3}{5}+\\frac{8}{15}=\\frac{ {{1}} }{15}-\\frac{ {{2}} }{15}+\\frac{ {{3}} }{15}$",
+            "$=\\frac{ {{4}} }{15}$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "5"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "9"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "8"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "4"
+            }
+          ]
+        }
       },
       {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "9"
+        "id": "b",
+        "label": "b",
+        "question": "\\[\\frac{16}{5}+\\,\\frac{2}{5}\\,:\\frac{-2}{3}\\]",
+        "explanation": "$\\frac{16}{5}+\\,\\frac{2}{5}\\,:\\frac{-2}{3}$\n$=\\frac{16}{5}+\\,\\frac{2}{5}\\,.\\frac{-3}{2}$\n$=\\frac{16}{5}+\\,\\frac{-3}{5}\\,=\\frac{13}{5}$",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "$\\frac{16}{5}+\\frac{2}{5}:\\frac{-2}{3}=\\frac{16}{5}+\\frac{2}{5}.\\frac{ {{1}} }{2}$",
+            "$=\\frac{16}{5}+\\frac{ {{2}} }{5}$",
+            "$=\\frac{ {{3}} }{5}$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "-3"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-3"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "13"
+            }
+          ]
+        }
       },
       {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "8"
-      },
-      {
-       "id": "4",
-       "loai": "so",
-       "dap_an": "4"
+        "id": "c",
+        "label": "c",
+        "question": "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}$",
+        "explanation": "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}$\n$=\\frac{-3}{17}.\\left( \\frac{5}{23}+\\frac{10}{23}+\\frac{8}{23} \\right)$\n$=\\frac{-3}{17}.1$\n$=\\frac{-3}{17}$",
+        "points": 1,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "dat_thua_chung",
+          "kieu": "dong",
+          "dong": [
+            "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}=\\frac{-3}{17}.\\left( \\frac{5}{23}+\\frac{10}{23}+\\frac{ {{1}} }{23} \\right)$",
+            "$=\\frac{-3}{17}.\\frac{ {{2}} }{23}$",
+            "$=\\frac{ {{3}} }{17}$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "8"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "23"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "-3"
+            }
+          ]
+        }
       }
-     ]
-    }
-   },
-   {
-    "id": "b",
-    "label": "b",
-    "question": "\\[\\frac{16}{5}+\\,\\frac{2}{5}\\,:\\frac{-2}{3}\\]",
-    "explanation": "$\\frac{16}{5}+\\,\\frac{2}{5}\\,:\\frac{-2}{3}$\n$=\\frac{16}{5}+\\,\\frac{2}{5}\\,.\\frac{-3}{2}$\n$=\\frac{16}{5}+\\,\\frac{-3}{5}\\,=\\frac{13}{5}$",
-    "points": 0.5,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "tinh_gia_tri",
-     "kieu": "dong",
-     "dong": [
-      "$\\frac{16}{5}+\\frac{2}{5}:\\frac{-2}{3}=\\frac{16}{5}+\\frac{2}{5}.\\frac{ {{1}} }{2}$",
-      "$=\\frac{16}{5}+\\frac{ {{2}} }{5}$",
-      "$=\\frac{ {{3}} }{5}$"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "-3"
-      },
-      {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "-3"
-      },
-      {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "13"
-      }
-     ]
-    }
-   },
-   {
-    "id": "c",
-    "label": "c",
-    "question": "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}$",
-    "explanation": "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}$\n$=\\frac{-3}{17}.\\left( \\frac{5}{23}+\\frac{10}{23}+\\frac{8}{23} \\right)$\n$=\\frac{-3}{17}.1$\n$=\\frac{-3}{17}$",
-    "points": 1,
-    "type": "form_mau",
-    "mau_spec": {
-     "mau": "dat_thua_chung",
-     "kieu": "dong",
-     "dong": [
-      "$\\frac{-3}{17}.\\frac{5}{23}+\\frac{-3}{17}.\\frac{10}{23}+\\frac{-3}{17}.\\frac{8}{23}=\\frac{-3}{17}.\\left( \\frac{5}{23}+\\frac{10}{23}+\\frac{ {{1}} }{23} \\right)$",
-      "$=\\frac{-3}{17}.\\frac{ {{2}} }{23}$",
-      "$=\\frac{ {{3}} }{17}$"
-     ],
-     "o": [
-      {
-       "id": "1",
-       "loai": "so",
-       "dap_an": "8"
-      },
-      {
-       "id": "2",
-       "loai": "so",
-       "dap_an": "23"
-      },
-      {
-       "id": "3",
-       "loai": "so",
-       "dap_an": "-3"
-      }
-     ]
-    }
-   }
-  ],
-  "sua_boi": "muse",
-  "ly_do": "Ba ô mẫu điền nằm ở vị trí tử số nhưng kho ghi cả phân số, học sinh điền đúng tử số sẽ bị chấm sai: phần a ô 4 sửa 4/15 thành 4 (vì 5 - 9 + 8 = 4, kết quả cuối vẫn 4/15); phần b ô 3 sửa 13/5 thành 13 (16 + (-3) = 13, kết quả cuối 13/5); phần c ô 3 sửa -3/17 thành -3 (kết quả cuối vẫn -3/17). Lời giải và các ô còn lại đã đúng.",
-  "xac_nhan": true
- }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Ba ô mẫu điền nằm ở vị trí tử số nhưng kho ghi cả phân số, học sinh điền đúng tử số sẽ bị chấm sai: phần a ô 4 sửa 4/15 thành 4 (vì 5 - 9 + 8 = 4, kết quả cuối vẫn 4/15); phần b ô 3 sửa 13/5 thành 13 (16 + (-3) = 13, kết quả cuối 13/5); phần c ô 3 sửa -3/17 thành -3 (kết quả cuối vẫn -3/17). Lời giải và các ô còn lại đã đúng.",
+    "xac_nhan": true
+  },
+  "de1.P4.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

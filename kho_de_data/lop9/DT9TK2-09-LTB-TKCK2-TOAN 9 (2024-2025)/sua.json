@@ -1,6 +1,60 @@
 {
- "de1.P4.C5": {
-  "ghi_chu": "Phần c: đẳng thức cần chứng minh dùng điểm E nhưng E không được định nghĩa ở đâu trong đề (đề đặt tên giao điểm của AK và MN là I, và chữ I còn bị dùng trùng cho trung điểm AH ở phần a). Như đề đã chép, phần c không làm được; đẳng thức 2R.EM = AM.BH chỉ đúng khi hiểu E là giao điểm AK với MN. Nhờ thầy đối chiếu bản đề gốc.",
-  "sua_boi": "muse"
- }
+  "de1.P4.C5": {
+    "ghi_chu": "Phần c: đẳng thức cần chứng minh dùng điểm E nhưng E không được định nghĩa ở đâu trong đề (đề đặt tên giao điểm của AK và MN là I, và chữ I còn bị dùng trùng cho trung điểm AH ở phần a). Như đề đã chép, phần c không làm được; đẳng thức 2R.EM = AM.BH chỉ đúng khi hiểu E là giao điểm AK với MN. Nhờ thầy đối chiếu bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Hỏi khối lớp nào có số học sinh nam tham gia câu lạc bộ cờ vua nhiều nhất?",
+        "explanation": "Dựa vào biểu đồ ta thấy khối lớp 9 có số học sinh nam tham gia câu lạc bộ cờ vua nhiều nhất (9 học sinh).",
+        "points": 0.5,
+        "type": "short_answer",
+        "shortCorrect": "Khối 9"
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Chọn ngẫu nhiên một học sinh trong số này. Tính xác suất của các biến cố: A: “Chọn được một học sinh nữ lớp 8 hoặc lớp 9”",
+        "explanation": "Tổng số học sinh tham gia câu lạc bộ cờ vua là 3+8+6+9+4+5+4+7= 46 học sinh.\nChọn một học sinh nữ lớp 8, 9 từ các học sinh tham gia câu lạc bộ có 11 cách chọn.\nVậy xác suất chọn được một học sinh nữ lớp 8 hoặc lớp 9 là $\\frac{11}{46}$.",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Tổng số học sinh tham gia: $3+8+6+9+4+5+4+7=$ {{1}}",
+            "Số học sinh nữ lớp 8 hoặc lớp 9: $4+7=$ {{2}}",
+            "Xác suất: $\\frac{ {{2}} }{ {{1}} }=$ {{3}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "46"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "11"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "11/46"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan b: doc bieu do, nu lop 8 la 4 va nu lop 9 la 7 nen dong mau phai la 4+7 (kho in 6+5: 6 la nam lop 8, 5 la nu lop 7). Cac o dap an 46, 11, 11/46 van dung; dong cuoi loi giai cung sua \"nu lop 9\" thanh \"nu lop 8 hoac lop 9\".",
+    "xac_nhan": true
+  }
 }

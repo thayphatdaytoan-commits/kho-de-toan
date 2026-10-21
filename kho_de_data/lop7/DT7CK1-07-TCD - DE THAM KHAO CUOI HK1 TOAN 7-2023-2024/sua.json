@@ -1,11 +1,239 @@
 {
- "de1.P1.C12": {
-  "answer": "C",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): a ⊥ b và b ⊥ c ⇒ a // c (cùng vuông góc với b) ⇒ C. Key D (a // b) sai chắc chắn (a ⊥ b)."
- },
- "de1.P1.C5": {
-  "ghi_chu": "2/7 > 1/5 là đúng (phương án B), nhưng phương án D (2/7 >= 1/5) cũng đúng vì dấu > kéo theo >=, nên câu hỏi không có đáp án duy nhất. Nhờ thầy sửa một phương án trong bản đề gốc.",
-  "sua_boi": "muse"
- }
+  "de1.P1.C12": {
+    "answer": "C",
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): a ⊥ b và b ⊥ c ⇒ a // c (cùng vuông góc với b) ⇒ C. Key D (a // b) sai chắc chắn (a ⊥ b)."
+  },
+  "de1.P1.C5": {
+    "ghi_chu": "2/7 > 1/5 là đúng (phương án B), nhưng phương án D (2/7 >= 1/5) cũng đúng vì dấu > kéo theo >=, nên câu hỏi không có đáp án duy nhất. Nhờ thầy sửa một phương án trong bản đề gốc.",
+    "sua_boi": "muse"
+  },
+  "de1.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C9": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C4": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh m//n.",
+        "explanation": "Ta có : $a\\bot m,\\,a\\bot n$ (gt) $\\Rightarrow $ m // n",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Ta có $a\\bot m$ ({{1}})"
+              ],
+              "hint": "Nêu giả thiết vuông góc thứ nhất"
+            },
+            {
+              "lines": [
+                "Ta có $a\\bot n$ ({{2}})"
+              ],
+              "hint": "Nêu giả thiết vuông góc thứ hai"
+            },
+            {
+              "lines": [
+                "Từ (1) và (2), suy ra $m \\text{//} n$ ({{3}})"
+              ],
+              "hint": "Kết luận hai đường thẳng song song"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "both",
+              "answers": [
+                "giả thiết",
+                "gt"
+              ],
+              "keywords": [
+                "giả thiết",
+                "gt"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 12
+            },
+            {
+              "id": "2",
+              "mode": "both",
+              "answers": [
+                "giả thiết",
+                "gt"
+              ],
+              "keywords": [
+                "giả thiết",
+                "gt"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "input",
+              "answers": [
+                "hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song với nhau",
+                "cùng vuông góc với đường thẳng thứ ba thì song song"
+              ],
+              "keywords": [
+                "cùng vuông góc",
+                "song song"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 24
+            }
+          ],
+          "pool": [
+            "giả thiết",
+            "gt",
+            "đối đỉnh",
+            "so le trong",
+            "cạnh chung",
+            "trung điểm"
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Cho${{\\widehat{Q}}_{1}}\\,={{60}^{0}}$  Tính số đo đo các góc$$\\widehat{{{P}_{1}}}$; $\\widehat{{{P}_{2}}}$.",
+        "explanation": "Vì m // n nên $\\widehat{{P}_{2}}=\\widehat{{Q}_{1}}$ (đv)\nMà $\\widehat{{Q}_{1}}={60}^{0}$ nên $\\widehat{{P}_{2}}={60}^{0}$\nTa có: $\\widehat{{{P}_{1}}}+\\widehat{{{P}_{2}}}={{180}^{0}}$ (kề bù)\n$\\widehat{{{P}_{1}}}+{{60}^{0}}={{180}^{0}}$\n$\\widehat{{{P}_{1}}}={{120}^{0}}$",
+        "points": 1,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "tinh_gia_tri",
+          "kieu": "dong",
+          "dong": [
+            "Vì $m \\parallel n$ nên $\\widehat{P_2} = \\widehat{Q_1}$ (đồng vị). Mà $\\widehat{Q_1} = 60^\\circ$ nên $\\widehat{P_2} =$ {{1}} $^\\circ$",
+            "Ta có: $\\widehat{P_1} + \\widehat{P_2} = 180^\\circ$ (kề bù)",
+            "$\\widehat{P_1} + 60^\\circ = 180^\\circ$",
+            "$\\widehat{P_1} =$ {{2}} $^\\circ$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "60"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "120"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Cho${{\\widehat{M}}_{1}}\\,={{30}^{0}}$  Chứng minh MN//PQ",
+        "explanation": "$\\widehat{PMN}={{90}^{0}}-\\widehat{{{M}_{1}}}={{90}^{0}}-{{30}^{0}}={{60}^{0}}$\nTa có: $\\widehat{PMN}$và $\\widehat{{{P}_{2}}}$là 2 góc đồng vị\n$\\widehat{PMN}$ = $\\widehat{{{P}_{2}}}$= ${{60}^{0}}$ $\\Rightarrow $MN//PQ",
+        "points": 0.5,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Ta có $\\widehat{PMN} + \\widehat{M_1} = 90^0$ ({{1}})"
+              ],
+              "hint": "Hai góc phụ nhau"
+            },
+            {
+              "lines": [
+                "Thay số, $\\widehat{PMN} = 90^0 - 30^0 = 60^0$"
+              ],
+              "hint": "Tính số đo góc PMN"
+            },
+            {
+              "lines": [
+                "Theo câu b), ta có $\\widehat{P_2} = 60^0$"
+              ],
+              "hint": "Suy ra số đo góc P2"
+            },
+            {
+              "lines": [
+                "Suy ra $\\widehat{PMN} = \\widehat{P_2} (= 60^0)$",
+                "Mà hai góc này ở vị trí {{2}}"
+              ],
+              "hint": "So sánh hai góc và vị trí"
+            },
+            {
+              "lines": [
+                "Vậy $MN \\text{//} PQ$ ({{3}})"
+              ],
+              "hint": "Kết luận hai đường thẳng song song"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "both",
+              "answers": [
+                "hai góc phụ nhau",
+                "phụ nhau"
+              ],
+              "keywords": [
+                "phụ nhau"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 16
+            },
+            {
+              "id": "2",
+              "mode": "both",
+              "answers": [
+                "đồng vị"
+              ],
+              "keywords": [
+                "đồng vị"
+              ],
+              "placeholder": "vị trí",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "input",
+              "answers": [
+                "dấu hiệu nhận biết hai đường thẳng song song",
+                "dấu hiệu nhận biết"
+              ],
+              "keywords": [
+                "dấu hiệu",
+                "song song"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 24
+            }
+          ],
+          "pool": [
+            "hai góc phụ nhau",
+            "phụ nhau",
+            "so le trong",
+            "đồng vị",
+            "trong cùng phía",
+            "đối đỉnh",
+            "cạnh chung"
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Phan c: goc PMN va goc P2 nam cung phia, cung vi tri tuong doi tai hai giao diem cua cat tuyen m nen la hai goc dong vi, khong phai so le trong (so PMN = 60 do va ket luan MN // PQ van dung). Sua o dien so 2 va loi giai.",
+    "xac_nhan": true
+  }
 }
