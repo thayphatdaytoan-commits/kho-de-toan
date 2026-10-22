@@ -78,6 +78,12 @@ input.blankin{min-width:74px;text-align:center;padding:2px 6px}
 #qresult{display:none;background:#eef6ee;border:1.5px solid #57a05e;border-radius:10px;padding:12px 16px;margin:0 0 14px;font-size:15px}
 #qresult.show{display:block}
 .quiznav{position:sticky;top:0;background:#f4f6fb;padding:8px 0;z-index:5}
+.fixbadge{display:inline-block;background:#b45309;color:#fff;border-radius:4px;font-size:11px;padding:0 6px;margin-left:6px;vertical-align:1px;font-weight:700}
+.notebadge{display:inline-block;background:#fff;color:#b45309;border:1px solid #b45309;border-radius:4px;font-size:11px;padding:0 6px;margin-left:6px;vertical-align:1px;font-weight:700}
+.dropbadge{display:inline-block;background:#b91c1c;color:#fff;border-radius:4px;font-size:11px;padding:0 6px;margin-left:6px;vertical-align:1px;font-weight:700}
+.fixnote{background:#fffbeb;border-left:3px solid #f59e0b;border-radius:0 6px 6px 0;padding:6px 10px;margin:6px 0;font-size:13.5px;color:#78350f;white-space:pre-wrap}
+.suabanner{background:#fef3c7;border:1px solid #f59e0b;color:#92400e;border-radius:8px;padding:8px 12px;margin:0 0 12px;font-size:14px}
+.qdrop{opacity:.55}
 </style></head>
 <body>
 <header class="top"><h1>Kho đề Toán</h1><span class="sub">Xem đề, đáp án và lời giải — dữ liệu từ repo GitHub kho-de-toan</span></header>
@@ -171,7 +177,9 @@ function expl(exam, q, label){
 function renderQ(exam, q){
   const pts = q.points? ` <span class="pts">(${q.points} điểm)</span>`:'';
   const bd = q.muc_do? `<span class="badge">${esc(q.muc_do)}</span>`:'';
-  let h = `<div class="q"><div class="qh">Câu ${q.n}${bd}${pts}</div>`;
+  let h = `<div class="q${q._dropped?' qdrop':''}"><div class="qh">Câu ${q.n}${bd}${pts}${q._fixed?'<span class="fixbadge">đã hiệu chỉnh</span>':''}${q._noted?'<span class="notebadge">lưu ý</span>':''}${q._dropped?'<span class="dropbadge">câu đã bỏ</span>':''}</div>`;
+  if(q._note) h += `<div class="fixnote">${q._dropped?'⛔ Câu này đã bị loại bỏ khỏi kho. ':''}${rich(exam,q._note)}</div>`;
+  if(q._dropped){ if(q.question) h += `<div>${rich(exam,q.question)}</div>`; return h + '</div>'; }
   const T = q.type;
   if(T==='multiple_choice'){
     h += `<div>${rich(exam,q.question)}</div>`;
@@ -230,6 +238,7 @@ function renderExam(exam, data){
     <button class="act ghost" onclick="window.print()">In đề</button></div>`;
   h += `<div class="exam"><h2>${esc(data.meta?.title||exam.folder)}</h2>
     <div class="meta">Lớp ${exam.grade} · ${ETYPE[exam.exam_type]?ETYPE[exam.exam_type]+' · ':''}${qs.length} câu · Mã đề: ${esc(exam.folder)}</div>`;
+  if(data._sua){ const s=data._sua; const pp=[]; if(s.fixed) pp.push(s.fixed+' câu đã sửa đáp án/nội dung'); if(s.dropped) pp.push(s.dropped+' câu bị loại bỏ'); if(s.noted) pp.push(s.noted+' câu có lưu ý'); h += `<div class="suabanner">✎ Đề này đã áp dụng lớp hiệu chỉnh của kho: ${pp.join(' · ')}. Đáp án hiển thị và việc chấm điểm đều theo bản đã hiệu chỉnh.</div>`; }
   for(const s of secs){
     h += `<div class="sec"><h3>Phần ${s} · ${SECNAME(s)}</h3>` + qs.filter(q=>q.section===s).map(q=>renderQ(exam,q)).join('') + '</div>';
   }
@@ -238,11 +247,31 @@ function renderExam(exam, data){
   if(window.renderMathInElement) renderMathInElement($('#view'),{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});
   window.scrollTo(0,0);
 }
+function applySua(data, sua){
+  const META = {ly_do:1, ghi_chu:1, sua_boi:1, xac_nhan:1, bo_cau:1};
+  const st = {fixed:0, dropped:0, noted:0};
+  (data.questions||[]).forEach(q=>{
+    const p = sua[q.ma];
+    if(!p || typeof p!=='object') return;
+    const notes = [p.ly_do, p.ghi_chu].filter(Boolean);
+    if(notes.length) q._note = notes.join(' ');
+    if(p.bo_cau){ q._dropped = true; st.dropped++; return; }
+    const dk = Object.keys(p).filter(k=>!META[k]);
+    if(dk.length){ dk.forEach(k=>{ q[k] = p[k]; }); q._fixed = true; st.fixed++; }
+    else if(notes.length){ q._noted = true; st.noted++; }
+  });
+  return (st.fixed||st.dropped||st.noted) ? st : null;
+}
 async function openExam(path){
   const exam = CATALOG.find(e=>e.path===path);
   if(EMBED){ renderExam(exam, EXAMS[path]); return; }
   $('#view').innerHTML = '<p class="small">Đang tải đề…</p>';
   const r = await fetch(path); const data = await r.json();
+  try{
+    const sp = path.replace(/^de\//,'kho_de_data/').replace(/[^\/]+$/,'sua.json');
+    const sr = await fetch(sp);
+    if(sr.ok){ const sj = await sr.json(); data._sua = applySua(data, sj); }
+  }catch(_){}
   renderExam(exam, data);
 }
 function goHome(){ document.body.classList.remove('show-ans'); renderList(); }
@@ -285,7 +314,7 @@ function numVal(s){
 }
 function ansEq(user, correct){
   if(correct==null || user==null || normAns(user)==='') return false;
-  const cands = Array.isArray(correct)? correct : [correct];
+  const cands = Array.isArray(correct)? correct : String(correct).split('|');
   return cands.some(c=>{
     if(normAns(user)===normAns(c)) return true;
     const a=numVal(user), b=numVal(c);
@@ -306,7 +335,9 @@ function qzBlock(exam, q){
 function renderQuizQ(exam, q, qi){
   const pts = q.points? ` <span class="pts">(${q.points} điểm)</span>`:'';
   const bd = q.muc_do? `<span class="badge">${esc(q.muc_do)}</span>`:'';
-  let h = `<div class="q" data-qwrap="${qi}"><div class="qh">Câu ${q.n}${bd}${pts}<span data-mark="${qi}"></span></div>`;
+  let h = `<div class="q${q._dropped?' qdrop':''}" data-qwrap="${qi}"><div class="qh">Câu ${q.n}${bd}${pts}${q._fixed?'<span class="fixbadge">đã hiệu chỉnh</span>':''}${q._noted?'<span class="notebadge">lưu ý</span>':''}${q._dropped?'<span class="dropbadge">câu đã bỏ</span>':''}<span data-mark="${qi}"></span></div>`;
+  if(q._note) h += `<div class="fixnote">${q._dropped?'⛔ Câu này đã bị loại bỏ khỏi kho. ':''}${rich(exam,q._note)}</div>`;
+  if(q._dropped){ if(q.question) h += `<div>${rich(exam,q.question)}</div>`; h += `<div class="small">Câu đã loại bỏ — không cần làm, không tính điểm.</div>`; return h + '</div>'; }
   const T = q.type, letters = ['A','B','C','D','E','F'];
   if(T==='multiple_choice'){
     h += `<div>${rich(exam,q.question)}</div><div class="opts">` + (q.options||[]).map((o,i)=>`<div class="opt qopt" data-act="mc" data-qi="${qi}" data-v="${letters[i]}"><b>${letters[i]}.</b> ${rich(exam,o)}</div>`).join('') + '</div>';
@@ -394,6 +425,7 @@ function submitQuiz(){
     const wrap = document.querySelector(`[data-qwrap="${qi}"]`);
     if(!wrap) return;
     const mark = wrap.querySelector(`[data-mark="${qi}"]`);
+    if(q._dropped){ if(mark){ mark.textContent = ' · Đã loại bỏ'; mark.className = 'qmark'; } return; }
     let ok=0, tot=0;
     const T = q.type;
     if(T==='multiple_choice'){
