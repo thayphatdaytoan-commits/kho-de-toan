@@ -1,46 +1,442 @@
 {
- "de1.P1.C11": {
-  "sua_boi": "claude",
-  "ly_do": "Đề PDF ghi phương án C «trung bình của Minh Hiền là 6,8» nhưng tính từ bảng ra 7,8 (cả 4 phương án đều sai) → sửa C thành 7,8; đáp án C, cần thầy xác nhận"
- },
- "de1.P2.C15": {
-  "sua_boi": "claude",
-  "ly_do": "Nhóm cuối của cây trồng tại A có tần số 0 → khoảng biến thiên của A là 8 (theo SGK, bỏ nhóm đầu/cuối không có dữ liệu), nhỏ hơn B (10) nên (a) Đúng"
- },
- "de2.P1.C1": {
-  "sua_boi": "claude",
-  "ly_do": "Đề hỏi khoảng biến thiên sau khi ghép nhóm nhưng phương án chỉ có 78 (= 1179 − 1101, của mẫu gốc) → chọn A, chưa chắc"
- },
- "de2.P1.C6": {
-  "sua_boi": "claude",
-  "ly_do": "Đề PDF ghi «số nhân viên này không ít hơn a người» (các phương án 5, 7, 9, 12 đều thoả) và bảng ghi nhầm tần số nhóm cuối 25 (tổng 110 thì N không khớp) → sửa nhóm cuối 7 và đổi đề thành «mức lương không vượt quá a (triệu đồng)»: Q1 ≈ 11,4 nên a = 12; chưa chắc"
- },
- "de2.P1.C9": {
-  "sua_boi": "claude",
-  "ly_do": "Trung vị = 8,125; phương án gần nhất là 7,9 (A) — các phương án đề in có vẻ sai, chưa chắc"
- },
- "de2.P3.C21": {
-  "sua_boi": "claude",
-  "ly_do": "Hiệu độ lệch chuẩn A − B = −3,4; nhận cả 3,4 và −3,4; chưa chắc cách hiểu «hiệu»"
- },
- "de3.P1.C4": {
-  "sua_boi": "claude",
-  "ly_do": "Theo SGK R1 = 10 − 4 = 6, R2 = 8 − 0 = 8 nên cả 4 phương án đề in đều sai → sửa phương án C «R1 > R2» thành «R1 < R2»; chưa chắc"
- },
- "de3.P2.C13": {
-  "sua_boi": "claude",
-  "ly_do": "Mệnh đề (a) trong PDF in «15°C 13,8» (dư số 13,8) → giữ «15°C»; R = 31,8 − 16,8 = 15 nên Đúng"
- },
- "de3.P2.C14": {
-  "sua_boi": "claude",
-  "ly_do": "Đề PDF ghi «20 năm» nhưng tổng tần số = 30 (các đáp số TB 18, độ lệch 1,98 khớp với N = 30) → bỏ số «20 năm» khỏi đề. (c) phương sai = 3,93 nên «3,94» là Sai"
- },
- "de3.P2.C15": {
-  "sua_boi": "claude",
-  "ly_do": "Cột «Tần số tích lũy» in trong PDF (3, 9, 21, 27, 30) không khớp tần số (5, 9, 3, 9, 4) → bỏ cột này; các mệnh đề tính theo tần số"
- },
- "de5.P1.C3": {
-  "sua_boi": "claude",
-  "ly_do": "Tiêu đề hàng đầu của bảng in nhầm «Doanh thu» → sửa «Tốc độ (km/h)»"
- }
+  "de1.P1.C11": {
+    "sua_boi": "claude",
+    "ly_do": "Đề PDF ghi phương án C «trung bình của Minh Hiền là 6,8» nhưng tính từ bảng ra 7,8 (cả 4 phương án đều sai) → sửa C thành 7,8; đáp án C, cần thầy xác nhận"
+  },
+  "de1.P2.C15": {
+    "sua_boi": "claude",
+    "ly_do": "Nhóm cuối của cây trồng tại A có tần số 0 → khoảng biến thiên của A là 8 (theo SGK, bỏ nhóm đầu/cuối không có dữ liệu), nhỏ hơn B (10) nên (a) Đúng"
+  },
+  "de2.P1.C1": {
+    "sua_boi": "claude",
+    "ly_do": "Đề hỏi khoảng biến thiên sau khi ghép nhóm nhưng phương án chỉ có 78 (= 1179 − 1101, của mẫu gốc) → chọn A, chưa chắc"
+  },
+  "de2.P1.C6": {
+    "sua_boi": "claude",
+    "ly_do": "Đề PDF ghi «số nhân viên này không ít hơn a người» (các phương án 5, 7, 9, 12 đều thoả) và bảng ghi nhầm tần số nhóm cuối 25 (tổng 110 thì N không khớp) → sửa nhóm cuối 7 và đổi đề thành «mức lương không vượt quá a (triệu đồng)»: Q1 ≈ 11,4 nên a = 12; chưa chắc"
+  },
+  "de2.P1.C9": {
+    "sua_boi": "claude",
+    "ly_do": "Trung vị = 8,125; phương án gần nhất là 7,9 (A) — các phương án đề in có vẻ sai, chưa chắc"
+  },
+  "de2.P3.C21": {
+    "sua_boi": "claude",
+    "ly_do": "Hiệu độ lệch chuẩn A − B = −3,4; nhận cả 3,4 và −3,4; chưa chắc cách hiểu «hiệu»"
+  },
+  "de3.P1.C4": {
+    "sua_boi": "claude",
+    "ly_do": "Theo SGK R1 = 10 − 4 = 6, R2 = 8 − 0 = 8 nên cả 4 phương án đề in đều sai → sửa phương án C «R1 > R2» thành «R1 < R2»; chưa chắc"
+  },
+  "de3.P2.C13": {
+    "sua_boi": "claude",
+    "ly_do": "Mệnh đề (a) trong PDF in «15°C 13,8» (dư số 13,8) → giữ «15°C»; R = 31,8 − 16,8 = 15 nên Đúng"
+  },
+  "de3.P2.C14": {
+    "sua_boi": "claude",
+    "ly_do": "Đề PDF ghi «20 năm» nhưng tổng tần số = 30 (các đáp số TB 18, độ lệch 1,98 khớp với N = 30) → bỏ số «20 năm» khỏi đề. (c) phương sai = 3,93 nên «3,94» là Sai"
+  },
+  "de3.P2.C15": {
+    "sua_boi": "claude",
+    "ly_do": "Cột «Tần số tích lũy» in trong PDF (3, 9, 21, 27, 30) không khớp tần số (5, 9, 3, 9, 4) → bỏ cột này; các mệnh đề tính theo tần số"
+  },
+  "de5.P1.C3": {
+    "sua_boi": "claude",
+    "ly_do": "Tiêu đề hàng đầu của bảng in nhầm «Doanh thu» → sửa «Tốc độ (km/h)»"
+  },
+  "de1.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C6": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C9": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P2.C13": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P2.C14": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P2.C16": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C17": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C18": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C19": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C20": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C21": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C22": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P2.C13": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P2.C14": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P2.C15": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P2.C16": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P3.C17": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P3.C18": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P3.C19": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P3.C20": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de2.P3.C22": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C6": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P1.C9": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P2.C16": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C17": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C18": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C19": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C20": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C21": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de3.P3.C22": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C6": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P1.C9": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P2.C13": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P2.C14": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P2.C15": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P2.C16": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C17": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C18": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C19": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C20": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C21": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de4.P3.C22": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C10": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C6": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C7": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P1.C9": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P2.C13": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P2.C14": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P2.C15": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P2.C16": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C17": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C18": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C19": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C20": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C21": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de5.P3.C22": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

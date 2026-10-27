@@ -61,6 +61,27 @@ Khóa trong `sua.json` / `phan_loai.json` chính là mã câu này.
 - **Bắt buộc** `sua_boi` (tên AI của bạn) ở mọi câu bạn ghi — thiếu thì máy thầy từ chối câu đó. `ly_do` bắt buộc khi sửa nội dung.
 - Chỉ ghi các trường cần đổi (máy gộp vào câu gốc). Công thức LaTeX trong `$...$` (KaTeX), trong JSON nhớ viết `\\frac`, `\\sqrt`.
 - Giữ văn phong đề gốc; không bịa số liệu; không viết lại câu đang đúng.
+- `xac_nhan: true` do AI ghi chỉ có nghĩa **«AI đã soát»** — máy thầy xếp câu vào danh mục «AI đã soát — chờ thầy duyệt»; **thầy duyệt lại sau**, nên luôn ghi đúng tên bạn ở `sua_boi`.
+
+### 4b. Câu TƯƠNG TÁC (THCS: nhiều ý, khung chứng minh, điền ô trống, điền theo mẫu)
+
+Các câu có `type` là `multi_part`, `proof_frame`, `fill_blanks`, `form_mau` có thêm trường cấu trúc. **Chỉ sửa khi hiểu cấu trúc; mỗi lần sửa phải tự kiểm đủ danh sách bên dưới.** Ghi nguyên cả trường (máy thay hẳn trường đó, không gộp từng phần tử).
+
+| `type` | Trường trong `sua.json` | Cấu trúc |
+|---|---|---|
+| `fill_blanks` | `passage`, `blanks` | `passage` có ô `{{1}}`, `{{2}}`…; `blanks`: `[{"id": "1", "correctAnswer": "…"}]` (nhiều cách ghi ngăn bằng `\|`) |
+| `form_mau` | `mau_spec` | `{"mau": "…", "kieu": "dong" \| "bang", "dong": ["$…=$ {{1}}"], hoặc "bang": {"header": […], "rows": [[…]]}, "o": [{"id": "1", "loai": "so" \| "chon", "dap_an": "18", "chon": ["<", "=", ">"]}]}` |
+| `proof_frame` | `frame` | `{"blocks": [{"lines": ["Xét $\\triangle ABC$ có:", "• $AB =$ {{1}}"], "hint": "gợi ý khối"}], "blanks": [{"id": "1", "mode": "drag" \| "input" \| "both", "answers": ["AC"], "keywords": […], "placeholder": "…"}], "pool": ["AC", "BC", …], "ordered": false}` — `blocks` theo ĐÚNG thứ tự các bước; `ordered: false` (không xếp dàn ý) dùng cho chứng minh ĐẠI SỐ |
+| `multi_part` | `parts` | mảng các ý: `{"id": "a", "label": "a", "type": "short_answer" \| "proof_frame" \| "form_mau" \| "multiple_choice" \| "essay" \| "draw", "question": "…", "points": 1, "explanation": "…", "shortCorrect": "…" (short_answer), "frame": {…} (proof_frame), "mau_spec": {…}, "options"+"correctAnswer" (multiple_choice, chỉ số 0–3)}`; điểm cả câu = tổng điểm các ý |
+
+**Danh sách tự kiểm (bắt buộc trước khi ghi):**
+1. Mỗi ô `{{n}}` trong `passage`/`lines`/`dong`/`bang` có đúng một phần tử `blanks`/`o` có `id` là `n` và có đáp án (`correctAnswer` / `dap_an` / `answers` hoặc `keywords`); không có ô thừa.
+2. `proof_frame`: ô kéo thả (`drag`/`both`) có đáp án nằm trong `pool` (thêm vài đáp án nhiễu); đáp án đúng ghi mọi cách viết tương đương (`AB = AC` và `AC = AB`; không phân biệt hoa/thường).
+3. `multi_part`: **giữ nguyên** số ý, `id`, `label`, `type`, `points` — chỉ sửa nội dung; `shortCorrect` là đáp số cuối (nhiều cách ngăn bằng `|`).
+4. Giải lại bài từ đầu: đáp án trong ô phải khớp lời giải; số liệu của ý sau phải khớp kết quả ý trước; ô điền số chỉ chứa số/phân số.
+5. Không đụng `draw_spec` (câu vẽ) trừ khi sửa lỗi rõ ràng — ghi `ghi_chu` cho thầy.
+6. JSON hợp lệ; LaTeX trong `$…$` và gấp đôi gạch ngược (`\\frac`).
+Máy thầy dựng lại bài, chạy kiểm KaTeX + bộ đọc import của web; lỗi cấu trúc hiện thành cờ `khung_…`, `so_cum_…`, `import_web:` — thầy sẽ lọc riêng các câu này.
 
 ## 5. `phan_loai.json` và `eq_ocr.json`
 

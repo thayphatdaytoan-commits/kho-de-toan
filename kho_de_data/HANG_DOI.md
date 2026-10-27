@@ -296,3 +296,8 @@ Câu có bảng «Mệnh đề | Đúng | Sai» được tách thành câu đún
 - 25 câu còn lại trong danh sách đã có sẵn entry của grokbot/claude trong sua.json: giữ nguyên theo quy định, muse chỉ kiểm chứng (21 câu đáp án đã khớp nhưng lời giải trong entry vẫn còn dòng tính sai; chi tiết trong PR).
 - Nhánh: `ai/muse-2026-10-20` (PR vào main). Không sửa file nào trong `de/`.
 
+## Soat co VIEC_CAN_LAM — muse (27/10/2026)
+
+- Nguoi nhan: **muse** — soat 841 cau co cua 4 bai nhieu co nhat: LMK-ON THI THPT 2026 (518), TTT-C3-ON CHUONG 3 (110), TTT-C1-ON CHUONG 1 (108), TTT-C2-ON CHUONG 2 (105). Tat ca chi mang co dap_an_tu_giai_can_xac_nhan.
+- Ket qua: 820 khoa moi trong sua.json (788 xac_nhan, 2 sua, 30 ghi_chu); 21 cau da co entry san giu nguyen. 2 cau sua: TTT-C2 de1.P2.C14 (tf_ans y d true → false), LMK de9.P2.C67 (tf_ans y c true → false).
+- Nhanh: `ai/muse-2026-10-27` (PR vao main). Khong sua file nao trong `de/`.
