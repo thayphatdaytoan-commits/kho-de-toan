@@ -1,13 +1,13 @@
 # Việc cần làm (tự sinh mỗi lần đẩy kho — đừng sửa tay)
 
-Cập nhật: 2026-10-27 22:53. Kho có 19,735 câu; **5,575 câu cần xem**, chia 4 mức ưu tiên — **làm lần lượt từ mức 1**. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ, `uu_tien`) ở `viec_can_lam.json` (đã xếp theo ưu tiên). Cách sửa: `HUONG_DAN_AI.md`.
+Cập nhật: 2026-10-27 22:54. Kho có 19,735 câu; **5,575 câu cần xem**, chia 4 mức ưu tiên — **làm lần lượt từ mức 1**. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ, `uu_tien`) ở `viec_can_lam.json` (đã xếp theo ưu tiên). Cách sửa: `HUONG_DAN_AI.md`.
 
 | Mức | Việc | Số câu |
 |---|---|---|
 | 1 | SỰ CỐ — câu hỏng, sửa trước | 957 |
 | 2 | NGHI NGỜ — giải lại và đối chiếu | 2,249 |
-| 3 | CỜ NHẸ — xem lướt (vd. lệch mức độ) | 2,369 |
-| 4 | CHƯA GÁN DẠNG — ghi dạng + mức độ vào phan_loai.json | 0 |
+| 3 | CỜ NHẸ — xem lướt (vd. lệch mức độ) | 104 |
+| 4 | CHƯA GÁN DẠNG — ghi dạng + mức độ vào phan_loai.json | 2,265 |
 
 ## Mức 1 — SỰ CỐ — câu hỏng, sửa trước
 
@@ -105,6 +105,52 @@ Cập nhật: 2026-10-27 22:53. Kho có 19,735 câu; **5,575 câu cần xem**, c
 
 | Lớp | Bài | Số câu | Loại câu hay gặp |
 |---|---|---|---|
+| 12 | `PMT-T02` | 9 | true_false_group |
+| 12 | `PMT-T03` | 8 | true_false_group |
+| 10 | `GK10-TDC-05` | 6 | multiple_choice |
+| 10 | `GK10-TDC-09` | 6 | multiple_choice |
+| 12 | `GKF12-03-GK2 PHU CAT - TRUNG DO NGUYEN HOANG` | 4 | short_answer |
+| 10 | `GK10-STR-03` | 3 | multiple_choice |
+| 12 | `PMT-T07` | 3 | true_false_group |
+| 6 | `DT6CK2-07-RD6_HKII_2425` | 2 | short_answer |
+| 6 | `DT6CK2-14-DE THAM KHAO- CUOI KI 2 TOAN 6 (2024 - 2025)` | 2 | short_answer |
+| 6 | `DT6GK2-12-TOAN 6 - GIUA KI 2 - TCD` | 2 | short_answer |
+| 8 | `DT8CK2-04-HAI BA TRUNG` | 2 | short_answer |
+| 8 | `DT8CK2-05-KIEN THIET` | 2 | short_answer |
+| 8 | `DT8GK2-26-THANG LONG` | 2 | short_answer |
+| 9 | `DT9CK1-10-THCS NTB TOAN 9 HKI` | 2 | short_answer |
+| 9 | `DT9CK1-12-DP-TOAN 9 - DE THAM KHAO CUOI KI I(23-24)` | 2 | short_answer |
+| 9 | `DT9CK1-13-DE THAM KHAO HK I TOAN 9 DD 23-24` | 2 | short_answer |
+| 11 | `CK11-VN-01` | 2 | multiple_choice |
+| 11 | `CK11-VN-02` | 2 | multiple_choice |
+| 12 | `PMT-T01` | 2 | true_false_group |
+| 12 | `PMT-T06` | 2 | true_false_group |
+| 12 | `TN23-04-DE 4` | 2 | multiple_choice |
+| 6 | `DT6CK1-13-A CHAU` | 1 | short_answer |
+| 6 | `DT6CK2-01-BLT_TOAN 6_ DE DE NGHI CHKII 2425` | 1 | short_answer |
+| 6 | `DT6CK2-05-NVB-TOAN 6-THAM KHAO-KTHK2` | 1 | short_answer |
+| 6 | `DT6CK2-13-DE THAM KHAO CUOI HK2 TOAN 6 - DONG DA` | 1 | short_answer |
+| 6 | `DT6GK1-07-6 LE QUY DON` | 1 | short_answer |
+| 6 | `DT6GK2-04-GK2-YT6` | 1 | short_answer |
+| 6 | `DT6GK2-06-NVB-DE THAM KHAO GK2-TOAN 6` | 1 | short_answer |
+| 6 | `DT6GK2-15-DE DE NGHI GIUA HK2 K6 MOI` | 1 | short_answer |
+| 7 | `DT7CK1-04-HHT7_HKI_23_24` | 1 | fill_blanks |
+| 7 | `DT7CK1-06-PM7-HK1-23-24` | 1 | fill_blanks |
+| 7 | `DT7CK1-10-TOAN 7_CL-DE DE NGHI KTCKI-23-24` | 1 | short_answer |
+| 7 | `DT7GK1-08-7 PHAN SAO NAM` | 1 | short_answer |
+| 7 | `DT7GK2-09-PHAN SAO NAM` | 1 | short_answer |
+| 7 | `DT7K2-03-THCS CUU LONG 2024-2025` | 1 | short_answer |
+| 7 | `DT7K2-05-THCS NGUYEN VAN BE 2024-2025` | 1 | short_answer |
+| 7 | `DT7K2-06-THCS PHU MY 2024-2025` | 1 | fill_blanks |
+| 7 | `DT7K2-07-THCS RANG DONG 2024-2025` | 1 | fill_blanks |
+| 7 | `DT7K2-08-THCS THANH DA 2024-2025` | 1 | fill_blanks |
+| 7 | `DT7K2-09-THCS LAM SON 2024-2025` | 1 | short_answer |
+| … | còn 18 bài nữa (xem `viec_can_lam.json`) | | |
+
+## Mức 4 — CHƯA GÁN DẠNG — ghi dạng + mức độ vào phan_loai.json
+
+| Lớp | Bài | Số câu | Loại câu hay gặp |
+|---|---|---|---|
 | 12 | `DGNL-HCM-02` | 90 | multiple_choice |
 | 12 | `DGNL-HCM-05` | 90 | multiple_choice |
 | 12 | `DGNL-HCM-07` | 90 | multiple_choice |
@@ -126,8 +172,8 @@ Cập nhật: 2026-10-27 22:53. Kho có 19,735 câu; **5,575 câu cần xem**, c
 | 12 | `C6-BAI TAP ON CHUONG 6` | 53 | multiple_choice, short_answer |
 | 12 | `C4-ON TAP CHUONG 4` | 38 | multiple_choice, short_answer |
 | 12 | `C5-B1-PHUONG TRINH MAT PHANG` | 35 | multiple_choice |
-| 10 | `GK10-STR-03` | 31 | multiple_choice |
 | 12 | `C1-ON CHUONG 1` | 29 | multiple_choice, short_answer |
+| 10 | `GK10-STR-03` | 28 | multiple_choice |
 | 11 | `C1-ON TAP CHUONG 1` | 24 | multiple_choice |
 | 11 | `C4-ON TAP CHUONG 4` | 24 | multiple_choice |
 | 12 | `DT26-27-CUM TRUONG THPT HA TINH - L1` | 22 | multiple_choice, short_answer |
@@ -135,17 +181,17 @@ Cập nhật: 2026-10-27 22:53. Kho có 19,735 câu; **5,575 câu cần xem**, c
 | 11 | `C3-B1-MAU GHEP LOP` | 12 | multiple_choice |
 | 12 | `C5-B2-PHUONG TRINH DUONG THANG` | 12 | multiple_choice |
 | 10 | `C4-B1-KHAI NIEM VECTO` | 11 | multiple_choice |
-| 10 | `GK10-TDC-05` | 10 | multiple_choice, short_answer |
-| 12 | `PMT-T02` | 9 | true_false_group |
-| 10 | `GK10-TDC-09` | 8 | multiple_choice |
 | 11 | `C5-B1-GIOI HAN CUA DAY SO` | 8 | multiple_choice |
 | 12 | `HK12-SP-16` | 8 | multiple_choice |
-| 12 | `PMT-T03` | 8 | true_false_group |
 | 7 | `DT7GK1-07-7 LE QUY DON` | 6 | form_mau, multi_part |
 | 7 | `DT7GK1-11-7 A CHAU` | 6 | multi_part, essay |
 | 10 | `CK10-HCM-04` | 6 | short_answer |
 | 10 | `CK10-HCM-08` | 6 | short_answer |
-| … | còn 163 bài nữa (xem `viec_can_lam.json`) | | |
+| 10 | `HK10-SP-05` | 6 | multiple_choice |
+| 12 | `C5-B3- CONG THUC TINH GOC TRONG KHONG GIAN` | 6 | multiple_choice |
+| 12 | `CK12-WT-01` | 6 | multiple_choice, short_answer |
+| 7 | `DT7CK1-01-BLT_HKI_TOAN 7_2324` | 4 | multi_part |
+| … | còn 136 bài nữa (xem `viec_can_lam.json`) | | |
 
 ## Theo loại cờ
 
