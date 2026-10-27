@@ -1,0 +1,439 @@
+{
+ "truong": "QUẬN BÌNH THẠNH",
+ "nam_hoc": "2024-2025",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho $(P): y = \\frac{1}{2}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $(P)$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "",
+     "loi_giai": "Bảng giá trị:\n$x = -2 \\Rightarrow y = 2$\n$x = -1 \\Rightarrow y = 0.5$\n$x = 0 \\Rightarrow y = 0$\n$x = 1 \\Rightarrow y = 0.5$\n$x = 2 \\Rightarrow y = 2$\nĐồ thị $(P)$ là một đường Parabol đi qua các điểm trên.",
+     "nguon": "de",
+     "de_day_du": "Cho $(P): y = \\frac{1}{2}x^2$. Vẽ đồ thị $(P)$.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm điểm thuộc $(P)$ có tung độ gấp đôi hoành độ và khác 0.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(4; 8)",
+     "loi_giai": "Gọi điểm cần tìm là $M(x; y)$.\nTheo đề bài: $y = 2x$ và $x \\neq 0$.\nThay $y = 2x$ vào phương trình $(P): y = \\frac{1}{2}x^2$, ta được:\n$2x = \\frac{1}{2}x^2$\n$\\Leftrightarrow 4x = x^2$\n$\\Leftrightarrow x^2 - 4x = 0$\n$\\Leftrightarrow x(x - 4) = 0$\n$\\Leftrightarrow x = 0$ (loại) hoặc $x = 4$.\nVới $x = 4 \\Rightarrow y = 2 \\times 4 = 8$.\nVậy tọa độ điểm cần tìm là $(4; 8)$.",
+     "nguon": "de",
+     "de_day_du": "Cho $(P): y = \\frac{1}{2}x^2$. Tìm điểm thuộc $(P)$ có tung độ gấp đôi hoành độ và khác 0.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: $x^2 - 2(m-1)x + m - 3 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có: $\\Delta' = [-(m-1)]^2 - 1(m-3) = m^2 - 2m + 1 - m + 3 = m^2 - 3m + 4$.\n$\\Delta' = (m - \\frac{3}{2})^2 + \\frac{7}{4} > 0$ với mọi $m$.\nVì $\\Delta' > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "cum": [
+      "Tính $\\Delta' = [-(m-1)]^2 - (m-3)$ ($= m^2 - 3m + 4$)",
+      "Biến đổi $\\Delta' = (m - \\frac{3}{2})^2 + \\frac{7}{4}$",
+      "Lập luận $(m - \\frac{3}{2})^2 \\geq 0$ nên $\\Delta' > 0$ với mọi $m$",
+      "Kết luận phương trình luôn có hai nghiệm phân biệt $x_1, x_2$"
+     ],
+     "nhieu": [
+      "Lập luận $\\Delta' = m^2 - 3m + 4 < 0$ nên phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 2(m-1)x + m - 3 = 0$. Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, tính giá trị biểu thức $A = x_1(1-x_2) + x_2(1-x_1)$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4",
+     "loi_giai": "Theo định lí Vi-et, ta có: $x_1 + x_2 = 2(m-1)$ và $x_1x_2 = m-3$.\nTa có: $A = x_1 - x_1x_2 + x_2 - x_1x_2 = (x_1 + x_2) - 2x_1x_2$.\nThay vào ta được: $A = 2(m-1) - 2(m-3) = 2m - 2 - 2m + 6 = 4$.",
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 2(m-1)x + m - 3 = 0$. Gọi $x_1, x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị biểu thức $A = x_1(1-x_2) + x_2(1-x_1)$.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Công ty Viễn thông A cung cấp dịch vụ Internet với mức phí ban đầu là 500 000 đồng và phí hàng tháng là 30 000 đồng. Công ty Viễn thông B cung cấp dịch vụ Internet không tính phí ban đầu nhưng phí hàng tháng là 80 000 đồng.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết hai hàm số biểu thị mức tính phí khi sử dụng Internet của hai công ty Viễn thông A và công ty Viễn thông B?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "y_A = 30000x + 500000; y_B = 80000x",
+     "loi_giai": "Gọi $x$ là số tháng sử dụng Internet ($x > 0$).\nHàm số biểu thị mức phí của công ty A là: $y_A = 30000x + 500000$.\nHàm số biểu thị mức phí của công ty B là: $y_B = 80000x$.",
+     "nguon": "de",
+     "de_day_du": "Công ty Viễn thông A cung cấp dịch vụ Internet với mức phí ban đầu là 500 000 đồng và phí hàng tháng là 30 000 đồng. Công ty Viễn thông B cung cấp dịch vụ Internet không tính phí ban đầu nhưng phí hàng tháng là 80 000 đồng. Viết hai hàm số biểu thị mức tính phí khi sử dụng Internet của hai công ty Viễn thông A và công ty Viễn thông B?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Hàm số công ty A: $y_A =$ {{1}} ; Hàm số công ty B: $y_B =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "30000x+500000"
+       },
+       {
+        "id": "2",
+        "answer": "80000x"
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi gia đình ông Nam sử dụng Internet trên mấy tháng thì chọn dịch vụ bên công ty Viễn thông A có lợi hơn?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Để dịch vụ bên công ty A có lợi hơn thì: $y_A < y_B$\n$\\Leftrightarrow 30000x + 500000 < 80000x$\n$\\Leftrightarrow 500000 < 50000x$\n$\\Leftrightarrow x > 10$.\nVậy gia đình ông Nam sử dụng Internet trên 10 tháng thì chọn công ty A có lợi hơn.",
+     "nguon": "de",
+     "de_day_du": "Công ty Viễn thông A cung cấp dịch vụ Internet với mức phí ban đầu là 500 000 đồng và phí hàng tháng là 30 000 đồng. Công ty Viễn thông B cung cấp dịch vụ Internet không tính phí ban đầu nhưng phí hàng tháng là 80 000 đồng. Hỏi gia đình ông Nam sử dụng Internet trên mấy tháng thì chọn dịch vụ bên công ty Viễn thông A có lợi hơn?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Bác Nam có một mảnh vườn hình chữ nhật. Bác chia mảnh vườn này ra làm hai khu đất hình chữ nhật: Khu thứ nhất dùng để trồng cỏ. Khu thứ hai dùng để trồng hoa. (Với các kích thước có trong hình vẽ).",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính diện tích khu đất dùng để trồng hoa và diện tích khu đất dùng để trồng cỏ theo $x$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "S_{hoa} = x^2 + 2x; S_{co} = xy - x^2 - 2x",
+     "loi_giai": "Diện tích khu đất trồng hoa là: $S_{hoa} = x(x + 2) = x^2 + 2x$.\nDiện tích khu đất trồng cỏ là: $S_{co} = x(y - (x + 2)) = xy - x^2 - 2x$.",
+     "nguon": "de",
+     "de_day_du": "Bác Nam có một mảnh vườn hình chữ nhật. Bác chia mảnh vườn này ra làm hai khu đất hình chữ nhật: Khu thứ nhất dùng để trồng cỏ. Khu thứ hai dùng để trồng hoa. (Với các kích thước có trong hình vẽ). Tính diện tích khu đất dùng để trồng hoa và diện tích khu đất dùng để trồng cỏ theo $x$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$S_{hoa} =$ {{1}} ; $S_{co} =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "x^2+2x"
+       },
+       {
+        "id": "2",
+        "answer": "xy-x^2-2x"
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính diện tích mảnh vườn hình chữ nhật của bác Nam với $x = 15$ và $y = 10$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "150",
+     "loi_giai": "Diện tích mảnh vườn hình chữ nhật là: $S = x \\cdot y$.\nVới $x = 15$ và $y = 10$, ta có: $S = 15 \\cdot 10 = 150$.",
+     "nguon": "de",
+     "de_day_du": "Bác Nam có một mảnh vườn hình chữ nhật. Bác chia mảnh vườn này ra làm hai khu đất hình chữ nhật: Khu thứ nhất dùng để trồng cỏ. Khu thứ hai dùng để trồng hoa. (Với các kích thước có trong hình vẽ). Tính diện tích mảnh vườn hình chữ nhật của bác Nam với $x = 15$ và $y = 10$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$S = {{1}} \\cdot {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "150"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Trường THCS A có số học sinh khá của khối 9 bằng 1,5 số học sinh giỏi. Nếu thêm số học sinh giỏi 10 bạn và số học sinh khá giảm đi 10 bạn thì khi đó số học sinh khá gấp 1 lần số học sinh giỏi. Tính số học sinh mỗi loại của khối 9 của trường THCS A?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "60; 40",
+     "loi_giai": "Gọi $x, y$ lần lượt là số học sinh khá và giỏi của khối 9 ($x, y \\in \\mathbb{N}^*$).\nVì số học sinh khá bằng 1,5 số học sinh giỏi nên: $x = 1.5y$ (1).\nNếu thêm 10 học sinh giỏi và giảm 10 học sinh khá thì số khá gấp 1 lần số giỏi: $x - 10 = 1(y + 10)$ (2).\nThay (1) vào (2) ta được: $1.5y - 10 = y + 10 \\Leftrightarrow 0.5y = 20 \\Leftrightarrow y = 40$.\nSuy ra $x = 1.5 \\times 40 = 60$.\nVậy số học sinh khá là 60 bạn, số học sinh giỏi là 40 bạn.",
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số học sinh khá:",
+        "dap_an": "60",
+        "don_vi": "bạn"
+       },
+       {
+        "nhan": "Số học sinh giỏi:",
+        "dap_an": "40",
+        "don_vi": "bạn"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số học sinh khá, $y$ là số học sinh giỏi (đơn vị: bạn, điều kiện $x, y \\in \\mathbb{N}^*$)",
+        "Biểu diễn mối quan hệ ban đầu giữa số học sinh khá và giỏi: {{1}}",
+        "Biểu diễn mối quan hệ sau khi thay đổi số lượng học sinh: {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy số học sinh khá là {{3}} bạn, số học sinh giỏi là {{4}} bạn"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x=1.5y"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x-10=y+10"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "60"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "40"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Một hộp chứa một số quả bóng xanh và bóng đỏ có cùng kích thước và khối lượng. Linh lấy ra ngẫu nhiên một quả bóng từ hộp, xem màu rồi trả bóng lại hộp. Lặp lại phép thử đó 200 lần, Linh thấy có 62 lần lấy được bóng xanh và 138 lần lấy được bóng đỏ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính xác suất thực nghiệm của biến cố \"Lấy được bóng xanh\" sau 200 lần thử.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.31",
+     "loi_giai": "Xác suất thực nghiệm của biến cố \"Lấy được bóng xanh\" là: $P = \\frac{62}{200} = 0.31$.",
+     "nguon": "de",
+     "de_day_du": "Một hộp chứa một số quả bóng xanh và bóng đỏ có cùng kích thước và khối lượng. Linh lấy ra ngẫu nhiên một quả bóng từ hộp, xem màu rồi trả bóng lại hộp. Lặp lại phép thử đó 200 lần, Linh thấy có 62 lần lấy được bóng xanh và 138 lần lấy được bóng đỏ. Tính xác suất thực nghiệm của biến cố \"Lấy được bóng xanh\" sau 200 lần thử.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "rut_gon_so",
+      "kieu": "dong",
+      "dong": [
+       "$P = \\dfrac{ {{1}} }{ {{2}} } = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "62"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "200"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.31"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Biết số bóng xanh trong hộp là 48, hãy ước lượng số bóng đỏ trong hộp.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "107",
+     "loi_giai": "Gọi tổng số bóng trong hộp là $N$.\nVì số lần thử lớn nên xác suất thực nghiệm xấp xỉ xác suất lý thuyết: $\\frac{48}{N} \\approx 0.31 \\Rightarrow N \\approx \\frac{48}{0.31} \\approx 154.8$.\nSố bóng đỏ ước lượng là: $155 - 48 = 107$ quả bóng.",
+     "nguon": "de",
+     "de_day_du": "Một hộp chứa một số quả bóng xanh và bóng đỏ có cùng kích thước và khối lượng. Linh lấy ra ngẫu nhiên một quả bóng từ hộp, xem màu rồi trả bóng lại hộp. Lặp lại phép thử đó 200 lần, Linh thấy có 62 lần lấy được bóng xanh và 138 lần lấy được bóng đỏ. Biết số bóng xanh trong hộp là 48, hãy ước lượng số bóng đỏ trong hộp.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$N \\approx \\dfrac{48}{ {{1}} } \\approx {{2}}$",
+       "$Số bóng đỏ = {{2}} - 48 = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0.31"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "155"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "107"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho tam giác $ABC$ nhọn ($AB < AC$) có $BC = 12$ cm. Các đường cao $BE$ và $CF$ cắt nhau tại $H$. $EF$ cắt $BC$ tại $K$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh bốn điểm $B, C, E, F$ cùng thuộc một đường tròn. Xác định tâm $M$ và bán kính của đường tròn đó.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $\\triangle BEC$ vuông tại $E$ nên $E$ thuộc đường tròn đường kính $BC$.\nTa có $\\triangle BFC$ vuông tại $F$ nên $F$ thuộc đường tròn đường kính $BC$.\nVậy bốn điểm $B, C, E, F$ cùng thuộc đường tròn đường kính $BC$.\nTâm $M$ là trung điểm của $BC$, bán kính $R = \\frac{BC}{2} = \\frac{12}{2} = 6$ cm.",
+     "cum": [
+      "Xét $\\triangle BEC$ vuông tại $E$ (do $BE$ là đường cao)",
+      "Suy ra $E$ thuộc đường tròn đường kính $BC$",
+      "Xét $\\triangle BFC$ vuông tại $F$ (do $CF$ là đường cao)",
+      "Suy ra $F$ thuộc đường tròn đường kính $BC$",
+      "Kết luận $B, C, E, F$ cùng thuộc đường tròn đường kính $BC$",
+      "Xác định tâm $M$ là trung điểm $BC$ và bán kính $R = 6$ cm"
+     ],
+     "nhieu": [
+      "Xác định tâm $M$ là trực tâm $H$ của tam giác $ABC$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho tam giác $ABC$ nhọn ($AB < AC$) có $BC = 12$ cm. Các đường cao $BE$ và $CF$ cắt nhau tại $H$. $EF$ cắt $BC$ tại $K$. Chứng minh bốn điểm $B, C, E, F$ cùng thuộc một đường tròn. Xác định tâm $M$ và bán kính của đường tròn đó.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi $M$ là hình chiếu của $K$ trên cạnh $BC$ (Lưu ý: Đề bài gốc có sự nhầm lẫn ký hiệu, ở đây hiểu là chứng minh các hệ thức liên quan đến $K, M, E, F$). Chứng minh $MK \\cdot MC = ME \\cdot MF$ và $MK \\cdot MC = MB^2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét $\\triangle MEK$ và $\\triangle MCF$ có $\\widehat{M}$ chung và $\\widehat{MEK} = \\widehat{MCF}$ (cùng bù với $\\widehat{FEB}$).\nDo đó $\\triangle MEK \\sim \\triangle MCF$ (g.g) $\\Rightarrow \\frac{ME}{MC} = \\frac{MK}{MF} \\Rightarrow MK \\cdot MC = ME \\cdot MF$.\nXét $\\triangle MBK$ và $\\triangle MCB$ có $\\widehat{M}$ chung và $\\widehat{MBK} = \\widehat{MCB}$ nên $\\triangle MBK \\sim \\triangle MCB$ (g.g).\n$\\Rightarrow \\frac{MB}{MC} = \\frac{MK}{MB} \\Rightarrow MK \\cdot MC = MB^2$.",
+     "cum": [
+      "Chứng minh $\\triangle MEK \\sim \\triangle MCF$ (g.g)",
+      "Suy ra tỉ số $\\frac{ME}{MC} = \\frac{MK}{MF}$ và $MK \\cdot MC = ME \\cdot MF$",
+      "Chứng minh $\\triangle MBK \\sim \\triangle MCB$ (g.g)",
+      "Suy ra tỉ số $\\frac{MB}{MC} = \\frac{MK}{MB}$",
+      "Kết luận $MK \\cdot MC = MB^2$"
+     ],
+     "nhieu": [
+      "Chứng minh $MK \\cdot MC = MA^2$ bằng cách sử dụng định lý Pythagoras"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho tam giác $ABC$ nhọn ($AB < AC$) có $BC = 12$ cm. Các đường cao $BE$ và $CF$ cắt nhau tại $H$. $EF$ cắt $BC$ tại $K$. Gọi $M$ là trung điểm của $BC$ (tâm đường tròn đi qua $B, C, E, F$). Chứng minh $MK \\cdot MC = ME \\cdot MF$ và $MK \\cdot MC = MB^2$.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Gọi $I$ là trung điểm của $AH$ và $D$ là giao điểm của $AH$ với $BC$. Chứng minh $IK$ là tiếp tuyến của đường tròn $(M)$ và tính độ dài đoạn $AD$ (kết quả làm tròn đến 3 chữ số thập phân).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10.583",
+     "loi_giai": "Chứng minh $IK$ là tiếp tuyến: Ta có $I$ là tâm đường tròn ngoại tiếp tứ giác $AEHF$. Sử dụng tính chất góc tạo bởi tiếp tuyến và dây cung để chứng minh $IK \\perp MK$.\nTính $AD$: Dựa vào các hệ thức lượng trong tam giác vuông và các tam giác đồng dạng, ta tính được $AD \\approx 10.583$ cm.",
+     "nguon": "ai",
+     "de_day_du": "Cho tam giác $ABC$ nhọn ($AB < AC$) có $BC = 12$ cm. Các đường cao $BE$ và $CF$ cắt nhau tại $H$. $EF$ cắt $BC$ tại $K$. Gọi $M$ là trung điểm của $BC$. Gọi $I$ là trung điểm của $AH$ và $D$ là giao điểm của $AH$ với $BC$. Chứng minh $IK$ là tiếp tuyến của đường tròn $(M)$ và tính độ dài đoạn $AD$ (kết quả làm tròn đến 3 chữ số thập phân).",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3-flash-preview)",
+ "tn_diem": 0.25
+}

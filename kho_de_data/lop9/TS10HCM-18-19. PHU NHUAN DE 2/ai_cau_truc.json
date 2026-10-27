@@ -1,0 +1,516 @@
+{
+ "truong": "",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số $y=\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Bảng giá trị:\n$x$: $-2$; $-1$; $0$; $1$; $2$\n$y=\\frac{1}{2}x^2$: $2$; $\\frac{1}{2}$; $0$; $\\frac{1}{2}$; $2$\nVẽ Parabol $(P)$ đi qua các điểm trên.",
+     "cum": [
+      "Lập bảng giá trị tương ứng của $x$ và $y=\\frac{1}{2}x^2$ tại các giá trị $x=-2;-1;0;1;2$",
+      "Xác định các điểm thuộc $(P)$: $(-2;2),(-1;\\frac{1}{2}),(0;0),(1;\\frac{1}{2}),(2;2)$",
+      "Vẽ đường cong Parabol $(P)$ đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm đã xác định để được đồ thị $(P)$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y=\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$. Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Quỹ đạo được biểu diễn bằng hàm số $y=-x^2+4x$. Minh muốn tìm các vị trí trên quỹ đạo mà độ cao của quả bóng so với mặt đất là $3$ m. Hỏi tại những điểm nào trên mặt phẳng, quả bóng đạt được độ cao này?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(1;3); (3;3)",
+     "loi_giai": "Gọi các điểm thỏa mãn đề bài là $M(x;y)$.\nVì $y=3$ nên $-x^2+4x=3$.\nSuy ra $x^2-4x+3=0$.\nGiải được $x=1$ hoặc $x=3$.\nVậy tọa độ điểm $M_1(1;3)$; $M_2(3;3)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Quỹ đạo được biểu diễn bằng hàm số $y=-x^2+4x$. Minh muốn tìm các vị trí trên quỹ đạo mà độ cao của quả bóng so với mặt đất là $3$ m. Hỏi tại những điểm nào trên mặt phẳng, quả bóng đạt được độ cao này?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "1",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "3",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "1"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "3"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Cho phương trình: $x^2-3x-2=0$ có hai nghiệm là $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức: $A=\\frac{x_1}{x_2}+\\frac{x_2}{x_1}$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "-13/2",
+     "loi_giai": "Ta có: $\\Delta=(-3)^2-4\\cdot1\\cdot(-2)=17>0$.\nDo đó phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.\nTheo Viète, ta có: $x_1+x_2=3$; $x_1x_2=-2$.\n$A=\\frac{x_1}{x_2}+\\frac{x_2}{x_1}=\\frac{x_1^2+x_2^2}{x_1x_2}=\\frac{(x_1+x_2)^2-2x_1x_2}{x_1x_2}$\n$A=\\frac{3^2-2\\cdot(-2)}{-2}=\\frac{13}{-2}=-\\frac{13}{2}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Nhà bác An có một khu vườn trồng hoa hình chữ nhật có chiều dài và chiều rộng lần lượt là $8$ m và $5$ m. Bác An dự tính mở rộng thêm vườn bằng cách cải tạo thêm $x$ m về phía ngoài của chiều dài và chiều rộng như hình vẽ. [[IMG:image14.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức $S(x)$ biểu diễn theo $x$ diện tích của vườn hoa hình chữ nhật sau khi được mở rộng?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x^2+13x+40",
+     "loi_giai": "Biểu thức $S(x)$ biểu diễn theo $x$ diện tích của vườn hoa hình chữ nhật sau khi được mở rộng: $S(x)=(8+x)(5+x)=x^2+13x+40$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhà bác An có một khu vườn trồng hoa hình chữ nhật có chiều dài và chiều rộng lần lượt là $8$ m và $5$ m. Bác An dự tính mở rộng thêm vườn bằng cách cải tạo thêm $x$ m về phía ngoài của chiều dài và chiều rộng như hình vẽ. [[IMG:image14.png]]. Viết biểu thức $S(x)$ biểu diễn theo $x$ diện tích của vườn hoa hình chữ nhật sau khi được mở rộng?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$x^2+13x+40$",
+       "$x^2+40x+13$",
+       "$x^2+13x+13$",
+       "$x^2+8x+5$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Biết rằng sau khi mở rộng thì diện tích của vườn lớn hơn diện tích ban đầu là $50$ m$^2$. Tìm giá trị của $x$, làm tròn kết quả đến hàng phần mười?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3.4",
+     "loi_giai": "Sau khi mở rộng thì diện tích của vườn lớn hơn diện tích ban đầu là $50$ m$^2$ nên ta có phương trình:\n$x^2+13x+40-8\\cdot5=50$\n$x^2+13x-50=0$\nGiải phương trình ta tìm được $x\\approx3,4$ (nhận) hoặc $x\\approx-16,4$ (loại).\nVậy $x\\approx3,4$ m.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhà bác An có một khu vườn trồng hoa hình chữ nhật có chiều dài và chiều rộng lần lượt là $8$ m và $5$ m. Bác An dự tính mở rộng thêm vườn bằng cách cải tạo thêm $x$ m về phía ngoài của chiều dài và chiều rộng như hình vẽ. [[IMG:image14.png]]. Biết rằng sau khi mở rộng thì diện tích của vườn lớn hơn diện tích ban đầu là $50$ m$^2$. Tìm giá trị của $x$, làm tròn kết quả đến hàng phần mười?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "$x =$",
+        "dap_an": "3.4",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là độ dài phần mở rộng (m, $x > 0$)",
+        "Phương trình: {{1}}",
+        "Giải phương trình ta tìm được $x =$ {{2}}",
+        "Vậy $x$ là {{3}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x^2+13x-50=0"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "3.4"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "3.4"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến chứa được khoảng $330$ ml chất lỏng, được thiết kế hình trụ với chiều cao khoảng $12$ cm (phần chứa chất lỏng), đường kính đáy khoảng $6$ cm. Nhưng hiện nay các nhà sản xuất có xu hướng tạo ra những lon nhôm với kiểu dáng thon hơn. Tuy chi phí sản xuất những chiếc lon cao này tốn kém hơn, nhưng nó lại dễ đánh lừa thị giác và được người tiêu dùng ưu chuộng hơn. [[IMG:image20.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Một lon nước ngọt cao $15$ cm (phần chứa chất lỏng), đường kính đáy là $5$ cm. Hỏi lon nước ngọt cao này có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao? Biết thể tích hình trụ: $V=\\pi r^2h$, (với $\\pi\\approx3,14$).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Có",
+     "loi_giai": "Thể tích của lon nước ngọt cao là: $V=\\pi r^2h\\approx3,14\\cdot(2,5)^2\\cdot15\\approx294,4$ (cm$^3$).\nVì $294,4$ ml $<330$ ml nên lon nước ngọt cao này không thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến chứa được khoảng $330$ ml chất lỏng, được thiết kế hình trụ với chiều cao khoảng $12$ cm (phần chứa chất lỏng), đường kính đáy khoảng $6$ cm. Một lon nước ngọt cao $15$ cm (phần chứa chất lỏng), đường kính đáy là $5$ cm. Hỏi lon nước ngọt cao này có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao? Biết thể tích hình trụ: $V=\\pi r^2h$, (với $\\pi\\approx3,14$).",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "Có",
+       "Không",
+       "Không xác định",
+       "Bằng nhau"
+      ],
+      "answer": "B"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Vì sao chi phí sản xuất chiếc lon cao tốn kém hơn chiếc lon cỡ phổ biến? Biết diện tích xung quanh, diện tích toàn phần hình trụ được tính theo công thức: $S_{xq}=2\\pi rh$; $S_{tp}=2\\pi rh+2\\pi r^2$",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Diện tích vỏ nhôm của lon cao: $S_{tp}=2\\pi rh+2\\pi r^2\\approx2\\cdot3,14\\cdot2,5\\cdot15+2\\cdot3,14\\cdot(2,5)^2\\approx274,75$ (cm$^2$).\nDiện tích vỏ nhôm của lon cũ: $S_{tp}=2\\pi rh+2\\pi r^2\\approx2\\cdot3,14\\cdot3\\cdot12+2\\cdot3,14\\cdot3^2\\approx282,6$ (cm$^2$).\nVì $274,75<282,6$ nên giá thành lon cao mắc hơn.",
+     "cum": [
+      "Tính diện tích toàn phần của lon cao: $S_{tp}=2\\pi rh+2\\pi r^2\\approx274,75$ cm$^2$",
+      "Tính diện tích toàn phần của lon cỡ phổ biến: $S_{tp}=2\\pi rh+2\\pi r^2\\approx282,6$ cm$^2$",
+      "So sánh $274,75<282,6$ nên chi phí sản xuất lon cao tốn kém hơn"
+     ],
+     "nhieu": [
+      "Vì lon cao có chiều cao lớn hơn nên luôn có diện tích toàn phần lớn hơn lon cỡ phổ biến"
+     ],
+     "nguon": "de",
+     "de_day_du": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến chứa được khoảng $330$ ml chất lỏng, được thiết kế hình trụ với chiều cao khoảng $12$ cm (phần chứa chất lỏng), đường kính đáy khoảng $6$ cm. Vì sao chi phí sản xuất chiếc lon cao tốn kém hơn chiếc lon cỡ phổ biến? Biết diện tích xung quanh, diện tích toàn phần hình trụ được tính theo công thức: $S_{xq}=2\\pi rh$; $S_{tp}=2\\pi rh+2\\pi r^2$",
+     "diem": 0.75
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Trong kì thi tuyển sinh vào lớp $10$, trường THPT $A$ đã tuyển sinh vào lớp $10$ thông qua $3$ nguyện vọng (NV).\n▪ Với NV$1$, nhà trường đã chia học sinh nam và nữ thành các nhóm nhỏ, mỗi nhóm học sinh nam có $5$ bạn, mỗi nhóm học sinh nữ có $4$ bạn thì vừa đủ\n▪ Sau đó, trường tuyển thêm NV$2$ được $60$ bạn và chia thêm được $2$ nhóm nam, mỗi nhóm thêm $2$ bạn, thêm $1$ nhóm nữ, mỗi nhóm thêm $3$ bạn.\n▪ Với NV$3$, nhà trường tuyển thêm được $70$ học sinh và chia vừa đủ vào mỗi nhóm nam thêm $3$ bạn và mỗi nhóm nữ thêm $2$ bạn\nHãy tính tổng số học sinh trúng tuyển vào lớp $10$ tại trường THPT $A$ và tính tỉ lệ phần trăm học sinh nam và nữ đã trúng tuyển của trường",
+     "loai": "tra_loi_ngan",
+     "dap_an": "nam 60%; nữ 40%",
+     "loi_giai": "Gọi số học sinh nam trúng tuyển vào lớp $10$ tại trường THPT $A$ là $x$ (học sinh)\nSố học sinh nữ trúng tuyển vào lớp $10$ tại trường THPT $A$ là $y$ (học sinh)\nĐK: $x,y\\in\\mathbb{N}^*$\n▪ Với NV$1$, mỗi nhóm nam có $5$ bạn, mỗi nhóm nữ có $4$ bạn thì vừa đủ.\nSau đó tuyển thêm NV$2$ được $60$ bạn và chia thêm được $2$ nhóm nam, mỗi nhóm thêm $2$ bạn, thêm $1$ nhóm nữ, mỗi nhóm thêm $3$ bạn.\nNên $\\frac{x}{5}+2=\\frac{x+?}{?}$... \nSuy ra $x=...$\n▪ Với NV$3$, nhà trường tuyển thêm được $70$ học sinh và chia vừa đủ vào mỗi nhóm nam thêm $3$ bạn và mỗi nhóm nữ thêm $2$ bạn.\nTa có hệ phương trình: ... Nên $x=...; y=...$ (Thỏa mãn)\nVậy tổng số học sinh trúng tuyển vào lớp $10$ tại trường THPT $A$ là $...$ (học sinh)\nTỉ lệ phần trăm học sinh nam là $60\\%$ và nữ là $40\\%$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Tỉ lệ học sinh nam:",
+        "dap_an": "60",
+        "don_vi": "%"
+       },
+       {
+        "nhan": "Tỉ lệ học sinh nữ:",
+        "dap_an": "40",
+        "don_vi": "%"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số học sinh nam, $y$ là số học sinh nữ (học sinh, $x,y \\in \\mathbb{N}^*$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy tỉ lệ nam là {{5}}% và nữ là {{6}}%"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x/5+2=(x+60)/7"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "y/4+1=(y+70)/6"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "300"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "200"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "60"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "40"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Thống kê điểm kiểm tra môn Anh Văn của các học sinh lớp $9A$ được cho bởi bảng sau:\n[[TABLE]]| Điểm số | $6$ | $7$ | $8$ | $9$ |\n|---|---|---|---|---|\n| Tần số tương đối | $25\\%$ | $30\\%$ | $35\\%$ | $10\\%$ |\nChọn ngẫu nhiên 1 học sinh lớp $9A$. Biết rằng có $4$ học sinh lớp $9A$ được $9$ điểm",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Lớp $9A$ có bao nhiêu học sinh? Có bao nhiêu học sinh đạt điểm khá?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "40 học sinh; 12 học sinh",
+     "loi_giai": "Số học sinh lớp $9A$ là: $4:10\\%=40$ (học sinh)\nSố học sinh đạt điểm khá (điểm $7$) là: $40\\cdot30\\%=12$ (học sinh)",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thống kê điểm kiểm tra môn Anh Văn của các học sinh lớp $9A$ được cho bởi bảng sau: [[TABLE]]| Điểm số | $6$ | $7$ | $8$ | $9$ | |---|---|---|---|---| | Tần số tương đối | $25\\%$ | $30\\%$ | $35\\%$ | $10\\%$ |. Biết rằng có $4$ học sinh lớp $9A$ được $9$ điểm. Lớp $9A$ có bao nhiêu học sinh? Có bao nhiêu học sinh đạt điểm khá?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tổng số học sinh: {{1}} học sinh; Số học sinh đạt điểm khá: {{2}} học sinh",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "40"
+       },
+       {
+        "id": "2",
+        "answer": "12"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh lớp 9A là: $4 : 10\\% =$ {{1}} (học sinh)",
+       "Số học sinh đạt điểm khá là: {{2}} $\\cdot 30\\% =$ {{3}} (học sinh)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "12"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Có bao nhiêu học sinh trên $7$ điểm? Tính xác suất của biến cố $A$: “Học sinh được chọn đạt điểm tốt”",
+     "loai": "tra_loi_ngan",
+     "dap_an": "18 học sinh; 9/20",
+     "loi_giai": "Tần số tương đối của các học sinh được chọn đạt trên $7$ điểm là: $35\\%+10\\%=45\\%$\nSố học sinh đạt trên $7$ điểm là: $40\\cdot45\\%=18$ (học sinh)\nPhần trăm học sinh đạt điểm tốt là: $35\\%+10\\%=45\\%$\nXác suất của biến cố $A$ là: $\\frac{18}{40}=\\frac{9}{20}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Thống kê điểm kiểm tra môn Anh Văn của các học sinh lớp $9A$ được cho bởi bảng sau: [[TABLE]]| Điểm số | $6$ | $7$ | $8$ | $9$ | |---|---|---|---|---| | Tần số tương đối | $25\\%$ | $30\\%$ | $35\\%$ | $10\\%$ |. Biết rằng có $4$ học sinh lớp $9A$ được $9$ điểm. Có bao nhiêu học sinh trên $7$ điểm? Tính xác suất của biến cố $A$: “Học sinh được chọn đạt điểm tốt”",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Số học sinh trên 7 điểm: {{1}} học sinh; Xác suất biến cố A: {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "18"
+       },
+       {
+        "id": "2",
+        "answer": "9/20"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh đạt trên 7 điểm là: $40 \\cdot (35\\% + 10\\%) =$ {{1}} (học sinh)",
+       "Xác suất của biến cố A là: $\\frac{ {{2}} }{40} = \\frac{9}{20}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "18"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "18"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho điểm $A$ nằm ngoài $(O)$ với $OA>R$, vẽ $2$ tiếp tuyến $AB$ và $AC$ đến đường tròn $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:image121.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: bốn điểm $A$, $O$, $B$, $C$ cùng thuộc một đường tròn và $OA\\perp BC$ tại $H$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Gọi $M$ là trung điểm của $OA$.\nXét $\\triangle ABO$ vuông tại $B$ có: $BM$ là đường trung tuyến nên $BM=\\frac{OA}{2}=AM=OM$.\nChứng minh tương tự $\\triangle ACO$ ta có: $CM=\\frac{OA}{2}=AM=OM$.\nTừ đó $MA=MB=MC=MO$ nên bốn điểm $A$, $O$, $B$, $C$ cùng thuộc đường tròn tâm $M$.\nTa có: $AB=AC$ (tính chất hai tiếp tuyến $AB$ và $AC$ cắt nhau)\n$OB=OC=R$\nNên $OA$ là đường trung trực của $BC$.\nVậy $OA\\perp BC$ tại $H$.",
+     "cum": [
+      "Gọi $M$ là trung điểm của $OA$",
+      "Xét $\\triangle ABO$ vuông tại $B$ có $BM$ là đường trung tuyến nên $BM=\\frac{OA}{2}=AM=OM$",
+      "Chứng minh tương tự $\\triangle ACO$ ta có $CM=\\frac{OA}{2}=AM=OM$",
+      "Từ đó $MA=MB=MC=MO$ nên bốn điểm $A$, $O$, $B$, $C$ cùng thuộc đường tròn tâm $M$",
+      "Ta có $AB=AC$ (tính chất hai tiếp tuyến cắt nhau) và $OB=OC=R$ nên $OA$ là đường trung trực của $BC$",
+      "Vậy $OA\\perp BC$ tại $H$"
+     ],
+     "nhieu": [
+      "Vì $AB=AC$ nên tam giác $ABC$ cân tại $A$, suy ra $OA$ là đường phân giác của $\\widehat{BAC}$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm $A$ nằm ngoài $(O)$ với $OA>R$, vẽ $2$ tiếp tuyến $AB$ và $AC$ đến đường tròn $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:image121.png]]. Chứng minh: bốn điểm $A$, $O$, $B$, $C$ cùng thuộc một đường tròn và $OA\\perp BC$ tại $H$.",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Vẽ đường kính $BD$ của đường tròn $(O)$. Đoạn thẳng $AD$ cắt đường tròn $(O)$ tại điểm $E$ ($E$ khác $D$). Chứng minh: $AB^2=AE\\cdot AD$ và $HE\\cdot HD=HB\\cdot HC$",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh: $AB^2=AE\\cdot AD$\nXét $\\triangle ABE$ và $\\triangle ADB$, ta có:\n$\\widehat{BAE}$ chung\nVà $\\widehat{ABE}=\\widehat{ADB}$ (góc nội tiếp và góc tạo bởi tiếp tuyến cùng chắn cung $BE$)\nVậy $\\triangle ABE\\sim\\triangle ADB$ (g.g)\nNên $\\frac{AB}{AD}=\\frac{AE}{AB}$\nVậy $AB^2=AE\\cdot AD$.\nChứng minh: $HE\\cdot HD=HB\\cdot HC$\nTa có $\\widehat{BED}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn $(O)$ đường kính $BD$)\nNên $BE\\perp AD$ tại $E$.\nXét $\\triangle HBE$ và $\\triangle HDC$, ta có:\n$\\widehat{BHE}=\\widehat{DHC}$ (đối đỉnh)\n$\\widehat{BEH}=\\widehat{DCH}=90^\\circ$ (vì $BE\\perp AD$ tại $E$, $OA\\perp BC$ tại $H$)\nVậy $\\triangle HBE\\sim\\triangle HDC$ (g.g)\nNên $\\frac{HB}{HD}=\\frac{HE}{HC}$\nVậy $HE\\cdot HD=HB\\cdot HC$.",
+     "cum": [
+      "Xét $\\triangle ABE$ và $\\triangle ADB$ có $\\widehat{BAE}$ chung và $\\widehat{ABE}=\\widehat{ADB}$ (góc nội tiếp và góc tạo bởi tiếp tuyến cùng chắn cung $BE$)",
+      "Vậy $\\triangle ABE\\sim\\triangle ADB$ (g.g) nên $\\frac{AB}{AD}=\\frac{AE}{AB}$, suy ra $AB^2=AE\\cdot AD$",
+      "Ta có $\\widehat{BED}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$) nên $BE\\perp AD$ tại $E$",
+      "Xét $\\triangle HBE$ và $\\triangle HDC$ có $\\widehat{BHE}=\\widehat{DHC}$ (đối đỉnh) và $\\widehat{BEH}=\\widehat{DCH}=90^\\circ$",
+      "Vậy $\\triangle HBE\\sim\\triangle HDC$ (g.g) nên $\\frac{HB}{HD}=\\frac{HE}{HC}$, suy ra $HE\\cdot HD=HB\\cdot HC$"
+     ],
+     "nhieu": [
+      "Xét $\\triangle HBE$ và $\\triangle HDC$ có $\\widehat{BHE}=\\widehat{DHC}$ (đối đỉnh) và $\\widehat{HBE}=\\widehat{HCD}$ nên $\\triangle HBE\\sim\\triangle HDC$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm $A$ nằm ngoài $(O)$ với $OA>R$, vẽ $2$ tiếp tuyến $AB$ và $AC$ đến đường tròn $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:image121.png]]. Vẽ đường kính $BD$ của đường tròn $(O)$. Đoạn thẳng $AD$ cắt đường tròn $(O)$ tại điểm $E$ ($E$ khác $D$). Chứng minh: $AB^2=AE\\cdot AD$ và $HE\\cdot HD=HB\\cdot HC$.",
+     "diem": 0.75,
+     "mau_xet": true
+    },
+    {
+     "nhan": "c",
+     "de": "Biết bán kính $R=6$ cm. Tính diện tích hình phẳng giới hạn bởi $AB$, $AC$ và cung $BC$ nhỏ, làm tròn kết quả đến hàng đơn vị.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "39",
+     "loi_giai": "Xét $\\triangle ABO$ vuông tại $B$ ta có: $\\sin\\widehat{AOB}=\\frac{AB}{AO}$... \nSuy ra $\\widehat{AOB}=...$\nMà $\\widehat{BOC}=2\\widehat{AOB}$ (tính chất hai tiếp tuyến $AB$ và $AC$ cắt nhau tại $A$)\nNên $\\widehat{BOC}=...$\nVậy $S_{ABOC}=...$\nNên sđ cung $BC$ nhỏ $=...$\nDiện tích hình phẳng giới hạn bởi $AB$, $AC$ và cung nhỏ $BC$ là:\n$S=S_{ABOC}-S_{quat}=\\ldots\\approx39$ (cm$^2$).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho điểm $A$ nằm ngoài $(O)$ với $OA>R$, vẽ $2$ tiếp tuyến $AB$ và $AC$ đến đường tròn $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:image121.png]]. Biết bán kính $R=6$ cm. Tính diện tích hình phẳng giới hạn bởi $AB$, $AC$ và cung $BC$ nhỏ, làm tròn kết quả đến hàng đơn vị.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "DeepSeek 1",
+ "tn_diem": 0.25
+}

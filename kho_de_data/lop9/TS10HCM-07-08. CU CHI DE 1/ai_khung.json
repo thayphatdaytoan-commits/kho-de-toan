@@ -1,0 +1,712 @@
+{
+ "by": "Gemini 2 (gemini-3-flash-preview)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập {{1}} giá trị của hàm số $y = ax^2$."
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các điểm có {{2}} tương ứng trên mặt phẳng {{3}}."
+    ],
+    "hint": "Xác định tọa độ"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong {{4}} đi qua các điểm đã xác định."
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "bảng"
+    ],
+    "keywords": [
+     "bảng"
+    ],
+    "placeholder": "tên bảng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "tọa độ"
+    ],
+    "keywords": [
+     "tọa độ"
+    ],
+    "placeholder": "tên đại lượng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "Oxy"
+    ],
+    "keywords": [
+     "oxy"
+    ],
+    "placeholder": "hệ trục",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "Parabol"
+    ],
+    "keywords": [
+     "parabol"
+    ],
+    "placeholder": "tên đồ thị",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "bảng",
+   "tọa độ",
+   "Oxy",
+   "Parabol",
+   "đường thẳng",
+   "biểu đồ"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định các hệ số $a, b, c$ của {{1}}."
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính {{2}} $\\Delta = b^2 - 4ac$."
+    ],
+    "hint": "Tính biệt thức"
+   },
+   {
+    "lines": [
+     "Vì $\\Delta {{3}} 0$ nên phương trình có {{4}} nghiệm {{5}}."
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "phương trình"
+    ],
+    "keywords": [
+     "phương trình"
+    ],
+    "placeholder": "đối tượng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "biệt thức"
+    ],
+    "keywords": [
+     "biệt thức"
+    ],
+    "placeholder": "tên gọi",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     ">"
+    ],
+    "keywords": [
+     ">"
+    ],
+    "placeholder": "dấu",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "hai"
+    ],
+    "keywords": [
+     "hai"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "phân biệt"
+    ],
+    "keywords": [
+     "phân biệt"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "phương trình",
+   "biệt thức",
+   ">",
+   "hai",
+   "phân biệt",
+   "<",
+   "vô nghiệm"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Trong đường tròn $(O)$, $\\angle CAD$ và $\\angle CBD$ là các {{1}} cùng chắn {{2}}."
+    ],
+    "hint": "Xác định góc nội tiếp"
+   },
+   {
+    "lines": [
+     "Theo giả thiết cung $AC =$ cung $CD$, suy ra $\\angle ABC = \\angle {{3}}$ (chắn các {{4}} bằng nhau)."
+    ],
+    "hint": "Sử dụng giả thiết cung bằng nhau"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle ABI$ có $AC \\perp BI$ (vì $\\angle ACB = {{5}}$ là góc nội tiếp chắn {{6}})."
+    ],
+    "hint": "Chứng minh đường cao"
+   },
+   {
+    "lines": [
+     "Nên $AC$ là {{7}} đồng thời là {{8}} của $\\triangle ABI$."
+    ],
+    "hint": "Xác định tính chất tam giác"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle ABI$ {{9}} tại $A$, dẫn đến $AC$ cũng là đường {{10}}."
+    ],
+    "hint": "Chứng minh tam giác cân"
+   },
+   {
+    "lines": [
+     "Vậy $CI$ là tia phân giác của $\\angle {{11}}$ trong $\\triangle {{12}}$."
+    ],
+    "hint": "Kết luận tia phân giác"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "góc nội tiếp"
+    ],
+    "keywords": [],
+    "placeholder": "loại góc",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "cung $CD$"
+    ],
+    "keywords": [],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "DBC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "cung"
+    ],
+    "keywords": [],
+    "placeholder": "đối tượng",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "nửa đường tròn"
+    ],
+    "keywords": [],
+    "placeholder": "đối tượng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "đường cao"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "phân giác"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "cân"
+    ],
+    "keywords": [],
+    "placeholder": "loại tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "trung tuyến"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "ACH"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "HCI"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "góc nội tiếp",
+   "cung $CD$",
+   "DBC",
+   "cung",
+   "90^\\circ",
+   "nửa đường tròn",
+   "đường cao",
+   "phân giác",
+   "cân",
+   "trung tuyến",
+   "ACH",
+   "HCI",
+   "đều",
+   "vuông",
+   "so le trong",
+   "đối đỉnh"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle HAD$ và $\\triangle HBC$ có:"
+    ],
+    "hint": "Xét hai tam giác"
+   },
+   {
+    "lines": [
+     "• $\\angle AHD = \\angle {{1}}$ (hai góc {{2}})."
+    ],
+    "hint": "Xác định cặp góc thứ nhất"
+   },
+   {
+    "lines": [
+     "• $\\angle HAD = \\angle {{3}}$ (hai góc nội tiếp cùng chắn {{4}})."
+    ],
+    "hint": "Xác định cặp góc thứ hai"
+   },
+   {
+    "lines": [
+     "Do đó $\\triangle HAD \\sim \\triangle {{5}}$ (trường hợp {{6}})."
+    ],
+    "hint": "Chứng minh tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra tỉ số đồng dạng: $\\frac{HA}{{{7}}} = \\frac{{{8}}}{HC}$."
+    ],
+    "hint": "Lập tỉ số đồng dạng"
+   },
+   {
+    "lines": [
+     "Vậy $HA \\cdot {{9}} = {{10}} \\cdot {{11}}$ (điều phải {{12}})."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BHC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "đối đỉnh"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "HBC"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "cung $CD$"
+    ],
+    "keywords": [],
+    "placeholder": "tên cung",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "HBC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "HD"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "HC"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "HB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "HD"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "chứng minh"
+    ],
+    "keywords": [],
+    "placeholder": "động từ",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "BHC",
+   "đối đỉnh",
+   "HBC",
+   "cung $CD$",
+   "g.g",
+   "HB",
+   "HD",
+   "HC",
+   "chứng minh",
+   "c.g.c",
+   "so le trong",
+   "cạnh chung",
+   "HAC"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Vì $M, N, K, E$ cùng thuộc đường tròn ngoại tiếp $\\triangle {{1}}$ nên tứ giác $MNKE$ là {{2}}."
+    ],
+    "hint": "Xác định tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Suy ra $\\angle MKN + \\angle MEN = {{3}}$ (tổng hai góc đối)."
+    ],
+    "hint": "Sử dụng tính chất góc đối"
+   },
+   {
+    "lines": [
+     "Mà $\\angle MKN + \\angle MKP = {{4}}$ (hai góc {{5}})."
+    ],
+    "hint": "Sử dụng tính chất kề bù"
+   },
+   {
+    "lines": [
+     "Nên $\\angle MKP = \\angle {{6}}$."
+    ],
+    "hint": "Suy ra cặp góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle MKP$ và $\\triangle {{7}}$ có $\\angle {{8}}$ là góc chung và $\\angle MKP = \\angle {{9}}$."
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Do đó $\\triangle MKP \\sim \\triangle {{10}}$ ({{11}}), suy ra $MK \\cdot NP = MP \\cdot {{12}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "HDE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "tứ giác nội tiếp"
+    ],
+    "keywords": [],
+    "placeholder": "tên gọi",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "180^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "180^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "kề bù"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MEN"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "NEP"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "P"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "NEP"
+    ],
+    "keywords": [],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "NEP"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "NE"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "HDE",
+   "tứ giác nội tiếp",
+   "180^\\circ",
+   "kề bù",
+   "MEN",
+   "NEP",
+   "P",
+   "g.g",
+   "NE",
+   "c.c.c",
+   "đồng vị",
+   "so le trong",
+   "ABC"
+  ]
+ }
+}

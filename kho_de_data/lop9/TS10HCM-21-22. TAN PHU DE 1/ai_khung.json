@@ -1,0 +1,625 @@
+{
+ "by": "Gemini 2 (gemini-3-flash-preview)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị các điểm thuộc Parabol $y = {{1}}$."
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các điểm có {{2}} tương ứng trên mặt phẳng."
+    ],
+    "hint": "Xác định tọa độ"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong {{3}} đi qua các điểm đó."
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "ax^2"
+    ],
+    "keywords": [
+     "ax^2"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "tọa độ"
+    ],
+    "keywords": [
+     "tọa độ"
+    ],
+    "placeholder": "tọa độ",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "Parabol"
+    ],
+    "keywords": [
+     "parabol"
+    ],
+    "placeholder": "tên đồ thị",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ax^2",
+   "tọa độ",
+   "Parabol",
+   "trục hoành",
+   "đường thẳng"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "$\\Delta = (-m)^2 - 4(1)({{1}}) = m^2 - 4m + {{2}}$."
+    ],
+    "hint": "Tính delta"
+   },
+   {
+    "lines": [
+     "$\\Delta = (m - {{3}})^2 + {{4}}$."
+    ],
+    "hint": "Biến đổi delta"
+   },
+   {
+    "lines": [
+     "Vì $(m - 2)^2 \\ge 0$ nên $\\Delta \\ge {{5}} > 0$ với mọi $m$."
+    ],
+    "hint": "Đánh giá delta"
+   },
+   {
+    "lines": [
+     "Vậy phương trình luôn có {{6}}."
+    ],
+    "hint": "Kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "m-2"
+    ],
+    "keywords": [
+     "m-2"
+    ],
+    "placeholder": "biểu thức c",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "8"
+    ],
+    "keywords": [
+     "8"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "2"
+    ],
+    "keywords": [
+     "2"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "4"
+    ],
+    "keywords": [
+     "4"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "4"
+    ],
+    "keywords": [
+     "4"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "hai nghiệm phân biệt"
+    ],
+    "keywords": [
+     "hai nghiệm phân biệt",
+     "2 nghiệm phân biệt"
+    ],
+    "placeholder": "kết luận",
+    "maxLen": 24
+   }
+  ],
+  "pool": [
+   "m-2",
+   "8",
+   "2",
+   "4",
+   "hai nghiệm phân biệt",
+   "vô nghiệm",
+   "nghiệm kép"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét tứ giác {{1}} có:",
+     "• $\\angle ADH = {{2}}$ và $\\angle AEH = {{3}}$ (do $BD, CE$ là đường cao)."
+    ],
+    "hint": "Xét tứ giác có hai góc vuông"
+   },
+   {
+    "lines": [
+     "Suy ra $\\angle ADH + \\angle AEH = {{4}}$."
+    ],
+    "hint": "Tính tổng hai góc đối"
+   },
+   {
+    "lines": [
+     "Do đó tứ giác $ADHE$ {{5}} (tổng hai góc đối bằng $180^\\circ$)."
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle ABD$ và $\\triangle ACE$ có:",
+     "• $\\angle ADB = \\angle AEC = {{6}}$",
+     "• Góc {{7}} chung."
+    ],
+    "hint": "Xét hai tam giác vuông"
+   },
+   {
+    "lines": [
+     "Do đó $\\triangle ABD \\backsim {{8}}$ (trường hợp {{9}}).",
+     "Suy ra $\\frac{AB}{AC} = \\frac{AD}{{{10}}}$."
+    ],
+    "hint": "Kết luận hai tam giác đồng dạng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ADHE"
+    ],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "180^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "nội tiếp"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "\\triangle ACE"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "AE"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ADHE",
+   "90^\\circ",
+   "180^\\circ",
+   "nội tiếp",
+   "A",
+   "\\triangle ACE",
+   "g.g",
+   "AE",
+   "360^\\circ",
+   "ngoại tiếp",
+   "B",
+   "\\triangle ABC",
+   "c.g.c",
+   "BC",
+   "so le trong"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $BH \\parallel {{1}}$ và $CH \\parallel {{2}}$ (cùng vuông góc với cạnh đối).",
+     "Suy ra $BHCD$ là {{3}}."
+    ],
+    "hint": "Chứng minh hình bình hành"
+   },
+   {
+    "lines": [
+     "Mà {{4}} là trung điểm của $BC$ nên $M$ cũng là trung điểm của {{5}}."
+    ],
+    "hint": "Sử dụng tính chất trung điểm"
+   },
+   {
+    "lines": [
+     "Suy ra ba điểm $H, M, D$ {{6}}."
+    ],
+    "hint": "Kết luận thẳng hàng"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle AHD$ có $O$ là trung điểm {{7}}, $M$ là trung điểm {{8}}.",
+     "Nên $OM$ là {{9}}."
+    ],
+    "hint": "Xét đường trung bình"
+   },
+   {
+    "lines": [
+     "Suy ra $AH = {{10}} OM$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "CD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "BD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "hình bình hành"
+    ],
+    "placeholder": "tên hình",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "HD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "thẳng hàng"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "HD"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "đường trung bình"
+    ],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "2"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "CD",
+   "BD",
+   "hình bình hành",
+   "M",
+   "HD",
+   "thẳng hàng",
+   "AD",
+   "đường trung bình",
+   "2",
+   "hình chữ nhật",
+   "BC",
+   "song song",
+   "đường cao",
+   "3",
+   "trung trực"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $\\angle BOC = 2 \\angle BAC = {{1}}$ (góc ở tâm gấp đôi góc nội tiếp)."
+    ],
+    "hint": "Sử dụng góc ở tâm"
+   },
+   {
+    "lines": [
+     "$\\triangle OBC$ {{2}} tại $O$ (do $OB = OC = {{3}}$)."
+    ],
+    "hint": "Chứng minh tam giác cân"
+   },
+   {
+    "lines": [
+     "Kẻ $OK \\perp {{4}}$ tại $K$, suy ra $K$ là {{5}} của $BC$."
+    ],
+    "hint": "Kẻ đường cao"
+   },
+   {
+    "lines": [
+     "Trong $\\triangle OKC$ vuông tại $K$, có $\\angle KOC = {{6}}$."
+    ],
+    "hint": "Tính góc trong tam giác vuông"
+   },
+   {
+    "lines": [
+     "Suy ra $KC = OC \\cdot \\sin({{7}}) = {{8}}$."
+    ],
+    "hint": "Tính độ dài đoạn thẳng"
+   },
+   {
+    "lines": [
+     "Vậy $BC = {{9}} KC = {{10}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "120^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "cân"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "R"
+    ],
+    "placeholder": "bán kính",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "placeholder": "vị trí",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "60^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "60^\\circ"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "R \\cdot \\frac{\\sqrt{3}}{2}"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 24
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "2"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "R\\sqrt{3}"
+    ],
+    "placeholder": "kết quả",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "120^\\circ",
+   "cân",
+   "R",
+   "BC",
+   "trung điểm",
+   "60^\\circ",
+   "R \\cdot \\frac{\\sqrt{3}}{2}",
+   "2",
+   "R\\sqrt{3}",
+   "90^\\circ",
+   "2R",
+   "trực tâm",
+   "45^\\circ",
+   "R\\sqrt{2}",
+   "đều"
+  ]
+ }
+}

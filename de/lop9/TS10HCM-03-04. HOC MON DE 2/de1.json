@@ -1,0 +1,784 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – 04. HOC MON DE 2 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ của hàm số trên.",
+     "explanation": "Bảng giá trị:\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\nx & -4 & -2 & 0 & 2 & 4 \\\\\n\\hline\ny = -\\frac{1}{2}x^2 & -8 & -2 & 0 & -2 & -8 \\\\\n\\hline\n\\end{array}\nĐồ thị hàm số $y = -\\frac{1}{2}x^2$ là một đường parabol đi qua các điểm $(-4; -8)$, $(-2; -2)$, $(0; 0)$, $(2; -2)$, $(4; -8)$ và nhận trục $Oy$ làm trục đối xứng.",
+     "points": 1,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = -0.5x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $M$ thuộc $(P)$ sao cho tung độ bằng $-8$.",
+     "explanation": "Thay $y = -8$ vào công thức hàm số $y = -\\frac{1}{2}x^2$, ta được:\n$-8 = -\\frac{1}{2}x^2 \\Leftrightarrow x^2 = 16 \\Leftrightarrow x = \\pm 4$\nVậy tọa độ điểm $M$ thỏa mãn yêu cầu bài toán là $M(4; -8)$ và $M(-4; -8)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Tọa độ các điểm M là: M({{1}}; -8) và M({{2}}; -8)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "4|-4"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "4|-4"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y = -\\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "trung_web:hLvFKwFu1K73eEPxFp4Y"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Xét phương trình $x^2 - 2x - 4 = 0$ có $a = 1, b' = -1, c = -4$.\nTa có $\\Delta' = b'^2 - ac = (-1)^2 - 1 \\cdot (-4) = 5 > 0$.\nVậy phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét phương trình $x^2 - 2x - 4 = 0$ có các hệ số $a = {{1}}, b' = {{2}}, c = {{3}}$"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính $\\Delta' = b'^2 - ac = ({{4}})^2 - {{5}} \\cdot ({{6}}) = {{7}}$"
+        ],
+        "hint": "Tính biệt thức delta phẩy"
+       },
+       {
+        "lines": [
+         "Vì $\\Delta' = {{8}} > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-1"
+        ],
+        "keywords": [
+         "-1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "-4"
+        ],
+        "keywords": [
+         "-4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "-1"
+        ],
+        "keywords": [
+         "-1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "-4"
+        ],
+        "keywords": [
+         "-4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "5"
+        ],
+        "keywords": [
+         "5"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "input",
+        "answers": [
+         "5"
+        ],
+        "keywords": [
+         "5"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "1",
+       "-1",
+       "-4",
+       "5",
+       "0",
+       "2",
+       "-2"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị biểu thức: $A = x_1^2 + x_2^2 - 3x_1 x_2$.",
+     "explanation": "Theo định lí Viète, ta có:\n$\\begin{cases} x_1 + x_2 = 2 \\\\ x_1 x_2 = -4 \\end{cases}$\nKhi đó:\n$A = x_1^2 + x_2^2 - 3x_1 x_2 = (x_1 + x_2)^2 - 5x_1 x_2 = 2^2 - 5 \\cdot (-4) = 4 + 20 = 24$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "24"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2 - 2x - 4 = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "sua_boi": "claude",
+   "bo_cau": true
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Biểu đồ bên thống kê số lượng nhân viên trong một công ty theo số năm kinh nghiệm làm việc của họ. Dựa vào biểu đồ trên, hãy cho biết tổng số nhân viên của công ty là bao nhiêu ?",
+     "explanation": "Tổng số nhân viên của công ty là:\n$6 + 14 + 12 + 8 = 40$ (nhân viên).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "40"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Một quản lý của công ty có $4$ phần thưởng khác nhau $A, B, C, D$ và sẽ trao cho hai nhóm nhân viên, mỗi nhóm được nhận $2$ phần thưởng. Tính xác suất để nhóm thứ nhất nhận được phần thưởng $A$ và $B$.",
+     "explanation": "Kí hiệu các phần thưởng là $A, B, C, D$.\nSố cách chọn $2$ phần thưởng cho nhóm thứ nhất là $\\binom{4}{2} = 6$.\nKhông gian mẫu $\\Omega = \\{AB, AC, AD, BC, BD, CD\\} \\Rightarrow n(\\Omega) = 6$.\nBiến cố nhóm thứ nhất nhận được phần thưởng $A$ và $B$ là $\\{AB\\}$, có $1$ kết quả thuận lợi.\nXác suất của biến cố là $P = \\frac{1}{6}$.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "0,166667|1/6"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Bài 3.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức biểu thị diện tích còn lại để trồng hoa sau khi làm lối đi.",
+     "explanation": "Chiều dài cạnh của hình vuông trồng hoa còn lại là: $20 - 2x$ (m).\nBiểu thức biểu thị diện tích còn lại để trồng hoa là: $(20 - 2x)^2$ (m$^2$).",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$ (20-x)^2 $",
+      "$ (20-2x)^2 $",
+      "$ 20^2-x^2 $",
+      "$ 400-x^2 $"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết rằng sau khi làm lối đi thì diện tích còn lại của khu vườn trồng hoa là $256\\text{ m}^2$. Tính chiều rộng $x$ của lối đi ?",
+     "explanation": "Vì diện tích còn lại của khu vườn là $256\\text{ m}^2$ nên ta có phương trình:\n$(20 - 2x)^2 = 256$\n$\\Leftrightarrow 20 - 2x = 16$ (do $20 - 2x > 0$)\n$\\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$ (m).\nVậy chiều rộng của lối đi là $2\\text{ m}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "2"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Một vườn hoa hình vuông có cạnh $20\\text{ m}$, người ta làm lối đi trong vườn hoa có chiều rộng là $x\\text{ m}$ như hình vẽ.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích nước có trong bồn (kết quả làm tròn đến hàng phần mười).",
+     "explanation": "Bán kính đáy bồn nước là: $r = \\frac{1,2}{2} = 0,6\\text{ m}$.\nChiều cao mực nước trong bồn là: $h = \\frac{1,8}{2} = 0,9\\text{ m}$.\nThể tích nước có trong bồn là:\n$V_{nư\\text{ớc}} = \\pi r^2 h = \\pi \\cdot (0,6)^2 \\cdot 0,9 = 0,324\\pi \\approx 1,0\\text{ m}^3$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau đó người ta tiếp tục bơm thêm nước vào bồn bằng một vòi có công suất chảy là $0,5\\text{ \\text{lít}}$ cho mỗi giây. Hỏi sau bao nhiêu phút thì bồn đầy nước. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$, công thức tính thể tích hình cầu là $V = \\frac{4}{3}\\pi r^3$, kết quả làm tròn đến hàng đơn vị.",
+     "explanation": "Thể tích bồn nước là: $V_{bồn} = \\pi r^2 h_{bồn} = \\pi \\cdot (0,6)^2 \\cdot 1,8 = 0,648\\pi\\text{ m}^3$.\nThể tích phao nước hình cầu là: $V_{cầu} = \\frac{4}{3}\\pi R^3 = \\frac{4}{3}\\pi \\cdot (0,2)^3 = \\frac{0,032}{3}\\pi\\text{ m}^3$.\nThể tích nước cần bơm thêm để đầy bồn là:\n$V_{cần\\,\\text{bơm}} = V_{bồn} - V_{nư\\text{ớc}} - V_{cầu} = 0,648\\pi - 0,324\\pi - \\frac{0,032}{3}\\pi = \\frac{0,94}{3}\\pi \\approx 0,98436\\text{ m}^3 \\approx 984,36\\text{ \\text{lít}}$.\nThời gian cần để bơm đầy bồn là:\n$t = \\frac{984,36}{0,5} = 1968,72\\text{ \\text{giây}} \\approx 33\\text{ \\text{phút}}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "33"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Một bồn nước hình trụ có đường kính đáy là $1,2\\text{ m}$ và cao $1,8\\text{ m}$. Người ta đổ nước vào trong bồn sao cho chiều cao của nước bằng đúng một nửa chiều cao của bồn và tiếp tục đặt vào trong bồn một phao nước có dạng hình cầu bằng kim loại không thấm nước có bán kính $0,2\\text{ m}$ và chìm hoàn toàn vào trong nước.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_b_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích mỗi loại Formaldehyde trên để điều chế được $100\\text{ \\text{lít}}$ Formaldehyde $38\\%$. Giả sử nguyên liệu không bị hao hụt trong quá trình sản xuất.",
+     "explanation": "Gọi $x, y$ (lít) lần lượt là thể tích dung dịch Formaldehyde nồng độ $30\\%$ và $50\\%$ cần dùng ($0 < x, y < 100$).\nDo thể tích dung dịch thu được là $100\\text{ \\text{lít}}$ nên ta có: $x + y = 100$.\nDo lượng Formaldehyde nguyên chất cần có là $100 \\cdot 38\\% = 38\\text{ \\text{lít}}$ nên ta có:\n$30\\% x + 50\\% y = 38 \\Leftrightarrow 0,3x + 0,5y = 38$.\nTa có hệ phương trình:\n$\\begin{cases} x + y = 100 \\\\ 0,3x + 0,5y = 38 \\end{cases} \\Leftrightarrow \\begin{cases} x = 60 \\\\ y = 40 \\end{cases}$ (thỏa mãn).\nVậy cần $60\\text{ \\text{lít}}$ dung dịch Formaldehyde $30\\%$ và $40\\text{ \\text{lít}}$ dung dịch Formaldehyde $50\\%$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Thể tích dung dịch 30% là {{1}} lít; thể tích dung dịch 50% là {{2}} lít"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "60"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Một cơ sở y tế đặt hàng nhà máy trên một đơn hàng Formalin. Nhà máy dùng $12\\text{ \\text{lít}}$ Formaldehyde $30\\%$ cùng một lượng Formaldehyde $50\\%$ để sản xuất ra Formalin. Hỏi thể tích của Formaldehyde $50\\%$ nằm trong khoảng nào thì có thể sản xuất được Formalin.",
+     "explanation": "Gọi $x$ (lít) là thể tích dung dịch Formaldehyde $50\\%$ cần dùng ($x > 0$).\nTổng thể tích dung dịch thu được là $12 + x$ (lít).\nTổng thể tích Formaldehyde nguyên chất là $12 \\cdot 30\\% + 50\\% x = 3,6 + 0,5x$ (lít).\nNồng độ Formaldehyde trong dung dịch mới là $\\frac{3,6 + 0,5x}{12 + x}$.\nDo Formalin có nồng độ Formaldehyde từ $37\\%$ đến $40\\%$ nên ta có:\n$37\\% \\le \\frac{3,6 + 0,5x}{12 + x} \\le 40\\%$\n$\\Leftrightarrow \\begin{cases} 0,37(12 + x) \\le 3,6 + 0,5x \\\\ 3,6 + 0,5x \\le 0,40(12 + x) \\end{cases} \\Leftrightarrow \\begin{cases} 4,44 + 0,37x \\le 3,6 + 0,5x \\\\ 3,6 + 0,5x \\le 4,8 + 0,4x \\end{cases}$\n$\\Leftrightarrow \\begin{cases} 0,13x \\ge 0,84 \\\\ 0,1x \\le 1,2 \\end{cases} \\Leftrightarrow \\begin{cases} x \\ge \\frac{84}{13} \\approx 6,46 \\\\ x \\le 12 \\end{cases}$\nVậy thể tích Formaldehyde $50\\%$ nằm trong khoảng từ $\\frac{84}{13}\\text{ \\text{lít}}$ (khoảng $6,46\\text{ \\text{lít}}$) đến $12\\text{ \\text{lít}}$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$ 84/13 < x < 12 $",
+      "$ 12 \\le x \\le 84/13 $",
+      "$ 12 < x < 84/13 $",
+      "$ 84/13 \\le x \\le 12 $"
+     ],
+     "correctAnswer": 3
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 6",
+   "question": "Formalin là dung dịch có chứa từ $37\\%$ đến $40\\%$ Formaldehyde. Formaldehyde có khả năng kháng khuẩn, kháng nấm nên được dùng làm chất bảo quản trong y tế. Một nhà máy sản xuất Formaldehyde đang có một lượng dung dịch Formaldehyde nồng độ $30\\%$ và một lượng Formaldehyde nồng độ $50\\%$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_c_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: Tứ giác $BEDC$ nội tiếp và xác định tâm $K$ của đường tròn này, từ đó suy ra $ED \\parallel MN$.",
+     "explanation": "Gọi $K$ là trung điểm của $BC$.\nTa có hai tam giác $BEC$ và $BDC$ lần lượt vuông tại $E, D$ có $EK, DK$ là các đường trung tuyến ứng với cạnh huyền $BC$ nên $KB = KE = KD = KC$.\nDo đó tứ giác $BEDC$ nội tiếp đường tròn tâm $K$ đường kính $BC$.\nTrong đường tròn $(O)$, ta có $\\widehat{NMC} = \\widehat{NBC}$ (hai góc nội tiếp cùng chắn cung $NC$).\nTrong đường tròn $(K)$, ta có $\\widehat{EDC} = \\widehat{EBC}$ (hai góc nội tiếp cùng chắn cung $EC$).\nSuy ra $\\widehat{EDC} = \\widehat{NMC}$, mà hai góc này ở vị trí đồng vị nên $ED \\parallel MN$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Gọi $K$ là trung điểm của {{1}}",
+         "Vì $\\widehat{BEC} = \\widehat{BDC} = {{2}}^\\circ$ nên hai tam giác $BEC$ và $BDC$ vuông tại $E$ và $D$"
+        ],
+        "hint": "Xác định tâm đường tròn"
+       },
+       {
+        "lines": [
+         "Do đó $KB = KE = KD = KC$, suy ra tứ giác {{3}} nội tiếp đường tròn tâm $K$ đường kính $BC$"
+        ],
+        "hint": "Kết luận tứ giác nội tiếp"
+       },
+       {
+        "lines": [
+         "Trong $(O)$, ta có $\\widehat{NMC} = \\widehat{NBC}$ (cùng chắn cung {{4}})",
+         "Trong đường tròn $(K)$, ta có $\\widehat{EDC} = \\widehat{EBC}$ (cùng chắn cung {{5}})"
+        ],
+        "hint": "Sử dụng góc nội tiếp"
+       },
+       {
+        "lines": [
+         "Suy ra $\\widehat{EDC} = \\widehat{NMC}$, do đó $ED \\parallel MN$ (hai góc {{6}} bằng nhau)"
+        ],
+        "hint": "Kết luận song song"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "BEDC"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "NC"
+        ],
+        "keywords": [],
+        "placeholder": "cung",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "EC"
+        ],
+        "keywords": [],
+        "placeholder": "cung",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "đồng vị"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí góc",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "BC",
+       "90",
+       "BEDC",
+       "NC",
+       "EC",
+       "đồng vị",
+       "AB",
+       "AC",
+       "45",
+       "so le trong",
+       "đối đỉnh"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ đường kính $AL$ của $(O)$. Chứng minh tứ giác $BHCL$ là hình bình hành và suy ra $3$ điểm $H, K, L$ thẳng hàng.",
+     "explanation": "Xét đường tròn $(O)$, ta có $\\widehat{ABL} = 90^\\circ$ và $\\widehat{ACL} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nSuy ra $BL \\perp AB$ và $CL \\perp AC$.\nLại có $CH \\perp AB$ (do $CE$ là đường cao) $\\Rightarrow CH \\parallel BL$.\n$BH \\perp AC$ (do $BD$ là đường cao) $\\Rightarrow BH \\parallel CL$.\nSuy ra tứ giác $BHCL$ là hình bình hành.\nVì $K$ là trung điểm của $BC$ nên $K$ cũng là trung điểm của $HL$.\nVậy $3$ điểm $H, K, L$ thẳng hàng.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có $\\widehat{ABL} = {{1}}^\\circ$ và $\\widehat{ACL} = {{2}}^\\circ$ (góc nội tiếp chắn nửa đường tròn)",
+         "Suy ra $BL \\perp {{3}}$ và $CL \\perp {{4}}$"
+        ],
+        "hint": "Chứng minh vuông góc"
+       },
+       {
+        "lines": [
+         "Lại có $CH \\perp {{5}}$ và $BH \\perp {{6}}$ nên $CH \\parallel BL$ và $BH \\parallel CL$"
+        ],
+        "hint": "Chứng minh song song"
+       },
+       {
+        "lines": [
+         "Tứ giác {{7}} có các cặp cạnh đối song song nên là hình bình hành",
+         "Vì $K$ là trung điểm {{8}} nên $K$ cũng là trung điểm {{9}}",
+         "Vậy ba điểm $H, K, L$ thẳng hàng"
+        ],
+        "hint": "Kết luận thẳng hàng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "BHCL"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "HL"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "90",
+       "AB",
+       "AC",
+       "BHCL",
+       "BC",
+       "HL",
+       "45",
+       "180",
+       "BD",
+       "CE"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Trong trường hợp $\\widehat{BAC} = 60^\\circ$, tính diện tích hình viên phân giới hạn bởi cung nhỏ $BC$ và dây cung $BC$ của $(O)$ theo $R$.",
+     "explanation": "Ta có $\\widehat{BOC} = 2\\widehat{BAC} = 2 \\cdot 60^\\circ = 120^\\circ$ (góc ở tâm gấp đôi góc nội tiếp cùng chắn cung $BC$).\nDiện tích quạt tròn $OBC$ là:\n$S_q = \\frac{\\pi R^2 \\cdot 120^\\circ}{360^\\circ} = \\frac{\\pi R^2}{3}$.\nDiện tích tam giác $OBC$ là:\n$S_{\\triangle OBC} = \\frac{1}{2} R \\cdot R \\cdot \\sin 120^\\circ = \\frac{R^2 \\sqrt{3}}{4}$.\nDiện tích hình viên phân giới hạn bởi cung nhỏ $BC$ và dây $BC$ là:\n$S = S_q - S_{\\triangle OBC} = \\frac{\\pi R^2}{3} - \\frac{R^2 \\sqrt{3}}{4} = \\frac{R^2 (4\\pi - 3\\sqrt{3})}{12}$.",
+     "points": 1,
+     "type": "multiple_choice",
+     "options": [
+      "$ \\frac{R^2(\\pi - \\sqrt{3})}{4} $",
+      "$ \\frac{R^2(4\\pi - \\sqrt{3})}{12} $",
+      "$ \\frac{R^2(4\\pi - 3\\sqrt{3})}{12} $",
+      "$ \\frac{R^2(2\\pi - 3\\sqrt{3})}{6} $"
+     ],
+     "correctAnswer": 2
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho $\\triangle ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O)$. Hai đường cao $BD, CE$ của $\\triangle ABC$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là giao điểm của $(O)$ với các tia $CE, BD$ ($M$ khác $C$, $N$ khác $B$).",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

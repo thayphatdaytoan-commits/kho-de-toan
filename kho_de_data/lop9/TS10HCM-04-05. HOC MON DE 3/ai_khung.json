@@ -1,0 +1,377 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có {{1}}, {{2}} là hai tiếp tuyến của $(O)$ nên {{3}} $\\perp OA$ và {{4}} $\\perp OB$."
+    ],
+    "hint": "Chứng minh các góc vuông"
+   },
+   {
+    "lines": [
+     "Xét tứ giác {{5}} có $\\widehat{MAO} + \\widehat{MBO} = 90^\\circ + 90^\\circ = {{6}}$",
+     "Suy ra tứ giác {{7}} nội tiếp đường tròn đường kính {{8}}."
+    ],
+    "hint": "Chứng minh tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Ta có {{9}} = {{10}} (tính chất hai tiếp tuyến cắt nhau) và {{11}} = {{12}} = R.",
+     "Suy ra {{13}} là đường trung trực của đoạn thẳng {{14}}.",
+     "Do đó {{15}} $\\perp$ {{16}} tại $H$."
+    ],
+    "hint": "Chứng minh đường trung trực"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "MAOB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "180^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "MAOB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "MO"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "OM"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "MA",
+   "MB",
+   "MAOB",
+   "180^\\circ",
+   "MO",
+   "OA",
+   "OB",
+   "OM",
+   "AB",
+   "AC",
+   "BC",
+   "90^\\circ",
+   "giả thiết",
+   "tiếp tuyến"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có {{1}} $\\perp AC$ (gt) và {{2}} $\\perp AC$ (tiếp tuyến) nên {{3}} $\\parallel$ {{4}}."
+    ],
+    "hint": "Chứng minh song song"
+   },
+   {
+    "lines": [
+     "Áp dụng hệ quả định lí Thales vào $\\triangle {{5}}$ có {{6}} $\\parallel$ {{7}}:",
+     "$\\frac{IH}{MA} = \\frac{CI}{CM}$ (1)."
+    ],
+    "hint": "Áp dụng định lý Thales"
+   },
+   {
+    "lines": [
+     "Vì {{8}} $\\parallel$ {{9}} nên $\\frac{IB}{MA} = \\frac{CI}{CM}$ (2).",
+     "Từ (1) và (2) suy ra {{10}} = {{11}}.",
+     "Vậy $I$ là {{12}} của {{13}}."
+    ],
+    "hint": "Kết luận trung điểm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "CMA"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "IH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "IB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "IH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "IB"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "BH",
+   "MA",
+   "CMA",
+   "IH",
+   "IB",
+   "trung điểm",
+   "AC",
+   "CM",
+   "CI",
+   "đối đỉnh",
+   "đồng vị",
+   "so le trong"
+  ]
+ }
+}

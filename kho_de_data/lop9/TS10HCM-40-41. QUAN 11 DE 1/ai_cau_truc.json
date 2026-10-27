@@ -1,0 +1,512 @@
+{
+ "truong": "THCS Quận 11",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho đồ thị hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image3.png]]",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho 5 điểm thuộc Parabol",
+      "Xác định các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đồ thị hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image3.png]].",
+     "diem": 0.5,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm trên Parabol có tung độ bằng [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x=2; x=-2",
+     "loi_giai": "Thay y = 4 vào phương trình y = x^2 ta được x^2 = 4. Suy ra x = 2 hoặc x = -2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đồ thị hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Tìm các điểm trên Parabol có tung độ bằng [[IMG:image4.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$x_1 =$ {{1}}; $x_2 =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2|-2"
+       },
+       {
+        "id": "2",
+        "answer": "2|-2"
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 4$ vào $y = x^2$: $x^2 =$ {{1}}",
+       "Suy ra $x =$ {{2}} hoặc $x =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "c",
+     "de": "Tìm các điểm trên Parabol (khác gốc tọa độ) cách đều hai trục tọa độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(1;1); (-1;1)",
+     "loi_giai": "Điểm cách đều hai trục tọa độ có dạng (a; a) hoặc (a; -a). Thay vào y=x^2 ta được a=a^2 hoặc -a=a^2. Giải ra ta được các điểm (1;1) và (-1;1).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đồ thị hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Tìm các điểm trên Parabol (khác gốc tọa độ) cách đều hai trục tọa độ.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image5.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac. Chứng minh delta > 0.",
+     "cum": [
+      "Xác định hệ số a, b, c",
+      "Tính biệt thức delta = b^2 - 4ac",
+      "Chứng minh delta > 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Chứng minh delta < 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình hãy tính giá trị biểu thức sau: [[IMG:image6.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Áp dụng định lý Viète: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức theo tổng và tích nghiệm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Không giải phương trình hãy tính giá trị biểu thức sau: [[IMG:image6.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Nguyễn Thị Ánh Viên sinh ngày [[IMG:image7.png]] tháng [[IMG:image8.png]] năm [[IMG:image9.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy viết biểu thức biểu thị số tuổi của Ánh Viên vào năm [[IMG:image18.png]] theo [[IMG:image16.png]] và [[IMG:image17.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2025 - (1000*x + 100*y + 10*z + t)",
+     "loi_giai": "Số tuổi = Năm hiện tại - Năm sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nguyễn Thị Ánh Viên sinh ngày [[IMG:image7.png]] tháng [[IMG:image8.png]] năm [[IMG:image9.png]]. Hãy viết biểu thức biểu thị số tuổi của Ánh Viên vào năm [[IMG:image18.png]] theo [[IMG:image16.png]] và [[IMG:image17.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$2025 - (1000x + 100y + 10z + t)$",
+       "$2025 + (1000x + 100y + 10z + t)$",
+       "$2025 - (x + y + z + t)$",
+       "$2025 - (1000x + 100y + 10z - t)$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Em hãy xác định chính xác năm sinh của Ánh Viên là năm bao nhiêu? Biết rằng đến ngày sinh nhật của mình trong năm [[IMG:image18.png]], cô nhận thấy tuổi của mình bằng đúng tổng các chữ số trong năm sinh của mình.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1996",
+     "loi_giai": "Gọi năm sinh là 19ab. Tuổi là 2025 - 19ab = 1+9+a+b. Giải phương trình tìm a, b.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nguyễn Thị Ánh Viên sinh ngày [[IMG:image7.png]] tháng [[IMG:image8.png]] năm [[IMG:image9.png]]. Em hãy xác định chính xác năm sinh của Ánh Viên là năm bao nhiêu? Biết rằng đến ngày sinh nhật của mình trong năm [[IMG:image18.png]], cô nhận thấy tuổi của mình bằng đúng tổng các chữ số trong năm sinh của mình.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Năm sinh của Ánh Viên:",
+        "dap_an": "1996",
+        "don_vi": "năm"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi năm sinh của Ánh Viên là $19ab$ (với $a, b$ là chữ số, $a, b \\in \\mathbb{N}$)",
+        "Biểu diễn tuổi của Ánh Viên theo năm sinh: {{1}}",
+        "Phương trình: {{2}}",
+        "Giải phương trình ta tìm được năm sinh là {{3}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "2025-(1900+10a+b)"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "2025-(1900+10a+b)=1+9+a+b"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "1996"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một ly nước dạng hình trụ có chiều cao [[IMG:image19.png]], đường kính đáy [[IMG:image20.png]], lượng nước cao [[IMG:image21.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Lượng nước được chứa trong ly là bao nhiêu centimet khối? (Kết quả làm tròn đến hàng phần trăm)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "314.16",
+     "loi_giai": "V = pi * r^2 * h_nuoc. Với r = đường kính/2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một ly nước dạng hình trụ có chiều cao [[IMG:image19.png]], đường kính đáy [[IMG:image20.png]], lượng nước cao [[IMG:image21.png]]. Lượng nước được chứa trong ly là bao nhiêu centimet khối? (Kết quả làm tròn đến hàng phần trăm)",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy $r = d : 2 =$ {{1}}",
+       "Thể tích nước $V = \\pi \\cdot {{2}}^2 \\cdot h_{nuoc} \\approx$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "314.16"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Người ta thả vào ly nước [[IMG:image23.png]] viên bi hình cầu... Hỏi bán kính của mỗi viên bi là bao nhiêu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.5",
+     "loi_giai": "Thể tích nước dâng lên = Thể tích n viên bi. Giải phương trình tìm bán kính r_bi.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một ly nước dạng hình trụ có chiều cao [[IMG:image19.png]], đường kính đáy [[IMG:image20.png]], lượng nước cao [[IMG:image21.png]]. Người ta thả vào ly nước [[IMG:image23.png]] viên bi hình cầu làm mực nước dâng lên vừa chạm miệng ly. Hỏi bán kính của mỗi viên bi là bao nhiêu?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "Bán kính mỗi viên bi:",
+        "dap_an": "1.5",
+        "don_vi": "cm"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được bán kính viên bi $r =$ {{1}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "1.5"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Một trường học tổ chức cho [[IMG:image31.png]] người tham gia du lịch sinh thái. Giá vé vào cổng là [[IMG:image32.png]] đồng mỗi người. Giá vé vào cổng cho học sinh được giảm [[IMG:image33.png]] nên nhà trường đã trả [[IMG:image34.png]] đồng. Hỏi có bao nhiêu giáo viên và bao nhiêu học sinh tham gia?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "giáo viên: 5; học sinh: 45",
+     "loi_giai": "Gọi x là số giáo viên, y là số học sinh. Hệ phương trình: x+y=50 và 200000x + 140000y = 7300000.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Số giáo viên:",
+        "dap_an": "5",
+        "don_vi": "người"
+       },
+       {
+        "nhan": "Số học sinh:",
+        "dap_an": "45",
+        "don_vi": "người"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số giáo viên, $y$ là số học sinh (điều kiện $x, y \\in \\mathbb{N}^*$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=50"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "200000x+140000y=7300000"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "5"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "45"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Bạn [[IMG:image35.png]] có một ổ khóa số...",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Em hãy tính số tiếng tách ít nhất khi [[IMG:image35.png]] cần để mở được ổ khóa.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "12",
+     "loi_giai": "Tính khoảng cách ngắn nhất giữa các số trên vòng quay.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn [[IMG:image35.png]] có một ổ khóa số. Em hãy tính số tiếng tách ít nhất khi [[IMG:image35.png]] cần để mở được ổ khóa.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính số tiếng tách trung bình cần để mở được ổ khóa.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "24",
+     "loi_giai": "Trung bình cộng của số tiếng ít nhất và nhiều nhất.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn [[IMG:image35.png]] có một ổ khóa số. Tính số tiếng tách trung bình cần để mở được ổ khóa.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Qua điểm [[IMG:image41.png]] nằm ngoài đường tròn [[IMG:image42.png]] vẽ [[IMG:image43.png]] tiếp tuyến [[IMG:image44.png]] đến đường tròn [[IMG:image45.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác [[IMG:image50.png]] nội tiếp.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tổng hai góc đối bằng 180 độ hoặc cùng nhìn một đoạn dưới góc vuông.",
+     "cum": [
+      "Xác định các góc vuông tại tiếp điểm",
+      "Chứng minh tứ giác có tổng hai góc đối bằng 180 độ",
+      "Kết luận tứ giác nội tiếp"
+     ],
+     "nhieu": [
+      "Chứng minh tứ giác là hình bình hành"
+     ],
+     "nguon": "de",
+     "de_day_du": "Qua điểm [[IMG:image41.png]] nằm ngoài đường tròn [[IMG:image42.png]] vẽ [[IMG:image43.png]] tiếp tuyến [[IMG:image44.png]] đến đường tròn [[IMG:image45.png]]. Chứng minh tứ giác [[IMG:image50.png]] nội tiếp.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh: [[IMG:image55.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất đường trung trực và tam giác đồng dạng.",
+     "cum": [
+      "Chứng minh đường thẳng là trung trực",
+      "Sử dụng tính chất phân giác",
+      "Kết luận đẳng thức cần chứng minh"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Pytago đảo"
+     ],
+     "nguon": "de",
+     "de_day_du": "Qua điểm [[IMG:image41.png]] nằm ngoài đường tròn [[IMG:image42.png]] vẽ [[IMG:image43.png]] tiếp tuyến [[IMG:image44.png]] đến đường tròn [[IMG:image45.png]]. Chứng minh: [[IMG:image55.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Biết [[IMG:image56.png]]. Tính bán kính đường tròn nội tiếp [[IMG:image57.png]] theo [[IMG:image29.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "r/2",
+     "loi_giai": "Sử dụng tính chất tam giác đồng dạng và công thức bán kính đường tròn nội tiếp.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Qua điểm [[IMG:image41.png]] nằm ngoài đường tròn [[IMG:image42.png]] vẽ [[IMG:image43.png]] tiếp tuyến [[IMG:image44.png]] đến đường tròn [[IMG:image45.png]]. Biết [[IMG:image56.png]]. Tính bán kính đường tròn nội tiếp [[IMG:image57.png]] theo [[IMG:image29.png]].",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

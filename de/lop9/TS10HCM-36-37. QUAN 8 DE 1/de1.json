@@ -1,0 +1,905 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị và vẽ đường thẳng đi qua các điểm đó.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm thuộc [[IMG:image2.png]] có tung độ là [[IMG:image3.png]].",
+     "explanation": "Thay y = 2 vào phương trình hàm số: 2 = 2x^2 => x^2 = 1 => x = 1 hoặc x = -1.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$ vào hàm số: $2 = 2x^2$",
+       "Suy ra $x^2 =$ {{1}}",
+       "Do đó $x =$ {{2}} hoặc $x =$ {{3}}",
+       "Các điểm cần tìm là $(1; 2)$ và $(-1; 2)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-1"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình [[IMG:image5.png]] có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức delta hoặc nhận xét a và c trái dấu.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số {{1}}, {{2}}, {{3}} của phương trình"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính biệt thức {{4}} hoặc nhận xét $a.c < 0$"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có {{5}} phân biệt"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "tên biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "hai nghiệm"
+        ],
+        "keywords": [
+         "hai nghiệm"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "a",
+       "b",
+       "c",
+       "delta",
+       "hai nghiệm",
+       "một nghiệm",
+       "vô nghiệm"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]] (với [[IMG:image7.png]])",
+     "explanation": "Áp dụng hệ thức Viète: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng tổng và tích các nghiệm.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "5"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image4.png]][[IMG:image5.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính xác suất để [[IMG:image10.png]] viên bi được lấy ra là viên bi đỏ.",
+     "explanation": "Tổng số bi là 3+2=5. Xác suất lấy bi đỏ là 3/5.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số viên bi trong hộp là $3 + 2 =$ {{1}}",
+       "Xác suất lấy được viên bi đỏ là $\\dfrac{3}{ {{2}} } =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3/5"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta bỏ thêm vào hộp một số viên bi xanh đồng chất. Nếu lấy ra [[IMG:image10.png]] viên bi từ trong cái hộp này thì cơ hội lấy ra viên bi xanh là [[IMG:image11.png]]. Hỏi có bao nhiêu viên bi xanh được bỏ thêm vào hộp?",
+     "explanation": "Gọi x là số bi xanh. Xác suất lấy bi xanh là x/(5+x) = 1/2. Giải phương trình tìm x = 5.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Số viên bi xanh được bỏ thêm vào: {{1}} viên"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là số viên bi xanh được bỏ thêm vào (viên, điều kiện $x > 0$)",
+       "Biểu diễn tổng số viên bi trong hộp theo $x$: {{1}}",
+       "Phương trình: {{2}}",
+       "Giải phương trình ta tìm được $x =$ {{3}}",
+       "Vậy số viên bi xanh được bỏ thêm vào là {{4}} viên"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x+5"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "x/(x+5)=1/2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "5"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 3",
+   "question": "Có [[IMG:image8.png]] viên bi đỏ, [[IMG:image9.png]] viên bi trắng đồng chất có cùng kích thước và khối lượng được đựng trong một cái hộp. Người ta lấy ra một viên bi từ trong hộp đó.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D01",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan",
+    "loi_giai_y_a_do_AI_tu_giai_can_duyet",
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa.",
+     "explanation": "Diện tích sân trừ diện tích bồn hoa hình tròn.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$S = 12 - \\pi r$",
+      "$S = 12 - \\pi r^2$",
+      "$S = 12 + \\pi r^2$",
+      "$S = 12 - 2\\pi r$"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hãy tính bán kính của bồn hoa hình tròn biết diện tích đất còn lại sau khi xây bồn hoa là [[IMG:image20.png]]",
+     "explanation": "Giải phương trình 12 - pi*r^2 = 12 - pi, suy ra r = 1.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính của bồn hoa: {{1}} mét"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một cái bồn hoa hình tròn có bán kính [[IMG:image12.png]] mét. Biết vòng tròn tiếp xúc với [[IMG:image14.png]] cạnh của hình chữ nhật.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D01",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chiều cao của nón bằng bao nhiêu? Biết thể tích của hình trụ gấp [[IMG:image23.png]] lần thể tích của nón.",
+     "explanation": "V_tru = pi*r^2*h_tru. V_non = 1/3*pi*r^2*h_non. V_tru = 3*V_non => h_non = h_tru.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "3"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi cần bao nhiêu cen ti mét vuông nhôm để làm cái nồi và nón (không kể các mép hàn gắn).",
+     "explanation": "Tính diện tích xung quanh trụ + diện tích đáy trụ + diện tích xung quanh nón.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1005"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Một cái nồi hình trụ có chiều cao [[IMG:image21.png]], bán kính đáy là [[IMG:image22.png]]. Người ta làm một cái nắp nồi hình nón sao cho chu vi đáy nón bằng với chu vi đáy của hình trụ.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "$x =$ (thùng thứ nhất) {{1}} lít",
+     "$y =$ (thùng thứ hai) {{2}} lít",
+     "$z =$ (thùng thứ ba) {{3}} lít"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "30"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "40"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "30"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x, y, z$ là số lít dầu ở mỗi thùng lúc đầu (lít, điều kiện $x, y, z > 0$)",
+     "Hệ phương trình: {{1}} ; {{2}} ; {{3}}",
+     "Giải hệ ta được $x =$ {{4}}, $y =$ {{5}}, $z =$ {{6}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x+y+z=100"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "x-10+5=y-5+10-15"
+     },
+     {
+      "id": "3",
+      "loai": "bt",
+      "dap_an": "x-10+5=1/2*(z-10+15)"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "30"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "40"
+     },
+     {
+      "id": "6",
+      "loai": "so",
+      "dap_an": "30"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Có ba thùng dầu đựng tổng cộng [[IMG:image32.png]] lít dầu. Nếu đổ từ thùng thứ nhất sang thùng thứ hai [[IMG:image33.png]] lít, rồi đổ từ thùng thứ hai sang thùng thứ ba [[IMG:image23.png]] lít, tiếp tục đổ từ thùng thứ ba sang thùng thứ nhất [[IMG:image34.png]] lít thì số dầu ở thùng thứ nhất sẽ ít hơn số dầu ở thùng thứ hai là [[IMG:image35.png]] lít và bằng [[IMG:image36.png]] số dầu ở thùng thứ ba. Tính số lít dầu ở mỗi thùng lúc đầu.",
+   "explanation": "Lập hệ phương trình dựa trên tổng số dầu và các điều kiện sau khi chuyển dầu giữa các thùng.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: tứ giác [[IMG:image46.png]] nội tiếp và [[IMG:image47.png]] vuông góc với [[IMG:image48.png]].",
+     "explanation": "Sử dụng tính chất tiếp tuyến và tính chất trung trực của đoạn nối tâm.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+         "• $\\widehat{OAP} = \\widehat{OBP} = {{3}}$ (tính chất tiếp tuyến)"
+        ],
+        "hint": "Xét hai tam giác vuông"
+       },
+       {
+        "lines": [
+         "Suy ra tứ giác {{4}} nội tiếp đường tròn đường kính {{5}}"
+        ],
+        "hint": "Kết luận tứ giác nội tiếp"
+       },
+       {
+        "lines": [
+         "Vì $OA = {{6}}$ và $PA = {{7}}$ nên $OP$ là {{8}} của $AB$"
+        ],
+        "hint": "Chứng minh trung trực"
+       },
+       {
+        "lines": [
+         "Kết luận $OA \\perp {{9}}$ tại {{10}}"
+        ],
+        "hint": "Kết luận vuông góc"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "OAP"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "OBP"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo góc",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "APBO"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "OP"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "OB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "PB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "trung trực"
+        ],
+        "keywords": [],
+        "placeholder": "tính chất",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "BP"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "tên điểm",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "OAP",
+       "OBP",
+       "90^\\circ",
+       "APBO",
+       "OP",
+       "OB",
+       "PB",
+       "trung trực",
+       "BP",
+       "H",
+       "phân giác",
+       "trung tuyến",
+       "AB",
+       "OA"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: [[IMG:image55.png]] là tiếp tuyến của đường tròn [[IMG:image43.png]].",
+     "explanation": "Chứng minh khoảng cách từ tâm đến đường thẳng bằng bán kính.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+         "• $\\widehat{A} = \\widehat{B} = {{3}}$"
+        ],
+        "hint": "Xét hai tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $\\frac{OA}{OB} = {{4}}$"
+        ],
+        "hint": "Tỉ số đồng dạng"
+       },
+       {
+        "lines": [
+         "Chứng minh $d(O, {{5}}) = {{6}}$"
+        ],
+        "hint": "Khoảng cách đến đường thẳng"
+       },
+       {
+        "lines": [
+         "Kết luận {{7}} là tiếp tuyến của đường tròn {{8}}"
+        ],
+        "hint": "Kết luận tiếp tuyến"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "OAC"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "OBD"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo góc",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AC/BD"
+        ],
+        "keywords": [],
+        "placeholder": "tỉ số",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "CD"
+        ],
+        "keywords": [],
+        "placeholder": "tên đường thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "R"
+        ],
+        "keywords": [],
+        "placeholder": "bán kính",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "CD"
+        ],
+        "keywords": [],
+        "placeholder": "tên đường thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "(O)"
+        ],
+        "keywords": [],
+        "placeholder": "tên đường tròn",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "OAC",
+       "OBD",
+       "90^\\circ",
+       "AC/BD",
+       "CD",
+       "R",
+       "(O)",
+       "AB",
+       "OC",
+       "OD",
+       "đồng vị",
+       "cạnh chung"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính tích [[IMG:image56.png]] theo [[IMG:image57.png]].",
+     "explanation": "Sử dụng hệ thức lượng trong tam giác vuông.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "R^2"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn [[IMG:image37.png]]. Vẽ điểm [[IMG:image38.png]] nằm ngoài đường tròn [[IMG:image39.png]] sao cho [[IMG:image40.png]]. Từ [[IMG:image38.png]] vẽ tiếp tuyến [[IMG:image41.png]] và [[IMG:image42.png]] của đường tròn [[IMG:image43.png]]. Vẽ đường kính [[IMG:image45.png]] của đường tròn [[IMG:image43.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D02",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  }
+ ],
+ "flags": []
+}

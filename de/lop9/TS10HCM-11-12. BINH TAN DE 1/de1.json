@@ -1,0 +1,353 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – 12. BINH TAN DE 1 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 2,
+  "4": 5
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Bảng giá trị:\n$x$: $-4$; $-2$; $0$; $2$; $4$\n$y = \\frac{1}{4}x^2$: $4$; $1$; $0$; $1$; $4$\nVẽ đồ thị hàm số $y = \\frac{1}{4}x^2$ đi qua các điểm $(-4; 4)$, $(-2; 1)$, $(0; 0)$, $(2; 1)$, $(4; 4)$.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 1/4x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $M$ thuộc $(P)$ có tung độ và hoành độ bằng nhau.",
+     "explanation": "Vì điểm $M(x_M; y_M)$ thuộc $(P)$ có tung độ và hoành độ bằng nhau nên $x_M = y_M$.\nSuy ra: $x_M = \\frac{1}{4}x_M^2$\nTa có: $\\frac{1}{4}x_M^2 - x_M = 0 \\Leftrightarrow x_M(\\frac{1}{4}x_M - 1) = 0$\nGiải phương trình trên, ta được: $x_M = 0$ hoặc $x_M = 4$.\nVới $x_M = 0 \\Rightarrow y_M = 0 \\Rightarrow M_1(0; 0)$.\nVới $x_M = 4 \\Rightarrow y_M = 4 \\Rightarrow M_2(4; 4)$.\nVậy $(0; 0)$, $(4; 4)$ là hai điểm cần tìm.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Điểm thứ nhất: ({{1}}; {{2}}); Điểm thứ hai: ({{3}}; {{4}})"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "0|4"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "0|4"
+       },
+       {
+        "id": "3",
+        "loai": "chu",
+        "dap_an": "4|0"
+       },
+       {
+        "id": "4",
+        "loai": "chu",
+        "dap_an": "4|0"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y = \\frac{1}{4}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình có hai nghiệm phân biệt.",
+     "explanation": "Vì $a \\cdot c = 1 \\cdot (-3) = -3 < 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2 - x_1 x_2$.",
+     "explanation": "Theo định lí Viète, ta có:\n$x_1 + x_2 = 2$\n$x_1 x_2 = -3$\nTa có: $A = x_1^2 + x_2^2 - x_1 x_2 = (x_1 + x_2)^2 - 3x_1 x_2 = 2^2 - 3(-3) = 4 + 9 = 13$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "13"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 2x - 3 = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Một hộp chứa 4 tấm thẻ cùng loại được đánh số 1, 2, 3, 4. Bạn Khuê và bạn Hương lần lượt mỗi người lấy ra 1 tấm thẻ từ hộp. Tính xác suất của biến cố $A$: \"Tích các số ghi trên 2 tấm thẻ là số lẻ\".",
+     "explanation": "Do 4 thẻ cùng loại nên các thẻ có cùng khả năng được chọn.\nKí hiệu $(x, y)$ là kết quả bạn Khuê lấy được thẻ được đánh số $x$ và bạn Hương lấy được thẻ đánh số $y$.\nKhông gian mẫu của phép thử là:\n$\\Omega = \\{(1,2); (1,3); (1,4); (2,1); (2,3); (2,4); (3,1); (3,2); (3,4); (4,1); (4,2); (4,3)\\}$.\nDo đó, kết quả có thể xảy ra là: $n(\\Omega) = 12$.\nCác kết quả thuận lợi cho biến cố $A$ là: $(1,3); (3,1)$.\nNên $n(A) = 2$.\nVậy xác suất của biến cố $A$ là: $P(A) = \\frac{2}{12} = \\frac{1}{6}$.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "0,166667|1/6"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biểu đồ sau đây biểu diễn dữ liệu về hoạt động trong giờ ra chơi của học sinh lớp 7A:\n[[IMG:image12.png]]\nHãy phân tích dữ liệu từ biểu đồ trên để so sánh số học sinh tham gia hoạt động tại chỗ (đọc sách, ôn bài, chơi cờ vua) và hoạt động vận động (đánh cầu lông, đá cầu, nhảy dây) trong giờ ra chơi. Theo em, các bạn lớp 7A nên tăng cường loại hoạt động nào để có lợi cho sức khỏe?",
+     "explanation": "Phân tích dữ liệu từ biểu đồ trên ta có:\n+ Số học sinh tham gia hoạt động tại chỗ là: $10 + 8 + 6 = 24$ (học sinh)\n+ Số học sinh tham gia hoạt động vận động là: $5 + 4 + 3 = 12$ (học sinh)\nVậy số học sinh tham gia hoạt động tại chỗ gấp 2 lần số học sinh tham gia hoạt động vận động.\nTheo em, các bạn lớp 7A nên tăng cường hoạt động vận động (đánh cầu lông, đá cầu, nhảy dây) trong giờ ra chơi để có lợi cho sức khỏe.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "2"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Bài 3.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D01",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tính diện tích xung quanh chiếc hộp theo $x$.",
+     "explanation": "Chu vi đáy chiếc hộp hình lăng trụ đứng tam giác là: $C = 3x$\nBiểu thức tính diện tích xung quanh chiếc hộp theo $x$ là: $S_{xq} = C \\cdot h = 3x \\cdot 25 = 75x\\text{ (cm}^2\\text{)}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "75|75x"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính độ dài cạnh đáy của chiếc hộp. Biết diện tích xung quanh chiếc hộp là $450\\text{ cm}^2$.",
+     "explanation": "Vì diện tích xung quanh chiếc hộp là $450\\text{ cm}^2$ nên ta có: $75x = 450$\nSuy ra: $x = 6$\nVậy độ dài cạnh đáy của chiếc hộp là $6\\text{ cm}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "6"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Một chiếc hộp có dạng lăng trụ đứng, biết đáy là tam giác đều và chiều cao lăng trụ bằng $25\\text{ cm}$. Gọi $x$ là độ dài cạnh đáy của chiếc hộp.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Một que kem ốc quế gồm hai phần: phần kem có dạng hình cầu, phần ốc quế có dạng hình nón. Biết bán kính hình cầu và bán kính hình nón bằng nhau và bằng $3\\text{ cm}$; chiều cao của hình nón gấp $2$ lần bán kính hình cầu. Tính thể tích của que kem? (Lấy $\\pi \\approx 3,14$ và làm tròn kết quả đến hàng đơn vị).\n[[IMG:image21.png]]",
+   "explanation": "Chiều cao phần ốc quế hình nón là: $h = 2 \\cdot 3 = 6\\text{ (cm)}$.\nThể tích của que kem là:\n$V = V_{\\text{cầu}} + V_{\\text{nón}} = \\frac{4}{3}\\pi r^3 + \\frac{1}{3}\\pi r^2 h = \\frac{4}{3} \\cdot 3,14 \\cdot 3^3 + \\frac{1}{3} \\cdot 3,14 \\cdot 3^2 \\cdot 6 = 113,04 + 56,52 = 169,56 \\approx 170\\text{ (cm}^3\\text{)}$.",
+   "short_value": 170,
+   "short_correct": "170",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 3,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 3,
+   "n": 2,
+   "type": "short_answer",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Một người dự định trồng $120$ cây theo thời gian định trước. Nhưng do thời tiết xấu nên mỗi ngày trồng được ít hơn $5$ cây, vì thế khi trồng xong chậm mất $5$ ngày so với dự kiến. Hỏi thực tế mỗi ngày người đó trồng được bao nhiêu cây?",
+   "explanation": "Gọi $x$ (cây) là số cây thực tế mỗi ngày người đó trồng được ($x > 0$).\nSố cây mỗi ngày người đó trồng được theo dự kiến là $x + 5$ (cây).\nThời gian thực tế người đó trồng cây là $\\frac{120}{x}$ (ngày).\nThời gian dự kiến người đó trồng cây là $\\frac{120}{x + 5}$ (ngày).\nVì khi trồng xong chậm mất $5$ ngày so với dự kiến nên ta có phương trình:\n$\\frac{120}{x} - \\frac{120}{x + 5} = 5$\nGiải phương trình trên, ta được: $x = 10$ (nhận); $x = -15$ (loại).\nVậy thực tế mỗi ngày người đó trồng được $10$ cây.",
+   "short_value": 10,
+   "short_correct": "10",
+   "ma": "de1.P3.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 3,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "katex: \\overparen{AC} → Undefined control sequence: \\overparen at position 1: \\̲o̲v̲"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: 5 điểm $M, A, I, O, B$ cùng thuộc một đường tròn. Xác định tâm $K$ và bán kính của đường tròn này.",
+     "explanation": "$\\triangle MAO$ vuông tại $A$ ($MA$ là tiếp tuyến của $(O)$)\nSuy ra: $\\triangle MAO$ nội tiếp đường tròn đường kính $OM$.\nSuy ra: 3 điểm $M, A, O$ cùng thuộc đường tròn đường kính $OM$.\n$\\triangle MBO$ vuông tại $B$ ($MB$ là tiếp tuyến của $(O)$)\nSuy ra: $\\triangle MBO$ nội tiếp đường tròn đường kính $OM$.\nSuy ra: 3 điểm $M, B, O$ cùng thuộc đường tròn đường kính $OM$.\n$\\triangle MIO$ vuông tại $I$ ($MI \\perp CD$ tại $I$)\nSuy ra: $\\triangle MIO$ nội tiếp đường tròn đường kính $OM$.\nSuy ra: 3 điểm $M, I, O$ cùng thuộc đường tròn đường kính $OM$.\nTừ đó suy ra: 5 điểm $M, A, I, O, B$ cùng thuộc một đường tròn đường kính $OM$.\nTâm $K$ là trung điểm của $OM$ và bán kính là $\\frac{OM}{2} = R$.",
+     "points": 1,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $MA^2 = MC \\cdot MD$.",
+     "explanation": "Xét $\\triangle MAC$ và $\\triangle MDA$, ta có:\n$\\widehat{AMD}$ chung\n$\\widehat{MAC} = \\widehat{MDA}$ (góc tạo bởi tiếp tuyến và dây cung và góc nội tiếp cùng chắn $\\overparen{AC}$)\nVậy $\\triangle MAC \\sim \\triangle MDA$ (g - g)\nSuy ra: $\\frac{MA}{MD} = \\frac{MC}{MA}$\nSuy ra: $MA^2 = MC \\cdot MD$.",
+     "points": 1,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính diện tích phần hình tròn giới hạn bởi cung nhỏ $AB$ và dây cung $AB$ của $(O)$ biết $R = 6\\text{ cm}$ và $\\pi \\approx 3,14$ (làm tròn đến chữ số thập phân thứ hai).",
+     "explanation": "Ta có $\\cos \\widehat{AOM} = \\frac{OA}{OM} = \\frac{R}{2R} = \\frac{1}{2} \\Rightarrow \\widehat{AOM} = 60^\\circ \\Rightarrow \\widehat{AOB} = 120^\\circ$.\nDiện tích hình quạt tròn $OAB$ là:\n$S_{q} = \\frac{\\pi R^2 n}{360} = \\frac{3,14 \\cdot 6^2 \\cdot 120}{360} = 37,68\\text{ (cm}^2\\text{)}$.\nDiện tích $\\triangle OAB$ là:\n$S_{\\triangle OAB} = \\frac{1}{2} R^2 \\sin 120^\\circ = \\frac{1}{2} \\cdot 6^2 \\cdot \\frac{\\sqrt{3}}{2} \\approx 15,59\\text{ (cm}^2\\text{)}$.\nDiện tích phần hình tròn giới hạn bởi cung nhỏ $AB$ và dây cung $AB$ của $(O)$ là:\n$S = S_{q} - S_{\\triangle OAB} \\approx 37,68 - 15,59 = 22,09\\text{ (cm}^2\\text{)}$.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "22,09"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn $(O; R)$. Lấy điểm $M$ nằm ngoài $(O)$ sao cho $OM = 2R$. Từ $M$ vẽ hai tiếp tuyến $MA, MB$ với $(O)$ ($A, B$ là hai tiếp điểm). Vẽ cát tuyến qua $M$ cắt đường tròn $(O)$ tại $C$ và $D$ ($C$ nằm trong góc $AMB$; $C$ nằm giữa $M$ và $D$). Vẽ $MI$ vuông góc với $CD$ tại $I$.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D02",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

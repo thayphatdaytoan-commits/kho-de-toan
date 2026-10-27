@@ -1,0 +1,514 @@
+{
+ "truong": "THCS BÌNH CHÁNH",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị cho các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị với các giá trị x = -2, -1, 0, 1, 2",
+      "Xác định các điểm tương ứng trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "ai",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": 0,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image4.png]] lần hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0;0); (2;4)",
+     "loi_giai": "Gọi tọa độ điểm M là (x; 2x). Thay vào phương trình Parabol y = x^2 ta có x^2 = 2x. Giải phương trình x^2 - 2x = 0 ta được x = 0 hoặc x = 2. Với x = 0 thì y = 0. Với x = 2 thì y = 4.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm những điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image4.png]] lần hoành độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "0",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "2",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "0"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "2"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image5.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức Delta = b^2 - 4ac. Vì Delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a, b, c",
+      "Tính Delta = b^2 - 4ac",
+      "So sánh Delta với 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Phương trình có nghiệm kép khi Delta = 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Theo định lý Viète: x1 + x2 = -b/a và x1x2 = c/a. Biểu thức x1^2 + x2^2 = (x1+x2)^2 - 2x1x2. Thay số vào tính toán.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước như hình vẽ. Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi [[IMG:image8.png]] là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức [[IMG:image9.png]] biểu diễn theo [[IMG:image8.png]] diện tích của lối đi.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "S(x) = 20x + 10x - x^2",
+     "loi_giai": "Diện tích lối đi được tính bằng diện tích hình chữ nhật lớn trừ diện tích sân bóng rổ.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước như hình vẽ. Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi [[IMG:image8.png]] là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi. Viết biểu thức [[IMG:image9.png]] biểu diễn theo [[IMG:image8.png]] diện tích của lối đi.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$S(x) = -x^2 + 30x$",
+       "$S(x) = x^2 + 30x$",
+       "$S(x) = -x^2 + 10x$",
+       "$S(x) = x^2 - 30x$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Bạn An đi bộ từ cửa vào đến cửa ra và đi dọc hết các cạnh của lối đi (theo hướng mũi tên trong hình vẽ). Hãy tính quãng đường An đã đi, biết diện tích của lối đi theo thiết kế là [[IMG:image10.png]]?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "30",
+     "loi_giai": "Giải phương trình diện tích lối đi bằng 84 để tìm x. Sau đó tính chu vi quãng đường An đi.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước như hình vẽ. Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi [[IMG:image8.png]] là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi. Biết diện tích của lối đi theo thiết kế là [[IMG:image10.png]], hãy tính quãng đường An đã đi khi đi bộ từ cửa vào đến cửa ra và đi dọc hết các cạnh của lối đi (theo hướng mũi tên trong hình vẽ).",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Quãng đường An đã đi:",
+        "dap_an": "30",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là bề rộng lối đi (m, điều kiện $x > 0$)",
+        "Phương trình: {{1}}",
+        "Giải phương trình ta tìm được $x =$ {{2}}",
+        "Vậy quãng đường An đã đi là {{3}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x^2+10x-84=0"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "6"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "30"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến trên thế giới thường chứa được khoảng [[IMG:image11.png]] chất lỏng, được thiết kế hình trụ với chiều cao [[IMG:image12.png]], đường kính đường tròn đáy [[IMG:image13.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Một lon nước ngọt hiện nay có dạng hình trụ cao [[IMG:image15.png]], đường kính đường tròn đáy là 6 [[IMG:image16.png]]. Hỏi lon nước ngọt hiện nay có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Có",
+     "loi_giai": "Tính thể tích lon mới V = pi * r^2 * h. So sánh với thể tích lon cũ.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến trên thế giới thường chứa được khoảng [[IMG:image11.png]] chất lỏng, được thiết kế hình trụ với chiều cao [[IMG:image12.png]], đường kính đường tròn đáy [[IMG:image13.png]]. Một lon nước ngọt hiện nay có dạng hình trụ cao [[IMG:image15.png]], đường kính đường tròn đáy là 6 [[IMG:image16.png]]. Hỏi lon nước ngọt hiện nay có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "Có"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi chi phí sản xuất lon nước ngọt hiện nay ở câu a) tăng bao nhiêu phần trăm so với chi phí sản xuất lon có cỡ phổ biến?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "25%",
+     "loi_giai": "Tính diện tích toàn phần của hai loại lon. Tính tỉ lệ phần trăm tăng thêm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến trên thế giới thường chứa được khoảng [[IMG:image11.png]] chất lỏng, được thiết kế hình trụ với chiều cao [[IMG:image12.png]], đường kính đường tròn đáy [[IMG:image13.png]]. Một lon nước ngọt hiện nay có dạng hình trụ cao [[IMG:image15.png]], đường kính đường tròn đáy là 6 [[IMG:image16.png]]. Hỏi chi phí sản xuất lon nước ngọt hiện nay tăng bao nhiêu phần trăm so với chi phí sản xuất lon có cỡ phổ biến?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "25%"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Có hai loại can nhựa đựng hóa chất, nếu lấy [[IMG:image4.png]] can loại lớn đổ vào can bé thì được [[IMG:image21.png]] can và còn dư [[IMG:image4.png]] lít. Nếu lấy [[IMG:image22.png]] can loại bé đổ sang can loại lớn thì được [[IMG:image23.png]] can dư [[IMG:image24.png]] lít. Tìm thể tích mỗi loại can.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Lớn: 10; Bé: 6",
+     "loi_giai": "Gọi x, y là thể tích can lớn và bé. Lập hệ phương trình dựa trên dữ kiện đề bài và giải hệ.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Thể tích can lớn:",
+        "dap_an": "10",
+        "don_vi": "lít"
+       },
+       {
+        "nhan": "Thể tích can bé:",
+        "dap_an": "6",
+        "don_vi": "lít"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là thể tích can lớn, $y$ là thể tích can bé (lít, điều kiện $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy thể tích can lớn là {{3}} lít, can bé là {{4}} lít"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "3x=5y+4"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "5y=3x+2"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "10"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "6"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Nhóm học sinh tình nguyện khối [[IMG:image25.png]] có [[IMG:image26.png]] bạn.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Liệt kê tất cả các kết quả có thể xảy ra của phép thử trên. Có tất cả bao nhiêu kết quả có thể xảy ra?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "6",
+     "loi_giai": "Liệt kê tên 6 bạn trong nhóm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhóm học sinh tình nguyện khối [[IMG:image25.png]] có [[IMG:image26.png]] bạn. Liệt kê tất cả các kết quả có thể xảy ra của phép thử chọn một bạn trong nhóm. Có tất cả bao nhiêu kết quả có thể xảy ra?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_so_ket_qua",
+      "kieu": "dong",
+      "dong": [
+       "Số bạn trong nhóm là {{1}}",
+       "Số kết quả có thể xảy ra là {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của mỗi biến cố sau: A: “Bạn được chọn ra là bạn nữ”; B: “Bạn được chọn ra thuộc lớp [[IMG:image27.png]]”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=1/2; P(B)=1/2",
+     "loi_giai": "Xác suất = số kết quả thuận lợi / tổng số kết quả.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Nhóm học sinh tình nguyện khối [[IMG:image25.png]] có [[IMG:image26.png]] bạn. Tính xác suất của mỗi biến cố sau: A: “Bạn được chọn ra là bạn nữ”; B: “Bạn được chọn ra thuộc lớp [[IMG:image27.png]]”.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}}; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1/2"
+       },
+       {
+        "id": "2",
+        "answer": "1/2"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_xac_suat",
+      "kieu": "dong",
+      "dong": [
+       "$P(A) = \\dfrac{ {{1}} }{ {{2}} } = \\dfrac{1}{2}$",
+       "$P(B) = \\dfrac{ {{3}} }{ {{4}} } = \\dfrac{1}{2}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho điểm [[IMG:image3.png]] nằm ngoài đường tròn [[IMG:image31.png]] sao cho [[IMG:image32.png]], vẽ hai tiếp tuyến [[IMG:image33.png]], [[IMG:image34.png]] của đường tròn [[IMG:image35.png]] ([[IMG:image36.png]], [[IMG:image37.png]] là tiếp điểm), gọi [[IMG:image38.png]] là giao điểm của [[IMG:image39.png]] và [[IMG:image40.png]], vẽ đường kính [[IMG:image41.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh [[IMG:image39.png]] vuông góc [[IMG:image40.png]] tại [[IMG:image38.png]] và bốn điểm [[IMG:image3.png]], [[IMG:image36.png]], [[IMG:image42.png]], [[IMG:image37.png]] cùng thuộc một đường tròn.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất hai tiếp tuyến cắt nhau để chứng minh OA là trung trực của BC. Sử dụng góc nội tiếp để chứng minh các điểm cùng thuộc đường tròn.",
+     "cum": [
+      "Chứng minh OA vuông góc BC tại H (tính chất hai tiếp tuyến cắt nhau)",
+      "Chứng minh H là trung điểm BC",
+      "Chứng minh góc OMA = 90 độ và góc ONA = 90 độ",
+      "Kết luận 4 điểm cùng thuộc đường tròn đường kính OA"
+     ],
+     "nhieu": [
+      "Chứng minh 4 điểm thuộc đường tròn đường kính BC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm [[IMG:image3.png]] nằm ngoài đường tròn [[IMG:image31.png]] sao cho [[IMG:image32.png]], vẽ hai tiếp tuyến [[IMG:image33.png]], [[IMG:image34.png]] của đường tròn [[IMG:image35.png]] ([[IMG:image36.png]], [[IMG:image37.png]] là tiếp điểm), gọi [[IMG:image38.png]] là giao điểm của [[IMG:image39.png]] và [[IMG:image40.png]], vẽ đường kính [[IMG:image41.png]]. Chứng minh [[IMG:image39.png]] vuông góc [[IMG:image40.png]] tại [[IMG:image38.png]] và bốn điểm [[IMG:image3.png]], [[IMG:image36.png]], [[IMG:image42.png]], [[IMG:image37.png]] cùng thuộc một đường tròn.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh [[IMG:image43.png]] và [[IMG:image44.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng hệ thức lượng trong tam giác vuông và tính chất đồng dạng.",
+     "cum": [
+      "Chứng minh tam giác đồng dạng",
+      "Thiết lập tỉ số cạnh tương ứng",
+      "Suy ra đẳng thức cần chứng minh"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Pytago đảo"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm [[IMG:image3.png]] nằm ngoài đường tròn [[IMG:image31.png]] sao cho [[IMG:image32.png]], vẽ hai tiếp tuyến [[IMG:image33.png]], [[IMG:image34.png]] của đường tròn [[IMG:image35.png]] ([[IMG:image36.png]], [[IMG:image37.png]] là tiếp điểm), gọi [[IMG:image38.png]] là giao điểm của [[IMG:image39.png]] và [[IMG:image40.png]], vẽ đường kính [[IMG:image41.png]]. Chứng minh [[IMG:image43.png]] và [[IMG:image44.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Tính độ dài [[IMG:image40.png]] theo [[IMG:image45.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R*sqrt(3)",
+     "loi_giai": "Sử dụng tam giác vuông OMA và hệ thức lượng để tính BH, sau đó suy ra BC = 2BH.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho điểm [[IMG:image3.png]] nằm ngoài đường tròn [[IMG:image31.png]] sao cho [[IMG:image32.png]], vẽ hai tiếp tuyến [[IMG:image33.png]], [[IMG:image34.png]] của đường tròn [[IMG:image35.png]] ([[IMG:image36.png]], [[IMG:image37.png]] là tiếp điểm), gọi [[IMG:image38.png]] là giao điểm của [[IMG:image39.png]] và [[IMG:image40.png]], vẽ đường kính [[IMG:image41.png]]. Tính độ dài [[IMG:image40.png]] theo [[IMG:image45.png]].",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$R\\sqrt{3}$",
+       "$R\\sqrt{2}$",
+       "$2R$",
+       "$\\frac{R\\sqrt{3}}{2}$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

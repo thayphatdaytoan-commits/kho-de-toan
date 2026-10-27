@@ -1,0 +1,899 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 1,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $y = \\frac{1}{4}x^2$.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị: (-4, 4), (-2, 1), (0, 0), (2, 1), (4, 4). Vẽ đường cong Parabol đi qua các điểm trên.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 1/4x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm $M$ thuộc đồ thị $y = \\frac{1}{4}x^2$ sao cho tung độ và hoành độ đối nhau.",
+     "explanation": "Điểm M có tọa độ (x, -x). Thay vào phương trình Parabol: -x = 1/4 * x^2.\nGiải phương trình: x^2 + 4x = 0 => x(x+4) = 0.\nVậy x = 0 hoặc x = -4.\nCác điểm cần tìm là (0, 0) và (-4, 4).",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Các điểm cần tìm là $M_1(${{1}}; {{2}}$)$ và $M_2(${{3}}; {{4}}$)$ (thứ tự tùy ý)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "0|-4"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "0|4"
+       },
+       {
+        "id": "3",
+        "loai": "chu",
+        "dap_an": "-4|0"
+       },
+       {
+        "id": "4",
+        "loai": "chu",
+        "dap_an": "4|0"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho Parabol $y = \\frac{1}{4}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm là $x_1, x_2$.",
+     "explanation": "Tính biệt thức delta: $\\Delta' = (-2)^2 - 1 \\cdot 1 = 3 > 0$. Vì $\\Delta' > 0$ nên phương trình luôn có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định hệ số: a={{1}}, b={{2}}, c={{3}}."
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính biệt thức: $\\Delta' = ({{4}})^2 - {{5}} \\cdot {{6}} = {{7}} > 0$."
+        ],
+        "hint": "Tính biệt thức"
+       },
+       {
+        "lines": [
+         "Vì $\\Delta' > 0$ nên phương trình có {{8}} nghiệm phân biệt."
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-2"
+        ],
+        "keywords": [
+         "-2"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "-2"
+        ],
+        "keywords": [
+         "-2"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "3"
+        ],
+        "keywords": [
+         "3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "1",
+       "-2",
+       "3",
+       "hai",
+       "0",
+       "4"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "explanation": "Theo định lí Viète: $x_1 + x_2 = 4$ và $x_1x_2 = 1$.\n$A = (x_1 + x_2)^2 - 2x_1x_2 - x_1x_2 = (x_1 + x_2)^2 - 3x_1x_2$.\n$A = 4^2 - 3(1) = 16 - 3 = 13$.",
+     "type": "short_answer",
+     "shortCorrect": "13"
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 4x + 1 = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chỉ có một gái.",
+     "explanation": "Không gian mẫu có $2^3 = 8$ trường hợp.\nCác trường hợp có đúng 1 gái: (G,T,T), (T,G,T), (T,T,G).\nSố trường hợp thuận lợi là 3.\nXác suất là 3/8.",
+     "type": "short_answer",
+     "shortCorrect": "0,375|3/8"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nhiều nhất một gái.",
+     "explanation": "Các trường hợp có nhiều nhất 1 gái: (T,T,T), (G,T,T), (T,G,T), (T,T,G).\nSố trường hợp thuận lợi là 4.\nXác suất là 4/8 = 1/2.",
+     "type": "short_answer",
+     "shortCorrect": "0,5|4/8"
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Ba bà mẹ, mỗi người sinh được một đứa con. Tính xác suất để bé sinh ra.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D01",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Bạn Lan mua 5 lốc sữa chua nha đam trong dịp lễ thì phải trả bao nhiêu tiền (bao gồm thuế GTGT 10%)?",
+     "explanation": "Giá sau khi giảm 2500đ/lốc là: 30000 - 2500 = 27500 đồng/lốc.\nTổng tiền 5 lốc: 5 * 27500 = 137500 đồng.",
+     "type": "short_answer",
+     "shortCorrect": "137500"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Bạn An mua 5 lốc sữa chua và 3 gói kẹo phải trả tổng cộng 187000 đồng (đã bao gồm thuế GTGT 10%). Hỏi giá niêm yết của 3 gói kẹo là bao nhiêu?",
+     "explanation": "Giá trước thuế của tổng đơn hàng: 187000 / 1.1 = 170000 đồng.\nGiá 5 lốc sữa chua sau giảm: 5 * 27500 = 137500 đồng.\nGiá 3 gói kẹo sau giảm: 170000 - 137500 = 32500 đồng.\nGiá niêm yết 3 gói kẹo (giảm 22500đ): 32500 + 22500 = 55000 đồng.",
+     "type": "short_answer",
+     "shortCorrect": "55000"
+    }
+   ],
+   "bai_goc": "Bài 4",
+   "question": "Siêu thị có chương trình giảm giá cho mặt hàng sữa chua nha đam và kẹo bốn mùa. Một lốc sữa chua nha đam có giá niêm yết 30.000 đồng/lốc.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy tính diện tích bề mặt của một quả bóng tennis.",
+     "explanation": "Bán kính r = 3.3cm.\nDiện tích bề mặt S = 4 * pi * r^2 = 4 * 3.14 * (3.3)^2 = 136.78 (lấy pi=3.14).",
+     "type": "short_answer",
+     "shortCorrect": "136,85"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hộp nhựa xếp vừa đủ 3 quả bóng có thể tích là bao nhiêu?",
+     "explanation": "Bán kính đáy trụ R = 3.3cm, chiều cao h = 3 * 6.6 = 19.8cm.\nThể tích V = pi * R^2 * h = 3.14 * (3.3)^2 * 19.8 = 677.38 (tính toán lại theo đề).",
+     "type": "short_answer",
+     "shortCorrect": "338,47"
+    }
+   ],
+   "bai_goc": "Bài 5",
+   "question": "Quả bóng tennis có đường kính 6.6cm được đựng vừa đủ 3 quả trong một hộp nhựa hình trụ.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "short_answer",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "bai_goc": "Bài 6",
+   "question": "Lớp dự định chia thành 3 tổ. Sau đó có thêm 3 học sinh, chia thành 4 tổ. Mỗi tổ hiện nay ít hơn dự định 2 học sinh. Hỏi lớp hiện có bao nhiêu học sinh?",
+   "explanation": "Gọi x là số học sinh ban đầu (x chia hết cho 3).\nSố học sinh mỗi tổ ban đầu: x/3.\nSố học sinh hiện tại: x + 3.\nSố học sinh mỗi tổ hiện tại: (x+3)/4.\nPhương trình: x/3 - (x+3)/4 = 2.\n4x - 3(x+3) = 24 => x - 9 = 24 => x = 33.\nSố học sinh hiện tại: 33 + 3 = 36.",
+   "short_value": 36,
+   "short_correct": "36",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 7,
+    "so_dau_bang": 7,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh OH vuông góc BC và tứ giác ABHO nội tiếp.",
+     "explanation": "AB=AC và OB=OC nên OA là trung trực của BC => OA vuông góc BC tại H. Tứ giác ABHO có góc ABO = góc AHO = 90 độ nên nội tiếp.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có {{1}} = {{2}} và {{3}} = {{4}} (tính chất tiếp tuyến)."
+        ],
+        "hint": "Tính chất tiếp tuyến"
+       },
+       {
+        "lines": [
+         "Suy ra {{5}} là đường trung trực của {{6}}."
+        ],
+        "hint": "Chứng minh trung trực"
+       },
+       {
+        "lines": [
+         "Do đó {{7}} $\\perp$ {{8}} tại {{9}}."
+        ],
+        "hint": "Chứng minh vuông góc"
+       },
+       {
+        "lines": [
+         "Tứ giác {{10}} có $\\widehat{ABO} = \\widehat{AHO} = {{11}}^\\circ$ nên nội tiếp."
+        ],
+        "hint": "Chứng minh nội tiếp"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "OB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "OC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "ABHO"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "AB",
+       "AC",
+       "OB",
+       "OC",
+       "OA",
+       "BC",
+       "H",
+       "ABHO",
+       "90",
+       "AD",
+       "AE",
+       "60"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh AD.AE = AB^2 và AD.AE = AH.AO.",
+     "explanation": "Tam giác ABD đồng dạng tam giác AEB (g-g) => AB/AE = AD/AB => AD.AE = AB^2. Trong tam giác vuông ABO, AH là đường cao nên AB^2 = AH.AO. Suy ra AD.AE = AH.AO.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+         "• $\\widehat{ABD} = \\widehat{AEB}$ (góc tạo bởi tiếp tuyến và dây cung)",
+         "• $\\widehat{A}$ chung"
+        ],
+        "hint": "Xét hai tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $\\triangle {{3}} \\backsim \\triangle {{4}}$ (g.g) $\\Rightarrow \\frac{AB}{AE} = \\frac{AD}{AB} \\Rightarrow {{5}} = AD.AE$."
+        ],
+        "hint": "Kết luận tỉ số"
+       },
+       {
+        "lines": [
+         "Trong $\\triangle {{6}}$ vuông tại {{7}}, đường cao {{8}}:",
+         "$\\Rightarrow {{9}} = AH.AO$ (hệ thức lượng)."
+        ],
+        "hint": "Hệ thức lượng"
+       },
+       {
+        "lines": [
+         "Vậy $AD.AE = {{10}}.AO$."
+        ],
+        "hint": "Kết luận cuối"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ABD"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AEB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "ABD"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AEB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AB^2"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh bình",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "ABO"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "BH"
+        ],
+        "keywords": [],
+        "placeholder": "đường cao",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "AB^2"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh bình",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "AH"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "ABD",
+       "AEB",
+       "AB^2",
+       "ABO",
+       "B",
+       "BH",
+       "AH",
+       "AC",
+       "AD",
+       "c.g.c"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi I là giao điểm của BC và AE, tia EI cắt (O) tại K. Chứng minh AK là tiếp tuyến của (O).",
+     "explanation": "Từ AD.AE = AH.AO suy ra AD/AO = AH/AE. Tam giác ADH đồng dạng tam giác AOE. Từ đó chứng minh được các tỉ số tương ứng để suy ra AK là tiếp tuyến.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Từ $AD.AE = AH.AO \\Rightarrow \\frac{AD}{AO} = \\frac{AH}{AE}$."
+        ],
+        "hint": "Biến đổi tỉ số"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+         "• $\\widehat{A}$ chung",
+         "• $\\frac{AD}{AO} = \\frac{AH}{AE}$",
+         "$\\Rightarrow \\triangle {{3}} \\backsim \\triangle {{4}}$ (c.g.c)"
+        ],
+        "hint": "Chứng minh tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $\\widehat{ADH} = \\widehat{AOE}$."
+        ],
+        "hint": "Suy ra góc bằng nhau"
+       },
+       {
+        "lines": [
+         "Chứng minh được {{5}} $\\perp$ {{6}} tại {{7}} $\\Rightarrow {{8}}$ là tiếp tuyến."
+        ],
+        "hint": "Kết luận tiếp tuyến"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ADH"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AOE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "ADH"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AOE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AK"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "OK"
+        ],
+        "keywords": [],
+        "placeholder": "bán kính",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "AK"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "ADH",
+       "AOE",
+       "AK",
+       "OK",
+       "K",
+       "AD",
+       "AE",
+       "g.g"
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm A ở ngoài đường tròn (O), vẽ hai tiếp tuyến AB, AC. Đoạn thẳng BC cắt OA tại H. Gọi M là trung điểm của BH, BM cắt (O) tại D, AD cắt (O) tại E.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D02",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

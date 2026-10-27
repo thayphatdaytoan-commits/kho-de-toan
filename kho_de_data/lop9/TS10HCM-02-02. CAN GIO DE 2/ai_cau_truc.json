@@ -1,0 +1,251 @@
+{
+ "truong": "THCS Cần Giờ",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị hàm số [[IMG:image2.png]] trên mặt phẳng tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ và biểu diễn các điểm, sau đó vẽ đường cong parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho 5 điểm thuộc đồ thị",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "ai",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]. Vẽ đồ thị hàm số [[IMG:image2.png]] trên mặt phẳng tọa độ.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm thuộc [[IMG:image2.png]] có tung độ [[IMG:image3.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 2); (-2; 2)",
+     "loi_giai": "Thay y = 2 vào phương trình y = 0.5x^2 ta được 0.5x^2 = 2. Suy ra x^2 = 4, nên x = 2 hoặc x = -2. Vậy có hai điểm (2; 2) và (-2; 2).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]. Tìm các điểm thuộc [[IMG:image2.png]] có tung độ [[IMG:image3.png]].",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Điểm thứ nhất: ({{1}}; {{2}}); Điểm thứ hai: ({{3}}; {{4}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2|-2"
+       },
+       {
+        "id": "2",
+        "answer": "2"
+       },
+       {
+        "id": "3",
+        "answer": "-2|2"
+       },
+       {
+        "id": "4",
+        "answer": "2"
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$ vào $y = 0.5x^2$: $0.5x^2 = 2$",
+       "$x^2 = {{1}}$",
+       "$x = {{2}}$ hoặc $x = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image4.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức Delta = b^2 - 4ac. Vì Delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính Delta = b^2 - 4ac",
+      "So sánh Delta với 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Phương trình có nghiệm kép khi Delta = 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi [[IMG:image5.png]] là hai nghiệm của phương trình. Không giải phương trình hãy tính giá trị của biểu thức [[IMG:image6.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Theo Vi-et: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng (x1+x2)^2 - 2x1x2. Thay số vào tính toán.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Gọi [[IMG:image5.png]] là hai nghiệm của phương trình. Không giải phương trình hãy tính giá trị của biểu thức [[IMG:image6.png]].",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Ông Thành có một mảnh đất hình chữ nhật có chiều rộng là [[IMG:image7.png]] m và chiều dài là [[IMG:image8.png]] m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Thành và thu hồi một phần đất của ông Thành (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ dưới (phần tô đậm). [[IMG:image9.png#0.0234,0.0466,0.0295,0.0498]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức (thu gọn) [[IMG:image10.png]] biểu thị theo [[IMG:image11.png]] (với [[IMG:image12.png]]) diện tích đất bị thu hồi của nhà ông Thành.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.5x^2 - 5x + 50",
+     "loi_giai": "Diện tích tam giác vuông bị thu hồi là 1/2 * (10-x) * (10-x) = 0.5 * (100 - 20x + x^2) = 0.5x^2 - 10x + 50 (dựa theo hình vẽ thực tế).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Ông Thành có một mảnh đất hình chữ nhật có chiều rộng là [[IMG:image7.png]] m và chiều dài là [[IMG:image8.png]] m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Thành và thu hồi một phần đất của ông Thành (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ dưới (phần tô đậm). [[IMG:image9.png#0.0234,0.0466,0.0295,0.0498]]. Viết biểu thức (thu gọn) [[IMG:image10.png]] biểu thị theo [[IMG:image11.png]] (với [[IMG:image12.png]]) diện tích đất bị thu hồi của nhà ông Thành.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$0.5x^2 - 5x + 50$",
+       "$0.5x^2 - 10x + 50$",
+       "$x^2 - 10x + 50$",
+       "$0.5x^2 + 5x + 50$"
+      ],
+      "answer": "B"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Ông Thành được đền bù số tiền [[IMG:image13.png]] triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị [[IMG:image14.png]] biết giá đền bù đất bị thu hồi là [[IMG:image15.png]] triệu đồng/[[IMG:image16.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5",
+     "loi_giai": "Diện tích thu hồi = Số tiền / Giá đền bù. Giải phương trình bậc hai tìm x.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Ông Thành có một mảnh đất hình chữ nhật có chiều rộng là [[IMG:image7.png]] m và chiều dài là [[IMG:image8.png]] m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Thành và thu hồi một phần đất của ông Thành (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ dưới (phần tô đậm). [[IMG:image9.png#0.0234,0.0466,0.0295,0.0498]]. Biết diện tích đất bị thu hồi là [[IMG:image10.png]] (với [[IMG:image12.png]]), ông Thành được đền bù số tiền [[IMG:image13.png]] triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị [[IMG:image14.png]] biết giá đền bù đất bị thu hồi là [[IMG:image15.png]] triệu đồng/[[IMG:image16.png]].",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "$x =$",
+        "dap_an": "5",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là giá trị cần tìm (đơn vị m, điều kiện $x > 0$)",
+        "Biểu diễn diện tích đất bị thu hồi theo $x$: {{1}}",
+        "Phương trình: {{2}}",
+        "Giải phương trình ta tìm được $x =$ {{3}}",
+        "Vậy giá trị $x$ là {{4}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "0.5*x*(x+1)"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "0.5*x*(x+1)=15"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "5"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "5"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

@@ -1,0 +1,379 @@
+{
+ "by": "Gemini 3 (gemini-3.1-flash-lite)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị cho {{1}} điểm thuộc Parabol $y = {{2}}x^2$"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Vẽ Parabol $y = {{3}}x^2$ trên hệ trục tọa độ $Oxy$"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "5"
+    ],
+    "keywords": [
+     "5"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "1/2"
+    ],
+    "keywords": [
+     "1/2",
+     "0.5"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "1/2"
+    ],
+    "keywords": [
+     "1/2",
+     "0.5"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "5",
+   "1/2",
+   "0.5",
+   "3",
+   "1",
+   "2"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định hệ số $a = {{1}}$, $c = {{2}}$"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính tích $a.c = {{3}}$"
+    ],
+    "hint": "Tính tích ac"
+   },
+   {
+    "lines": [
+     "Vì $a.c {{4}} 0$ nên phương trình có hai nghiệm phân biệt trái dấu"
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "kết quả",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "<"
+    ],
+    "keywords": [
+     "<",
+     "nhỏ hơn"
+    ],
+    "placeholder": "dấu",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "1",
+   "-3",
+   "<",
+   ">",
+   "=",
+   "0"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Chứng minh $OM$ là {{1}} của $AB$"
+    ],
+    "hint": "Chứng minh trung trực"
+   },
+   {
+    "lines": [
+     "Suy ra $\\widehat{OAM} = \\widehat{OBM} = {{2}}^\\circ$"
+    ],
+    "hint": "Góc tương ứng"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{3}}$ và $\\triangle {{4}}$ có:",
+     "• $\\widehat{A} = \\widehat{B} = {{5}}^\\circ$",
+     "• $\\widehat{M} = \\widehat{M}$ ({{6}})"
+    ],
+    "hint": "Xét hai tam giác"
+   },
+   {
+    "lines": [
+     "Do đó $\\triangle {{7}} \\backsim \\triangle {{8}}$ ({{9}})"
+    ],
+    "hint": "Kết luận đồng dạng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "trung trực"
+    ],
+    "keywords": [],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "OBM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 5
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "góc chung"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OAM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "OBM"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "trung trực",
+   "90",
+   "OAM",
+   "OBM",
+   "góc chung",
+   "g.g",
+   "c.g.c",
+   "đối đỉnh",
+   "trung điểm",
+   "cạnh chung"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi $I$ là giao điểm của $OM$ và {{1}}"
+    ],
+    "hint": "Xác định giao điểm"
+   },
+   {
+    "lines": [
+     "Vì $AB // {{2}}$ nên theo hệ quả Thalès:",
+     "$\\frac{HI}{AK} = \\frac{MI}{{{3}}}$"
+    ],
+    "hint": "Sử dụng Thalès"
+   },
+   {
+    "lines": [
+     "Mà $MI = {{4}}$ nên $HI = {{5}}$",
+     "Suy ra $H$ là {{6}} của $AK$"
+    ],
+    "hint": "Kết luận trung điểm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AK"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AK"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MK"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "IK"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "IK"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AK",
+   "MK",
+   "IK",
+   "trung điểm",
+   "trung trực",
+   "đường cao",
+   "cạnh chung"
+  ]
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]]",
+     "explanation": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm K khác gốc tọa độ thuộc [[IMG:image2.png]] sao cho tung độ gấp đôi hoành độ.",
+     "explanation": "Gọi K(x; y) thuộc Parabol nên y = x^2/4. Theo đề bài y = 2x. Suy ra x^2/4 = 2x. Giải phương trình x^2 - 8x = 0 ta được x = 0 hoặc x = 8. Vì K khác gốc tọa độ nên x = 8, suy ra y = 16. Vậy K(8; 16).",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_K =$ {{1}}",
+       "$y_K =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "16"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}, $y =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "16"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho Parabol [[IMG:image1.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_b_tu_tu_luan_can_xac_nhan",
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình luôn có hai nghiệm phân biệt.",
+     "explanation": "Tính delta = b^2 - 4ac. Chứng minh delta > 0 với mọi m.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Tính $\\Delta = (-2)^2 - 4(1)(m-2)$"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "Rút gọn $\\Delta = {{1}} - {{2}}m + {{3}} = {{4}} - {{5}}m$"
+        ],
+        "hint": "Rút gọn biểu thức"
+       },
+       {
+        "lines": [
+         "Biện luận $\\Delta > 0$ khi $m < {{6}}$"
+        ],
+        "hint": "Biện luận dấu delta"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình luôn có hai nghiệm {{7}} với $m < 3$"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "4"
+        ],
+        "keywords": [
+         "4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "4"
+        ],
+        "keywords": [
+         "4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "8"
+        ],
+        "keywords": [
+         "8"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "12"
+        ],
+        "keywords": [
+         "12"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "4"
+        ],
+        "keywords": [
+         "4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "3"
+        ],
+        "keywords": [
+         "3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "phân biệt"
+        ],
+        "keywords": [
+         "phân biệt"
+        ],
+        "placeholder": "từ khóa",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "4",
+       "8",
+       "12",
+       "3",
+       "phân biệt",
+       "kép",
+       "0",
+       "1"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính giá trị của biểu thức: [[IMG:image4.png]].",
+     "explanation": "Theo Vi-et: x1+x2 = 2, x1x2 = m-2. Biểu thức = (x1+x2)^2 - 2x1x2 - 2x1x2 = (x1+x2)^2 - 4x1x2 = 2^2 - 4(m-2) = 4 - 4m + 8 = 12 - 4m.",
+     "type": "multiple_choice",
+     "options": [
+      "4-4m",
+      "8-2m",
+      "4-2m",
+      "12-4m"
+     ],
+     "correctAnswer": 3
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image3.png]]. Không giải phương trình:",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D01",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số điểm bạn An nhận được sau 10 lần ném.",
+     "explanation": "Tổng điểm = 6*1 + 1*(-2) + 2*2 + 1*3 = 6 - 2 + 4 + 3 = 11 điểm.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng điểm $= 6\\cdot 1 + 1\\cdot (-2) + 2\\cdot 2 + 1\\cdot 3$",
+       "$= {{1}} - {{2}} + {{3}} + {{4}} = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "11"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi An có cơ hội nhận phần quà trị giá tương ứng không? Tính xác suất.",
+     "explanation": "Để đạt điểm cao hơn, An cần ném vào ô điểm 3. Xác suất ném vào ô điểm 3 là số ô điểm 3 chia tổng số ô.",
+     "type": "short_answer",
+     "shortCorrect": "0,48|12/25"
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Bạn An tham gia trò chơi ném bi vào bảng có các ô điểm. Trong 10 lần ném, An ném được 6 lần vào ô điểm 1, một lần ra ngoài bảng (-2 điểm), hai lần vào ô điểm 2, một lần ô điểm 3.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B1.D01",
+   "dang_toan_web": "Tần số. Bảng tần số. Tần số tương đối. Bảng tần số tương đối."
+  }
+ ],
+ "flags": []
+}

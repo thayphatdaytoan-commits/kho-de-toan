@@ -1,6 +1,6 @@
 # Việc cần làm (tự sinh mỗi lần đẩy kho — đừng sửa tay)
 
-Cập nhật: 2026-10-21 23:56. Kho có 19,496 câu; **4,032 câu còn cờ** cần xem. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ) ở `viec_can_lam.json`. Cách sửa: `HUONG_DAN_AI.md`.
+Cập nhật: 2026-10-27 16:41. Kho có 19,735 câu; **4,100 câu còn cờ** cần xem. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ) ở `viec_can_lam.json`. Cách sửa: `HUONG_DAN_AI.md`.
 
 ## Theo loại cờ
 
@@ -14,36 +14,36 @@ Cập nhật: 2026-10-21 23:56. Kho có 19,496 câu; **4,032 câu còn cờ** c�
 | `dung_sai_suy_tu_loi_giai_can_xac_nhan` | 295 | đáp án đúng/sai suy từ lời giải → kiểm từng ý |
 | `cong_thuc_ocr_AI_can_xem` | 222 | công thức do AI đọc ảnh → so với ảnh, sửa nếu sai |
 | `dung_sai_thieu_dap_an` | 209 | đúng/sai thiếu đáp án → giải, ghi tf_ans |
+| `tn_y_a_tu_tu_luan_can_xac_nhan` | 207 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `khong_tach_duoc_4_phuong_an` | 192 | không tách được 4 phương án → ghi options (4 chuỗi) |
-| `tn_y_a_tu_tu_luan_can_xac_nhan` | 168 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `muc_do_NB_lech_xa_goi_y_vi_tri_VD` | 141 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `tn_y_b_tu_tu_luan_can_xac_nhan` | 137 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `muc_do_NB_lech_xa_goi_y_vi_tri_VD` | 143 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `tn_y_b_tu_tu_luan_can_xac_nhan` | 143 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `dap_an_ngan_trong_va_loi_giai_khong_ra_so` | 122 | trả lời ngắn chưa có số → giải, ghi short_correct |
 | `dung_sai_thieu_y` | 73 | đúng/sai thiếu ý → bổ sung tf hoặc ghi ghi_chu |
 | `dung_sai_tu_bang_menh_de_can_xac_nhan` | 64 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `cong_thuc_dang_anh_chua_OCR` | 58 | công thức còn là ảnh → đọc ảnh, ghi LaTeX vào eq_ocr.json |
-| `tn_y_c_tu_tu_luan_can_xac_nhan` | 48 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `tn_y_c_tu_tu_luan_can_xac_nhan` | 56 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `loi_giai_y_b_do_AI_tu_giai_can_duyet` | 46 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `le_dau_dollar` | 41 | số dấu $ bị lẻ → sửa LaTeX |
-| `loi_giai_y_b_do_AI_tu_giai_can_duyet` | 38 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `tn_tu_tu_luan_dap_an_nhieu_can_xac_nhan` | 38 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `tn_tu_tu_luan_dap_an_nhieu_can_xac_nhan` | 39 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `loi_giai_y_a_do_AI_tu_giai_can_duyet` | 37 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `dung_sai_tu_y_abcd_trong_de_can_xac_nhan` | 36 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `loi_giai_y_a_do_AI_tu_giai_can_duyet` | 32 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `dap_an_la_bieu_thuc_can_quy_uoc_cach_cham` | 22 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `dap_an_la_bieu_thuc_can_quy_uoc_cach_cham` | 23 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `loi_giai_do_AI_tu_giai_can_duyet` | 16 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `tn_y_d_tu_tu_luan_can_xac_nhan` | 15 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `loi_giai_noi_D_dung_nhung_chon_C` | 13 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `loi_giai_do_AI_tu_giai_can_duyet` | 13 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `loi_giai_noi_C_dung_nhung_chon_D` | 12 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `loi_giai_y_c_do_AI_tu_giai_can_duyet` | 12 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `katex` | 11 | công thức không hiển thị được bằng KaTeX → sửa LaTeX |
 | `loi_giai_noi_A_dung_nhung_chon_C` | 10 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `loi_giai_noi_B_dung_nhung_chon_C` | 10 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `katex` | 10 | công thức không hiển thị được bằng KaTeX → sửa LaTeX |
 | `con_cong_thuc_MathType_chua_chuyen` | 9 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `loi_giai_noi_A_dung_nhung_chon_D` | 9 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `loi_giai_noi_B_dung_nhung_chon_D` | 9 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `loi_giai_y_c_do_AI_tu_giai_can_duyet` | 9 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `dap_an_ngan_khong_phai_so` | 8 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `phuong_an_rong` | 6 | có phương án rỗng → bổ sung |
 | `dap_an_bang_dap_an_B_khac_A` | 6 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
-| `thieu_de_chung` | 5 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
+| `thieu_de_chung` | 6 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `tn_y_2a_tu_tu_luan_can_xac_nhan` | 5 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `tn_y_2b_tu_tu_luan_can_xac_nhan` | 5 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
 | `dap_an_bang_dap_an_B_khac_D` | 4 | xem câu, sửa nếu sai; đúng rồi thì xac_nhan |
@@ -142,6 +142,6 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop12/CK12-WT-01/de1.json: image34.wmf
 - lop6/DT6CK2-07-RD6_HKII_2425/de1.json: image4.png
 - lop7/DT7CK1-03-CKI-7-34-BQT/de1.json: image9.png
-- lop8/DT8CK2-08-LE LOI/de1.json: image7.png
 - lop8/DT8CK2-08-LE LOI/de1.json: image8.png
+- lop8/DT8CK2-08-LE LOI/de1.json: image7.png
 - lop9/DT9TK2-15-TQT-TKCK2-TOAN 9 (2024-2025)/de1.json: image4.emf

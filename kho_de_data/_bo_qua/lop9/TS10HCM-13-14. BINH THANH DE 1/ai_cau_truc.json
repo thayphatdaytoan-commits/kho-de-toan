@@ -1,0 +1,200 @@
+{
+ "truong": "PHÒNG GD&ĐT QUẬN BÌNH THẠNH",
+ "nam_hoc": "2025 – 2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol $(P): y = \\frac{1}{2}x^2$ và đường thẳng $(d): y = x + 4$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $(P)$ và $(d)$ trên cùng một hệ trục tọa độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "đồ thị",
+     "loi_giai": "Lập bảng giá trị cho (P) và (d).\nVẽ đồ thị (P) là một đường Parabol đi qua gốc tọa độ.\nVẽ đồ thị (d) là một đường thẳng đi qua hai điểm (0; 4) và (-4; 0).",
+     "nguon": "de"
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ giao điểm của $(P)$ và $(d)$ bằng phép tính.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(-2; 2); (4; 8)",
+     "loi_giai": "Phương trình hoành độ giao điểm của (P) và (d):\n$\\frac{1}{2}x^2 = x + 4 \\Leftrightarrow x^2 - 2x - 8 = 0$.\nGiải phương trình ta được $x_1 = 4$ và $x_2 = -2$.\nVới $x = 4 \\Rightarrow y = 8$.\nVới $x = -2 \\Rightarrow y = 2$.\nVậy tọa độ giao điểm là (4; 8) và (-2; 2).",
+     "nguon": "de"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: $2x^2 - 3x - 4 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $a = 2, b = -3, c = -4$.\nBiệt thức $\\Delta = b^2 - 4ac = (-3)^2 - 4 \\cdot 2 \\cdot (-4) = 9 + 32 = 41$.\nVì $\\Delta > 0$ nên phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số $a = 2, b = -3, c = -4$",
+      "Tính biệt thức $\\Delta = (-3)^2 - 4 \\cdot 2 \\cdot (-4) = 41$",
+      "Vì $\\Delta = 41 > 0$ nên phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Vì $\\Delta = 41 > 0$ nên phương trình vô nghiệm"
+     ],
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: $A = \\frac{x_1^2}{x_2} + \\frac{x_2^2}{x_1}$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "-99/16",
+     "loi_giai": "Theo định lý Vi-ét: $x_1 + x_2 = \\frac{3}{2}$ và $x_1 x_2 = -2$.\nTa có $A = \\frac{x_1^3 + x_2^3}{x_1 x_2} = \\frac{(x_1+x_2)^3 - 3x_1 x_2(x_1+x_2)}{x_1 x_2}$.\nThay số: $A = \\frac{(1.5)^3 - 3(-2)(1.5)}{-2} = \\frac{3.375 + 9}{-2} = -6.1875 = -\\frac{99}{16}$.",
+     "nguon": "ai"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Gieo 3 con súc sắc, kết quả là một bộ thứ tự (x, y, z); với x, y, z lần lượt là số chấm xuất hiện trên mỗi con súc sắc, người ta thu được bảng sau:\n[[TABLE]]| (1; 4; 2) | (4; 6; 2) | (6; 5; 3) | (2; 1; 2) | (4; 4; 6) |\n|---|---|---|---|---|\n| (4; 2; 3) | (2; 4; 4) | (1; 2; 1) | (5; 5; 6) | (5; 1; 5) |\n| (4; 6; 6) | (3; 3; 4) | (1; 1; 5) | (2; 5; 4) | (4; 1; 6) |\n| (1; 1; 4) | (1; 6; 4) | (2; 2; 2) | (6; 2; 3) | (5; 4; 6) |",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tổng số chấm lớn nhất, nhỏ nhất là bao nhiêu? Có bao nhiêu trường hợp tích số chấm chia hết cho 2, tổng số chấm là số nguyên tố?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "16; 4; 6",
+     "loi_giai": "Tổng lớn nhất trong bảng là $5+5+6=16$ và $4+6+6=16$.\nTổng nhỏ nhất là $1+2+1=4$.\nCác trường hợp tích chia hết cho 2 (có ít nhất 1 số chẵn) và tổng là số nguyên tố: (1,4,2), (2,1,2), (2,5,4), (4,1,6), (1,6,4), (6,2,3). Có 6 trường hợp.",
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của biến cố tổng số chấm lớn hơn bằng 3 và không lớn hơn 11?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.7",
+     "loi_giai": "Tổng số trường hợp quan sát là 20.\nCác trường hợp có tổng $\\le 11$: (1,4,2), (2,1,2), (4,2,3), (2,4,4), (1,2,1), (5,1,5), (3,3,4), (1,1,5), (2,5,4), (4,1,6), (1,1,4), (1,6,4), (2,2,2), (6,2,3). Tổng cộng có 14 trường hợp.\nXác suất là $P = 14/20 = 0.7$.",
+     "nguon": "ai"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một khu vườn hình chữ nhật có chiều dài và chiều rộng lần lượt là 30m và 10m. Người ta làm lối đi trong khu vườn có dạng hình chữ nhật (như hình vẽ [[IMG:image7.png]]) với bề rộng lối đi là x (m).",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức S biểu diễn theo x diện tích của khu vườn còn lại sau khi mở lối đi.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x^2-40x+300",
+     "loi_giai": "Chiều dài còn lại của khu vườn là $30 - x$ (m).\nChiều rộng còn lại của khu vườn là $10 - x$ (m).\nDiện tích còn lại là $S = (30 - x)(10 - x) = x^2 - 40x + 300$ ($m^2$).",
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Biết rằng sau khi làm lối đi thì diện tích của khu vườn giảm đi $76m^2$. Tìm giá trị của x (làm tròn đến hàng phần mười của mét).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2.0",
+     "loi_giai": "Diện tích ban đầu là $30 \\cdot 10 = 300$ $m^2$.\nDiện tích giảm đi 76 $m^2$ nên diện tích còn lại là $300 - 76 = 224$ $m^2$.\nTa có phương trình: $x^2 - 40x + 300 = 224 \\Leftrightarrow x^2 - 40x + 76 = 0$.\nGiải phương trình ta được $x = 2$ hoặc $x = 38$.\nVì $x < 10$ nên ta chọn $x = 2$.\nVậy $x = 2.0$ m.",
+     "nguon": "ai"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Hình bên [[IMG:image8.png]] là hình ảnh của một thúng gạo vun đầy. Thúng có dạng nửa hình cầu với đường kính 50 cm, phần gạo vun lên có dạng hình nón cao 15 cm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích phần gạo trong thúng. (Làm tròn đến hàng phần mười)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "42542.4",
+     "loi_giai": "Bán kính thúng gạo là $R = 50 / 2 = 25$ cm.\nThể tích phần gạo trong nửa hình cầu là $V_1 = \\frac{2}{3} \\pi R^3 = \\frac{2}{3} \\pi (25)^3 \\approx 32724.9$ $cm^3$.\nThể tích phần gạo vun hình nón là $V_2 = \\frac{1}{3} \\pi R^2 h = \\frac{1}{3} \\pi (25)^2 \\cdot 15 \\approx 9817.5$ $cm^3$.\nTổng thể tích gạo là $V = V_1 + V_2 \\approx 42542.4$ $cm^3$.",
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Nhà bạn An dùng lon sữa bò cũ có dạng hình trụ (bán kính đáy bằng 4cm, chiều cao 10cm) để đong gạo mỗi ngày. Biết mỗi ngày nhà An ăn 5 lon gạo và mỗi lần đong thì lượng gạo chiếm 90% thể tích lon. Hỏi với lượng gạo ở thúng trên thì nhà bạn An có thể ăn nhiều nhất là bao nhiêu ngày.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "18",
+     "loi_giai": "Thể tích lon sữa bò là $V_{lon} = \\pi \\cdot 4^2 \\cdot 10 \\approx 502.65$ $cm^3$.\nLượng gạo trong mỗi lon là $502.65 \\cdot 90\\% \\approx 452.39$ $cm^3$.\nLượng gạo nhà An ăn mỗi ngày là $5 \\cdot 452.39 \\approx 2261.95$ $cm^3$.\nSố ngày nhà An có thể ăn là $42542.4 / 2261.95 \\approx 18.8$ ngày.\nVậy nhà An có thể ăn nhiều nhất là 18 ngày.",
+     "nguon": "ai"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Để đảm bảo bữa ăn đầy đủ dinh dưỡng hàng ngày thì mỗi gia đình có 4 thành viên cần ít nhất 900 đơn vị Prôtêin và 400 đơn vị Lipít. Mỗi kg thịt bò chứa 800 đơn vị Prôtêin và 200 đơn vị Lipit, một kg thịt heo chứa 600 đơn vị Prôtêin và 400 đơn vị Lipit. Giá 1 kg thịt bò là 245 000đ, 1 kg thịt heo là 185 000đ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Cần bao nhiêu khối lượng thịt heo để cung cấp đơn vị Prôtêin tương ứng 1,5 kg thịt bò.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2",
+     "loi_giai": "Lượng Protein trong 1.5 kg thịt bò là $1.5 \\cdot 800 = 1200$ đơn vị.\nKhối lượng thịt heo cần để có 1200 đơn vị Protein là $1200 / 600 = 2$ kg.",
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi cần mua bao nhiêu tiền thịt bò và bao nhiêu tiền thịt heo để đảm bảo dinh dưỡng hằng ngày cho gia đình có 4 người (làm tròn đến hàng đơn vị)?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "147000; 129500",
+     "loi_giai": "Gọi $x, y$ lần lượt là số kg thịt bò và thịt heo cần mua.\nTa có hệ bất phương trình: $800x + 600y \\ge 900$ và $200x + 400y \\ge 400$.\nXét giao điểm của hai đường thẳng $800x + 600y = 900$ và $200x + 400y = 400$, ta được $x = 0.6$ và $y = 0.7$.\nSố tiền mua thịt bò là $0.6 \\cdot 245000 = 147000$ đồng.\nSố tiền mua thịt heo là $0.7 \\cdot 185000 = 129500$ đồng.\nTổng chi phí là 276 500 đồng, đảm bảo đủ dinh dưỡng.",
+     "nguon": "ai"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho $(O, R)$ đường kính $AB$. Gọi $C$ là điểm trên tia đối của tia $BA$ sao cho $BC = R$. Lấy $D$ trên $(O)$ sao cho $BD = R$. Đường thẳng vuông góc với $BC$ tại $C$ cắt $AD$ tại $M$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác $BCMD$ nội tiếp và $AD \\cdot AM = 6R^2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $\\angle ADB = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn) $\\Rightarrow \\angle BDM = 90^\\circ$.\nMặt khác $MC \\perp BC$ tại $C$ nên $\\angle BCM = 90^\\circ$.\nTứ giác $BCMD$ có $\\angle BDM + \\angle BCM = 180^\\circ$ nên nội tiếp.\nXét $\\Delta ABD$ và $\\Delta AMC$ có $\\angle A$ chung và $\\angle ADB = \\angle ACM = 90^\\circ$.\n$\\Rightarrow \\Delta ABD \\sim \\Delta AMC$ (g.g) $\\Rightarrow AD/AC = AB/AM \\Rightarrow AD \\cdot AM = AB \\cdot AC$.\nVới $AB = 2R$ và $AC = AB + BC = 3R$, ta có $AD \\cdot AM = 2R \\cdot 3R = 6R^2$.",
+     "cum": [
+      "Ta có $\\angle ADB = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn) nên $\\angle BDM = 90^\\circ$",
+      "Vì $MC \\perp BC$ tại $C$ nên $\\angle BCM = 90^\\circ$",
+      "Tứ giác $BCMD$ có $\\angle BDM + \\angle BCM = 180^\\circ$ nên nội tiếp đường tròn",
+      "Xét $\\Delta ABD$ và $\\Delta AMC$ có $\\angle A$ chung và $\\angle ADB = \\angle ACM = 90^\\circ$",
+      "Suy ra $\\Delta ABD \\sim \\Delta AMC$ (g.g)",
+      "Do đó $AD/AC = AB/AM \\Rightarrow AD \\cdot AM = AB \\cdot AC$",
+      "Thay $AB = 2R, AC = 3R$ ta được $AD \\cdot AM = 2R \\cdot 3R = 6R^2$"
+     ],
+     "nhieu": [
+      "Tứ giác $BCMD$ nội tiếp vì có tổng hai góc đối bằng $90^\\circ$"
+     ],
+     "nguon": "ai"
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi $I$ là trung điểm $MC$, $AI$ cắt $CD$ tại $K$. Chứng minh $KB$ là tiếp tuyến của $(O)$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng phương pháp tọa độ hoặc định lý Menelaus, ta chứng minh được hoành độ của điểm $K$ trùng với hoành độ của điểm $B$ trên trục $AB$.\nKhi đó $KB \\perp AB$ tại $B$.\nVì $B$ thuộc đường tròn $(O)$ và $KB \\perp OB$ tại $B$ nên $KB$ là tiếp tuyến của $(O)$.",
+     "cum": [
+      "Kẻ $KB' \\perp AC$ tại $B'$ và chứng minh $B'$ trùng với $B$",
+      "Sử dụng hệ quả định lý Talet cho các cặp tam giác đồng dạng",
+      "Chứng minh được $KB \\perp AB$ tại $B$",
+      "Vì $B$ nằm trên đường tròn $(O)$ và $KB \\perp OB$ tại $B$",
+      "Kết luận $KB$ là tiếp tuyến của đường tròn $(O)$ tại $B$"
+     ],
+     "nhieu": [
+      "KB là tiếp tuyến vì K nằm trên đường tròn (O)"
+     ],
+     "nguon": "ai"
+    },
+    {
+     "nhan": "c",
+     "de": "Tính $CM$ và diện tích phần $\\Delta ACM$ nằm ngoài $(O)$ biết $R = 4cm$ (làm tròn đến chữ số thập phân thứ hai).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "6.93; 31.74",
+     "loi_giai": "Với $R = 4$, ta có $AB = 8, BC = 4, AC = 12$.\nVì $BD = R = 4$ nên $\\Delta OBD$ đều $\\Rightarrow \\angle ABD = 60^\\circ \\Rightarrow \\angle CAD = 30^\\circ$.\nTrong $\\Delta ACM$ vuông tại $C$: $CM = AC \\cdot \\tan 30^\\circ = 12 \\cdot \\frac{\\sqrt{3}}{3} = 4\\sqrt{3} \\approx 6.93$ cm.\nDiện tích $\\Delta ACM = \\frac{1}{2} \\cdot 12 \\cdot 4\\sqrt{3} = 24\\sqrt{3} \\approx 41.57$ $cm^2$.\nDiện tích hình viên phân cung $AD$ là $S_{vp} = \\frac{1}{2} R^2 (\\frac{2\\pi}{3} - \\sin 120^\\circ) = \\frac{16\\pi}{3} - 4\\sqrt{3} \\approx 9.83$ $cm^2$.\nDiện tích phần $\\Delta ACM$ ngoài $(O)$ là $S = S_{ACM} - S_{vp} = 24\\sqrt{3} - (\\frac{16\\pi}{3} - 4\\sqrt{3}) = 28\\sqrt{3} - \\frac{16\\pi}{3} \\approx 31.74$ $cm^2$.",
+     "nguon": "ai"
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3-flash-preview)"
+}

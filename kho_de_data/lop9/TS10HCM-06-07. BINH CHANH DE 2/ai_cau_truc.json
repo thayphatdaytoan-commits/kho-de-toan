@@ -1,0 +1,559 @@
+{
+ "truong": "THCS H.BÌNH CHÁNH",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc Parabol",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm trên [[IMG:image2.png]] sao cho hoành độ bằng [[IMG:image3.png]] lần tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 1); (-2; 1)",
+     "loi_giai": "Gọi điểm M(x; y) thuộc Parabol nên y = 1/4 * x^2. Theo đề bài x = 2y. Thay vào ta được x = 1/2 * x^2, suy ra x = 0 hoặc x = 2. Với x = 2 thì y = 1. Với x = -2 thì y = 1.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm những điểm trên [[IMG:image2.png]] sao cho hoành độ bằng [[IMG:image3.png]] lần tung độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image4.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức Delta = b^2 - 4ac. Vì a và c trái dấu nên Delta > 0, phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính Delta = b^2 - 4ac",
+      "Chứng minh Delta > 0 vì a và c trái dấu",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính Delta < 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image5.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Theo Vi-et: x1+x2 = -b/a, x1x2 = c/a. Biểu thức = (x1+x2)^2 - 2x1x2. Thay số vào tính toán.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image5.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Vi-et: $x_1+x_2 = {{1}}$, $x_1x_2 = {{2}}$",
+       "Biểu thức $= (x_1+x_2)^2 - 2x_1x_2 = {{3}}^2 - 2 \\cdot {{4}} = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "1"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một bức tường hình thang vuông có cửa sổ hình chữ nhật với các kích thước như hình bên (tính bằng mét). [[IMG:image6.jpg]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức biểu thị diện tích bức tường theo [[IMG:image7.png]], [[IMG:image8.png]] (không tính phần cửa sổ).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10x + 5y - 2",
+     "loi_giai": "Diện tích hình thang trừ diện tích hình chữ nhật.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bức tường hình thang vuông có cửa sổ hình chữ nhật với các kích thước như hình bên (tính bằng mét). [[IMG:image6.jpg]] Viết biểu thức biểu thị diện tích bức tường theo [[IMG:image7.png]], [[IMG:image8.png]] (không tính phần cửa sổ).",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$10x + 5y - 2$",
+       "$10x + 5y + 2$",
+       "$5x + 10y - 2$",
+       "$10x - 5y - 2$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính giá trị diện tích trên khi [[IMG:image9.png]], [[IMG:image10.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "33",
+     "loi_giai": "Thay x=3, y=1 vào biểu thức 10x + 5y - 2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bức tường hình thang vuông có cửa sổ hình chữ nhật với các kích thước như hình bên (tính bằng mét). [[IMG:image6.jpg]] Tính giá trị diện tích bức tường (không tính phần cửa sổ) khi [[IMG:image9.png]], [[IMG:image10.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $x=3, y=1$ vào biểu thức: $10 \\cdot {{1}} + 5 \\cdot {{2}} - 2$",
+       "$= {{3}} + {{4}} - 2 = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "30"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "33"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Khi thả chìm hoàn toàn một viên xúc xắc nhỏ hình lập phương vào một ly nước có dạng hình trụ thì người ta thấy nước trong ly dâng lên [[IMG:image12.png]] và không tràn ra ngoài. Biết diện tích đáy của ly nước bằng [[IMG:image13.png]]. Hỏi cạnh của viên xúc xắc dài bao nhiêu [[IMG:image15.png]]?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5",
+     "loi_giai": "Thể tích nước dâng lên bằng thể tích viên xúc xắc. V = S_day * h = 25 * 5 = 125. Cạnh a = căn bậc 3 của 125 = 5.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thể tích viên xúc xắc: $V = S_{đáy} \\cdot h = {{1}} \\cdot {{2}} = {{3}}$",
+       "Cạnh viên xúc xắc: $a = \\sqrt[3]{ {{4}} } = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "25"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "125"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "125"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "5"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Công ty địa ốc [[IMG:image17.png]] xây một chung cư cao cấp có [[IMG:image18.png]] căn hộ để bán gồm [[IMG:image3.png]] loại: loại [[IMG:image19.png]] là căn hộ [[IMG:image20.png]] phòng ngủ giá bán [[IMG:image21.png]] tỉ đồng/căn, loại [[IMG:image22.png]] là căn hộ [[IMG:image3.png]] phòng ngủ giá bán [[IMG:image23.png]] tỉ đồng/căn. Do mục đích kinh doanh thay đổi nên có điều chỉnh giá bán như sau: tăng [[IMG:image24.png]] đối với mỗi căn hộ loại [[IMG:image19.png]] và giảm [[IMG:image25.png]] đối với mỗi căn hộ loại [[IMG:image22.png]]. Tổng số tiền bán hết các loại căn hộ là [[IMG:image26.png]] tỉ đồng.",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Hỏi có bao nhiêu căn hộ loại [[IMG:image19.png]] và loại [[IMG:image22.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x=40; y=60",
+     "loi_giai": "Gọi x, y là số căn hộ. Lập hệ phương trình: x + y = 100 và (giá mới loại 1)*x + (giá mới loại 2)*y = 480.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số căn hộ loại 1:",
+        "dap_an": "40",
+        "don_vi": "căn"
+       },
+       {
+        "nhan": "Số căn hộ loại 2:",
+        "dap_an": "60",
+        "don_vi": "căn"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số căn hộ loại 1, $y$ là số căn hộ loại 2 (điều kiện $x, y \\in \\mathbb{N}^*$)",
+        "Biểu diễn tổng số căn hộ: {{1}}",
+        "Hệ phương trình: {{2}} ; {{3}}",
+        "Giải hệ ta được $x =$ {{4}}, $y =$ {{5}}",
+        "Vậy số căn hộ loại 1 là {{4}} căn, loại 2 là {{5}} căn"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=100"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x+y=100"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "4.8x+4.8y=480"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "40"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "60"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Hộp thứ nhất chứa [[IMG:image20.png]] quả bóng màu xanh và [[IMG:image20.png]] quả bóng đỏ. Hộp thứ hai chứa [[IMG:image20.png]] quả bóng màu vàng và [[IMG:image20.png]] quả bóng đỏ. Lấy ra ngẫu nhiên từ mỗi hộp [[IMG:image20.png]] quả bóng.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Xác định không gian mẫu và số kết quả có thể xảy ra của phép thử.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4",
+     "loi_giai": "Mỗi hộp có 2 quả, lấy 1 quả từ mỗi hộp. Không gian mẫu gồm các cặp (Xanh, Vàng), (Xanh, Đỏ), (Đỏ, Vàng), (Đỏ, Đỏ). Tổng 4 kết quả.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Hộp thứ nhất chứa [[IMG:image20.png]] quả bóng màu xanh và [[IMG:image20.png]] quả bóng đỏ. Hộp thứ hai chứa [[IMG:image20.png]] quả bóng màu vàng và [[IMG:image20.png]] quả bóng đỏ. Lấy ra ngẫu nhiên từ mỗi hộp [[IMG:image20.png]] quả bóng. Xác định không gian mẫu và số kết quả có thể xảy ra của phép thử.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số kết quả có thể xảy ra là: $2 \\cdot {{1}} = {{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của các biến cố M, N, Q.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "M=0.25; N=0.75; Q=0.75",
+     "loi_giai": "M: (Đỏ, Đỏ) -> 1/4 = 0.25. N: (Xanh, Vàng), (Xanh, Đỏ), (Đỏ, Vàng) -> 3/4 = 0.75. Q: (Xanh, Đỏ), (Đỏ, Vàng), (Đỏ, Đỏ) -> 3/4 = 0.75.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Hộp thứ nhất chứa [[IMG:image20.png]] quả bóng màu xanh và [[IMG:image20.png]] quả bóng đỏ. Hộp thứ hai chứa [[IMG:image20.png]] quả bóng màu vàng và [[IMG:image20.png]] quả bóng đỏ. Lấy ra ngẫu nhiên từ mỗi hộp [[IMG:image20.png]] quả bóng. Tính xác suất của các biến cố M, N, Q.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(M) =$ {{1}}; $P(N) =$ {{2}}; $P(Q) =$ {{3}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0.25"
+       },
+       {
+        "id": "2",
+        "answer": "0.75"
+       },
+       {
+        "id": "3",
+        "answer": "0.75"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Xác suất biến cố M: $P(M) = {{1}} / {{2}} = {{3}}$",
+       "Xác suất biến cố N: $P(N) = {{4}} / {{5}} = {{6}}$",
+       "Xác suất biến cố Q: $P(Q) = {{7}} / {{8}} = {{9}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.25"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "6",
+        "loai": "so",
+        "dap_an": "0.75"
+       },
+       {
+        "id": "7",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "8",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "9",
+        "loai": "so",
+        "dap_an": "0.75"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn [[IMG:image27.png]]. Hai điểm [[IMG:image28.png]] và [[IMG:image29.png]] thuộc [[IMG:image30.png]] sao cho [[IMG:image31.png]]. Tiếp tuyến của [[IMG:image30.png]] tại [[IMG:image28.png]] và [[IMG:image29.png]] cắt nhau tại [[IMG:image32.png]]. Vẽ [[IMG:image33.png]] cắt [[IMG:image34.png]] tại [[IMG:image35.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: [[IMG:image33.png]] là đường trung trực của [[IMG:image34.png]] và 4 điểm [[IMG:image37.png]] cùng thuộc một đường tròn.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất hai tiếp tuyến cắt nhau. Chứng minh các góc vuông để suy ra tứ giác nội tiếp.",
+     "cum": [
+      "Sử dụng tính chất tiếp tuyến cắt nhau suy ra OA là trung trực của BC",
+      "Chứng minh góc vuông tại M và N",
+      "Suy ra tứ giác nội tiếp đường tròn đường kính OA"
+     ],
+     "nhieu": [
+      "Chứng minh tam giác ABC đều"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image27.png]]. Hai điểm [[IMG:image28.png]] và [[IMG:image29.png]] thuộc [[IMG:image30.png]] sao cho [[IMG:image31.png]]. Tiếp tuyến của [[IMG:image30.png]] tại [[IMG:image28.png]] và [[IMG:image29.png]] cắt nhau tại [[IMG:image32.png]]. Vẽ [[IMG:image33.png]] cắt [[IMG:image34.png]] tại [[IMG:image35.png]]. Chứng minh: [[IMG:image33.png]] là đường trung trực của [[IMG:image34.png]] và 4 điểm [[IMG:image37.png]] cùng thuộc một đường tròn.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Kẻ đường kính [[IMG:image38.png]] của [[IMG:image30.png]]. [[IMG:image39.png]] cắt [[IMG:image30.png]] tại [[IMG:image40.png]]. Chứng minh: [[IMG:image42.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tam giác đồng dạng.",
+     "cum": [
+      "Chứng minh góc nội tiếp chắn nửa đường tròn",
+      "Chứng minh tam giác đồng dạng g-g",
+      "Suy ra tỉ số cạnh tương ứng"
+     ],
+     "nhieu": [
+      "Chứng minh tam giác bằng nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image27.png]]. Hai điểm [[IMG:image28.png]] và [[IMG:image29.png]] thuộc [[IMG:image30.png]] sao cho [[IMG:image31.png]]. Tiếp tuyến của [[IMG:image30.png]] tại [[IMG:image28.png]] và [[IMG:image29.png]] cắt nhau tại [[IMG:image32.png]]. Vẽ [[IMG:image33.png]] cắt [[IMG:image34.png]] tại [[IMG:image35.png]]. Kẻ đường kính [[IMG:image38.png]] của [[IMG:image30.png]]. [[IMG:image39.png]] cắt [[IMG:image30.png]] tại [[IMG:image40.png]]. Chứng minh: [[IMG:image42.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Tính diện tích hình viên phân giới hạn bởi dây cung [[IMG:image34.png]] và cung nhỏ [[IMG:image34.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R^2(pi/3 - căn(3)/4)",
+     "loi_giai": "Diện tích hình viên phân = Diện tích quạt - Diện tích tam giác.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image27.png]]. Hai điểm [[IMG:image28.png]] và [[IMG:image29.png]] thuộc [[IMG:image30.png]] sao cho [[IMG:image31.png]]. Tính diện tích hình viên phân giới hạn bởi dây cung [[IMG:image34.png]] và cung nhỏ [[IMG:image34.png]].",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$R^2(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4})$",
+       "$R^2(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4})$",
+       "$R^2(\\frac{\\pi}{3} + \\frac{\\sqrt{3}}{4})$",
+       "$R^2(\\frac{\\pi}{2} - \\frac{\\sqrt{3}}{2})$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

@@ -1,0 +1,364 @@
+{
+ "truong": "",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số $y = -\\frac{1}{2}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $(P)$ của hàm số trên.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "",
+     "loi_giai": "Bảng giá trị:\n\\begin{array}{|c|c|c|c|c|c|}\n\\hline\nx & -4 & -2 & 0 & 2 & 4 \\\\\n\\hline\ny = -\\frac{1}{2}x^2 & -8 & -2 & 0 & -2 & -8 \\\\\n\\hline\n\\end{array}\nĐồ thị hàm số $y = -\\frac{1}{2}x^2$ là một đường parabol đi qua các điểm $(-4; -8)$, $(-2; -2)$, $(0; 0)$, $(2; -2)$, $(4; -8)$ và nhận trục $Oy$ làm trục đối xứng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = -\\frac{1}{2}x^2$. Vẽ đồ thị $(P)$ của hàm số trên.",
+     "diem": 1,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = -0.5x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm $M$ thuộc $(P)$ sao cho tung độ bằng $-8$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "M(4; -8); M(-4; -8)",
+     "loi_giai": "Thay $y = -8$ vào công thức hàm số $y = -\\frac{1}{2}x^2$, ta được:\n$-8 = -\\frac{1}{2}x^2 \\Leftrightarrow x^2 = 16 \\Leftrightarrow x = \\pm 4$\nVậy tọa độ điểm $M$ thỏa mãn yêu cầu bài toán là $M(4; -8)$ và $M(-4; -8)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = -\\frac{1}{2}x^2$. Tìm những điểm $M$ thuộc $(P)$ sao cho tung độ bằng $-8$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ các điểm M là: M({{1}}; -8) và M({{2}}; -8)",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "4|-4"
+       },
+       {
+        "id": "2",
+        "answer": "4|-4"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình $x^2 - 2x - 4 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét phương trình $x^2 - 2x - 4 = 0$ có $a = 1, b' = -1, c = -4$.\nTa có $\\Delta' = b'^2 - ac = (-1)^2 - 1 \\cdot (-4) = 5 > 0$.\nVậy phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "cum": [
+      "Xét phương trình $x^2 - 2x - 4 = 0$ có các hệ số $a = 1, b' = -1, c = -4$",
+      "Tính $\\Delta' = b'^2 - ac = (-1)^2 - 1 \\cdot (-4) = 5$",
+      "Vì $\\Delta' = 5 > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$"
+     ],
+     "nhieu": [
+      "Vì $\\Delta' = 5 > 0$ nên phương trình có nghiệm duy nhất"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 4 = 0$. Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị biểu thức: $A = x_1^2 + x_2^2 - 3x_1 x_2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "24",
+     "loi_giai": "Theo định lí Viète, ta có:\n$\\begin{cases} x_1 + x_2 = 2 \\\\ x_1 x_2 = -4 \\end{cases}$\nKhi đó:\n$A = x_1^2 + x_2^2 - 3x_1 x_2 = (x_1 + x_2)^2 - 5x_1 x_2 = 2^2 - 5 \\cdot (-4) = 4 + 20 = 24$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 4 = 0$ có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình, hãy tính giá trị biểu thức: $A = x_1^2 + x_2^2 - 3x_1 x_2$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Biểu đồ bên thống kê số lượng nhân viên trong một công ty theo số năm kinh nghiệm làm việc của họ. Dựa vào biểu đồ trên, hãy cho biết tổng số nhân viên của công ty là bao nhiêu ?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "40",
+     "loi_giai": "Tổng số nhân viên của công ty là:\n$6 + 14 + 12 + 8 = 40$ (nhân viên).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ bên thống kê số lượng nhân viên trong một công ty theo số năm kinh nghiệm làm việc của họ. Dựa vào biểu đồ trên, hãy cho biết tổng số nhân viên của công ty là bao nhiêu ?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Một quản lý của công ty có $4$ phần thưởng khác nhau $A, B, C, D$ và sẽ trao cho hai nhóm nhân viên, mỗi nhóm được nhận $2$ phần thưởng. Tính xác suất để nhóm thứ nhất nhận được phần thưởng $A$ và $B$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/6",
+     "loi_giai": "Kí hiệu các phần thưởng là $A, B, C, D$.\nSố cách chọn $2$ phần thưởng cho nhóm thứ nhất là $\\binom{4}{2} = 6$.\nKhông gian mẫu $\\Omega = \\{AB, AC, AD, BC, BD, CD\\} \\Rightarrow n(\\Omega) = 6$.\nBiến cố nhóm thứ nhất nhận được phần thưởng $A$ và $B$ là $\\{AB\\}$, có $1$ kết quả thuận lợi.\nXác suất của biến cố là $P = \\frac{1}{6}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một quản lý của công ty có $4$ phần thưởng khác nhau $A, B, C, D$ và sẽ trao cho hai nhóm nhân viên, mỗi nhóm được nhận $2$ phần thưởng. Tính xác suất để nhóm thứ nhất nhận được phần thưởng $A$ và $B$.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một vườn hoa hình vuông có cạnh $20\\text{ m}$, người ta làm lối đi trong vườn hoa có chiều rộng là $x\\text{ m}$ như hình vẽ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức biểu thị diện tích còn lại để trồng hoa sau khi làm lối đi.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(20-2x)^2",
+     "loi_giai": "Chiều dài cạnh của hình vuông trồng hoa còn lại là: $20 - 2x$ (m).\nBiểu thức biểu thị diện tích còn lại để trồng hoa là: $(20 - 2x)^2$ (m$^2$).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một vườn hoa hình vuông có cạnh $20\\text{ m}$, người ta làm lối đi trong vườn hoa có chiều rộng là $x\\text{ m}$ như hình vẽ. Viết biểu thức biểu thị diện tích còn lại để trồng hoa sau khi làm lối đi.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$ (20-x)^2 $",
+       "$ (20-2x)^2 $",
+       "$ 400-x^2 $",
+       "$ 20^2-x^2 $"
+      ],
+      "answer": "B"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Biết rằng sau khi làm lối đi thì diện tích còn lại của khu vườn trồng hoa là $256\\text{ m}^2$. Tính chiều rộng $x$ của lối đi ?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2",
+     "loi_giai": "Vì diện tích còn lại của khu vườn là $256\\text{ m}^2$ nên ta có phương trình:\n$(20 - 2x)^2 = 256$\n$\\Leftrightarrow 20 - 2x = 16$ (do $20 - 2x > 0$)\n$\\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$ (m).\nVậy chiều rộng của lối đi là $2\\text{ m}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một vườn hoa hình vuông có cạnh $20\\text{ m}$, người ta làm lối đi trong vườn hoa có chiều rộng là $x\\text{ m}$ như hình vẽ. Biết rằng sau khi làm lối đi thì diện tích còn lại của khu vườn trồng hoa là $256\\text{ m}^2$. Tính chiều rộng $x$ của lối đi ?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Một bồn nước hình trụ có đường kính đáy là $1,2\\text{ m}$ và cao $1,8\\text{ m}$. Người ta đổ nước vào trong bồn sao cho chiều cao của nước bằng đúng một nửa chiều cao của bồn và tiếp tục đặt vào trong bồn một phao nước có dạng hình cầu bằng kim loại không thấm nước có bán kính $0,2\\text{ m}$ và chìm hoàn toàn vào trong nước.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích nước có trong bồn (kết quả làm tròn đến hàng phần mười).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Bán kính đáy bồn nước là: $r = \\frac{1,2}{2} = 0,6\\text{ m}$.\nChiều cao mực nước trong bồn là: $h = \\frac{1,8}{2} = 0,9\\text{ m}$.\nThể tích nước có trong bồn là:\n$V_{nước} = \\pi r^2 h = \\pi \\cdot (0,6)^2 \\cdot 0,9 = 0,324\\pi \\approx 1,0\\text{ m}^3$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bồn nước hình trụ có đường kính đáy là $1,2\\text{ m}$ và cao $1,8\\text{ m}$. Người ta đổ nước vào trong bồn sao cho chiều cao của nước bằng đúng một nửa chiều cao của bồn và tiếp tục đặt vào trong bồn một phao nước có dạng hình cầu bằng kim loại không thấm nước có bán kính $0,2\\text{ m}$ và chìm hoàn toàn vào trong nước. Tính thể tích nước có trong bồn (kết quả làm tròn đến hàng phần mười).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Sau đó người ta tiếp tục bơm thêm nước vào bồn bằng một vòi có công suất chảy là $0,5\\text{ lít}$ cho mỗi giây. Hỏi sau bao nhiêu phút thì bồn đầy nước. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$, công thức tính thể tích hình cầu là $V = \\frac{4}{3}\\pi r^3$, kết quả làm tròn đến hàng đơn vị.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "33",
+     "loi_giai": "Thể tích bồn nước là: $V_{bồn} = \\pi r^2 h_{bồn} = \\pi \\cdot (0,6)^2 \\cdot 1,8 = 0,648\\pi\\text{ m}^3$.\nThể tích phao nước hình cầu là: $V_{cầu} = \\frac{4}{3}\\pi R^3 = \\frac{4}{3}\\pi \\cdot (0,2)^3 = \\frac{0,032}{3}\\pi\\text{ m}^3$.\nThể tích nước cần bơm thêm để đầy bồn là:\n$V_{cần\\,bơm} = V_{bồn} - V_{nước} - V_{cầu} = 0,648\\pi - 0,324\\pi - \\frac{0,032}{3}\\pi = \\frac{0,94}{3}\\pi \\approx 0,98436\\text{ m}^3 \\approx 984,36\\text{ lít}$.\nThời gian cần để bơm đầy bồn là:\n$t = \\frac{984,36}{0,5} = 1968,72\\text{ giây} \\approx 33\\text{ phút}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bồn nước hình trụ có đường kính đáy là $1,2\\text{ m}$ và cao $1,8\\text{ m}$. Người ta đổ nước vào trong bồn sao cho chiều cao của nước bằng đúng một nửa chiều cao của bồn và tiếp tục đặt vào trong bồn một phao nước có dạng hình cầu bằng kim loại không thấm nước có bán kính $0,2\\text{ m}$ và chìm hoàn toàn vào trong nước. Sau đó người ta tiếp tục bơm thêm nước vào bồn bằng một vòi có công suất chảy là $0,5\\text{ lít}$ cho mỗi giây. Hỏi sau bao nhiêu phút thì bồn đầy nước. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$, công thức tính thể tích hình cầu là $V = \\frac{4}{3}\\pi r^3$, kết quả làm tròn đến hàng đơn vị.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Formalin là dung dịch có chứa từ $37\\%$ đến $40\\%$ Formaldehyde. Formaldehyde có khả năng kháng khuẩn, kháng nấm nên được dùng làm chất bảo quản trong y tế. Một nhà máy sản xuất Formaldehyde đang có một lượng dung dịch Formaldehyde nồng độ $30\\%$ và một lượng Formaldehyde nồng độ $50\\%$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích mỗi loại Formaldehyde trên để điều chế được $100\\text{ lít}$ Formaldehyde $38\\%$. Giả sử nguyên liệu không bị hao hụt trong quá trình sản xuất.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "60; 40",
+     "loi_giai": "Gọi $x, y$ (lít) lần lượt là thể tích dung dịch Formaldehyde nồng độ $30\\%$ và $50\\%$ cần dùng ($0 < x, y < 100$).\nDo thể tích dung dịch thu được là $100\\text{ lít}$ nên ta có: $x + y = 100$.\nDo lượng Formaldehyde nguyên chất cần có là $100 \\cdot 38\\% = 38\\text{ lít}$ nên ta có:\n$30\\% x + 50\\% y = 38 \\Leftrightarrow 0,3x + 0,5y = 38$.\nTa có hệ phương trình:\n$\\begin{cases} x + y = 100 \\\\ 0,3x + 0,5y = 38 \\end{cases} \\Leftrightarrow \\begin{cases} x = 60 \\\\ y = 40 \\end{cases}$ (thỏa mãn).\nVậy cần $60\\text{ lít}$ dung dịch Formaldehyde $30\\%$ và $40\\text{ lít}$ dung dịch Formaldehyde $50\\%$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Formalin là dung dịch có chứa từ $37\\%$ đến $40\\%$ Formaldehyde. Một nhà máy sản xuất Formaldehyde đang có một lượng dung dịch Formaldehyde nồng độ $30\\%$ và một lượng Formaldehyde nồng độ $50\\%$. Tính thể tích mỗi loại Formaldehyde trên để điều chế được $100\\text{ lít}$ Formaldehyde $38\\%$. Giả sử nguyên liệu không bị hao hụt trong quá trình sản xuất.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Thể tích dung dịch 30% là {{1}} lít; thể tích dung dịch 50% là {{2}} lít",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "60"
+       },
+       {
+        "id": "2",
+        "answer": "40"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Một cơ sở y tế đặt hàng nhà máy trên một đơn hàng Formalin. Nhà máy dùng $12\\text{ lít}$ Formaldehyde $30\\%$ cùng một lượng Formaldehyde $50\\%$ để sản xuất ra Formalin. Hỏi thể tích của Formaldehyde $50\\%$ nằm trong khoảng nào thì có thể sản xuất được Formalin.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "84/13; 12",
+     "loi_giai": "Gọi $x$ (lít) là thể tích dung dịch Formaldehyde $50\\%$ cần dùng ($x > 0$).\nTổng thể tích dung dịch thu được là $12 + x$ (lít).\nTổng thể tích Formaldehyde nguyên chất là $12 \\cdot 30\\% + 50\\% x = 3,6 + 0,5x$ (lít).\nNồng độ Formaldehyde trong dung dịch mới là $\\frac{3,6 + 0,5x}{12 + x}$.\nDo Formalin có nồng độ Formaldehyde từ $37\\%$ đến $40\\%$ nên ta có:\n$37\\% \\le \\frac{3,6 + 0,5x}{12 + x} \\le 40\\%$\n$\\Leftrightarrow \\begin{cases} 0,37(12 + x) \\le 3,6 + 0,5x \\\\ 3,6 + 0,5x \\le 0,40(12 + x) \\end{cases} \\Leftrightarrow \\begin{cases} 4,44 + 0,37x \\le 3,6 + 0,5x \\\\ 3,6 + 0,5x \\le 4,8 + 0,4x \\end{cases}$\n$\\Leftrightarrow \\begin{cases} 0,13x \\ge 0,84 \\\\ 0,1x \\le 1,2 \\end{cases} \\Leftrightarrow \\begin{cases} x \\ge \\frac{84}{13} \\approx 6,46 \\\\ x \\le 12 \\end{cases}$\nVậy thể tích Formaldehyde $50\\%$ nằm trong khoảng từ $\\frac{84}{13}\\text{ lít}$ (khoảng $6,46\\text{ lít}$) đến $12\\text{ lít}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Formalin là dung dịch có chứa từ $37\\%$ đến $40\\%$ Formaldehyde. Một nhà máy sản xuất Formaldehyde đang có một lượng dung dịch Formaldehyde nồng độ $30\\%$ và một lượng Formaldehyde nồng độ $50\\%$. Một cơ sở y tế đặt hàng nhà máy trên một đơn hàng Formalin. Nhà máy dùng $12\\text{ lít}$ Formaldehyde $30\\%$ cùng một lượng Formaldehyde $50\\%$ để sản xuất ra Formalin. Hỏi thể tích của Formaldehyde $50\\%$ nằm trong khoảng nào thì có thể sản xuất được Formalin.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$ 84/13 \\le x \\le 12 $",
+       "$ 12 \\le x \\le 84/13 $",
+       "$ 84/13 < x < 12 $",
+       "$ 12 < x < 84/13 $"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho $\\triangle ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O)$. Hai đường cao $BD, CE$ của $\\triangle ABC$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là giao điểm của $(O)$ với các tia $CE, BD$ ($M$ khác $C$, $N$ khác $B$).",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: Tứ giác $BEDC$ nội tiếp và xác định tâm $K$ của đường tròn này, từ đó suy ra $ED \\parallel MN$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Gọi $K$ là trung điểm của $BC$.\nTa có hai tam giác $BEC$ và $BDC$ lần lượt vuông tại $E, D$ có $EK, DK$ là các đường trung tuyến ứng với cạnh huyền $BC$ nên $KB = KE = KD = KC$.\nDo đó tứ giác $BEDC$ nội tiếp đường tròn tâm $K$ đường kính $BC$.\nTrong đường tròn $(O)$, ta có $\\widehat{NMC} = \\widehat{NBC}$ (hai góc nội tiếp cùng chắn cung $NC$).\nTrong đường tròn $(K)$, ta có $\\widehat{EDC} = \\widehat{EBC}$ (hai góc nội tiếp cùng chắn cung $EC$).\nSuy ra $\\widehat{EDC} = \\widehat{NMC}$, mà hai góc này ở vị trí đồng vị nên $ED \\parallel MN$.",
+     "cum": [
+      "Gọi $K$ là trung điểm của $BC$",
+      "Vì $\\widehat{BEC} = \\widehat{BDC} = 90^\\circ$ nên hai tam giác $BEC$ và $BDC$ vuông tại $E$ và $D$",
+      "Do đó $KB = KE = KD = KC$, suy ra tứ giác $BEDC$ nội tiếp đường tròn tâm $K$ đường kính $BC$",
+      "Trong $(O)$, ta có $\\widehat{NMC} = \\widehat{NBC}$ (cùng chắn cung $NC$)",
+      "Trong đường tròn $(K)$, ta có $\\widehat{EDC} = \\widehat{EBC}$ (cùng chắn cung $EC$)",
+      "Suy ra $\\widehat{EDC} = \\widehat{NMC}$, do đó $ED \\parallel MN$ (hai góc đồng vị bằng nhau)"
+     ],
+     "nhieu": [
+      "Suy ra $\\widehat{EDC} + \\widehat{NMC} = 180^\\circ$ nên $ED \\parallel MN$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O)$. Hai đường cao $BD, CE$ của $\\triangle ABC$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là giao điểm của $(O)$ với các tia $CE, BD$ ($M$ khác $C$, $N$ khác $B$). Chứng minh: Tứ giác $BEDC$ nội tiếp và xác định tâm $K$ của đường tròn này, từ đó suy ra $ED \\parallel MN$.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Kẻ đường kính $AL$ của $(O)$. Chứng minh tứ giác $BHCL$ là hình bình hành và suy ra $3$ điểm $H, K, L$ thẳng hàng.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét đường tròn $(O)$, ta có $\\widehat{ABL} = 90^\\circ$ và $\\widehat{ACL} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nSuy ra $BL \\perp AB$ và $CL \\perp AC$.\nLại có $CH \\perp AB$ (do $CE$ là đường cao) $\\Rightarrow CH \\parallel BL$.\n$BH \\perp AC$ (do $BD$ là đường cao) $\\Rightarrow BH \\parallel CL$.\nSuy ra tứ giác $BHCL$ là hình bình hành.\nVì $K$ là trung điểm của $BC$ nên $K$ cũng là trung điểm của $HL$.\nVậy $3$ điểm $H, K, L$ thẳng hàng.",
+     "cum": [
+      "Ta có $\\widehat{ABL} = 90^\\circ$ và $\\widehat{ACL} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn)",
+      "Suy ra $BL \\perp AB$ và $CL \\perp AC$",
+      "Lại có $CH \\perp AB$ và $BH \\perp AC$ nên $CH \\parallel BL$ và $BH \\parallel CL$",
+      "Tứ giác $BHCL$ có các cặp cạnh đối song song nên là hình bình hành",
+      "Vì $K$ là trung điểm $BC$ nên $K$ cũng là trung điểm $HL$",
+      "Vậy ba điểm $H, K, L$ thẳng hàng"
+     ],
+     "nhieu": [
+      "Vì $BHCL$ là hình bình hành nên $H, K, L$ trùng nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O)$. Hai đường cao $BD, CE$ của $\\triangle ABC$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là giao điểm của $(O)$ với các tia $CE, BD$ ($M$ khác $C$, $N$ khác $B$). Tứ giác $BEDC$ nội tiếp có tâm $K$. Kẻ đường kính $AL$ của $(O)$. Chứng minh tứ giác $BHCL$ là hình bình hành và suy ra $3$ điểm $H, K, L$ thẳng hàng.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Trong trường hợp $\\widehat{BAC} = 60^\\circ$, tính diện tích hình viên phân giới hạn bởi cung nhỏ $BC$ và dây cung $BC$ của $(O)$ theo $R$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R^2(4\\pi - 3\\sqrt{3})/12",
+     "loi_giai": "Ta có $\\widehat{BOC} = 2\\widehat{BAC} = 2 \\cdot 60^\\circ = 120^\\circ$ (góc ở tâm gấp đôi góc nội tiếp cùng chắn cung $BC$).\nDiện tích quạt tròn $OBC$ là:\n$S_q = \\frac{\\pi R^2 \\cdot 120^\\circ}{360^\\circ} = \\frac{\\pi R^2}{3}$.\nDiện tích tam giác $OBC$ là:\n$S_{\\triangle OBC} = \\frac{1}{2} R \\cdot R \\cdot \\sin 120^\\circ = \\frac{R^2 \\sqrt{3}}{4}$.\nDiện tích hình viên phân giới hạn bởi cung nhỏ $BC$ và dây $BC$ là:\n$S = S_q - S_{\\triangle OBC} = \\frac{\\pi R^2}{3} - \\frac{R^2 \\sqrt{3}}{4} = \\frac{R^2 (4\\pi - 3\\sqrt{3})}{12}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O)$. Trong trường hợp $\\widehat{BAC} = 60^\\circ$, tính diện tích hình viên phân giới hạn bởi cung nhỏ $BC$ và dây cung $BC$ của $(O)$ theo $R$.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$ \\frac{R^2(4\\pi - 3\\sqrt{3})}{12} $",
+       "$ \\frac{R^2(2\\pi - 3\\sqrt{3})}{6} $",
+       "$ \\frac{R^2(\\pi - \\sqrt{3})}{4} $",
+       "$ \\frac{R^2(4\\pi - \\sqrt{3})}{12} $"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.5-flash)",
+ "tn_diem": 0
+}

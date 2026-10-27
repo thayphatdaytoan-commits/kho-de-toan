@@ -1,0 +1,912 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS Quận 11 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image3.png]]",
+     "explanation": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "points": 0.5,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm trên Parabol có tung độ bằng [[IMG:image4.png]].",
+     "explanation": "Thay y = 4 vào phương trình y = x^2 ta được x^2 = 4. Suy ra x = 2 hoặc x = -2.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 4$ vào $y = x^2$: $x^2 =$ {{1}}",
+       "Suy ra $x =$ {{2}} hoặc $x =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tìm các điểm trên Parabol (khác gốc tọa độ) cách đều hai trục tọa độ.",
+     "explanation": "Điểm cách đều hai trục tọa độ có dạng (a; a) hoặc (a; -a). Thay vào y=x^2 ta được a=a^2 hoặc -a=a^2. Giải ra ta được các điểm (1;1) và (-1;1).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "(1;1); (-1;1)"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho đồ thị hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D03",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Tính delta = b^2 - 4ac. Chứng minh delta > 0.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định hệ số {{1}}, {{2}}, {{3}}"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính biệt thức {{4}} = b^2 - 4ac"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "Chứng minh {{5}} > 0"
+        ],
+        "hint": "Điều kiện nghiệm"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có {{6}} nghiệm phân biệt"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 2
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "tên biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "tên biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "a",
+       "b",
+       "c",
+       "delta",
+       "hai"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình hãy tính giá trị biểu thức sau: [[IMG:image6.png]]",
+     "explanation": "Áp dụng định lý Viète: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức theo tổng và tích nghiệm.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "1"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image5.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy viết biểu thức biểu thị số tuổi của Ánh Viên vào năm [[IMG:image18.png]] theo [[IMG:image16.png]] và [[IMG:image17.png]].",
+     "explanation": "Số tuổi = Năm hiện tại - Năm sinh.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$2025 - (1000x + 100y + 10z - t)$",
+      "$2025 + (1000x + 100y + 10z + t)$",
+      "$2025 - (x + y + z + t)$",
+      "$2025 - (1000x + 100y + 10z + t)$"
+     ],
+     "correctAnswer": 3
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Em hãy xác định chính xác năm sinh của Ánh Viên là năm bao nhiêu? Biết rằng đến ngày sinh nhật của mình trong năm [[IMG:image18.png]], cô nhận thấy tuổi của mình bằng đúng tổng các chữ số trong năm sinh của mình.",
+     "explanation": "Gọi năm sinh là 19ab. Tuổi là 2025 - 19ab = 1+9+a+b. Giải phương trình tìm a, b.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Năm sinh của Ánh Viên: {{1}} năm"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1996"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi năm sinh của Ánh Viên là $19ab$ (với $a, b$ là chữ số, $a, b \\in \\mathbb{N}$)",
+       "Biểu diễn tuổi của Ánh Viên theo năm sinh: {{1}}",
+       "Phương trình: {{2}}",
+       "Giải phương trình ta tìm được năm sinh là {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "2025-(1900+10a+b)"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "2025-(1900+10a+b)=1+9+a+b"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1996"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 3",
+   "question": "Nguyễn Thị Ánh Viên sinh ngày [[IMG:image7.png]] tháng [[IMG:image8.png]] năm [[IMG:image9.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B1.D06",
+   "dang_toan_web": "Tần số. Bảng tần số. Tần số tương đối. Bảng tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Lượng nước được chứa trong ly là bao nhiêu centimet khối? (Kết quả làm tròn đến hàng phần trăm)",
+     "explanation": "V = pi * r^2 * h_nuoc. Với r = đường kính/2.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy $r = d : 2 =$ {{1}}",
+       "Thể tích nước $V = \\pi \\cdot {{2}}^2 \\cdot h_{nuoc} \\approx$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "314.16"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta thả vào ly nước [[IMG:image23.png]] viên bi hình cầu... Hỏi bán kính của mỗi viên bi là bao nhiêu?",
+     "explanation": "Thể tích nước dâng lên = Thể tích n viên bi. Giải phương trình tìm bán kính r_bi.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính mỗi viên bi: {{1}} cm"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1.5"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được bán kính viên bi $r =$ {{1}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1.5"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Một ly nước dạng hình trụ có chiều cao [[IMG:image19.png]], đường kính đáy [[IMG:image20.png]], lượng nước cao [[IMG:image21.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số giáo viên: {{1}} người",
+     "Số học sinh: {{2}} người"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "5"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "45"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số giáo viên, $y$ là số học sinh (điều kiện $x, y \\in \\mathbb{N}^*$)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x+y=50"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "200000x+140000y=7300000"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "5"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "45"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Một trường học tổ chức cho [[IMG:image31.png]] người tham gia du lịch sinh thái. Giá vé vào cổng là [[IMG:image32.png]] đồng mỗi người. Giá vé vào cổng cho học sinh được giảm [[IMG:image33.png]] nên nhà trường đã trả [[IMG:image34.png]] đồng. Hỏi có bao nhiêu giáo viên và bao nhiêu học sinh tham gia?",
+   "explanation": "Gọi x là số giáo viên, y là số học sinh. Hệ phương trình: x+y=50 và 200000x + 140000y = 7300000.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Em hãy tính số tiếng tách ít nhất khi [[IMG:image35.png]] cần để mở được ổ khóa.",
+     "explanation": "Tính khoảng cách ngắn nhất giữa các số trên vòng quay.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "12"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính số tiếng tách trung bình cần để mở được ổ khóa.",
+     "explanation": "Trung bình cộng của số tiếng ít nhất và nhiều nhất.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "24"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 6",
+   "question": "Bạn [[IMG:image35.png]] có một ổ khóa số...",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B3.D05",
+   "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác [[IMG:image50.png]] nội tiếp.",
+     "explanation": "Chứng minh tổng hai góc đối bằng 180 độ hoặc cùng nhìn một đoạn dưới góc vuông.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có {{1}} $\\perp$ {{2}} (tính chất tiếp tuyến)",
+         "• $\\widehat{ {{3}} } = 90^\\circ$ và $\\widehat{ {{4}} } = 90^\\circ$"
+        ],
+        "hint": "Xác định các góc vuông"
+       },
+       {
+        "lines": [
+         "Xét tứ giác {{5}} có:",
+         "• $\\widehat{ {{6}} } + \\widehat{ {{7}} } = 90^\\circ + 90^\\circ = {{8}}^\\circ$"
+        ],
+        "hint": "Tổng hai góc đối"
+       },
+       {
+        "lines": [
+         "Do đó tứ giác {{9}} {{10}} nội tiếp đường tròn"
+        ],
+        "hint": "Kết luận nội tiếp"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tiếp tuyến",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "bán kính",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "MAO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "MBO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "MAOB"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "MAO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "MBO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "180"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "MAOB"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "là"
+        ],
+        "keywords": [],
+        "placeholder": "từ nối",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "MA",
+       "OA",
+       "MAO",
+       "MBO",
+       "MAOB",
+       "180",
+       "là",
+       "MB",
+       "OB",
+       "MAB",
+       "90",
+       "tứ giác"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: [[IMG:image55.png]].",
+     "explanation": "Sử dụng tính chất đường trung trực và tam giác đồng dạng.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có {{1}} là đường trung trực của {{2}}"
+        ],
+        "hint": "Chứng minh trung trực"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{3}} \\backsim \\triangle {{4}}$ (g.g)",
+         "• Suy ra $\\frac{ {{5}} }{ {{6}} } = \\frac{ {{7}} }{ {{8}} }$"
+        ],
+        "hint": "Tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Từ đó suy ra {{9}} = {{10}}"
+        ],
+        "hint": "Kết luận đẳng thức"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "MO"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "MAH"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "MKO"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "MK"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "MH"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "MO"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "MA.MO"
+        ],
+        "keywords": [],
+        "placeholder": "đẳng thức",
+        "maxLen": 15
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "MH.MK"
+        ],
+        "keywords": [],
+        "placeholder": "đẳng thức",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "MO",
+       "AB",
+       "MAH",
+       "MKO",
+       "MA",
+       "MK",
+       "MH",
+       "MA.MO",
+       "MH.MK",
+       "OA",
+       "OB",
+       "MAB",
+       "MBO"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Biết [[IMG:image56.png]]. Tính bán kính đường tròn nội tiếp [[IMG:image57.png]] theo [[IMG:image29.png]].",
+     "explanation": "Sử dụng tính chất tam giác đồng dạng và công thức bán kính đường tròn nội tiếp.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "r/2"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Qua điểm [[IMG:image41.png]] nằm ngoài đường tròn [[IMG:image42.png]] vẽ [[IMG:image43.png]] tiếp tuyến [[IMG:image44.png]] đến đường tròn [[IMG:image45.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D02",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  }
+ ],
+ "flags": []
+}

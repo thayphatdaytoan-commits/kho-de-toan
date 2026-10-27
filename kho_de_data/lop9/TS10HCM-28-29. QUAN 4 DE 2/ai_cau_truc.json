@@ -1,0 +1,500 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số [[IMG:image1.png]] có đồ thị hàm số là Parabol [[IMG:image2.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ Parabol đi qua các điểm đã xác định.",
+     "cum": [
+      "Lập bảng giá trị cho 5 điểm thuộc đồ thị",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị hàm số là Parabol [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.25x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] sao cho hoành độ gấp hai lần tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0;0); (2;1)",
+     "loi_giai": "Gọi tọa độ điểm M là (x; y). Theo đề bài x = 2y hay y = x/2. Thay vào phương trình Parabol: x/2 = ax^2. Giải phương trình tìm x, từ đó suy ra y.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị hàm số là Parabol [[IMG:image2.png]]. Tìm điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] sao cho hoành độ gấp hai lần tung độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ các điểm M là: $M_1 = ($ {{1}} ; {{2}} $)$ và $M_2 = ($ {{3}} ; {{4}} $)$",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0"
+       },
+       {
+        "id": "2",
+        "answer": "0"
+       },
+       {
+        "id": "3",
+        "answer": "2"
+       },
+       {
+        "id": "4",
+        "answer": "1"
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image4.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức delta. Chứng minh delta > 0.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính delta = b^2 - 4ac",
+      "So sánh delta với 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta < 0 nên phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Chứng tỏ phương trình trên có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi [[IMG:image5.png]] là hai nghiệm của phương trình trên. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Áp dụng định lý Viète: x1+x2 = -b/a và x1x2 = c/a. Biến đổi biểu thức cần tính theo tổng và tích các nghiệm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]]. Gọi [[IMG:image5.png]] là hai nghiệm của phương trình trên. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Tổng kết cuối năm học 2024 – 2025, mỗi học sinh lớp [[IMG:image7.png]] được đánh giá ở hai mặt. Cho bảng thống kê đánh giá cuối năm học 2024 – 2025 của lớp [[IMG:image7.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Lớp 8A có tất cả bao nhiêu học sinh?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "40",
+     "loi_giai": "Cộng tổng số học sinh ở các mức xếp loại học tập.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Tổng kết cuối năm học 2024 – 2025, mỗi học sinh lớp [[IMG:image7.png]] được đánh giá ở hai mặt. Cho bảng thống kê đánh giá cuối năm học 2024 – 2025 của lớp [[IMG:image7.png]]. Lớp 8A có tất cả bao nhiêu học sinh?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh = {{1}} + {{2}} + {{3}} + {{4}} = {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "40"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính tỉ lệ phần trăm học sinh có kết quả học tập ở mức Tốt so với cả lớp?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "25%",
+     "loi_giai": "Lấy số học sinh mức Tốt chia cho tổng số học sinh rồi nhân với 100%.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Tổng kết cuối năm học 2024 – 2025, mỗi học sinh lớp [[IMG:image7.png]] được đánh giá ở hai mặt. Cho bảng thống kê đánh giá cuối năm học 2024 – 2025 của lớp [[IMG:image7.png]]. Tính tỉ lệ phần trăm học sinh có kết quả học tập ở mức Tốt so với cả lớp?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "25%"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tỉ lệ phần trăm = ({{1}} / {{2}}) * 100% = {{3}}%"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "25"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "c",
+     "de": "Tính xác suất để học sinh được chọn có kết quả đánh giá cuối năm là kết quả rèn luyện ở mức Tốt và kết quả học tập ở mức Khá.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.2",
+     "loi_giai": "Xác định số học sinh thỏa mãn điều kiện đề bài, sau đó chia cho tổng số học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Tổng kết cuối năm học 2024 – 2025, mỗi học sinh lớp [[IMG:image7.png]] được đánh giá ở hai mặt. Cho bảng thống kê đánh giá cuối năm học 2024 – 2025 của lớp [[IMG:image7.png]]. Tính xác suất để học sinh được chọn có kết quả đánh giá cuối năm là kết quả rèn luyện ở mức Tốt và kết quả học tập ở mức Khá.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Xác suất = {{1}} / {{2}} = {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Bạn Nam mang theo [[IMG:image16.png]] đồng vào nhà sách mua đồ dùng học tập. Nhà sách đang có chương trình khuyến mãi giảm giá [[IMG:image17.png]] so với giá niêm yết.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy biểu diễn [[IMG:image23.png]] theo [[IMG:image21.png]] (rút gọn biểu thức).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "500000-4000x",
+     "loi_giai": "Tính giá sau giảm của từng loại mặt hàng. Lập biểu thức tổng tiền còn lại.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn Nam mang theo [[IMG:image16.png]] đồng vào nhà sách mua đồ dùng học tập. Nhà sách đang có chương trình khuyến mãi giảm giá [[IMG:image17.png]] so với giá niêm yết. Hãy biểu diễn [[IMG:image23.png]] theo [[IMG:image21.png]] (rút gọn biểu thức).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$500000 - 4000x$",
+       "$500000 + 4000x$",
+       "$400000 - 5000x$",
+       "$500000 - 5000x$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi bạn Nam có thể mua được nhiều nhất bao nhiêu cây viết?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "125",
+     "loi_giai": "Giải bất phương trình số tiền còn lại >= 0.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn Nam mang theo [[IMG:image16.png]] đồng vào nhà sách mua đồ dùng học tập. Nhà sách đang có chương trình khuyến mãi giảm giá [[IMG:image17.png]] so với giá niêm yết. Hỏi bạn Nam có thể mua được nhiều nhất bao nhiêu cây viết?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Một khối lập phương rỗng bên trong có cạnh là [[IMG:image24.png]]. Đặt vào trong khối đó một khối nón đặc... Hỏi Anh Nam đổ bao nhiêu lít nước thì nước đầy khối lập phương?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "9",
+     "loi_giai": "Tính thể tích khối lập phương. Tính thể tích khối nón. Lấy thể tích lập phương trừ thể tích nón.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thể tích nước = V_lập_phương - V_nón = {{1}} - {{2}} = {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "27"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "18"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "9"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Điểm trung bình của [[IMG:image28.png]] học sinh trong hai lớp [[IMG:image29.png]] và [[IMG:image30.png]] là [[IMG:image31.png]]. Tính điểm trung bình của các học sinh mỗi lớp...",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7; 8",
+     "loi_giai": "Gọi số học sinh và điểm trung bình mỗi lớp là ẩn. Lập hệ phương trình dựa trên tổng số học sinh và tổng điểm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Điểm trung bình lớp 9A:",
+        "dap_an": "7",
+        "don_vi": "điểm"
+       },
+       {
+        "nhan": "Điểm trung bình lớp 9B:",
+        "dap_an": "8",
+        "don_vi": "điểm"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là điểm trung bình lớp 9A, $y$ là điểm trung bình lớp 9B (điều kiện $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy điểm trung bình lớp 9A là {{3}} điểm, lớp 9B là {{4}} điểm"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=15"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "40x+35y=560"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "7"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "8"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho [[IMG:image35.png]] nhọn [[IMG:image36.png]] nội tiếp đường tròn [[IMG:image37.png]]. Vẽ các đường cao [[IMG:image38.png]] của [[IMG:image35.png]] cắt nhau tại [[IMG:image39.png]]. Đường thẳng [[IMG:image40.png]] cắt đường tròn [[IMG:image37.png]] tại [[IMG:image41.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: Tứ giác [[IMG:image42.png]] và tứ giác [[IMG:image43.png]] nội tiếp.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất tứ giác có tổng hai góc đối bằng 180 độ hoặc hai đỉnh kề cùng nhìn một cạnh dưới các góc bằng nhau.",
+     "cum": [
+      "Xét tứ giác có hai góc đối bằng 180 độ",
+      "Chứng minh các góc vuông tại chân đường cao",
+      "Kết luận tứ giác nội tiếp",
+      "Tương tự cho tứ giác còn lại"
+     ],
+     "nhieu": [
+      "Tứ giác có hai đường chéo bằng nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image35.png]] nhọn [[IMG:image36.png]] nội tiếp đường tròn [[IMG:image37.png]]. Vẽ các đường cao [[IMG:image38.png]] của [[IMG:image35.png]] cắt nhau tại [[IMG:image39.png]]. Đường thẳng [[IMG:image40.png]] cắt đường tròn [[IMG:image37.png]] tại [[IMG:image41.png]]. Chứng minh: Tứ giác [[IMG:image42.png]] và tứ giác [[IMG:image43.png]] nội tiếp.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh: [[IMG:image44.png]] và [[IMG:image45.png]]",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tam giác đồng dạng.",
+     "cum": [
+      "Xét hai tam giác đồng dạng",
+      "Lập tỉ số cạnh tương ứng",
+      "Suy ra đẳng thức cần chứng minh"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Pytago"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image35.png]] nhọn [[IMG:image36.png]] nội tiếp đường tròn [[IMG:image37.png]]. Vẽ các đường cao [[IMG:image38.png]] của [[IMG:image35.png]] cắt nhau tại [[IMG:image39.png]]. Đường thẳng [[IMG:image40.png]] cắt đường tròn [[IMG:image37.png]] tại [[IMG:image41.png]]. Chứng minh: [[IMG:image44.png]] và [[IMG:image45.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Chứng minh: [[IMG:image39.png]] và [[IMG:image41.png]] đối xứng nhau qua [[IMG:image46.png]] và xác định tâm đường tròn nội tiếp [[IMG:image47.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh các tam giác bằng nhau để suy ra tính đối xứng. Sử dụng tính chất đường phân giác để xác định tâm đường tròn nội tiếp.",
+     "cum": [
+      "Chứng minh hai tam giác bằng nhau",
+      "Suy ra các đoạn thẳng bằng nhau",
+      "Kết luận tính đối xứng qua cạnh",
+      "Chứng minh các đường cao là phân giác",
+      "Kết luận giao điểm là tâm đường tròn nội tiếp"
+     ],
+     "nhieu": [
+      "Chứng minh hai tam giác đồng dạng"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image35.png]] nhọn [[IMG:image36.png]] nội tiếp đường tròn [[IMG:image37.png]]. Vẽ các đường cao [[IMG:image38.png]] của [[IMG:image35.png]] cắt nhau tại [[IMG:image39.png]]. Đường thẳng [[IMG:image40.png]] cắt đường tròn [[IMG:image37.png]] tại [[IMG:image41.png]]. Chứng minh: [[IMG:image39.png]] và [[IMG:image41.png]] đối xứng nhau qua [[IMG:image46.png]] và xác định tâm đường tròn nội tiếp [[IMG:image47.png]].",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0
+}

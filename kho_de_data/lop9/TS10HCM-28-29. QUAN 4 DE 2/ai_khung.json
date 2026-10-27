@@ -1,0 +1,646 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập {{1}} giá trị cho 5 điểm thuộc đồ thị"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Vẽ hệ trục tọa độ {{2}}"
+    ],
+    "hint": "Vẽ hệ trục"
+   },
+   {
+    "lines": [
+     "Biểu diễn các {{3}} trên mặt phẳng tọa độ"
+    ],
+    "hint": "Biểu diễn điểm"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong {{4}} đi qua các điểm"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "bảng"
+    ],
+    "keywords": [
+     "bảng"
+    ],
+    "placeholder": "từ khóa",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "Oxy"
+    ],
+    "keywords": [
+     "oxy"
+    ],
+    "placeholder": "tên hệ trục",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "điểm"
+    ],
+    "keywords": [
+     "điểm"
+    ],
+    "placeholder": "đối tượng",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "Parabol"
+    ],
+    "keywords": [
+     "parabol"
+    ],
+    "placeholder": "tên đồ thị",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "bảng",
+   "Oxy",
+   "điểm",
+   "Parabol",
+   "đường thẳng",
+   "đồ thị",
+   "trục tung"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định các hệ số {{1}}, {{2}}, {{3}}"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính {{4}} = b^2 - 4ac"
+    ],
+    "hint": "Tính delta"
+   },
+   {
+    "lines": [
+     "So sánh {{5}} với 0"
+    ],
+    "hint": "So sánh delta"
+   },
+   {
+    "lines": [
+     "Kết luận phương trình có {{6}} nghiệm phân biệt"
+    ],
+    "hint": "Kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "b"
+    ],
+    "keywords": [
+     "b"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "c"
+    ],
+    "keywords": [
+     "c"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "hai"
+    ],
+    "keywords": [
+     "hai"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "a",
+   "b",
+   "c",
+   "delta",
+   "hai",
+   "một",
+   "không",
+   "ba"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét tứ giác {{1}} có:",
+     "• $\\widehat{AEH} + \\widehat{AFH} = {{2}} + {{3}} = 180^\\circ$"
+    ],
+    "hint": "Xét tứ giác có góc đối"
+   },
+   {
+    "lines": [
+     "Vì {{4}} là đường cao nên $\\widehat{AEH} = {{5}} = 90^\\circ$"
+    ],
+    "hint": "Chứng minh góc vuông"
+   },
+   {
+    "lines": [
+     "Do đó tứ giác {{6}} nội tiếp đường tròn đường kính {{7}}"
+    ],
+    "hint": "Kết luận nội tiếp"
+   },
+   {
+    "lines": [
+     "Tương tự, tứ giác {{8}} cũng nội tiếp vì có $\\widehat{BDH} + \\widehat{BFH} = {{9}} = 180^\\circ$"
+    ],
+    "hint": "Tương tự tứ giác khác"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AEHF"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "BE"
+    ],
+    "keywords": [],
+    "placeholder": "đường cao",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AEHF"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 10
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "AH"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "BDHF"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 10
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "180^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "tổng góc",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "AEHF",
+   "BDHF",
+   "90^\\circ",
+   "180^\\circ",
+   "BE",
+   "AH",
+   "BH",
+   "CH",
+   "ABHF",
+   "CDHE"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}} \\backsim \\triangle {{2}}$ có:",
+     "• $\\widehat{A} = \\widehat{A}$ (góc {{3}})"
+    ],
+    "hint": "Xét tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "• $\\widehat{ADC} = \\widehat{AEB} = {{4}}$",
+     "Suy ra $\\triangle {{5}} \\backsim \\triangle {{6}}$ (trường hợp {{7}})"
+    ],
+    "hint": "Lập tỉ số cạnh"
+   },
+   {
+    "lines": [
+     "Ta có tỉ số: $\\frac{AD}{AE} = \\frac{AC}{AB}$",
+     "Suy ra {{8}} = {{9}}"
+    ],
+    "hint": "Suy ra đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ADC"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AEB"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "chung"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "ADC"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AEB"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "AD.AB"
+    ],
+    "keywords": [],
+    "placeholder": "đẳng thức",
+    "maxLen": 10
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AE.AC"
+    ],
+    "keywords": [],
+    "placeholder": "đẳng thức",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "ADC",
+   "AEB",
+   "chung",
+   "90^\\circ",
+   "g.g",
+   "AD.AB",
+   "AE.AC",
+   "c.g.c",
+   "đối đỉnh",
+   "ABC"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}H{{2}}$ và $\\triangle {{3}}H{{4}}$ có:",
+     "• $\\widehat{H{{5}}A} = \\widehat{H{{6}}A}$ (tính chất {{7}})"
+    ],
+    "hint": "Chứng minh tam giác bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $H{{8}} = H{{9}}$",
+     "Kết luận {{10}} và {{11}} đối xứng qua {{12}}"
+    ],
+    "hint": "Kết luận đối xứng"
+   },
+   {
+    "lines": [
+     "Vì $H$ là giao điểm các đường cao nên $H$ là {{13}} đường tròn nội tiếp $\\triangle {{14}}$"
+    ],
+    "hint": "Xác định tâm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "D"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "phân giác"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "D"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "H'"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 5
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "tâm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 10
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "B",
+   "C",
+   "D",
+   "E",
+   "H",
+   "H'",
+   "BC",
+   "ABC",
+   "phân giác",
+   "trung điểm",
+   "đối đỉnh",
+   "cạnh chung"
+  ]
+ }
+}

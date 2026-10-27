@@ -1,0 +1,560 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có: $\\Delta' = (m+1)^2 - {{1}}$"
+    ],
+    "hint": "Biến đổi vế trái"
+   },
+   {
+    "lines": [
+     "$= m^2 + 2m + 1 - {{2}} = m^2 + {{3}}$"
+    ],
+    "hint": "Rút gọn biểu thức"
+   },
+   {
+    "lines": [
+     "Vì $m^2 + {{4}} > 0$ với mọi $m$"
+    ],
+    "hint": "Đánh giá biểu thức"
+   },
+   {
+    "lines": [
+     "Nên phương trình luôn có hai nghiệm {{5}}"
+    ],
+    "hint": "Kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "2m"
+    ],
+    "keywords": [
+     "2m"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "2m"
+    ],
+    "keywords": [
+     "2m"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "phân biệt"
+    ],
+    "keywords": [
+     "phân biệt"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "2m",
+   "1",
+   "phân biệt",
+   "nghiệm kép",
+   "0",
+   "m"
+  ],
+  "ordered": false
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $\\widehat{CAO} = {{1}}^\\circ$ ($AC$ là {{2}}) và $\\widehat{CMO} = {{3}}^\\circ$ ($CM$ là {{4}})"
+    ],
+    "hint": "Xác định góc vuông"
+   },
+   {
+    "lines": [
+     "Suy ra tứ giác {{5}} nội tiếp đường tròn đường kính {{6}}"
+    ],
+    "hint": "Chứng minh tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Theo tính chất hai tiếp tuyến cắt nhau, $OC$ là tia phân giác $\\widehat{AOM}$ và $OD$ là tia phân giác $\\widehat{BOM}$"
+    ],
+    "hint": "Tính chất tiếp tuyến"
+   },
+   {
+    "lines": [
+     "Suy ra $OC \\perp {{7}}$, nên $\\triangle {{8}}$ vuông tại $O$"
+    ],
+    "hint": "Chứng minh tam giác vuông"
+   },
+   {
+    "lines": [
+     "Có $OM \\perp {{9}}$ nên $CM \\cdot MD = OM^2 = {{10}}^2$"
+    ],
+    "hint": "Hệ thức lượng"
+   },
+   {
+    "lines": [
+     "Mà $CM = {{11}}$ và $MD = {{12}}$, do đó $AC \\cdot BD = R^2$"
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "tiếp tuyến"
+    ],
+    "keywords": [],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "tiếp tuyến"
+    ],
+    "keywords": [],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "ACMO"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "CO"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "OD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "COD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "CD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "R"
+    ],
+    "keywords": [],
+    "placeholder": "bán kính",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "BD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "90",
+   "tiếp tuyến",
+   "ACMO",
+   "CO",
+   "OD",
+   "COD",
+   "CD",
+   "R",
+   "AC",
+   "BD",
+   "45",
+   "cát tuyến",
+   "AB",
+   "OM",
+   "AO"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$"
+    ],
+    "hint": "Xét hai tam giác"
+   },
+   {
+    "lines": [
+     "Có $\\widehat{P}$ {{3}}"
+    ],
+    "hint": "Góc chung"
+   },
+   {
+    "lines": [
+     "và $\\widehat{PAC} = \\widehat{PMB}$ (do cùng bằng {{4}}^\\circ)"
+    ],
+    "hint": "Góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Nên $\\triangle {{5}} \\sim \\triangle {{6}}$ ({{7}})"
+    ],
+    "hint": "Kết luận đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{PA}{PM} = \\frac{PC}{PB}$"
+    ],
+    "hint": "Tỉ số đồng dạng"
+   },
+   {
+    "lines": [
+     "Do đó $PA \\cdot PB = {{8}} \\cdot {{9}}$"
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "PAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "PMB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "chung"
+    ],
+    "keywords": [],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "PAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "PMB"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "PC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "PM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "PAC",
+   "PMB",
+   "chung",
+   "90",
+   "g.g",
+   "PC",
+   "PM",
+   "c.g.c",
+   "đối đỉnh",
+   "PAM",
+   "PCB"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $AC \\parallel {{1}}$ (cùng vuông góc với $AB$)"
+    ],
+    "hint": "Chứng minh song song"
+   },
+   {
+    "lines": [
+     "Suy ra $C$ là trung điểm của $AF$ và $D$ là trung điểm của {{2}}"
+    ],
+    "hint": "Tính chất trung điểm"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{3}}$ và $\\triangle {{4}}$ có $\\frac{AC}{BD} = \\frac{AF}{BE}$"
+    ],
+    "hint": "Xét hai tam giác"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle {{5}} \\sim \\triangle {{6}}$ ({{7}})"
+    ],
+    "hint": "Kết luận đồng dạng"
+   },
+   {
+    "lines": [
+     "Nên $\\widehat{APF} = \\widehat{BPE}$"
+    ],
+    "hint": "Góc tương ứng"
+   },
+   {
+    "lines": [
+     "Do đó $E, F, P$ {{8}}"
+    ],
+    "hint": "Kết luận thẳng hàng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "BD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "BE"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "PAF"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "PBE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "PAF"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "PBE"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "c.g.c"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "thẳng hàng"
+    ],
+    "keywords": [],
+    "placeholder": "từ khóa",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "BD",
+   "BE",
+   "PAF",
+   "PBE",
+   "c.g.c",
+   "thẳng hàng",
+   "g.g",
+   "c.c.c",
+   "AC",
+   "AF"
+  ]
+ }
+}

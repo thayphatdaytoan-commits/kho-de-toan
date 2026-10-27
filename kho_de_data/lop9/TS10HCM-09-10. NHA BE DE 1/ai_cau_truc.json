@@ -1,0 +1,563 @@
+{
+ "truong": "",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số $y = -\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Bảng giá trị: (-4; -8), (-2; -2), (0; 0), (2; -2), (4; -8)",
+     "loi_giai": "Bảng giá trị:\n$x$: -4; -2; 0; 2; 4\n$y = -\\frac{1}{2}x^2$: -8; -2; 0; -2; -8\nVẽ đồ thị $(P)$ đi qua các điểm $(-4; -8)$, $(-2; -2)$, $(0; 0)$, $(2; -2)$, $(4; -8)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = -\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$. Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "(-4;-8), (-2;-2), (0;0), (2;-2), (4;-8)"
+     },
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = -0.5x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Xác định tọa độ của điểm $A$. Biết điểm $A$ nằm trên đồ thị $(P)$ có hoành độ bằng $2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "A(2; -2)",
+     "loi_giai": "Thay $x = 2$ vào $y = -\\frac{1}{2}x^2$ ta được:\n$y = -\\frac{1}{2} \\cdot 2^2 = -2$\nVậy tọa độ của điểm $A$ là $A(2; -2)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = -\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$. Xác định tọa độ của điểm $A$ nằm trên đồ thị $(P)$ có hoành độ bằng $2$.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "A(2;-2)"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $x = 2$ vào $y = -\\frac{1}{2}x^2$: $y = -\\frac{1}{2}\\cdot$ {{1}} $^2$",
+       "$y = -\\frac{1}{2}\\cdot$ {{2}} $=$ {{3}}",
+       "Vậy $A($ {{4}} $;$ {{5}} $)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên luôn có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có: $\\Delta' = [-(m+1)]^2 - 2m = m^2 + 2m + 1 - 2m = m^2 + 1$.\nVì $m^2 + 1 > 0$ với mọi $m$ nên phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Ta có: $\\Delta' = (m+1)^2 - 2m$",
+      "$= m^2 + 2m + 1 - 2m = m^2 + 1$",
+      "Vì $m^2 + 1 > 0$ với mọi $m$",
+      "Nên phương trình luôn có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Nên phương trình luôn có nghiệm kép với mọi $m$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$. Chứng minh phương trình trên luôn có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2 - x_1 x_2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4m^2 + 2m + 4",
+     "loi_giai": "Vì phương trình có hai nghiệm phân biệt, theo định lý Viète ta có:\n$\\begin{cases} x_1 + x_2 = 2(m + 1) \\\\ x_1 x_2 = 2m \\end{cases}$\nTa có: $A = x_1^2 + x_2^2 - x_1 x_2 = (x_1 + x_2)^2 - 3x_1 x_2$\n$= [2(m + 1)]^2 - 3 \\cdot 2m = 4(m^2 + 2m + 1) - 6m = 4m^2 + 2m + 4$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2 - x_1 x_2$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$4m^2 + 2m + 4$",
+       "$4m^2 - 2m + 4$",
+       "$4m^2 + 2m - 4$",
+       "$2m^2 + 4m + 2$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ cột kép ở hình dưới biểu diễn số học sinh nam và số học sinh nữ của lớp 9A có sở thích chơi một số môn thể thao: bóng đá, bóng rổ, bơi. Biết rằng mỗi học sinh chỉ nêu một môn thể thao yêu thích nhất.\n[[IMG:image6.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Trong các môn thể thao, học sinh nam thích môn thể thao nào nhất?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Bóng đá",
+     "loi_giai": "Trong các môn thể thao, học sinh nam thích môn bóng đá nhất (12 học sinh).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép ở hình dưới biểu diễn số học sinh nam và số học sinh nữ của lớp 9A có sở thích chơi một số môn thể thao: bóng đá, bóng rổ, bơi. Biết rằng mỗi học sinh chỉ nêu một môn thể thao yêu thích nhất. [[IMG:image6.png]] Trong các môn thể thao, học sinh nam thích môn thể thao nào nhất?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "Bóng đá"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Chọn ngẫu nhiên một học sinh tham gia thi đấu thể thao của trường, tính xác suất của mỗi biến cố sau:\n$A$: \"Học sinh được chọn là nam\",\n$B$: \"Học sinh được chọn thích bóng rổ\",\n$C$: \"Học sinh được chọn là nữ và không thích bơi\".",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A) = 23/40; P(B) = 1/4; P(C) = 3/10",
+     "loi_giai": "Tổng số học sinh của lớp 9A là: $(12 + 6 + 5) + (8 + 4 + 5) = 40$ (học sinh).\n- Số kết quả thuận lợi cho biến cố $A$ là $12 + 6 + 5 = 23$ (học sinh).\nXác suất của biến cố $A$ là: $P(A) = \\frac{23}{40}$.\n- Số kết quả thuận lợi cho biến cố $B$ là $6 + 4 = 10$ (học sinh).\nXác suất của biến cố $B$ là: $P(B) = \\frac{10}{40} = \\frac{1}{4}$.\n- Số kết quả thuận lợi cho biến cố $C$ là $8 + 4 = 12$ (học sinh).\nXác suất của biến cố $C$ là: $P(C) = \\frac{12}{40} = \\frac{3}{10}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép ở hình dưới biểu diễn số học sinh nam và số học sinh nữ của lớp 9A có sở thích chơi một số môn thể thao: bóng đá, bóng rổ, bơi. Biết rằng mỗi học sinh chỉ nêu một môn thể thao yêu thích nhất. [[IMG:image6.png]] Chọn ngẫu nhiên một học sinh tham gia thi đấu thể thao của trường, tính xác suất của mỗi biến cố sau: $A$: \"Học sinh được chọn là nam\", $B$: \"Học sinh được chọn thích bóng rổ\", $C$: \"Học sinh được chọn là nữ và không thích bơi\".",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}}; $P(B) =$ {{2}}; $P(C) =$ {{3}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "23/40"
+       },
+       {
+        "id": "2",
+        "answer": "1/4"
+       },
+       {
+        "id": "3",
+        "answer": "3/10"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh: $(12+6+5)+(8+4+5)=$ {{1}}",
+       "$P(A)=\\frac{12+6+5}{40}=\\frac{ {{2}} }{40}$",
+       "$P(B)=\\frac{6+4}{40}=\\frac{10}{40}=$ {{3}}",
+       "$P(C)=\\frac{8+4}{40}=\\frac{12}{40}=$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "23"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "3/10"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Bảng cước phí dịch vụ Mobicard (đã bao gồm thuế VAT) quy định rằng: nếu gọi 6 giây đầu thì tính cước 118 đồng, còn kể từ sau giây thứ 6 trở đi họ tính thêm 19,5 đồng cho mỗi giây.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy thiết lập công thức biểu diễn số tiền $y$ phải trả khi gọi trên 6 giây (với $x$ là số giây gọi tính từ giây thứ 6 trở đi).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "y = 118 + 19.5x",
+     "loi_giai": "Công thức biểu diễn số tiền phải trả khi gọi trên 6 giây là: $y = 118 + 19,5x$ (đồng).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bảng cước phí dịch vụ Mobicard (đã bao gồm thuế VAT) quy định rằng: nếu gọi 6 giây đầu thì tính cước 118 đồng, còn kể từ sau giây thứ 6 trở đi họ tính thêm 19,5 đồng cho mỗi giây. Hãy thiết lập công thức biểu diễn số tiền $y$ phải trả khi gọi trên 6 giây (với $x$ là số giây gọi tính từ giây thứ 6 trở đi).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$y = 118 + 19.5x$",
+       "$y = 19.5 + 118x$",
+       "$y = 118 - 19.5x$",
+       "$y = 137.5x$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi bạn Khang gọi bao lâu mà bạn phải trả 2419 đồng.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "124",
+     "loi_giai": "Thay $y = 2419$ vào hàm số $y = 118 + 19,5x$ ta được:\n$2419 = 118 + 19,5x \\Rightarrow 19,5x = 2301 \\Rightarrow x = 118$.\nTổng thời gian bạn Khang đã gọi là: $118 + 6 = 124$ (giây).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bảng cước phí dịch vụ Mobicard (đã bao gồm thuế VAT) quy định rằng: nếu gọi 6 giây đầu thì tính cước 118 đồng, còn kể từ sau giây thứ 6 trở đi họ tính thêm 19,5 đồng cho mỗi giây. Gọi $x$ là số giây gọi tính từ giây thứ 6 trở đi, số tiền phải trả là $y = 118 + 19,5x$. Hỏi bạn Khang gọi bao lâu mà bạn phải trả 2419 đồng.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "Tổng thời gian bạn Khang đã gọi:",
+        "dap_an": "124",
+        "don_vi": "giây"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được x = {{1}}",
+        "Vậy tổng thời gian bạn Khang đã gọi là {{2}} giây"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "118"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "124"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Hình bên miêu tả một chiếc bình có chứa nước khi được đặt thẳng đứng và khi bị úp ngược, phần chứa nước là phần gạch chéo, các số đo được cho như hình vẽ. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ với $r, h$ lần lượt là bán kính và chiều cao của hình trụ.\n[[IMG:image14.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích nước trong bình. (kết quả làm tròn đến hàng phần trăm, đơn vị $\\text{cm}^3$)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "100.53",
+     "loi_giai": "Bán kính đáy của hình trụ là: $r = 8 : 2 = 4\\text{ (cm)}$.\nThể tích nước có trong bình là:\n$V = \\pi \\cdot 4^2 \\cdot 2 = 32\\pi \\approx 100,53\\text{ (cm}^3\\text{)}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Hình bên miêu tả một chiếc bình có chứa nước khi được đặt thẳng đứng và khi bị úp ngược, phần chứa nước là phần gạch chéo, các số đo được cho như hình vẽ. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ với $r, h$ lần lượt là bán kính và chiều cao của hình trụ. [[IMG:image14.png]] Tính thể tích nước trong bình. (kết quả làm tròn đến hàng phần trăm, đơn vị $\\text{cm}^3$)",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy: $r=8:2=$ {{1}} (cm)",
+       "$V=\\pi\\cdot$ {{2}} $^2\\cdot 2=32\\pi\\approx$ {{3}} (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "100.53"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Nếu dùng bình nước này đựng đầy nước rồi rót đầy vào các ly hình lập phương có cạnh $4\\text{ cm}$ thì rót tối đa đầy được bao nhiêu ly? (kết quả làm tròn đến hàng đơn vị). Biết thể tích hình lập phương là $V = a^3$ với $a$ là độ dài cạnh hình lập phương.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "6",
+     "loi_giai": "Chiều cao bình nước là: $h = 2 + 6 = 8\\text{ (cm)}$.\nThể tích của bình nước là: $V_{\\text{bình}} = \\pi \\cdot 4^2 \\cdot 8 = 128\\pi \\approx 402,12\\text{ (cm}^3\\text{)}$.\nThể tích ly nước hình lập phương là: $V_{\\text{ly}} = 4^3 = 64\\text{ (cm}^3\\text{)}$.\nSố ly nước có thể rót đầy nước từ bình là: $402,12 : 64 \\approx 6,28$ (ly).\nVậy rót tối đa đầy được khoảng 6 ly.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Hình bên miêu tả một chiếc bình có chứa nước khi được đặt thẳng đứng và khi bị úp ngược, phần chứa nước là phần gạch chéo, các số đo được cho như hình vẽ. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ với $r, h$ lần lượt là bán kính và chiều cao của hình trụ. [[IMG:image14.png]] Biết thể tích nước trong bình là $V_{nước}$. Nếu dùng bình nước này đựng đầy nước rồi rót đầy vào các ly hình lập phương có cạnh $4\\text{ cm}$ thì rót tối đa đầy được bao nhiêu ly? (kết quả làm tròn đến hàng đơn vị). Biết thể tích hình lập phương là $V = a^3$ với $a$ là độ dài cạnh hình lập phương.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều cao bình: $h=2+6=$ {{1}} (cm)",
+       "$V_{\\text{bình}}=\\pi\\cdot 4^2\\cdot 8=128\\pi\\approx$ {{2}} (cm$^3$)",
+       "$V_{\\text{ly}}=4^3=$ {{3}} (cm$^3$)",
+       "$402,12:64\\approx$ {{4}} (ly), vậy tối đa đầy được {{5}} ly"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "402.12"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "64"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "6.28"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Một người đi xe đạp từ $A$ đến $B$ với vận tốc $12\\text{ km/h}$ và đi tiếp từ $B$ đến $C$ với vận tốc $6\\text{ km/h}$, hết 75 phút. Khi về người đó đi từ $C$ đến $B$ với vận tốc $8\\text{ km/h}$ và từ $B$ đến $A$ với vận tốc $10\\text{ km/h}$ hết 1 giờ 30 phút. Tính chiều dài quãng đường $AB$ và $BC$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "AB = 10 km; BC = 3 km",
+     "loi_giai": "Gọi $x, y$ (km) lần lượt là độ dài quãng đường $AB$ và $BC$ ($x, y > 0$).\nĐổi $75\\text{ phút} = 1,25\\text{ giờ}$; $1\\text{ giờ } 30\\text{ phút} = 1,5\\text{ giờ}$.\nVì người đó đi từ $A$ đến $B$ với vận tốc $12\\text{ km/h}$ và từ $B$ đến $C$ với vận tốc $6\\text{ km/h}$ hết 75 phút nên ta có phương trình:\n$\\frac{x}{12} + \\frac{y}{6} = 1,25 \\Leftrightarrow x + 2y = 15$ (1)\nVì người đó đi từ $C$ đến $B$ với vận tốc $8\\text{ km/h}$ và từ $B$ đến $A$ với vận tốc $10\\text{ km/h}$ hết 1 giờ 30 phút nên ta có phương trình:\n$\\frac{y}{8} + \\frac{x}{10} = 1,5 \\Leftrightarrow 4x + 5y = 60$ (2)\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases} x + 2y = 15 \\\\ 4x + 5y = 60 \\end{cases} \\Leftrightarrow \\begin{cases} x = 10 \\\\ y = 3 \\end{cases}$\nVậy độ dài quãng đường $AB$ và $BC$ lần lượt là $10\\text{ km}$ và $3\\text{ km}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Chiều dài quãng đường AB:",
+        "dap_an": "10",
+        "don_vi": "km"
+       },
+       {
+        "nhan": "Chiều dài quãng đường BC:",
+        "dap_an": "3",
+        "don_vi": "km"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi x là độ dài quãng đường AB, y là độ dài quãng đường BC (km, x, y > 0)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được x = {{3}}, y = {{4}}",
+        "Vậy độ dài quãng đường AB và BC lần lượt là {{3}} km và {{4}} km"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x/12+y/6=1.25"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x/10+y/8=1.5"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "10"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "3"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ nằm trên nửa đường tròn $(O)$. Tiếp tuyến tại $M$ cắt tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ lần lượt tại $C$ và $D$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh rằng: tứ giác $ACMO$ nội tiếp và $AC \\cdot BD = R^2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $AC$ là tiếp tuyến của $(O)$ nên $\\widehat{CAO} = 90^\\circ$, $CM$ là tiếp tuyến của $(O)$ nên $\\widehat{CMO} = 90^\\circ$.\nSuy ra tứ giác $ACMO$ nội tiếp đường tròn đường kính $CO$.\nXét $\\triangle AMB$ có $\\widehat{AMB} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nTa có $OC$ là đường trung trực của $AM$ nên $OC \\perp AM$.\nLại có $OD$ là đường trung trực của $BM$ nên $OD \\perp BM$.\nDo đó $\\widehat{COD} = 90^\\circ$, $\\triangle COD$ vuông tại $O$.\nTrong $\\triangle COD$ vuông tại $O$ có đường cao $OM \\perp CD$, ta có $CM \\cdot MD = OM^2 = R^2$.\nMà $CM = AC$ và $MD = BD$ (tính chất hai tiếp tuyến cắt nhau).\nSuy ra $AC \\cdot BD = R^2$.",
+     "cum": [
+      "Ta có $\\widehat{CAO} = 90^\\circ$ ($AC$ là tiếp tuyến) và $\\widehat{CMO} = 90^\\circ$ ($CM$ là tiếp tuyến)",
+      "Suy ra tứ giác $ACMO$ nội tiếp đường tròn đường kính $CO$",
+      "Theo tính chất hai tiếp tuyến cắt nhau, $OC$ là tia phân giác $\\widehat{AOM}$ và $OD$ là tia phân giác $\\widehat{BOM}$",
+      "Suy ra $OC \\perp OD$, nên $\\triangle COD$ vuông tại $O$",
+      "Có $OM \\perp CD$ nên $CM \\cdot MD = OM^2 = R^2$",
+      "Mà $CM = AC$ và $MD = BD$, do đó $AC \\cdot BD = R^2$"
+     ],
+     "nhieu": [
+      "Do đó $AC \\cdot BD = AB^2$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ nằm trên nửa đường tròn $(O)$. Tiếp tuyến tại $M$ cắt tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ lần lượt tại $C$ và $D$. Chứng minh rằng: tứ giác $ACMO$ nội tiếp và $AC \\cdot BD = R^2$.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi $P$ là giao điểm của $CD$ và $AB$. Chứng minh: $PA \\cdot PB = PC \\cdot PM$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét $\\triangle PAM$ và $\\triangle PCB$ (hoặc sử dụng hệ thức lượng trong đường tròn / tam giác đồng dạng):\nXét $\\triangle PAM$ và $\\triangle PCB$ có:\n$\\widehat{P}$ chung\n$\\widehat{PAM} = \\widehat{PMC}$ (góc tạo bởi tiếp tuyến và dây cung và góc nội tiếp) hay $\\triangle PAC \\sim \\triangle PMB$ (g.g)\n$\\Rightarrow \\frac{PA}{PM} = \\frac{PC}{PB} \\Rightarrow PA \\cdot PB = PC \\cdot PM$.",
+     "cum": [
+      "Xét $\\triangle PAC$ và $\\triangle PMB$",
+      "Có $\\widehat{P}$ chung",
+      "và $\\widehat{PAC} = \\widehat{PMB}$ (do cùng bằng $90^\\circ$ khi xét với đường tròn hoặc góc tạo bởi tiếp tuyến và dây)",
+      "Nên $\\triangle PAC \\sim \\triangle PMB$ (g.g)",
+      "Suy ra $\\frac{PA}{PM} = \\frac{PC}{PB}$",
+      "Do đó $PA \\cdot PB = PC \\cdot PM$"
+     ],
+     "nhieu": [
+      "Do đó $PA \\cdot PC = PB \\cdot PM$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ nằm trên nửa đường tròn $(O)$. Tiếp tuyến tại $M$ cắt tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ lần lượt tại $C$ và $D$. Gọi $P$ là giao điểm của $CD$ và $AB$. Chứng minh: $PA \\cdot PB = PC \\cdot PM$.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Gọi $E$ là giao điểm của $AM$ và $BD$; $F$ là giao điểm của $AC$ và $BM$. Chứng minh: $E, F, P$ thẳng hàng.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $AC \\parallel BD$ (cùng vuông góc với $AB$).\n$C$ là trung điểm của $AF$ và $D$ là trung điểm của $BE$.\nSử dụng định lý Ta-lét trong các tam giác, ta suy ra $\\triangle PAF \\sim \\triangle PBE$.\nDo đó $\\widehat{APF} = \\widehat{BPE}$, hay các tia $PF, PE$ trùng nhau.\nVậy $E, F, P$ thẳng hàng.",
+     "cum": [
+      "Ta có $AC \\parallel BD$ (cùng vuông góc với $AB$)",
+      "Suy ra $C$ là trung điểm của $AF$ và $D$ là trung điểm của $BE$",
+      "Xét $\\triangle PAF$ và $\\triangle PBE$ có $\\frac{AC}{BD} = \\frac{AF}{BE}$",
+      "Suy ra $\\triangle PAF \\sim \\triangle PBE$ (c.g.c)",
+      "Nên $\\widehat{APF} = \\widehat{BPE}$",
+      "Do đó $E, F, P$ thẳng hàng"
+     ],
+     "nhieu": [
+      "Do đó $E, F, P$ vuông góc với nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ nằm trên nửa đường tròn $(O)$. Tiếp tuyến tại $M$ cắt tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ lần lượt tại $C$ và $D$. Gọi $P$ là giao điểm của $CD$ và $AB$. Gọi $E$ là giao điểm của $AM$ và $BD$; $F$ là giao điểm của $AC$ và $BM$. Chứng minh: $E, F, P$ thẳng hàng.",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.5-flash)",
+ "tn_diem": 0
+}

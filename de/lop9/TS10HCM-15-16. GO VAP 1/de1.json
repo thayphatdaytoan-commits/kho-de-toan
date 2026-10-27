@@ -1,0 +1,953 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – PHÒNG GD&ĐT QUẬN GÒ VẤP – năm học 2025 – 2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Bảng giá trị:\nx | -2 | -1 | 0 | 1 | 2\ny | 2 | 0.5 | 0 | 0.5 | 2\nĐồ thị là một đường Parabol đi qua các điểm trên.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ những điểm $M$ thuộc $(P)$ có hoành độ bằng tung độ.",
+     "explanation": "Gọi $M(x; y)$ là điểm thuộc $(P)$ có hoành độ bằng tung độ $\\Rightarrow x = y$.\nThay $y = x$ vào phương trình $(P): y = \\frac{1}{2}x^2$, ta được:\n$x = \\frac{1}{2}x^2 \\Leftrightarrow x^2 - 2x = 0 \\Leftrightarrow x(x - 2) = 0$.\nTrường hợp 1: $x = 0 \\Rightarrow y = 0 \\Rightarrow M_1(0; 0)$.\nTrường hợp 2: $x = 2 \\Rightarrow y = 2 \\Rightarrow M_2(2; 2)$.\nVậy các điểm cần tìm là $(0; 0)$ và $(2; 2)$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ và $y_1 =$ {{1}}",
+       "$x_2 =$ và $y_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}} và $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $y = \\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình (1) luôn có 2 nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Xét phương trình $x^2 - 2x - 5 = 0$ có $a = 1, c = -5$.\nTa có $a.c = 1.(-5) = -5 < 0$.\nVì $a$ và $c$ trái dấu nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét phương trình $x^2 - 2x - 5 = 0$ có $a = {{1}}, c = {{2}}$"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Ta có $a.c = 1.(-5) = {{3}} < 0$"
+        ],
+        "hint": "Tính tích a.c"
+       },
+       {
+        "lines": [
+         "Vì $a$ và $c$ {{4}} nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-5"
+        ],
+        "keywords": [
+         "-5"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "-5"
+        ],
+        "keywords": [
+         "-5"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "trái dấu"
+        ],
+        "keywords": [
+         "trái dấu"
+        ],
+        "placeholder": "tính chất",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "1",
+       "-5",
+       "trái dấu",
+       "cùng dấu",
+       "0",
+       "2"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không bằng cách tính nghiệm. Hãy tính giá trị của $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "explanation": "Áp dụng hệ thức Vi-ét cho phương trình $x^2 - 2x - 5 = 0$:\n$x_1 + x_2 = 2$\n$x_1x_2 = -5$\nTa có: $A = x_1^2 + x_2^2 - x_1x_2 = (x_1 + x_2)^2 - 3x_1x_2$\nThay số: $A = 2^2 - 3(-5) = 4 + 15 = 19$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "19"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 2x - 5 = 0$ (1)",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "A: “4 chữ số được chọn giống nhau”",
+     "explanation": "Số cách chọn dãy 4 chữ số ngẫu nhiên là $10^4 = 10000$.\nCác trường hợp 4 chữ số giống nhau là: 0000, 1111, ..., 9999 (có 10 trường hợp).\nXác suất của biến cố A là: $P(A) = 10/10000 = 1/1000$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_xac_suat",
+      "kieu": "dong",
+      "dong": [
+       "Số cách chọn dãy 4 chữ số ngẫu nhiên là $10^4 = $ {{1}}",
+       "Các trường hợp 4 chữ số giống nhau là: 0000, 1111, ..., 9999 (có {{2}} trường hợp)",
+       "Xác suất của biến cố A là: $P(A) = \\frac{{2}}{{1}} = $ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10000"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/1000"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "B: “4 chữ số được chọn lập thành một số có 4 chữ số”",
+     "explanation": "Để lập thành số có 4 chữ số thì chữ số hàng nghìn phải từ 1 đến 9 (9 cách).\nCác vị trí còn lại mỗi vị trí có 10 cách chọn.\nSố các số có 4 chữ số là: $9 \\times 10 \\times 10 \\times 10 = 9000$.\nXác suất của biến cố B là: $P(B) = 9000/10000 = 9/10$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_xac_suat",
+      "kieu": "dong",
+      "dong": [
+       "Để lập thành số có 4 chữ số thì chữ số hàng nghìn phải từ 1 đến 9 ({{1}} cách)",
+       "Các vị trí còn lại mỗi vị trí có {{2}} cách chọn",
+       "Số các số có 4 chữ số là: ${{1}} \\times {{2}} \\times {{2}} \\times {{2}} = $ {{3}}",
+       "Xác suất của biến cố B là: $P(B) = \\frac{{3}}{10000} = $ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "9"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "9000"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "9/10"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "C: “4 chữ số được chọn có tổng bằng 1”",
+     "explanation": "Các bộ 4 chữ số có tổng bằng 1 là hoán vị của (1, 0, 0, 0).\nCác trường hợp xảy ra: 1000, 0100, 0010, 0001 (có 4 trường hợp).\nXác suất của biến cố C là: $P(C) = 4/10000 = 1/2500$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_xac_suat",
+      "kieu": "dong",
+      "dong": [
+       "Các bộ 4 chữ số có tổng bằng 1 là hoán vị của (1, 0, 0, 0)",
+       "Các trường hợp xảy ra: 1000, 0100, 0010, 0001 (có {{1}} trường hợp)",
+       "Xác suất của biến cố C là: $P(C) = \\frac{{1}}{10000} = $ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1/2500"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Bác Dũng có một cái khóa số như hình bên. Bác Dũng chọn ngẫu nhiên một dãy gồm 4 chữ số để đặt làm mã số mở khóa. Tính xác suất của các biến cố:",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D01",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy lập bất phương trình theo ẩn $x$ biểu thị tổng số điểm đạt từ 25 điểm trở lên.",
+     "explanation": "Số điểm nhận được khi trả lời đúng là: $5x$.\nSố câu trả lời sai là: $12 - x$.\nSố điểm bị trừ khi trả lời sai là: $2(12 - x)$.\nTổng số điểm học sinh có là: $10 + 5x - 2(12 - x)$.\nĐể vào vòng tiếp theo, tổng điểm phải từ 25 trở lên: $10 + 5x - 2(12 - x) \\ge 25$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$10 + 5x - 2x \\ge 25$",
+      "$10 + 5x - 2(12 - x) > 25$",
+      "$10 + 5x - 2(12 - x) \\ge 25$",
+      "$10 + 5x + 2(12 - x) \\ge 25$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi học sinh phải trả lời đúng ít nhất bao nhiêu câu thì được vào vòng thi tiếp theo?",
+     "explanation": "Giải bất phương trình: $10 + 5x - 24 + 2x \\ge 25 \\Leftrightarrow 7x - 14 \\ge 25 \\Leftrightarrow 7x \\ge 39 \\Leftrightarrow x \\ge 5.57$.\nVì $x$ là số nguyên nên $x$ nhỏ nhất là 6.\nVậy học sinh cần trả lời đúng ít nhất 6 câu.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "6"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Trong cuộc thi “Đố vui học tập”, mỗi hs phải trả lời 12 câu hỏi của ban tổ chức. Mỗi câu hỏi gồm 4 phương án trả lời, trong đó chỉ có một phương án đúng. Với mỗi câu hỏi, nếu trả lời đúng thì được cộng 5 điểm, trả lời sai thì bị trừ 2 điểm. Khi bắt đầu cuộc thi, mỗi học sinh có sẵn 10 điểm. Học sinh nào đạt từ 25 điểm trở lên thì sẽ được vào vòng thi tiếp theo. Gọi $x$ là số câu trả lời đúng của học sinh.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan",
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Một lon nước ngọt cao 13.5cm, đường kính đáy là 5.8cm. Hỏi lon nước ngọt cao này có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao? (Biết thể tích hình trụ $V = \\pi r^2 h$, kết quả làm tròn đến hàng phần trăm)",
+     "explanation": "Bán kính lon mới là: $r = 5.8 / 2 = 2.9$ cm.\nThể tích lon mới là: $V = \\pi \\cdot 2.9^2 \\cdot 13.5 \\approx 356.51$ cm$^3$.\nVì $356.51$ cm$^3 > 330$ ml nên lon nước ngọt cao này có thể chứa được hết lượng nước của lon phổ biến.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Không xác định",
+      "Không",
+      "Có",
+      "Bằng nhau"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết chi phí sản xuất một lon tỉ lệ thuận với diện tích toàn phần của lon. Hỏi chi phí sản xuất lon nước ngọt cao ở câu a) tăng bao nhiêu phần trăm so với chi phí sản xuất lon có cỡ phổ biến? (Kết quả làm tròn đến hàng phần mười)",
+     "explanation": "Bán kính lon cũ: $r_1 = 3.3$ cm, chiều cao $h_1 = 12$ cm.\nDiện tích toàn phần lon cũ: $S_1 = 2\\pi r_1(r_1 + h_1) = 2\\pi \\cdot 3.3 \\cdot (3.3 + 12) = 100.98\\pi \\approx 317.2$ cm$^2$.\nBán kính lon mới: $r_2 = 2.9$ cm, chiều cao $h_2 = 13.5$ cm.\nDiện tích toàn phần lon mới: $S_2 = 2\\pi r_2(r_2 + h_2) = 2\\pi \\cdot 2.9 \\cdot (2.9 + 13.5) = 95.12\\pi \\approx 298.8$ cm$^2$.\nPhần trăm thay đổi: $(298.8 - 317.2) / 317.2 \\times 100 \\approx -5.8\\%$.\nChi phí sản xuất giảm khoảng $5.8\\%$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_phan_tram",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính lon cũ: $r_1 = $ {{1}} cm, chiều cao $h_1 = $ {{2}} cm",
+       "Diện tích toàn phần lon cũ: $S_1 = 2\\pi \\cdot {{1}} \\cdot ({{1}} + {{2}}) = $ {{3}}$\\pi \\approx $ {{4}} cm$^2$",
+       "Bán kính lon mới: $r_2 = $ {{5}} cm, chiều cao $h_2 = $ {{6}} cm",
+       "Diện tích toàn phần lon mới: $S_2 = 2\\pi \\cdot {{5}} \\cdot ({{5}} + {{6}}) = $ {{7}}$\\pi \\approx $ {{8}} cm$^2$",
+       "Phần trăm thay đổi: $\\frac{{8} - {4}}{{4}} \\times 100 = $ {{9}}$\\%$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3.3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "12"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "100.98"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "317.2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "2.9"
+       },
+       {
+        "id": "6",
+        "loai": "so",
+        "dap_an": "13.5"
+       },
+       {
+        "id": "7",
+        "loai": "so",
+        "dap_an": "95.12"
+       },
+       {
+        "id": "8",
+        "loai": "so",
+        "dap_an": "298.8"
+       },
+       {
+        "id": "9",
+        "loai": "so",
+        "dap_an": "-5.8"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Nước giải khát thường được đựng trong lon nhôm và cỡ lon phổ biến trên thế giới thường chứa khoảng 330ml chất lỏng, được thiết kế hình trụ với chiều cao gần gấp đôi đường kính đáy (cao 12cm, đường kính đáy 6.6cm). Nhưng hiện nay các nhà sản xuất có xu hướng tạo ra những lon nhôm với kiểu dáng thon dài cao. Tuy chi phí sản xuất của những chiếc lon này tốn kém hơn, do nó có diện tích mặt ngoài lớn hơn, nhưng nó lại dễ đánh lừa thị giác và được người tiêu dùng ưa chuộng hơn.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số tiền vốn cần gửi: {{1}} đồng"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "419810000"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số tiền mẹ An cần gửi vào ngân hàng (đồng, $x > 0$)",
+     "Phương trình: {{1}}",
+     "Giải phương trình ta tìm được $x =$ {{2}}",
+     "Vậy số tiền cần gửi là {{3}} đồng"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x*(1.06)^3=500000000"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "419809573"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "419810000"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Mẹ bạn An tính rằng 3 năm sau phải có 500.000.000 đồng trong ngân hàng để lo cho An theo học 4 năm Đại học. Vậy ngay bây giờ mẹ của An phải gửi vào ngân hàng bao nhiêu tiền vốn (Làm tròn kết quả đến hàng phần chục nghìn đồng). Biết rằng lãi suất ngân hàng là 6% một năm và lãi của năm sau là lãi tính trên vốn cộng lãi của năm trước.",
+   "explanation": "Gọi $x$ là số tiền mẹ An cần gửi vào ngân hàng.\nSau 3 năm, số tiền cả vốn lẫn lãi mẹ An nhận được là: $x(1 + 6\\%)^3$.\nTheo đề bài ta có: $x(1.06)^3 = 500,000,000$.\n$x = 500,000,000 / 1.06^3 \\approx 419,809,573$ đồng.\nLàm tròn đến hàng phần chục nghìn đồng, ta được: $419,810,000$ đồng.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh $AH$ vuông góc với $BC$.",
+     "explanation": "Xét đường tròn tâm $I$ đường kính $BC$ có:\n$\\widehat{BFC} = 90^\\circ$ và $\\widehat{BEC} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nNên $CF \\perp AB$ và $BE \\perp AC$.\nXét $\\triangle ABC$ có $BE$ và $CF$ là hai đường cao cắt nhau tại $H$.\nDo đó $H$ là trực tâm của $\\triangle ABC$.\nSuy ra $AH \\perp BC$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét đường tròn tâm $I$ đường kính $BC$ có:",
+         "$\\widehat{BFC} = {{1}}^\\circ$ và $\\widehat{BEC} = {{2}}^\\circ$ ({{3}})"
+        ],
+        "hint": "Góc nội tiếp chắn nửa đường tròn"
+       },
+       {
+        "lines": [
+         "Nên $CF \\perp {{4}}$ và $BE \\perp {{5}}$"
+        ],
+        "hint": "Suy ra quan hệ vuông góc"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{6}}$ có $BE$ và $CF$ là hai đường cao cắt nhau tại $H$"
+        ],
+        "hint": "Xét tam giác chứa đường cao"
+       },
+       {
+        "lines": [
+         "Do đó $H$ là {{7}} của $\\triangle {{8}}$",
+         "Suy ra $AH \\perp {{9}}$"
+        ],
+        "hint": "Kết luận trực tâm và vuông góc"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "góc nội tiếp chắn nửa đường tròn"
+        ],
+        "keywords": [],
+        "placeholder": "lý do",
+        "maxLen": 24
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "ABC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "trực tâm"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "ABC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "90",
+       "góc nội tiếp chắn nửa đường tròn",
+       "AB",
+       "AC",
+       "ABC",
+       "trực tâm",
+       "BC",
+       "trọng tâm",
+       "đối đỉnh",
+       "cạnh chung"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ đường kính $AD$ của $(O)$ cắt $BC$ tại $M$. Chứng minh 3 điểm $H, I, D$ thẳng hàng.",
+     "explanation": "Xét đường tròn $(O)$ có $\\widehat{ABD} = 90^\\circ$ và $\\widehat{ACD} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nNên $BD \\perp AB$ và $CD \\perp AC$.\nTa có: $BD // CH$ (cùng vuông góc $AB$) và $CD // BH$ (cùng vuông góc $AC$).\nSuy ra tứ giác $BHCD$ là hình bình hành.\nMà $I$ là trung điểm của $BC$ nên $I$ cũng là trung điểm của $HD$.\nVậy 3 điểm $H, I, D$ thẳng hàng.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét đường tròn $(O)$ có $\\widehat{ABD} = {{1}}^\\circ$ và $\\widehat{ACD} = {{2}}^\\circ$ ({{3}})"
+        ],
+        "hint": "Góc nội tiếp chắn nửa đường tròn"
+       },
+       {
+        "lines": [
+         "Nên $BD \\perp {{4}}$ và $CD \\perp {{5}}$"
+        ],
+        "hint": "Suy ra quan hệ vuông góc"
+       },
+       {
+        "lines": [
+         "Ta có $BD // {{6}}$ (cùng vuông góc $AB$) và $CD // {{7}}$ (cùng vuông góc $AC$)"
+        ],
+        "hint": "Chứng minh song song"
+       },
+       {
+        "lines": [
+         "Suy ra tứ giác $BHCD$ là {{8}}",
+         "Vì $I$ là {{9}} của $BC$ nên $I$ cũng là {{10}} của $HD$"
+        ],
+        "hint": "Tính chất hình bình hành"
+       },
+       {
+        "lines": [
+         "Vậy 3 điểm $H, I, D$ {{11}}"
+        ],
+        "hint": "Kết luận thẳng hàng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "góc nội tiếp chắn nửa đường tròn"
+        ],
+        "keywords": [],
+        "placeholder": "lý do",
+        "maxLen": 24
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "CH"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "BH"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "hình bình hành"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 15
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "trung điểm"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 10
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "trung điểm"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 10
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "thẳng hàng"
+        ],
+        "keywords": [],
+        "placeholder": "tính chất",
+        "maxLen": 15
+       }
+      ],
+      "pool": [
+       "90",
+       "góc nội tiếp chắn nửa đường tròn",
+       "AB",
+       "AC",
+       "CH",
+       "BH",
+       "hình bình hành",
+       "trung điểm",
+       "thẳng hàng",
+       "hình chữ nhật",
+       "đồng vị",
+       "so le trong"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Trường hợp $\\widehat{BAC} = 60^\\circ$. Tính $AH$ theo $R$.",
+     "explanation": "Ta có $\\triangle AEF \\sim \\triangle ABC$ với tỉ số đồng dạng $k = \\cos A = \\cos 60^\\circ = 1/2$.\nSuy ra $EF/BC = 1/2 \\Rightarrow BC = 2EF$.\nTrong đường tròn $(O)$, dây $BC = 2R \\sin A = 2R \\sin 60^\\circ = R\\sqrt{3}$.\nKhoảng cách từ tâm $O$ đến dây $BC$ là $OI = \\sqrt{R^2 - (BC/2)^2} = \\sqrt{R^2 - (R\\sqrt{3}/2)^2} = R/2$.\nTheo tính chất trực tâm và tâm đường tròn ngoại tiếp, $AH = 2OI = 2(R/2) = R$.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "R"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho $\\triangle ABC$ có 3 góc nhọn nội tiếp $(O; R)$; đường tròn tâm $I$ đường kính $BC$ cắt các cạnh $AB$ và $AC$ lần lượt tại $F$ và $E$; $BE$ và $CF$ cắt nhau tại $H$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B3.D01",
+   "dang_toan_web": "Tứ giác nội tiếp."
+  }
+ ],
+ "flags": []
+}

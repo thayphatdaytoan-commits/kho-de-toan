@@ -1,0 +1,980 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – PHÒNG GD&ĐT HUYỆN HÓC MÔN – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$",
+     "explanation": "Bảng giá trị:\n$x = -4 \\Rightarrow y = 8$\n$x = -2 \\Rightarrow y = 2$\n$x = 0 \\Rightarrow y = 0$\n$x = 2 \\Rightarrow y = 2$\n$x = 4 \\Rightarrow y = 8$\nĐồ thị hàm số $y = \\frac{1}{2}x^2$ là một đường parabol $(P)$ đỉnh $O(0;0)$ đi qua các điểm $(-4; 8), (-2; 2), (0; 0), (2; 2), (4; 8)$.\n[[IMG:image62.png]]",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $M$ thuộc $(P)$ có tung độ và hoành độ đối nhau.",
+     "explanation": "Vì điểm $M$ thuộc $(P)$ có tung độ và hoành độ đối nhau nên $y = -x$.\nThay $y = -x$ vào phương trình $(P): y = \\frac{1}{2}x^2$, ta được:\n$\\frac{1}{2}x^2 = -x \\Leftrightarrow x^2 + 2x = 0 \\Leftrightarrow x(x + 2) = 0$.\nTrường hợp 1: $x = 0 \\Rightarrow y = 0$. Ta được điểm $M(0; 0)$.\nTrường hợp 2: $x = -2 \\Rightarrow y = 2$. Ta được điểm $M(-2; 2)$.\nVậy có hai điểm thỏa mãn là $M(0; 0)$ và $M(-2; 2)$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0|-2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y = \\frac{1}{2}x^2$ đồ thị $(P)$",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình trên có hai nghiệm là $x_1, x_2$.",
+     "explanation": "Ta có $a = 1, c = -5$.\nVì $a \\cdot c = 1 \\cdot (-5) = -5 < 0$.\nNên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$ac < 0$",
+      "$a + c < 0$",
+      "$ac > 0$",
+      "$a - c < 0$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức sau: $A = x_1^2 + x_2^2 - x_1^2x_2 - x_1x_2^2$.",
+     "explanation": "Theo hệ thức Vi-ét ta có: $S = x_1 + x_2 = 2$ và $P = x_1x_2 = -5$.\nBiến đổi biểu thức: $A = (x_1 + x_2)^2 - 2x_1x_2 - x_1x_2(x_1 + x_2)$.\nThay số: $A = 2^2 - 2(-5) - (-5)(2) = 4 + 10 + 10 = 24$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$A = (x_1 + x_2)^2 - 2x_1x_2 - x_1x_2(x_1 + x_2)$",
+       "$A = {{1}}^2 - 2({{2}}) - ({{3}})({{4}}) = 4 + 10 + 10 = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "24"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 2x - 5 = 0$",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Xác định không gian mẫu của phép thử.",
+     "explanation": "Không gian mẫu của phép thử là: $\\Omega = \\{TT; TG; GT; GG\\}$.\nSố phần tử của không gian mẫu là $n(\\Omega) = 4$.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "$\\{TT; TG; GT; GG\\}$",
+      "$\\{TT; TG; GG\\}$",
+      "$\\{TT; GG\\}$",
+      "$\\{T; G\\}$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của mỗi biến cố sau:\nA: “Gia đình đó có cả con trai và con gái”.\nB: “Gia đình đó có ít nhất 1 con gái”.",
+     "explanation": "Biến cố $A = \\{TG; GT\\} \\Rightarrow n(A) = 2$. Xác suất $P(A) = 2/4 = 0.5$.\nBiến cố $B = \\{TG; GT; GG\\} \\Rightarrow n(B) = 3$. Xác suất $P(B) = 3/4 = 0.75$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$P(A) = 2/4 = {{1}}$",
+       "$P(B) = 3/4 = {{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0.5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0.75"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Chọn ngẫu nhiên một gia đình có hai con. Giả thiết rằng biến cố “Sinh con trai” (T) và biến cố “Sinh con gái” (G) là đồng khả năng.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B3.D01",
+   "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Gọi $S$ là diện tích phần đất nền (phần in đậm) sau khi được bồi thêm. Hãy viết biểu thức dưới dạng thu gọn tính $S$ theo $x$.",
+     "explanation": "Chiều dài phần đất nền sau khi bồi thêm là: $50 - 2x$ (m).\nChiều rộng phần đất nền sau khi bồi thêm là: $40 - x$ (m).\nDiện tích phần đất nền là: $S = (50 - 2x)(40 - x) = 2000 - 50x - 80x + 2x^2 = 2x^2 - 130x + 2000$ ($m^2$).",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$2x^2 - 90x + 2000$",
+      "$2x^2 - 130x + 1000$",
+      "$2x^2 - 130x + 2000$",
+      "$x^2 - 130x + 2000$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Phần đất nền sau khi được bồi thêm đo được diện tích là $1500 m^2$. Để tránh rủi ro trẻ em có thể té xuống mương, ông cho làm hàng rào bao quanh phần đất nền tiếp giáp với mương bằng lưới B40. Tính chiều dài lưới B40 mà ông D cần mua.",
+     "explanation": "Ta có phương trình: $2x^2 - 130x + 2000 = 1500 \\Leftrightarrow 2x^2 - 130x + 500 = 0$.\nGiải phương trình ta được $x = 5$ (nhận) hoặc $x = 60$ (loại vì $x < 40$).\nVới $x = 5$, chiều dài đất nền là $50 - 2(5) = 40$ (m), chiều rộng là $40 - 5 = 35$ (m).\nChu vi phần đất nền là: $2 \\cdot (40 + 35) = 150$ (m).\nVậy chiều dài lưới B40 cần mua là $150m$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Chiều dài lưới B40: {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "150"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là độ rộng mương (m, điều kiện $0 < x < 40$)",
+       "Phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}",
+       "Vậy chiều dài lưới B40 là {{3}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "2x^2-130x+500=0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "150"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Ông D có một mảnh đất hình chữ nhật có chiều dài $50m$ và chiều rộng $40m$ (Hình 1). Ông dự định xây dựng khu nghỉ dưỡng nên ông cho đào mương xung quanh mảnh đất để lấy đất bồi thêm đất nền cao hơn. Ông cho đào 3 mặt của mảnh đất như hình 2, độ rộng mương là $x$ ($0 < x < 40$). [[IMG:image14.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích thùng carton.",
+     "explanation": "Chiều dài thùng carton (xếp 3 lon): $7.2 \\times 3 = 21.6$ (cm).\nChiều rộng thùng carton (xếp 2 lon): $7.2 \\times 2 = 14.4$ (cm).\nChiều cao thùng carton: $14$ (cm).\nThể tích thùng carton: $V = 21.6 \\times 14.4 \\times 14 = 4354.56$ ($cm^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều dài: $7.2 \\times 3 = {{1}}$ (cm)",
+       "Chiều rộng: $7.2 \\times 2 = {{2}}$ (cm)",
+       "Thể tích: $V = {{1}} \\times {{2}} \\times 14 = {{3}}$ ($cm^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "21.6"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "14.4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4354.56"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính tỉ số phần trăm $p$ giữa thể tích phần còn trống trong thùng carton khi đựng 6 lon nước ngọt với thể tích của thùng carton. (Kết quả làm tròn đến hàng phần mười). Biết thể tích hình trụ là $V = \\pi R^2 h$.",
+     "explanation": "Bán kính đáy lon nước: $R = 7.2 / 2 = 3.6$ (cm).\nThể tích 6 lon nước ngọt: $V_{6lon} = 6 \\cdot \\pi \\cdot 3.6^2 \\cdot 14 \\approx 3419.46$ ($cm^3$).\nThể tích phần trống: $V_{trong} = 4354.56 - 3419.46 = 935.1$ ($cm^3$).\nTỉ số phần trăm: $p = (935.1 / 4354.56) \\cdot 100 \\approx 21.5\\%$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$V_{6lon} = 6 \\cdot \\pi \\cdot 3.6^2 \\cdot 14 \\approx {{1}}$",
+       "$V_{trong} = 4354.56 - {{1}} = {{2}}$",
+       "$p = ({{2}} / 4354.56) \\cdot 100 \\approx {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3419.46"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "935.1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "21.5"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Trong hình vẽ, 6 lon nước ngọt hình trụ được đặt sát nhau trong thùng carton có dạng hình hộp chữ nhật. Mỗi lon có đường kính $7.2 cm$ và chiều cao $14 cm$.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Giá tiền 1kg quýt: {{1}} đồng",
+     "Giá tiền 1kg nhãn: {{2}} đồng"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "20000"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "20000"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số kg quýt, $y$ là số kg nhãn (kg, điều kiện $x, y > 0$)",
+     "Phương trình thể tích: {{1}}",
+     "Giải hệ ta được $x =$ {{2}}, $y =$ {{3}}",
+     "Vậy giá tiền 1kg quýt là {{4}} đồng, giá tiền 1kg nhãn là {{5}} đồng"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x/20+(24-x)/30=1"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "12"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "12"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "20000"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "20000"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Một cái thùng có thể chứa được $20kg$ quýt hoặc $30kg$ nhãn. Nếu ta chứa đầy thùng đó bằng cả quýt và nhãn mà giá trị bằng tiền của quýt bằng giá trị bằng tiền của nhãn thì số trái cây trong thùng cân nặng $24kg$ và có tổng giá trị là $480.000$ đồng. Tìm giá tiền $1kg$ quýt và giá tiền $1kg$ nhãn.",
+   "explanation": "Gọi $x$ là số kg quýt trong thùng ($0 < x < 24$).\nSố kg nhãn trong thùng là $24 - x$.\nVì thùng đầy nên tỉ lệ thể tích chiếm chỗ là: $x/20 + (24-x)/30 = 1$.\nGiải phương trình: $3x + 2(24-x) = 60 \\Leftrightarrow 3x + 48 - 2x = 60 \\Leftrightarrow x = 12$.\nVậy trong thùng có $12kg$ quýt và $12kg$ nhãn.\nGiá trị tiền quýt = giá trị tiền nhãn = $480000 / 2 = 240000$ đồng.\nGiá tiền $1kg$ quýt: $240000 / 12 = 20000$ (đồng).\nGiá tiền $1kg$ nhãn: $240000 / 12 = 20000$ (đồng).",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 8,
+    "so_dau_bang": 11,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet",
+    "tn_y_c_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: Tứ giác $MAOB$ nội tiếp và $OM \\perp AB$ tại $H$.",
+     "explanation": "Ta có $MA, MB$ là hai tiếp tuyến của $(O)$ nên $MA \\perp OA$ và $MB \\perp OB$.\nXét tứ giác $MAOB$ có $\\widehat{MAO} + \\widehat{MBO} = 90^\\circ + 90^\\circ = 180^\\circ$.\nSuy ra tứ giác $MAOB$ nội tiếp đường tròn đường kính $MO$.\nTa có $MA = MB$ (tính chất hai tiếp tuyến cắt nhau) và $OA = OB = R$.\nSuy ra $OM$ là đường trung trực của đoạn thẳng $AB$.\nDo đó $OM \\perp AB$ tại $H$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có {{1}}, {{2}} là hai tiếp tuyến của $(O)$ nên {{3}} $\\perp OA$ và {{4}} $\\perp OB$."
+        ],
+        "hint": "Chứng minh các góc vuông"
+       },
+       {
+        "lines": [
+         "Xét tứ giác {{5}} có $\\widehat{MAO} + \\widehat{MBO} = 90^\\circ + 90^\\circ = {{6}}$",
+         "Suy ra tứ giác {{7}} nội tiếp đường tròn đường kính {{8}}."
+        ],
+        "hint": "Chứng minh tứ giác nội tiếp"
+       },
+       {
+        "lines": [
+         "Ta có {{9}} = {{10}} (tính chất hai tiếp tuyến cắt nhau) và {{11}} = {{12}} = R.",
+         "Suy ra {{13}} là đường trung trực của đoạn thẳng {{14}}.",
+         "Do đó {{15}} $\\perp$ {{16}} tại $H$."
+        ],
+        "hint": "Chứng minh đường trung trực"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "MB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "MB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "MAOB"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "180^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "MAOB"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "MO"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "MB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "OB"
+        ],
+        "keywords": [],
+        "placeholder": "tên cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "OM"
+        ],
+        "keywords": [],
+        "placeholder": "tên đường",
+        "maxLen": 12
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "OM"
+        ],
+        "keywords": [],
+        "placeholder": "tên đường",
+        "maxLen": 12
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "MA",
+       "MB",
+       "MAOB",
+       "180^\\circ",
+       "MO",
+       "OA",
+       "OB",
+       "OM",
+       "AB",
+       "AC",
+       "BC",
+       "90^\\circ",
+       "giả thiết",
+       "tiếp tuyến"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $I$ là trung điểm $BH$.",
+     "explanation": "Ta có $BH \\perp AC$ (gt) và $MA \\perp AC$ (tiếp tuyến) nên $BH \\parallel MA$.\nÁp dụng hệ quả định lí Thales vào $\\triangle CMA$ có $IH \\parallel MA$:\n$\\frac{IH}{MA} = \\frac{CI}{CM}$ (1).\nGọi $P$ là giao điểm của $MC$ và $AB$. Vì $BH \\parallel MA$ nên $\\frac{IB}{MA} = \\frac{CI}{CM}$ (2).\nTừ (1) và (2) suy ra $IH = IB$.\nVậy $I$ là trung điểm của $BH$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có {{1}} $\\perp AC$ (gt) và {{2}} $\\perp AC$ (tiếp tuyến) nên {{3}} $\\parallel$ {{4}}."
+        ],
+        "hint": "Chứng minh song song"
+       },
+       {
+        "lines": [
+         "Áp dụng hệ quả định lí Thales vào $\\triangle {{5}}$ có {{6}} $\\parallel$ {{7}}:",
+         "$\\frac{IH}{MA} = \\frac{CI}{CM}$ (1)."
+        ],
+        "hint": "Áp dụng định lý Thales"
+       },
+       {
+        "lines": [
+         "Vì {{8}} $\\parallel$ {{9}} nên $\\frac{IB}{MA} = \\frac{CI}{CM}$ (2).",
+         "Từ (1) và (2) suy ra {{10}} = {{11}}.",
+         "Vậy $I$ là {{12}} của {{13}}."
+        ],
+        "hint": "Kết luận trung điểm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "BH"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "BH"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "CMA"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "IH"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "IB"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "IH"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "IB"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "trung điểm"
+        ],
+        "keywords": [],
+        "placeholder": "từ khóa",
+        "maxLen": 12
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "BH"
+        ],
+        "keywords": [],
+        "placeholder": "tên đoạn",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "BH",
+       "MA",
+       "CMA",
+       "IH",
+       "IB",
+       "trung điểm",
+       "AC",
+       "CM",
+       "CI",
+       "đối đỉnh",
+       "đồng vị",
+       "so le trong"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Đường thẳng $AC$ và đường thẳng $MB$ cắt nhau tại $E$. Tia $EI$ cắt $MA$ tại $K$. Giả sử $OM = 3R$. Hãy tính diện tích của tứ giác $AKEB$ theo $R$.",
+     "explanation": "Xét $\\triangle MAO$ vuông tại $A$, $OM = 3R, OA = R \\Rightarrow MA = \\sqrt{OM^2 - OA^2} = 2\\sqrt{2}R$.\nSử dụng các hệ thức lượng và tam giác đồng dạng:\n$S_{AKEB} = S_{KAE} - S_{B E H}$ (hoặc tính theo diện tích hình thang).\nDựa trên các tỉ số đồng dạng và giả thiết $OM=3R$, ta tính được diện tích tứ giác $AKEB = \\frac{15\\sqrt{2}}{8}R^2$.",
+     "points": 1,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{3\\sqrt{2}}{8}R^2$",
+      "$\\frac{15\\sqrt{2}}{8}R^2$",
+      "$\\frac{5\\sqrt{2}}{8}R^2$",
+      "$\\frac{15\\sqrt{2}}{4}R^2$"
+     ],
+     "correctAnswer": 1
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm $M$ nằm ngoài đường tròn $(O; R)$ vẽ hai tiếp tuyến $MA, MB$ ($A, B$ là tiếp điểm). Vẽ đường kính $AC$ của đường tròn $(O)$. Gọi $H$ là hình chiếu của $B$ trên $AC$. $MC$ cắt $BH$ tại $I$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D02",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

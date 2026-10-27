@@ -1,0 +1,459 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị cho {{1}} điểm thuộc Parabol"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các điểm trên mặt phẳng {{2}}"
+    ],
+    "hint": "Xác định tọa độ"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong Parabol đi qua các điểm đã {{3}}"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "5"
+    ],
+    "keywords": [
+     "5"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "tọa độ"
+    ],
+    "keywords": [
+     "tọa độ"
+    ],
+    "placeholder": "tên mặt phẳng",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "xác định"
+    ],
+    "keywords": [
+     "xác định"
+    ],
+    "placeholder": "trạng thái",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "5",
+   "tọa độ",
+   "xác định"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định hệ số {{1}}, {{2}}, {{3}}"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính biệt thức {{4}} = b^2 - 4ac"
+    ],
+    "hint": "Tính delta"
+   },
+   {
+    "lines": [
+     "Chứng minh {{5}} > 0"
+    ],
+    "hint": "Điều kiện nghiệm"
+   },
+   {
+    "lines": [
+     "Kết luận phương trình có {{6}} nghiệm phân biệt"
+    ],
+    "hint": "Kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 2
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "b"
+    ],
+    "keywords": [
+     "b"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 2
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "c"
+    ],
+    "keywords": [
+     "c"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 2
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "tên biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "tên biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "hai"
+    ],
+    "keywords": [
+     "hai"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "a",
+   "b",
+   "c",
+   "delta",
+   "hai"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có {{1}} $\\perp$ {{2}} (tính chất tiếp tuyến)",
+     "• $\\widehat{ {{3}} } = 90^\\circ$ và $\\widehat{ {{4}} } = 90^\\circ$"
+    ],
+    "hint": "Xác định các góc vuông"
+   },
+   {
+    "lines": [
+     "Xét tứ giác {{5}} có:",
+     "• $\\widehat{ {{6}} } + \\widehat{ {{7}} } = 90^\\circ + 90^\\circ = {{8}}^\\circ$"
+    ],
+    "hint": "Tổng hai góc đối"
+   },
+   {
+    "lines": [
+     "Do đó tứ giác {{9}} {{10}} nội tiếp đường tròn"
+    ],
+    "hint": "Kết luận nội tiếp"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "tiếp tuyến",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "OA"
+    ],
+    "keywords": [],
+    "placeholder": "bán kính",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MAO"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MBO"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "MAOB"
+    ],
+    "keywords": [],
+    "placeholder": "tứ giác",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MAO"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 10
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "MBO"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "180"
+    ],
+    "keywords": [],
+    "placeholder": "số đo",
+    "maxLen": 5
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MAOB"
+    ],
+    "keywords": [],
+    "placeholder": "tứ giác",
+    "maxLen": 10
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "là"
+    ],
+    "keywords": [],
+    "placeholder": "từ nối",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "MA",
+   "OA",
+   "MAO",
+   "MBO",
+   "MAOB",
+   "180",
+   "là",
+   "MB",
+   "OB",
+   "MAB",
+   "90",
+   "tứ giác"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có {{1}} là đường trung trực của {{2}}"
+    ],
+    "hint": "Chứng minh trung trực"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{3}} \\backsim \\triangle {{4}}$ (g.g)",
+     "• Suy ra $\\frac{ {{5}} }{ {{6}} } = \\frac{ {{7}} }{ {{8}} }$"
+    ],
+    "hint": "Tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Từ đó suy ra {{9}} = {{10}}"
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "MO"
+    ],
+    "keywords": [],
+    "placeholder": "đường thẳng",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn thẳng",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "MAH"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "MKO"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "MK"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 10
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "MH"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "MO"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 10
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "MA.MO"
+    ],
+    "keywords": [],
+    "placeholder": "đẳng thức",
+    "maxLen": 15
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "MH.MK"
+    ],
+    "keywords": [],
+    "placeholder": "đẳng thức",
+    "maxLen": 15
+   }
+  ],
+  "pool": [
+   "MO",
+   "AB",
+   "MAH",
+   "MKO",
+   "MA",
+   "MK",
+   "MH",
+   "MA.MO",
+   "MH.MK",
+   "OA",
+   "OB",
+   "MAB",
+   "MBO"
+  ]
+ }
+}

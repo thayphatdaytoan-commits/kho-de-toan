@@ -1,0 +1,251 @@
+{
+ "truong": "THCS Cửu Long",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc đồ thị",
+      "Vẽ Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ điểm [[IMG:image3.png]] thuộc đồ thị [[IMG:image2.png]] sao cho [[IMG:image3.png]] có hoành độ hơn tung độ một đơn vị.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 1); (-1; -2)",
+     "loi_giai": "Gọi tọa độ điểm M là (x; y). Theo đề bài ta có y = x - 1.\nThay vào phương trình Parabol y = x^2/2 ta được x^2/2 = x - 1.\nGiải phương trình x^2 - 2x + 2 = 0 (vô nghiệm) hoặc tùy theo đề bài gốc.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm tọa độ điểm [[IMG:image3.png]] thuộc đồ thị [[IMG:image2.png]] sao cho [[IMG:image3.png]] có hoành độ hơn tung độ một đơn vị.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Cho phương trình: [[IMG:image4.png]] có hai nghiệm là [[IMG:image5.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Theo định lí Viète: x1 + x2 = 3, x1x2 = 1.\nBiểu thức = (x1 + x2)^2 - 2x1x2 - x1x2 = (x1 + x2)^2 - 3x1x2 = 3^2 - 3(1) = 6 (kiểm tra lại đề bài).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Viète: $x_1+x_2=$ {{1}}, $x_1x_2=$ {{2}}",
+       "Biểu thức $= (x_1+x_2)^2 - 3x_1x_2 = {{3}}^2 - 3 \\cdot {{4}} = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ cột kép ở Hình 1 biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó.",
+   "y": [
+    {
+     "nhan": "A",
+     "de": "Tính xác suất: Học sinh được chọn là nam.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.5",
+     "loi_giai": "Tính tổng số học sinh nam chia cho tổng số học sinh tham gia.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép ở Hình 1 biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất: Học sinh được chọn là nam.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "B",
+     "de": "Tính xác suất: Học sinh được chọn thuộc khối 8.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.25",
+     "loi_giai": "Tính tổng số học sinh khối 8 chia cho tổng số học sinh tham gia.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép ở Hình 1 biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất: Học sinh được chọn thuộc khối 8.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "C",
+     "de": "Tính xác suất: Học sinh được chọn là nữ và không thuộc khối 9.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.3",
+     "loi_giai": "Tính tổng số học sinh nữ khối 6, 7, 8 chia cho tổng số học sinh tham gia.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép ở Hình 1 biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất: Học sinh được chọn là nữ và không thuộc khối 9.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Trong một kỳ kiểm tra gồm 50 câu hỏi trắc nghiệm, mỗi câu có 4 lựa chọn và chỉ có một đáp án đúng. Nếu học sinh chọn đúng đáp án, câu đó sẽ được cộng 20 điểm; nếu chọn sai, câu đó sẽ bị trừ 5 điểm. Bạn Na đã làm bài kiểm tra này và đạt được 550 điểm. Hỏi Na đã trả lời đúng bao nhiêu câu và trả lời sai bao nhiêu câu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "đúng 32 câu; sai 18 câu",
+     "loi_giai": "Gọi x là số câu đúng, y là số câu sai (x+y=50).\n20x - 5y = 550.\nGiải hệ phương trình ta được x=32, y=18.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số câu đúng:",
+        "dap_an": "32",
+        "don_vi": "câu"
+       },
+       {
+        "nhan": "Số câu sai:",
+        "dap_an": "18",
+        "don_vi": "câu"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số câu đúng, $y$ là số câu sai (điều kiện $x, y \\in \\mathbb{N}, x+y=50$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy số câu đúng là {{3}} câu, số câu sai là {{4}} câu"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=50"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "20x-5y=550"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "32"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "18"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

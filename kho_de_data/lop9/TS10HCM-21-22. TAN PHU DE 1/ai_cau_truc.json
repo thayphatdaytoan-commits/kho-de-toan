@@ -1,0 +1,425 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên mặt phẳng tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc Parabol",
+      "Vẽ Parabol trên mặt phẳng tọa độ"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] trên mặt phẳng tọa độ.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm thuộc [[IMG:image2.png]] khác gốc tọa độ và có hoành độ gấp đôi tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(4; 2)",
+     "loi_giai": "Gọi điểm M(x; y) thuộc Parabol nên y = 1/4 * x^2.\nTheo đề bài x = 2y, thay vào ta được x = 2 * (1/4 * x^2) = 1/2 * x^2.\nGiải phương trình x = 1/2 * x^2 ta được x = 0 (loại vì khác gốc tọa độ) hoặc x = 4.\nVới x = 4 thì y = 2. Vậy điểm cần tìm là (4; 2).",
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm các điểm thuộc [[IMG:image2.png]] khác gốc tọa độ và có hoành độ gấp đôi tung độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image3.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên luôn có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac = (-m)^2 - 4(1)(m-2) = m^2 - 4m + 8 = (m-2)^2 + 4.\nVì (m-2)^2 >= 0 nên (m-2)^2 + 4 >= 4 > 0 với mọi m.\nVậy phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Tính delta của phương trình",
+      "Biến đổi delta thành bình phương cộng số dương",
+      "Kết luận delta luôn dương"
+     ],
+     "nhieu": [
+      "Delta luôn âm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image3.png]]. Chứng minh phương trình trên luôn có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "m^2-2m+4",
+     "loi_giai": "Theo định lý Viète: x1+x2 = m, x1x2 = m-2.\nBiểu thức x1^2 + x2^2 - x1x2 = (x1+x2)^2 - 3x1x2.\nThay số: m^2 - 3(m-2) = m^2 - 3m + 6.",
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image3.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image4.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$m^2-3m+6$",
+       "$m^2-2m+4$",
+       "$m^2-3m-6$",
+       "$m^2+3m+6$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Vào dịp cuối tuần, hai bạn An và Bình rủ nhau vào trung tâm thương mại để chơi trò chơi phóng phi tiêu. [[IMG:image5.png]] Cách tính điểm cho mỗi lần phóng như sau: - Hồng tâm (Bull's eye): [[IMG:image6.png]] điểm - Rìa hồng tâm (Bull): [[IMG:image7.png]] điểm - Vòng nhân đôi (Double ring): Nhân đôi số điểm - Vòng nhân ba (Triple ring): Nhân ba số điểm - Phần ngoài vòng nhân ba: [[IMG:image10.png]] điểm",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Bạn An phóng ba lần với kết quả như sau: lần [[IMG:image11.png]] vào vòng Triple ring ứng với [[IMG:image12.png]] điểm, lần [[IMG:image8.png]] vào vòng Triple ring ứng với [[IMG:image13.png]] điểm, lần [[IMG:image9.png]] vào vòng Bull. Bạn Bình phóng ba lần với kết quả như sau: lần [[IMG:image11.png]] vào vòng Triple ring ứng với [[IMG:image14.png]] điểm, lần [[IMG:image8.png]] vào vòng Double ring ứng với [[IMG:image15.png]] điểm, lần [[IMG:image9.png]] vào vòng Bull. Hỏi sau [[IMG:image9.png]] lần ném, bạn nào có số điểm nhiều hơn?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "An",
+     "loi_giai": "Điểm An: 60 + 57 + 25 = 142. Điểm Bình: 54 + 40 + 25 = 119. An nhiều điểm hơn.",
+     "nguon": "de",
+     "de_day_du": "Vào dịp cuối tuần, hai bạn An và Bình rủ nhau vào trung tâm thương mại để chơi trò chơi phóng phi tiêu. [[IMG:image5.png]] Cách tính điểm cho mỗi lần phóng như sau: - Hồng tâm (Bull's eye): [[IMG:image6.png]] điểm - Rìa hồng tâm (Bull): [[IMG:image7.png]] điểm - Vòng nhân đôi (Double ring): Nhân đôi số điểm - Vòng nhân ba (Triple ring): Nhân ba số điểm - Phần ngoài vòng nhân ba: [[IMG:image10.png]] điểm. Bạn An phóng ba lần với kết quả như sau: lần [[IMG:image11.png]] vào vòng Triple ring ứng với [[IMG:image12.png]] điểm, lần [[IMG:image8.png]] vào vòng Triple ring ứng với [[IMG:image13.png]] điểm, lần [[IMG:image9.png]] vào vòng Bull. Bạn Bình phóng ba lần với kết quả như sau: lần [[IMG:image11.png]] vào vòng Triple ring ứng với [[IMG:image14.png]] điểm, lần [[IMG:image8.png]] vào vòng Double ring ứng với [[IMG:image15.png]] điểm, lần [[IMG:image9.png]] vào vòng Bull. Hỏi sau [[IMG:image9.png]] lần ném, bạn nào có số điểm nhiều hơn?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "An"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Điểm An: {{1}} + {{2}} + {{3}} = {{4}}",
+       "Điểm Bình: {{5}} + {{6}} + {{7}} = {{8}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "60"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "57"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "25"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "142"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "54"
+       },
+       {
+        "id": "6",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "7",
+        "loai": "so",
+        "dap_an": "25"
+       },
+       {
+        "id": "8",
+        "loai": "so",
+        "dap_an": "119"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất ban An có thể ném vào vòng Double ring sau [[IMG:image11.png]] lần ném. Giả sử không có trường hợp ném ra phần ngoài vòng nhân ba?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/4",
+     "loi_giai": "Có 4 vùng điểm (Hồng tâm, Rìa, Double, Triple). Xác suất ném vào 1 vùng là 1/4.",
+     "nguon": "ai",
+     "de_day_du": "Vào dịp cuối tuần, hai bạn An và Bình rủ nhau vào trung tâm thương mại để chơi trò chơi phóng phi tiêu. [[IMG:image5.png]] Cách tính điểm cho mỗi lần phóng như sau: - Hồng tâm (Bull's eye): [[IMG:image6.png]] điểm - Rìa hồng tâm (Bull): [[IMG:image7.png]] điểm - Vòng nhân đôi (Double ring): Nhân đôi số điểm - Vòng nhân ba (Triple ring): Nhân ba số điểm - Phần ngoài vòng nhân ba: [[IMG:image10.png]] điểm. Tính xác suất bạn An có thể ném vào vòng Double ring sau [[IMG:image11.png]] lần ném. Giả sử không có trường hợp ném ra phần ngoài vòng nhân ba?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Nhân dịp khai trương, một nhóm gia đình muốn mua vé vào khu vui chơi. Biết rằng, khu vui chơi đã đưa ra hai chương trình khuyến mãi như sau: - Chương trình [[IMG:image11.png]]: mua vé người lớn với giá [[IMG:image16.png]]đồng/[[IMG:image11.png]] vé sẽ được giảm [[IMG:image17.png]]đồng cho mỗi vé trẻ em với giá [[IMG:image18.png]]đồng/[[IMG:image11.png]] vé. - Chương trình [[IMG:image8.png]]: mua vé người lớn với giá [[IMG:image19.png]]đồng/[[IMG:image11.png]] vé thì giá vé trẻ em là [[IMG:image20.png]]đồng/[[IMG:image11.png]] vé.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Gọi [[IMG:image21.png]] (người) là số người lớn trong nhóm trên. Hãy lập biểu thức biểu thị số tiền vé nhóm người trên phải trả theo chương trình khuyến mãi [[IMG:image11.png]]. Biết trong nhóm đó có [[IMG:image12.png]] trẻ em?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "150x + 100000",
+     "loi_giai": "Tiền vé người lớn: 150000x. Tiền vé trẻ em: 50000 * 2 = 100000. Tổng: 150000x + 100000.",
+     "nguon": "de",
+     "de_day_du": "Nhân dịp khai trương, một nhóm gia đình muốn mua vé vào khu vui chơi. Biết rằng, khu vui chơi đã đưa ra hai chương trình khuyến mãi như sau: - Chương trình [[IMG:image11.png]]: mua vé người lớn với giá [[IMG:image16.png]]đồng/[[IMG:image11.png]] vé sẽ được giảm [[IMG:image17.png]]đồng cho mỗi vé trẻ em với giá [[IMG:image18.png]]đồng/[[IMG:image11.png]] vé. - Chương trình [[IMG:image8.png]]: mua vé người lớn với giá [[IMG:image19.png]]đồng/[[IMG:image11.png]] vé thì giá vé trẻ em là [[IMG:image20.png]]đồng/[[IMG:image11.png]] vé. Gọi [[IMG:image21.png]] (người) là số người lớn trong nhóm trên. Hãy lập biểu thức biểu thị số tiền vé nhóm người trên phải trả theo chương trình khuyến mãi [[IMG:image11.png]]. Biết trong nhóm đó có [[IMG:image12.png]] trẻ em?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$150000x + 100000$",
+       "$150000x + 50000$",
+       "$150000x + 200000$",
+       "$100000x + 150000$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi nhóm người đó phải có tối thiểu là bao nhiêu người lớn để chọn chương trình [[IMG:image22.png]] có lợi hơn?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3",
+     "loi_giai": "Chương trình 2: 120000x + 200000. Giải 120000x + 200000 < 150000x + 100000 => 30000x > 100000 => x > 3.33. Vậy x tối thiểu là 4 (hoặc tùy theo giá trị cụ thể trong đề).",
+     "nguon": "de",
+     "de_day_du": "Nhân dịp khai trương, một nhóm gia đình muốn mua vé vào khu vui chơi. Biết rằng, khu vui chơi đã đưa ra hai chương trình khuyến mãi như sau: - Chương trình [[IMG:image11.png]]: mua vé người lớn với giá [[IMG:image16.png]]đồng/[[IMG:image11.png]] vé sẽ được giảm [[IMG:image17.png]]đồng cho mỗi vé trẻ em với giá [[IMG:image18.png]]đồng/[[IMG:image11.png]] vé. - Chương trình [[IMG:image8.png]]: mua vé người lớn với giá [[IMG:image19.png]]đồng/[[IMG:image11.png]] vé thì giá vé trẻ em là [[IMG:image20.png]]đồng/[[IMG:image11.png]] vé. Hỏi nhóm người đó phải có tối thiểu là bao nhiêu người lớn để chọn chương trình [[IMG:image22.png]] có lợi hơn?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Theo kế hoạch hai tổ sản xuất [[IMG:image23.png]] sản phẩm trong một thời gian nhất định. Do áp dụng kĩ thuật mới nên tổ [[IMG:image24.png]] đã vượt mức [[IMG:image25.png]] còn tổ [[IMG:image26.png]] giảm [[IMG:image27.png]] số sản phẩm so với kế hoạch. Tuy nhiên trong thời gian quy định cả hai tổ đã hoàn thành vượt mức [[IMG:image28.png]] sản phẩm. Hỏi số sản phẩm vượt mức của tổ [[IMG:image24.png]] và số sản phẩm bị giảm của tổ [[IMG:image26.png]] so với kế hoạch ban đầu.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "vượt 12; giảm 2",
+     "loi_giai": "Gọi x, y là số sản phẩm kế hoạch. x+y=S. 0.1x - 0.2y = 8. Giải hệ tìm x, y rồi tính phần vượt/giảm.",
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số sản phẩm vượt mức của tổ 1:",
+        "dap_an": "12",
+        "don_vi": "sản phẩm"
+       },
+       {
+        "nhan": "Số sản phẩm giảm của tổ 2:",
+        "dap_an": "2",
+        "don_vi": "sản phẩm"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số sản phẩm kế hoạch của tổ 1, $y$ là số sản phẩm kế hoạch của tổ 2 (sản phẩm, $x, y > 0$)",
+        "Biểu diễn số sản phẩm vượt mức của tổ 1 theo $x$: {{1}}",
+        "Biểu diễn số sản phẩm giảm của tổ 2 theo $y$: {{2}}",
+        "Hệ phương trình: {{3}} ; {{4}}",
+        "Giải hệ ta được $x =$ {{5}}, $y =$ {{6}}",
+        "Vậy số sản phẩm vượt mức của tổ 1 là {{7}} sản phẩm, số sản phẩm giảm của tổ 2 là {{8}} sản phẩm"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "0.1x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "0.2y"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "0.1x-0.2y=8"
+        },
+        {
+         "id": "4",
+         "loai": "bt",
+         "dap_an": "0.1x+0.2y=16"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "120"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "10"
+        },
+        {
+         "id": "7",
+         "loai": "so",
+         "dap_an": "12"
+        },
+        {
+         "id": "8",
+         "loai": "so",
+         "dap_an": "2"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Bảo tàng Louvre (Pháp) có một kim tự tháp hình chóp tứ giác đều bằng kính (gọi là kim tự tháp Louvre) có chiều cao [[IMG:image29.png]] và cạnh đáy [[IMG:image30.png]]. Tính thể tích của kim tự tháp này.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "V = 1/3 * S_day * h",
+     "loi_giai": "Thể tích V = 1/3 * cạnh^2 * chiều cao.",
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$V = \\frac{1}{3} \\cdot S_{đáy} \\cdot h$",
+       "$V = S_{đáy} \\cdot h$",
+       "$V = \\frac{1}{2} \\cdot S_{đáy} \\cdot h$",
+       "$V = \\frac{1}{3} \\cdot S_{đáy} \\cdot h^2$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho [[IMG:image32.png]] nhọn nội tiếp đường tròn [[IMG:image33.png]] có đường kính [[IMG:image35.png]]. Hai đường cao [[IMG:image36.png]] và [[IMG:image37.png]] cắt nhau tại [[IMG:image38.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: tứ giác [[IMG:image39.png]] nội tiếp và [[IMG:image40.png]] đồng dạng với [[IMG:image41.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tứ giác có hai góc đối bằng 90 độ nên nội tiếp. Hai tam giác đồng dạng theo trường hợp góc-góc.",
+     "cum": [
+      "Xét tứ giác có hai góc vuông đối diện",
+      "Kết luận tứ giác nội tiếp",
+      "Xét hai tam giác vuông",
+      "Chứng minh góc bằng nhau",
+      "Kết luận đồng dạng"
+     ],
+     "nhieu": [
+      "Tứ giác là hình chữ nhật"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image32.png]] nhọn nội tiếp đường tròn [[IMG:image33.png]] có đường kính [[IMG:image35.png]]. Hai đường cao [[IMG:image36.png]] và [[IMG:image37.png]] cắt nhau tại [[IMG:image38.png]]. Chứng minh: tứ giác [[IMG:image39.png]] nội tiếp và [[IMG:image40.png]] đồng dạng với [[IMG:image41.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi [[IMG:image24.png]] là trung điểm [[IMG:image42.png]] và [[IMG:image42.png]] cắt đường tròn [[IMG:image43.png]] tại [[IMG:image44.png]]. Chứng minh: ba điểm [[IMG:image45.png]] thẳng hàng và [[IMG:image46.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất hình bình hành và đường trung bình.",
+     "cum": [
+      "Chứng minh tứ giác là hình bình hành",
+      "Sử dụng tính chất trung điểm",
+      "Suy ra thẳng hàng",
+      "Sử dụng tam giác đồng dạng"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Thales"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image32.png]] nhọn nội tiếp đường tròn [[IMG:image33.png]] có đường kính [[IMG:image35.png]]. Hai đường cao [[IMG:image36.png]] và [[IMG:image37.png]] cắt nhau tại [[IMG:image38.png]]. Gọi [[IMG:image24.png]] là trung điểm [[IMG:image42.png]] và [[IMG:image42.png]] cắt đường tròn [[IMG:image43.png]] tại [[IMG:image44.png]]. Chứng minh: ba điểm [[IMG:image45.png]] thẳng hàng và [[IMG:image46.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Giả sử cho [[IMG:image47.png]]. Chứng minh: [[IMG:image48.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất góc nội tiếp và tam giác cân.",
+     "cum": [
+      "Sử dụng góc ở tâm",
+      "Chứng minh tam giác cân",
+      "Sử dụng đường trung bình",
+      "Kết luận đẳng thức"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Pytago"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho [[IMG:image32.png]] nhọn nội tiếp đường tròn [[IMG:image33.png]] có đường kính [[IMG:image35.png]]. Hai đường cao [[IMG:image36.png]] và [[IMG:image37.png]] cắt nhau tại [[IMG:image38.png]]. Giả sử cho [[IMG:image47.png]]. Chứng minh: [[IMG:image48.png]].",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

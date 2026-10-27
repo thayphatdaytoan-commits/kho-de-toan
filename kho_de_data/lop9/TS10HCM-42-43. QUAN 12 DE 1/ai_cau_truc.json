@@ -1,0 +1,505 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho parabol $y = \\frac{1}{4}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị trên cùng hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc parabol và vẽ đường cong parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm $x \\in \\{-4; -2; 0; 2; 4\\}$",
+      "Tính các giá trị tương ứng $y \\in \\{4; 1; 0; 1; 4\\}$",
+      "Vẽ đường cong parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho parabol $y = \\frac{1}{4}x^2$. Vẽ đồ thị trên cùng hệ trục tọa độ.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": 0,
+       "ymax": 4
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 1/4x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm thuộc parabol có hoành độ gấp hai lần tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0; 0); (8; 4)",
+     "loi_giai": "Gọi điểm $M(x; y)$ thỏa $x = 2y \\Rightarrow y = x/2$. Thay vào phương trình parabol: $x/2 = 1/4 x^2 \\Leftrightarrow 1/4 x^2 - 1/2 x = 0 \\Leftrightarrow x(x-2) = 0$. Với $x=0 \\Rightarrow y=0$. Với $x=8 \\Rightarrow y=4$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho parabol $y = \\frac{1}{4}x^2$. Tìm các điểm thuộc parabol có hoành độ gấp hai lần tung độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "0",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "8",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "0|8"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình $x^2 - 2x - 3 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính $\\Delta' = (-1)^2 - 1(-3) = 4 > 0$. Vậy phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số $a=1, b'=-1, c=-3$",
+      "Tính $\\Delta' = b'^2 - ac = (-1)^2 - 1(-3) = 4$",
+      "Vì $\\Delta' > 0$ nên phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Vì $\\Delta' < 0$ nên phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 3 = 0$. Chứng minh phương trình có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, tính giá trị của biểu thức $A = x_1^2 + x_2^2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Theo Vi-et: $x_1+x_2 = 2; x_1x_2 = -3$. $A = (x_1+x_2)^2 - 2x_1x_2 = 2^2 - 2(-3) = 4 + 6 = 10$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 3 = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, tính giá trị của biểu thức $A = x_1^2 + x_2^2$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Vi-et: $x_1+x_2 = 2; x_1x_2 = -3$",
+       "$A = (x_1+x_2)^2 - 2x_1x_2 = $ {{1}} $^2 - 2($ {{2}} $)$",
+       "$A = $ {{3}} $+ $ {{4}} $= $ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "10"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ cột kép biểu diễn lượng mưa trung bình của các tháng trong một năm ở Hà Nội và TP.HCM.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính lượng mưa chênh lệch trung bình ở hai địa điểm.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "76.5",
+     "loi_giai": "Tính tổng chênh lệch lượng mưa của 12 tháng rồi chia cho 12.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn lượng mưa trung bình của các tháng trong một năm ở Hà Nội và TP.HCM. Tính lượng mưa chênh lệch trung bình ở hai địa điểm.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Chọn ngẫu nhiên một tháng, tính xác suất biến cố lượng mưa TP.HCM > 200mm và biến cố chênh lệch không quá 50mm.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/2; 1/3",
+     "loi_giai": "Đếm số tháng thỏa mãn điều kiện trên tổng số 12 tháng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn lượng mưa trung bình của các tháng trong một năm ở Hà Nội và TP.HCM. Chọn ngẫu nhiên một tháng, tính xác suất biến cố lượng mưa TP.HCM > 200mm và biến cố chênh lệch không quá 50mm.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Xác suất biến cố 1: {{1}}; Xác suất biến cố 2: {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1/2"
+       },
+       {
+        "id": "2",
+        "answer": "1/3"
+       }
+      ]
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Mảnh vườn hình chữ nhật có chiều rộng $x$, chiều dài $x+5$. Lối đi rộng 1m bao quanh bên trong.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức diện tích phần còn lại.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x^2 + x - 6",
+     "loi_giai": "Chiều dài còn lại là $x+5-2 = x+3$. Chiều rộng còn lại là $x-2$. Diện tích = $(x+3)(x-2) = x^2 + x - 6$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Mảnh vườn hình chữ nhật có chiều rộng $x$, chiều dài $x+5$. Lối đi rộng 1m bao quanh bên trong. Viết biểu thức diện tích phần còn lại.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$x^2 + x - 6$",
+       "$x^2 + 5x - 6$",
+       "$x^2 + 3x - 10$",
+       "$x^2 + x + 6$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính diện tích khi $x=10$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "104",
+     "loi_giai": "Thay $x=10$ vào biểu thức: $10^2 + 10 - 6 = 104$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Mảnh vườn hình chữ nhật có chiều rộng $x$, chiều dài $x+5$. Lối đi rộng 1m bao quanh bên trong. Tính diện tích phần còn lại khi $x=10$.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $x=10$ vào biểu thức diện tích:",
+       "$S = $ {{1}} $^2 + $ {{2}} $- 6 = $ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "104"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Bình trụ có chiều cao 20cm, chu vi đáy 40cm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích bình.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2546.48",
+     "loi_giai": "Bán kính $r = 40/(2\\pi) \\approx 6.37$. $V = \\pi r^2 h \\approx 2546.48$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bình trụ có chiều cao 20cm, chu vi đáy 40cm. Tính thể tích bình.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính $r = 40 / (2\\pi) \\approx $ {{1}}",
+       "$V = \\pi \\cdot $ {{2}} $^2 \\cdot 20 \\approx $ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6.37"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6.37"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2546.48"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính số viên sỏi tối thiểu để mực nước dâng lên đủ uống.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "15",
+     "loi_giai": "Tính thể tích nước cần dâng thêm, chia cho thể tích mỗi viên sỏi hình cầu.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bình trụ có chiều cao 20cm, chu vi đáy 40cm. Tính số viên sỏi tối thiểu để mực nước dâng lên đủ uống.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Sản xuất Formalin từ hai loại nồng độ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích mỗi loại để có 10 lít nồng độ 40%.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5; 5",
+     "loi_giai": "Giải hệ phương trình $x+y=10$ và $0.5x + 0.3y = 0.4(10)$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Sản xuất Formalin từ hai loại nồng độ. Tính thể tích mỗi loại để có 10 lít nồng độ 40%.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Thể tích loại 50%:",
+        "dap_an": "5",
+        "don_vi": "lít"
+       },
+       {
+        "nhan": "Thể tích loại 30%:",
+        "dap_an": "5",
+        "don_vi": "lít"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải hệ ta được $x =$ {{1}}, $y =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "5"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "5"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính khoảng thể tích loại 30% khi dùng 5 lít loại 50%.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5; 15",
+     "loi_giai": "Giải bất phương trình $35 \\le 0.5(5) + 0.3y \\le 45$ với $x+y$ là tổng thể tích.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Sản xuất Formalin từ hai loại nồng độ. Tính khoảng thể tích loại 30% khi dùng 5 lít loại 50%.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho điểm A ngoài đường tròn (O), tiếp tuyến AB, AC. Đường kính BD, CD cắt (O) tại E.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác ABOC nội tiếp và BC vuông góc AO.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất tiếp tuyến và đường trung trực.",
+     "cum": [
+      "Chứng minh $\\widehat{ABO} = \\widehat{ACO} = 90^o$",
+      "Suy ra tứ giác ABOC nội tiếp đường tròn đường kính AO",
+      "Chứng minh AO là đường trung trực của BC",
+      "Kết luận BC vuông góc AO"
+     ],
+     "nhieu": [
+      "Chứng minh ABOC là hình vuông"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm A ngoài đường tròn (O), tiếp tuyến AB, AC. Đường kính BD, CD cắt (O) tại E. Chứng minh tứ giác ABOC nội tiếp và BC vuông góc AO.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh các hệ thức hình học.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tam giác đồng dạng và tính chất trung điểm.",
+     "cum": [
+      "Xét tam giác đồng dạng",
+      "Sử dụng hệ thức lượng trong tam giác vuông",
+      "Kết luận các đẳng thức cần chứng minh"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Thales đảo"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho điểm A ngoài đường tròn (O), tiếp tuyến AB, AC. Đường kính BD, CD cắt (O) tại E. Chứng minh các hệ thức hình học.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Tính toán độ dài và bán kính.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R\\sqrt{3}",
+     "loi_giai": "Sử dụng hệ thức lượng trong tam giác vuông và công thức bán kính đường tròn ngoại tiếp.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho điểm A ngoài đường tròn (O), tiếp tuyến AB, AC. Đường kính BD, CD cắt (O) tại E. Tính toán độ dài và bán kính.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$R\\\\sqrt{3}$",
+       "$2R$",
+       "$R\\\\sqrt{2}$",
+       "$R$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

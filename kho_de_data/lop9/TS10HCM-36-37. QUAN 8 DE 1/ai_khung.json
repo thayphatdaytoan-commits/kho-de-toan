@@ -1,0 +1,437 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Lập {{1}} cho hàm số $y=ax+b$"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các {{2}} thuộc đồ thị trên hệ trục tọa độ"
+    ],
+    "hint": "Xác định điểm"
+   },
+   {
+    "lines": [
+     "Vẽ {{3}} đi qua các điểm đã xác định"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "bảng giá trị"
+    ],
+    "keywords": [
+     "bảng giá trị"
+    ],
+    "placeholder": "tên bảng",
+    "maxLen": 20
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "điểm"
+    ],
+    "keywords": [
+     "điểm"
+    ],
+    "placeholder": "tên đối tượng",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "đường thẳng"
+    ],
+    "keywords": [
+     "đường thẳng"
+    ],
+    "placeholder": "tên hình",
+    "maxLen": 15
+   }
+  ],
+  "pool": [
+   "bảng giá trị",
+   "điểm",
+   "đường thẳng",
+   "đồ thị",
+   "trục tọa độ"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định các hệ số {{1}}, {{2}}, {{3}} của phương trình"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính biệt thức {{4}} hoặc nhận xét $a.c < 0$"
+    ],
+    "hint": "Tính delta"
+   },
+   {
+    "lines": [
+     "Kết luận phương trình có {{5}} phân biệt"
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "b"
+    ],
+    "keywords": [
+     "b"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "c"
+    ],
+    "keywords": [
+     "c"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "tên biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "hai nghiệm"
+    ],
+    "keywords": [
+     "hai nghiệm"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 15
+   }
+  ],
+  "pool": [
+   "a",
+   "b",
+   "c",
+   "delta",
+   "hai nghiệm",
+   "một nghiệm",
+   "vô nghiệm"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+     "• $\\widehat{OAP} = \\widehat{OBP} = {{3}}$ (tính chất tiếp tuyến)"
+    ],
+    "hint": "Xét hai tam giác vuông"
+   },
+   {
+    "lines": [
+     "Suy ra tứ giác {{4}} nội tiếp đường tròn đường kính {{5}}"
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   },
+   {
+    "lines": [
+     "Vì $OA = {{6}}$ và $PA = {{7}}$ nên $OP$ là {{8}} của $AB$"
+    ],
+    "hint": "Chứng minh trung trực"
+   },
+   {
+    "lines": [
+     "Kết luận $OA \\perp {{9}}$ tại {{10}}"
+    ],
+    "hint": "Kết luận vuông góc"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "OAP"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "OBP"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "APBO"
+    ],
+    "keywords": [],
+    "placeholder": "tên tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "OP"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "OB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "PB"
+    ],
+    "keywords": [],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "trung trực"
+    ],
+    "keywords": [],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BP"
+    ],
+    "keywords": [],
+    "placeholder": "tên đoạn thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "OAP",
+   "OBP",
+   "90^\\circ",
+   "APBO",
+   "OP",
+   "OB",
+   "PB",
+   "trung trực",
+   "BP",
+   "H",
+   "phân giác",
+   "trung tuyến",
+   "AB",
+   "OA"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có:",
+     "• $\\widehat{A} = \\widehat{B} = {{3}}$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{OA}{OB} = {{4}}$"
+    ],
+    "hint": "Tỉ số đồng dạng"
+   },
+   {
+    "lines": [
+     "Chứng minh $d(O, {{5}}) = {{6}}$"
+    ],
+    "hint": "Khoảng cách đến đường thẳng"
+   },
+   {
+    "lines": [
+     "Kết luận {{7}} là tiếp tuyến của đường tròn {{8}}"
+    ],
+    "hint": "Kết luận tiếp tuyến"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "OAC"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "OBD"
+    ],
+    "keywords": [],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "90^\\circ"
+    ],
+    "keywords": [],
+    "placeholder": "số đo góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AC/BD"
+    ],
+    "keywords": [],
+    "placeholder": "tỉ số",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "CD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "R"
+    ],
+    "keywords": [],
+    "placeholder": "bán kính",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "CD"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường thẳng",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "(O)"
+    ],
+    "keywords": [],
+    "placeholder": "tên đường tròn",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "OAC",
+   "OBD",
+   "90^\\circ",
+   "AC/BD",
+   "CD",
+   "R",
+   "(O)",
+   "AB",
+   "OC",
+   "OD",
+   "đồng vị",
+   "cạnh chung"
+  ]
+ }
+}

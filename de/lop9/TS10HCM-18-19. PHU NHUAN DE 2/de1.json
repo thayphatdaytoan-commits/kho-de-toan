@@ -1,0 +1,1138 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – 19. PHU NHUAN DE 2 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 5
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$",
+     "explanation": "Bảng giá trị:\n$x$: $-2$; $-1$; $0$; $1$; $2$\n$y=\\frac{1}{2}x^2$: $2$; $\\frac{1}{2}$; $0$; $\\frac{1}{2}$; $2$\nVẽ Parabol $(P)$ đi qua các điểm trên.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Quỹ đạo được biểu diễn bằng hàm số $y=-x^2+4x$. Minh muốn tìm các vị trí trên quỹ đạo mà độ cao của quả bóng so với mặt đất là $3$ m. Hỏi tại những điểm nào trên mặt phẳng, quả bóng đạt được độ cao này?",
+     "explanation": "Gọi các điểm thỏa mãn đề bài là $M(x;y)$.\nVì $y=3$ nên $-x^2+4x=3$.\nSuy ra $x^2-4x+3=0$.\nGiải được $x=1$ hoặc $x=3$.\nVậy tọa độ điểm $M_1(1;3)$; $M_2(3;3)$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$x_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D01",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 5,
+   "n": 1,
+   "type": "essay",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "bai_goc": "Bài 2",
+   "points": 1,
+   "question": "Cho phương trình: $x^2-3x-2=0$ có hai nghiệm là $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức: $A=\\frac{x_1}{x_2}+\\frac{x_2}{x_1}$",
+   "explanation": "Ta có: $\\Delta=(-3)^2-4\\cdot1\\cdot(-2)=17>0$.\nDo đó phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.\nTheo Viète, ta có: $x_1+x_2=3$; $x_1x_2=-2$.\n$A=\\frac{x_1}{x_2}+\\frac{x_2}{x_1}=\\frac{x_1^2+x_2^2}{x_1x_2}=\\frac{(x_1+x_2)^2-2x_1x_2}{x_1x_2}$\n$A=\\frac{3^2-2\\cdot(-2)}{-2}=\\frac{13}{-2}=-\\frac{13}{2}$.",
+   "ma": "de1.P5.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 5,
+    "so_dau_bang": 10,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $S(x)$ biểu diễn theo $x$ diện tích của vườn hoa hình chữ nhật sau khi được mở rộng?",
+     "explanation": "Biểu thức $S(x)$ biểu diễn theo $x$ diện tích của vườn hoa hình chữ nhật sau khi được mở rộng: $S(x)=(8+x)(5+x)=x^2+13x+40$.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "$x^2+8x+5$",
+      "$x^2+40x+13$",
+      "$x^2+13x+13$",
+      "$x^2+13x+40$"
+     ],
+     "correctAnswer": 3
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết rằng sau khi mở rộng thì diện tích của vườn lớn hơn diện tích ban đầu là $50$ m$^2$. Tìm giá trị của $x$, làm tròn kết quả đến hàng phần mười?",
+     "explanation": "Sau khi mở rộng thì diện tích của vườn lớn hơn diện tích ban đầu là $50$ m$^2$ nên ta có phương trình:\n$x^2+13x+40-8\\cdot5=50$\n$x^2+13x-50=0$\nGiải phương trình ta tìm được $x\\approx3,4$ (nhận) hoặc $x\\approx-16,4$ (loại).\nVậy $x\\approx3,4$ m.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x =$ {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3.4"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là độ dài phần mở rộng (m, $x > 0$)",
+       "Phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}",
+       "Vậy $x$ là {{3}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x^2+13x-50=0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3.4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3.4"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Nhà bác An có một khu vườn trồng hoa hình chữ nhật có chiều dài và chiều rộng lần lượt là $8$ m và $5$ m. Bác An dự tính mở rộng thêm vườn bằng cách cải tạo thêm $x$ m về phía ngoài của chiều dài và chiều rộng như hình vẽ. [[IMG:image14.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Một lon nước ngọt cao $15$ cm (phần chứa chất lỏng), đường kính đáy là $5$ cm. Hỏi lon nước ngọt cao này có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao? Biết thể tích hình trụ: $V=\\pi r^2h$, (với $\\pi\\approx3,14$).",
+     "explanation": "Thể tích của lon nước ngọt cao là: $V=\\pi r^2h\\approx3,14\\cdot(2,5)^2\\cdot15\\approx294,4$ (cm$^3$).\nVì $294,4$ ml $<330$ ml nên lon nước ngọt cao này không thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "Bằng nhau",
+      "Không",
+      "Không xác định",
+      "Có"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Vì sao chi phí sản xuất chiếc lon cao tốn kém hơn chiếc lon cỡ phổ biến? Biết diện tích xung quanh, diện tích toàn phần hình trụ được tính theo công thức: $S_{xq}=2\\pi rh$; $S_{tp}=2\\pi rh+2\\pi r^2$",
+     "explanation": "Diện tích vỏ nhôm của lon cao: $S_{tp}=2\\pi rh+2\\pi r^2\\approx2\\cdot3,14\\cdot2,5\\cdot15+2\\cdot3,14\\cdot(2,5)^2\\approx274,75$ (cm$^2$).\nDiện tích vỏ nhôm của lon cũ: $S_{tp}=2\\pi rh+2\\pi r^2\\approx2\\cdot3,14\\cdot3\\cdot12+2\\cdot3,14\\cdot3^2\\approx282,6$ (cm$^2$).\nVì $274,75<282,6$ nên giá thành lon cao mắc hơn.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Diện tích lon cao: $S_{tp} = 2\\pi rh + 2\\pi r^2 \\approx {{1}}$ cm$^2$",
+         "Diện tích lon phổ biến: $S_{tp} = 2\\pi rh + 2\\pi r^2 \\approx {{2}}$ cm$^2$"
+        ],
+        "hint": "Tính diện tích toàn phần"
+       },
+       {
+        "lines": [
+         "Vì {{3}} < {{4}} nên chi phí lon cao {{5}} hơn"
+        ],
+        "hint": "So sánh chi phí"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "274.75"
+        ],
+        "keywords": [
+         "274.75"
+        ],
+        "placeholder": "số",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "282.6"
+        ],
+        "keywords": [
+         "282.6"
+        ],
+        "placeholder": "số",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "274.75"
+        ],
+        "keywords": [
+         "274.75"
+        ],
+        "placeholder": "số",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "282.6"
+        ],
+        "keywords": [
+         "282.6"
+        ],
+        "placeholder": "số",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "tốn kém",
+         "đắt"
+        ],
+        "keywords": [
+         "tốn kém",
+         "đắt"
+        ],
+        "placeholder": "từ khóa",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "274.75",
+       "282.6",
+       "tốn kém",
+       "rẻ",
+       "bằng"
+      ],
+      "ordered": false
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 4",
+   "question": "Nước giải khát thường đựng trong lon nhôm và cỡ lon phổ biến chứa được khoảng $330$ ml chất lỏng, được thiết kế hình trụ với chiều cao khoảng $12$ cm (phần chứa chất lỏng), đường kính đáy khoảng $6$ cm. Nhưng hiện nay các nhà sản xuất có xu hướng tạo ra những lon nhôm với kiểu dáng thon hơn. Tuy chi phí sản xuất những chiếc lon cao này tốn kém hơn, nhưng nó lại dễ đánh lừa thị giác và được người tiêu dùng ưu chuộng hơn. [[IMG:image20.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Tỉ lệ học sinh nam: {{1}} %",
+     "Tỉ lệ học sinh nữ: {{2}} %"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "60"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "40"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số học sinh nam, $y$ là số học sinh nữ (học sinh, $x,y \\in \\mathbb{N}^*$)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+     "Vậy tỉ lệ nam là {{5}}% và nữ là {{6}}%"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x/5+2=(x+60)/7"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "y/4+1=(y+70)/6"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "300"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "200"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "60"
+     },
+     {
+      "id": "6",
+      "loai": "so",
+      "dap_an": "40"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Trong kì thi tuyển sinh vào lớp $10$, trường THPT $A$ đã tuyển sinh vào lớp $10$ thông qua $3$ nguyện vọng (NV).\n▪ Với NV$1$, nhà trường đã chia học sinh nam và nữ thành các nhóm nhỏ, mỗi nhóm học sinh nam có $5$ bạn, mỗi nhóm học sinh nữ có $4$ bạn thì vừa đủ\n▪ Sau đó, trường tuyển thêm NV$2$ được $60$ bạn và chia thêm được $2$ nhóm nam, mỗi nhóm thêm $2$ bạn, thêm $1$ nhóm nữ, mỗi nhóm thêm $3$ bạn.\n▪ Với NV$3$, nhà trường tuyển thêm được $70$ học sinh và chia vừa đủ vào mỗi nhóm nam thêm $3$ bạn và mỗi nhóm nữ thêm $2$ bạn\nHãy tính tổng số học sinh trúng tuyển vào lớp $10$ tại trường THPT $A$ và tính tỉ lệ phần trăm học sinh nam và nữ đã trúng tuyển của trường",
+   "explanation": "Gọi số học sinh nam trúng tuyển vào lớp $10$ tại trường THPT $A$ là $x$ (học sinh)\nSố học sinh nữ trúng tuyển vào lớp $10$ tại trường THPT $A$ là $y$ (học sinh)\nĐK: $x,y\\in\\mathbb{N}^*$\n▪ Với NV$1$, mỗi nhóm nam có $5$ bạn, mỗi nhóm nữ có $4$ bạn thì vừa đủ.\nSau đó tuyển thêm NV$2$ được $60$ bạn và chia thêm được $2$ nhóm nam, mỗi nhóm thêm $2$ bạn, thêm $1$ nhóm nữ, mỗi nhóm thêm $3$ bạn.\nNên $\\frac{x}{5}+2=\\frac{x+?}{?}$... \nSuy ra $x=...$\n▪ Với NV$3$, nhà trường tuyển thêm được $70$ học sinh và chia vừa đủ vào mỗi nhóm nam thêm $3$ bạn và mỗi nhóm nữ thêm $2$ bạn.\nTa có hệ phương trình: ... Nên $x=...; y=...$ (Thỏa mãn)\nVậy tổng số học sinh trúng tuyển vào lớp $10$ tại trường THPT $A$ là $...$ (học sinh)\nTỉ lệ phần trăm học sinh nam là $60\\%$ và nữ là $40\\%$.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Lớp $9A$ có bao nhiêu học sinh? Có bao nhiêu học sinh đạt điểm khá?",
+     "explanation": "Số học sinh lớp $9A$ là: $4:10\\%=40$ (học sinh)\nSố học sinh đạt điểm khá (điểm $7$) là: $40\\cdot30\\%=12$ (học sinh)",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh lớp 9A là: $4 : 10\\% =$ {{1}} (học sinh)",
+       "Số học sinh đạt điểm khá là: {{2}} $\\cdot 30\\% =$ {{3}} (học sinh)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "12"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Có bao nhiêu học sinh trên $7$ điểm? Tính xác suất của biến cố $A$: “Học sinh được chọn đạt điểm tốt”",
+     "explanation": "Tần số tương đối của các học sinh được chọn đạt trên $7$ điểm là: $35\\%+10\\%=45\\%$\nSố học sinh đạt trên $7$ điểm là: $40\\cdot45\\%=18$ (học sinh)\nPhần trăm học sinh đạt điểm tốt là: $35\\%+10\\%=45\\%$\nXác suất của biến cố $A$ là: $\\frac{18}{40}=\\frac{9}{20}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh đạt trên 7 điểm là: $40 \\cdot (35\\% + 10\\%) =$ {{1}} (học sinh)",
+       "Xác suất của biến cố A là: $\\frac{ {{2}} }{40} = \\frac{9}{20}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "18"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "18"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 6",
+   "question": "Thống kê điểm kiểm tra môn Anh Văn của các học sinh lớp $9A$ được cho bởi bảng sau:\n[[TABLE]]| Điểm số | $6$ | $7$ | $8$ | $9$ |\n|---|---|---|---|---|\n| Tần số tương đối | $25\\%$ | $30\\%$ | $35\\%$ | $10\\%$ |\nChọn ngẫu nhiên 1 học sinh lớp $9A$. Biết rằng có $4$ học sinh lớp $9A$ được $9$ điểm",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D04",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: bốn điểm $A$, $O$, $B$, $C$ cùng thuộc một đường tròn và $OA\\perp BC$ tại $H$.",
+     "explanation": "Gọi $M$ là trung điểm của $OA$.\nXét $\\triangle ABO$ vuông tại $B$ có: $BM$ là đường trung tuyến nên $BM=\\frac{OA}{2}=AM=OM$.\nChứng minh tương tự $\\triangle ACO$ ta có: $CM=\\frac{OA}{2}=AM=OM$.\nTừ đó $MA=MB=MC=MO$ nên bốn điểm $A$, $O$, $B$, $C$ cùng thuộc đường tròn tâm $M$.\nTa có: $AB=AC$ (tính chất hai tiếp tuyến $AB$ và $AC$ cắt nhau)\n$OB=OC=R$\nNên $OA$ là đường trung trực của $BC$.\nVậy $OA\\perp BC$ tại $H$.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Gọi {{1}} là trung điểm của {{2}}.",
+         "Xét $\\triangle {{3}}$ vuông tại {{4}} có {{5}} là đường trung tuyến nên {{6}} = {{7}} = {{8}} = {{9}}"
+        ],
+        "hint": "Xét tam giác vuông và trung tuyến"
+       },
+       {
+        "lines": [
+         "Chứng minh tương tự $\\triangle {{10}}$ ta có {{11}} = {{12}} = {{13}} = {{14}}",
+         "Từ đó {{15}} = {{16}} = {{17}} = {{18}} nên bốn điểm $A, O, B, C$ cùng thuộc đường tròn tâm {{19}}"
+        ],
+        "hint": "Chứng minh bốn điểm cùng đường tròn"
+       },
+       {
+        "lines": [
+         "Ta có {{20}} = {{21}} (tính chất hai tiếp tuyến cắt nhau) và {{22}} = {{23}} = R",
+         "Nên {{24}} là đường trung trực của {{25}}",
+         "Vậy {{26}} $\\perp$ {{27}} tại {{28}}"
+        ],
+        "hint": "Chứng minh đường trung trực"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "ABO"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "BM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "BM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "OA/2"
+        ],
+        "keywords": [],
+        "placeholder": "công thức",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "AM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "OM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "ACO"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "CM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "OA/2"
+        ],
+        "keywords": [],
+        "placeholder": "công thức",
+        "maxLen": 5
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "AM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "OM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "MB"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "17",
+        "mode": "drag",
+        "answers": [
+         "MC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "18",
+        "mode": "drag",
+        "answers": [
+         "MO"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "19",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "20",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "21",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "22",
+        "mode": "drag",
+        "answers": [
+         "OB"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "23",
+        "mode": "drag",
+        "answers": [
+         "OC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "24",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "25",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "26",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "27",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "28",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "M",
+       "OA",
+       "ABO",
+       "B",
+       "BM",
+       "OA/2",
+       "AM",
+       "OM",
+       "ACO",
+       "CM",
+       "MA",
+       "MB",
+       "MC",
+       "MO",
+       "AB",
+       "AC",
+       "OB",
+       "OC",
+       "BC",
+       "H",
+       "C",
+       "O",
+       "g.g",
+       "c.g.c"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Vẽ đường kính $BD$ của đường tròn $(O)$. Đoạn thẳng $AD$ cắt đường tròn $(O)$ tại điểm $E$ ($E$ khác $D$). Chứng minh: $AB^2=AE\\cdot AD$ và $HE\\cdot HD=HB\\cdot HC$",
+     "explanation": "Chứng minh: $AB^2=AE\\cdot AD$\nXét $\\triangle ABE$ và $\\triangle ADB$, ta có:\n$\\widehat{BAE}$ chung\nVà $\\widehat{ABE}=\\widehat{ADB}$ (góc nội tiếp và góc tạo bởi tiếp tuyến cùng chắn cung $BE$)\nVậy $\\triangle ABE\\sim\\triangle ADB$ (g.g)\nNên $\\frac{AB}{AD}=\\frac{AE}{AB}$\nVậy $AB^2=AE\\cdot AD$.\nChứng minh: $HE\\cdot HD=HB\\cdot HC$\nTa có $\\widehat{BED}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn $(O)$ đường kính $BD$)\nNên $BE\\perp AD$ tại $E$.\nXét $\\triangle HBE$ và $\\triangle HDC$, ta có:\n$\\widehat{BHE}=\\widehat{DHC}$ (đối đỉnh)\n$\\widehat{BEH}=\\widehat{DCH}=90^\\circ$ (vì $BE\\perp AD$ tại $E$, $OA\\perp BC$ tại $H$)\nVậy $\\triangle HBE\\sim\\triangle HDC$ (g.g)\nNên $\\frac{HB}{HD}=\\frac{HE}{HC}$\nVậy $HE\\cdot HD=HB\\cdot HC$.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$ có $\\widehat{BAE}$ chung và $\\widehat{ABE} = \\widehat{ADB}$ (góc nội tiếp và góc tạo bởi tiếp tuyến cùng chắn cung {{3}})",
+         "Vậy $\\triangle {{4}} \\sim \\triangle {{5}}$ ({{6}}) nên $\\frac{AB}{AD} = \\frac{AE}{AB}$, suy ra $AB^2 = AE \\cdot AD$"
+        ],
+        "hint": "Chứng minh tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Ta có $\\widehat{BED} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính {{7}}) nên {{8}} $\\perp$ {{9}} tại {{10}}",
+         "Xét $\\triangle {{11}}$ và $\\triangle {{12}}$ có $\\widehat{BHE} = \\widehat{DHC}$ ({{13}}) và $\\widehat{BEH} = \\widehat{DCH} = 90^\\circ$",
+         "Vậy $\\triangle {{14}} \\sim \\triangle {{15}}$ ({{16}}) nên $\\frac{HB}{HD} = \\frac{HE}{HC}$, suy ra $HE \\cdot HD = HB \\cdot HC$"
+        ],
+        "hint": "Chứng minh hệ thức lượng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ABE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "ADB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "cung",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "ABE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "ADB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "BD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "AD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "HBE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "HDC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "đối đỉnh"
+        ],
+        "keywords": [],
+        "placeholder": "lý do",
+        "maxLen": 10
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "HBE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "HDC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 5
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "ABE",
+       "ADB",
+       "BE",
+       "g.g",
+       "BD",
+       "AD",
+       "E",
+       "HBE",
+       "HDC",
+       "đối đỉnh",
+       "c.c.c",
+       "c.g.c",
+       "đồng vị",
+       "so le trong"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Biết bán kính $R=6$ cm. Tính diện tích hình phẳng giới hạn bởi $AB$, $AC$ và cung $BC$ nhỏ, làm tròn kết quả đến hàng đơn vị.",
+     "explanation": "Xét $\\triangle ABO$ vuông tại $B$ ta có: $\\sin\\widehat{AOB}=\\frac{AB}{AO}$... \nSuy ra $\\widehat{AOB}=...$\nMà $\\widehat{BOC}=2\\widehat{AOB}$ (tính chất hai tiếp tuyến $AB$ và $AC$ cắt nhau tại $A$)\nNên $\\widehat{BOC}=...$\nVậy $S_{ABOC}=...$\nNên sđ cung $BC$ nhỏ $=...$\nDiện tích hình phẳng giới hạn bởi $AB$, $AC$ và cung nhỏ $BC$ là:\n$S=S_{ABOC}-S_{quat}=\\ldots\\approx39$ (cm$^2$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "39"
+    }
+   ],
+   "points": 2,
+   "bai_goc": "Bài 7",
+   "question": "Cho điểm $A$ nằm ngoài $(O)$ với $OA>R$, vẽ $2$ tiếp tuyến $AB$ và $AC$ đến đường tròn $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:image121.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D02",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  }
+ ],
+ "flags": []
+}

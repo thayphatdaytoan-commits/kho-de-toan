@@ -1,0 +1,364 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó trên hệ trục tọa độ.",
+     "cum": [
+      "Lập bảng giá trị cho các điểm có hoành độ -2, -1, 0, 1, 2",
+      "Xác định các điểm tương ứng trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ giao điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] và [[IMG:image4.png]] có tung độ bằng [[IMG:image5.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(-2; 2); (2; 2)",
+     "loi_giai": "Thay y = 2 vào phương trình Parabol y = 0.5x^2 ta được 0.5x^2 = 2 => x^2 = 4 => x = 2 hoặc x = -2. Vậy tọa độ giao điểm là (-2; 2) và (2; 2).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]. Tìm tọa độ giao điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] và [[IMG:image4.png]] có tung độ bằng [[IMG:image5.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ giao điểm thứ nhất: ({{1}}; {{2}}); Tọa độ giao điểm thứ hai: ({{3}}; {{4}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "-2"
+       },
+       {
+        "id": "2",
+        "answer": "2"
+       },
+       {
+        "id": "3",
+        "answer": "2"
+       },
+       {
+        "id": "4",
+        "answer": "2"
+       }
+      ]
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image6.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình có hai nghiệm phân biệt là [[IMG:image7.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac. Vì delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a=1, b=-3, c=1",
+      "Tính delta = (-3)^2 - 4(1)(1) = 5",
+      "Vì delta > 0 nên phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Vì delta < 0 nên phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image6.png]]. Chứng minh phương trình có hai nghiệm phân biệt là [[IMG:image7.png]].",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image8.png]].",
+     "loi_giai": "Theo Viète: x1+x2=3, x1x2=1. Biểu thức = (x1+x2)^2 - 2x1x2 = 3^2 - 2(1) = 7.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image6.png]]. Biết phương trình có hai nghiệm phân biệt là [[IMG:image7.png]], không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image8.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một khu đất hình chữ nhật có chiều rộng là x (m), chiều dài hơn chiều rộng 6 m. Bên trong có một hồ nước hình vuông. Biết diện tích phần còn lại của khu vườn là 214 m2.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức [[IMG:image11.png]] tính độ dài cạnh của hồ nước hình vuông theo [[IMG:image12.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "sqrt(x^2+6x-214)",
+     "loi_giai": "Diện tích khu đất là x(x+6) = x^2+6x. Diện tích hồ nước là x^2+6x-214. Cạnh hồ nước là sqrt(x^2+6x-214).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khu đất hình chữ nhật có chiều rộng là x (m), chiều dài hơn chiều rộng 6 m. Bên trong có một hồ nước hình vuông. Biết diện tích phần còn lại của khu vườn là 214 m2. Viết biểu thức [[IMG:image11.png]] tính độ dài cạnh của hồ nước hình vuông theo [[IMG:image12.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$S = \\sqrt{x^2+6x-214}$",
+       "$S = \\sqrt{x^2-6x-214}$",
+       "$S = \\sqrt{x^2+6x+214}$",
+       "$S = \\sqrt{x^2-6x+214}$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính độ dài cạnh hình vuông khi [[IMG:image13.png]]. (Kết quả làm tròn đến hàng phần mười).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "12.2",
+     "loi_giai": "Thay x=20 vào biểu thức: sqrt(20^2 + 6*20 - 214) = sqrt(400 + 120 - 214) = sqrt(306) xấp xỉ 12.2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khu đất hình chữ nhật có chiều rộng là x (m), chiều dài hơn chiều rộng 6 m. Bên trong có một hồ nước hình vuông. Biết diện tích phần còn lại của khu vườn là 214 m2 và biểu thức [[IMG:image11.png]] tính độ dài cạnh của hồ nước hình vuông theo [[IMG:image12.png]]. Tính độ dài cạnh hình vuông khi [[IMG:image13.png]]. (Kết quả làm tròn đến hàng phần mười).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một bình hình trụ có đường kính đáy là 40cm và chiều cao là 60cm. Công thức tính thể tích hình trụ là: [[IMG:image19.png]], trong đó R là bán kính đáy, h là chiều cao. Công thức tính thể tích hình cầu là: [[IMG:image22.png]] với R là bán kính hình cầu, lấy [[IMG:image23.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích nước cần đổ vào để nước trong bình cao 50cm. Biết lúc đầu bình không chứa nước.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "62800",
+     "loi_giai": "R = 20cm, h = 50cm. V = 3.14 * 20^2 * 50 = 62800 cm3.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bình hình trụ có đường kính đáy là 40cm và chiều cao là 60cm. Công thức tính thể tích hình trụ là: [[IMG:image19.png]], trong đó R là bán kính đáy, h là chiều cao. Công thức tính thể tích hình cầu là: [[IMG:image22.png]] với R là bán kính hình cầu, lấy [[IMG:image23.png]]. Tính thể tích nước cần đổ vào để nước trong bình cao 50cm. Biết lúc đầu bình không chứa nước.",
+     "diem": 0.625,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Người ta có một số viên bi hình cầu (không thấm nước) có cùng bán kính là 6cm. Có thể thả vào bình nhiều nhất bao nhiêu viên bi để nước trong bình không tràn ra ngoài? Biết các viên bi khi thả vào sẽ chìm xuống đáy bình.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "18",
+     "loi_giai": "Thể tích còn lại của bình là 3.14 * 20^2 * (60-50) = 12560 cm3. Thể tích 1 viên bi là 4/3 * 3.14 * 6^3 = 904.32 cm3. Số bi = 12560 / 904.32 xấp xỉ 13.89. Vậy tối đa 13 viên.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Một bình hình trụ có đường kính đáy là 40cm và chiều cao là 60cm. Công thức tính thể tích hình trụ là: [[IMG:image19.png]], trong đó R là bán kính đáy, h là chiều cao. Công thức tính thể tích hình cầu là: [[IMG:image22.png]] với R là bán kính hình cầu, lấy [[IMG:image23.png]]. Người ta có một số viên bi hình cầu (không thấm nước) có cùng bán kính là 6cm. Có thể thả vào bình nhiều nhất bao nhiêu viên bi để nước trong bình không tràn ra ngoài? Biết các viên bi khi thả vào sẽ chìm xuống đáy bình.",
+     "diem": 0.625,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Trong đợt khuyến mãi nhân dịp kỉ niệm ngày Quốc khánh 2/9, siêu thị A giảm giá cho một thùng nước ngọt là 10% và một thùng sữa tươi là 20% so với giá niêm yết. Một khách hàng đã mua 2 thùng nước ngọt và 1 thùng sữa tươi thì phải trả số tiền là 362 000 đồng. Nhưng nếu mua trong khung giờ vàng thì một thùng nước ngọt được giảm giá 20% còn một thùng sữa tươi được giảm giá 30% so với giá niêm yết. Một khách hàng khác đã mua 3 thùng nước ngọt và 2 thùng sữa tươi trong khung giờ vàng chỉ phải trả số tiền là 552 000 đồng. Tính giá niêm yết của mỗi thùng nước ngọt và mỗi thùng sữa tươi?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "nước ngọt: 180000; sữa tươi: 200000",
+     "loi_giai": "Gọi x, y là giá niêm yết. Hệ: 2(0.9x) + 1(0.8y) = 362000 và 3(0.8x) + 2(0.7y) = 552000. Giải hệ được x=180000, y=200000.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Giá niêm yết thùng nước ngọt: {{1}} đồng; Giá niêm yết thùng sữa tươi: {{2}} đồng",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "180000"
+       },
+       {
+        "id": "2",
+        "answer": "200000"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Trong một nhóm gồm 10 học sinh lớp 9 có 5 bạn học trường Quang Trung; 3 bạn học trường Nguyễn Huệ và 2 bạn học trường Tây Sơn. Chọn ngẫu nhiên 1 học sinh trong 10 học sinh đó.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Không gian mẫu của phép thử có bao nhiêu phần tử?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Chọn 1 trong 10 học sinh nên có 10 phần tử.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Trong một nhóm gồm 10 học sinh lớp 9 có 5 bạn học trường Quang Trung; 3 bạn học trường Nguyễn Huệ và 2 bạn học trường Tây Sơn. Chọn ngẫu nhiên 1 học sinh trong 10 học sinh đó. Không gian mẫu của phép thử có bao nhiêu phần tử?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của mỗi biến cố sau: A: “Bạn học sinh được chọn học trường Quang Trung”; B: “Bạn học sinh được chọn không học trường Tây Sơn”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=0.5; P(B)=0.8",
+     "loi_giai": "P(A) = 5/10 = 0.5. P(B) = (10-2)/10 = 0.8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Trong một nhóm gồm 10 học sinh lớp 9 có 5 bạn học trường Quang Trung; 3 bạn học trường Nguyễn Huệ và 2 bạn học trường Tây Sơn. Chọn ngẫu nhiên 1 học sinh trong 10 học sinh đó. Tính xác suất của mỗi biến cố sau: A: “Bạn học sinh được chọn học trường Quang Trung”; B: “Bạn học sinh được chọn không học trường Tây Sơn”.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}}; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0.5"
+       },
+       {
+        "id": "2",
+        "answer": "0.8"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Từ điểm A nằm ở ngoài đường tròn (O) vẽ hai tiếp tuyến AB, AC đến đường tròn (O) (B, C là hai tiếp điểm). Vẽ đường kính CD của đường tròn (O). Gọi H là giao điểm của BC và OA.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh 4 điểm B, A, C, O cùng thuộc một đường tròn và OA vuông góc BC tại H.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh góc ABO = góc ACO = 90 độ. OA là trung trực của BC.",
+     "cum": [
+      "Góc ABO = 90 độ (tính chất tiếp tuyến)",
+      "Góc ACO = 90 độ (tính chất tiếp tuyến)",
+      "B, C cùng nhìn OA dưới góc 90 độ nên B, A, C, O thuộc đường tròn đường kính OA",
+      "AB = AC (tính chất hai tiếp tuyến cắt nhau)",
+      "OB = OC (bán kính)",
+      "OA là đường trung trực của BC",
+      "OA vuông góc BC tại H"
+     ],
+     "nhieu": [
+      "OA song song BC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ở ngoài đường tròn (O) vẽ hai tiếp tuyến AB, AC đến đường tròn (O) (B, C là hai tiếp điểm). Vẽ đường kính CD của đường tròn (O). Gọi H là giao điểm của BC và OA. Chứng minh 4 điểm B, A, C, O cùng thuộc một đường tròn và OA vuông góc BC tại H.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Kẻ BE vuông góc CD, BE cắt AD tại F. Chứng minh tam giác HCE đồng dạng tam giác ADC và F là trung điểm BE.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất tam giác đồng dạng và định lý Thales.",
+     "cum": [
+      "Chứng minh tam giác HCE đồng dạng tam giác ADC (g-g)",
+      "Suy ra tỉ số cạnh tương ứng",
+      "Sử dụng tính chất đường trung bình hoặc định lý Thales để chứng minh F là trung điểm BE"
+     ],
+     "nhieu": [
+      "Tam giác HCE bằng tam giác ADC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ở ngoài đường tròn (O) vẽ hai tiếp tuyến AB, AC đến đường tròn (O) (B, C là hai tiếp điểm). Vẽ đường kính CD của đường tròn (O). Gọi H là giao điểm của BC và OA. Biết OA vuông góc BC tại H. Kẻ BE vuông góc CD, BE cắt AD tại F. Chứng minh tam giác HCE đồng dạng tam giác ADC và F là trung điểm BE.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Gọi I là giao điểm của AD và BC. Khi OA = 2R, tính theo R diện tích tam giác AHI.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R^2*sqrt(3)/8",
+     "loi_giai": "Tính toán dựa trên các tỉ lệ cạnh trong tam giác vuông và tính chất hình học.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ở ngoài đường tròn (O) vẽ hai tiếp tuyến AB, AC đến đường tròn (O) (B, C là hai tiếp điểm). Vẽ đường kính CD của đường tròn (O). Gọi H là giao điểm của BC và OA. Gọi I là giao điểm của AD và BC. Khi OA = 2R, tính theo R diện tích tam giác AHI.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$\\frac{R^2\\sqrt{3}}{8}$",
+       "$\\frac{R^2\\sqrt{3}}{4}$",
+       "$\\frac{R^2\\sqrt{2}}{8}$",
+       "$\\frac{R^2}{8}$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

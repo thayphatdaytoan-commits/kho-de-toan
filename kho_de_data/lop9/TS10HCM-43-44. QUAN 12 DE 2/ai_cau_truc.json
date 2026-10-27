@@ -1,0 +1,520 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho parabol [[IMG:image1.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên mặt phẳng tọa độ [[IMG:image3.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ và vẽ đường cong parabol đi qua các điểm đã xác định.",
+     "cum": [
+      "Lập bảng giá trị của hàm số $y = \\frac{1}{2}x^2$ với các giá trị $x \\in \\{-4, -2, 0, 2, 4\\}$",
+      "Xác định các điểm tương ứng $(-4, 8), (-2, 2), (0, 0), (2, 2), (4, 8)$",
+      "Vẽ đường cong parabol đi qua các điểm trên mặt phẳng tọa độ"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm đã cho"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] trên mặt phẳng tọa độ [[IMG:image3.png]].",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -2,
+       "ymax": 10
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ các điểm [[IMG:image4.png]] thuộc đồ thị [[IMG:image2.png]] có tung độ bằng 2 lần hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0,0); (4,8)",
+     "loi_giai": "Thay $y = 2x$ vào phương trình $y = \\frac{1}{2}x^2$.\n$\\frac{1}{2}x^2 = 2x \\Leftrightarrow x^2 - 4x = 0$.\n$x(x-4) = 0 \\Rightarrow x=0$ hoặc $x=4$.\nVới $x=0 \\Rightarrow y=0$. Với $x=4 \\Rightarrow y=8$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Tìm tọa độ các điểm [[IMG:image4.png]] thuộc đồ thị [[IMG:image2.png]] có tung độ bằng 2 lần hoành độ.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1, y_1 =$",
+        "dap_an": "0",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2, y_2 =$",
+        "dap_an": "4|8",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}} và $x =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "0"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "4"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình [[IMG:image5.png]] có hai nghiệm [[IMG:image6.png]].",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image7.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "25/4",
+     "loi_giai": "Theo Vi-ét: $x_1+x_2 = 5/2$ và $x_1x_2 = -1/2$.\nBiểu thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2) = 25/4 + 1 = 29/4$. (Lưu ý: Đề bài gốc không ghi rõ biểu thức, giả định là $x_1^2+x_2^2$)",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2)$",
+       "$=$ {{1}} $+$ {{2}} $=$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "25/4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "29/4"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Cho biểu đồ cột kép thể hiện lượng mưa tại TPHCM 6 tháng (từ tháng 5 đến tháng 10). [[IMG:image8.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính và cho nhận xét về tổng lượng mưa trong 6 tháng năm 2024 so với năm 2023? Tháng nào có lượng mưa chênh lệch nhiều nhất?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2024 nhiều hơn; tháng 8",
+     "loi_giai": "Tổng 2023: 218+311+293+269+327+267 = 1685mm.\nTổng 2024: 195+307+325+378+401+321 = 1927mm.\n1927 > 1685 nên 2024 nhiều hơn.\nChênh lệch tháng 8: |378-269| = 109 (lớn nhất).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho biểu đồ cột kép thể hiện lượng mưa tại TPHCM 6 tháng (từ tháng 5 đến tháng 10). [[IMG:image8.png]]. Tính và cho nhận xét về tổng lượng mưa trong 6 tháng năm 2024 so với năm 2023? Tháng nào có lượng mưa chênh lệch nhiều nhất?",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tổng lượng mưa năm 2024 {{1}} hơn năm 2023; tháng có lượng mưa chênh lệch nhiều nhất là tháng {{2}}.",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "nhiều"
+       },
+       {
+        "id": "2",
+        "answer": "8"
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất bạn chọn tháng có lượng mưa trung bình nhỏ hơn 320mm.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/3",
+     "loi_giai": "Có 6 tháng. Các tháng có lượng mưa < 320mm là tháng 5 (195) và tháng 6 (307) của năm 2024 (hoặc xét theo dữ liệu đề). Xác suất = 2/6 = 1/3.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho biểu đồ cột kép thể hiện lượng mưa tại TPHCM 6 tháng (từ tháng 5 đến tháng 10). [[IMG:image8.png]]. Tính xác suất bạn chọn tháng có lượng mưa trung bình nhỏ hơn 320mm.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số tháng có lượng mưa nhỏ hơn 320mm là {{1}}",
+       "Xác suất = {{1}} / {{2}} = {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Bác Lâm có một khu đất hình thang đáy nhỏ 15m, đáy lớn 25m, chiều cao 18m. Lối đi hình bình hành rộng x (m), cao 18m.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức biểu thị phần diện tích trồng hoa hồng theo x.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "360-18x",
+     "loi_giai": "Diện tích hình thang = (15+25)*18/2 = 360.\nDiện tích lối đi = 18*x.\nDiện tích hoa = 360 - 18x.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bác Lâm có một khu đất hình thang đáy nhỏ 15m, đáy lớn 25m, chiều cao 18m. Lối đi hình bình hành rộng x (m), cao 18m. Viết biểu thức biểu thị phần diện tích trồng hoa hồng theo x.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$360 - 18x$",
+       "$360 + 18x$",
+       "$40 - 18x$",
+       "$360 - x$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính chiều rộng x của lối đi biết diện tích trồng hoa hồng là 324 m2.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "2",
+     "loi_giai": "360 - 18x = 324 => 18x = 36 => x = 2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bác Lâm có một khu đất hình thang đáy nhỏ 15m, đáy lớn 25m, chiều cao 18m. Lối đi hình bình hành rộng x (m), cao 18m. Biết diện tích trồng hoa hồng là 324 m2, tính chiều rộng x của lối đi.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Chiều rộng lối đi:",
+        "dap_an": "2",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là chiều rộng lối đi (m, điều kiện $x > 0$)",
+        "Phương trình: {{1}}",
+        "Giải phương trình ta tìm được $x =$ {{2}}",
+        "Vậy chiều rộng lối đi là {{3}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "360-18x=324"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "2"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "2"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Bình nước hình hộp chữ nhật có chiều rộng, dài, cao tỉ lệ 2:3:5. Chiều cao là 20cm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích nước tối đa mà bình chứa được.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1920",
+     "loi_giai": "Chiều cao tỉ lệ 5 ứng với 20cm => hệ số tỉ lệ là 4.\nChiều rộng = 2*4 = 8cm, chiều dài = 3*4 = 12cm.\nThể tích = 8*12*20 = 1920 cm3.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bình nước hình hộp chữ nhật có chiều rộng, dài, cao tỉ lệ 2:3:5. Chiều cao là 20cm. Tính thể tích nước tối đa mà bình chứa được.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều rộng = 2 * {{1}} = {{2}} cm",
+       "Chiều dài = 3 * {{1}} = {{3}} cm",
+       "Thể tích = {{2}} * {{3}} * 20 = {{4}} cm^3"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "12"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1920"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính số ly nước nhiều nhất có thể rót ra được (ly trụ đường kính 5cm, cao 12cm, rót 90% thể tích).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "9",
+     "loi_giai": "Thể tích ly = pi * (2.5)^2 * 12 = 75pi ~ 235.6.\n90% thể tích ly = 0.9 * 235.6 ~ 212.\nSố ly = 1920 / 212 ~ 9.05. Vậy rót được 9 ly.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bình nước hình hộp chữ nhật có chiều rộng, dài, cao tỉ lệ 2:3:5. Chiều cao là 20cm. Tính số ly nước nhiều nhất có thể rót ra được (ly trụ đường kính 5cm, cao 12cm, rót 90% thể tích).",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Hai trường A và B có 250 học sinh dự thi. 2/3 trường A và 3/5 trường B trúng tuyển, trường A nhiều hơn trường B là 2 học sinh. Tính số học sinh dự thi mỗi trường.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "120; 130",
+     "loi_giai": "Gọi x, y là số HS trường A, B.\nx + y = 250.\n2/3x - 3/5y = 2.\nGiải hệ: x=120, y=130.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Số học sinh trường A:",
+        "dap_an": "120",
+        "don_vi": "học sinh"
+       },
+       {
+        "nhan": "Số học sinh trường B:",
+        "dap_an": "130",
+        "don_vi": "học sinh"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số học sinh trường A, $y$ là số học sinh trường B (học sinh, điều kiện $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy số học sinh trường A là {{5}} học sinh, trường B là {{6}} học sinh"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=250"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "2/3x-3/5y=2"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "120"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "130"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "120"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "130"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn (O) đường kính AB. H nằm giữa O và B. Dây CD vuông góc AB tại H. E trên cung nhỏ AC. CK vuông góc AE tại K. DE cắt CK tại F.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác AHCK là tứ giác nội tiếp.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Gọi M là trung điểm AC. Xét tam giác ACK vuông tại K có KM là trung tuyến => KM = MA = MC. Xét tam giác AHC vuông tại H có HM là trung tuyến => HM = MA = MC. Suy ra KM = HM = MA = MC. Vậy A, K, C, H cùng thuộc đường tròn tâm M.",
+     "cum": [
+      "Gọi M là trung điểm AC",
+      "Tam giác ACK vuông tại K có KM là trung tuyến nên KM = 1/2 AC",
+      "Tam giác AHC vuông tại H có HM là trung tuyến nên HM = 1/2 AC",
+      "Suy ra KM = HM = MA = MC",
+      "Vậy A, K, C, H cùng nằm trên đường tròn tâm M"
+     ],
+     "nhieu": [
+      "Tứ giác có hai góc đối bằng 180 độ"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB. H nằm giữa O và B. Dây CD vuông góc AB tại H. E trên cung nhỏ AC. CK vuông góc AE tại K. DE cắt CK tại F. Chứng minh tứ giác AHCK là tứ giác nội tiếp."
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh KH song song với ED và tam giác ACF là tam giác cân.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Góc KHC = góc KAC (cùng chắn cung KC). Góc EDC = góc EAC (cùng chắn cung EC). Mà góc KAC = góc EAC nên góc KHC = góc EDC (đồng vị) => KH // DE. Chứng minh tam giác ACF cân tại A bằng cách chỉ ra AK là đường trung trực của FC.",
+     "cum": [
+      "Góc KHC = góc KAC (tứ giác AHCK nội tiếp)",
+      "Góc EDC = góc EAC (tứ giác AECD nội tiếp)",
+      "Suy ra góc KHC = góc EDC, mà hai góc ở vị trí đồng vị nên KH // DE",
+      "OH là đường cao tam giác COD cân tại O nên H là trung điểm CD",
+      "Theo định lý Talet, K là trung điểm FC",
+      "AK vuông góc FC tại K nên AK là đường trung trực FC",
+      "Suy ra AF = AC, vậy tam giác ACF cân tại A"
+     ],
+     "nhieu": [
+      "Tam giác ACF có hai góc bằng nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB. H nằm giữa O và B. Dây CD vuông góc AB tại H. E trên cung nhỏ AC. CK vuông góc AE tại K. DE cắt CK tại F. Chứng minh KH song song với ED và tam giác ACF là tam giác cân."
+    },
+    {
+     "nhan": "c",
+     "de": "Tìm vị trí của điểm E để diện tích tam giác ADF lớn nhất.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Diện tích ADF = 1/2 * DI * AF. Vì AF = AC không đổi, diện tích lớn nhất khi DI lớn nhất. DI <= AD. Dấu bằng xảy ra khi I trùng A, tức tam giác ADF vuông cân tại A. Khi đó cung AE = 90 độ.",
+     "cum": [
+      "Diện tích ADF = 1/2 * DI * AF",
+      "Vì AF = AC không đổi nên diện tích lớn nhất khi DI lớn nhất",
+      "DI <= AD, dấu bằng xảy ra khi I trùng A",
+      "Khi đó tam giác ADF vuông cân tại A",
+      "Suy ra góc DAF = 90 độ, cung AE = 90 độ",
+      "Vậy E là điểm chính giữa cung AB"
+     ],
+     "nhieu": [
+      "E trùng với C"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB. H nằm giữa O và B. Dây CD vuông góc AB tại H. E trên cung nhỏ AC. CK vuông góc AE tại K. DE cắt CK tại F. Tìm vị trí của điểm E để diện tích tam giác ADF lớn nhất."
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

@@ -1,0 +1,1074 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 5
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] của hàm số trên.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ Parabol đi qua các điểm đã xác định.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.25x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] sao cho hoành độ gấp hai lần tung độ.",
+     "explanation": "Gọi tọa độ điểm M là (x; y). Theo đề bài x = 2y hay y = x/2. Thay vào phương trình Parabol: x/2 = ax^2. Giải phương trình tìm x, từ đó suy ra y.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Tọa độ các điểm M là: $M_1 = ($ {{1}} ; {{2}} $)$ và $M_2 = ($ {{3}} ; {{4}} $)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số [[IMG:image1.png]] có đồ thị hàm số là Parabol [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức delta. Chứng minh delta > 0.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số {{1}}, {{2}}, {{3}}"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính {{4}} = b^2 - 4ac"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "So sánh {{5}} với 0"
+        ],
+        "hint": "So sánh delta"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có {{6}} nghiệm phân biệt"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "a",
+       "b",
+       "c",
+       "delta",
+       "hai",
+       "một",
+       "không",
+       "ba"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi [[IMG:image5.png]] là hai nghiệm của phương trình trên. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]].",
+     "explanation": "Áp dụng định lý Viète: x1+x2 = -b/a và x1x2 = c/a. Biến đổi biểu thức cần tính theo tổng và tích các nghiệm.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image4.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Lớp 8A có tất cả bao nhiêu học sinh?",
+     "explanation": "Cộng tổng số học sinh ở các mức xếp loại học tập.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh = {{1}} + {{2}} + {{3}} + {{4}} = {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "40"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính tỉ lệ phần trăm học sinh có kết quả học tập ở mức Tốt so với cả lớp?",
+     "explanation": "Lấy số học sinh mức Tốt chia cho tổng số học sinh rồi nhân với 100%.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tỉ lệ phần trăm = ({{1}} / {{2}}) * 100% = {{3}}%"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "25"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính xác suất để học sinh được chọn có kết quả đánh giá cuối năm là kết quả rèn luyện ở mức Tốt và kết quả học tập ở mức Khá.",
+     "explanation": "Xác định số học sinh thỏa mãn điều kiện đề bài, sau đó chia cho tổng số học sinh.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Xác suất = {{1}} / {{2}} = {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Tổng kết cuối năm học 2024 – 2025, mỗi học sinh lớp [[IMG:image7.png]] được đánh giá ở hai mặt. Cho bảng thống kê đánh giá cuối năm học 2024 – 2025 của lớp [[IMG:image7.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B1.D01",
+   "dang_toan_web": "Tần số. Bảng tần số. Tần số tương đối. Bảng tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy biểu diễn [[IMG:image23.png]] theo [[IMG:image21.png]] (rút gọn biểu thức).",
+     "explanation": "Tính giá sau giảm của từng loại mặt hàng. Lập biểu thức tổng tiền còn lại.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$500000 - 4000x$",
+      "$500000 - 5000x$",
+      "$400000 - 5000x$",
+      "$500000 + 4000x$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi bạn Nam có thể mua được nhiều nhất bao nhiêu cây viết?",
+     "explanation": "Giải bất phương trình số tiền còn lại >= 0.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "125"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Bạn Nam mang theo [[IMG:image16.png]] đồng vào nhà sách mua đồ dùng học tập. Nhà sách đang có chương trình khuyến mãi giảm giá [[IMG:image17.png]] so với giá niêm yết.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "tinh_gia_tri",
+    "kieu": "dong",
+    "dong": [
+     "Thể tích nước = V_lập_phương - V_nón = {{1}} - {{2}} = {{3}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "27"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "18"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "9"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Một khối lập phương rỗng bên trong có cạnh là [[IMG:image24.png]]. Đặt vào trong khối đó một khối nón đặc... Hỏi Anh Nam đổ bao nhiêu lít nước thì nước đầy khối lập phương?",
+   "explanation": "Tính thể tích khối lập phương. Tính thể tích khối nón. Lấy thể tích lập phương trừ thể tích nón.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 7,
+   "n": 2,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Điểm trung bình lớp 9A: {{1}} điểm",
+     "Điểm trung bình lớp 9B: {{2}} điểm"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "7"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "8"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là điểm trung bình lớp 9A, $y$ là điểm trung bình lớp 9B (điều kiện $x, y > 0$)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+     "Vậy điểm trung bình lớp 9A là {{3}} điểm, lớp 9B là {{4}} điểm"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x+y=15"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "40x+35y=560"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "7"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "8"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Điểm trung bình của [[IMG:image28.png]] học sinh trong hai lớp [[IMG:image29.png]] và [[IMG:image30.png]] là [[IMG:image31.png]]. Tính điểm trung bình của các học sinh mỗi lớp...",
+   "explanation": "Gọi số học sinh và điểm trung bình mỗi lớp là ẩn. Lập hệ phương trình dựa trên tổng số học sinh và tổng điểm.",
+   "ma": "de1.P7.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: Tứ giác [[IMG:image42.png]] và tứ giác [[IMG:image43.png]] nội tiếp.",
+     "explanation": "Sử dụng tính chất tứ giác có tổng hai góc đối bằng 180 độ hoặc hai đỉnh kề cùng nhìn một cạnh dưới các góc bằng nhau.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét tứ giác {{1}} có:",
+         "• $\\widehat{AEH} + \\widehat{AFH} = {{2}} + {{3}} = 180^\\circ$"
+        ],
+        "hint": "Xét tứ giác có góc đối"
+       },
+       {
+        "lines": [
+         "Vì {{4}} là đường cao nên $\\widehat{AEH} = {{5}} = 90^\\circ$"
+        ],
+        "hint": "Chứng minh góc vuông"
+       },
+       {
+        "lines": [
+         "Do đó tứ giác {{6}} nội tiếp đường tròn đường kính {{7}}"
+        ],
+        "hint": "Kết luận nội tiếp"
+       },
+       {
+        "lines": [
+         "Tương tự, tứ giác {{8}} cũng nội tiếp vì có $\\widehat{BDH} + \\widehat{BFH} = {{9}} = 180^\\circ$"
+        ],
+        "hint": "Tương tự tứ giác khác"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "AEHF"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "đường cao",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AEHF"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "AH"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "BDHF"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "180^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "tổng góc",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "AEHF",
+       "BDHF",
+       "90^\\circ",
+       "180^\\circ",
+       "BE",
+       "AH",
+       "BH",
+       "CH",
+       "ABHF",
+       "CDHE"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: [[IMG:image44.png]] và [[IMG:image45.png]]",
+     "explanation": "Sử dụng tam giác đồng dạng.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}} \\backsim \\triangle {{2}}$ có:",
+         "• $\\widehat{A} = \\widehat{A}$ (góc {{3}})"
+        ],
+        "hint": "Xét tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "• $\\widehat{ADC} = \\widehat{AEB} = {{4}}$",
+         "Suy ra $\\triangle {{5}} \\backsim \\triangle {{6}}$ (trường hợp {{7}})"
+        ],
+        "hint": "Lập tỉ số cạnh"
+       },
+       {
+        "lines": [
+         "Ta có tỉ số: $\\frac{AD}{AE} = \\frac{AC}{AB}$",
+         "Suy ra {{8}} = {{9}}"
+        ],
+        "hint": "Suy ra đẳng thức"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ADC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AEB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "chung"
+        ],
+        "keywords": [],
+        "placeholder": "lý do",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "90^\\circ"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "ADC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AEB"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "AD.AB"
+        ],
+        "keywords": [],
+        "placeholder": "đẳng thức",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "AE.AC"
+        ],
+        "keywords": [],
+        "placeholder": "đẳng thức",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "ADC",
+       "AEB",
+       "chung",
+       "90^\\circ",
+       "g.g",
+       "AD.AB",
+       "AE.AC",
+       "c.g.c",
+       "đối đỉnh",
+       "ABC"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Chứng minh: [[IMG:image39.png]] và [[IMG:image41.png]] đối xứng nhau qua [[IMG:image46.png]] và xác định tâm đường tròn nội tiếp [[IMG:image47.png]].",
+     "explanation": "Chứng minh các tam giác bằng nhau để suy ra tính đối xứng. Sử dụng tính chất đường phân giác để xác định tâm đường tròn nội tiếp.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}H{{2}}$ và $\\triangle {{3}}H{{4}}$ có:",
+         "• $\\widehat{H{{5}}A} = \\widehat{H{{6}}A}$ (tính chất {{7}})"
+        ],
+        "hint": "Chứng minh tam giác bằng nhau"
+       },
+       {
+        "lines": [
+         "Suy ra $H{{8}} = H{{9}}$",
+         "Kết luận {{10}} và {{11}} đối xứng qua {{12}}"
+        ],
+        "hint": "Kết luận đối xứng"
+       },
+       {
+        "lines": [
+         "Vì $H$ là giao điểm các đường cao nên $H$ là {{13}} đường tròn nội tiếp $\\triangle {{14}}$"
+        ],
+        "hint": "Xác định tâm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "D"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "phân giác"
+        ],
+        "keywords": [],
+        "placeholder": "lý do",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "D"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "H'"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 5
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "tâm"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 10
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "ABC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "B",
+       "C",
+       "D",
+       "E",
+       "H",
+       "H'",
+       "BC",
+       "ABC",
+       "phân giác",
+       "trung điểm",
+       "đối đỉnh",
+       "cạnh chung",
+       "tâm"
+      ]
+     }
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho [[IMG:image35.png]] nhọn [[IMG:image36.png]] nội tiếp đường tròn [[IMG:image37.png]]. Vẽ các đường cao [[IMG:image38.png]] của [[IMG:image35.png]] cắt nhau tại [[IMG:image39.png]]. Đường thẳng [[IMG:image40.png]] cắt đường tròn [[IMG:image37.png]] tại [[IMG:image41.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B3.D01",
+   "dang_toan_web": "Tứ giác nội tiếp."
+  }
+ ],
+ "flags": []
+}

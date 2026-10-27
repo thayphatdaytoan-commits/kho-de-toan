@@ -1,0 +1,228 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]]",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho 5 điểm thuộc Parabol",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]].",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm điểm K khác gốc tọa độ thuộc [[IMG:image2.png]] sao cho tung độ gấp đôi hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "K(2; 4)",
+     "loi_giai": "Gọi K(x; y) thuộc Parabol nên y = x^2/4. Theo đề bài y = 2x. Suy ra x^2/4 = 2x. Giải phương trình x^2 - 8x = 0 ta được x = 0 hoặc x = 8. Vì K khác gốc tọa độ nên x = 8, suy ra y = 16. Vậy K(8; 16).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm điểm K khác gốc tọa độ thuộc [[IMG:image2.png]] sao cho tung độ gấp đôi hoành độ.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_K =$",
+        "dap_an": "8",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$y_K =$",
+        "dap_an": "16",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}}, $y =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "8"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "16"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image3.png]]. Không giải phương trình:",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình luôn có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac. Chứng minh delta > 0 với mọi m.",
+     "cum": [
+      "Tính delta = (-2)^2 - 4(1)(m-2)",
+      "Rút gọn delta = 4 - 4m + 8 = 12 - 4m",
+      "Biện luận delta > 0 khi m < 3",
+      "Kết luận phương trình luôn có hai nghiệm phân biệt với m < 3"
+     ],
+     "nhieu": [
+      "Phương trình luôn có nghiệm với mọi m"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image3.png]]. Không giải phương trình, chứng tỏ phương trình luôn có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Tính giá trị của biểu thức: [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4-2m",
+     "loi_giai": "Theo Vi-et: x1+x2 = 2, x1x2 = m-2. Biểu thức = (x1+x2)^2 - 2x1x2 - 2x1x2 = (x1+x2)^2 - 4x1x2 = 2^2 - 4(m-2) = 4 - 4m + 8 = 12 - 4m.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Cho phương trình: [[IMG:image3.png]]. Không giải phương trình, tính giá trị của biểu thức: [[IMG:image4.png]].",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "4-2m",
+       "12-4m",
+       "4-4m",
+       "8-2m"
+      ],
+      "answer": "B"
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Bạn An tham gia trò chơi ném bi vào bảng có các ô điểm. Trong 10 lần ném, An ném được 6 lần vào ô điểm 1, một lần ra ngoài bảng (-2 điểm), hai lần vào ô điểm 2, một lần ô điểm 3.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính số điểm bạn An nhận được sau 10 lần ném.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "11",
+     "loi_giai": "Tổng điểm = 6*1 + 1*(-2) + 2*2 + 1*3 = 6 - 2 + 4 + 3 = 11 điểm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn An tham gia trò chơi ném bi vào bảng có các ô điểm. Trong 10 lần ném, An ném được 6 lần vào ô điểm 1, một lần ra ngoài bảng (-2 điểm), hai lần vào ô điểm 2, một lần ô điểm 3. Tính số điểm bạn An nhận được sau 10 lần ném.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng điểm $= 6\\cdot 1 + 1\\cdot (-2) + 2\\cdot 2 + 1\\cdot 3$",
+       "$= {{1}} - {{2}} + {{3}} + {{4}} = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "11"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi An có cơ hội nhận phần quà trị giá tương ứng không? Tính xác suất.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "12/25",
+     "loi_giai": "Để đạt điểm cao hơn, An cần ném vào ô điểm 3. Xác suất ném vào ô điểm 3 là số ô điểm 3 chia tổng số ô.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bạn An tham gia trò chơi ném bi vào bảng có các ô điểm. Trong 10 lần ném, An ném được 6 lần vào ô điểm 1, một lần ra ngoài bảng (-2 điểm), hai lần vào ô điểm 2, một lần ô điểm 3. Hỏi An có cơ hội nhận phần quà trị giá tương ứng không? Tính xác suất.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

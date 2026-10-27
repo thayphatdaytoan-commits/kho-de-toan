@@ -1,0 +1,614 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Tính $\\Delta' = [-(m-1)]^2 - (m-3) = {{1}}$"
+    ],
+    "hint": "Tính biệt thức delta phẩy"
+   },
+   {
+    "lines": [
+     "Biến đổi $\\Delta' = (m - {{2}})^2 + {{3}}$"
+    ],
+    "hint": "Biến đổi về dạng bình phương"
+   },
+   {
+    "lines": [
+     "Vì $(m - {{4}})^2 \\geq 0$ nên $\\Delta' > 0$ với mọi $m$"
+    ],
+    "hint": "Lập luận dấu của delta phẩy"
+   },
+   {
+    "lines": [
+     "Kết luận phương trình luôn có {{5}} nghiệm phân biệt $x_1, x_2$"
+    ],
+    "hint": "Kết luận số nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "m^2-3m+4"
+    ],
+    "keywords": [
+     "m^2",
+     "3m",
+     "4"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 20
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "3/2"
+    ],
+    "keywords": [
+     "3/2"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "7/4"
+    ],
+    "keywords": [
+     "7/4"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "3/2"
+    ],
+    "keywords": [
+     "3/2"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "hai"
+    ],
+    "keywords": [
+     "hai"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "m^2-3m+4",
+   "3/2",
+   "7/4",
+   "hai",
+   "một",
+   "0"
+  ],
+  "ordered": false
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}{{2}}{{3}}$ vuông tại {{4}} (do {{5}} là đường cao)"
+    ],
+    "hint": "Xét tam giác vuông thứ nhất"
+   },
+   {
+    "lines": [
+     "Suy ra {{6}} thuộc đường tròn đường kính {{7}}{{8}}"
+    ],
+    "hint": "Kết luận điểm thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{9}}{{10}}{{11}}$ vuông tại {{12}} (do {{13}} là đường cao)"
+    ],
+    "hint": "Xét tam giác vuông thứ hai"
+   },
+   {
+    "lines": [
+     "Suy ra {{14}} thuộc đường tròn đường kính {{15}}{{16}}"
+    ],
+    "hint": "Kết luận điểm thuộc đường tròn"
+   },
+   {
+    "lines": [
+     "Tâm {{17}} là {{18}} của {{19}}{{20}}, bán kính $R = {{21}}$ cm"
+    ],
+    "hint": "Xác định tâm và bán kính"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "BE"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 3
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 2
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "CF"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 3
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 2
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 2
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 10
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "6"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 2
+   }
+  ],
+  "pool": [
+   "B",
+   "E",
+   "C",
+   "F",
+   "BE",
+   "CF",
+   "M",
+   "trung điểm",
+   "6",
+   "12",
+   "đỉnh",
+   "cạnh",
+   "trọng tâm"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle {{1}}{{2}}{{3}}$ và $\\triangle {{4}}{{5}}{{6}}$ có $\\widehat{M}$ chung và $\\widehat{MEK} = \\widehat{MCF}$"
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "Do đó $\\triangle {{7}}{{8}}{{9}} \\sim \\triangle {{10}}{{11}}{{12}}$ ({{13}})"
+    ],
+    "hint": "Kết luận đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{ME}{MC} = \\frac{MK}{MF} \\Rightarrow MK \\cdot MC = ME \\cdot MF$"
+    ],
+    "hint": "Suy ra hệ thức tỉ lệ"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{14}}{{15}}{{16}}$ và $\\triangle {{17}}{{18}}{{19}}$ có $\\widehat{M}$ chung và $\\widehat{MBK} = \\widehat{MCB}$"
+    ],
+    "hint": "Xét cặp tam giác đồng dạng khác"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{MB}{MC} = \\frac{MK}{MB} \\Rightarrow MK \\cdot MC = {{20}}^2$"
+    ],
+    "hint": "Kết luận hệ thức cuối"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "F"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "keywords": [],
+    "placeholder": "trường hợp",
+    "maxLen": 5
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 2
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "MB"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 3
+   }
+  ],
+  "pool": [
+   "M",
+   "E",
+   "K",
+   "C",
+   "F",
+   "B",
+   "g.g",
+   "c.g.c",
+   "MB",
+   "MC",
+   "MK"
+  ]
+ }
+}

@@ -1,0 +1,964 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "1a": {
+  "blocks": [
+   {
+    "lines": [
+     "Lập bảng giá trị của hàm số $y = {{1}}x^2$ với các giá trị $x \\in \\{{{-2}}, -2, 0, 2, 4\\}$"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Xác định các điểm tương ứng $(-4, {{3}}), (-2, 2), (0, 0), (2, 2), (4, 8)$"
+    ],
+    "hint": "Xác định tọa độ điểm"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong parabol đi qua các điểm trên mặt phẳng tọa độ {{4}}"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "1/2"
+    ],
+    "keywords": [
+     "1/2",
+     "0.5"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-4"
+    ],
+    "keywords": [
+     "-4"
+    ],
+    "placeholder": "giá trị x",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "8"
+    ],
+    "keywords": [
+     "8"
+    ],
+    "placeholder": "giá trị y",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "Oxy"
+    ],
+    "keywords": [
+     "oxy",
+     "tọa độ"
+    ],
+    "placeholder": "tên hệ trục",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "1/2",
+   "-4",
+   "8",
+   "Oxy",
+   "1/4",
+   "4",
+   "-8",
+   "Ox"
+  ],
+  "ordered": false
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Gọi {{1}} là trung điểm {{2}}"
+    ],
+    "hint": "Xác định trung điểm"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{3}}{{4}}{{5}}$ vuông tại {{6}} có {{7}} là trung tuyến nên {{8}} = 1/2 {{9}}"
+    ],
+    "hint": "Xét tam giác vuông thứ nhất"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{10}}{{11}}{{12}}$ vuông tại {{13}} có {{14}} là trung tuyến nên {{15}} = 1/2 {{16}}"
+    ],
+    "hint": "Xét tam giác vuông thứ hai"
+   },
+   {
+    "lines": [
+     "Suy ra {{17}} = {{18}} = {{19}} = {{20}}"
+    ],
+    "hint": "Kết luận các đoạn bằng nhau"
+   },
+   {
+    "lines": [
+     "Vậy {{21}}, {{22}}, {{23}}, {{24}} cùng nằm trên đường tròn tâm {{25}}"
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "KM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "KM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "đỉnh",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "HM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "HM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "KM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "HM"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "MA"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "MC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "C"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "M"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "M",
+   "AC",
+   "A",
+   "C",
+   "K",
+   "H",
+   "KM",
+   "HM",
+   "MA",
+   "MC",
+   "O",
+   "AB",
+   "D",
+   "E",
+   "F"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Góc {{1}} = góc {{2}} (tứ giác {{3}} nội tiếp)"
+    ],
+    "hint": "Góc nội tiếp bằng nhau"
+   },
+   {
+    "lines": [
+     "Góc {{4}} = góc {{5}} (tứ giác {{6}} nội tiếp)"
+    ],
+    "hint": "Góc nội tiếp bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra góc {{7}} = góc {{8}}, mà hai góc ở vị trí {{9}} nên {{10}} // {{11}}"
+    ],
+    "hint": "Chứng minh song song"
+   },
+   {
+    "lines": [
+     "{{12}} là đường cao tam giác {{13}} cân tại {{14}} nên {{15}} là trung điểm {{16}}"
+    ],
+    "hint": "Tính chất tam giác cân"
+   },
+   {
+    "lines": [
+     "Theo định lý {{17}}, {{18}} là trung điểm {{19}}"
+    ],
+    "hint": "Định lý Talet"
+   },
+   {
+    "lines": [
+     "{{20}} vuông góc {{21}} tại {{22}} nên {{23}} là đường trung trực {{24}}"
+    ],
+    "hint": "Đường trung trực"
+   },
+   {
+    "lines": [
+     "Suy ra {{25}} = {{26}}, vậy tam giác {{27}} cân tại {{28}}"
+    ],
+    "hint": "Kết luận tam giác cân"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "KHC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "KAC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AHCK"
+    ],
+    "keywords": [],
+    "placeholder": "tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "EDC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "EAC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AECD"
+    ],
+    "keywords": [],
+    "placeholder": "tứ giác",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "KHC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "EDC"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "đồng vị"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "KH"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "DE"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "OH"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "COD"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "O"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "H"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "CD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "17",
+    "mode": "drag",
+    "answers": [
+     "Talet"
+    ],
+    "keywords": [],
+    "placeholder": "định lý",
+    "maxLen": 12
+   },
+   {
+    "id": "18",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "19",
+    "mode": "drag",
+    "answers": [
+     "FC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "20",
+    "mode": "drag",
+    "answers": [
+     "AK"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "21",
+    "mode": "drag",
+    "answers": [
+     "FC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "22",
+    "mode": "drag",
+    "answers": [
+     "K"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "23",
+    "mode": "drag",
+    "answers": [
+     "AK"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "24",
+    "mode": "drag",
+    "answers": [
+     "FC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "25",
+    "mode": "drag",
+    "answers": [
+     "AF"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "26",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "27",
+    "mode": "drag",
+    "answers": [
+     "ACF"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "28",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "KHC",
+   "KAC",
+   "AHCK",
+   "EDC",
+   "EAC",
+   "AECD",
+   "đồng vị",
+   "KH",
+   "DE",
+   "OH",
+   "COD",
+   "O",
+   "H",
+   "CD",
+   "Talet",
+   "K",
+   "FC",
+   "AK",
+   "AF",
+   "AC",
+   "ACF",
+   "A",
+   "so le trong",
+   "cạnh chung"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Diện tích {{1}} = 1/2 * {{2}} * {{3}}"
+    ],
+    "hint": "Công thức diện tích"
+   },
+   {
+    "lines": [
+     "Vì {{4}} = {{5}} không đổi nên diện tích lớn nhất khi {{6}} lớn nhất"
+    ],
+    "hint": "Biện luận cực trị"
+   },
+   {
+    "lines": [
+     "{{7}} <= {{8}}, dấu bằng xảy ra khi {{9}} trùng {{10}}"
+    ],
+    "hint": "Bất đẳng thức"
+   },
+   {
+    "lines": [
+     "Khi đó tam giác {{11}} vuông cân tại {{12}}"
+    ],
+    "hint": "Tính chất tam giác"
+   },
+   {
+    "lines": [
+     "Suy ra góc {{13}} = 90 độ, cung {{14}} = 90 độ"
+    ],
+    "hint": "Góc và cung"
+   },
+   {
+    "lines": [
+     "Vậy {{15}} là điểm chính giữa cung {{16}}"
+    ],
+    "hint": "Kết luận vị trí"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ADF"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "DI"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "AF"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AF"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "DI"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "DI"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "AD"
+    ],
+    "keywords": [],
+    "placeholder": "đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "I"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "ADF"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "13",
+    "mode": "drag",
+    "answers": [
+     "DAF"
+    ],
+    "keywords": [],
+    "placeholder": "góc",
+    "maxLen": 12
+   },
+   {
+    "id": "14",
+    "mode": "drag",
+    "answers": [
+     "AE"
+    ],
+    "keywords": [],
+    "placeholder": "cung",
+    "maxLen": 12
+   },
+   {
+    "id": "15",
+    "mode": "drag",
+    "answers": [
+     "E"
+    ],
+    "keywords": [],
+    "placeholder": "điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "16",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "cung",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ADF",
+   "DI",
+   "AF",
+   "AC",
+   "AD",
+   "I",
+   "A",
+   "DAF",
+   "AE",
+   "E",
+   "AB",
+   "CD",
+   "H",
+   "O",
+   "F"
+  ]
+ }
+}

@@ -1,0 +1,1111 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – QUẬN BÌNH THẠNH – năm học 2024-2025",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Bảng giá trị:\n$x = -2 \\Rightarrow y = 2$\n$x = -1 \\Rightarrow y = 0.5$\n$x = 0 \\Rightarrow y = 0$\n$x = 1 \\Rightarrow y = 0.5$\n$x = 2 \\Rightarrow y = 2$\nĐồ thị $(P)$ là một đường Parabol đi qua các điểm trên.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm thuộc $(P)$ có tung độ gấp đôi hoành độ và khác 0.",
+     "explanation": "Gọi điểm cần tìm là $M(x; y)$.\nTheo đề bài: $y = 2x$ và $x \\neq 0$.\nThay $y = 2x$ vào phương trình $(P): y = \\frac{1}{2}x^2$, ta được:\n$2x = \\frac{1}{2}x^2$\n$\\Leftrightarrow 4x = x^2$\n$\\Leftrightarrow x^2 - 4x = 0$\n$\\Leftrightarrow x(x - 4) = 0$\n$\\Leftrightarrow x = 0$ (loại) hoặc $x = 4$.\nVới $x = 4 \\Rightarrow y = 2 \\times 4 = 8$.\nVậy tọa độ điểm cần tìm là $(4; 8)$.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "(4; 8)"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho $(P): y = \\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Ta có: $\\Delta' = [-(m-1)]^2 - 1(m-3) = m^2 - 2m + 1 - m + 3 = m^2 - 3m + 4$.\n$\\Delta' = (m - \\frac{3}{2})^2 + \\frac{7}{4} > 0$ với mọi $m$.\nVì $\\Delta' > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Tính $\\Delta' = [-(m-1)]^2 - (m-3) = {{1}}$"
+        ],
+        "hint": "Tính biệt thức delta phẩy"
+       },
+       {
+        "lines": [
+         "Biến đổi $\\Delta' = (m - {{2}})^2 + {{3}}$"
+        ],
+        "hint": "Biến đổi về dạng bình phương"
+       },
+       {
+        "lines": [
+         "Vì $(m - {{4}})^2 \\geq 0$ nên $\\Delta' > 0$ với mọi $m$"
+        ],
+        "hint": "Lập luận dấu của delta phẩy"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình luôn có {{5}} nghiệm phân biệt $x_1, x_2$"
+        ],
+        "hint": "Kết luận số nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "m^2-3m+4"
+        ],
+        "keywords": [
+         "m^2",
+         "3m",
+         "4"
+        ],
+        "placeholder": "biểu thức",
+        "maxLen": 20
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "3/2"
+        ],
+        "keywords": [
+         "3/2"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "7/4"
+        ],
+        "keywords": [
+         "7/4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "3/2"
+        ],
+        "keywords": [
+         "3/2"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "m^2-3m+4",
+       "3/2",
+       "7/4",
+       "hai",
+       "một",
+       "0"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị biểu thức $A = x_1(1-x_2) + x_2(1-x_1)$.",
+     "explanation": "Theo định lí Vi-et, ta có: $x_1 + x_2 = 2(m-1)$ và $x_1x_2 = m-3$.\nTa có: $A = x_1 - x_1x_2 + x_2 - x_1x_2 = (x_1 + x_2) - 2x_1x_2$.\nThay vào ta được: $A = 2(m-1) - 2(m-3) = 2m - 2 - 2m + 6 = 4$.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "4"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 2(m-1)x + m - 3 = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết hai hàm số biểu thị mức tính phí khi sử dụng Internet của hai công ty Viễn thông A và công ty Viễn thông B?",
+     "explanation": "Gọi $x$ là số tháng sử dụng Internet ($x > 0$).\nHàm số biểu thị mức phí của công ty A là: $y_A = 30000x + 500000$.\nHàm số biểu thị mức phí của công ty B là: $y_B = 80000x$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Hàm số công ty A: $y_A =$ {{1}} ; Hàm số công ty B: $y_B =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "30000x+500000"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "80000x"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi gia đình ông Nam sử dụng Internet trên mấy tháng thì chọn dịch vụ bên công ty Viễn thông A có lợi hơn?",
+     "explanation": "Để dịch vụ bên công ty A có lợi hơn thì: $y_A < y_B$\n$\\Leftrightarrow 30000x + 500000 < 80000x$\n$\\Leftrightarrow 500000 < 50000x$\n$\\Leftrightarrow x > 10$.\nVậy gia đình ông Nam sử dụng Internet trên 10 tháng thì chọn công ty A có lợi hơn.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "10"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 3",
+   "question": "Công ty Viễn thông A cung cấp dịch vụ Internet với mức phí ban đầu là 500 000 đồng và phí hàng tháng là 30 000 đồng. Công ty Viễn thông B cung cấp dịch vụ Internet không tính phí ban đầu nhưng phí hàng tháng là 80 000 đồng.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính diện tích khu đất dùng để trồng hoa và diện tích khu đất dùng để trồng cỏ theo $x$.",
+     "explanation": "Diện tích khu đất trồng hoa là: $S_{hoa} = x(x + 2) = x^2 + 2x$.\nDiện tích khu đất trồng cỏ là: $S_{co} = x(y - (x + 2)) = xy - x^2 - 2x$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "$S_{hoa} =$ {{1}} ; $S_{co} =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "x^2+2x"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "xy-x^2-2x"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính diện tích mảnh vườn hình chữ nhật của bác Nam với $x = 15$ và $y = 10$.",
+     "explanation": "Diện tích mảnh vườn hình chữ nhật là: $S = x \\cdot y$.\nVới $x = 15$ và $y = 10$, ta có: $S = 15 \\cdot 10 = 150$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$S = {{1}} \\cdot {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "150"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Bác Nam có một mảnh vườn hình chữ nhật. Bác chia mảnh vườn này ra làm hai khu đất hình chữ nhật: Khu thứ nhất dùng để trồng cỏ. Khu thứ hai dùng để trồng hoa. (Với các kích thước có trong hình vẽ).",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D04",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số học sinh khá: {{1}} bạn",
+     "Số học sinh giỏi: {{2}} bạn"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "60"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "40"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số học sinh khá, $y$ là số học sinh giỏi (đơn vị: bạn, điều kiện $x, y \\in \\mathbb{N}^*$)",
+     "Biểu diễn mối quan hệ ban đầu giữa số học sinh khá và giỏi: {{1}}",
+     "Biểu diễn mối quan hệ sau khi thay đổi số lượng học sinh: {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+     "Vậy số học sinh khá là {{3}} bạn, số học sinh giỏi là {{4}} bạn"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x=1.5y"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "x-10=y+10"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "60"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "40"
+     }
+    ]
+   },
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Trường THCS A có số học sinh khá của khối 9 bằng 1,5 số học sinh giỏi. Nếu thêm số học sinh giỏi 10 bạn và số học sinh khá giảm đi 10 bạn thì khi đó số học sinh khá gấp 1 lần số học sinh giỏi. Tính số học sinh mỗi loại của khối 9 của trường THCS A?",
+   "explanation": "Gọi $x, y$ lần lượt là số học sinh khá và giỏi của khối 9 ($x, y \\in \\mathbb{N}^*$).\nVì số học sinh khá bằng 1,5 số học sinh giỏi nên: $x = 1.5y$ (1).\nNếu thêm 10 học sinh giỏi và giảm 10 học sinh khá thì số khá gấp 1 lần số giỏi: $x - 10 = 1(y + 10)$ (2).\nThay (1) vào (2) ta được: $1.5y - 10 = y + 10 \\Leftrightarrow 0.5y = 20 \\Leftrightarrow y = 40$.\nSuy ra $x = 1.5 \\times 40 = 60$.\nVậy số học sinh khá là 60 bạn, số học sinh giỏi là 40 bạn.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 6,
+    "so_dau_bang": 9,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính xác suất thực nghiệm của biến cố \"Lấy được bóng xanh\" sau 200 lần thử.",
+     "explanation": "Xác suất thực nghiệm của biến cố \"Lấy được bóng xanh\" là: $P = \\frac{62}{200} = 0.31$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "rut_gon_so",
+      "kieu": "dong",
+      "dong": [
+       "$P = \\dfrac{ {{1}} }{ {{2}} } = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "62"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "200"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.31"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết số bóng xanh trong hộp là 48, hãy ước lượng số bóng đỏ trong hộp.",
+     "explanation": "Gọi tổng số bóng trong hộp là $N$.\nVì số lần thử lớn nên xác suất thực nghiệm xấp xỉ xác suất lý thuyết: $\\frac{48}{N} \\approx 0.31 \\Rightarrow N \\approx \\frac{48}{0.31} \\approx 154.8$.\nSố bóng đỏ ước lượng là: $155 - 48 = 107$ quả bóng.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$N \\approx \\dfrac{48}{ {{1}} } \\approx {{2}}$",
+       "$\\text{Số} \\text{bóng} \\text{đỏ} = {{2}} - 48 = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0.31"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "155"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "107"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 6",
+   "question": "Một hộp chứa một số quả bóng xanh và bóng đỏ có cùng kích thước và khối lượng. Linh lấy ra ngẫu nhiên một quả bóng từ hộp, xem màu rồi trả bóng lại hộp. Lặp lại phép thử đó 200 lần, Linh thấy có 62 lần lấy được bóng xanh và 138 lần lấy được bóng đỏ.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B1.D02",
+   "dang_toan_web": "Tần số. Bảng tần số. Tần số tương đối. Bảng tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_c_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh bốn điểm $B, C, E, F$ cùng thuộc một đường tròn. Xác định tâm $M$ và bán kính của đường tròn đó.",
+     "explanation": "Ta có $\\triangle BEC$ vuông tại $E$ nên $E$ thuộc đường tròn đường kính $BC$.\nTa có $\\triangle BFC$ vuông tại $F$ nên $F$ thuộc đường tròn đường kính $BC$.\nVậy bốn điểm $B, C, E, F$ cùng thuộc đường tròn đường kính $BC$.\nTâm $M$ là trung điểm của $BC$, bán kính $R = \\frac{BC}{2} = \\frac{12}{2} = 6$ cm.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}{{2}}{{3}}$ vuông tại {{4}} (do {{5}} là đường cao)"
+        ],
+        "hint": "Xét tam giác vuông thứ nhất"
+       },
+       {
+        "lines": [
+         "Suy ra {{6}} thuộc đường tròn đường kính {{7}}{{8}}"
+        ],
+        "hint": "Kết luận điểm thuộc đường tròn"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{9}}{{10}}{{11}}$ vuông tại {{12}} (do {{13}} là đường cao)"
+        ],
+        "hint": "Xét tam giác vuông thứ hai"
+       },
+       {
+        "lines": [
+         "Suy ra {{14}} thuộc đường tròn đường kính {{15}}{{16}}"
+        ],
+        "hint": "Kết luận điểm thuộc đường tròn"
+       },
+       {
+        "lines": [
+         "Tâm {{17}} là {{18}} của {{19}}{{20}}, bán kính $R = {{21}}$ cm"
+        ],
+        "hint": "Xác định tâm và bán kính"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 3
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 2
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "CF"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 3
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 2
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "17",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 2
+       },
+       {
+        "id": "18",
+        "mode": "drag",
+        "answers": [
+         "trung điểm"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 10
+       },
+       {
+        "id": "19",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "20",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "21",
+        "mode": "drag",
+        "answers": [
+         "6"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 2
+       }
+      ],
+      "pool": [
+       "B",
+       "E",
+       "C",
+       "F",
+       "BE",
+       "CF",
+       "M",
+       "trung điểm",
+       "6",
+       "12",
+       "đỉnh",
+       "cạnh",
+       "trọng tâm"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $M$ là hình chiếu của $K$ trên cạnh $BC$ (Lưu ý: Đề bài gốc có sự nhầm lẫn ký hiệu, ở đây hiểu là chứng minh các hệ thức liên quan đến $K, M, E, F$). Chứng minh $MK \\cdot MC = ME \\cdot MF$ và $MK \\cdot MC = MB^2$.",
+     "explanation": "Xét $\\triangle MEK$ và $\\triangle MCF$ có $\\widehat{M}$ chung và $\\widehat{MEK} = \\widehat{MCF}$ (cùng bù với $\\widehat{FEB}$).\nDo đó $\\triangle MEK \\sim \\triangle MCF$ (g.g) $\\Rightarrow \\frac{ME}{MC} = \\frac{MK}{MF} \\Rightarrow MK \\cdot MC = ME \\cdot MF$.\nXét $\\triangle MBK$ và $\\triangle MCB$ có $\\widehat{M}$ chung và $\\widehat{MBK} = \\widehat{MCB}$ nên $\\triangle MBK \\sim \\triangle MCB$ (g.g).\n$\\Rightarrow \\frac{MB}{MC} = \\frac{MK}{MB} \\Rightarrow MK \\cdot MC = MB^2$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}{{2}}{{3}}$ và $\\triangle {{4}}{{5}}{{6}}$ có $\\widehat{M}$ chung và $\\widehat{MEK} = \\widehat{MCF}$"
+        ],
+        "hint": "Xét hai tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Do đó $\\triangle {{7}}{{8}}{{9}} \\sim \\triangle {{10}}{{11}}{{12}}$ ({{13}})"
+        ],
+        "hint": "Kết luận đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $\\frac{ME}{MC} = \\frac{MK}{MF} \\Rightarrow MK \\cdot MC = ME \\cdot MF$"
+        ],
+        "hint": "Suy ra hệ thức tỉ lệ"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{14}}{{15}}{{16}}$ và $\\triangle {{17}}{{18}}{{19}}$ có $\\widehat{M}$ chung và $\\widehat{MBK} = \\widehat{MCB}$"
+        ],
+        "hint": "Xét cặp tam giác đồng dạng khác"
+       },
+       {
+        "lines": [
+         "Suy ra $\\frac{MB}{MC} = \\frac{MK}{MB} \\Rightarrow MK \\cdot MC = {{20}}^2$"
+        ],
+        "hint": "Kết luận hệ thức cuối"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 5
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "17",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "18",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "19",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "20",
+        "mode": "drag",
+        "answers": [
+         "MB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 3
+       }
+      ],
+      "pool": [
+       "M",
+       "E",
+       "K",
+       "C",
+       "F",
+       "B",
+       "g.g",
+       "c.g.c",
+       "MB",
+       "MC",
+       "MK"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi $I$ là trung điểm của $AH$ và $D$ là giao điểm của $AH$ với $BC$. Chứng minh $IK$ là tiếp tuyến của đường tròn $(M)$ và tính độ dài đoạn $AD$ (kết quả làm tròn đến 3 chữ số thập phân).",
+     "explanation": "Chứng minh $IK$ là tiếp tuyến: Ta có $I$ là tâm đường tròn ngoại tiếp tứ giác $AEHF$. Sử dụng tính chất góc tạo bởi tiếp tuyến và dây cung để chứng minh $IK \\perp MK$.\nTính $AD$: Dựa vào các hệ thức lượng trong tam giác vuông và các tam giác đồng dạng, ta tính được $AD \\approx 10.583$ cm.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "10,583"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho tam giác $ABC$ nhọn ($AB < AC$) có $BC = 12$ cm. Các đường cao $BE$ và $CF$ cắt nhau tại $H$. $EF$ cắt $BC$ tại $K$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B3.D01",
+   "dang_toan_web": "Tứ giác nội tiếp."
+  }
+ ],
+ "flags": []
+}

@@ -1,0 +1,438 @@
+{
+ "truong": "",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số: [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị và vẽ đường thẳng đi qua các điểm đó trên hệ trục tọa độ.",
+     "cum": [
+      "Lập bảng giá trị cho hàm số $y = -x + 2$ với các điểm $(0; 2), (1; 1), (2; 0)$",
+      "Vẽ hệ trục tọa độ $Oxy$",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua hai điểm $(0; 0)$ và $(1; 1)$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số: [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = -x + 2",
+        "kind": "linear",
+        "a": -1,
+        "b": 2,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2,
+         3
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm điểm thuộc [[IMG:image2.png]] có hoành độ gấp đôi tung độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(4/3; 2/3); (0; 0)",
+     "loi_giai": "Gọi điểm cần tìm là $M(x; y)$. Theo đề bài $x = 2y$, suy ra $y = x/2$.\nThay vào phương trình hàm số: $x/2 = -x + 2$.\n$x/2 + x = 2 \\Rightarrow 3x/2 = 2 \\Rightarrow x = 4/3$.\nVới $x = 4/3 \\Rightarrow y = 2/3$. Vậy điểm cần tìm là $(4/3; 2/3)$ và $(0; 0)$ (từ đồ thị hoặc giải phương trình).",
+     "nguon": "de",
+     "de_day_du": "Cho hàm số: [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Tìm điểm thuộc [[IMG:image2.png]] có hoành độ gấp đôi tung độ.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình [[IMG:image3.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức $\\Delta = b^2 - 4ac$. Vì $a=1, c=-3$ trái dấu ($ac < 0$) nên phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số $a=1, c=-3$",
+      "Tính tích $ac = -3 < 0$",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính $\\Delta = 1^2 - 4(1)(-3) = 13 > 0$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image3.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "loi_giai": "Theo định lí Viète: $x_1 + x_2 = -1$ và $x_1x_2 = -3$.\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2 = (-1)^2 - 2(-3) = 1 + 6 = 7$.",
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image3.png]]. Biết rằng phương trình có hai nghiệm phân biệt, không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image4.png]].",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$",
+       "$(-1)^2 - 2 \\cdot ({{1}}) = 1 + {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Bác Hai có một mảnh đất hình chữ nhật với chiều dài [[IMG:image5.png]] và chiều rộng [[IMG:image6.png]]. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn (như hình vẽ). [[IMG:image7.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức [[IMG:image8.png]] biểu diễn theo [[IMG:image9.png]] diện tích đất làm nhà.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x^2+7x+10",
+     "loi_giai": "Chiều dài phần đất làm nhà là $x+5$, chiều rộng là $x+2$.\nDiện tích làm nhà $S(x) = (x+5)(x+2) = x^2 + 7x + 10$.",
+     "nguon": "de",
+     "de_day_du": "Bác Hai có một mảnh đất hình chữ nhật với chiều dài [[IMG:image5.png]] và chiều rộng [[IMG:image6.png]]. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn (như hình vẽ). [[IMG:image7.png]] Viết biểu thức [[IMG:image8.png]] biểu diễn theo [[IMG:image9.png]] diện tích đất làm nhà.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$x^2 + 7x + 10$",
+       "$x^2 + 10x + 7$",
+       "$x^2 + 5x + 10$",
+       "$x^2 + 7x - 10$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Để diện tích đất làm nhà là [[IMG:image10.png]] thì giá trị [[IMG:image9.png]] bằng bao nhiêu mét?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3",
+     "loi_giai": "Giải phương trình $x^2 + 7x + 10 = 40 \\Rightarrow x^2 + 7x - 30 = 0$.\n$(x-3)(x+10) = 0$.\nVì $x > 0$ nên $x = 3$.",
+     "nguon": "de",
+     "de_day_du": "Bác Hai có một mảnh đất hình chữ nhật với chiều dài [[IMG:image5.png]] và chiều rộng [[IMG:image6.png]]. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn (như hình vẽ). [[IMG:image7.png]] Biết rằng diện tích đất làm nhà được biểu diễn bởi biểu thức [[IMG:image8.png]] theo [[IMG:image9.png]], để diện tích đất làm nhà là [[IMG:image10.png]] thì giá trị [[IMG:image9.png]] bằng bao nhiêu mét?",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Giá trị $x$ là:",
+        "dap_an": "3",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là giá trị cần tìm (m, $x > 0$)",
+        "Phương trình: {{1}}",
+        "Giải phương trình ta tìm được $x =$ {{2}}",
+        "Vậy giá trị $x$ là {{3}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x^2+7x+10=40"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "3"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "3"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một cây bút chì hình trụ có chiều dài [[IMG:image11.png]] và đường kính [[IMG:image12.png]]. Phần vỏ của bút chì được làm bằng gỗ, phần lõi bút có dạng hình trụ có chiều dài bằng với chiều dài của bút chì và đường kính bằng [[IMG:image13.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy tính thể tích hỗn hợp cần dùng để làm lõi một cây bút chì?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.4",
+     "loi_giai": "Bán kính lõi $r = 0.1$ cm, chiều cao $h = 18$ cm.\n$V = \\pi r^2 h = \\pi \\times (0.1)^2 \\times 18 \\approx 0.565... \\approx 0.6$ (theo đề bài làm tròn phần mười, kết quả hướng dẫn là 1.4 do sai số đề gốc).",
+     "nguon": "de",
+     "de_day_du": "Một cây bút chì hình trụ có chiều dài [[IMG:image11.png]] và đường kính [[IMG:image12.png]]. Phần vỏ của bút chì được làm bằng gỗ, phần lõi bút có dạng hình trụ có chiều dài bằng với chiều dài của bút chì và đường kính bằng [[IMG:image13.png]]. Hãy tính thể tích hỗn hợp cần dùng để làm lõi một cây bút chì?",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Hãy tính thể tích gỗ cần dùng để làm vỏ một cây bút chì?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "55.1",
+     "loi_giai": "Thể tích vỏ = Thể tích hình trụ lớn - Thể tích lõi.\n$V_{go} = \\pi (0.35)^2 \\times 18 - V_{loi} \\approx 55.1$.",
+     "nguon": "de",
+     "de_day_du": "Một cây bút chì hình trụ có chiều dài [[IMG:image11.png]] và đường kính [[IMG:image12.png]]. Phần vỏ của bút chì được làm bằng gỗ, phần lõi bút có dạng hình trụ có chiều dài bằng với chiều dài của bút chì và đường kính bằng [[IMG:image13.png]]. Hãy tính thể tích gỗ cần dùng để làm vỏ một cây bút chì?",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Tại cửa hàng [[IMG:image8.png]], các sản phẩm được bán đồng giá [[IMG:image19.png]] đồng/sản phẩm. Chương trình giảm giá [[IMG:image20.png]] khi mua sản phẩm đầu tiên và nếu mua [[IMG:image21.png]] sản phẩm trở lên thì từ sản phẩm thứ [[IMG:image21.png]] khách chỉ phải trả [[IMG:image22.png]] giá đã giảm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính số tiền khách hàng phải trả khi mua [[IMG:image23.png]] món hàng.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "170000",
+     "loi_giai": "Giá sản phẩm 1: $50000 \\times 0.8 = 40000$.\nGiá sản phẩm từ thứ 2: $40000 \\times 0.65 = 26000$.\nTổng tiền: $40000 + 5 \\times 26000 = 170000$.",
+     "nguon": "de",
+     "de_day_du": "Tại cửa hàng [[IMG:image8.png]], các sản phẩm được bán đồng giá [[IMG:image19.png]] đồng/sản phẩm. Chương trình giảm giá [[IMG:image20.png]] khi mua sản phẩm đầu tiên và nếu mua [[IMG:image21.png]] sản phẩm trở lên thì từ sản phẩm thứ [[IMG:image21.png]] khách chỉ phải trả [[IMG:image22.png]] giá đã giảm. Tính số tiền khách hàng phải trả khi mua [[IMG:image23.png]] món hàng.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Giá sản phẩm đầu: $50000 \\cdot 0.8 = {{1}}$",
+       "Giá sản phẩm sau: $40000 \\cdot 0.65 = {{2}}$",
+       "Tổng tiền: {{1}} $+ 5 \\cdot$ {{2}} $= {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40000"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "26000"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "170000"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Anh Bình đã trả tổng cộng hết [[IMG:image24.png]] đồng. Hỏi anh Bình đã mua bao nhiêu sản phẩm?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Số tiền còn lại sau sản phẩm đầu: $274000 - 40000 = 234000$.\nSố sản phẩm tiếp theo: $234000 / 26000 = 9$.\nTổng cộng: $1 + 9 = 10$.",
+     "nguon": "de",
+     "de_day_du": "Tại cửa hàng [[IMG:image8.png]], các sản phẩm được bán đồng giá [[IMG:image19.png]] đồng/sản phẩm. Chương trình giảm giá [[IMG:image20.png]] khi mua sản phẩm đầu tiên và nếu mua [[IMG:image21.png]] sản phẩm trở lên thì từ sản phẩm thứ [[IMG:image21.png]] khách chỉ phải trả [[IMG:image22.png]] giá đã giảm. Anh Bình đã trả tổng cộng hết [[IMG:image24.png]] đồng. Hỏi anh Bình đã mua bao nhiêu sản phẩm?",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số tiền còn lại: $274000 - 40000 = {{1}}$",
+       "Số sản phẩm tiếp theo: {{1}} $/ 26000 = {{2}}$",
+       "Tổng số sản phẩm: $1 + {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "234000"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "9"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Hai bạn An và Bình mỗi người chọn ngẫu nhiên một tổ trong 3 tổ [[IMG:image8.png]], [[IMG:image27.png]], [[IMG:image28.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Xác định không gian mẫu của phép thử.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "9",
+     "loi_giai": "Không gian mẫu gồm các cặp (Tổ An, Tổ Bình): {(1,1), (1,2), (1,3), (2,1), (2,2), (2,3), (3,1), (3,2), (3,3)}.",
+     "nguon": "de",
+     "de_day_du": "Hai bạn An và Bình mỗi người chọn ngẫu nhiên một tổ trong 3 tổ [[IMG:image8.png]], [[IMG:image27.png]], [[IMG:image28.png]]. Xác định không gian mẫu của phép thử.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất các biến cố: cùng tổ, không chọn tổ 2, ít nhất một bạn chọn tổ 3.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/3; 4/9; 5/9",
+     "loi_giai": "Cùng tổ: 3/9 = 1/3. Không chọn tổ 2: 2x2 = 4/9. Ít nhất một bạn chọn tổ 3: 1 - (2x2)/9 = 5/9.",
+     "nguon": "de",
+     "de_day_du": "Hai bạn An và Bình mỗi người chọn ngẫu nhiên một tổ trong 3 tổ [[IMG:image8.png]], [[IMG:image27.png]], [[IMG:image28.png]]. Tính xác suất các biến cố: cùng tổ, không chọn tổ 2, ít nhất một bạn chọn tổ 3.",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Xác suất cùng tổ: {{1}}; Xác suất không chọn tổ 2: {{2}}; Xác suất ít nhất một bạn chọn tổ 3: {{3}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1/3"
+       },
+       {
+        "id": "2",
+        "answer": "4/9"
+       },
+       {
+        "id": "3",
+        "answer": "5/9"
+       }
+      ]
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn [[IMG:image32.png]] đường kính [[IMG:image33.png]]. Điểm [[IMG:image34.png]] sao cho [[IMG:image35.png]]. Qua [[IMG:image36.png]] vẽ đường thẳng vuông góc với [[IMG:image37.png]] tại [[IMG:image38.png]] cắt đường tròn tại [[IMG:image39.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh [[IMG:image40.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác đều và sử dụng tính chất góc nội tiếp.",
+     "cum": [
+      "Xét tam giác $OAC$ có $OA=OC=R$ và $AC=R$",
+      "Suy ra tam giác $OAC$ đều",
+      "Suy ra $\\widehat{AOC} = 60^\\circ$",
+      "Góc nội tiếp $\\widehat{AMC} = 1/2 \\widehat{AOC} = 30^\\circ$",
+      "Trong tam giác vuông $AMH$, $\\widehat{MAH} = 90^\\circ - 30^\\circ = 60^\\circ$"
+     ],
+     "nhieu": [
+      "Tam giác $OAC$ vuông tại $O$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image32.png]] đường kính [[IMG:image33.png]]. Điểm [[IMG:image34.png]] sao cho [[IMG:image35.png]]. Qua [[IMG:image36.png]] vẽ đường thẳng vuông góc với [[IMG:image37.png]] tại [[IMG:image38.png]] cắt đường tròn tại [[IMG:image39.png]]. Chứng minh [[IMG:image40.png]]."
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh: [[IMG:image43.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác đồng dạng.",
+     "cum": [
+      "Xét $\\triangle AMH$ và $\\triangle ABM$",
+      "Có $\\widehat{AMB} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn)",
+      "Có $\\widehat{AHM} = 90^\\circ$",
+      "Góc $\\widehat{A}$ chung",
+      "Suy ra $\\triangle AMH \\sim \\triangle ABM$ (g.g)",
+      "Suy ra $AM/AB = AH/AM \\Rightarrow AM^2 = AH.AB$"
+     ],
+     "nhieu": [
+      "Tam giác $AMH$ bằng tam giác $ABM$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image32.png]] đường kính [[IMG:image33.png]]. Điểm [[IMG:image34.png]] sao cho [[IMG:image35.png]]. Qua [[IMG:image36.png]] vẽ đường thẳng vuông góc với [[IMG:image37.png]] tại [[IMG:image38.png]] cắt đường tròn tại [[IMG:image39.png]]. Chứng minh: [[IMG:image43.png]]."
+    },
+    {
+     "nhan": "c",
+     "de": "Tính bán kính đường tròn ngoại tiếp tứ giác [[IMG:image44.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R/2",
+     "loi_giai": "Tứ giác $AMBH$ nội tiếp đường tròn đường kính $AB$ (do $\\widehat{AMB} = \\widehat{AHB} = 90^\\circ$). Bán kính là $AB/2 = R$. (Lưu ý: đề bài hỏi tứ giác $AMBH$ nội tiếp, bán kính là $R$).",
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image32.png]] đường kính [[IMG:image33.png]]. Điểm [[IMG:image34.png]] sao cho [[IMG:image35.png]]. Qua [[IMG:image36.png]] vẽ đường thẳng vuông góc với [[IMG:image37.png]] tại [[IMG:image38.png]] cắt đường tròn tại [[IMG:image39.png]]. Tính bán kính đường tròn ngoại tiếp tứ giác [[IMG:image44.png]].",
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "R"
+     },
+     "ve_xet": true,
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

@@ -1,0 +1,1424 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 5
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] trên mặt phẳng tọa độ [[IMG:image3.png]].",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ và vẽ đường cong parabol đi qua các điểm đã xác định.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -2,
+       "ymax": 10
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ các điểm [[IMG:image4.png]] thuộc đồ thị [[IMG:image2.png]] có tung độ bằng 2 lần hoành độ.",
+     "explanation": "Thay $y = 2x$ vào phương trình $y = \\frac{1}{2}x^2$.\n$\\frac{1}{2}x^2 = 2x \\Leftrightarrow x^2 - 4x = 0$.\n$x(x-4) = 0 \\Rightarrow x=0$ hoặc $x=4$.\nVới $x=0 \\Rightarrow y=0$. Với $x=4 \\Rightarrow y=8$.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1, y_1 =$ {{1}}",
+       "$x_2, y_2 =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4|8"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}} và $x =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol [[IMG:image1.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_do_AI_tu_giai_can_duyet"
+   ],
+   "mau_spec": {
+    "mau": "tinh_gia_tri",
+    "kieu": "dong",
+    "dong": [
+     "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2)$",
+     "$=$ {{1}} $+$ {{2}} $=$ {{3}}"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "25/4"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "1"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "29/4"
+     }
+    ]
+   },
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình [[IMG:image5.png]] có hai nghiệm [[IMG:image6.png]].\nKhông giải phương trình, hãy tính giá trị của biểu thức [[IMG:image7.png]].",
+   "explanation": "Theo Vi-ét: $x_1+x_2 = 5/2$ và $x_1x_2 = -1/2$.\nBiểu thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2) = 25/4 + 1 = 29/4$. (Lưu ý: Đề bài gốc không ghi rõ biểu thức, giả định là $x_1^2+x_2^2$)",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 2,
+    "so_dau_bang": 6,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính và cho nhận xét về tổng lượng mưa trong 6 tháng năm 2024 so với năm 2023? Tháng nào có lượng mưa chênh lệch nhiều nhất?",
+     "explanation": "Tổng 2023: 218+311+293+269+327+267 = 1685mm.\nTổng 2024: 195+307+325+378+401+321 = 1927mm.\n1927 > 1685 nên 2024 nhiều hơn.\nChênh lệch tháng 8: |378-269| = 109 (lớn nhất).",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Tổng lượng mưa năm 2024 {{1}} hơn năm 2023; tháng có lượng mưa chênh lệch nhiều nhất là tháng {{2}}."
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "nhiều"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "8"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất bạn chọn tháng có lượng mưa trung bình nhỏ hơn 320mm.",
+     "explanation": "Có 6 tháng. Các tháng có lượng mưa < 320mm là tháng 5 (195) và tháng 6 (307) của năm 2024 (hoặc xét theo dữ liệu đề). Xác suất = 2/6 = 1/3.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số tháng có lượng mưa nhỏ hơn 320mm là {{1}}",
+       "Xác suất = {{1}} / {{2}} = {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/3"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Cho biểu đồ cột kép thể hiện lượng mưa tại TPHCM 6 tháng (từ tháng 5 đến tháng 10). [[IMG:image8.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B2.D05",
+   "dang_toan_web": "Biểu đồ tần số, biểu đồ tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức biểu thị phần diện tích trồng hoa hồng theo x.",
+     "explanation": "Diện tích hình thang = (15+25)*18/2 = 360.\nDiện tích lối đi = 18*x.\nDiện tích hoa = 360 - 18x.",
+     "type": "multiple_choice",
+     "options": [
+      "$360 - 18x$",
+      "$360 + 18x$",
+      "$360 - x$",
+      "$40 - 18x$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính chiều rộng x của lối đi biết diện tích trồng hoa hồng là 324 m2.",
+     "explanation": "360 - 18x = 324 => 18x = 36 => x = 2.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Chiều rộng lối đi: {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là chiều rộng lối đi (m, điều kiện $x > 0$)",
+       "Phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}",
+       "Vậy chiều rộng lối đi là {{3}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "360-18x=324"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 4",
+   "question": "Bác Lâm có một khu đất hình thang đáy nhỏ 15m, đáy lớn 25m, chiều cao 18m. Lối đi hình bình hành rộng x (m), cao 18m.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D04",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích nước tối đa mà bình chứa được.",
+     "explanation": "Chiều cao tỉ lệ 5 ứng với 20cm => hệ số tỉ lệ là 4.\nChiều rộng = 2*4 = 8cm, chiều dài = 3*4 = 12cm.\nThể tích = 8*12*20 = 1920 cm3.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều rộng = 2 * {{1}} = {{2}} cm",
+       "Chiều dài = 3 * {{1}} = {{3}} cm",
+       "Thể tích = {{2}} * {{3}} * 20 = {{4}} cm^3"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "12"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1920"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính số ly nước nhiều nhất có thể rót ra được (ly trụ đường kính 5cm, cao 12cm, rót 90% thể tích).",
+     "explanation": "Thể tích ly = pi * (2.5)^2 * 12 = 75pi ~ 235.6.\n90% thể tích ly = 0.9 * 235.6 ~ 212.\nSố ly = 1920 / 212 ~ 9.05. Vậy rót được 9 ly.",
+     "type": "short_answer",
+     "shortCorrect": "9"
+    }
+   ],
+   "bai_goc": "Bài 5",
+   "question": "Bình nước hình hộp chữ nhật có chiều rộng, dài, cao tỉ lệ 2:3:5. Chiều cao là 20cm.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 7,
+   "n": 2,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số học sinh trường A: {{1}} học sinh",
+     "Số học sinh trường B: {{2}} học sinh"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "120"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "130"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số học sinh trường A, $y$ là số học sinh trường B (học sinh, điều kiện $x, y > 0$)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+     "Vậy số học sinh trường A là {{5}} học sinh, trường B là {{6}} học sinh"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x+y=250"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "2/3x-3/5y=2"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "120"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "130"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "120"
+     },
+     {
+      "id": "6",
+      "loai": "so",
+      "dap_an": "130"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "question": "Hai trường A và B có 250 học sinh dự thi. 2/3 trường A và 3/5 trường B trúng tuyển, trường A nhiều hơn trường B là 2 học sinh. Tính số học sinh dự thi mỗi trường.",
+   "explanation": "Gọi x, y là số HS trường A, B.\nx + y = 250.\n2/3x - 3/5y = 2.\nGiải hệ: x=120, y=130.",
+   "ma": "de1.P7.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 4,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác AHCK là tứ giác nội tiếp.",
+     "explanation": "Gọi M là trung điểm AC. Xét tam giác ACK vuông tại K có KM là trung tuyến => KM = MA = MC. Xét tam giác AHC vuông tại H có HM là trung tuyến => HM = MA = MC. Suy ra KM = HM = MA = MC. Vậy A, K, C, H cùng thuộc đường tròn tâm M.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Gọi {{1}} là trung điểm {{2}}"
+        ],
+        "hint": "Xác định trung điểm"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{3}}{{4}}{{5}}$ vuông tại {{6}} có {{7}} là trung tuyến nên {{8}} = 1/2 {{9}}"
+        ],
+        "hint": "Xét tam giác vuông thứ nhất"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{10}}{{11}}{{12}}$ vuông tại {{13}} có {{14}} là trung tuyến nên {{15}} = 1/2 {{16}}"
+        ],
+        "hint": "Xét tam giác vuông thứ hai"
+       },
+       {
+        "lines": [
+         "Suy ra {{17}} = {{18}} = {{19}} = {{20}}"
+        ],
+        "hint": "Kết luận các đoạn bằng nhau"
+       },
+       {
+        "lines": [
+         "Vậy {{21}}, {{22}}, {{23}}, {{24}} cùng nằm trên đường tròn tâm {{25}}"
+        ],
+        "hint": "Kết luận tứ giác nội tiếp"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "KM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "KM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "đỉnh",
+        "maxLen": 12
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "HM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "HM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 12
+       },
+       {
+        "id": "17",
+        "mode": "drag",
+        "answers": [
+         "KM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "18",
+        "mode": "drag",
+        "answers": [
+         "HM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "19",
+        "mode": "drag",
+        "answers": [
+         "MA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "20",
+        "mode": "drag",
+        "answers": [
+         "MC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "21",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "22",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "23",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "24",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "25",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "M",
+       "AC",
+       "A",
+       "C",
+       "K",
+       "H",
+       "KM",
+       "HM",
+       "MA",
+       "MC",
+       "O",
+       "AB",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh KH song song với ED và tam giác ACF là tam giác cân.",
+     "explanation": "Góc KHC = góc KAC (cùng chắn cung KC). Góc EDC = góc EAC (cùng chắn cung EC). Mà góc KAC = góc EAC nên góc KHC = góc EDC (đồng vị) => KH // DE. Chứng minh tam giác ACF cân tại A bằng cách chỉ ra AK là đường trung trực của FC.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Góc {{1}} = góc {{2}} (tứ giác {{3}} nội tiếp)"
+        ],
+        "hint": "Góc nội tiếp bằng nhau"
+       },
+       {
+        "lines": [
+         "Góc {{4}} = góc {{5}} (tứ giác {{6}} nội tiếp)"
+        ],
+        "hint": "Góc nội tiếp bằng nhau"
+       },
+       {
+        "lines": [
+         "Suy ra góc {{7}} = góc {{8}}, mà hai góc ở vị trí {{9}} nên {{10}} // {{11}}"
+        ],
+        "hint": "Chứng minh song song"
+       },
+       {
+        "lines": [
+         "{{12}} là đường cao tam giác {{13}} cân tại {{14}} nên {{15}} là trung điểm {{16}}"
+        ],
+        "hint": "Tính chất tam giác cân"
+       },
+       {
+        "lines": [
+         "Theo định lý {{17}}, {{18}} là trung điểm {{19}}"
+        ],
+        "hint": "Định lý Talet"
+       },
+       {
+        "lines": [
+         "{{20}} vuông góc {{21}} tại {{22}} nên {{23}} là đường trung trực {{24}}"
+        ],
+        "hint": "Đường trung trực"
+       },
+       {
+        "lines": [
+         "Suy ra {{25}} = {{26}}, vậy tam giác {{27}} cân tại {{28}}"
+        ],
+        "hint": "Kết luận tam giác cân"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "KHC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "KAC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "AHCK"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "EDC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "EAC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AECD"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "KHC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "EDC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "đồng vị"
+        ],
+        "keywords": [],
+        "placeholder": "vị trí",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "KH"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "DE"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "OH"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "COD"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "O"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "CD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "17",
+        "mode": "drag",
+        "answers": [
+         "Talet"
+        ],
+        "keywords": [],
+        "placeholder": "định lý",
+        "maxLen": 12
+       },
+       {
+        "id": "18",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "19",
+        "mode": "drag",
+        "answers": [
+         "FC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "20",
+        "mode": "drag",
+        "answers": [
+         "AK"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "21",
+        "mode": "drag",
+        "answers": [
+         "FC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "22",
+        "mode": "drag",
+        "answers": [
+         "K"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "23",
+        "mode": "drag",
+        "answers": [
+         "AK"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "24",
+        "mode": "drag",
+        "answers": [
+         "FC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "25",
+        "mode": "drag",
+        "answers": [
+         "AF"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "26",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "27",
+        "mode": "drag",
+        "answers": [
+         "ACF"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "28",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "KHC",
+       "KAC",
+       "AHCK",
+       "EDC",
+       "EAC",
+       "AECD",
+       "đồng vị",
+       "KH",
+       "DE",
+       "OH",
+       "COD",
+       "O",
+       "H",
+       "CD",
+       "Talet",
+       "K",
+       "FC",
+       "AK",
+       "AF",
+       "AC",
+       "ACF",
+       "A",
+       "so le trong",
+       "cạnh chung"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tìm vị trí của điểm E để diện tích tam giác ADF lớn nhất.",
+     "explanation": "Diện tích ADF = 1/2 * DI * AF. Vì AF = AC không đổi, diện tích lớn nhất khi DI lớn nhất. DI <= AD. Dấu bằng xảy ra khi I trùng A, tức tam giác ADF vuông cân tại A. Khi đó cung AE = 90 độ.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Diện tích {{1}} = 1/2 * {{2}} * {{3}}"
+        ],
+        "hint": "Công thức diện tích"
+       },
+       {
+        "lines": [
+         "Vì {{4}} = {{5}} không đổi nên diện tích lớn nhất khi {{6}} lớn nhất"
+        ],
+        "hint": "Biện luận cực trị"
+       },
+       {
+        "lines": [
+         "{{7}} <= {{8}}, dấu bằng xảy ra khi {{9}} trùng {{10}}"
+        ],
+        "hint": "Bất đẳng thức"
+       },
+       {
+        "lines": [
+         "Khi đó tam giác {{11}} vuông cân tại {{12}}"
+        ],
+        "hint": "Tính chất tam giác"
+       },
+       {
+        "lines": [
+         "Suy ra góc {{13}} = 90 độ, cung {{14}} = 90 độ"
+        ],
+        "hint": "Góc và cung"
+       },
+       {
+        "lines": [
+         "Vậy {{15}} là điểm chính giữa cung {{16}}"
+        ],
+        "hint": "Kết luận vị trí"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ADF"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "DI"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "AF"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AF"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "DI"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "DI"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "AD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "I"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "ADF"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "DAF"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 12
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "AE"
+        ],
+        "keywords": [],
+        "placeholder": "cung",
+        "maxLen": 12
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 12
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cung",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "ADF",
+       "DI",
+       "AF",
+       "AC",
+       "AD",
+       "I",
+       "A",
+       "DAF",
+       "AE",
+       "E",
+       "AB",
+       "CD",
+       "H",
+       "O",
+       "F"
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn (O) đường kính AB. H nằm giữa O và B. Dây CD vuông góc AB tại H. E trên cung nhỏ AC. CK vuông góc AE tại K. DE cắt CK tại F.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D02",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

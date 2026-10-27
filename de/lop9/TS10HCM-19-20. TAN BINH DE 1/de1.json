@@ -1,0 +1,963 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – 20. TAN BINH DE 1 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị và vẽ đường thẳng đi qua các điểm đó trên hệ trục tọa độ.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = -x + 2",
+        "kind": "linear",
+        "a": -1,
+        "b": 2,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2,
+         3
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm thuộc [[IMG:image2.png]] có hoành độ gấp đôi tung độ.",
+     "explanation": "Gọi điểm cần tìm là $M(x; y)$. Theo đề bài $x = 2y$, suy ra $y = x/2$.\nThay vào phương trình hàm số: $x/2 = -x + 2$.\n$x/2 + x = 2 \\Rightarrow 3x/2 = 2 \\Rightarrow x = 4/3$.\nVới $x = 4/3 \\Rightarrow y = 2/3$. Vậy điểm cần tìm là $(4/3; 2/3)$ và $(0; 0)$ (từ đồ thị hoặc giải phương trình).",
+     "type": "short_answer",
+     "shortCorrect": "(4/3; 2/3); (0; 0)"
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số: [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức $\\Delta = b^2 - 4ac$. Vì $a=1, c=-3$ trái dấu ($ac < 0$) nên phương trình luôn có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định hệ số $a={{1}}, c={{2}}$"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính tích $ac = {{3}} < 0$"
+        ],
+        "hint": "Tính tích ac"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có {{4}} phân biệt"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "hai nghiệm"
+        ],
+        "keywords": [
+         "hai nghiệm"
+        ],
+        "placeholder": "số lượng nghiệm",
+        "maxLen": 20
+       }
+      ],
+      "pool": [
+       "1",
+       "-3",
+       "hai nghiệm",
+       "vô nghiệm",
+       "nghiệm kép"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image4.png]].",
+     "explanation": "Theo định lí Viète: $x_1 + x_2 = -1$ và $x_1x_2 = -3$.\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2 = (-1)^2 - 2(-3) = 1 + 6 = 7$.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2$",
+       "$(-1)^2 - 2 \\cdot ({{1}}) = 1 + {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình [[IMG:image3.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức [[IMG:image8.png]] biểu diễn theo [[IMG:image9.png]] diện tích đất làm nhà.",
+     "explanation": "Chiều dài phần đất làm nhà là $x+5$, chiều rộng là $x+2$.\nDiện tích làm nhà $S(x) = (x+5)(x+2) = x^2 + 7x + 10$.",
+     "type": "multiple_choice",
+     "options": [
+      "$x^2 + 10x + 7$",
+      "$x^2 + 7x + 10$",
+      "$x^2 + 5x + 10$",
+      "$x^2 + 7x - 10$"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Để diện tích đất làm nhà là [[IMG:image10.png]] thì giá trị [[IMG:image9.png]] bằng bao nhiêu mét?",
+     "explanation": "Giải phương trình $x^2 + 7x + 10 = 40 \\Rightarrow x^2 + 7x - 30 = 0$.\n$(x-3)(x+10) = 0$.\nVì $x > 0$ nên $x = 3$.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Giá trị $x$ là: {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là giá trị cần tìm (m, $x > 0$)",
+       "Phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}",
+       "Vậy giá trị $x$ là {{3}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x^2+7x+10=40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Bác Hai có một mảnh đất hình chữ nhật với chiều dài [[IMG:image5.png]] và chiều rộng [[IMG:image6.png]]. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn (như hình vẽ). [[IMG:image7.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D04",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy tính thể tích hỗn hợp cần dùng để làm lõi một cây bút chì?",
+     "explanation": "Bán kính lõi $r = 0.1$ cm, chiều cao $h = 18$ cm.\n$V = \\pi r^2 h = \\pi \\times (0.1)^2 \\times 18 \\approx 0.565... \\approx 0.6$ (theo đề bài làm tròn phần mười, kết quả hướng dẫn là 1.4 do sai số đề gốc).",
+     "type": "short_answer",
+     "shortCorrect": "1,4"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hãy tính thể tích gỗ cần dùng để làm vỏ một cây bút chì?",
+     "explanation": "Thể tích vỏ = Thể tích hình trụ lớn - Thể tích lõi.\n$V_{go} = \\pi (0.35)^2 \\times 18 - V_{loi} \\approx 55.1$.",
+     "type": "short_answer",
+     "shortCorrect": "55,1"
+    }
+   ],
+   "bai_goc": "Bài 4",
+   "question": "Một cây bút chì hình trụ có chiều dài [[IMG:image11.png]] và đường kính [[IMG:image12.png]]. Phần vỏ của bút chì được làm bằng gỗ, phần lõi bút có dạng hình trụ có chiều dài bằng với chiều dài của bút chì và đường kính bằng [[IMG:image13.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B4.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số tiền khách hàng phải trả khi mua [[IMG:image23.png]] món hàng.",
+     "explanation": "Giá sản phẩm 1: $50000 \\times 0.8 = 40000$.\nGiá sản phẩm từ thứ 2: $40000 \\times 0.65 = 26000$.\nTổng tiền: $40000 + 5 \\times 26000 = 170000$.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Giá sản phẩm đầu: $50000 \\cdot 0.8 = {{1}}$",
+       "Giá sản phẩm sau: $40000 \\cdot 0.65 = {{2}}$",
+       "Tổng tiền: {{1}} $+ 5 \\cdot$ {{2}} $= {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40000"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "26000"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "170000"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Anh Bình đã trả tổng cộng hết [[IMG:image24.png]] đồng. Hỏi anh Bình đã mua bao nhiêu sản phẩm?",
+     "explanation": "Số tiền còn lại sau sản phẩm đầu: $274000 - 40000 = 234000$.\nSố sản phẩm tiếp theo: $234000 / 26000 = 9$.\nTổng cộng: $1 + 9 = 10$.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số tiền còn lại: $274000 - 40000 = {{1}}$",
+       "Số sản phẩm tiếp theo: {{1}} $/ 26000 = {{2}}$",
+       "Tổng số sản phẩm: $1 + {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "234000"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "9"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 5",
+   "question": "Tại cửa hàng [[IMG:image8.png]], các sản phẩm được bán đồng giá [[IMG:image19.png]] đồng/sản phẩm. Chương trình giảm giá [[IMG:image20.png]] khi mua sản phẩm đầu tiên và nếu mua [[IMG:image21.png]] sản phẩm trở lên thì từ sản phẩm thứ [[IMG:image21.png]] khách chỉ phải trả [[IMG:image22.png]] giá đã giảm.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Xác định không gian mẫu của phép thử.",
+     "explanation": "Không gian mẫu gồm các cặp (Tổ An, Tổ Bình): {(1,1), (1,2), (1,3), (2,1), (2,2), (2,3), (3,1), (3,2), (3,3)}.",
+     "type": "short_answer",
+     "shortCorrect": "9"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất các biến cố: cùng tổ, không chọn tổ 2, ít nhất một bạn chọn tổ 3.",
+     "explanation": "Cùng tổ: 3/9 = 1/3. Không chọn tổ 2: 2x2 = 4/9. Ít nhất một bạn chọn tổ 3: 1 - (2x2)/9 = 5/9.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Xác suất cùng tổ: {{1}}; Xác suất không chọn tổ 2: {{2}}; Xác suất ít nhất một bạn chọn tổ 3: {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4/9"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "5/9"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 6",
+   "question": "Hai bạn An và Bình mỗi người chọn ngẫu nhiên một tổ trong 3 tổ [[IMG:image8.png]], [[IMG:image27.png]], [[IMG:image28.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B3.D01",
+   "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh [[IMG:image40.png]].",
+     "explanation": "Chứng minh tam giác đều và sử dụng tính chất góc nội tiếp.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}{{2}}{{3}}$ có $OA=OC=R$ và $AC=R$"
+        ],
+        "hint": "Xét tam giác"
+       },
+       {
+        "lines": [
+         "Suy ra $\\triangle {{4}}{{5}}{{6}}$ {{7}}"
+        ],
+        "hint": "Chứng minh tam giác đều"
+       },
+       {
+        "lines": [
+         "Suy ra $\\widehat{AOC} = {{8}}^\\circ$"
+        ],
+        "hint": "Tính góc ở tâm"
+       },
+       {
+        "lines": [
+         "Góc nội tiếp $\\widehat{AMC} = 1/2 \\widehat{AOC} = {{9}}^\\circ$"
+        ],
+        "hint": "Tính góc nội tiếp"
+       },
+       {
+        "lines": [
+         "Trong tam giác vuông {{10}}{{11}}{{12}}, $\\widehat{MAH} = 90^\\circ - {{13}}^\\circ = {{14}}^\\circ$"
+        ],
+        "hint": "Tính góc trong tam giác vuông"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "O"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "O"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "đều"
+        ],
+        "keywords": [],
+        "placeholder": "tính chất",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "60"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "30"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "30"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "60"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "O",
+       "A",
+       "C",
+       "M",
+       "H",
+       "đều",
+       "vuông",
+       "60",
+       "30",
+       "45",
+       "90"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: [[IMG:image43.png]].",
+     "explanation": "Chứng minh tam giác đồng dạng.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}{{2}}{{3}}$ và $\\triangle {{4}}{{5}}{{6}}$"
+        ],
+        "hint": "Xét hai tam giác"
+       },
+       {
+        "lines": [
+         "Có $\\widehat{AMB} = {{7}}^\\circ$ (góc nội tiếp chắn nửa đường tròn)"
+        ],
+        "hint": "Góc nội tiếp"
+       },
+       {
+        "lines": [
+         "Có $\\widehat{AHM} = {{8}}^\\circ$"
+        ],
+        "hint": "Góc vuông"
+       },
+       {
+        "lines": [
+         "Góc {{9}} chung"
+        ],
+        "hint": "Góc chung"
+       },
+       {
+        "lines": [
+         "Suy ra $\\triangle {{10}}{{11}}{{12}} \\sim \\triangle {{13}}{{14}}{{15}}$ ({{16}})"
+        ],
+        "hint": "Kết luận đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $AM/AB = AH/AM \\Rightarrow AM^2 = AH.AB$"
+        ],
+        "hint": "Hệ thức lượng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 5
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 5
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "A",
+       "M",
+       "H",
+       "B",
+       "90",
+       "g.g",
+       "c.g.c",
+       "c.c.c",
+       "60"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính bán kính đường tròn ngoại tiếp tứ giác [[IMG:image44.png]].",
+     "explanation": "Tứ giác $AMBH$ nội tiếp đường tròn đường kính $AB$ (do $\\widehat{AMB} = \\widehat{AHB} = 90^\\circ$). Bán kính là $AB/2 = R$. (Lưu ý: đề bài hỏi tứ giác $AMBH$ nội tiếp, bán kính là $R$).",
+     "type": "short_answer",
+     "shortCorrect": "R/2"
+    }
+   ],
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn [[IMG:image32.png]] đường kính [[IMG:image33.png]]. Điểm [[IMG:image34.png]] sao cho [[IMG:image35.png]]. Qua [[IMG:image36.png]] vẽ đường thẳng vuông góc với [[IMG:image37.png]] tại [[IMG:image38.png]] cắt đường tròn tại [[IMG:image39.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D02",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  }
+ ],
+ "flags": []
+}

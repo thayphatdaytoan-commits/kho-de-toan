@@ -1,0 +1,322 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số [[IMG:image55.png]] có đồ thị là Parabol (P).",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị (P) trên mặt phẳng tọa độ [[IMG:image56.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc (P): x=-2, y=8; x=-1, y=2; x=0, y=0; x=1, y=2; x=2, y=8. Vẽ đường cong Parabol đi qua các điểm trên.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc Parabol",
+      "Xác định các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image55.png]] có đồ thị là Parabol (P). Vẽ đồ thị (P) trên mặt phẳng tọa độ [[IMG:image56.png]].",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Bạn Lan đang thiết kế một chiếc cầu có hình dạng giống đồ thị của hàm số [[IMG:image55.png]], bạn cần xác định những điểm trên cầu có độ cao bằng 2 mét so với mặt đất. Hãy tìm các tọa độ đó để bạn Lan hoàn thành bản vẽ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(-1; 2); (1; 2)",
+     "loi_giai": "Thay y = 2 vào phương trình y = 2x^2 ta được 2 = 2x^2.\nSuy ra x^2 = 1, nên x = 1 hoặc x = -1.\nVậy các điểm cần tìm là (-1; 2) và (1; 2).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image55.png]] có đồ thị là Parabol (P). Bạn Lan đang thiết kế một chiếc cầu có hình dạng giống đồ thị của hàm số [[IMG:image55.png]], bạn cần xác định những điểm trên cầu có độ cao bằng 2 mét so với mặt đất. Hãy tìm các tọa độ đó để bạn Lan hoàn thành bản vẽ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ các điểm là: ({{1}}; {{2}}) và ({{3}}; {{4}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "-1"
+       },
+       {
+        "id": "2",
+        "answer": "2"
+       },
+       {
+        "id": "3",
+        "answer": "1"
+       },
+       {
+        "id": "4",
+        "answer": "2"
+       }
+      ]
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình bậc hai ẩn [[IMG:image68.png]]: [[IMG:image69.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image70.png]]",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có a = 1, c = -3. Vì a.c = -3 < 0 nên phương trình luôn có hai nghiệm phân biệt trái dấu.",
+     "cum": [
+      "Xác định hệ số a và c",
+      "Tính tích a.c",
+      "Kết luận phương trình có hai nghiệm phân biệt vì a.c < 0"
+     ],
+     "nhieu": [
+      "Tính delta và chứng minh delta > 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình bậc hai ẩn [[IMG:image68.png]]: [[IMG:image69.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image70.png]].",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình hãy tính giá trị của biểu thức [[IMG:image8.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "loi_giai": "Theo hệ thức Viète: x1 + x2 = 1; x1.x2 = -3.\nBiểu thức x1^2 + x2^2 = (x1 + x2)^2 - 2x1.x2 = 1^2 - 2(-3) = 1 + 6 = 7.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình bậc hai ẩn [[IMG:image68.png]]: [[IMG:image69.png]]. Biết rằng phương trình có hai nghiệm phân biệt [[IMG:image70.png]], không giải phương trình hãy tính giá trị của biểu thức [[IMG:image8.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Trong một buổi học nhóm, Minh và Phương sáng tạo một trò chơi như sau: Minh sẽ tung một đồng xu cân đối và đồng chất có hai mặt là hình và chữ, còn Phương sẽ rút một tấm thẻ từ một hộp chứa các tấm thẻ có kích thước như nhau được đánh số từ [[IMG:image9.png]] đến [[IMG:image78.png]]. Nếu đồng xu ra mặt hình và Phương rút được tấm thẻ ghi số chẵn, thì cả hai sẽ được nhóm bạn thưởng một chiếc kẹo. Hỏi xác suất để Minh và Phương nhận được kẹo là bao nhiêu phần trăm? Làm tròn kết quả đến hàng phần mười.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "25%",
+     "loi_giai": "Số thẻ là 10 (từ 1 đến 10). Số thẻ chẵn là 5 (2, 4, 6, 8, 10).\nXác suất rút thẻ chẵn là 5/10 = 1/2.\nXác suất tung đồng xu ra mặt hình là 1/2.\nXác suất cả hai biến cố xảy ra là 1/2 * 1/2 = 1/4 = 25%.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "25%"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Tổng giá tiền niêm yết của một chiếc tivi và một máy giặt là [[IMG:image87.png]] triệu đồng, nhân dịp lễ 30/04 giá tiền của một chiếc tivi giảm [[IMG:image88.png]] giá niêm yết và giá một máy giặt giảm [[IMG:image89.png]] giá niêm yết, bác Hai đã mua một tivi và một máy giặt trên với tổng số tiền phải trả là [[IMG:image90.png]] triệu đồng. Hỏi giá mỗi món hàng khi chưa giảm giá là bao nhiêu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Tivi: 12; Máy giặt: 8",
+     "loi_giai": "Gọi x, y là giá tivi và máy giặt. x + y = 20.\nGiá sau giảm: 0.9x + 0.8y = 17.2.\nGiải hệ phương trình ta được x = 12, y = 8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Giá tivi: {{1}} triệu đồng; Giá máy giặt: {{2}} triệu đồng",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "12"
+       },
+       {
+        "id": "2",
+        "answer": "8"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Tự thực hiện cái quạt giấy, bạn Phương sử dụng các thanh tre, chuốt mỏng và cắt các đoạn tre bằng nhau có chiều dài 30cm rồi chốt lại bằng ốc, vít. Bạn vẽ trên giấy thủ công các hình quạt [[IMG:image16.png]] có bán kính 30cm, quạt [[IMG:image17.png]] có bán kính 10cm, có góc ở tâm [[IMG:image105.png]]. Sau đó cắt bỏ phần hình quạt [[IMG:image17.png]], phần còn lại sẽ dán lên các nan quạt. Tính diện tích phần giấy thủ công dán lên các nan quạt, biết rằng giấy dán ở cả hai mặt quạt. Kết quả làm tròn đến hàng phần trăm.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "445.06",
+     "loi_giai": "Diện tích quạt lớn: (pi * 30^2 * 90)/360 = 225pi.\nDiện tích quạt nhỏ: (pi * 10^2 * 90)/360 = 25pi.\nDiện tích một mặt: 225pi - 25pi = 200pi.\nDiện tích hai mặt: 400pi ≈ 1256.64 (Lưu ý: Đề bài có thể có sai sót về số liệu hoặc góc, tính toán theo công thức: 2 * (225pi - 25pi) = 400pi ≈ 1256.64).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Một khách sạn A tại thành phố Đà Lạt có mức phí cho mỗi phòng được tính như sau: Mỗi phòng có giá là 300000 đồng/buổi, với thuế giá trị gia tăng là 8%. Vì số lượng khách du lịch đến Đà Lạt vào dịp Lễ Tết tăng nhiều, nên khách sạn quyết định phụ thu thêm phí dịch vụ là 50000 đồng cho mỗi phòng và phí này chỉ thu một lần cố định.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Gọi x là số đêm anh An ở tại khách sạn A và y là số tiền anh An phải trả (đồng). Hãy viết biểu thức biểu diễn y theo x.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "y = 324000x + 50000",
+     "loi_giai": "Giá 1 đêm sau thuế: 300000 * 1.08 = 324000.\nBiểu thức: y = 324000x + 50000.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khách sạn A tại thành phố Đà Lạt có mức phí cho mỗi phòng được tính như sau: Mỗi phòng có giá là 300000 đồng/buổi, với thuế giá trị gia tăng là 8%. Vì số lượng khách du lịch đến Đà Lạt vào dịp Lễ Tết tăng nhiều, nên khách sạn quyết định phụ thu thêm phí dịch vụ là 50000 đồng cho mỗi phòng và phí này chỉ thu một lần cố định. Gọi x là số đêm anh An ở tại khách sạn A và y là số tiền anh An phải trả (đồng). Hãy viết biểu thức biểu diễn y theo x.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$y = 300000x + 50000$",
+       "$y = 324000x + 50000$",
+       "$y = 324000x + 54000$",
+       "$y = 300000x + 54000$"
+      ],
+      "answer": "B"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Biết rằng anh An phải trả tiền tổng cộng là 1346000 đồng, hãy tính số buổi mà anh An ở tại khách sạn A.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4",
+     "loi_giai": "1346000 = 324000x + 50000 => 324000x = 1296000 => x = 4.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khách sạn A tại thành phố Đà Lạt có mức phí cho mỗi phòng được tính như sau: Mỗi phòng có giá là 300000 đồng/buổi, với thuế giá trị gia tăng là 8%. Vì số lượng khách du lịch đến Đà Lạt vào dịp Lễ Tết tăng nhiều, nên khách sạn quyết định phụ thu thêm phí dịch vụ là 50000 đồng cho mỗi phòng và phí này chỉ thu một lần cố định. Gọi x là số đêm anh An ở tại khách sạn A và y là số tiền anh An phải trả (đồng) với y = 324000x + 50000. Biết rằng anh An phải trả tiền tổng cộng là 1346000 đồng, hãy tính số buổi mà anh An ở tại khách sạn A.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn (O) đường kính AB và đường thẳng d là tiếp tuyến của đường tròn (O) tại A. Trên đường thẳng d lấy điểm M khác A sao cho MA > R. Từ điểm M vẽ MC là tiếp tuyến đường tròn (O) tại tiếp điểm C, với C khác A.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: 4 điểm M, A, O, C cùng thuộc một đường tròn và MO vuông góc AC.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "MA, MC là tiếp tuyến nên góc MAO = góc MCO = 90 độ. Tổng hai góc đối bằng 180 độ nên tứ giác MAOC nội tiếp. MO là đường trung trực của AC nên MO vuông góc AC.",
+     "cum": [
+      "Chứng minh góc MAO = 90 độ và góc MCO = 90 độ",
+      "Suy ra tứ giác MAOC nội tiếp đường tròn đường kính MO",
+      "Chứng minh MA = MC (tính chất hai tiếp tuyến cắt nhau)",
+      "Chứng minh OA = OC (bán kính)",
+      "Kết luận MO là đường trung trực của AC nên MO vuông góc AC"
+     ],
+     "nhieu": [
+      "Chứng minh tam giác MAC đều"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB và đường thẳng d là tiếp tuyến của đường tròn (O) tại A. Trên đường thẳng d lấy điểm M khác A sao cho MA > R. Từ điểm M vẽ MC là tiếp tuyến đường tròn (O) tại tiếp điểm C, với C khác A. Chứng minh: 4 điểm M, A, O, C cùng thuộc một đường tròn và MO vuông góc AC.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi H là giao điểm của đoạn MO với đường tròn (O). Tia CH cắt đoạn thẳng MA tại K. Chứng minh: MC^2 = MK.MA",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác MCH đồng dạng tam giác MHC (không đúng), thực tế là chứng minh tam giác MCK đồng dạng tam giác MAC.",
+     "cum": [
+      "Chứng minh góc MCH = góc MHC",
+      "Chứng minh tam giác MCK đồng dạng tam giác MAC",
+      "Suy ra MC/MA = MK/MC",
+      "Kết luận MC^2 = MK.MA"
+     ],
+     "nhieu": [
+      "Chứng minh MC = MK"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB và đường thẳng d là tiếp tuyến của đường tròn (O) tại A. Trên đường thẳng d lấy điểm M khác A sao cho MA > R. Từ điểm M vẽ MC là tiếp tuyến đường tròn (O) tại tiếp điểm C, với C khác A. Gọi H là giao điểm của đoạn MO với đường tròn (O). Tia CH cắt đoạn thẳng MA tại K. Chứng minh: MC^2 = MK.MA",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Đường phân giác của góc C trong tam giác ABC cắt đường tròn (O) tại điểm D (D khác C). Kẻ DE vuông góc AB tại E. Đặt AC = a với a > R. Hãy tính diện tích tam giác ADE theo a.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "a^2/4",
+     "loi_giai": "Sử dụng tính chất phân giác và các hệ thức lượng trong tam giác vuông.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) đường kính AB và đường thẳng d là tiếp tuyến của đường tròn (O) tại A. Trên đường thẳng d lấy điểm M khác A sao cho MA > R. Từ điểm M vẽ MC là tiếp tuyến đường tròn (O) tại tiếp điểm C, với C khác A. Đường phân giác của góc C trong tam giác ABC cắt đường tròn (O) tại điểm D (D khác C). Kẻ DE vuông góc AB tại E. Đặt AC = a với a > R. Hãy tính diện tích tam giác ADE theo a.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$\\frac{a^2}{2}$",
+       "$\\frac{a^2}{4}$",
+       "$a^2$",
+       "$\\frac{a^2}{8}$"
+      ],
+      "answer": "B"
+     },
+     "ve_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

@@ -1,0 +1,904 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_a_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị các điểm thuộc parabol. Vẽ parabol đi qua các điểm đó trên hệ trục tọa độ.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ những điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ gấp [[IMG:image4.png]] lần hoành độ.",
+     "explanation": "Gọi M(x; y). Theo đề bài y = 3x. Thay vào phương trình parabol y = x^2 ta có x^2 = 3x. Suy ra x^2 - 3x = 0, giải ra x = 0 hoặc x = 3. Với x = 0 thì y = 0, với x = 3 thì y = 9.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "(0;0); (3;9)"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parapol [[IMG:image1.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình luôn có hai nghiệm phân biệt [[IMG:image6.png]].",
+     "explanation": "Tính biệt thức delta hoặc delta phẩy. Chứng minh delta > 0 với mọi m.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Tính $\\Delta = b^2 - {{1}}ac$"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "Biến đổi $\\Delta$ thành dạng $(m - {{2}})^2 + {{3}}$"
+        ],
+        "hint": "Biến đổi biểu thức"
+       },
+       {
+        "lines": [
+         "Kết luận $\\Delta > 0$ nên phương trình luôn có {{4}} nghiệm phân biệt"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "4"
+        ],
+        "keywords": [
+         "4"
+        ],
+        "placeholder": "số",
+        "maxLen": 2
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "3"
+        ],
+        "keywords": [
+         "3"
+        ],
+        "placeholder": "số",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số chữ",
+        "maxLen": 5
+       }
+      ],
+      "pool": [],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "explanation": "Áp dụng định lý Vi-et: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng (x1+x2)^2 - 2x1x2.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "m^2-2m-2"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình [[IMG:image5.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy liệt kê các cách chọn ngẫu nhiên [[IMG:image10.png]] bạn để hát song ca.",
+     "explanation": "Liệt kê tất cả các tổ hợp chập 2 của 4 phần tử.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "$D = \\{ \\text{Tuấn; \\text{Hùng}}, \\text{Tuấn; Lan}, \\text{Tuấn; \\text{Hồng}}, \\text{Hùng; Lan}, \\text{Hùng; \\text{Hồng}} \\}$",
+      "$A = \\{ \\text{Tuấn; \\text{Hùng}}, \\text{Tuấn; Lan}, \\text{Tuấn; \\text{Hồng}}, \\text{Hùng; Lan}, \\text{Hùng; \\text{Hồng}}, \\text{Lan; \\text{Hồng}} \\}$",
+      "$B = \\{ \\text{Tuấn; \\text{Hùng}}, \\text{Tuấn; Lan}, \\text{Hùng; Lan}, \\text{Hùng; \\text{Hồng}}, \\text{Lan; \\text{Hồng}} \\}$",
+      "$C = \\{ \\text{Tuấn; \\text{Hùng}}, \\text{Tuấn; Lan}, \\text{Tuấn; \\text{Hồng}}, \\text{Hùng; Lan}, \\text{Lan; \\text{Hồng}} \\}$"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của biến cố A: “Trong [[IMG:image10.png]] bạn được chọn có một bạn nam và một bạn nữ” và B: “Trong [[IMG:image10.png]] bạn được chọn có bạn Lan”.",
+     "explanation": "Không gian mẫu có 6 cách. Biến cố A có 4 cách chọn (nam-nữ). Biến cố B có 3 cách chọn (Lan-Tuấn, Lan-Hùng, Lan-Hồng).",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "$P(A) =$ {{1}} ; $P(B) =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1/2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Lớp có [[IMG:image10.png]] bạn nam (Tuấn, Hùng) và [[IMG:image10.png]] bạn nữ (Lan, Hồng). Chọn ngẫu nhiên [[IMG:image10.png]] bạn để hát song ca.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B3.D02",
+   "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức [[IMG:image14.png]] biểu diễn theo x diện tích xung quanh của hình chóp.",
+     "explanation": "Diện tích xung quanh = 4 * (1/2 * cạnh đáy * đường cao mặt bên) = 2 * x * (x-2) = 2x^2 - 4x.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$2x^2 + 4x$",
+      "$x^2 - 4x$",
+      "$4x^2 - 2x$",
+      "$2x^2 - 4x$"
+     ],
+     "correctAnswer": 3
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết diện tích toàn phần của hình chóp tứ giác đều là [[IMG:image15.png]], tính độ dài cạnh đáy hình chóp tứ giác đều này.",
+     "explanation": "Diện tích toàn phần = Sxq + Sđáy = (2x^2 - 4x) + x^2 = 3x^2 - 4x. Giải phương trình 3x^2 - 4x = 84.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Độ dài cạnh đáy: {{1}} cm"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là độ dài cạnh đáy (cm, $x > 2$)",
+       "Phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}}",
+       "Vậy độ dài cạnh đáy là {{3}} cm"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "3x^2-4x=84"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Một hình chóp tứ giác đều có chiều dài cạnh đáy là [[IMG:image11.png]] và chiều dài đường cao mặt bên ngắn hơn cạnh đáy [[IMG:image12.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B2.D05",
+   "dang_toan_web": "Hình nón: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính diện tích giấy sử dụng để làm loại hộp trên?",
+     "explanation": "Diện tích hình tròn ban đầu trừ đi diện tích hình quạt bị cắt.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "275|275pi/4"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính thể tích bỏng ngô chứa được nhiều nhất trong hộp?",
+     "explanation": "Tính chu vi đáy hình nón từ độ dài cung còn lại, suy ra bán kính đáy, tính chiều cao và thể tích.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "103"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Từ miếng giấy hình tròn bán kính [[IMG:image16.png]], cắt bỏ hình quạt [[IMG:image17.png]] với [[IMG:image18.png]]. Dán phần còn lại thành hình nón.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B2.D05",
+   "dang_toan_web": "Hình nón: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Số học sinh nam: {{1}} học sinh",
+     "Số học sinh nữ: {{2}} học sinh"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "20"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "25"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là số học sinh nam, $y$ là số học sinh nữ (học sinh, $x, y > 0$)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+     "Vậy số học sinh nam là {{5}} học sinh, số học sinh nữ là {{6}} học sinh"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x/4=y/5"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "3x/4+4y/5=17"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "20"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "25"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "20"
+     },
+     {
+      "id": "6",
+      "loai": "so",
+      "dap_an": "25"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Giáo viên chọn 1/4 số học sinh nam và 1/5 số học sinh nữ tham gia kéo co, biết số nam và nữ tham gia bằng nhau và còn lại 17 học sinh cổ động. Tìm số học sinh nam và nữ của lớp.",
+   "explanation": "Gọi x, y là số nam, nữ. Ta có x/4 = y/5 và (x - x/4) + (y - y/5) = 17. Giải hệ phương trình.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 2,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tam giác ABC và tam giác ABD vuông. Chứng minh tứ giác CDEF nội tiếp.",
+     "explanation": "Góc nội tiếp chắn nửa đường tròn là góc vuông. Tứ giác có hai đỉnh kề cùng nhìn một cạnh dưới góc 90 độ là tứ giác nội tiếp.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "$\\widehat{ACB} = {{1}}^\\circ$ (góc nội tiếp chắn {{2}} đường tròn)",
+         "$\\widehat{ADB} = {{3}}^\\circ$ (góc nội tiếp chắn {{4}} đường tròn)"
+        ],
+        "hint": "Chứng minh tam giác vuông"
+       },
+       {
+        "lines": [
+         "Xét tứ giác {{5}}{{6}}{{7}}{{8}} có $\\widehat{ECF} = {{9}}^\\circ$ và $\\widehat{EDF} = {{10}}^\\circ$"
+        ],
+        "hint": "Xét tứ giác"
+       },
+       {
+        "lines": [
+         "Hai đỉnh {{11}}, {{12}} cùng nhìn cạnh {{13}}{{14}} dưới góc {{15}}^\\circ nên tứ giác {{16}} nội tiếp"
+        ],
+        "hint": "Kết luận tứ giác nội tiếp"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "placeholder": "số",
+        "maxLen": 3
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "nửa"
+        ],
+        "placeholder": "từ",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "placeholder": "số",
+        "maxLen": 3
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "nửa"
+        ],
+        "placeholder": "từ",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "D"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "placeholder": "số",
+        "maxLen": 3
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "placeholder": "số",
+        "maxLen": 3
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "D"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "F"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "placeholder": "số",
+        "maxLen": 3
+       },
+       {
+        "id": "16",
+        "mode": "drag",
+        "answers": [
+         "CDEF"
+        ],
+        "placeholder": "tên",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "90",
+       "nửa",
+       "C",
+       "D",
+       "E",
+       "F",
+       "CDEF",
+       "45",
+       "toàn",
+       "A",
+       "B",
+       "AB",
+       "EF"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: CH vuông góc với AB.",
+     "explanation": "Sử dụng tính chất trực tâm và các tứ giác nội tiếp để chứng minh góc bằng nhau.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "$F$ là {{1}} của $\\triangle {{2}}{{3}}{{4}}$"
+        ],
+        "hint": "Xác định trực tâm"
+       },
+       {
+        "lines": [
+         "$EF \\perp {{5}}{{6}}$ tại $I$"
+        ],
+        "hint": "Chứng minh vuông góc"
+       },
+       {
+        "lines": [
+         "Chứng minh $\\triangle {{7}}{{8}}{{9}}$ cân tại {{10}}"
+        ],
+        "hint": "Chứng minh tam giác cân"
+       },
+       {
+        "lines": [
+         "Suy ra {{11}}{{12}} $\\perp {{13}}{{14}}$"
+        ],
+        "hint": "Kết luận vuông góc"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "trực tâm"
+        ],
+        "placeholder": "từ",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "E"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "C"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "H"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "A"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "B"
+        ],
+        "placeholder": "đỉnh",
+        "maxLen": 2
+       }
+      ],
+      "pool": [
+       "trực tâm",
+       "trọng tâm",
+       "A",
+       "B",
+       "E",
+       "C",
+       "H",
+       "F",
+       "D",
+       "AB",
+       "EF"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Trong trường hợp AC = BC, tính diện tích hình viên phân tạo bởi cung CD và dây CD.",
+     "explanation": "Khi AC=BC thì tam giác ABC vuông cân, suy ra góc COD = 60 độ. Diện tích viên phân = Diện tích quạt - Diện tích tam giác đều.",
+     "points": 1,
+     "type": "short_answer",
+     "shortCorrect": "R^2(pi/3 - căn(3)/4)"
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn (O), đường kính AB. Trên nửa đường tròn lấy C, D. Tia AC và BD cắt nhau tại E, AD cắt BC tại F. H là trung điểm của EF.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

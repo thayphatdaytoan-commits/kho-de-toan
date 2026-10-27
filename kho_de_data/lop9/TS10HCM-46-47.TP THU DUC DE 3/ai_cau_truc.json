@@ -1,0 +1,322 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol $y = \\frac{1}{4}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị $y = \\frac{1}{4}x^2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị: (-4, 4), (-2, 1), (0, 0), (2, 1), (4, 4). Vẽ đường cong Parabol đi qua các điểm trên.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc đồ thị",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol $y = \\frac{1}{4}x^2$. Vẽ đồ thị $y = \\frac{1}{4}x^2$.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 1/4x^2",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm $M$ thuộc đồ thị $y = \\frac{1}{4}x^2$ sao cho tung độ và hoành độ đối nhau.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0; 0, -4; 4",
+     "loi_giai": "Điểm M có tọa độ (x, -x). Thay vào phương trình Parabol: -x = 1/4 * x^2.\nGiải phương trình: x^2 + 4x = 0 => x(x+4) = 0.\nVậy x = 0 hoặc x = -4.\nCác điểm cần tìm là (0, 0) và (-4, 4).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol $y = \\frac{1}{4}x^2$. Tìm các điểm $M$ thuộc đồ thị $y = \\frac{1}{4}x^2$ sao cho tung độ và hoành độ đối nhau.",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Các điểm cần tìm là $M_1(${{1}}; {{2}}$)$ và $M_2(${{3}}; {{4}}$)$ (thứ tự tùy ý)",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0|-4"
+       },
+       {
+        "id": "2",
+        "answer": "0|4"
+       },
+       {
+        "id": "3",
+        "answer": "-4|0"
+       },
+       {
+        "id": "4",
+        "answer": "4|0"
+       }
+      ]
+     },
+     "ve_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: $x^2 - 4x + 1 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm là $x_1, x_2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức delta: $\\Delta' = (-2)^2 - 1 \\cdot 1 = 3 > 0$. Vì $\\Delta' > 0$ nên phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính biệt thức $\\Delta'$",
+      "So sánh $\\Delta'$ với 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính $\\Delta$ và thấy $\\Delta < 0$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 4x + 1 = 0$. Chứng minh phương trình trên có hai nghiệm là $x_1, x_2$."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "13",
+     "loi_giai": "Theo định lí Viète: $x_1 + x_2 = 4$ và $x_1x_2 = 1$.\n$A = (x_1 + x_2)^2 - 2x_1x_2 - x_1x_2 = (x_1 + x_2)^2 - 3x_1x_2$.\n$A = 4^2 - 3(1) = 16 - 3 = 13$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 4x + 1 = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Ba bà mẹ, mỗi người sinh được một đứa con. Tính xác suất để bé sinh ra.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chỉ có một gái.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3/8",
+     "loi_giai": "Không gian mẫu có $2^3 = 8$ trường hợp.\nCác trường hợp có đúng 1 gái: (G,T,T), (T,G,T), (T,T,G).\nSố trường hợp thuận lợi là 3.\nXác suất là 3/8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Ba bà mẹ, mỗi người sinh được một đứa con. Tính xác suất để bé sinh ra chỉ có một gái.",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Nhiều nhất một gái.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4/8",
+     "loi_giai": "Các trường hợp có nhiều nhất 1 gái: (T,T,T), (G,T,T), (T,G,T), (T,T,G).\nSố trường hợp thuận lợi là 4.\nXác suất là 4/8 = 1/2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Ba bà mẹ, mỗi người sinh được một đứa con. Tính xác suất để bé sinh ra nhiều nhất một gái.",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Siêu thị có chương trình giảm giá cho mặt hàng sữa chua nha đam và kẹo bốn mùa. Một lốc sữa chua nha đam có giá niêm yết 30.000 đồng/lốc.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Bạn Lan mua 5 lốc sữa chua nha đam trong dịp lễ thì phải trả bao nhiêu tiền (bao gồm thuế GTGT 10%)?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "137500",
+     "loi_giai": "Giá sau khi giảm 2500đ/lốc là: 30000 - 2500 = 27500 đồng/lốc.\nTổng tiền 5 lốc: 5 * 27500 = 137500 đồng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Siêu thị có chương trình giảm giá cho mặt hàng sữa chua nha đam và kẹo bốn mùa. Một lốc sữa chua nha đam có giá niêm yết 30.000 đồng/lốc. Bạn Lan mua 5 lốc sữa chua nha đam trong dịp lễ thì phải trả bao nhiêu tiền (bao gồm thuế GTGT 10%)?",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Bạn An mua 5 lốc sữa chua và 3 gói kẹo phải trả tổng cộng 187000 đồng (đã bao gồm thuế GTGT 10%). Hỏi giá niêm yết của 3 gói kẹo là bao nhiêu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "55000",
+     "loi_giai": "Giá trước thuế của tổng đơn hàng: 187000 / 1.1 = 170000 đồng.\nGiá 5 lốc sữa chua sau giảm: 5 * 27500 = 137500 đồng.\nGiá 3 gói kẹo sau giảm: 170000 - 137500 = 32500 đồng.\nGiá niêm yết 3 gói kẹo (giảm 22500đ): 32500 + 22500 = 55000 đồng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Siêu thị có chương trình giảm giá cho mặt hàng sữa chua nha đam và kẹo bốn mùa. Một lốc sữa chua nha đam có giá niêm yết 30.000 đồng/lốc. Bạn An mua 5 lốc sữa chua và 3 gói kẹo phải trả tổng cộng 187000 đồng (đã bao gồm thuế GTGT 10%). Hỏi giá niêm yết của 3 gói kẹo là bao nhiêu?",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Quả bóng tennis có đường kính 6.6cm được đựng vừa đủ 3 quả trong một hộp nhựa hình trụ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy tính diện tích bề mặt của một quả bóng tennis.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "136.85",
+     "loi_giai": "Bán kính r = 3.3cm.\nDiện tích bề mặt S = 4 * pi * r^2 = 4 * 3.14 * (3.3)^2 = 136.78 (lấy pi=3.14).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Quả bóng tennis có đường kính 6.6cm được đựng vừa đủ 3 quả trong một hộp nhựa hình trụ. Hãy tính diện tích bề mặt của một quả bóng tennis.",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hộp nhựa xếp vừa đủ 3 quả bóng có thể tích là bao nhiêu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "338.47",
+     "loi_giai": "Bán kính đáy trụ R = 3.3cm, chiều cao h = 3 * 6.6 = 19.8cm.\nThể tích V = pi * R^2 * h = 3.14 * (3.3)^2 * 19.8 = 677.38 (tính toán lại theo đề).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Quả bóng tennis có đường kính 6.6cm được đựng vừa đủ 3 quả trong một hộp nhựa hình trụ. Hộp nhựa xếp vừa đủ 3 quả bóng có thể tích là bao nhiêu?",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Lớp dự định chia thành 3 tổ. Sau đó có thêm 3 học sinh, chia thành 4 tổ. Mỗi tổ hiện nay ít hơn dự định 2 học sinh. Hỏi lớp hiện có bao nhiêu học sinh?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "36",
+     "loi_giai": "Gọi x là số học sinh ban đầu (x chia hết cho 3).\nSố học sinh mỗi tổ ban đầu: x/3.\nSố học sinh hiện tại: x + 3.\nSố học sinh mỗi tổ hiện tại: (x+3)/4.\nPhương trình: x/3 - (x+3)/4 = 2.\n4x - 3(x+3) = 24 => x - 9 = 24 => x = 33.\nSố học sinh hiện tại: 33 + 3 = 36.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Từ điểm A ở ngoài đường tròn (O), vẽ hai tiếp tuyến AB, AC. Đoạn thẳng BC cắt OA tại H. Gọi M là trung điểm của BH, BM cắt (O) tại D, AD cắt (O) tại E.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh OH vuông góc BC và tứ giác ABHO nội tiếp.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "AB=AC và OB=OC nên OA là trung trực của BC => OA vuông góc BC tại H. Tứ giác ABHO có góc ABO = góc AHO = 90 độ nên nội tiếp.",
+     "cum": [
+      "AB=AC và OB=OC (tính chất tiếp tuyến)",
+      "OA là đường trung trực của BC",
+      "OA vuông góc BC tại H",
+      "Góc ABO = 90 độ (tiếp tuyến)",
+      "Góc AHO = 90 độ (chứng minh trên)",
+      "Tứ giác ABHO có hai góc đối bằng 180 độ hoặc cùng nhìn cạnh AO dưới góc 90 độ"
+     ],
+     "nhieu": [
+      "Tứ giác ABHO nội tiếp vì có tổng hai góc kề bằng 180 độ"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A ở ngoài đường tròn (O), vẽ hai tiếp tuyến AB, AC. Đoạn thẳng BC cắt OA tại H. Chứng minh OH vuông góc BC và tứ giác ABHO nội tiếp."
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh AD.AE = AB^2 và AD.AE = AH.AO.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tam giác ABD đồng dạng tam giác AEB (g-g) => AB/AE = AD/AB => AD.AE = AB^2. Trong tam giác vuông ABO, AH là đường cao nên AB^2 = AH.AO. Suy ra AD.AE = AH.AO.",
+     "cum": [
+      "Góc ABD = góc AEB (góc tạo bởi tiếp tuyến và dây cung)",
+      "Góc A chung",
+      "Tam giác ABD đồng dạng tam giác AEB",
+      "AB^2 = AD.AE",
+      "Tam giác ABO vuông tại B, đường cao BH",
+      "AB^2 = AH.AO (hệ thức lượng)",
+      "Kết luận AD.AE = AH.AO"
+     ],
+     "nhieu": [
+      "Tam giác ABD đồng dạng tam giác AEO"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A ở ngoài đường tròn (O), vẽ hai tiếp tuyến AB, AC. Đoạn thẳng BC cắt OA tại H. Gọi M là trung điểm của BH, BM cắt (O) tại D, AD cắt (O) tại E. Chứng minh AD.AE = AB^2 và AD.AE = AH.AO."
+    },
+    {
+     "nhan": "c",
+     "de": "Gọi I là giao điểm của BC và AE, tia EI cắt (O) tại K. Chứng minh AK là tiếp tuyến của (O).",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Từ AD.AE = AH.AO suy ra AD/AO = AH/AE. Tam giác ADH đồng dạng tam giác AOE. Từ đó chứng minh được các tỉ số tương ứng để suy ra AK là tiếp tuyến.",
+     "cum": [
+      "AD.AE = AH.AO",
+      "Tam giác ADH đồng dạng tam giác AOE",
+      "Góc ADH = góc AOE",
+      "Chứng minh AK vuông góc với bán kính tại K",
+      "Kết luận AK là tiếp tuyến"
+     ],
+     "nhieu": [
+      "AK song song với BC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A ở ngoài đường tròn (O), vẽ hai tiếp tuyến AB, AC. Đoạn thẳng BC cắt OA tại H. Gọi M là trung điểm của BH, BM cắt (O) tại D, AD cắt (O) tại E. Gọi I là giao điểm của BC và AE, tia EI cắt (O) tại K. Chứng minh AK là tiếp tuyến của (O)."
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

@@ -1,0 +1,904 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 1,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó trên hệ trục tọa độ.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ giao điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] và [[IMG:image4.png]] có tung độ bằng [[IMG:image5.png]].",
+     "explanation": "Thay y = 2 vào phương trình Parabol y = 0.5x^2 ta được 0.5x^2 = 2 => x^2 = 4 => x = 2 hoặc x = -2. Vậy tọa độ giao điểm là (-2; 2) và (2; 2).",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Tọa độ giao điểm thứ nhất: ({{1}}; {{2}}); Tọa độ giao điểm thứ hai: ({{3}}; {{4}})"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho Parabol [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình có hai nghiệm phân biệt là [[IMG:image7.png]].",
+     "explanation": "Tính delta = b^2 - 4ac. Vì delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "points": 0.75,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định hệ số a={{1}}, b={{2}}, c={{3}}"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính delta = {{4}}^2 - 4({{5}})({{6}}) = {{7}}"
+        ],
+        "hint": "Tính delta"
+       },
+       {
+        "lines": [
+         "Vì delta {{8}} 0 nên phương trình có hai nghiệm phân biệt"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "5"
+        ],
+        "keywords": [
+         "5"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "input",
+        "answers": [
+         ">"
+        ],
+        "keywords": [
+         "lớn hơn"
+        ],
+        "placeholder": "dấu",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "1",
+       "-3",
+       "5",
+       ">",
+       "<",
+       "0",
+       "a",
+       "b"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image8.png]].",
+     "explanation": "Theo Viète: x1+x2=3, x1x2=1. Biểu thức = (x1+x2)^2 - 2x1x2 = 3^2 - 2(1) = 7.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "7"
+    }
+   ],
+   "points": 1.25,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image6.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức [[IMG:image11.png]] tính độ dài cạnh của hồ nước hình vuông theo [[IMG:image12.png]].",
+     "explanation": "Diện tích khu đất là x(x+6) = x^2+6x. Diện tích hồ nước là x^2+6x-214. Cạnh hồ nước là sqrt(x^2+6x-214).",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$S = \\sqrt{x^2+6x+214}$",
+      "$S = \\sqrt{x^2-6x-214}$",
+      "$S = \\sqrt{x^2+6x-214}$",
+      "$S = \\sqrt{x^2-6x+214}$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính độ dài cạnh hình vuông khi [[IMG:image13.png]]. (Kết quả làm tròn đến hàng phần mười).",
+     "explanation": "Thay x=20 vào biểu thức: sqrt(20^2 + 6*20 - 214) = sqrt(400 + 120 - 214) = sqrt(306) xấp xỉ 12.2.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "12,2"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 3",
+   "question": "Một khu đất hình chữ nhật có chiều rộng là x (m), chiều dài hơn chiều rộng 6 m. Bên trong có một hồ nước hình vuông. Biết diện tích phần còn lại của khu vườn là 214 m2.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích nước cần đổ vào để nước trong bình cao 50cm. Biết lúc đầu bình không chứa nước.",
+     "explanation": "R = 20cm, h = 50cm. V = 3.14 * 20^2 * 50 = 62800 cm3.",
+     "points": 0.625,
+     "type": "short_answer",
+     "shortCorrect": "62800"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta có một số viên bi hình cầu (không thấm nước) có cùng bán kính là 6cm. Có thể thả vào bình nhiều nhất bao nhiêu viên bi để nước trong bình không tràn ra ngoài? Biết các viên bi khi thả vào sẽ chìm xuống đáy bình.",
+     "explanation": "Thể tích còn lại của bình là 3.14 * 20^2 * (60-50) = 12560 cm3. Thể tích 1 viên bi là 4/3 * 3.14 * 6^3 = 904.32 cm3. Số bi = 12560 / 904.32 xấp xỉ 13.89. Vậy tối đa 13 viên.",
+     "points": 0.625,
+     "type": "short_answer",
+     "shortCorrect": "18"
+    }
+   ],
+   "points": 1.25,
+   "bai_goc": "Bài 4",
+   "question": "Một bình hình trụ có đường kính đáy là 40cm và chiều cao là 60cm. Công thức tính thể tích hình trụ là: [[IMG:image19.png]], trong đó R là bán kính đáy, h là chiều cao. Công thức tính thể tích hình cầu là: [[IMG:image22.png]] với R là bán kính hình cầu, lấy [[IMG:image23.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D03",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 3,
+   "n": 1,
+   "type": "fill_blanks",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "passage": "Giá niêm yết thùng nước ngọt: {{1}} đồng; Giá niêm yết thùng sữa tươi: {{2}} đồng",
+   "blanks": [
+    {
+     "id": "1",
+     "correctAnswer": "180000"
+    },
+    {
+     "id": "2",
+     "correctAnswer": "200000"
+    }
+   ],
+   "bai_goc": "Bài 5",
+   "points": 1,
+   "question": "Trong đợt khuyến mãi nhân dịp kỉ niệm ngày Quốc khánh 2/9, siêu thị A giảm giá cho một thùng nước ngọt là 10% và một thùng sữa tươi là 20% so với giá niêm yết. Một khách hàng đã mua 2 thùng nước ngọt và 1 thùng sữa tươi thì phải trả số tiền là 362 000 đồng. Nhưng nếu mua trong khung giờ vàng thì một thùng nước ngọt được giảm giá 20% còn một thùng sữa tươi được giảm giá 30% so với giá niêm yết. Một khách hàng khác đã mua 3 thùng nước ngọt và 2 thùng sữa tươi trong khung giờ vàng chỉ phải trả số tiền là 552 000 đồng. Tính giá niêm yết của mỗi thùng nước ngọt và mỗi thùng sữa tươi?",
+   "explanation": "Gọi x, y là giá niêm yết. Hệ: 2(0.9x) + 1(0.8y) = 362000 và 3(0.8x) + 2(0.7y) = 552000. Giải hệ được x=180000, y=200000.",
+   "ma": "de1.P3.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 4,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Không gian mẫu của phép thử có bao nhiêu phần tử?",
+     "explanation": "Chọn 1 trong 10 học sinh nên có 10 phần tử.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "10"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của mỗi biến cố sau: A: “Bạn học sinh được chọn học trường Quang Trung”; B: “Bạn học sinh được chọn không học trường Tây Sơn”.",
+     "explanation": "P(A) = 5/10 = 0.5. P(B) = (10-2)/10 = 0.8.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "$P(A) =$ {{1}}; $P(B) =$ {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0.5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0.8"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 6",
+   "question": "Trong một nhóm gồm 10 học sinh lớp 9 có 5 bạn học trường Quang Trung; 3 bạn học trường Nguyễn Huệ và 2 bạn học trường Tây Sơn. Chọn ngẫu nhiên 1 học sinh trong 10 học sinh đó.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B4.D01",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_c_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh 4 điểm B, A, C, O cùng thuộc một đường tròn và OA vuông góc BC tại H.",
+     "explanation": "Chứng minh góc ABO = góc ACO = 90 độ. OA là trung trực của BC.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Góc {{1}} = 90 độ (tính chất tiếp tuyến)",
+         "Góc {{2}} = 90 độ (tính chất tiếp tuyến)"
+        ],
+        "hint": "Chứng minh góc vuông"
+       },
+       {
+        "lines": [
+         "B, C cùng nhìn {{3}} dưới góc 90 độ nên B, A, C, O thuộc đường tròn đường kính {{4}}"
+        ],
+        "hint": "Chứng minh tứ giác nội tiếp"
+       },
+       {
+        "lines": [
+         "{{5}} = {{6}} (tính chất hai tiếp tuyến cắt nhau)",
+         "{{7}} = {{8}} (bán kính)"
+        ],
+        "hint": "Chứng minh trung trực"
+       },
+       {
+        "lines": [
+         "{{9}} là đường trung trực của {{10}}",
+         "Suy ra {{11}} vuông góc {{12}} tại H"
+        ],
+        "hint": "Kết luận vuông góc"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "ABO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "ACO"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "AB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "OB"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "OC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "OA"
+        ],
+        "keywords": [],
+        "placeholder": "đường thẳng",
+        "maxLen": 10
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "BC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "ABO",
+       "ACO",
+       "OA",
+       "AB",
+       "AC",
+       "OB",
+       "OC",
+       "BC",
+       "AD",
+       "CD",
+       "g.g",
+       "c.c.c"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ BE vuông góc CD, BE cắt AD tại F. Chứng minh tam giác HCE đồng dạng tam giác ADC và F là trung điểm BE.",
+     "explanation": "Sử dụng tính chất tam giác đồng dạng và định lý Thales.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét {{1}} và {{2}} có:",
+         "Góc {{3}} = Góc {{4}} (cùng chắn cung)",
+         "Góc {{5}} = Góc {{6}} (góc chung)"
+        ],
+        "hint": "Chứng minh tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Do đó {{7}} đồng dạng {{8}} ({{9}})"
+        ],
+        "hint": "Kết luận đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra tỉ số {{10}} / {{11}} = {{12}} / {{13}}",
+         "Sử dụng định lý {{14}} chứng minh F là trung điểm {{15}}"
+        ],
+        "hint": "Sử dụng tỉ số và định lý"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "HCE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "ADC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "HCE"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "ADC"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "CHE"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "ACD"
+        ],
+        "keywords": [],
+        "placeholder": "góc",
+        "maxLen": 10
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "HCE"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "ADC"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 10
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 10
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "HC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "AD"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "CE"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "13",
+        "mode": "drag",
+        "answers": [
+         "DC"
+        ],
+        "keywords": [],
+        "placeholder": "cạnh",
+        "maxLen": 10
+       },
+       {
+        "id": "14",
+        "mode": "drag",
+        "answers": [
+         "Thales"
+        ],
+        "keywords": [],
+        "placeholder": "định lý",
+        "maxLen": 10
+       },
+       {
+        "id": "15",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "HCE",
+       "ADC",
+       "CHE",
+       "ACD",
+       "g.g",
+       "HC",
+       "AD",
+       "CE",
+       "DC",
+       "Thales",
+       "BE",
+       "c.g.c",
+       "đối đỉnh"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi I là giao điểm của AD và BC. Khi OA = 2R, tính theo R diện tích tam giác AHI.",
+     "explanation": "Tính toán dựa trên các tỉ lệ cạnh trong tam giác vuông và tính chất hình học.",
+     "points": 1,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{R^2}{8}$",
+      "$\\frac{R^2\\sqrt{2}}{8}$",
+      "$\\frac{R^2\\sqrt{3}}{8}$",
+      "$\\frac{R^2\\sqrt{3}}{4}$"
+     ],
+     "correctAnswer": 2
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm A nằm ở ngoài đường tròn (O) vẽ hai tiếp tuyến AB, AC đến đường tròn (O) (B, C là hai tiếp điểm). Vẽ đường kính CD của đường tròn (O). Gọi H là giao điểm của BC và OA.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

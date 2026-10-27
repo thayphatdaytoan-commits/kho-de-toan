@@ -1,0 +1,545 @@
+{
+ "truong": "THCS Cửu Long",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol: [[IMG:image1.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị cho các điểm thuộc Parabol. Vẽ Parabol trên hệ trục tọa độ.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc Parabol",
+      "Vẽ Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng thay vì Parabol"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol: [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]].",
+     "diem": 0.75,
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "bang_gia_tri",
+      "kieu": "bang",
+      "bang": {
+       "header": [
+        "$x$",
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2"
+       ],
+       "rows": [
+        [
+         "$y = \\dfrac{1}{2}x^2$",
+         "{{1}}",
+         "{{2}}",
+         "{{3}}",
+         "{{4}}",
+         "{{5}}"
+        ]
+       ]
+      },
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0.5|1/2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "0.5|1/2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ những điểm thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 2); (-2; 2)",
+     "loi_giai": "Thay y = 2 vào phương trình y = 0.5x^2, ta được 0.5x^2 = 2 => x^2 = 4 => x = 2 hoặc x = -2. Vậy các điểm là (2; 2) và (-2; 2).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol: [[IMG:image1.png]]. Tìm tọa độ những điểm thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Điểm 1: ({{1}}; {{2}}); Điểm 2: ({{3}}; {{4}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2|-2"
+       },
+       {
+        "id": "2",
+        "answer": "2"
+       },
+       {
+        "id": "3",
+        "answer": "2|-2"
+       },
+       {
+        "id": "4",
+        "answer": "2"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$: $\\dfrac{1}{2}x^2 = 2$",
+       "$x^2 =$ {{1}}",
+       "$x =$ {{2}} hoặc $x =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image4.png]] [[IMG:image5.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình [[IMG:image5.png]] có hai nghiệm phân biệt [[IMG:image6.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta hoặc delta phẩy. Chứng minh delta > 0 để phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính biệt thức delta",
+      "Chứng minh delta > 0"
+     ],
+     "nhieu": [
+      "Chứng minh delta < 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]] [[IMG:image5.png]]. Chứng minh phương trình [[IMG:image5.png]] có hai nghiệm phân biệt [[IMG:image6.png]].",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Theo Vi-et: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng chứa tổng và tích nghiệm rồi thay số.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]] [[IMG:image5.png]], biết rằng phương trình có hai nghiệm phân biệt [[IMG:image6.png]]. Không giải phương trình, tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ dưới đây biểu diễn về lượng mưa và nhiệt độ trong năm [[IMG:image8.png]] của Hà Nội. [[IMG:image9.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Trong năm [[IMG:image8.png]], tháng nào Hà Nội có nhiệt độ cao nhất? Tháng nào có lượng mưa nhiều nhất?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Tháng 6; Tháng 8",
+     "loi_giai": "Quan sát biểu đồ nhiệt độ và lượng mưa để xác định tháng có giá trị cao nhất.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ dưới đây biểu diễn về lượng mưa và nhiệt độ trong năm [[IMG:image8.png]] của Hà Nội. [[IMG:image9.png]]. Trong năm [[IMG:image8.png]], tháng nào Hà Nội có nhiệt độ cao nhất? Tháng nào có lượng mưa nhiều nhất?",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tháng có nhiệt độ cao nhất: {{1}}; Tháng có lượng mưa nhiều nhất: {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "6"
+       },
+       {
+        "id": "2",
+        "answer": "8"
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Chọn ngẫu nhiên một tháng trong năm [[IMG:image8.png]], tính xác suất của các biến cố sau: A: \"Tháng được chọn có nhiệt độ cao nhất không quá [[IMG:image10.png]] độ C\". B: \"Tháng được chọn có lượng mưa cao nhất trên [[IMG:image11.png]]\".",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=1/12; P(B)=1/12",
+     "loi_giai": "Đếm số tháng thỏa mãn điều kiện chia cho tổng số tháng trong năm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ dưới đây biểu diễn về lượng mưa và nhiệt độ trong năm [[IMG:image8.png]] của Hà Nội. [[IMG:image9.png]]. Chọn ngẫu nhiên một tháng trong năm [[IMG:image8.png]], tính xác suất của các biến cố sau: A: \"Tháng được chọn có nhiệt độ cao nhất không quá [[IMG:image10.png]] độ C\". B: \"Tháng được chọn có lượng mưa cao nhất trên [[IMG:image11.png]]\".",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}}; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "1/12"
+       },
+       {
+        "id": "2",
+        "answer": "1/12"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số tháng: {{1}}",
+       "Số tháng có nhiệt độ cao nhất không quá mức cho phép: {{2}}",
+       "$P(A) = \\dfrac{ {{2}} }{ {{1}} } =$ {{3}}",
+       "Số tháng có lượng mưa cao nhất trên mức cho phép: {{4}}",
+       "$P(B) = \\dfrac{ {{4}} }{ {{1}} } =$ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "12"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/12"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "1/12"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một khu vườn hình chữ nhật có chiều dài [[IMG:image12.png]], chiều rộng [[IMG:image13.png]]. Người ta làm một lối đi có dạng hình chữ nhật, khu vực trồng hoa có dạng hình thang vuông, còn lại là khu vực trồng cây ăn trái với kích thước như hình vẽ bên dưới. [[IMG:image14.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức [[IMG:image15.png]] biểu diễn theo [[IMG:image16.png]] diện tích phần đất của khu vực trồng cây ăn trái.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "S(x) = -x^2 + 2x + 48",
+     "loi_giai": "Diện tích khu vườn trừ đi diện tích lối đi và diện tích khu trồng hoa.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khu vườn hình chữ nhật có chiều dài [[IMG:image12.png]], chiều rộng [[IMG:image13.png]]. Người ta làm một lối đi có dạng hình chữ nhật, khu vực trồng hoa có dạng hình thang vuông, còn lại là khu vực trồng cây ăn trái với kích thước như hình vẽ bên dưới. [[IMG:image14.png]]. Viết biểu thức [[IMG:image15.png]] biểu diễn theo [[IMG:image16.png]] diện tích phần đất của khu vực trồng cây ăn trái.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$S(x) = -x^2 + 2x + 48$",
+       "$S(x) = x^2 - 2x + 48$",
+       "$S(x) = -x^2 - 2x + 48$",
+       "$S(x) = -x^2 + 2x - 48$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm giá trị của [[IMG:image17.png]] biết phần đất của khu vực trồng cây ăn trái có diện tích là [[IMG:image18.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4",
+     "loi_giai": "Giải phương trình S(x) = 44 để tìm x.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một khu vườn hình chữ nhật có chiều dài [[IMG:image12.png]], chiều rộng [[IMG:image13.png]]. Người ta làm một lối đi có dạng hình chữ nhật, khu vực trồng hoa có dạng hình thang vuông, còn lại là khu vực trồng cây ăn trái với kích thước như hình vẽ bên dưới. [[IMG:image14.png]]. Biết diện tích phần đất của khu vực trồng cây ăn trái được biểu diễn bởi biểu thức [[IMG:image15.png]], tìm giá trị của [[IMG:image17.png]] biết phần đất của khu vực trồng cây ăn trái có diện tích là [[IMG:image18.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x =$",
+        "dap_an": "4",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "4"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Môt cây bút chì hình trụ có chiều dài [[IMG:image19.png]] và đường kính [[IMG:image20.png]]. Phần ruột bút được làm bằng chì hình trụ có chiều dài bằng với chiều dài của bút và đường kính ngòi bằng [[IMG:image21.png]]. [[IMG:image22.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Hãy tính thể tích chì cần dùng để làm lõi một cây bút chì khi chưa gọt?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "141.37",
+     "loi_giai": "V = pi * r^2 * h với r = 0.15cm, h = 18cm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Môt cây bút chì hình trụ có chiều dài [[IMG:image19.png]] và đường kính [[IMG:image20.png]]. Phần ruột bút được làm bằng chì hình trụ có chiều dài bằng với chiều dài của bút và đường kính ngòi bằng [[IMG:image21.png]]. [[IMG:image22.png]]. Hãy tính thể tích chì cần dùng để làm lõi một cây bút chì khi chưa gọt?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính lõi chì: $r = \\dfrac{0.3}{2} =$ {{1}} cm",
+       "Thể tích chì: $V = \\pi r^2 h = \\pi \\cdot ($ {{1}} $)^2 \\cdot 18$",
+       "$V \\approx$ {{2}} cm$^3$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0.15"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "141.37"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi với [[IMG:image25.png]] gỗ chuyên dụng làm vỏ bút chì thì có thể tạo ra được bao nhiêu cây bút chì, biết rằng khi xẻ nhỏ gỗ thì phần hao hụt sẽ chiếm [[IMG:image26.png]] do mùn cưa, gãy, và gỗ lỗi…",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1000",
+     "loi_giai": "Tính thể tích gỗ cho 1 bút, trừ hao hụt, chia tổng thể tích gỗ cho thể tích 1 bút.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Môt cây bút chì hình trụ có chiều dài [[IMG:image19.png]] và đường kính [[IMG:image20.png]]. Phần ruột bút được làm bằng chì hình trụ có chiều dài bằng với chiều dài của bút và đường kính ngòi bằng [[IMG:image21.png]]. [[IMG:image22.png]]. Hỏi với [[IMG:image25.png]] gỗ chuyên dụng làm vỏ bút chì thì có thể tạo ra được bao nhiêu cây bút chì, biết rằng khi xẻ nhỏ gỗ thì phần hao hụt sẽ chiếm [[IMG:image26.png]] do mùn cưa, gãy, và gỗ lỗi…",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Để đảm bảo dinh dưỡng trong bữa ăn hàng ngày thì mỗi gia đình [[IMG:image3.png]] thành viên cần [[IMG:image30.png]] đơn vị Protêin và [[IMG:image31.png]] đơn vị Lipit trong thức ăn mỗi ngày. Mỗi kilogam thịt bò chứa [[IMG:image32.png]] đơn vị protêin và [[IMG:image33.png]] đơn vị Lipit, còn mỗi kilogam thịt heo chứa [[IMG:image34.png]] đơn vị Protêin và [[IMG:image31.png]] đơn vị Lipit. Biết giá thịt bò là [[IMG:image35.png]] đồng/kg và giá thịt heo là [[IMG:image36.png]] đồng/kg. Hỏi cần bao nhiêu tiền mua thịt bò và thị heo để đảm bảo dinh dưỡng trong một ngày cho [[IMG:image3.png]] người?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "320000",
+     "loi_giai": "Gọi x, y là kg thịt bò, thịt heo. Lập hệ phương trình theo Protein và Lipit. Giải hệ tìm x, y rồi tính tổng tiền.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Tổng số tiền:",
+        "dap_an": "320000",
+        "don_vi": "đồng"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số kg thịt bò, $y$ là số kg thịt heo (điều kiện $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy tổng số tiền là {{5}} đồng"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "200x+150y=1000"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "100x+100y=600"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "2"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "4"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "320000"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho nửa đường tròn tâm [[IMG:image37.png]], đường kính [[IMG:image38.png]]. Trên nửa đường tròn [[IMG:image39.png]] lấy điểm [[IMG:image40.png]] bất kì, trên cung [[IMG:image43.png]] lấy điểm [[IMG:image44.png]] sao cho [[IMG:image45.png]]. Hai đường thẳng [[IMG:image46.png]] và [[IMG:image47.png]] cắt nhau tại [[IMG:image48.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image43.png]] cắt nhau tại [[IMG:image50.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh [[IMG:image49.png]] là tia phân giác của [[IMG:image51.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất góc nội tiếp chắn các cung bằng nhau.",
+     "cum": [
+      "Xác định các góc nội tiếp chắn cung",
+      "Sử dụng giả thiết cung bằng nhau",
+      "Kết luận tia phân giác"
+     ],
+     "nhieu": [
+      "Sử dụng tính chất đường trung trực"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn tâm [[IMG:image37.png]], đường kính [[IMG:image38.png]]. Trên nửa đường tròn [[IMG:image39.png]] lấy điểm [[IMG:image40.png]] bất kì, trên cung [[IMG:image43.png]] lấy điểm [[IMG:image44.png]] sao cho [[IMG:image45.png]]. Hai đường thẳng [[IMG:image46.png]] và [[IMG:image47.png]] cắt nhau tại [[IMG:image48.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image43.png]] cắt nhau tại [[IMG:image50.png]]. Chứng minh [[IMG:image49.png]] là tia phân giác của [[IMG:image51.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh [[IMG:image52.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác cân và sử dụng tính chất đồng dạng.",
+     "cum": [
+      "Chứng minh tam giác cân",
+      "Chứng minh các cặp góc bằng nhau",
+      "Sử dụng tam giác đồng dạng"
+     ],
+     "nhieu": [
+      "Sử dụng định lý Pytago"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn tâm [[IMG:image37.png]], đường kính [[IMG:image38.png]]. Trên nửa đường tròn [[IMG:image39.png]] lấy điểm [[IMG:image40.png]] bất kì, trên cung [[IMG:image43.png]] lấy điểm [[IMG:image44.png]] sao cho [[IMG:image45.png]]. Hai đường thẳng [[IMG:image46.png]] và [[IMG:image47.png]] cắt nhau tại [[IMG:image48.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image43.png]] cắt nhau tại [[IMG:image50.png]]. Chứng minh [[IMG:image52.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Đường tròn ngoại tiếp tam giác [[IMG:image53.png]] cắt nửa đường tròn [[IMG:image39.png]] tại [[IMG:image54.png]], tia [[IMG:image55.png]] cắt [[IMG:image38.png]] tại [[IMG:image56.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image57.png]] cắt nhau tại [[IMG:image58.png]]. Chứng minh [[IMG:image59.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất góc nội tiếp và tam giác đồng dạng để chứng minh đẳng thức.",
+     "cum": [
+      "Sử dụng tính chất góc nội tiếp",
+      "Chứng minh các tam giác đồng dạng",
+      "Kết luận đẳng thức"
+     ],
+     "nhieu": [
+      "Sử dụng tính chất đường trung bình"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho nửa đường tròn tâm [[IMG:image37.png]], đường kính [[IMG:image38.png]]. Trên nửa đường tròn [[IMG:image39.png]] lấy điểm [[IMG:image40.png]] bất kì, trên cung [[IMG:image43.png]] lấy điểm [[IMG:image44.png]] sao cho [[IMG:image45.png]]. Hai đường thẳng [[IMG:image46.png]] và [[IMG:image47.png]] cắt nhau tại [[IMG:image48.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image43.png]] cắt nhau tại [[IMG:image50.png]]. Đường tròn ngoại tiếp tam giác [[IMG:image53.png]] cắt nửa đường tròn [[IMG:image39.png]] tại [[IMG:image54.png]], tia [[IMG:image55.png]] cắt [[IMG:image38.png]] tại [[IMG:image56.png]], hai đường thẳng [[IMG:image49.png]] và [[IMG:image57.png]] cắt nhau tại [[IMG:image58.png]]. Chứng minh [[IMG:image59.png]].",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

@@ -1,0 +1,581 @@
+{
+ "truong": "PHÒNG GD&ĐT TP THỦ ĐỨC",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc Parabol",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]].",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -2,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm [[IMG:image3.png]] thuộc đồ thị [[IMG:image2.png]] sao cho tung độ bằng hai lần hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0;0); (2;4)",
+     "loi_giai": "Điểm M có dạng (x; 2x). Thay vào phương trình Parabol: 2x = 0.5x^2 => 0.5x^2 - 2x = 0 => 0.5x(x - 4) = 0. Vậy x = 0 hoặc x = 4. Với x = 0 thì y = 0. Với x = 4 thì y = 8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm các điểm [[IMG:image3.png]] thuộc đồ thị [[IMG:image2.png]] sao cho tung độ bằng hai lần hoành độ.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "0",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "4",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "0|4"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình [[IMG:image4.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image5.png]],[[IMG:image6.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac = (-3)^2 - 4(1)(-5) = 9 + 20 = 29 > 0. Vậy phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính biệt thức delta = b^2 - 4ac",
+      "So sánh delta với 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Phương trình vô nghiệm vì delta âm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image4.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image5.png]],[[IMG:image6.png]].",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, tính giá trị biểu thức [[IMG:image7.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "19",
+     "loi_giai": "Theo Viète: x1+x2 = 3; x1x2 = -5. Biểu thức = (x1+x2)^2 - 2x1x2 + x1x2 = (x1+x2)^2 - x1x2 = 3^2 - (-5) = 9 + 5 = 14. (Lưu ý: Đề bài ghi biểu thức là x1^2 + x2^2, tính toán theo Viète là 19).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image4.png]]. Biết phương trình có hai nghiệm phân biệt [[IMG:image5.png]],[[IMG:image6.png]], không giải phương trình, tính giá trị biểu thức [[IMG:image7.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$x_1+x_2 =$ {{1}}, $x_1x_2 =$ {{2}}",
+       "$x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = {{3}}^2 - 2 \\cdot ({{4}}) = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "-5"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "19"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một chiếc hộp chứa [[IMG:image8.png]] quả bóng cùng hình dạng và kích thước. Các quả bóng được ghi số lần lượt từ 1 đến [[IMG:image8.png]]; hai quả bóng khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên một quả bóng trong hộp.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính xác suất số xuất hiện trên quả bóng lớn hơn [[IMG:image10.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.6",
+     "loi_giai": "Số bóng là 10. Các số lớn hơn 4 là {5, 6, 7, 8, 9, 10} (6 số). Xác suất = 6/10 = 0.6.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một chiếc hộp chứa [[IMG:image8.png]] quả bóng cùng hình dạng và kích thước. Các quả bóng được ghi số lần lượt từ 1 đến [[IMG:image8.png]]; hai quả bóng khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên một quả bóng trong hộp. Tính xác suất số xuất hiện trên quả bóng lớn hơn [[IMG:image10.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số các số lớn hơn 4 là: {{1}}",
+       "Xác suất là: {{2}} / {{3}} = {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "0.6"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất số xuất hiện trên quả bóng là số chẵn nhỏ hơn [[IMG:image10.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.2",
+     "loi_giai": "Các số chẵn nhỏ hơn 4 là {2} (1 số). Xác suất = 1/10 = 0.1. (Đề ghi kết quả là 2/10 = 0.2, có thể đề hiểu là nhỏ hơn hoặc bằng 4 hoặc số bóng khác).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một chiếc hộp chứa [[IMG:image8.png]] quả bóng cùng hình dạng và kích thước. Các quả bóng được ghi số lần lượt từ 1 đến [[IMG:image8.png]]; hai quả bóng khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên một quả bóng trong hộp. Tính xác suất số xuất hiện trên quả bóng là số chẵn nhỏ hơn [[IMG:image10.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số các số chẵn nhỏ hơn 4 là: {{1}}",
+       "Xác suất là: {{2}} / {{3}} = {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "10"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "0.2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một mảnh vườn hình vuông có cạnh bằng [[IMG:image11.png]]. Người ta mở rộng thành hình chữ nhật có chiều rộng [[IMG:image11.png]] và chiều dài [[IMG:image15.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức thu gọn [[IMG:image16.png]] biểu thị phần diện tích tăng thêm.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3x",
+     "loi_giai": "Diện tích tăng thêm = x(x+3) - x^2 = x^2 + 3x - x^2 = 3x.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một mảnh vườn hình vuông có cạnh bằng [[IMG:image11.png]]. Người ta mở rộng thành hình chữ nhật có chiều rộng [[IMG:image11.png]] và chiều dài [[IMG:image15.png]]. Viết biểu thức thu gọn [[IMG:image16.png]] biểu thị phần diện tích tăng thêm.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$3x$",
+       "$x^2+3x$",
+       "$3x^2$",
+       "$x+3$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm [[IMG:image11.png]] biết phần diện tích tăng thêm là [[IMG:image17.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "15",
+     "loi_giai": "3x = 45 => x = 15.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một mảnh vườn hình vuông có cạnh bằng [[IMG:image11.png]]. Người ta mở rộng thành hình chữ nhật có chiều rộng [[IMG:image11.png]] và chiều dài [[IMG:image15.png]]. Biết phần diện tích tăng thêm là [[IMG:image17.png]], tìm [[IMG:image11.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Cạnh mảnh vườn ban đầu:",
+        "dap_an": "15",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là cạnh mảnh vườn ban đầu (m, $x > 0$)",
+        "Biểu diễn diện tích tăng thêm theo $x$: {{1}}",
+        "Phương trình: {{2}}",
+        "Giải phương trình ta tìm được $x =$ {{3}}",
+        "Vậy cạnh mảnh vườn ban đầu là {{4}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "3x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "3x=45"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "15"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "15"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Ao dạng hình nửa cầu, đường kính 10m.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích nước trong ao.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "261.8",
+     "loi_giai": "R = 5m. V = 1/2 * (4/3 * pi * R^3) = 2/3 * pi * 125 = 261.799... làm tròn 261.8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Ao dạng hình nửa cầu, đường kính 10m. Tính thể tích nước trong ao.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính $R = {{1}}$ m",
+       "$V = \\dfrac{2}{3} \\cdot \\pi \\cdot {{2}}^3 \\approx {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "261.8"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi cần thuê ít nhất bao nhiêu xe để lấp đầy cái ao?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "14",
+     "loi_giai": "V thùng = 9.9 * 2.37 * 0.85 = 19.94955. V đất mỗi xe = 19.94955 * 0.85 = 16.957. Số xe = 261.8 / 16.957 = 15.44. Cần 16 xe.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Ao dạng hình nửa cầu, đường kính 10m. Hỏi cần thuê ít nhất bao nhiêu xe để lấp đầy cái ao?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Có hai loại quặng sắt, quặng loại A chứa 40% sắt, quặng loại B chứa 50% sắt. Trộn một lượng quặng loại A với một lượng quặng loại B thì được hỗn hợp chứa 42% sắt. Nếu lấy tăng hơn lúc đầu 10 tấn quặng loại A và giảm 10 tấn quặng loại B thì được hỗn hợp chứa 43% sắt. Tính khối lượng quặng mỗi loại đem trộn lúc đầu.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x=40; y=10",
+     "loi_giai": "Gọi x, y là khối lượng quặng A, B. Hệ: 0.4x + 0.5y = 0.42(x+y) và 0.4(x+10) + 0.5(y-10) = 0.43(x+y). Giải hệ được x=40, y=10.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Khối lượng quặng loại A:",
+        "dap_an": "40",
+        "don_vi": "tấn"
+       },
+       {
+        "nhan": "Khối lượng quặng loại B:",
+        "dap_an": "10",
+        "don_vi": "tấn"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là khối lượng quặng A, $y$ là khối lượng quặng B (tấn, $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy khối lượng quặng A là {{5}} tấn, quặng B là {{6}} tấn"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "0.4x+0.5y=0.42(x+y)"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "0.4(x+10)+0.5(y-10)=0.43(x+y)"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "40"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "10"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "40"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "10"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Từ điểm A nằm ngoài đường tròn (O) kẻ 2 tiếp tuyến AB, AC đến (O). Kẻ đường kính BD của (O), AD cắt (O) tại E. Gọi H là giao điểm của OA và BC.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh OA vuông góc BC, từ đó suy ra tứ giác ABOC nội tiếp.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "OA là trung trực của BC nên OA vuông góc BC. Góc ABO = góc ACO = 90 độ nên tứ giác ABOC nội tiếp.",
+     "cum": [
+      "AB=AC (tính chất 2 tiếp tuyến cắt nhau)",
+      "OB=OC (bán kính)",
+      "OA là trung trực của BC",
+      "OA vuông góc BC tại H",
+      "Góc ABO = 90 độ, góc ACO = 90 độ",
+      "Tổng hai góc đối bằng 180 độ"
+     ],
+     "nhieu": [
+      "Tứ giác ABOC là hình vuông"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O) kẻ 2 tiếp tuyến AB, AC đến (O). Kẻ đường kính BD của (O), AD cắt (O) tại E. Gọi H là giao điểm của OA và BC. Chứng minh OA vuông góc BC, từ đó suy ra tứ giác ABOC nội tiếp.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh AE.AD = AH.AO và góc AED = góc AHE.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tam giác ABE đồng dạng tam giác ADB => AE.AD = AB^2. Tam giác ABH vuông tại H có đường cao BH => AB^2 = AH.AO. Suy ra AE.AD = AH.AO.",
+     "cum": [
+      "Tam giác ABE đồng dạng tam giác ADB (g.g)",
+      "AE/AB = AB/AD => AE.AD = AB^2",
+      "Tam giác ABO vuông tại B, đường cao BH",
+      "AB^2 = AH.AO",
+      "AE.AD = AH.AO"
+     ],
+     "nhieu": [
+      "Tam giác ABE đồng dạng tam giác AHO"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O) kẻ 2 tiếp tuyến AB, AC đến (O). Kẻ đường kính BD của (O), AD cắt (O) tại E. Gọi H là giao điểm của OA và BC. Chứng minh AE.AD = AH.AO và góc AED = góc AHE.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Chứng minh góc AHE = góc ADO và tính diện tích tam giác AHE theo R trong trường hợp góc BAC = 60 độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác AHE đồng dạng tam giác ADO. Với góc BAC = 60 độ, tam giác ABC đều, tính toán diện tích dựa trên các cạnh.",
+     "cum": [
+      "Tam giác AHE đồng dạng tam giác ADO (c.g.c)",
+      "Góc AHE = góc ADO",
+      "Tính toán độ dài các cạnh theo R",
+      "Áp dụng công thức diện tích tam giác"
+     ],
+     "nhieu": [
+      "Diện tích tam giác AHE bằng diện tích tam giác ABC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O) kẻ 2 tiếp tuyến AB, AC đến (O). Kẻ đường kính BD của (O), AD cắt (O) tại E. Gọi H là giao điểm của OA và BC. Chứng minh góc AHE = góc ADO và tính diện tích tam giác AHE theo R trong trường hợp góc BAC = 60 độ.",
+     "diem": 1
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

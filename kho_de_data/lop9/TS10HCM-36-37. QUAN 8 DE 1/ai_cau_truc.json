@@ -1,0 +1,522 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị và vẽ đường thẳng đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho hàm số [[IMG:image58.png]]",
+      "Xác định các điểm thuộc đồ thị trên hệ trục tọa độ",
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường cong parabol thay vì đường thẳng"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm thuộc [[IMG:image2.png]] có tung độ là [[IMG:image3.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(1; 2); (-1; 2)",
+     "loi_giai": "Thay y = 2 vào phương trình hàm số: 2 = 2x^2 => x^2 = 1 => x = 1 hoặc x = -1.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Tìm các điểm thuộc [[IMG:image2.png]] có tung độ là [[IMG:image3.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ các điểm là: (1; {{1}}) và (-1; {{2}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2"
+       },
+       {
+        "id": "2",
+        "answer": "2"
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$ vào hàm số: $2 = 2x^2$",
+       "Suy ra $x^2 =$ {{1}}",
+       "Do đó $x =$ {{2}} hoặc $x =$ {{3}}",
+       "Các điểm cần tìm là $(1; 2)$ và $(-1; 2)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-1"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image4.png]][[IMG:image5.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng tỏ phương trình [[IMG:image5.png]] có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức delta hoặc nhận xét a và c trái dấu.",
+     "cum": [
+      "Xác định các hệ số a, b, c của phương trình",
+      "Tính biệt thức delta hoặc nhận xét a.c < 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]][[IMG:image5.png]]. Chứng tỏ phương trình [[IMG:image5.png]] có hai nghiệm phân biệt.",
+     "diem": 0.75
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]] (với [[IMG:image7.png]])",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5",
+     "loi_giai": "Áp dụng hệ thức Viète: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng tổng và tích các nghiệm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image4.png]][[IMG:image5.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image6.png]] (với [[IMG:image7.png]] là hai nghiệm của phương trình).",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Có [[IMG:image8.png]] viên bi đỏ, [[IMG:image9.png]] viên bi trắng đồng chất có cùng kích thước và khối lượng được đựng trong một cái hộp. Người ta lấy ra một viên bi từ trong hộp đó.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính xác suất để [[IMG:image10.png]] viên bi được lấy ra là viên bi đỏ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3/5",
+     "loi_giai": "Tổng số bi là 3+2=5. Xác suất lấy bi đỏ là 3/5.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Có [[IMG:image8.png]] viên bi đỏ, [[IMG:image9.png]] viên bi trắng đồng chất có cùng kích thước và khối lượng được đựng trong một cái hộp. Người ta lấy ra một viên bi từ trong hộp đó. Tính xác suất để [[IMG:image10.png]] viên bi được lấy ra là viên bi đỏ.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số viên bi trong hộp là $3 + 2 =$ {{1}}",
+       "Xác suất lấy được viên bi đỏ là $\\dfrac{3}{ {{2}} } =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3/5"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Người ta bỏ thêm vào hộp một số viên bi xanh đồng chất. Nếu lấy ra [[IMG:image10.png]] viên bi từ trong cái hộp này thì cơ hội lấy ra viên bi xanh là [[IMG:image11.png]]. Hỏi có bao nhiêu viên bi xanh được bỏ thêm vào hộp?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "5",
+     "loi_giai": "Gọi x là số bi xanh. Xác suất lấy bi xanh là x/(5+x) = 1/2. Giải phương trình tìm x = 5.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Có [[IMG:image8.png]] viên bi đỏ, [[IMG:image9.png]] viên bi trắng đồng chất có cùng kích thước và khối lượng được đựng trong một cái hộp. Người ta bỏ thêm vào hộp một số viên bi xanh đồng chất. Nếu lấy ra [[IMG:image10.png]] viên bi từ trong cái hộp này thì cơ hội lấy ra viên bi xanh là [[IMG:image11.png]]. Hỏi có bao nhiêu viên bi xanh được bỏ thêm vào hộp?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số viên bi xanh được bỏ thêm vào:",
+        "dap_an": "5",
+        "don_vi": "viên"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số viên bi xanh được bỏ thêm vào (viên, điều kiện $x > 0$)",
+        "Biểu diễn tổng số viên bi trong hộp theo $x$: {{1}}",
+        "Phương trình: {{2}}",
+        "Giải phương trình ta tìm được $x =$ {{3}}",
+        "Vậy số viên bi xanh được bỏ thêm vào là {{4}} viên"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+5"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x/(x+5)=1/2"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "5"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "5"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một cái bồn hoa hình tròn có bán kính [[IMG:image12.png]] mét. Biết vòng tròn tiếp xúc với [[IMG:image14.png]] cạnh của hình chữ nhật.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "S = 12 - pi*r^2",
+     "loi_giai": "Diện tích sân trừ diện tích bồn hoa hình tròn.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một cái bồn hoa hình tròn có bán kính [[IMG:image12.png]] mét. Biết vòng tròn tiếp xúc với [[IMG:image14.png]] cạnh của hình chữ nhật. Viết biểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$S = 12 - \\pi r^2$",
+       "$S = 12 + \\pi r^2$",
+       "$S = 12 - 2\\pi r$",
+       "$S = 12 - \\pi r$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Hãy tính bán kính của bồn hoa hình tròn biết diện tích đất còn lại sau khi xây bồn hoa là [[IMG:image20.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Giải phương trình 12 - pi*r^2 = 12 - pi, suy ra r = 1.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một cái bồn hoa hình tròn có bán kính [[IMG:image12.png]] mét. Biết vòng tròn tiếp xúc với [[IMG:image14.png]] cạnh của hình chữ nhật. Hãy tính bán kính của bồn hoa hình tròn biết diện tích đất còn lại sau khi xây bồn hoa là [[IMG:image20.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "Bán kính của bồn hoa:",
+        "dap_an": "1",
+        "don_vi": "mét"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "1"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Một cái nồi hình trụ có chiều cao [[IMG:image21.png]], bán kính đáy là [[IMG:image22.png]]. Người ta làm một cái nắp nồi hình nón sao cho chu vi đáy nón bằng với chu vi đáy của hình trụ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chiều cao của nón bằng bao nhiêu? Biết thể tích của hình trụ gấp [[IMG:image23.png]] lần thể tích của nón.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3",
+     "loi_giai": "V_tru = pi*r^2*h_tru. V_non = 1/3*pi*r^2*h_non. V_tru = 3*V_non => h_non = h_tru.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một cái nồi hình trụ có chiều cao [[IMG:image21.png]], bán kính đáy là [[IMG:image22.png]]. Người ta làm một cái nắp nồi hình nón sao cho chu vi đáy nón bằng với chu vi đáy của hình trụ. Chiều cao của nón bằng bao nhiêu? Biết thể tích của hình trụ gấp [[IMG:image23.png]] lần thể tích của nón.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi cần bao nhiêu cen ti mét vuông nhôm để làm cái nồi và nón (không kể các mép hàn gắn).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1005",
+     "loi_giai": "Tính diện tích xung quanh trụ + diện tích đáy trụ + diện tích xung quanh nón.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một cái nồi hình trụ có chiều cao [[IMG:image21.png]], bán kính đáy là [[IMG:image22.png]]. Người ta làm một cái nắp nồi hình nón sao cho chu vi đáy nón bằng với chu vi đáy của hình trụ. Biết chiều cao của nón được xác định sao cho thể tích của hình trụ gấp [[IMG:image23.png]] lần thể tích của nón, hỏi cần bao nhiêu cen ti mét vuông nhôm để làm cái nồi và nón (không kể các mép hàn gắn).",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Có ba thùng dầu đựng tổng cộng [[IMG:image32.png]] lít dầu. Nếu đổ từ thùng thứ nhất sang thùng thứ hai [[IMG:image33.png]] lít, rồi đổ từ thùng thứ hai sang thùng thứ ba [[IMG:image23.png]] lít, tiếp tục đổ từ thùng thứ ba sang thùng thứ nhất [[IMG:image34.png]] lít thì số dầu ở thùng thứ nhất sẽ ít hơn số dầu ở thùng thứ hai là [[IMG:image35.png]] lít và bằng [[IMG:image36.png]] số dầu ở thùng thứ ba. Tính số lít dầu ở mỗi thùng lúc đầu.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x=30; y=40; z=30",
+     "loi_giai": "Lập hệ phương trình dựa trên tổng số dầu và các điều kiện sau khi chuyển dầu giữa các thùng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "$x =$ (thùng thứ nhất)",
+        "dap_an": "30",
+        "don_vi": "lít"
+       },
+       {
+        "nhan": "$y =$ (thùng thứ hai)",
+        "dap_an": "40",
+        "don_vi": "lít"
+       },
+       {
+        "nhan": "$z =$ (thùng thứ ba)",
+        "dap_an": "30",
+        "don_vi": "lít"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x, y, z$ là số lít dầu ở mỗi thùng lúc đầu (lít, điều kiện $x, y, z > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}} ; {{3}}",
+        "Giải hệ ta được $x =$ {{4}}, $y =$ {{5}}, $z =$ {{6}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y+z=100"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x-10+5=y-5+10-15"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "x-10+5=1/2*(z-10+15)"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "30"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "40"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "30"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn [[IMG:image37.png]]. Vẽ điểm [[IMG:image38.png]] nằm ngoài đường tròn [[IMG:image39.png]] sao cho [[IMG:image40.png]]. Từ [[IMG:image38.png]] vẽ tiếp tuyến [[IMG:image41.png]] và [[IMG:image42.png]] của đường tròn [[IMG:image43.png]]. Vẽ đường kính [[IMG:image45.png]] của đường tròn [[IMG:image43.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: tứ giác [[IMG:image46.png]] nội tiếp và [[IMG:image47.png]] vuông góc với [[IMG:image48.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất tiếp tuyến và tính chất trung trực của đoạn nối tâm.",
+     "cum": [
+      "Chứng minh góc AOB và góc APB cùng nhìn đoạn OA",
+      "Suy ra tứ giác APBO nội tiếp",
+      "Chứng minh OA là trung trực của BP",
+      "Kết luận OA vuông góc với BP"
+     ],
+     "nhieu": [
+      "Tứ giác APBO là hình vuông"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image37.png]]. Vẽ điểm [[IMG:image38.png]] nằm ngoài đường tròn [[IMG:image39.png]] sao cho [[IMG:image40.png]]. Từ [[IMG:image38.png]] vẽ tiếp tuyến [[IMG:image41.png]] và [[IMG:image42.png]] của đường tròn [[IMG:image43.png]]. Vẽ đường kính [[IMG:image45.png]] của đường tròn [[IMG:image43.png]]. Chứng minh: tứ giác [[IMG:image46.png]] nội tiếp và [[IMG:image47.png]] vuông góc với [[IMG:image48.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Chứng minh: [[IMG:image55.png]] là tiếp tuyến của đường tròn [[IMG:image43.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh khoảng cách từ tâm đến đường thẳng bằng bán kính.",
+     "cum": [
+      "Chứng minh tam giác đồng dạng",
+      "Suy ra các góc bằng nhau",
+      "Chứng minh đường thẳng vuông góc với bán kính tại tiếp điểm",
+      "Kết luận là tiếp tuyến"
+     ],
+     "nhieu": [
+      "Đường thẳng cắt đường tròn tại hai điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image37.png]]. Vẽ điểm [[IMG:image38.png]] nằm ngoài đường tròn [[IMG:image39.png]] sao cho [[IMG:image40.png]]. Từ [[IMG:image38.png]] vẽ tiếp tuyến [[IMG:image41.png]] và [[IMG:image42.png]] của đường tròn [[IMG:image43.png]]. Vẽ đường kính [[IMG:image45.png]] của đường tròn [[IMG:image43.png]]. Chứng minh: [[IMG:image55.png]] là tiếp tuyến của đường tròn [[IMG:image43.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Tính tích [[IMG:image56.png]] theo [[IMG:image57.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R^2",
+     "loi_giai": "Sử dụng hệ thức lượng trong tam giác vuông.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image37.png]]. Vẽ điểm [[IMG:image38.png]] nằm ngoài đường tròn [[IMG:image39.png]] sao cho [[IMG:image40.png]]. Từ [[IMG:image38.png]] vẽ tiếp tuyến [[IMG:image41.png]] và [[IMG:image42.png]] của đường tròn [[IMG:image43.png]]. Vẽ đường kính [[IMG:image45.png]] của đường tròn [[IMG:image43.png]]. Tính tích [[IMG:image56.png]] theo [[IMG:image57.png]].",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "R^2"
+     },
+     "ve_xet": true,
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0
+}

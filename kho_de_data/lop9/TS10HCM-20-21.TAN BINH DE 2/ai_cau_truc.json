@@ -1,0 +1,187 @@
+{
+ "truong": "THCS Cửu Long",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số : [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị cho các điểm thuộc đồ thị. Vẽ hệ trục tọa độ Oxy và biểu diễn các điểm, sau đó vẽ đường thẳng đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị với các giá trị x thích hợp",
+      "Xác định các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường cong parabol thay vì đường thẳng"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số : [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = -2x + 3",
+        "kind": "linear",
+        "a": -2,
+        "b": 3,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(-2; 3); (2; 3)",
+     "loi_giai": "Thay y = 3 vào phương trình hàm số [[IMG:image1.png]]. Giải phương trình tìm x. Kết luận tọa độ các điểm.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số : [[IMG:image1.png]] có đồ thị [[IMG:image2.png]]. Tìm những điểm thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình [[IMG:image4.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính biệt thức delta hoặc chứng minh a và c trái dấu. Ở đây a=1, c=-3 nên ac < 0, phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính biệt thức delta hoặc xét tích ac",
+      "Kết luận phương trình có hai nghiệm phân biệt vì ac < 0"
+     ],
+     "nhieu": [
+      "Phương trình vô nghiệm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image4.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image5.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "loi_giai": "Áp dụng định lý Vi-et: x1+x2 = -b/a = 1; x1x2 = c/a = -3. Biểu thức x1^2 + x2^2 = (x1+x2)^2 - 2x1x2 = 1^2 - 2(-3) = 7.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image4.png]]. Gọi [[IMG:image12.png]] và [[IMG:image13.png]] là hai nghiệm của phương trình, không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image5.png]].",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Vi-et: $x_1+x_2 = $ {{1}}, $x_1x_2 = $ {{2}}",
+       "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = 1^2 - 2($ {{3}} $) = $ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một công ty sản xuất đang lên kế hoạch đầu tư mở rộng dây chuyền sản xuất. Chi phí cố định là [[IMG:image6.png]] triệu đồng/tháng. Chi phí sản xuất mỗi sản phẩm là [[IMG:image7.png]] nghìn đồng. Doanh thu mỗi sản phẩm là [[IMG:image8.png]] nghìn đồng.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức tổng lợi nhuận [[IMG:image9.png]] (triệu đồng) theo số sản phẩm [[IMG:image10.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.05x - 20",
+     "loi_giai": "Lợi nhuận = Doanh thu - Chi phí. Đổi đơn vị nghìn đồng sang triệu đồng. Lợi nhuận = (0.125 - 0.075)x - 20 = 0.05x - 20.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một công ty sản xuất đang lên kế hoạch đầu tư mở rộng dây chuyền sản xuất. Chi phí cố định là [[IMG:image6.png]] triệu đồng/tháng. Chi phí sản xuất mỗi sản phẩm là [[IMG:image7.png]] nghìn đồng. Doanh thu mỗi sản phẩm là [[IMG:image8.png]] nghìn đồng. Viết biểu thức tổng lợi nhuận [[IMG:image9.png]] (triệu đồng) theo số sản phẩm [[IMG:image10.png]].",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$0.05x - 20$",
+       "$0.05x + 20$",
+       "$0.2x - 20$",
+       "$0.05x$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm số lượng sản phẩm [[IMG:image10.png]] để lợi nhuận đạt ít nhất [[IMG:image11.png]] triệu đồng.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "600",
+     "loi_giai": "Giải bất phương trình 0.05x - 20 >= 10. Suy ra 0.05x >= 30. Suy ra x >= 600.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một công ty sản xuất đang lên kế hoạch đầu tư mở rộng dây chuyền sản xuất. Chi phí cố định là [[IMG:image6.png]] triệu đồng/tháng. Chi phí sản xuất mỗi sản phẩm là [[IMG:image7.png]] nghìn đồng. Doanh thu mỗi sản phẩm là [[IMG:image8.png]] nghìn đồng. Biết tổng lợi nhuận [[IMG:image9.png]] (triệu đồng) được tính theo số sản phẩm [[IMG:image10.png]], tìm số lượng sản phẩm [[IMG:image10.png]] để lợi nhuận đạt ít nhất [[IMG:image11.png]] triệu đồng.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

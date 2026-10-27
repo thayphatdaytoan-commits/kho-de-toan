@@ -1,0 +1,362 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS Cần Giờ – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "loi_giai_y_a_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị hàm số [[IMG:image2.png]] trên mặt phẳng tọa độ.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ và biểu diễn các điểm, sau đó vẽ đường cong parabol đi qua các điểm đó.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm thuộc [[IMG:image2.png]] có tung độ [[IMG:image3.png]].",
+     "explanation": "Thay y = 2 vào phương trình y = 0.5x^2 ta được 0.5x^2 = 2. Suy ra x^2 = 4, nên x = 2 hoặc x = -2. Vậy có hai điểm (2; 2) và (-2; 2).",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$ vào $y = 0.5x^2$: $0.5x^2 = 2$",
+       "$x^2 = {{1}}$",
+       "$x = {{2}}$ hoặc $x = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức Delta = b^2 - 4ac. Vì Delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số {{1}}, {{2}}, {{3}}"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính {{4}} = b^2 - 4ac"
+        ],
+        "hint": "Tính biệt thức"
+       },
+       {
+        "lines": [
+         "So sánh {{5}} với 0"
+        ],
+        "hint": "So sánh Delta"
+       },
+       {
+        "lines": [
+         "Kết luận phương trình có {{6}} nghiệm phân biệt"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "Delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "Delta"
+        ],
+        "keywords": [
+         "delta"
+        ],
+        "placeholder": "biệt thức",
+        "maxLen": 10
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "a",
+       "b",
+       "c",
+       "Delta",
+       "hai",
+       "một",
+       "không",
+       "nghiệm"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi [[IMG:image5.png]] là hai nghiệm của phương trình. Không giải phương trình hãy tính giá trị của biểu thức [[IMG:image6.png]].",
+     "explanation": "Theo Vi-et: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng (x1+x2)^2 - 2x1x2. Thay số vào tính toán.",
+     "type": "short_answer",
+     "shortCorrect": "1"
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image4.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan",
+    "loi_giai_y_a_do_AI_tu_giai_can_duyet"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức (thu gọn) [[IMG:image10.png]] biểu thị theo [[IMG:image11.png]] (với [[IMG:image12.png]]) diện tích đất bị thu hồi của nhà ông Thành.",
+     "explanation": "Diện tích tam giác vuông bị thu hồi là 1/2 * (10-x) * (10-x) = 0.5 * (100 - 20x + x^2) = 0.5x^2 - 10x + 50 (dựa theo hình vẽ thực tế).",
+     "type": "multiple_choice",
+     "options": [
+      "$0.5x^2 + 5x + 50$",
+      "$0.5x^2 - 5x + 50$",
+      "$0.5x^2 - 10x + 50$",
+      "$x^2 - 10x + 50$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Ông Thành được đền bù số tiền [[IMG:image13.png]] triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị [[IMG:image14.png]] biết giá đền bù đất bị thu hồi là [[IMG:image15.png]] triệu đồng/[[IMG:image16.png]].",
+     "explanation": "Diện tích thu hồi = Số tiền / Giá đền bù. Giải phương trình bậc hai tìm x.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x =$ {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là giá trị cần tìm (đơn vị m, điều kiện $x > 0$)",
+       "Biểu diễn diện tích đất bị thu hồi theo $x$: {{1}}",
+       "Phương trình: {{2}}",
+       "Giải phương trình ta tìm được $x =$ {{3}}",
+       "Vậy giá trị $x$ là {{4}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "0.5*x*(x+1)"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "0.5*x*(x+1)=15"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "5"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Ông Thành có một mảnh đất hình chữ nhật có chiều rộng là [[IMG:image7.png]] m và chiều dài là [[IMG:image8.png]] m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Thành và thu hồi một phần đất của ông Thành (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ dưới (phần tô đậm). [[IMG:image9.png#0.0234,0.0466,0.0295,0.0498]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C4.B3.D02",
+   "dang_toan_web": "Ứng dụng tỉ số lượng giác để giải một số bài toán thực tế."
+  }
+ ],
+ "flags": []
+}

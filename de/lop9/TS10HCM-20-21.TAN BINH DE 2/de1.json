@@ -1,0 +1,332 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS Cửu Long – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] của hàm số.",
+     "explanation": "Lập bảng giá trị cho các điểm thuộc đồ thị. Vẽ hệ trục tọa độ Oxy và biểu diễn các điểm, sau đó vẽ đường thẳng đi qua các điểm đó.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = -2x + 3",
+        "kind": "linear",
+        "a": -2,
+        "b": 3,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "explanation": "Thay y = 3 vào phương trình hàm số [[IMG:image1.png]]. Giải phương trình tìm x. Kết luận tọa độ các điểm.",
+     "type": "short_answer",
+     "shortCorrect": "(-2; 3); (2; 3)"
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số : [[IMG:image1.png]] có đồ thị [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức delta hoặc chứng minh a và c trái dấu. Ở đây a=1, c=-3 nên ac < 0, phương trình luôn có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số $a={{1}}$, $b={{2}}$, $c={{3}}$"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Xét tích $ac = {{4}} \\cdot {{5}} = {{6}}$"
+        ],
+        "hint": "Tính tích ac"
+       },
+       {
+        "lines": [
+         "Vì $ac < 0$ nên phương trình có {{7}} nghiệm {{8}}"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "0"
+        ],
+        "keywords": [
+         "0"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "input",
+        "answers": [
+         "phân biệt"
+        ],
+        "keywords": [
+         "phân biệt"
+        ],
+        "placeholder": "tính chất",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "1",
+       "0",
+       "-3",
+       "hai",
+       "phân biệt",
+       "nghiệm kép",
+       "vô nghiệm"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image5.png]]",
+     "explanation": "Áp dụng định lý Vi-et: x1+x2 = -b/a = 1; x1x2 = c/a = -3. Biểu thức x1^2 + x2^2 = (x1+x2)^2 - 2x1x2 = 1^2 - 2(-3) = 7.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Vi-et: $x_1+x_2 = $ {{1}}, $x_1x_2 = $ {{2}}",
+       "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = 1^2 - 2($ {{3}} $) = $ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình [[IMG:image4.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tổng lợi nhuận [[IMG:image9.png]] (triệu đồng) theo số sản phẩm [[IMG:image10.png]].",
+     "explanation": "Lợi nhuận = Doanh thu - Chi phí. Đổi đơn vị nghìn đồng sang triệu đồng. Lợi nhuận = (0.125 - 0.075)x - 20 = 0.05x - 20.",
+     "type": "multiple_choice",
+     "options": [
+      "$0.05x + 20$",
+      "$0.05x$",
+      "$0.2x - 20$",
+      "$0.05x - 20$"
+     ],
+     "correctAnswer": 3
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm số lượng sản phẩm [[IMG:image10.png]] để lợi nhuận đạt ít nhất [[IMG:image11.png]] triệu đồng.",
+     "explanation": "Giải bất phương trình 0.05x - 20 >= 10. Suy ra 0.05x >= 30. Suy ra x >= 600.",
+     "type": "short_answer",
+     "shortCorrect": "600"
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Một công ty sản xuất đang lên kế hoạch đầu tư mở rộng dây chuyền sản xuất. Chi phí cố định là [[IMG:image6.png]] triệu đồng/tháng. Chi phí sản xuất mỗi sản phẩm là [[IMG:image7.png]] nghìn đồng. Doanh thu mỗi sản phẩm là [[IMG:image8.png]] nghìn đồng.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  }
+ ],
+ "flags": []
+}

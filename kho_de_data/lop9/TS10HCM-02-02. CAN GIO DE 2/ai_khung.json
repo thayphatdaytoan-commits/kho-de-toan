@@ -1,0 +1,204 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "1a": {
+  "blocks": [
+   {
+    "lines": [
+     "Lập {{1}} giá trị cho 5 điểm thuộc đồ thị"
+    ],
+    "hint": "Lập bảng giá trị"
+   },
+   {
+    "lines": [
+     "Vẽ hệ {{2}} tọa độ Oxy"
+    ],
+    "hint": "Vẽ hệ trục"
+   },
+   {
+    "lines": [
+     "Biểu diễn các {{3}} trên mặt phẳng tọa độ"
+    ],
+    "hint": "Biểu diễn điểm"
+   },
+   {
+    "lines": [
+     "Vẽ đường cong {{4}} đi qua các điểm đã xác định"
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "bảng"
+    ],
+    "keywords": [
+     "bảng"
+    ],
+    "placeholder": "tên bảng",
+    "maxLen": 10
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "trục"
+    ],
+    "keywords": [
+     "trục"
+    ],
+    "placeholder": "tên trục",
+    "maxLen": 10
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "điểm"
+    ],
+    "keywords": [
+     "điểm"
+    ],
+    "placeholder": "tên đối tượng",
+    "maxLen": 10
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "parabol"
+    ],
+    "keywords": [
+     "parabol"
+    ],
+    "placeholder": "tên đường",
+    "maxLen": 10
+   }
+  ],
+  "pool": [
+   "bảng",
+   "trục",
+   "điểm",
+   "parabol",
+   "đường thẳng",
+   "đồ thị",
+   "tọa độ"
+  ],
+  "ordered": false
+ },
+ "2a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xác định các hệ số {{1}}, {{2}}, {{3}}"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính {{4}} = b^2 - 4ac"
+    ],
+    "hint": "Tính biệt thức"
+   },
+   {
+    "lines": [
+     "So sánh {{5}} với 0"
+    ],
+    "hint": "So sánh Delta"
+   },
+   {
+    "lines": [
+     "Kết luận phương trình có {{6}} nghiệm phân biệt"
+    ],
+    "hint": "Kết luận"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "a"
+    ],
+    "keywords": [
+     "a"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "b"
+    ],
+    "keywords": [
+     "b"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "c"
+    ],
+    "keywords": [
+     "c"
+    ],
+    "placeholder": "hệ số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "Delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     "Delta"
+    ],
+    "keywords": [
+     "delta"
+    ],
+    "placeholder": "biệt thức",
+    "maxLen": 10
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "hai"
+    ],
+    "keywords": [
+     "hai"
+    ],
+    "placeholder": "số lượng",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "a",
+   "b",
+   "c",
+   "Delta",
+   "hai",
+   "một",
+   "không",
+   "nghiệm"
+  ],
+  "ordered": false
+ }
+}

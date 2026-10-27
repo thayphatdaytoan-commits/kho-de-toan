@@ -1,0 +1,379 @@
+{
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xét phương trình $x^2 - 2x - 5 = 0$ có $a = {{1}}, c = {{2}}$"
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Ta có $a.c = 1.(-5) = {{3}} < 0$"
+    ],
+    "hint": "Tính tích a.c"
+   },
+   {
+    "lines": [
+     "Vì $a$ và $c$ {{4}} nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$"
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-5"
+    ],
+    "keywords": [
+     "-5"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-5"
+    ],
+    "keywords": [
+     "-5"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "trái dấu"
+    ],
+    "keywords": [
+     "trái dấu"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 15
+   }
+  ],
+  "pool": [
+   "1",
+   "-5",
+   "trái dấu",
+   "cùng dấu",
+   "0",
+   "2"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét đường tròn tâm $I$ đường kính $BC$ có:",
+     "$\\widehat{BFC} = {{1}}^\\circ$ và $\\widehat{BEC} = {{2}}^\\circ$ ({{3}})"
+    ],
+    "hint": "Góc nội tiếp chắn nửa đường tròn"
+   },
+   {
+    "lines": [
+     "Nên $CF \\perp {{4}}$ và $BE \\perp {{5}}$"
+    ],
+    "hint": "Suy ra quan hệ vuông góc"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle {{6}}$ có $BE$ và $CF$ là hai đường cao cắt nhau tại $H$"
+    ],
+    "hint": "Xét tam giác chứa đường cao"
+   },
+   {
+    "lines": [
+     "Do đó $H$ là {{7}} của $\\triangle {{8}}$",
+     "Suy ra $AH \\perp {{9}}$"
+    ],
+    "hint": "Kết luận trực tâm và vuông góc"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "góc nội tiếp chắn nửa đường tròn"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 24
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 5
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "trực tâm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 10
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "ABC"
+    ],
+    "keywords": [],
+    "placeholder": "tam giác",
+    "maxLen": 5
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   }
+  ],
+  "pool": [
+   "90",
+   "góc nội tiếp chắn nửa đường tròn",
+   "AB",
+   "AC",
+   "ABC",
+   "trực tâm",
+   "BC",
+   "trọng tâm",
+   "đối đỉnh",
+   "cạnh chung"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét đường tròn $(O)$ có $\\widehat{ABD} = {{1}}^\\circ$ và $\\widehat{ACD} = {{2}}^\\circ$ ({{3}})"
+    ],
+    "hint": "Góc nội tiếp chắn nửa đường tròn"
+   },
+   {
+    "lines": [
+     "Nên $BD \\perp {{4}}$ và $CD \\perp {{5}}$"
+    ],
+    "hint": "Suy ra quan hệ vuông góc"
+   },
+   {
+    "lines": [
+     "Ta có $BD // {{6}}$ (cùng vuông góc $AB$) và $CD // {{7}}$ (cùng vuông góc $AC$)"
+    ],
+    "hint": "Chứng minh song song"
+   },
+   {
+    "lines": [
+     "Suy ra tứ giác $BHCD$ là {{8}}",
+     "Vì $I$ là {{9}} của $BC$ nên $I$ cũng là {{10}} của $HD$"
+    ],
+    "hint": "Tính chất hình bình hành"
+   },
+   {
+    "lines": [
+     "Vậy 3 điểm $H, I, D$ {{11}}"
+    ],
+    "hint": "Kết luận thẳng hàng"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "keywords": [],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "góc nội tiếp chắn nửa đường tròn"
+    ],
+    "keywords": [],
+    "placeholder": "lý do",
+    "maxLen": 24
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "AB"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "CH"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "keywords": [],
+    "placeholder": "cạnh",
+    "maxLen": 5
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "hình bình hành"
+    ],
+    "keywords": [],
+    "placeholder": "tứ giác",
+    "maxLen": 15
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 10
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "trung điểm"
+    ],
+    "keywords": [],
+    "placeholder": "vị trí",
+    "maxLen": 10
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "thẳng hàng"
+    ],
+    "keywords": [],
+    "placeholder": "tính chất",
+    "maxLen": 15
+   }
+  ],
+  "pool": [
+   "90",
+   "góc nội tiếp chắn nửa đường tròn",
+   "AB",
+   "AC",
+   "CH",
+   "BH",
+   "hình bình hành",
+   "trung điểm",
+   "thẳng hàng",
+   "hình chữ nhật",
+   "đồng vị",
+   "so le trong"
+  ]
+ }
+}

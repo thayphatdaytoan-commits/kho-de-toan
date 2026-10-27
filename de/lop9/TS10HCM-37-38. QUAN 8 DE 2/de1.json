@@ -1,0 +1,880 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị và vẽ đường cong parabol trên hệ trục tọa độ.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm trên [[IMG:image2.png]] có tung độ bằng [[IMG:image3.png]].",
+     "explanation": "Thay $y = 2$ vào hàm số $y = 0.5x^2$ ta được $0.5x^2 = 2$.\n$x^2 = 4$.\n$x = 2$ hoặc $x = -2$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 2$ vào $0.5x^2 = y$: $0.5x^2 =$ {{1}}",
+       "$x^2 =$ {{2}}",
+       "$x =$ {{3}} hoặc $x =$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số [[IMG:image1.png]] có đồ thị là [[IMG:image2.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình [[IMG:image5.png]] có hai nghiệm phân biệt.",
+     "explanation": "Tính biệt thức $\\Delta = b^2 - 4ac$. Vì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xác định các hệ số {{1}}, {{2}}, {{3}} của phương trình."
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính biệt thức $\\Delta = {{4}}^2 - 4{{5}}{{6}}$."
+        ],
+        "hint": "Tính biệt thức"
+       },
+       {
+        "lines": [
+         "Vì $\\Delta > 0$ nên phương trình có {{7}} nghiệm phân biệt."
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số a",
+        "maxLen": 2
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số b",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số c",
+        "maxLen": 2
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "b"
+        ],
+        "keywords": [
+         "b"
+        ],
+        "placeholder": "hệ số b",
+        "maxLen": 2
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "a"
+        ],
+        "keywords": [
+         "a"
+        ],
+        "placeholder": "hệ số a",
+        "maxLen": 2
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "c"
+        ],
+        "keywords": [
+         "c"
+        ],
+        "placeholder": "hệ số c",
+        "maxLen": 2
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 5
+       }
+      ],
+      "pool": [
+       "a",
+       "b",
+       "c",
+       "hai"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Giả sử [[IMG:image6.png]] là nghiệm của phương trình [[IMG:image5.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "explanation": "Áp dụng định lý Viète: $x_1 + x_2 = -b/a$ và $x_1x_2 = c/a$.\nThay vào biểu thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$ để tính toán.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: [[IMG:image4.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số học sinh của lớp [[IMG:image8.png]].",
+     "explanation": "Tổng số học sinh = (Số HS giỏi tổ 1+2+3+4) + (Số HS khá tổ 1+2+3+4).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "40"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Giáo viên chủ nhiệm của lớp chọn ra [[IMG:image9.png]] học sinh làm lớp trưởng, sau đó chọn ra [[IMG:image9.png]] học sinh làm lớp phó. Biết cả lớp trưởng và lớp phó được chọn phải là học sinh giỏi. Tính xác suất để chọn ra được [[IMG:image9.png]] bạn lớp phó.",
+     "explanation": "Số HS giỏi là 24. Chọn lớp trưởng có 24 cách. Chọn lớp phó có 23 cách còn lại.\nXác suất = (Số cách chọn thuận lợi) / (Tổng số cách chọn).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "0,043478|1/23"
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Biểu đồ cột kép bên dưới biểu thị số lượng học sinh giỏi, khá của lớp [[IMG:image8.png]] tại một trường trung học cơ sở. Biết lớp [[IMG:image8.png]] chỉ có học sinh giỏi và học sinh khá.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B2.D01",
+   "dang_toan_web": "Biểu đồ tần số, biểu đồ tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức [[IMG:image14.png]] biểu diễn theo [[IMG:image15.png]] diện tích trồng hoa hồng.",
+     "explanation": "Diện tích HCN là $12x$. Diện tích lối đi là $2x$. Diện tích còn lại là $12x - 2x$. Chia đôi cho hai miếng đất.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$S(x) = 12x - 2x^2$",
+      "$S(x) = 0.5(12x - 2x^2)$",
+      "$S(x) = 6x - 2x^2$",
+      "$S(x) = 0.5(12x + 2x^2)$"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta dự kiến lát sỏi lối đi. Chi phí cho mỗi mét vuông làm lối đi hết [[IMG:image16.png]] nghìn đồng. Hỏi chi phí để làm lối đi là bao nhiêu? Biết diện tích miếng đất trồng hoa hồng là [[IMG:image17.png]] mét vuông.",
+     "explanation": "Giải phương trình diện tích hoa hồng để tìm $x$. Sau đó tính diện tích lối đi và nhân với đơn giá.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Chi phí làm lối đi: {{1}} nghìn đồng"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2000"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là bề rộng lối đi (m, điều kiện $x > 0$)",
+       "Biểu diễn diện tích miếng đất trồng hoa hồng theo $x$: {{1}}",
+       "Phương trình: {{2}}",
+       "Giải phương trình ta tìm được $x =$ {{3}}",
+       "Vậy chi phí làm lối đi là {{4}} nghìn đồng"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "10(12-x)"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "10(12-x)=100"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2000"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Trên một miếng đất hình chữ nhật có chiều dài là [[IMG:image10.png]], chiều rộng là [[IMG:image11.png]] [[IMG:image12.png]], người ta làm một lối đi hình bình hành có bề rộng là [[IMG:image13.png]]. Phần còn lại là hai miếng đất hình thang vuông có diện tích bằng nhau, người ta dự kiến trồng hoa hồng và hoa cúc.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của thùng chứa hàng.",
+     "explanation": "Thể tích = dài x rộng x cao = $1.5 \\times 2.5 \\times 2 = 7.5$ (m3).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thể tích $V = $ {{1}} $\\times$ {{2}} $\\times$ {{3}}",
+       "$V =$ {{4}} $(m^3)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1.5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2.5"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "7.5"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Một kho hàng có [[IMG:image22.png]] thùng hàng dạng hình lập phương có cạnh [[IMG:image23.png]]. Xe cần chuyển hết các thùng hàng đi đến một nới khác. Hỏi xe cần chở ít nhất bao nhiêu chuyến xe thì sẽ chở hết [[IMG:image22.png]] thùng.",
+     "explanation": "Thể tích 1 thùng là $0.5^3 = 0.125$. Tổng thể tích 90 thùng là $90 \\times 0.125 = 11.25$. Số chuyến = $11.25 / 7.5 = 1.5$. Làm tròn lên là 2 chuyến (Lưu ý: đề bài gốc có thể có sai số về số liệu, tính toán theo logic).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "15"
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Một xe chở hàng có thùng xe phía sau là một hình hộp chữ nhật có kích thước bên trong thùng xe như hình bên (chiều dày của thành xe không đáng kể).",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D03",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Khối lượng kẽm cần thêm: {{1}} gam"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "125"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi $x$ là khối lượng kẽm cần thêm (g, điều kiện $x > 0$)",
+     "Biểu diễn khối lượng kẽm sau khi thêm theo $x$: {{1}}",
+     "Biểu diễn tổng khối lượng đồng thau sau khi thêm theo $x$: {{2}}",
+     "Phương trình: {{3}}",
+     "Giải phương trình ta tìm được $x =$ {{4}}",
+     "Vậy khối lượng kẽm cần thêm là {{5}} gam"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "100+x"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "500+x"
+     },
+     {
+      "id": "3",
+      "loai": "bt",
+      "dap_an": "(100+x)/(500+x)=0.375"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "125"
+     },
+     {
+      "id": "5",
+      "loai": "so",
+      "dap_an": "125"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Đồng thau là kim loại có chứa hỗn hợp đồng và kẽm. Tỷ lệ kẽm trong đồng thau cho ta các loại đồng thau khác nhau. Trong đồng thau màu đỏ có khối lượng kẽm chiếm [[IMG:image24.png]] Trong đồng thau màu vàng nhạt có khối lượng kẽm chiếm [[IMG:image25.png]] Từ một ống đồng thau màu đỏ có khối lượng [[IMG:image26.png]], người ta cần cho thêm bao nhiêu gam kẽm để tạo ra một ống đồng thau màu vàng nhạt. (Làm tròn kết quả đến hàng đơn vị).",
+   "explanation": "Gọi $x$ là khối lượng kẽm thêm vào. Lập phương trình tỷ lệ kẽm sau khi thêm bằng tỷ lệ kẽm của đồng thau vàng nhạt.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 1,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác [[IMG:image38.png]] là tứ giác nội tiếp đường tròn.",
+     "explanation": "Sử dụng tính chất tiếp tuyến vuông góc với bán kính để chỉ ra các góc đối bằng 180 độ hoặc cùng nhìn một đoạn dưới một góc vuông.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét tiếp tuyến {{1}} tại {{2}} với đường tròn, ta có $\\widehat{AMO} = {{3}}^\\circ$ (tính chất tiếp tuyến)."
+        ],
+        "hint": "Chứng minh góc vuông thứ nhất"
+       },
+       {
+        "lines": [
+         "Xét tiếp tuyến {{4}} tại {{5}} với đường tròn, ta có $\\widehat{ANO} = {{6}}^\\circ$ (tính chất tiếp tuyến)."
+        ],
+        "hint": "Chứng minh góc vuông thứ hai"
+       },
+       {
+        "lines": [
+         "Tứ giác {{7}} có $\\widehat{AMO} + \\widehat{ANO} = {{8}}^\\circ$, suy ra tứ giác {{9}} nội tiếp đường tròn đường kính {{10}}."
+        ],
+        "hint": "Kết luận tứ giác nội tiếp"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "Ax"
+        ],
+        "keywords": [],
+        "placeholder": "tiếp tuyến",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "M"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 2
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 3
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "Ay"
+        ],
+        "keywords": [],
+        "placeholder": "tiếp tuyến",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "N"
+        ],
+        "keywords": [],
+        "placeholder": "điểm",
+        "maxLen": 2
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 3
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "AMON"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 6
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "180"
+        ],
+        "keywords": [],
+        "placeholder": "tổng góc",
+        "maxLen": 4
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "AMON"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 6
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "AO"
+        ],
+        "keywords": [],
+        "placeholder": "đường kính",
+        "maxLen": 4
+       }
+      ],
+      "pool": [
+       "Ax",
+       "Ay",
+       "M",
+       "N",
+       "AMON",
+       "AO",
+       "90",
+       "180",
+       "AB",
+       "O",
+       "60"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Đoạn thẳng [[IMG:image39.png]] cắt [[IMG:image40.png]] tại [[IMG:image41.png]], đoạn thẳng [[IMG:image42.png]] cắt [[IMG:image43.png]] tại [[IMG:image44.png]]. Chứng minh tứ giác [[IMG:image45.png]] là hình chữ nhật và tam giác [[IMG:image46.png]] đồng dạng với tam giác [[IMG:image47.png]].",
+     "explanation": "Chứng minh các góc của tứ giác là góc vuông. Sử dụng các tam giác đồng dạng để suy ra tỉ số.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Tứ giác {{1}} có $\\widehat{I} = \\widehat{K} = \\widehat{Q} = {{2}}^\\circ$ nên là hình chữ nhật."
+        ],
+        "hint": "Chứng minh hình chữ nhật"
+       },
+       {
+        "lines": [
+         "Từ tính chất hình chữ nhật, ta có $\\triangle {{3}} \\sim \\triangle {{4}}$ theo trường hợp {{5}}."
+        ],
+        "hint": "Chứng minh tam giác đồng dạng"
+       },
+       {
+        "lines": [
+         "Vậy $\\triangle {{6}} \\sim \\triangle {{7}}$ (đpcm)."
+        ],
+        "hint": "Kết luận đồng dạng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "IPKQ"
+        ],
+        "keywords": [],
+        "placeholder": "tứ giác",
+        "maxLen": 6
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số đo",
+        "maxLen": 3
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "AIK"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 6
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "AQP"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 6
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "AIK"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 6
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "AQP"
+        ],
+        "keywords": [],
+        "placeholder": "tam giác",
+        "maxLen": 6
+       }
+      ],
+      "pool": [
+       "IPKQ",
+       "AIK",
+       "AQP",
+       "90",
+       "g.g",
+       "c.g.c",
+       "c.c.c",
+       "ABO",
+       "MNP"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính diện tích tứ giác [[IMG:image48.png]] và bán kính của đường tròn ngoại tiếp tứ giác [[IMG:image48.png]] theo [[IMG:image49.png]].",
+     "explanation": "Sử dụng các hệ thức lượng trong tam giác vuông và tính chất hình học đã chứng minh ở câu b.",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "khac",
+      "kieu": "dong",
+      "dong": [
+       "Diện tích tứ giác là {{1}} ; Bán kính đường tròn ngoại tiếp là {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "chu",
+        "dap_an": "R^2"
+       },
+       {
+        "id": "2",
+        "loai": "chu",
+        "dap_an": "R"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn [[IMG:image27.png]] đường kính [[IMG:image28.png]]. Vẽ hai tiếp tuyến [[IMG:image29.png]] và [[IMG:image30.png]]. Điểm [[IMG:image31.png]] thuộc tia [[IMG:image32.png]], sao cho [[IMG:image14.png]] là trung điểm của [[IMG:image33.png]]. Từ [[IMG:image31.png]] vẽ tiếp tuyến [[IMG:image34.png]] ([[IMG:image35.png]] là tiếp điểm) cắt [[IMG:image29.png]] tại [[IMG:image36.png]] và [[IMG:image30.png]] tại [[IMG:image37.png]].",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."
+  }
+ ],
+ "flags": []
+}

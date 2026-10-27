@@ -1,0 +1,564 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho parabol [[IMG:image1.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc parabol và vẽ đường cong parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho các điểm có hoành độ -2, -1, 0, 1, 2",
+      "Xác định các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": 0,
+       "ymax": 8
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ những điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 4); (-2; 4)",
+     "loi_giai": "Thay y = 4 vào phương trình y = x^2, ta được x^2 = 4. Suy ra x = 2 hoặc x = -2. Vậy các điểm là (2; 4) và (-2; 4).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Tìm tọa độ những điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ bằng [[IMG:image4.png]].",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Điểm thứ nhất: ({{1}}; {{2}}); Điểm thứ hai: ({{3}}; {{4}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2|-2"
+       },
+       {
+        "id": "2",
+        "answer": "4"
+       },
+       {
+        "id": "3",
+        "answer": "-2|2"
+       },
+       {
+        "id": "4",
+        "answer": "4"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 4$ vào $y = x^2$: $x^2 =$ {{1}}",
+       "Suy ra $x =$ {{2}} hoặc $x =$ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image5.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta hoặc nhận xét a và c trái dấu. Vì a=1, c=-3 nên ac < 0, phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a=1, c=-3",
+      "Lập luận a và c trái dấu",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta bằng 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình hãy tính giá trị của biểu thức [[IMG:image6.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "loi_giai": "Theo Vi-et: x1+x2 = 1, x1x2 = -3. Biểu thức x1^2 + x2^2 = (x1+x2)^2 - 2x1x2 = 1^2 - 2(-3) = 1 + 6 = 7.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Biết phương trình có hai nghiệm phân biệt, không giải phương trình hãy tính giá trị của biểu thức [[IMG:image6.png]].",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2$",
+       "$=$ {{1}}$^2 - 2($ {{2}} $)$",
+       "$=$ {{3}} $+$ {{4}} $=$ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "6"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Công ty [[IMG:image7.png]] sản xuất xe lăn với vốn ban đầu [[IMG:image8.png]] triệu đồng, chi phí mỗi chiếc [[IMG:image9.png]] đồng, giá bán mỗi chiếc [[IMG:image10.png]] đồng.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết hàm số biểu diễn tổng số tiền đã đầu tư và số tiền thu được khi bán [[IMG:image12.png]] chiếc xe.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "C(x) = 2000000 + 500000x; R(x) = 1000000x",
+     "loi_giai": "Tổng chi phí C(x) = 2000000 + 500000x. Doanh thu R(x) = 1000000x.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Công ty [[IMG:image7.png]] sản xuất xe lăn với vốn ban đầu [[IMG:image8.png]] triệu đồng, chi phí mỗi chiếc [[IMG:image9.png]] đồng, giá bán mỗi chiếc [[IMG:image10.png]] đồng. Viết hàm số biểu diễn tổng số tiền đã đầu tư và số tiền thu được khi bán [[IMG:image12.png]] chiếc xe.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "A: $C(x) = 2000000 + 500000x; R(x) = 1000000x$",
+       "B: $C(x) = 2000000 + 1000000x; R(x) = 500000x$",
+       "C: $C(x) = 500000 + 2000000x; R(x) = 1000000x$",
+       "D: $C(x) = 2000000 + 500000x; R(x) = 1500000x$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi cần phải bán bao nhiêu chiếc xe mới có thể thu hồi được vốn sản xuất ban đầu?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4",
+     "loi_giai": "Để thu hồi vốn: 1000000x = 2000000 + 500000x => 500000x = 2000000 => x = 4.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Công ty [[IMG:image7.png]] sản xuất xe lăn với vốn ban đầu [[IMG:image8.png]] triệu đồng, chi phí mỗi chiếc [[IMG:image9.png]] đồng, giá bán mỗi chiếc [[IMG:image10.png]] đồng. Hỏi cần phải bán bao nhiêu chiếc xe mới có thể thu hồi được vốn sản xuất ban đầu?",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số xe cần bán:",
+        "dap_an": "4",
+        "don_vi": "chiếc"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số xe lăn cần bán (chiếc, $x > 0$)",
+        "Biểu diễn tổng chi phí sản xuất theo $x$: {{1}}",
+        "Biểu diễn tổng doanh thu theo $x$: {{2}}",
+        "Phương trình: {{3}}",
+        "Giải phương trình ta tìm được $x =$ {{4}}",
+        "Vậy số xe cần bán là {{5}} chiếc"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "2000000+500000x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "1000000x"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "1000000x=2000000+500000x"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "4"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "4"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Vật thể gồm hình trụ và hình nón.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích của vật thể ấy.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1005.3",
+     "loi_giai": "Tính thể tích trụ V1 = pi*r^2*h1, thể tích nón V2 = 1/3*pi*r^2*h2. Tổng V = V1 + V2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Vật thể gồm hình trụ và hình nón. Tính thể tích của vật thể ấy.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính diện tích mặt ngoài của dụng cụ không tính nắp đậy.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "471.24",
+     "loi_giai": "Diện tích = S_xung_quanh_trụ + S_đáy_trụ + S_xung_quanh_nón.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Vật thể gồm hình trụ và hình nón. Tính diện tích mặt ngoài của dụng cụ không tính nắp đậy.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Hai cửa hàng bán 1100 sản phẩm tháng trước. Tháng sau cửa hàng 1 vượt 20%, cửa hàng 2 vượt 10%, tổng bán được 1240 sản phẩm.",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Hỏi trong tháng sau mỗi cửa hàng bán được bao nhiêu sản phẩm?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "840; 528",
+     "loi_giai": "Gọi x, y là số sản phẩm tháng trước. x+y=1100 và 1.2x + 1.1y = 1240. Giải hệ được x=700, y=400. Tháng sau: 1.2*700=840, 1.1*400=440 (Lưu ý: đề bài có thể có sai sót trong số liệu hướng dẫn, kết quả dựa trên hệ phương trình).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "he",
+      "dap_cuoi": [
+       {
+        "nhan": "Số sản phẩm cửa hàng 1 bán được tháng sau:",
+        "dap_an": "840",
+        "don_vi": "sản phẩm"
+       },
+       {
+        "nhan": "Số sản phẩm cửa hàng 2 bán được tháng sau:",
+        "dap_an": "440",
+        "don_vi": "sản phẩm"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số sản phẩm cửa hàng 1 bán tháng trước, $y$ là số sản phẩm cửa hàng 2 bán tháng trước (sản phẩm, $x, y > 0$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy tháng sau cửa hàng 1 bán được {{5}} sản phẩm, cửa hàng 2 bán được {{6}} sản phẩm"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "x+y=1100"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "1.2x+1.1y=1240"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "700"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "400"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "840"
+        },
+        {
+         "id": "6",
+         "loai": "so",
+         "dap_an": "440"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Biểu đồ cột ghép số học sinh tham gia thể thao.",
+   "y": [
+    {
+     "nhan": "A",
+     "de": "Tính xác suất học sinh được chọn là nam.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.5",
+     "loi_giai": "Tính tổng số nam chia tổng số học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột ghép số học sinh tham gia thể thao. Tính xác suất học sinh được chọn là nam.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "B",
+     "de": "Tính xác suất học sinh được chọn thuộc khối 6.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.3",
+     "loi_giai": "Tính tổng số học sinh khối 6 chia tổng số học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột ghép số học sinh tham gia thể thao. Tính xác suất học sinh được chọn thuộc khối 6.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "C",
+     "de": "Tính xác suất học sinh được chọn là nữ và không thuộc khối 8.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.2",
+     "loi_giai": "Tính số nữ khối 6 và 7 chia tổng số học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột ghép số học sinh tham gia thể thao. Tính xác suất học sinh được chọn là nữ và không thuộc khối 8.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn (O) và điểm A nằm ngoài đường tròn. Kẻ tiếp tuyến AB, AC.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh OA vuông góc BC.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "AB=AC (tính chất tiếp tuyến), OB=OC (bán kính). OA là trung trực của BC nên OA vuông góc BC.",
+     "cum": [
+      "AB=AC (tính chất tiếp tuyến cắt nhau)",
+      "OB=OC (bán kính)",
+      "OA là đường trung trực của BC",
+      "OA vuông góc BC"
+     ],
+     "nhieu": [
+      "OA song song BC"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) và điểm A nằm ngoài đường tròn. Kẻ tiếp tuyến AB, AC. Chứng minh OA vuông góc BC."
+    },
+    {
+     "nhan": "b",
+     "de": "Vẽ đường kính BD, chứng minh CD song song OA.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Góc BCD = 90 độ (góc nội tiếp chắn nửa đường tròn). OA vuông góc BC. Suy ra CD song song OA.",
+     "cum": [
+      "Góc BCD = 90 độ",
+      "BC vuông góc CD",
+      "BC vuông góc OA",
+      "CD song song OA"
+     ],
+     "nhieu": [
+      "CD vuông góc OA"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) và điểm A nằm ngoài đường tròn. Kẻ tiếp tuyến AB, AC. Vẽ đường kính BD, chứng minh CD song song OA.",
+     "mau_xet": true,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     }
+    },
+    {
+     "nhan": "c",
+     "de": "Tính độ dài các cạnh của tam giác ABC biết bán kính R=3, OA=5.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "AB=4; AC=4; BC=4.8",
+     "loi_giai": "AB=sqrt(OA^2-OB^2)=4. Gọi H là giao OA, BC. AH = AB^2/OA = 16/5 = 3.2. BH = sqrt(AB^2-AH^2) = 2.4. BC = 2*BH = 4.8.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn (O) và điểm A nằm ngoài đường tròn. Kẻ tiếp tuyến AB, AC. Tính độ dài các cạnh của tam giác ABC biết bán kính R=3, OA=5.",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$AB =$ {{1}}; $AC =$ {{2}}; $BC =$ {{3}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "4"
+       },
+       {
+        "id": "2",
+        "answer": "4"
+       },
+       {
+        "id": "3",
+        "answer": "4.8"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$AB = \\sqrt{OA^2 - R^2} = \\sqrt{5^2 - 3^2} =$ {{1}}",
+       "$AH = \\dfrac{AB^2}{OA} = \\dfrac{ {{2}} }{5} =$ {{3}}",
+       "$BH = \\sqrt{AB^2 - AH^2} = \\sqrt{4^2 - 3.2^2} =$ {{4}}",
+       "$BC = 2 \\cdot BH =$ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "16"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3.2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2.4"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "4.8"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

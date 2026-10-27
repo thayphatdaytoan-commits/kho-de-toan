@@ -1,0 +1,669 @@
+{
+ "by": "Gemini 2 (gemini-3-flash-preview)",
+ "1a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Bước 1: Lập {{1}} các điểm thuộc Parabol."
+    ],
+    "hint": "Lập bảng"
+   },
+   {
+    "lines": [
+     "Bước 2: Vẽ {{2}} $Oxy$."
+    ],
+    "hint": "Vẽ hệ trục"
+   },
+   {
+    "lines": [
+     "Bước 3: Biểu diễn các điểm trên {{3}}."
+    ],
+    "hint": "Xác định điểm"
+   },
+   {
+    "lines": [
+     "Bước 4: Vẽ {{4}} Parabol đi qua các điểm đã xác định."
+    ],
+    "hint": "Vẽ đồ thị"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "bảng giá trị"
+    ],
+    "keywords": [
+     "bảng",
+     "giá trị"
+    ],
+    "placeholder": "nhập cụm từ",
+    "maxLen": 20
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "hệ trục tọa độ"
+    ],
+    "keywords": [
+     "hệ trục",
+     "tọa độ"
+    ],
+    "placeholder": "nhập cụm từ",
+    "maxLen": 20
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "mặt phẳng tọa độ"
+    ],
+    "keywords": [
+     "mặt phẳng",
+     "tọa độ"
+    ],
+    "placeholder": "nhập cụm từ",
+    "maxLen": 20
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "đường cong"
+    ],
+    "keywords": [
+     "đường cong"
+    ],
+    "placeholder": "nhập cụm từ",
+    "maxLen": 20
+   }
+  ],
+  "pool": [
+   "bảng giá trị",
+   "hệ trục tọa độ",
+   "mặt phẳng tọa độ",
+   "đường cong",
+   "đường thẳng",
+   "biểu đồ",
+   "tọa độ"
+  ]
+ },
+ "2a": {
+  "ordered": false,
+  "blocks": [
+   {
+    "lines": [
+     "Xác định các hệ số: $a = {{1}}$, $b = {{2}}$, $c = {{3}}$."
+    ],
+    "hint": "Xác định hệ số"
+   },
+   {
+    "lines": [
+     "Tính biệt thức $\\Delta = b^2 - 4ac = (-3)^2 - 4 \\cdot 1 \\cdot (-5) = {{4}}$."
+    ],
+    "hint": "Tính Delta"
+   },
+   {
+    "lines": [
+     "Vì $\\Delta {{5}} 0$ nên phương trình có {{6}}."
+    ],
+    "hint": "Kết luận nghiệm"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "input",
+    "answers": [
+     "1"
+    ],
+    "keywords": [
+     "1"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "2",
+    "mode": "input",
+    "answers": [
+     "-3"
+    ],
+    "keywords": [
+     "-3"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "3",
+    "mode": "input",
+    "answers": [
+     "-5"
+    ],
+    "keywords": [
+     "-5"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "4",
+    "mode": "input",
+    "answers": [
+     "29"
+    ],
+    "keywords": [
+     "29"
+    ],
+    "placeholder": "số",
+    "maxLen": 5
+   },
+   {
+    "id": "5",
+    "mode": "input",
+    "answers": [
+     ">"
+    ],
+    "keywords": [
+     ">"
+    ],
+    "placeholder": "dấu",
+    "maxLen": 5
+   },
+   {
+    "id": "6",
+    "mode": "input",
+    "answers": [
+     "hai nghiệm phân biệt"
+    ],
+    "keywords": [
+     "hai nghiệm",
+     "phân biệt"
+    ],
+    "placeholder": "kết luận",
+    "maxLen": 24
+   }
+  ],
+  "pool": [
+   "1",
+   "-3",
+   "-5",
+   "29",
+   ">",
+   "hai nghiệm phân biệt",
+   "0",
+   "vô nghiệm",
+   "nghiệm kép",
+   "<"
+  ]
+ },
+ "7a": {
+  "blocks": [
+   {
+    "lines": [
+     "Ta có $AB = {{1}}$ ({{2}}) và $OB = {{3}} = R$."
+    ],
+    "hint": "Nêu các đoạn thẳng bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $OA$ là đường {{4}} của đoạn thẳng {{5}}."
+    ],
+    "hint": "Xác định tính chất OA"
+   },
+   {
+    "lines": [
+     "Do đó $OA \\perp {{6}}$ tại $H$."
+    ],
+    "hint": "Chứng minh vuông góc"
+   },
+   {
+    "lines": [
+     "Xét tứ giác $ABOC$ có $\\angle {{7}} = 90^\\circ$ và $\\angle ACO = {{8}}^\\circ$ ({{9}})."
+    ],
+    "hint": "Xét các góc của tứ giác"
+   },
+   {
+    "lines": [
+     "Suy ra $\\angle ABO + \\angle ACO = {{10}}^\\circ$. Vậy tứ giác $ABOC$ {{11}}."
+    ],
+    "hint": "Kết luận tứ giác nội tiếp"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "giả thiết"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "OC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "trung trực"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "BC"
+    ],
+    "placeholder": "tên cạnh",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "ABO"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "90"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "tiếp tuyến"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "180"
+    ],
+    "placeholder": "số đo",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "nội tiếp"
+    ],
+    "placeholder": "tính chất",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "AC",
+   "giả thiết",
+   "OC",
+   "trung trực",
+   "BC",
+   "ABO",
+   "90",
+   "tiếp tuyến",
+   "180",
+   "nội tiếp",
+   "trung điểm",
+   "đối đỉnh",
+   "so le trong",
+   "360",
+   "ngoại tiếp"
+  ]
+ },
+ "7b": {
+  "blocks": [
+   {
+    "lines": [
+     "Xét $\\triangle ABE$ và $\\triangle {{1}}$ có $\\angle {{2}}$ chung."
+    ],
+    "hint": "Xét hai tam giác đồng dạng"
+   },
+   {
+    "lines": [
+     "$\\angle ABE = \\angle {{3}}$ (góc tạo bởi tia tiếp tuyến và dây cung)."
+    ],
+    "hint": "Tìm cặp góc bằng nhau"
+   },
+   {
+    "lines": [
+     "Suy ra $\\triangle ABE \\sim \\triangle {{4}}$ ({{5}})."
+    ],
+    "hint": "Kết luận đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\frac{AE}{AB} = \\frac{AB}{AD} \\Rightarrow AE \\cdot AD = {{6}}$."
+    ],
+    "hint": "Suy ra hệ thức tích"
+   },
+   {
+    "lines": [
+     "Trong $\\triangle ABO$ vuông tại {{7}}, đường cao {{8}}, ta có $AB^2 = {{9}} \\cdot AO$ ({{10}})."
+    ],
+    "hint": "Sử dụng hệ thức lượng"
+   },
+   {
+    "lines": [
+     "Từ đó suy ra $AE \\cdot AD = {{11}} \\cdot {{12}}$."
+    ],
+    "hint": "Kết luận đẳng thức"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "ADB"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "BAE"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "ADB"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "ADB"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "g.g"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "AB^2"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "B"
+    ],
+    "placeholder": "tên điểm",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "BH"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "AH"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "hệ thức lượng"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "11",
+    "mode": "drag",
+    "answers": [
+     "AH"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "12",
+    "mode": "drag",
+    "answers": [
+     "AO"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   }
+  ],
+  "pool": [
+   "ADB",
+   "BAE",
+   "g.g",
+   "AB^2",
+   "B",
+   "BH",
+   "AH",
+   "hệ thức lượng",
+   "AO",
+   "ADC",
+   "c.g.c",
+   "AC^2",
+   "OH",
+   "đường trung bình"
+  ]
+ },
+ "7c": {
+  "blocks": [
+   {
+    "lines": [
+     "Từ $AE \\cdot AD = AH \\cdot AO \\Rightarrow \\frac{AE}{AO} = \\frac{{{1}}}{AD}$."
+    ],
+    "hint": "Lập tỉ số cạnh"
+   },
+   {
+    "lines": [
+     "Xét $\\triangle AHE$ và $\\triangle {{2}}$ có góc {{3}} chung."
+    ],
+    "hint": "Xét hai tam giác mới"
+   },
+   {
+    "lines": [
+     "Kết hợp tỉ số trên, suy ra $\\triangle AHE \\sim \\triangle {{4}}$ ({{5}})."
+    ],
+    "hint": "Chứng minh đồng dạng"
+   },
+   {
+    "lines": [
+     "Suy ra $\\angle AHE = \\angle {{6}}$ (hai góc {{7}})."
+    ],
+    "hint": "Suy ra góc tương ứng"
+   },
+   {
+    "lines": [
+     "Khi $\\angle BAC = 60^\\circ$, $\\triangle ABC$ là tam giác {{8}}."
+    ],
+    "hint": "Xác định loại tam giác"
+   },
+   {
+    "lines": [
+     "Tính được $AB = {{9}} \\sqrt{3}$ và diện tích $S_{AHE} = {{10}}$."
+    ],
+    "hint": "Tính toán diện tích"
+   }
+  ],
+  "blanks": [
+   {
+    "id": "1",
+    "mode": "drag",
+    "answers": [
+     "AH"
+    ],
+    "placeholder": "tên đoạn",
+    "maxLen": 12
+   },
+   {
+    "id": "2",
+    "mode": "drag",
+    "answers": [
+     "ADO"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "3",
+    "mode": "drag",
+    "answers": [
+     "A"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "4",
+    "mode": "drag",
+    "answers": [
+     "ADO"
+    ],
+    "placeholder": "tên tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "5",
+    "mode": "drag",
+    "answers": [
+     "c.g.c"
+    ],
+    "placeholder": "trường hợp",
+    "maxLen": 12
+   },
+   {
+    "id": "6",
+    "mode": "drag",
+    "answers": [
+     "ADO"
+    ],
+    "placeholder": "tên góc",
+    "maxLen": 12
+   },
+   {
+    "id": "7",
+    "mode": "drag",
+    "answers": [
+     "tương ứng"
+    ],
+    "placeholder": "lý do",
+    "maxLen": 12
+   },
+   {
+    "id": "8",
+    "mode": "drag",
+    "answers": [
+     "đều"
+    ],
+    "placeholder": "loại tam giác",
+    "maxLen": 12
+   },
+   {
+    "id": "9",
+    "mode": "drag",
+    "answers": [
+     "R"
+    ],
+    "placeholder": "biểu thức",
+    "maxLen": 12
+   },
+   {
+    "id": "10",
+    "mode": "drag",
+    "answers": [
+     "\\frac{3R^2\\sqrt{3}}{8}"
+    ],
+    "placeholder": "kết quả",
+    "maxLen": 24
+   }
+  ],
+  "pool": [
+   "AH",
+   "ADO",
+   "A",
+   "c.g.c",
+   "tương ứng",
+   "đều",
+   "R",
+   "\\frac{3R^2\\sqrt{3}}{8}",
+   "AE",
+   "cân",
+   "vuông",
+   "R^2",
+   "so le trong"
+  ]
+ }
+}

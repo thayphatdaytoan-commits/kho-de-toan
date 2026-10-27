@@ -1,0 +1,293 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho Parabol [[IMG:image1.png]] .",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc Parabol. Vẽ Parabol đi qua các điểm đó trên hệ trục tọa độ.",
+     "cum": [
+      "Lập bảng giá trị cho các điểm có hoành độ -2, -1, 0, 1, 2",
+      "Xác định các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong Parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]] trên hệ trục tọa độ.",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -2,
+       "ymax": 6
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ nhỏ hơn hoành độ [[IMG:image4.png]] đơn vị.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(2; 1); (-1; 0.25)",
+     "loi_giai": "Gọi M(x; y). Theo đề bài y = x - 4. Thay vào y = 0.25x^2 ta có 0.25x^2 = x - 4 => 0.25x^2 - x + 4 = 0. Giải phương trình tìm x, y.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho Parabol [[IMG:image1.png]]. Tìm tọa độ điểm [[IMG:image3.png]] thuộc [[IMG:image2.png]] có tung độ nhỏ hơn hoành độ [[IMG:image4.png]] đơn vị.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image5.png]] (1)",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình [[IMG:image6.png]] có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac. Vì delta > 0 nên phương trình có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a, b, c",
+      "Tính delta = b^2 - 4ac",
+      "Chứng minh delta > 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta < 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]] (1). Chứng minh phương trình [[IMG:image6.png]] có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi [[IMG:image7.png]] là hai nghiệm của phương trình [[IMG:image6.png]]. Không giải phương trình, tính giá trị của biểu thức [[IMG:image8.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1",
+     "loi_giai": "Áp dụng định lý Viète: x1+x2 = -b/a, x1x2 = c/a. Biến đổi biểu thức về dạng chứa tổng và tích nghiệm rồi thay số.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]] (1). Gọi [[IMG:image7.png]] là hai nghiệm của phương trình [[IMG:image6.png]]. Không giải phương trình, tính giá trị của biểu thức [[IMG:image8.png]]",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ cột kép biểu diễn số học sinh khối [[IMG:image9.png]] tham gia các câu lạc bộ.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Câu lạc bộ nào có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Cờ vua",
+     "loi_giai": "Tính hiệu số nam và nữ của từng câu lạc bộ từ biểu đồ, so sánh để tìm giá trị lớn nhất.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn số học sinh khối [[IMG:image9.png]] tham gia các câu lạc bộ. Câu lạc bộ nào có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh?",
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "Cờ vua"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Chọn ngẫu nhiên một học sinh khối [[IMG:image9.png]], tính xác suất của các biến cố A và B.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=0.5; P(B)=0.4",
+     "loi_giai": "Tính tổng số học sinh. Tính số học sinh nữ (biến cố A). Tính số học sinh không tham gia bơi lội và khiêu vũ (biến cố B). Chia cho tổng số học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn số học sinh khối [[IMG:image9.png]] tham gia các câu lạc bộ. Chọn ngẫu nhiên một học sinh khối [[IMG:image9.png]], tính xác suất của các biến cố A và B.",
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}} ; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "0.5"
+       },
+       {
+        "id": "2",
+        "answer": "0.4"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_xac_suat",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh là {{1}}",
+       "Số học sinh nữ là {{2}}, xác suất $P(A) = \\dfrac{ {{2}} }{ {{1}} } = {{3}}$",
+       "Số học sinh không tham gia bơi lội và khiêu vũ là {{4}}, xác suất $P(B) = \\dfrac{ {{4}} }{ {{1}} } = {{5}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "100"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "50"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "0.4"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Chợ Dân Sinh cho thuê gian hàng với giá [[IMG:image12.png]] triệu/năm thì có [[IMG:image13.png]] gian được thuê. Cứ giảm [[IMG:image4.png]] triệu thì tăng [[IMG:image14.png]] gian.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức [[IMG:image16.png]] biểu diễn theo [[IMG:image15.png]] doanh thu của chợ Dân Sinh.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "R(x) = x(100 + 20(20-x)/2)",
+     "loi_giai": "Số gian hàng tăng thêm là (20-x)/2 * 20. Tổng số gian hàng là 100 + 10(20-x). Doanh thu R(x) = x * (100 + 10(20-x)).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Chợ Dân Sinh cho thuê gian hàng với giá [[IMG:image12.png]] triệu/năm thì có [[IMG:image13.png]] gian được thuê. Cứ giảm [[IMG:image4.png]] triệu thì tăng [[IMG:image14.png]] gian. Viết biểu thức [[IMG:image16.png]] biểu diễn theo [[IMG:image15.png]] doanh thu của chợ Dân Sinh.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$R(x) = x(100 + 10(20 - x))$",
+       "$R(x) = x(100 - 10(20 - x))$",
+       "$R(x) = x(100 + 20(20 - x))$",
+       "$R(x) = (x - 20)(100 + 10x)$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi giá cho thuê mới là bao nhiêu để lợi nhuận là [[IMG:image17.png]] triệu đồng? Biết phí duy trì là [[IMG:image18.png]] triệu/gian.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "15",
+     "loi_giai": "Lợi nhuận = (Giá thuê - Phí duy trì) * Số gian hàng. Giải phương trình (x-2)*(300-10x) = 1950.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Chợ Dân Sinh cho thuê gian hàng với giá [[IMG:image12.png]] triệu/năm thì có [[IMG:image13.png]] gian được thuê. Cứ giảm [[IMG:image4.png]] triệu thì tăng [[IMG:image14.png]] gian. Hỏi giá cho thuê mới là bao nhiêu để lợi nhuận là [[IMG:image17.png]] triệu đồng? Biết phí duy trì là [[IMG:image18.png]] triệu/gian.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Giá cho thuê mới là:",
+        "dap_an": "15",
+        "don_vi": "triệu đồng"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số lần giảm giá (triệu đồng, $x > 0$)",
+        "Biểu diễn giá cho thuê mới theo $x$: {{1}}",
+        "Biểu diễn số gian hàng được thuê theo $x$: {{2}}",
+        "Phương trình: {{3}}",
+        "Giải phương trình ta tìm được $x =$ {{4}}",
+        "Vậy giá cho thuê mới là {{5}} triệu đồng"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "20-x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "300+10x"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "(20-x-2)*(300+10x)=1950"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "5"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "15"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

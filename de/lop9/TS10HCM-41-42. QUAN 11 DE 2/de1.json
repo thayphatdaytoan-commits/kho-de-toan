@@ -1,0 +1,360 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị.",
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị: (-4, -4), (-2, -1), (0, 0), (2, -1), (4, -4). Vẽ đường cong Parabol đi qua các điểm trên.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -6,
+       "ymax": 2
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = -1/4x^2",
+        "kind": "quad",
+        "a": -0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm thuộc đồ thị sao cho tung độ bằng hai lần hoành độ.",
+     "explanation": "Gọi điểm M(x, y). Theo đề bài y = 2x.\nThay vào phương trình Parabol: 2x = -1/4 * x^2\n<=> 1/4 * x^2 + 2x = 0\n<=> x(1/4 * x + 2) = 0\n=> x = 0 hoặc x = -8.\nVới x = 0 => y = 0. Với x = -8 => y = -16.",
+     "type": "short_answer",
+     "shortCorrect": "(0; 0); (-8; -16)"
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho Parabol $y = -\\frac{1}{4}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình có hai nghiệm phân biệt.",
+     "explanation": "Ta có a=1, c=-3 => ac = -3 < 0. Phương trình luôn có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có a = {{1}}, c = {{2}}"
+        ],
+        "hint": "Xác định hệ số"
+       },
+       {
+        "lines": [
+         "Tính tích ac = {{3}} * {{4}} = {{5}}"
+        ],
+        "hint": "Tính tích ac"
+       },
+       {
+        "lines": [
+         "Vì {{6}} < 0 nên phương trình có hai nghiệm phân biệt"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "hệ số a",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "hệ số c",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số a",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "số c",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "-3"
+        ],
+        "keywords": [
+         "-3"
+        ],
+        "placeholder": "tích ac",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "ac"
+        ],
+        "keywords": [
+         "ac"
+        ],
+        "placeholder": "biểu thức",
+        "maxLen": 5
+       }
+      ],
+      "pool": [],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2$.",
+     "explanation": "Theo Viète: x1 + x2 = 2; x1*x2 = -3.\nA = (x1 + x2)^2 - 2x1x2 = 2^2 - 2(-3) = 4 + 6 = 10.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Viète: $x_1 + x_2 =$ {{1}}, $x_1x_2 =$ {{2}}",
+       "$A = (x_1 + x_2)^2 - 2x_1x_2 = 2^2 - 2($ {{3}} $) = 4 + 6 =$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-3"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "10"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2 - 2x - 3 = 0$ có hai nghiệm $x_1, x_2$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B3.D01",
+   "dang_toan_web": "Định lí Viète và ứng dụng."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tính diện tích S của hình chữ nhật?",
+     "explanation": "Chiều rộng là x - 5. Diện tích S = x(x - 5) = x^2 - 5x.",
+     "type": "multiple_choice",
+     "options": [
+      "A. $S = x(x + 5)$",
+      "C. $S = x^2 + 5$",
+      "B. $S = x(x - 5)$",
+      "D. $S = 2x - 5$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau đó người ta tăng chiều dài thêm 5m và tăng chiều rộng thêm 5m thì diện tích hình chữ nhật tăng gấp đôi. Tính chiều dài của hình chữ nhật đó?",
+     "explanation": "Chiều dài mới: x + 5. Chiều rộng mới: (x - 5) + 5 = x.\nDiện tích mới: x(x + 5) = x^2 + 5x.\nTheo đề: x^2 + 5x = 2(x^2 - 5x)\n<=> x^2 + 5x = 2x^2 - 10x\n<=> x^2 - 15x = 0 => x = 15 (vì x > 5).",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Chiều dài $x$ của hình chữ nhật: {{1}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "15"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $x$ là chiều dài hình chữ nhật (m, $x > 5$)",
+       "Biểu diễn chiều rộng theo $x$: {{1}}",
+       "Biểu diễn diện tích ban đầu theo $x$: {{2}}",
+       "Biểu diễn diện tích sau khi tăng theo $x$: {{3}}",
+       "Phương trình: {{4}}",
+       "Giải phương trình ta tìm được $x =$ {{5}}",
+       "Vậy chiều dài hình chữ nhật là {{6}} m"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x-5"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "x(x-5)"
+       },
+       {
+        "id": "3",
+        "loai": "bt",
+        "dap_an": "(x+5)x"
+       },
+       {
+        "id": "4",
+        "loai": "bt",
+        "dap_an": "x(x+5)=2x(x-5)"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "6",
+        "loai": "so",
+        "dap_an": "15"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 3",
+   "question": "Một sân hình chữ nhật có chiều dài là x (m), và chiều dài hơn chiều rộng là 5m.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."
+  }
+ ],
+ "flags": []
+}

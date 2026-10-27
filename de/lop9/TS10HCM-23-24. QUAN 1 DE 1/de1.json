@@ -1,0 +1,456 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – THCS Quận 1 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 3
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị (P) và đường thẳng $y = x + 4$ trên cùng một hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị cho (P) tại các điểm x = -4, -2, 0, 2, 4. Lập bảng giá trị cho đường thẳng tại x = 0, x = -4. Vẽ đồ thị trên hệ trục tọa độ Oxy.",
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -6,
+       "xmax": 6,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       },
+       {
+        "id": "d1",
+        "label": "y = x + 4",
+        "kind": "linear",
+        "a": 1,
+        "b": 4,
+        "need": 2,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm trên (P) những điểm M sao cho tung độ gấp đôi hoành độ.",
+     "explanation": "Gọi M(x, y) thuộc (P) suy ra y = 1/2 * x^2.\nTheo đề bài y = 2x.\nTa có phương trình: 1/2 * x^2 = 2x.\nGiải phương trình: 1/2 * x^2 - 2x = 0 <=> x(1/2 * x - 2) = 0.\n=> x = 0 hoặc x = 4.\nVới x = 0 => y = 0. Với x = 4 => y = 8.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x_1 =$ {{1}}",
+       "$y_1 =$ {{2}}",
+       "$x_2 =$ {{3}}",
+       "$y_2 =$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "8"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Gọi $M(x;y)$ là điểm thuộc $(P)$ và có tung độ gấp đôi hoành độ, tức $y = 2x$.",
+       "Vì $M$ thuộc $(P)$ nên $y = \\frac{1}{2}x^2$, do đó ta có phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}} hoặc $x =$ {{3}}",
+       "Với $x = 0$ thì $y =$ {{4}}; với $x = 4$ thì $y =$ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "1/2*x^2=2x"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "0"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "8"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 1",
+   "question": "Cho Parabol $y = \\frac{1}{2}x^2$ (P).",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình có hai nghiệm $x_1, x_2$.",
+     "explanation": "Tính delta' = (-2)^2 - 1*1 = 3 > 0. Vậy phương trình có hai nghiệm phân biệt.",
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Tính $\\Delta' = {{1}}^2 - {{2}} \\cdot {{3}}$"
+        ],
+        "hint": "Tính delta phẩy"
+       },
+       {
+        "lines": [
+         "Thay số $\\Delta' = {{4}} - {{5}} = {{6}}$"
+        ],
+        "hint": "Thay số tính toán"
+       },
+       {
+        "lines": [
+         "Vì $\\Delta' {{7}} 0$ nên phương trình có {{8}} nghiệm phân biệt"
+        ],
+        "hint": "Kết luận nghiệm"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "-2"
+        ],
+        "keywords": [
+         "-2"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "4"
+        ],
+        "keywords": [
+         "4"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "6",
+        "mode": "input",
+        "answers": [
+         "3"
+        ],
+        "keywords": [
+         "3"
+        ],
+        "placeholder": "số",
+        "maxLen": 5
+       },
+       {
+        "id": "7",
+        "mode": "input",
+        "answers": [
+         ">"
+        ],
+        "keywords": [
+         "lớn hơn",
+         ">"
+        ],
+        "placeholder": "dấu",
+        "maxLen": 5
+       },
+       {
+        "id": "8",
+        "mode": "input",
+        "answers": [
+         "hai"
+        ],
+        "keywords": [
+         "hai"
+        ],
+        "placeholder": "số lượng",
+        "maxLen": 10
+       }
+      ],
+      "pool": [
+       "-2",
+       "1",
+       "4",
+       "3",
+       ">",
+       "hai"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2$.",
+     "explanation": "Theo Vi-et: x1 + x2 = 4; x1*x2 = 1.\nA = (x1 + x2)^2 - 2*x1*x2 = 4^2 - 2*1 = 16 - 2 = 14.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Vi-et: $x_1 + x_2 = 4$; $x_1x_2 = 1$",
+       "$A = (x_1 + x_2)^2 - 2x_1x_2 = $ {{1}} $^2 - 2 \\cdot$ {{2}}",
+       "$A =$ {{3}} $-$ {{4}} $=$ {{5}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "16"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "14"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $x^2 - 4x + 1 = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức S biểu diễn diện tích của tấm khăn trải bàn cần dùng.",
+     "explanation": "Bán kính khăn là R + x. Diện tích S = pi * (R + x)^2.",
+     "type": "multiple_choice",
+     "options": [
+      "A. $S = \\pi(R+x)$",
+      "C. $S = 2\\pi(R+x)$",
+      "B. $S = \\pi(R+x)^2$",
+      "D. $S = \\pi(R^2+x^2)$"
+     ],
+     "correctAnswer": 2
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết rằng phần dư của chiếc khăn là 20pi. Tính giá trị của x (cho R=3).",
+     "explanation": "Diện tích phần dư = pi(R+x)^2 - pi*R^2 = 20pi.\n(3+x)^2 - 3^2 = 20.\n9 + 6x + x^2 - 9 = 20.\nx^2 + 6x - 20 = 0.\nGiải phương trình bậc hai, chọn nghiệm dương x = 2.",
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x =$ {{1}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Diện tích phần dư là $\\pi(3+x)^2-\\pi\\cdot 3^2$, theo đề bài ta có phương trình: {{1}}",
+       "Giải phương trình ta tìm được $x =$ {{2}} (loại nghiệm âm)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "(3+x)^2-9=20"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       }
+      ]
+     }
+    }
+   ],
+   "bai_goc": "Bài 4",
+   "question": "Một chiếc bàn tròn có bán kính là R. Người ta muốn thiết kế một khăn trải hình tròn có bán kính rộng hơn bán kính của bàn là x.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C8.B4.D04",
+   "dang_toan_web": "Độ dài đường tròn, cung tròn."
+  }
+ ],
+ "flags": []
+}

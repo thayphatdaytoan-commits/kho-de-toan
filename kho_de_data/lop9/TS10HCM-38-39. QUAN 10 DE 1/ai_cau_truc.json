@@ -1,0 +1,271 @@
+{
+ "truong": "THCS Quận 10",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image1.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ Oxy và vẽ đường thẳng đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị cho hàm số [[IMG:image1.png]]",
+      "Xác định các điểm thuộc đồ thị trên mặt phẳng tọa độ",
+      "Vẽ đường thẳng đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua gốc tọa độ và điểm (1, 2)"
+     ],
+     "nguon": "de",
+     "de_day_du": "Vẽ đồ thị [[IMG:image1.png]].",
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -4,
+       "ymax": 4
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "d1",
+        "label": "y = 2x - 1",
+        "kind": "linear",
+        "a": 2,
+        "b": -1,
+        "need": 2,
+        "xs": [
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm điểm [[IMG:image2.png]] thuộc [[IMG:image3.png]] có tung độ gấp đôi hoành độ và khác [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(1; 2); (-1; -2)",
+     "loi_giai": "Gọi điểm M(x; y). Theo đề bài y = 2x. Vì M thuộc y = x^2 nên 2x = x^2. Giải phương trình x^2 - 2x = 0 ta được x = 0 hoặc x = 2. Với x = 0 thì y = 0 (loại vì khác gốc tọa độ). Với x = 2 thì y = 4. Vậy điểm cần tìm là (2; 4).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Tìm điểm [[IMG:image2.png]] thuộc [[IMG:image3.png]] có tung độ gấp đôi hoành độ và khác [[IMG:image4.png]].",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "pt",
+      "dap_cuoi": [
+       {
+        "nhan": "$x_1 =$",
+        "dap_an": "2",
+        "don_vi": ""
+       },
+       {
+        "nhan": "$x_2 =$",
+        "dap_an": "-2",
+        "don_vi": ""
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "so",
+         "dap_an": "2"
+        },
+        {
+         "id": "2",
+         "loai": "so",
+         "dap_an": "-2"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: [[IMG:image5.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta = b^2 - 4ac. Vì a và c trái dấu nên delta > 0, phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a, b, c",
+      "Tính biệt thức delta = b^2 - 4ac",
+      "Lập luận a và c trái dấu suy ra delta > 0",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta và thấy delta = 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image6.png]]",
+     "loai": "tra_loi_ngan",
+     "dap_an": "13",
+     "loi_giai": "Theo Viète: x1+x2 = -b/a = 3; x1x2 = c/a = -2. Biểu thức = (x1+x2)^2 - 2x1x2 = 3^2 - 2(-2) = 9 + 4 = 13.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: [[IMG:image5.png]]. Không giải phương trình, hãy tính giá trị của biểu thức [[IMG:image6.png]]",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Theo Viète: $x_1+x_2 = 3$ và $x_1x_2 = -2$",
+       "Biểu thức $= (x_1+x_2)^2 - 2x_1x_2 = 3^2 - 2($ {{1}} $)$",
+       "$=$ {{2}} $+$ {{3}} $=$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "9"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "13"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một cửa hàng bán sỉ nước giải khát. Giá Pepsi là [[IMG:image10.png]] đồng/thùng. Trung bình xuất [[IMG:image11.png]] thùng/tháng. Cửa hàng giảm giá [[IMG:image12.png]]/thùng và bán thêm được [[IMG:image13.png]] thùng/tháng.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức số tiền thu được trong một tháng sau khi mở rộng kinh doanh theo [[IMG:image14.png]] và [[IMG:image13.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(x-a)(y+b)",
+     "loi_giai": "Số tiền = (Giá cũ - giảm giá) * (Số lượng cũ + số lượng tăng thêm) = (x-a)(y+b).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một cửa hàng bán sỉ nước giải khát. Giá Pepsi là [[IMG:image10.png]] đồng/thùng. Trung bình xuất [[IMG:image11.png]] thùng/tháng. Cửa hàng giảm giá [[IMG:image12.png]]/thùng và bán thêm được [[IMG:image13.png]] thùng/tháng. Viết biểu thức số tiền thu được trong một tháng sau khi mở rộng kinh doanh theo [[IMG:image14.png]] và [[IMG:image13.png]].",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$(x+a)(y-b)$",
+       "$(x-a)(y+b)$",
+       "$(x-a)(y-b)$",
+       "$(x+a)(y+b)$"
+      ],
+      "answer": "B"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Biết sau khi mở rộng kinh doanh tháng đầu tiên cửa hàng đã giảm giá [[IMG:image15.png]] và thu được nhiều hơn tháng chưa mở rộng là [[IMG:image16.png]] triệu đồng. Hãy tính xem cửa hàng đã bán thêm được bao nhiêu thùng Pepsi.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "200",
+     "loi_giai": "Lập phương trình dựa trên chênh lệch doanh thu: (x-a)(y+b) - xy = chênh lệch. Giải phương trình tìm b.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một cửa hàng bán sỉ nước giải khát. Giá Pepsi là [[IMG:image10.png]] đồng/thùng. Trung bình xuất [[IMG:image11.png]] thùng/tháng. Cửa hàng giảm giá [[IMG:image12.png]]/thùng và bán thêm được [[IMG:image13.png]] thùng/tháng. Biết sau khi mở rộng kinh doanh tháng đầu tiên cửa hàng đã giảm giá [[IMG:image15.png]] và thu được nhiều hơn tháng chưa mở rộng là [[IMG:image16.png]] triệu đồng. Hãy tính xem cửa hàng đã bán thêm được bao nhiêu thùng Pepsi.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Số thùng Pepsi bán thêm:",
+        "dap_an": "200",
+        "don_vi": "thùng"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số thùng Pepsi bán thêm (thùng, $x > 0$)",
+        "Biểu diễn doanh thu tháng chưa mở rộng theo $x$: {{1}}",
+        "Biểu diễn doanh thu tháng sau khi mở rộng theo $x$: {{2}}",
+        "Phương trình: {{3}}",
+        "Giải phương trình ta tìm được $x =$ {{4}}",
+        "Vậy số thùng Pepsi bán thêm là {{5}} thùng"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "160000*500"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "(160000-10000)*(500+x)"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "(150000)*(500+x)-160000*500=1500000"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "200"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "200"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)"
+}

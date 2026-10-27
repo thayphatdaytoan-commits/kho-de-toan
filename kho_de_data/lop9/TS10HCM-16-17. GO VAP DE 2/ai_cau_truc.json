@@ -1,0 +1,335 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho parabol $y = \\frac{1}{2}x^2$ (P)",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ (P) trên cùng hệ trục tọa độ.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc (P): x = -4, y = 8; x = -2, y = 2; x = 0, y = 0; x = 2, y = 2; x = 4, y = 8. Vẽ đường cong parabol đi qua các điểm trên.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc (P)",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong parabol đi qua các điểm"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho parabol $y = \\frac{1}{2}x^2$ (P). Vẽ (P) trên cùng hệ trục tọa độ.",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm tọa độ điểm A thuộc (P) có hoành độ bằng -0,5",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(-0.5; 0.125)",
+     "loi_giai": "Thay x = -0,5 vào phương trình (P): y = 1/2 * (-0,5)^2 = 1/2 * 0,25 = 0,125. Vậy A(-0,5; 0,125).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho parabol $y = \\frac{1}{2}x^2$ (P). Tìm tọa độ điểm A thuộc (P) có hoành độ bằng -0,5",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "Tọa độ điểm A là ({{1}}; {{2}})",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "-0.5"
+       },
+       {
+        "id": "2",
+        "answer": "0.125"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình $x^2 - 2x - 3 = 0$ (1)",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình (1) có hai nghiệm phân biệt.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có a = 1, c = -3. Vì a.c = -3 < 0 nên phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định hệ số a, c",
+      "Xét tích a.c",
+      "Kết luận phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta và kết luận"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 3 = 0$ (1). Chứng minh phương trình (1) có hai nghiệm phân biệt.",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi x1, x2 là nghiệm của phương trình (1). Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2$",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Theo Viète: x1 + x2 = 2; x1.x2 = -3. A = (x1 + x2)^2 - 2x1x2 = 2^2 - 2(-3) = 4 + 6 = 10.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình $x^2 - 2x - 3 = 0$ (1). Gọi $x_1, x_2$ là nghiệm của phương trình (1). Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2$",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một chiếc hộp chứa 40 quả bóng cùng hình dạng và kích thước, 5 quả bóng màu đỏ, 12 quả bóng màu xanh và còn lại là bóng màu vàng. Các quả bóng được ghi số lần lượt từ 1 đến 40.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Lấy ngẫu nhiên 1 quả bóng trong hộp. Tính xác suất của biến cố A: “Số xuất hiện trên quả bóng lớn hơn 30”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1/4",
+     "loi_giai": "Số kết quả thuận lợi là 10 (từ 31 đến 40). Xác suất P(A) = 10/40 = 1/4.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một chiếc hộp chứa 40 quả bóng cùng hình dạng và kích thước, 5 quả bóng màu đỏ, 12 quả bóng màu xanh và còn lại là bóng màu vàng. Các quả bóng được ghi số lần lượt từ 1 đến 40. Lấy ngẫu nhiên 1 quả bóng trong hộp. Tính xác suất của biến cố A: “Số xuất hiện trên quả bóng lớn hơn 30”.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Lấy 3 quả bóng và tính xác suất của biến cố B: “Lấy được 3 quả bóng khác màu”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "132/494",
+     "loi_giai": "Số bóng vàng là 40 - 5 - 12 = 23. Số cách chọn 3 quả khác màu là 5 * 12 * 23 = 1380. Tổng số cách chọn 3 quả là C(40,3) = 9880. P(B) = 1380/9880 = 69/494.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Một chiếc hộp chứa 40 quả bóng cùng hình dạng và kích thước, 5 quả bóng màu đỏ, 12 quả bóng màu xanh và còn lại là bóng màu vàng. Các quả bóng được ghi số lần lượt từ 1 đến 40. Lấy 3 quả bóng và tính xác suất của biến cố B: “Lấy được 3 quả bóng khác màu”.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Trong một xưởng sản xuất đồ gia dụng có tổng cộng 900 thùng hàng và mỗi ngày nhân viên sẽ lấy 30 thùng hàng để đi phân phối cho các đại lí.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Gọi T là số thùng hàng còn lại trong kho sau c ngày. Hãy lập hàm số T theo c.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "T = 900 - 30c",
+     "loi_giai": "Số thùng hàng còn lại sau c ngày là T = 900 - 30c.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Trong một xưởng sản xuất đồ gia dụng có tổng cộng 900 thùng hàng và mỗi ngày nhân viên sẽ lấy 30 thùng hàng để đi phân phối cho các đại lí. Gọi T là số thùng hàng còn lại trong kho sau c ngày. Hãy lập hàm số T theo c.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$T = 900 + 30c$",
+       "$T = 30c - 900$",
+       "$T = 900 - 30c$",
+       "$T = 900c - 30$"
+      ],
+      "answer": "C"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Biết rằng mỗi thùng có giá trị 2000000 đồng và mỗi chuyến xe vận chuyển 30 thùng hàng mỗi ngày sẽ tốn 2500000 đồng. Hỏi sau khi bán hết tất cả thùng hàng thì xưởng sẽ thu được bao nhiêu tiền sau khi trừ chi phí vận chuyển?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1725000000",
+     "loi_giai": "Tổng tiền bán: 900 * 2000000 = 1800000000. Số chuyến xe: 900/30 = 30. Tổng chi phí: 30 * 2500000 = 75000000. Tiền thu được: 1800000000 - 75000000 = 1725000000.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Trong một xưởng sản xuất đồ gia dụng có tổng cộng 900 thùng hàng và mỗi ngày nhân viên sẽ lấy 30 thùng hàng để đi phân phối cho các đại lí. Biết rằng mỗi thùng có giá trị 2000000 đồng và mỗi chuyến xe vận chuyển 30 thùng hàng mỗi ngày sẽ tốn 2500000 đồng. Hỏi sau khi bán hết tất cả thùng hàng thì xưởng sẽ thu được bao nhiêu tiền sau khi trừ chi phí vận chuyển?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Thầy giáo soạn một bài kiểm tra trắc nghiệm môn Toán với tổng số điểm là 10 điểm, bao gồm các câu hỏi trắc nghiệm đúng/sai và các câu hỏi trắc nghiệm nhiều lựa chọn, mỗi câu hỏi có số điểm là 0,25 điểm. Ngoài ra, thầy muốn số câu hỏi trắc nghiệm đúng/sai gấp ba lần số câu hỏi trắc nghiệm nhiều lựa chọn. Giả sử học sinh của thầy có thể trả lời một câu hỏi trắc nghiệm đúng/sai trong vòng 1 phút và một câu hỏi trắc nghiệm nhiều lựa chọn trong vòng 1,5 phút thì học sinh có đủ thời gian để hoàn thành bài kiểm tra trong 45 phút không?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Có",
+     "loi_giai": "Tổng số câu: 10 / 0,25 = 40 câu. Gọi x là số câu nhiều lựa chọn, 3x là số câu đúng/sai. x + 3x = 40 => 4x = 40 => x = 10. Số câu đúng/sai là 30. Thời gian: 30 * 1 + 10 * 1,5 = 30 + 15 = 45 phút. Vậy đủ thời gian.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "Có"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "Có một chai đựng nước suối, đường kính đáy 6cm (R=3cm), chiều cao phần nước 9cm, chiều cao phần không chứa nước khi lật ngược là 7cm.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích lượng nước trong chai",
+     "loai": "tra_loi_ngan",
+     "dap_an": "254",
+     "loi_giai": "V_nước = pi * R^2 * h = 3,14 * 3^2 * 9 = 254,34 cm^3 = 254 ml.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Có một chai đựng nước suối, đường kính đáy 6cm (R=3cm), chiều cao phần nước 9cm, chiều cao phần không chứa nước khi lật ngược là 7cm. Tính thể tích lượng nước trong chai.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính thể tích chai",
+     "loai": "tra_loi_ngan",
+     "dap_an": "452",
+     "loi_giai": "V_không_nước = 3,14 * 3^2 * 7 = 197,82 ml. V_chai = 254,34 + 197,82 = 452,16 ml = 452 ml.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Có một chai đựng nước suối, đường kính đáy 6cm (R=3cm), chiều cao phần nước 9cm, chiều cao phần không chứa nước khi lật ngược là 7cm. Tính thể tích chai.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "giu"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Từ điểm A nằm ngoài đường tròn (O; R) vẽ hai tiếp tuyến AB, AC. H là giao điểm OA và BC. BK là đường kính. E là giao điểm AK và (O).",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh: OA ⊥ BC tại H và AH. AO = AE. AK",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "OA là trung trực của BC nên OA vuông góc BC. Xét tam giác ABK vuông tại B, BH là đường cao, hệ thức lượng: AB^2 = AH.AO. Xét tam giác ABE và AKB đồng dạng (g.g) => AB^2 = AE.AK. Suy ra AH.AO = AE.AK.",
+     "cum": [
+      "OA là trung trực của BC",
+      "OA vuông góc BC tại H",
+      "Hệ thức lượng trong tam giác vuông ABK",
+      "Chứng minh tam giác ABE đồng dạng tam giác AKB",
+      "Kết luận AH.AO = AE.AK"
+     ],
+     "nhieu": [
+      "Tam giác ABE bằng tam giác AKB"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O; R) vẽ hai tiếp tuyến AB, AC. H là giao điểm OA và BC. BK là đường kính. E là giao điểm AK và (O). Chứng minh: OA ⊥ BC tại H và AH. AO = AE. AK.",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi I là trung điểm của đoạn AH. Chứng minh: HE vuông góc EI.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Chứng minh tam giác AHE đồng dạng tam giác AKO, suy ra HE/KO = AE/AO. Với I là trung điểm AH, chứng minh tam giác EHI đồng dạng tam giác AKO, từ đó suy ra góc HEI = 90 độ.",
+     "cum": [
+      "Chứng minh tam giác AHE đồng dạng tam giác AKO",
+      "Thiết lập tỉ số cạnh",
+      "Sử dụng tính chất trung điểm I",
+      "Chứng minh tam giác EHI đồng dạng tam giác AKO",
+      "Kết luận HE vuông góc EI"
+     ],
+     "nhieu": [
+      "HE song song EI"
+     ],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O; R) vẽ hai tiếp tuyến AB, AC. H là giao điểm OA và BC. BK là đường kính. E là giao điểm AK và (O). Gọi I là trung điểm của đoạn AH. Chứng minh: HE vuông góc EI.",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Giả sử OA = 2R. Tính diện tích tam giác ABC theo R",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3*sqrt(3)/2 * R^2",
+     "loi_giai": "Tam giác ABO vuông tại B, cos(BAO) = R/2R = 1/2 => góc BAO = 60 độ. Tam giác ABC đều cạnh AB = R*sqrt(3). Diện tích = (cạnh^2 * sqrt(3))/4 = (3R^2 * sqrt(3))/4.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Từ điểm A nằm ngoài đường tròn (O; R) vẽ hai tiếp tuyến AB, AC. H là giao điểm OA và BC. BK là đường kính. E là giao điểm AK và (O). Giả sử OA = 2R. Tính diện tích tam giác ABC theo R.",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$\\frac{3\\sqrt{3}}{4}R^2$",
+       "$\\frac{3\\sqrt{3}}{2}R^2$",
+       "$\\frac{\\sqrt{3}}{2}R^2$",
+       "$3\\sqrt{3}R^2$"
+      ],
+      "answer": "B"
+     },
+     "ve_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}

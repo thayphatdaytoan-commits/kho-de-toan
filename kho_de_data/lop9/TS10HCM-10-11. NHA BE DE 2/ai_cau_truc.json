@@ -1,0 +1,509 @@
+{
+ "truong": "PHÒNG GD&ĐT HUYỆN NHÀ BÈ",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho hàm số $y = \\frac{1}{2}x^2$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị (P) trên hệ trục tọa độ Oxy.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "đồ thị",
+     "loi_giai": "Bảng giá trị:\n$x = -2 \\Rightarrow y = 2$\n$x = -1 \\Rightarrow y = 0.5$\n$x = 0 \\Rightarrow y = 0$\n$x = 1 \\Rightarrow y = 0.5$\n$x = 2 \\Rightarrow y = 2$\nĐồ thị hàm số là một đường Parabol đi qua các điểm trên.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = \\frac{1}{2}x^2$. Vẽ đồ thị (P) trên hệ trục tọa độ Oxy.",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$y = \\frac{1}{2}x^2$",
+       "$y = 2x^2$",
+       "$y = x^2$",
+       "$y = \\frac{1}{4}x^2$"
+      ],
+      "answer": "A"
+     },
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 6
+      },
+      "step": 0.5,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm những điểm thuộc (P) sao cho tung độ gấp 4 lần hoành độ.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "(0; 0); (8; 32)",
+     "loi_giai": "Gọi $M(x_0; y_0)$ là điểm thuộc (P).\nTheo đề bài: $y_0 = 4x_0$.\nMặt khác $M \\in (P) \\Rightarrow y_0 = \\frac{1}{2}x_0^2$.\nTa có phương trình: $\\frac{1}{2}x_0^2 = 4x_0 \\Leftrightarrow x_0^2 - 8x_0 = 0 \\Leftrightarrow x_0(x_0 - 8) = 0$.\nTrường hợp 1: $x_0 = 0 \\Rightarrow y_0 = 0 \\Rightarrow M(0; 0)$.\nTrường hợp 2: $x_0 = 8 \\Rightarrow y_0 = 32 \\Rightarrow M(8; 32)$.\nVậy các điểm cần tìm là (0; 0) và (8; 32).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho hàm số $y = \\frac{1}{2}x^2$. Tìm những điểm thuộc (P) sao cho tung độ gấp 4 lần hoành độ.",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình: $x^2 - 4x + 3 = 0$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình luôn có 2 nghiệm phân biệt $x_1, x_2$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Xét phương trình $x^2 - 4x + 3 = 0$ có $a = 1, b = -4, c = 3$.\nTa có $\\Delta' = (-2)^2 - 1 \\cdot 3 = 4 - 3 = 1$.\nVì $\\Delta' > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.",
+     "cum": [
+      "Xét phương trình $x^2 - 4x + 3 = 0$ có $a = 1, b' = -2, c = 3$",
+      "Tính biệt thức $\\Delta' = (-2)^2 - 1 \\cdot 3 = 1$",
+      "Vì $\\Delta' = 1 > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$"
+     ],
+     "nhieu": [
+      "Vì $\\Delta' = 0$ nên phương trình có nghiệm kép"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 4x + 3 = 0$. Chứng minh phương trình luôn có 2 nghiệm phân biệt $x_1, x_2$."
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "7",
+     "loi_giai": "Theo hệ thức Vi-ét, ta có: $x_1 + x_2 = 4$ và $x_1x_2 = 3$.\nBiểu thức $A = x_1^2 + x_2^2 - x_1x_2 = (x_1 + x_2)^2 - 2x_1x_2 - x_1x_2 = (x_1 + x_2)^2 - 3x_1x_2$.\nThay số: $A = 4^2 - 3 \\cdot 3 = 16 - 9 = 7$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình: $x^2 - 4x + 3 = 0$ có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức: $A = x_1^2 + x_2^2 - x_1x_2$.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay số: $A = 4^2 - 3 \\cdot 3 = {{1}} - {{2}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "16"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "9"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Biểu đồ cột kép biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. [[IMG:image8.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính xác suất của biến cố A: “Học sinh được chọn là nam”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.48",
+     "loi_giai": "Tổng số học sinh tham gia là: $(10+12) + (15+13) + (12+15) + (11+12) = 100$ học sinh.\nSố học sinh nam là: $10 + 15 + 12 + 11 = 48$ học sinh.\nXác suất biến cố A là: $P(A) = 48/100 = 0.48$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. [[IMG:image8.png]] Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất của biến cố A: “Học sinh được chọn là nam”.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh: {{1}}",
+       "Số học sinh nam: {{2}}",
+       "Xác suất: $P(A) = {{2}} / {{1}} = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "100"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "48"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "0.48"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của biến cố B: “Học sinh được chọn là nữ và không thuộc khối 9”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "0.4",
+     "loi_giai": "Số học sinh nữ không thuộc khối 9 (khối 6, 7, 8) là: $12 + 13 + 15 = 40$ học sinh.\nXác suất biến cố B là: $P(B) = 40/100 = 0.4$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Biểu đồ cột kép biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở. [[IMG:image8.png]] Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất của biến cố B: “Học sinh được chọn là nữ và không thuộc khối 9”.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh nữ không thuộc khối 9: {{1}}",
+       "Xác suất: $P(B) = {{1}} / 100 = {{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0.4"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Bác Năm có 1 ao nuôi cá hình chữ nhật. Bác định làm lối đi theo chiều dài có bề rộng lối đi là $x$ (m) và lối đi theo chiều rộng có bề rộng lối đi là $y$ (m). Biết kích thước ban đầu là $100m \\times 40m$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Viết biểu thức thu gọn theo $x$ và $y$ của diện tích cái ao (phần tô đậm).",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4000 - 200x - 80y + 4xy",
+     "loi_giai": "Chiều dài phần ao còn lại là: $100 - 2y$ (m).\nChiều rộng phần ao còn lại là: $40 - 2x$ (m).\nDiện tích cái ao là: $S = (100 - 2y)(40 - 2x) = 4000 - 200x - 80y + 4xy$ ($m^2$).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bác Năm có 1 ao nuôi cá hình chữ nhật kích thước $100m \\times 40m$. Bác định làm lối đi theo chiều dài có bề rộng lối đi là $x$ (m) và lối đi theo chiều rộng có bề rộng lối đi là $y$ (m). Viết biểu thức thu gọn theo $x$ và $y$ của diện tích cái ao (phần tô đậm).",
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$4000 - 200x - 80y + 4xy$",
+       "$4000 - 100x - 40y + 2xy$",
+       "$4000 - 200x - 80y + 2xy$",
+       "$4000 - 100x - 80y + 4xy$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Tính bề rộng lối đi theo chiều rộng biết $x = 1m$ và diện tích ao cá là $3686 m^2$.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "1.5",
+     "loi_giai": "Thay $x = 1$ và $S = 3686$ vào biểu thức: $(100 - 2y)(40 - 2 \\cdot 1) = 3686$.\n$\\Leftrightarrow (100 - 2y) \\cdot 38 = 3686 \\Leftrightarrow 100 - 2y = 97 \\Leftrightarrow 2y = 3 \\Leftrightarrow y = 1.5$.\nVậy bề rộng lối đi theo chiều rộng là $1.5m$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Bác Năm có 1 ao nuôi cá hình chữ nhật kích thước $100m \\times 40m$. Bác định làm lối đi theo chiều dài có bề rộng lối đi là $x$ (m) và lối đi theo chiều rộng có bề rộng lối đi là $y$ (m). Biết $x = 1m$ và diện tích ao cá là $3686 m^2$, tính bề rộng lối đi theo chiều rộng $y$.",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$(100 - 2y) \\cdot 38 = 3686 \\Rightarrow 100 - 2y = {{1}}$",
+       "$2y = {{2}} \\Rightarrow y = {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "97"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1.5"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Để làm một cái gàu tát nước có dạng hình nón, bác Năm dùng một tấm tôn hình $\\triangle MON$ cân tại $O$ có cạnh bên $OM = 6dm$, góc $\\widehat{MON} = 120^\\circ$. Bác xác định trung điểm $H$ của $MN$, vẽ cung tròn tâm $O$ bán kính $OH$ cắt các cạnh $OM, ON$ lần lượt tại $A, B$. Sau đó bác cắt bỏ phần gạch sọc, cuộn phần còn lại của tấm tôn sao cho mép $OA$ trùng khít với mép $OB$ tạo thành chiếc gàu. [[IMG:image33.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính diện tích xung quanh của chiếc gàu? (kết quả làm tròn 1 chữ số thập phân)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "9.4",
+     "loi_giai": "Trong $\\triangle MON$ cân tại $O$, $OH$ là trung tuyến nên cũng là phân giác $\\Rightarrow \\widehat{MOH} = 60^\\circ$.\nXét $\\triangle MOH$ vuông tại $H$: $OH = OM \\cdot \\cos 60^\\circ = 6 \\cdot 0.5 = 3$ (dm).\nĐường sinh của gàu nón là $l = OH = 3$ (dm).\nĐộ dài cung $AB$ là: $L = \\frac{120}{360} \\cdot 2\\pi \\cdot 3 = 2\\pi$ (dm).\nChu vi đáy nón $C = 2\\pi r = L = 2\\pi \\Rightarrow r = 1$ (dm).\nDiện tích xung quanh: $S_{xq} = \\pi rl = \\pi \\cdot 1 \\cdot 3 = 3\\pi \\approx 9.4$ ($dm^2$).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Để làm một cái gàu tát nước có dạng hình nón, bác Năm dùng một tấm tôn hình $\\triangle MON$ cân tại $O$ có cạnh bên $OM = 6dm$, góc $\\widehat{MON} = 120^\\circ$. Bác xác định trung điểm $H$ của $MN$, vẽ cung tròn tâm $O$ bán kính $OH$ cắt các cạnh $OM, ON$ lần lượt tại $A, B$. Sau đó bác cắt bỏ phần gạch sọc, cuộn phần còn lại của tấm tôn sao cho mép $OA$ trùng khít với mép $OB$ tạo thành chiếc gàu. [[IMG:image33.png]] Tính diện tích xung quanh của chiếc gàu? (kết quả làm tròn 1 chữ số thập phân)",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$OH = 6 \\cdot 0.5 = {{1}}$",
+       "$r = {{2}}$",
+       "$S_{xq} = \\pi \\cdot {{2}} \\cdot {{1}} \\approx {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "9.4"
+       }
+      ]
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi khi múc đầy thì chiếc gàu chứa được bao nhiêu lít nước? (kết quả làm tròn đến hàng đơn vị, lấy $\\pi \\approx 3.14$)",
+     "loai": "tra_loi_ngan",
+     "dap_an": "3",
+     "loi_giai": "Chiều cao hình nón: $h = \\sqrt{l^2 - r^2} = \\sqrt{3^2 - 1^2} = \\sqrt{8} \\approx 2.828$ (dm).\nThể tích chiếc gàu: $V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3} \\cdot 3.14 \\cdot 1^2 \\cdot 2.828 \\approx 2.96$ ($dm^3$).\nVì $1 dm^3 = 1$ lít nên chiếc gàu chứa được khoảng 3 lít nước.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Để làm một cái gàu tát nước có dạng hình nón, bác Năm dùng một tấm tôn hình $\\triangle MON$ cân tại $O$ có cạnh bên $OM = 6dm$, góc $\\widehat{MON} = 120^\\circ$. Bác xác định trung điểm $H$ của $MN$, vẽ cung tròn tâm $O$ bán kính $OH$ cắt các cạnh $OM, ON$ lần lượt tại $A, B$. Sau đó bác cắt bỏ phần gạch sọc, cuộn phần còn lại của tấm tôn sao cho mép $OA$ trùng khít với mép $OB$ tạo thành chiếc gàu. [[IMG:image33.png]] Hỏi khi múc đầy thì chiếc gàu chứa được bao nhiêu lít nước? (kết quả làm tròn đến hàng đơn vị, lấy $\\pi \\approx 3.14$)",
+     "dinh_dang": {
+      "dang": "giu"
+     },
+     "ve_xet": true,
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "$h = \\sqrt{3^2 - 1^2} = \\sqrt{ {{1}} } \\approx {{2}}$",
+       "$V = \\frac{1}{3} \\cdot 3.14 \\cdot 1^2 \\cdot {{2}} \\approx {{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2.828"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Vào buổi lễ tốt nghiệp của lớp 9A, cô giáo chủ nhiệm tặng mỗi bạn nam 2 cây viết và 1 quyển tập, còn bạn nữ thì được 3 cây viết và 2 quyển tập. Cô đến cửa hàng mua tổng cộng 124 cây viết và 75 quyển tập. Hỏi lớp 9A có bao nhiêu học sinh?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "49",
+     "loi_giai": "Gọi $x, y$ lần lượt là số học sinh nam và nữ của lớp 9A ($x, y \\in \\mathbb{N}^*$).\nSố cây viết: $2x + 3y = 124$.\nSố quyển tập: $x + 2y = 75$.\nGiải hệ phương trình ta được: $x = 23, y = 26$.\nTổng số học sinh lớp 9A là: $23 + 26 = 49$ học sinh.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Tổng số học sinh lớp 9A:",
+        "dap_an": "49",
+        "don_vi": "học sinh"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là số học sinh nam, $y$ là số học sinh nữ (đơn vị: học sinh, điều kiện $x, y \\in \\mathbb{N}^*$)",
+        "Hệ phương trình: {{1}} ; {{2}}",
+        "Giải hệ ta được $x =$ {{3}}, $y =$ {{4}}",
+        "Vậy tổng số học sinh lớp 9A là {{5}} học sinh"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "2x+3y=124"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "x+2y=75"
+        },
+        {
+         "id": "3",
+         "loai": "so",
+         "dap_an": "23"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "26"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "49"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho $\\triangle ABC$ có ba góc nhọn với $\\widehat{ABC} = 60^\\circ$, $BC = a$ và $AB < AC$. Gọi $(O)$ là đường tròn đường kính $BC$ ($O$ là trung điểm $BC$). Đường tròn $(O)$ cắt các cạnh $AB$ và $AC$ lần lượt tại $D$ và $E$ ($D$ khác $B$, $E$ khác $C$), $BE$ cắt $CD$ tại $H$.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác ADHE nội tiếp và xác định tâm I của đường tròn ngoại tiếp tứ giác đó.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Ta có $\\widehat{BDC} = 90^\\circ$ và $\\widehat{BEC} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn $(O)$).\n$\\Rightarrow \\widehat{ADH} = 90^\\circ$ và $\\widehat{AEH} = 90^\\circ$.\nXét tứ giác $ADHE$ có $\\widehat{ADH} + \\widehat{AEH} = 90^\\circ + 90^\\circ = 180^\\circ$.\nVậy tứ giác $ADHE$ nội tiếp đường tròn tâm $I$ là trung điểm của $AH$.",
+     "cum": [
+      "Ta có $\\widehat{BDC} = 90^\\circ$ và $\\widehat{BEC} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn)",
+      "Suy ra $CD \\perp AB$ tại $D$ và $BE \\perp AC$ tại $E$",
+      "Xét tứ giác $ADHE$ có $\\widehat{ADH} = 90^\\circ$ và $\\widehat{AEH} = 90^\\circ$",
+      "Tổng hai góc đối $\\widehat{ADH} + \\widehat{AEH} = 180^\\circ$ nên tứ giác $ADHE$ nội tiếp",
+      "Tâm $I$ của đường tròn ngoại tiếp tứ giác là trung điểm của đoạn thẳng $AH$"
+     ],
+     "nhieu": [
+      "Tâm $I$ của đường tròn ngoại tiếp tứ giác là trung điểm của đoạn thẳng $BC$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn với $\\widehat{ABC} = 60^\\circ$, $BC = a$ và $AB < AC$. Gọi $(O)$ là đường tròn đường kính $BC$ ($O$ là trung điểm $BC$). Đường tròn $(O)$ cắt các cạnh $AB$ và $AC$ lần lượt tại $D$ và $E$ ($D$ khác $B$, $E$ khác $C$), $BE$ cắt $CD$ tại $H$. Chứng minh tứ giác ADHE nội tiếp và xác định tâm I của đường tròn ngoại tiếp tứ giác đó."
+    },
+    {
+     "nhan": "b",
+     "de": "Tiếp tuyến tại C của đường tròn (O) cắt đường thẳng DI tại M. Chứng minh: $MC^2 = MI \\cdot MD$ và $MC \\perp OC$.",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Vì $MC$ là tiếp tuyến của $(O)$ tại $C$ nên $MC \\perp OC$.\nTa có $\\triangle ADH$ nội tiếp đường tròn tâm $I$ nên $ID = IA = IH$.\n$\\Rightarrow \\triangle IDA$ cân tại $I \\Rightarrow \\widehat{IDA} = \\widehat{IAD}$.\nMặt khác, tứ giác $BCED$ nội tiếp $(O)$ nên $\\widehat{ADE} = \\widehat{ACB}$.\nQua các bước chứng minh hình học, ta có $\\triangle MIC \\sim \\triangle MCD$ (g.g).\n$\\Rightarrow \\frac{MC}{MD} = \\frac{MI}{MC} \\Rightarrow MC^2 = MI \\cdot MD$.",
+     "cum": [
+      "Vì $MC$ là tiếp tuyến của $(O)$ tại $C$ nên $MC \\perp OC$ (tính chất tiếp tuyến)",
+      "Chứng minh được $\\widehat{MCI} = \\widehat{MDC}$ dựa trên tính chất góc tạo bởi tiếp tuyến và dây cung",
+      "Xét $\\triangle MIC$ và $\\triangle MCD$ có góc $M$ chung và $\\widehat{MCI} = \\widehat{MDC}$",
+      "Suy ra $\\triangle MIC \\sim \\triangle MCD$ (g.g)",
+      "Từ tỉ số đồng dạng $\\frac{MC}{MD} = \\frac{MI}{MC}$ suy ra $MC^2 = MI \\cdot MD$"
+     ],
+     "nhieu": [
+      "Chứng minh $\\triangle MIC$ cân tại $M$ nên $MC = MI$"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn với $\\widehat{ABC} = 60^\\circ$, $BC = a$ và $AB < AC$. Gọi $(O)$ là đường tròn đường kính $BC$ ($O$ là trung điểm $BC$). Đường tròn $(O)$ cắt các cạnh $AB$ và $AC$ lần lượt tại $D$ và $E$ ($D$ khác $B$, $E$ khác $C$), $BE$ cắt $CD$ tại $H$. Gọi I là tâm đường tròn ngoại tiếp tứ giác ADHE. Tiếp tuyến tại C của đường tròn (O) cắt đường thẳng DI tại M. Chứng minh: $MC^2 = MI \\cdot MD$ và $MC \\perp OC$."
+    },
+    {
+     "nhan": "c",
+     "de": "Gọi F là giao điểm của AH và BC. Kẻ HK vuông góc DF tại K. Cho $BC = a, \\widehat{A} = 60^\\circ$, tính độ dài HK theo a.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "a\\sqrt{3}/4",
+     "loi_giai": "Trong $\\triangle BDC$ vuông tại $D$: $BD = BC \\cdot \\cos 60^\\circ = a/2$.\nTrong $\\triangle ABD$ vuông tại $D$: $AD = BD \\cdot \\cot 60^\\circ = (a/2) \\cdot (1/\\sqrt{3}) = a/(2\\sqrt{3})$.\nSử dụng các hệ thức lượng và tính chất trực tâm $H$, ta tính được $HK = \\frac{a\\sqrt{3}}{4}$.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "ai",
+     "de_day_du": "Cho $\\triangle ABC$ có ba góc nhọn với $\\widehat{ABC} = 60^\\circ$, $BC = a$ và $AB < AC$. Gọi $(O)$ là đường tròn đường kính $BC$ ($O$ là trung điểm $BC$). Đường tròn $(O)$ cắt các cạnh $AB$ và $AC$ lần lượt tại $D$ và $E$ ($D$ khác $B$, $E$ khác $C$), $BE$ cắt $CD$ tại $H$. Gọi F là giao điểm của AH và BC. Kẻ HK vuông góc DF tại K. Cho $\\widehat{A} = 60^\\circ$, tính độ dài HK theo a.",
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "a\\sqrt{3}/4"
+     },
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3-flash-preview)"
+}

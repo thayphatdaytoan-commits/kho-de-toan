@@ -1,0 +1,1122 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Thi thử tuyển sinh 10 TPHCM 2025-2026 – 10. NHA BE DE 1 – năm học 2025-2026",
+  "exam_type": "entrance_10"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 6
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Bảng giá trị:\n$x$: -4; -2; 0; 2; 4\n$y = -\\frac{1}{2}x^2$: -8; -2; 0; -2; -8\nVẽ đồ thị $(P)$ đi qua các điểm $(-4; -8)$, $(-2; -2)$, $(0; 0)$, $(2; -2)$, $(4; -8)$.",
+     "points": 0.75,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = -0.5x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Xác định tọa độ của điểm $A$. Biết điểm $A$ nằm trên đồ thị $(P)$ có hoành độ bằng $2$.",
+     "explanation": "Thay $x = 2$ vào $y = -\\frac{1}{2}x^2$ ta được:\n$y = -\\frac{1}{2} \\cdot 2^2 = -2$\nVậy tọa độ của điểm $A$ là $A(2; -2)$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $x = 2$ vào $y = -\\frac{1}{2}x^2$: $y = -\\frac{1}{2}\\cdot$ {{1}} $^2$",
+       "$y = -\\frac{1}{2}\\cdot$ {{2}} $=$ {{3}}",
+       "Vậy $A($ {{4}} $;$ {{5}} $)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y = -\\frac{1}{2}x^2$ có đồ thị là Parabol $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_b_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên luôn có hai nghiệm phân biệt.",
+     "explanation": "Ta có: $\\Delta' = [-(m+1)]^2 - 2m = m^2 + 2m + 1 - 2m = m^2 + 1$.\nVì $m^2 + 1 > 0$ với mọi $m$ nên phương trình luôn có hai nghiệm phân biệt.",
+     "points": 0.5,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có: $\\Delta' = (m+1)^2 - {{1}}$"
+        ],
+        "hint": "Biến đổi vế trái"
+       },
+       {
+        "lines": [
+         "$= m^2 + 2m + 1 - {{2}} = m^2 + {{3}}$"
+        ],
+        "hint": "Rút gọn biểu thức"
+       },
+       {
+        "lines": [
+         "Vì $m^2 + {{4}} > 0$ với mọi $m$"
+        ],
+        "hint": "Đánh giá biểu thức"
+       },
+       {
+        "lines": [
+         "Nên phương trình luôn có hai nghiệm {{5}}"
+        ],
+        "hint": "Kết luận"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "input",
+        "answers": [
+         "2m"
+        ],
+        "keywords": [
+         "2m"
+        ],
+        "placeholder": "biểu thức",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "input",
+        "answers": [
+         "2m"
+        ],
+        "keywords": [
+         "2m"
+        ],
+        "placeholder": "biểu thức",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "input",
+        "answers": [
+         "1"
+        ],
+        "keywords": [
+         "1"
+        ],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "input",
+        "answers": [
+         "phân biệt"
+        ],
+        "keywords": [
+         "phân biệt"
+        ],
+        "placeholder": "tính chất",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "2m",
+       "1",
+       "phân biệt",
+       "nghiệm kép",
+       "0",
+       "m"
+      ],
+      "ordered": false
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2 - x_1 x_2$.",
+     "explanation": "Vì phương trình có hai nghiệm phân biệt, theo định lý Viète ta có:\n$\\begin{cases} x_1 + x_2 = 2(m + 1) \\\\ x_1 x_2 = 2m \\end{cases}$\nTa có: $A = x_1^2 + x_2^2 - x_1 x_2 = (x_1 + x_2)^2 - 3x_1 x_2$\n$= [2(m + 1)]^2 - 3 \\cdot 2m = 4(m^2 + 2m + 1) - 6m = 4m^2 + 2m + 4$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$4m^2 + 2m - 4$",
+      "$4m^2 + 2m + 4$",
+      "$4m^2 - 2m + 4$",
+      "$2m^2 + 4m + 2$"
+     ],
+     "correctAnswer": 1
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2 - 2(m + 1)x + 2m = 0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": true,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C6.B2.D01",
+   "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Trong các môn thể thao, học sinh nam thích môn thể thao nào nhất?",
+     "explanation": "Trong các môn thể thao, học sinh nam thích môn bóng đá nhất (12 học sinh).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "Bóng đá"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn ngẫu nhiên một học sinh tham gia thi đấu thể thao của trường, tính xác suất của mỗi biến cố sau:\n$A$: \"Học sinh được chọn là nam\",\n$B$: \"Học sinh được chọn thích bóng rổ\",\n$C$: \"Học sinh được chọn là nữ và không thích bơi\".",
+     "explanation": "Tổng số học sinh của lớp 9A là: $(12 + 6 + 5) + (8 + 4 + 5) = 40$ (học sinh).\n- Số kết quả thuận lợi cho biến cố $A$ là $12 + 6 + 5 = 23$ (học sinh).\nXác suất của biến cố $A$ là: $P(A) = \\frac{23}{40}$.\n- Số kết quả thuận lợi cho biến cố $B$ là $6 + 4 = 10$ (học sinh).\nXác suất của biến cố $B$ là: $P(B) = \\frac{10}{40} = \\frac{1}{4}$.\n- Số kết quả thuận lợi cho biến cố $C$ là $8 + 4 = 12$ (học sinh).\nXác suất của biến cố $C$ là: $P(C) = \\frac{12}{40} = \\frac{3}{10}$.",
+     "points": 1,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số học sinh: $(12+6+5)+(8+4+5)=$ {{1}}",
+       "$P(A)=\\frac{12+6+5}{40}=\\frac{ {{2}} }{40}$",
+       "$P(B)=\\frac{6+4}{40}=\\frac{10}{40}=$ {{3}}",
+       "$P(C)=\\frac{8+4}{40}=\\frac{12}{40}=$ {{4}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "40"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "23"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "1/4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "3/10"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Biểu đồ cột kép ở hình dưới biểu diễn số học sinh nam và số học sinh nữ của lớp 9A có sở thích chơi một số môn thể thao: bóng đá, bóng rổ, bơi. Biết rằng mỗi học sinh chỉ nêu một môn thể thao yêu thích nhất.\n[[IMG:image6.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C7.B2.D01",
+   "dang_toan_web": "Biểu đồ tần số, biểu đồ tần số tương đối."
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    "tn_y_a_tu_tu_luan_can_xac_nhan"
+   ],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy thiết lập công thức biểu diễn số tiền $y$ phải trả khi gọi trên 6 giây (với $x$ là số giây gọi tính từ giây thứ 6 trở đi).",
+     "explanation": "Công thức biểu diễn số tiền phải trả khi gọi trên 6 giây là: $y = 118 + 19,5x$ (đồng).",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$y = 118 + 19.5x$",
+      "$y = 118 - 19.5x$",
+      "$y = 137.5x$",
+      "$y = 19.5 + 118x$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hỏi bạn Khang gọi bao lâu mà bạn phải trả 2419 đồng.",
+     "explanation": "Thay $y = 2419$ vào hàm số $y = 118 + 19,5x$ ta được:\n$2419 = 118 + 19,5x \\Rightarrow 19,5x = 2301 \\Rightarrow x = 118$.\nTổng thời gian bạn Khang đã gọi là: $118 + 6 = 124$ (giây).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Tổng thời gian bạn Khang đã gọi: {{1}} giây"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "124"
+       }
+      ]
+     },
+     "mau_luyen": {
+      "mau": "lap_pt",
+      "kieu": "dong",
+      "dong": [
+       "Giải phương trình ta tìm được x = {{1}}",
+       "Vậy tổng thời gian bạn Khang đã gọi là {{2}} giây"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "118"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "124"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 4",
+   "question": "Bảng cước phí dịch vụ Mobicard (đã bao gồm thuế VAT) quy định rằng: nếu gọi 6 giây đầu thì tính cước 118 đồng, còn kể từ sau giây thứ 6 trở đi họ tính thêm 19,5 đồng cho mỗi giây.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C2.B3.D01",
+   "dang_toan_web": "Các dạng toán khác"
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích nước trong bình. (kết quả làm tròn đến hàng phần trăm, đơn vị $\\text{cm}^3$)",
+     "explanation": "Bán kính đáy của hình trụ là: $r = 8 : 2 = 4\\text{ (cm)}$.\nThể tích nước có trong bình là:\n$V = \\pi \\cdot 4^2 \\cdot 2 = 32\\pi \\approx 100,53\\text{ (cm}^3\\text{)}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Bán kính đáy: $r=8:2=$ {{1}} (cm)",
+       "$V=\\pi\\cdot$ {{2}} $^2\\cdot 2=32\\pi\\approx$ {{3}} (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "100.53"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nếu dùng bình nước này đựng đầy nước rồi rót đầy vào các ly hình lập phương có cạnh $4\\text{ cm}$ thì rót tối đa đầy được bao nhiêu ly? (kết quả làm tròn đến hàng đơn vị). Biết thể tích hình lập phương là $V = a^3$ với $a$ là độ dài cạnh hình lập phương.",
+     "explanation": "Chiều cao bình nước là: $h = 2 + 6 = 8\\text{ (cm)}$.\nThể tích của bình nước là: $V_{\\text{bình}} = \\pi \\cdot 4^2 \\cdot 8 = 128\\pi \\approx 402,12\\text{ (cm}^3\\text{)}$.\nThể tích ly nước hình lập phương là: $V_{\\text{ly}} = 4^3 = 64\\text{ (cm}^3\\text{)}$.\nSố ly nước có thể rót đầy nước từ bình là: $402,12 : 64 \\approx 6,28$ (ly).\nVậy rót tối đa đầy được khoảng 6 ly.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Chiều cao bình: $h=2+6=$ {{1}} (cm)",
+       "$V_{\\text{bình}}=\\pi\\cdot 4^2\\cdot 8=128\\pi\\approx$ {{2}} (cm$^3$)",
+       "$V_{\\text{ly}}=4^3=$ {{3}} (cm$^3$)",
+       "$402,12:64\\approx$ {{4}} (ly), vậy tối đa đầy được {{5}} ly"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "402.12"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "64"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "6.28"
+       },
+       {
+        "id": "5",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ],
+   "points": 1,
+   "bai_goc": "Bài 5",
+   "question": "Hình bên miêu tả một chiếc bình có chứa nước khi được đặt thẳng đứng và khi bị úp ngược, phần chứa nước là phần gạch chéo, các số đo được cho như hình vẽ. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ với $r, h$ lần lượt là bán kính và chiều cao của hình trụ.\n[[IMG:image14.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích."
+  },
+  {
+   "section": 7,
+   "n": 1,
+   "type": "form_mau",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "mau_spec": {
+    "mau": "dap_so",
+    "kieu": "dong",
+    "dong": [
+     "Chiều dài quãng đường AB: {{1}} km",
+     "Chiều dài quãng đường BC: {{2}} km"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "so",
+      "dap_an": "10"
+     },
+     {
+      "id": "2",
+      "loai": "so",
+      "dap_an": "3"
+     }
+    ]
+   },
+   "mau_luyen": {
+    "mau": "lap_pt",
+    "kieu": "dong",
+    "dong": [
+     "Gọi x là độ dài quãng đường AB, y là độ dài quãng đường BC (km, x, y > 0)",
+     "Hệ phương trình: {{1}} ; {{2}}",
+     "Giải hệ ta được x = {{3}}, y = {{4}}",
+     "Vậy độ dài quãng đường AB và BC lần lượt là {{3}} km và {{4}} km"
+    ],
+    "o": [
+     {
+      "id": "1",
+      "loai": "bt",
+      "dap_an": "x/12+y/6=1.25"
+     },
+     {
+      "id": "2",
+      "loai": "bt",
+      "dap_an": "x/10+y/8=1.5"
+     },
+     {
+      "id": "3",
+      "loai": "so",
+      "dap_an": "10"
+     },
+     {
+      "id": "4",
+      "loai": "so",
+      "dap_an": "3"
+     }
+    ]
+   },
+   "bai_goc": "Bài 6",
+   "points": 1,
+   "question": "Một người đi xe đạp từ $A$ đến $B$ với vận tốc $12\\text{ km/h}$ và đi tiếp từ $B$ đến $C$ với vận tốc $6\\text{ km/h}$, hết 75 phút. Khi về người đó đi từ $C$ đến $B$ với vận tốc $8\\text{ km/h}$ và từ $B$ đến $A$ với vận tốc $10\\text{ km/h}$ hết 1 giờ 30 phút. Tính chiều dài quãng đường $AB$ và $BC$.",
+   "explanation": "Gọi $x, y$ (km) lần lượt là độ dài quãng đường $AB$ và $BC$ ($x, y > 0$).\nĐổi $75\\text{ \\text{phút}} = 1,25\\text{ \\text{giờ}}$; $1\\text{ \\text{giờ} } 30\\text{ \\text{phút}} = 1,5\\text{ \\text{giờ}}$.\nVì người đó đi từ $A$ đến $B$ với vận tốc $12\\text{ km/h}$ và từ $B$ đến $C$ với vận tốc $6\\text{ km/h}$ hết 75 phút nên ta có phương trình:\n$\\frac{x}{12} + \\frac{y}{6} = 1,25 \\Leftrightarrow x + 2y = 15$ (1)\nVì người đó đi từ $C$ đến $B$ với vận tốc $8\\text{ km/h}$ và từ $B$ đến $A$ với vận tốc $10\\text{ km/h}$ hết 1 giờ 30 phút nên ta có phương trình:\n$\\frac{y}{8} + \\frac{x}{10} = 1,5 \\Leftrightarrow 4x + 5y = 60$ (2)\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases} x + 2y = 15 \\\\ 4x + 5y = 60 \\end{cases} \\Leftrightarrow \\begin{cases} x = 10 \\\\ y = 3 \\end{cases}$\nVậy độ dài quãng đường $AB$ và $BC$ lần lượt là $10\\text{ km}$ và $3\\text{ km}$.",
+   "ma": "de1.P7.C1",
+   "dac_trung": {
+    "so_dong_loi_giai": 9,
+    "so_dau_bang": 13,
+    "thuc_te": true,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C1.B5.D01",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh rằng: tứ giác $ACMO$ nội tiếp và $AC \\cdot BD = R^2$.",
+     "explanation": "Ta có $AC$ là tiếp tuyến của $(O)$ nên $\\widehat{CAO} = 90^\\circ$, $CM$ là tiếp tuyến của $(O)$ nên $\\widehat{CMO} = 90^\\circ$.\nSuy ra tứ giác $ACMO$ nội tiếp đường tròn đường kính $CO$.\nXét $\\triangle AMB$ có $\\widehat{AMB} = 90^\\circ$ (góc nội tiếp chắn nửa đường tròn).\nTa có $OC$ là đường trung trực của $AM$ nên $OC \\perp AM$.\nLại có $OD$ là đường trung trực của $BM$ nên $OD \\perp BM$.\nDo đó $\\widehat{COD} = 90^\\circ$, $\\triangle COD$ vuông tại $O$.\nTrong $\\triangle COD$ vuông tại $O$ có đường cao $OM \\perp CD$, ta có $CM \\cdot MD = OM^2 = R^2$.\nMà $CM = AC$ và $MD = BD$ (tính chất hai tiếp tuyến cắt nhau).\nSuy ra $AC \\cdot BD = R^2$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có $\\widehat{CAO} = {{1}}^\\circ$ ($AC$ là {{2}}) và $\\widehat{CMO} = {{3}}^\\circ$ ($CM$ là {{4}})"
+        ],
+        "hint": "Xác định góc vuông"
+       },
+       {
+        "lines": [
+         "Suy ra tứ giác {{5}} nội tiếp đường tròn đường kính {{6}}"
+        ],
+        "hint": "Chứng minh tứ giác nội tiếp"
+       },
+       {
+        "lines": [
+         "Theo tính chất hai tiếp tuyến cắt nhau, $OC$ là tia phân giác $\\widehat{AOM}$ và $OD$ là tia phân giác $\\widehat{BOM}$"
+        ],
+        "hint": "Tính chất tiếp tuyến"
+       },
+       {
+        "lines": [
+         "Suy ra $OC \\perp {{7}}$, nên $\\triangle {{8}}$ vuông tại $O$"
+        ],
+        "hint": "Chứng minh tam giác vuông"
+       },
+       {
+        "lines": [
+         "Có $OM \\perp {{9}}$ nên $CM \\cdot MD = OM^2 = {{10}}^2$"
+        ],
+        "hint": "Hệ thức lượng"
+       },
+       {
+        "lines": [
+         "Mà $CM = {{11}}$ và $MD = {{12}}$, do đó $AC \\cdot BD = R^2$"
+        ],
+        "hint": "Kết luận đẳng thức"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "tiếp tuyến"
+        ],
+        "keywords": [],
+        "placeholder": "từ khóa",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "tiếp tuyến"
+        ],
+        "keywords": [],
+        "placeholder": "từ khóa",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "ACMO"
+        ],
+        "keywords": [],
+        "placeholder": "tên tứ giác",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "CO"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "OD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "COD"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "CD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "10",
+        "mode": "drag",
+        "answers": [
+         "R"
+        ],
+        "keywords": [],
+        "placeholder": "bán kính",
+        "maxLen": 12
+       },
+       {
+        "id": "11",
+        "mode": "drag",
+        "answers": [
+         "AC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "12",
+        "mode": "drag",
+        "answers": [
+         "BD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "90",
+       "tiếp tuyến",
+       "ACMO",
+       "CO",
+       "OD",
+       "COD",
+       "CD",
+       "R",
+       "AC",
+       "BD",
+       "45",
+       "cát tuyến",
+       "AB",
+       "OM",
+       "AO"
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $P$ là giao điểm của $CD$ và $AB$. Chứng minh: $PA \\cdot PB = PC \\cdot PM$.",
+     "explanation": "Xét $\\triangle PAM$ và $\\triangle PCB$ (hoặc sử dụng hệ thức lượng trong đường tròn / tam giác đồng dạng):\nXét $\\triangle PAM$ và $\\triangle PCB$ có:\n$\\widehat{P}$ chung\n$\\widehat{PAM} = \\widehat{PMC}$ (góc tạo bởi tiếp tuyến và dây cung và góc nội tiếp) hay $\\triangle PAC \\sim \\triangle PMB$ (g.g)\n$\\Rightarrow \\frac{PA}{PM} = \\frac{PC}{PB} \\Rightarrow PA \\cdot PB = PC \\cdot PM$.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Xét $\\triangle {{1}}$ và $\\triangle {{2}}$"
+        ],
+        "hint": "Xét hai tam giác"
+       },
+       {
+        "lines": [
+         "Có $\\widehat{P}$ {{3}}"
+        ],
+        "hint": "Góc chung"
+       },
+       {
+        "lines": [
+         "và $\\widehat{PAC} = \\widehat{PMB}$ (do cùng bằng {{4}}^\\circ)"
+        ],
+        "hint": "Góc bằng nhau"
+       },
+       {
+        "lines": [
+         "Nên $\\triangle {{5}} \\sim \\triangle {{6}}$ ({{7}})"
+        ],
+        "hint": "Kết luận đồng dạng"
+       },
+       {
+        "lines": [
+         "Suy ra $\\frac{PA}{PM} = \\frac{PC}{PB}$"
+        ],
+        "hint": "Tỉ số đồng dạng"
+       },
+       {
+        "lines": [
+         "Do đó $PA \\cdot PB = {{8}} \\cdot {{9}}$"
+        ],
+        "hint": "Kết luận đẳng thức"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "PAC"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "PMB"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "chung"
+        ],
+        "keywords": [],
+        "placeholder": "từ khóa",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "90"
+        ],
+        "keywords": [],
+        "placeholder": "số",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "PAC"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "PMB"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "g.g"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "PC"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "9",
+        "mode": "drag",
+        "answers": [
+         "PM"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "PAC",
+       "PMB",
+       "chung",
+       "90",
+       "g.g",
+       "PC",
+       "PM",
+       "c.g.c",
+       "đối đỉnh",
+       "PAM",
+       "PCB"
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi $E$ là giao điểm của $AM$ và $BD$; $F$ là giao điểm của $AC$ và $BM$. Chứng minh: $E, F, P$ thẳng hàng.",
+     "explanation": "Ta có $AC \\parallel BD$ (cùng vuông góc với $AB$).\n$C$ là trung điểm của $AF$ và $D$ là trung điểm của $BE$.\nSử dụng định lý Ta-lét trong các tam giác, ta suy ra $\\triangle PAF \\sim \\triangle PBE$.\nDo đó $\\widehat{APF} = \\widehat{BPE}$, hay các tia $PF, PE$ trùng nhau.\nVậy $E, F, P$ thẳng hàng.",
+     "points": 1,
+     "type": "proof_frame",
+     "frame": {
+      "blocks": [
+       {
+        "lines": [
+         "Ta có $AC \\parallel {{1}}$ (cùng vuông góc với $AB$)"
+        ],
+        "hint": "Chứng minh song song"
+       },
+       {
+        "lines": [
+         "Suy ra $C$ là trung điểm của $AF$ và $D$ là trung điểm của {{2}}"
+        ],
+        "hint": "Tính chất trung điểm"
+       },
+       {
+        "lines": [
+         "Xét $\\triangle {{3}}$ và $\\triangle {{4}}$ có $\\frac{AC}{BD} = \\frac{AF}{BE}$"
+        ],
+        "hint": "Xét hai tam giác"
+       },
+       {
+        "lines": [
+         "Suy ra $\\triangle {{5}} \\sim \\triangle {{6}}$ ({{7}})"
+        ],
+        "hint": "Kết luận đồng dạng"
+       },
+       {
+        "lines": [
+         "Nên $\\widehat{APF} = \\widehat{BPE}$"
+        ],
+        "hint": "Góc tương ứng"
+       },
+       {
+        "lines": [
+         "Do đó $E, F, P$ {{8}}"
+        ],
+        "hint": "Kết luận thẳng hàng"
+       }
+      ],
+      "blanks": [
+       {
+        "id": "1",
+        "mode": "drag",
+        "answers": [
+         "BD"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "2",
+        "mode": "drag",
+        "answers": [
+         "BE"
+        ],
+        "keywords": [],
+        "placeholder": "đoạn thẳng",
+        "maxLen": 12
+       },
+       {
+        "id": "3",
+        "mode": "drag",
+        "answers": [
+         "PAF"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "4",
+        "mode": "drag",
+        "answers": [
+         "PBE"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "5",
+        "mode": "drag",
+        "answers": [
+         "PAF"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "6",
+        "mode": "drag",
+        "answers": [
+         "PBE"
+        ],
+        "keywords": [],
+        "placeholder": "tên tam giác",
+        "maxLen": 12
+       },
+       {
+        "id": "7",
+        "mode": "drag",
+        "answers": [
+         "c.g.c"
+        ],
+        "keywords": [],
+        "placeholder": "trường hợp",
+        "maxLen": 12
+       },
+       {
+        "id": "8",
+        "mode": "drag",
+        "answers": [
+         "thẳng hàng"
+        ],
+        "keywords": [],
+        "placeholder": "từ khóa",
+        "maxLen": 12
+       }
+      ],
+      "pool": [
+       "BD",
+       "BE",
+       "PAF",
+       "PBE",
+       "c.g.c",
+       "thẳng hàng",
+       "g.g",
+       "c.c.c",
+       "AC",
+       "AF"
+      ]
+     }
+    }
+   ],
+   "points": 3,
+   "bai_goc": "Bài 7",
+   "question": "Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ nằm trên nửa đường tròn $(O)$. Tiếp tuyến tại $M$ cắt tiếp tuyến tại $A$ và $B$ của đường tròn $(O)$ lần lượt tại $C$ và $D$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dac_trung": {
+    "so_dong_loi_giai": 0,
+    "so_dau_bang": 0,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "VD"
+   },
+   "muc_do": "TH",
+   "dang": "L9.C5.B2.D02",
+   "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."
+  }
+ ],
+ "flags": []
+}

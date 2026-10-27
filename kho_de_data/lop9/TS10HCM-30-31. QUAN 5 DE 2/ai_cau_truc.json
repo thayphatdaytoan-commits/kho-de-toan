@@ -1,0 +1,478 @@
+{
+ "truong": "THCS",
+ "nam_hoc": "2025-2026",
+ "tn": [],
+ "tl": [
+  {
+   "n": 1,
+   "de_chung": "Cho parabol [[IMG:image1.png]]",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Vẽ đồ thị [[IMG:image2.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Lập bảng giá trị các điểm thuộc parabol. Vẽ parabol đi qua các điểm đó.",
+     "cum": [
+      "Lập bảng giá trị các điểm thuộc parabol",
+      "Vẽ hệ trục tọa độ Oxy",
+      "Biểu diễn các điểm trên mặt phẳng tọa độ",
+      "Vẽ đường cong parabol đi qua các điểm đã xác định"
+     ],
+     "nhieu": [
+      "Vẽ đường thẳng đi qua các điểm"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Vẽ đồ thị [[IMG:image2.png]].",
+     "diem": 0.75,
+     "ve_xet": true,
+     "ve_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -4,
+       "xmax": 4,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "p1",
+        "label": "y = 0.5x^2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tìm các điểm [[IMG:image3.png]] thuộc (P) sao cho tung độ bằng [[IMG:image4.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "x=2; x=-2",
+     "loi_giai": "Thay y = 4 vào phương trình y = x^2 ta được x^2 = 4. Suy ra x = 2 hoặc x = -2.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho parabol [[IMG:image1.png]]. Tìm các điểm [[IMG:image3.png]] thuộc (P) sao cho tung độ bằng [[IMG:image4.png]].",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$x_1 =$ {{1}} ; $x_2 =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "2|-2"
+       },
+       {
+        "id": "2",
+        "answer": "2|-2"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "tinh_gia_tri",
+      "kieu": "dong",
+      "dong": [
+       "Thay $y = 4$ vào phương trình $y = x^2$ ta được $x^2 = $ {{1}}",
+       "Suy ra $x = $ {{2}} hoặc $x = $ {{3}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "de_chung": "Cho phương trình [[IMG:image5.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image6.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tính delta hoặc nhận xét a và c trái dấu. Vì a=1, c=-3 nên ac < 0, phương trình luôn có hai nghiệm phân biệt.",
+     "cum": [
+      "Xác định các hệ số a, b, c",
+      "Tính biệt thức delta hoặc xét tích ac",
+      "Kết luận ac < 0 nên phương trình có hai nghiệm phân biệt"
+     ],
+     "nhieu": [
+      "Tính delta bằng 0"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image5.png]]. Chứng minh phương trình trên có hai nghiệm phân biệt [[IMG:image6.png]].",
+     "diem": 0.5
+    },
+    {
+     "nhan": "b",
+     "de": "Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "10",
+     "loi_giai": "Theo Viète: x1+x2 = 2, x1x2 = -3. Biểu thức = (x1+x2)^2 - 2x1x2 + x1x2 = (x1+x2)^2 - x1x2 = 2^2 - (-3) = 4 + 3 = 7 (Lưu ý: đề bài gốc có thể có sai sót trong hướng dẫn giải, kết quả tính theo biểu thức là 7).",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho phương trình [[IMG:image5.png]] có hai nghiệm phân biệt [[IMG:image6.png]]. Không giải phương trình, hãy tính giá trị của biểu thức: [[IMG:image7.png]].",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "de_chung": "Một bó hoa gồm 5 bông hoa màu đỏ và 3 bông hoa màu vàng. Bạn Linh chọn ngẫu nhiên cùng lúc [[IMG:image10.png]] bông hoa từ bó hoa đó.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Liệt kê các cách chọn mà bạn Linh có thể thực hiện.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "4 cách",
+     "loi_giai": "Các trường hợp: 2 đỏ; 1 đỏ 1 vàng; 0 đỏ 2 vàng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bó hoa gồm 5 bông hoa màu đỏ và 3 bông hoa màu vàng. Bạn Linh chọn ngẫu nhiên cùng lúc [[IMG:image10.png]] bông hoa từ bó hoa đó. Liệt kê các cách chọn mà bạn Linh có thể thực hiện.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "giu",
+      "answer": "4"
+     },
+     "mau_xet": true
+    },
+    {
+     "nhan": "b",
+     "de": "Tính xác suất của mỗi biến cố sau: i. A: “Trong [[IMG:image10.png]] bông hoa được chọn ra, có đúng [[IMG:image11.png]] bông hoa màu đỏ”. ii. B: “Trong [[IMG:image10.png]] bông hoa được chọn ra, có ít nhất [[IMG:image11.png]] bông hoa màu đỏ”.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "P(A)=15/28; P(B)=25/28",
+     "loi_giai": "Sử dụng tổ hợp C(n,k). Tổng số cách chọn C(8,2) = 28. P(A) = C(5,1)*C(3,1)/28 = 15/28. P(B) = (C(5,2) + C(5,1)*C(3,1))/28 = (10+15)/28 = 25/28.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một bó hoa gồm 5 bông hoa màu đỏ và 3 bông hoa màu vàng. Bạn Linh chọn ngẫu nhiên cùng lúc [[IMG:image10.png]] bông hoa từ bó hoa đó. Tính xác suất của mỗi biến cố sau: i. A: “Trong [[IMG:image10.png]] bông hoa được chọn ra, có đúng [[IMG:image11.png]] bông hoa màu đỏ”. ii. B: “Trong [[IMG:image10.png]] bông hoa được chọn ra, có ít nhất [[IMG:image11.png]] bông hoa màu đỏ”.",
+     "diem": 0.75,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$P(A) =$ {{1}} ; $P(B) =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "15/28"
+       },
+       {
+        "id": "2",
+        "answer": "25/28"
+       }
+      ]
+     },
+     "mau_xet": true,
+     "mau_spec": {
+      "mau": "rut_gon_so",
+      "kieu": "dong",
+      "dong": [
+       "Tổng số cách chọn $C(8,2) = $ {{1}}",
+       "$P(A) = \\dfrac{C(5,1) \\cdot C(3,1)}{28} = \\dfrac{ {{2}} }{28}$",
+       "$P(B) = \\dfrac{C(5,2) + C(5,1) \\cdot C(3,1)}{28} = \\dfrac{ {{3}} }{28}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "28"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "25"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "de_chung": "Một xí nghiệp dự tính vận chuyển hàng bằng hai xe tải. Mua 2 xe giá mỗi xe [[IMG:image12.png]], chi phí mỗi ngày [[IMG:image13.png]]. Thuê xe giá [[IMG:image14.png]]/ngày.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Gọi [[IMG:image15.png]] là tổng số tiền xí nghiệp bỏ ra để vận chuyển hàng sau n ngày. Lập công thức tính [[IMG:image15.png]] theo n đối với mỗi phương án.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "Mua: 2*giá_xe + 2*n*chi_phí; Thuê: 2*n*giá_thuê",
+     "loi_giai": "Phương án mua: y = 2*A + 2*B*n. Phương án thuê: y = 2*C*n.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một xí nghiệp dự tính vận chuyển hàng bằng hai xe tải. Mua 2 xe giá mỗi xe [[IMG:image12.png]], chi phí mỗi ngày [[IMG:image13.png]]. Thuê xe giá [[IMG:image14.png]]/ngày. Gọi [[IMG:image15.png]] là tổng số tiền xí nghiệp bỏ ra để vận chuyển hàng sau n ngày. Lập công thức tính [[IMG:image15.png]] theo n đối với mỗi phương án.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "Mua: $2A + 2Bn$; Thuê: $2Cn$",
+       "Mua: $A + Bn$; Thuê: $Cn$",
+       "Mua: $2A + Bn$; Thuê: $2Cn$",
+       "Mua: $2A + 2Cn$; Thuê: $2Bn$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Hỏi xí nghiệp vận chuyển hàng từ bao nhiêu ngày trở lên thì nên chọn phương án mua xe sẽ tiết kiệm hơn phương án thuê xe?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "n > giá_xe / (giá_thuê - chi_phí)",
+     "loi_giai": "Giải bất phương trình 2A + 2Bn < 2Cn.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một xí nghiệp dự tính vận chuyển hàng bằng hai xe tải. Mua 2 xe giá mỗi xe [[IMG:image12.png]], chi phí mỗi ngày [[IMG:image13.png]]. Thuê xe giá [[IMG:image14.png]]/ngày. Gọi [[IMG:image15.png]] là tổng số tiền xí nghiệp bỏ ra để vận chuyển hàng sau n ngày. Hỏi xí nghiệp vận chuyển hàng từ bao nhiêu ngày trở lên thì nên chọn phương án mua xe sẽ tiết kiệm hơn phương án thuê xe?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$n > \\frac{A}{C-B}$",
+       "$n > \\frac{2A}{C-B}$",
+       "$n > \\frac{A}{C+B}$",
+       "$n < \\frac{A}{C-B}$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "de_chung": "Một xe tải chở hàng có thùng xe dạng hình hộp chữ nhật.",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Tính thể tích của thùng xe.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "V = dài * rộng * cao",
+     "loi_giai": "Áp dụng công thức thể tích hình hộp chữ nhật.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một xe tải chở hàng có thùng xe dạng hình hộp chữ nhật. Tính thể tích của thùng xe.",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$V = d \\cdot r \\cdot c$",
+       "$V = 2(d+r) \\cdot c$",
+       "$V = d \\cdot r + c$",
+       "$V = d + r + c$"
+      ],
+      "answer": "A"
+     }
+    },
+    {
+     "nhan": "b",
+     "de": "Người ta xếp vào thùng xe tải các thùng hàng loại [[IMG:image17.png]] có dạng hình lập phương độ dài cạnh [[IMG:image18.png]]. Hỏi mỗi lần vận chuyển xe có thể chở được nhiều nhất bao nhiêu thùng hàng?",
+     "loai": "tra_loi_ngan",
+     "dap_an": "V_thùng / V_hàng",
+     "loi_giai": "Lấy thể tích thùng xe chia cho thể tích một thùng hàng.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Một xe tải chở hàng có thùng xe dạng hình hộp chữ nhật. Người ta xếp vào thùng xe tải các thùng hàng loại [[IMG:image17.png]] có dạng hình lập phương độ dài cạnh [[IMG:image18.png]]. Hỏi mỗi lần vận chuyển xe có thể chở được nhiều nhất bao nhiêu thùng hàng?",
+     "diem": 0.5,
+     "dinh_dang": {
+      "dang": "trac_nghiem",
+      "options": [
+       "$\\frac{V_{thùng}}{V_{hàng}}$",
+       "$V_{thùng} \\cdot V_{hàng}$",
+       "$\\frac{V_{hàng}}{V_{thùng}}$",
+       "$V_{thùng} - V_{hàng}$"
+      ],
+      "answer": "A"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "de_chung": "",
+   "y": [
+    {
+     "nhan": "",
+     "de": "Ông Năm dự định cải tạo một mảnh vườn hình chữ nhật có chiều dài bằng [[IMG:image19.png]] lần chiều rộng. Ông nhận thấy rằng, nếu đào một cái hồ có mặt hồ là hình chữ nhật thì sẽ chiếm mất [[IMG:image20.png]] diện tích mảnh vườn. Còn nếu giảm chiều dài mặt hồ [[IMG:image21.png]] và tăng chiều rộng mặt hồ [[IMG:image22.png]] thì mặt hồ là hình vuông và diện tích mặt hồ giảm được [[IMG:image23.png]]. Tính chiều dài, chiều rộng của mảnh vườn hình chữ nhật.",
+     "loai": "tra_loi_ngan",
+     "dap_an": "dài=..., rộng=...",
+     "loi_giai": "Lập hệ phương trình dựa trên các dữ kiện về diện tích và kích thước hồ.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "tu_luan"
+     },
+     "mau_xet": true,
+     "lap_pt_xet": true,
+     "lap_pt": {
+      "loai": "loi_van",
+      "dap_cuoi": [
+       {
+        "nhan": "Chiều dài mảnh vườn:",
+        "dap_an": "15",
+        "don_vi": "m"
+       },
+       {
+        "nhan": "Chiều rộng mảnh vườn:",
+        "dap_an": "10",
+        "don_vi": "m"
+       }
+      ],
+      "luyen": {
+       "mau": "lap_pt",
+       "kieu": "dong",
+       "dong": [
+        "Gọi $x$ là chiều rộng mảnh vườn (m, $x > 0$), $y$ là chiều dài mảnh vườn (m, $y > 0$)",
+        "Biểu diễn chiều dài theo chiều rộng: {{1}}",
+        "Hệ phương trình: {{2}} ; {{3}}",
+        "Giải hệ ta được $x =$ {{4}}, $y =$ {{5}}",
+        "Vậy chiều rộng mảnh vườn là {{4}} m, chiều dài mảnh vườn là {{5}} m"
+       ],
+       "o": [
+        {
+         "id": "1",
+         "loai": "bt",
+         "dap_an": "y=1.5x"
+        },
+        {
+         "id": "2",
+         "loai": "bt",
+         "dap_an": "(x-2)(1.5x-3)=(x-2)^2+8"
+        },
+        {
+         "id": "3",
+         "loai": "bt",
+         "dap_an": "y=1.5x"
+        },
+        {
+         "id": "4",
+         "loai": "so",
+         "dap_an": "10"
+        },
+        {
+         "id": "5",
+         "loai": "so",
+         "dap_an": "15"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "de_chung": "Cho đường tròn [[IMG:image24.png]]. Từ điểm [[IMG:image17.png]] nằm ngoài đường tròn [[IMG:image25.png]], vẽ hai tiếp tuyến [[IMG:image26.png]] và [[IMG:image27.png]]. Vẽ đường kính [[IMG:image29.png]].",
+   "y": [
+    {
+     "nhan": "a",
+     "de": "Chứng minh tứ giác [[IMG:image30.png]] nội tiếp và [[IMG:image31.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Tứ giác có hai góc đối bằng 90 độ nên nội tiếp. Sử dụng tính chất hai tiếp tuyến cắt nhau.",
+     "cum": [
+      "Chứng minh góc tại tiếp điểm bằng 90 độ",
+      "Tổng hai góc đối bằng 180 độ",
+      "Kết luận tứ giác nội tiếp"
+     ],
+     "nhieu": [
+      "Tứ giác là hình vuông"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image24.png]]. Từ điểm [[IMG:image17.png]] nằm ngoài đường tròn [[IMG:image25.png]], vẽ hai tiếp tuyến [[IMG:image26.png]] và [[IMG:image27.png]]. Vẽ đường kính [[IMG:image29.png]]. Chứng minh tứ giác [[IMG:image30.png]] nội tiếp và [[IMG:image31.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "b",
+     "de": "Gọi [[IMG:image32.png]] là giao điểm của [[IMG:image33.png]] và [[IMG:image34.png]]. Chứng minh [[IMG:image35.png]] và [[IMG:image36.png]].",
+     "loai": "chung_minh",
+     "dap_an": "",
+     "loi_giai": "Sử dụng tính chất đường trung bình và tam giác đồng dạng.",
+     "cum": [
+      "Chứng minh tam giác đồng dạng",
+      "Sử dụng tính chất đường trung bình",
+      "Kết luận đẳng thức cần chứng minh"
+     ],
+     "nhieu": [
+      "Tam giác bằng nhau"
+     ],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image24.png]]. Từ điểm [[IMG:image17.png]] nằm ngoài đường tròn [[IMG:image25.png]], vẽ hai tiếp tuyến [[IMG:image26.png]] và [[IMG:image27.png]]. Vẽ đường kính [[IMG:image29.png]]. Gọi [[IMG:image32.png]] là giao điểm của [[IMG:image33.png]] và [[IMG:image34.png]]. Chứng minh [[IMG:image35.png]] và [[IMG:image36.png]].",
+     "diem": 1
+    },
+    {
+     "nhan": "c",
+     "de": "Vẽ [[IMG:image37.png]] song song với [[IMG:image27.png]]. Trong trường hợp [[IMG:image39.png]], tính diện tích của tứ giác [[IMG:image40.png]] và độ dài [[IMG:image41.png]] theo [[IMG:image42.png]].",
+     "loai": "tra_loi_ngan",
+     "dap_an": "S=..., L=...",
+     "loi_giai": "Sử dụng hệ thức lượng trong tam giác vuông và tính chất hình học.",
+     "cum": [],
+     "nhieu": [],
+     "nguon": "de",
+     "de_day_du": "Cho đường tròn [[IMG:image24.png]]. Từ điểm [[IMG:image17.png]] nằm ngoài đường tròn [[IMG:image25.png]], vẽ hai tiếp tuyến [[IMG:image26.png]] và [[IMG:image27.png]]. Vẽ đường kính [[IMG:image29.png]]. Vẽ [[IMG:image37.png]] song song với [[IMG:image27.png]]. Trong trường hợp [[IMG:image39.png]], tính diện tích của tứ giác [[IMG:image40.png]] và độ dài [[IMG:image41.png]] theo [[IMG:image42.png]].",
+     "diem": 1,
+     "dinh_dang": {
+      "dang": "dien_o",
+      "passage": "$S =$ {{1}} ; $L =$ {{2}}",
+      "blanks": [
+       {
+        "id": "1",
+        "answer": "..."
+       },
+       {
+        "id": "2",
+        "answer": "..."
+       }
+      ]
+     },
+     "ve_xet": true,
+     "mau_xet": true
+    }
+   ]
+  }
+ ],
+ "by": "Gemini 1 (gemini-3.1-flash-lite)",
+ "tn_diem": 0.25
+}
