@@ -1,6 +1,6 @@
 # Việc cần làm (tự sinh mỗi lần đẩy kho — đừng sửa tay)
 
-Cập nhật: 2026-10-27 22:54. Kho có 19,735 câu; **5,575 câu cần xem**, chia 4 mức ưu tiên — **làm lần lượt từ mức 1**. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ, `uu_tien`) ở `viec_can_lam.json` (đã xếp theo ưu tiên). Cách sửa: `HUONG_DAN_AI.md`.
+Cập nhật: 2026-10-28 21:27. Kho có 19,735 câu; **5,575 câu cần xem**, chia 4 mức ưu tiên — **làm lần lượt từ mức 1**. Danh sách đầy đủ (lớp, bài, file đề, mã câu, cờ, `uu_tien`) ở `viec_can_lam.json` (đã xếp theo ưu tiên). Cách sửa: `HUONG_DAN_AI.md`.
 
 | Mức | Việc | Số câu |
 |---|---|---|
@@ -269,6 +269,6 @@ Câu dùng ảnh này hiển thị thiếu hình. Không tự vẽ lại; ghi `g
 - lop12/CK12-WT-01/de1.json: image34.wmf
 - lop6/DT6CK2-07-RD6_HKII_2425/de1.json: image4.png
 - lop7/DT7CK1-03-CKI-7-34-BQT/de1.json: image9.png
-- lop8/DT8CK2-08-LE LOI/de1.json: image8.png
 - lop8/DT8CK2-08-LE LOI/de1.json: image7.png
+- lop8/DT8CK2-08-LE LOI/de1.json: image8.png
 - lop9/DT9TK2-15-TQT-TKCK2-TOAN 9 (2024-2025)/de1.json: image4.emf
