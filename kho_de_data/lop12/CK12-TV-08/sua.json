@@ -1,17 +1,1 @@
-{
- "de1.P1.C3": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề HQvL8rp17PVwjwBekhKS) — mặc định bỏ"
- },
- "de1.P2.C4": {
-  "tf_ans": {
-   "a": true,
-   "b": false,
-   "c": false,
-   "d": false
-  },
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): s²_A = 45,6875 < s²_B = 46,9375 (cùng trung bình 28,25) ⇒ lĩnh vực B rủi ro hơn ⇒ ý d \"A rủi ro hơn B\" Sai. Chính lời giải cũng kết luận B rủi ro hơn nhưng khóa ghi Đ."
- }
-}
+{"de1.P2.C1": {"ly_do": "Đã tính lại từ bảng biến thiên theo lời giải: $f$ đồng biến trên $(-\\infty;0)$ và $(2;+\\infty)$ (a Đúng); trên $(0;2)$, $f'<0$ nên $g'(x)=2-3f'(x)>0$, $g$ đồng biến chứ không nghịch biến (b Sai); $0\\le\\sin^2x\\le 1<3/2$ và $f$ nghịch biến trên $(0;2)$ nên $f(\\sin^2x)>f(3/2)$ (c Sai); $y=f(2-3x)$ nghịch biến trên $(-\\infty;0)$ và $(2/3;+\\infty)$, không phải trên toàn $(0;2)$ (d Sai). Khớp tf_ans.", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C2": {"ly_do": "Đã tính lại: $y'=(m^2-m+2)/(x-m)^2>0$ với mọi $m$ nên a) Đúng; với $m=1$, trên $(1;4]$ hàm tăng đến $f(4)=1/3\\ne 1/2$ nên b) Sai; TCN $y=1$ nên c) Đúng; giá trị lớn nhất trên $[0;4]$ bằng $-1$ chỉ khi $m<0$ và $(2-m^2)/(4-m)=-1$, tức $m=-3$ duy nhất nên d) Đúng. Khớp tf_ans.", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C3": {"ly_do": "Đã tính lại: hình chiếu của $M$ lên $Oy$ là $(0;3;0)$ nên a) Sai; $E=2N-M=(-4;-1;3)$ nên b) Đúng; $\\overrightarrow{NM}\\cdot\\overrightarrow{NP}=6+2(m-2)-4=2m-2=0\\Leftrightarrow m=1$ nên c) Đúng; $J=(7/2;4;-2)$, $I$ là hình chiếu của $J$ lên $(Oxy)$ nên $I=(7/2;4;0)$, $2a+b+c=11\\ne 9$ nên d) Sai. Khớp tf_ans.", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C4": {"explanation": "a) Đ, b) S, c) S, d) S\na) Khoảng biến thiên về số tháng đầu từ vào lĩnh vực A và B ở mẫu số liệu trên bằng nhau và bằng $40-15=25$.\nb)Số tiền trung bình thu được khi đầu tư vào lĩnh vực A là\n$\\overline{{{x}_{A}}}=\\frac{5\\cdot 17,5+10\\cdot 22,5+8\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nSố tiền trung bình thu được khi đầu tư vào lĩnh vực B là\n$\\overline{{{x}_{B}}}=\\frac{6\\cdot 17,5+8\\cdot 22,5+9\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nc) Phương sai của số tiền thu được khi đầu tư vào lĩnh vực A là\n$s_{A}^{2}=\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}=45,6875$.\nd) Độ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực A là\n${{s}_{A}}=\\sqrt{\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{731}}{4}$.\nĐộ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực B là\n${{s}_{B}}=\\sqrt{\\frac{1}{40}\\left( 6\\cdot 17,{{5}^{2}}+8\\cdot 22,{{5}^{2}}+9\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{751}}{4}$.\nNhư vậy, độ lệch chuẩn của mẫu số liệu về số tiền thu được hàng tháng khi đầu tư vào lĩnh vực B cao hơn khi đầu tư vào lĩnh vực A. Do đó, anh Bình đầu tư vào lĩnh vực B “rủi ro” hơn lĩnh vực A.", "ly_do": "Đã tính lại từ bảng: khoảng biến thiên A và B đều bằng $25$ (a Đúng); trung bình A và B đều bằng $28,25$ nên b) Sai; phương sai A bằng $45,6875\\ne 46,9375$ (đây là phương sai của B) nên c) Sai; độ lệch chuẩn A bằng $\\sqrt{731}/4$, B bằng $\\sqrt{751}/4$ nên B rủi ro hơn, d) Sai. Lời giải lưu ghi nhầm dòng kết luận đầu là d) Đ trong khi phần chứng minh sau đó và tf_ans đều cho d) Sai, nên sửa dòng đó thành d) S.", "sua_boi": "muse"}}

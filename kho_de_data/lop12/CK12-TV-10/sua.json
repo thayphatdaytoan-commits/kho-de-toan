@@ -1,17 +1,1 @@
-{
- "de1.P1.C6": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề 3XA4PeO4LRTG1O4P27dB) — mặc định bỏ"
- },
- "de1.P2.C4": {
-  "tf_ans": {
-   "a": false,
-   "b": true,
-   "c": false,
-   "d": false
-  },
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): Tổ 2: x̄ = 1797,5/11 ≈ 163,409; s² = Σf·x²/11 − x̄² ≈ 49,17 (không phải 48,88). Lời giải làm tròn x̄ = 163,41 trước khi bình phương nên ra 48,88. Ý c Sai. a, b, d khớp."
- }
-}
+{"de1.P2.C1": {"ly_do": "Đã kiểm từ hàm số nêu ở ý c: $y=\\frac{x^2+2x+1}{x-1}=x+3+\\frac{4}{x-1}$ có tiệm cận đứng $x=1$, tiệm cận xiên $y=x+3$, qua $(-1;0),(3;8),(0;-1)$, cực đại tại $x=-1$, cực tiểu tại $x=3$, đồng biến trên $(-\\infty;-1)$ và $(3;+\\infty)$ nên a Sai, b Đúng, c Đúng; $IM^2=2(x-1)^2+16/(x-1)^2+8$ nhỏ nhất khi $(x-1)^4=8$, hoành độ dương là $1+\\sqrt{2\\sqrt{2}}$ nên d Đúng. Các kết luận suy từ hàm số đã cho đủ trong ý c, không phụ thuộc việc đọc ảnh.", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C2": {"explanation": "a) Sai, b) Đúng, c) Sai, d) Đúng\nTa có ${y}'=3{{x}^{2}}-3$; ${y}'=0\\Leftrightarrow x=-1$ hoặc $x=1$. Trên $\\left( -1;1 \\right)$, ${y}'<0$ nên hàm số nghịch biến, a sai; $x=1$ là điểm cực tiểu, b đúng. Trên đoạn $\\left[ -1;1 \\right]$, $f\\left( -1 \\right)=0$, $f\\left( 1 \\right)=-4$ nên giá trị lớn nhất bằng $0$, c sai. Với $x\\in \\left[ -\\frac{1}{2};\\frac{1}{2} \\right]$ thì $2x\\in \\left[ -1;1 \\right]$, giá trị nhỏ nhất của $f$ trên $\\left[ -1;1 \\right]$ bằng $-4$ nên d đúng.", "ly_do": "Explanation bị cắt dở giữa công thức (lẻ dấu $); viết lại đầy đủ: f'=3x²-3, nghịch biến trên (-1;1), cực tiểu tại x=1, max trên [-1;1] bằng 0, min của f(2x) trên [-1/2;1/2] bằng -4. Các tf_ans giữ nguyên và khớp lời giải (a sai, b đúng, c sai, d đúng).", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C3": {"ly_do": "Cắt bỏ mảnh đầu question (phần lời giải của câu trước, làm lẻ dấu $); chỉ giữ phần bảng biến thiên và đặt t=2x. Đáp án: a đúng (f'<0 trên (-1;1)), b đúng (cực tiểu tại x=1), c đúng (max trên [-1;1] là f(-1)=0), d đúng (nhân 2 khoảng).", "question": "Bảng biến thiên [[IMG:image7.png]] Dựa vào bảng biến thiên, ta có: Đặt $t=2x,t\\in \\left[ -1;1 \\right]$ , $f(t)={{t}^{3}}-3t-2$ Theo câu a có giá trị nhỏ nhất của hàm số trên đoạn $\\left[ -1;1 \\right]$ bằng $-4$ .", "sua_boi": "muse", "tf_ans": {"a": true, "b": true, "c": true, "d": true}, "xac_nhan": true}, "de1.P2.C3b": {"ly_do": "Đã tính lại: $A(3;0;-1)$ đúng; $\\overrightarrow{AB}=(-4;2;4)$, $\\overrightarrow{AC}=(-2;4;2)$ không cùng phương nên không thẳng hàng (b Sai); điểm đối xứng của $A$ qua $B$ là $D(-5;4;7)$, $a+b+c=6$ (c Đúng); trọng tâm $I(1;2;1)$ chiếu xuống $(Oxy)$ là $M(1;2;0)$, $2m-n+2024p=0$ (d Đúng).", "sua_boi": "muse", "xac_nhan": true}, "de1.P2.C4": {"explanation": "a) S, b) Đ, c) S, d) S\na) Cỡ mẫu tổ 1 là $n=11$. Nhóm chứa $Q_1$ là $[150;155)$ nên $Q_1=150+\\frac{11/4}{3}\\cdot 5\\approx 154,58$, khác $154,375$ nên a) Sai.\nb) Nhóm cuối có tần số khác 0 của tổ 1 là $[170;175)$ nên $R=175-150=25$ nên b) Đúng.\nc) Tổ 2: $\\overline{x_2}\\approx 163,41$ và $s_2^2\\approx 49,17$, khác $48,88$ nên c) Sai.\nd) $s_1^2\\approx 61,16$ nên $s_1\\approx 7,82> s_2\\approx 7,01$; khẳng định độ lệch chuẩn tổ 2 lớn hơn tổ 1 là Sai.", "ly_do": "tf_ans giữ nguyên là đúng, nhưng lời giải cũ sai ở ý c: nó ghi $s_2^2\\approx 48,88$ và kết luận c) Đúng, trong khi tính lại từ bảng (trung bình tổ 2 $\\approx 163,41$) được $s_2^2\\approx 49,17\\ne 48,88$ nên c) Sai. Lời giải cũ cũng ghi sai $Q_1$ tổ 1 ($154,92$ thay vì $154,58$) và $s_1^2$ ($59,68$ thay vì $61,16$); kết luận ý d (Sai, vì $s_1\\approx 7,82>s_2\\approx 7,01$) vẫn đúng. Chỉ sửa lời giải, không đổi tf_ans.", "sua_boi": "muse"}}

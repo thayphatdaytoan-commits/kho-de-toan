@@ -1,17 +1,1 @@
-{
- "de1.P3.C2": {
-  "short_correct": "81",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): P(vào vòng 2 | nữ)=16/65 (tối giản) -> a+b=81; key 0,2 is not even an integer -> wrong (likely key of another item, P3 has gaps C3/C5)"
- },
- "de1.P3.C4": {
-  "short_correct": "0,67",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): Markov: Mon car; P(bike) Tue 0,6, Wed 0,6·0,7+0,4·0,6=0,66, Thu 0,66·0,7+0,34·0,6=0,666 -> 0,67; key 0,0294 wrong"
- },
- "de1.P3.C6": {
-  "short_correct": "0,24",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): 30/50·20/49=12/49≈0,2449 -> 0,24 (with replacement also 0,24); key 12/29 wrong"
- }
-}
+{"de1.P2.C3": {"ly_do": "Xóa đoạn đầu đề câu hỏi bị lẫn lời giải của câu bi (xác suất bi xanh) không thuộc câu này. a đúng (20/50 = 0,4); b sai (30/50 = 0,6, không phải 0,5); c sai (12/50 = 0,24, không phải 0,6); d đúng (12/30 = 0,4).", "question": "Một lớp học có 50 học sinh, trong đó có 20 học sinh nam và 30 học sinh nữ. Khi tổng kết cuối năm, lớp có 20 học sinh giỏi, trong đó có 8 học sinh nam và 12 học sinh nữ. Chọn ngẫu nhiên 1 học sinh trong lớp. Xét tính đúng sai của các khẳng định sau:", "sua_boi": "muse", "tf_ans": {"a": true, "b": false, "c": false, "d": true}, "xac_nhan": true}, "de1.P3.C1": {"ly_do": "Tự giải: biến cố $A$ (ít nhất một mặt 5) có 11 kết quả; $A\\cap B$ (tổng $\\geq 10$) có 3 kết quả $(5;5),(5;6),(6;5)$ nên $P(B|A)=\\frac{3}{11}\\approx 0,272727$, khớp short_correct.", "short_correct": "0,272727|3/11", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C2": {"explanation": "Gọi $A$ là biến cố “chọn được thí sinh nữ”,\ngọi $B$ là biến cố “ chọn được thí sinh nữ vào vòng thứ hai”.\nTa cần tính $P\\left( B|A \\right)$.\nSố cách chọn được thí sinh nữ là 65 cách. Số cách chọn được thí sinh nữ vào vòng trong là 16 cách, suy ra $P\\left( B|A \\right)=\\frac{16}{65}$ nên $a+b=81$.", "ly_do": "Giữ đáp án 81 (P(B|A) = 16/65, a + b = 81); chỉ cắt bài 15 sản phẩm ghép sau (đáp án 0,2) khỏi lời giải.", "sua_boi": "muse"}, "de1.P3.C4": {"explanation": "Gọi $A$ là biến cố “Thứ ba, bạn Huy đi học bằng xe đạp”\nGọi $B$ là biến cố “Thứ tư, bạn Huy đi học bằng xe đạp”\nGọi $C$ là biến cố “ Thứ năm, bạn Huy đi học bằng xe đạp”\nTa có sơ đô hình cây mô tả xác suất của biến cố như sau:\n[[IMG:image1.png]]\nTừ sơ đồ hình cây ta thấy có 4 nhánh cây đi tới $C$ là: $OABC$, $OA\\bar{B}C$, $O\\bar{A}BC$, $O\\bar{A}\\bar{B}C$.\nVậy $P\\left( C \\right)=0,6.0,7.0,7+0,6.0,3.0,6+0,4.0,6.0,7+0,4.0,4.0,6=\\frac{333}{500}\\approx 0,67$.", "ly_do": "Giữ đáp án 0,67 (cây xác suất cho 333/500 ≈ 0,67); chỉ cắt bài ung thư Bayes ghép sau (39,3%) khỏi lời giải.", "sua_boi": "muse"}, "de1.P3.C6": {"ly_do": "Tự giải: $P(A\\cap B)=\\frac{30}{50}\\cdot\\frac{20}{49}=\\frac{12}{49}\\approx 0,24$, khớp short_correct.", "short_correct": "0,24", "sua_boi": "muse", "xac_nhan": true}}

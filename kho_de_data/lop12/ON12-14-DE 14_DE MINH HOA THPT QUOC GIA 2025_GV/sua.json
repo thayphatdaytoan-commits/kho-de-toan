@@ -1,12 +1,1 @@
-{
- "de1.P1.C11": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề 9VPhlWsmFG1KW69shBhq) — mặc định bỏ"
- },
- "de1.P3.C4": {
-  "short_correct": "5",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): Lợi nhuận P(x) = D(x) − x·C(x) = x³ − 4600x² + 50000x; P'(x)=0 ⇒ x≈5,43; P(5)=135125 > P(6)=134616 ⇒ 5 xe. Key đang trống."
- }
-}
+{"de1.P3.C1": {"explanation": "Ta có $A{B}'\\cap {A}'B=I$ là trung điểm của mỗi đường.\nKhi đó $d\\left( {B}'{C}',\\left( {A}'BC \\right) \\right)=d\\left( {B}',\\left( {A}'BC \\right) \\right)=\\frac{{B}'I}{AI}d\\left( A,\\left( {A}'BC \\right) \\right)=d\\left( A,\\left( {A}'BC \\right) \\right)$.\nKẻ $AH\\bot BC$ ($H$ là trung điểm của $BC$) suy ra\n$BC\\bot \\left( {A}'AH \\right)\\Rightarrow \\left( {A}'BC \\right)\\bot \\left( {A}'AH \\right),\\left( {A}'BC \\right)\\cap \\left( {A}'AH \\right)={A}'H$.\nKẻ $AK\\bot {A}'H\\Rightarrow AK\\bot \\left( {A}'BC \\right)\\Rightarrow d\\left( A,\\left( {A}'BC \\right) \\right)=AK=\\frac{\\sqrt{3}}{3}$.\nTa lại có $\\frac{1}{A{{K}^{2}}}=\\frac{1}{A{{H}^{2}}}+\\frac{1}{A{{{{A}'}}^{2}}}\\Rightarrow A{A}'=\\frac{\\sqrt{15}}{5}$.\nVậy thể tích của lăng trụ là $V=A{A}'.{{S}_{ABC}}=\\frac{\\sqrt{15}}{5}.1.\\frac{\\sqrt{3}}{4}{{.1}^{2}}=\\frac{3\\sqrt{5}}{20}\\approx 0,34$.\nĐáp án:\n| 0 | , | 3 | 4 |\n|---|---|---|---|", "ly_do": "AH=√3/2; 1/AK² = 1/AH²+1/AA'² = 3 nên AA'=√15/5; V = AA'·S_ABC = (√15/5)(√3/4) = 3√5/20 ≈ 0,335 → 0,34, khớp short_correct (chỉ sửa nhầm ký hiệu mặt phẳng (A'AB) thành (A'BC) trong lời giải).", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C2": {"ly_do": "q = 200·0,0075·1,0075²⁴/(1,0075²⁴−1) ≈ 9,137 → 9,14 triệu, khớp short_correct.", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C3": {"ly_do": "f(x)=5−2x (x≥2), =1 (−2<x<2), =5+2x (x≤−2); f≥0 trên [−2,5;2,5]; diện tích = 0,25+4+0,25 = 4,5, khớp short_correct.", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C4": {"ly_do": "Đã kiểm: $T(x)=x^{3}-4600x^{2}+50000x$, $T'(x)=3x^{2}-9200x+50000=0\\Leftrightarrow x\\approx 5,44$ (trong $[1;10]$) hoặc $x\\approx 3061$ (ngoài); $T$ tăng trên $[1;5,44]$ nên với $x$ nguyên, $T(5)=135\\,125>T(6)=134\\,616$ và lớn hơn mọi giá trị khác trên $[1;10]$ nên đáp án 5.", "short_correct": "5", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C5": {"ly_do": "Điểm gần O nhất trên mặt cầu tâm A(5;0;0), R=1 là B2(4;0;0), OB2=4; đoạn OB2 có x+y+z ≤ 4 < 10 nên không cắt mặt phẳng (P), vậy đường đi ngắn nhất là 4, khớp short_correct.", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C6": {"ly_do": "P(K) = 0,8·0,7+0,5·0,3 = 0,71; P(T|K) = 0,56/0,71 ≈ 0,7887 → 0,79, khớp short_correct.", "sua_boi": "muse", "xac_nhan": true}}

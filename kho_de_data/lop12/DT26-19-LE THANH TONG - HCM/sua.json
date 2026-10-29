@@ -1,17 +1,1 @@
-{
- "de1.P3.C1": {
-  "short_correct": "180",
-  "sua_boi": "grokbot",
-  "ly_do": "Giải lại độc lập: đáp án đúng là 180 (đáp án cũ 8 sai)"
- },
- "de1.P3.C3": {
-  "short_correct": "63,6",
-  "sua_boi": "grokbot",
-  "ly_do": "Giải lại độc lập: đáp án đúng là 63,6 (đáp án cũ 0,444444|4/9 sai)"
- },
- "de1.P3.C4": {
-  "short_correct": "3,16",
-  "sua_boi": "grokbot",
-  "ly_do": "Giải lại độc lập: đáp án đúng là 3,16 (đáp án cũ 0,984 sai)"
- }
-}
+{"de1.P2.C1": {"explanation": "a) ĐÚNG\nHàm số $f(x)=e^{x}-2x+e$ xác định với mọi $x\\in\\mathbb{R}$ nên $D=\\mathbb{R}$.\nb) ĐÚNG\nTa có: ${f}'(x)=e^{x}-2$.\nc) SAI\nTa có: ${f}'(x)=e^{x}-2$.\n${f}'(x)=0\\Leftrightarrow x=\\ln 2\\Rightarrow y=2+e-2\\ln 2$.\nVậy: $\\underset{[0;2]}{\\max}\\,f(x)=f(2)=e^{2}-4+e\\ne e^{2}+e$.\nd) SAI\nPhương trình hoành độ giao điểm giữa đường cong $y=f(x)$ và đường thẳng $y=-2x$ là $e^{x}-2x+e=-2x\\Leftrightarrow e^{x}+e=0$.\nPhương trình này vô nghiệm nên đường cong $y=f(x)$ không cắt đường thẳng $y=-2x$.", "ly_do": "Đã khôi phục trường tf từ bảng trong đề (tf bị trống do import) và sửa lời giải ý a (gốc ghi 'hàm đa thức' là sai: $f$ chứa $e^{x}$). Đã kiểm: a Đúng, b Đúng, c Sai (max trên $[0;2]$ là $e^{2}-4+e$), d Sai ($e^{x}+e=0$ vô nghiệm).", "sua_boi": "muse", "tf": {"a": "Tập xác định của hàm số $f(x)$ là $D=\\mathbb{R}$.", "b": "Đạo hàm của hàm số $f(x)$ là ${f}'(x)=e^{x}-2$.", "c": "Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[0;2]$ bằng $e^{2}+e$.", "d": "Đường cong $y=f(x)$ cắt đường thẳng $y=-2x$ tại hai điểm phân biệt."}, "xac_nhan": true}}

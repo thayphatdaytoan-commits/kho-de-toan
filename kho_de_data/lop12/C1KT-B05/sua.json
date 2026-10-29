@@ -1,17 +1,1 @@
-{
- "de1.P1.C1": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề l4qRNhy3BcIUwRupctYp) — mặc định bỏ"
- },
- "de1.P2.C4": {
-  "tf_ans": {
-   "a": true,
-   "b": false,
-   "c": true,
-   "d": true
-  },
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): (c) c̄(x) = C(x)/x = 0,0005x + 0,15 + 5/x đúng bằng biểu thức trong đề (chính lời giải ý (d) dùng biểu thức này) ⇒ Đ. Key S sai. (a) Đ, (b) S (25 triệu), (d) Đ khớp."
- }
-}
+{"de1.P3.C2": {"ly_do": "Tự giải: $h=\\frac{4000}{x^{2}}$, $S=x^{2}+\\frac{16000}{x}$, $S'=2x-\\frac{16000}{x^{2}}=0\\Leftrightarrow x^{3}=8000\\Leftrightarrow x=20$, khớp short_correct.", "short_correct": "20", "sua_boi": "muse", "xac_nhan": true}, "de1.P3.C3": {"ly_do": "short_correct cũ $20$ là tổng $HE+KF$ trong giả thiết, không phải đáp án; tối ưu cho $x=8$ (theo nguyên lý phản xạ $x/4=(20-x)/6$), $AE=\\sqrt{8^{2}+16}\\approx 8,94$ km, làm tròn đến phần chục là $8,9$ theo đúng yêu cầu đề; chính lời giải cũng kết luận $AE\\approx 8,94$ km.", "short_correct": "8,9", "sua_boi": "muse"}, "de1.P3.C4": {"explanation": "Ta có ${f}'\\left( t \\right)=500\\left( 2t-m{{e}^{-t}} \\right)$ và ${{f}'}'\\left( t \\right)=500\\left( 2+m{{e}^{-t}} \\right)$\nTốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm.$\\Leftrightarrow {f}'\\left( t \\right)$. là hàm số đồng biến trên $\\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow {{f}'}'\\left( t \\right)\\ge 0$, $\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $500\\left( 2+m{{e}^{-t}} \\right)\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow $ $2+m{{e}^{-t}}\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $m{{e}^{-t}}\\ge -2\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow m\\ge -2{{e}^{t}}\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow m\\ge -2{{e}^{0}}=-2$ (do hàm số $y=-2{{e}^{t}}$ nghịch biến trên $\\left[ 0\\,;\\,10 \\right]$).\nVậy giá trị nhỏ nhất của $m$ là $-2$.", "ly_do": "short_correct cũ $492$ là $EF$ của bài sông ghép sau lời giải, không phải đáp án; bài logistic: $f''(t)=500(2+me^{-t})\\geq 0$ trên $[0;10]\\Leftrightarrow m\\geq -2e^{t}$ với mọi $t\\in[0;10]\\Leftrightarrow m\\geq -2$ (vì $-2e^{t}$ nghịch biến, lớn nhất tại $t=0$), giá trị nhỏ nhất của $m$ là $-2$. Đã cắt toàn bộ bài sông ghép sau khỏi lời giải.", "short_correct": "-2", "sua_boi": "muse"}, "de1.P3.C6": {"ly_do": "$E'(v)=100c\\cdot\\frac{v^{2}(2v-15)}{(v-5)^{2}}<0\\Leftrightarrow 5<v<7,5$ nên khoảng giảm là $(5;7,5)$, $b-a=2,5$; short_correct cũ $7,5$ là đầu mút $b$, không phải $b-a$; chính lời giải cũng kết luận $b-a$ lớn nhất là $2,5$.", "short_correct": "2,5", "sua_boi": "muse"}}
