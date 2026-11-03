@@ -353,7 +353,12 @@
    "section": 2,
    "n": 1,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Tập xác định của hàm số $f(x)$ là $D=\\mathbb{R}$.",
+    "b": "Đạo hàm của hàm số $f(x)$ là ${f}'(x)=e^{x}-2$.",
+    "c": "Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $[0;2]$ bằng $e^{2}+e$.",
+    "d": "Đường cong $y=f(x)$ cắt đường thẳng $y=-2x$ tại hai điểm phân biệt."
+   },
    "tf_ans": {
     "a": true,
     "b": true,
@@ -361,15 +366,9 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_y:",
-    "import_web: Câu 13: mệnh đề (a) trống",
-    "import_web: Câu 13: mệnh đề (b) trống",
-    "import_web: Câu 13: mệnh đề (c) trống",
-    "import_web: Câu 13: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f(x)=e^x - 2x + e$.\nXét tính đúng sai các mệnh đề sau:\n| Xét tính đúng sai các mệnh đề sau: | Đúng | Sai |\n|---|---|---|\n| a) | Tập xác định của hàm số $f(x)$ là $D = \\mathbb{R}$. | $ $ | $ $ |\n| b) | Đạo hàm của hàm số $f(x)$ là $f'(x)=e^x - 2$. | $ $ | $ $ |\n| c) | Giá trị lớn nhất của hàm số $f(x)$ trên đoạn $\\left[ 0;2 \\right]$bằng $e^2 + e$. | $ $ | $ $ |\n| d) | Đường cong $y=f(x)$ cắt đường thẳng $y=-2x$ tại hai điểm phân biệt. | $ $ | $ $ |",
-   "explanation": "a) ĐÚNG\nHàm số $f(x)$ là hàm đa thức nên có tập xác định là $D = \\mathbb{R}$.\nb) ĐÚNG\nTa có: $f'(x)=e^x - 2$.\nc) SAI\nTa có: $f'(x)=e^x - 2$.\n${f}'(x)=0\\Leftrightarrow x=\\ln 2\\Rightarrow y=2+e-2\\ln 2$.\nTa có BBT sau đây:\n[[IMG:image11.png]]\nVậy: $\\underset{\\left[ 0;2 \\right]}{\\max}\\,f\\left( x \\right)=f\\left( 2 \\right)={{e}^{2}}-4+e$.\nd) SAI\nPhương trình hoành độ giao điểm giữa đường cong $y=f(x)$ và đường thẳng $y=-2x$ là\n${{e}^{x}}-2x+e=-2x$ $\\Leftrightarrow {{e}^{x}}+e=0$.\nPhương trình này vô nghiệm nên đường cong $y=f(x)$ không cắt đường thẳng $y=-2x$.",
+   "explanation": "a) ĐÚNG\nHàm số $f(x)=e^{x}-2x+e$ xác định với mọi $x\\in\\mathbb{R}$ nên $D=\\mathbb{R}$.\nb) ĐÚNG\nTa có: ${f}'(x)=e^{x}-2$.\nc) SAI\nTa có: ${f}'(x)=e^{x}-2$.\n${f}'(x)=0\\Leftrightarrow x=\\ln 2\\Rightarrow y=2+e-2\\ln 2$.\nVậy: $\\underset{[0;2]}{\\max}\\,f(x)=f(2)=e^{2}-4+e\\ne e^{2}+e$.\nd) SAI\nPhương trình hoành độ giao điểm giữa đường cong $y=f(x)$ và đường thẳng $y=-2x$ là $e^{x}-2x+e=-2x\\Leftrightarrow e^{x}+e=0$.\nPhương trình này vô nghiệm nên đường cong $y=f(x)$ không cắt đường thẳng $y=-2x$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -378,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D04",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."

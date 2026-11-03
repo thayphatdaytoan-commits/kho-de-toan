@@ -418,6 +418,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -461,9 +462,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian, cho hình chóp $S.ABCD$ có đáy là hình bình hành tâm O, M là điểm thay đổi trên $SO$. Tỉ số $\\frac{SM}{SO}$ sao cho $P=M{{S}^{2}}+M{{A}^{2}}+M{{B}^{2}}+M{{C}^{2}}+M{{D}^{2}}$ nhỏ nhất là bao nhiêu?",
    "explanation": "[[IMG:image10.emf]]\nGọi $I$ là điểm thỏa mãn $\\overrightarrow{SI}=4\\overrightarrow{IO}$.\nSuy ra: $P={{\\left( \\overrightarrow{MI}+\\overrightarrow{IS} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{IA} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{IB} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{IC} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{ID} \\right)}^{2}}$\n$=5M{{I}^{2}}+I{{S}^{2}}+I{{A}^{2}}+I{{B}^{2}}+I{{C}^{2}}+I{{D}^{2}}+2\\overrightarrow{MI}\\left( \\overrightarrow{IS}+\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}+\\overrightarrow{ID} \\right)$\n$=5M{{I}^{2}}+I{{S}^{2}}+I{{A}^{2}}+I{{B}^{2}}+I{{C}^{2}}+I{{D}^{2}}+2\\overrightarrow{MI}\\left( \\overrightarrow{IS}+4\\overrightarrow{IO}+\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD} \\right)$\n$=5M{{I}^{2}}+I{{S}^{2}}+I{{A}^{2}}+I{{B}^{2}}+I{{C}^{2}}+I{{D}^{2}}$. Vậy ${{P}_{\\min }}$ khi $M\\equiv I\\Rightarrow \\frac{SM}{SO}=\\frac{4}{5}=0,8$.",
    "short_value": 0.8,
@@ -476,6 +475,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -535,13 +535,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=a{{x}^{3}}+b{{x}^{2}}+cx+d$ đạt cực trị tại các điểm ${{x}_{1}},{{x}_{2}}$ thỏa mãn ${{x}_{1}}\\in \\left( -1;0 \\right),{{x}_{2}}\\in \\left( 1;2 \\right)$Biết hàm số đồng biến trên khoảng $\\left( {{x}_{1}};{{x}_{2}} \\right)$. Đồ thị hàm số cắt trục tung tại điểm có tung độ âm. Trong các số $a,b$ và $c$ có bao nhiêu số âm?",
    "explanation": "Hàm số đa thức bậc 3: $y=a{{x}^{3}}+b{{x}^{2}}+cx+d$ đạt cực trị tại các điểm ${{x}_{1}},{{x}_{2}}$ nên $a\\ne 0.$\nSuy ra: ${{x}_{1}},{{x}_{2}}$ là hai nghiệm của phương trình $y'=3a{{x}^{2}}+2bx+c=0.$\nTheo định lý Vi-et ta có: $\\left\\{ \\begin{aligned} & {{x}_{1}}+{{x}_{2}}=\\frac{-2b}{3a} \\\\ & {{x}_{1}}.{{x}_{2}}=\\frac{c}{3a} \\\\ \\end{aligned} \\right..$\nÁp dụng định lý dấu tam thức bậc 2, ta có hàm số đồng biến trên khoảng $\\left( {{x}_{1}};{{x}_{2}} \\right)\\Rightarrow a<0.$\nVì ${{x}_{1}}\\in \\left( -1;0 \\right),{{x}_{2}}\\in \\left( 1;2 \\right)$ nên $\\left\\{ \\begin{aligned} & {{x}_{1}}+{{x}_{2}}>0 \\\\ & {{x}_{1}}.{{x}_{2}}<0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\frac{-2b}{3a}>0 \\\\ & \\frac{c}{3a}<0 \\\\ \\end{aligned} \\right.$do $\\text{ }a<0$ $\\Rightarrow \\left\\{ \\begin{aligned} & b>0 \\\\ & c>0 \\\\ \\end{aligned} \\right.$\nVậy trong các số $a,b$ và $c$ có 1 số âm là $a.$",
    "short_value": 0,
-   "short_correct": "1",
+   "short_correct": "0",
    "ma": "de1.P3.C20",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -550,7 +548,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B1.D07",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."

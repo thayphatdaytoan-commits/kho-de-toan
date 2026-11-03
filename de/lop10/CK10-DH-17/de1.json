@@ -427,11 +427,14 @@
     "c": "Biết lớp ${10 {C} 6}$ có $45$ học sinh. Có $25$ học sinh không tham gia câu lạc bộ bóng đá?",
     "d": "Biết lớp ${10 {C} 6}$ có $45$ học sinh. Có $24$ học sinh không tham gia cả hai câu lạc bộ?"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Lớp $10\\,C6$ có $18$ học sinh tham gia câu lạc bộ bóng đá và $15$ học sinh tham gia câu lạc bộ bóng rổ. Biết rằng có $10$ học sinh tham gia cả hai câu lạc bộ trên. Khi đó:",
    "explanation": "a) Đúngb) Đúngc) Sai d) Sai\nKí hiệu:\n${A}$ là tập hợp học sinh tham gia câu lạc bộ bóng đá.\n${B}$ là tập hợp học sinh tham gia câu lạc bộ bóng rồ.\n${E}$ là tập hợp học sinh của lớp ${10 C 6}$.\nTa có thể biểu diễn ba tập hợp trên bằng biểu đồ Ven như hình sau:\n[[IMG:image11.png]]\nKhi đó, ${A \\cap B}$ là tập hợp học sinh tham gia cả hai câu lạc bộ trên. Số phần tử của ${A}$ là $18$, số phần tử của ${B}$ là $15$, số phần tử của tập hợp ${A \\cap B}$ là $10$.\na) Tập hợp các học sinh tham gia câu lạc bộ bóng đá và không tham gia câu lạc bộ bóng rổ là tập hợp ${A \\backslash B}$. Số phần tử của ${A \\backslash B}$ chính là số phần tử của ${A}$ trừ đi số phần tử của ${A \\cap B}$. Vậy số học sinh tham gia câu lạc bộ bóng đá và không tham gia câu lạc bộ bóng rổ là ${18-10=8}$.\nb) Tập hợp các học sinh tham gia ít nhất một trong hai câu lạc bộ trên chính là tập hợp ${A \\cup B}$. Do khi đếm số học sinh tham gia câu lạc bộ bóng đá là $18$, số học sinh tham gia câu lạc bộ bóng rổ là $15$ thì số học sinh tham gia cả hai câu lạc bộ là $10$được tính hai lần. Vậy số học sinh tham gia ít nhất một trong hai câu lạc bộ trên là ${18+15-10=23}$.\nc) Số phần tử của ${E}$ là $45$. Tập hợp các học sinh không tham gia câu lạc bộ bóng đá là phần bù của ${A}$ trong ${E}$. Vậy số học sinh không tham gia câu lạc bộ bóng đá là ${45-18=27}$.\nd) Tập hợp các học sinh không tham gia cả hai câu lạc bộ là phần bù của ${A \\cup B}$ trong ${E}$. Vậy số học sinh không tham gia cả hai câu lạc bộ là ${45-23=22}$.",
    "ma": "de1.P2.C15",
@@ -442,6 +445,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C8.B1.D01",
    "dang_toan_web": "Quy tắc đếm: Quy tắc cộng và quy tắc nhân."
@@ -458,13 +462,12 @@
    },
    "tf_ans": {
     "a": false,
+    "b": true,
+    "c": false,
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_dap_an:ad"
-   ],
+   "flags": [],
    "question": "Cho hệ bất phương trình: $\\left\\{ \\begin{array}{llllll} \\begin{aligned} & 3x+2y\\ge 9 \\\\ & x-2y\\le 3 \\\\ & x+y\\le 6 \\\\ & x\\quad \\ge 1 \\\\ \\end{aligned} \\\\ \\end{array} \\right.\\left( I \\right)$. Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Sai b) Đúngc) Sai d) Đúng\na) Miền nghiệm của hệ là miền tứ giác ${A B C D}$ với ${A(3 ; 0), B(5 ; 1), C(1 ; 5), D(1 ; 3)}$.\n[[IMG:image12.png]]\nb) $(3;2)$ là một nghiệm của hệ bất phương trình\nc) Tính giá trị của ${F=3 x-y}$ tại các cặp số ${(x ; y)}$ là toạ độ của các đỉnh tứ giác ${A B C D}$ rồi so sánh các giá trị đó, ta được ${F}$ đạt giá trị lớn nhất bằng 14 tại ${x=5, y=1}$\nd) ${F}$ đạt giá trị nhỏ nhất bằng ${-2}$ tại ${x=1, y=5}$.",
    "ma": "de1.P2.C16",
@@ -475,6 +478,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C2.B2.D04",
    "dang_toan_web": "Hệ bất phương trình bậc nhất hai ẩn và miền nghiệm."
@@ -588,7 +592,7 @@
    "question": "Cho tam giác $ABC$. Gọi $M$ là trung điểm $AB$ và $N$ là một điểm trên cạnh $AC$ sao cho $NC=2NA$. Các điểm $K$ và $D$ lần lượt là trung điểm của $MN$ và $BC$. Biểu diễn vectơ $\\overrightarrow{KD}$ theo hai vectơ $\\overrightarrow{AB};\\,\\,\\overrightarrow{AC}$.\n[[IMG:image9.emf]]",
    "explanation": "Trả lời: $\\overrightarrow{KD}=\\frac{1}{4}\\overrightarrow{AB}+\\frac{1}{3}\\overrightarrow{AC}$\nVì $K$ là trung điểm của $MN$ nên $\\overrightarrow{AK}=\\frac{1}{2}\\overrightarrow{AM}+\\frac{1}{2}\\overrightarrow{AN}=\\frac{1}{4}\\overrightarrow{AB}+\\frac{1}{6}\\overrightarrow{AC}$\nVì $D$ là trung điểm của $BC$ nên $\\overrightarrow{AD}=\\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AC}$\nTừ suy ra $\\overrightarrow{KD}=\\overrightarrow{AD}-\\overrightarrow{AK}=\\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AC}-\\frac{1}{4}\\overrightarrow{AB}-\\frac{1}{6}\\overrightarrow{AC}=\\frac{1}{4}\\overrightarrow{AB}+\\frac{1}{3}\\overrightarrow{AC}$",
    "short_value": 1,
-   "short_correct": "1",
+   "short_correct": "$\\overrightarrow{KD}=\\frac{1}{4}\\overrightarrow{AB}+\\frac{1}{3}\\overrightarrow{AC}$",
    "ma": "de1.P3.C21",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -597,6 +601,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C4.B3.D01",
    "dang_toan_web": "Tích của một số với một vectơ và các tính chất."
@@ -623,6 +628,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C6.B2.D02",
    "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."

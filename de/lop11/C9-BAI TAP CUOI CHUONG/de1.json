@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "9",
   "lesson": "on-tap",
-  "title": "Bài on-tap. Tập cuối chương 9"
+  "title": "Bài on-tap. Tập cuối chương 9",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -319,6 +320,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C8.B3.D01",
    "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
@@ -370,11 +372,11 @@
    "answer": null,
    "flags": [],
    "question": "Gieo một con xúc xắc cân đối và đồng chất 2 lần liên tiếp. Gọi biến cố ${A}$ là \"Số chấm xuất hiện trên xúc xắc là số lẻ\" và biến cố ${B}$ là \"Số chấm xuất hiện trên xúc xắc ở lần thứ hai lớn hơn 3 \".",
-   "explanation": "a) Biến cố là \"Số chấm xuất hiện trên xúc xấc ở lần thứ nhất là số chẵn\".\nBiến cố là \"Số chấm xuất hiện trên xúc xấc ở lần thứ hai nhỏ hơn hoă̆c bằng 3 \".\nb)\nc)\nd)",
+   "explanation": "a) Biến cố $\\widehat{A}$ là \"Số chấm xuất hiện trên xúc xấc ở lần thứ nhất là số chẵn\".\nBiến cố $\\widehat{B}$ là \"Số chấm xuất hiện trên xúc xấc ở lần thứ hai nhỏ hơn hoă̆c bằng 3 \".\nb) $P(\\widehat{A})=\\frac{n(\\widehat{A})}{n(\\text{Ω})}=\\frac{18}{36}=\\frac{1}{2}$\nc) $P(\\widehat{B})=\\frac{n(\\widehat{B})}{n(\\text{Ω})}=\\frac{18}{36}=\\frac{1}{2}.$\nd) $P(\\overline{AB})=\\frac{n(\\overline{AB})}{n(\\text{Ω})}=\\frac{9}{36}=\\frac{1}{4}.$",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 5,
-    "so_dau_bang": 0,
+    "so_dau_bang": 9,
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
@@ -489,7 +491,7 @@
    "flags": [],
    "question": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Gọi ${A}$ là biến cố \"tổng số chấm xuất hiện trên hai con xúc xắc chia hết cho 10 ”. Tính xác suất của biến cố ${A}$.",
    "explanation": "Số trường hợp thuận lợi của biến cố ${A: A=\\{(4 ; 6) ;(5 ; 5) ;(6 ; 4)\\}}$.\nXác suất của biến cố ${A: P(A)=\\frac{3}{36}=\\frac{1}{12}}$.",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "\\dfrac{1}{12}",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -514,7 +516,7 @@
    "flags": [],
    "question": "Cho hai biến cố ${A}$ và ${B}$ độc lập với nhau.\nBiết ${P(A)=0,5}$ và ${P(A B)=0,15}$. Tính xác suất của biến cố ${A \\cup B}$.",
    "explanation": "${P(A B)=P(A) P(B) \\Leftrightarrow 0,15=0,5 P(B) \\Rightarrow P(B)=0,3}$.\n${P(A \\cup B)=P(A)+P(B)-P(A B)=0,5+0,3-0,15=0,65 \\text {. } }$",
-   "short_value": null,
+   "short_value": 0.65,
    "short_correct": "0,65",
    "ma": "de1.P3.C2",
    "dac_trung": {
@@ -539,7 +541,7 @@
    "flags": [],
    "question": "Cho hai biến cố ${A}$ và ${B}$ độc lập với nhau.\nBiết ${P(B)=0,3}$ và ${P(A \\cup B)=0,6}$. Tính xác suất của biến cố ${A}$.",
    "explanation": "${P(A \\cup B)=P(A)+P(B)-P(A B) \\Leftrightarrow 0,6=P(A)+0,3-0,3 P(A) \\Rightarrow P(A)=\\frac{3}{7}}$.",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "\\dfrac{3}{7}",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -564,7 +566,7 @@
    "flags": [],
    "question": "Tung đồng thời một đồng xu và một cục xúc xắc 12 mặt (1-12). Tính xác suất:\nXuất hiện mặt ngửa và mặt là bội của 3 .",
    "explanation": "Xác suất xuất hiện mặt ngửa là $\\frac{1}{2}$\nGọi $C$ là biến cố \"Xúc xắc xuất hiện mặt là bội của 3\": ${P(C)=\\frac{4}{12}=\\frac{1}{3} \\text {. } }$\nXác suất xuất hiện mặt ngửa và mặt là bội của 3 là:${P(A C)=P(A) \\cdot P(C)=\\frac{1}{2} \\cdot \\frac{1}{3}=\\frac{1}{6} .}$",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "\\dfrac{1}{6}",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -589,8 +591,8 @@
    "flags": [],
    "question": "An và Bình không quen biết nhau và học ở hai nơi khác nhau. Xác suất để An và Bình đạt điểm giỏi về môn Toán trong kì thi cuối năm tương ứng là 0,92 và 0,88 .\na) Tính xác suất để cả An và Bình đều đạt điểm giỏi.\nb) Tính xác suất để cả An và Bình đều không đạt điểm giỏi.",
    "explanation": "a) Gọi ${A}$ là biến cố: \"An đạt điểm giỏi về môn Toán\".\nGọi ${B}$ là biến cố: \"Bình đạt điểm giỏi về môn Toán\".\nDễ thấy ${A, B}$ là hai biến cố độc lập, khi đó ${A B}$ là biến cố: \"Cả An và Bình đều đạt điểm giỏi môn Toán\".\nTa có: ${P(A B)=P(A) \\cdot P(B)=0,92 \\cdot 0,88=0,8096}$.\nb) Ta có ${\\bar{A} \\bar{B}}$ là biến cố: \"Cả An và Bình đều không đạt điểm giỏi môn Toán\".\nVì hai biến cố ${\\bar{A}, \\bar{B}}$ độc lập nên: ${P(\\overline{A B})=P(\\bar{A}) \\cdot P(\\bar{B})=0,08 \\cdot 0,12=0,0096}$.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 0.0096,
+   "short_correct": "0,0096",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -612,8 +614,8 @@
    "flags": [],
    "question": "Hai xạ thủ cùng bắn vào bia một cách độc lập với nhau. Xác suất bắn trúng bia của xạ thủ thứ nhất bằng ${\\frac{1}{2}}$, xác suất bắn trúng bia của xạ thủ thứ hai bằng ${\\frac{1}{3}}$. Tính xác suất của mỗi biến cố:\na) Xạ thủ thứ nhất bắn trúng bia, xạ thủ thứ hai bắn trật bia.\nb) Cả hai xạ thủ đều bắn không trúng bia.",
    "explanation": "a) Gọi ${A}$ là biến cố: \"Xạ thủ thứ nhất bắn trúng bia\" và ${B}$ là biến cố: \"Xạ thủ thứ hai bắn trúng bia\". Khi đó ${A, B, \\bar{A}, \\bar{B}}$ là các biến cố độc lập đôi một với nhau.\nTa có: ${P(\\bar{A})=1-\\frac{1}{2}=\\frac{1}{2}, P(\\bar{B})=1-\\frac{1}{3}=\\frac{2}{3}}$.\nXác suất biến cố ${A \\bar{B}}$ là: ${P(A \\bar{B})=P(A) \\cdot P(\\bar{B})=\\frac{1}{2} \\cdot \\frac{2}{3}=\\frac{1}{3}}$.\nb) Xác suất của biến cố ${\\bar{A} \\bar{B}}$ là: ${P(\\bar{A} \\bar{B})=P(\\bar{A}) \\cdot P(\\bar{B})=\\frac{1}{2} \\cdot \\frac{2}{3}=\\frac{1}{3}}$.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 1,
+   "short_correct": "1",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 4,

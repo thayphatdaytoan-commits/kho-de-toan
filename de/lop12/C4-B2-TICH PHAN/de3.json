@@ -328,9 +328,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Đồ thị của hàm số $y=f\\left( x \\right)$ trên đoạn $\\left[ -3;\\,5 \\right]$ như hình vẽ dưới đây(phần cong của đồ thị là một phần của Parabol $y=a{{x}^{2}}+bx+c$). Tính $I=\\int\\limits_{-2}^{3}{f\\left( x \\right)\\text{d}x}$.\n[[IMG:image15.png]].",
    "explanation": "[[IMG:image16.png]].\nTa có $I=\\int\\limits_{-2}^{3}{f\\left( x \\right)\\text{d}x}$ bằng diện tích hình phẳng giới hạn bởi ${{\\Delta }_{1}}$, ${{\\Delta }_{2}}$, Parabol $\\left( P \\right)$, $x=-2$, $x=3$.\nVới ${{\\Delta }_{1}}$qua $E\\left( -3;\\,0 \\right)$, $D\\left( 0;4 \\right)$nên có pt: $y=\\frac{4}{3}x+4$; ${{\\Delta }_{2}}$ qua $D\\left( 0;4 \\right)$, $C\\left( 1;\\,3 \\right)$ nên có phương trình: $y=-x+4$; $\\left( P \\right):y=a{{x}^{2}}+bx+c$ qua $C\\left( 1;\\,3 \\right)$và có đỉnh $A\\left( 2;4 \\right)$nên $\\left\\{ \\begin{aligned} & a+b+c=3 \\\\ & \\frac{-b}{2\\text{a}}=2 \\\\ & 4\\text{a}+2b+c=4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-1 \\\\ & b=4 \\\\ & c=0 \\\\ \\end{aligned} \\right.\\Rightarrow y=-{{x}^{2}}+4x$.\nVậy $I=\\int\\limits_{-2}^{3}{f\\left( x \\right)\\text{d}x}=\\int\\limits_{-2}^{0}{\\left( \\frac{4}{3}x+4 \\right)\\text{d}x+\\int\\limits_{0}^{1}{\\left( -x+4 \\right)\\text{d}x+\\int\\limits_{1}^{3}{\\left( -{{x}^{2}}+4x \\right)\\text{d}x}}=\\frac{97}{6}}$.",
    "options": [
@@ -347,6 +345,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B2.D03",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -359,7 +358,7 @@
     "a": "Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, $Ox$ và 2 đường thẳng $x=0,\\,\\,x=1$ bằng 1.",
     "b": "Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $\\Delta :y=2x$ và 2 đường thẳng $x=0,\\,\\,x=2$ bằng 3.",
     "c": "Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $d:y=3x-2$bằng 4.",
-    "d": "Cho parabol $\\left( P \\right):y={{x}^{2}}$ và hai điểm $A,B$ thuộc $\\left( P \\right)$ sao cho $AB=2$. Diện tích lớn"
+    "d": "Cho parabol $\\left( P \\right):y={{x}^{2}}$ và hai điểm $A,B$ thuộc $\\left( P \\right)$ sao cho $AB=2$. Diện tích lớn nhất của hình phẳng giới hạn bởi $\\left( P \\right)$ và đường thẳng $AB$ là $\\frac{4}{3}$."
    },
    "tf_ans": {
     "a": false,
@@ -371,8 +370,8 @@
    "flags": [
     "dung_sai_suy_tu_loi_giai_can_xac_nhan"
    ],
-   "question": "Cho parabol $\\left( P \\right):y={{x}^{2}}.$\nnhất của hình phẳng giới hạn bởi $\\left( P \\right)$và đường thẳng $AB$ là $\\frac{4}{3}.$",
-   "explanation": "a) Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, $Ox$ và 2 đường thẳng$x=0,\\,\\,x=1$ được xác định bởi công thức:$S=\\int\\limits_{0}^{1}{{{x}^{2}}\\text{d}x}=\\frac{1}{3}.$\nVậy khẳng định a) là sai.\nb) Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $\\Delta :y=2x$ và 2 đường thẳng $x=0,\\,\\,x=2$ được xác định bởi công thức: $S=\\int\\limits_{0}^{2}{\\left| {{x}^{2}}-2x \\right|\\text{d}x}=\\frac{4}{3}.$\nVậy khẳng định b) là sai.\nc) Xét phương trình hoành độ giao điểm của đường thẳng $d$ và đồ thị $\\left( P \\right):$\n${{x}^{2}}=3x-2\\Leftrightarrow {{x}^{2}}-3x+2=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=2 \\\\ \\end{aligned} \\right..$\nDiện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $d:y=3x-2$ được xác định bởi công thức: $S=\\int\\limits_{1}^{2}{\\left| {{x}^{2}}-3x+2 \\right|\\text{d}x}=\\frac{1}{6}.$\nVậy khẳng định c) là sai.\nd) Gọi phương trình đường thẳng $AB$là: $y=ax+b$ $\\left( a,b\\in \\mathbb{R} \\right)$\nPhương trình giao điểm của $AB$và $\\left( P \\right)$là: ${{x}^{2}}-ax-b=0$\nĐể có 2 điểm $A,B$ thì ${{a}^{2}}+4b>0$. khi đó: $\\left\\{ \\begin{aligned} & A\\left( {{x}_{1}};a{{x}_{1}}+b \\right) \\\\ & B\\left( {{x}_{2}};a{{x}_{2}}+b \\right) \\\\ & {{x}_{1}}+{{x}_{2}}=a \\\\ & {{x}_{1}}{{x}_{2}}=-b \\\\ \\end{aligned} \\right.$\nNên $AB=2\\Leftrightarrow \\sqrt{\\left( {{a}^{2}}+1 \\right)}\\left| {{x}_{2}}-{{x}_{1}} \\right|=2$\nGiả sử ${{x}_{2}}>{{x}_{1}}$ ta có $\\left| {{x}_{2}}-{{x}_{1}} \\right|=\\frac{2}{\\sqrt{\\left( {{a}^{2}}+1 \\right)}}\\le 2$\nMặt khác: $\\left| {{x}_{2}}-{{x}_{1}} \\right|=\\sqrt{{{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{{{a}^{2}}+4b}$\nKhi đó $S=\\int\\limits_{{{x}_{1}}}^{{{x}_{2}}}{ax+b-{{x}^{2}}}\\text{d}x=\\frac{a}{2}\\left( x_{2}^{2}-x_{1}^{2} \\right)+b\\left( {{x}_{2}}-{{x}_{1}} \\right)-\\frac{1}{3}\\left( x_{2}^{3}-x_{1}^{3} \\right)$\n$=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{a}{2}\\left( {{x}_{2}}+{{x}_{1}} \\right)+b-\\frac{1}{3}\\left( x_{2}^{2}+{{x}_{1}}{{x}_{2}}+x_{1}^{2} \\right) \\right]$\n$=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{a}{2}.a+b-\\frac{1}{3}\\left( {{a}^{2}}+b \\right) \\right]$ $=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{{{a}^{2}}}{b}+\\frac{2b}{3} \\right]$ $=\\frac{{{a}^{2}}+4b}{6}\\left( {{x}_{2}}-{{x}_{1}} \\right)$ $=\\frac{{{\\left( {{x}_{2}}-{{x}_{1}} \\right)}^{3}}}{6}\\le \\frac{8}{6}=\\frac{4}{3}$.\nSuy ra: ${{S}_{max}}=\\frac{4}{3}$ khi $\\left\\{ \\begin{aligned} & a=0 \\\\ & {{x}_{2}}-{{x}_{1}}=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{1}}+{{x}_{2}}=0 \\\\ & {{x}_{1}}={{x}_{2}}=1 \\\\ \\end{aligned} \\right.$ (thỏa mãn vì $\\left( P \\right)$ có tính đối xứng)\n$\\Rightarrow \\left\\{ \\begin{aligned} & A\\left( 1;1 \\right) \\\\ & B\\left( -1;1 \\right) \\\\ \\end{aligned} \\right.$ hoặc $\\left\\{ \\begin{aligned} & A\\left( -1;1 \\right) \\\\ & B\\left( 1;1 \\right) \\\\ \\end{aligned} \\right.$.\nVậy khẳng định d) là đúng.",
+   "question": "Cho parabol $\\left( P \\right):y={{x}^{2}}$.",
+   "explanation": "a) Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, $Ox$ và 2 đường thẳng$x=0,\\,\\,x=1$ được xác định bởi công thức:$S=\\int\\limits_{0}^{1}{{{x}^{2}}\\text{d}x}=\\frac{1}{3}.$\nVậy khẳng định a) là sai.\nb) Diện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $\\Delta :y=2x$ và 2 đường thẳng $x=0,\\,\\,x=2$ được xác định bởi công thức: $S=\\int\\limits_{0}^{2}{\\left| {{x}^{2}}-2x \\right|\\text{d}x}=\\frac{4}{3}.$\nVậy khẳng định b) là sai.\nc) Xét phương trình hoành độ giao điểm của đường thẳng $d$ và đồ thị $\\left( P \\right):$\n${{x}^{2}}=3x-2\\Leftrightarrow {{x}^{2}}-3x+2=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=2 \\\\ \\end{aligned} \\right..$\nDiện tích hình phẳng giới hạn bởi đồ thị $\\left( P \\right)$, đường thẳng $d:y=3x-2$ được xác định bởi công thức: $S=\\int\\limits_{1}^{2}{\\left| {{x}^{2}}-3x+2 \\right|\\text{d}x}=\\frac{1}{6}.$\nVậy khẳng định c) là sai.\nd) Gọi phương trình đường thẳng $AB$là: $y=ax+b$ $\\left( a,b\\in \\mathbb{R} \\right)$\nPhương trình giao điểm của $AB$và $\\left( P \\right)$là: ${{x}^{2}}-ax-b=0$\nĐể có 2 điểm $A,B$ thì ${{a}^{2}}+4b>0$. khi đó: $\\left\\{ \\begin{aligned} & A\\left( {{x}_{1}};a{{x}_{1}}+b \\right) \\\\ & B\\left( {{x}_{2}};a{{x}_{2}}+b \\right) \\\\ & {{x}_{1}}+{{x}_{2}}=a \\\\ & {{x}_{1}}{{x}_{2}}=-b \\\\ \\end{aligned} \\right.$\nNên $AB=2\\Leftrightarrow \\sqrt{\\left( {{a}^{2}}+1 \\right)}\\left| {{x}_{2}}-{{x}_{1}} \\right|=2$\nGiả sử ${{x}_{2}}>{{x}_{1}}$ ta có $\\left| {{x}_{2}}-{{x}_{1}} \\right|=\\frac{2}{\\sqrt{\\left( {{a}^{2}}+1 \\right)}}\\le 2$\nMặt khác: $\\left| {{x}_{2}}-{{x}_{1}} \\right|=\\sqrt{{{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{{{a}^{2}}+4b}$\nKhi đó $S=\\int\\limits_{{{x}_{1}}}^{{{x}_{2}}}{ax+b-{{x}^{2}}}\\text{d}x=\\frac{a}{2}\\left( x_{2}^{2}-x_{1}^{2} \\right)+b\\left( {{x}_{2}}-{{x}_{1}} \\right)-\\frac{1}{3}\\left( x_{2}^{3}-x_{1}^{3} \\right)$\n$=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{a}{2}\\left( {{x}_{2}}+{{x}_{1}} \\right)+b-\\frac{1}{3}\\left( x_{2}^{2}+{{x}_{1}}{{x}_{2}}+x_{1}^{2} \\right) \\right]$\n$=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{a}{2}.a+b-\\frac{1}{3}\\left( {{a}^{2}}+b \\right) \\right]$ $=\\left( {{x}_{2}}-{{x}_{1}} \\right)\\left[ \\frac{{{a}^{2}}}{6}+\\frac{2b}{3} \\right]$ $=\\frac{{{a}^{2}}+4b}{6}\\left( {{x}_{2}}-{{x}_{1}} \\right)$ $=\\frac{{{\\left( {{x}_{2}}-{{x}_{1}} \\right)}^{3}}}{6}\\le \\frac{8}{6}=\\frac{4}{3}$.\nSuy ra: ${{S}_{max}}=\\frac{4}{3}$ khi $\\left\\{ \\begin{aligned} & a=0 \\\\ & {{x}_{2}}-{{x}_{1}}=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{1}}+{{x}_{2}}=0 \\\\ & {{x}_{1}}={{x}_{2}}=1 \\\\ \\end{aligned} \\right.$ (thỏa mãn vì $\\left( P \\right)$ có tính đối xứng)\n$\\Rightarrow \\left\\{ \\begin{aligned} & A\\left( 1;1 \\right) \\\\ & B\\left( -1;1 \\right) \\\\ \\end{aligned} \\right.$ hoặc $\\left\\{ \\begin{aligned} & A\\left( -1;1 \\right) \\\\ & B\\left( 1;1 \\right) \\\\ \\end{aligned} \\right.$.\nVậy khẳng định d) là đúng.",
    "ma": "de3.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 20,
@@ -381,6 +380,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D06",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -480,6 +480,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D06",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -542,7 +543,7 @@
    "flags": [],
    "question": "Cho phần vật thể giới hạn bởi hai mặt phẳng $x=1$ và $x=\\sqrt{7}$, biết rằng khi cắt vật thể bởi mặt phẳng vuông góc với trục $Ox$ tại điểm có hoành độ $x$ ($1\\le x\\le \\sqrt{7}$) thì được thiết diện là một hình chữ nhật có độ dài hai cạnh là $2x$ và $\\sqrt{{{x}^{2}}+1}$. Thể tích của phần vật thể đã cho bằng $\\frac{a\\sqrt{b}}{c}(c$ là số nguyên tố, $b<6;\\,a,b,c\\in \\mathbb{N})$. Tính $a.b.c$?",
    "explanation": "Đáp số: 84\nDiện tích thiết diện là: $S(x)=2x.\\sqrt{{{x}^{2}}+1}$.\nThể tích phần vật thể đã cho là: $V=\\int\\limits_{1}^{\\sqrt{7}}{2x.\\sqrt{{{x}^{2}}+1}\\text{d}x}$.\nĐặt $t=\\sqrt{{{x}^{2}}+1}\\Rightarrow {{t}^{2}}={{x}^{2}}+1\\Rightarrow t\\text{d}t=x\\text{d}x.$\nVới $x=1\\Rightarrow t=\\sqrt{2};\\text{ }\\,x=\\sqrt{7}\\Rightarrow t=2\\sqrt{2}$.\n$\\Rightarrow V=\\int\\limits_{\\sqrt{2}}^{2\\sqrt{2}}{{{t}^{2}}\\text{d}t}=\\left. \\frac{{{t}^{3}}}{3} \\right|_{\\sqrt{2}}^{2\\sqrt{2}}=\\frac{14\\sqrt{2}}{3}.$\nVậy $a=14;\\,b=2;\\,c=3$ nên $a.b.c=84$.",
-   "short_value": 168,
+   "short_value": 84,
    "short_correct": "168",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -552,6 +553,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C4.B2.D05",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."

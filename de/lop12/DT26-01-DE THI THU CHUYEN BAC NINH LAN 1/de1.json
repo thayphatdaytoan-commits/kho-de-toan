@@ -295,6 +295,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D08",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -495,8 +496,8 @@
    ],
    "question": "Cho hai vectơ $\\vec{a},\\vec{b}$ sao cho $\\left| \\vec{a}\\left| =\\sqrt{2}, \\right|\\vec{b} \\right|=2$ và hai véctơ $\\vec{x}=\\vec{a}+\\vec{b},\\vec{y}=2\\vec{a}-\\vec{b}$ vuông góc với nhau. Tính góc giữa hai véc tơ $\\vec{a}$ và $\\vec{b}$ (đơn vị độ).",
    "explanation": "Trả lời: 90\nTa có: $\\vec{x}\\bot \\vec{y}\\Rightarrow \\vec{x}.\\vec{y}=0\\Leftrightarrow \\left( \\vec{a}+\\vec{b} \\right)\\left( 2\\vec{a}-\\vec{b} \\right)=0\\Leftrightarrow 2{{a}^{2}}-{{b}^{2}}+\\vec{a}\\vec{b}=0$\n$\\Leftrightarrow \\vec{a}.\\vec{b}=2.{{(\\sqrt{2})}^{2}}-{{2}^{2}}=0\\Rightarrow \\vec{a}\\bot \\vec{b}$.\nVậy góc giữa véc tơ $\\vec{a}$ và $\\vec{b}$ bằng 90 độ.",
-   "short_value": 0,
-   "short_correct": "0",
+   "short_value": 90,
+   "short_correct": "90",
    "ma": "de1.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -515,11 +516,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tính tổng tất cả các giá trị nguyên của tham số $m$ để hàm số $y=\\frac{{{x}^{2}}+\\left( m-1 \\right)x+3-2m}{x+m}$ đạt cực tiểu tại $x=-1$.",
-   "explanation": "Trả lời: 2\nTa có: $y=\\frac{{{x}^{2}}+\\left( m-1 \\right)x+3-2m}{x+m}=x-1+\\frac{3-m}{x+m}\\Rightarrow {y}'=1-\\frac{3-m}{{{(x+m)}^{2}}}\\Rightarrow {y}''=\\frac{2\\left( 3-m \\right)}{{{(x+m)}^{3}}}$.\nĐể hàm số đạt cực tiểu tại $x=-1$ thì:\n$\\left\\{ \\begin{array}{llllll} {y}'\\left( 1 \\right)=0 \\\\ {y}''\\left( 1 \\right)>0 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} 1-\\frac{3-m}{{{(-1+m)}^{2}}}=0 \\\\ \\frac{2\\left( 3-m \\right)}{{{(-1+m)}^{3}}}>0 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left[ \\begin{aligned} & m=-1 \\\\ & m=2 \\\\ \\end{aligned} \\right. \\\\ & 1<m<3 \\\\ \\end{aligned} \\right.\\Rightarrow m=2. \\right. \\right.$\nVậy $m=2$ thoả mãn điều kiện.",
+   "explanation": "Trả lời: 2\nTa có: $y=\\frac{{{x}^{2}}+\\left( m-1 \\right)x+3-2m}{x+m}=x-1+\\frac{3-m}{x+m}\\Rightarrow {y}'=1-\\frac{3-m}{{{(x+m)}^{2}}}\\Rightarrow {y}''=\\frac{2\\left( 3-m \\right)}{{{(x+m)}^{3}}}$.\nĐể hàm số đạt cực tiểu tại $x=-1$ thì:\n$\\left\\{ \\begin{array}{llllll} {y}'\\left( -1 \\right)=0 \\\\ {y}''\\left( -1 \\right)>0 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} 1-\\frac{3-m}{{{(-1+m)}^{2}}}=0 \\\\ \\frac{2\\left( 3-m \\right)}{{{(-1+m)}^{3}}}>0 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left[ \\begin{aligned} & m=-1 \\\\ & m=2 \\\\ \\end{aligned} \\right. \\\\ & 1<m<3 \\\\ \\end{aligned} \\right.\\Rightarrow m=2. \\right. \\right.$\nVậy $m=2$ thoả mãn điều kiện.",
    "short_value": 2,
    "short_correct": "2",
    "ma": "de1.P3.C2",
@@ -530,6 +529,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D06",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -541,9 +541,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một chiếc ô tô được đặt trên mặt đáy dưới của một khung sắt dạng hình hộp chữ nhật với đáy trên là hình chữ nhật $ABCD$, mặt phẳng $\\left( ABCD \\right)$ song song với mặt phẳng nằm ngang. Khung sắt đó được đặt vào móc $E$ của chiếc cần cẩu sao cho các đoạn dây cáp $EA;EB;EC;ED$ bằng nhau và cùng tạo với mặt phẳng ($ABCD$) một góc $\\alpha $.\n[[IMG:image5.jpg]]\nChiếc cần cẩu kéo khung sắt lên theo phương thẳng đứng. Biết các lực căng ${{\\vec{F}}_{1}};{{\\vec{F}}_{2}};{{\\vec{F}}_{3}};{{\\vec{F}}_{4}}$ đều có cường độ là 4800 N, trọng lượng của cả khung sắt chứa xe ô tô là $7200\\sqrt{6}\\text{ }\\!\\!~\\!\\!\\text{ N}$. Tính $\\text{sin}\\alpha $. (làm tròn kết quả đến chữ số hàng phần trăm).",
    "explanation": "Trả lời: 0,92\n[[IMG:image13.jpg]]\nTa có: $\\vec{P}={{\\vec{F}}_{1}}+{{\\vec{F}}_{2}}+{{\\vec{F}}_{3}}+{{\\vec{F}}_{4}}=4{{\\vec{F}}_{1}}.\\sin \\alpha \\Rightarrow \\left| {\\vec{P}} \\right|=4\\left| {{{\\vec{F}}}_{1}} \\right|.\\text{sin}\\alpha \\Leftrightarrow 7200\\sqrt{6}=4.4800.\\text{sin}\\alpha $\n$\\Leftrightarrow \\text{sin}\\alpha =\\frac{7200\\sqrt{6}}{4.4800}\\approx 0,92$.",
    "short_value": 0.92,
@@ -556,6 +554,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D09",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -567,9 +566,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình tứ diện $ABCD$ có tất cả các cạnh bằng 6. Gọi $M,N$ lần lượt là trung điểm của $CA,CB.$ $P$ là điểm trên cạnh $BD$ sao cho $BP=2PD$. Gọi $\\left( H \\right)$ là hình giới hạn bởi giao tuyến của mặt phẳng ($MNP$) với các mặt của tứ diện $ABCD$. Tính diện tích hình ($H$) (kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Trả lời: 8,93\n[[IMG:image14.png]]\nDễ thấy $MN//AB\\Rightarrow \\left( MNP \\right)//AB$.\nGọi $Q$ là giao điểm của ($MNP$) với $AD\\Rightarrow \\left( MNPQ \\right)//AB\\Leftrightarrow PQ//AB\\Rightarrow \\frac{DQ}{DA}=\\frac{DP}{DB}=\\frac{1}{3}$.\nVậy hình $\\left( H \\right)$ giới hạn bởi giao tuyến của mặt phẳng $\\left( MNP \\right)$ với các mặt của tứ diện $ABCD$ là tứ giác $MNPQ$.\nXét tam giác $ACD$ có $\\left\\{ \\begin{array}{llllll} \\frac{AM}{AC}=\\frac{1}{2}\\Rightarrow AM=3 \\\\ \\frac{AQ}{AD}=\\frac{2}{3}\\Rightarrow AQ=4 \\\\ \\end{array} \\right.$.\nTam giác $AMQ$ có $M{{Q}^{2}}=A{{M}^{2}}+A{{Q}^{2}}-2.AM.AQ.\\text{cos}A$\n$\\Rightarrow MQ=\\sqrt{A{{M}^{2}}+A{{Q}^{2}}-2.AM.AQ.\\text{cos}A}=\\sqrt{13}$.\nTương tự, $PN=\\sqrt{P{{B}^{2}}+B{{N}^{2}}-2PB.BN.\\text{cos}B}=\\sqrt{13}$.\nXét tam giác $ADB$ có $QP//AB\\Rightarrow \\frac{QP}{AB}=\\frac{QD}{AD}=\\frac{DP}{DB}=\\frac{1}{3}\\Rightarrow QP=2\\frac{QP}{AB}=\\frac{1}{3}\\Rightarrow QP=2$.\nXét tam giác $ABC$ có $MN//AB\\Rightarrow \\frac{MN}{AB}=\\frac{CM}{CA}=\\frac{CN}{CB}=\\frac{1}{2}\\Rightarrow MN=3$.\nXét tứ giác $MNPQ$ có $\\left\\{ \\begin{array}{llllll} QP//MN \\\\ QM=PN=\\sqrt{13} \\\\ \\end{array}\\Rightarrow \\right.$ tứ giác $MNPQ$ là hình thang cân.\n[[IMG:image15.jpg]]Kẻ đường cao $QI,PJ~\\left( I,J\\in MN \\right)$, khi đó ta có:\n$QP=IJ\\Rightarrow MI=JN=\\frac{MN-PQ}{2}=\\frac{1}{2}$\n$\\Rightarrow QI=PJ=\\sqrt{Q{{M}^{2}}-M{{I}^{2}}}=\\sqrt{{{(\\sqrt{13})}^{2}}-{{\\left( \\frac{1}{2} \\right)}^{2}}}=\\frac{\\sqrt{51}}{2}$\n$\\Rightarrow {{S}_{MNPQ}}=QI.\\frac{QP+MN}{2}=\\frac{5\\sqrt{51}}{4}\\approx 8,93$.",
    "short_value": 8.93,
@@ -582,6 +579,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -593,9 +591,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một người đàn ông muốn chèo thuyền ở vị trí $A$ tới điểm $B$ về phía hạ lưu bờ đối diện trên một bờ sông thẳng rộng 3 km (như hình vẽ). Anh chèo thuyền đến một điểm $D$ giữa $C$ và $B$ và sau đó chạy đến $B$. Biết anh ấy có thể chèo thuyện $6\\text{ }\\!\\!~\\!\\!\\text{ km}/\\text{h}$, chạy $8\\text{ }\\!\\!~\\!\\!\\text{ km}/\\text{h}$ và quãng đường $BC=8\\text{ }\\!\\!~\\!\\!\\text{ km}$. Biết tốc độ của dòng nước là không đáng kể so với tốc độ chèo thuyền của người đàn ông. Khoảng thời gian ngắn nhất (đơn vị: giờ) để người đàn ông đến $B$ là $a+\\frac{b}{c}\\sqrt{d}$ trong đó $a,b,c,d\\in {{\\mathbb{N}}^{\\text{*}}},\\frac{b}{c}$ là phân số tối giản và $d$ là số nguyên tố. Giá trị của $a+b+c+d$ bằng bao nhiêu?\n[[IMG:image6.jpg]]",
    "explanation": "Trả lời: 17\nGọi $CD=x\\left( \\text{km} \\right)\\Rightarrow DB=8-x\\left( \\text{km} \\right)$, điều kiện $0\\le x\\le 8$. Khi đó, ta có:\n$AD=\\sqrt{{{3}^{2}}+{{x}^{2}}}=\\sqrt{{{x}^{2}}+9}\\Rightarrow {{t}_{AD}}=\\frac{\\sqrt{{{x}^{2}}+9}}{6}$.\n$DB=8-x\\Rightarrow {{t}_{DB}}=\\frac{8-x}{8}$.\n$\\Rightarrow t={{t}_{AD}}+{{t}_{DB}}=\\frac{\\sqrt{{{x}^{2}}+9}}{6}+\\frac{8-x}{8}=f\\left( x \\right)$.\nLại có: ${f}'\\left( x \\right)=\\frac{x}{6\\sqrt{{{x}^{2}}+9}}-\\frac{1}{8},{f}'\\left( x \\right)=0\\Leftrightarrow x=\\frac{9}{\\sqrt{7}}$.\nLập bảng biến thiên của hàm số $f\\left( x \\right)$ với $0\\le x\\le 8$, ta có:\n[[IMG:image16.png]]\nTừ đó, ta thấy $f{{(x)}_{\\text{min }\\!\\!~\\!\\!\\text{ }}}=\\frac{8+\\sqrt{7}}{8}=1+\\frac{\\sqrt{7}}{8}$ khi $x=\\frac{9}{\\sqrt{7}}$.\nHay $a=1,b=1,c=8,d=7\\Rightarrow a+b+c+d=17$.",
    "short_value": 17,
@@ -608,6 +604,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -619,9 +616,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình lăng trụ $ABC.{A}'{B}'{C}'$ có đáy là tam giác đều cạnh 2. Hình chiếu vuông góc của ${A}'$ lên mặt phẳng $\\left( ABC \\right)$ trùng với trọng tâm tam giác $ABC$. Biết khoảng cách giữa hai đường thẳng $A{A}'$ và $BC$ bằng $\\frac{\\sqrt{3}}{2}$. Tính thể tích $V$ của khối lăng trụ $ABC.{A}'{B}'{C}'$ (kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Trả lời: 1,15\n[[IMG:image17.jpg]]\nGọi $G$ là trọng tâm tam giác $ABC,\\text{ }\\!\\!~\\!\\!\\text{ }\\!\\!~\\!\\!\\text{ }I$ là trung điểm $BC,\\text{ }\\!\\!~\\!\\!\\text{ }\\!\\!~\\!\\!\\text{ }J$ là hình chiếu của $G$ lên $A{A}'$, $K$ là hình chiếu của $I$ lên $BC$.\nTa có: $A{A}'//B{B}'\\Rightarrow d\\left( A{A}',BC \\right)=d\\left( A{A}',\\left( B{B}'{C}'C \\right) \\right)=d\\left( A,\\left( B{B}'{C}'C \\right) \\right)$.\nVì $\\Delta ABC$ đều nên $AI\\bot BC$, mà ${A}'G\\bot \\left( ABC \\right)\\Rightarrow {A}'G\\bot BC$\n$\\Rightarrow BC\\bot \\left( A{A}'I \\right)\\Rightarrow IK\\bot BC$, suy ra $IK=d\\left( A,\\left( BB{C}'C \\right) \\right)=\\frac{\\sqrt{3}}{2}$.\nXét tam giác $AIK$ có $JG//IK\\Rightarrow \\frac{JG}{KI}=\\frac{AG}{AI}=\\frac{2}{3}\\Rightarrow JG=\\frac{\\sqrt{3}}{3}$.\nTam giác $ABC$ có $AG=\\frac{2}{3}AI=\\frac{2}{3}.\\frac{\\sqrt{3}}{2}.AB=\\frac{2\\sqrt{3}}{3}$.\nXét tam giác $AG{A}'$ có $\\frac{1}{J{{G}^{2}}}=\\frac{1}{A{{G}^{2}}}+\\frac{1}{{A}'{{G}^{2}}}\\Rightarrow {A}'G=\\frac{2}{3}$.\n${{V}_{ABC.{A}'{B}'{C}'}}={A}'G.{{S}_{ABC}}=\\frac{2}{3}.\\frac{\\sqrt{3}}{4}{{.2}^{2}}=\\frac{2\\sqrt{3}}{3}\\approx 1,15$.",
    "short_value": 1.15,
@@ -634,6 +629,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B3.D01",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."

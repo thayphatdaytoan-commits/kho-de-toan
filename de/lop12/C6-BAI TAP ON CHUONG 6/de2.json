@@ -394,9 +394,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một cuộc thi khoa học có 36 bộ câu hỏi, trong đó có 20 bộ câu hỏi về chủ đề tự nhiên và 16 bộ câu hỏi về chủ đề xã hội. Bạn An lấy ngẫu nhiên 1 bộ câu hỏi (lấy không hoàn lại), sau đó bạn Bình lấy ngẫu nhiên 1 bộ câu hỏi. Các khẳng định sau đúng hay sai?",
    "explanation": "a) Đúng b) Sai c) Sai d) đúng\nXét các biến cố:\nA: \"Bạn An lấy được bộ câu hỏi về chủ đề tự nhiên\";\nB: \"Bạn Bình lấy được bộ câu hỏi về chủ đề xã hội\".\nKhi đó $P\\left( A \\right)=\\frac{20}{36}=\\frac{5}{9},\\,\\,P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=\\frac{4}{9}$\nNếu bạn An chọn được một bộ câu hỏi về chủ đề tự nhiên thì sau đó còn 35 bộ câu hỏi, trong đó có 16 bộ câu hỏi về chủ đề xã hội, suy ra $P\\left( B|A \\right)=\\frac{16}{35}$\nNếu bạn An chọn được một bộ câu hỏi về chủ đề xã hội thì sau đó còn 35 bộ câu hỏi, trong đó có 15 bộ câu hỏi về chủ đề xã hội, suy ra$P\\left( B|\\overline{A} \\right)=\\frac{15}{35}$\nTheo công thức xác suất toàn phần, xác suất bạn Bình lấy được bộ câu hỏi về chủ đề\nxã hội là: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)=\\frac{5}{9}.\\frac{16}{35}+\\frac{4}{9}.\\frac{15}{35}=\\frac{4}{9}$",
    "ma": "de2.P2.C3",
@@ -407,6 +405,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -424,7 +423,7 @@
    "tf_ans": {
     "a": false,
     "b": false,
-    "c": false,
+    "c": true,
     "d": true
    },
    "answer": null,
@@ -432,7 +431,7 @@
     "dung_sai_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "Trong một đợt kiểm tra sức khoẻ, có một loại bệnh$X$mà tỉ lệ người mắc bệnh là $0,2\\%$và một loại xét nghiệm$Y$mà̀ ai mắc bệnh $X$khi xét nghiệm $Y$cũng có phản ứng dương tính. Tuy nhiên, có $6\\%$những người không bị bệnh $X$lại có phản ứng dương tính với xét nghiệm $Y$. Chọn ngẫu nhiên 1 người trong đợt kiểm tra sức khoẻ đó. Các khẳng định sau đúng hay sai?",
-   "explanation": "a) Sai b) Sai c) Đúng d) đúng\nXét các biến cố:\nA: \"Người được chọn mắc bệnh $X$ \";\nB: \"Người được chọn có phản ứng dương tính với xét nghiệm Y\".\nTheo giả thiết ta có: $P\\left( A \\right)=0,002,\\,\\,P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=0.998$\nXác suất người được chọn có phản ứng dương tính với xét nghiệm Y biết rằng người đó mắc bệnh X là $P\\left( B|A \\right)=1$\nXác suất người được chọn không mắc bệnh X biết rằng người đó có phản ứng dương tính với xét nghiệm Y là $P\\left( B|\\overline{A} \\right)=0,06$\nTheo công thức Bayes, ta có:\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)}=\\frac{0,002.1}{0,002.1+0,998.0,06}\\approx 0,03$\nVậy nếu người được chọn có phản ứng dương tính với xét nghiệm Y thì xác suất bị mắc bệnh $X$ của người đó là khoảng 0,03.",
+   "explanation": "a) Sai b) Sai c) Sai d) Đúng\nXét các biến cố:\nA: \"Người được chọn mắc bệnh $X$ \";\nB: \"Người được chọn có phản ứng dương tính với xét nghiệm Y\".\nTheo giả thiết ta có: $P\\left( A \\right)=0,002,\\,\\,P\\left( \\overline{A} \\right)=1-P\\left( A \\right)=0.998$\nXác suất người được chọn có phản ứng dương tính với xét nghiệm Y biết rằng người đó mắc bệnh X là $P\\left( B|A \\right)=1$\nXác suất người được chọn có phản ứng dương tính với xét nghiệm Y biết rằng người đó không mắc bệnh X là $P\\left( B|\\overline{A} \\right)=0,06$. Xác suất người được chọn không mắc bệnh X biết rằng người đó có phản ứng dương tính với xét nghiệm Y là $P\\left( \\overline{A}|B \\right)=\\frac{0,998\\cdot 0,06}{0,002\\cdot 1+0,998\\cdot 0,06}\\approx 0,97\\ne 0,06$ nên c) Sai.\nTheo công thức Bayes, ta có:\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)}=\\frac{0,002.1}{0,002.1+0,998.0,06}\\approx 0,03$\nVậy nếu người được chọn có phản ứng dương tính với xét nghiệm Y thì xác suất bị mắc bệnh $X$ của người đó là khoảng 0,03.",
    "ma": "de2.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 10,
@@ -441,6 +440,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D05",
    "dang_toan_web": "Công thức xác suất toàn phần."

@@ -336,7 +336,7 @@
    "explanation": "Ta có: ${f}'\\left( x \\right)=3{{x}^{2}}-21x+36=0\\Leftrightarrow x=3$ hoặc $x=4$.\nLập bảng biến thiên.\nĐiểm cực tiểu của hàm số là $x=4$.",
    "options": [
     "$x=8$",
-    "*$x=4$",
+    "$x=4$",
     "$x=1$",
     "$x=3$"
    ],
@@ -348,6 +348,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D05",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -487,9 +488,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)=\\frac{2{{x}^{2}}+26x+18}{x+13}$ có điểm cực tiểu $x={{x}_{1}}$ và điểm cực đại bằng $x={{x}_{2}}$. Tính $P=-2{{x}_{1}}+{{x}_{2}}$.",
    "explanation": "Ta có: ${f}'\\left( x \\right)=\\frac{2\\left( {{x}^{2}}+26x+160 \\right)}{{{\\left( x+13 \\right)}^{2}}}$ $=0\\Leftrightarrow x=-16$ hoặc $x=-10$.\nLập bảng biến thiên.\nHàm số đạt cực tiểu tại ${{x}_{1}}=-10$, đạt cực đại tại ${{x}_{2}}=-16$. Khi đó: $P=-2{{x}_{1}}+{{x}_{2}}=4$.",
    "short_value": 4,
@@ -502,6 +501,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D09",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -513,14 +513,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 18: thiếu đáp án (trả lời ngắn)"
-   ],
+   "flags": [],
    "question": "Có bao nhiêu giá trị nguyên $m$ để hàm số $y=\\frac{mx-3}{2x-m}$ đồng biến trên từng khoảng xác định.",
-   "explanation": "Ta có: $y=\\frac{mx-3}{2x-m}\\Rightarrow {y}'=\\frac{-{{m}^{2}}+6}{{{\\left( 2x-m \\right)}^{2}}}$\nTheo yêu cầu bài toán: ${y}'>0,\\forall x\\in D$ $\\Leftrightarrow -{{m}^{2}}+6>0$ $\\Leftrightarrow -\\sqrt{6}<m<\\sqrt{6}$.\nMà $m\\in Z\\Rightarrow m\\in \\left\\{ -5;-4;.....4,5 \\right\\}$ suy ra có 11 giá trị thõa mãn",
+   "explanation": "Ta có y' = (-m^2+6)/(2x-m)^2. Hàm số đồng biến trên từng khoảng xác định khi -m^2+6>0, tức -√6<m<√6. Với m nguyên thì m ∈ {-2;-1;0;1;2}, có 5 giá trị.",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "5",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 3,
@@ -529,6 +526,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D02",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -555,6 +553,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D01",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -570,9 +569,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Một công ty du lịch tổ chức tua du lịch với giá mỗi tua là 5 triệu đồng một khách cho 30 khách. Từ khách thứ 31, cứ thêm một khách, giá của tua lại được giảm $a$ nghìn ($a$ là số nguyên dương). Số khách thêm của tua không quá 15 người. Biết rằng nếu nhận thêm từ 1 đến 8 khách thì doanh thu tăng dần theo số khách nhận thêm. Tìm giá trị lớn nhất của $a$.",
-   "explanation": "Khi có thêm $x$ khách tham gia tua số khách thực tế là $30+x$, số tiền mỗi khách phải trả cho tua là $5\\text{ }000-ax$ (nghìn đồng). Doanh thu của tua là $T\\left( x \\right)=\\left( 30+x \\right)\\left( 5\\text{ }000-ax \\right)$.\n$T\\left( x \\right)=-a{{x}^{2}}+\\left( 5\\text{ }000-30a \\right)x+150\\text{ }000$.\nDoanh thu tăng lên theo số khách nhận thêm khi $T\\left( x \\right)$ đồng biến trong khoảng $\\left( 0;8 \\right]$\nDo đó có $T'\\left( x \\right)=-2ax+\\left( 5\\text{ }000-30a \\right)\\ge 0\\Leftrightarrow x\\le \\frac{2500}{a}-15$.\nĐể doanh thu tăng theo số khách nhận thêm và không quá 8 người thì:\n$8\\le \\frac{2500}{a}-15<9\\Leftrightarrow 23\\le \\frac{2500}{a}<24\\Leftrightarrow \\frac{2500}{23}\\ge a>\\frac{2500}{23}$.\nVậy số tiền có thể giảm nhiều nhất cho khách là 109 nghìn.",
+   "explanation": "$T(x)=(30+x)(5000-ax)$ (nghìn đồng), $T'(x)=5000-30a-2ax$. Doanh thu tăng dần khi nhận thêm từ 1 đến 8 khách, tức $T$ đồng biến trên $(0;8]$, cần $T'(8)\\ge 0 \\Leftrightarrow 5000-46a\\ge 0 \\Leftrightarrow a\\le \\frac{2500}{23}\\approx 108,69$. Vậy $a$ nguyên lớn nhất là 108.",
    "short_value": 109,
-   "short_correct": "109",
+   "short_correct": "108",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -581,6 +580,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -607,6 +607,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D04",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."

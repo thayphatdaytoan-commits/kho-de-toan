@@ -465,7 +465,6 @@
    "tf_ans": {},
    "answer": null,
    "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan",
     "trung_web:oRzxJRSbfxvsO35uthIa"
    ],
    "question": "Với giá trị nào của $n$ thì đẳng thức sau luôn đúng $\\sqrt{\\frac{1}{2}+\\frac{1}{2}\\sqrt{\\frac{1}{2}+\\frac{1}{2}\\sqrt{\\frac{1}{2}+\\frac{1}{2}\\cos x}}}=\\cos \\frac{x}{n}$, $0<x<\\frac{\\pi }{2}$.",
@@ -479,7 +478,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -544,7 +544,7 @@
    "question": "Nếu $\\alpha $ là góc nhọn và $\\sin \\frac{\\alpha }{2}=\\sqrt{\\frac{x-1}{2x}}$ thì $\\tan \\alpha $ bằng bao nhiêu?",
    "explanation": "Ta có: $0<\\alpha <{{90}^{0}}$ $\\Leftrightarrow 0<\\frac{\\alpha }{2}<{{45}^{0}}$ $\\Rightarrow 0<\\sin \\frac{\\alpha }{2}<\\frac{\\sqrt{2}}{2}$ $\\Leftrightarrow 0<\\sqrt{\\frac{x-1}{2x}}<\\frac{\\sqrt{2}}{2}$ $\\Leftrightarrow x>0$\n${{\\sin }^{2}}\\frac{\\alpha }{2}+{{\\cos }^{2}}\\frac{\\alpha }{2}=1$ $\\Rightarrow \\cos \\frac{\\alpha }{2}=\\sqrt{1-{{\\sin }^{2}}\\frac{\\alpha }{2}}$, vì $0<\\frac{\\alpha }{2}<{{45}^{0}}$\n$\\Leftrightarrow \\cos \\frac{\\alpha }{2}=\\sqrt{\\frac{x+1}{2x}}$ $\\Rightarrow \\tan \\frac{\\alpha }{2}=\\sqrt{\\frac{x-1}{x+1}}$\n$tan\\alpha =\\frac{2\\tan \\frac{\\alpha }{2}}{1-{{\\tan }^{2}}\\frac{\\alpha }{2}}=\\frac{2\\sqrt{\\frac{x-1}{x+1}}}{1-\\frac{x-1}{x+1}}=\\sqrt{{{x}^{2}}-1}$.",
    "short_value": 1,
-   "short_correct": "1",
+   "short_correct": "$\\sqrt{x^{2}-1}$",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -553,6 +553,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C1.B4.D03",
    "dang_toan_web": "Phương trình lượng giác cơ bản."
@@ -592,7 +593,7 @@
    "flags": [],
    "question": "Khi một tia sáng truyền từ ông khí vào mặt nước thì một phần tia sáng bị phản xạ trên bề mặt, phần còn lại bị khúc xạ như trong Hình 1.26. Góc tới $i$ liên hệ với góc khúc xạ $r$ bởi Định luật khúc xạ ánh s $\\frac{\\text{sin}i}{\\text{sin}r}=\\frac{{{n}_{2}}}{{{n}_{1}}}\\text{. }\\!\\!~\\!\\!\\text{ }$\n[[IMG:image11.png]]\nỞ đây, ${{n}_{1}}$ và ${{n}_{2}}$ tương ứng là chiết suất của môi trường 1 (không khí) và môi trường 2 (nước). Cho biết góc tới $i={{50}^{\\circ }}$, hãy tính góc khúc xạ, biết rằng chiết suất của không khí bằng 1 còn chiết suất của nước là 1,33 .\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "Theo bài ra ta có: $\\text{i}={{50}^{\\circ }},{{\\text{n}}_{1}}=1,{{\\text{n}}_{2}}=1,33$, thay vào $\\frac{\\text{sin}i}{\\text{sinr}}=\\frac{{{n}_{2}}}{{{n}_{1}}}$ ta được:\n$\\begin{array}{rrrrrr} {} & \\frac{\\text{sin}{{50}^{\\circ }}}{\\text{sin}r}=\\frac{1,33}{1}\\text{ }\\!\\!~\\!\\!\\text{ (k }\\!\\!~\\!\\!\\text{ sin }\\!\\!~\\!\\!\\text{ }r\\ne 0\\text{ }\\!\\!~\\!\\!\\text{ ) }\\!\\!~\\!\\!\\text{ } \\\\ {} & ~\\Rightarrow \\text{sin}r=\\frac{\\text{sin}{{50}^{\\circ }}}{1,33} \\\\ {} & ~\\Leftrightarrow \\text{sin}r\\approx 0,57597\\text{ }\\!\\!~\\!\\!\\text{ (thoa }\\!\\!~\\!\\!\\text{ m }\\!\\!\\tilde{\\mathrm{a}}\\!\\!\\text{ n }\\!\\!~\\!\\!\\text{ ki) }\\!\\!~\\!\\!\\text{ } \\\\ {} & ~\\Leftrightarrow \\text{sin}r\\approx \\text{sin}\\left( {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}} \\right) \\\\ \\end{array}$\n$\\begin{array}{rrrrrr} {} & ~\\Leftrightarrow \\left[ \\begin{matrix} r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ r\\approx {{180}^{\\circ }}-{{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ \\end{matrix}\\left( k\\in \\mathbb{Z} \\right) \\right. \\\\ {} & ~\\Leftrightarrow \\left[ \\begin{matrix} r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ r\\approx {{144}^{\\circ }}{{50}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}+k{{360}^{\\circ }} \\\\ \\end{matrix}\\left( k\\in \\mathbb{Z} \\right) \\right. \\\\ \\end{array}$Mà ${{0}^{\\circ }}<r<{{90}^{\\circ }}$ nên $r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}$.\nVậy góc khúc xạ $r\\approx {{35}^{\\circ }}{{10}^{\\text{ }\\!\\!'\\!\\!\\text{ }}}$.",
-   "short_value": 1.33,
+   "short_value": 35,
    "short_correct": "35,2",
    "ma": "de1.P3.C6",
    "dac_trung": {

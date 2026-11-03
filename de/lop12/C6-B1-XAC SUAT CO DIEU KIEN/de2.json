@@ -366,9 +366,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một hộp có 8 viên bi màu xanh và 6 viên bi màu đỏ, các viên bi cùng kích thước và cùng khối lượng. Bạn Hùng lấy ngẫu nhiên một viên bi từ hộp, không trả lại. Sau đó bạn Nam lấy ngẫu nhiên một viên bi trong số các bi còn lại trong hộp. Gọi $A$ là biến cố: “Hùng lấy được viên bi màu đỏ”, $B$ là biến cố: “Nam lấy được viên bi màu xanh”. Các khẳng định sau đây đúng hay sai?",
    "explanation": "Sai\nNam có 14 cách lấy ngẫu nhiên một viên bi trong hộp\nHùng có 13 cách lấy một viên bi còn lại trong hộp (vì Nam lấy bi và không trả lại)\nDo đó $n\\left( \\Omega \\right)=14.13=182$.\nSai\nNam có 8 cách lấy một viên bi màu xanh, Hùng có 13 cách lấy một viên bi còn lại trong hộp. Dó đó $n\\left( B \\right)=8.13=104\\Rightarrow P\\left( B \\right)=\\frac{n\\left( B \\right)}{n\\left( \\Omega \\right)}=\\frac{4}{7}$.\nĐúng\nNam có 8 cách lấy một viên bi màu xanh, Hùng có 6 cách lấy một viên bi màu đỏ. Do đó $n\\left( AB \\right)=8.6=48\\Rightarrow P\\left( AB \\right)=\\frac{n\\left( AB \\right)}{n\\left( \\Omega \\right)}=\\frac{24}{91}$.\nĐúng\nTa có: $P\\left( A|B \\right)=\\frac{P\\left( AB \\right)}{P\\left( B \\right)}=\\frac{6}{13}$",
    "ma": "de2.P2.C1",
@@ -379,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -476,6 +475,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

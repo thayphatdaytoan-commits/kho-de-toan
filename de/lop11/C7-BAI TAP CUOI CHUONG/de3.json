@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "7",
   "lesson": "on-tap",
-  "title": "Bài on-tap. Tập cuối chương 7"
+  "title": "Bài on-tap. Tập cuối chương 7",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -20,8 +21,8 @@
    "tf_ans": {},
    "answer": "C",
    "flags": [],
-   "question": "Cho hàm số $y=f(x)$có đạo hàm thỏa mãn $f'\\left( 8 \\right)=5$. Giá trị của biểu thức\n$\\underset{x\\to 8}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 8 \\right)}{x-8}$bằng",
-   "explanation": "Ta có $\\underset{x\\to 8}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 8 \\right)}{x-8}=f'\\left( 8 \\right)=5$.",
+   "question": "Cho hàm số $y=f(x)$có đạo hàm thỏa mãn $f'\\left( 8 \\right)=5$. Giá trị của biểu thức\n$\\underset{x\\to 8}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 8 \\right)}{x-8}$bằng",
+   "explanation": "Ta có $\\underset{x\\to 8}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 8 \\right)}{x-8}=f'\\left( 8 \\right)=5$.",
    "options": [
     "$\\frac{1}{3}$",
     "$12$",
@@ -104,8 +105,8 @@
    "tf_ans": {},
    "answer": "D",
    "flags": [],
-   "question": "Cho hàm số $y=f\\left( x \\right)$ xác định trên $\\mathbb{R}$ thỏa mãn $\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 3 \\right)}{x-3}=2$. Kết quả đúng là",
-   "explanation": "Theo định nghĩa đạo hàm của hàm số tại một điểm ta có\n$\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 3 \\right)}{x-3}=2={f}'\\left( 3 \\right)$.",
+   "question": "Cho hàm số $y=f\\left( x \\right)$ xác định trên $\\mathbb{R}$ thỏa mãn $\\underset{x\\to 3}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 3 \\right)}{x-3}=2$. Kết quả đúng là",
+   "explanation": "Theo định nghĩa đạo hàm của hàm số tại một điểm ta có\n$\\underset{x\\to 3}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 3 \\right)}{x-3}=2={f}'\\left( 3 \\right)$.",
    "options": [
     "${f}'\\left( 2 \\right)=3$",
     "${f}'\\left( x \\right)=2$",
@@ -133,7 +134,7 @@
    "answer": "C",
    "flags": [],
    "question": "Tính đạo hàm của hàm số $y=\\sqrt{{{x}^{2}}+3}$ tại điểm $x=1$",
-   "explanation": "Ta có:\n$\\begin{aligned} & f\\,'\\,\\left( 1 \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt{{{x}^{2}}+3}-2}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+3-4}{\\left( x-1 \\right)\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)} \\\\ & =\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( x+1 \\right)}{\\left( x-1 \\right)\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x+1}{\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)}=\\frac{2}{4}=\\frac{1}{2}. \\\\ \\end{aligned}$.",
+   "explanation": "Ta có:\n$\\begin{aligned} & f\\,'\\,\\left( 1 \\right)=\\underset{x\\to 1}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt{{{x}^{2}}+3}-2}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}+3-4}{\\left( x-1 \\right)\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)} \\\\ & =\\underset{x\\to 1}{\\lim}\\,\\frac{\\left( x-1 \\right)\\left( x+1 \\right)}{\\left( x-1 \\right)\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)}=\\underset{x\\to 1}{\\lim}\\,\\frac{x+1}{\\left( \\sqrt{{{x}^{2}}+3}+2 \\right)}=\\frac{2}{4}=\\frac{1}{2}. \\\\ \\end{aligned}$.",
    "options": [
     "$\\frac{3}{2}$",
     "$1$",
@@ -367,7 +368,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số $f(x)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}}{2}\\text{ khi }x\\le 1 \\\\ & ax+b\\text{ khi }x>1 \\\\ \\end{aligned} \\right.$. Biết hàm số có đạo hàm tại $x=1$. Khi đó:",
-   "explanation": "Hàm số liên tục tại $x=1$ nên ta có $a+b=\\frac{1}{2}$.\nHàm số có đạo hàm tại $x=1$ nên giới hạn 2 bên của $\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}$ bằng nhau và ta có:\n$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{ax+b-\\left( a.1+b \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{a\\left( x-1 \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,a=a$\n$\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{\\frac{{{x}^{2}}}{2}-\\frac{1}{2}}{x-1}=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{\\left( x+1 \\right)\\left( x-1 \\right)}{2\\left( x-1 \\right)}=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{\\left( x+1 \\right)}{2}=1$\nVậy $a=1;b=-\\frac{1}{2}$.",
+   "explanation": "Hàm số liên tục tại $x=1$ nên ta có $a+b=\\frac{1}{2}$.\nHàm số có đạo hàm tại $x=1$ nên giới hạn 2 bên của $\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}$ bằng nhau và ta có:\n$\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{ax+b-\\left( a.1+b \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{a\\left( x-1 \\right)}{x-1}=\\underset{x\\to {{1}^{+}}}{\\lim}\\,a=a$\n$\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{\\frac{{{x}^{2}}}{2}-\\frac{1}{2}}{x-1}=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{\\left( x+1 \\right)\\left( x-1 \\right)}{2\\left( x-1 \\right)}=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{\\left( x+1 \\right)}{2}=1$\nVậy $a=1;b=-\\frac{1}{2}$.",
    "ma": "de3.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -486,7 +487,7 @@
    "flags": [],
    "question": "Cho hàm số ${y=f(x)=\\frac{x+1}{3 x}}$ có đồ thị ${(C)}$.\nViết phương trình tiếp tuyến của đồ thị hàm số ${(C)}$ tại giao điểm của ${(C)}$ với đường thẳng ${y=x+1}$.",
    "explanation": "Toạ độ giao điểm của ${(C)}$ với đường thẳng ${y=x+1}$ là nghiệm của hệ\nphương trình: ${\\left\\{\\begin{array}{l}y=\\frac{x+1}{3 x} \\\\ y=x+1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}\\frac{x+1}{3 x}=x+1 \\\\ y=x+1\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}3 x^2+2 x-1=0 \\\\ y=x+1\\end{array}\\right.\\right.\\right.}$\n${\\Leftrightarrow\\left[\\begin{array}{l} x=-1 \\Rightarrow y=0 \\\\ x=\\frac{1}{3} \\Rightarrow y=\\frac{4}{3} \\end{array}\\right. }$\nPhương trình tiếp tuyến của ${(C)}$ tại điểm ${(-1 ; 0)}$ là:\n${y-0=f^{\\prime}(-1)(x+1) \\Leftrightarrow y=-\\frac{1}{3}(x+1) \\Leftrightarrow y=-\\frac{1}{3} x-\\frac{1}{3} . }$\nPhương trình tiếp tuyến của ${(C)}$ tại điểm ${\\left(\\frac{1}{3} ; \\frac{4}{3}\\right)}$ là:\n${y-\\frac{4}{3}=f^{\\prime}\\left(\\frac{1}{3}\\right)\\left(x-\\frac{1}{3}\\right) \\Leftrightarrow y=-3\\left(x-\\frac{1}{3}\\right)+\\frac{4}{3} \\Leftrightarrow y=-3 x+\\frac{7}{3} . }$",
-   "short_value": null,
+   "short_value": -3,
    "short_correct": "y=-3x+\\dfrac{7}{3}",
    "ma": "de3.P3.C1",
    "dac_trung": {
@@ -511,7 +512,7 @@
    "flags": [],
    "question": "Cho hàm số ${f(x)=\\left\\{\\begin{array}{ll}\\frac{3-\\sqrt{4-x}}{4} & \\text { khi } x \\neq 0 \\\\ \\frac{1}{4} & \\text { khi } x=0\\end{array}\\right.}$. Tính ${f^{\\prime}(0)}$.",
    "explanation": "Với ${x \\neq 0}$ xét:\n${\\begin{aligned} & \\lim _{x \\rightarrow 0} \\frac{f(x)-f(0)}{x-0}=\\lim _{x \\rightarrow 0} \\frac{\\frac{3-\\sqrt{4-x}}{4}-\\frac{1}{4}}{x}=\\lim _{x \\rightarrow 0} \\frac{2-\\sqrt{4-x}}{4 x}=\\lim _{x \\rightarrow 0} \\frac{4-(4-x)}{4 x(2+\\sqrt{4-x})} \\\\ & =\\lim _{x \\rightarrow 0} \\frac{1}{4(2+\\sqrt{4-x})}=\\frac{1}{4(2+\\sqrt{4-0})}=\\frac{1}{16} \\Rightarrow f^{\\prime}(0)=\\frac{1}{16} . \\end{aligned} }$",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "\\dfrac{1}{16}",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -536,7 +537,7 @@
    "flags": [],
    "question": "Cho đường cong ${(C): y=\\frac{2 x-1}{x-1}}$.\nViết phương trình tiếp tuyến với ${(C)}$ tại điểm có hoành độ bằng 2 ;",
    "explanation": "Ta có: ${y^{\\prime}=-\\frac{1}{(x-1)^2}}$ và ${y(2)=3}$\n${y^{\\prime}(2)=-\\frac{1}{(2-1)^2}=-1}$.\nDo đó phương trình tiếp tuyến với ${(C)}$ tại điểm (2;3) là: ${y=-1(x-2)+3 \\Rightarrow y=-x+5}$",
-   "short_value": null,
+   "short_value": -1,
    "short_correct": "y=-x+5",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -561,7 +562,7 @@
    "flags": [],
    "question": "Một vật chuyển động với phương trình ${S(t)=4 t^2+t^3}$, trong đó ${t>0, t}$ tính bằng giây, ${S(t)}$ tính bằng ${m}$. Tìm gia tốc của vật tại thời điểm vận tốc của vật bằng 11 .",
    "explanation": "Ta có: ${v(t)=S^{\\prime}(t)=3 t^2+8 t}$ và ${a(t)=v^{\\prime}(t)=6 t+8}$.\nTheo đề bài, ta có: ${v=11 \\Rightarrow 3 t^2+8 t=11 \\Rightarrow t=1(t>0)}$.\nVậy gia tốc của vật tại thời điểm vận tốc của vật bằng 11 là ${a(1)=14 m / s^2}$.",
-   "short_value": null,
+   "short_value": 14,
    "short_correct": "14",
    "ma": "de3.P3.C4",
    "dac_trung": {
@@ -586,7 +587,7 @@
    "flags": [],
    "question": "Cho biết điện lượng truyền trong dây dẫn theo thời gian biểu thị bởi hàm số ${Q(t)=2 t^2+t}$, trong đó ${t}$ được tính bằng giây và ${Q}$ được tính theo Culông. Tính cường độ dòng điện tại thời điểm ${t=4({~s})}$.",
    "explanation": "Ta có: ${Q^{\\prime}(t)=\\left(2 t^2+t\\right)^{\\prime}=4 t+1}$ nên cường độ dòng điện tại thời điểm ${t=4({~s})}$ là ${Q^{\\prime}(4)=4.4+1=17({C} / {s})}$",
-   "short_value": null,
+   "short_value": 17,
    "short_correct": "17",
    "ma": "de3.P3.C5",
    "dac_trung": {
@@ -611,7 +612,7 @@
    "flags": [],
    "question": "Một chất điểm chuyển động có phương trình ${s=-t^3+t^2+t+4}$ (${t}$ là thời gian tính bằng giây). Gia tốc của chuyển động tại thời điểm vận tốc đạt giá trị lớn nhất là bao nhiêu?",
    "explanation": "Vận tốc của chất điểm có phương trình là: ${v=s^{\\prime}=-3 t^2+2 t+1}$.\nVận tốc của chất điểm đạt GTLN khi ${t=\\frac{-b}{2 a}=\\frac{1}{3}}$.\nGia tốc của chất điểm có phương trình là: ${s^{\\prime \\prime}=-6 t+2}$.\nTại thời điểm vận tốc đạt GTLN thì gia tốc bằng ${s^{\\prime \\prime}\\left(\\frac{1}{3}\\right)=0}$.",
-   "short_value": null,
+   "short_value": 0,
    "short_correct": "0",
    "ma": "de3.P3.C6",
    "dac_trung": {

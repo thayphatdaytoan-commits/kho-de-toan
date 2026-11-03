@@ -264,6 +264,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D02",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -303,9 +304,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Giá trị nhỏ nhất của hàm số $y=\\frac{x-1}{\\sqrt{{{x}^{2}}+1}}$ bằng",
    "explanation": "Tập xác định của hàm số là $D=\\mathbb{R}$. Ta có ${y}'=\\frac{\\sqrt{{{x}^{2}}+1}-\\frac{x\\left( x-1 \\right)}{\\sqrt{{{x}^{2}}+1}}}{{{x}^{2}}+1}=\\frac{x+1}{\\left( {{x}^{2}}+1 \\right)\\sqrt{{{x}^{2}}+1}}$\n${y}'=0$ $\\Leftrightarrow x+1=0$ $\\Leftrightarrow x=-1$.\nBảng biến thiên:\n $x$  $-\\infty$  $-1$  $+\\infty$  $y'$ –  $\\frac{1}{2} \\text{ \\text{và} } \\frac{1}{3}$  $\\pm$  $v$  $-1$  $-\\sqrt{2}$  $\\text{ \\text{và} }$\nTừ bảng biến thiên ta có $\\underset{\\mathbb{R}}{\\min}\\,y=-\\sqrt{2}$.",
    "options": [
@@ -322,6 +321,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -396,11 +396,14 @@
     "c": "[TH] Bảng biến thiên của hàm số đã cho là:",
     "d": "[TH] Đồ thị hàm số đã cho như ở Hình vẽ."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{2x-1}{x-1}$.\n[[IMG:image15.png]]",
    "explanation": "",
    "ma": "de1.P2.C14",
@@ -411,6 +414,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D04",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -425,11 +429,14 @@
     "c": "[TH] Bảng biến thiên của hàm số đã cho như hình dưới là sai vì hàm số không xác định tại $x=1$",
     "d": "[TH] Đồ thị hàm số đã cho như ở Hình vẽ. Mệnh đề đúng"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "[[IMG:image16.png]]\n[[IMG:image15.png]]\n[[IMG:image16.png]]",
    "explanation": "",
    "ma": "de1.P2.C3",
@@ -440,6 +447,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D04",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -486,11 +494,14 @@
     "c": "[TH] Độ lệch chuẩn của mẫu số liệu ghép nhóm là $14,31$.",
     "d": "[VD] Tứ phân vị thứ ba của mẫu số liệu ghép nhóm là $131$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Thống kê tổng số giờ nắng trong tháng 6 tại một trạm quan trắc đặt ở một tỉnh trong các năm từ 2004 đến 2023 được thống kê trong bảng số liệu ghép nhóm như sau:\n[[IMG:image18.png]]\n(Kết quả các phép tính làm tròn đến hàng phần trăm.)",
    "explanation": "a) Ta có bảng sau:\n[[IMG:image35.png]]\nSuy ra giá trị đại diện của nhóm $\\left[ 110;120 \\right)$ là 115\nb) Số trung bình của mẫu số liệu ghép nhóm là\n$\\overline{x}=\\frac{2.95+3.105+4.115+6.125+3.135+2.145}{20}=120,5$\nc) Phương sai của mẫu số liệu ghép nhóm là\n${{S}^{2}}=\\frac{1}{20}\\left( {{2.95}^{2}}+{{3.105}^{2}}+{{4.115}^{2}}+{{6.125}^{2}}+{{3.135}^{2}}+{{2.145}^{2}} \\right)-120,{{5}^{2}}=204,75$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là $S=\\sqrt{204,75}\\approx 14,31$\nd) Tứ phân vị thứ ba của mẫu số liệu gốc là $\\frac{1}{2}\\left( {{x}_{15}}+{{x}_{16}} \\right)\\in \\left[ 130;140 \\right)$\nDo đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là:\n${{Q}_{3}}=130+\\frac{\\frac{3.20}{4}-(2+3+4+6)}{3}\\left( 140-130 \\right)=130$",
    "ma": "de1.P2.C16",
@@ -501,6 +512,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."

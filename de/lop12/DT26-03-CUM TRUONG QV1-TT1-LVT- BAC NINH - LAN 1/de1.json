@@ -37,6 +37,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "grokbot",
    "muc_do": "NB",
    "dang": "L12.C1.B2.D04",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -219,8 +220,8 @@
    "flags": [
     "loi_giai_noi_C_dung_nhung_chon_B"
    ],
-   "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Gọi là tâm của hình lập phương. Khẳng định nào sau đây là đúng?",
-   "explanation": "[[IMG:image10.png]]\nTheo quy tắc hình hộp ta có $\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}$ . Mà $\\overrightarrow{AC'}=2\\overrightarrow{AO}$ suy ra đáp án C đúng",
+   "question": "Cho hình lập phương $ABCD.A'B'C'D'$. Gọi $O$ là tâm của hình lập phương. Khẳng định nào sau đây là đúng?",
+   "explanation": "[[IMG:image10.png]]\nTheo quy tắc hình hộp ta có $\\overrightarrow{AC'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'}$ . Mà $\\overrightarrow{AC'}=2\\overrightarrow{AO}$ suy ra đáp án B đúng",
    "options": [
     "$\\overrightarrow{AO}=\\frac{1}{3}\\left( \\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'} \\right)$",
     "$\\overrightarrow{AO}=\\frac{1}{2}\\left( \\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{AA'} \\right)$",
@@ -235,6 +236,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B1.D02",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -368,9 +370,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Nhà ông A cần làm một bể chứa nước có dạng khối hộp chữ nhật không nắp, có đáy là hình chữ nhật và chiều dài gấp ba lần chiều rộng, khối hộp tương ứng có thể tích bằng $1152\\,\\text{d}{{\\text{m}}^{3}}$. Giả sử bề dày của thành bể và đáy bể là không đáng kể. Giá thuê công nhân để làm bể là 400000 đồng/m2. Gọi $x$ là chiều rộng của đáy bể ($x$ là số dương và có đơn vị là dm). Các khẳng định sau đúng hay sai?",
    "explanation": "a) sai, b) Đúng c) Đúng d) Sai\n+ Theo bài ra ta có chiều dài của đáy bể nước là $3x$.\nKhi đó, chiều cao của bể là $\\frac{384}{{{x}^{2}}}$\n+ Diện tích xung quanh của bể chứa nước là\n$2\\left( x+3x \\right).\\frac{384}{{{x}^{2}}}=\\frac{3072}{x}$.\nVậy, tổng diện tích cần làm của bể chứa nước là $S\\left( x \\right)=\\frac{3072}{x}+3{{x}^{2}}$.\nTa có ${S}'\\left( x \\right)=\\frac{3072}{x}+3{{x}^{2}}=\\frac{-3072+6{{x}^{3}}}{{{x}^{2}}}$\n${S}'\\left( x \\right)=0\\Rightarrow x=8$\n[[IMG:image11.png]]\n$\\underset{0\\to +\\infty }{\\min}\\,S\\left( x \\right)=S\\left( 8 \\right)=576\\,\\left( \\text{d}{{\\text{m}}^{2}} \\right)=5,76\\,\\left( {{\\text{m}}^{2}} \\right)$\nChi phí thấp nhất là $5,76\\,.\\,400000=2304000$ đồng.",
    "ma": "de1.P2.C1",
@@ -381,6 +381,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -396,17 +397,15 @@
     "d": "Điểm $H\\left( a\\,;\\,b  ;\\,c \\right)$là chân đường cao hạ từ A xuống $BC$. Khi đó $a+b-c=8$"
    },
    "tf_ans": {
-    "a": true,
+    "a": false,
     "b": true,
     "c": false,
     "d": true
    },
    "answer": null,
-   "flags": [
-    "katex: \\begin{aligned} & -2\\left( 4+t \\right)-4 → Expected '\\right', got '&' at position 117: …rrow H\\left( 4 "
-   ],
+   "flags": [],
    "question": "Trong không gian $\\text{Ox}yz$, cho tam giác $ABC$với $A\\left( 1\\,;\\,1\\,;\\,2 \\right)$,$B\\left( 5\\,;\\,1\\,;\\,-2 \\right)$và $C\\left( 3\\,;\\,5\\,;\\,0 \\right)$. Các khẳng định sau đúng hay sai?",
-   "explanation": "a) Đúng\nTa có $\\overrightarrow{AB}=\\left( 4\\,;0\\,;-4 \\right),\\overrightarrow{BC}=\\left( -2  ;\\,4   ;\\,2 \\right)$. Do đó$\\overrightarrow{AB}.\\overrightarrow{BC}=0$\nb) Đúng\nc) Sai\n$G$là trọng tâm tam giác $ABC$nên $G\\left( 3\\,;\\frac{7}{3}\\,;\\,0 \\right)$\nd) Đúng\nPhương trình đường thẳng $BC$có một vecto chỉ phương$\\overrightarrow{a}\\left( 1\\,;\\,-2\\,;\\,-1 \\right)$và đi qua điểm $B\\left( 5\\,;\\,1\\,;\\,-2 \\right)$ là $\\left\\{ \\begin{matrix} x=5+t \\\\ y=1-2t \\\\ z=-2-t \\\\ \\end{matrix} \\right.$\nĐiểm $H$thuộc $BC$nên $H\\left( 5+t\\,;1-2t\\,;-2-t \\right)$\nVậy $\\overrightarrow{AH}\\left( 4+t\\,;\\,-2t\\,;\\,-4-t \\right)$\nDo $AH$vuông góc $BC$nên $\\overrightarrow{AH}.\\overrightarrow{BC}=0$\n$\\begin{aligned} & -2\\left( 4+t \\right)-4.2t+2\\left( -2-t \\right)=0 \\\\ & \\Rightarrow t=-1 \\\\ & \\Rightarrow H\\left( 4 & & ;\\,3\\,;-1 \\right) \\\\ \\end{aligned}$\nVậy $a=4;b=3,c=-1$nên $a+b-c=8$",
+   "explanation": "a) Sai\\nTa có $\\overrightarrow{AB}=\\left( 4\\,;0\\,;-4 \\right),\\overrightarrow{BC}=\\left( -2  ;\\,4   ;\\,2 \\right)$. Do đó $\\overrightarrow{AB}.\\overrightarrow{BC}=4\\cdot(-2)+0\\cdot 4+(-4)\\cdot 2=-16\\ne 0$.\\nb) Đúng\\nc) Sai\\n$G$ là trọng tâm tam giác $ABC$ nên $G\\left( 3\\,;\\frac{7}{3}\\,;\\,0 \\right)$.\\nd) Đúng\\nPhương trình đường thẳng $BC$ có một vecto chỉ phương $\\overrightarrow{a}\\left( 1\\,;\\,-2\\,;\\,-1 \\right)$ và đi qua điểm $B\\left( 5\\,;\\,1\\,;\\,-2 \\right)$ là $\\left\\{ \\begin{matrix} x=5+t \\\\ y=1-2t \\\\ z=-2-t \\\\ \\end{matrix} \\right.$\\nĐiểm $H$ thuộc $BC$ nên $H\\left( 5+t\\,;1-2t\\,;-2-t \\right)$\\nVậy $\\overrightarrow{AH}\\left( 4+t\\,;\\,-2t\\,;\\,-4-t \\right)$\\nDo $AH$ vuông góc $BC$ nên $\\overrightarrow{AH}.\\overrightarrow{BC}=0$\\n$\\begin{aligned} & -2\\left( 4+t \\right)+4\\cdot(-2t)+2\\left( -4-t \\right)=0 \\\\ & \\Rightarrow -16-12t=0 \\Rightarrow t=-\\frac{4}{3} \\\\ & \\Rightarrow H\\left( \\frac{11}{3};\\,\\frac{11}{3};\\,-\\frac{2}{3} \\right) \\\\ \\end{aligned}$\\nVậy $a=\\frac{11}{3};b=\\frac{11}{3},c=-\\frac{2}{3}$ nên $a+b-c=8$",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 12,
@@ -415,6 +414,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D05",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -440,7 +440,7 @@
     "dung_sai_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "Cho hàm số $y=f(x)=\\frac{a{{x}^{2}}+bx+c}{x+d}$ có đồ thị là đường cong như hình vẽ dưới đây\n[[IMG:image4.png]]\nBiết đường tiệm cận xiên của đồ thị hàm số đi qua 2 điểm $\\left( 0;1 \\right)$ và $\\left( 1;0 \\right)$.",
-   "explanation": "a- Sai; b – Sai; c – Đúng; d - Đúng\na) Trên khoảng $\\left( -4;0 \\right)$ hàm số không liên tục nên hàm số không đồng biến trên khoảng $\\left( -4;0 \\right)$. Vậy a - sai.\nb) Tập xác định của hàm số $D=\\mathbb{R}\\backslash \\left\\{ 2 \\right\\}$.\nVậy b – Sai\nc) Ta có đường tiệm cận xiên có phương trình: ${{d}_{1}}:y=-x+1$; đường tiệm cận đứng ${{d}_{2}}:x=-2$\nVậy ta có $y=f(x)=-x+1+\\frac{m}{x+2}$\nMà đồ thị hàm số đi qua điểm $(-4;7)$, nên $m=-4$\nVậy $y=f(x)=-x+1+\\frac{-4}{x+2}=\\frac{-{{x}^{2}}-x-2}{x+2}$. Khi đó $a=-1;b=-1;c=-2;d=2$\nVậy $a+b+c+d=-2$.\nVậy c – đúng\nd) Gọi $M\\left( {{x}_{o}};-{{x}_{o}}+1-\\frac{4}{{{x}_{o}}+2} \\right)$\nTiếp tuyến với đồ thị hàm số tại điểm $M$ có phương trình:\n$y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2}$ $\\left( \\Delta \\right)$\nGọi $A$ là giao điểm của ${{d}_{1}}\\cap \\Delta $ , nên tọa độ điểm $A$ là nghiệm của hệ phương trình $\\left\\{ \\begin{aligned} & y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ & y=-x+1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=2{{x}_{o}}+2 \\\\ & y=-2{{x}_{o}}-1 \\\\ \\end{aligned} \\right.$ $\\Rightarrow A\\left( 2{{x}_{o}}+2;-2{{x}_{o}}-1 \\right)$\nGọi $B$ là giao điểm của ${{d}_{2}}\\cap \\Delta $ , nên tọa độ điểm $B$ là nghiệm của hệ phương trình $\\left\\{ \\begin{aligned} & y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ & x=-2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=-2 \\\\ & y=\\frac{3{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ \\end{aligned} \\right.$ $\\Rightarrow B\\left( -2;\\frac{3{{x}_{o}}-2}{{{x}_{o}}+2} \\right)$\nTa có $MA=\\sqrt{{{\\left( {{x}_{o}}+2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$;\n$MB=\\sqrt{{{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( \\frac{-x_{o}^{2}-{{x}_{o}}-2-3{{x}_{o}}+2}{{{x}_{o}}+2} \\right)}^{2}}}$ $=\\sqrt{{{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$\n$=\\sqrt{{{\\left( {{x}_{o}}+2 \\right)}^{2}}+{{\\left( -\\left( {{x}_{o}}+2 \\right)+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$\nVậy $MA.MB={{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}$, đặt $t={{x}_{o}}+2$ ta có\n$MA.MB={{t}^{2}}+{{\\left( t-\\frac{4}{t} \\right)}^{2}}=2{{t}^{2}}+\\frac{16}{{{t}^{2}}}-8\\ge 2\\sqrt{2{{t}^{2}}.\\frac{16}{{{t}^{2}}}}-8=8\\sqrt{2}-8$ (BDT cô si)\nKhi đó $MA.MB$ đạt giá trị nhỏ nhất là $8\\sqrt{2}-8$.\nVậy d – đúng.",
+   "explanation": "a- Sai; b – Sai; c – Đúng; d - Đúng\na) Trên khoảng $\\left( -4;0 \\right)$ hàm số không liên tục nên hàm số không đồng biến trên khoảng $\\left( -4;0 \\right)$. Vậy a - sai.\nb) Tập xác định của hàm số $D=\\mathbb{R}\\backslash \\left\\{ -2 \\right\\}$.\nVậy b – Sai\nc) Ta có đường tiệm cận xiên có phương trình: ${{d}_{1}}:y=-x+1$; đường tiệm cận đứng ${{d}_{2}}:x=-2$\nVậy ta có $y=f(x)=-x+1+\\frac{m}{x+2}$\nMà đồ thị hàm số đi qua điểm $(-4;7)$, nên $m=-4$\nVậy $y=f(x)=-x+1+\\frac{-4}{x+2}=\\frac{-{{x}^{2}}-x-2}{x+2}$. Khi đó $a=-1;b=-1;c=-2;d=2$\nVậy $a+b+c+d=-2$.\nVậy c – đúng\nd) Gọi $M\\left( {{x}_{o}};-{{x}_{o}}+1-\\frac{4}{{{x}_{o}}+2} \\right)$\nTiếp tuyến với đồ thị hàm số tại điểm $M$ có phương trình:\n$y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2}$ $\\left( \\Delta \\right)$\nGọi $A$ là giao điểm của ${{d}_{1}}\\cap \\Delta $ , nên tọa độ điểm $A$ là nghiệm của hệ phương trình $\\left\\{ \\begin{aligned} & y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ & y=-x+1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=2{{x}_{o}}+2 \\\\ & y=-2{{x}_{o}}-1 \\\\ \\end{aligned} \\right.$ $\\Rightarrow A\\left( 2{{x}_{o}}+2;-2{{x}_{o}}-1 \\right)$\nGọi $B$ là giao điểm của ${{d}_{2}}\\cap \\Delta $ , nên tọa độ điểm $B$ là nghiệm của hệ phương trình $\\left\\{ \\begin{aligned} & y=\\left( -1+\\frac{4}{{{({{x}_{o}}+2)}^{2}}} \\right)\\left( x-{{x}_{o}} \\right)+\\frac{-x_{o}^{2}-{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ & x=-2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=-2 \\\\ & y=\\frac{3{{x}_{o}}-2}{{{x}_{o}}+2} \\\\ \\end{aligned} \\right.$ $\\Rightarrow B\\left( -2;\\frac{3{{x}_{o}}-2}{{{x}_{o}}+2} \\right)$\nTa có $MA=\\sqrt{{{\\left( {{x}_{o}}+2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$;\n$MB=\\sqrt{{{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( \\frac{-x_{o}^{2}-{{x}_{o}}-2-3{{x}_{o}}+2}{{{x}_{o}}+2} \\right)}^{2}}}$ $=\\sqrt{{{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$\n$=\\sqrt{{{\\left( {{x}_{o}}+2 \\right)}^{2}}+{{\\left( -\\left( {{x}_{o}}+2 \\right)+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}}$\nVậy $MA.MB={{\\left( -{{x}_{o}}-2 \\right)}^{2}}+{{\\left( -{{x}_{o}}-2+\\frac{4}{{{x}_{o}}+2} \\right)}^{2}}$, đặt $t={{x}_{o}}+2$ ta có\n$MA.MB={{t}^{2}}+{{\\left( t-\\frac{4}{t} \\right)}^{2}}=2{{t}^{2}}+\\frac{16}{{{t}^{2}}}-8\\ge 2\\sqrt{2{{t}^{2}}.\\frac{16}{{{t}^{2}}}}-8=8\\sqrt{2}-8$ (BDT cô si)\nKhi đó $MA.MB$ đạt giá trị nhỏ nhất là $8\\sqrt{2}-8$.\nVậy d – đúng.",
    "ma": "de1.P2.C3",
    "dac_trung": {
     "so_dong_loi_giai": 22,
@@ -449,6 +449,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D09",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -470,9 +471,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp chứa các viên bi có kích thước và khối lượng như nhau gồm 5 bi trắng, 6 bi đỏ và 7 bi xanh. Chọn ngẫu nhiên 6 viên bi từ hộp; trong đó có ${x}$ viên bi trắng, ${y}$ viên bi đỏ và ${z}$ viên bi xanh. Các khẳng định sau đúng hay sai?",
    "explanation": "Số cách chọn ngẫu nhiên 6 viên bi từ 18 viên là $n\\left( \\Omega \\right)=C_{18}^{6}=18564$\na) Xét khẳng định a)\nTheo đề: 6 viên bi đủ ba màu nên ta có điều kiện sau $\\left\\{ \\begin{aligned} & 1\\le x\\le 5 \\\\ & 1\\le y\\le 6 \\\\ & 1\\le z\\le 7 \\\\ & x+y+x=6 \\\\ \\end{aligned} \\right.$\nBa số ${x-y, y-z, z-x}$ lập thành cấp số cộng nên\n$y-z=\\frac{\\left( x-y \\right)+\\left( z-x \\right)}{2}\\Leftrightarrow $ $2\\left( y-z \\right)=-y+z\\Leftrightarrow $ ${3y = 3z \\implies y = z}$\nKết hợp hai điều kiện: $\\left\\{ \\begin{aligned} & x+y+z=6 \\\\ & y=z \\\\ & 1\\le x\\le 5 \\\\ & 1\\le y\\le 6 \\\\ & 1\\le z\\le 7 \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & x+2y=6 \\\\ & 1\\le x\\le 5 \\\\ & 1\\le y\\le 6 \\\\ & 1\\le z\\le 7 \\\\ \\end{aligned} \\right.$\nTa xét các cặp ${\\left(x, y\\right)}$ nguyên dương:\nNếu $y=1\\Rightarrow x=6-2.1=4$. Cặp ${\\left(x, y, z\\right) = \\left(4, 1, 1\\right)}$.\nNếu $y=2\\Rightarrow x=6-2.2=2$. Cặp ${\\left(x, y, z\\right) = \\left(2, 2, 2\\right)}$.\nNếu $y=3\\Rightarrow x=6-2.3=0$. (Loại do ${x \\ge 1}$)\nCác trường hợp thỏa mãn:\n1. ${\\left(x, y, z\\right) = \\left(4, 1, 1\\right)}$: 4 trắng, 1 đỏ, 1 xanh.\nSố cách chọn: ${C_5^4 \\cdot C_6^1 \\cdot C_7^1 = 5 \\cdot 6 \\cdot 7 = 210}$\n2. ${\\left(x, y, z\\right) = \\left(2, 2, 2\\right)}$: 2 trắng, 2 đỏ, 2 xanh.\nSố cách chọn: ${C_5^2 \\cdot C_6^2 \\cdot C_7^2 = 10 \\cdot 15 \\cdot 21 = 3150}$\nSố kết quả thuận lợi cho biến cố A là $n\\left( A \\right)=210+3150=3360$\nXác suất biến cố $A$ là: ${\\frac{3360}{18564} = \\frac{3360 \\div 84}{18564 \\div 84} = \\frac{40}{221}}$\nVậy Khẳng định a) ĐÚNG.\nb) Xét khẳng định b)\nBiến cố B: Chọn được ít nhất một viên bi màu xanh.\nBiến cố đối ${\\bar{B}}$: Không chọn được viên bi màu xanh nào (6 viên đều là trắng hoặc đỏ).\nTổng số bi trắng và đỏ: ${5 + 6 = 11}$ viên.\n$n\\left( \\overline{B} \\right)=C_{11}^{6}=462$\nXác suất ${P\\left(\\bar{B}\\right)}$ là $P\\left( {\\bar{B}} \\right)=\\frac{n\\left( \\overline{B} \\right)}{n\\left( \\Omega \\right)}=\\frac{462}{18564}$\nXác suất ${P\\left(B\\right)}$ là $P\\left( B \\right)=1-P\\left( {\\bar{B}} \\right)=1-\\frac{462}{18564}\\approx 0,97512$\nTa thấy ${P\\left(B\\right) \\approx 0,97512 > 0,95}$.\nVậy khẳng định b) SAI.\nc) Xét khẳng định c)\nBiến cố C: Chọn được 6 viên bi toàn màu xanh.\n$n\\left( C \\right)=C_{7}^{6}=7$\nXác suất ${P\\left(C\\right)}$:${\\frac{7}{18564} \\div \\frac{7}{7} = \\frac{1}{2652}}$\nVậy khẳng định c) ĐÚNG.\nd) Xét khẳng định d)\nBiến cố D: Chọn được ít nhất 5 viên bi màu xanh.\nBiến cố này gồm 2 trường hợp:\nTrường hợp 1: 5 viên xanh và 1 viên (trắng hoặc đỏ) (từ ${5+6=11}$ viên).\n$C_{7}^{5}\\cdot C_{11}^{1}=21\\cdot 11=231$ cách\nTrường hợp 2: 6 viên xanh và 0 viên (trắng hoặc đỏ).\n$C_{7}^{6}\\cdot C_{11}^{0}=7\\cdot 1=7$ cách\nSố kết quả thuận lợi cho biến cố D là $231+7=238$\nXác suất ${P\\left(D\\right)}$ là $P\\left( D \\right)=\\frac{n\\left( D \\right)}{n\\left( \\Omega \\right)}=\\frac{238}{18564}=\\frac{1}{78}$\nVậy khẳng định d) ĐÚNG.",
    "ma": "de1.P2.C4",
@@ -483,6 +482,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -546,7 +546,7 @@
    "flags": [],
    "question": "Một chiếc máy bay đang bay trong hệ trục toạ độ $Oxyz$ với mặt phẳng $(Oxy)$ là mặt đất như hình vẽ.\n[[IMG:image5.emf]]\nBiết rằng khi đang ở độ cao $8000$ mét so với mặt đất (vị trí$A$) thì máy bay chuyển động đều với vận tốc $\\vec{v}=(100;110;200)$ (đơn vị m/s). Hỏi sau $30$ giây thì máy bay đã lên đến độ cao bao nhiêu km so với mặt đất?",
    "explanation": "Đáp án: 6,8.\nSau $30$ giây máy bay di chuyển từ điểm $A$ đến điểm $B$ thỏa mãn điều kiện:\n$\\overrightarrow{AB}=30\\vec{v}=(3000;3300;6000)\\Rightarrow {{z}_{B}}-{{z}_{A}}=6000\\Rightarrow {{z}_{B}}=6000+8000=14000\\text{ (m)=14 (km)}\\text{.}$\nVậy sau $30$ giây máy bay đạt độ cao $\\text{14 km}$ so với mặt đất.",
-   "short_value": 14,
+   "short_value": 6.8,
    "short_correct": "14",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -556,6 +556,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

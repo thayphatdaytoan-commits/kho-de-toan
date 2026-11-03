@@ -158,10 +158,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_bang_menh_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image11.png]]Một con sư tử đang đuổi theo một con ngựa vằn và chúng cùng chạy trên một đường thẳng. Ngựa vằn đã nhận ra sư tử khi sư tử cách nó khoảng 40 m. Từ thời điểm này, sư tử đuổi theo ngựa vằn với tốc độ ${{v}_{1}}\\left( t \\right)=15{{e}^{-0,1t}}\\text{ }\\!\\!~\\!\\!\\text{ }m/s$ và ngựa vằn bỏ chạy với tốc độ ${{v}_{2}}\\left( t \\right)=20-20{{e}^{-0,1t}}\\text{ }\\!\\!~\\!\\!\\text{ }m/s$ ($t$ được tính bằng giây với $0\\le t\\le 60$).",
    "explanation": "a) Mệnh đề sai.\nVận tốc ban đầu của con ngựa vằn là ${{v}_{2}}\\left( 0 \\right)=20-20{{e}^{0}}=0$m/s.\nb) Mệnh đề đúng.\nTa có: ${{{v}'}_{1}}\\left( t \\right)=-0,1\\cdot 15{{e}^{-0,1t}}<0,\\,\\,\\forall t\\in \\left[ 0\\,;\\,\\,60 \\right].$ Suy ra tốc độ sư tử giảm dần theo thời gian.\nTa có: ${{{v}'}_{2}}\\left( t \\right)=-0,1\\cdot \\left( -20 \\right){{e}^{-0,1t}}=2{{e}^{-0,1t}}>0,\\,\\,\\forall t\\in \\left[ 0\\,;\\,\\,60 \\right].$Suy ra tốc độ của ngựa vằn tăng dần theo thời gian.\nc) Mệnh đề sai.\nKhoảng cách giữa sư tử và ngựa vằn là $d\\left( t \\right)=40+\\int_{0}^{t}{\\left[ {{v}_{2}}\\left( t \\right)-{{v}_{1}}\\left( t \\right) \\right]\\text{d}t}$.\nTa có ${d}'\\left( t \\right)={{v}_{2}}\\left( t \\right)-{{v}_{1}}\\left( t \\right)\\,;\\,\\,{d}'\\left( t \\right)=0\\Rightarrow {{v}_{2}}\\left( t \\right)={{v}_{1}}\\left( t \\right)$.\n[[IMG:image12.png]]Giải phương trình này, ta có: $20-20{{e}^{-0,1t}}=15{{e}^{-0,1t}}$ $\\Leftrightarrow 20=35{{e}^{-0,1t}}$ $\\Leftrightarrow \\frac{20}{35}={{e}^{-0,1t}}$ $\\Leftrightarrow \\text{ln}\\frac{20}{35}=-0,1t$ $\\Leftrightarrow t=\\frac{\\text{ln}\\frac{20}{35}}{-0,1}\\approx 5,6\\,\\,\\,\\left( s \\right)$.\nBảng biến thiên:\nVậy sư tử ở gần ngựa vằn nhất khi ${{v}_{1}}\\left( t \\right)={{v}_{2}}\\left( t \\right)$, và khoảng cách ngắn nhất giữa chúng là 1,92 mét.\nd) Mệnh đề đúng.\nTừ bảng biến thiên, ta thấy khoảng cách ngắn nhất giữa hai con vật là 1,92 mét; kể từ thời điềm gần nhất đó, sư tử dần bị bỏ lại phía sau và sư tử không thể bắt được ngựa vằn.",
    "ma": "de1.P3.C6",
@@ -172,6 +169,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D08",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -485,6 +483,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B3.D02",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."

@@ -564,9 +564,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABC$ có các cạnh $SA$ , $SB$ , $SC$ đôi một vuông góc và $SA=SB=SC$ . Gọi $I$ là trung điểm của $AB$ . Khi đó góc giữa hai vecto $\\overrightarrow{SI};\\overrightarrow{BC}$",
    "explanation": "[[IMG:image91.emf]]\nGiả sử $SA=SB=SC=a$.\n$\\cos \\left( \\overrightarrow{SI};\\overrightarrow{BC} \\right)=\\frac{\\overrightarrow{SI}.\\overrightarrow{BC}}{\\left| \\overrightarrow{SI} \\right|.\\left| \\overrightarrow{BC} \\right|}=\\frac{1}{2}\\frac{\\left( \\overrightarrow{SA}+\\overrightarrow{SB} \\right).\\left( \\overrightarrow{SC}-\\overrightarrow{SB} \\right)}{\\left| \\overrightarrow{SI} \\right|.\\left| \\overrightarrow{BC} \\right|}\\,=\\frac{1}{2}\\frac{\\overrightarrow{SA}.\\overrightarrow{SC}-\\overrightarrow{SA}.\\overrightarrow{SB}+\\overrightarrow{SB}.\\overrightarrow{SC}-{{\\overrightarrow{SB}}^{2}}}{\\left| \\overrightarrow{SI} \\right|.\\left| \\overrightarrow{BC} \\right|}$\n$=-\\frac{1}{2}\\frac{{{\\overrightarrow{SB}}^{2}}}{\\left| \\overrightarrow{SI} \\right|.\\left| \\overrightarrow{BC} \\right|}=-\\frac{1}{2}\\frac{{{a}^{2}}}{\\frac{a\\sqrt{2}}{2}.a\\sqrt{2}}=-\\frac{1}{2}$. (Vì hình chóp $S.ABC$ có các cạnh $SA$ , $SB$ , $SC$ đôi một vuông góc nên $\\overrightarrow{SA}.\\overrightarrow{SB}=0$;$\\overrightarrow{SA}.\\overrightarrow{SC}=0$ và $\\overrightarrow{SB}.\\overrightarrow{SC}=0$). Suy ra: $\\left( \\overrightarrow{SI};\\overrightarrow{BC} \\right)={{120}^{0}}$.",
    "short_value": 120,
@@ -579,6 +577,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -618,7 +617,7 @@
    "flags": [],
    "question": "Một chiếc ô tô được đặt trên mặt đáy dưới của một khung sắt có dạng hình hộp chữ nhật với đáy trên là hình chữ nhật ${A B C D}$, mặt phẳng ${(A B C D)}$ song song với mặt phẳng nằm ngang. Khung sắt đó được buộc vào móc ${E}$ của chiếc cần cẩu sao cho các đoạn dây cáp ${E A, E B, E C, E D}$ có độ dài bằng nhau và cùng tạo với mặt phẳng ${(A B C D)}$ một góc bằng ${60^{\\circ}}$ (Hình). Chiếc cần cẩu kéo khung sắt lên theo phương thẳng đứng.\n[[IMG:image93.png]]\nTính trọng lượng của chiếc xe ô tô (làm tròn đến hàng đơn vị), biết rằng các lực căng ${\\overrightarrow{F_1}, \\overrightarrow{F_2}, \\overrightarrow{F_3}}$, ${\\overrightarrow{F_4}}$ đều có cường độ là ${4700 {~N}}$ và trọng lượng của khung sắt là ${3000 {~N}}$.",
    "explanation": "[[IMG:image94.png]]\nTa có $\\widehat{AEC}=60{}^\\circ $\nTa có $\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{3}}}=2\\overrightarrow{EO}\\Rightarrow \\left| \\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{3}}} \\right|=2\\left| \\overrightarrow{EO} \\right|\\Rightarrow \\left| \\overrightarrow{{{F}_{1}}} \\right|\\sqrt{3}=4700\\sqrt{3}$\nTương tự ta cũng có $\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{4}}}=\\left| \\overrightarrow{{{F}_{2}}} \\right|\\sqrt{3}=4700\\sqrt{3}$\nVậy trọng lực ôtô là: $\\left( \\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}+\\overrightarrow{{{F}_{4}}} \\right)-$(trọng lực khung sắt) $\\approx 13281\\left( N \\right)$",
-   "short_value": 4700,
+   "short_value": 13281,
    "short_correct": "13281",
    "ma": "de3.P3.C6",
    "dac_trung": {

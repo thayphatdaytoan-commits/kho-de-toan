@@ -505,9 +505,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho dãy số $({{u}_{n}})$biết ${{u}_{n}}=\\frac{1}{\\sqrt{5}}\\left[ {{\\left( \\frac{1+\\sqrt{5}}{2} \\right)}^{n}}-{{\\left( \\frac{1-\\sqrt{5}}{2} \\right)}^{n}} \\right]$. Tìm số hạng ${{u}_{6}}$.",
    "explanation": "Thế trực tiếp: ${{u}_{6}}=\\frac{1}{\\sqrt{5}}\\left[ {{\\left( \\frac{1+\\sqrt{5}}{2} \\right)}^{6}}-{{\\left( \\frac{1-\\sqrt{5}}{2} \\right)}^{6}} \\right]=8$.",
    "short_value": 8,
@@ -520,6 +518,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B1.D01",
    "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
@@ -531,9 +530,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho dãy số $({{u}_{n}})$ có số hạng tổng quát ${{u}_{n}}=\\frac{2n+1}{n+2}$. Số $\\frac{167}{84}$ là số hạng thứ mấy?",
    "explanation": "Giả sử ${{u}_{n}}=\\frac{167}{84}\\Leftrightarrow \\frac{2n+1}{n+2}=\\frac{167}{84}\\Leftrightarrow 84(2n+1)=167(n+2)$ $\\Leftrightarrow n=250$.\nVậy $\\frac{167}{84}$ là số hạng thứ 250 của dãy số $({{u}_{n}})$.",
    "short_value": 250,
@@ -546,6 +543,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B1.D01",
    "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
@@ -608,7 +606,7 @@
    "flags": [],
    "question": "Vi khuẩn E.Coli sinh sản thông qua một quá trình gọi là quá trình phân đôi. Vi khuẩn E.Coli phân chia làm đôi cứ sau 20 phút. Giả sử tốc độ phân chia này được duy trì trong 12 giờ kể từ khi vi khuẩn ban đầu xâm nhập vào cơ thể. Hỏi sau 12 giờ sẽ có bao nhiêu vi khuẩn E.Coli trong cơ thể? Giả sử có một nguồn dinh dưỡng vô hạn để vi khuẩn E.Coli duy trì tốc độ phân chia như cũ trong 48 giờ kể từ khi vi khuẩn ban đầu xâm nhập vào cơ thể. Hỏi sau 48 giờ sẽ có bao nhiêu vi khuẩn E.Coli trong cơ thể?",
    "explanation": "Giả sử ban đầu có 1 vi khuẩn E.Coli.\nSau 20 phút lần một, số vi khuẩn là ${1 \\cdot 2=2}$.\nSau 20 phút lần hai, số vi khuẩn là ${2 \\cdot 2=2^2}$.\nSau 20 phút lần ba, số vi khuẩn là ${2^2 \\cdot 2=2^3}$.\nSau 20 phút lần bốn, số vi khuẩn là ${2^3 \\cdot 2=2^4}$.\nTương tự như vậy sau 12 giờ (bằng ${3 \\cdot 12}$ lần 20 phút) thì số vi khuẩn là\n${{2}^{3\\cdot 12}}={{2}^{36}}\\approx 6,87\\cdot {{10}^{10}}(con).$\nSau 48 giờ (bằng ${3 \\cdot 48=144}$ lần 20 phút) thì số vi khuẩn là\n${{2}^{144}}\\approx 2,23\\cdot {{10}^{43}}(con).$",
-   "short_value": 144,
+   "short_value": 2.23,
    "short_correct": "2^{144}",
    "ma": "de2.P3.C6",
    "dac_trung": {

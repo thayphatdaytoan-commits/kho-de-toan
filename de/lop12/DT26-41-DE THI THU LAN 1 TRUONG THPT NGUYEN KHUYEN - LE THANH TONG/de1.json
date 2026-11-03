@@ -67,6 +67,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L12.C4.B1.D05",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -356,7 +357,12 @@
    "section": 2,
    "n": 1,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Hàm số đồng biến trên $R\\backslash\\left\\{ -2 \\right\\}$.",
+    "b": "Đồ thị hàm số có tâm đối xứng $I\\left( -2;1 \\right)$.",
+    "c": "Phương trình tiếp tuyến của đồ thị $\\left( C \\right)$ tại điểm $x=1$ là $y=\\frac{1}{3}x-\\frac{1}{3}$.",
+    "d": "Xét tam giác đều $ABI$ có hai đỉnh $A,B$ thuộc $\\left( C \\right)$, đoạn thẳng $AB$ có độ dài bằng $2\\sqrt{3}$."
+   },
    "tf_ans": {
     "a": false,
     "b": true,
@@ -364,14 +370,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:",
-    "import_web: Câu 12: mệnh đề (a) trống",
-    "import_web: Câu 12: mệnh đề (b) trống",
-    "import_web: Câu 12: mệnh đề (c) trống",
-    "import_web: Câu 12: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{x-1}{x+2}$ có đồ thị $\\left( C \\right)$. Gọi $I$ là giao điểm của hai tiệm cận của $\\left( C \\right)$. Xét tính đúng sai?\nA. Hàm số đồng biến trên $R\\backslash \\left\\{ -2 \\right\\}$.\nB. Đồ thị hàm số có tâm đối xứng $I\\left( -2;1 \\right).$.\nC. Phương trình tiếp tuyến của đồ thị $\\left( C \\right)$ tại điểm $x=1$là $y=\\frac{1}{3}x-\\frac{1}{3}$.\nD. Xét tam giác đều $ABI$ có hai đỉnh $A,B$ thuộc $\\left( C \\right)$, đoạn thẳng $AB$ có độ dài bằng $2\\sqrt{3}$.",
    "explanation": "| Câu A | Câu B | Câu C | Câu D |\n|---|---|---|---|\n| Sai | Đúng | Đúng | Đúng |\na) Ta có ${y}'=\\frac{3}{{{\\left( x+2 \\right)}^{2}}}>0,\\forall x\\ne -2.$ Nên hàm số đồng biến trên khoảng $\\left( -\\infty ;-2 \\right)$ và $\\left( -2;+\\infty \\right)$\nDo đó câu A sai.\nb) Tiệm cận đứng $x=-2$\nTiệm cận ngang $y=1$.\nGiao điểm của hai tiệm cận $I\\left( -2;1 \\right)$, câu B đúng.\nc) Khi $x=1\\Rightarrow y=0$ và ${y}'\\left( 1 \\right)=\\frac{1}{3}$\nPhương trình tiếp tuyến tại điểm có hoành độ $x=1$ là $y=\\frac{1}{3}\\left( x-1 \\right)+0\\Leftrightarrow y=\\frac{1}{3}x-\\frac{1}{3}$\nVây câu C đúng.\nd) Do $A,B$ thuộc $\\left( C \\right)$ nên $A\\left( a;\\frac{a-1}{a+2} \\right);B\\left( b;\\frac{b-1}{b+2} \\right)$\n+) $\\overrightarrow{IA}\\left( a+2;\\frac{-3}{a+2} \\right),\\begin{matrix} {} \\\\ \\end{matrix}\\overrightarrow{IB}\\left( b+2;\\frac{-3}{b+2} \\right)$. Đặt $m=a+2;\\begin{matrix} {} \\\\ \\end{matrix}n=b+2\\begin{matrix} {} \\\\ \\end{matrix}\\Rightarrow \\overrightarrow{IA}\\left( m;\\frac{-3}{m} \\right),\\begin{matrix} {} \\\\ \\end{matrix}\\overrightarrow{IB}\\left( n;\\frac{-3}{n} \\right)$\n+) Tam giác đều $ABI$ nên $IA=IB$ và\n$\\left( \\overrightarrow{IA};\\overrightarrow{IB} \\right)=60{}^\\circ \\Leftrightarrow \\left\\{ \\begin{aligned} & {{m}^{2}}+\\frac{9}{{{m}^{2}}}={{n}^{2}}+\\frac{9}{{{n}^{2}}} \\\\ & \\frac{\\overrightarrow{IA}.\\overrightarrow{IB}}{IA.IB}=\\frac{1}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{m}^{2}}+\\frac{9}{{{m}^{2}}}={{n}^{2}}+\\frac{9}{{{n}^{2}}} \\\\ & \\frac{m.n+\\frac{9}{m.n}}{I{{A}^{2}}}=\\frac{1}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{m}^{2}}+\\frac{9}{{{m}^{2}}}={{n}^{2}}+\\frac{9}{{{n}^{2}}}\\left( * \\right) \\\\ & \\frac{m.n+\\frac{9}{m.n}}{{{m}^{2}}+\\frac{9}{{{m}^{2}}}}=\\frac{1}{2}\\left( ** \\right) \\\\ \\end{aligned} \\right.$\n+) Từ (*) ta có ${{m}^{2}}+\\frac{9}{{{m}^{2}}}={{n}^{2}}+\\frac{9}{{{n}^{2}}}\\Leftrightarrow $ $\\left[ \\begin{aligned} & m=n\\left( 1 \\right) \\\\ & m=-n\\left( 2 \\right) \\\\ & m.n=3\\left( 3 \\right) \\\\ & m.n=-3\\left( 4 \\right) \\\\ \\end{aligned} \\right.$\n+) Thế (1) vào (**) không thỏa mãn nên loại\n+) Thế (2) vào (**) không thỏa mãn nên loại\n+) Thế (3) vào (**) Ta được $\\frac{3+\\frac{9}{3}}{{{m}^{2}}+\\frac{9}{{{m}^{2}}}}=\\frac{1}{2}\\Leftrightarrow {{m}^{2}}+\\frac{9}{{{m}^{2}}}=12\\Rightarrow AB=IA=\\sqrt{{{m}^{2}}+\\frac{9}{{{m}^{2}}}}=\\sqrt{12}$\n+) Thế (4) vào (**) không thỏa mãn nên loại\nVậy $AB=2\\sqrt{3}$, câu D đúng.",
    "ma": "de1.P2.C1",
@@ -381,7 +380,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 2,
@@ -413,6 +413,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D02",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -427,11 +428,14 @@
     "c": "Khoảng cách ngắn nhất mà chim bói cá bay xuống sát với mặt nước là $3,58\\text{ }m$.",
     "d": "Biết vận tốc của chim bói cá là $2\\text{ }m/s$, thời gian chim bay từ điểm $A\\left( 0;0;5 \\right)$ đến điểm gần mặt nước nhất là $1,5\\text{ }s$ (làm tròn đến hàng phần chục)."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$ cho trước mặt nước phẳng lặng trùng với mặt phẳng $\\left( Oxy \\right)$, đơn vị trên mỗi trục là mét. Một chú chim bói cá đang đậu trên một cành cây tại vị trí $A\\left( 0;0;5 \\right)$, tiến hành bay xuống để thám thính ngang qua trên mặt hồ nước rồi đậu trên một cành cây khác tại vị trí $B\\left( 4;0;4 \\right)$ theo quỹ đạo bay của chim bói cá là một cung tròn hoàn hảo, nằm trong mặt phẳng vuông góc với mặt nước, đi qua điểm M (như hình vẽ bên), thỏa mãn $\\widehat{AMB\\text{ }}=\\text{ }135{}^\\circ $.\n[[IMG:image4.png]]",
    "explanation": "a). ĐÚNG\nTa có $\\overrightarrow{AB}\\left( 4;0;-1 \\right)$\nQuỹ đạo bay của chim bói cá là một cung tròn hoàn hảo, nằm trong mặt phẳng $\\left( P \\right)$vuông góc với mặt nước và đi qua điểm $A\\left( 0;0;5 \\right),B\\left( 4;0;4 \\right)$ nên ta có:\nMặt phẳng $\\left( P \\right)$đi qua $A\\left( 0;0;5 \\right)$và có vectơ pháp tuyến $\\overrightarrow{n}=\\frac{1}{4}\\left[ \\overrightarrow{k},\\overrightarrow{AB} \\right]=\\frac{1}{4}\\left( 0;4;0 \\right)=\\left( 0;1;0 \\right)$nên có phương trình $y\\text{ }=\\text{ }0$.\nb). SAI\nGọi tâm đường tròn chứa quỹ đạo là $I\\left( a;\\text{ }0;\\text{ }b \\right)$(do$I\\in \\left( Oxz \\right);b>5)$).\nTa có: $AB=\\sqrt{17}$.\nÁp đụng định lí Sin vào $\\Delta MAB$ ta có: $\\frac{AB}{\\sin \\widehat{AMB}}=2R\\Rightarrow R=\\frac{AB}{2\\sin \\widehat{AMB}}=\\frac{\\sqrt{17}}{2\\sin 135{}^\\circ }=\\frac{\\sqrt{34}}{2}$.\nTa có hệ phương trình:\n$\\left\\{ \\begin{matrix} I{{A}^{^{2}}}=I{{B}^{2}} \\\\ I{{A}^{2}}={{R}^{2}} \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{matrix} {{a}^{2}}+{{\\left( b-5 \\right)}^{2}}={{\\left( a-4 \\right)}^{2}}+{{\\left( b-4 \\right)}^{2}} \\\\ {{a}^{2}}+{{\\left( b-5 \\right)}^{2}}=\\frac{17}{2} \\\\ \\end{matrix} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} 8a-2b=7 \\\\ {{a}^{2}}+{{\\left( b-5 \\right)}^{2}}=\\frac{17}{2} \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{matrix} a=\\frac{7+2b}{8} \\\\ {{\\left( \\frac{7+2b}{8} \\right)}^{2}}+{{\\left( b-5 \\right)}^{2}}=\\frac{17}{2} \\\\ \\end{matrix} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} a=\\frac{7+2b}{8} \\\\ 68{{b}^{2}}-612b+1105=0 \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{matrix} a=\\frac{7+2b}{8} \\\\ \\left[ \\begin{matrix} b=\\frac{5}{2} \\\\ b=\\frac{13}{2} \\\\ \\end{matrix} \\right. \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left[ \\begin{matrix} \\left\\{ \\begin{matrix} a=\\frac{3}{2} \\\\ b=\\frac{5}{2} \\\\ \\end{matrix} \\right. \\\\ \\left\\{ \\begin{matrix} a=\\frac{5}{2} \\\\ b=\\frac{13}{2} \\\\ \\end{matrix} \\right. \\\\ \\end{matrix} \\right.$.\nDo $b>5$nên tâm $I\\left( \\frac{5}{2};\\text{ }0;\\text{ }\\frac{13}{2} \\right)$.\nc). ĐÚNG\nTa có $R=\\frac{\\sqrt{34}}{2}$\nKhoảng cách ngắn nhất mà chim bói cá bay xuống sát với mặt nước là $d\\left( I,Oxy \\right)-R=\\left| {{z}_{I}} \\right|-R=\\frac{13}{2}-\\frac{\\sqrt{34}}{2}\\approx 3,58m$.\nd). ĐÚNG\nGọi H là điểm thấp nhất ta có $\\overrightarrow{{{u}_{IH}}}=\\left( 0;0;1 \\right)$, $\\overrightarrow{{{u}_{AI}}}=2\\overrightarrow{IA}=\\left( 5;0;3 \\right)$.\nDo đó $\\cos \\widehat{AIH}=\\left| \\cos \\left( \\overrightarrow{{{u}_{IH}}},\\overrightarrow{{{u}_{AI}}} \\right) \\right|=\\left| \\frac{3}{\\sqrt{1}.\\sqrt{{{3}^{2}}+{{5}^{2}}}} \\right|=\\frac{3\\sqrt{34}}{34}\\Rightarrow \\widehat{AIH}\\approx 1,03$.\nVậy độ dài cung chim bay được $l=\\alpha R=1,03.\\frac{\\sqrt{34}}{2}$ nên thời gian bay $t=\\frac{l}{v}=1,03.\\frac{\\sqrt{34}}{2}:2\\approx 1,5s$.",
    "ma": "de1.P2.C3",
@@ -442,6 +446,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -602,9 +607,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[ Mức độ 4 ] Trong trận đấu giữa Thụy Điển và Anh tại giải vô địch bóng đá thế giới, khi thời gian trận đấu sắp kết thúc, Zlatan Ibrahimovic đã thực hiện một cú xe đạp chổng ngược móc bóng từ khoảng cách xa vào lưới đội tuyển Anh. Chọn hệ trục tọa độ $Oxyz$ (đơn vị trên mỗi trục tính theo mét) sao cho $(Oxy)$ trùng với mặt đất, tại thời điểm Ibra tung người móc bóng quả bóng thuộc tia $Oz$ và có độ cao $2$ m, bay theo quỹ đạo của một Parabol thuộc mặt phẳng vuông góc với mặt đất rơi xuống đất tại vị trí điểm $A$ nằm trong khung thành. Biết $d(A,Oy)=AH=8\\,(H\\in Oy)$ và $OH=15$. Sau khi bay lên không trung quả bóng đạt độ cao lớn nhất tại điểm có hoành độ $x=3$. Tại thời điểm bóng bắt đầu bay vào khung thành (tức là bóng nằm trên vạch kẻ ngang của khung thành) thì độ cao của quả bóng so với mặt đất là bao nhiêu mét? Biết rằng khung thành $CDEF$ nằm trong mặt phẳng vuông góc với mặt đất và đi qua $2$ điểm $M(4;15;-2),N(8;14;6)$ (làm tròn kết quả đến hàng phần trăm).\n[[IMG:image7.jpg]]",
    "explanation": "Vẽ tia $Ou$ đi qua $A(8;15;0)$. Khi đó, đường cong parabol sẽ nằm trong mặt phẳng với hệ trục tọa độ $Ouz$.\n[[IMG:image11.jpg]]\nGọi $I$ là hình chiếu của đỉnh parabol lên mặt phẳng $(Oxy)\\Rightarrow I\\in Ou$. Gọi $K$, $L$ lần lượt là hình chiếu của $I$, $A$ lên trục $Ox$.\nTa có: $OA=\\sqrt{OH^2+AH^2}=\\sqrt{15^2+8^2}=17$.\nVì $IK\\text{ // }AL$ nên $\\dfrac{OI}{OA}=\\dfrac{OK}{OL}=\\dfrac{3}{8}\\Rightarrow OK=\\dfrac{51}{8}$.\nGọi $T$ là giao điểm của đường cong parabol $(P)$ và mặt phẳng $(CDEF)$, $G$ là hình chiếu của $T$ lên trục $Ou$.\nGọi $P$, $Q$ lần lượt là hình chiếu của $M$, $N$ lên mặt phẳng $(Oxy)\\Rightarrow P(4;15;0),\\,Q(8;14;0)$ và $G$ cũng là giao điểm của $PQ$ và $OA$.\n+ Xét trong mặt phẳng tọa độ $Oxy$:\nGọi $PQ:y=px+q$ mà $P(4;15)$ và $Q(8;14)$ nên ta có hệ phương trình.:\n$\\left\\{ \\begin{aligned} & 4p+q=15 \\\\ & 8p+q=14 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & p=-\\frac{1}{4} \\\\ & q=16 \\\\ \\end{aligned} \\right.\\Rightarrow PQ:y=-\\frac{1}{4}x+16$\nTương tự, ta có $OA:y=\\dfrac{15}{8}x$.\nVì $G$ là giao điểm của $PQ$ và $OA$ nên $G\\left(\\dfrac{128}{17};\\dfrac{240}{17}\\right)\\Rightarrow OG=16$.\n+ Xét trong mặt phẳng tọa độ $Ouz$, gọi parabol cần tìm là $(P):z=au^2+bu+c$\nTa có: $(0;2)\\in (P)$, $A(17;0)\\in (P)$ và $u_I=\\dfrac{51}{8}$ nên có hệ phương trình:\n$\\left\\{ \\begin{aligned} & c=2 \\\\ & 289a+17b+c=0 \\\\ & -\\frac{b}{2a}=\\frac{51}{8} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=2 \\\\ & 289a+17b+c=0 \\\\ & 51a+4b=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{8}{289} \\\\ & b=\\frac{6}{17} \\\\ & c=2 \\\\ \\end{aligned} \\right.$\nDo đó $(P):z=-\\dfrac{8}{289}u^2+\\dfrac{6}{17}u+2$.\nTa thấy, tại thời điểm bóng bắt đầu bay vào khung thành thì độ cao của quả bóng so với mặt đất là $TG=z(16)=\\dfrac{162}{289}\\approx 0,56$.",
    "short_value": 0.56,
@@ -617,6 +620,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VDC",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."

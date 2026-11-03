@@ -490,7 +490,7 @@
    "question": "Cho hàm số $y=\\frac{2x+m}{mx-1}$. Tìm $m$ để đồ thị hàm số có tiệm cận đứng, tiệm cận ngang và các tiệm cận cùng với hai trục tọa độ tạo thành một hình chữ nhật có diện tích là $2$.",
    "explanation": ".\nVới $m\\ne 0$ ta có: $S=2\\Leftrightarrow \\left| \\frac{1}{m} \\right|.\\left| \\frac{2}{m} \\right|=2\\Leftrightarrow m=\\pm 1$.",
    "short_value": 1,
-   "short_correct": "1",
+   "short_correct": "1|-1",
    "ma": "de1.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 2,
@@ -499,6 +499,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D04",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -510,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Chi phí để loại $x\\left( \\% \\right)$ chất gây ô nhiễm là $C$(nghìn đô) với $C\\left( x \\right)=\\frac{12x}{100-x}$. Tính chi phí để loại bỏ $50\\,\\%$ chất gây ô nhiễm?",
    "explanation": "Khi $x=50$ thì $C\\left( 50 \\right)=\\frac{12.50}{100-50}=12$ (nghìn đô)\nVậy chi phí để loại bỏ $50\\,\\%$ chất gây ô nhiễm là $12$ nghìn đô.",
    "short_value": 12,
@@ -525,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -536,9 +536,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Anh An là một nhà quy hoạch đô thị, mô hình hóa dân số $P\\left( t \\right)$ (nghìn người) của vùng anh ấy sống sau $t$ năm kể từ thời điểm hiện tại là $P\\left( t \\right)=\\frac{40t}{{{t}^{2}}+10}-\\frac{50}{t+1}+70$. Dân số mà anh An dự kiến trong dài hạn là bao nhiêu nghìn người (khi $t\\to +\\infty $).",
    "explanation": "Ta có: $\\underset{t\\to +\\infty }{\\lim}\\,\\frac{40t}{{{t}^{2}}+10}=0$; $\\underset{t\\to +\\infty }{\\lim}\\,\\frac{-50}{t+1}=0$ suy ra $P\\left( t \\right)=70$.\nVậy dân số mà anh An dự kiến trong dài hạn là $70$ nghìn người.",
    "short_value": 70,
@@ -551,6 +549,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D07",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -566,7 +565,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Nồng độ thuốc trong máu của một bệnh nhân $t$ giờ sau khi tiêm là $C\\left( t \\right)\\,\\,\\left( \\frac{mg}{ml} \\right)$ với $C\\left( t \\right)$ được cho bởi công thức $C\\left( t \\right)=\\frac{0,4}{{{t}^{1,2}}+1}+0,013$. Tìm nồng độ thuốc tồn dư, tức là nồng độ thuốc vẫn còn trong cơ thể thể nạn nhân trong dài hạn (khi $t\\to +\\infty $).",
-   "explanation": "Ta có: $\\underset{t\\to +\\infty }{\\lim}\\,\\frac{40t}{{{t}^{2}}+10}=\\underset{t\\to +\\infty }{\\lim}\\,\\left( \\frac{0,4}{{{t}^{1,2}}+1}+0,013 \\right)=0,013\\,\\,\\left( \\frac{mg}{ml} \\right)$.",
+   "explanation": "Ta có: $\\lim_{t\\to+\\infty} C(t)=\\lim_{t\\to+\\infty}\\left(\\frac{0,4}{t^{1,2}+1}+0,013\\right)=0,013$.",
    "short_value": 0.013,
    "short_correct": "0,013",
    "ma": "de1.P3.C4",
@@ -577,6 +576,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D04",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -588,9 +588,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hai loài cùng tồn tại trong cùng một hệ sinh thái. Sau $t$ năm, số lượng cá thể loài $I$ là $P\\left( t \\right)$nghìn con, số lượng cá thể loài $II$ là $Q\\left( t \\right)$ nghìn con, trong đó $P$ và $Q$ được mô hình hóa bởi các hàm $Q\\left( t \\right)=\\frac{64}{4-t}$ với mọi $t\\ge 0$ sao cho số lượng cá thể tương ứng là đại lượng không âm. Tìm số lượng cá thể ban đầu của mỗi loài $II$.",
    "explanation": "Ta có: $Q\\left( 0 \\right)=\\frac{64}{4-0}=16$(nghìn con).",
    "short_value": 16,
@@ -603,6 +601,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -614,13 +613,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{m{{x}^{2}}+\\left( {{m}^{2}}+m+2 \\right)x+{{m}^{2}}+3}{x+1}$. Tìm $m\\in \\mathbb{R}$ để khoảng cách từ gốc $O$ đến tiệm cận xiên hoặc ngang là nhỏ nhất.",
    "explanation": ".\nHàm số đã cho xác định và liên tục trên $\\left( -\\infty ;-1 \\right)\\cup \\left( -1;+\\infty \\right)$\n$y=\\frac{m{{x}^{2}}+\\left( {{m}^{2}}+m+2 \\right)x+{{m}^{2}}+3}{x+1}=mx+{{m}^{2}}+2+\\frac{1}{x+1},x\\ne -1$\nVì $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{1}{x+1}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{1}{x+1}=0$ nên $\\left( d \\right):y=mx+{{m}^{2}}+2$ $\\Leftrightarrow \\left( d \\right):mx-y+{{m}^{2}}+2=0$ là đường cận xiên hoặc ngang của hàm số.\nTa có: $d\\left( O;d \\right)=\\frac{\\left| {{m}^{2}}+2 \\right|}{\\sqrt{\\left| {{m}^{2}}+1 \\right|}}=\\sqrt{{{m}^{2}}+1}+\\frac{1}{\\sqrt{{{m}^{2}}+1}}\\ge 2$\nVậy $d\\left( O;d \\right)$ nhỏ nhất bằng $2$ khi $\\sqrt{{{m}^{2}}+1}=\\frac{1}{\\sqrt{{{m}^{2}}+1}}\\Leftrightarrow m=0$.\nKhi đó hàm số có tiệm cận ngang là $y=2$.\n-----------------HẾT-----------------",
    "short_value": 2,
-   "short_correct": "0",
+   "short_correct": "2",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -629,7 +626,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D02",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."

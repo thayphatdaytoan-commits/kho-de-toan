@@ -80,7 +80,7 @@
     "trung_web:HQvL8rp17PVwjwBekhKS"
    ],
    "question": "Tiệm cận ngang của đồ thị hàm số $y=\\frac{x-2}{x+1}$ là",
-   "explanation": "Đáp án đúng là: D\nTa có $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{x-2}{x+1}=1$ và $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{x-2}{x+1}=1$.\nSuy ra $y=1$ là tiệm cận ngang của đồ thị hàm số.",
+   "explanation": "Đáp án đúng là: D\nTa có $\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x-2}{x+1}=1$ và $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{x-2}{x+1}=1$.\nSuy ra $y=1$ là tiệm cận ngang của đồ thị hàm số.",
    "options": [
     "$y=-2$",
     "$x=-1$",
@@ -367,9 +367,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ xác định và liên tục trên $\\mathbb{R}$ có bảng biến thiên như hình vẽ dưới đây. Xét tính đúng sai của các khẳng định sau:\n[[IMG:image6.png]]",
    "explanation": "a) Đ, b) S, c) S, d) S\na) Hàm số $y=f\\left( x \\right)$ đồng biến trên khoảng $\\left( -\\infty ;0 \\right)$ và $\\left( 2;+\\infty \\right)$.\nb) Ta có ${g}'\\left( x \\right)=2-3{f}'\\left( x \\right)>0,\\forall x\\in \\left( 0;2 \\right)$, suy ra hàm số $g\\left( x \\right)=2x-3f\\left( x \\right)$ đồng biến trên khoảng $\\left( 0;2 \\right)$.\nc) Ta có hàm số $y=f\\left( x \\right)$ nghịch biến trên khoảng $\\left( 0;2 \\right)$.\nMà $0\\le {{\\sin }^{2}}x\\le 1,\\forall x\\in \\mathbb{R}$ $\\Rightarrow 0\\le {{\\sin }^{2}}x<\\frac{3}{2},\\forall x\\in \\mathbb{R}$ $\\Rightarrow f\\left( {{\\sin }^{2}}x \\right)>f\\left( \\frac{3}{2} \\right)$.\nd) Ta có ${y}'={{\\left( 2-3x \\right)}^{\\prime }}\\cdot {f}'\\left( 2-3x \\right)=-3{f}'\\left( 2-3x \\right)$.\nHàm số $y=f\\left( 2-3x \\right)$ nghịch biến ${y}'=-3{f}'\\left( 2-3x \\right)<0\\Leftrightarrow {f}'\\left( 2-3x \\right)>0\\Leftrightarrow \\left[ \\begin{aligned} & 2-3x<0 \\\\ & 2-3x>2 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left[ \\begin{aligned} & x>\\frac{2}{3} \\\\ & x<0 \\\\ \\end{aligned} \\right.$. Suy ra hàm số $y=f\\left( 2-3x \\right)$ nghịch biến trên khoảng $\\left( -\\infty ;0 \\right)$ và $\\left( \\frac{2}{3};+\\infty \\right)$.",
    "ma": "de1.P2.C1",
@@ -380,6 +378,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D01",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -401,11 +400,9 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{x-{{m}^{2}}-2}{x-m}$ (với tham số $m$). Xét tính đúng sai của các khẳng định sau:",
-   "explanation": "a) Đ, b) S, c) Đ, d) Đ\na) Tập xác định $D=\\mathbb{R}\\backslash \\left\\{ m \\right\\}$.\nTa có ${y}'=\\frac{{{m}^{2}}-m+2}{{{\\left( x-m \\right)}^{2}}}>0,\\forall x\\ne m$.\nDo đó hàm số đồng biến trên mỗi khoảng $\\left( -\\infty ;m \\right)$ và $\\left( m;+\\infty \\right)$.\nVậy khi $m=1$ hàm số đồng biến trên mỗi khoảng $\\left( -\\infty ;1 \\right)$ và $\\left( 1;+\\infty \\right)$.\nb) Bảng biến thiên\n[[IMG:image11.png]]\nVới $m=1$ thì giá trị lớn nhất của hàm số $f\\left( 4 \\right)=\\frac{1}{3}$.\nc) Ta có $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,y=\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{x-{{m}^{2}}-2}{x-m}=1$; $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,y=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{x-{{m}^{2}}-2}{x-m}=1$.\nSuy ra $y=1$ là tiệm cận ngang của đồ thị hàm số.\nd) Để giá trị lớn nhất của hàm số $y=\\frac{x-{{m}^{2}}-2}{x-m}$ trên đoạn $\\left[ 0;4 \\right]$ bằng $-1$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & \\frac{2-{{m}^{2}}}{4-m}=-1 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & {{m}^{2}}+m-6=0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & m=2,m=-3 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow m=-3$.",
+   "explanation": "a) Đ, b) S, c) Đ, d) Đ\na) Tập xác định $D=\\mathbb{R}\\backslash \\left\\{ m \\right\\}$.\nTa có ${y}'=\\frac{{{m}^{2}}-m+2}{{{\\left( x-m \\right)}^{2}}}>0,\\forall x\\ne m$.\nDo đó hàm số đồng biến trên mỗi khoảng $\\left( -\\infty ;m \\right)$ và $\\left( m;+\\infty \\right)$.\nVậy khi $m=1$ hàm số đồng biến trên mỗi khoảng $\\left( -\\infty ;1 \\right)$ và $\\left( 1;+\\infty \\right)$.\nb) Bảng biến thiên\n[[IMG:image11.png]]\nVới $m=1$ thì giá trị lớn nhất của hàm số $f\\left( 4 \\right)=\\frac{1}{3}$.\nc) Ta có $\\underset{x\\to +\\infty }{\\lim}\\,y=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x-{{m}^{2}}-2}{x-m}=1$; $\\underset{x\\to -\\infty }{\\lim}\\,y=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{x-{{m}^{2}}-2}{x-m}=1$.\nSuy ra $y=1$ là tiệm cận ngang của đồ thị hàm số.\nd) Để giá trị lớn nhất của hàm số $y=\\frac{x-{{m}^{2}}-2}{x-m}$ trên đoạn $\\left[ 0;4 \\right]$ bằng $-1$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & \\frac{2-{{m}^{2}}}{4-m}=-1 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & {{m}^{2}}+m-6=0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & m=2,m=-3 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow m=-3$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 12,
@@ -414,6 +411,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D07",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -435,9 +433,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$, cho hai điểm $M\\left( 2;3;-1 \\right),N\\left( -1;1;1 \\right)$.",
    "explanation": "a) S, b) Đ, c) Đ, d) S\na) Hình chiếu của điểm $M$ trên trục $Oy$ có tọa độ là $\\left( 0;3;0 \\right)$.\nb) Vì $N$ là trung điểm của $ME$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & -1=\\frac{2+{{x}_{E}}}{2} \\\\ & 1=\\frac{3+{{y}_{E}}}{2} \\\\ & 1=\\frac{-1+{{z}_{E}}}{2} \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{E}}=-4 \\\\ & {{y}_{E}}=-1 \\\\ & {{z}_{E}}=3 \\\\ \\end{aligned} \\right.$ $\\Rightarrow E\\left( -4;-1;3 \\right)$.\nc) Ta có $\\overrightarrow{NM}=\\left( 3;2;-2 \\right);\\overrightarrow{NP}=\\left( 2;m-2;2 \\right)$.\n$\\Delta MNP$ vuông tại $N$ $\\Leftrightarrow \\overrightarrow{NM}\\cdot \\overrightarrow{NP}=0$ $\\Leftrightarrow 3\\cdot 2+2\\cdot \\left( m-2 \\right)+\\left( -2 \\right)\\cdot 2=0\\Leftrightarrow m=1$.\nd) Gọi $J\\left( x;y;z \\right)$ thỏa mãn $3\\overrightarrow{JM}-\\overrightarrow{JN}=\\overrightarrow{0}$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & 3\\left( 2-x \\right)-\\left( -1-x \\right)=0 \\\\ & 3\\left( 3-y \\right)-\\left( 1-y \\right)=0 \\\\ & 3\\left( -1-z \\right)-\\left( 1-z \\right)=0 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & x=\\frac{7}{2} \\\\ & y=4 \\\\ & z=-2 \\\\ \\end{aligned} \\right.$.\nSuy ra $J\\left( \\frac{7}{2};4;-2 \\right)$.\nKhi đó $T=\\left| 3\\overrightarrow{IM}-\\overrightarrow{IN} \\right|=\\left| 3\\overrightarrow{IJ}+3\\overrightarrow{JM}-\\overrightarrow{IJ}-\\overrightarrow{JN} \\right|=\\left| 2\\overrightarrow{IJ} \\right|=2IJ$.\n$T$ đạt giá trị nhỏ nhất khi và chỉ khi $I$ là hình chiếu của $J$ trên $\\left( Oxy \\right)$ $\\Leftrightarrow I\\left( \\frac{7}{2};4;0 \\right)$.\nVậy $a=\\frac{7}{2};b=4;c=0$. Suy ra $2a+b+c=11$.",
    "ma": "de1.P2.C3",
@@ -448,6 +444,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D01",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -466,14 +463,14 @@
     "a": true,
     "b": false,
     "c": false,
-    "d": false
+    "d": true
    },
    "answer": null,
    "flags": [
     "dung_sai_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "Anh Bình đầu tư số tiền bằng nhau vào hai lĩnh vực kinh doanh A, B. Anh Bình thống kê số tiền thu được mỗi tháng trong vòng 40 tháng theo mỗi lĩnh vực cho kết quả như sau:\n| Số tiền (triệu đồng) | $\\left[ 15;20 \\right)$ | $\\left[ 20;25 \\right)$ | $\\left[ 25;30 \\right)$ | $\\left[ 30;35 \\right)$ | $\\left[ 35;40 \\right)$ |\n|---|---|---|---|---|---|\n| Số tháng đầu tư vào lĩnh vực A | 5 | 10 | 8 | 8 | 9 |\n| Số tháng đầu tư vào lĩnh vực B | 6 | 8 | 9 | 8 | 9 |",
-   "explanation": "a) Đ, b) S, c) S, d) Đ\na) Khoảng biến thiên về số tháng đầu từ vào lĩnh vực A và B ở mẫu số liệu trên bằng nhau và bằng $40-15=25$.\nb)Số tiền trung bình thu được khi đầu tư vào lĩnh vực A là\n$\\overline{{{x}_{A}}}=\\frac{5\\cdot 17,5+10\\cdot 22,5+8\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nSố tiền trung bình thu được khi đầu tư vào lĩnh vực B là\n$\\overline{{{x}_{B}}}=\\frac{6\\cdot 17,5+8\\cdot 22,5+9\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nc) Phương sai của số tiền thu được khi đầu tư vào lĩnh vực A là\n$s_{A}^{2}=\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}=45,6875$.\nd) Độ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực A là\n${{s}_{A}}=\\sqrt{\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{731}}{4}$.\nĐộ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực B là\n${{s}_{B}}=\\sqrt{\\frac{1}{40}\\left( 6\\cdot 17,{{5}^{2}}+8\\cdot 22,{{5}^{2}}+9\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{751}}{4}$.\nNhư vậy, độ lệch chuẩn của mẫu số liệu về số tiền thu được hàng tháng khi đầu tư vào lĩnh vực B cao hơn khi đầu tư vào lĩnh vực A. Do đó, anh Bình đầu tư vào lĩnh vực B “rủi ro” hơn lĩnh vực A.",
+   "explanation": "a) Đ, b) S, c) S, d) S\na) Khoảng biến thiên về số tháng đầu từ vào lĩnh vực A và B ở mẫu số liệu trên bằng nhau và bằng $40-15=25$.\nb)Số tiền trung bình thu được khi đầu tư vào lĩnh vực A là\n$\\overline{{{x}_{A}}}=\\frac{5\\cdot 17,5+10\\cdot 22,5+8\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nSố tiền trung bình thu được khi đầu tư vào lĩnh vực B là\n$\\overline{{{x}_{B}}}=\\frac{6\\cdot 17,5+8\\cdot 22,5+9\\cdot 27,5+8\\cdot 32,5+9\\cdot 37,5}{40}=28,25$.\nc) Phương sai của số tiền thu được khi đầu tư vào lĩnh vực A là\n$s_{A}^{2}=\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}=45,6875$.\nd) Độ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực A là\n${{s}_{A}}=\\sqrt{\\frac{1}{40}\\left( 5\\cdot 17,{{5}^{2}}+10\\cdot 22,{{5}^{2}}+8\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{731}}{4}$.\nĐộ lệch chuẩn của số tiền thu được khi đầu tư vào lĩnh vực B là\n${{s}_{B}}=\\sqrt{\\frac{1}{40}\\left( 6\\cdot 17,{{5}^{2}}+8\\cdot 22,{{5}^{2}}+9\\cdot 27,{{5}^{2}}+8\\cdot 32,{{5}^{2}}+9\\cdot 37,{{5}^{2}} \\right)-28,{{25}^{2}}}=\\frac{\\sqrt{751}}{4}$.\nNhư vậy, độ lệch chuẩn của mẫu số liệu về số tiền thu được hàng tháng khi đầu tư vào lĩnh vực B cao hơn khi đầu tư vào lĩnh vực A. Do đó, anh Bình đầu tư vào lĩnh vực B “rủi ro” hơn lĩnh vực A.",
    "ma": "de1.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 13,
@@ -482,6 +479,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."

@@ -431,9 +431,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Nghiên cứu số bệnh nhân trong một viện bỏng, thấy rằng có 2 nguyên nhân gây ra bỏng là bỏng nhiệt và bỏng do hóa chất. Bỏng nhiệt chiếm 70% số bệnh nhân và bỏng do hóa chất là 30%. Trong những bệnh nhân bị bỏng nhiệt thì có 30% bị biến chứng, trong những bệnh nhân bị bỏng hóa chất thì có 50% bị biến chứng. Rút ngẫu nhiên một bệnh án, các phát biểu sau đúng hay sai?",
    "explanation": "Đáp án : A Đúng, B Đúng, C Sai, D Đúng.\nGọi $A$ là biến cố “bệnh án rút ra bị biến chứng”.\nGọi B là biến cố “bệnh án rút ra bị bỏng nhiệt”.\nKhi đó $\\overline{B}$ là biến cố “bệnh án rút ra bị bỏng hóa chất”.\nTheo đề:\nXác suất do bị bỏng nhiệt là : $P\\left( B \\right)=0,7$.\nXác suất bị biến chứng trong bỏng nhiệt là $30\\%=0,3$ $\\Rightarrow P\\left( A|B \\right)=0,3$ $\\Rightarrow $A đúng.\nXác suất do bị bỏng hóa chất là $P\\left( \\overline{B} \\right)=0,3$.\nXác suất bị biến chứng trong bỏng hóa chất là $50\\%=0,5$ $\\Rightarrow P\\left( A|\\overline{B} \\right)=0,5$ $\\Rightarrow $ B đúng.\nXác suất biến cố “bệnh án bị biến chứng”:\n$P\\left( A \\right)=P\\left( AB \\right)+P\\left( A\\overline{B} \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,3.0,7+0,5.0,3=36\\%$ $\\Rightarrow $C sai.\nXác suất của bệnh án bị biến chứng do bỏng nhiệt:\n$P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,7.0,3}{0,36}=\\frac{7}{12}$ $\\Rightarrow $ D đúng.",
    "ma": "de1.P2.C4",
@@ -444,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -508,7 +507,7 @@
    "flags": [],
    "question": "Một bình đựng 50 viên bi kích thước, chất liệu như nhau, trong đó 30 viên bi xanh và 20 viên bi trắng. Lấy ngẫu nhiên ra một viên bi, rồi lại lấy ngẫu nhiên một viên bi nữa. Tính xác xuất để lấy được một bi xanh ở lần thứ nhất và một viên bi trắng ở lần thứ hai. (Kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Đáp án: $0,41$\nGọi A là biến cố: “Lấy được một viên bi xanh ở lần thứ nhất”\nGọi B là biến cố : “Lấy được một viên bi trắng ở lần thứ hai”.\nTa cần tính $P(A\\cap B)$\nTheo công thức nhân xác suất $P(A\\cap B)=P\\left( A \\right).P\\left( B|A \\right)$\nVì có 30 viên bi xanh trong tổng số 50 viên bi $P(A)=\\frac{30}{50}=\\frac{3}{5}$\nNếu A đã xảy ra, tức là một viên bi xanh đã được lấy ra ở lần thứ nhất, thì còn lại trong bình 49 viên bi trong đó số viên bi trắng là 20, do đó $P(B|A)=\\frac{20}{49}$\nVậy xác suất cần tìm là $P(A\\cap B)=P\\left( A \\right).P\\left( B|A \\right)=\\frac{3}{5}.\\frac{20}{49}=\\frac{12}{29}$",
-   "short_value": 0.24,
+   "short_value": 0.41,
    "short_correct": "0,24",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -518,7 +517,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "claude",
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

@@ -217,8 +217,8 @@
    "tf_ans": {},
    "answer": "B",
    "flags": [],
-   "question": "Cho hai dãy số $\\left( {{u}_{n}} \\right)$ và $\\left( {{v}_{n}} \\right)$ thỏa mãn $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=2024$ và $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{v}_{n}}=2025.$\nGiá trị của $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\left( {{u}_{n}}-{{v}_{n}} \\right)$ bằng",
-   "explanation": "Chọn B\n$\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\left( {{u}_{n}}-{{v}_{n}} \\right)=\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}-\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{v}_{n}}=2024-2025=-1$",
+   "question": "Cho hai dãy số $\\left( {{u}_{n}} \\right)$ và $\\left( {{v}_{n}} \\right)$ thỏa mãn $\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=2024$ và $\\underset{n\\to +\\infty }{\\lim}\\,{{v}_{n}}=2025.$\nGiá trị của $\\underset{n\\to +\\infty }{\\lim}\\,\\left( {{u}_{n}}-{{v}_{n}} \\right)$ bằng",
+   "explanation": "Chọn B\n$\\underset{n\\to +\\infty }{\\lim}\\,\\left( {{u}_{n}}-{{v}_{n}} \\right)=\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}-\\underset{n\\to +\\infty }{\\lim}\\,{{v}_{n}}=2024-2025=-1$",
    "options": [
     "$1$",
     "$-1$",
@@ -366,9 +366,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình bình hành ${A B C D}$ và một điểm ${S}$ không thuộc mặt phẳng ${(A B C D)}$. Các điểm ${M, N}$ lần lượt là trung điểm của đoạn thẳng ${A B, S C}$. Gọi ${O=A C \\cap B D}$.Các mệnh đề sau đúng hay sai?",
    "explanation": "[[IMG:image8.png]]\na) $SO$ giao tuyến của hai mặt phẳng $(SAC)$ và $(SBD)$ là mệnh đề Đúng\nb) Tìm giao điểm ${I}$ của ${A N}$ và mặt phẳng ${(S B D)}$ :\nTrong mặt phẳng ${(A B C D)}$, gọi ${O=A C \\cap B D}$;\nTrong mặt phẳng ${(S A C)}$, gọi ${I=S O \\cap A N}$.\nTa có: ${\\left\\{\\begin{array}{l}I \\in A N \\\\ I \\in S O, S O \\subset(S B D)\\end{array} \\Rightarrow I=A N \\cap(S B D)\\right.}$. Suy ra mệnh đề đúng\nc) Tìm giao điểm ${J}$ của ${M N}$ và mặt phẳng ${(S B D)}$ :\nTrong mặt phẳng ${(A B C D)}$, gọi ${P=C M \\cap B D}$;\nTrong mặt phẳng ${(S C M)}$, gọi ${J=M N \\cap S P}$;\nTa có: ${\\left\\{\\begin{array}{l}J \\in M N \\\\ J \\in S P, S P \\subset(S B D)\\end{array} \\Rightarrow J=M N \\cap(S B D)\\right.}$. Suy ra mệnh đề sai.\nd) Chứng minh ${I, J, B}$ thẳng hàng:\nDễ thấy ${B \\in(A B N) \\cap(S B D)}$. (1)\nTa có: ${\\left\\{\\begin{array}{l}I \\in A N, A N \\subset(A B N) \\\\ I \\in S O, S O \\subset(S B D)\\end{array} \\Rightarrow I \\in(A B N) \\cap(S B D)\\right.}$.(2)\nTương tự: ${\\left\\{\\begin{array}{l}J \\in M N, M N \\subset(A B N) \\\\ J \\in S P, S P \\subset(S B D)\\end{array} \\Rightarrow J \\in(A B N) \\cap(S B D)\\right.}$.(3)\nTừ (1), (2), (3) suy ra ${B, I, J}$ cùng thuộc giao tuyến của hai mặt phẳng ${(A B N)}$ và ${(S B D)}$ nên ba điểm này thẳng hàng. Suy ra mệnh đề đúng.",
    "ma": "de1.P2.C1",
@@ -379,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C4.B1.D01",
    "dang_toan_web": "Các khái niệm mở đầu về không gian: Điểm, đường thẳng, mặt phẳng. Các tính chất thừa nhận."
@@ -400,9 +399,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $\\cos a=\\frac{3}{4}$; $0<a<\\frac{\\pi }{2}$; $\\sin b=\\frac{3}{5}$; $\\frac{\\pi }{2}<b<\\pi $. Xét tính đúng – sai của các mệnh đề sau:",
    "explanation": "a) $0<a<\\frac{\\pi }{2}$ $\\Rightarrow \\tan a>0$. Mệnh đề đúng.\nb) $\\frac{\\pi }{2}<b<\\pi \\Rightarrow \\cot b<0$\nTa có : ${{\\cot }^{2}}b+1=\\frac{1}{{{\\sin }^{2}}b}\\Rightarrow \\cot b=-\\sqrt{\\frac{1}{{{\\sin }^{2}}a}-1}=-\\sqrt{\\frac{25}{9}-1}=-\\frac{4}{3}$ nên mệnh đề sai.\nc) Ta có $\\cos 2a+\\cos 2b=2{{\\cos }^{2}}a-1+1-2{{\\sin }^{2}}b=2.\\frac{9}{16}-2.\\frac{9}{25}=\\frac{81}{200}=0,405\\notin \\left( \\frac{1}{2};1 \\right)$ nên mệnh đề sai.\nd)\nTa có : $\\left\\{ \\begin{aligned} & \\cos a=\\frac{3}{4} \\\\ & \\sin a>0 \\\\ \\end{aligned} \\right.\\Rightarrow \\sin a=\\sqrt{1-{{\\cos }^{2}}a}=\\frac{\\sqrt{7}}{4}$ và $\\left\\{ \\begin{aligned} & \\sin b=\\frac{3}{5} \\\\ & \\cos b<0 \\\\ \\end{aligned} \\right.\\Rightarrow \\cos b=-\\sqrt{1-{{\\sin }^{2}}b}=-\\frac{4}{5}.$\nSuy ra $\\cos \\left( a+b \\right)=\\cos a\\cos b-\\sin a\\sin b=\\frac{3}{4}.\\left( -\\frac{4}{5} \\right)-\\frac{\\sqrt{7}}{4}.\\frac{3}{5}=-\\frac{3}{5}\\left( 1+\\frac{\\sqrt{7}}{4} \\right)\\notin \\left( -\\frac{1}{2};-\\frac{1}{3} \\right)$ nên mệnh đề sai.",
    "ma": "de1.P2.C2",
@@ -413,6 +410,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C1.B2.D01",
    "dang_toan_web": "Các công thức biến đổi lượng giác (công thức cộng, công thức nhân đôi, công thức biến đổi tích thành tổng, tổng thành tích)."
@@ -434,9 +432,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Số cuộc điện thoại một người thực hiện mỗi ngày trong 30 ngày được lựa chọn ngẫu nhiên được thống kê trong bảng sau:\n| Số cuộc gọi | ${[2,5 ; 5,5)}$ | ${[5,5 ; 8,5)}$ | ${[8,5 ; 11,5)}$ | ${[11,5 ; 14,5)}$ | ${[14,5 ; 17,5)}$ |\n|---|---|---|---|---|---|\n| Số ngày | $4$ | $8$ | $7$ | $5$ | $2$ |",
    "explanation": "a) Đúng b) Sai c) Sai d) Đúng\nCỡ mẫu của mẫu số liệu trên là\n$N={{m}_{1}}+{{m}_{2}}+{{m}_{3}}+{{m}_{4}}+{{m}_{5}}=4+8+7+5+2=26$.\nTần số lớn nhất bằng $8$ nên mốt thuộc nhóm ${[5,5 ; 8,5)}$\nTa có $j=2,{{a}_{2}}=5,5,{{a}_{3}}=8,5\\Rightarrow h=3,{{m}_{2}}=8,{{m}_{1}}=4,{{m}_{3}}=7$\nVậy ${{M}_{o}}={{a}_{2}}+\\frac{{{m}_{2}}-{{m}_{1}}}{\\left( {{m}_{2}}-{{m}_{1}} \\right)+\\left( {{m}_{2}}-{{m}_{3}} \\right)}.h=5,5+\\frac{8-4}{\\left( 8-4 \\right)+\\left( 8-7 \\right)}.3=7,9$\nGiá trị đại diện của các nhóm: ${{x}_{1}}=4,{{x}_{2}}=7,{{x}_{3}}=10,{{x}_{4}}=13,{{x}_{5}}=16$\nVậy số trung bình cộng của mẫu số liệu trên là\n$\\bar{x}=\\frac{{{m}_{1}}{{x}_{1}}+{{m}_{2}}{{x}_{2}}+{{m}_{3}}{{x}_{3}}+{{m}_{4}}{{x}_{4}}+{{m}_{5}}{{x}_{5}}}{N}=\\frac{4.4+7.8+10.7+13.5+16.2}{26}\\approx 9,2$\n| Số cuộc gọi | ${[2,5 ; 5,5)}$ | ${[5,5 ; 8,5)}$ | ${[8,5 ; 11,5)}$ | ${[11,5 ; 14,5)}$ | ${[14,5 ; 17,5)}$ |\n|---|---|---|---|---|---|\n| Số ngày | $4$ | $8$ | $7$ | $5$ | $2$ |\nTrung vị thuộc nhóm ${[8,5 ; 11,5)}$\nTa có $j=3,{{a}_{3}}=8,5,{{a}_{4}}=11,5,{{m}_{3}}=7,{{m}_{2}}=8,{{m}_{1}}=4$\nSuy ra ${{M}_{e}}={{a}_{3}}+\\frac{\\frac{N}{2}-\\left( {{m}_{1}}+{{m}_{2}} \\right)}{{{m}_{3}}}.\\left( {{a}_{4}}-{{a}_{3}} \\right)=8,5+\\frac{\\frac{26}{2}-\\left( 4+8 \\right)}{7}.\\left( 11,5-8,5 \\right)\\approx 8,9$\nVậy tứ phân vị thứ 2 là ${{Q}_{2}}={{M}_{e}}=8,9$\nTứ phân vị thứ nhất thuộc nhóm ${[5,5 ; 8,5)}$\nTa có $j=2,{{a}_{2}}=5,5,{{a}_{3}}=8,5,{{m}_{2}}=8,{{m}_{1}}=4$\nVậy ${{Q}_{1}}={{a}_{2}}+\\frac{\\frac{N}{4}-\\left( {{m}_{1}} \\right)}{{{m}_{2}}}.\\left( {{a}_{3}}-{{a}_{2}} \\right)=5,5+\\frac{\\frac{26}{4}-\\left( 4 \\right)}{8}.\\left( 8,5-5,5 \\right)\\approx 6,4$\nTứ phân vị thứ ba thuộc nhóm ${[11,5 ; 14,5)}$\nTa có $j=4,{{a}_{4}}=11,5,{{a}_{5}}=14,5,{{m}_{4}}=5,{{m}_{3}}=7,{{m}_{2}}=8,{{m}_{1}}=4$\nVậy ${{Q}_{3}}={{a}_{4}}+\\frac{\\frac{3.N}{4}-\\left( {{m}_{1}}+{{m}_{2}}+{{m}_{3}} \\right)}{{{m}_{4}}}.\\left( {{a}_{5}}-{{a}_{4}} \\right)=11,5+\\frac{\\frac{3.26}{4}-\\left( 4+8+7 \\right)}{5}.\\left( 14,5-11,5 \\right)\\approx 11,8$",
    "ma": "de1.P2.C3",
@@ -447,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm: Số trung bình, trung vị, tứ phân vị và mốt."
@@ -468,9 +465,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $x,y\\in \\mathbb{R},{{x}^{2}}+{{y}^{2}}\\ne 0$. Các số $x+6y,5x+2y,8x+y\\,\\,(1)$ theo thứ tự là cấp số cộng; đồng thời các số $x-1;4x+4y;42x+2y\\,\\,\\left( 2 \\right)$ theo thứ tự đó lập thành một cấp số nhân. Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Mệnh đề ý a đúng.\nb) Để (1) theo thứ tự là cấp số cộng thì $5x+2y-\\left( x+6y \\right)=8x+y-\\left( 5x+2y \\right)$.\n$\\begin{aligned} & \\Leftrightarrow 5x+2y-x-6y=8x+y-5x-2y \\\\ & \\Leftrightarrow x=3y \\\\ \\end{aligned}$\nMệnh đề ý b sai.\nc) Để các số (2) theo thứ tự là cấp số nhân thì $\\frac{4x+4y}{x-1}=\\frac{42x+2y}{4x+4y}$\n$\\begin{aligned} & \\Rightarrow {{\\left( 4x+4y \\right)}^{2}}=\\left( x-1 \\right)\\left( 42x+2y \\right) \\\\ & \\Leftrightarrow 16{{\\left( x+y \\right)}^{2}}=\\left( x-1 \\right)\\left( 42x+2y \\right) \\\\ \\end{aligned}$\nMệnh đề ý c sai.\nd) Thay $x=3y$ vào $16{{\\left( x+y \\right)}^{2}}=\\left( x-1 \\right)\\left( 42x+2y \\right)$ta có\n$\\begin{aligned} & 16{{\\left( 3y+y \\right)}^{2}}=\\left( 3y-1 \\right)\\left( 42.3y+2y \\right) \\\\ & \\Leftrightarrow 256{{y}^{2}}=128y\\left( 3y-1 \\right) \\\\ & \\Leftrightarrow 256{{y}^{2}}=384{{y}^{2}}-128y \\\\ & \\Leftrightarrow 128{{y}^{2}}-128y=0 \\\\ & \\Leftrightarrow \\left[ \\begin{aligned} & y=0 \\\\ & y=1 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$\nVới $y=0$ thì $x=0$ (không thỏa bài toán)\nVới $y=1$ thì $x=3$\nVậy ${{x}^{3}}+{{y}^{3}}={{3}^{3}}+{{1}^{3}}=28.$\nMệnh đề ý d đúng.",
    "ma": "de1.P2.C4",
@@ -481,6 +476,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B2.D05",
    "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -493,8 +489,8 @@
    "tf_ans": {},
    "answer": null,
    "flags": [],
-   "question": "Biết rằng ${{m}_{0}}$ là phần nguyên của m để $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\sqrt{3}.$ Tính $m_{o}^{2}-25$.",
-   "explanation": "Đáp án: 11\nTa có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{6x+\\left| x \\right|\\sqrt{m+\\frac{2024}{{{x}^{2}}}}}{x\\left( 2+\\frac{1}{x} \\right)}=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{6-\\sqrt{m+\\frac{2024}{{{x}^{2}}}}}{2+\\frac{1}{x}}=\\frac{6-\\sqrt{m}}{2}$\nDo đó :\n$\\begin{aligned} & \\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\sqrt{3}. \\\\ & \\Leftrightarrow \\frac{6-\\sqrt{m}}{2}=\\sqrt{3}\\Leftrightarrow 6-\\sqrt{m}=2\\sqrt{3}\\Leftrightarrow m\\approx 6,431\\Rightarrow {{m}_{o}}=6\\Rightarrow m_{o}^{2}-25=11. \\\\ \\end{aligned}$",
+   "question": "Biết rằng ${{m}_{0}}$ là phần nguyên của m để $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\sqrt{3}.$ Tính $m_{o}^{2}-25$.",
+   "explanation": "Đáp án: 11\nTa có: $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{6x+\\left| x \\right|\\sqrt{m+\\frac{2024}{{{x}^{2}}}}}{x\\left( 2+\\frac{1}{x} \\right)}=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{6-\\sqrt{m+\\frac{2024}{{{x}^{2}}}}}{2+\\frac{1}{x}}=\\frac{6-\\sqrt{m}}{2}$\nDo đó :\n$\\begin{aligned} & \\underset{x\\to -\\infty }{\\lim}\\,\\frac{6x+\\sqrt{m{{x}^{2}}+2024}}{2x+1}=\\sqrt{3}. \\\\ & \\Leftrightarrow \\frac{6-\\sqrt{m}}{2}=\\sqrt{3}\\Leftrightarrow 6-\\sqrt{m}=2\\sqrt{3}\\Leftrightarrow m\\approx 6,431\\Rightarrow {{m}_{o}}=6\\Rightarrow m_{o}^{2}-25=11. \\\\ \\end{aligned}$",
    "short_value": 11,
    "short_correct": "11",
    "ma": "de1.P3.C1",

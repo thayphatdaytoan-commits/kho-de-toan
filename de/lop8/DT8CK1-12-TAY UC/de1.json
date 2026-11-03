@@ -214,6 +214,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L8.C5.B2.D02",
    "dang_toan_web": "Phân tích và xử lý dữ liệu."
@@ -254,10 +255,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan",
-    "tn_y_b_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -302,6 +300,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L8.C1.B4.D04",
    "dang_toan_web": "Phân tích đa thức thành nhân tử."
@@ -444,7 +443,7 @@
    "section": 6,
    "n": 1,
    "type": "multiple_choice",
-   "answer": "A",
+   "answer": "D",
    "tf": {},
    "tf_ans": {},
    "flags": [
@@ -454,7 +453,7 @@
    "bai_goc": "Bài 3",
    "points": 0.5,
    "question": "Rút gọn phân thức $\\frac{24xy-6{{x}^{2}}}{64{{y}^{2}}-4{{x}^{2}}}$.",
-   "explanation": "$\\frac{24xy-6{{x}^{2}}}{64{{y}^{2}}-4{{x}^{2}}}=\\frac{3x(8y-2x)}{{{(8y-2x)}^{2}}}=\\frac{3x}{8y-2x}$",
+   "explanation": "$\\frac{24xy-6{{x}^{2}}}{64{{y}^{2}}-4{{x}^{2}}}=\\frac{6x(4y-x)}{4(4y-x)(4y+x)}=\\frac{3x}{2(4y+x)}=\\frac{3x}{8y+2x}$",
    "options": [
     "$\\frac{3x}{8y+2x}$",
     "$\\frac{3x}{4y-x}$",
@@ -469,7 +468,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L8.C2.B1.D03",
    "dang_toan_web": "Phân thức đại số. Tính chất cơ bản của phân thức."
@@ -486,28 +485,28 @@
    ],
    "parts": [
     {
+     "correctAnswer": 1,
+     "explanation": "$\\frac{2}{x-y}-\\frac{5y+3}{{{x}^{2}}-{{y}^{2}}}$\n$=\\frac{2.(x+y)-(5y+3)}{(x-y).(x+y)}$\n$=\\frac{2x+2y-5y-3}{(x-y).(x+y)}$\n$=\\frac{2x-3y-3}{(x-y).(x+y)}$",
      "id": "a",
      "label": "a",
-     "question": "$\\frac{2}{x-y}-\\frac{5y+3}{{{x}^{2}}-{{y}^{2}}}$;",
-     "explanation": "$\\frac{2}{x-y}-\\frac{5y+3}{{{x}^{2}}-{{y}^{2}}}$\n$=\\frac{2.(x+y)-(5y+3)}{(x-y).(x+y)}$\n$=\\frac{2x+2y-5y-3}{(x-y).(x+y)}$\n$=\\frac{2x-3y-3}{(x-y).(x+y)}$",
-     "points": 0.5,
-     "type": "multiple_choice",
      "options": [
       "$\\frac{2x-3y+3}{(x-y)(x+y)}$",
       "$\\frac{2x-3y-3}{(x-y)(x+y)}$",
       "$\\frac{2x+3y+3}{(x-y)(x+y)}$",
       "$\\frac{2x-3y-3}{(x-y)^2}$"
      ],
-     "correctAnswer": 1
+     "points": 0.5,
+     "question": "$\\frac{2}{x-y}-\\frac{5y+3}{{{x}^{2}}-{{y}^{2}}}$;",
+     "type": "multiple_choice"
     },
     {
+     "explanation": "$\\frac{9-{{x}^{2}}}{{{x}^{2}}+6x+9}:\\frac{x-3}{2x+6}$\n$=\\frac{-(x-3)(x+3)}{{{(x+3)}^{2}}}:\\frac{x-3}{2(x+3)}$\n$=\\frac{-(x-3)(x+3)}{{{(x+3)}^{2}}}.\\frac{2(x+3)}{x-3}$\n$=-2$",
      "id": "b",
      "label": "b",
-     "question": "$\\frac{9-{{x}^{2}}}{{{x}^{2}}+6x+9}:\\frac{x-3}{2x+6}$.",
-     "explanation": "$\\frac{9-{{x}^{2}}}{{{x}^{2}}+6x+9}:\\frac{x-3}{2x+6}$\n$=\\frac{(x-3).(x+3)}{{{(x+3)}^{2}}}:\\frac{x-3}{2(x+3)}$\n$=\\frac{(x-3).(x+3)}{{{(x+3)}^{2}}}.\\frac{2(x+3)}{x-3}$\n$=2$",
      "points": 0.5,
-     "type": "short_answer",
-     "shortCorrect": "-2"
+     "question": "$\\frac{9-{{x}^{2}}}{{{x}^{2}}+6x+9}:\\frac{x-3}{2x+6}$.",
+     "shortCorrect": "-2",
+     "type": "short_answer"
     }
    ],
    "points": 1,
@@ -522,7 +521,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L8.C2.B2.D03",
    "dang_toan_web": "Các phép toán với phân thức đại số (cộng, trừ, nhân, chia)."
@@ -1058,11 +1057,7 @@
    "answer": "C",
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_tu_tu_luan_dap_an_nhieu_can_xac_nhan",
-    "loi_giai_do_AI_tu_giai_can_duyet",
-    "muc_do_NB_lech_xa_goi_y_vi_tri_VD"
-   ],
+   "flags": [],
    "bai_goc": "Bài 9",
    "points": 0.5,
    "question": "Năm ngoái, trên diện tích x (ha) nông trại thu hoạch được y (tấn) cà chua. Năm nay so với năm ngoái, nông trại giảm 6 ha diện tích trồng cà chua, nhưng nhờ cải tiến kỹ thuật, sản lượng cà chua tăng thêm 4 tấn. Năng suất cà chua của nông trại năm nay gấp bao nhiêu lần so với năm ngoái? (Trả lời dưới dạng một phân thức)",
@@ -1081,6 +1076,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L8.C2.B4.D01",
    "dang_toan_web": "Các dạng toán khác"

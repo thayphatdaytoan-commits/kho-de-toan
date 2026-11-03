@@ -512,7 +512,7 @@
    "flags": [],
    "question": "Gọi ${ S }$ là diện tích mặt phẳng giới hạn bởi parabol $y={{x}^{2}}+2x-3$ và đường thẳng $y=kx+1$ với ${k}$ là tham số thực. Tìm ${k}$ để ${S}$ nhỏ nhất.\nĐiền đáp án:…………………….",
    "explanation": "Ta có ${{x}^{2}}+2x-3=kx+1\\Leftrightarrow {{x}^{2}}-\\left( k-2 \\right)x-4=0$\nDo $ac=-4<0$ PT trên luôn có hai nghiệm phân biệt ${{x}_{1}},{{x}_{2}}$ thỏa mãn $\\left\\{ \\begin{matrix} {{x}_{1}}+{{x}_{2}}=k-2 \\\\ {{x}_{1}}.{{x}_{2}}=-4 \\\\ \\end{matrix} \\right.$\nGiả sử ${{x}_{1}}<{{x}_{2}}\\Rightarrow S=\\left| \\int\\limits_{{{x}_{1}}}^{{{x}_{2}}}{\\left( {{x}^{2}}-\\left( k-2 \\right)x-4 \\right)dx} \\right|=\\left| \\left( \\frac{{{x}^{3}}}{3}-\\frac{k-2}{2}{{x}^{2}}-4x \\right)\\left| \\begin{matrix} {{x}_{2}} \\\\ {{x}_{1}} \\\\ \\end{matrix} \\right. \\right|$\n$=\\left| \\frac{1}{3}\\left( x_{2}^{3}-x_{1}^{3} \\right)-\\frac{k-2}{2}\\left( x_{2}^{2}-x_{1}^{2} \\right)-4\\left( {{x}_{2}}-{{x}_{1}} \\right) \\right|=\\left| \\left( {{x}_{2}}-{{x}_{1}} \\right)\\left| \\frac{1}{3}\\left[ x_{1}^{2}+x_{2}^{2}+{{x}_{1}}.{{x}_{2}} \\right] \\right|-\\frac{k-2}{2}\\left( {{x}_{1}}+{{x}_{2}} \\right)-4 \\right|$\n$=\\sqrt{{{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-4{{x}_{1}}.{{x}_{2}}}\\left| \\frac{1}{3}\\left[ {{\\left( {{x}_{2}}+{{x}_{1}} \\right)}^{2}}-{{x}_{1}}.{{x}_{2}} \\right]-\\frac{k-2}{2}\\left( {{x}_{1}}+{{x}_{2}} \\right)-4 \\right|=\\sqrt{{{\\left( k-2 \\right)}^{2}}+16}\\left| \\frac{{{\\left( k-2 \\right)}^{2}}}{6}+\\frac{8}{3} \\right|$\nVậy S nhỏ nhất khi ${k=2}$.",
-   "short_value": 0,
+   "short_value": 2,
    "short_correct": "2",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -559,9 +559,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình phẳng $\\left( H \\right)$ giới hạn bởi các đường $y=\\left| {{x}^{2}}-1 \\right|$ và $y=k$, với $0<k<1$. Tìm $k$ để diện tích hình phẳng $\\left( H \\right)$ gấp hai lần diện tích hình phẳng được kẻ sọc ở hình vẽ bên. Khi đó $k=\\sqrt[m]{n}-p$ thì giá trị của $m+n+p$ bằng bao nhiêu?\n[[IMG:image56.png]]\nĐiền đáp án:…………………….",
    "explanation": "[[IMG:image57.png]]\nGọi $S$ là diện tích hình phẳng $\\left( H \\right)$. Lúc dó $S=2{{S}_{1}}+2{{S}_{2}}$, trong đó ${{S}_{1}}$ là diện tích phần gạch sọc ở bên phải $Oy$ và ${{S}_{2}}$ là diện tích phần gạch ca rô trong hình vẽ bên.\nGọi$A,$ $B$ là các giao diếm có hoành độ dương của đường thẳng $y=k$ và đồ thị hàm số$y=\\left| {{x}^{2}}-1 \\right|$, trong đó $A\\left( \\sqrt{1-k};k \\right)$ và $B\\left( \\sqrt{1+k};k \\right)$.\nThco yêu cầu bài toán $S=2\\cdot 2{{S}_{1}}\\Leftrightarrow {{S}_{1}}={{S}_{2}}$.\n$\\Leftrightarrow \\int\\limits_{0}^{\\sqrt{1-k}}{\\left( 1-{{x}^{2}}-k \\right)\\text{d}x}\\text{ }\\!\\!~\\!\\!\\text{ }=\\int\\limits_{\\sqrt{1-k}}^{1}{\\left( k-1-{{x}^{2}} \\right)\\text{d}x}+\\int\\limits_{1}^{\\sqrt{1+k}}{\\left( k-{{x}^{2}}+1 \\right)\\text{d}x}$.\n$\\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }\\left( 1-k \\right)\\sqrt{1-k}-\\frac{1}{3}\\left( 1-k \\right)\\sqrt{1-k}=\\frac{1}{3}-\\left( 1-k \\right)-\\frac{1}{3}\\left( 1-k \\right)\\sqrt{1-k}$.\n$+\\left( 1-k \\right)\\sqrt{1-k}+\\left( 1+k \\right)\\sqrt{1+k}-\\frac{1}{3}\\left( 1+k \\right)\\sqrt{1+k}-\\left( 1+k \\right)+\\frac{1}{3}$.\n$\\begin{aligned} & \\Leftrightarrow \\text{ }\\!\\!~\\!\\!\\text{ }\\frac{2}{3}\\left( 1+k \\right)\\sqrt{1+k}=\\frac{4}{3} \\\\ & \\Leftrightarrow {{\\left( \\sqrt{1+k} \\right)}^{3}}=2 \\\\ & \\Leftrightarrow k=\\sqrt[3]{4}-1=\\sqrt[m]{n}-p \\\\ \\end{aligned}$.\nVậy $m=3;n=4;p=1\\Rightarrow m+n+p=8$",
    "short_value": 8,
@@ -574,6 +572,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D02",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -588,7 +587,7 @@
    "flags": [],
    "question": "Một khối cầu có bán kính là $5\\left( \\text{dm} \\right)$, người ta cắt bỏ hai phần của khối cầu bằng hai mặt phẳng song song cùng vuông góc đường kính và cách tâm một khoảng $3\\left( \\text{dm} \\right)$ để làm một chiếc lu đựng nước. Tính thể tích nước mà chiếc lu chứa được ( quy tròn đến hàng đơn vị của decimét khối).\n[[IMG:image58.png]]\nĐiền đáp án:…………………….",
    "explanation": "[[IMG:image59.png]]\nTrong mặt phẳng tọa độ $Oxy$, xét đường tròn $(C):{{x}^{2}}+{{y}^{2}}=25$.\nTa thấy nếu cho nửa trên trục $Ox$ của $\\left( C \\right)$ quay quanh trục $Ox$ ta được mặt cầu bán kính bằng 5.\nNếu cho hình phẳng $\\left( H \\right)$ giới hạn bởi nửa trên trục $Ox$ của $\\left( C \\right)$, trục $Ox$, hai đường thẳng $x=0,\\text{ }x=3$ quay xung quanh trục $Ox$ ta sẽ được khối tròn xoay chính là một nửa của cái lu.\nTa có ${{x}^{2}}+{{y}^{2}}=25\\Leftrightarrow y=\\pm \\sqrt{25-{{x}^{2}}}$.\n$\\Rightarrow $ Nửa trên trục $Ox$ của $\\left( C \\right)$ có phương trình $y=\\sqrt{25-{{x}^{2}}}$.\nDo đó, thể tích vật thể tròn xoay khi cho $\\left( H \\right)$ quay quanh $Ox$ là:\n${{V}_{1}}=\\pi \\int\\limits_{0}^{3}{\\left( 25-{{x}^{2}} \\right)\\text{d}x}=\\left. \\pi \\left( 25x-\\frac{{{x}^{3}}}{3} \\right) \\right|_{0}^{3}=66\\pi $.\n$V=2{{V}_{1}}=132\\pi \\left( \\text{d}{{\\text{m}}^{3}} \\right)\\approx 415\\left( \\text{d}{{\\text{m}}^{3}} \\right)$.\nVậy thể tích nước mà chiếc lu chứa được khoảng $415\\text{d}{{\\text{m}}^{3}}$.",
-   "short_value": 3,
+   "short_value": 415,
    "short_correct": "415",
    "ma": "de3.P3.C5",
    "dac_trung": {
@@ -610,9 +609,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Biết $F\\left( x \\right)$ và $G\\left( x \\right)$ là hai nguyên hàm của hàm số $f\\left( x \\right)$ trên $\\mathbb{R}$ và thoả mãn $\\int\\limits_{0}^{4}{f\\left( x \\right)\\text{d}x}=F\\left( 4 \\right)-G\\left( 0 \\right)+2m$, với $m>0$. Gọi $S$ là diện tích hình phẳng giới hạn bởi các đường $y=F\\left( x \\right)$, $y=G\\left( x \\right)$; $x=0$ và $x=4$. Khi $S=8$ thì $m$ bằng?\nĐiền đáp án:…………………….",
    "explanation": "Trả lời: $m=1$\nTheo đề ta có $\\int\\limits_{0}^{4}{f\\left( x \\right)\\text{d}x}=F\\left( 4 \\right)-G\\left( 0 \\right)+2m\\Rightarrow F\\left( x \\right)\\left| \\underset{0}{\\overset{4}{\\mathop {}}}\\, \\right.=F\\left( 4 \\right)-G\\left( 0 \\right)+2m$\n$\\Rightarrow F\\left( 4 \\right)-F\\left( 0 \\right)=F\\left( 4 \\right)-G\\left( 0 \\right)+2m\\Rightarrow G\\left( 0 \\right)-F\\left( 0 \\right)=2m$. $\\left( 1 \\right)$\nMặt khác, do $F\\left( x \\right)$ và $G\\left( x \\right)$ là hai nguyên hàm của hàm số $f\\left( x \\right)$ trên $\\mathbb{R}$ nên ta có $G\\left( x \\right)-F\\left( x \\right)=C$ (không đổi) với mọi $x\\in \\mathbb{R}$. $\\left( 2 \\right)$\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ suy ra $G\\left( x \\right)-F\\left( x \\right)=2m>0$, với mọi $x\\in \\mathbb{R}$.\nKhi đó ta có $S=\\int\\limits_{0}^{4}{\\left| G\\left( x \\right)-F\\left( x \\right) \\right|\\text{d}x=\\int\\limits_{0}^{4}{\\text{2}m.\\text{d}x}}=2mx\\left| \\underset{0}{\\overset{4}{\\mathop{{}}}}\\, \\right.=8m$.\nTheo đề ta có $8m=8\\Leftrightarrow m=1$.",
    "short_value": 1,
@@ -625,6 +622,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D01",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."

@@ -485,11 +485,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho khối lăng trụ đứng $ABC.{A}'{B}'{C}'$ có đáy là tam giác đều cạnh bằng $1$. Biết khoảng cách giữa đường thẳng ${B}'{C}'$ với mặt phẳng $\\left( {A}'BC \\right)$ bằng $\\frac{\\sqrt{3}}{3}$. Thể tích của khối lăng trụ đã cho bằng bao nhiêu? (Kết quả làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)\n[[IMG:image6.png]]",
-   "explanation": "Ta có $A{B}'\\cap {A}'B=I$ là trung điểm của mỗi đường.\nKhi đó $d\\left( {B}'{C}',\\left( {A}'BC \\right) \\right)=d\\left( {B}',\\left( {A}'BC \\right) \\right)=\\frac{{B}'I}{AI}d\\left( A,\\left( {A}'BC \\right) \\right)=d\\left( A,\\left( {A}'BC \\right) \\right)$.\nKẻ $AH\\bot BC$ ($H$ là trung điểm của $BC$) suy ra\n$BC\\bot \\left( {A}'AH \\right)\\Rightarrow \\left( {A}'BC \\right)\\bot \\left( {A}'AH \\right),\\left( {A}'BC \\right)\\cap \\left( {A}'AH \\right)={A}'H$.\nKẻ $AK\\bot {A}'H\\Rightarrow AK\\bot \\left( {A}'AB \\right)\\Rightarrow d\\left( A,\\left( {A}'AB \\right) \\right)=AK=\\frac{\\sqrt{3}}{3}$.\nTa lại có $\\frac{1}{A{{K}^{2}}}=\\frac{1}{A{{H}^{2}}}+\\frac{1}{A{{{{A}'}}^{2}}}\\Rightarrow A{A}'=\\frac{\\sqrt{15}}{5}$.\nVậy thể tích của lăng trụ là $V=A{A}'.{{S}_{ABC}}=\\frac{\\sqrt{15}}{5}.1.\\frac{\\sqrt{3}}{4}{{.1}^{2}}=\\frac{3\\sqrt{5}}{20}\\approx 0,34$.\nĐáp án:\n| 0 | , | 3 | 4 |\n|---|---|---|---|",
+   "explanation": "Ta có $A{B}'\\cap {A}'B=I$ là trung điểm của mỗi đường.\nKhi đó $d\\left( {B}'{C}',\\left( {A}'BC \\right) \\right)=d\\left( {B}',\\left( {A}'BC \\right) \\right)=\\frac{{B}'I}{AI}d\\left( A,\\left( {A}'BC \\right) \\right)=d\\left( A,\\left( {A}'BC \\right) \\right)$.\nKẻ $AH\\bot BC$ ($H$ là trung điểm của $BC$) suy ra\n$BC\\bot \\left( {A}'AH \\right)\\Rightarrow \\left( {A}'BC \\right)\\bot \\left( {A}'AH \\right),\\left( {A}'BC \\right)\\cap \\left( {A}'AH \\right)={A}'H$.\nKẻ $AK\\bot {A}'H\\Rightarrow AK\\bot \\left( {A}'BC \\right)\\Rightarrow d\\left( A,\\left( {A}'BC \\right) \\right)=AK=\\frac{\\sqrt{3}}{3}$.\nTa lại có $\\frac{1}{A{{K}^{2}}}=\\frac{1}{A{{H}^{2}}}+\\frac{1}{A{{{{A}'}}^{2}}}\\Rightarrow A{A}'=\\frac{\\sqrt{15}}{5}$.\nVậy thể tích của lăng trụ là $V=A{A}'.{{S}_{ABC}}=\\frac{\\sqrt{15}}{5}.1.\\frac{\\sqrt{3}}{4}{{.1}^{2}}=\\frac{3\\sqrt{5}}{20}\\approx 0,34$.\nĐáp án:\n| 0 | , | 3 | 4 |\n|---|---|---|---|",
    "short_value": 0.34,
    "short_correct": "0,34",
    "ma": "de1.P3.C1",
@@ -500,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D01",
    "dang_toan_web": "Các dạng toán khác"
@@ -511,9 +510,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Anh Bình muốn vay ngân hàng $200$ triệu đồng theo phương thức trả góp (trả tiền vào cuối tháng) với lãi suất $0,75\\%$/ tháng. Hỏi hàng tháng anh Bình phải trả số tiền là bao nhiêuđể sau đúng hai năm thì trả hết nợ ngân hàng (Đơn vị tính là triệu đồng và kết quả làm tròn đến hàng phần trăm)",
    "explanation": "Gọi $q$( triệu đồng) là số tiền hàng tháng anh Bình phải trả.\nCuối tháng thứ nhất, sau khi anh Bình trả số tiền $q$( triệu đồng) thì số tiền anh còn nợ là:\n${{T}_{1}}=200\\left( 1+\\frac{0,75}{100} \\right)-q$.\nCuối tháng thứ hai, sau khi anh Bình trả số tiền $q$( triệu đồng) thì số tiền anh còn nợ là:\n${{T}_{2}}=200{{\\left( 1+\\frac{0,75}{100} \\right)}^{2}}-q\\left( 1+\\frac{0,75}{100} \\right)-q$.\nCuối tháng thứ ba, sau khi anh Bình trả số tiền $q$( triệu đồng) thì số tiền anh còn nợ là:\n${{T}_{3}}=200{{\\left( 1+\\frac{0,75}{100} \\right)}^{3}}-q{{\\left( 1+\\frac{0,75}{100} \\right)}^{2}}-q\\left( 1+\\frac{0,75}{100} \\right)-q=200{{\\left( 1+\\frac{0,75}{100} \\right)}^{3}}-\\frac{q\\left[ {{\\left( 1+\\frac{0,75}{100} \\right)}^{3}}-1 \\right]}{\\frac{0,75}{100}}$.\n…\nCuối tháng thứ $N$, sau khi anh Bình trả số tiền $q$( triệu đồng) thì số tiền anh còn nợ là:\n${{T}_{N}}=200{{\\left( 1+\\frac{0,75}{100} \\right)}^{N}}-q{{\\left( 1+\\frac{0,75}{100} \\right)}^{N-1}}-q{{\\left( 1+\\frac{0,75}{100} \\right)}^{N-2}}-...-q$.\n$=200{{\\left( 1+\\frac{0,75}{100} \\right)}^{N}}-\\frac{q\\left[ {{\\left( 1+\\frac{0,75}{100} \\right)}^{N}}-1 \\right]}{\\frac{0,75}{100}}$\nĐúng hai năm hết nợ, tức là ta có\n${{T}_{24}}=0\\Leftrightarrow 200{{\\left( 1+\\frac{0,75}{100} \\right)}^{24}}=\\frac{q\\left[ {{\\left( 1+\\frac{0,75}{100} \\right)}^{24}}-1 \\right]}{\\frac{0,75}{100}}\\Leftrightarrow q=9,137$ $\\Leftrightarrow q=9,14$ (triệu đồng)\nĐáp án:\n| 9 | , | 1 | 4 |\n|---|---|---|---|",
    "short_value": 9.14,
@@ -526,6 +523,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D07",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -537,9 +535,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image7.jpeg]]Một công ty thiết kế khu vui chơi mạo hiểm đang lên kế hoạch xây dựng một đường trượt Zipline trên địa hình đồi núi phức tạp. Mặt cắt địa hình theo phương thẳng đứng được mô tả trên mặt phẳng tọa độ $Oxy$ với trục $Ox$ biểu diễn mặt đất nằm ngang. Đường cong địa hình phía trên được cho bởi hàm số $y=f\\left( x \\right)=5-\\left| x-2 \\right|-\\left| x+2 \\right|$ trong khoảng $-4\\le x\\le 4$ (Đơn vị: mét). Khu vực đường trượt Zipline sẽ là phần diện tích nằm giữa đường cong địa hình phía trên và mặt đất (trục $Ox$). Tính diện tích mặt cắt ngang của khu vực đường trượt Zipline này.\n| 4 | , | 5 |  |\n|---|---|---|---|",
    "explanation": "Biểu diễn hàm số đã cho bởi hàm số có nhiều công thức: $y=f\\left( x \\right)=\\left\\{ \\begin{aligned} & 5-2x\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,x\\ge 2 \\\\ & 1\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}-2<x<2 \\\\ & 5+2x\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,x\\le -2 \\\\ \\end{aligned} \\right.$\nVì khu vực đường trượt là phần diện tích nằm trên nên ta có:\n$S=\\int\\limits_{-2,5}^{2,5}{f\\left( x \\right)\\text{d}}x=\\int\\limits_{-2,5}^{-2}{\\left( 5+2x \\right)}\\,\\text{d}x+\\int\\limits_{-2}^{2}{\\left( 1 \\right)}\\,\\text{d}x+\\int\\limits_{2}^{2,5}{\\left( 5-2x \\right)}\\,\\text{d}x=\\frac{1}{4}+4+\\frac{1}{4}=4,5$(m2)",
    "short_value": 4.5,
@@ -552,6 +548,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -563,13 +560,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 19: thiếu đáp án (trả lời ngắn)"
-   ],
+   "flags": [],
    "question": "Anh Hùng thành lập một công ty vận tải taxi điện (Sử dụng nguồn cung sẵn có trong nước với nhiều ưu đãi khuyến khích phát triển loại phương tiện này). Anh dự định sử dụng không quá 10 xe. Nếu công ty sử dụng tối đa thời gian hoạt động của $x$ xe điện trên ($1\\le x\\le 10,\\,\\,x\\in \\mathbb{N}$) thì doanh thu nhận được của số xe đó là $D\\left( x \\right)={{x}^{3}}-4597{{x}^{2}}+50300x+30000$ (triệu đồng), trong khi chi phí nạp điện, bảo dưỡng, phí cầu đường, thuế và thuê nhân công lái xe bình quân cho mỗi xe là $C(x)=3x+300+\\frac{30000}{x}$(triệu đồng). Hỏi anh Hùng cần ưu tiên tối đa cho bao nhiêu xe hoạt động thường xuyên để lợi nhuận công ty thu được là lớn nhất?",
    "explanation": "Chi phí hoạt động cho $x$ xe điện là: $x.C\\left( x \\right)=x.\\left( 3x+300+\\frac{30000}{x} \\right)=3{{x}^{2}}+300x+30000$\n(triệu đồng).\nLợi nhuận của công ty được tính bằng doanh thu trừ cho chi phí đầu tư.\nSuy ra, lợi nhuận của công ty là: $T\\left( x \\right)=D\\left( x \\right)-x.C\\left( x \\right)$ với $1\\le x\\le 10$,$\\,x\\in \\mathbb{N}$( triệu đồng).\n$T\\left( x \\right)=\\left( {{x}^{3}}-4597{{x}^{2}}+50300x+30000 \\right)-\\left( 3{{x}^{2}}+300x+30000 \\right)$ $={{x}^{3}}-4600{{x}^{2}}+50000x$.\n${T}'\\left( x \\right)=3{{x}^{2}}-9200x+50000$.\n${T}'\\left( x \\right)=0\\Leftrightarrow 3{{x}^{2}}-9200x+50000=0\\Leftrightarrow \\left[ \\begin{aligned} & {{x}_{1}}\\approx 3061,222218\\notin \\left[ 1;\\,10 \\right] \\\\ & {{x}_{2}}\\approx 5,444448485\\in \\left[ 1;\\,10 \\right] \\\\ \\end{aligned} \\right.$\nLập bảng biến thiên, kết hợp với $\\,x\\in \\mathbb{N}$ suy ra để lợi nhuận của công ty thu được là lớn nhất thì cần ưu tiên tối đa cho 5 chiếc xe điện hoạt động thường xuyên.\nĐáp án:\n| 5 |  |  |  |\n|---|---|---|---|",
-   "short_value": 5,
+   "short_value": null,
    "short_correct": "5",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -579,6 +573,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -590,9 +585,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image8.jpeg]]Trong không gian với hệ trục tọa độ $Oxyz$, một cánh tay robot được lập trình để gắp một chi tiết hình cầu có bán kính $R=1$ đặt trên băng chuyền tại vị trí $A\\left( 5;0;0 \\right)$. Trong không gian làm việc của robot có một chướng ngại vật là một mặt phẳng $\\left( P \\right):x+y+z=10$. Để tối ưu hóa năng lượng và thời gian, robot cần di chuyển đầu gắp từ vị trí xuất phát $O\\left( 0;0;0 \\right)$ đến điểm $B$ trên mặt cầu chi tiết sao cho đường đi là ngắn nhất và không va chạm với chướng ngại vật $\\left( P \\right)$. Tính độ dài đường đi ngắn nhất mà robot cần thực hiện.",
    "explanation": "Tìm điểm $B$ trên mặt cầu sao cho đường đi từ $O$ đến $B$ ngắn nhất và không cắt mặt phẳng $\\left( P \\right):x+y+z=10$. Đường đi ngắn nhất từ $O$ đến mặt cầu khi không có chướng ngại vật là đường thẳng đi qua $O$ và tâm mặt cầu $A$.\nKhi đó, đường thẳng $OA$ có phương trình tham số là $\\left\\{ \\begin{array}{llllll} x=5t \\\\ y=0 \\\\ z=0 \\\\ \\end{array} \\right.$\nGiao điểm của $OA$ với mặt cầu ${{\\left( x-5 \\right)}^{2}}+{{y}^{2}}+{{z}^{2}}=1\\Leftrightarrow {{\\left( 5t-5 \\right)}^{2}}+{{0}^{2}}+{{0}^{2}}=1$ $\\Leftrightarrow 5t-5=\\pm 1$.\nTrường hợp 1: $5t-5=1\\Rightarrow 5t=6\\Rightarrow t=\\frac{6}{5}$ nên ${{B}_{1}}\\left( 5.\\frac{6}{5};0;0 \\right)={{B}_{1}}\\left( 6;0;0 \\right)$.\nTrường hợp 2: $5t-5=-1\\Rightarrow 5t=4\\Rightarrow t=\\frac{4}{5}$ nên ${{B}_{2}}\\left( 5.\\frac{4}{5};0;0 \\right)={{B}_{2}}\\left( 4;0;0 \\right)$.\nĐiểm gẩn $O$ hơn là ${{B}_{2}}\\left( 4;0;0 \\right)$ và điểm xa hơn là ${{B}_{1}}\\left( 6;0;0 \\right)$. Đường đi ngắn nhất không chướng ngại vật là đoạn $O{{B}_{2}}$ và dễ dàng chứng minh được đoạn $O{{B}_{2}}$ không cắt mặt phẳng $\\left( P \\right)$.\nĐiểm $B$ có thể gắp được với đường đi ngắn nhất từ $O$ mà không cắt $\\left( P \\right)$ là ${{B}_{2}}\\left( 4;0;0 \\right)$.\nVậy độ dài đường đi ngắn nhất là khoảng cách $O{{B}_{2}}=\\sqrt{{{4}^{2}}+{{0}^{2}}+{{0}^{2}}}=4$.\nĐáp án:\n| 4 |  |  |  |\n|---|---|---|---|",
    "short_value": 4,
@@ -605,6 +598,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D03",
    "dang_toan_web": "Các dạng toán khác"
@@ -616,9 +610,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một trường trung học phổ thông, người ta khảo sát về mối quan hệ giữa việc học sinh sử dụng tài liệu học tập trực tuyến và kết quả thi môn Toán. Kết quả khảo sát cho thấy: 70% học sinh của trường có sử dụng tài liệu học tập trực tuyến. Trong số học sinh sử dụng tài liệu trực tuyến có 80% đạt điểm khá giỏi môn Toán. Trong số học sinh không sử dụng tài liệu trực tuyến, chỉ có 50% đạt điểm khá giỏi môn Toán. Nếu một học sinh được chọn ngẫu nhiên từ trường đạt điểm khá giỏi môn Toán thì xác suất học sinh này có sử dụng tài liệu học tập trực tuyến là bao nhiêu? (Kết quả làm tròn đến hàng phần trăm)",
    "explanation": "Gọi $T$ là biến cố “Học sinh sử dụng tài liệu học tập trực tuyến” và $K$ là biến cố “Học sinh đạt điểm khá giỏi môn Toán”\nXác suất học sinh sử dụng tài liệu trực tuyến là $P\\left( T \\right)=0,7$\nXác suất học sinh không sử dụng tài liệu trực tuyến là $P\\left( {\\bar{T}} \\right)=1-P\\left( T \\right)=1-0,7=0,3$\nXác suất đạt điểm khá giỏi khi sử dụng tài liệu trực tuyến là $P\\left( K|T \\right)=0,8$\nXác suất đạt điểm khá giỏi khi không sử dụng tài liệu trực tuyến là $P\\left( K|\\bar{T} \\right)=0,5$\nXác suất một học sinh đạt điểm khá giỏi môn Toán. Sử dụng công thức xác suất toàn phần:\n$P\\left( K \\right)=P\\left( K|T \\right).P\\left( T \\right)+P\\left( K|\\bar{T} \\right).P\\left( {\\bar{T}} \\right)=0,8.0,7+0,5.0,3=0,71$\nXác suất học sinh sử dụng tài liệu trực tuyến khi biết học sinh đó đạt điểm khá giỏi môn Toán. Sử dụng công thức Bayes:$P\\left( T|K \\right)=\\frac{0,8.0,7}{0,71}=\\frac{0,56}{0,71}\\approx 0,79$\nVậy nếu một học sinh đạt điểm khá giỏi môn Toán, xác suất học sinh này có sử dụng tài liệu học tập trực tuyến là $0,79$\nĐáp án:\n| 0 | , | 7 | 9 |\n|---|---|---|---|\n-----------------HẾT-----------------",
    "short_value": 0.79,
@@ -631,6 +623,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."

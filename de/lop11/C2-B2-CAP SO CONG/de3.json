@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "2",
   "lesson": "2",
-  "title": "Bài 2. Cấp số cộng"
+  "title": "Bài 2. Cấp số cộng",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -485,7 +486,7 @@
    "flags": [],
    "question": "Định x để 3 số ${10-3x,2{{x}^{2}}+3,7-4x}$ theo thứ tự đó lập thành 1 cấp số cộng.",
    "explanation": "Theo tính chất cấp số cộng ta có: ${\\left( 10-3x \\right)+\\left( 7-4x \\right)=2\\left( 2{{x}^{2}}+3 \\right)}$\n${\\Leftrightarrow 17-7x=4{{x}^{2}}+6\\Leftrightarrow 4{{x}^{2}}+7x-11=0\\Leftrightarrow x=1\\vee \\text{ }x=-\\frac{11}{4}}$.",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "x=1;x=-\\dfrac{11}{4}",
    "ma": "de3.P3.C1",
    "dac_trung": {
@@ -510,7 +511,7 @@
    "flags": [],
    "question": "Một cấp số cộng có số hạng đầu bằng 5 và công sai bằng 2. Hỏi phải lấy tổng của bao nhiêu số hạng đầu của cấp số cộng này để có tổng bằng ${2700 ?}$",
    "explanation": "Gọi n là số các số hạng đầu cần lấy tổng, ta có:\n$2700={{S}_{n}}=\\frac{n}{2}[2\\times 5+(n-1)\\times 2]=\\frac{n}{2}(8+2n)$\nDo đó ${4 n+n^2-2700=0}$. Giải phương trình bậc hai này ta được ${n=-54}$ hoặc ${n=50}$\nVậy phải lấy 50 số hạng đầu.",
-   "short_value": null,
+   "short_value": 50,
    "short_correct": "50",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -535,7 +536,7 @@
    "flags": [],
    "question": "Một kiến trúc sư thiết kế một hội trường với 15 ghế ngồi ở hàng thứ nhất, 18 ghế ngồi ở hàng thứ hai, 21 ghế ngồi ở hàng thứ ba, và cứ như vậy . Nếu muốn hội trường đó có sức chứa ít nhất 870 ghế ngồi thì kiến trúc sư đó phải thiết kế tối thiểu bao nhiêu hàng ghế?",
    "explanation": "Số ghế ở mỗi hàng lập thành một cấp số cộng với số hạng đầu ${u_1=15}$ và công sai ${{d}=3}$. Gọi n là số các số hạng đầu cua cấp số cộng cần lấy tổng, ta có:\n$870={{S}_{n}}=\\frac{n}{2}[2\\times 15+(n-1)\\times 3]=\\frac{n}{2}(27+3n)$\nDo đó ${27 n+3 n^2-1740=0}$, suy ra ${{n}=20, {n}=-29}$\nVậy cần phải thiết kế 20 hàng ghế",
-   "short_value": null,
+   "short_value": -29,
    "short_correct": "20",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -557,9 +558,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Anh Nam được nhận vào làm việc ở một công ty về công nghệ với mức lương khởi điểm là 100 triệu đồng một năm. Công ty sẽ tăng thêm lương cho anh Nam mỗi năm là 20 triệu đồng. Tính tổng số tiền lương mà anh Nam nhận được sau 10 năm làm việc cho công ty đó.",
    "explanation": "Số tiền lương trong 10 năm của anh Nam lập thành một cấp số cộng, gồm 10 số hạng, với số hạng đầu là ${u_1=100}$ và công sai ${{d}=20}$. Tổng các số hạng này là:\n${{S}_{10}}={{u}_{1}}+{{u}_{2}}+\\ldots +{{u}_{10}}=\\frac{10}{2}\\left[ 2{{u}_{1}}+(10-1)20 \\right]=\\frac{10}{2}(2\\times 100+9\\times 20)=1900$\nVậy tổng số tiền lương anh Nam nhận sau 10 năm là 1900 triệu đồng",
    "short_value": 1900,
@@ -572,6 +571,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B2.D06",
    "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -583,9 +583,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một bức tường trang trí có dạng hình thang, rộng ${2,4 {~m}}$ ở đáy và rộng ${1,2 {~m}}$ ở đỉnh.\n[[IMG:image12.png]]\nCác viên gạch hình vuông có kích thước ${10 {~cm} \\times 10 {~cm}}$ phải được đặt sao cho mỗi hàng ở phía trên chứa ít hơn một viên so với hàng ở ngay phía dưới nó. Hỏi sẽ cần bao nhiêu viên gạch hình vuông như vậy để ốp hết bức tường đó?",
    "explanation": "Đổi ${2,4 {~m}=240 {~cm} ; 1,2 {~m}=120 {~cm}}$.\nSố viên gạch ở hàng đầu tiên là ${u_1=240: 10=24}$.\nSố viên gạch ở hàng trên cùng là: ${{u}_{n}}=120:10=12.$\nVì mỗi hàng ở phía trên chứa ít hơn một viên so với hàng ở ngay phía dưới nó nên ta thu được cấp số cộng có công sai ${d=-1}$.\nNhư vậy ${u_n=12=u_1+(n-1)(-1) \\Rightarrow n=13}$.\nVậy số viên gạch hình vuông cần thiết để ốp hết bức tường đó là\n${{S}_{13}}=\\frac{\\left( {{u}_{1}}+{{u}_{13}} \\right)13}{2}=234$.",
    "short_value": 234,
@@ -598,6 +596,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B2.D05",
    "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -614,8 +613,8 @@
    ],
    "question": "Có bao nhiêu hàng ghế trong một góc khán đài của một sân vận động, biết rằng góc khán đài đó có 2040 chỗ ngồi, hàng ghế đầu tiến có 10 chố ngồi và mỗi hàng ghế sau có thêm 4 chỗ ngồi so với hàng ghế ngay trước nó?",
    "explanation": "Áp dụng công thức tính tổng ${n}$ số hạng đầu của cấp số cộng với ${S_n=2040}$, ${u_1=10, d=4}$ để tìm ${n}$, ta được $2040={{S}_{n}}=\\frac{n}{2}[2\\cdot 10+(n-1)4].$\nSuy ra ${n=30}$, tức là góc khán đài đó có 30 hàng ghế.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 30,
+   "short_correct": "30",
    "ma": "de3.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 2,

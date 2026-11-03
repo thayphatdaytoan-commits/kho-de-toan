@@ -362,12 +362,11 @@
    "tf_ans": {
     "a": false,
     "b": true,
+    "c": false,
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:abd"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)={{\\log }_{5}}\\left( {{x}^{3}}-3{{x}^{2}}+4 \\right)$",
    "explanation": "a) Sai: Điều kiện xác định: ${{x}^{3}}-3{{x}^{2}}+4>0\\Leftrightarrow {{\\left( x-2 \\right)}^{2}}\\left( x+1 \\right)>0\\Leftrightarrow \\left[ \\begin{aligned} & -1<x<2 \\\\ & x>2 \\\\ \\end{aligned} \\right.$.\nb) Đúng: Ta có:${f}'\\left( x \\right)=\\frac{3{{x}^{2}}-6x}{\\left( {{x}^{3}}-3{{x}^{2}}+4 \\right)\\ln 5}$.\nc) Phương trình ${f}'\\left( x \\right)=\\frac{3{{x}^{2}}-6x}{\\left( {{x}^{3}}-3{{x}^{2}}+4 \\right)\\ln 5}0\\Rightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=2 \\\\ \\end{aligned} \\right.$ nên trên đoạn $\\left[ 1;\\,2 \\right]$ thì phương trình chỉ có một nghiệm là $x=2$\nd) Sai: Bảng biến thiên:\n[[IMG:image5.png]]\nTừ bảng biến thiên ta thấy hàm số đã cho có 1 điểm cực trị.",
    "ma": "de1.P2.C1",
@@ -378,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D09",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -407,6 +407,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -436,6 +437,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -465,6 +467,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -572,13 +575,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABCD$có đáy $ABCD$ là hình chữ nhật và $AB=3$, $AD=1$. Biết $SA=2$ và vuông góc với mặt phẳng đáy. Gọi $M$ là điểm thuộc đoạn thẳng $DC$ sao cho $DC=3DM$. Tính khoảng cách giữa hai đường thẳng $BM$ và $SD$. (Kết quả làm tròn đến hàng phần trăm)",
    "explanation": "[[IMG:image9.png]]\nGọi $N$ là điểm thuộc đoạn thẳng $AB$ sao cho $BA=3BN$\nKhi đó $BN=DM$ và $BN\\,\\text{//}\\,DM$ nên tứ giác $BNDM$ là hình bình hành\nTừ đó suy ra $BM\\,\\text{//}\\,DN\\Rightarrow BM\\,\\text{//}\\,\\left( SDN \\right)$.\nVậy $\\text{d}\\left( BM,SD \\right)\\text{=d}\\left( BM,\\left( SDN \\right) \\right)=\\text{d}\\left( B,\\left( SDN \\right) \\right)$.\nGọi $H$ và $K$ lần lượt là hình chiếu của $A$ lên $DN$ và $SH$.\nTa có $DN\\bot AH$ và $DN\\bot SA$ nên $DN\\bot \\left( SAH \\right)$ từ đó suy ra $DN\\bot AK$.\nLại có $AK\\bot SH$ và $AK\\bot DN$ nên $AK\\bot \\left( SDN \\right)$ nên $\\text{d}\\left( A,\\left( SDN \\right) \\right)=AK$.\nDo $AN=\\frac{2}{3}AB=2$ và tam giác $ADN$ vuông tại $A$ nên ta có:\n$AH=\\frac{AN.AD}{\\sqrt{A{{N}^{2}}+A{{D}^{2}}}}=\\frac{2.1}{\\sqrt{{{\\left( 2 \\right)}^{2}}+{{1}^{2}}}}=\\frac{2\\sqrt{5}}{5}$.\nTam giác $SAH$ vuông tại $A$ nên $AK=\\frac{AH.AS}{\\sqrt{A{{H}^{2}}+A{{S}^{2}}}}=\\frac{\\frac{2\\sqrt{5}}{5}\\cdot 2}{\\sqrt{{{\\left( \\frac{2\\sqrt{5}}{5} \\right)}^{2}}+{{\\left( 2 \\right)}^{2}}}}=\\frac{2\\sqrt{6}}{6}$.\nĐường thẳng $AB$ cắt mặt phẳng $\\left( SDN \\right)$ tại $N$ và $\\frac{BN}{AN}=\\frac{1}{2}$ nên khi đó ta có:\n$\\text{d}\\left( BM,SD \\right)=\\text{d}\\left( B,\\left( SDN \\right) \\right)=\\frac{1}{2}\\text{d}\\left( A,\\left( SDN \\right) \\right)=\\frac{1}{2}AK=\\frac{\\sqrt{6}}{6}$.\nVậy khoảng cách giữa hai đường thẳng $BM$ và $SD$ bằng $0,41$.\nĐáp án:\n| 0 | , | 4 | 1 |\n|---|---|---|---|",
-   "short_value": 0.41,
-   "short_correct": "0,41",
+   "short_value": 0.5,
+   "short_correct": "0,5|1/2",
    "ma": "de1.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 17,
@@ -587,6 +588,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D01",
    "dang_toan_web": "Các dạng toán khác"
@@ -598,9 +600,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Bác Bình cần xây một căn nhà với chi phí $1$ tỷ đồng. Đặt kế hoạch sau $5$ năm phải có đủ số tiền trên thì mỗi năm bác Bình cần gửi vào ngân hàng một khoản tiền tiết kiệm như nhau. Biết lãi suất của ngân hàng là $7\\,\\%$/năm và lãi hàng năm được nhập vào vốn. Tìm số tiền bác Bình gửi vào mỗi năm (Đơn vị tính là triệu đồng và kết quả làm tròn đến hàng đơn vị)",
    "explanation": "Nếu đầu mỗi năm gửi vào ngân hàng số tiền $m$, lãi suất không đổi $r\\%$/năm và lãi sau mỗi năm được nhập vào vốn thì sau $n$ năm số tiền thu được ${{T}_{n}}$ được tính theo công thức\n${{T}_{n}}=\\frac{m}{r}\\left[ {{\\left( 1+r \\right)}^{n}}-1 \\right]\\left( 1+r \\right)$.\nÁp dụng công thức trên với $n=5;\\,\\,{{T}_{5}}=1000000000\\,;\\,\\,r=7\\%=0,07$ ta có:\n$1000000000=\\frac{m}{0,07}\\left[ {{\\left( 1+0,07 \\right)}^{5}}-1 \\right]\\left( 1+0,07 \\right)$ $\\Leftrightarrow 70000000=m\\left( 1,{{07}^{5}}-1 \\right)1,07$\n$\\Leftrightarrow m=\\frac{70000000}{1,07\\left( 1,{{07}^{5}}-1 \\right)}\\approx 163$ triệu đồng.\nĐáp án:\n| 1 | 6 | 3 |  |\n|---|---|---|---|",
    "short_value": 163,
@@ -613,6 +613,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -624,11 +625,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Ở các độ cao khác nhau trong khí quyển Trái Đất thì âm thanh di chuyển với tốc độ khác nhau. Tốc độ âm thanh $s\\left( x \\right)$(tính bằng giây) được mô hình hóa bằng phương trình a):\n| $s\\left( x \\right)=\\left\\{ \\begin{array}{llllll} -4x+341 & 0\\le x<11,5 \\\\ 295 & 11,5\\le x<22 \\\\ \\frac{3}{4}x+278,5 & 22\\le x<32 \\\\ \\frac{3}{2}x+254,5 & 32\\le x<50 \\\\ -\\frac{3}{2}x+404,5 & 50\\le x\\le 80 \\\\\\end{array} \\right.$ | [[IMG:image10.png]] |\n|---|---|\n| a) | b) |\nTrong đó $x$ là độ cao trung bình (tính bằng kilomet) minh họa như hình b). Hỏi tốc độ âm thanh trung bình trong khoảng $\\left[ 0;\\,80 \\right]$ bằng bao nhiêu? (Đơn vị: m/s)",
-   "explanation": "Ta chia thành năm phần rồi tính tích phân như sau:\n${{I}_{1}}=\\int\\limits_{0}^{11,5}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{0}^{11,5}{\\left( -4x+341 \\right)}\\text{d}x=\\left[ -2{{x}^{2}}+341x \\right]_{0}^{11,5}=3657$\n${{I}_{2}}=\\int\\limits_{11,5}^{22}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{11,5}^{22}{495\\,}\\text{d}x=\\left[ 495x \\right]_{11,5}^{22}=3097,5$ ${{I}_{3}}=\\int\\limits_{22}^{32}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{22}^{32}{\\left( \\frac{3}{4}x+278,5 \\right)\\,}\\text{d}x=\\left[ \\frac{3}{8}{{x}^{2}}+278,5x \\right]_{22}^{32}=2987,5$ ${{I}_{4}}=\\int\\limits_{32}^{50}{s\\left( x \\right)\\,}\\text{d}x=\\int\\limits_{32}^{50}{\\left( \\frac{3}{2}x+254,5 \\right)\\,}\\text{d}x=\\left[ \\frac{3}{4}{{x}^{2}}+254,5x \\right]_{32}^{50}=5688$ ${{I}_{5}}=\\int\\limits_{50}^{80}{s\\left( x \\right)\\,}\\text{d}x=\\int\\limits_{50}^{80}{\\left( -\\frac{3}{2}x+404,5 \\right)\\,}\\text{d}x=\\left[ -\\frac{3}{4}{{x}^{2}}+404,5x \\right]_{50}^{80}=9210$\nKhi đó: $I=\\int\\limits_{0}^{80}{s\\left( x \\right)\\text{d}x}={{I}_{1}}+{{I}_{2}}+{{I}_{3}}+{{I}_{4}}+{{I}_{5}}=3657+3097,5+2987,5+5688+9210=24640$\nVậy tốc độ âm thanh trung bình từ độ 0 đến 80km là: ${{v}_{TB}}=\\frac{1}{80}\\int\\limits_{0}^{80}{s\\left( x \\right)\\,}\\text{d}x=\\frac{1}{80}.24640=308$(m/s)\nĐáp án:\n| 3 | 0 | 8 |  |\n|---|---|---|---|",
+   "explanation": "Ta chia thành năm phần rồi tính tích phân như sau:\n${{I}_{1}}=\\int\\limits_{0}^{11,5}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{0}^{11,5}{\\left( -4x+341 \\right)}\\text{d}x=\\left[ -2{{x}^{2}}+341x \\right]_{0}^{11,5}=3657$\n${{I}_{2}}=\\int\\limits_{11,5}^{22}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{11,5}^{22}{295\\,}\\text{d}x=\\left[ 295x \\right]_{11,5}^{22}=3097,5$ ${{I}_{3}}=\\int\\limits_{22}^{32}{s\\left( x \\right)}\\,\\text{d}x=\\int\\limits_{22}^{32}{\\left( \\frac{3}{4}x+278,5 \\right)\\,}\\text{d}x=\\left[ \\frac{3}{8}{{x}^{2}}+278,5x \\right]_{22}^{32}=2987,5$ ${{I}_{4}}=\\int\\limits_{32}^{50}{s\\left( x \\right)\\,}\\text{d}x=\\int\\limits_{32}^{50}{\\left( \\frac{3}{2}x+254,5 \\right)\\,}\\text{d}x=\\left[ \\frac{3}{4}{{x}^{2}}+254,5x \\right]_{32}^{50}=5688$ ${{I}_{5}}=\\int\\limits_{50}^{80}{s\\left( x \\right)\\,}\\text{d}x=\\int\\limits_{50}^{80}{\\left( -\\frac{3}{2}x+404,5 \\right)\\,}\\text{d}x=\\left[ -\\frac{3}{4}{{x}^{2}}+404,5x \\right]_{50}^{80}=9210$\nKhi đó: $I=\\int\\limits_{0}^{80}{s\\left( x \\right)\\text{d}x}={{I}_{1}}+{{I}_{2}}+{{I}_{3}}+{{I}_{4}}+{{I}_{5}}=3657+3097,5+2987,5+5688+9210=24640$\nVậy tốc độ âm thanh trung bình từ độ 0 đến 80km là: ${{v}_{TB}}=\\frac{1}{80}\\int\\limits_{0}^{80}{s\\left( x \\right)\\,}\\text{d}x=\\frac{1}{80}.24640=308$(m/s)\nĐáp án:\n| 3 | 0 | 8 |  |\n|---|---|---|---|",
    "short_value": 308,
    "short_correct": "308",
    "ma": "de1.P3.C3",
@@ -639,6 +638,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D03",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -650,9 +650,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một phần sân trường được định vị bởi các điểm $A,B,C,D$ minh họa như hình vẽ dưới đây:\n[[IMG:image11.png]]\nBước đầu chúng được lấy “ thăng bằng” để có cùng độ cao và tứ giác$ABCD$ là hình thang vuông ở $A$ và $B$ với độ dài $AB=25\\,\\text{m}$, $AD=15\\,\\text{m}$, $BC=18\\,\\text{m}$. Do yêu cầu kĩ thuật, khi lát phẳng phần sân trường phải thoát nước về góc sân ở $C$ nên người ta lấy độ cao ở các điểm $B$, $C$, $D$ xuống thấp hơn so với độ cao ở $A$ là $10\\,\\text{cm}$, $a\\,\\text{cm}$, $6\\,\\text{cm}$tương ứng sao cho bốn điểm $A,{B}',{C}',{D}'$đồng phẳng. Giá trị của $a$ bằng bao nhiêu? (Đơn vị: cm)",
    "explanation": "[[IMG:image12.png]]\nChọn hệ trục tọa độ $Oxyz$ sao cho: $O\\equiv A$, tia $Ox\\equiv AD$; tia $Oy\\equiv AB$.\nKhi đó ta có tọa độ các điểm $A\\left( 0;\\,0;\\,0 \\right)$; $B\\left( 0;\\,2500;\\,0 \\right)$; $C\\left( 1800;\\,2500;\\,0 \\right)$;$D\\left( 1500;\\,0;\\,0 \\right)$\nKhi hạ độ cao các điểm ở các điểm $B$, $C$, $D$ xuống thấp hơn so với độ cao ở $A$ là $10\\,\\text{cm}$, $a\\,\\text{cm}$và $6\\,\\text{cm}$ tương ứng ta có các điểm mới ${B}'\\left( 0\\,;\\,2500\\,;\\,-10 \\right)$; ${C}'\\left( 1800\\,;\\,2500\\,;\\,-a \\right)$;${D}'\\left( 1500\\,;\\,0\\,;\\,-6 \\right)$\nTheo bài ra có bốn điểm $A$; ${B}'$; ${C}'$; ${D}'$ đồng phẳng.\nPhương trình mặt phẳng $\\left( A{B}'{D}' \\right):x+y+250z=0$.\nDo ${C}'\\left( 1800\\,;\\,\\,2500\\,;\\,-a \\right)\\in \\left( A{B}'{D}' \\right)$ nên có: $1800+2500-250a=0\\Leftrightarrow a=17,2$\nVậy $a=17,2\\,\\text{cm}$.\nĐáp án:\n| 1 | 7 | , | 2 |\n|---|---|---|---|",
    "short_value": 17.2,
@@ -665,6 +663,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -676,14 +675,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 24: thiếu đáp án (trả lời ngắn)"
-   ],
+   "flags": [],
    "question": "Trước sự phát triển của ngành vật liệu bán dẫn, anh Khoa mở nhà máy sản xuất vi mạch với thiết kế của vi mạch có dạng hình chữ nhật có kích thước $a\\left( \\text{pm} \\right)\\times b\\left( \\text{pm} \\right)$ với $1\\text{pm}={{10}^{-12}}\\text{ }\\!\\!~\\!\\!\\text{ m}$. Biết rằng chi phí để sản xuất vi mạch bao gồm 50 (triệu đồng) chi phí cho nguyên vật liệu ban đầu, 15 (triệu đồng) /1pm chi phí gia công lắp màng Silic xung quanh thành vi mạch (xem như độ dày khi gia công là không đáng kể) và 32 (triệu đồng)/$1\\text{p}{{\\text{m}}^{2}}$ tiền gia công phủ chất làm mát bao quanh cả 2 bề mặt vi mạch (xem như cả bề mặt là hình chữ nhật có kích thước như trên). Biết rằng đơn giá bán ra mỗi chiếc vi mạch là 428 (triệu đồng$/\\text{p}{{\\text{m}}^{2}}$) và nếu cả 2 kích thước thành phần của vi mạch giảm đi 15 pm thì lợi nhuận thu được mỗi chiếc bẳng chi phí sản xuất của mỗi chiếc vi mạch đó. Khi lợi nhuận đạt giá trị nhỏ nhất thì chu vi của vi mạch là bao nhiêu pm. (Kết quả làm tròn đến số thập phân thứ nhất)",
    "explanation": "Từ giả thiết ta có hàm chi phí sản xuất vi mạch là: $C\\left( a,b \\right)=50+15.2\\left( a+b \\right)+32.\\left( 2ab \\right)$\nSau khi giảm đi 15 pm của mỗi kích thước của vi mạch thì chi phí sản xuất được biễu diễn lại theo hàm mới là: $C\\left( a-15,b-15 \\right)=50+15.2\\left( a+b-30 \\right)+64\\left( a-15 \\right)\\left( b-15 \\right)$ (triệu đồng)\nĐơn giá bán ra mỗi chiếc vi mạch là: $R\\left( a-15,b-15 \\right)=428\\left( a-15 \\right)\\left( b-15 \\right)$ (triệu đồng)\nLợi nhuận = Doanh thu - Chi phí nên khi cả 2 kích thước thành phần của vi mạch giảm đi 15 pm thì lợi nhuận thu được mỗi chiếc bằng chi phí sản xuất của mỗi chiếc vi mạch đó sẽ tương ứng với đơn giá bán ra sẽ gẩp 2 lần chi phí sản xuất.\nTừ đó ta có thể suy ra được: $R\\left( a-15,b-15 \\right)=2C\\left( a-15,b-15 \\right)$\nKhi đó ta có phương trình: $5+3\\left( a+b-30 \\right)=15\\left( a-15 \\right)\\left( b-15 \\right)\\Rightarrow $ $b=\\frac{4\\left( 57a-865 \\right)}{3\\left( 5a-76 \\right)}$ $\\left( 1 \\right)$.\nLợi nhuận ban đầu lúc này được biểu diễn theo hàm số sau:\n$T\\left( a \\right)=R\\left( a \\right)-C\\left( a \\right)=\\frac{82542{{a}^{2}}-1260190a+115200}{3\\left( 5a-76 \\right)},a>15$ (triệu đồng)\nXét ${T}'\\left( a \\right)=\\frac{27514}{5}-\\frac{770392.3}{5{{\\left( 15a-228 \\right)}^{2}}}=0\\Leftrightarrow a={{a}_{0}}=\\frac{76}{5}+\\frac{2}{5}\\sqrt{\\frac{7}{3}}>15$ (thỏa mãn).\nSuy ra $T\\left( {{a}_{0}} \\right)$ là giá trị lợi nhuận nhỏ nhất, thế vào $\\left( 1 \\right)$suy ra ${{b}_{0}}=\\frac{4\\left( 57{{a}_{0}}-865 \\right)}{3\\left( 5{{a}_{0}}-76 \\right)}$\nTức $2.\\left( a+b \\right)\\approx 63,2\\left( pm \\right)$.\nĐáp án:\n| 6 | 3 | , | 2 |\n|---|---|---|---|",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "63,2",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -692,6 +688,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -703,9 +700,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có hai đồng xu có hình thức giống nhau, trong có có một đồng xu cân đối đồng chất và một đồng xu không cân đối có xác suất khi tung đồng xu xuất hiện mặt ngửa là $\\frac{2}{3}$. Một người lấy ngẫu nhiên một đồng xu trong hai đồng xu đã cho, tung đồng xu đó 3 lần thì đều thấy xuất hiện mặt ngửa, xác suất người đó lấy được đồng xu cân đối là bao nhiêu? (Kết quả làm tròn đến hàng phần mười)",
    "explanation": "Gọi $A$ là biến cố: “Lấy được đồng xu cân đối đồng chất” và $B$ là biến cố: “Tung đồng xu ba lần đều xuất hiện mặt ngửa”. Khi đó ta cần tính $P\\left( A|B \\right)$.\nTa có $P\\left( A \\right)=\\frac{1}{2}$, $P\\left( \\overline{A} \\right)=\\frac{1}{2}$ và $P\\left( B|A \\right)={{\\left( \\frac{1}{2} \\right)}^{3}}=\\frac{1}{8}$, $P\\left( B|\\overline{A} \\right)={{\\left( \\frac{2}{3} \\right)}^{3}}=\\frac{8}{27}$.\nTheo công thức Bayes và công thức xác suất toàn phần ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right)P\\left( B|A \\right)}{P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)}=\\frac{\\frac{1}{2}\\cdot \\frac{1}{8}}{\\frac{1}{2}\\cdot \\frac{1}{8}+\\frac{1}{2}\\cdot \\frac{8}{27}}\\approx 0,3$.\nĐáp án:\n| 0 | , | 3 |  |\n|---|---|---|---|\n-----------------HẾT-----------------",
    "short_value": 0.3,
@@ -718,6 +713,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."

@@ -459,11 +459,14 @@
     "c": "Khoảng tứ phân vị của mẫu số liệu ghép nhóm đã cho bằng $8,5$.",
     "d": "Chọn ngẫu nhiên một học sinh trong nhóm khảo sát nói trên, xác suất chọn được học sinh có chiều cao từ $175cm$ trở lên bằng $0,25$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Khảo sát chiều cao của $20$ học sinh nam lớp $12\\text{A}$của một trường THPT X, người ta được kết quả thống kê trong bảng sau:\n[[IMG:image4.png]]",
    "explanation": "a) Cở mẫu $n=20$.\nGọi ${{x}_{1}};{{x}_{2}};...;{{x}_{20}}$ là mẫu số liệu gốc gồm chiều cao của $20$ học sinh trên được xếp theo thứ tự không giảm.\nTa có ${{x}_{1}};{{x}_{2}};{{x}_{3}}\\in \\left[ 160;165 \\right)$; ${{x}_{4}};...;{{x}_{8}}\\in \\left[ 165;170 \\right)$; ${{x}_{9}};...;{{x}_{15}}\\in \\left[ 170;175 \\right)$; ${{x}_{16}};...;{{x}_{19}}\\in \\left[ 175;180 \\right)$; ${{x}_{20}}\\in \\left[ 180;185 \\right)$.\nDo đó ${{x}_{3}}\\in \\left[ 165;170 \\right)$ và ${{x}_{9}}\\in \\left[ 170;175 \\right)$.\nb) Tứ phân vị thứ nhất của mẫu số liệu gốc là $\\frac{1}{2}\\left( {{x}_{5}}+{{x}_{6}} \\right)\\in \\left[ 165;170 \\right)$. Tứ phân vị thứ nhất của mẫu số liệu ghép nhóm đã cho là ${{Q}_{1}}=165+\\frac{\\frac{20}{4}-3}{5}=165,4$.\nTứ phân vị thứ ba của mẫu số liệu gốc là $\\frac{1}{2}\\left( {{x}_{15}}+{{x}_{16}} \\right)\\in \\left[ 170;175 \\right)\\cup \\left[ 175;180 \\right)$. Tứ phân vị thứ ba của mẫu số liệu ghép nhóm đã cho là ${{Q}_{3}}=175$.\nc) Khoảng tứ phân vị của mẫu số liệu ghép nhóm $\\Delta Q={{Q}_{3}}-{{Q}_{1}}=175-165,4=9,6$.\nd) Vì học sinh có chiều cao từ $175cm$ trở lên nên có $5$ học sinh.\nGọi $A$ là biến cố “học sinh có chiều cao từ $175cm$ trở lên”.\nDo đó$P\\left( A \\right)=\\frac{5}{20}=\\frac{1}{4}=0,25$",
    "ma": "de1.P2.C4",
@@ -474,6 +477,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B1.D03",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -488,7 +492,7 @@
    "flags": [],
    "question": "Cho hình lăng trụ đứng $ABC.{A}'{B}'{C}'$ có đáy $ABC$ là tam giác đều có cạnh bằng 1 và cạnh bên $A{A}'=\\sqrt{2}$. Tính khoảng cách giữa hai đường thẳng ${A}'B$ và ${B}'C$ (kết quả cuối cùng được làm tròn đến hàng phần trăm).",
    "explanation": "Đáp án: 0,92.\n[[IMG:image13.png]]\nChọn hệ trục tọa độ $Oxyz$ như hình vẽ.\nTa tìm được ${A}'\\left( 0;0;\\sqrt{2} \\right)$, $C\\left( 1;0;0 \\right)$.\n${{x}_{B}}=AH=\\frac{1}{2}AC=\\frac{1}{2}$.\n${{y}_{B}}=BH=\\frac{AC\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{2}$.\nSuy ra $B\\left( \\frac{1}{2};\\frac{\\sqrt{3}}{2};0 \\right)$.\nDo đó ${B}'\\left( \\frac{1}{2};\\frac{\\sqrt{3}}{2};1 \\right)$ (Do $B$ là hình chiếu của ${B}'$ lên $\\left( Oxy \\right)$).\n${A}'B$ đi qua điểm $B\\left( \\frac{1}{2};\\frac{\\sqrt{3}}{2};0 \\right)$ và có 1 vectơ chỉ phương là $\\overrightarrow{{A}'B}=\\left( \\frac{1}{2};\\frac{\\sqrt{3}}{2};-\\sqrt{2} \\right)$.\n${B}'C$ đi qua điểm $C\\left( 1;0;0 \\right)$ và có 1 vectơ chỉ phương là $\\overrightarrow{{B}'C}=\\left( \\frac{1}{2};-\\frac{\\sqrt{3}}{2};-1 \\right)$.\n$d\\left( {A}'B,{B}'C \\right)=\\frac{\\left| \\left[ \\overrightarrow{{A}'B},\\overrightarrow{{B}'C} \\right]\\cdot \\overrightarrow{BC} \\right|}{\\left| \\left[ \\overrightarrow{{A}'B},\\overrightarrow{{B}'C} \\right] \\right|}\\approx 0,92$.",
-   "short_value": 0.47,
+   "short_value": 0.92,
    "short_correct": "0,47",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -498,6 +502,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C5.B3.D01",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."

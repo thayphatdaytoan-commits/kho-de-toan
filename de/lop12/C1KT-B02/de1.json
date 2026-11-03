@@ -243,10 +243,8 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": null,
-   "flags": [
-    "thieu_dap_an_Chon_X"
-   ],
+   "answer": "A",
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{x+m}{x+1}$ ($m$ là tham số thực) thoả mãn $\\underset{\\left[ 1;2 \\right]}{\\min}\\,y+\\underset{\\left[ 1;2 \\right]}{\\max}\\,y=\\frac{16}{3}$. Mệnh đề nào dưới đây đúng?",
    "explanation": "Ta có ${y}'=\\frac{1-m}{{{\\left( x+1 \\right)}^{2}}}$.\nNếu $m=1\\Rightarrow y=1,\\text{ }\\forall x\\ne -1$ suy ra không thỏa mãn yêu cầu đề bài.\nNếu $m<1$ $\\Rightarrow $Hàm số đồng biến trên đoạn $\\left[ 1;2 \\right]$.\nKhi đó: $\\underset{\\left[ 1;2 \\right]}{\\min}\\,y+\\underset{\\left[ 1;2 \\right]}{\\max}\\,y=\\frac{16}{3}$ $\\Leftrightarrow y\\left( 1 \\right)+y\\left( 2 \\right)=\\frac{16}{3}\\Leftrightarrow \\frac{m+1}{2}+\\frac{m+2}{3}=\\frac{16}{3}\\Leftrightarrow m=5$ (loại).\nNếu $m>1$ $\\Rightarrow $Hàm số nghịch biến trên đoạn $\\left[ 1;2 \\right]$.\nKhi đó: $\\underset{\\left[ 1;2 \\right]}{\\min}\\,y+\\underset{\\left[ 1;2 \\right]}{\\max}\\,y=\\frac{16}{3}\\Leftrightarrow y\\left( 2 \\right)+y\\left( 1 \\right)=\\frac{16}{3}\\Leftrightarrow \\frac{2+m}{3}+\\frac{1+m}{2}=\\frac{16}{3}\\Leftrightarrow m=5$( t/m)",
    "options": [
@@ -263,6 +261,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -372,11 +371,9 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{x-{{m}^{2}}-2}{x-m}$( với tham số $m$). Xét tính đúng sai của các khẳng định sau:",
-   "explanation": "a) Sai: Tập xác định: $D=\\mathbb{R}\\backslash \\left\\{ m \\right\\}$.\nTa có: ${y}'=\\frac{{{m}^{2}}-m+2}{{{\\left( x-m \\right)}^{2}}}>0,\\forall x\\ne m$.\nDo đó hàm số đồng biến trên mỗi khoảng $\\left( -\\infty ;m \\right)$ và $\\left( m;+\\infty \\right)$.\nb) Đúng: Bảng biến thiên của hàm số:\n[[IMG:image8.png]]\nc) Sai: Từ bảng biến thiên suy ra, hàm số đạt giá trị lớn nhất trên đoạn $\\left[ 0;\\,4 \\right]$ bằng $-1$ khi $\\left\\{ \\begin{aligned} & m<0 \\\\ & f\\left( 4 \\right)=-1 \\\\ \\end{aligned} \\right.$\nd) Đúng: $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\ & \\frac{2-{{m}^{2}}}{4-m}=-1 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m<0 \\\\",
+   "explanation": "a) Sai: Tập xác định $D=\\mathbb{R}\\backslash\\{m\\}$. Ta có ${y}'=\\frac{m^{2}-m+2}{(x-m)^{2}}>0$ với mọi $x\\ne m$ nên hàm số đồng biến trên mỗi khoảng $(-\\infty;m)$ và $(m;+\\infty)$.\nb) Đúng: Khi $m=1$ thì ${y}'>0$ với mọi $x\\ne 1$ nên hàm số đồng biến trên mỗi khoảng $(-\\infty;1)$ và $(1;+\\infty)$.\nc) Sai: Khi $m=1$, hàm số $y=\\frac{x-3}{x-1}$ không xác định tại $x=1$; trên $(1;4]$ hàm số đồng biến và $y(4)=\\frac{1}{3}\\ne\\frac{1}{2}$ nên không đạt giá trị lớn nhất bằng $\\frac{1}{2}$ trên đoạn $[1;4]$.\nd) Đúng: Vì ${y}'>0$ nên trên đoạn $[0;4]$ hàm số đạt giá trị lớn nhất tại đầu mút phải khi $m<0$ (để $[0;4]$ không chứa điểm gián đoạn) và $f(4)=-1$: $\\frac{2-m^{2}}{4-m}=-1\\Leftrightarrow m^{2}+m-6=0\\Leftrightarrow m=2$ (loại) hoặc $m=-3$ (nhận). Vậy có đúng 1 giá trị $m=-3$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -385,6 +382,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D07",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -438,11 +436,9 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "& \\left[ \\begin{aligned}\n& m\\le 2 \\\\\n& m=-1 \\\\\n\\end{aligned} \\right. \\\\\n\\end{aligned} \\right.$ $\\Leftrightarrow 1<m\\le 2$ do $m\\in \\mathbb{Z}$ $\\Rightarrow m=2$. \\text{Vậy} $m\\in \\left\\{ 0;1;2 \\right\\}$. \\text{Một} \\text{tàu} \\text{đổ} \\text{bộ} \\text{tiếp} \\text{cận} \\text{Mặt} \\text{Trăng} theo \\text{cách} \\text{tiếp} \\text{cận} \\text{thẳng} \\text{đứng} \\text{và} \\text{đốt} \\text{cháy} \\text{các} \\text{tên} \\text{lửa} \\text{hãm} \\text{ở} \\text{độ} cao $250$km so \\text{với} \\text{bề} \\text{mặt} \\text{của} \\text{Mặt} \\text{Trăng}. Trong \\text{khoảng} $50$ \\text{giây} \\text{đầu} \\text{tiên} \\text{kể} \\text{từ} khi \\text{đốt} \\text{cháy} \\text{các} \\text{tên} \\text{lửa} \\text{hãm}, \\text{độ} cao $h$ \\text{của} con \\text{tàu} so \\text{với} \\text{bề} \\text{mặt} \\text{của} \\text{Mặt} \\text{Trăng} \\text{được} \\text{tính} (\\text{gần} \\text{đúng}) \\text{bởi} \\text{hàm} $h\\left( t \\right)=-0,01{{t}^{3}}+1,1{{t}^{2}}-30t+250$ trong \\text{đó} $t$ \\text{là} \\text{thời} gian \\text{tính} \\text{bằng} \\text{giây} \\text{và} $h$ là độ cao tính bằng kilomet.",
-   "explanation": "a) Đúng: $h\\left( t \\right)=-0,01{{t}^{3}}+1,1{{t}^{2}}-30t+250\\Rightarrow {h}'\\left( t \\right)=-0,03{{t}^{2}}+2,2t-30=0\\Leftrightarrow \\left[ \\begin{aligned} & t=55\\notin \\left( 0;50 \\right) \\\\ & t=18\\in \\left( 0;50 \\right) \\\\ \\end{aligned} \\right.$\n[[IMG:image11.png]]\nb) Sai: Dựa vào bảng biến thiên trên ta thấy trong $50$ giây đầu tiên kể từ khi đốt cháy các tên lửa hãm, độ cao thấp nhất mà con tàu đạt được tại thời điểm $t\\approx 18\\left( s \\right)$.\nc) Đúng: $h\\left( t \\right)=-0,01{{t}^{3}}+1,1{{t}^{2}}-30t+250\\Rightarrow v\\left( t \\right)={h}'\\left( t \\right)=-0,03{{t}^{2}}+2,2t-30$\n$\\Rightarrow a\\left( t \\right)={v}'\\left( t \\right)=-0,06t+2,2=0\\Leftrightarrow t\\approx 37$\n[[IMG:image12.png]]\nVận tốc của con tàu lớn nhất mà con tàu đạt được là $10,33\\,\\left( km/s \\right)$.\nd) Sai: $h\\left( t \\right)=-0,01{{t}^{3}}+1,1{{t}^{2}}-30t+250\\Rightarrow v\\left( t \\right)={h}'\\left( t \\right)=-0,03{{t}^{2}}+2,2t-30$\n$\\Rightarrow a\\left( t \\right)={v}'\\left( t \\right)=-0,06t+2,2=0\\Leftrightarrow t\\approx 37$\n[[IMG:image12.png]]\nKhi đó: ${{v}_{\\text{max}}}=10,33\\Leftrightarrow t\\approx 37;\\,\\,\\,\\,h\\left( 37 \\right)=139,37$km.",
+   "flags": [],
+   "question": "Một tàu đổ bộ tiếp cận Mặt Trăng theo cách tiếp cận thẳng đứng và đốt cháy các tên lửa hãm ở độ cao $250$ km so với bề mặt của Mặt Trăng. Trong khoảng $50$ giây đầu tiên kể từ khi đốt cháy các tên lửa hãm, độ cao $h$ của con tàu so với bề mặt của Mặt Trăng được tính (gần đúng) bởi hàm $h(t)=-0,01t^{3}+1,1t^{2}-30t+250$ trong đó $t$ là thời gian tính bằng giây và $h$ là độ cao tính bằng kilomet. Xét tính đúng sai của các khẳng định sau:",
+   "explanation": "a) Đúng: ${h}'(t)=-0,03t^{2}+2,2t-30=0\\Leftrightarrow t\\approx 18$ hoặc $t\\approx 55$. Trên $[0;50]$, $h(0)=250$ và $h(50)=250$ là giá trị lớn nhất (tại $t\\approx 18$ hàm số đạt cực tiểu).\nb) Sai: Độ cao thấp nhất đạt tại thời điểm $t\\approx 18$ (s), không phải $t\\approx 25$ (s).\nc) Đúng: $v(t)={h}'(t)$, ${v}'(t)=-0,06t+2,2=0\\Leftrightarrow t=\\frac{110}{3}\\approx 36,67$; $v_{\\max}=v\\left(\\frac{110}{3}\\right)\\approx 10,33$ (km/s).\nd) Sai: Vận tốc lớn nhất đạt tại $t=\\frac{110}{3}$, khi đó $h\\left(\\frac{110}{3}\\right)\\approx 136$ (km) $\\ne 139,37$ (km).",
    "ma": "de1.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 11,
@@ -451,6 +447,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D05",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -462,9 +459,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Gọi $m,\\,M$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của hàm số $f\\left( x \\right)=\\frac{1}{2}x-\\sqrt{x+1}$ trên đoạn $\\left[ 0;3 \\right]$. Tổng $S=2M-m$ bằng bao nhiêu?",
    "explanation": "Ta có $f\\left( x \\right)=\\frac{1}{2}x-\\sqrt{x+1}$ $\\Rightarrow {f}'\\left( x \\right)=\\frac{1}{2}-\\frac{1}{2\\sqrt{x+1}}=\\frac{\\sqrt{x+1}-1}{2\\sqrt{x+1}}$.\nTa có: ${f}'\\left( x \\right)=0\\Leftrightarrow \\sqrt{x+1}=1\\Leftrightarrow x=0$.\nTa có $f\\left( 0 \\right)=-1\\,;\\,f\\left( 3 \\right)=-\\frac{1}{2}$ và hàm số $f\\left( x \\right)$ liên tục trên đoạn $\\left[ 0;3 \\right]$.\nVậy $M=-\\frac{1}{2};\\,m=-1\\Rightarrow S=2M-m=2\\left( -\\frac{1}{2} \\right)+1=0$.",
    "short_value": 0,
@@ -477,6 +472,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D05",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -488,13 +484,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)={{x}^{3}}+\\left( 1+{{m}^{2}} \\right)x+1$. Gọi $S$ là tập hợp tất cả các giá trị nguyên của tham số $m$để giá trị lớn nhất của hàm số trên đoạn $\\left[ 0;\\,1 \\right]$ không vượt quá $7$. Hỏi tập $S$ có bao nhiêu phần tử là số nguyên?",
    "explanation": "Ta có $f\\left( x \\right)={{x}^{3}}+\\left( 1+{{m}^{2}} \\right)x+1\\Rightarrow f'\\left( x \\right)=3{{x}^{2}}+1+{{m}^{2}}>0,\\,\\,x\\in \\mathbb{R}$ do đó hàm số đồng biến trên $\\left[ 0;\\,1 \\right]$\n$\\underset{\\left[ 0;\\,1 \\right]}{\\max}\\,f\\left( x \\right)=f\\left( 1 \\right)={{m}^{2}}+3$. Yêu cầu bài toán tương đương ${{m}^{2}}+3\\le 7\\Leftrightarrow -2\\le m\\le 2.$\nVậy $S=\\left\\{ -2,-1,0,1,2 \\right\\}$ hay $S$ có 5 phần tử.",
    "short_value": 3,
-   "short_correct": "5",
+   "short_correct": "3",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 3,
@@ -503,7 +497,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D04",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -518,10 +512,10 @@
    "flags": [
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
-   "question": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\frac{x+m}{x+1}$ trên đoạn $\\left[ 1;2 \\right]$ bằng $8$. Tìm giá trị nguyên của tham số $m$.",
+   "question": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\frac{x+m}{x+1}$ trên đoạn $\\left[ 1;2 \\right]$ bằng $8$. Tìm giá trị của tham số $m$.",
    "explanation": "Tập xác định của hàm số $D=\\mathbb{R}\\backslash \\left\\{ -1 \\right\\}$. Ta có ${y}'=\\frac{1-m}{{{\\left( x+1 \\right)}^{2}}}$.\n$f\\left( 1 \\right)=\\frac{1+m}{2};f\\left( 2 \\right)=\\frac{2+m}{3}$.\n$\\underset{\\left[ 1;2 \\right]}{\\min}\\,f\\left( x \\right)=\\min \\left\\{ f\\left( 1 \\right);f\\left( 2 \\right) \\right\\}$ và $\\underset{\\left[ 1;2 \\right]}{\\mathop{\\text{max}}}\\,f\\left( x \\right)=m\\text{ax}\\left\\{ f\\left( 1 \\right);f\\left( 2 \\right) \\right\\}$.\nKhi đó, theo đề ta có $\\underset{\\left[ 1;2 \\right]}{\\mathop{\\text{max}}}\\,f\\left( x \\right)\\text{+}\\underset{\\left[ 1;2 \\right]}{\\mathop{\\text{min}}}\\,f\\left( x \\right)=8$ $\\Leftrightarrow \\frac{2+m}{3}+\\frac{1+m}{2}=8\\Leftrightarrow \\frac{5m+7}{6}=8$\n$\\Leftrightarrow 5m+7=48\\Leftrightarrow m=\\frac{41}{5}$.",
-   "short_value": 8.2,
-   "short_correct": "8,2|41/5",
+   "short_value": 8,
+   "short_correct": "8",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -530,6 +524,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -541,9 +536,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một chất điểm chuyển động theo quy luật $S\\left( t \\right)=6{{t}^{2}}-{{t}^{3}}$. Vận tốc $v$(m/s) của chuyển động đạt giá trị lớn nhất tại thời điểm $t$(s) bằng bao nhiêu giây?",
    "explanation": "Ta có $v={S}'\\left( t \\right)=12t-3{{t}^{2}}$ suy ra ${v}'\\left( t \\right)=12-6t$ nên ${v}'\\left( t \\right)=0\\Leftrightarrow t=2$.\nBảng biến thiên:\n[[IMG:image13.png]]\nDo vậy ${{v}_{\\max }}=12\\,\\left( m/s \\right)$ tại $t=2\\,\\left( s \\right)$.",
    "short_value": 2,
@@ -556,6 +549,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B1.D06",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -582,6 +576,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -597,9 +592,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Ông Nam cần xây dựng một bể nước mưa có thể tích $V=8\\left( {{m}^{3}} \\right)$ dạng hình hộp chữ nhật với chiều dài gấp $\\frac{4}{3}$ lần chiều rộng, đáy và nắp đổ bê tông, cốt thép; xung quanh xây bằng gạch và xi măng. Biết rằng chi phí trung bình là 980.000đ/m2 và ở nắp để hở một khoảng hình vuông có diện tích bằng $\\frac{2}{9}$ diện tích nắp bể. Tính chi phí thấp nhất mà ông Nam phải chi trả (làm tròn đến hàng triệu đồng).\n[[IMG:image15.png]]",
-   "explanation": "Gọi chiều rộng của bể là $3x\\text{ }\\left( m \\right)$. Ta có chiều dài bể là $4x\\text{ }(m)$ và chiều cao của bể là $\\frac{2}{3{{x}^{2}}}\\text{ }\\left( m \\right)$\nKhi đó tổng diện tích bề mặt xây là:\n$T=\\left( 3x+4x \\right).2.\\frac{2}{3{{x}^{2}}}+2.3x.4x-\\frac{2}{9}.3x.4x=\\frac{28}{3{{x}^{2}}}+\\frac{64{{x}^{2}}}{3}\\ge 2.\\sqrt{\\frac{28}{3{{x}^{2}}}.\\frac{64{{x}^{2}}}{3}}=\\frac{32\\sqrt{7}}{3}\\text{ }\\left( {{m}^{2}} \\right)$.\nChi phí $C$ (tính theo đồng) xây dựng là: $C=T.980000\\ge \\frac{32\\sqrt{7}}{3}.980000\\approx 27657000$ (đồng).\nVậy chi phí thấp nhất mà ông Nam phải chi trả là $28$ triệu đồng.\n-----------------HẾT-----------------",
-   "short_value": 27657000,
-   "short_correct": "23000000",
+   "explanation": "Đặt chiều rộng $3x$, chiều dài $4x$ (m), chiều cao $h=\\frac{8}{12x^2}=\\frac{2}{3x^2}$. Diện tích toàn phần: đáy $12x^2$ + nắp trừ lỗ $12x^2\\cdot\\frac79=\\frac{28x^2}{3}$ + xung quanh $2(3x+4x)h=\\frac{28}{3x}$, tức $T=\\frac{64x^2}{3}+\\frac{28}{3x}$. $T'=0 \\Leftrightarrow 128x^3=28 \\Leftrightarrow x=\\sqrt[3]{\\frac{7}{32}}\\approx 0,60$; $T_{\\min}\\approx 23,24\\,\\mathrm{m}^2$; chi phí $\\approx 23,24\\times 980000\\approx 22.770.000$ đồng, làm tròn đến triệu là 23.000.000 đồng, khớp short_correct.",
+   "short_value": 28,
+   "short_correct": "28",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -608,7 +603,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

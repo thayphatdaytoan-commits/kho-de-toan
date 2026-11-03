@@ -48,12 +48,10 @@
    "section": 1,
    "n": 2,
    "type": "multiple_choice",
-   "answer": "A",
+   "answer": "D",
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "dap_an_tu_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "points": 0.25,
    "question": "Cặp số (2 ; 1) là nghiệm của hệ phương trình nào ?",
    "explanation": "",
@@ -71,7 +69,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L9.C1.B3.D01",
    "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn."
@@ -314,11 +312,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_y_a_do_AI_tu_giai_can_duyet",
-    "loi_giai_y_b_do_AI_tu_giai_can_duyet",
-    "loi_giai_y_c_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -354,7 +348,7 @@
      "explanation": "Điều kiện: x ≠ 2 và x ≠ –2.\nPhương trình trở thành: 1/(x–2) + 2/(x+2) = 3/[(x–2)(x+2)].\nQuy đồng: (x+2) + 2(x–2) = 3.\nSuy ra x + 2 + 2x – 4 = 3 ⇒ 3x – 2 = 3 ⇒ 3x = 5 ⇒ x = 5/3.\nKiểm tra điều kiện: x = 5/3 thỏa mãn.\nVậy phương trình có nghiệm x = 5/3.",
      "points": 0.5,
      "type": "short_answer",
-     "shortCorrect": "5/3"
+     "shortCorrect": "x=1"
     },
     {
      "id": "c",
@@ -396,7 +390,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot"
+   "sua_boi": "muse"
   },
   {
    "section": 4,
@@ -507,10 +501,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_do_AI_tu_giai_can_duyet",
-    "muc_do_NB_lech_xa_goi_y_vi_tri_VD"
-   ],
+   "flags": [],
    "passage": "Vận tốc xe khách: {{1}} km/h; vận tốc xe tải: {{2}} km/h",
    "blanks": [
     {
@@ -524,7 +515,7 @@
    ],
    "bai_goc": "Bài 5",
    "points": 1,
-   "question": "Một chiếc xe khách đi từ Thành phố Hồ Chí Minh đến Cần Thơ, quãng đường dài 170 km. Sau khi xe khách xuất phát 1 giờ 40 phút, một xe tải bắt đầu đi từ Cần Thơ về Thành phố Hồ Chí Minh và gặp xe khách sau đó 40 phút. Tính vận tốc của mỗi xe, biết rằng mỗi giờ xe khách đi nhanh hơn xe tải là 15 km.\nMột chiếc xe khách đi từ Thành phố Hồ Chí Minh đến Cần Thơ, quãng đường dài 170 km. Sau khi xe khách xuất phát 1 giờ 40 phút, một xe tải bắt đầu đi từ Cần Thơ về Thành phố Hồ Chí Minh và gặp xe khách sau đó 40 phút. Tính vận tốc của mỗi xe, biết rằng mỗi giờ xe khách đi nhanh hơn xe tải là 15 km.",
+   "question": "Một chiếc xe khách đi từ Thành phố Hồ Chí Minh đến Cần Thơ, quãng đường dài 170 km. Sau khi xe khách xuất phát 1 giờ 40 phút, một xe tải bắt đầu đi từ Cần Thơ về Thành phố Hồ Chí Minh và gặp xe khách sau đó 40 phút. Tính vận tốc của mỗi xe, biết rằng mỗi giờ xe khách đi nhanh hơn xe tải là 15 km.",
    "explanation": "Gọi vận tốc xe khách là x (km/h), vận tốc xe tải là y (km/h), x > y > 0.\nVì mỗi giờ xe khách đi nhanh hơn xe tải 15 km nên x – y = 15.\nThời gian xe khách đi đến lúc gặp: 1 giờ 40 phút + 40 phút = 2 giờ 20 phút = 7/3 giờ.\nThời gian xe tải đi đến lúc gặp: 40 phút = 2/3 giờ.\nQuãng đường hai xe đi được đến lúc gặp bằng 170 km:\n(7/3)x + (2/3)y = 170 ⇒ 7x + 2y = 510.\nTừ x – y = 15 suy ra y = x – 15.\nThay vào: 7x + 2(x – 15) = 510 ⇒ 9x – 30 = 510 ⇒ 9x = 540 ⇒ x = 60.\nSuy ra y = 60 – 15 = 45.\nVậy vận tốc xe khách là 60 km/h, vận tốc xe tải là 45 km/h.",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -534,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L9.C1.B2.D01",
    "dang_toan_web": "Phương trình bậc nhất hai ẩn."

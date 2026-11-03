@@ -535,9 +535,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hằng ngày mực nước của một con kênh lên xuống theo thủy triều. Độ sâu $h\\,\\,\\left( \\text{m} \\right)$ của mực nước trong kênh tại thời điểm $t\\,\\,\\left( \\text{h} \\right)\\,\\,\\left( 0\\le t\\le 24 \\right)$ trong ngày được xác định bởi công thức $h=2\\cos \\left( \\frac{\\pi t}{12}+\\frac{\\pi }{3} \\right)+5$. Gọi $\\left( a\\,;\\,b \\right)$ là khoảng thời gian trong ngày mà độ sâu của mực nước trong kênh tăng dần. Tính giá trị của $a+b$.",
    "explanation": "Ta có $h\\left( t \\right)=2\\cos \\left( \\frac{\\pi t}{12}+\\frac{\\pi }{3} \\right)+5$ $\\Rightarrow {h}'\\left( t \\right)=-\\frac{\\pi }{6}\\sin \\left( \\frac{\\pi t}{12}+\\frac{\\pi }{3} \\right)$.\n${h}'\\left( t \\right)=0\\Leftrightarrow \\sin \\left( \\frac{\\pi t}{12}+\\frac{\\pi }{3} \\right)=0\\Leftrightarrow \\frac{\\pi t}{12}+\\frac{\\pi }{3}=k\\pi $ $\\Leftrightarrow t=-4+12k\\,\\,\\left( k\\in \\mathbb{Z} \\right)$.\nMà $0\\le t\\le 24$ nên $0\\le -4+12k\\le 24\\Leftrightarrow \\frac{1}{3}\\le k\\le \\frac{7}{3}$ $\\Rightarrow k\\in \\left\\{ 1\\,;\\,2 \\right\\}$.\nDo đó ${h}'\\left( t \\right)=0\\Rightarrow \\left[ \\begin{aligned} & t=8 \\\\ & t=20 \\\\ \\end{aligned} \\right.$\n[[IMG:image99.png]]\n$\\Rightarrow h\\left( t \\right)$ đồng biến trên khoảng $\\left( 8\\,;\\,20 \\right)$ hay trong khoảng từ $8\\,\\text{h}$ đến $20\\,\\text{h}$độ sâu của mực nước trong kênh tăng dần.\nVậy $a=8\\,;\\,b=20$ và $a+b=28$.",
    "short_value": 28,
@@ -550,6 +548,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D11",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -561,9 +560,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Xí nghiệp $A$ sản xuất độc quyền một loại sản phẩm. Biết rằng hàm tổng chi phí sản xuất là $TC={{x}^{3}}-77{{x}^{2}}+1000x+40000$ và hàm doanh thu là $TR=-2{{x}^{2}}+1312x$, với $x$ là số sản phẩm. Lợi nhuận của xí nghiệp $A$ được xác định bằng hàm số $f\\left( x \\right)=TR-TC$, cực đại lợi nhuận của xí nghiệp $A$ khi đó đạt bao nhiêu sản phẩm?",
    "explanation": "Trả lời: $x=52$.\nXét hàm số:\n$f\\left( x \\right)=TR-TC=-2{{x}^{2}}+1312x-\\left( {{x}^{3}}-77{{x}^{2}}+1000x+40000 \\right)$.\n$f\\left( x \\right)=-{{x}^{3}}+75{{x}^{2}}+312x-40000$.\nTXĐ: $D=\\left( 0\\,;\\,+\\infty \\right)$.\nTa có ${f}'\\left( x \\right)=-3{{x}^{2}}+150x+312=0\\Leftrightarrow \\left[ \\begin{aligned} & x=52\\left( N \\right) \\\\ & x=-2\\left( L \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image88.png]]\nHàm số đạt giá trị cực đại ${{y}_{C}}=74416$ tại $x=52$.\nVậy lợi nhuận của công ty đạt cực đại khi số sản phẩm $x=52$.",
    "short_value": 52,
@@ -576,6 +573,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

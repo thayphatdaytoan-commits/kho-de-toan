@@ -455,13 +455,16 @@
     "c": "$S=\\frac{3+\\sqrt{3}}{2}$.",
     "d": "$R=\\sqrt{2}.$"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho $\\Delta ABC$ có $BC=\\sqrt{6},CA=2,AB=1+\\sqrt{3}$. Các mệnh đề sau đúng hay sai?\nCác mệnh đề sau đúng hay sai?",
-   "explanation": "",
+   "explanation": "Đặt $a=BC=\\sqrt{6}$, $b=CA=2$, $c=AB=1+\\sqrt{3}$. $\\cos A=\\frac{b^2+c^2-a^2}{2bc}=\\frac{1}{2}$ nên $\\widehat{A}=60^\\circ$, mệnh đề a) sai. $\\cos B=\\frac{a^2+c^2-b^2}{2ac}=\\frac{\\sqrt{2}}{2}$ nên $\\widehat{B}=45^\\circ$, mệnh đề b) sai. $S=\\frac{1}{2}bc\\sin A=\\frac{3+\\sqrt{3}}{2}$, mệnh đề c) đúng. $R=\\frac{abc}{4S}=\\sqrt{2}$, mệnh đề d) đúng.",
    "ma": "de1.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 0,
@@ -470,6 +473,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D11",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -486,10 +490,7 @@
    },
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:",
-    "import_web: loại câu web hiểu là short_answer"
-   ],
+   "flags": [],
    "question": "Lời Giải",
    "explanation": "",
    "ma": "de1.P2.C5",
@@ -500,6 +501,8 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
+   "bo_cau": true,
    "muc_do": "TH",
    "dang": "L10.C1.B1.D03",
    "dang_toan_web": "Mệnh đề phủ định, mệnh đề kéo theo, mệnh đề đảo, hai mệnh đề tương đương."
@@ -603,7 +606,6 @@
  ],
  "flags": [
   "phan_2_co_5_cau_nhung_de_ghi_4",
-  "phan_3_co_4_cau_nhung_de_ghi_6",
-  "import_web: Câu 0: web đọc được 20/21 câu"
+  "phan_3_co_4_cau_nhung_de_ghi_6"
  ]
 }

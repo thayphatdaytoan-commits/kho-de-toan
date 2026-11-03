@@ -471,9 +471,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp có $20$ viên bi trắng và $10$ viên bi đen, các viên bi có cùng kích thước và khối lượng. Bạn Bình lấy ngẫu nhiên một viên bi trong hộp, không trả lại. Sau đó bạn An lấy ngẫu nhiên một viên bi trong hộp đó. Gọi $A$ là biến cố: “An lấy được viên bi trắng”; $B$ là biến cố: “Bình lấy được viên bi trắng”. Khi đó $P\\left( A|\\bar{B} \\right)=\\frac{a}{b}$, với phân số $\\frac{a}{b}$ là tối giản. Tính giá trị của $C=a-b$.",
    "explanation": "Đáp án: $-\\mathbf{9}$\nBình có $30$ cách chọn, An có $29$ cách chọn một viên bi trong hộp.\nDo đó, $n\\left( \\Omega \\right)=30.29$.\nBình có $10$ cách chọn một viên bi đen, An có $29$ cách chọn từ $29$ viên bi còn lại.\nDo đó, $n\\left( {\\bar{B}} \\right)=10.29$ và $P\\left( {\\bar{B}} \\right)=\\frac{n\\left( {\\bar{B}} \\right)}{n\\left( \\Omega \\right)}$.\nBình có $10$ cách chọn một viên bi đen, An có $20$ cách chọn một viên bi trắng trong $20$ viên bi trắng còn lại.\nDo đó $n\\left( A\\bar{B} \\right)=10.20$ và $P\\left( A\\bar{B} \\right)=\\frac{n\\left( A\\bar{B} \\right)}{n\\left( \\Omega \\right)}$.\nKhi đó, $P\\left( A|\\bar{B} \\right)=\\frac{P\\left( A\\bar{B} \\right)}{P\\left( {\\bar{B}} \\right)}=\\frac{n\\left( A\\bar{B} \\right)}{n\\left( {\\bar{B}} \\right)}=\\frac{10.20}{10.29}=\\frac{20}{29}$.\nSuy ra $a=20$ và $b=29$.\nVậy $C=a-b=20-29=-9$.",
    "short_value": -9,
@@ -485,7 +483,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -518,7 +517,7 @@
    "flags": [],
    "question": "Một kho hàng có $85\\%$ sản phẩm loại I và $15\\%$sản phẩm loại II, trong đó có $99\\%$sản phẩm loại I chất lượng tốt, $96\\%$sản phẩm loại II chất lượng tốt. Các sản phẩm có kích thước và hình dạng như nhau. Một khách hàng chọn ngẫu nhiên 1 sản phẩm. Tính xác suất để khách hàng chọn được sản phẩm loại I và có chất lượng tốt (làm tròn kết quả đến hàng phần trăm).",
    "explanation": "Đáp án: 0,85.\nXét các biến cố $A$: \"Khách hàng chọn được sản phẩm loại I \";\n$B$: \"Khách hàng chọn được sản phẩm chất lượng tốt\".\nTa có:\n$P\\left( A \\right)=0,85;$ $P\\left( \\overline{A} \\right)=0,15;\\,P\\left( B|A \\right)=0,99$; $P\\left( B|\\overline{A} \\right)=0,96.$\nTheo công thức xác suất toàn phần, ta có:\n$P\\left( B \\right)=P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)=0,85.0,99+0,15.0,96=0,9855$\nTheo công thức Bayes, ta có: $P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,85.0,99}{0,9855}\\approx 0,85$.",
-   "short_value": 0.84,
+   "short_value": 0.85,
    "short_correct": "0,84",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -527,7 +526,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "grokbot"
   },
   {
    "section": 3,

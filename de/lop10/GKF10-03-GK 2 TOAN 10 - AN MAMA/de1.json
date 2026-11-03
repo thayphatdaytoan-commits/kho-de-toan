@@ -316,6 +316,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C7.B1.D01",
    "dang_toan_web": "Phương trình đường thẳng: Phương trình tham số, phương trình tổng quát, khoảng cách từ một điểm đến đường thẳng, góc giữa hai đường thẳng."
@@ -450,11 +451,14 @@
     "c": "Gọi $D$ là đỉnh thứ tư của hình bình hành $ABCD$ và $G$ là trọng tâm tam giác $ACD$. Tọa độ điểm $G\\left( 4\\,;\\,-16 \\right)$.",
     "d": "Gọi điểm$M$ thuộc đoạn thẳng $BC$sao cho ${{S}_{\\Delta ABM}}=\\frac{1}{4}{{S}_{\\Delta AMC}}$. Tọa độ điểm$M(2\\,;\\,1)$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Trong mặt phẳng $Oxy$, cho tam giác $ABC$ có các đỉnh $A\\left( 0\\,;\\,1 \\right)$, $B\\left( 2\\,;\\,6 \\right)$,$C\\left( 3\\,;\\,-6 \\right)$. Các khẳng định sau đúng hay sai?",
    "explanation": "FB tác giả: Hồ Đức Vượng\nPhản biện: Ngô Hồng\n|  | a) | b) | c) | d) |\n|---|---|---|---|---|\n| Đáp án | Đúng | Đúng | Sai | Sai |\n(a) Ta có $\\overrightarrow{AB}=(2\\,;\\,5)$.\n(b) Ta có $\\overrightarrow{AC}=(3\\,;\\,-7)$.\nKhi đó, $\\cos (\\overrightarrow{AB},\\overrightarrow{AC})=\\frac{\\overrightarrow{AB}.\\overrightarrow{AC}}{\\left| \\overrightarrow{AB} \\right|.\\left| \\overrightarrow{AC} \\right|}=\\frac{2.3+5.(-7)}{\\sqrt{{{2}^{2}}+{{5}^{2}}}.\\sqrt{{{3}^{2}}+{{(-7)}^{2}}}}=-\\frac{\\sqrt{2}}{2}$ $\\Rightarrow \\left( \\overrightarrow{AB}\\,;\\overrightarrow{AC} \\right)=135{}^\\circ $.\n(c) Gọi $D(x;y)$ $\\Rightarrow \\overrightarrow{DC}=(3-x\\,;\\,-6-y)$.\nTa có$ABCD$ là hình bình hành nên $\\overrightarrow{AB}=\\overrightarrow{DC}\\Leftrightarrow \\left\\{ \\begin{matrix} 3-x=2 \\\\ -6-y=5 \\\\ \\end{matrix}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} x=1 \\\\ y=-11 \\\\ \\end{array} \\right. \\right.\\Rightarrow D(1\\,;\\,-11)$.\nDo $G$ là trọng tâm tam giác $ACD$ nên tọa độ điểm $G\\left( \\frac{4}{3}\\,;\\,-\\frac{16}{3} \\right)$.\n(d)\n[[IMG:image4.emf]]\nGọi $M(a\\,;\\,b)$ $\\Rightarrow \\overrightarrow{MC}=(3-a\\,;\\,-6-b)$, $\\overrightarrow{BM}=(a-2\\,;\\,b-6)$.\nGọi $AH$ là đường cao của tam giác $ABC$.\nTa có ${{S}_{\\Delta ABM}}=\\frac{1}{4}{{S}_{\\Delta AMC}}\\Leftrightarrow \\frac{1}{2}AH.BM=\\frac{1}{4}.\\frac{1}{2}AH.MC\\Leftrightarrow MC=4BM$\n$\\Rightarrow \\overrightarrow{MC}=4\\overrightarrow{BM}\\Leftrightarrow \\left\\{ \\begin{aligned} & 3-a=4(a-2) \\\\ & -6-b=4(b-6) \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{11}{5} \\\\ & b=\\frac{18}{5} \\\\ \\end{aligned} \\right.\\Rightarrow M\\left( \\frac{11}{5}\\,;\\,\\frac{18}{5} \\right)$.",
    "ma": "de1.P2.C3",
@@ -465,6 +469,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C4.B4.D01",
    "dang_toan_web": "Các dạng toán khác"

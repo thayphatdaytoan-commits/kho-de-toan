@@ -479,6 +479,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D03",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -515,9 +516,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Những căn lều gỗ trong hình 1 được phác thảo dưới dạng một hình lăng trụ đứng tam giác $OAB.{O}'{A}'{B}'$ như trong hình 2. Với hệ trục toạ độ $Oxyz$ thể hiện như hình 2 (đơn vị đo lấy theo centimét), hai điểm ${A}'$ và ${B}'$ có tọa độ lần lượt là $\\left( 240;450;0 \\right)$ và $\\left( 120;450;300 \\right)$. Mỗi căn nhà gỗ có chiều dài là $a\\text{ cm}$ và chiều rộng là $b~\\text{cm}$, mỗi cạnh bên của mặt tiền có độ dài là $c~\\text{cm}$. Tính $a+b+c$ (kàm tròn đến hàng đơn vị).\n| [[IMG:image4.jpeg]] | [[IMG:image5.png#0.5312,0.0000,0.0000,0.2813]] |\n|---|---|\n| Hình 1 | Hình 2 |",
    "explanation": "Vì điểm ${A}'$ có toạ độ là $\\left( 240;450;0 \\right)$ nên khoảng cách từ ${A}'$ đến các trục $Ox,Oy$ lần lượt là $450~\\text{cm}$ và $240~\\text{cm}\\Rightarrow $ ${A}'A=450~\\text{cm}$ và ${A}'{O}'=240~\\text{cm}$.\nTừ giả thiết suy ra $\\overrightarrow{{A}'{B}'}=\\left( -120;0;300 \\right)$\nDo đó: ${A}'{B}'=\\left| \\overrightarrow{{A}'{B}'} \\right|=\\sqrt{{{\\left( -120 \\right)}^{2}}+{{0}^{2}}+{{300}^{2}}}=60\\sqrt{29}\\approx 323\\,\\left( \\text{cm} \\right)$.\nVi ${O}'O={A}'A=450~\\text{cm}$ và ${O}'$ nằm trên trục $Oy$ nên toạ độ của điểm ${O}'$ là $\\left( 0;450;0 \\right)$.\nDo đó: $\\overline{{O}'{B}'}=\\left( 120;0;300 \\right)$ và ${O}'{B}'=\\left| \\overline{{O}'{B}'} \\right|=\\sqrt{{{120}^{2}}+{{0}^{2}}+{{300}^{2}}}=60\\sqrt{29}\\approx 323\\text{ }(\\text{cm})$.\nVậy mỗi căn lều gỗ có chiều dài là $450~\\text{cm}$, chiều rộng là $240~\\text{cm}$, mỗi cạnh bên của mặt tiền có độ dài là 323 cm$\\Rightarrow a+b+c=1013$.",
    "short_value": 1013,
@@ -530,6 +529,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -541,9 +541,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một máy bay đang cất cánh từ phi trường. Với hệ toạ độ $Oxyz$ được thiết lập như hình bên dưới, cho biết $M\\left( a;\\,b;\\,c \\right)$ là vị trí của máy bay, $OM=14,\\,\\,\\widehat{NOB}=32{}^\\circ ,\\,\\,\\widehat{MOC}=65{}^\\circ $. Tính giá trị của biểu thức $T=a+b+c$?\n[[IMG:image6.png#-0.0211,0.1325,0.0411,0.0000]]",
    "explanation": "Tam giác $OCM$ vuông tại $C$ có $OC=OM.\\cos 65{}^\\circ =14.\\cos 65{}^\\circ \\approx 5,9$\nMặt khác: $CM=OM.\\sin 65{}^\\circ =14.\\sin 65{}^\\circ \\approx 12,7$ và $ON=CM,\\,\\,AN=OB$.\nTa lại có:$\\widehat{AON}=90{}^\\circ -\\widehat{BON}=58{}^\\circ $\nTam giác $OAN$ vuông tại $A$ có $OA=ON.\\cos 58{}^\\circ =12,7.\\cos 58{}^\\circ \\approx 6,7$\nHơn nữa $AN=ON.\\sin 58{}^\\circ =12,7.\\sin 58{}^\\circ \\approx 10,8$.\nKhi đó: $\\overrightarrow{OM}=OA.\\overrightarrow{i}+OB.\\overrightarrow{j}+OC.\\overrightarrow{k}=6,7.\\overrightarrow{i}+10,8.\\overrightarrow{j}+5,9.\\overrightarrow{k}$ $\\Rightarrow M\\left( 6,7;10,8;5,9 \\right)$.\nVậy $\\left\\{ \\begin{aligned} & a=6,7 \\\\ & b=10,8 \\\\ & c=5,9 \\\\ \\end{aligned} \\right.\\Rightarrow T=a+b+c=6,7+10,8+5,9=23,4$.",
    "short_value": 23.4,
@@ -556,6 +554,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -571,9 +570,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Trong không gian với một hệ trục toạ độ cho trước (đơn vị đo lấy theo kilômét), ra đa phát hiện một chiếc máy bay di chuyển với vận tốc và hướng không đổi từ điểm $A\\left( 800;500;7 \\right)$ đến điểm $B\\left( 940;550;9 \\right)$ trong 10 phút. Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì toạ độ của máy bay sau 5 phút tiếp theo là $C\\left( x;y;z \\right)$. Tính $x+y+z$.",
-   "explanation": "Vị trí của máy bay sau 5 phút tiếp theo là $C\\left( x;y;z \\right)$.\nVì hướng của máy bay không đổi nên $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ cùng hướng.\nDo vận tốc của máy bay không đổi và thời gian bay từ $A$ đến $B$ gấp đôi thời gian bay từ $B$ đến $C$ nên $AB=2BC$.\nDo đó $\\overrightarrow{BC}=\\frac{1}{2}\\overrightarrow{AB}=\\left( \\frac{940-800}{2};\\frac{550-500}{2};\\frac{9-7}{2} \\right)=\\left( 70;25;1 \\right)$.\nMặt khác, $\\overrightarrow{BC}=\\left( x-940;y-550;z-8 \\right)$ nên $\\left\\{ \\begin{array}{llllll} x-940=70 \\\\ y-550=25 \\\\ z-8=1 \\\\ \\end{array} \\right.$\nTừ đó $\\left\\{ \\begin{array}{llllll} x=1010 \\\\ y=575 \\\\ z=9 \\\\ \\end{array} \\right.\\Rightarrow x+y+z=1594$.",
-   "short_value": 1595,
-   "short_correct": "1595",
+   "explanation": "Sau 5 phút tiếp theo, $\\overrightarrow{BC}=\\frac12\\overrightarrow{AB}=(70;25;1)$. Với $\\overrightarrow{BC}=(x-940;y-550;z-9)$ được $C(1010;575;10)$, tổng $x+y+z=1010+575+10=1595$.",
+   "short_value": 1594,
+   "short_correct": "1594",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -582,6 +581,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -593,9 +593,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hai chiếc khinh khí cầu bay lên từ cùng một địa điểm. Chiếc thứ nhất nằm cách điểm xuất phát $2,5\\text{ }\\!\\!~\\!\\!\\text{ km}$ về phía nam và $\\text{2 }\\!\\!~\\!\\!\\text{ km}$ về phía đông, đồng thời cách mặt đất $0,8\\text{ }\\!\\!~\\!\\!\\text{ km}$. Chiếc thứ hai nằm cách điểm xuất phát $1,5\\text{ }\\!\\!~\\!\\!\\text{ km}$ về phía bắc và $3\\text{ km}$ về phía tây, đồng thời cách mặt đất $0,6\\text{ }\\!\\!~\\!\\!\\text{ km}$. Người ta cần tìm một vị trí trên mặt đất để tiếp nhiên liệu cho hai khinh khí cầu sao cho tổng khoảng cách từ vị trí đó tới hai khinh khí cầu nhỏ nhất. Giả sử vị trí cần tìm cách địa điểm hai khinh khí cầu bay lên là $a\\,\\,\\text{km}$ theo hướng nam và $b\\,\\text{km}$ theo hướng tây. Tính tổng $2a+3b$.\n[[IMG:image7.png]]",
    "explanation": "Chọn hệ trục toạ độ $Oxyz$ với gốc $O$ đặt tại điểm xuất phát của hai khinh khí cầu, mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất với trục $Ox$ hướng về phía nam, trục $Oy$ hướng về phía đông và trục $\\text{Oz}$ hướng thẳng đứng lên trời (tham khảo hình vẽ), đơn vị đo lấy theo kilômét.\n[[IMG:image8.png]]\nChiếc khinh khí cầu thứ nhất và thứ hai ở vị trí $A,B$ ta có $A\\left( \\frac{5}{2};2;\\frac{4}{5} \\right),B\\left( -\\frac{3}{2};-3;\\frac{3}{5} \\right)$.\nGọi $C$ là điểm đối xứng của $A$ qua mặt phẳng $\\left( Oxy \\right)$, $C\\left( \\frac{5}{2};2;-\\frac{4}{5} \\right)$. Khi đó $I=BC\\cap \\left( Oxy \\right)$.\n$\\overrightarrow{BC}=\\left( 4;5;-\\frac{7}{5} \\right)$. $I\\in \\left( Oxy \\right)\\Rightarrow I\\left( x;y;0 \\right)\\Rightarrow \\overrightarrow{BI}=\\left( x+\\frac{3}{2};y+3;-\\frac{3}{5} \\right)$\n$\\overrightarrow{BC},\\overrightarrow{BI}$ cùng phương nên $\\frac{x+\\frac{3}{2}}{4}=\\frac{y+3}{5}=\\frac{3}{7}\\Rightarrow \\left\\{ \\begin{aligned} & x=\\frac{3}{14} \\\\ & y=-\\frac{6}{7} \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a=\\frac{3}{14} \\\\ & b=\\frac{6}{7} \\\\ \\end{aligned} \\right.\\Rightarrow 2a+3b=3$.",
    "short_value": 3,
@@ -608,6 +606,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -623,7 +622,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Một chậu cây được đặt trên một giá đỡ có bốn chân với điểm đặt $S\\left( 0;0;30 \\right)$ và các điểm chạm mặt đất của bốn chân lần lượt là $A\\left( 30;0;0 \\right),B\\left( 0;20;0 \\right),C\\left( -20;0;0 \\right),D\\left( 0;-20;0 \\right)$ (đơn vị cm). Cho biết trọng lực tác dụng lên chậu cây có độ lớn $60N$và được phân bố thành bốn lực $\\overrightarrow{{{F}_{1}}},\\overrightarrow{{{F}_{2}}},\\overrightarrow{{{F}_{3}}},\\overrightarrow{{{F}_{4}}}$ có độ lớn bằng nhau như hình vẽ. Tính $\\left| \\overrightarrow{{{F}_{1}}}+2\\overrightarrow{{{F}_{2}}}+3\\overrightarrow{{{F}_{3}}}+4\\overrightarrow{{{F}_{4}}} \\right|$ (kết quả làm tròn đến hàng đơn vị)\n[[IMG:image9.png]]",
-   "explanation": "[[IMG:image10.png]]\nTứ giác $ABCD$ có hai đường chéo bằng nhau và vuông góc với nhau tại trung điểm của mỗi đường nên là hình vuông.\nTa có: $\\overrightarrow{SA}=\\left( 30;0;-30 \\right),\\overrightarrow{SB}=\\left( 0;20;-20 \\right),\\overrightarrow{SC}=\\left( -20;0;-20 \\right),\\overrightarrow{SD}=\\left( 0;-20;-20 \\right)$\n$\\Rightarrow SA=SB=SC=SD=30\\sqrt{2}$. Do đó $S.ABCD$ là hình chóp tứ giác đều.\nCác vecto $\\overrightarrow{{{F}_{1}}},\\overrightarrow{{{F}_{2}}},\\overrightarrow{{{F}_{3}}},\\overrightarrow{{{F}_{4}}}$có điểm đầu tại $S$ và điểm cuối lần lượt là ${A}',{B}',{C}',{D}'$.\nTa có: $S{A}'=S{B}'=S{C}'=S{D}'$nên $S.{A}'{B}'{C}'{D}'$ cũng là hình chóp tứ giác đều.\nGọi $\\overrightarrow{F}$ là trọng lực tác dụng lên chậu cây và ${O}'$ là tâm của hình vuông ${A}'{B}'{C}'{D}'$.\nTa có: $\\overrightarrow{F}=\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}+\\overrightarrow{{{F}_{4}}}=\\overrightarrow{S{A}'}+\\overrightarrow{S{B}'}+\\overrightarrow{S{C}'}+\\overrightarrow{S{D}'}=4\\overrightarrow{S{O}'}$\nTa có: $\\left| \\overrightarrow{F} \\right|=60\\Rightarrow \\left| \\overrightarrow{S{O}'} \\right|=SO=15$.\nDo tam giác $S{O}'{A}'$ vuông cân nên $S{A}'=S{O}'\\sqrt{2}=15\\sqrt{2}=\\frac{1}{2}SA\\Rightarrow \\overrightarrow{{{F}_{1}}}=\\overrightarrow{S{A}'}=\\frac{1}{2}\\overrightarrow{SA}=\\left( 15;0;-15 \\right)$\nChứng minh tương tự ta cũng có:\n$\\overrightarrow{{{F}_{2}}}=\\frac{1}{2}\\overrightarrow{SB}=\\left( 0;15;-15 \\right),\\overrightarrow{{{F}_{3}}}=\\frac{1}{2}\\overrightarrow{SC}=\\left( -15;0;-15 \\right),\\overrightarrow{{{F}_{4}}}=\\frac{1}{2}\\overrightarrow{SD}=\\left( 0;-15;-15 \\right)$\nSuy ra: $\\overrightarrow{{{F}_{1}}}+2\\overrightarrow{{{F}_{2}}}+3\\overrightarrow{{{F}_{3}}}+4\\overrightarrow{{{F}_{4}}}=\\left( -30;-30;-150 \\right)\\Rightarrow \\left| \\overrightarrow{{{F}_{1}}}+2\\overrightarrow{{{F}_{2}}}+3\\overrightarrow{{{F}_{3}}}+4\\overrightarrow{{{F}_{4}}} \\right|=90\\sqrt{3}\\approx 156$.\n-----------------HẾT-----------------",
+   "explanation": "Bốn lực có độ lớn bằng nhau là $F$. Tổng thành phần đứng bằng trọng lượng: $F\\left(\\frac{30}{30\\sqrt2}+3\\cdot\\frac{30}{10\\sqrt13}\\right)=F\\left(\\frac{1}{\\sqrt2}+\\frac{9}{\\sqrt13}\\right)=60$, suy ra $F\\approx 18,73$ N. Với các vectơ đơn vị dọc chân đế $\\vec u_A=\\left(\\frac{1}{\\sqrt2};0;-\\frac{1}{\\sqrt2}\\right)$, $\\vec u_B=\\left(0;\\frac{2}{\\sqrt13};-\\frac{3}{\\sqrt13}\\right)$, $\\vec u_C=\\left(-\\frac{2}{\\sqrt13};0;-\\frac{3}{\\sqrt13}\\right)$, $\\vec u_D=\\left(0;-\\frac{2}{\\sqrt13};-\\frac{3}{\\sqrt13}\\right)$ thì $|\\vec F_1+2\\vec F_2+3\\vec F_3+4\\vec F_4|=F\\cdot\\left|\\vec u_A+2\\vec u_B+3\\vec u_C+4\\vec u_D\\right|\\approx 18,73\\times 8,33\\approx 155,94$, làm tròn 156.",
    "short_value": 156,
    "short_correct": "156",
    "ma": "de1.P3.C6",
@@ -634,6 +633,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

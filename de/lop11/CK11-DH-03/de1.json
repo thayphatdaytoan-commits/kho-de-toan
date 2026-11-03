@@ -301,8 +301,8 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [],
-   "question": "Giới hạn $\\underset{{}}{\\mathop{\\lim }}\\,\\frac{{{2}^{n}}-{{3}^{n}}}{{{2}^{n}}+1}$ bằng",
-   "explanation": "Chọn A\nTa có: $\\underset{{}}{\\mathop{\\lim }}\\,\\frac{{{2}^{n}}-{{3}^{n}}}{{{2}^{n}}+1}=\\underset{{}}{\\mathop{\\lim }}\\,\\frac{1-{{\\left( \\frac{3}{2} \\right)}^{n}}}{1+{{\\left( \\frac{1}{2} \\right)}^{n}}}=\\frac{\\underset{{}}{\\mathop{\\lim \\left( 1-{{\\left( \\frac{3}{2} \\right)}^{n}} \\right)}}\\,}{\\underset{{}}{\\mathop{\\lim \\left( 1+{{\\left( \\frac{1}{2} \\right)}^{n}} \\right)}}\\,}=\\lim \\left( 1-{{\\left( \\frac{3}{2} \\right)}^{n}} \\right)=-\\infty $.",
+   "question": "Giới hạn $\\underset{{}}{\\lim}\\,\\frac{{{2}^{n}}-{{3}^{n}}}{{{2}^{n}}+1}$ bằng",
+   "explanation": "Chọn A\nTa có: $\\underset{{}}{\\lim}\\,\\frac{{{2}^{n}}-{{3}^{n}}}{{{2}^{n}}+1}=\\underset{{}}{\\lim}\\,\\frac{1-{{\\left( \\frac{3}{2} \\right)}^{n}}}{1+{{\\left( \\frac{1}{2} \\right)}^{n}}}=\\frac{\\underset{{}}{\\mathop{\\lim \\left( 1-{{\\left( \\frac{3}{2} \\right)}^{n}} \\right)}}\\,}{\\underset{{}}{\\mathop{\\lim \\left( 1+{{\\left( \\frac{1}{2} \\right)}^{n}} \\right)}}\\,}=\\lim \\left( 1-{{\\left( \\frac{3}{2} \\right)}^{n}} \\right)=-\\infty $.",
    "options": [
     "$-\\infty $",
     "$0$",
@@ -329,8 +329,8 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [],
-   "question": "Tính giới hạn$\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{2{{x}^{2}}+3x-2}{{{x}^{2}}-4}$",
-   "explanation": "Chọn A\nTa có $\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{2{{x}^{2}}+3x-2}{{{x}^{2}}-4}$ $=\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{\\left( 2x-1 \\right)\\left( x+2 \\right)}{\\left( x-2 \\right)\\left( x+2 \\right)}$ $=\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{2x-1}{x-2}=\\frac{5}{4}$.",
+   "question": "Tính giới hạn$\\underset{x\\to -2}{\\lim}\\,\\frac{2{{x}^{2}}+3x-2}{{{x}^{2}}-4}$",
+   "explanation": "Chọn A\nTa có $\\underset{x\\to -2}{\\lim}\\,\\frac{2{{x}^{2}}+3x-2}{{{x}^{2}}-4}$ $=\\underset{x\\to -2}{\\lim}\\,\\frac{\\left( 2x-1 \\right)\\left( x+2 \\right)}{\\left( x-2 \\right)\\left( x+2 \\right)}$ $=\\underset{x\\to -2}{\\lim}\\,\\frac{2x-1}{x-2}=\\frac{5}{4}$.",
    "options": [
     "$\\frac{5}{4}$",
     "$-\\frac{5}{4}$",
@@ -348,6 +348,35 @@
    "muc_do": "VD",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
+  },
+  {
+   "section": 2,
+   "n": 13,
+   "type": "true_false_group",
+   "tf": {
+    "a": "Phương trình đã cho tương đương với phương trình $\\frac{\\pi }{4}\\left( 3x-\\sqrt{9{{x}^{2}}-16x-80} \\right)=k\\pi ,\\text{ }k\\in \\mathbb{Z}$",
+    "b": "Phương trình có 3 nghiệm nguyên dương",
+    "c": "Phương trình có 2 nghiệm nguyên dương",
+    "d": "Tổng các nghiệm nguyên dương của phương trình bằng $14$"
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "answer": null,
+   "flags": [],
+   "question": "Cho phương trình lượng giác $\\sin \\left[ \\frac{\\pi }{4}\\left( 3x-\\sqrt{9{{x}^{2}}-16x-80} \\right) \\right]=0$, vậy:",
+   "explanation": "Điều kiện: $9{{x}^{2}}-16x-80\\ge 0\\Leftrightarrow x\\ge 4$.\nPhương trình $\\Leftrightarrow \\frac{\\pi }{4}\\left( 3x-\\sqrt{9{{x}^{2}}-16x-80} \\right)=k\\pi ,\\text{ }k\\in \\mathbb{Z}$\n$\\Leftrightarrow 3x-\\sqrt{9{{x}^{2}}-16x-80}=4k$ $\\Leftrightarrow \\sqrt{9{{x}^{2}}-16x-80}=3x-4k$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\ge \\frac{4k}{3} \\\\ & 9{{x}^{2}}-16x-80={{(3x-4k)}^{2}} \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x\\ge \\frac{4k}{3} \\\\ & x=\\frac{2{{k}^{2}}+10}{3k-2} \\\\ \\end{aligned} \\right.$.\nYêu cầu bài toán $\\Leftrightarrow \\left\\{ \\begin{aligned} & \\frac{2{{k}^{2}}+10}{3k-2}\\ge \\frac{4k}{3} \\\\ & x=\\frac{2{{k}^{2}}+10}{3k-2}\\ge 4 \\\\ & \\frac{2{{k}^{2}}+10}{3k-2}\\in \\mathbb{Z} \\\\ \\end{aligned} \\right.$.\nTa có: $\\left\\{ \\begin{aligned} & \\frac{2{{k}^{2}}+10}{3k-2}\\ge \\frac{4k}{3} \\\\ & x=\\frac{2{{k}^{2}}+10}{3k-2}\\ge 4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\frac{-6{{k}^{2}}+8k+30}{3k-2}\\ge 0 \\\\ & \\frac{2{{k}^{2}}-12k+18}{3k-2}\\ge 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\frac{2}{3}<k\\le 3$\nVì $k\\in \\mathbb{Z}\\Rightarrow k=1,2,3$.\n$k=1\\Rightarrow \\frac{2{{k}^{2}}+10}{3k-2}=12\\in \\mathbb{Z}$\n$k=2\\Rightarrow \\frac{2{{k}^{2}}+10}{3k-2}=\\frac{9}{2}\\notin \\mathbb{Z}$\n$k=3\\Rightarrow \\frac{2{{k}^{2}}+10}{3k-2}=4\\in \\mathbb{Z}$\nKết hợp điều kiện, ta có $x=4,x=12$ là những giá trị cần tìm.",
+   "ma": "de1.P2.C13",
+   "dac_trung": {
+    "so_dong_loi_giai": 11,
+    "so_dau_bang": 29,
+    "thuc_te": false,
+    "tham_so": false,
+    "muc_do_goi_y_theo_vi_tri": "TH"
+   }
   },
   {
    "section": 2,
@@ -386,10 +415,10 @@
    "n": 15,
    "type": "true_false_group",
    "tf": {
-    "a": "$\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,\\frac{x}{x+1}=\\frac{2}{3}$",
-    "b": "$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{2x-1}{x-1}=-\\infty $",
-    "c": "$\\underset{x\\to {{3}^{-}}}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-3x}{{{x}^{2}}-6x+9}=+\\infty $",
-    "d": "$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ \\left( {{x}^{3}}-1 \\right)\\left( \\sqrt{\\frac{x}{{{x}^{2}}-1}} \\right) \\right]=+\\infty $."
+    "a": "$\\underset{x\\to {{2}^{+}}}{\\lim}\\,\\frac{x}{x+1}=\\frac{2}{3}$",
+    "b": "$\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{2x-1}{x-1}=-\\infty $",
+    "c": "$\\underset{x\\to {{3}^{-}}}{\\lim}\\,\\frac{{{x}^{2}}-3x}{{{x}^{2}}-6x+9}=+\\infty $",
+    "d": "$\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ \\left( {{x}^{3}}-1 \\right)\\left( \\sqrt{\\frac{x}{{{x}^{2}}-1}} \\right) \\right]=+\\infty $."
    },
    "tf_ans": {
     "a": true,
@@ -400,7 +429,7 @@
    "answer": null,
    "flags": [],
    "question": "Tìm được các giới hạn một bên sau:",
-   "explanation": "a) ${\\lim _{x \\rightarrow 2^{+}} \\frac{x}{x+1}=\\frac{2}{2+1}=\\frac{2}{3}}$.\nb) $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{2x-1}{x-1}=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ (2x-1)\\cdot \\frac{1}{x-1} \\right]=+\\infty $ (do ${\\lim _{x \\rightarrow 1^{+}}(2 x-1)=1}$ và $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{1}{x-1}=+\\infty $).\nc) ${\\lim _{x \\rightarrow 3^{-}} \\frac{x^2-3 x}{x^2-6 x+9}=\\lim _{x \\rightarrow 3^{-}} \\frac{x(x-3)}{(x-3)^2}=\\lim _{x \\rightarrow 3^{-}} \\frac{x}{x-3}=\\lim _{x \\rightarrow 3^{-}}\\left(x \\frac{1}{x-3}\\right)=-\\infty}$,\ndo ${\\lim _{x \\rightarrow 3^{-}} x=3}$ và ${\\lim _{x \\rightarrow 3^{-}} \\frac{1}{x-3}=-\\infty}$.\nd)\n$\\text{ }\\begin{array}{llllll} \\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ \\left( {{x}^{3}}-1 \\right)\\left( \\sqrt{\\frac{x}{{{x}^{2}}-1}} \\right) \\right]=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ (x-1)\\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x}{(x-1)(x+1)}} \\right] \\\\ =\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ \\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x{{(x-1)}^{2}}}{(x-1)(x+1)}} \\right]=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left[ \\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x(x-1)}{x+1}} \\right]=3\\cdot \\sqrt{\\frac{0}{2}}=0. \\\\ \\end{array}$",
+   "explanation": "a) ${\\lim _{x \\rightarrow 2^{+}} \\frac{x}{x+1}=\\frac{2}{2+1}=\\frac{2}{3}}$.\nb) $\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{2x-1}{x-1}=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ (2x-1)\\cdot \\frac{1}{x-1} \\right]=+\\infty $ (do ${\\lim _{x \\rightarrow 1^{+}}(2 x-1)=1}$ và $\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{1}{x-1}=+\\infty $).\nc) ${\\lim _{x \\rightarrow 3^{-}} \\frac{x^2-3 x}{x^2-6 x+9}=\\lim _{x \\rightarrow 3^{-}} \\frac{x(x-3)}{(x-3)^2}=\\lim _{x \\rightarrow 3^{-}} \\frac{x}{x-3}=\\lim _{x \\rightarrow 3^{-}}\\left(x \\frac{1}{x-3}\\right)=-\\infty}$,\ndo ${\\lim _{x \\rightarrow 3^{-}} x=3}$ và ${\\lim _{x \\rightarrow 3^{-}} \\frac{1}{x-3}=-\\infty}$.\nd)\n$\\text{ }\\begin{array}{llllll} \\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ \\left( {{x}^{3}}-1 \\right)\\left( \\sqrt{\\frac{x}{{{x}^{2}}-1}} \\right) \\right]=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ (x-1)\\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x}{(x-1)(x+1)}} \\right] \\\\ =\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ \\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x{{(x-1)}^{2}}}{(x-1)(x+1)}} \\right]=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left[ \\left( {{x}^{2}}+x+1 \\right)\\sqrt{\\frac{x(x-1)}{x+1}} \\right]=3\\cdot \\sqrt{\\frac{0}{2}}=0. \\\\ \\end{array}$",
    "ma": "de1.P2.C15",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -506,7 +535,7 @@
    "question": "Cho hình chóp $S\\,ABCDEF$có đáy $ABCDEF$là lục giác đều tâm $O$.Có bao nhiêu mặt phẳng qua các điểm là đỉnh của hình chóp có chung giao tuyến là $SO$",
    "explanation": "Đáp án:$~\\mathbf{3}$\n[[IMG:image9.png]]\n$\\left( SAD \\right),\\left( SCF \\right),\\left( SBE \\right)$có chung giao tuyến $SO$.",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "3",
    "ma": "de1.P3.C19",
    "dac_trung": {
     "so_dong_loi_giai": 3,
@@ -515,6 +544,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C4.B4.D01",
    "dang_toan_web": "Hai mặt phẳng song song. Định lí Thales trong không gian."
@@ -528,7 +558,7 @@
    "answer": null,
    "flags": [],
    "question": "Tại một xưởng sản xuất bột đá thạch anh, giá bán (tính theo nghìn đồng) của ${x}$ (kg) bột đá thạch anh được tính theo công thức sau: $P(x)=\\left\\{ \\begin{array}{llllll} 4,5x & \\text{ khi }0<x\\le 400 \\\\ 4x+k & \\text{ khi }x>400 \\\\ \\end{array}\\text{ } \\right.$($k$ là một hằng số). Với giá trị nào của ${k}$ thì hàm số ${P(x)}$ liên tục trên ${(0 ;+\\infty)}$ ?",
-   "explanation": "Trả lời: 200\nĐể hàm số ${{P}({x})}$ liên tục trên ${(0 ;+\\infty)}$ thì hàm số phải liên tục tại ${x_0=400}$ hay ${\\lim _{x \\rightarrow 400} P(x)=P(400)}$\nTa có:\n$\\begin{aligned} & \\underset{x\\to {{400}^{-}}}{\\mathop{\\lim }}\\,P(x)=\\underset{x\\to {{400}^{-}}}{\\mathop{\\lim }}\\,4,5x=4,5.400=1800 \\\\ & \\underset{x\\to {{400}^{+}}}{\\mathop{\\lim }}\\,P(x)=\\underset{x\\to {{400}^{-}}}{\\mathop{\\lim }}\\,(4x+k)=4.400+k=1600+k \\\\ \\end{aligned}$\nĐể tồn tại ${\\lim _{x \\rightarrow 400} P(x)}$ thì ${1800=1600+{k}}$. Suy ra ${{k}=200}$",
+   "explanation": "Trả lời: 200\nĐể hàm số ${{P}({x})}$ liên tục trên ${(0 ;+\\infty)}$ thì hàm số phải liên tục tại ${x_0=400}$ hay ${\\lim _{x \\rightarrow 400} P(x)=P(400)}$\nTa có:\n$\\begin{aligned} & \\underset{x\\to {{400}^{-}}}{\\lim}\\,P(x)=\\underset{x\\to {{400}^{-}}}{\\lim}\\,4,5x=4,5.400=1800 \\\\ & \\underset{x\\to {{400}^{+}}}{\\lim}\\,P(x)=\\underset{x\\to {{400}^{-}}}{\\lim}\\,(4x+k)=4.400+k=1600+k \\\\ \\end{aligned}$\nĐể tồn tại ${\\lim _{x \\rightarrow 400} P(x)}$ thì ${1800=1600+{k}}$. Suy ra ${{k}=200}$",
    "short_value": 200,
    "short_correct": "200",
    "ma": "de1.P3.C20",
@@ -574,11 +604,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
-   "question": "Cho giới hạn $I=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}$. Tính giá trị của 100I",
-   "explanation": "Trả lời: - 600\n$I=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\left( \\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{x}.\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}} \\right)$\n$=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\left\\{ \\left( \\frac{\\sqrt{2x+1}-1}{x}+\\frac{1-\\sqrt[3]{{{x}^{2}}+1}}{x} \\right).\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}} \\right\\}$\nTa có:\n+) $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sqrt{2x+1}-1}{x}=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{2x}{\\left( \\sqrt{2x+1}+1 \\right).x}=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{2}{\\left( \\sqrt{2x+1}+1 \\right)}=1$\n+) $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{1-\\sqrt[3]{{{x}^{2}}+1}}{x}=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{-{{x}^{2}}}{\\left[ 1+\\sqrt[3]{{{x}^{2}}+1}+\\sqrt[3]{{{\\left( {{x}^{2}}+1 \\right)}^{2}}} \\right].x}$ $=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{-x}{\\left[ 1+\\sqrt[3]{{{x}^{2}}+1}+\\sqrt[3]{{{\\left( {{x}^{2}}+1 \\right)}^{2}}} \\right]}=0$.\n+) $\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{x\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{{{\\left( \\sqrt[3]{8-x} \\right)}^{3}}-{{\\left( \\sqrt[3]{8+x} \\right)}^{3}}}$\n$=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{x\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{-2x}$\n$=\\underset{x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{-2}=-6$.\nVậy $I=\\left( 1+0 \\right).\\left( -6 \\right)=-6\\Rightarrow 100I=-600$",
+   "flags": [],
+   "question": "Cho giới hạn $I=\\underset{x\\to 0}{\\lim}\\,\\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}$. Tính giá trị của 100I",
+   "explanation": "Trả lời: - 600\n$I=\\underset{x\\to 0}{\\lim}\\,\\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}=\\underset{x\\to 0}{\\lim}\\,\\left( \\frac{\\sqrt{2x+1}-\\sqrt[3]{{{x}^{2}}+1}}{x}.\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}} \\right)$\n$=\\underset{x\\to 0}{\\lim}\\,\\left\\{ \\left( \\frac{\\sqrt{2x+1}-1}{x}+\\frac{1-\\sqrt[3]{{{x}^{2}}+1}}{x} \\right).\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}} \\right\\}$\nTa có:\n+) $\\underset{x\\to 0}{\\lim}\\,\\frac{\\sqrt{2x+1}-1}{x}=\\underset{x\\to 0}{\\lim}\\,\\frac{2x}{\\left( \\sqrt{2x+1}+1 \\right).x}=\\underset{x\\to 0}{\\lim}\\,\\frac{2}{\\left( \\sqrt{2x+1}+1 \\right)}=1$\n+) $\\underset{x\\to 0}{\\lim}\\,\\frac{1-\\sqrt[3]{{{x}^{2}}+1}}{x}=\\underset{x\\to 0}{\\lim}\\,\\frac{-{{x}^{2}}}{\\left[ 1+\\sqrt[3]{{{x}^{2}}+1}+\\sqrt[3]{{{\\left( {{x}^{2}}+1 \\right)}^{2}}} \\right].x}$ $=\\underset{x\\to 0}{\\lim}\\,\\frac{-x}{\\left[ 1+\\sqrt[3]{{{x}^{2}}+1}+\\sqrt[3]{{{\\left( {{x}^{2}}+1 \\right)}^{2}}} \\right]}=0$.\n+) $\\underset{x\\to 0}{\\lim}\\,\\frac{x}{\\sqrt[3]{8-x}-\\sqrt[3]{8+x}}=\\underset{x\\to 0}{\\lim}\\,\\frac{x\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{{{\\left( \\sqrt[3]{8-x} \\right)}^{3}}-{{\\left( \\sqrt[3]{8+x} \\right)}^{3}}}$\n$=\\underset{x\\to 0}{\\lim}\\,\\frac{x\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{-2x}$\n$=\\underset{x\\to 0}{\\lim}\\,\\frac{\\left[ {{\\left( \\sqrt[3]{8-x} \\right)}^{2}}+\\sqrt[3]{8-x}.\\sqrt[3]{8+x}+{{\\left( \\sqrt[3]{8+x} \\right)}^{2}} \\right]}{-2}=-6$.\nVậy $I=\\left( 1+0 \\right).\\left( -6 \\right)=-6\\Rightarrow 100I=-600$",
    "short_value": -600,
    "short_correct": "-600",
    "ma": "de1.P3.C22",
@@ -589,12 +617,11 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
   }
  ],
- "flags": [
-  "phan_2_co_3_cau_nhung_de_ghi_4"
- ]
+ "flags": []
 }

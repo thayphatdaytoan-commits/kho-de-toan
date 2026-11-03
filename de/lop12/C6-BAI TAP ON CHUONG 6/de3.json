@@ -394,9 +394,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một lô hàng mới sản xuất có $90$ sản phẩm, trong đó có $50$ sản phẩm loại A và $40$ sản phẩm loại B; các sản phẩm có kích thước và khối lượng như nhau. Sau khi kiểm tra, người ta thấy: sản phẩm loại A có $10\\,\\%$ sản phẩm là phế phẩm và sản phẩm loại B có $5\\,\\%$ sản phẩm là phế phẩm; còn lại là các sản phẩm đạt chuẩn.",
    "explanation": "a) Đ b) s c) s d) s\na) Sản phẩm loại A có số phế phẩm là $10\\,\\%\\,.\\,50=5$.\nb) Sản phẩm loại B có số sản phẩm đạt chuẩn chiếm $100\\,\\%-5\\,\\%=95\\,\\%$ và là $95\\,\\%\\,.\\,40=38$ sản phẩm.\nc) Gọi $A$ là biến cố “sản phẩm lấy ra là sản phẩm loại A” thì $\\overline{A}$ là biến cố “sản phẩm lấy ra là sản phẩm loại B”.\nGọi $S$ là biến cố “sản phẩm lấy ra là phế phẩm” thì $\\overline{S}$ là biến cố “sản phẩm lấy ra là sản phẩm đạt chuẩn”.\nKhi đó $P\\left( A \\right)\\,=\\frac{50}{90}=\\frac{5}{9}$ và $P\\left( \\overline{A} \\right)\\,=\\frac{40}{90}=\\frac{4}{9}$.\n$P\\left( S|A \\right)=10\\%=\\frac{1}{10}$ và $P\\left( S|\\overline{A} \\right)=5\\%=\\frac{1}{20}$.\nTa có: Xác suất để sản phẩm lấy ra là phế phẩm là :\n$P\\left( S \\right)=P\\left( A \\right)\\,.\\,P\\left( S|A \\right)+P\\left( \\overline{A} \\right)\\,.\\,P\\left( S|\\overline{A} \\right)=\\frac{5}{9}\\,\\cdot \\,\\frac{1}{10}+\\frac{4}{9}\\,\\cdot \\,\\frac{1}{20}=\\frac{7}{90}$.\nd) Xác suất để sản phẩm lấy ra là sản phẩm đạt chuẩn bằng $P\\left( \\overline{S} \\right)=1-P\\left( S \\right)=1-\\frac{7}{90}=\\frac{83}{90}$.",
    "ma": "de3.P2.C3",
@@ -407,6 +405,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -428,9 +427,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một lớp học có $50$ học sinh, trong đó có $30$ học sinh nam. Biết tỷ lệ học sinh biết bơi trong số học sinh nam là $60 \\%$ và tỷ lệ học sinh biết bơi trong số học sinh nữ là $50\\%$. Chọn ngẫu nhiên một học sinh.",
    "explanation": "a) Đ b) Đ c) s d) Đúng\nGọi $A$ là biến cố “học sinh được chọn là học sinh nam\" thì $A$ là biến cố “học sinh được chọn là học sinh nữ\";\n$B$ là biến cố: \"Học sinh được chọn là học sinh biết bơi\" thì $B$ là biến cố: \"Học sinh được chọn là học sinh không biết bơi\".\nTheo giả thiết ta có:\n$P\\left( A \\right)=\\frac{30}{50}=\\frac{3}{5}$ và $P\\left( \\overline{A} \\right)=\\frac{50-30}{50}=\\frac{2}{5}$.\n$P\\left( B\\mid A \\right)=60\\%=\\frac{3}{5}$ và $P\\left( B\\mid \\overline{A} \\right)=50\\%=\\frac{1}{2}$.\na) Xác suất học sinh được chọn là nam bằng $P\\left( A \\right)=\\frac{3}{5}$.\nb) Xác suất học sinh được chọn là học sinh biết bơi, biết học sinh này là nam bằng $P\\left( B\\mid A \\right)=\\frac{3}{5}$.\nc) Xác suất học sinh được chọn là học sinh biết bơi là\n$P\\left( B \\right)=P\\left( B\\mid A \\right)P\\left( A \\right)+P\\left( B\\mid \\bar{A} \\right)P\\left( {\\bar{A}} \\right)=\\frac{3}{5}\\,\\cdot \\,\\frac{3}{5}+\\frac{1}{2}\\cdot \\,\\frac{2}{5}=\\frac{14}{25}$;\nHọc sinh được chọn là học sinh biết bơi thì xác suất học sinh đó là học sinh nam bằng\n$P\\left( A\\mid B \\right)=\\frac{P\\left( B\\mid A \\right)P\\left( A \\right)}{P\\left( B \\right)}=\\frac{\\frac{3}{5}\\,\\cdot \\,\\frac{3}{5}}{\\frac{14}{25}}=\\frac{9}{14}$.\nd) Vì $P\\left( B\\mid A \\right)=\\frac{3}{5}$ nên $P\\left( \\overline{B}\\mid A \\right)=1-P\\left( B\\mid A \\right)=1-\\frac{3}{5}=\\frac{2}{5}$.\nMặt khác, $P\\left( B \\right)=\\frac{14}{25}$ nên $P\\left( \\overline{B} \\right)=\\frac{11}{25}$.\nDo đó, theo công thức Bayes, xác suất để học sinh được chọn là nam khi biết học sinh đó không biết bơi là\n$P\\left( A\\mid \\bar{B} \\right)=\\frac{P\\left( \\bar{B}\\mid A \\right)P\\left( A \\right)}{P\\left( {\\bar{B}} \\right)}=\\frac{\\frac{2}{5}\\,\\cdot \\,\\frac{3}{5}}{\\frac{11}{25}}=\\frac{6}{11}$.",
    "ma": "de3.P2.C4",
@@ -441,6 +438,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

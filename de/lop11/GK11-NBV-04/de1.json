@@ -420,7 +420,8 @@
    "tf": {
     "a": "Dãy số đã cho là không phải cấp số cộng.",
     "b": "Tổng tất cả số hạng của dãy số bằng $56$",
-    "c": "Nếu dãy số đã cho là một cấp số cộng thì công sai của cấp số cộng là $d=2$"
+    "c": "Nếu dãy số đã cho là một cấp số cộng thì công sai của cấp số cộng là $d=2$",
+    "d": "Công sai của cấp số cộng là $d=3$."
    },
    "tf_ans": {
     "a": false,
@@ -429,10 +430,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_y:abc",
-    "import_web: Câu 15: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho dãy số hữu hạn gồm các số hạng: ${-1 ; 2 ; 5 ; 8 ; 11 ; 14 ; 17}$. Khi đó:",
    "explanation": "a) Đặt: ${u_1=-1 ; u_2=2 ; u_3=5 ; u_4=8 ; u_5=11 ; u_6=14 ; u_7=17}$.\nTa có: ${u_2-u_1=u_3-u_2=u_4-u_3=u_5-u_4=u_6-u_5=u_7-u_6=3}$.\nVậy dãy số hưu hạn đã cho là một cấp số cộng.\nd) Công sai cấp số cộng là ${d=3}$.\nVới ${u_1=-1, n=7, d=3}$ thì ${S_n=\\frac{n\\left[2 u_1+(n-1) d\\right]}{2}=\\frac{7[2(-1)+6.3]}{2}=56}$.",
    "ma": "de1.P2.C3",
@@ -443,6 +441,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D02",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."

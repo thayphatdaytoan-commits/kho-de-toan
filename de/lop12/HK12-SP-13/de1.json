@@ -96,6 +96,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L12.C1.B3.D01",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -126,6 +127,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L12.C1.B4.D01",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -193,9 +195,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Bảng sau thống kê khối lượng một số quả măng cụt được lựa chọn ngẫu nhiên trong một thùng hàng.\n| Khối lượng (gam) | $\\left[ 80\\,;\\,82 \\right)$ | $\\left[ 82\\,;\\,84 \\right)$ | $\\left[ 84\\,;\\,86 \\right)$ | $\\left[ 86\\,;\\,88 \\right)$ | $\\left[ 88\\,;\\,90 \\right)$ |\n|---|---|---|---|---|---|\n| Số quả | $17$ | $20$ | $25$ | $16$ | $12$ |\nKhoảng biến thiên của mẫu số liệu ghép nhóm trên là:",
    "explanation": "Chọn A\nKhoảng biến thiên của mẫu số liệu ghép nhóm trên là $90-80=10$gam.",
    "options": [
@@ -212,6 +212,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -298,6 +299,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D04",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -400,11 +402,14 @@
     "c": "[TH] Hàm số có ${{y}_{CD}}+3{{y}_{CT}}=-1$.",
     "d": "[VD] Điểm $A\\left( 0;4 \\right)$ thuộc đường thẳng đi qua hai điểm cực trị của đồ thị hàm số."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y={{x}^{3}}-6{{x}^{2}}+9x-1$. Xét tính đúng – sai của các mệnh đề sau:\n[[IMG:image13.png]]",
    "explanation": "Tập xác định $D=\\mathbb{R}$\n${y}'=3{{x}^{2}}-12x+9$\n${y}'=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=3 \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image13.png]]\n$\\Rightarrow $a đúng.\nHàm số nghịch biến trên khoảng $\\left( 1;\\,3 \\right)$ $\\Rightarrow $ nghịch biến trên $\\left( 1;\\,2 \\right)$nên b đúng.\nHàm số đạt cực đại tại$x=1$ và đạt cực tiểu tại $x=3$ $\\Rightarrow $ sai.\n${{y}_{CD}}+3{{y}_{CT}}=3-3.1=0$ $\\Rightarrow $c sai .\nPhương trình đi qua hai điểm cực trị là $\\frac{x-1}{2}=\\frac{y-3}{-4}\\Leftrightarrow -4x+4=2y-6\\Leftrightarrow 4x+2y-10=0\\Leftrightarrow 2x+y-5=0$. Nên điểm $A\\left( 0;4 \\right)$ không thuộc đường thẳng qua hai điểm cực trị $\\to $d sai",
    "ma": "de1.P2.C14",
@@ -415,6 +420,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D07",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -436,10 +442,7 @@
     "c": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Trong một căn phòng dạng hình hộp chữ nhật với chiều dài ${10}$ ${m}$ và cao ${4 m}$, giả sử người ta muốn treo 3 cái đèn chao ${A, B, C }$thẳng hàng tại 3 điểm treo ${M, N, P }$trên thanh đỡ $d$ song song và cách bức tường phía sau 2 ${m}$ (bức tường có 2 cửa đi trong hình). Chọn hệ trục tọa độ như hình vẽ sau (đơn vị: mét). Biết độ dài dây điện treo của đèn chao $A,\\,C$ lần lượt là $MA=0,7$ ${m}$ và $PC=0,5$ ${m}$. Khoảng cách giữa các điểm treo là: $MN=1,5$ ${m}$; $NP=1$ ${m}$ và điểm treo ${M}$ cách tường có cửa sổ $\\left( Oxz \\right)$ 4 ${m}$.\n[[IMG:image14.png]]\n(làm tròn đến hàng đơn vị).",
    "explanation": "Đúng\nĐiểm treo $M$ trên thanh đỡ $d$ song song và cách bức tường phía sau 2 m nên $d\\left( A\\,;\\,\\left( Oyz \\right) \\right)\\,=2$ và ${{x}_{A}}>0$ . Do đó hoành độ của điểm $A$ bằng $2$.\nĐúng\nĐiểm treo $M$ cách tường có cửa sổ $\\left( Oxz \\right)$ $4\\,m$ nên điểm treo $A$ cũng cách tường có cửa sổ $\\left( Oxz \\right)$\n$4\\,m$. Suy ra tung độ của điểm $A$ bằng $4$.\nCăn phòng cao $4\\,m$ và $MA=0,7\\,m$ nên cao độ của điểm $A$ bằng $4-0,7=3,3$.\nVậy tọa độ của đèn chao $A$ là $\\left( 2;\\,4;\\,\\frac{33}{10} \\right)$.\nĐúng\nTa có ${{x}_{C}}={{x}_{A}}=2$.\n${{y}_{C}}={{y}_{A}}+MN+NP$ $=4+1,5+1=6,5=\\frac{13}{2}$\n${{z}_{C}}=4-PC=4-0,5=3,5=\\frac{7}{2}$.\nVậy tọa độ đèn chao $C$ là $\\left( 2;\\frac{13}{2};\\frac{7}{2} \\right)$.\nSai\nTa có $\\frac{NP}{NM}=\\frac{BC}{BA}=\\frac{1}{1,5}=\\frac{2}{3}$.\nMà $A\\,,\\,B,\\,C$ thẳng hàng và $B$ nằm giữa $A$ và $C$ nên suy ra $3\\overrightarrow{BC}=-2\\overrightarrow{BA}$.\nTừ đó ta có\n$\\left\\{ \\begin{aligned} & 3\\left( 2-{{x}_{B}} \\right)=-2\\left( 2-{{x}_{B}} \\right) \\\\ & 3\\left( \\frac{13}{2}-{{y}_{B}} \\right)=-2\\left( 4-{{y}_{B}} \\right) \\\\ & 3\\left( \\frac{7}{2}-{{z}_{B}} \\right)=-2\\left( \\frac{33}{10}-{{z}_{B}} \\right) \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{B}}=2 \\\\ & {{y}_{B}}=\\frac{11}{2} \\\\ & {{z}_{B}}=\\frac{171}{50} \\\\ \\end{aligned} \\right.$\nSuy ra tọa độ của đèn chao $B$ là $\\left( 2\\,;\\,\\frac{11}{2};\\,\\frac{171}{50} \\right)$.\nTa có $OA=\\sqrt{{{2}^{2}}+{{4}^{2}}+{{\\left( \\frac{33}{10} \\right)}^{2}}}=\\sqrt{\\frac{3089}{100}}$;\n$OB=\\sqrt{{{2}^{2}}+{{\\left( \\frac{11}{2} \\right)}^{2}}+{{\\left( \\frac{171}{50} \\right)}^{2}}}=\\sqrt{45.9464}$;\n$OC=\\sqrt{{{2}^{2}}+{{\\left( \\frac{13}{2} \\right)}^{2}}+{{\\left( \\frac{7}{2} \\right)}^{2}}}=\\sqrt{\\frac{117}{2}}$.\nTổng khoảng cách giữa 3 đèn chao đến gốc tọa độ $O$ là $T=OA+OB+OC\\approx 19,98478395$.\nDo vậy khi làm tròn đến hàng đơn vị thì $T\\approx \\,20$.",
    "ma": "de1.P2.C15",
@@ -450,6 +453,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D08",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -466,13 +470,12 @@
    },
    "tf_ans": {
     "a": true,
+    "b": true,
     "c": false,
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:acd"
-   ],
+   "flags": [],
    "question": "Thống kê điểm kiểm tra giữa HKI môn Toán của lớp 12A trường THPT X người ta thu được kết quả sau:\n| Điểm thi | $\\left[ 2;3 \\right)$ | $\\left[ 3;4 \\right)$ | $\\left[ 4;5 \\right)$ | $\\left[ 5;6 \\right)$ | $\\left[ 6;7 \\right)$ | $\\left[ 7;8 \\right)$ | $\\left[ 8;9 \\right)$ | $\\left[ 9;10 \\right]$ |\n|---|---|---|---|---|---|---|---|---|\n| Số học sinh | 2 | 7 | 8 | 3 | 10 | 5 | 3 | 2 |",
    "explanation": "a)Tổng số học sinh của lớp 12A là $2+7+8+3+10+5+3+2=40$ (học sinh).\nb) Số điểm trung bình môn Toán trong kỳ kiểm tra giữa HKI của lớp 12A là:\n$\\begin{aligned} & \\overline{x}=\\frac{2.2,5+7.3,5+8.4,5+3.5,5+10.6,5+5.7,5+3.8,5+2.9,5}{40} \\\\ & =\\frac{229}{40}=5,725 \\\\ \\end{aligned}$\nc) Nhóm chứa mốt của mẫu số liệu là $\\left[ 6;7 \\right)$\nMốt của mẫu số liệu là :\n${{M}_{0}}=6+\\frac{10-3}{(10-3)+(10-5)}.(7-6)=6+\\frac{7}{12}=\\frac{79}{12}\\approx 6,58$\nd) Phương sai của mẫu số liệu ghép nhóm điểm thi giữa HKI môn Toán của lớp 12A là :$\\begin{aligned} & s_{1}^{2}=\\frac{2.{{\\left( \\overline{x}-2,5 \\right)}^{2}}+7.{{\\left( \\overline{x}-3,5 \\right)}^{2}}+8.{{\\left( \\overline{x}-4,5 \\right)}^{2}}+3.{{\\left( \\overline{x}-5,5 \\right)}^{2}}+10.{{\\left( \\overline{x}-6,5 \\right)}^{2}}+5.{{\\left( \\overline{x}-7,5 \\right)}^{2}}+3.{{\\left( \\overline{x}-8,5 \\right)}^{2}}+2.{{\\left( \\overline{x}-9,5 \\right)}^{2}}}{40} \\\\ & =\\frac{5639}{1600}\\approx 3,52<5,32 \\\\ \\end{aligned}$\nVậy sự biến động điểm số của lớp 12B nhiều hơn so với lớp 12B. Do đó lớp 12A học đều hơn so với lớp 12B",
    "ma": "de1.P2.C16",
@@ -483,6 +486,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -494,9 +498,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$, cho ba điểm $A\\left( 1;2;0 \\right),B\\left( -2;1;2 \\right),C\\left( 4;6;-5 \\right)$. Điểm $M\\in \\left( Oyz \\right)$ sao cho biểu thức $T=M{{A}^{2}}+M{{B}^{2}}+M{{C}^{2}}$đạt giá trị nhỏ nhất. Biết $M\\left( a;b;c \\right)$, tính giá trị $a+b+c=?$",
    "explanation": "Trả lời: $2$\nGọi $G$là trọng tâm $\\Delta ABC$, suy ra $G\\left( 1;3;-1 \\right)$\n$\\begin{aligned} & T=M{{A}^{2}}+M{{B}^{2}}+M{{C}^{2}}={{\\overrightarrow{MA}}^{2}}+{{\\overrightarrow{MB}}^{2}}+{{\\overrightarrow{MC}}^{2}} \\\\ & \\text{ }={{\\left( \\overrightarrow{MG}+\\overrightarrow{GA} \\right)}^{2}}+{{\\left( \\overrightarrow{MG}+\\overrightarrow{GB} \\right)}^{2}}+{{\\left( \\overrightarrow{MG}+\\overrightarrow{GC} \\right)}^{2}} \\\\ & \\text{ }=3{{\\overrightarrow{MG}}^{2}}+2\\overrightarrow{MG}\\left( \\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC} \\right)+\\left( {{\\overrightarrow{GA}}^{2}}+{{\\overrightarrow{GB}}^{2}}+{{\\overrightarrow{GC}}^{2}} \\right) \\\\ & \\text{ }=3M{{G}^{2}}+\\left( G{{A}^{2}}+G{{B}^{2}}+G{{C}^{2}} \\right) \\\\ \\end{aligned}$\n$M\\in \\left( Oyz \\right)$ nên $M\\left( 0;b;c \\right)$\n${{T}_{\\min }}\\Leftrightarrow M{{G}_{\\min }}$hay $M$là hình chiếu của $G$lên $\\left( Oyz \\right)$. Suy ra $M\\left( 0;3;-1 \\right)$. Vậy $a+b+c=2$",
    "short_value": 2,
@@ -509,6 +511,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D08",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."

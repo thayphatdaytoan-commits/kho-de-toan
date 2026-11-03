@@ -213,7 +213,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [],
+   "flags": [
+    "import_web: đáp án web đọc A khác C"
+   ],
    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho ba vecto $\\vec{a}\\left( 1;2;3 \\right);\\vec{b}\\left( 2;2;-1 \\right);\\vec{c}\\left( 4;0;-4 \\right)$. Tọa độ của vecto $\\vec{d}=\\vec{a}-\\vec{b}+2\\vec{c}$ là",
    "explanation": "Chọn A\nTa có: $\\vec{d}=\\vec{a}-\\vec{b}+2\\vec{c}=\\left( 1-2+2.4;2-2+2.0;3+1+2.(-4) \\right)=\\left( 7;0;-4 \\right)$.",
    "options": [
@@ -229,7 +231,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "grokbot"
   },
   {
    "section": 1,
@@ -242,7 +245,7 @@
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{x - 1}{x + 1}$ trên đoạn $\\left[0;3\\right]$ là:",
-   "explanation": "Chọn C\nHàm số đã cho liên tục trên [0;3]\nTa có $y' = \\frac{2}{(x+1)^2} > 0$ với $\\forall x\\in[0;3]$ . Ta có $y(0)=1;\\,y(3)=\\dfrac{1}{2}$ . Do đó $\\lim_{x\\to 0}y=x\\text{ \\text{hoặc} }0=1$",
+   "explanation": "Hàm số liên tục trên $[0;3]$ và $y'=\\frac{2}{(x+1)^{2}}>0$ với mọi $x\\in[0;3]$ nên hàm số đồng biến trên $[0;3]$. Ta có $y(0)=-1$, $y(3)=\\frac{1}{2}$. Do đó $\\min_{[0;3]}y=-1$. Chọn C.",
    "options": [
     "$\\min_{[0;\\,3]} y = -3.$",
     "$\\min_{[0;\\ 3]} y = \\frac{1}{2}.$",
@@ -256,7 +259,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 1,
@@ -266,6 +270,7 @@
    "tf_ans": {},
    "answer": "C",
    "flags": [
+    "import_web: đáp án web đọc A khác C",
     "trung_web:jxywpFKe1rGVRw4nel54"
    ],
    "question": "Trong không gian Oxyz, cho $\\overrightarrow{a}\\left( -2;2;0 \\right),\\overrightarrow{b}\\left( 2;2;0 \\right),\\overrightarrow{c}\\left( 2;2;2 \\right)$. Giá trị của $\\left| \\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c} \\right|$ bằng",
@@ -283,7 +288,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "grokbot"
   },
   {
    "section": 1,
@@ -296,7 +302,7 @@
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Trong số các hình chữ nhật có cùng chu vi 16 cm, hình chữ nhật có diện tích lớn nhất bằng:",
-   "explanation": "Chọn C\nGọi cạnh của hình chữ nhật: a, b; 0 < a, b < 8.\nTa có: $\\overrightarrow{OK}=\\overrightarrow{OI}+\\overrightarrow{OM}$\nDiện tích: $\\left( \\frac{1}{2} \\right)^{2} = \\frac{1}{4} \\text{ \\text{và} } \\left( \\frac{1}{2} \\right)^{2} = \\frac{1}{4}$ ; $SO=2a+8$ ; $SOQ = 4$\nBảng biến thiên:\n $a$ 0 48 $S'(a)$  $\\pm$ 0 $-$  $S(a)$ 0160",
+   "explanation": "Gọi hai cạnh của hình chữ nhật là $a$ và $b$ (cm), $0<a,b<8$. Chu vi bằng 16 nên $a+b=8$, tức $b=8-a$. Diện tích $S=a(8-a)=-a^{2}+8a=16-(a-4)^{2}\\le 16$, dấu bằng khi $a=4$. Vậy diện tích lớn nhất bằng $16$ cm2. Chọn C.",
    "options": [
     "64 cm2",
     "4 cm2",
@@ -310,7 +316,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 1,
@@ -351,14 +358,15 @@
     "a": false,
     "b": true,
     "c": false,
-    "d": false
+    "d": true
    },
    "answer": null,
    "flags": [
+    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Cho hình lăng trụ tam giác đều $ABC.{A}'{B}'{C}'$ có tất cả các cạnh bằng $a$. $G$là trọng tâm tam giác $ABC$.",
-   "explanation": "a) Mệnh đề sai.\nb) $\\overrightarrow{C{C}'}+\\overrightarrow{AB}=\\overrightarrow{A{A}'}+\\overrightarrow{AB}=\\overrightarrow{A{B}'}$. Mệnh đề đúng.\nc) Ta có $\\overrightarrow{{A}'G}=\\overrightarrow{{A}'A}+\\overrightarrow{AG}$, $\\overrightarrow{{A}'G}=\\overrightarrow{{A}'B}+\\overrightarrow{BG}$, $\\overrightarrow{{A}'G}=\\overrightarrow{{A}'C}+\\overrightarrow{CG}$.\nTừ đó suy ra $3\\overrightarrow{{A}'G}=\\overrightarrow{{A}'A}+\\overrightarrow{{A}'B}+\\overrightarrow{{A}'C}+\\overrightarrow{AG}+\\overrightarrow{BG}+\\overrightarrow{CG}$. Vì $G$là trọng tâm tam giác $ABC$nên $\\overrightarrow{AG}+\\overrightarrow{BG}+\\overrightarrow{CG}=\\overrightarrow{0}$ do đó $3\\overrightarrow{{A}'G}=\\overrightarrow{{A}'A}+\\overrightarrow{{A}'B}+\\overrightarrow{{A}'C}$. Mệnh đề sai.\nd) $\\overrightarrow{{A}'A}+\\overrightarrow{{A}'B}+\\overrightarrow{{A}'C}=3\\overrightarrow{{A}'G}$ nên $\\left| \\overrightarrow{{A}'A}+\\overrightarrow{{A}'B}+\\overrightarrow{{A}'C} \\right|=3\\left| \\overrightarrow{AG} \\right|$. Xét tam giác vuông ${A}'AG$ ta có ${A}'{{G}^{2}}={A}'{{A}^{2}}+A{{G}^{2}}={{a}^{2}}+{{\\left( \\frac{a\\sqrt{3}}{3} \\right)}^{2}}=\\frac{2\\,a\\sqrt{3}}{3}$. Mệnh đề đúng.\n[[IMG:image27.png]]",
+   "explanation": "a) Sai. Trong tam giác đều $ABC$, hai vectơ $\\overrightarrow{AB}$ và $\\overrightarrow{AC}$ khác hướng nên không bằng nhau. b) Đúng. $\\overrightarrow{CC'}=\\overrightarrow{AA'}$ nên $\\overrightarrow{CC'}+\\overrightarrow{AB}=\\overrightarrow{AA'}+\\overrightarrow{AB}=\\overrightarrow{AB'}$. c) Sai. Ta có $\\overrightarrow{A'G}=\\overrightarrow{A'A}+\\overrightarrow{AG}$, $\\overrightarrow{A'G}=\\overrightarrow{A'B}+\\overrightarrow{BG}$, $\\overrightarrow{A'G}=\\overrightarrow{A'C}+\\overrightarrow{CG}$; cộng lại và dùng $\\overrightarrow{AG}+\\overrightarrow{BG}+\\overrightarrow{CG}=\\overrightarrow{0}$ (G là trọng tâm tam giác $ABC$) được $3\\overrightarrow{A'G}=\\overrightarrow{A'A}+\\overrightarrow{A'B}+\\overrightarrow{A'C}$, nên $\\overrightarrow{A'G}$ khác tổng đó. d) Sai. Từ câu c, $|\\overrightarrow{A'A}+\\overrightarrow{A'B}+\\overrightarrow{A'C}|=3|A'G|$. Tam giác $A'AG$ vuông tại $A$ (do $A'A$ vuông góc với mặt phẳng $(ABC)$) nên $A'G^{2}=A'A^{2}+AG^{2}=a^{2}+\\left(\\frac{a\\sqrt{3}}{3}\\right)^{2}=\\frac{4a^{2}}{3}$, suy ra $|A'G|=\\frac{2a}{\\sqrt{3}}$ và tổng cần tính bằng $2a\\sqrt{3}$, khác $\\frac{2a\\sqrt{3}}{3}$.",
    "ma": "de1.P2.C13",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -367,7 +375,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B1.D02",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -434,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D07",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -455,9 +464,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Độ cao (mét) của một viên đạn được bắn lên trời từ một vị trí cách mặt đất 20m theo phương thẳng đứng với vận tốc ban đầu $294m/s$ (bỏ qua sức cản của không khí) là $ $ $h(t)=20+294t-4,9{{t}^{2}}$. Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Theo bài ra ta có vận tốc ban đầu của viên đạn là $294m/s$, suy ra mệnh đề đúng.\nb) Vận tốc của viên đạn là $v={{h}^{'}}(t)=294-9,8t(m/s)$.\nDo đó vận tốc của viên đạn sau $2$ giây là $v(2)=294-9,8.2=274,4(m/s)$, suy ra mệnh đề sai.\nc) Vì $h(t)=20+294t-4,9{{t}^{2}}$ là hàm số bậc hai có hệ số $a=-4,9<0$ nên $h(t)$ đạt giá trị lớn nhất tại $t=-\\frac{b}{2a}=\\frac{294}{2.4,9}=30$(giây), suy ra mệnh đề sai.\nd) Vì $h(t)=20+294t-4,9{{t}^{2}}$ là hàm số bậc hai có hệ số $a=-4,9<0$ nên $h(t)$ đạt giá trị lớn nhất tại $t=-\\frac{b}{2a}=\\frac{294}{2.4,9}=30$(giây)\nKhi đó độ cao lớn nhất của viên đạn là $h(t)=20+294.30-4,{{9.30}^{2}}=4430(m)$\nsuy ra mệnh đề đúng.",
    "ma": "de1.P2.C16",
@@ -468,6 +475,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D02",
    "dang_toan_web": "Các dạng toán khác"
@@ -503,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một công ty sản xuất đồ gia dụng ước tính chi phí để sản xuất $x$ (sản phẩm) là $C(x)=2x+50$ (triệu đồng). Khi đó $f(x)=\\frac{C(x)}{x}$ là chi phi sản xuất trung bình cho mỗi sản phẩm. Chứng tỏ rằng hàm số $f(x)$ giảm và $\\underset{x\\to +\\infty }{\\lim}\\,f(x)=2$. Tính chất này nói lên điều gì?",
    "explanation": "Có $f(x)=\\frac{C(x)}{x}=\\frac{2x+50}{x}=2+\\frac{50}{x}$. Có ${f}'(x)=-\\frac{50}{{{x}^{2}}}<0$. Do đó hàm số $f(x)$ giảm.\nCó $\\underset{x\\to +\\infty }{\\lim}\\,f(x)=\\underset{x\\to +\\infty }{\\lim}\\,\\left( 2+\\frac{50}{x} \\right)=2$.\nTính chất này nói lên rằng chi phí sản xuất trung bình cho mỗi sản phẩm sẽ giảm khi số lượng sản phẩm được sản xuất tăng lên và giới hạn của chi phí trung bình là 2 triệu đồng khi số lượng sản phẩm tiến gần đến vô cùng. Điều này có thể hiểu là khi sản xuất nhiều sản phẩm hơn, chi phí trung bình cho mỗi sản phẩm sẽ giảm và tiến gần đến một giá trị ổn định.",
    "short_value": 2,
@@ -517,7 +523,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -592,13 +599,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_dang_anh_chua_OCR"
-   ],
+   "flags": [],
    "question": "Cho một tấm nhôm hình lục giác đều cạnh $90\\left( cm \\right)$. Người ta cắt ở mỗi đỉnh của tấm nhôm hai hình tam giác vuông bằng nhau, biết cạnh góc vuông nhỏ bằng $x\\left( cm \\right)$ (cắt phần tô đậm của tấm nhôm) rồi gập tấm nhôm như hình vẽ để được một hình lăng trụ lục giác đều không có nắp. Tìm x để thể tích của khối lăng trụ lục giác đều trên là lớn nhất.\n[[IMG:image33.emf]][[EQIMG:image34.wmf]]",
    "explanation": "Đáp số: $0,75$.\n[[IMG:image35.emf]]\nĐiều kiện $0<x<45$\nCạnh đáy của lăng trụ lục giác đều:$AB=HK=90-2x$\nChiều cao của lăng trụ lục giác đều: $HA=MH.\\tan {{60}^{0}}=x\\sqrt{3}$\nDiện tích đáy của lăng trụ lục giác đều: ${{S}_{ABCDEF}}=6{{S}_{ABO}}=6.\\frac{\\sqrt{3}}{4}{{\\left( 90-2x \\right)}^{2}}$\nThể tích của khối lăng trụ lục giác đều: $V\\left( x \\right)=HA.{{S}_{ABCDEF}}=\\frac{9}{2}x{{\\left( 90-2x \\right)}^{2}}$\nHay $V\\left( x \\right)=18{{x}^{3}}-1620{{x}^{2}}+36450x$\nXét hàm số $V\\left( x \\right)=18{{x}^{3}}-1620{{x}^{2}}+36450x$ trên khoảng $\\left( 0;\\,45 \\right)$.\n$V'\\left( x \\right)=54{{x}^{2}}-3240x+36450$\n$V'\\left( x \\right)=0\\Leftrightarrow 54{{x}^{2}}-3240x+36450=0\\Leftrightarrow x=15$ hoặc $x=45$ (loại).\nBảng biến thiên:\n[[IMG:image36.png#0.1208,0.4350,0.4903,0.3301]]\nTừ bảng biến thiên ta có: $\\underset{\\left( 0;\\,45 \\right)}{\\mathop{max}}\\,V\\left( x \\right)=243000\\left( c{{m}^{3}} \\right)$ khi và chỉ khi $x=15cm$\nVậy thể tích của khối lăng trụ lục giác đều lớn nhất khi và chỉ khi $x=15cm$\n---------------- Hết ----------------",
    "short_value": 0.75,
-   "short_correct": "0,75",
+   "short_correct": "15",
    "ma": "de1.P3.C22",
    "dac_trung": {
     "so_dong_loi_giai": 16,
@@ -607,6 +612,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D05",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."

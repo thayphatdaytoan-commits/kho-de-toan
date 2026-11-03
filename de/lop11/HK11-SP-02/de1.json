@@ -217,8 +217,8 @@
    "tf_ans": {},
    "answer": "C",
    "flags": [],
-   "question": "Tính giới hạn $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-2}{x+1}$",
-   "explanation": "Chọn C\nTa có: $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-2}{x+1}=-\\frac{1}{2}$.",
+   "question": "Tính giới hạn $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-2}{x+1}$",
+   "explanation": "Chọn C\nTa có: $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-2}{x+1}=-\\frac{1}{2}$.",
    "options": [
     "$\\frac{3}{2}$",
     "$-\\infty $",
@@ -360,13 +360,13 @@
     "d": "[VD,VDC] Mặt phẳng $(\\alpha )$ đi qua $M$ song song với $AB$ và $AD$, cắt các mặt của hình chóp theo hình là một tứ giác có diện tích bằng $\\frac{16}{9}$."
    },
    "tf_ans": {
-    "a": true
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_dap_an:a"
-   ],
+   "flags": [],
    "question": "Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $2,M$ là một điểm thuộc cạnh $SA$ sao cho $\\frac{SM}{SA}=\\frac{2}{3}$. Một mặt phẳng $(\\alpha )$ đi qua $M$ song song với $AB$ và $AD$, cắt các mặt của hình chóp ta được là một tứ giác. Các mệnh đề sau đúng hay sai?",
    "explanation": "Vì $S.ABCD$ là hình chóp tứ giác đều nên đáy là tứ giác đều tức là hình vuông nên mệnh đề a đúng.\n$\\left\\{ \\begin{array}{llllll} M\\in (SAD)\\cap (\\alpha ) \\\\ (\\alpha )\\parallel AD,AD\\subset (SAD) \\\\ \\end{array}\\Rightarrow (SAD)\\cap (\\alpha )=MQ\\text{ } \\right.$ với $MQ\\parallel AD,Q\\in SD$\nDo đó, mệnh đề b là sai.\n$\\text{V }\\!\\!\\grave{\\mathrm{i}}\\!\\!\\text{ }\\left\\{ \\begin{array}{llllll} M\\in (SAB)\\cap (\\alpha ) \\\\ (\\alpha )\\parallel AB,AB\\subset (SAB) \\\\ \\end{array}\\Rightarrow (SAB)\\cap (\\alpha )=MN\\text{ } \\right.$với $MN\\parallel AB,N\\in SB;$\nVì $BC\\parallel AD\\parallel MQ$ và $BC\\not{\\subset }(\\alpha ),MQ\\subset (\\alpha )\\,\\,$ nên $BC\\parallel (\\alpha )$.\n[[IMG:image5.png]]\nKhi đó, ta có: $\\left\\{ \\begin{array}{llllll} N\\in (SBC)\\cap (\\alpha ) \\\\ (\\alpha )\\parallel BC,BC\\subset (SBC) \\\\ \\end{array}\\Rightarrow (SBC)\\cap (\\alpha )=NP \\right.$ (với $NP\\parallel BC,P\\in SC$).\nNối các đỉnh $M,N,P,Q$ ta được một tứ giác.\nTa có: $MN\\parallel AB,MQ\\parallel AD,NP\\parallel BC,PQ\\parallel CD$ nên theo định lí Thalès, ta có:\n$\\frac{SM}{SA}=\\frac{SN}{SB}=\\frac{SP}{SC}=\\frac{SQ}{SD}=\\frac{MN}{AB}=\\frac{NP}{BC}=\\frac{PQ}{CD}=\\frac{MQ}{AD}=\\frac{2}{3}\\text{. }$\nSuy ra $MN=NP=PQ=MQ=\\frac{2}{3}\\cdot 2=\\frac{4}{3}$ (đáy hình của chóp là hình vuông cạnh 2).\nDo đó, tứ giác $MNPQ$ là hình thoi.\nLại có: $AD\\bot AB;MQ\\parallel AD;AB\\parallel MN\\Rightarrow MQ\\bot MN$\nSuy ra, tứ giác $MNPQ$ là hình vuông nên cũng là hình chữ nhật.\nVậy mệnh đề c là đúng.\nDễ thấy $MNPQ$ là một hình vuông có cạnh bằng $\\frac{4}{3}$ nên có diện tích bằng ${{\\left( \\frac{4}{3} \\right)}^{2}}=\\frac{16}{9}$ (đơn vị diện tích).\nVậy mệnh đề d là đúng.",
    "ma": "de1.P2.C1",
@@ -377,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C4.B3.D01",
    "dang_toan_web": "Đường thẳng song song với mặt phẳng."
@@ -398,9 +399,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho các hàm số sau$f(x)=\\sin x$ và $g(x)=\\cos 2x$. Khi đó:",
    "explanation": "a) Ta có: Hàm số $f(x)=\\sin x$ và $g(x)=\\cos 2x$ có tập xác định là $\\mathbb{R}$.\nSuy ra mệnh đề đúng.\nb) Ta có: hàm số $f(x)=\\sin x$ là hàm số lẻ. Do đó đồ thị hàm số $f(x)=\\sin x$ nhận gốc tọa độ $O$ làm tâm đối xứng.\nHàm số $g(x)=\\cos 2x$ là hàm số chẵn. Do đó đồ thị hàm số nhận trục tung làm trục đối xứng.\nSuy ra mệnh đề đúng.\nc) Ta có: hàm số $f(x)=\\sin x$ là hàm số tuần hoàn với chu kỳ là $2\\pi $.\nHàm số $y=\\cos x$ là hàm số tuần hoàn với chu kỳ là $2\\pi $. Do đó hàm số $g(x)=\\cos 2x$ là hàm số tuần hoàn với chu kỳ là $\\pi $.\nSuy ra mệnh đề Sai.\nd) Ta có: số giao điểm của đồ thị hàm số $f(x)=\\sin x$ và đồ thị hàm số$g(x)=\\cos 2x$ là số nghiệm của phương trình:\n$\\cos 2x=\\sin x\\Leftrightarrow \\cos 2x=\\cos \\left( \\frac{\\pi }{2}-x \\right)\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{\\pi }{6}+\\frac{k2\\pi }{3} \\\\ & x=-\\frac{\\pi }{2}+k2\\pi \\\\ \\end{aligned} \\right.,\\,k\\in \\mathbb{Z}$\nMà $x\\in \\left[ 0;\\pi \\right]\\Rightarrow x\\in \\left\\{ \\frac{\\pi }{6};\\,\\frac{5\\pi }{6} \\right\\}$.\nVậy số giao điểm của đồ thị hàm số $f(x)=\\sin x$ và đồ thị hàm số$g(x)=\\cos 2x$ trên đoạn $\\left[ 0;\\pi \\right]$ là $2$\nSuy ra mệnh đề Sai.",
    "ma": "de1.P2.C2",
@@ -411,6 +410,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C1.B3.D05",
    "dang_toan_web": "Hàm số lượng giác ($y = \\sin x, y = \\cos x, y = \\tan x, y = \\cot x$) và đồ thị."
@@ -425,11 +425,14 @@
     "c": "[TH] Tứ phân vị thứ nhất của mẫu số liệu là ${{Q}_{1}}\\approx 10,8$",
     "d": "[VD] Công nhân có mức lương $12,5$ triệu trong thống kê là nhiều nhất."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Mức lương hàng tháng của công nhân ở một công ty được Công đoàn thu thập theo bảng sau\n( đơn vị theo triệu đồng)\n| Mức lương | $\\left[ 5;10 \\right)$ | $\\left[ 10;15 \\right)$ | $\\left[ 15;20 \\right)$ | $\\left[ 20;25 \\right)$ | $\\left[ 25;30 \\right)$ |\n|---|---|---|---|---|---|\n| Số lượng CN | $17$ | $38$ | $27$ | $21$ | $7$ |",
    "explanation": "Cỡ của mẫu số liệu là $n=17+38+27+21+7=110$. Suy ra mệnh đề Đúng.\n| Mức lương | $\\left[ 5;10 \\right)$ | $\\left[ 10;15 \\right)$ | $\\left[ 15;20 \\right)$ | $\\left[ 20;25 \\right)$ | $\\left[ 25;30 \\right)$ |\n|---|---|---|---|---|---|\n| Giá trị đại diện | $7,5$ | $12,5$ | $17,5$ | $22,5$ | $27,5$ |\n| Số lượng GV | $17$ | $38$ | $27$ | $21$ | $7$ |\nLương trung bình của công nhân ở công ty đó là $\\overline{x}=\\frac{7,5.17+12,5.38+17,5.27+22,5.21+27,5.7}{110}=15,8$ triệu đồng.\nSuy ra mệnh đề Sai.\nTứ phân vị thứ nhất của mẫu số liệu là ${{x}_{28}}$ thuộc nhóm $\\left[ 10;15 \\right)$. Khi đó\n${{Q}_{1}}=10+\\frac{\\frac{110}{4}-17}{38}\\left( 15-10 \\right)\\approx 11,4$\nSuy ra mệnh đề Sai.\nTheo giả thiết nhóm $\\left[ 10;15 \\right)$ chứa mốt của mẫu số liệu và${{M}_{0}}=10+\\frac{38-17}{\\left( 38-17 \\right)+\\left( 38-27 \\right)}.\\left( 15-10 \\right)\\approx 13,3$ triệu đồng . Suy ra mệnh đề Sai.",
    "ma": "de1.P2.C3",
@@ -440,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B2.D06",
    "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -461,9 +465,7 @@
     "c": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Sinh viên An mới ra trường quyết định tiết kiệm tiền để mua một chiếc xe máy có giá 100 triệu. Cách tiết kiệm của An là vào đầu mỗi tháng An gửi vào ngân hàng 5 triệu đồng với lãi suất kép (số tiền lãi sau khi nhận được sẽ cộng vào số tiền gốc bỏ ra ban đầu để tiếp tục gửi ngân hàng) là $0,5\\%$ mỗi tháng và lãi suất không đổi trong qua trình gửi.",
    "explanation": "a) Đúng. Số tiền lãi của tháng đầu tiên là $5000000\\cdot 0,5\\%=25000$.\nb) Gọi M là số tiền góp vào hàng tháng, r là lãi suất hàng tháng.\nTiền gốc và lãi An nhận trong tháng thứ nhất là: ${{T}_{1}}=M+M.r=M.a$ với $a=1+r$.\nTiền gốc và lãi An nhận trong tháng thứ hai là: ${{T}_{2}}=M.a+M+\\left( M.a+M \\right)r=M{{a}^{2}}+Ma$.\n…\nTương tự tiền gốc và lãi An nhận trong tháng thứ n là: ${{T}_{n}}=M{{a}^{n}}+M{{a}^{n-1}}+...+Ma=Ma\\left( {{a}^{n-1}}+{{a}^{n-2}}+...+1 \\right)=Ma.\\frac{{{a}^{n}}-1}{a-1}=\\frac{M}{r}\\left( 1+r \\right)\\left[ {{\\left( 1+r \\right)}^{n}}-1 \\right]$\nDựa vào công thức trên, ta được b) đúng, c) đúng.\nd) Đúng.\nSau tháng thứ n An gửi vào ngân hàng 5 triệu đồng với lãi suất kép là $0,5\\%$ mỗi tháng, khi nhận được số tiền nhiều hơn 100 triệu, ta có:\n$\\frac{5}{0,5\\%}\\left[ {{\\left( 1+0,5\\% \\right)}^{n}}-1 \\right]\\left( 1+0,5\\% \\right)>100\\Leftrightarrow 1005\\left[ {{\\left( 1+0,5\\% \\right)}^{n}}-1 \\right]>100$\nSử dụng máy tính cầm tay, khi đó $n=20$ là giá trị nhỏ nhất thoả mãn yêu cầu.\nVậy sau ít nhất $20$ tháng thì An mới có được số tiền nhiều hơn $100$ triệu.",
    "ma": "de1.P2.C4",
@@ -474,6 +476,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C9.B1.D01",
    "dang_toan_web": "Khái niệm đạo hàm và ý nghĩa hình học (phương trình tiếp tuyến), ý nghĩa vật lí (vận tốc tức thời)."
@@ -605,9 +608,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một công ty bất động sản Đất Vàng thực hiện cuộc khảo sát khách hàng xem họ có nhu cầu mua nhà ở mức giá nào để tiến hành dự án xây nhà ở Thăng Long group sắp tới. Kết quả khảo sát 500 khách hàng được ghi lại ở bảng sau:\n| Mức giá (triệu đồng) | $[10;14)$ | $[14;18)$ | $[18;22)$ | $[22;26)$ | $[26;30)$ |\n|---|---|---|---|---|---|\n| Số khách hàng | 75 | 105 | 179 | 96 | 45 |\nTìm tứ phân vị thứ nhất của số liệu ở bảng tần số ghép nhóm trên (làm tròn kết quả đến hàng phần mười)?",
    "explanation": "Đáp án: $\\mathbf{15},\\mathbf{9}$\nGọi ${{x}_{1}};{{x}_{2}};\\ldots ;{{x}_{500}}$ lần lượt là giá tiền 500 khách hàng có nhu cầu muốn mua nhà được xếp theo thứ tự không giảm.\nCỡ mẫu $n=500$.\nTứ phân vị thứ nhất ${{Q}_{1}}$ là $\\frac{{{x}_{125}}+{{x}_{126}}}{2}$. Do ${{x}_{125}},\\,{{x}_{126}}$ đều thuộc nhóm $[14;18)$nên nhóm này chứa ${{Q}_{1}}$.\nDo đó $p=2,{{a}_{2}}=14,,{{m}_{2}}=105,{{m}_{1}}=75,\\,{{a}_{3}}-{{a}_{4}}=4$.\nSuy ra tứ phân vị thứ nhất của mẫu số liệu là: ${{Q}_{1}}=14+\\frac{\\frac{500}{4}-75}{105}.4=\\frac{334}{21}\\approx 15,9$.",
    "short_value": 15.9,
@@ -620,6 +621,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm: Số trung bình, trung vị, tứ phân vị và mốt."

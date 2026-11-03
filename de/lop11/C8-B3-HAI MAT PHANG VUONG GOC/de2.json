@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "8",
   "lesson": "3",
-  "title": "Chương 8 – Bài 3"
+  "title": "Chương 8 – Bài 3",
+  "exam_type": "lesson"
  },
  "no": 2,
  "sections": {
@@ -472,7 +473,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
-   "sua_boi": "claude",
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L11.C7.B4.D03",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."
@@ -537,7 +538,7 @@
    "flags": [],
    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình thoi cạnh $a$ và có $SA=SB=SC=a$. Góc giữa hai mặt phẳng $\\left( SBD \\right)$ và $\\left( ABCD \\right)$ bằng",
    "explanation": "[[IMG:image45.emf]]\nGọi $H$ là chân đường vuông góc của $S$ xuống mặt phẳng đáy $\\left( ABCD \\right)$, suy ra $SH\\bot \\left( ABCD \\right)$.\nVì $SA=SB=SC=a$ nên các hình chiếu $HA=HB=HC$. Do đó, $H$ là tâm đường tròn ngoại tiếp $\\left( ABC \\right)$.\nMà tam giác $ABC$ cân tại $B$ (vì $BA=BC=a$) nên tâm $H$ phải nằm trên $BD$, ta có $SH\\subset \\left( SBD \\right)$.\nVậy có $\\left. \\begin{aligned} & SH\\bot \\left( ABCD \\right) \\\\ & SH\\subset \\left( SBD \\right) \\\\ \\end{aligned} \\right\\}\\Rightarrow \\left( SBD \\right)\\bot \\left( ABCD \\right)$ nên góc $\\left( \\widehat{\\left( SBD \\right),\\left( ABCD \\right)} \\right)=90{}^\\circ $.",
-   "short_value": null,
+   "short_value": 90,
    "short_correct": "90",
    "ma": "de2.P3.C3",
    "dac_trung": {
@@ -574,6 +575,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C7.B4.D02",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."
@@ -588,7 +590,7 @@
    "flags": [],
    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh bằng $2a$, $SA$ vuông góc với đáy và $SA=a\\sqrt{6}$. Góc giữa hai mặt phẳng $\\left( SBD \\right)$ và $\\left( ABCD \\right)$ bằng ?",
    "explanation": "[[IMG:image48.png]]\nGọi $O$ là tâm của $ABCD$.\nTa có: $\\left\\{ \\begin{aligned} & BD\\bot AC\\, \\\\ & BD\\bot SA\\,\\, \\\\ \\end{aligned} \\right.\\Rightarrow BD\\bot \\left( SAC \\right)$\nMà $\\left\\{ \\begin{aligned} & \\left( SBD \\right)\\cap \\left( ABCD \\right)=BD \\\\ & AO\\bot BD,AO\\subset \\left( ABCD \\right) \\\\ & SO\\bot BD,SO\\subset \\left( SBD \\right) \\\\ \\end{aligned} \\right.$\nSuy ra $\\left( \\widehat{(SBD),\\,(ABCD)} \\right)=\\left( \\widehat{SO,\\,AO} \\right)=\\widehat{SOA}$\nTam giác $SAO$ vuông tại $A$: $\\tan \\widehat{SOA}=\\frac{SA}{AO}=\\frac{a\\sqrt{6}}{a\\sqrt{2}}=\\sqrt{3}\\Rightarrow \\widehat{SOA}={{60}^{\\circ }}$.\nVậy góc giữa hai mặt phẳng $\\left( SBD \\right)$ và $\\left( ABCD \\right)$ bằng ${{60}^{\\circ }}$.",
-   "short_value": null,
+   "short_value": 60,
    "short_correct": "60",
    "ma": "de2.P3.C5",
    "dac_trung": {
@@ -613,7 +615,7 @@
    "flags": [],
    "question": "Cho hình lăng trụ $ABC.A'B'C'$ có đáy $ABC$ là tam giác đều cạnh $a$, $A'A=A'B=A'C=a\\sqrt{\\frac{7}{12}}$ (tham khảo hình vẽ dưới)\n[[IMG:image49.emf]]\nKhi đó số đo góc giữa hai mặt phẳng $\\left( ABB'A' \\right)$ và $\\left( ABC \\right)$ là",
    "explanation": "Gọi $H$ là hình chiếu của $A'$ trên mặt phẳng $\\left( ABC \\right)$\nDo $A'A=A'B=A'C$ nên $HA=HB=HC$. Suy ra $H$ là trọng tâm của tam giác đều $ABC$\nGọi $M$là trung điểm của $AB$,do tam giác$ABC$đều nên $MC\\bot AB$ hay$MH\\bot AB$,\n[[IMG:image50.emf]]\n$\\left( ABB'A' \\right)\\cap \\left( ABC \\right)=AB$\nTrong mặt phẳng $\\left( ABC \\right)$ có $HM\\bot AB$\nTrong mặt phẳng $\\left( ABB'A' \\right)$ có $A'M\\bot AB$ (do $AB\\bot MH,AB\\bot A'H$ nên $AB\\bot \\left( A'MH \\right)$)\nKhi đó góc giữa hai mặt phẳng $\\left( ABB'A' \\right)$ và $\\left( ABC \\right)$là $\\widehat{A'MH}$. Ta có $\\widehat{A'MH}=\\alpha $\nXét tam giác $A'MH$ vuông tại $H$:\nCó $MH=\\frac{1}{3}MC=\\frac{1}{3}.\\frac{a\\sqrt{3}}{2}=\\frac{a\\sqrt{3}}{6}$ (do $MC=\\frac{a\\sqrt{3}}{2}$ là đường trung tuyến trong tam giác đều cạnh $a$)\nCó $A'M=\\sqrt{A'{{A}^{2}}-A{{M}^{2}}}=\\sqrt{\\frac{7{{a}^{2}}}{12}-\\frac{{{a}^{2}}}{4}}=\\frac{a}{\\sqrt{3}}$\n$\\cos \\alpha =\\frac{MH}{MA'}=\\frac{\\frac{a\\sqrt{3}}{6}}{\\frac{a}{\\sqrt{3}}}=\\frac{1}{2}\\Rightarrow \\alpha ={{60}^{0}}$.\nVậy số đo góc giữa hai mặt phẳng$\\left( ABB'A' \\right)$ và $\\left( ABC \\right)$ là ${{60}^{0}}$. Chọn D.",
-   "short_value": null,
+   "short_value": 60,
    "short_correct": "60",
    "ma": "de2.P3.C6",
    "dac_trung": {

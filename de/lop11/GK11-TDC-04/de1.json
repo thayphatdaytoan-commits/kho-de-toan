@@ -357,20 +357,18 @@
     "a": "Phương trình hoành độ giao điểm của hai đồ thị hàm số đã cho:$\\sin \\left( x-\\frac{\\pi }{4} \\right)=\\cos \\left( \\frac{\\pi }{2}-x \\right)$",
     "b": "Hoành độ giao điểm của hai đồ thị hàm số đã cho là $x=\\frac{5\\pi }{8}+k2\\pi (k\\in \\mathbb{Z})$",
     "c": "Điểm $M\\left( \\frac{5\\pi }{8};\\sin \\frac{5\\pi }{8} \\right)$ là một giao điểm của hai đồ thị hàm số đã cho trên $[0;2\\pi ]$",
-    "d": "Khi $x\\in [0;3\\pi ]$ thì hai đồ thị hàm số đã cho cắt nhau tại ba điểm lần lượt $A,B,C$gọi $I$là"
+    "d": "Khi $x\\in [0;3\\pi]$ thi hai do thi ham so da cho cat nhau tai ba diem lan luot $A,B,C$; goi $I$ la trung diem cua $AC$ thi $I\\left(\\frac{13\\pi}{16};\\sin\\frac{13\\pi}{4}\\right)$"
    },
    "tf_ans": {
     "a": true,
+    "b": false,
     "c": true,
-    "d": true,
-    "b": false
+    "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
-   "question": "Cho hàm số $y=\\sin \\left( x-\\frac{\\pi }{4} \\right)$ và hàm số$y=\\cos \\left( \\frac{\\pi }{2}-x \\right)$, khi đó:\ntrung điểm của $AC$thì $I\\left( \\frac{13\\pi }{16};\\sin \\left( \\frac{13\\pi }{4} \\right) \\right)$",
-   "explanation": "a) Đúng và b) Sai. Phương trình hoành độ giao điểm của hai đồ thị hàm số:\n$\\begin{aligned} & \\sin \\left( x-\\frac{\\pi }{4} \\right)=\\cos (\\frac{\\pi }{2}-x)\\Leftrightarrow \\sin \\left( x-\\frac{\\pi }{4} \\right)=\\sin x\\Leftrightarrow \\left[ \\begin{array}{llllll} x-\\frac{\\pi }{4}=x+k2\\pi \\\\ x-\\frac{\\pi }{4}=\\pi -x+k2\\pi \\\\ \\end{array}(k\\in \\mathbb{Z}) \\right. \\\\ & \\Leftrightarrow 2x=\\frac{5\\pi }{4}+k2\\pi (k\\in \\mathbb{Z})\\Leftrightarrow x=\\frac{5\\pi }{8}+k\\pi (k\\in \\mathbb{Z}) \\\\ \\end{aligned}$\nc) Đúng.Vì $x\\in [0;2\\pi ]\\Rightarrow x\\in \\left\\{ \\frac{5\\pi }{8};\\frac{13\\pi }{8} \\right\\}$.\nd) Đúng. Với $x=\\frac{5\\pi }{8}\\Rightarrow y=\\sin \\frac{5\\pi }{8}\\Rightarrow A\\left( \\frac{5\\pi }{8};\\sin \\frac{5\\pi }{8} \\right)$ với\n$x=\\frac{13\\pi }{8}\\Rightarrow y=\\sin \\frac{13\\pi }{8}\\Rightarrow B\\left( \\frac{13\\pi }{8};\\sin \\frac{13\\pi }{8} \\right)$với $x=\\frac{21\\pi }{8}\\Rightarrow y=\\sin \\frac{21\\pi }{8}\\Rightarrow C\\left( \\frac{21\\pi }{8};\\sin \\frac{21\\pi }{8} \\right)$.\nVì $I$là trung điểm của $AC$\n$\\Rightarrow I\\left( \\frac{13\\pi }{16};\\frac{\\sin \\left( \\frac{5\\pi }{8} \\right)+\\sin \\left( \\frac{21\\pi }{8} \\right)}{2} \\right)=\\left( \\frac{13\\pi }{16};\\frac{2.\\sin \\left( \\frac{13\\pi }{4} \\right).\\cos \\left( -2\\pi \\right)}{2} \\right)=\\left( \\frac{13\\pi }{16};\\sin \\left( \\frac{13\\pi }{4} \\right) \\right)$",
+   "flags": [],
+   "question": "Cho hàm số $y=\\sin \\left( x-\\frac{\\pi }{4} \\right)$ và hàm số$y=\\cos \\left( \\frac{\\pi }{2}-x \\right)$, khi đó:",
+   "explanation": "a) Đúng và b) Sai. Phương trình hoành độ giao điểm của hai đồ thị hàm số:\n$\\begin{aligned} & \\sin \\left( x-\\frac{\\pi }{4} \\right)=\\cos (\\frac{\\pi }{2}-x)\\Leftrightarrow \\sin \\left( x-\\frac{\\pi }{4} \\right)=\\sin x\\Leftrightarrow \\left[ \\begin{array}{llllll} x-\\frac{\\pi }{4}=x+k2\\pi \\\\ x-\\frac{\\pi }{4}=\\pi -x+k2\\pi \\\\ \\end{array}(k\\in \\mathbb{Z}) \\right. \\\\ & \\Leftrightarrow 2x=\\frac{5\\pi }{4}+k2\\pi (k\\in \\mathbb{Z})\\Leftrightarrow x=\\frac{5\\pi }{8}+k\\pi (k\\in \\mathbb{Z}) \\\\ \\end{aligned}$\nc) Đúng.Vì $x\\in [0;2\\pi ]\\Rightarrow x\\in \\left\\{ \\frac{5\\pi }{8};\\frac{13\\pi }{8} \\right\\}$.\nd) Sai. Với $x=\\frac{5\\pi}{8}$ thì $A\\left(\\frac{5\\pi}{8};\\sin\\frac{5\\pi}{8}\\right)$, với $x=\\frac{13\\pi}{8}$ thì $B\\left(\\frac{13\\pi}{8};\\sin\\frac{13\\pi}{8}\\right)$, với $x=\\frac{21\\pi}{8}$ thì $C\\left(\\frac{21\\pi}{8};\\sin\\frac{21\\pi}{8}\\right)$. Vì $I$ là trung điểm của $AC$ nên $I\\left(\\frac{13\\pi}{8};\\sin\\frac{5\\pi}{8}\\right)$, khác với $\\left(\\frac{13\\pi}{16};\\sin\\frac{13\\pi}{4}\\right)$ (lời giải cũ tính nhầm trung bình cộng hoành độ và dùng sai công thức tổng thành tích).",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -379,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C1.B4.D06",
    "dang_toan_web": "Phương trình lượng giác cơ bản."
@@ -400,9 +399,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một anh công nhân được tuyển vào làm việc ở nhà máy với lương tháng khởi điểm là 5 triệu đồng và sau mỗi quý, lương tháng sẽ tăng thêm 500 nghìn đồng. Các khẳng định sau đúng hay sai?",
    "explanation": "a) Tiền lương anh công nhân nhận được ở tháng thứ 2 là 5 triệu đồng.\nVậy mệnh đề sai.\nb) Tổng số tiền lương anh công nhân nhận được của quý thứ nhất là $3.5=15$ triệu đồng.\nVậy mệnh đề đúng.\nc) Gọi ${{u}_{1}},\\,{{u}_{2}},\\,{{u}_{3}},\\,...$ lần lượt là tổng số tiền lương trong 1 quý của anh công nhân nhận được ở quý 1, quý 2, quý 3,…\n${{u}_{1}}=15$ triệu đồng.\n${{u}_{2}}=16,5$ triệu đồng.\n${{u}_{3}}=18$ triệu đồng.\n…\nSuy ra, tổng số tiền lương trong 1 quý của anh công nhân nhận được ở quý 1, quý 2, quý 3,… theo thứ tự đó lập thành cấp số cộng với công sai $d=1,5$.\nVậy mệnh đề sai.\nd)\nTổng số tiền lương trong 1 quý của anh công nhân nhận được ở quý 1, quý 2, quý 3,… theo thứ tự lập thành cấp số cộng với số hạng đầu là ${{u}_{1}}=15$ và công sai $d=1,5$.\nSau ba năm tức là 12 quý, tổng số tiền lương anh công nhân nhận được là\n${{S}_{12}}=12.{{u}_{1}}+\\frac{12\\left( 12-1 \\right)}{2}.d=12.15+\\frac{12.11}{2}.1,5=279$.\nVậy mệnh đề sai.",
    "ma": "de1.P2.C2",
@@ -413,6 +410,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D06",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."

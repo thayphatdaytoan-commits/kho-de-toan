@@ -353,7 +353,12 @@
    "section": 2,
    "n": 13,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Hàm số nghịch biến trên $(-\\infty ;-1)$ và $(1;+\\infty )$.",
+    "b": "Hàm số đạt giá trị cực đại tại $x=0$.",
+    "c": "Giá trị lớn nhất của hàm số trên khoảng $(-1;+\\infty )$ bằng $-2$.",
+    "d": "Phương trình $-{{x}^{4}}+2{{x}^{2}}+m=0$ có bốn nghiệm phân biệt khi $m\\in (-1;0)$."
+   },
    "tf_ans": {
     "a": false,
     "b": true,
@@ -361,14 +366,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:",
-    "import_web: Câu 13: mệnh đề (a) trống",
-    "import_web: Câu 13: mệnh đề (b) trống",
-    "import_web: Câu 13: mệnh đề (c) trống",
-    "import_web: Câu 13: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y={{x}^{4}}-2{{x}^{2}}-2.$ Xét tính Đúng, Sai của các mệnh đề sau:\nHàm số nghịch biến trên $(-\\infty ;-1)$và $(1;+\\infty )$.\nHàm số đạt giá trị cực đại tại $x=0$.\nGiá trị lớn nhất của hàm số trên khoảng $(-1;+\\infty )$ bằng $-2$.\nPhương trình $-{{x}^{4}}+2{{x}^{2}}+m=0$ có bốn nghiệm phân biệt khi $m\\in (-1;0)$.",
    "explanation": "TXĐ: $D=\\mathbb{R}$.\nTa có ${y}'=4{{x}^{3}}-4x,\\,{y}'=0\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=\\pm 1 \\\\ \\end{aligned} \\right..$\nTa có BBT\n[[IMG:image8.png]]\nDo đó:\nSai\nĐúng\nSai\nĐúng\nTừ $-{{x}^{4}}+2{{x}^{2}}+m=0\\Leftrightarrow {{x}^{4}}-2{{x}^{2}}-2=m-2$\nSố nghiệm của phương trình là số giao điểm của đồ thị hàm số $y={{x}^{4}}-2{{x}^{2}}-2$ và đường thẳng $y=m-2$.\nTừ BBT suy ra $m\\in (-1;0)$.",
    "ma": "de1.P2.C13",
@@ -379,6 +377,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D02",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -387,24 +386,24 @@
    "section": 2,
    "n": 14,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Hàm số đồng biến trên $(-\\infty;-1)$ và $(1;+\\infty)$.",
+    "b": "${y}_{C}+{y}_{CT}=4$.",
+    "c": "Giá trị biểu thức $a+b-c+d=6$.",
+    "d": "Đồ thị hàm số $g(x)=\\frac{(x-1)(x^{2}-1)}{f^{2}(x)-2f(x)}$ có tất cả bao nhiêu đường tiệm cận đứng."
+   },
    "tf_ans": {
     "a": true,
-    "b": false,
-    "c": true,
-    "d": false
+    "b": true,
+    "c": true
    },
    "answer": null,
    "flags": [
     "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:",
-    "import_web: Câu 14: mệnh đề (a) trống",
-    "import_web: Câu 14: mệnh đề (b) trống",
-    "import_web: Câu 14: mệnh đề (c) trống",
-    "import_web: Câu 14: mệnh đề (d) trống"
+    "dung_sai_thieu_y:"
    ],
    "question": "Cho hàm số bậc ba $y=f\\left( x \\right)=a{{x}^{3}}+b{{x}^{2}}+cx+d$ có đồ thị là đường cong hình bên dưới.\n[[IMG:image6.png]]\nXét tính Đúng, Sai của các mệnh đề sau:\n[NB] Hàm số đồng biến trên $(-\\infty ;-1)$và $(1;+\\infty )$.\n[TH] ${{y}_{C}}+{{y}_{CT}}=4$.\n[TH] Giá trị biểu thức $a+b-c+d=6$.\n[VD] Đồ thị hàm số $g\\left( x \\right)=\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}-1 \\right)}{{{f}^{2}}\\left( x \\right)-2f\\left( x \\right)}$ có tất cả bao nhiêu đường tiệm cận đứng.",
-   "explanation": "A.Đúng. Vì nhìn đồ thị suy ra.\nB.Sai. Vì ${{y}_{C}}+{{y}_{CT}}=4+0=4$\nC.Đúng. Vì đồ thị hàm số đi qua 4 điểm $A(0;2);B(1;0);C(-1;4);D(-2;0)$\nThay tọa độ 4 điểm vào hàm số, Giải hệ phương trình ta được $a=1;b=0;c=-3;d=2$\n(Chúng ta có thể lấy 3 điểm A,B,C để có tọa độ chính xác,sau đó thêm điều kiện $y'(1)=0$)\nD.Sai. Vì:\nTa xét phương trình: ${{f}^{2}}\\left( x \\right)-2f\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & f\\left( x \\right)=0\\,\\,\\,\\,\\left( 1 \\right) \\\\ & f\\left( x \\right)=2\\,\\,\\,\\,\\,\\left( 2 \\right) \\\\ \\end{aligned} \\right.$.\nDựa vào đồ thị hàm số, ta thấy:\n[[IMG:image6.png]]\n+) Phương trình $\\left( 1 \\right)$ có nghiệm ${{x}_{1}}=-2$ (nghiệm đơn) và ${{x}_{2}}=1$ (nghiệm kép)\n$\\Rightarrow f\\left( x \\right)=\\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}$.\n+) Phương trình $\\left( 2 \\right)$ có nghiệm ${{x}_{3}}=\\alpha \\in \\left( -2\\,;\\,-1 \\right)$, ${{x}_{4}}=0$ và ${{x}_{5}}=\\beta >1$\n$\\Rightarrow f\\left( x \\right)-2=\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)$.\nDo đó $g\\left( x \\right)=\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}-1 \\right)}{f\\left( x \\right)\\left[ f\\left( x \\right)-2 \\right]}$ $=\\frac{{{\\left( x-1 \\right)}^{2}}\\left( x+1 \\right)}{\\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}.\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)}=\\frac{x+1}{\\left( x+2 \\right)\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)}$.\n$\\Rightarrow $ đồ thị hàm số $y=g\\left( x \\right)$có 4 đường tiệm cận đứng.",
+   "explanation": "A.Đúng. Vì nhìn đồ thị suy ra.\nB.Đúng. Vì ${y}_{C}+{y}_{CT}=4+0=4$.\nC.Đúng. Vì đồ thị hàm số đi qua 4 điểm $A(0;2);B(1;0);C(-1;4);D(-2;0)$\nThay tọa độ 4 điểm vào hàm số, Giải hệ phương trình ta được $a=1;b=0;c=-3;d=2$\n(Chúng ta có thể lấy 3 điểm A,B,C để có tọa độ chính xác,sau đó thêm điều kiện $y'(1)=0$)\nD.Sai. Vì:\nTa xét phương trình: ${f}^{2}\\left( x \\right)-2f\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & f\\left( x \\right)=0\\,\\,\\,\\,\\left( 1 \\right) \\\\ & f\\left( x \\right)=2\\,\\,\\,\\,\\,\\left( 2 \\right) \\\\ \\end{aligned} \\right.$.\nDựa vào đồ thị hàm số, ta thấy:\n[[IMG:image6.png]]\n+) Phương trình $\\left( 1 \\right)$ có nghiệm ${{x}_{1}}=-2$ (nghiệm đơn) và ${{x}_{2}}=1$ (nghiệm kép)\n$\\Rightarrow f\\left( x \\right)=\\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}$.\n+) Phương trình $\\left( 2 \\right)$ có nghiệm ${{x}_{3}}=\\alpha \\in \\left( -2\\,;\\,-1 \\right)$, ${{x}_{4}}=0$ và ${{x}_{5}}=\\beta >1$\n$\\Rightarrow f\\left( x \\right)-2=\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)$.\nDo đó $g\\left( x \\right)=\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}-1 \\right)}{f\\left( x \\right)\\left[ f\\left( x \\right)-2 \\right]}$ $=\\frac{{{\\left( x-1 \\right)}^{2}}\\left( x+1 \\right)}{\\left( x+2 \\right){{\\left( x-1 \\right)}^{2}}.\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)}=\\frac{x+1}{\\left( x+2 \\right)\\left( x-\\alpha \\right)x\\left( x-\\beta \\right)}$.\n$\\Rightarrow $ đồ thị hàm số $y=g\\left( x \\right)$có 4 đường tiệm cận đứng.",
    "ma": "de1.P2.C14",
    "dac_trung": {
     "so_dong_loi_giai": 15,
@@ -413,6 +412,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D10",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -427,11 +427,14 @@
     "c": "[TH] Nếu $A\\left( 3;2;1 \\right),B\\left( 0;-1;2 \\right)$ thì $\\overrightarrow{AB}=\\left( 3;3;-1 \\right)$.",
     "d": "[TH] Hai vect tơ $\\overrightarrow{a}=\\left( 3;3;1 \\right)$ và $\\overrightarrow{b}=\\left( -3;-3;-1 \\right)$ cùng phương."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Xét tính đúng sai các mệnh đề sau trong không gian:",
    "explanation": "| Câu 15 |\n|---|\n| a, S |\n| b, S |\n| c, S |\n| d, Đ |",
    "ma": "de1.P2.C15",
@@ -442,6 +445,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D10",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -456,11 +460,14 @@
     "c": "[TH] Theo mẫu số liệu ghép nhóm trên thì ${{\\Delta }_{Q}}=\\frac{4450}{21}$.",
     "d": "[VD] Độ lệch chuẩn của mẫu số liệu ghép nhóm trên khoảng 130."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Bảng thống kê sau đây cho biết tổng lượng khách hàng ( đơn vị người) đến cửa hàng WINMART vào tháng 8 từ năm 2000 đến 2024 đặt ở Vĩnh Phúc.\n| 143 | 273 | 543 | 343 | 423 |\n|---|---|---|---|---|\n| 584 | 296 | 477 | 403 | 202 |\n| 638 | 339 | 413 | 530 | 252 |\n| 303 | 243 | 524 | 614 | 414 |\n| 188 | 389 | 557 | 434 | 289 |\nXét tính đúng sai của các khẳng định sau:",
    "explanation": "Từ bảng thống kê ban đầu, tâ lập được bảng tần số ghép nhóm như sau:\n| Lượng khách hàng | $\\left[ 140;240 \\right)$ | $\\left[ 240;340 \\right)$ | $\\left[ 340;440 \\right)$ | $\\left[ 440;540 \\right)$ | $\\left[ 540;640 \\right)$ |\n|---|---|---|---|---|---|\n| Số tháng | 3 | 7 | 7 | 3 | 5 |\n| Đại diện | 190 | 290 | 390 | 490 | 590 |\na) Nếu nhóm đầu tiên là $\\left[ 140;240 \\right)$ với độ dài mỗi nhóm là 100 thì mẫu số liệu trên được chia thành 5 nhóm.\nb, Khoảng biến thiên của mẫu số liệu ghép nhóm trên: $R=640-140=500\\,mm$\nc, Số năm được khảo sát (cỡ mẫu) là n = 3+7+7+3+5 = 25.\nGọi ${{x}_{1}};{{x}_{2}};...;{{x}_{25}}$ là tổng thu nhập trong năm 2024 của cửa hang WINMART được xếp theo thứ tự không giảm.\nTa có:\n${{x}_{1}};{{x}_{2}};{{x}_{3}}\\in \\left[ 140;240 \\right)$\n${{x}_{4}};...;{{x}_{10}}\\in \\left[ 240;340 \\right)$\n${{x}_{11}};...;{{x}_{17}}\\in \\left[ 340;440 \\right)$\n${{x}_{18}};{{x}_{19}};{{x}_{20}}\\in \\left[ 440;540 \\right)$\n${{x}_{21}};...;{{x}_{25}}\\in \\left[ 540;640 \\right)$\nDo đó, đối với dãy số liệu ${{x}_{1}};{{x}_{2}};...;{{x}_{150}}$ thì\nTứ phân vị thứ nhất ${{Q}_{1}}$ là $\\frac{{{x}_{6}}+{{x}_{7}}}{2}\\in \\left[ 240;340 \\right)$. Do đó, tứ phân thứ nhất của mẫu số liệu ghép nhóm là:\n${{Q}_{1}}=240+\\frac{\\frac{25}{4}-3}{7}\\left( 340-240 \\right)=\\frac{2005}{7}$\nTứ phân vị thứ ba ${{Q}_{3}}$ là $\\frac{{{x}_{19}}+{{x}_{20}}}{2}\\in \\left[ 440;540 \\right)$. Do đó, tứ phân thứ ba của mẫu số liệu ghép nhóm là\n${{Q}_{3}}=440+\\frac{\\frac{3.25}{4}-\\left( 3+7+7 \\right)}{3}\\left( 540-440 \\right)=\\frac{1495}{3}$\nTa có : ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=\\frac{4450}{21}$\nd, Số trung bình của mẫu số liệu là:\n$\\overline{x}=\\frac{3.190+7.290+7.390+3.490+5.590}{25}=390$\nPhương sai của mẫu số liệu là:\n${{S}^{2}}=\\frac{1}{25}\\left[ {{3.190}^{2}}+{{7.290}^{2}}+{{7.390}^{2}}+{{3.490}^{2}}+{{5.590}^{2}} \\right]-{{\\left( 390 \\right)}^{2}}\\approx 16800$\nĐộ lệch chuẩn của mẫu số liệu là: $S=\\sqrt{{{S}^{2}}}\\approx \\sqrt{16800}\\approx 129,6$",
    "ma": "de1.P2.C16",
@@ -471,6 +478,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -521,6 +529,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B3.D03",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
@@ -532,9 +541,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản suất mỗi ngày được $x$ mét vải lụa $\\left( 1\\le x\\le 18 \\right)$. Tổng chi phí sản xuất $x$ mét vải lụa, tính bằng nghìn đồng, cho bởi hàm chi phí:\n$C\\left( x \\right)={{x}^{3}}-3{{x}^{2}}-20x+500$.\nGiả sử hộ làm nghề dệt này bán hết sản phẩm mỗi ngày với giá $220$ nghìn đồng/mét. Gọi $L\\left( x \\right)$ là lợi nhuận thu được khi bán $x$ mét vải lụa. Hỏi lợi nhuận tối đa của hộ làm nghề dệt vải lụa tơ tằm trong một ngày?",
    "explanation": "Số tiền thu về khi bán $x$ mét vải lụa là: $220x$. Lợi nhuận thu được khi bán $x$ mét vải lụa là:\n$L\\left( x \\right)=220x-\\left( {{x}^{3}}-3{{x}^{2}}-20x+500 \\right)=-{{x}^{3}}+3{{x}^{2}}+240x-500$\nXét hàm số $L\\left( x \\right)=-{{x}^{3}}+3{{x}^{2}}+240x-500$ với $x\\in \\left[ 1;18 \\right]$\n${L}'\\left( x \\right)=-3{{x}^{2}}+6x+240=0\\Leftrightarrow \\left[ \\begin{aligned} & x=10\\in [1;18] \\\\ & x=-8\\notin [1;18] \\\\ \\end{aligned} \\right.$ $ $\nBảng biến thiên:\n[[IMG:image11.png]]\nVậy hộ làm nghề dệt này thu được lợi nhuận tối đa trong một ngày là $1200$ nghìn đồng khi sản xuất $10$ mét vải lụa trong một ngày.",
    "short_value": 1200,
@@ -547,6 +554,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -558,13 +566,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có bao nhiêu giá trị nguyên của $m$ để hàm số $y=\\left( {{m}^{2}}-1 \\right){{x}^{3}}+\\left( m-1 \\right){{x}^{2}}-x+4$ nghịch biến trên khoảng $\\left( -\\infty ;+\\infty \\right)$.\nĐáo số : 2",
    "explanation": "TH1: $m=1$. Ta có: $y=-x+4$ là phương trình của một đường thẳng có hệ số góc âm nên hàm số luôn nghịch biến trên $\\mathbb{R}$. Do đó nhận $m=1$.\nTH2: $m=-1$. Ta có: $y=-2{{x}^{2}}-x+4$ là phương trình của một đường Parabol nên hàm số không thể nghịch biến trên $\\mathbb{R}$. Do đó loại $m=-1$.\nTH3: $m\\ne \\pm 1$. Khi đó hàm số nghịch biến trên khoảng $\\left( -\\infty ;+\\infty \\right)$ $\\Leftrightarrow {y}'\\le 0\\,\\,\\forall x\\in \\mathbb{R}$, dấu “=” chỉ xảy ra ở hữu hạn điểm trên $\\mathbb{R}$.\n$\\Leftrightarrow 3\\left( {{m}^{2}}-1 \\right){{x}^{2}}+2\\left( m-1 \\right)x-1\\le 0$, $\\forall x\\in \\mathbb{R}\\,\\,$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & a<0 \\\\ & {\\Delta }'\\le 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{m}^{2}}-1<0 \\\\ & {{\\left( m-1 \\right)}^{2}}+3\\left( {{m}^{2}}-1 \\right)\\le 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{m}^{2}}-1<0 \\\\ & \\left( m-1 \\right)\\left( 4m+2 \\right)\\le 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & -1<m<1 \\\\ & -\\frac{1}{2}\\le m\\le 1 \\\\ \\end{aligned} \\right.\\Leftrightarrow -\\frac{1}{2}\\le m<1$\nSuy ra $m\\in \\left[ -\\frac{1}{2}\\text{ }\\!\\!~\\!\\!\\text{ };1 \\right]$\nVậy có 2 giá trị nguyên của m.",
    "short_value": -1,
-   "short_correct": "2",
+   "short_correct": "-1",
    "ma": "de1.P3.C20",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -573,7 +579,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D07",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -600,6 +606,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -616,8 +623,8 @@
    ],
    "question": "Hình 37 minh hoạ sơ đồ một ngôi nhà trong hệ trục tọa độ $Oxyz$, trong đó nền nhà, bốn bức tường và hai mái nhà đều là hình chữ nhật. Tính góc dốc của mái nhà, tức là tìm số đo của góc nhị diện có cạnh là đường thẳng $FG$, hai mặt lần lượt là $\\left( FGQP \\right)$ và $\\left( FGHE \\right)$ (làm tròn kết quả đến hàng phẩn mười của độ).\n[[IMG:image7.png]]",
    "explanation": "Để tính góc dốc của mái nhà, ta đi tính số đo của góc nhị diện có cạnh là đường thẳng $FG$, hai mặt lần lượt là $\\left( FGQP \\right)$ và $\\left( FGHE \\right)$. Do mặt phẳng $\\left( Ozx \\right)$ vuông góc với hai mặt phẳng $\\left( FGQP \\right)$ và $\\left( FGHE \\right)$ nên góc $PFE$ là góc phẳng nhị diện ứng với góc nhị diện đó.\nTa có: $\\overrightarrow{FP}=\\left( -2;0;1 \\right),\\overrightarrow{FE}=\\left( -4;0;0 \\right)$.\nSuy ra $\\text{cos}\\widehat{PFE}=\\text{cos}\\left( \\overrightarrow{FP},\\overrightarrow{FE} \\right)=\\frac{\\overrightarrow{FP}\\cdot \\overrightarrow{FE}}{\\left| \\overrightarrow{FP}\\left| \\cdot \\right|\\overrightarrow{FE} \\right|}=\\frac{\\left( -2 \\right)\\cdot \\left( -4 \\right)+0\\cdot 0+1\\cdot 0}{\\sqrt{{{(-2)}^{2}}+{{0}^{2}}+{{1}^{2}}}\\cdot \\sqrt{{{(-4)}^{2}}+{{0}^{2}}+{{0}^{2}}}}=\\frac{2\\sqrt{5}}{5}$.\nDo đó, $\\widehat{PFE}\\approx 26,{{6}^{\\circ }}$. Vậy góc dốc của mái nhà khoảng $26,{{6}^{\\circ }}$.",
-   "short_value": 26,
-   "short_correct": "26",
+   "short_value": 26.6,
+   "short_correct": "26,6",
    "ma": "de1.P3.C22",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -626,6 +633,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D10",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

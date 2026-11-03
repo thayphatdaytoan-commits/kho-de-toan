@@ -217,17 +217,14 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "loi_giai_noi_A_dung_nhung_chon_C",
-    "loi_giai_noi_B_dung_nhung_chon_C"
-   ],
+   "flags": [],
    "question": "[2] Trong các mệnh đề sau mệnh đề nào sai ?",
-   "explanation": "+ $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2+\\frac{1}{x}}{1+\\frac{1}{x}}=2$ $\\Rightarrow $ $ $A đúng.\n+ Ta có $L=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{x-3}{x+3}$ $=\\frac{3-3}{3+3}=0$ $\\Rightarrow $ B đúng\n+ Với đáp án C ta có $\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,\\left( x+1 \\right)=0$, $x+1<0$ với mọi $x<-1$và $\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,\\left( 3x+2 \\right)=-1<0$.\nVậy $\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{3x+2}{x+1}=+\\infty $ $\\Rightarrow $C sai.\n+ $\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{{{x}^{2}}-4}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{\\left( x-2 \\right)\\left( x+2 \\right)}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{1}{x+2}=\\frac{1}{4}$",
+   "explanation": "+ $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2x+1}{x+1}$ $=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2+\\frac{1}{x}}{1+\\frac{1}{x}}=2$ $\\Rightarrow $ $ $A đúng.\n+ Ta có $L=\\underset{x\\to 3}{\\lim}\\,\\frac{x-3}{x+3}$ $=\\frac{3-3}{3+3}=0$ $\\Rightarrow $ B đúng\n+ Với đáp án C ta có $\\underset{x\\to -{{1}^{-}}}{\\lim}\\,\\left( x+1 \\right)=0$, $x+1<0$ với mọi $x<-1$và $\\underset{x\\to -{{1}^{-}}}{\\lim}\\,\\left( 3x+2 \\right)=-1<0$.\nVậy $\\underset{x\\to -{{1}^{-}}}{\\lim}\\,\\frac{3x+2}{x+1}=+\\infty $ $\\Rightarrow $C sai.\n+ $\\underset{x\\to 2}{\\lim}\\,\\frac{x-2}{{{x}^{2}}-4}=\\underset{x\\to 2}{\\lim}\\,\\frac{x-2}{\\left( x-2 \\right)\\left( x+2 \\right)}=\\underset{x\\to 2}{\\lim}\\,\\frac{1}{x+2}=\\frac{1}{4}$",
    "options": [
-    "$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}=2$",
-    "$\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{x-3}{x+3}=0$",
-    "$\\underset{x\\to -{{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{3x+2}{x+1}=-\\infty $",
-    "$\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{{{x}^{2}}-4}=\\frac{1}{4}$"
+    "$\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2x+1}{x+1}=2$",
+    "$\\underset{x\\to 3}{\\lim}\\,\\frac{x-3}{x+3}=0$",
+    "$\\underset{x\\to -{{1}^{-}}}{\\lim}\\,\\frac{3x+2}{x+1}=-\\infty $",
+    "$\\underset{x\\to 2}{\\lim}\\,\\frac{x-2}{{{x}^{2}}-4}=\\frac{1}{4}$"
    ],
    "ma": "de1.P1.C8",
    "dac_trung": {
@@ -237,6 +234,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -358,10 +356,10 @@
    "n": 13,
    "type": "true_false_group",
    "tf": {
-    "a": "$\\underset{x\\to -1}{\\mathop{\\lim }}\\,\\frac{2x-3{{x}^{2}}}{4x+1}=-\\frac{3}{4}$",
+    "a": "$\\underset{x\\to -1}{\\lim}\\,\\frac{2x-3{{x}^{2}}}{4x+1}=-\\frac{3}{4}$",
     "b": "$\\lim \\frac{2{{n}^{2}}+1}{3{{n}^{3}}-3n+3}=\\frac{2}{3}$",
-    "c": "$\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{\\sqrt{2x+3}-3}{\\sqrt{x+1}-2}=\\frac{4}{3}$",
-    "d": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-2}{{{x}^{2}}-3x+2}=\\frac{1}{3}$"
+    "c": "$\\underset{x\\to 3}{\\lim}\\,\\frac{\\sqrt{2x+3}-3}{\\sqrt{x+1}-2}=\\frac{4}{3}$",
+    "d": "$\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-2}{{{x}^{2}}-3x+2}=\\frac{1}{3}$"
    },
    "tf_ans": {
     "a": false,
@@ -372,7 +370,7 @@
    "answer": null,
    "flags": [],
    "question": "Các mệnh đề sau đúng hay sai?",
-   "explanation": "a) ${\\lim _{x \\rightarrow-1} \\frac{2 x-3 x^2}{4 x+1}=\\frac{2 \\cdot(-1)-3 \\cdot(-1)^2}{4 \\cdot(-1)+1}=\\frac{5}{3}}$.\nb) Ta có: ${\\lim \\frac{2 n^2+1}{3 n^3-3 n+3}=\\lim \\frac{n^3\\left(\\frac{2}{n}+\\frac{1}{n^3}\\right)}{n^3\\left(3-\\frac{3}{n^2}+\\frac{3}{n^3}\\right)}=\\lim \\frac{\\frac{2}{n}+\\frac{1}{n^3}}{3-\\frac{3}{n^2}+\\frac{3}{n^3}}=\\frac{0}{3}=0}$.\nc) Ta có:\n$\\text{ }\\begin{array}{llllll} \\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{\\sqrt{2x+3}-3}{\\sqrt{x+1}-2} & =\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{(\\sqrt{2x+3}-3)(\\sqrt{2x+3}+3)(\\sqrt{x+1}+2)}{(\\sqrt{x+1}-2)(\\sqrt{x+1}+2)(\\sqrt{2x+3}+3)} \\\\ {} & =\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{(2x+3-9)(\\sqrt{x+1}+2)}{(x+1-4)(\\sqrt{2x+3}+3)}=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{2(\\sqrt{x+1}+2)}{\\sqrt{2x+3}+3}=\\frac{4}{3}. \\\\ \\end{array}$\nd) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-2}{{{x}^{2}}-3x+2}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{(\\sqrt[3]{x+7}-2)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}{(x-1)\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}$\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x+7-{{2}^{3}}}{(x-1)\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{1}{\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=-\\frac{1}{12}.$",
+   "explanation": "a) ${\\lim _{x \\rightarrow-1} \\frac{2 x-3 x^2}{4 x+1}=\\frac{2 \\cdot(-1)-3 \\cdot(-1)^2}{4 \\cdot(-1)+1}=\\frac{5}{3}}$.\nb) Ta có: ${\\lim \\frac{2 n^2+1}{3 n^3-3 n+3}=\\lim \\frac{n^3\\left(\\frac{2}{n}+\\frac{1}{n^3}\\right)}{n^3\\left(3-\\frac{3}{n^2}+\\frac{3}{n^3}\\right)}=\\lim \\frac{\\frac{2}{n}+\\frac{1}{n^3}}{3-\\frac{3}{n^2}+\\frac{3}{n^3}}=\\frac{0}{3}=0}$.\nc) Ta có:\n$\\text{ }\\begin{array}{llllll} \\underset{x\\to 3}{\\lim}\\,\\frac{\\sqrt{2x+3}-3}{\\sqrt{x+1}-2} & =\\underset{x\\to 3}{\\lim}\\,\\frac{(\\sqrt{2x+3}-3)(\\sqrt{2x+3}+3)(\\sqrt{x+1}+2)}{(\\sqrt{x+1}-2)(\\sqrt{x+1}+2)(\\sqrt{2x+3}+3)} \\\\ {} & =\\underset{x\\to 3}{\\lim}\\,\\frac{(2x+3-9)(\\sqrt{x+1}+2)}{(x+1-4)(\\sqrt{2x+3}+3)}=\\underset{x\\to 3}{\\lim}\\,\\frac{2(\\sqrt{x+1}+2)}{\\sqrt{2x+3}+3}=\\frac{4}{3}. \\\\ \\end{array}$\nd) $\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-2}{{{x}^{2}}-3x+2}=\\underset{x\\to 1}{\\lim}\\,\\frac{(\\sqrt[3]{x+7}-2)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}{(x-1)\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}$\n$=\\underset{x\\to 1}{\\lim}\\,\\frac{x+7-{{2}^{3}}}{(x-1)\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=\\underset{x\\to 1}{\\lim}\\,\\frac{1}{\\left( x-2 \\right)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=-\\frac{1}{12}.$",
    "ma": "de1.P2.C13",
    "dac_trung": {
     "so_dong_loi_giai": 6,

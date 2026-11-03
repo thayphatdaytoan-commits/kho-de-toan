@@ -42,9 +42,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image2.png]]Nhân dịp kỷ niệm ngày 30/4 lịch sử, một màn trình diễn ánh sáng nghệ thuật bằng drone quy mô lớn được tổ chức trên bầu trời TP.HCM. Hàng trăm chiếc drone được lập trình để tạo thành những hình ảnh ý nghĩa. Trong không gian với hệ tọa độ Oxyz (đơn vị trên các trục là mét), mặt đất được coi là mặt phẳng ${(Oxy)}$.\nGiai đoạn 1: Hình thành chữ \"V\" trong \"VIỆT NAM\"\nBa drone ${D_1, D_2, D_3}$ được điều khiển để giữ ổn định các vị trí cố định lần lượt là$A(18,22,50),\\text{ }B(30,12,50),\\text{ }C(18,12,50)$. Các vị trí này tạo thành một phần của chữ \"V\" khổng lồ.\nGiai đoạn 2: Drone đặc nhiệm di chuyển\nMột drone đặc nhiệm ${D_0}$, ban đầu đang ở vị trí ${{M}_{0}}(5,45,30),$ nhận được lệnh di chuyển thẳng đến một vị trí ${M}$ trên mặt phẳng ${(P)}$: $x+y+z=80.$ Mặt phẳng ${(P)}$ là mặt phẳng chính nơi các drone sẽ sắp xếp thành dòng chữ \"TÔI YÊU\" sau đó. Vị trí ${M}$ này được chọn sao cho nó cách đều ba drone ${D_1, D_2, D_3}$ (tức là ${MA = MB = MC}$). Drone ${D_0}$ được lập trình bay với vận tốc không đổi là $v=10\\text{m/s}.$\nĐể duy trì tín hiệu ổn định, quỹ đạo bay thẳng ${M_0M}$ của drone ${D_0}$ phải hoàn toàn nằm ngoài khối cầu nhiễu sóng ${(S)}$ có tâm ${ I(15, 25, 40) }$ và bán kính ${ R = 4m }$ (được phép tiếp xúc). Hãy tính tổng thời gian (tính bằng giây, làm tròn đến hàng phần chục) di chuyển của drone ${D_0}$ từ vị trí ban đầu ${M_0}$ đến vị trí ${M}$ theo quỹ đạo thẳng đã định, biết rằng quỹ đạo này thỏa mãn điều kiện an toàn.",
    "explanation": "Đáp án: ${ t = \\dfrac{S}{v} = \\dfrac{\\sqrt{1226}}{10} \\approx 3{,}5\\,\\text{s} \\Rightarrow \\text{Ð\\text{áp} \\text{án}: } 3{,}5 }$\nCách 1:\nDo ${M}$ cách đều ${A, B, C}$, ${\\Rightarrow M}$ nằm trên giao tuyến của các mặt phẳng trung trực của các đoạn ${AB, BC, CA}$:\n${\\Rightarrow M \\in (P) \\Rightarrow M(24, 17, 39)}$\nCách 2:\nĐiều kiện ${MA = MB = MC}$có nghĩa là $M$ nằm trên trục của đường tròn ngoại tiếp tam giác $ABC$.\nTam giác ${ABC}$ là tam giác vuông tại ${C}$ nên tâm đường tròn ngoại tiếp là trung điểm cạnh huyền ${AB}$ là $K\\left( \\frac{18+30}{2},\\frac{22+12}{2},50 \\right)=(24,17,50).$\nTam giác ${ABC}$ nằm trên mặt phẳng ${z = 50}$ (vì ${{z}_{A}}={{z}_{B}}={{z}_{C}}$)\nVector pháp tuyến của mặt phẳng ${ABC}$ là $\\overrightarrow{n}=\\left( 0;0;1 \\right)$\nĐường thẳng vuông góc với mặt phẳng ${ABC}$ qua $K$ là $\\left\\{ \\begin{aligned} & x=24\\ \\\\ & y=17\\ \\\\ & z=50+t \\\\ \\end{aligned} \\right.$\n$M\\in \\left( P \\right):x+y+z=80\\Rightarrow $ $t=-11\\Rightarrow $ $M(24,17,39)$\n$\\Rightarrow {{M}_{0}}M=\\sqrt{{{(19)}^{2}}+{{(-28)}^{2}}+{{9}^{2}}}=\\sqrt{1226}\\text{m}$\nĐường thẳng chứa ${M_0M}$ đi qua ${M_0(5, 45, 30)}$ và có vector chỉ phương\n$\\vec{u}=\\overrightarrow{{{M}_{0}}M}=(19,-28,9)\\Rightarrow $ $d(I,{{M}_{0}}M)=\\frac{|\\overrightarrow{{{M}_{0}}I}\\times \\vec{u}|}{|\\vec{u}|}=4,9466>R=4\\Rightarrow $ (thỏa mãn)\nThời gian di chuyển: $t=\\frac{S}{v}=\\frac{\\sqrt{1226}}{10}\\approx 3,5\\text{s}$",
    "short_value": 3.5,
@@ -57,6 +55,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D05",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -93,9 +92,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Xét hệ gồm hai nguyên tử khí argon $(\\mathrm{Ar})$ ở trạng thái cơ bản, mỗi nguyên tử được coi là một khối cầu, khoảng cách $(d)$ giữa hai nguyên tử bằng khoảng cách giữa tâm của hai khô̂i cầu (tham khảo hình bên). Coi như không có tương tác bên ngoài nào tác động đến hệ, sự phụ thuộc của thế năng tương tác $V(d)$ giữa hai nguyên tử khí vào khoảng cách $d$ được xác định theo công thức:\n[[IMG:image8.png]]\n$V(d)=4 \\varepsilon\\left[\\left(\\frac{\\sigma}{d}\\right)^{12}-\\left(\\frac{\\sigma}{d}\\right)^6\\right]$\nTrong đó $\\varepsilon$ và $\\sigma$ là các hằng số đặc trưng cho từng khí hiếm. Đối với Ar, $\\varepsilon=0,930$ và $\\sigma=3,62$. Biết rằng khi thế năng tương tác đạt nhỏ nhất thì hệ hai nguyên tử Ar là bền nhất, khoảng cách $(d)$ mà hai nguyên tử đó bền nhất là?\n(Công thức$V(d)$ có tên gọi là: Thế Lennard-Jones)\n(Nguồn Wikipedia)",
    "explanation": "- Theo đề ta có thế năng tương tác đạt nhỏ nhất, Ta tìm:$\\min V(d),\\,d>0$.\n$V(d)=4 \\varepsilon\\left[\\left(\\frac{\\sigma}{d}\\right)^{12}-\\left(\\frac{\\sigma}{d}\\right)^6\\right]=4 \\varepsilon \\sigma^6\\left(\\frac{\\sigma^6}{d^{12}}-\\frac{1}{d^6}\\right)=4 \\varepsilon \\sigma^6\\left(\\sigma^6 d^{-12}-d^{-6}\\right).$\n$\\Rightarrow {{V}^{\\prime }}(d)=4\\varepsilon {{\\sigma }^{6}}\\left( -12{{\\sigma }^{6}}{{d}^{-13}}+6{{d}^{-7}} \\right)=24\\varepsilon {{\\sigma }^{6}}\\left( \\frac{1}{{{d}^{7}}}-\\frac{2{{\\sigma }^{6}}}{{{d}^{13}}} \\right)=0.$\n$\\Leftrightarrow \\frac{1}{d^7}=\\frac{2 \\sigma^6}{d^{13}} \\Leftrightarrow d^{13}=2 d^7 \\sigma^6 \\Leftrightarrow d^6=2 \\sigma^6 \\Rightarrow d=\\sqrt[6]{2 \\sigma^6} \\approx 4,06 .$\nTa có bảng biến thiên\n[[IMG:image9.png]]\nKhi đó $\\underset{d\\in \\left( 0;+\\infty \\right)}{\\min}\\,V(d)$ tại $d\\approx 4,06.$",
    "short_value": 4.06,
@@ -108,6 +105,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D08",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -119,9 +117,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một công ty logistics đang thử nghiệm hệ thống giao hàng tự động bằng máy bay không người lái (drone).\nTrong không gian $Oxyz$, mỗi đơn vị trên các trục tương ứng với 1 mét trên thực tế. Mặt ngoài của một tòa nhà cao tầng được xem là một phần của mặt phẳng $(P)$ thẳng đứng, đi qua hai điểm $C\\left( 10;50;0 \\right)$ và $D\\left( 30;10;0 \\right)$. Vị trí giao hàng là điểm B nằm trên mặt phẳng $(P).$ Drone bắt đầu bay từ kho hàng tại gốc tọa độ $O\\left( 0;0;0 \\right)$. Ban đầu, nó bay theo một đường thẳng đến vị trí $A\\left( 30;40;120 \\right).$ Từ vị trí $A$, drone thay đổi đường bay, di chuyển theo phương vuông góc với mặt phẳng $(P)$ đến vị trí giao hàng $B$. Tính khoảng cách từ $O$ đến $B$(làm tròn đến hàng đơn vị).\n[[IMG:image10.png]]",
    "explanation": "Đán án: 126\n$\\overrightarrow{CD}=\\left( 20;-40;0 \\right)=20.\\overrightarrow{u};$ với $\\overrightarrow{u}=\\left( 1;-2;0 \\right)$.\n$\\left( P \\right)$ là mặt phẳng thẳng đứng qua $C$ và $D$ nên nhận vec tơ $\\overrightarrow{u}=\\left( 1;-2;0 \\right)$ và $\\overrightarrow{k}=\\left( 0;0;1 \\right)$ làm cặp vectơ chỉ phương nên vectơ pháp tuyến của $\\left( P \\right)$ là $\\overrightarrow{n}=\\left[ \\overrightarrow{u};\\overrightarrow{k} \\right]=\\left( 2;1;0 \\right)$\n$\\left( P \\right):2\\left( x-10 \\right)+1\\left( y-50 \\right)+0\\left( z-0 \\right)=0\\Leftrightarrow 2x+y-70=0$\nĐường thẳng $AB$vuông góc với $\\left( P \\right)$ nên nhận vectơ pháp tuyến của $\\left( P \\right)$ là vectơ chỉ phương $\\overrightarrow{{{u}_{AB}}}=\\left( 2;1;0 \\right)$. Phương trình đường thẳng $AB$:\n$\\left\\{ \\begin{aligned} & x=30+2t \\\\ & y=40+t \\\\ & z=120 \\\\ \\end{aligned} \\right.$\n$B$ là giao điểm của đường thẳng $AB$và mặt phẳng $\\left( P \\right)$ nên ta có\n$60+4t+40+t-70=0\\Leftrightarrow 5t=-30\\Leftrightarrow t=-6$\n$\\Rightarrow B\\left( 18;34;120 \\right)\\Rightarrow OB=\\sqrt{{{18}^{2}}+{{34}^{2}}+{{120}^{2}}}=126$",
    "short_value": 126,
@@ -134,6 +130,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B3.D02",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
@@ -145,9 +142,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một xưởng thủ công mỹ nghệ sản xuất loại chụp đèn trang trí dạng hình chóp cụt tứ giác đều. Gọi $x$ là độ dài cạnh đáy lớn (đơn vị:dm). Tính toán cho thấy tổng chi phí vật liệu (tính bằng nghìn đồng) cho một chụp đèn là $C\\left( x \\right)={{x}^{2}}+108$ (nghìn đồng). Thời gian sản xuất cho một chụp đèn được xác định là $T\\left( x \\right)=x+6$ (giờ). Xưởng muốn xác định kích thước $x$ để chi phí vật liệu trung bình trên một giờ sản xuất là thấp nhất, nhằm tối ưu hóa hiệu quả sử dụng thời gian và vật liệu. Hãy tìm giá trị của $x$.\n[[IMG:image11.png]]",
    "explanation": "Đán án: 6\nGọi hàm chi phí vật liệu trung bình trên một giờ sản xuất là $f\\left( x \\right)=\\frac{C\\left( x \\right)}{T\\left( x \\right)}=\\frac{{{x}^{2}}+108}{x+6},x>0$.\nTa có $f'\\left( x \\right)=\\frac{{{x}^{2}}+12x-108}{{{\\left( x+6 \\right)}^{2}}}=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-18(L) \\\\ & x=6 \\\\ \\end{aligned} \\right.$\nTa có bảng biến thiên :\n[[IMG:image12.png]]\nTừ bảng biến thiên ta thấy $f\\left( x \\right)$ đạt GTNN bằng $12$ khi $x=6$.\nVậy để chi phí vật liệu trung bình trên một giờ sản xuất là thấp nhất thì $x=6$.",
    "short_value": 6,
@@ -160,6 +155,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -253,10 +249,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một phòng thí nghiệm có máy đo nồng độ khí CO2 cho thấy: nồng độ khí CO2 trong phòng thay đổi theo thời gian $t$ (tính bằng giờ) và được thể hiện qua hàm số $f(t)=400+\\frac{2000t}{{{t}^{2}}+5}$ (ppm), với $t\\ge 0$ (Khi nói nồng độ khí CO2 trong không khí là $400$ ppm, điều đó có nghĩa là: Trong một triệu phần thể tích của không khí, có 400 phần thể tích là khí CO2).\nCác khẳng định sau đúng hay sai?",
    "explanation": "a) Đúng.\nNồng độ khí CO2 trong phòng tại thời điểm $t=0$ là $f\\left( 0 \\right)=400+\\frac{2000.0}{{{0}^{2}}+5}=400$ (ppm).\nb) Sai.\nTa có ${f}'(t)=\\frac{2000\\left( {{t}^{2}}+5 \\right)-2000t.2t}{{{\\left( {{t}^{2}}+5 \\right)}^{2}}}$ $=\\frac{-2000{{t}^{2}}+10000}{{{\\left( {{t}^{2}}+5 \\right)}^{2}}}$ với $t\\ge 0$.\nc) Sai.\nTa có ${f}'(t)=0$ $\\Rightarrow -2000{{t}^{2}}+10000=0$ $\\Leftrightarrow {{t}^{2}}=5$ $\\Leftrightarrow t=\\sqrt{5}$ (do $t\\ge 0$).\nVậy nghiệm của phương trình ${f}'(t)=0$ là $t=\\sqrt{5}$.\nd) Sai.\nLập bảng biến thiên của hàm số $f(t)$ trên $\\left[ 0;+\\infty \\right)$ ta được $\\underset{\\left[ 0;+\\infty \\right)}{\\max}\\,f(t)=f\\left( \\sqrt{5} \\right)\\approx 847$ (ppm).\nKhi đó nồng độ khí CO2 cao nhất đo được trong phòng thí nghiệm (làm tròn đến hàng đơn vị) là $847$ (ppm).",
    "ma": "de1.P3.C10",
@@ -267,6 +260,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D04",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -288,10 +282,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong dây chuyền sản xuất sữa chua hiện đại của một nhà máy thực phẩm, từng giọt sữa chua âm thầm chuyển mình dưới tác động của hàng triệu vi khuẩn Lactic, những “nghệ nhân tí hon” kiến tạo vị chua thanh đặc trưng. Mật độ vi khuẩn (số triệu tế bào trên mỗi ml sữa chua) tại thời điểm $t$ (giờ) được kí hiệu là $N\\left( t \\right)$. Ban đầu ($t=0$ giờ), mật độ vi khuẩn đo được là $N\\left( 0 \\right)=10$ triệu tế bào/ml. Do sự thay đổi về nguồn dinh dưỡng (đường lactose giảm) và độ pH (axit lactic tăng) nên tốc độ thay đổi mật độ vi khuẩn $N'\\left( t \\right)$ (đơn vị: triệu tế bào/ ml mỗi giờ) được mô hình hóa bởi công thức $N'\\left( t \\right)=18t-3{{t}^{2}}$ (triệu tế bào/ml mỗi giờ) với $t$ là thời gian tính bằng giờ ($0\\le t\\le 7$).",
    "explanation": "a) Đúng.\nTa có $N'\\left( 1 \\right)=18.1-{{3.1}^{2}}=15$ triệu tế bào/ml giờ.\nb) Sai.\nTa có $\\int{N'\\left( t \\right)dt}=\\int{\\left( 18t-3{{t}^{2}} \\right)dt}=9{{t}^{2}}-{{t}^{3}}+C$ ($C\\in \\mathbb{R}$).\nc) Đúng.\nTa có $N\\left( t \\right)=9{{t}^{2}}-{{t}^{3}}+C$ ($C\\in \\mathbb{R}$).\nMà $N\\left( 0 \\right)=10$ nên $C=10$. Vậy $N\\left( t \\right)=9{{t}^{2}}-{{t}^{3}}+10$.\nTại thời điểm $t=6$, ta có $N\\left( 6 \\right)={{9.6}^{2}}-{{6}^{3}}+10=118$. Ban đầu ($t=0$ giờ), mật độ vi khuẩn đo được là $N\\left( 0 \\right)=10$ triệu tế bào/ml nên tại thời điểm $t=6$, mật độ vi khuẩn đã tăng thêm 108 triệu tế bào/ml.\nd) Đúng.\nTại thời điểm $t=7$ giờ, ta có $N\\left( 7 \\right)={{9.7}^{2}}-{{7}^{3}}+10=108$ nên mật độ vi khuẩn trong 1 ml sữa chua là 108 triệu tế bào/ml.",
    "ma": "de1.P3.C11",
@@ -302,6 +293,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D07",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -337,9 +329,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Vào ngày 01 / 02 / 2023, ông An vay ngân hàng ${200}$ triệu đồng với lãi suất $8\\%$/năm. Ông dùng toàn bộ số tiền vay mua cổ phiếu mã SP với giá ${50}$ nghìn đồng /$1$ cổ phiếu. Đúng sau một năm, để trả nợ ngân hàng ông An bán toàn bộ cổ phiếu đó với giá mỗi cổ phiếu là ${55,6}$ nghìn đồng. Số tiền còn lại của ông An sau khi đã trả nợ cho ngân hàng là bao nhiêu triệu đồng?",
    "explanation": "Đáp số: ${6,4}$.\nSố tiền cả vốn và lãi ông An phải trả cho ngân hàng sau ${1}$ năm là $200\\cdot \\left( 1+8\\% \\right)=216$ (triệu đồng).\nSố cổ phiếu ông An mua là $200000000:50000=4000$ (cổ phiếu)\nSố tiền ông An bán cổ phiếu là $4000\\times 55600=222400000$ (đồng) $=222,4$ (triệu đồng).\nSố tiền còn lại của ông An là $222,4-216=6,4$ (triệu đồng).",
    "short_value": 6.4,
@@ -352,6 +342,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D04",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -363,9 +354,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trạm tàu cứu hộ được đặt tại vị trí $A\\left( 5;\\,0;\\,0 \\right)$ trên một hòn đảo nhỏ trong không gian $Oxyz$ (đơn vị trên mỗi trục được tính bằng $km$), được sử dụng làm trạm cứu hộ, cứu nạn trên biển. Tàu du lịch $B$ đang di chuyển (vận tốc không đổi) trên tuyến đường được mô tả bởi đường thẳng ${{d}_{1}}:\\,\\left\\{ \\begin{aligned} & x=2+t \\\\ & y=1-2t \\\\ & z=0 \\\\ \\end{aligned} \\right.$. Tàu chở hàng $C$ đang di chuyển (vận tốc không đổi) trên tuyến đường vận tải được mô tả bởi đường thẳng ${{d}_{2}}:\\,\\left\\{ \\begin{aligned} & x=2-s \\\\ & y=11+s \\\\ & z=0 \\\\ \\end{aligned} \\right.$. Do thời tiết xấu, nên hai tàu $B$ và $C$ gặp sự cố và cần được tiếp cận khẩn cấp. Trạm cứu hộ điều một tàu cứu hộ xuất phát từ $A$ để lần lượt tiếp cận tàu du lịch $B$ trước, sau đó đến tàu chở hàng $C$. Xét vị trí tối ưu của tàu du lịch $B$ dừng lại và tàu chở hàng $C$ dừng lại sao cho tổng quãng đường tàu cứu hộ cần đi $T=AB+BC+CA$ là nhỏ nhất. Khi đó ${{P}_{\\min }}=\\sqrt{a}\\,\\,\\,\\left( km \\right)$, hãy tính $a+2025$?",
    "explanation": "Chúng ta cần tìm vị trí tối ưu của tàu du lịch $B$ (tương ứng với điểm $B$) và tàu chở hàng $C$ (tương\nứng với điểm $C$) sao cho tổng quãng đường cứu hộ $T=AB+BC+CA$là nhỏ nhất.\nTrong không gian $Oxyz$, ta có:\n+ Hai đường thẳng ${{d}_{1}},\\,{{d}_{2}}$ cùng nằm trong mặt phẳng $\\left( \\alpha \\right):\\,z=0$ và $A\\in \\left( \\alpha \\right)$.\n+ ${{d}_{1}}$ có một véc tơ chỉ phương ${{\\vec{u}}_{1}}=\\left( 1;\\,-2;\\,0 \\right)$; ${{d}_{2}}$ có một véc tơ chỉ phương ${{\\vec{u}}_{2}}=\\left( -1;\\,1;\\,0 \\right)$.\nDo $\\left[ {{{\\vec{u}}}_{1}},\\,{{{\\vec{u}}}_{2}} \\right]\\ne \\vec{0}$ nên ${{d}_{1}}$ cắt ${{d}_{2}}$.\n+ Gọi ${{A}_{1}},\\,{{A}_{2}}$ lần lượt là điểm đối xứng của $A$ qua ${{d}_{1}}$ và ${{d}_{2}}$.\n+ Gọi $\\left( P \\right)$ là mặt phẳng qua $A$ và vuông góc với ${{d}_{1}}$ $\\Rightarrow \\,\\,\\left( P \\right):x-2y-5=0$.\n+ Gọi $I=\\left( P \\right)\\cap {{d}_{1}}$, thì tọa độ của $I$ là nghiệm của hệ ${{d}_{1}}:\\,\\left\\{ \\begin{aligned} & x=2+t \\\\ & y=1-2t \\\\ & z=0 \\\\ & x-2y-5=0 \\\\ \\end{aligned} \\right.$$\\Rightarrow I\\left( 3;\\,-1;\\,0 \\right)$ $\\Rightarrow {{A}_{1}}\\left( 1;\\,-2;\\,0 \\right)$.\n+ Gọi $\\left( Q \\right)$là mặt phẳng qua $A$ và vuông góc với ${{d}_{2}}$ $\\Rightarrow \\,\\left( Q \\right):-x+y+5=0$.\n+ Gọi $J=\\left( Q \\right)\\cap {{d}_{2}}$, thì tọa độ của $J$ là nghiệm của hệ $\\left\\{ \\begin{aligned} & x=2-s \\\\ & y=11+s \\\\ & z=0 \\\\ & -x+y+5=0 \\\\ \\end{aligned} \\right.$ $\\Rightarrow J\\left( 9;\\,4;\\,0 \\right)$ $\\Rightarrow {{A}_{2}}\\left( 13;\\,8;\\,0 \\right)$.\n+ Khi đó $T=AB+BC+CA={{A}_{1}}B+BC+C{{A}_{2}}\\ge {{A}_{1}}{{A}_{2}}$\n$\\Rightarrow \\,T$ đạt GTNN khi $T={{A}_{1}}{{A}_{2}}$ $\\Rightarrow {{P}_{\\min }}={{A}_{1}}{{A}_{2}}=\\sqrt{244}\\,\\,\\,\\left( km \\right)$. Vậy $a+2025=2269$\nDấu bằng xẩy ra khi $B,\\,C,\\,{{A}_{1}},\\,{{A}_{2}}$ thẳng hàng.",
    "short_value": 2269,
@@ -378,6 +367,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B2.D03",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -437,6 +427,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D10",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -472,6 +463,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D07",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -613,10 +605,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[NB – TH – VD – VD] Một radar phòng không được đặt tại vị trí gốc tọa độ $O(0;0;0)$ trong không gian $Oxyz$, mỗi đơn vị̣ trên các trục tọa độ ứng với 1 km. Radar này có khả năng phát hiện các mục tiêu bay trong bán kính 250 km. Một máy bay không người lái (UAV) đang bay thẳng đều từ vị trí điểm $A(300;-400;100)$ đến điểm $B(-300;400;100)$. UAV bay với vận tốc không đổi 900 $\\text{km}/\\text{h}$ và mang theo thiết bị gây nhiễu chủ động có tầm hiệu quả 50 km tính từ UAV.\n(Tham khảo tù Stimson’s Introduction to Airborne Radar, 3rd Edition,\nGeorge W. Stimson, Hugh D. Griffiths, Christopher Baker, Dave Adamy)\n[[IMG:image26.png]]",
    "explanation": "a) Đúng.\nDo $OA=100\\sqrt{26}>250$nên Radar không thể phát hiện UAV khi UAV ở vị trí $A$.\nb) Sai.\nTa có đường bay của UAV đi qua $A(300;-400;100)$ và nhận $\\overrightarrow{u}=\\left( -3;4;0 \\right)\\text{//}\\overrightarrow{AB}\\left( -600;800;0 \\right)$làm một véc-tơ chỉ phương. Suy ra phương trình tham số của đường bay UAV là\n$AB:\\left\\{ \\begin{array}{llllll} x=300-3t \\\\ y=-400+4t,t\\in \\mathbb{R}\\text{ } \\\\ z=100 \\\\ \\end{array} \\right.$.\nc) Sai.\nVì $d(O,AB)=\\frac{\\left| \\left[ \\overrightarrow{u},\\overrightarrow{OA} \\right] \\right|}{\\left| \\overrightarrow{u} \\right|}=\\frac{500}{5}=100>50$ nên trong suốt quá trình bay, sẽ không có thời điểm nào UAV gây nhiễu được radar.\nd) Đúng.\n[[IMG:image27.png]]\nMô phỏng như hình vẽ, trong khoảng thời gian 30 phút ta có:\nQuãng đường Rada có thể theo dõi UAV là\n$\\begin{aligned} & MN=2HN=2\\sqrt{{{250}^{2}}-{{100}^{2}}} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=100\\sqrt{21}. \\\\ \\end{aligned}$\nSuy ra thời gian Rada có thể theo dõi UAV là\n$\\frac{100\\sqrt{21}}{900}\\approx 0,509>0,5.$\nVậy Radar có thể theo dõi UAV trong khoảng thời gian hơn 30 phút.",
    "ma": "de1.P3.C23",
@@ -627,6 +616,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -653,7 +643,7 @@
     "dung_sai_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "[NB – TH – TH – VD] Một bể chứa dầu ban đầu có $50.000$ lít dầu. Gọi $V\\left( t \\right)$ là thể tích dầu (lít) trong bể tại thời điểm $t$, trong đó $t$ tính theo giờ $0\\le t\\le 24$. Trong quá trình bơm dầu vào bể, thể tích dầu tăng theo tốc độ được biểu diễn bởi hàm số ${V}'\\left( t \\right)=k.\\sqrt{t}$, với $k$ là hằng số dương. Sau 4 giờ bơm liên tục, thể tích dầu trong bể đạt $58.000$ lít.\n[[IMG:image28.png]]",
-   "explanation": "a) Đúng.\nTa có $V\\left( t \\right)=\\int{V'\\left( t \\right)dt=\\int{k.\\sqrt{t}dt}}$.\nVậy hàm số $V\\left( t \\right)$ là một nguyên hàm của hàm số $f\\left( t \\right)=k.\\sqrt{t}$.\nb) Đúng.\nTa có $V\\left( t \\right)=\\int{V'\\left( t \\right)dt=\\int{k.\\sqrt{t}dt}}=\\frac{2k}{3}.t\\sqrt{t}+C$, với $0\\le t\\le 24$ và $k,\\,\\,C$ là các hằng số.\nc) Sai.\nDo ban đầu bể chứa dầu ban đầu có $50.000$ lít dầu nên $V\\left( 0 \\right)=50\\,000\\Rightarrow C=50\\,000$.\nMặt khác sau 4 giờ bơm liên tục, thể tích dầu trong bể đạt $58.000$ lít nên ta có :\n$V\\left( 4 \\right)=\\frac{2k}{3}.4\\sqrt{4}+50.000=58.000\\Leftrightarrow k=1.500$.\nVậy $V\\left( t \\right)=1\\,000.t\\sqrt{t}+50\\,000$.\nSau 16 giờ bơm liên tục, thể tích dầu trong bể đạt được : $V\\left( 16 \\right)=1\\,000.16\\sqrt{6}+50\\,000=114\\,000$ lít.\nd) Đúng.\nTrong quá trình bơm dầu, nếu sau mỗi giờ lượng dầu bị rò rỉ đều đặn với tốc độ $500$ lít/giờ, thì tại thời điểm $t$ bằng 9 giờ, thể tích dầu trong bể là\n$V\\left( 9 \\right)=1\\,000.9\\sqrt{9}+50\\,000-500.9=72\\,500$ lít.",
+   "explanation": "a) Đúng.\nTa có $V\\left( t \\right)=\\int{V'\\left( t \\right)dt=\\int{k.\\sqrt{t}dt}}$.\nVậy hàm số $V\\left( t \\right)$ là một nguyên hàm của hàm số $f\\left( t \\right)=k.\\sqrt{t}$.\nb) Đúng.\nTa có $V\\left( t \\right)=\\int{V'\\left( t \\right)dt=\\int{k.\\sqrt{t}dt}}=\\frac{2k}{3}.t\\sqrt{t}+C$, với $0\\le t\\le 24$ và $k,\\,\\,C$ là các hằng số.\nc) Sai.\nDo ban đầu bể chứa dầu ban đầu có $50.000$ lít dầu nên $V\\left( 0 \\right)=50\\,000\\Rightarrow C=50\\,000$.\nMặt khác sau 4 giờ bơm liên tục, thể tích dầu trong bể đạt $58.000$ lít nên ta có :\n$V\\left( 4 \\right)=\\frac{2k}{3}.4\\sqrt{4}+50.000=58.000\\Leftrightarrow k=1.500$.\nVậy $V\\left( t \\right)=1\\,000.t\\sqrt{t}+50\\,000$.\nSau 16 giờ bơm liên tục, thể tích dầu trong bể đạt được : $V\\left( 16 \\right)=1\\,000.16\\cdot 4+50\\,000=114\\,000$ lít.\nd) Đúng.\nTrong quá trình bơm dầu, nếu sau mỗi giờ lượng dầu bị rò rỉ đều đặn với tốc độ $500$ lít/giờ, thì tại thời điểm $t$ bằng 9 giờ, thể tích dầu trong bể là\n$V\\left( 9 \\right)=1\\,000.9\\sqrt{9}+50\\,000-500.9=72\\,500$ lít.",
    "ma": "de1.P3.C24",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -662,6 +652,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B1.D06",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -755,10 +746,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Đường ống dẫn dầu trên không là hệ thống đường ống được treo trên các giá đỡ hoặc cột cao, dùng để vận chuyển dầu thô hoặc các sản phẩm dầu mỏ từ nơi này đến nơi khác mà không cần chôn dưới lòng đất. Hệ thống này thường được sử dụng trong các khu vực có địa hình khó khăn, vùng băng giá, rừng rậm., những nơi mà việc đào đường ống ngầm không khả thi.\n[[IMG:image30.png]]\nVới hệ trục tọa độ $Oxyz$thích hợp, mặt đất là mặt phẳng $(O x y)$, đơn vị trên mỗi trục là mét, người ta thiết lập một đường ống dẫn dầu trên không dọc theo đường thẳng $d:\\left\\{\\begin{array}{l}x=0 \\\\ y=t \\\\ z=20\\end{array}\\right.$ ( $t$ là tham số).\nVì địa hình phức tạp, người ta chọn điểm $A(15 ; 10 ; 15)$ để làm điểm trung chuyển dầu từ mặt đất đến đường ống này.",
    "explanation": "| a) Đúng | b) Sai | c) Đúng | d) Sai |\n|---|---|---|---|\na) Đúng. Vì đường ống dẫn dầu trên không dọc theo đường thẳng $d:\\left\\{\\begin{array}{l}x=0 \\\\ y=t \\\\ z=20\\end{array}\\right.$, trong đó điểm $A\\left( 0  \\ ;\\ 0\\ ;\\ 20 \\right)\\in Oz$ thuộc đường thẳng d và có véc tơ chỉ phương là $\\overrightarrow{u}\\left( 0\\ ;\\ 1\\ ;\\ 0 \\right)=\\overrightarrow{j}\\in Oy$. Do đó, đường ống dẫn dầu nằm trên mặt phẳng $(O y z)$.\nb) Sai. Vì điểm đối xứng với $A\\left( 15\\ ;10;\\ 15 \\right)$ qua mặt phẳng $(O x y)$ có tọa độ là ${{A}^{\\prime }}(15;10;-15)$.\nc) Đúng. Vì $B(0;b;20)$ nằm trên đường $d$ nên tọa độ phải có dạng $x=0$, $z=20$, $y$ tùy ý.\nGọi $C(m;n;0)$ là điểm trên mặt đất. Ta cần tổng các đoạn đường $AB + BC + AC$ nhỏ nhất.\nTổng độ dài: $T=AB+BC+AC\\ \\min $ khi $T=AB+CB+CA'\\ge AB+A'B$ hay $A',C,B$ thẳng hàng.\nKhi đó:\n$\\left\\{ \\begin{matrix} A{{B}_{\\min }}\\ khi\\ AB\\bot d \\\\ A'{{B}_{\\min }}\\ khi\\ A'B\\bot d \\\\ \\end{matrix} \\right.\\Leftrightarrow d\\bot \\left( ABA' \\right)$\nSuy ra $b=10$ (Vì ${{y}_{B}}={{y}_{A}}=10$)\nVì $C(m;n;0)$ là điểm trên mặt đất và $C$ là giao điểm $A'B$ và $\\left( \\text{O}xy \\right)$ nên ta xét hệ sau:\nPhương trình đường thẳng $A'B$ là $\\left\\{ \\begin{matrix} x=-3t \\\\ y=10 \\\\ z=20+7t \\\\ \\end{matrix} \\right.$ giao với $\\left( \\text{O}xy \\right)$ nên $20+7t=0\\Leftrightarrow t=\\frac{-20}{7}$\nDo đó tọa độ điểm $C$ là $\\left\\{ \\begin{matrix} x=\\frac{60}{7} \\\\ y=10 \\\\ z=0 \\\\ \\end{matrix} \\right.$ hay $C\\left( \\frac{60}{7}\\ ;\\ 10\\ ;\\ 0 \\right)$\nTheo đề bài ta được: $m=\\frac{60}{7},\\ n=10,\\ b=10$ nên $m+n+b=\\frac{60}{7}+10+10=\\frac{200}{7}$\nd) Sai. Ta có: $A(15 ; 10 ; 15)$,${{A}^{\\prime }}(15;10;-15)$,$B(0;10;20)$\n$AB=\\sqrt{{{15}^{2}}+{{5}^{2}}}=5\\sqrt{10}$\n$A'B=\\sqrt{{{15}^{2}}+{{35}^{2}}}=5\\sqrt{58}$\nVậy $T=AB+A'B=5\\sqrt{10}+5\\sqrt{58}=53,89$.",
    "ma": "de1.P3.C28",
@@ -769,6 +757,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B2.D08",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -790,10 +779,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cây cà chua khi trồng có chiều cao $5cm$. Tốc độ tăng chiều cao của cây cà chua sau khi trồng được cho bởi hảm số $v\\left( t \\right)=-0,1{{t}^{3}}+{{t}^{2}}$, trong đó $t$ tính theo tuần, $v\\left( t \\right)$ tính theo $cm/$tuần. Gọi $h\\left( t \\right)$ (tính bằng $cm$) là độ cao của cây cà chua ở tuần thứ $t$ (Nguồn: A. Bigalke et al., Grundkurs ma-1, Cornelsen 2016).",
    "explanation": "| a) Đúng | b) Đúng | c) Sai | d) Đúng |\n|---|---|---|---|\na) Ta có: $h'\\left( t \\right)=v\\left( t \\right).$\nSuy ra a) Đúng.\nb) Ta có: $h\\left( t \\right)=\\int{\\left( -0,1{{t}^{3}}+{{t}^{2}} \\right)dt=-0,1\\frac{{{t}^{4}}}{4}+\\frac{{{t}^{3}}}{3}+C=-\\frac{{{t}^{4}}}{40}+\\frac{{{t}^{3}}}{3}+C}$\nCây cà chua khi bắt đầu trồng có chiều cao 5 cm nên $h\\left( 0 \\right)=5\\Rightarrow C=5$\nVậy $h\\left( t \\right)=-\\frac{{{t}^{4}}}{40}+\\frac{{{t}^{3}}}{3}+5$\nSuy ra b) Đúng.\nc) Xét hàm số $h\\left( t \\right)=-\\frac{{{t}^{4}}}{40}+\\frac{{{t}^{3}}}{3}+5$\nTa có: $h'\\left( t \\right)=v\\left( t \\right)=-0,1{{t}^{3}}+{{t}^{2}}$\n$h'\\left( t \\right)=0\\Rightarrow \\left[ \\begin{aligned} & t=0 \\\\ & t=10 \\\\ \\end{aligned} \\right.$\nBảng biến thiên\n[[IMG:image31.png]]\nVậy giai đoạn tăng chiều cao của cây cà chua kéo dài 10 tuần.\nSuy ra c) Sai.\nd) Từ bảng biến thiên ở câu c, ta thấy hàm số $h\\left( t \\right)$ đạt giá trị lớn nhất bằng $\\frac{265}{3}\\approx 88,3$\nSuy ra d) Đúng.",
    "ma": "de1.P3.C29",
@@ -804,6 +790,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -941,16 +928,15 @@
    "tf_ans": {
     "a": true,
     "b": false,
-    "c": false,
-    "d": true
+    "c": true,
+    "d": false
    },
    "answer": null,
    "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan"
    ],
    "question": "Một tên lửa phóng thẳng đứng từ mặt đất với vận tốc ban đầu ${{v}_{0}}=50\\,m/s$. Gia tốc của tên lửa (do lực đẩy và trọng lực) phụ thuộc vào thời gian theo công thức $a\\left( t \\right)=10-2t\\left( m/{{s}^{2}} \\right)$. Sau thời gian $10\\,s$ tên lửa hết nhiên liệu và tiếp tục bay với gia tốc $a=-9,8\\,m/{{s}^{2}}$.",
-   "explanation": "| Câu 1 | Giải chi tiết (giải thích) |\n|---|---|\n| a) Đ | Chọn mốc thời gian tại thời điểm ${{t}_{0}}=0$ là lúc tên lửa được phóng lên với vận tốc ban đầu ${{v}_{0}}=50\\,m/s$, $v\\left( 0 \\right)=50$ và $s\\left( 0 \\right)=0$. Nguyên hàm của gia tốc là vận tốc nên ta có vận tốc của tên lửa tại thời điểm $t$ là $v\\left( t \\right)=\\int{a\\left( t \\right)}dt=\\int{(10-2t)dt=10t-{{t}^{2}}+C}$. Do $v\\left( 0 \\right)=50$ nên $C=50$. Suy ra $v\\left( t \\right)=10t-{{t}^{2}}+50$. Vận tốc tại thời điểm $t=10\\,s$ là $v\\left( 10 \\right)=10.10-{{10}^{2}}+50=50\\,\\left( m/s \\right)$. |\n| b) s | Nguyên hàm của vận tốc là quãng đường nên ta có độ cao của tên lửa tại thời điểm $t$ là $s\\left( t \\right)=\\int{v\\left( t \\right)}dt=\\int{(10t-{{t}^{2}}+50)dt}=5{{t}^{2}}-\\frac{{{t}^{3}}}{3}+50t+{{C}_{1}}$. Do $s\\left( 0 \\right)=0$ nên ${{C}_{1}}=0$. Suy ra $s\\left( 10 \\right)={{5.10}^{2}}-\\frac{{{10}^{3}}}{3}+50.10=\\frac{2000}{3}$. Độ cao tại thời điểm $t=10\\,s$ là $\\frac{2000}{3}\\left( m \\right)$. |\n| c) s | $s\\left( t \\right)=-\\frac{{{t}^{3}}}{3}+5{{t}^{2}}+50t$. $\\begin{aligned} & {s}'\\left( t \\right)=-{{t}^{2}}+10t+50 \\\\ & {s}'\\left( t \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & t=5+5\\sqrt{3}\\,(n) \\\\ & t=5-5\\sqrt{3}\\,(l) \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$ ựa Bảng biến thiên của hàm số $s(t)$ trên $\\left( 0;+\\infty \\right)$ [[IMG:image36.png]] Từ BBT ta có giá trị lớn nhất của $s\\left( t \\right)=-\\frac{{{t}^{3}}}{3}+5{{t}^{2}}+50t$ đạt tại $t=5+5\\sqrt{3}\\approx 14$. Tên lửa đạt độ cao lớn nhất tại thời điểm $t=14\\,s$ (làm tròn kết quả đến hàng đơn vị). |\n| d) Đ | $s\\left( 5+5\\sqrt{3} \\right)=-\\frac{{{\\left( 5+5\\sqrt{3} \\right)}^{3}}}{3}+5{{\\left( 5+5\\sqrt{3} \\right)}^{2}}+50\\left( 5+5\\sqrt{3} \\right)\\approx 766$. Độ cao lớn nhất tên lửa đạt được (làm tròn kết quả đến hàng đơn vị) là $766\\,m$. |",
+   "explanation": "| Câu 1 | Giải chi tiết (giải thích) |\n|---|---|\n| a) Đ | Chọn mốc thời gian tại thời điểm ${{t}_{0}}=0$ là lúc tên lửa được phóng lên với vận tốc ban đầu ${{v}_{0}}=50\\,m/s$, $v\\left( 0 \\right)=50$ và $s\\left( 0 \\right)=0$. Nguyên hàm của gia tốc là vận tốc nên ta có vận tốc của tên lửa tại thời điểm $t$ là $v\\left( t \\right)=\\int{a\\left( t \\right)}dt=\\int{(10-2t)dt=10t-{{t}^{2}}+C}$. Do $v\\left( 0 \\right)=50$ nên $C=50$. Suy ra $v\\left( t \\right)=10t-{{t}^{2}}+50$. Vận tốc tại thời điểm $t=10\\,s$ là $v\\left( 10 \\right)=10.10-{{10}^{2}}+50=50\\,\\left( m/s \\right)$. |\n| b) s | Nguyên hàm của vận tốc là quãng đường nên ta có độ cao của tên lửa tại thời điểm $t$ là $s\\left( t \\right)=\\int{v\\left( t \\right)}dt=\\int{(10t-{{t}^{2}}+50)dt}=5{{t}^{2}}-\\frac{{{t}^{3}}}{3}+50t+{{C}_{1}}$. Do $s\\left( 0 \\right)=0$ nên ${{C}_{1}}=0$. Suy ra $s\\left( 10 \\right)={{5.10}^{2}}-\\frac{{{10}^{3}}}{3}+50.10=\\frac{2000}{3}$. Độ cao tại thời điểm $t=10\\,s$ là $\\frac{2000}{3}\\left( m \\right)$. |\n| c) Đ | Sau $10\\,s$ het nhien lieu, ten lua bay voi $a=-9,8\\,m/s^2$; $v(10)=50$ nen van toc trieu tieu sau $50/9,8\\approx 5,10\\,s$ nua, tuc tai $t\\approx 15,10\\,s$, lam tron den hang don vi la $15\\,s$. |\n| d) S | Do cao lon nhat $=s(10)+\\frac{50^2}{2\\cdot 9,8}=\\frac{2000}{3}+\\frac{2500}{19,6}\\approx 666,67+127,55\\approx 794,22$, lam tron $794\\,m$, khong phai $766\\,m$. (So $766$ la ket qua khi keo dai cong thuc $a(t)=10-2t$ ra sau $t=10\\,s$, trai voi gia thiet het nhien lieu.) |",
    "ma": "de1.P3.C35",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -959,6 +945,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -976,16 +963,15 @@
    "tf_ans": {
     "a": true,
     "b": true,
-    "c": false,
-    "d": false
+    "c": true,
+    "d": true
    },
    "answer": null,
    "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan"
    ],
    "question": "Một tàu thăm dò tự hành (AUV) đang hoạt động dưới biển sâu. Hệ tọa độ ${Oxyz}$ được thiết lập với mặt nước biển yên tĩnh là mặt phẳng $(Oxy)$, trục ${Oz}$ hướng thẳng đứng xuống dưới (độ sâu $z > 0$), đơn vị tính bằng hectomét (hm). AUV bắt đầu hành trình từ vị trí $A(8;6;1)$ và dự định di chuyển theo đường thẳng đến vị trí cuối $B(4;-2;2)$. Trong hành trình của mình AUV cần tránh một khu vực hình cầu $(S)$, tâm tại điểm $K(2;-4;2)$, bán kính $R = 1$ hm (khu vực có thiết bị nhạy cảm).",
-   "explanation": "| Câu 2 | Giải chi tiết (giải thích) |\n|---|---|\n| a) Đ | Ta có AUV di chuyển từ $A(8;6;1)$ đến $B(4;-2;2)$. Vector chỉ phương: $\\overrightarrow{AB}\\text{ }=\\text{ }\\left( -4,\\text{ }-8,\\text{ }1 \\right)$ Phương trình tham số đường thẳng AB: $\\left\\{ \\begin{aligned} & x\\text{ }=\\text{ }8\\text{ }-\\text{ }4t\\text{ } \\\\ & y\\text{ }=\\text{ }6\\text{ }-\\text{ }8t \\\\ & z\\text{ }=\\text{ }1\\text{ }+\\text{ }t \\\\ \\end{aligned} \\right.$ hay $\\dfrac{x - 8}{-4} = \\dfrac{y - 6}{-8} = \\dfrac{z - 1}{1}$ |\n| b) Đ | Mặt cầu $(S)$ tâm tại điểm $K(2;-4;2)$, bán kính $R = 1$ nên có phương trình $(x - 2)^2 + (y + 4)^2 + (z - 2)^2 = 1$. |\n| c) s | Khoảng cách từ điểm $K(2;-4;2)$ đến đường thẳng AB: $\\overrightarrow{AK}\\text{ }=\\text{ }\\left( -6,\\text{ }-10,\\text{ }1 \\right)$ $\\overrightarrow{AB}\\text{ }=\\text{ }\\left( -4,\\text{ }-8,\\text{ }1 \\right)$ $\\left[ \\overrightarrow{AK}\\text{ , }\\overrightarrow{AB} \\right]\\text{ }=\\text{ }\\left( -2,\\text{ }2,\\text{ }8 \\right)$ $\\left\\| \\left[ \\overrightarrow{AK}\\text{ , }\\overrightarrow{AB} \\right] \\right\\|\\text{ }=\\text{ }\\sqrt{72}$, $\\left\\| \\overrightarrow{AB} \\right\\|\\text{ }=\\text{ }9$ $d\\text{ }=\\text{ }\\frac{\\sqrt{72}}{9}\\text{ }=\\text{ }\\frac{2\\sqrt{2}}{3}\\approx \\text{ }0,943\\text{ }<\\text{ }1$ Trên hành trình AUV luôn cách tâm ${K}$ một khoảng nhỏ hơn bán kính ${R}$. |\n| d) s | Vì $d < R$ nên hành trình của AUV đi vào vùng có thiết bị nhạy cảm. |",
+   "explanation": "| Câu 2 | Giải chi tiết (giải thích) |\n|---|---|\n| a) Đ | Ta có AUV di chuyển từ $A(8;6;1)$ đến $B(4;-2;2)$. Vector chỉ phương: $\\overrightarrow{AB}\\text{ }=\\text{ }\\left( -4,\\text{ }-8,\\text{ }1 \\right)$ Phương trình tham số đường thẳng AB: $\\left\\{ \\begin{aligned} & x\\text{ }=\\text{ }8\\text{ }-\\text{ }4t\\text{ } \\\\ & y\\text{ }=\\text{ }6\\text{ }-\\text{ }8t \\\\ & z\\text{ }=\\text{ }1\\text{ }+\\text{ }t \\\\ \\end{aligned} \\right.$ hay $\\dfrac{x - 8}{-4} = \\dfrac{y - 6}{-8} = \\dfrac{z - 1}{1}$ |\n| b) Đ | Mặt cầu $(S)$ tâm tại điểm $K(2;-4;2)$, bán kính $R = 1$ nên có phương trình $(x - 2)^2 + (y + 4)^2 + (z - 2)^2 = 1$. |\n| c) Đ | Chan duong vuong goc tu $K$ xuong duong thang $AB$ ung voi $t=\\frac{(\\overrightarrow{AK}\\cdot\\overrightarrow{AB})}{|\\overrightarrow{AB}|^2}$ theo chieu nguoc lai, tinh theo $A+t\\overrightarrow{AB}$ la $t=105/81\\approx 1,30>1$, tuc nam ngoai doan $AB$ (vuot qua $B$). Tren doan $AB$ khoang cach den $K$ giam dan ve $B$, cuc tieu tai $B$: $|BK|=2\\sqrt{2}\\approx 2,83>1=R$. Vay tren hanh trinh AUV luon cach $K$ mot khoang lon hon $R$. |\n| d) Đ | Vi khoang cach nho nhat tren doan $AB$ la $2\\sqrt{2}>1=R$ nen hanh trinh khong di vao hinh cau $(S)$. (Khoang cach $2\\sqrt{2}/3\\approx 0,94$ trong loi giai cu la khoang cach den duong thang vo han, khong phai den doan $AB$.) |",
    "ma": "de1.P3.C36",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -994,6 +980,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D08",
    "dang_toan_web": "Các dạng toán khác"
@@ -1029,9 +1016,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Chuẩn bị cho đêm hội diễn văn nghệ chào đón năm mới, nhóm bạn Lan đã làm một chiếc mũ “cách điệu” cho ông già Noel có dáng một khối tròn xoay. Mặt cắt qua trục của chiếc mũ như hình vẽ bên dưới. Biết rằng $OO'=6cm$, $OA=10cm$,$OB=20cm$, đường cong $AB$ là một phần của parabol có đỉnh là điểm $B$. Tính thể tích của chiếc mũ (làm tròn đến hàng đơn vị).\n[[IMG:image37.png]]",
    "explanation": "Chọn hệ trục tọa độ như hình vẽ:\n[[IMG:image38.png]]\nParabol $\\left( P \\right)$ đi qua $2$ điểm $A,B$ và có $B$ là đỉnh $\\Rightarrow $ $\\left( P \\right)$ đi qua $A\\left( 20;10 \\right)$ và $B\\left( 0;0 \\right)$\nTa có $\\left( P \\right):y=a{{x}^{2}}+bx+c$.\nVì $\\left( P \\right)$qua $B\\left( 0;0 \\right)$ $\\Rightarrow c=0.$\nVì $\\left( P \\right)$qua $A\\left( 20;10 \\right)$ $\\Rightarrow 10={{20}^{2}}a+20b$ $\\left( 1 \\right)$.\nMà $B$ là đỉnh của parabol $\\left( P \\right)$ nên $\\frac{-b}{2a}=0\\Rightarrow b=0.$\nThay $b=0$ vào $\\left( 1 \\right)$ $\\Rightarrow a=\\frac{1}{40}$.\n$\\Rightarrow \\left( P \\right):y=\\frac{{{x}^{2}}}{40}$.\n$\\Rightarrow V=\\pi \\int\\limits_{0}^{20}{{{\\left( \\frac{{{x}^{2}}}{40} \\right)}^{2}}dx}+\\pi \\int\\limits_{20}^{26}{{{\\left( 10 \\right)}^{2}}dx}=1000\\pi \\approx 3142\\left( c{{m}^{3}} \\right)$.\nVậy thể tích của chiếc mũ là: $3142$ $\\left( c{{m}^{3}} \\right)$.",
    "short_value": 3142,
@@ -1044,6 +1029,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -1055,9 +1041,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Anh Tuấn muốn xây một hố ga không có nắp đậy dạng hình hộp chữ nhật có thể tích chứa được $3200d{{m}^{3}}$, tỉ số giữa chiều cao và chiều rộng của hố ga bằng $2$. Xác định diện tích đáy của hố ga (theo đơn vị: $d{{m}^{2}}$) để khi xây hố tiết kiệm được nguyên liệu nhất.",
    "explanation": "Gọi chiều rộng, chiều dài của hố ga lần lượt là $x,y$ với $x,y>0$.\nTheo đề bài ta có chiều cao của hố ga là $2x$.\nThể tích của hố ga là $V=x.y.2x\\Leftrightarrow 2{{x}^{2}}y=3200\\Rightarrow y=\\frac{1600}{{{x}^{2}}}$.\nVì hố ga không có nắp nên tổng diện tích các mặt của hố ga sẽ là :\n$S=xy+2x.2x+2x.2y=4{{x}^{2}}+5xy=4{{x}^{2}}+\\frac{8000}{x}=4{{x}^{2}}+\\frac{4000}{x}+\\frac{4000}{x}\\ge 1200$.\nDấu $''=''$ xảy ra khi $4{{x}^{2}}=\\frac{4000}{x}\\Rightarrow x=10\\Rightarrow y=16$.\nĐể xây hố ga tốn ít nguyên liệu nhất thì $S$ phải nhỏ nhất. Tức là chiều rộng của hố ga phải bằng $10dm$,chiều dài của hố ga bằng $16dm$ . Khi đó diện tích đáy của hố ga sẽ là $160d{{m}^{2}}$.",
    "short_value": 160,
@@ -1070,6 +1054,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -1196,10 +1181,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian với hệ toạ độ Oxyz (đơn vị trên các trục là km) mặt đất được coi là mặt phẳng\n(Oxy) có phương trình $z=0$. Tại gần sân bay có một máy bay dân đụng đang thực hiện quá trình hạ cánh bắt đầu từ vị trí điểm $A\\left( 38;-16;6 \\right)$và bay thẳng đến vị trí điểm $B\\left( -2;4;1 \\right)$gần đường băng. Máy bay duy trì tốc độ không đổi $270$km/h trong suốt quá trình hạ cánh.",
    "explanation": "a) Đúng\n$\\overrightarrow{AB}=\\left( -40;20;-5 \\right)=5\\left( -8;4;-1 \\right)$\nĐường thẳng d đi qua $A\\left( 38;-16;6 \\right)$và có véc tơ chỉ phương $\\overrightarrow{u}=\\left( -8;4;-1 \\right)$\nSuy ra phương trình tham số của d là\n$\\left\\{ \\begin{aligned} & x=38-8t \\\\ & y=-16+4t \\\\ & z=6-t \\\\ \\end{aligned} \\right.$\nb) Sai\n$\\overrightarrow{CA}=\\left( -8;4;-1 \\right);\\,\\,\\overrightarrow{CB}=\\left( -48;24;-6 \\right)=6\\overrightarrow{CA}$\nSuy ra C nằm ngoài đoạn AB, nên quá trình hạ cánh máy bay không đi qua vị trí C\nc) Sai\nĐường thẳng d có véc tơ chỉ phương $\\overrightarrow{u}=\\left( -8;4;-1 \\right)$, mặt đất được coi là mặt phẳng (Oxy) có phương trình $z=0$, có véc tơ pháp tuyến $\\overrightarrow{n}=\\left( 0;0;1 \\right)$\nGọi $\\alpha $là góc giữa d và (Oxy).\nTa có $\\sin \\alpha =\\frac{\\left| \\overrightarrow{u}.\\overrightarrow{n} \\right|}{\\left| \\overrightarrow{u} \\right|.\\left| \\overrightarrow{n} \\right|}=\\frac{1}{9}\\Rightarrow \\alpha \\approx 6,{{37}^{O}}>{{5}^{o}}$\nd) Đúng\n$AB=45$km\nThời gian máy bay đi từ A đến B là $\\frac{45}{270}=\\frac{1}{6}(h)=10(p)$\nSau 5 phút may bay đi đến vị trí điểm M thoả mãn M là trung điểm của AB.\nSuy ra $M\\left( 18;-6;\\frac{7}{2} \\right)$",
    "ma": "de1.P3.C44",
@@ -1210,6 +1192,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -1279,10 +1262,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Khi gắn hệ trục tọa độ Oxyz (đơn vị trên mỗi trục tính theo kilômét) vào một sân bay, mặt phẳng (Oxy) trùng với mặt sân bay, một máy bay đang ở vị trí $A\\left( 4;-5;1 \\right)$ sẽ hạ cánh khẩn cấp ở vị trí $B\\left( 1;2;0 \\right)$ trên đường băng EG.\n[[IMG:image44.png]]",
    "explanation": "| a) | b) | c) | d) |\n|---|---|---|---|\n| Đ | S | Đ | Đ |\na) Ta có $\\overrightarrow{AB}=\\left( -3;7;-1 \\right)$ là véctơ chỉ phương của đường thẳng AB. Do đó phương trình đường thẳng AB là $\\left\\{ \\begin{aligned} & x=4-3t \\\\ & y=-5+7t \\\\ & z=1-t \\\\ \\end{aligned} \\right.$ (t phút). Vậy a) đúng.\nb) Ta có $\\overrightarrow{AB}=\\left( -3;7;-1 \\right)$ là véctơ chỉ phương của đường thẳng AB và $\\overrightarrow{k}=\\left( 0;0;1 \\right)$ là véctơ pháp tuyến của mặt phẳng (Oxy).\nKhi đó $\\sin \\left( AB,\\left( Oxy \\right) \\right)=\\left| \\cos \\left( \\overrightarrow{AB},\\overrightarrow{k} \\right) \\right|=\\frac{\\left| -1 \\right|}{\\sqrt{{{\\left( -3 \\right)}^{2}}+{{7}^{2}}+{{\\left( -1 \\right)}^{2}}}.\\sqrt{{{1}^{2}}}}=\\frac{\\sqrt{59}}{59}.$\nSuy ra $\\left( AB,\\left( Oxy \\right) \\right)\\approx 7,48{}^\\circ \\in \\left( 2,5{}^\\circ ;9{}^\\circ \\right)$ Vậy b) sai.\nc) Phương trình mặt phẳng (P) là $\\frac{x}{5}+\\frac{y}{-1}+\\frac{z}{2}=1\\Leftrightarrow 2x-10y+5z-10=0.$\nTa có C là giao điểm của đường thẳng AB và mặt phẳng (P) nên $C\\in AB$ khi đó toạ độ điểm $C$ là $C\\left( 4-3t;-5+7t;1-t \\right)$ và $C\\in \\left( P \\right)$ ta được: $2(4-3t)-10(-5+7t)+5(1-t)-10=0\\Leftrightarrow -81t+53=0\\Leftrightarrow t=\\frac{53}{81}.$\nSuy ra $C\\left( \\frac{55}{27};-\\frac{34}{81};\\frac{28}{81} \\right).$ Do đó, điểm C có độ cao bằng $\\frac{28}{81}\\,\\,(km)\\approx 346\\,\\,(m).$\nVậy c) đúng\nd) Gọi $I$ là điểm ở độ cao $150m$ và $I\\in AB$ nên toạ độ điểm $I$ là $I\\left( 4-3a;-5+7a;1-a \\right)$.\nVì $I$ ở độ cao $150m$ nên khoảng cách từ $I$ đến mặt phẳng $\\left( Oxy \\right)$ là $150m=0,15km$.\n$d\\left( I,\\left( Oxy \\right) \\right)=0,15\\Leftrightarrow \\frac{\\left| 1-a \\right|}{\\sqrt{{{0}^{2}}+{{0}^{2}}+{{1}^{2}}}}=0,15\\Leftrightarrow \\left| 1-a \\right|=0,15\\Leftrightarrow \\left[ \\begin{aligned} & 1-a=0,15 \\\\ & 1-a=-0,15 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left[ \\begin{aligned} & a=0,85 \\\\ & a=1,15 \\\\ \\end{aligned} \\right.\\Rightarrow \\left[ \\begin{aligned} & I\\left( 1,45;0,95;0,15 \\right) \\\\ & I\\left( 0,55;3,05;-0,15 \\right) \\\\ \\end{aligned} \\right.$\nVì $I$ là vị trí độ cao của máy bay nên ta chọn $I\\left( 1,45;0,95;0,15 \\right)$.\nTa có $IE=\\sqrt{{{\\left( 1,45-2 \\right)}^{2}}+{{\\left( 0,95-0,5 \\right)}^{2}}+0,{{15}^{2}}}\\approx 0,73$.\nDo tầm nhìn của phi công sau khi ra khỏi đám mây là $800m=0,8km\\,>0,73km$ nên người phi công đạt được qui định an toàn bay.\nVậy d) đúng.",
    "ma": "de1.P3.C47",
@@ -1293,6 +1273,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

@@ -301,8 +301,8 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [],
-   "question": "Giới hạn $\\underset{{}}{\\mathop{\\lim }}\\,\\frac{5{{n}^{2}}+6n-2025}{{{n}^{2}}}$ bằng",
-   "explanation": "Ta có: $\\underset{{}}{\\mathop{\\lim }}\\,\\frac{5{{n}^{2}}+6n-2025}{{{n}^{2}}}=\\underset{{}}{\\mathop{\\lim }}\\,\\frac{{{n}^{2}}\\left( 5+\\frac{6}{n}-\\frac{2025}{{{n}^{2}}} \\right)}{{{n}^{2}}}=\\underset{{}}{\\mathop{\\lim }}\\,\\left( 5+\\frac{6}{n}-\\frac{2025}{{{n}^{2}}} \\right)=5$.",
+   "question": "Giới hạn $\\underset{{}}{\\lim}\\,\\frac{5{{n}^{2}}+6n-2025}{{{n}^{2}}}$ bằng",
+   "explanation": "Ta có: $\\underset{{}}{\\lim}\\,\\frac{5{{n}^{2}}+6n-2025}{{{n}^{2}}}=\\underset{{}}{\\lim}\\,\\frac{{{n}^{2}}\\left( 5+\\frac{6}{n}-\\frac{2025}{{{n}^{2}}} \\right)}{{{n}^{2}}}=\\underset{{}}{\\lim}\\,\\left( 5+\\frac{6}{n}-\\frac{2025}{{{n}^{2}}} \\right)=5$.",
    "options": [
     "$5$",
     "$0$",
@@ -329,8 +329,8 @@
    "tf_ans": {},
    "answer": "C",
    "flags": [],
-   "question": "Tính giới hạn $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}$.",
-   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2x+1}{x+1}$ $=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\frac{2+\\frac{1}{x}}{1+\\frac{1}{x}}=2$.",
+   "question": "Tính giới hạn $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2x+1}{x+1}$.",
+   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2x+1}{x+1}$ $=\\underset{x\\to -\\infty }{\\lim}\\,\\frac{2+\\frac{1}{x}}{1+\\frac{1}{x}}=2$.",
    "options": [
     "$\\frac{1}{2}$",
     "$1$",
@@ -377,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L11.C1.B4.D02",
    "dang_toan_web": "Phương trình lượng giác cơ bản."
@@ -418,10 +419,10 @@
    "n": 15,
    "type": "true_false_group",
    "tf": {
-    "a": "Giới hạn: $\\underset{x\\to 3}{\\mathop{\\lim }}\\,f(x)=-8$",
-    "b": "Giới hạn: $\\underset{x\\to {{2}^{-}}}{\\mathop{\\lim }}\\,f(x)=-3$",
-    "c": "Giới hạn: $\\underset{x\\to {{2}^{+}}}{\\mathop{\\lim }}\\,f(x)=2$",
-    "d": "Giới hạn: $\\underset{x\\to 2}{\\mathop{\\lim }}\\,f(x)=4$"
+    "a": "Giới hạn: $\\underset{x\\to 3}{\\lim}\\,f(x)=-8$",
+    "b": "Giới hạn: $\\underset{x\\to {{2}^{-}}}{\\lim}\\,f(x)=-3$",
+    "c": "Giới hạn: $\\underset{x\\to {{2}^{+}}}{\\lim}\\,f(x)=2$",
+    "d": "Giới hạn: $\\underset{x\\to 2}{\\lim}\\,f(x)=4$"
    },
    "tf_ans": {
     "a": false,
@@ -432,7 +433,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số. $f(x)=\\left\\{ \\right.$",
-   "explanation": "a) Ta có $\\underset{x\\to 3}{\\mathop{\\lim }}\\,f(x)=\\sqrt{5}$\nb) Xét dãy số ${\\left(x_n\\right)}$ bất kì sao cho ${x_n<2}$ và ${x_n \\rightarrow 2}$, ta có: ${f\\left(x_n\\right)=1-x_n^2}$.\nKhi đó: ${\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim f\\left(x_n\\right)=1-2^2=-3}$.\nc) Xét dãy số ${\\left(x_n\\right)}$ bất kì sao cho ${x_n>2}$ và ${x_n \\rightarrow 2}$, ta có ${f\\left(x_n\\right)=\\sqrt{x_n+2}}$.\nKhi đó: ${\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim f\\left(x_n\\right)=\\sqrt{2+2}=2}$.\nd) Vì ${\\lim _{x \\rightarrow 2^{-}} f(x) \\neq \\lim _{x \\rightarrow 2^{+}} f(x)}$ (hay ${-3 \\neq 2}$) nên không tồn tại ${\\lim _{x \\rightarrow 2} f(x)}$.",
+   "explanation": "a) Ta có $\\underset{x\\to 3}{\\lim}\\,f(x)=\\sqrt{5}$\nb) Xét dãy số ${\\left(x_n\\right)}$ bất kì sao cho ${x_n<2}$ và ${x_n \\rightarrow 2}$, ta có: ${f\\left(x_n\\right)=1-x_n^2}$.\nKhi đó: ${\\lim _{x \\rightarrow 2^{-}} f(x)=\\lim f\\left(x_n\\right)=1-2^2=-3}$.\nc) Xét dãy số ${\\left(x_n\\right)}$ bất kì sao cho ${x_n>2}$ và ${x_n \\rightarrow 2}$, ta có ${f\\left(x_n\\right)=\\sqrt{x_n+2}}$.\nKhi đó: ${\\lim _{x \\rightarrow 2^{+}} f(x)=\\lim f\\left(x_n\\right)=\\sqrt{2+2}=2}$.\nd) Vì ${\\lim _{x \\rightarrow 2^{-}} f(x) \\neq \\lim _{x \\rightarrow 2^{+}} f(x)}$ (hay ${-3 \\neq 2}$) nên không tồn tại ${\\lim _{x \\rightarrow 2} f(x)}$.",
    "ma": "de1.P2.C15",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -508,11 +509,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
-   "question": "Biết $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=\\frac{a}{b}$, trong đó $a,b\\in \\mathbb{Z}$. Tính $-106a+b$.",
-   "explanation": "Trả lời: - 100\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-2}{(x-1)(x-2)}+\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{2-\\sqrt{x+3}}{(x-1)(x-2)}$.\n$\\text{Ta co }\\!\\!\\grave{\\mathrm{u}}\\!\\!\\text{ : }\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-2}{(x-1)(x-2)}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x+7-{{2}^{3}}}{(x-1)(x-2)\\left[ \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right]}$.\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{1}{(x-2)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=-\\frac{1}{12}$.\nvà ${\\lim _{x \\rightarrow 1} \\frac{2-\\sqrt{x+3}}{(x-1)(x-2)}=\\lim _{x \\rightarrow 1} \\frac{2^2-(x+3)}{(x-1)(x-2)(2+\\sqrt{x+3})}=\\lim _{x \\rightarrow 1} \\frac{-1}{(x-2)(2+\\sqrt{x+3})}=\\frac{1}{4} . }$\n$\\Rightarrow \\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=-\\frac{1}{12}+\\frac{1}{4}=\\frac{1}{6}\\Rightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=6 \\\\ \\end{aligned} \\right.$.\nVậy $-106a+b=-106+6=-100$.",
+   "flags": [],
+   "question": "Biết $\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=\\frac{a}{b}$, trong đó $a,b\\in \\mathbb{Z}$. Tính $-106a+b$.",
+   "explanation": "Trả lời: - 100\n$\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-2}{(x-1)(x-2)}+\\underset{x\\to 1}{\\lim}\\,\\frac{2-\\sqrt{x+3}}{(x-1)(x-2)}$.\n$\\text{Ta co }\\!\\!\\grave{\\mathrm{u}}\\!\\!\\text{ : }\\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-2}{(x-1)(x-2)}=\\underset{x\\to 1}{\\lim}\\,\\frac{x+7-{{2}^{3}}}{(x-1)(x-2)\\left[ \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right]}$.\n$=\\underset{x\\to 1}{\\lim}\\,\\frac{1}{(x-2)\\left( \\sqrt[3]{{{(x+7)}^{2}}}+2\\sqrt[3]{x+7}+4 \\right)}=-\\frac{1}{12}$.\nvà ${\\lim _{x \\rightarrow 1} \\frac{2-\\sqrt{x+3}}{(x-1)(x-2)}=\\lim _{x \\rightarrow 1} \\frac{2^2-(x+3)}{(x-1)(x-2)(2+\\sqrt{x+3})}=\\lim _{x \\rightarrow 1} \\frac{-1}{(x-2)(2+\\sqrt{x+3})}=\\frac{1}{4} . }$\n$\\Rightarrow \\underset{x\\to 1}{\\lim}\\,\\frac{\\sqrt[3]{x+7}-\\sqrt{x+3}}{{{x}^{2}}-3x+2}=-\\frac{1}{12}+\\frac{1}{4}=\\frac{1}{6}\\Rightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=6 \\\\ \\end{aligned} \\right.$.\nVậy $-106a+b=-106+6=-100$.",
    "short_value": -100,
    "short_correct": "-100",
    "ma": "de1.P3.C18",
@@ -523,6 +522,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C9.B2.D01",
    "dang_toan_web": "Các quy tắc tính đạo hàm (tổng, hiệu, tích, thương, hàm hợp). Đạo hàm của hàm số lượng giác, mũ, lôgarit."
@@ -534,11 +534,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{5x-1}-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x}\\text{ },x>1 \\\\ & ax+2\\text{ },x\\le 1 \\\\ \\end{aligned} \\right.$. Tìm $a$ để hàm số liên tục tại $x=1$",
-   "explanation": "Trả lời: - 3\nXét $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{\\sqrt{5x-1}-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x}$ $=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{\\sqrt{5x-1}-2+2-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x}$\n$=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left( \\frac{\\sqrt{5x-1}-2}{1-x}+\\frac{2-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x} \\right)$ $=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left( \\frac{5x-5}{\\left( 1-x \\right)\\left( \\sqrt{5x-1}+2 \\right)}+\\frac{8-\\left( {{x}^{2}}+x+6 \\right)}{\\left( 1-x \\right)\\left( 4+2\\sqrt[3]{{{x}^{2}}+x+6}+{{\\left( \\sqrt[3]{{{x}^{2}}+x+6} \\right)}^{2}} \\right)} \\right)$ $=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left( \\frac{-5}{\\left( \\sqrt{5x-1}+2 \\right)}+\\frac{x+2}{4+2\\sqrt[3]{{{x}^{2}}+x+6}+{{\\left( \\sqrt[3]{{{x}^{2}}+x+6} \\right)}^{2}}} \\right)$ $=-\\frac{5}{4}+\\frac{1}{4}=-1$\n$\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\left( ax+2 \\right)=a+2$\n$f\\left( 1 \\right)=a+2$\nHàm số liên tục tại $x=1$ $\\Leftrightarrow \\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow a+2=-1$ $\\Leftrightarrow a=-3$.",
+   "explanation": "Trả lời: - 3\nXét $\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{\\sqrt{5x-1}-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x}$ $=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{\\sqrt{5x-1}-2+2-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x}$\n$=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left( \\frac{\\sqrt{5x-1}-2}{1-x}+\\frac{2-\\sqrt[3]{{{x}^{2}}+x+6}}{1-x} \\right)$ $=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left( \\frac{5x-5}{\\left( 1-x \\right)\\left( \\sqrt{5x-1}+2 \\right)}+\\frac{8-\\left( {{x}^{2}}+x+6 \\right)}{\\left( 1-x \\right)\\left( 4+2\\sqrt[3]{{{x}^{2}}+x+6}+{{\\left( \\sqrt[3]{{{x}^{2}}+x+6} \\right)}^{2}} \\right)} \\right)$ $=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left( \\frac{-5}{\\left( \\sqrt{5x-1}+2 \\right)}+\\frac{x+2}{4+2\\sqrt[3]{{{x}^{2}}+x+6}+{{\\left( \\sqrt[3]{{{x}^{2}}+x+6} \\right)}^{2}}} \\right)$ $=-\\frac{5}{4}+\\frac{1}{4}=-1$\n$\\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\left( ax+2 \\right)=a+2$\n$f\\left( 1 \\right)=a+2$\nHàm số liên tục tại $x=1$ $\\Leftrightarrow \\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow a+2=-1$ $\\Leftrightarrow a=-3$.",
    "short_value": -3,
    "short_correct": "-3",
    "ma": "de1.P3.C19",
@@ -549,6 +547,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."

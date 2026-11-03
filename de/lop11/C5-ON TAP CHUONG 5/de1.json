@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "5",
   "lesson": "on-tap",
-  "title": "Chương 5 – Bài on-tap"
+  "title": "Chương 5 – Bài on-tap",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -23,10 +24,10 @@
    "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ với ${{u}_{n}}=\\sqrt{{{n}^{2}}+1}-\\sqrt{n}$. Mệnh đề đúng là",
    "explanation": "",
    "options": [
-    "$\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=-\\infty $",
-    "$\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=1$",
-    "$\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=+\\infty $",
-    "$\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=0$"
+    "$\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=-\\infty $",
+    "$\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=1$",
+    "$\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=+\\infty $",
+    "$\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=0$"
    ],
    "ma": "de1.P1.C1",
    "dac_trung": {
@@ -64,6 +65,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "grokbot",
    "muc_do": "NB",
    "dang": "L11.C5.B1.D01",
    "dang_toan_web": "Giới hạn của dãy số: Các định lí về giới hạn, tổng của cấp số nhân lùi vô hạn."
@@ -107,10 +109,10 @@
    "question": "Cho hàm số $f\\left( x \\right)=\\sqrt{x+1}-\\sqrt{x+2}$. Mệnh đề đúng là",
    "explanation": "",
    "options": [
-    "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=-\\infty $",
-    "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=0$",
-    "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=-1$",
-    "$\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=\\frac{-1}{2}$"
+    "$\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=-\\infty $",
+    "$\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=0$",
+    "$\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=-1$",
+    "$\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=\\frac{-1}{2}$"
    ],
    "ma": "de1.P1.C4",
    "dac_trung": {
@@ -132,7 +134,7 @@
    "tf_ans": {},
    "answer": "B",
    "flags": [],
-   "question": "Cho hàm số $f\\left( x \\right)=\\frac{x-{{x}^{2}}}{\\left| x \\right|}$. Khi đó $\\underset{x\\to {{0}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)$ bằng",
+   "question": "Cho hàm số $f\\left( x \\right)=\\frac{x-{{x}^{2}}}{\\left| x \\right|}$. Khi đó $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)$ bằng",
    "explanation": "",
    "options": [
     "0",
@@ -189,7 +191,7 @@
    "answer": "B",
    "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{{{x}^{2}}+x-2}{x-1} & \\text{ }\\!\\!~\\!\\!\\text{ khi }\\!\\!~\\!\\!\\text{ }x\\ne 1 \\\\ a & \\text{ }\\!\\!~\\!\\!\\text{ khi }\\!\\!~\\!\\!\\text{ }x=1 \\\\ \\end{array} \\right.$. Hàm số $f\\left( x \\right)$ liên tục tại $x=1$ khi",
-   "explanation": "$\\underset{x\\to 1}{\\mathop{\\text{lim}}}\\,\\frac{{{x}^{2}}+x-2}{x-1}=\\underset{x\\to 1}{\\mathop{\\text{lim}}}\\,\\left( x+2 \\right)=3$\nĐể $f\\left( x \\right)$ liên tục tại $x=1$ thì $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$ suy ra $\\text{a}=3$.",
+   "explanation": "$\\underset{x\\to 1}{\\mathop{\\text{lim}}}\\,\\frac{{{x}^{2}}+x-2}{x-1}=\\underset{x\\to 1}{\\mathop{\\text{lim}}}\\,\\left( x+2 \\right)=3$\nĐể $f\\left( x \\right)$ liên tục tại $x=1$ thì $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)$ suy ra $\\text{a}=3$.",
    "options": [
     "$a=0$",
     "$a=3$",
@@ -288,6 +290,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -367,7 +370,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho $a$, $b$ là hai số thực sao cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{{{x}^{2}}+ax+b}{x-1} & khi & x\\ne 1 \\\\ 2ax-1 & khi & x=1 \\\\ \\end{array} \\right.$ liên tục trên $\\mathbb{R}$. Khi đó:",
-   "explanation": "Ta có $f\\left( 1 \\right)=2a-1$.\nĐể hàm số liên tục trên $\\mathbb{R}$ thì phải tồn tại $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+ax+b}{x-1}$ và $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$.\nĐể tồn tại $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+ax+b}{x-1}$ thì $\\left( {{x}^{2}}+ax+b \\right)\\vdots \\left( x-1 \\right)\\Rightarrow 1+a+b=0\\Rightarrow b=-a-1$.\nKhi đó $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+ax+b}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( x+a+1 \\right)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( x+a+1 \\right)=a+2$.\nDo đó để hàm số liên tục trên $\\mathbb{R}$ thì $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$\n$\\Leftrightarrow 2a-1=a+2\\Leftrightarrow a=3$. Suy ra $b=-4$.\nVậy $a-b=7$.",
+   "explanation": "Ta có $f\\left( 1 \\right)=2a-1$.\nĐể hàm số liên tục trên $\\mathbb{R}$ thì phải tồn tại $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}+ax+b}{x-1}$ và $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)$.\nĐể tồn tại $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}+ax+b}{x-1}$ thì $\\left( {{x}^{2}}+ax+b \\right)\\vdots \\left( x-1 \\right)\\Rightarrow 1+a+b=0\\Rightarrow b=-a-1$.\nKhi đó $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}+ax+b}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{\\left( x-1 \\right)\\left( x+a+1 \\right)}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\left( x+a+1 \\right)=a+2$.\nDo đó để hàm số liên tục trên $\\mathbb{R}$ thì $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)$\n$\\Leftrightarrow 2a-1=a+2\\Leftrightarrow a=3$. Suy ra $b=-4$.\nVậy $a-b=7$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -430,8 +433,8 @@
    },
    "answer": null,
    "flags": [],
-   "question": "Cho $L=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)$ . Khi đó:",
-   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{{{x}^{2}}+ax+5-{{x}^{2}}}{\\sqrt{{{x}^{2}}+ax+5}-x} \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{ax+5}{\\sqrt{{{x}^{2}}+ax+5}-x} \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{a+\\frac{5}{x}}{-\\sqrt{1+\\frac{a}{x}+\\frac{5}{{{x}^{2}}}}-1} \\right)=-6$ $\\Leftrightarrow \\frac{a}{-2}=-6$ $\\Leftrightarrow a=12$.\nVì vậy giá trị của $a$ là một nghiệm của phương trình ${{x}^{2}}+11x-12=0$.",
+   "question": "Cho $L=\\underset{x\\to -\\infty }{\\lim}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)$ . Khi đó:",
+   "explanation": "Ta có: $\\underset{x\\to -\\infty }{\\lim}\\,\\left( \\sqrt{{{x}^{2}}+ax+5}+x \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\lim}\\,\\left( \\frac{{{x}^{2}}+ax+5-{{x}^{2}}}{\\sqrt{{{x}^{2}}+ax+5}-x} \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\lim}\\,\\left( \\frac{ax+5}{\\sqrt{{{x}^{2}}+ax+5}-x} \\right)=-6$ $\\Leftrightarrow \\underset{x\\to -\\infty }{\\lim}\\,\\left( \\frac{a+\\frac{5}{x}}{-\\sqrt{1+\\frac{a}{x}+\\frac{5}{{{x}^{2}}}}-1} \\right)=-6$ $\\Leftrightarrow \\frac{a}{-2}=-6$ $\\Leftrightarrow a=12$.\nVì vậy giá trị của $a$ là một nghiệm của phương trình ${{x}^{2}}+11x-12=0$.",
    "ma": "de1.P2.C3",
    "dac_trung": {
     "so_dong_loi_giai": 2,
@@ -513,7 +516,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Cho hàm số ${f(x)=\\left\\{\\begin{array}{ll}-x^2 & \\text { khi } x<1 \\\\ x & \\text { khi } x \\geq 1\\end{array}\\right.}$.\nTìm các giới hạn ${\\lim _{x \\rightarrow 1^{+}} f(x) ; \\lim _{x \\rightarrow 1^{-}} f(x) ; \\lim _{x \\rightarrow 1} f(x)}$ .",
-   "explanation": "$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f(x)=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,x=1;\\,\\,\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,f(x)=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\left( -{{x}^{2}} \\right)=-1$\nDo ${\\lim _{x \\rightarrow 1^{+}} f(x) \\neq \\lim _{x \\rightarrow 1^{-}} f(x)}$ nên không tồn tại ${\\lim _{x \\rightarrow 1} f(x)}$",
+   "explanation": "$\\underset{x\\to {{1}^{+}}}{\\lim}\\,f(x)=\\underset{x\\to {{1}^{+}}}{\\lim}\\,x=1;\\,\\,\\underset{x\\to {{1}^{-}}}{\\lim}\\,f(x)=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\left( -{{x}^{2}} \\right)=-1$\nDo ${\\lim _{x \\rightarrow 1^{+}} f(x) \\neq \\lim _{x \\rightarrow 1^{-}} f(x)}$ nên không tồn tại ${\\lim _{x \\rightarrow 1} f(x)}$",
    "short_value": -1,
    "short_correct": "-1",
    "ma": "de1.P3.C2",
@@ -524,6 +527,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -535,11 +539,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số ${f(x)= \\begin{cases}\\frac{x^2-4}{x+2} & \\text { khi } x \\neq-2 \\\\ a & \\text { khi } x=-2 .\\end{cases}}$\nTìm ${a}$ để hàm số ${y=f(x)}$ liên tục trên ${\\mathbb{R}}$.",
-   "explanation": "Ta có:\n$\\underset{x\\to -2}{\\mathop{\\lim }}\\,f(x)=\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-4}{x+2}=\\underset{x\\to -2}{\\mathop{\\lim }}\\,\\frac{(x-2)(x+2)}{x+2}=\\underset{x\\to -2}{\\mathop{\\lim }}\\,(x-2)=-2-2=-4$, $f\\left( -2 \\right)=a$\nĐể hàm số ${{f}({x})}$ liên tục trên ${\\mathbb{R}}$ thì hàm số ${{f}({x})}$ phải liên tục tại ${x_0=-2}$\nHay ${\\lim _{x \\rightarrow-2} f(x)=f(-2)}$\nSuy ra: ${a=-4}$",
+   "explanation": "Ta có:\n$\\underset{x\\to -2}{\\lim}\\,f(x)=\\underset{x\\to -2}{\\lim}\\,\\frac{{{x}^{2}}-4}{x+2}=\\underset{x\\to -2}{\\lim}\\,\\frac{(x-2)(x+2)}{x+2}=\\underset{x\\to -2}{\\lim}\\,(x-2)=-2-2=-4$, $f\\left( -2 \\right)=a$\nĐể hàm số ${{f}({x})}$ liên tục trên ${\\mathbb{R}}$ thì hàm số ${{f}({x})}$ phải liên tục tại ${x_0=-2}$\nHay ${\\lim _{x \\rightarrow-2} f(x)=f(-2)}$\nSuy ra: ${a=-4}$",
    "short_value": -4,
    "short_correct": "-4",
    "ma": "de1.P3.C3",
@@ -550,6 +552,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -590,7 +593,7 @@
    "flags": [],
    "question": "Cho hàm số ${f(x)= \\begin{cases}1-2 x & \\text { khi } x \\leq-1 \\\\ x^2+2 & \\text { khi } x>-1\\end{cases}}$\nTìm các giới hạn ${\\lim _{x \\rightarrow-1^{+}} f(x)}$, ${\\lim _{x \\rightarrow-1^{-}} f(x)}$ và ${\\lim _{x \\rightarrow-1} f(x)}$ .",
    "explanation": "Giả sử ${\\left(x_n\\right)}$ là dãy số bất kì, ${x_n<-1}$ và ${x_n \\rightarrow-1}$. Khi đó ${f\\left(x_n\\right)=1-2 x_n}$ nên ${\\lim f\\left(x_n\\right)=\\lim \\left(1-2 x_n\\right)=1-2 \\cdot(-1)=3}$\nVậy ${\\lim _{x \\rightarrow-1^{-}} f(x)=3}$\nGiả sử ${\\left(x_n\\right)}$ là dãy số bất kì, ${x_n>-1}$ và ${x_n \\rightarrow-1}$. Khi đó ${f\\left(x_n\\right)=x_n^2+2}$ nên ${\\lim f\\left(x_n\\right)=\\lim \\left(x_n^2+2\\right)=(-1)^2+2=3}$\nVậy ${\\lim _{x \\rightarrow-1^{+}} f(x)=3}$\nSuy ra ${\\lim _{x \\rightarrow-1} f(x)=3}$",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "3",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -612,11 +615,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} 3x-5 & \\text{khi} & x\\le -2 \\\\ ax-1 & \\text{khi} & x>-2 \\\\ \\end{array} \\right.$. Với giá trị nào của $a$ thì hàm số $f\\left( x \\right)$ liên tục tại $x=-2$?",
-   "explanation": "Tập xác định $D=\\mathbb{R}$ và $x=-2\\in D$.\nTa có: $f\\left( -2 \\right)=-11$\n$\\underset{x\\to -{{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{-}}}{\\mathop{\\lim }}\\,\\left( 3x-5 \\right)=-11$\n$\\underset{x\\to -{{2}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{+}}}{\\mathop{\\lim }}\\,\\left( ax-1 \\right)=-2a-1$.\nĐể hàm số liên tục tại $x=-2$ thì $f\\left( -2 \\right)=\\underset{x\\to -{{2}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)\\Leftrightarrow -2a-1=-11\\Leftrightarrow a=5$.\nVậy hàm số liên tục tại $x=-2$ khi $a=5$.",
+   "explanation": "Tập xác định $D=\\mathbb{R}$ và $x=-2\\in D$.\nTa có: $f\\left( -2 \\right)=-11$\n$\\underset{x\\to -{{2}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{-}}}{\\lim}\\,\\left( 3x-5 \\right)=-11$\n$\\underset{x\\to -{{2}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{+}}}{\\lim}\\,\\left( ax-1 \\right)=-2a-1$.\nĐể hàm số liên tục tại $x=-2$ thì $f\\left( -2 \\right)=\\underset{x\\to -{{2}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to -{{2}^{+}}}{\\lim}\\,f\\left( x \\right)\\Leftrightarrow -2a-1=-11\\Leftrightarrow a=5$.\nVậy hàm số liên tục tại $x=-2$ khi $a=5$.",
    "short_value": 5,
    "short_correct": "5",
    "ma": "de1.P3.C6",
@@ -627,6 +628,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."

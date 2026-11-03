@@ -160,9 +160,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $I=\\underset{x\\to 0}{\\lim}\\,\\frac{2\\left( \\sqrt{3x+1}-1 \\right)}{x}$ và $J=\\underset{x\\to -1}{\\lim}\\,\\frac{{{x}^{2}}-x-2}{x+1}$. Tính $I-J$.",
    "explanation": "Ta có\n$I=\\underset{x\\to 0}{\\lim}\\,\\frac{2\\left( \\sqrt{3x+1}-1 \\right)}{x}=\\underset{x\\to 0}{\\lim}\\,\\frac{6x}{x\\left( \\sqrt{3x+1}+1 \\right)}=\\underset{x\\to 0}{\\lim}\\,\\frac{6}{\\sqrt{3x+1}+1}=3$.\n$J=\\underset{x\\to -1}{\\lim}\\,\\frac{{{x}^{2}}-x-2}{x+1}=\\underset{x\\to -1}{\\lim}\\,\\frac{\\left( x+1 \\right)\\left( x-2 \\right)}{x+1}=\\underset{x\\to -1}{\\lim}\\,\\left( x-2 \\right)=-3$.\nKhi đó $I-J=6$.",
    "options": [
@@ -179,6 +177,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -190,9 +189,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ liên tục trên khoảng $\\left( a;\\text{ }b \\right)$. Điều kiện cần và đủ để hàm số liên tục trên đoạn $\\left[ a;\\text{ }b \\right]$ là?",
    "explanation": "Hàm số $f$ xác định trên đoạn $\\left[ a;\\text{ }b \\right]$ được gọi là liên tục trên đoạn $\\left[ a;\\text{ }b \\right]$ nếu nó liên tục trên khoảng $\\left( a;\\text{ }b \\right),$ đồng thời $\\underset{x\\to {{a}^{+}}}{\\lim}\\,f\\left( x \\right)=f\\left( a \\right)$ và $\\underset{x\\to {{b}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( b \\right)$.",
    "options": [
@@ -209,6 +206,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -280,7 +278,7 @@
     "dap_an_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{\\sqrt{x+4}-2}{x}\\text{khi }x>0 \\\\ & mx+m+\\frac{1}{4}\\text{khi }x\\le 0 \\\\ \\end{aligned} \\right.$, $m$ là tham số. Tìm giá trị của $m$ để hàm số có giới hạn tại $x=0$.",
-   "explanation": "Ta có:\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{\\sqrt{x+4}-2}{x}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{\\left( x+4 \\right)-{{2}^{2}}}{x\\left( \\sqrt{x+4}+2 \\right)}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{x}{x\\left( \\sqrt{x+4}+2 \\right)}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{1}{\\sqrt{x+4}+2}=\\frac{1}{4}$.\n$\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\left( mx+m+\\frac{1}{4} \\right)=m+\\frac{1}{4}$\nHàm số đã cho có giới hạn tại $x=0$ khi và chỉ khi $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)$\n$\\Rightarrow F=\\left( -\\frac{5}{2};-2;0 \\right)$.",
+   "explanation": "Ta có:\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{\\sqrt{x+4}-2}{x}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{\\left( x+4 \\right)-{{2}^{2}}}{x\\left( \\sqrt{x+4}+2 \\right)}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{x}{x\\left( \\sqrt{x+4}+2 \\right)}$ $=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\frac{1}{\\sqrt{x+4}+2}=\\frac{1}{4}$.\n$\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\left( mx+m+\\frac{1}{4} \\right)=m+\\frac{1}{4}$\nHàm số đã cho có giới hạn tại $x=0$ khi và chỉ khi $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)$\n$\\Rightarrow m+\\frac{1}{4}=\\frac{1}{4}$, tức $m=0$.",
    "options": [
     "$m=\\frac{1}{2}$",
     "$m=1$",
@@ -295,6 +293,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B2.D02",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -515,9 +514,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tính ${\\lim _{x \\rightarrow+\\infty}\\left(\\sqrt{x^2+1}-x-1\\right)}$.",
    "explanation": "$\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\sqrt{{{x}^{2}}+1}-x-1 \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{-2x}{\\sqrt{{{x}^{2}}+1}+x+1}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{-2}{\\sqrt{1+\\frac{1}{{{x}^{2}}}}+1+\\frac{1}{x}}=-1.$",
    "short_value": -1,
@@ -530,6 +527,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."

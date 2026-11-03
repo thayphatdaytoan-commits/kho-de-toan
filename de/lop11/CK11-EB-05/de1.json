@@ -133,8 +133,8 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [],
-   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ có $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,{{u}_{n}}=2$. Giới hạn $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{3{{u}_{n}}-1}{2{{u}_{n}}+5}$ bằng",
-   "explanation": "Ta có $\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{3{{u}_{n}}-1}{2{{u}_{n}}+5}=\\frac{\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\left( 3{{u}_{n}}-1 \\right)}{\\underset{n\\to +\\infty }{\\mathop{\\lim }}\\,\\left( 2{{u}_{n}}+5 \\right)}=\\frac{3.2-1}{2.2+5}=\\frac{5}{9}$.",
+   "question": "Cho dãy số $\\left( {{u}_{n}} \\right)$ có $\\underset{n\\to +\\infty }{\\lim}\\,{{u}_{n}}=2$. Giới hạn $\\underset{n\\to +\\infty }{\\lim}\\,\\frac{3{{u}_{n}}-1}{2{{u}_{n}}+5}$ bằng",
+   "explanation": "Ta có $\\underset{n\\to +\\infty }{\\lim}\\,\\frac{3{{u}_{n}}-1}{2{{u}_{n}}+5}=\\frac{\\underset{n\\to +\\infty }{\\lim}\\,\\left( 3{{u}_{n}}-1 \\right)}{\\underset{n\\to +\\infty }{\\lim}\\,\\left( 2{{u}_{n}}+5 \\right)}=\\frac{3.2-1}{2.2+5}=\\frac{5}{9}$.",
    "options": [
     "$\\frac{5}{9}$",
     "$-\\frac{1}{5}$",
@@ -358,10 +358,10 @@
    "n": 2,
    "type": "true_false_group",
    "tf": {
-    "a": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=3$.",
-    "b": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,g\\left( x \\right)=1$.",
-    "c": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left[ 3f\\left( x \\right)-g\\left( x \\right) \\right]=-1$",
-    "d": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{\\left[ f\\left( x \\right) \\right]}^{2}}}{g\\left( x \\right)}=1$."
+    "a": "$\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=3$.",
+    "b": "$\\underset{x\\to 1}{\\lim}\\,g\\left( x \\right)=1$.",
+    "c": "$\\underset{x\\to 1}{\\lim}\\,\\left[ 3f\\left( x \\right)-g\\left( x \\right) \\right]=-1$",
+    "d": "$\\underset{x\\to 1}{\\lim}\\,\\frac{{{\\left[ f\\left( x \\right) \\right]}^{2}}}{g\\left( x \\right)}=1$."
    },
    "tf_ans": {
     "a": false,
@@ -372,7 +372,7 @@
    "answer": null,
    "flags": [],
    "question": "$={{S}_{20}}-{{S}_{9}}=480-117=363$.\nCho hàm số $f\\left( x \\right)=x-1$ và $g\\left( x \\right)={{x}^{3}}$.",
-   "explanation": "a) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( x-1 \\right)=1-1=0$.\nb) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,g\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,{{x}^{3}}={{1}^{3}}=1$.\nc) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left[ 3f\\left( x \\right)-g\\left( x \\right) \\right]=3.0-1=-1$.\nd) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{\\left[ f\\left( x \\right) \\right]}^{2}}}{g\\left( x \\right)}=\\frac{0}{1}=0$.",
+   "explanation": "a) $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\lim}\\,\\left( x-1 \\right)=1-1=0$.\nb) $\\underset{x\\to 1}{\\lim}\\,g\\left( x \\right)=\\underset{x\\to 1}{\\lim}\\,{{x}^{3}}={{1}^{3}}=1$.\nc) $\\underset{x\\to 1}{\\lim}\\,\\left[ 3f\\left( x \\right)-g\\left( x \\right) \\right]=3.0-1=-1$.\nd) $\\underset{x\\to 1}{\\lim}\\,\\frac{{{\\left[ f\\left( x \\right) \\right]}^{2}}}{g\\left( x \\right)}=\\frac{0}{1}=0$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -427,11 +427,14 @@
     "c": "$GK//ON$.",
     "d": "Tỉ số $\\frac{GM}{GN}=3$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cỡ mẫu $n=35$\nTứ phân vị thứ ba $Q_3$ là $x_{27}$ mà $x_{27}$ thuộc nhóm [30;40) nên nhóm này chứa $Q_3$. Do đó, $p=3, a_3=30, m_3=6, m_1+m_2=4+19=23, a_4-a_3=10$ và ta có:${{Q}_{3}}=30+\\frac{\\frac{3\\times 35}{4}-23}{6}\\times 10=35,42$.\nVậy để đưa ra danh sách $25 \\%$ trường đại học có chỉ số nghiên cứu tốt nhất Việt Nam ta lấy các trường có điểm chuẩn hóa trên 35.42.\nVậy đáp án d) đúng.\nCho hình chóp $S.\\,ABCD$ có đáy là hình bình hành tâm O. Gọi $N$ là trung điểm của cạnh $SC$. Lấy điểm $M$ đối xứng với $B$ qua $A$, $OM$cắt $AD$tại $K$. Gọi giao điểm $G$ của đường thẳng $MN$ với mặt phẳng$\\left( SA\\text{D} \\right)$. Xét tính đúng sai các khẳng định sau:",
    "explanation": "",
    "ma": "de1.P2.C4",
@@ -442,6 +445,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C7.B4.D01",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."
@@ -458,9 +462,7 @@
    },
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "[[TABLE]]| a) Đúng | b) Sai | c) Đúng | d) Sai |\n|---|---|---|---|\n[[IMG:image10.png]]\nNên $MD//AC$. Vậy khẳng định a đúng\nVậy khẳng định b sai.\nVậy khẳng định c đúng.\n$\\frac{GM}{GN}=\\frac{KM}{KO}$ (1)\nGọi $I$ là trung điểm của ${AB}$, vì $O$ là trung điểm của ${BD}$ nên theo tính chất đường trung\nbình, $OI\\,\\text{//}\\,AD$, vậy theo định lí Talet:\n$\\frac{KM}{KO}=\\frac{AM}{AI}=\\frac{AB}{AI}=2$. (2)\nTừ (1) và (2), ta có $\\frac{GM}{GN}=2$.\nVậy khẳng định d sai.",
    "explanation": "",
    "ma": "de1.P2.C5",
@@ -471,6 +473,8 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
+   "bo_cau": true,
    "muc_do": "TH",
    "dang": "L11.C4.B4.D01",
    "dang_toan_web": "Hai mặt phẳng song song. Định lí Thales trong không gian."
@@ -556,7 +560,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho các số thực $a, b, c$ thỏa mãn $4a+c>8+2b$ và $a+b+c<-1$. Khi đó số nghiệm thực phân biệt của phương trình ${{x}^{3}}+a{{x}^{2}}+bx+c=0$ bằng",
-   "explanation": "Trả lời: 3\nXét hàm số $f\\left( x \\right)={{x}^{3}}+a{{x}^{2}}+bx+c$\nTheo giả thiết $4a+c>2b+8\\Leftrightarrow -8+4a-2b+c>0\\Rightarrow f\\left( -2 \\right)>0$\n$a+b+c<-1\\Leftrightarrow 1+a+b+c<0\\Rightarrow f\\left( 1 \\right)<0$\nTa có $f\\left( x \\right)$ là hàm đa thức nên liên tục trên $\\mathbb{R}$\n$\\left\\{ \\begin{aligned} & \\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=-\\infty \\\\ & f\\left( -2 \\right)>0 \\\\ \\end{aligned} \\right.$ suy ra phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên $\\left( -\\infty ;-2 \\right)$ $\\left( 1 \\right)$\n$f\\left( -2 \\right)f\\left( 1 \\right)<0$nên phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên khoảng $\\left( -2;1 \\right)$ $\\left( 2 \\right)$\n$\\left\\{ \\begin{aligned} & \\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=+\\infty \\\\ & f\\left( 1 \\right)<0 \\\\ \\end{aligned} \\right.$suy ra phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên khoảng $\\left( 1;+\\infty \\right)$ $\\left( 3 \\right)$\nTừ $\\left( 1 \\right)$; $\\left( 2 \\right)$ và $\\left( 3 \\right)$ ta có phương trình $f\\left( x \\right)=0$ có ít nhất 3 nghiệm.\nMặt khác $f\\left( x \\right)=0$ là phương trình bậc ba nên có tối đa 3 nghiệm.\nVậy phương trình $f\\left( x \\right)=0$ có đúng 3 nghiệm.",
+   "explanation": "Trả lời: 3\nXét hàm số $f\\left( x \\right)={{x}^{3}}+a{{x}^{2}}+bx+c$\nTheo giả thiết $4a+c>2b+8\\Leftrightarrow -8+4a-2b+c>0\\Rightarrow f\\left( -2 \\right)>0$\n$a+b+c<-1\\Leftrightarrow 1+a+b+c<0\\Rightarrow f\\left( 1 \\right)<0$\nTa có $f\\left( x \\right)$ là hàm đa thức nên liên tục trên $\\mathbb{R}$\n$\\left\\{ \\begin{aligned} & \\underset{x\\to -\\infty }{\\lim}\\,f\\left( x \\right)=-\\infty \\\\ & f\\left( -2 \\right)>0 \\\\ \\end{aligned} \\right.$ suy ra phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên $\\left( -\\infty ;-2 \\right)$ $\\left( 1 \\right)$\n$f\\left( -2 \\right)f\\left( 1 \\right)<0$nên phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên khoảng $\\left( -2;1 \\right)$ $\\left( 2 \\right)$\n$\\left\\{ \\begin{aligned} & \\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=+\\infty \\\\ & f\\left( 1 \\right)<0 \\\\ \\end{aligned} \\right.$suy ra phương trình $f\\left( x \\right)=0$ có ít nhất một nghiệm trên khoảng $\\left( 1;+\\infty \\right)$ $\\left( 3 \\right)$\nTừ $\\left( 1 \\right)$; $\\left( 2 \\right)$ và $\\left( 3 \\right)$ ta có phương trình $f\\left( x \\right)=0$ có ít nhất 3 nghiệm.\nMặt khác $f\\left( x \\right)=0$ là phương trình bậc ba nên có tối đa 3 nghiệm.\nVậy phương trình $f\\left( x \\right)=0$ có đúng 3 nghiệm.",
    "short_value": 3,
    "short_correct": "3",
    "ma": "de1.P3.C5",

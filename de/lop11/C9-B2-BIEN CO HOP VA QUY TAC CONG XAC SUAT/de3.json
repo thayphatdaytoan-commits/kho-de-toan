@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "9",
   "lesson": "2",
-  "title": "Bài 2. ➋. biến cố hợp biến cố giao và quy tắc cộng xác suất"
+  "title": "Bài 2. ➋. biến cố hợp biến cố giao và quy tắc cộng xác suất",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -19,9 +20,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $A,B$là hai biến cố độc lập. Biết $P(A)=0,5;\\ P(A.B)=0,2$. Tính$P(A\\cup B)$.",
    "explanation": "Vì $A,B$là hai biến cố độc lập, nên $P(A.B)=P(A).P(B)\\Rightarrow P(B)=\\frac{P(A.B)}{P(A)}=0,4$.\nDo đó: $P(A\\cup B)=P(A)+P(B)-P(A.B)=0,7$.",
    "options": [
@@ -38,6 +37,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L11.C8.B2.D01",
    "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
@@ -49,9 +49,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $A$, $B$ là hai biến cố xung khắc. Biết $P\\left( A \\right)=\\frac{1}{3}$, $P\\left( B \\right)=\\frac{1}{4}$. Tính $P\\left( A\\cup B \\right)$.",
    "explanation": "$P\\left( A\\cup B \\right)=P\\left( A \\right)+P\\left( B \\right)=\\frac{7}{12}$.",
    "options": [
@@ -68,6 +66,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L11.C8.B1.D01",
    "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."
@@ -303,9 +302,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một lớp học có 30 học sinh, trong đó có 18 học sinh thích đá bóng, 16 học sinh thích cầu lông và 7 học sinh thích chơi cả hai môn thể thao. Chọn ngẫu nhiên một học sinh. Xác suất bạn học sinh được chọn không thích chơi môn thể thao nào là:",
    "explanation": "Gọi biến cố$A$: “Bạn học sinh được chọn thích chơi đá bóng”.\n=> $\\overline{A}$: “Bạn học sinh được chọn không thích chơi đá bóng”.\nGọi biến cố $B$: “Bạn học sinh được chọn thích chơi cầu lông”.\n=> $\\bar{B}$: “Bạn học sinh được chọn không thích chơi cầu lông”.\n=> $\\overline{A}\\cap \\bar{B}$: “Bạn học sinh được chọn không thích chơi cả 2 môn thể thao”\n=> $\\overline{A}\\cap \\bar{B}=\\overline{A\\cup B}$\nTa có: $n\\left( \\Omega \\right)=C_{30}^{1}.$\n$n\\left( A \\right)=C_{18}^{1}$ => $P\\left( A \\right)=\\frac{18}{30}=\\frac{3}{5}$; $n\\left( B \\right)=C_{16}^{1}$ => $P\\left( B \\right)=\\frac{16}{30}=\\frac{8}{15}$.\n$n\\left( A\\cap B \\right)=C_{7}^{1}$ => $P\\left( A\\cap B \\right)=\\frac{7}{30}$.\n=> $P\\left( A\\cup B \\right)=P\\left( A \\right)+P\\left( B \\right)-P\\left( A\\cap B \\right)=\\frac{9}{10}$ => $P\\left( \\overline{A\\cup B} \\right)=1-P\\left( A\\cup B \\right)=\\frac{1}{10}.$",
    "options": [
@@ -322,6 +319,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C8.B2.D02",
    "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
@@ -333,9 +331,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp đựng 10 tấm thẻ được ghi số lần lượt từ 1 đến 10. Bạn Mai rút ngẫu nhiên ba lần, mỗi lần một tấm thẻ, sau mỗi lần rút để lại tấm thẻ đó vào hộp. Xác suất để tổng 3 số của 3 lần là số lẻ bằng:",
    "explanation": "Gọi biến cố$A$: “Tấm thẻ lần thứ nhất là số chẵn” $\\Rightarrow $ biến cố$\\overline{A}$: “Tấm thẻ lần thứ nhất là số lẻ”;\n$P\\left( A \\right)=\\frac{1}{2}=>P\\left( \\overline{A} \\right)=\\frac{1}{2}$\nBiến cố$B$: “Tấm thẻ lần thứ hai là số chẵn” $\\Rightarrow $ biến cố$\\overline{B}$: “Tấm thẻ lần thứ hai là số lẻ”;\n$P\\left( B \\right)=\\frac{1}{2}=>P\\left( \\overline{B} \\right)=\\frac{1}{2}$\nBiến cố $C$: “Tấm thẻ lần thứ ba là số chẵn” $\\Rightarrow $ biến cố$\\overline{C}$: “Tấm thẻ lần thứ ba là số lẻ”;\n$P\\left( C \\right)=\\frac{1}{2}=>P\\left( \\overline{C} \\right)=\\frac{1}{2}$\nBiến cố$D$: “Tổng ba số của ba tấm thẻ sau ba lần rút là số lẻ”.\nVì $A,B,C$là các biến cố độc lập suy ra ta có:\n$\\begin{aligned} & P\\left( D \\right)=P\\left( \\overline{A}\\cap B\\cap C \\right)+P\\left( A\\cap \\overline{B}\\cap C \\right)+P\\left( A\\cap B\\cap \\overline{C} \\right)+P\\left( \\overline{A}\\cap \\overline{B}\\cap \\overline{C} \\right) \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\,P\\left( \\overline{A} \\right)P\\left( B \\right)P\\left( C \\right)+P\\left( A \\right)P\\left( \\overline{B} \\right)P\\left( C \\right)+P\\left( A \\right)P\\left( B \\right)P\\left( \\overline{C} \\right)+P\\left( \\overline{A} \\right)P\\left( \\overline{B} \\right)P\\left( \\overline{C} \\right) \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\frac{1}{2}.\\frac{1}{2}.\\frac{1}{2}+\\frac{1}{2}.\\frac{1}{2}.\\frac{1}{2}+\\frac{1}{2}.\\frac{1}{2}.\\frac{1}{2}+\\frac{1}{2}.\\frac{1}{2}.\\frac{1}{2}=\\frac{1}{2}. \\\\ \\end{aligned}$",
    "options": [
@@ -352,6 +348,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C8.B2.D01",
    "dang_toan_web": "Các quy tắc tính xác suất: Quy tắc cộng (mở rộng) và Quy tắc nhân xác suất."
@@ -494,7 +491,7 @@
    "flags": [],
    "question": "Ở ruồi giấm, tính trạng cánh dài là tính trạng trội hoàn toàn so với tính trạng cánh ngắn. Cho ruồi giấm cái cánh dài thuần chủng giao phối với ruồi giấm đực cánh ngắn thuần chủng thu được ${{F} 1}$ toàn ruồi giấm cánh dài. Tiếp tục cho ${{F} 1}$ giao phối với nhau và thu được các con ruồi giấm F2. Lần lượt lấy ngẫu nhiên hai con ruồi giấm F2, tính xác suất của biến cố \"Có đúng một con ruồi giấm cánh dài trong hai con được lấy ra\".",
    "explanation": "Quy ước gene ${{A}}$ : ruồi giấm cánh dài và gene a: ruồi giấm cánh ngắn. Ở thế hệ ${{F} 2}$, ba kiểu gene, AA:Aa:aa xuất hiện với tỉ lệ ${1: 2: 1}$ nên tỉ lệ ruồi giấm cánh dài so với ruồi giấm cánh ngắn là ${3: 1}$\nGọi ${X_1, X_2}$ lần lượt là biến cố \"ruồi giấm lấy ra lần thứ nhất là ruồi giấm cánh dài\" và biến cố \"ruồi giấm lấy ra lần thứ hai là ruồi giấm cánh dài\".\nTa có ${X_1, X_2}$ là hai biến cố độc lập và ${P\\left(X_1\\right)=P\\left(X_2\\right)=\\frac{3}{4}}$.\nXác suất của biến cố \"Có đúng một con ruồi giấm cánh dài trong hai con được lấy ra” là:\n${\\begin{aligned} P\\left(X_1 \\overline{X_2} \\cup \\overline{X_1} X_2\\right) & =P\\left(X_1 \\overline{X_2}\\right)+P\\left(\\overline{X_1} X_2\\right)=P\\left(X_1\\right) P\\left(\\overline{X_2}\\right)+P\\left(\\overline{X_1}\\right) P\\left(X_2\\right) \\\\ & =2 \\times \\frac{3}{4} \\times \\frac{1}{4}=\\frac{3}{8} \\end{aligned} }$",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "\\dfrac{3}{8}",
    "ma": "de3.P3.C1",
    "dac_trung": {
@@ -519,7 +516,7 @@
    "flags": [],
    "question": "Rút ngẫu nhiên 1 lá bài từ bộ bài tây 52 lá. Tính xác suất của biến cố \"Lá bài được chọn có màu đen hoặc lá đó có số chia hết cho 3\".",
    "explanation": "Gọi ${A}$ là biến cố \"Lá bài được chọn có màu đen\" và ${B}$ biến cố \"lá bài được chọn có số chia hết cho 3\". Ta có ${P(A \\cup B)=P(A)+P(B)-P(A B)=\\frac{1}{2}+\\frac{12}{52}-\\frac{1}{2} \\cdot \\frac{12}{52}=\\frac{8}{13}}$.",
-   "short_value": null,
+   "short_value": 8,
    "short_correct": "\\dfrac{8}{13}",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -544,8 +541,8 @@
    "flags": [],
    "question": "Một hộp có 4 bi xanh, 3 bi đỏ và 5 bi vàng có cùng kích thước và cùng khối lượng. Chọn ngẫu nhiên 2 viên bi từ hộp. Tính xác suất của các biến cố\na) Hai bi lấy ra có cùng màu.\nb) Hai bi lấy ra khác màu.",
    "explanation": "a) Gọi ${A}$ là biến cố \"Hai bi lấy ra có cùng màu\". Xác suất của biến cố ${A}$ :\n${P(A)=\\frac{C_4^2+C_5^2+C_3^2}{C_{12}^2}=\\frac{19}{66} \\text {. } }$\nb) Gọi ${B}$ là biến cố \"Hai bi lấy ra khác màu\". Biến cố \"Hai bi lấy ra khác màu\" là biến cố đối của biến cố \"Hai bi lấy ra có cùng màu\". Xác suất của biến cố ${B}$:\n${P(B)=1-\\frac{19}{66}=\\frac{47}{66} \\text {. } }$",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 47,
+   "short_correct": "47",
    "ma": "de3.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -567,7 +564,7 @@
    "flags": [],
    "question": "Cho hai biến cố ${A}$ và ${B}$ độc lập với nhau.\nBiết ${P(A)=0,4}$ và ${P(B)=0,45}$. Tính xác suất của biến cố ${A \\cup B}$.\n",
    "explanation": "${P(A \\cup B)=P(A)+P(B)-P(A B)=0,4+0,45-0,4 \\times 0,45=0,67}$.",
-   "short_value": null,
+   "short_value": 0.67,
    "short_correct": "0,67",
    "ma": "de3.P3.C4",
    "dac_trung": {
@@ -592,7 +589,7 @@
    "flags": [],
    "question": "Cho hai biến cố ${A}$ và ${B}$ độc lập với nhau.\nBiết ${P(A)=0,45}$ và ${P(A \\cup B)=0,65}$. Tính xác suất của biến cố ${B}$.",
    "explanation": "${P(A \\cup B)=P(A)+P(B)-P(A B)}$\n${\\Leftrightarrow 0,65=0,45+P(B)-0,6 P(B) \\Rightarrow P(B)=0,5 \\text {. } }$",
-   "short_value": null,
+   "short_value": 0.5,
    "short_correct": "0,5",
    "ma": "de3.P3.C5",
    "dac_trung": {
@@ -617,7 +614,7 @@
    "flags": [],
    "question": "Một hộp có 20 tấm thẻ cùng loại được đánh số lần lượt từ 1 đến 20 . Lấy ngẫu nhiên đồng thời hai thẻ từ hộp. Tính xác suất của các biến cố: \"Tích các số ghi trên 2 thẻ lấy ra là số chia hết cho 3\".",
    "explanation": "Gọi ${B}$ là biến cố \"Tích các số ghi trên 2 thẻ lấy ra là số chia hết cho 3\". Tích các số ghi trên 2 thẻ lấy ra là số chia hết cho 3 khi lấy được 1 trong 2 thẻ có ghi số chia hết cho 3. Xác suất của biến cố ${B: P(B)=\\frac{C_6^1 \\times C_{19}^1}{C_{20}^2}=\\frac{3}{5}}$.",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "\\dfrac{3}{5}",
    "ma": "de3.P3.C6",
    "dac_trung": {

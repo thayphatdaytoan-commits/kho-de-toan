@@ -644,10 +644,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan",
-    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -685,7 +682,8 @@
     "thuc_te": true,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -725,63 +723,63 @@
    ],
    "parts": [
     {
+     "explanation": "Đặt BD = x suy ra DC = 12-x\nXét $\\Delta ABC$ có AD là đường phân giác góc A. Áp dụng tính chất đường phân giác trong tam giác ta có:\n$\\frac{DB}{DC}=\\frac{AB}{AC}$\n$\\frac{x}{12-x}=\\frac{5}{10}$\n$5.(12-x)=10x$\n$60-5x=10x$\n$15x=60$\n$x=4$\nVậy BD = 4 cm, DC = 12 – 4 = 8 cm.",
      "id": "a",
      "label": "a",
-     "question": "Tính DB, DC.",
-     "explanation": "Đặt BD = x suy ra DC = 12-x\nXét $\\Delta ABC$ có AD là đường phân giác góc A. Áp dụng tính chất đường phân giác trong tam giác ta có:\n$\\frac{DB}{DC}=\\frac{AB}{AC}$\n$\\frac{x}{12-x}=\\frac{5}{10}$\n$5.(12-x)=10x$\n$60-5x=10x$\n$15x=60$\n$x=4$\nVậy BD = 4 cm, DC = 12 – 4 = 8 cm.",
-     "points": 1,
-     "type": "form_mau",
      "mau_spec": {
-      "mau": "khac",
-      "kieu": "dong",
       "dong": [
        "$DB =$ {{1}} cm ; $DC =$ {{2}} cm"
       ],
+      "kieu": "dong",
+      "mau": "khac",
       "o": [
        {
+        "dap_an": "4",
         "id": "1",
-        "loai": "so",
-        "dap_an": "4"
+        "loai": "so"
        },
        {
+        "dap_an": "8",
         "id": "2",
-        "loai": "so",
-        "dap_an": "8"
+        "loai": "so"
        }
       ]
-     }
+     },
+     "points": 1,
+     "question": "Tính DB, DC.",
+     "type": "form_mau"
     },
     {
+     "explanation": "Chứng minh EF là đường trung bình của $\\Delta ABC$. Tính EF = BC/2 = 6 cm\nSuy ra EF // BC, áp dụng định lý Thales lập tỉ số suy ra M là trung điểm AD\nTính ME = BD/2 = 2 cm, MF = DC/2 = 4 cm",
      "id": "b",
      "label": "b",
-     "question": "Lấy điểm E và F lần lượt là trung điểm của AB và AC. Tính độ dài EF. EF cắt AD tại M. Tìm độ dài EM, MF.",
-     "explanation": "Chứng minh EF là đường trung bình của $\\Delta ABC$. Tính EF = BC/2 = 6 cm\nSuy ra EF // BC, áp dụng định lý Thales lập tỉ số suy ra M là trung điểm AD\nTính ME = DC/2 = 4 cm, MF = BD/2 = 2 cm",
-     "points": 1,
-     "type": "form_mau",
      "mau_spec": {
-      "mau": "khac",
-      "kieu": "dong",
       "dong": [
        "$EF =$ {{1}} cm ; $EM =$ {{2}} cm ; $MF =$ {{3}} cm"
       ],
+      "kieu": "dong",
+      "mau": "khac",
       "o": [
        {
+        "dap_an": "6",
         "id": "1",
-        "loai": "so",
-        "dap_an": "6"
+        "loai": "so"
        },
        {
+        "dap_an": "2",
         "id": "2",
-        "loai": "so",
-        "dap_an": "2"
+        "loai": "so"
        },
        {
+        "dap_an": "4",
         "id": "3",
-        "loai": "so",
-        "dap_an": "4"
+        "loai": "so"
        }
       ]
-     }
+     },
+     "points": 1,
+     "question": "Lấy điểm E và F lần lượt là trung điểm của AB và AC. Tính độ dài EF. EF cắt AD tại M. Tìm độ dài EM, MF.",
+     "type": "form_mau"
     }
    ],
    "points": 2,
@@ -795,7 +793,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   }
  ],
  "flags": []

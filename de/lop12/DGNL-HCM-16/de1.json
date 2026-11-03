@@ -1271,6 +1271,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -1355,6 +1356,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -1890,6 +1892,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D11",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -2165,7 +2168,7 @@
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Ở một loài lưỡng bội, trên NST thường có n + 1 alen. Tần số alen thứ nhất bằng 1/2 và mỗi alen còn lại là 1/2n. Giả sử quần thể ở trang thái cân bằng di truyền. Tần số các cá thể dị hợp trong quần thể là:",
-   "explanation": "Phương pháp giải: Tần số kiểu gen dị hợp = 1 – tần số kiểu gen đồng hợp.\nBước 1: Tính tần số alen trong quần thể\nBước 2: Tính tần số kiểu gen đồng hợp trong quần thể\nBước 3: Tính tỉ lệ kiểu gen dị hợp\nGiải chi tiết:\nTần số alen trong quần thể:\n$alen1:\\dfrac{1}{2}$\n$alen2\\to alenn-1:\\frac{1}{2n}$\nTỉ lệ kiểu gen đồng hợp: ${{\\left( \\frac{1}{2} \\right)}^{2}}-n\\times {{\\left( \\frac{1}{2n} \\right)}^{2}}$\nTần số kiểu gen dị hợp là: $1-{{\\left( \\frac{1}{2} \\right)}^{2}}-n\\times {{\\left( \\frac{1}{2n} \\right)}^{2}}=\\frac{3n-1}{4n}$",
+   "explanation": "Phương pháp giải: Tần số kiểu gen dị hợp = 1 – tần số kiểu gen đồng hợp.\nGiải chi tiết:\nTần số alen trong quần thể: alen thứ nhất $\\frac{1}{2}$, mỗi alen còn lại $\\frac{1}{2n}$ (có $n$ alen còn lại).\nTỉ lệ kiểu gen đồng hợp: ${\\left(\\frac{1}{2}\\right)}^{2}+n\\times{\\left(\\frac{1}{2n}\\right)}^{2}=\\frac{1}{4}+\\frac{1}{4n}$.\nTần số kiểu gen dị hợp là: $1-\\left(\\frac{1}{4}+\\frac{1}{4n}\\right)=\\frac{3n-1}{4n}$.\nVậy chọn C.",
    "options": [
     "$\\frac{n+1}{4n}$",
     "$\\frac{1}{4{{n}^{2}}}$",
@@ -2180,6 +2183,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD"
   },
   {
@@ -2631,9 +2635,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Dựa vào các thông tin được cung cấp dưới đây để trả lời các câu từ 97 đến 99\nChất bán dẫn (tiếng Anh: Semiconductor) là chất có độ dẫn điện ở mức trung gian giữa chất dẫn điện và chất cách điện. Chất bán dẫn hoạt động như một chất cách điện ở nhiệt độ thấp và có tính dẫn điện ở nhiệt độ phòng. Ứng dụng thực tế đầu tiên của chất bán dẫn là vào năm 1904 với máy Cat’s-whisker detector (tạm dịch là “máy dò râu mèo”) với một diode bán dẫn tinh khiết. Sau đó nhờ việc phát triển của thuyết vật lý lượng tử người ta đã tạo ra bóng bán dẫn năm 1947 và mạch tích hợp đầu tiên năm 1958.\nVì chất bán dẫn không được bày bán một cách phổ thông trong các cửa hàng giống như các thiết bị điện, nên nó có thể khó hình dung với nhiều người, nhưng trong thực tế, nó được sử dụng trong rất nhiều thiết bị hiện nay. Ví dụ:\nCảm biến nhiệt độ được trong điều hòa không khí được làm từ chất bán dẫn. Nồi cơm điện có thể nấu cơm một cách hoàn hảo là nhờ hệ thống điều khiển nhiệt độ chính xác có sử dụng chất bán dẫn. Bộ vi xử lý của máy tính CPU cũng được làm từ các nguyên liệu chất bán dẫn.\nNhiều sản phẩm tiêu dùng kỹ thuật số như điện thoại di động, máy ảnh, TV, máy giặt, tủ lạnh và bóng đèn LED cũng sử dụng chất bán dẫn.\nNgoài lĩnh vực điện tử tiêu dùng, chất bán dẫn cũng đóng một vai trò trung tâm trong hoạt động của các máy ATM, xe lửa, internet, truyền thông và nhiều thiết bị khác trong cơ sở hạ tầng xã hội, chẳng hạn như trong mạng lưới y tế được sử dụng để cung cấp dịch vụ chăm sóc sức khỏe người cao tuổi, vv… Thêm vào đó, hệ thống hậu cần hiệu quả sẽ giúp tiết kiệm năng lượng, thúc đẩy việc bảo tồn môi trường toàn cầu.\nMột chất quang dẫn có giới hạn quang dẫn là $0,78\\mu m$ . Chiếu vào chất bán dẫn đó lần lượt các chùm bức xạ đơn sắc có tần số ${{f}_{1}}=4,{{5.10}^{14}}Hz;{{f}_{2}}=5,{{0.10}^{13}}Hz;{{f}_{3}}=6,{{5.10}^{13}}Hz$ và ${{f}_{4}}=6,{{0.10}^{14}}Hz$. Cho $c={{3.10}^{8}}m/s$. Hiện tượng quang dẫn xảy ra với các chùm bức xạ có tần số",
    "explanation": "Phương pháp giải: Tần số của bức xạ: $f=\\frac{c}{\\lambda }$\nHiện tượng quang dẫn xảy ra khi $\\lambda \\le {{\\lambda }_{0}}$\nGiải chi tiết:\nTần số của bức xạ có thể gây ra hiện tượng quang dẫn của chất đó là:\n$f=\\frac{c}{\\lambda }=\\frac{{{3.10}^{8}}}{0,{{78.10}^{-6}}}=3,{{846.10}^{14}}\\left( Hz \\right)$\nHiện tượng quang dẫn xảy ra khi: $\\lambda \\le {{\\lambda }_{0}}\\Rightarrow f\\ge {{f}_{0}}\\Rightarrow f\\ge 3,{{846.10}^{14}}\\left( Hz \\right)$\nVậy những bức xạ gây ra hiện tượng quang dẫn với chất đó có tần số ${{f}_{1}}$ và ${{f}_{4}}$.",
    "options": [
@@ -2650,6 +2652,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD"
   },
   {

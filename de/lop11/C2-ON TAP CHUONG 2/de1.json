@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "2",
   "lesson": "on-tap",
-  "title": "Chương 2 – Bài on-tap"
+  "title": "Chương 2 – Bài on-tap",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -36,6 +37,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "grokbot",
    "muc_do": "NB",
    "dang": "L11.C2.B1.D01",
    "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
@@ -483,9 +485,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho dãy số $({{u}_{n}})$biết ${{u}_{n}}=\\frac{1}{\\sqrt{5}}\\left[ {{\\left( \\frac{1+\\sqrt{5}}{2} \\right)}^{n}}-{{\\left( \\frac{1-\\sqrt{5}}{2} \\right)}^{n}} \\right]$. Tìm số hạng ${{u}_{6}}$.",
    "explanation": "Thế trực tiếp: ${{u}_{6}}=\\frac{1}{\\sqrt{5}}\\left[ {{\\left( \\frac{1+\\sqrt{5}}{2} \\right)}^{6}}-{{\\left( \\frac{1-\\sqrt{5}}{2} \\right)}^{6}} \\right]=8$.",
    "short_value": 8,
@@ -498,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B1.D01",
    "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
@@ -512,8 +513,8 @@
    "flags": [],
    "question": "Số đo ba góc của một tam giác vuông lập thành cấp số cộng. Tìm số đo ba góc đó.",
    "explanation": "3 góc của tam giác lập thành cấp số cộng, ta gọi 3 góc đó là: $a;\\text{ }a+d;\\text{ }a+2d\\text{ }\\left( a,d\\text{ }>\\text{ }0 \\right)$\nTa có: $a+(a+d)+(a+2d)={{180}^{{}^\\circ }}\\Leftrightarrow 3a+3d={{180}^{{}^\\circ }}\\Leftrightarrow a+d={{60}^{{}^\\circ }}\\text{ (1) }$\nDo tam giác đó là tam giác vuông nên có 1 góc bằng ${90^{\\circ}}$. Suy ra ${a+2 d=90^{\\circ}}$ (2)\nTừ (1) và (2), ta tính được ${a=30^{\\circ}, d=30^{\\circ}}$\nVậy số đo 3 góc là ${30^{\\circ} ; 60^{\\circ} ; 90^{\\circ}}$",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 30,
+   "short_correct": "30",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -535,8 +536,8 @@
    "flags": [],
    "question": "Cho ba số tự nhiên ${m, n, p}$ theo thứ tự lập thành cấp số cộng. Chứng minh ba số ${2^m, 2^n, 2^p}$ theo thứ tự lập thành cấp số nhân.",
    "explanation": "Vì 3 số $m,\\text{ }n,\\text{ }p$ theo thứ tự lập thành 1 cấp số cộng.\nGọi d là công sai của cấp số công. Ta có: ${n=m+d, p=n+d}$\nTa có: ${2^n=2^{m+d}=2^m \\cdot 2^d}$ và ${2^p=2^{n+d}=2^n .2^d}$\nVậy ${2^m, 2^n, 2^p}$ theo thứ tự lập thành cấp số nhân có công bội là ${2^d}$",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 2,
+   "short_correct": "2",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -555,9 +556,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho dãy số $({{u}_{n}})$ có số hạng tổng quát ${{u}_{n}}=\\frac{2n+1}{n+2}$. Số $\\frac{167}{84}$ là số hạng thứ mấy?",
    "explanation": "Giả sử ${{u}_{n}}=\\frac{167}{84}\\Leftrightarrow \\frac{2n+1}{n+2}=\\frac{167}{84}\\Leftrightarrow 84(2n+1)=167(n+2)$ $\\Leftrightarrow n=250$.\nVậy $\\frac{167}{84}$ là số hạng thứ 250 của dãy số $({{u}_{n}})$.",
    "short_value": 250,
@@ -570,6 +569,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B1.D01",
    "dang_toan_web": "Khái niệm dãy số, cách cho một dãy số, tính tăng/giảm và bị chặn của dãy số."
@@ -584,7 +584,7 @@
    "flags": [],
    "question": "Mặt cắt của một tổ ong có hình lưới tạo bởi các ô hình lục giác đều. Từ một ô đầu tiên, bước thứ nhất, các ong thợ tạo ra vòng 1 gồm 6 ô lục giác; bước thứ hai, các ong thợ sẽ tạo ra vòng 2 có 12 ô bao quanh vòng 1 ; bước thứ ba, các ong thợ sẽ tạo ra 18 ô bao quanh vòng 2 ; cứ thế tiếp tục (Hình 2). Số ô trên các vòng theo thứ tự có tạo thành cấp số cộng không? Nếu có, tìm công sai của cấp số cộng này.\n[[IMG:image11.png]]",
    "explanation": "Số ô trên các vòng là: ${u_1=6 ; u_2=12 ; u_3=18}$\nTa thấy ${u_{n+1}=u_n+6}$\nVậy các ô trên vòng tạo thành cấp số cộng có công sai là 6",
-   "short_value": null,
+   "short_value": 6,
    "short_correct": "6",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -609,7 +609,7 @@
    "flags": [],
    "question": "Tần số của ba phím liên tiếp Sol, La, Si trên một cây đàn organ tạo thành cấp số nhân.\n[[IMG:image12.png]]\nBiết tần số của hai phím Sol và Si lần lượt là ${415 {~Hz}}$ và ${466 {~Hz}}$. Tính tần số của phím La (làm tròn đến hàng đơn vị).",
    "explanation": "Do tần số của ba phím Sol, La, Si tạo thành cấp số nhân nên gọi tần số 3 phím lần lượt là: ${a, a q, a q^2}$\nTa có: ${a=415}$ và ${a q^2=466}$. Nên ${q=1,06}$\nSuy ra: ${a q=440}$\nVậy tần số của phím La là ${440 {~Hz}}$",
-   "short_value": null,
+   "short_value": 440,
    "short_correct": "440",
    "ma": "de1.P3.C6",
    "dac_trung": {

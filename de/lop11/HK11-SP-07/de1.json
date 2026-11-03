@@ -21,8 +21,6 @@
    "tf_ans": {},
    "answer": "B",
    "flags": [
-    "cong_thuc_dang_anh_chua_OCR",
-    "cong_thuc_ocr_AI_can_xem",
     "import_web: đáp án web đọc C khác B"
    ],
    "question": "Tính giá trị biểu thức ${P=\\tan {{1}^{0}}\\tan {{2}^{0}}\\tan {{3}^{0}}...\\tan {{89}^{0}}.}$",
@@ -41,6 +39,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L11.C1.B2.D01",
    "dang_toan_web": "Các công thức biến đổi lượng giác (công thức cộng, công thức nhân đôi, công thức biến đổi tích thành tổng, tổng thành tích)."
@@ -81,7 +80,6 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [
-    "cong_thuc_ocr_AI_can_xem",
     "import_web: đáp án web đọc B khác A"
    ],
    "question": "[[IMG:image10.png]]\nThời gian trung bình để $100$ học sinh hoàn thành bài kiểm tra là:",
@@ -100,6 +98,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L11.C3.B2.D01",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm: Số trung bình, trung vị, tứ phân vị và mốt."
@@ -114,11 +113,14 @@
     "c": "[TH] Trên khoảng $\\left( 0;\\frac{\\pi }{2} \\right)$ phương trình đã cho có 3 nghiệm.",
     "d": "[VD] Tổng các nghiệm của phương trình trong khoảng $\\left( 0;\\frac{\\pi }{2} \\right)$ bằng $\\frac{7\\pi }{9}$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho phương trình lượng giác ${\\sin \\left(3 x+\\frac{\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2}}$. Các mệnh đề sau đúng sai?",
    "explanation": "a. Ta có: ${\\sin \\left(3 x+\\frac{\\pi}{3}\\right)=-\\frac{\\sqrt{3}}{2} \\Leftrightarrow\\left[\\begin{array}{l}3 x+\\frac{\\pi}{3}=-\\frac{\\pi}{3}+k 2 \\pi \\\\ 3 x+\\frac{\\pi}{3}=\\frac{4 \\pi}{3}+k 2 \\pi\\end{array}(k \\in \\mathbb{Z})\\right.}$ ${\\Leftrightarrow\\left[\\begin{array}{l}3 x=-\\frac{2 \\pi}{3}+k 2 \\pi \\\\ 3 x=\\pi+k 2 \\pi\\end{array}(k \\in \\mathbb{Z}) \\Leftrightarrow\\left[\\begin{array}{l}x=-\\frac{2 \\pi}{9}+k \\frac{2 \\pi}{3} \\\\ x=\\frac{\\pi}{3}+k \\frac{2 \\pi}{3}\\end{array}(k \\in \\mathbb{Z})\\right.\\right.}$.\nb. Dựa vào công thức nghiệm, ta có: nghiệm âm lớn nhất bằng $-\\frac{2\\pi }{9}$\nc. Vì ${x \\in\\left(0 ; \\frac{\\pi}{2}\\right)}$ nên ${x=\\frac{\\pi}{3}, x=\\frac{4 \\pi}{9}}$. Vậy phương trình đã cho có hai nghiệm thuộc khoảng ${\\left(0 ; \\frac{\\pi}{2}\\right)}$.\nd. Tổng 2 nghiệm của phương trình trong khoảng $\\left( 0;\\frac{\\pi }{2} \\right)$ bằng $\\frac{7\\pi }{9}$",
    "ma": "de1.P2.C1",
@@ -129,6 +131,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C1.B4.D06",
    "dang_toan_web": "Phương trình lượng giác cơ bản."
@@ -137,18 +140,21 @@
    "section": 2,
    "n": 2,
    "type": "true_false_group",
-   "tf": {},
-   "tf_ans": {},
+   "tf": {
+    "a": "[NB] $f(8) = -\\frac{1}{5}$.",
+    "b": "[TH] $\\underset{x\\to 0}{\\lim}\\,f(x) = \\frac{1}{3}$.",
+    "c": "[TH] $\\underset{x\\to 3}{\\lim}\\,f(x) = \\frac{1}{6}$.",
+    "d": "[VD] Biết $\\underset{x\\to +\\infty }{\\lim}\\,f(x) = a$, $\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\sqrt{{{x}^{2}} + x + 2} - x \\right) = b$. Khi đó $3a + 4b = 2$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_y:",
-    "dung_sai_thieu_dap_an:",
-    "import_web: Câu 5: mệnh đề (a) trống",
-    "import_web: Câu 5: mệnh đề (b) trống",
-    "import_web: Câu 5: mệnh đề (c) trống",
-    "import_web: Câu 5: mệnh đề (d) trống"
-   ],
-   "question": "Cho hàm số ${ f(x) = \\frac{\\sqrt{x + 1} - 2}{x - 3} }$. Các mệnh đề sau đúng hay sai?\nA. [NB] $f(8)=-\\frac{1}{5}$\nB. [TH] $\\underset{x\\to 0}{\\lim}\\,f(x)=\\frac{1}{3}$.\nC. [TH] $\\underset{x\\to 3}{\\lim}\\,f(x)=\\frac{1}{6}$\nD. [VD] Biết $\\underset{x\\to +\\infty }{\\lim}\\,f(x)=a$, $\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\sqrt{{{x}^{2}}+x+2}-x \\right)=b$. Khi đó $3a+4b=2$.\nGiải\na. $f(8)=\\frac{1}{5}$ Sai\nb. $\\underset{x\\to 0}{\\lim}\\,\\frac{\\sqrt{x+1}-2}{x-3}=\\underset{x\\to 0}{\\lim}\\,\\frac{\\sqrt{0+1}-2}{0-3}=\\frac{1}{3}$ Đúng\nc. ${ \\lim_{x \\to 3} \\frac{\\sqrt{x + 1} - 2}{x - 3} = \\lim_{x \\to 3} \\frac{\\left(\\sqrt{x + 1} - 2\\right)\\left(\\sqrt{x + 1} + 2\\right)}{\\left(x - 3\\right)\\left(\\sqrt{x + 1} + 2\\right)} = \\lim_{x \\to 3} \\frac{(x + 1) - 4}{(x - 3)(\\sqrt{x + 1} + 2)} = \\lim_{x \\to 3} \\frac{x - 3}{(x - 3)(\\sqrt{x + 1} + 2)} = \\lim_{x \\to 3} \\frac{1}{\\sqrt{x + 1} + 2} = \\frac{1}{4}. }$\nSai\nd. Ta có: $\\underset{x\\to +\\infty }{\\lim}\\,\\frac{\\sqrt{x+1}-2}{x-3}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{\\sqrt{\\frac{1}{x}+\\frac{1}{{{x}^{2}}}}-\\frac{2}{x}}{1-\\frac{3}{x}}=0$\n${\\lim _{x \\rightarrow+\\infty}\\left(\\sqrt{x^2+x+2}-x\\right)=\\lim _{x \\rightarrow+\\infty} \\frac{x+2}{\\sqrt{x^2+x+2}+x}}$ $\\begin{aligned} & =\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x+2}{\\sqrt{{{x}^{2}}\\left( 1+\\frac{1}{x}+\\frac{2}{{{x}^{2}}} \\right)}+x}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x+2}{x\\sqrt{1+\\frac{1}{x}+\\frac{2}{{{x}^{2}}}}+x} \\\\ & =\\underset{x\\to +\\infty }{\\lim}\\,\\frac{x\\left( 1+\\frac{2}{x} \\right)}{x\\left( \\sqrt{1+\\frac{1}{x}+\\frac{2}{{{x}^{2}}}}+1 \\right)}=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{1+\\frac{2}{x}}{\\sqrt{1+\\frac{1}{x}+\\frac{2}{{{x}^{2}}}}+1}=\\frac{1}{2} \\\\ \\end{aligned}$\nNên $3a+4b=2$. Đúng",
+   "flags": [],
+   "question": "Cho hàm số $f(x) = \\frac{\\sqrt{x + 1} - 2}{x - 3}$. Các mệnh đề sau đúng hay sai?",
    "explanation": "",
    "ma": "de1.P2.C2",
    "dac_trung": {
@@ -158,6 +164,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -179,9 +186,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình lăng trụ $ABCD.\\,{A}'{B}'{C}'{D}'$ có hai đáy là các hình bình hành. Các điểm $M,$ $N,$ $P$ lần lượt là trung điểm của cạnh $AD,$ $BC,$ $C{C}'$ (hình vẽ).\n[[IMG:image14.png]]",
    "explanation": "[[IMG:image42.png]]\na) Các điểm $M,$ $N$ lần lượt là trung điểm của cạnh $AD,$ $BC$ nên $AM=BN$. Mà $AD\\parallel BC$ nên $AM\\parallel BN.$Vậy tứ giác $ABNM$là hình bình hành. Suy ra mệnh đề đúng.\nb) Các điểm $N,$ $P$ lần lượt là trung điểm của cạnh $BC,$ $C{C}'$nên $PN$là đường trung bình của tam giác $BC{C}'$ và $NP\\parallel B{C}'$.\nTa có $\\left\\{ \\begin{aligned} & MN\\parallel {C}'{D}' \\\\ & NP\\parallel B{C}' \\\\ \\end{aligned} \\right.\\Rightarrow \\left( MNP \\right)\\parallel \\left( B{C}'{D}' \\right)\\,.$ Suy ra mệnh đề đúng.\nc) Ta có $\\left\\{ \\begin{aligned} & \\left( MNP \\right)\\cap \\left( ABCD \\right)=MN \\\\ & \\left( {B}'{C}'{D}' \\right)\\,\\parallel \\left( ABCD \\right) \\\\ \\end{aligned} \\right.\\Rightarrow \\left( MNP \\right)$ cắt $\\left( {B}'{C}'{D}' \\right).$ Suy ra mệnh đề sai.\nd) Ta có $\\left\\{ \\begin{aligned} & \\left( MNP \\right)\\parallel \\left( B{C}'{D}' \\right)\\, \\\\ & D{D}'\\cap \\left( B{C}'{D}' \\right)={D}' \\\\ \\end{aligned} \\right.\\Rightarrow D{D}'\\cap \\left( MNP \\right)\\,=Q$ (hình vẽ). Suy ra mệnh đề đúng.",
    "ma": "de1.P2.C3",
@@ -192,6 +197,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C4.B4.D01",
    "dang_toan_web": "Hai mặt phẳng song song. Định lí Thales trong không gian."
@@ -307,9 +313,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Bảng giá cước của một công ty kinh doanh taxi bị lỗi bảo mật như bảng dưới\n| Giá mở cửa ($m$ km đầu) | Giá cước các km tiếp theo đến $n$ km | Giá cước từ km thứ $p$km trở đi |\n|---|---|---|\n| $a$ nghìn đồng | $b$nghìn đồng | $c$nghìn đồng |\nvà công thức hàm số mô tả số tiền khách phải trả theo quãng đường di chuyển là\n$y=\\left\\{ \\begin{array}{llllll} 10 & 0<x\\le 0,5 \\\\ bx+3,25 & 0,5<x\\le 30 \\\\ cx+78,25 & x>30 \\\\ \\end{array} \\right.$\nBiết rằng hàm mô tả số tiền khách phải trả theo quãng đường di chuyển là một hàm liên tục. Tính giá trị của biểu thức $T=a+b+c$",
    "explanation": "Trước hết từ điều kiện của $x$ trong hàm số $y=\\left\\{ \\begin{array}{llllll} 10 & 0<x\\le 0,5 \\\\ bx+3,25 & 0,5<x\\le 30 \\\\ cx+78,25 & x>30 \\\\ \\end{array} \\right.$ ta thu được $m=0,5\\left( \\text{km} \\right)$; $n=30\\left( \\text{km} \\right)$; $p=31\\left( \\text{km} \\right)$.\n+) Với $0<x\\le 0,5$ có $y=10000$ có được giá mở cửa $a=10000$(đồng)\n+) Hàm số liên tục trên các khoảng $\\left( 0;0,5 \\right)$; $\\left( 0,5;30 \\right);\\left( 30;+\\infty \\right)$ vì vậy cần thêm liên tục tại $x=0,5;x=30$\n+) Xét liên tục tại $x=0,5$\n$\\underset{x\\to 0,{{5}^{-}}}{\\lim}\\,y=10;\\underset{x\\to 0,{{5}^{+}}}{\\lim}\\,y=\\,\\underset{x\\to 0,{{5}^{+}}}{\\lim}\\,\\left( bx+3,25 \\right)=0,5b+3,25$; $y\\left( 0,5 \\right)=0,5b+3,25$\nĐể hàm số liên tục tại $x=0,5$ ta cần có $0,5b+3,25=10\\Leftrightarrow b=13,5$ (nghìn đồng).\n+) Xét liên tục tại $x=30$\n$\\underset{x\\to {{30}^{-}}}{\\lim}\\,y=\\underset{x\\to {{30}^{-}}}{\\lim}\\,\\left( bx+3,25 \\right)=\\underset{x\\to {{30}^{-}}}{\\lim}\\,\\left( 13,5x+3,25 \\right)=408,25$; $\\underset{x\\to {{30}^{+}}}{\\lim}\\,y=\\underset{x\\to {{30}^{+}}}{\\lim}\\,\\left( cx+78,25 \\right)=30c+78,25$; $y\\left( 30 \\right)=408,25$.\nĐể hàm số liên tục tại $x=30$ ta có $408,25=30c+78,25\\Leftrightarrow c=11$(nghìn đồng).\nTừ đó ta có bảng giá cước như sau:\n| Giá mở cửa (0,5 km đầu) | Giá cước các km tiếp theo đến 30 km | Giá cước từ km thứ 31 |\n|---|---|---|\n| 10 nghìn đồng | 13,5 nghìn đồng | 11 nghìn đồng |\nKhi đó $T=a+b+c=10+13,5+11=34,5$\nĐáp án: $34,5$\n-------------- Hết --------------",
    "short_value": 34.5,
@@ -322,6 +326,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."

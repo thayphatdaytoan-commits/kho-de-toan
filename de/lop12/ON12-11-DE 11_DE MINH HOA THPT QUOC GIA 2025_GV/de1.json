@@ -441,6 +441,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D02",
    "dang_toan_web": "Các dạng toán khác"
@@ -484,9 +485,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình lăng trụ đứng $ABC.{A}'{B}'{C}'$ có đáy $ABC$ là tam giác đều có cạnh bằng 1 và cạnh bên $A{A}'=\\sqrt{2}$. Tính khoảng cách giữa hai đường thẳng ${A}'B$ và ${B}'C$ (Kết quả làm tròn đến hàng phần trăm)",
    "explanation": "[[IMG:image4.png]]\nGọi $D$ là điểm đối xứng với $A$ qua $B$ thì khi đó ${A}'B\\parallel {B}'D$\nSuy ra $d\\left( {A}'B;{B}'C \\right)=d\\left( {A}'B;\\left( {B}'D \\right) \\right)=d\\left( B;\\left( {B}'CD \\right) \\right)$\nKẻ $BK\\bot CD\\left( K\\in CD \\right)$ thì ta có $BA=BC=BD$ nên $\\Delta ACD$ vuông tại $C$ mà $BK\\parallel AC$\nMặt khác: $B$ là trung điểm của $AD$ nên $K$ là trung điểm của $CD$ và $BK=\\frac{1}{2}AC=\\frac{1}{2}$\nKẻ $BH\\bot {B}'K$ tại $H$ thì ta suy ra được $d\\left( B;\\left( {B}'CD \\right) \\right)=BH$\nTa có: $\\frac{1}{B{{H}^{2}}}=\\frac{1}{B{{K}^{2}}}+\\frac{1}{B{{{{B}'}}^{2}}}=\\frac{4}{{{1}^{2}}}+\\frac{1}{{{2.1}^{2}}}=\\frac{9}{{{2.1}^{2}}}\\Rightarrow BH=\\frac{\\sqrt{2}}{3}$\nVậy $d\\left( B;\\left( {B}'CD \\right) \\right)=\\frac{\\sqrt{2}}{3}\\approx 0,47$.\nĐáp án:\n| 0 | , | 4 | 7 |\n|---|---|---|---|",
    "short_value": 0.47,
@@ -499,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B2.D04",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -525,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D10",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -540,9 +541,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "[[IMG:image6.png]]Một doanh nghiệp kinh doanh sản xuất đồng hồ có đồ thị hàm tổng chi phí theo số sản phẩm là một phần đồ thị của hàm số bậc hai trên bậc nhất $f\\left( x \\right)=\\frac{a{{x}^{2}}+bx+c}{x+e}$ như hình vẽ (mỗi đơn vị trên trục hoành tương ứng 100 sản phẩm và mỗi đơn vị trên trục tung tương ứng 1000USD). Biết rằng tâm đối xứng của đồ thị hàm số $f\\left( x \\right)$ là $A\\left( -1;\\frac{2}{3} \\right)$ và đường tiệm cận xiên của đồ thị hàm số đi qua điểm $B\\left( 3;2 \\right)$. Theo khảo sát, tổng doanh thu của doanh nghiệp này được mô tả bởi hàm số $R\\left( x \\right)={{x}^{2}}+2x$ và lợi nhuận thu về khi bán 200 sản phẩm bằng $5250$USD. Khi chi phí theo số sản phẩm đạt giá trị nhỏ nhất thì số sản phẩm sản xuất được là bao nhiêu? (Kết quả làm tròn đến hàng đơn vị)",
-   "explanation": "Dễ dàng suy ra được $e=1$ và đồ thị có đường tiệm cận đứng là $x=-1$\nGọi đường tiệm cận xiên của đồ thị hàm số $f\\left( x \\right)$ là $y=ax+b$\nTheo giả thiết ta có: $\\left\\{ \\begin{aligned} & -a+b=\\frac{2}{3} \\\\ & 3a+b=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{1}{3} \\\\ & b=1 \\\\ \\end{aligned} \\right.$ nên đường tiệm cận xiên là $y=\\frac{1}{3}x+1$\nHàm số $f\\left( x \\right)=\\frac{a{{x}^{2}}+bx+c}{x+e}$ được viết lại dưới dạng $f\\left( x \\right)=\\frac{1}{3}x+1+\\frac{d}{x+1}$\nLợi nhuận $=$ Doanh thu $-$ Chi phí $\\Leftrightarrow P\\left( x \\right)=R\\left( x \\right)-f\\left( x \\right)\\Leftrightarrow {{x}^{2}}+2x-\\frac{1}{3}x-1-\\frac{d}{x+1}$\nTheo giả thiết lợi nhuận thu về khi bán 200 sản phẩm bằng $5250$USD.\nKhi đó $P\\left( 2 \\right)=5,25\\Leftrightarrow \\frac{19}{3}-\\frac{d}{3}=5,25\\Leftrightarrow d=\\frac{13}{4}=3,25$\nVậy $f\\left( x \\right)=\\frac{1}{3}x+1+\\frac{3,25}{x+1}$ có đạo hàm ${f}'\\left( x \\right)=\\frac{1}{3}-\\frac{3,25}{{{\\left( x+1 \\right)}^{2}}}=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{-\\sqrt{39}}{2}-1\\,\\left( loai \\right) \\\\ & x=\\frac{\\sqrt{39}}{2}-1\\,\\left( nhan \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image7.png]]\nVậy số sản phẩm khi chi phí đạt giá trị nhỏ nhất là $\\left( \\frac{\\sqrt{39}}{2}-1 \\right).100\\approx 25$ sản phẩm.\nĐáp án:\n| 2 | 5 |  |  |\n|---|---|---|---|",
+   "explanation": "Dễ dàng suy ra được $e=1$ và đồ thị có đường tiệm cận đứng là $x=-1$\nGọi đường tiệm cận xiên của đồ thị hàm số $f\\left( x \\right)$ là $y=ax+b$\nTheo giả thiết ta có: $\\left\\{ \\begin{aligned} & -a+b=\\frac{2}{3} \\\\ & 3a+b=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{1}{3} \\\\ & b=1 \\\\ \\end{aligned} \\right.$ nên đường tiệm cận xiên là $y=\\frac{1}{3}x+1$\nHàm số $f\\left( x \\right)=\\frac{a{{x}^{2}}+bx+c}{x+e}$ được viết lại dưới dạng $f\\left( x \\right)=\\frac{1}{3}x+1+\\frac{d}{x+1}$\nLợi nhuận $=$ Doanh thu $-$ Chi phí $\\Leftrightarrow P\\left( x \\right)=R\\left( x \\right)-f\\left( x \\right)\\Leftrightarrow {{x}^{2}}+2x-\\frac{1}{3}x-1-\\frac{d}{x+1}$\nTheo giả thiết lợi nhuận thu về khi bán 200 sản phẩm bằng $5250$USD.\nKhi đó $P\\left( 2 \\right)=5,25\\Leftrightarrow \\frac{19}{3}-\\frac{d}{3}=5,25\\Leftrightarrow d=\\frac{13}{4}=3,25$\nVậy $f\\left( x \\right)=\\frac{1}{3}x+1+\\frac{3,25}{x+1}$ có đạo hàm ${f}'\\left( x \\right)=\\frac{1}{3}-\\frac{3,25}{{{\\left( x+1 \\right)}^{2}}}=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{-\\sqrt{39}}{2}-1\\,\\left( loai \\right) \\\\ & x=\\frac{\\sqrt{39}}{2}-1\\,\\left( nhan \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image7.png]]\nVậy số sản phẩm khi chi phí đạt giá trị nhỏ nhất là $\\left( \\frac{\\sqrt{39}}{2}-1 \\right).100\\approx 212$ sản phẩm.\nĐáp án:\n| 2 | 5 |  |  |\n|---|---|---|---|",
    "short_value": 25,
-   "short_correct": "25",
+   "short_correct": "212",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -551,6 +552,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D10",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -562,9 +564,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image8.png]]Bạn An thực hiện thiết kế một logo hình con mắt cho một phòng khám nhãn khoa. Logo là một hình phẳng giới hạn bởi hai parabol $y=f\\left( x \\right)$ và $y=g\\left( x \\right)$ có các kích thước như hình vẽ dưới đây (phần được tô màu đen) và một hình tròn có bán kính bằng $0,5$dm ở giữa là phần con ngươi (phần được tô màu xanh), đơn vị trên mỗi trục tọa độ là decimet. Biết rằng chi phí để sơn phần con ngươi hình tròn màu xanh là $25\\,000$đồng/dm2 và chi phí để sơn phần còn lại màu đen là $20\\,000$ đồng/dm2. Chi phí để sơn logo trên là bao nhiêu nghìn đồng? (Kết quả làm tròn đến hàng đơn vị)",
    "explanation": "Gọi phương trình parabol $y=f\\left( x \\right)$ là $f\\left( x \\right)=a{{x}^{2}}+bx+c$ với $a\\ne 0$ đi qua các điểm có tọa độ lần lượt là $\\left( 2;\\,1 \\right),\\,\\left( 0;\\,2 \\right),\\,\\left( -2;\\,1 \\right)$.\nLập hệ phương trình ba ẩn, từ đó suy ra được $\\left\\{ \\begin{aligned} & a=-\\frac{1}{4} \\\\ & b=0 \\\\ & c=2 \\\\ \\end{aligned} \\right.$ nên $f\\left( x \\right)=-\\frac{1}{4}{{x}^{2}}+2$\nGọi phương trình parabol $y=g\\left( x \\right)$ là $g\\left( x \\right)=m{{x}^{2}}+nx+p$ với $m\\ne 0$ đi qua các điểm có tọa độ lần lượt là $\\left( -2;\\,0 \\right),\\,\\left( 0;\\,-1 \\right),\\,\\left( 2;\\,0 \\right)$.\nLập hệ phương trình ba ẩn, từ đó suy ra được $\\left\\{ \\begin{aligned} & m=\\frac{1}{4} \\\\ & n=0 \\\\ & p=-1 \\\\ \\end{aligned} \\right.$ nên $g\\left( x \\right)=\\frac{1}{4}{{x}^{2}}-1$\nPhương trình hoành độ giao điểm:$f\\left( x \\right)=g\\left( x \\right)\\Leftrightarrow -\\frac{1}{4}{{x}^{2}}+2=\\frac{1}{4}{{x}^{2}}-1\\Leftrightarrow \\frac{1}{2}{{x}^{2}}=3\\Leftrightarrow x=\\pm \\sqrt{6}$\nDiện tích hình tròn được sơn màu xanh là: ${{S}_{1}}=\\pi {{r}^{2}}=\\pi {{\\left( 0,5 \\right)}^{2}}=0,25\\pi $(dm2)\nDiện tích hình phẳng giới hạn bởi hai đường thẳng $y=f\\left( x \\right)$ và $y=g\\left( x \\right)$ là:\n${{S}_{2}}=\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| f\\left( x \\right)-g\\left( x \\right) \\right|\\text{d}x=}\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| \\left( -\\frac{1}{4}{{x}^{2}}+2 \\right)-\\left( \\frac{1}{4}{{x}^{2}}-1 \\right) \\right|\\text{d}x}$\nDiện tích phần sơn được tô màu đen là: ${{S}_{3}}={{S}_{2}}-{{S}_{1}}=\\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| \\left( -\\frac{1}{4}{{x}^{2}}+2 \\right)-\\left( \\frac{1}{4}{{x}^{2}}-1 \\right) \\right|\\text{d}x}-0,25\\pi $\nChi phí để sơn logo là:\n$T=0,25\\pi .25\\,000+\\left( \\int\\limits_{-\\sqrt{6}}^{\\sqrt{6}}{\\left| \\left( -\\frac{1}{4}{{x}^{2}}+2 \\right)-\\left( \\frac{1}{4}{{x}^{2}}-1 \\right) \\right|\\text{d}x}-0,25\\pi \\right).20.000=200$ nghìn đồng.\nĐáp án:\n| 2 | 0 | 0 |  |\n|---|---|---|---|",
    "short_value": 200,
@@ -577,6 +577,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -603,6 +604,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D08",
    "dang_toan_web": "Các dạng toán khác"
@@ -618,9 +620,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Đề thi tốt nghiệp THPT Quốc Gia bắt đầu từ năm 2025 sẽ có ba phần, trong đó có phần câu hỏi đúng sai. Một câu hỏi sẽ có bốn ý và mỗi ý hỏi chỉ có thể trả lời đúng hoặc sai. Thí sinh trả lời đúng 1 ý được $0,1$ điểm, trả lời đúng $2$ ý được $0,25$ điểm, trả lời đúng $3$ ý được $0,5$ điểm và trả lời đúng cả $4$ ý được $1,0$ điểm. Bạn Nam khi trả lời câu hỏi này đã biết làm chính xác được $1$ ý và chọn bừa $3$ ý còn lại. Biết rằng người ra đề không để đáp án câu này là toàn đúng hoặc toàn sai. Tính xác suất để bạn Nam được ít nhất $0,5$ điểm. (Kết quả làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)",
-   "explanation": "Số phần tử của không gian mẫu là $n\\left( \\Omega \\right)=2.2.2-1=7$\nGọi $A$ là biến cố làm được ít nhất $0,5$ điểm (làm đúng $3$ ý hoặc làm đúng cả $4$ ý)\nGọi ${{T}_{k}}$ là biến cố mà đáp án có $k$ ý đúng, suy ra có $4-k$ ý sai.\nTrường hợp 1: Nếu $k=1$ thì đáp án có 1 ý đúng và $3$ ý sai. Giả sử đáp án là ĐSSS\nNếu muốn được ít nhất $0,5$ điểm thì có 4 cách: ĐSSS; ĐĐSS; ĐSĐS; ĐSSĐ\nSuy ra $P\\left( A|{{T}_{1}} \\right)=\\frac{4}{7}$\nTrường hợp 2: Nếu $k=2$ thì đáp án có 2 ý đúng và 2 ý sai. Giả sử đáp án là ĐĐSS\nNếu muốn được ít nhất $0,5$ điểm thì có 4 cách: ĐĐSS; ĐSSS; ĐĐĐS; ĐĐSĐ\nSuy ra $P\\left( A|{{T}_{2}} \\right)=\\frac{4}{7}$\nTrường hợp 3: Nếu $k=3$ thì đáp án có 1 ý đúng và 3 ý sai. Giả sử đáp án là ĐĐĐS\nNếu muốn được ít nhất $0,5$ điểm thì có 3 cách: ĐĐĐS; ĐĐSS; ĐSĐS\nSuy ra $P\\left( A|{{T}_{3}} \\right)=\\frac{3}{7}$\nKhi đó: $P\\left( AT \\right)=P\\left( A{{T}_{1}} \\right)+P\\left( A{{T}_{2}} \\right)+P\\left( A{{T}_{3}} \\right)=P\\left( {{T}_{1}} \\right).P\\left( A|{{T}_{1}} \\right)+P\\left( {{T}_{2}} \\right).P\\left( A|{{T}_{2}} \\right)+P\\left( {{T}_{3}} \\right).P\\left( A|{{T}_{3}} \\right)$\n$=\\frac{1}{8}.\\frac{4}{7}+\\frac{3}{8}.\\frac{4}{7}+\\frac{3}{8}.\\frac{2}{7}=\\frac{25}{56}\\approx 0,45$\nĐáp án:\n| 0 | , | 4 | 5 |\n|---|---|---|---|\n-----------------HẾT-----------------",
+   "explanation": "Bạn Nam đã biết chính xác 1 ý nên để được ít nhất 0,5 điểm (đúng 3 ý hoặc 4 ý) thì cần đúng ít nhất 2 trong 3 ý còn lại.\nMỗi ý chọn bừa đúng với xác suất $\\frac{1}{2}$ và độc lập với nhau; điều kiện \"đáp án không toàn đúng hoặc toàn sai\" không làm thay đổi xác suất này vì các lựa chọn bừa độc lập với đáp án.\nVậy xác suất cần tính là $\\frac{C_3^2+C_3^3}{2^3}=\\frac{3+1}{8}=0,5$.",
    "short_value": 0.45,
-   "short_correct": "0,45",
+   "short_correct": "0,5",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 18,
@@ -629,6 +631,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.CD1.B1.D01",
    "dang_toan_web": "Các dạng toán khác"

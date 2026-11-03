@@ -489,9 +489,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Trong không gian $Oxyz$, cho điểm $A\\left( 2;\\,1;\\,3 \\right)$, đường thẳng $d:\\frac{x+1}{1}=\\frac{y-1}{-2}=\\frac{z-2}{2}$ và mặt phẳng $\\left( P \\right):x+y-2z+2=0$. Phương trình chính tắc của đường thẳng $\\Delta $ đi qua $A$, song song với mặt phẳng $\\left( P \\right)$ và vuông góc với đường thẳng $d$ có dạng:$\\frac{x+a}{b}=\\frac{y-5}{c}=\\frac{z+d}{3}$. Giá trị của biểu thức $M=a+b+c+d$bằng bao nhiêu?",
-   "explanation": "Đáp số :$M=-5$\nĐường thẳng $d$ có 1 VTCP $\\overrightarrow{{{u}_{d}}}=\\left( 1;\\,-2;2 \\right)$\nMặt phẳng $\\left( P \\right)$ có 1 VTPT $\\overrightarrow{n}=\\left( 1;1;-2 \\right)$, gọi $\\overrightarrow{u}$ là 1 VTCP của đường thẳng $\\Delta $\nTa có: $\\left\\{ \\begin{aligned} & \\Delta \\bot d \\\\ & \\Delta //\\left( P \\right) \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & \\overrightarrow{u}\\bot \\overrightarrow{{{u}_{d}}} \\\\ & \\overrightarrow{u}\\bot \\overrightarrow{n} \\\\ \\end{aligned} \\right.\\Rightarrow \\overrightarrow{u}=\\left[ \\overrightarrow{{{u}_{d}}},\\overrightarrow{n} \\right]=\\left( 2;4;3 \\right)$.\nSuy ra PTTS của đường thẳng $\\Delta $ :$\\left\\{ \\begin{aligned} & x=2+3t \\\\ & y=1+4t \\\\ & z=3+3t \\\\ \\end{aligned} \\right.$. Chọn $t=1\\Rightarrow \\Delta $đi qua điểm $M\\left( 5;5;6 \\right)$\nSuy ra PTCT của đường thẳng $\\Delta $: $\\frac{x-5}{2}=\\frac{y-5}{4}=\\frac{z-6}{3}$ $\\Rightarrow a=-5,b=2,c=4,d=-6\\Rightarrow M=-5$.",
-   "short_value": -4,
-   "short_correct": "-4",
+   "explanation": "Vectơ chỉ phương của $\\Delta$ là $[\\vec u_d,\\vec n]=(2;4;3)$ (kiểm tra: $(2;4;3)\\cdot(1;-2;2)=0$ và $(2;4;3)\\cdot(1;1;-2)=0$). Phương trình tham số qua $A(2;1;3)$: $x=2+2t$, $y=1+4t$, $z=3+3t$. Điểm có tung độ 5 ứng với $t=1$, tức $(4;5;6)$; phương trình chính tắc $\\frac{x-4}{2}=\\frac{y-5}{4}=\\frac{z-6}{3}$, suy ra $a=-4,b=2,c=4,d=-6$ và $M=-4+2+4-6=-4$.",
+   "short_value": -5,
+   "short_correct": "-5",
    "ma": "de2.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -500,6 +500,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B2.D05",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -511,9 +512,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$, cho các điểm $A\\left( 2\\,;\\,-1\\,;\\,0 \\right)$, $B\\left( 1\\,;\\,2\\,;\\,1 \\right)$, $C\\left( 3\\,;\\,-2\\,;\\,0 \\right)$, $D\\left( 1\\,;\\,1\\,;\\,-3 \\right)$. Đường thẳng đi qua $D$và vuông góc với mặt phẳng $\\left( ABC \\right)$ luôn đi qua điểm $M\\left( 2;a;b \\right)$. Khi đó ${{a}^{b}}$ bằng bao nhiêu? (kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Đáp số: ${{a}^{b}}=0,03$\nTa có $\\overrightarrow{AB}=\\left( -1\\,;\\,3\\,;\\,1 \\right)$; $\\overrightarrow{AC}=\\left( 1\\,;\\,-1\\,;\\,0 \\right)$; ${{\\vec{n}}_{\\left( ABC \\right)}}=\\left[ \\overrightarrow{AB},\\,\\overrightarrow{AC} \\right]$ $=\\left( 1\\,;\\,1\\,;\\,-2 \\right)$.\nĐường thẳng đi qua $D$và vuông góc với mặt phẳng $\\left( ABC \\right)$nên có véc tơ chỉ phương là${{\\vec{n}}_{\\left( ABC \\right)}}=\\left( 1\\,;\\,1\\,;-2 \\right)$, phương trình tham số là: $\\left\\{ \\begin{aligned} & x=1+t \\\\ & y=1+t \\\\ & z=-3-2t \\\\ \\end{aligned} \\right.$. Chọn $t=1\\Rightarrow M\\left( 2;2;-5 \\right)$.\nSuy ra $a=2;b=-5\\Rightarrow {{a}^{b}}={{2}^{-5}}=0,03.$",
    "short_value": 0.03,
@@ -526,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B2.D07",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -540,7 +540,7 @@
    "flags": [],
    "question": "Trong không gian $Oxyz$, cho hai đường thẳng $d:\\,\\frac{x-2}{2}=\\frac{y}{-1}=\\frac{z}{4}$ và $\\Delta :\\,\\frac{x-1}{2}=\\frac{y-2}{-1}=\\frac{z+1}{4}$. Phương trình mặt phẳng $\\left( P \\right)$ chứa $d$ và $\\Delta $ có dạng: $ax+by+z+c=0$.Tính giá trị của $a+b+c$",
    "explanation": "Đáp số: $-2$\n$d:\\,\\frac{x-2}{2}=\\frac{y}{-1}=\\frac{z}{4}$ $\\Rightarrow d$ qua $M\\left( 2;0;0 \\right)$ và nhận $\\overrightarrow{u}=\\left( 2;-1;4 \\right)$ làm một VTCP\n$\\Delta :\\,\\frac{x-1}{2}=\\frac{y-2}{-1}=\\frac{z+1}{4}$ $\\Rightarrow \\Delta $ qua $N\\left( 1;2;-1 \\right)$ và nhận $\\overrightarrow{u}=\\left( 2;-1;4 \\right)$ làm một VTCP\nThế tọa độ điểm $M\\left( 2;0;0 \\right)$vào đường thẳng $\\Delta $, ta được: $\\frac{1}{2}\\ne \\frac{-2}{-1}\\ne \\frac{1}{4}$ $\\Rightarrow d//\\Delta $.\n$\\overrightarrow{MN}=\\left( -1;2;-1 \\right)$. $\\left( P \\right)$ chứa $d$ và $\\Delta $ $\\Rightarrow \\overrightarrow{{{n}_{P}}}=\\left[ \\overrightarrow{u};\\overrightarrow{MN} \\right]=\\left( 7;-7;7 \\right)$\nSuy ra phương trình mặt phẳng $\\left( P \\right)$:$x-y+z-2=0$\n$\\Rightarrow a=1,b=-1;c=-2\\Rightarrow a+b+c=-2$.",
-   "short_value": 1.6666666666666667,
+   "short_value": -2,
    "short_correct": "5/3|1,67",
    "ma": "de2.P3.C3",
    "dac_trung": {
@@ -550,6 +550,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C5.B2.D07",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -588,7 +589,7 @@
    "flags": [],
    "question": "Một phần mềm mô phỏng vận động viên tập bắn bia mục tiêu có kích thước nhỏ $\\left( 42\\times 42cm \\right)$ bằng súng tiểu liên AK trong không gian $Oxyz$. Cho biết vận động viên đó sử dụng thước ngắm 3 và đứng cách xa bia mục tiêu là $100m$ , trục $d$ của nòng súng và cọc đỡ bia $d'$ lần lượt có phương trình\n$d:\\left\\{ \\begin{aligned} & x=t \\\\ & y=2 \\\\ & z=4 \\\\ \\end{aligned} \\right.$ và $d':\\left\\{ \\begin{aligned} & x=1 \\\\ & y=2 \\\\ & z=1+3t' \\\\ \\end{aligned} \\right.$. Để bắn trúng hồng tâm ( điểm 10 ) thì vận động viên phải ngắm bắn vào điểm $N\\left( a;b;c \\right)\\in d'$ và cách giao điểm của $d$ và $d'$ một khoảng $6cm$. Khi $c<0$, tính giá trị biểu thức $a-b+c$.",
    "explanation": "Đáp số: $-5$.\nGọi $M=d\\cap d'\\Rightarrow M\\left( 1;2;4 \\right)$.\nTa có $N\\in d'\\Rightarrow N\\left( 1;2;1+3t' \\right)\\Rightarrow \\overrightarrow{MN}=\\left( 0;0;3t'-3 \\right)$. Theo giả thiết $MN=6$\nSuy ra $\\left| 3t'-3 \\right|=6\\Leftrightarrow \\left[ \\begin{aligned} & t'=3 \\\\ & t'=-1 \\\\ \\end{aligned} \\right.\\Rightarrow \\left[ \\begin{aligned} & N\\left( 1;2;7 \\right) \\\\ & N\\left( 1;2;-2 \\right) \\\\ \\end{aligned} \\right.$. Vì $c<0\\Rightarrow $nhận $N\\left( 1;2;-2 \\right)$\nVậy $a=1,b=2,c=-2\\Rightarrow a-b+c=-5.$",
-   "short_value": -3,
+   "short_value": -5,
    "short_correct": "-3",
    "ma": "de2.P3.C5",
    "dac_trung": {
@@ -598,6 +599,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D05",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -609,9 +611,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$. Phương trình tham số của đường thẳng $d$ đi qua $A\\left( 1;1;3 \\right)$, nằm trong mặt phẳng $\\left( P \\right):x+2y+z-6=0$ và cắt đường thẳng $\\Delta :\\frac{x-1}{1}=\\frac{y}{1}=\\frac{z}{2}$ có dạng $\\left\\{ \\begin{aligned} & x=1+at \\\\ & y=1 \\\\ & z=3+bt \\\\ \\end{aligned} \\right.$. Tính giá trị của biểu thức $M=2024a-b$.",
    "explanation": "Đáp số: $M=2025.$\nGọi $B=\\Delta \\cap \\left( P \\right)\\Rightarrow $tọa độ điểm $B$ là nghiệm của hệ phương trình\n$\\left\\{ \\begin{aligned} & x+2y+z-6=0 \\\\ & \\frac{x-1}{1}=\\frac{y}{1}=\\frac{z}{2} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=2 \\\\ & y=1 \\\\ & z=2 \\\\ \\end{aligned} \\right.\\Rightarrow B\\left( 2;1;2 \\right)$\nVì $d\\subset \\left( P \\right)$ và $d$ cắt $\\Delta \\Rightarrow B\\in d\\Rightarrow d$ đi qua $A\\left( 1;1;3 \\right)$ và nhận $\\overrightarrow{AB}=\\left( 1;0;-1 \\right)$ làm một VTCP.\nSuy ra PTTS của $d:\\left\\{ \\begin{aligned} & x=1+t \\\\ & y=1 \\\\ & z=3-t \\\\ \\end{aligned} \\right.\\Rightarrow a=1,b=-1\\Rightarrow M=2025.$",
    "short_value": 2025,
@@ -624,6 +624,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B2.D02",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."

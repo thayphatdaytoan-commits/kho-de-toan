@@ -3,7 +3,8 @@
   "grade": "12",
   "chapter": "2",
   "lesson": "2",
-  "title": "Bài 2. Hệ trục tọa độ trong không gian"
+  "title": "Bài 2. Hệ trục tọa độ trong không gian",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -563,7 +564,7 @@
    "flags": [],
    "question": "Gạch ống là một sản phẩm được tạo hình thành từ đất sét và nước, được kết hợp lại ới nhau theo một công thức chung hợp lý mới có thể tạo ra hỗ hợp dẻo quoánh, sau đó chúng được đổ vào khuôn, rồi đem phơi hoặc sất khô và cuối cùng là đưa vào lò nung. Một viên gạch hình hộp chữ nhật có kích thước dài $20cm$,rộng $8cm$. Bên trong có bốn lỗ hình trụ bằng nhau có đường kính $2,5cm.$\n[[IMG:image30.png]]\nTính thể tích đất sét để làm một viên gạch. (Lấy $\\pi =3,14$).",
    "explanation": "Đáp số: $887,5$\nThể tích viên gạch không tính bốn lỗ hình trụ là: ${{V}_{1}}=8.8.20=1280(c{{m}^{2}})$\nThể tích bốn lỗ hình trụ là: ${{V}_{2}}=4.\\pi .{{\\left( \\frac{2,5}{2} \\right)}^{2}}.20=392.5(c{{m}^{2}})$\nThể tích viên gạch viên gạch là: ${{V}_{1}}-{{V}_{2}}=1280-392.5=887.5(c{{m}^{2}}).$",
-   "short_value": null,
+   "short_value": 887.5,
    "short_correct": "887,5",
    "ma": "de3.P3.C4",
    "dac_trung": {
@@ -610,9 +611,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hai chiếc khinh khí cầu bay lên từ cùng một địa điểm. Chiếc thứ nhất nằm cách điểm xuất phát $2,5\\text{ }\\!\\!~\\!\\!\\text{ km}$ về phía nam và $\\text{2 }\\!\\!~\\!\\!\\text{ km}$ về phía đông, đồng thời cách mặt đất $0,8\\text{ }\\!\\!~\\!\\!\\text{ km}$. Chiếc thứ hai nằm cách điểm xuất phát $1,5\\text{ }\\!\\!~\\!\\!\\text{ km}$ về phía bắc và $3\\text{ km}$ về phía tây, đồng thời cách mặt đất $0,6\\text{ }\\!\\!~\\!\\!\\text{ km}$. Người ta cần tìm một vị trí trên mặt đất để tiếp nhiên liệu cho hai khinh khí cầu sao cho tổng khoảng cách từ vị trí đó tới hai khinh khí cầu nhỏ nhất. Giả sử vị trí cần tìm cách địa điểm hai khinh khí cầu bay lên là $a\\,\\text{km}$ theo hướng nam và $b\\,\\text{km}$ theo hướng tây. Tính tổng $2a+3b$.",
    "explanation": "Đáp số: 3\nChọn hệ trục toạ độ $Oxyz$ với gốc $O$ đặt tại điểm xuất phát của hai khinh khí cầu, mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất với trục $Ox$ hướng về phía nam, trục $Oy$ hướng về phía đông và trục $\\text{Oz}$ hướng thẳng đứng lên trời (tham khảo hình vẽ), đơn vị đo lấy theo kilômét.\n[[IMG:image31.png]]\nChiếc khinh khí cầu thứ nhất và thứ hai ở vị trí $A,B$. Ta có $A\\left( \\frac{5}{2};2;\\frac{4}{5} \\right),B\\left( -\\frac{3}{2};-3;\\frac{3}{5} \\right)$.\nGọi $C$ là điểm đối xứng của $A$ qua mặt phẳng $\\left( Oxy \\right)$, $C\\left( \\frac{5}{2};2;-\\frac{4}{5} \\right)$. Khi đó $I=BC\\cap \\left( Oxy \\right)$.\n$\\overrightarrow{BC}=\\left( 4;5;-\\frac{7}{5} \\right)$. $I\\in \\left( Oxy \\right)\\Rightarrow I\\left( x;y;0 \\right)\\Rightarrow \\overrightarrow{BI}=\\left( x+\\frac{3}{2};y+3;-\\frac{3}{5} \\right)$\n$\\overrightarrow{BC},\\overrightarrow{BI}$ cùng phương nên $\\frac{x+\\frac{3}{2}}{4}=\\frac{y+3}{5}=\\frac{3}{7}\\Rightarrow \\left\\{ \\begin{aligned} & x=\\frac{3}{14} \\\\ & y=-\\frac{6}{7} \\\\ \\end{aligned} \\right.\\Rightarrow \\left\\{ \\begin{aligned} & a=\\frac{3}{14} \\\\ & b=\\frac{6}{7} \\\\ \\end{aligned} \\right.\\Rightarrow 2a+3b=3$.",
    "short_value": 3,
@@ -625,6 +624,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

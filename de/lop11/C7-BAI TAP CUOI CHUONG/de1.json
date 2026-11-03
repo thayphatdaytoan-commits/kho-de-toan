@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "7",
   "lesson": "on-tap",
-  "title": "Bài on-tap. Tập cuối chương 7"
+  "title": "Bài on-tap. Tập cuối chương 7",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -49,7 +50,7 @@
    "answer": "C",
    "flags": [],
    "question": "Cho hàm số $y=\\sqrt{x-1}$. Tính đạo hàm của hàm số tại điểm ${{x}_{0}}=2$",
-   "explanation": "Chọn C\nXét $\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 2 \\right)}{x-2}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{\\sqrt{x-1}-1}{x-2}$ $=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{\\left( x-2 \\right)\\left( \\sqrt{x-1}+1 \\right)}=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{1}{\\sqrt{x-1}+1}=\\frac{1}{2}$.",
+   "explanation": "Chọn C\nXét $\\underset{x\\to 2}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 2 \\right)}{x-2}=\\underset{x\\to 2}{\\lim}\\,\\frac{\\sqrt{x-1}-1}{x-2}$ $=\\underset{x\\to 2}{\\lim}\\,\\frac{x-2}{\\left( x-2 \\right)\\left( \\sqrt{x-1}+1 \\right)}=\\underset{x\\to 2}{\\lim}\\,\\frac{1}{\\sqrt{x-1}+1}=\\frac{1}{2}$.",
    "options": [
     "$\\frac{1}{4}$",
     "$2$",
@@ -77,7 +78,7 @@
    "answer": "B",
    "flags": [],
    "question": "Tiếp tuyến của đồ thị hàm số $y={{x}^{3}}+2$ tại điểm ${{x}_{0}}=1$ có hệ số góc là:",
-   "explanation": "Chọn B\nTa có hệ số góc $k={f}'\\left( {{x}_{0}} \\right)={f}'\\left( 1 \\right)$.\n${f}'\\left( 1 \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{3}}+2-3}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{3}}-1}{x-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}+x+1 \\right)}{x-1}$\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+x+1 \\right)=3.$ Vậy $k=3.$",
+   "explanation": "Chọn B\nTa có hệ số góc $k={f}'\\left( {{x}_{0}} \\right)={f}'\\left( 1 \\right)$.\n${f}'\\left( 1 \\right)=\\underset{x\\to 1}{\\lim}\\,\\frac{f\\left( x \\right)-f\\left( 1 \\right)}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{3}}+2-3}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{3}}-1}{x-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{\\left( x-1 \\right)\\left( {{x}^{2}}+x+1 \\right)}{x-1}$\n$=\\underset{x\\to 1}{\\lim}\\,\\left( {{x}^{2}}+x+1 \\right)=3.$ Vậy $k=3.$",
    "options": [
     "$k=-3$",
     "$k=3$",
@@ -104,8 +105,8 @@
    "tf_ans": {},
    "answer": "B",
    "flags": [],
-   "question": "$\\underset{\\Delta x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\Delta y}{\\Delta x}$ của hàm số $f\\left( x \\right)=\\sqrt{3x+1}$ theo $x$ là:",
-   "explanation": "Ta có: $\\underset{\\Delta x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\Delta y}{\\Delta x}$ $=\\underset{\\Delta x\\to 0}{\\mathop{\\lim }}\\,\\frac{\\sqrt{3\\left( x+\\Delta x \\right)+1}-\\sqrt{3x+1}}{\\Delta x}$ $=\\underset{\\Delta x\\to 0}{\\mathop{\\lim }}\\,\\frac{3}{\\sqrt{3\\left( x+\\Delta x \\right)+1}+\\sqrt{3x+1}}$ $=\\frac{3}{2\\sqrt{3x+1}}$.",
+   "question": "$\\underset{\\Delta x\\to 0}{\\lim}\\,\\frac{\\Delta y}{\\Delta x}$ của hàm số $f\\left( x \\right)=\\sqrt{3x+1}$ theo $x$ là:",
+   "explanation": "Ta có: $\\underset{\\Delta x\\to 0}{\\lim}\\,\\frac{\\Delta y}{\\Delta x}$ $=\\underset{\\Delta x\\to 0}{\\lim}\\,\\frac{\\sqrt{3\\left( x+\\Delta x \\right)+1}-\\sqrt{3x+1}}{\\Delta x}$ $=\\underset{\\Delta x\\to 0}{\\lim}\\,\\frac{3}{\\sqrt{3\\left( x+\\Delta x \\right)+1}+\\sqrt{3x+1}}$ $=\\frac{3}{2\\sqrt{3x+1}}$.",
    "options": [
     "$\\frac{3}{\\sqrt{3x+1}}$",
     "$\\frac{3}{2\\sqrt{3x+1}}$",
@@ -354,7 +355,7 @@
    "n": 1,
    "type": "true_false_group",
    "tf": {
-    "a": "Với bất kì ${{x}_{0}}$: ${{f}^{\\prime }}\\left( {{x}_{0}} \\right)=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{f(x)-f\\left( {{x}_{0}} \\right)}{x-{{x}_{0}}}$",
+    "a": "Với bất kì ${{x}_{0}}$: ${{f}^{\\prime }}\\left( {{x}_{0}} \\right)=\\underset{x\\to {{x}_{0}}}{\\lim}\\,\\frac{f(x)-f\\left( {{x}_{0}} \\right)}{x-{{x}_{0}}}$",
     "b": "${{f}^{\\prime }}(1)=-6$",
     "c": "${{f}^{\\prime }}(0)=0$",
     "d": "${{f}^{\\prime }}(2)=24$"
@@ -368,7 +369,7 @@
    "answer": null,
    "flags": [],
    "question": "Dùng định nghĩa để tính đạo hàm của hàm số ${f(x)=2 x^3}$. Khi đó:",
-   "explanation": "Với bất kì ${{x}_{0}}\\text{, ta c }\\!\\!\\acute{\\mathrm{o}}\\!\\!\\text{ : }\\begin{array}{llllll} {{f}^{\\prime }}\\left( {{x}_{0}} \\right) & =\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{f(x)-f\\left( {{x}_{0}} \\right)}{x-{{x}_{0}}}=\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{2{{x}^{3}}-2x_{0}^{3}}{x-{{x}_{0}}} \\\\ {} & =\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{2\\left( x-{{x}_{0}} \\right)\\left( {{x}^{2}}+x\\cdot {{x}_{0}}+x_{0}^{2} \\right)}{x-{{x}_{0}}} \\\\ {} & =\\underset{x\\to {{x}_{0}}}{\\mathop{\\lim }}\\,\\frac{2\\left( {{x}^{2}}+x\\cdot {{x}_{0}}+x_{0}^{2} \\right)}{1}=6x_{0}^{2}. \\\\ \\end{array}$\nVậy ${f^{\\prime}(x)=\\left(2 x^3\\right)^{\\prime}=6 x^2}$ trên ${\\mathbb{R}}$.",
+   "explanation": "Với bất kì ${{x}_{0}}\\text{, ta c }\\!\\!\\acute{\\mathrm{o}}\\!\\!\\text{ : }\\begin{array}{llllll} {{f}^{\\prime }}\\left( {{x}_{0}} \\right) & =\\underset{x\\to {{x}_{0}}}{\\lim}\\,\\frac{f(x)-f\\left( {{x}_{0}} \\right)}{x-{{x}_{0}}}=\\underset{x\\to {{x}_{0}}}{\\lim}\\,\\frac{2{{x}^{3}}-2x_{0}^{3}}{x-{{x}_{0}}} \\\\ {} & =\\underset{x\\to {{x}_{0}}}{\\lim}\\,\\frac{2\\left( x-{{x}_{0}} \\right)\\left( {{x}^{2}}+x\\cdot {{x}_{0}}+x_{0}^{2} \\right)}{x-{{x}_{0}}} \\\\ {} & =\\underset{x\\to {{x}_{0}}}{\\lim}\\,\\frac{2\\left( {{x}^{2}}+x\\cdot {{x}_{0}}+x_{0}^{2} \\right)}{1}=6x_{0}^{2}. \\\\ \\end{array}$\nVậy ${f^{\\prime}(x)=\\left(2 x^3\\right)^{\\prime}=6 x^2}$ trên ${\\mathbb{R}}$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 2,
@@ -487,7 +488,7 @@
    "flags": [],
    "question": "Cho hàm số ${y=x^3+2 x^2+1}$ có đồ thị là ${(C)}$. Viết phương trình tiếp tuyến của ${(C)}$ tại điểm ${M(1 ; 4)}$.",
    "explanation": "Ta có: ${y^{\\prime}=3 x^2+4 x}$. Do đó ${y^{\\prime}(1)=7}$.\nPhương trình tiếp tuyến tại điểm ${M(1 ; 4)}$ là ${y=7 x-3}$.",
-   "short_value": null,
+   "short_value": 7,
    "short_correct": "y=7x-3",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -512,7 +513,7 @@
    "flags": [],
    "question": "Tính đạo hàm của hàm số sau: ${y=-\\frac{2 x+1}{(x+1)^2}}$",
    "explanation": "${y^{\\prime}=-\\frac{(2 x+1)^{\\prime} \\cdot(x+1)^2-\\left[(x+1)^2\\right]^{\\prime} \\cdot(2 x+1)}{(x+1)^4}=-\\frac{2(x+1)^2-2(x+1)(2 x+1)}{(x+1)^4}}$\n${=\\frac{2 x^2+2 x}{(x+1)^4} \\Rightarrow y^{\\prime}=\\frac{2 x}{(x+1)^3} }$",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "\\dfrac{2x}{(x+1)^3}",
    "ma": "de1.P3.C2",
    "dac_trung": {
@@ -537,7 +538,7 @@
    "flags": [],
    "question": "Cho hàm số ${y=f(x)=\\sqrt{\\tan x+\\cot x}}$. Tính ${f^{\\prime}\\left(\\frac{\\pi}{4}\\right)}$.",
    "explanation": "${f^{\\prime}(x)=\\frac{1+\\tan ^2 x-\\left(1+\\cot ^2 x\\right)}{2 \\sqrt{\\tan x+\\cot x}}=\\frac{\\tan ^2 x-\\cot ^2 x}{2 \\sqrt{\\tan x+\\cot x}} \\Rightarrow f^{\\prime}(0)=\\frac{\\tan ^2 \\frac{\\pi}{4}-\\cot ^2 \\frac{\\pi}{4}}{2 \\sqrt{\\tan \\frac{\\pi}{4}+\\cot \\frac{\\pi}{4}}}=0}$",
-   "short_value": null,
+   "short_value": 0,
    "short_correct": "0",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -562,7 +563,7 @@
    "flags": [],
    "question": "Một chuyển động có vận tốc được biểu diễn theo đồ thị hình bên. Tính gia tốc của chuyển động tại thời điểm ${t=1({~s})}$.\n[[IMG:image12.png]]",
    "explanation": "Đồ thị của vận tốc là một Parabol có phương trình ${v(t)=a t^2+{b} t+{c}}$.\nTrên hình vẽ đồ thị qua các điểm ${(0 ; 3),(2 ; 9),(3 ; 0)}$ nên có hệ phương trình:\n${\\left\\{\\begin{array}{l}4 a+2 b=6 \\\\ 9 a+3 b+-3 \\\\ c=3\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}a=-4 \\\\ b=11 \\\\ c=3\\end{array}\\right.\\right.}$.\nDo đó phương trình của vận tốc là ${v(t)=-4 t^2+11 t+3}$.\nVậy gia tốc của chuyển động tại thời điểm ${t=1(s)}$ là: ${a(1)=v^{\\prime}(1)=3}$",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "3",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -587,7 +588,7 @@
    "flags": [],
    "question": "Cho chuyển động thẳng xác định bởi phương trình ${S=-t^3+3 t^2+9 t}$, trong đó ${t}$ tính bằng giây và ${S}$ tính bằng mét. Tính vận tốc của chuyển động tại thời điểm gia tốc triệt tiêu.",
    "explanation": "Ta có: ${v=S^{\\prime}=-3 t^2+6 t+9}$ và ${a=v^{\\prime}=-6 t+6}$.\nGia tốc triệt tiêu khi ${a=0 \\Rightarrow t=1}$.\nKhi đó vận tốc của chuyển động là ${v(1)=12 {~m} / {s}}$.",
-   "short_value": null,
+   "short_value": 12,
    "short_correct": "12",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -612,7 +613,7 @@
    "flags": [],
    "question": "Một chất điểm chuyển động có phương trình $S=2{{t}^{4}}+6{{t}^{2}}-3t+1$ với $t$ tính bằng giây (s) và $S$ tính bằng mét (m). Hỏi gia tốc của chuyển động tại thời điểm $t=3(s)$ bằng bao nhiêu?",
    "explanation": "Ta có vận tốc tức thời của chuyển động được tính theo công thức:\n$v\\left( t \\right)={{\\left( S\\left( t \\right) \\right)}^{\\prime }}=8{{t}^{3}}+12t-3$.\nKhi đó gia tốc tức thời của chuyển động được tính theo công thức:\n$a\\left( t \\right)=24{{t}^{2}}+12$ $\\Rightarrow a\\left( 3 \\right)={{24.3}^{2}}+12=228\\,\\,\\left( m/{{s}^{2}} \\right)$.\nVậy gia tốc của chuyển động tại thời điểm $t=3(s)$ là $228\\left( m/{{s}^{2}} \\right)$.",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "228",
    "ma": "de1.P3.C6",
    "dac_trung": {

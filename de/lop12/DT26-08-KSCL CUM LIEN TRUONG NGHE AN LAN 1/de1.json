@@ -360,15 +360,13 @@
     "d": "Cường độ âm của nhà máy đó không vượt quá ${{10}^{-3,5}}\\left( W/{{m}^{2}} \\right)$ thì đảm bảo sức khỏe cho công nhân."
    },
    "tf_ans": {
+    "a": true,
     "b": false,
     "c": true,
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_dap_an:bcd"
-   ],
+   "flags": [],
    "question": "Mức cường độ âm ${L\\left(dB\\right)}$ được tính bởi công thức ${L = 10\\log \\frac{I}{10^{-12}}}$, trong đó ${I\\left(W/m^2\\right)}$ là cường độ âm. Để đảm bảo sức khỏe cho công nhân, mức cường độ âm trong một nhà máy phải giữ sao cho không vượt quá ${85\\,dB}$. Xét tính đúng sai của các khẳng định sau:\n[[IMG:image7.png]]",
    "explanation": "Công thức mức cường độ âm là: $L=10\\log \\frac{I}{{{10}^{-12}}}=10\\left( \\log I-\\log {{10}^{-12}} \\right)$ $=10\\log I+120\\quad \\left( dB \\right)$\na) ${L = 10\\log I + 120}$.\nĐúng vì nó là công thức đã biến đổi từ công thức gốc.\nb) Thay ${I = 1000 = 10^3\\,\\left(W/m^2\\right)}$ vào công thức:\n${L = 10\\log 10^3 + 120 = 10 \\times 3 + 120 = 30 + 120 = 150\\,\\left(dB\\right)}$\nVì ${150\\,dB > 125\\,dB}$, nên khẳng định \"mức cường độ âm không vượt quá ${125\\,dB}$\" là Sai.\nc) Điều kiện để mức cường độ âm không vượt quá ${130\\,dB}$ là ${L \\le 130\\,dB}$.\n$10\\log I+120\\le 130\\Leftrightarrow $ $10\\log I\\le 10\\Leftrightarrow $ $\\log I\\le 1\\Leftrightarrow $ ${I \\le 10\\,\\left(W/m^2\\right)}$\nĐúng.\nd) Để đảm bảo sức khỏe, mức cường độ âm phải không vượt quá ${85\\,dB}$, tức là ${L \\le 85\\,dB}$.\n$10\\log I+120\\le 85\\Leftrightarrow $ $10\\log I\\le -35\\Leftrightarrow $ $\\log I\\le -3.5\\Leftrightarrow $ $I\\le {{10}^{-3,5}}\\left( W/{{m}^{2}} \\right)$\nĐúng.",
    "ma": "de1.P2.C1",
@@ -379,6 +377,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B1.D09",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."

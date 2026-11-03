@@ -378,6 +378,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D01",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -485,9 +486,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình lăng trụ đứng $ABC.\\,{A}'{B}'{C}'$có đáy $ABC$ là tam giác đều cạnh bằng$\\sqrt{2}$ và độ dài cạnh$B{A}'=\\sqrt{6}$. Hãy tính khoảng cách giữa hai đường thẳng ${A}'B$ và ${B}'C$ (Kết quả làm tròn đến hàng phần trăm)?\n[[IMG:image10.png]]",
    "explanation": "Gọi $M,\\,N$ lần lượt là trung điểm của $AC$ và ${A}'B$ suy ra $MN\\parallel {B}'C$nên ${B}'C\\parallel \\left( {A}'BM \\right)$.\nKhi đó: $d\\left( \\,{B}'C,\\,{A}'B \\right)=d\\left( \\,{B}'C,\\,\\left( {A}'BM \\right) \\right)=d\\left( C,\\,\\left( {A}'BM \\right) \\right)=d\\left( A,\\,\\left( {A}'BM \\right) \\right)$.\nKẻ $AH\\bot {A}'M$ tại $H$ thì ta có $\\left\\{ \\begin{aligned} & BM\\bot AC \\\\ & BM\\bot AA' \\\\ \\end{aligned} \\right.\\Rightarrow BM\\bot \\left( AC{C}'{A}' \\right)$.\nKhi đó $\\left\\{ \\begin{aligned} & AH\\bot {A}'M \\\\ & AH\\bot BM \\\\ \\end{aligned} \\right.\\Rightarrow AH\\bot \\left( {A}'BM \\right)$ nên $d\\left( A,\\,\\left( {A}'BM \\right) \\right)=AH$.\nTa có $AM=\\frac{1}{2}AC=\\frac{\\sqrt{2}}{2}$; $A{A}'=\\sqrt{{A}'{{B}^{2}}-A{{B}^{2}}}=2$.\nTrong $\\Delta A{A}'K$ ta có: $\\frac{1}{A{{H}^{2}}}=\\frac{1}{A{{{{A}'}}^{2}}}+\\frac{1}{A{{M}^{2}}}\\Rightarrow d\\left( \\,{B}'C,\\,{A}'B \\right)=AH=\\frac{A{A}'.\\,AM}{\\sqrt{A{{{{A}'}}^{2}}+A{{M}^{2}}}}=\\frac{2}{3}\\approx 0,67$\nĐáp án:\n| 0 | , | 6 | 7 |\n|---|---|---|---|",
    "short_value": 0.67,
@@ -500,6 +499,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B2.D04",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -526,6 +526,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -537,9 +538,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hệ thống định vị toàn cầu GPS (Global Positioning System) là một hệ thống cho phép xác định vị trí của một vật thể trong không gian. Trong cùng một thời điểm, vị trí của một điểm $M$ trong không gian sẽ được xác định bởi bốn vệ tinh cho trước nhờ các bộ thu phát tín hiệu đặt trên các vệ tinh. Giả sử trong không gian với hệ tọa độ $Oxyz$, tỉ lệ độ dài trên các trục là $10$km tính cho một đơn vị tỉ lệ trên mỗi trục có 4 vệ tinh lần lượt đặt tại các điểm $A\\left( -1;2;-1 \\right)$,$B\\left( 1;\\,4;0 \\right)$,$C\\left( 3;0;9 \\right)$và $D\\left( 7;10;-1 \\right)$. Ở một thời điểm cả bốn vệ tinh bắn tín hiệu về điểm $M$ và đo được độ dài $MA=6,\\,MB=3,\\,MC=10,\\,MD=6$. Ngay sau đó $10$ giây, cả bốn vệ tinh lại bắn tin hiệu về vật $M$ và đo được $MA=3,\\,MB=4,\\,MC=\\sqrt{85},\\,MD=\\sqrt{137}$. Nếu coi như vật $M$ chuyển động thẳng đều thì tốc độ của vật bằng bao nhiêu (đơn vị: m/s và kết quả làm tròn đến hang đơn vị)? (Bỏ qua khoảng thời gian phát và thu tín hiệu)",
    "explanation": "Gọi $M\\left( a;\\,b;\\,c \\right)$.\nTại thời điểm đầu bốn vị tinh bắn tín hiệu về điểm $M$. Khi đó ta có hệ phương trình sau:\n$\\Leftrightarrow \\left\\{ \\begin{matrix} {{\\left( a+1 \\right)}^{2}}+{{\\left( b-2 \\right)}^{2}}+{{\\left( c+1 \\right)}^{2}}=36\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 1 \\right) \\\\ {{\\left( a-1 \\right)}^{2}}+{{\\left( b-4 \\right)}^{2}}+{{c}^{2}}=9\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 2 \\right) \\\\ {{\\left( a-3 \\right)}^{2}}+{{b}^{2}}+{{\\left( c-9 \\right)}^{2}}=100\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 3 \\right) \\\\ {{\\left( a-7 \\right)}^{2}}+{{\\left( b-10 \\right)}^{2}}+{{\\left( c+1 \\right)}^{2}}=36\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 4 \\right) \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left( 2 \\right)-\\left( 1 \\right):-4a-4b-2c=-38 \\\\ & \\left( 3 \\right)-\\left( 1 \\right):-8a+4b-20c=-20 \\\\ & \\left( 4 \\right)-\\left( 1 \\right):-14a-14b=-144 \\\\ \\end{aligned} \\right.$\nGiải hệ phương trình này, ta tìm được $a~=~3,b=6,c=1\\Rightarrow M\\left( 3;\\,6;\\,1 \\right)$\nSau đó 10 giây, về tinh lại bán tín hiệu về điểm $M$. Gọi ${M}'\\left( x;\\,y;\\,z \\right)$ khi đó ta có:\n$\\Leftrightarrow \\left\\{ \\begin{matrix} {{\\left( x+1 \\right)}^{2}}+{{\\left( y-2 \\right)}^{2}}+{{\\left( z+1 \\right)}^{2}}=9\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 1 \\right) \\\\ {{\\left( x-1 \\right)}^{2}}+{{\\left( y-4 \\right)}^{2}}+{{z}^{2}}=16\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 2 \\right) \\\\ {{\\left( x-3 \\right)}^{2}}+{{y}^{2}}+{{\\left( z-9 \\right)}^{2}}=85\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\left( 3 \\right) \\\\ {{\\left( x-7 \\right)}^{2}}+{{\\left( y-10 \\right)}^{2}}+{{\\left( z+1 \\right)}^{2}}=137\\,\\,\\,\\,\\left( 4 \\right) \\\\ \\end{matrix} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\left( 2 \\right)-\\left( 1 \\right):-4x-4y-2z=-4 \\\\ & \\left( 3 \\right)-\\left( 1 \\right):-8x+4y-20z=-8 \\\\ & \\left( 4 \\right)-\\left( 1 \\right):-14x-14y=-16 \\\\ \\end{aligned} \\right.$\nGiải hệ phương trình này, ta tìm được $x~=~1,y=0,z=0\\Rightarrow {M}'\\left( 1;\\,0;\\,0 \\right)$\nKhi đó khoảng cách $M{M}'=\\sqrt{{{\\left( 1-3 \\right)}^{2}}+{{\\left( 0-6 \\right)}^{2}}+{{\\left( 0-1 \\right)}^{2}}}=\\sqrt{41}$\nDo vật chuyển động thẳng đều nên vận tốc của vật là: ${{v}_{M}}=\\frac{M{M}'}{t}=\\frac{\\sqrt{41}{{.10}^{4}}}{10}=6403$(m/s)\nĐáp án:\n| 6 | 4 | 0 | 3 |\n|---|---|---|---|",
    "short_value": 6403,
@@ -552,6 +551,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D06",
    "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
@@ -567,9 +567,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Một ly trà sữa dạng hình nón cụt, có đường kính đáy ly 6 cm, đường kính miệng ly 9 cm, chiều cao 13,4 cm, ở miệng ly có sử dụng một nắp đậy có hình dạng nửa mặt cầu và ở đỉnh của nửa mặt cầu này có một hình tròn có đường kính 2 cm để cắm ống hút, mặt phẳng chứa hình tròn này song song với mặt phẳng chứa miệng ly (tham khảo hình vẽ sau).\n[[IMG:image12.png#0.2496,0.2246,0.2296,0.1899]] [[IMG:image13.png]] [[IMG:image14.png]]\nChọn hệ trục $Oxy$ (đơn vị trên trục là centimet) với trục $Ox$ đi qua tâm của 2 đáy hình nón cụt và gốc tọa độ $O$ trùng với tâm của đáy lớn như hình vẽ trên. Tính thể tích bên trong của ly bao gồm cả thể tích của nắp (Kết quả làm tròn kết quả đến hàng đơn vị).",
-   "explanation": "Thể tích bên trong của ly không bao gồm nắp là: ${{V}_{1}}=\\pi {{\\int\\limits_{-13,4}^{0}{\\left( \\frac{1,5x+60,3}{13,4} \\right)}}^{2}}dx\\approx 600$cm3\nThể tích bên trong của ly bao gồm cả thể tích của nắp là: $V={{V}_{1}}+\\left( {{V}_{2}}-{{V}_{3}} \\right)$ trong đó ${{V}_{2}}$ là nửa thể tích của khối cầu và ${{V}_{3}}$ là thể tích của chỏm cầu.\nNửa thể tích khối cầu là: ${{V}_{2}}=\\frac{1}{2}.\\frac{4}{3}.\\pi .{{R}^{3}}=\\frac{243\\pi }{4}$\nThể tích chỏm cầu: ${{V}_{3}}=\\pi \\int\\limits_{R-h}^{R}{{{\\left( \\sqrt{{{R}^{2}}-{{x}^{2}}} \\right)}^{2}}dx}$ $\\Leftrightarrow {{V}_{3}}=\\pi \\int\\limits_{R-h}^{R}{\\left( {{R}^{2}}-{{x}^{2}} \\right)dx\\Leftrightarrow {{V}_{3}}=\\,}\\pi \\left. \\left( {{R}^{2}}x-\\frac{{{x}^{3}}}{3} \\right) \\right|_{R-h}^{R}$\n$\\Leftrightarrow {{V}_{3}}=\\pi \\left[ \\left( {{R}^{3}}-\\frac{{{R}^{3}}}{3} \\right)-\\left( {{R}^{2}}\\left( R-h \\right)-\\frac{{{\\left( R-h \\right)}^{3}}}{3} \\right) \\right]$ $\\Leftrightarrow {{V}_{3}}=\\pi {{h}^{2}}\\left( R-\\frac{h}{3} \\right)$.\nThay số ta có: $h=4,5-\\frac{\\sqrt{77}}{2}$; $R=4,5$ $\\Rightarrow {{V}_{3}}=\\frac{\\left( 729-83\\sqrt{77} \\right)\\pi }{12}$\nThể tích bên trong của ly bao gồm cả thể tích của nắp là:\n$V=600+\\left[ \\frac{243\\pi }{4}-\\frac{\\left( 729-83\\sqrt{77} \\right)\\pi }{12} \\right]\\approx 790$ml.\nĐáp án:\n| 7 | 9 | 0 |  |\n|---|---|---|---|",
+   "explanation": "Thể tích bên trong của ly không bao gồm nắp là: ${{V}_{1}}=\\pi {{\\int\\limits_{-13,4}^{0}{\\left( \\frac{1,5x+60,3}{13,4} \\right)}}^{2}}dx\\approx 600$cm3\nThể tích bên trong của ly bao gồm cả thể tích của nắp là: $V={{V}_{1}}+\\left( {{V}_{2}}-{{V}_{3}} \\right)$ trong đó ${{V}_{2}}$ là nửa thể tích của khối cầu và ${{V}_{3}}$ là thể tích của chỏm cầu.\nNửa thể tích khối cầu là: ${{V}_{2}}=\\frac{1}{2}.\\frac{4}{3}.\\pi .{{R}^{3}}=\\frac{243\\pi }{4}$\nThể tích chỏm cầu: ${{V}_{3}}=\\pi \\int\\limits_{R-h}^{R}{{{\\left( \\sqrt{{{R}^{2}}-{{x}^{2}}} \\right)}^{2}}dx}$ $\\Leftrightarrow {{V}_{3}}=\\pi \\int\\limits_{R-h}^{R}{\\left( {{R}^{2}}-{{x}^{2}} \\right)dx\\Leftrightarrow {{V}_{3}}=\\,}\\pi \\left. \\left( {{R}^{2}}x-\\frac{{{x}^{3}}}{3} \\right) \\right|_{R-h}^{R}$\n$\\Leftrightarrow {{V}_{3}}=\\pi \\left[ \\left( {{R}^{3}}-\\frac{{{R}^{3}}}{3} \\right)-\\left( {{R}^{2}}\\left( R-h \\right)-\\frac{{{\\left( R-h \\right)}^{3}}}{3} \\right) \\right]$ $\\Leftrightarrow {{V}_{3}}=\\pi {{h}^{2}}\\left( R-\\frac{h}{3} \\right)$.\nThay số ta có: $h=4,5-\\frac{\\sqrt{77}}{2}$; $R=4,5$ $\\Rightarrow {{V}_{3}}=\\frac{\\left( 729-83\\sqrt{77} \\right)\\pi }{12}$\nThể tích bên trong của ly bao gồm cả thể tích của nắp là:\n$V=600+\\left[ \\frac{243\\pi }{4}-\\frac{\\left( 729-83\\sqrt{77} \\right)\\pi }{12} \\right]\\approx 791$ml.\nĐáp án:\n| 7 | 9 | 0 |  |\n|---|---|---|---|",
    "short_value": 790,
-   "short_correct": "790",
+   "short_correct": "791",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 11,
@@ -578,6 +578,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -595,7 +596,7 @@
    "question": "Một doanh nghiệp dự định sản xuất không quá $400$ sản phẩm. Nếu doanh nghiệp sản xuất $x$sản phẩm $\\left( 1\\le x\\le 400 \\right)$ thì doanh thu nhận được khi bán hết số sản phẩm đó được biểu diễn bởi công thức là $F\\left( x \\right)={{x}^{3}}-1999{{x}^{2}}+1001000x+250000$(đồng). Trong đó chi phí vận hành máy móc cho mỗi sản phẩm là $G\\left( x \\right)=\\frac{100000x}{\\frac{3}{2}x+1}$ (đồng). Tổng chi phí mua nguyên vật liệu được biểu diễn bởi hàm $H\\left( x \\right)=2{{x}^{3}}+100000x-50000$ (đồng) nhưng do doanh nghiệp đó mua nguyên vật liệu với số lượng lớn nên được giảm $1\\%$ cho 200 sản phẩm đầu tiên doanh nghiệp sản xuất và giảm $2\\%$ cho sản phẩm tiếp theo. Doanh nghiệp cần sản xuất bao nhiêu sản phẩm để lợi nhuận thu được là lớn nhất?",
    "explanation": "Lợi nhuận $P\\left( x \\right)$ được tính bằng doanh thu trừ đi tổng chi phí: $P\\left( x \\right)=F\\left( x \\right)-xG\\left( x \\right)-H\\left( x \\right)$.\nKhi $x\\le 200$ thì chi phí mua nguyên liệu là: ${{H}_{1}}\\left( x \\right)=0,99\\left( 2{{x}^{3}}+100000x-50000 \\right)$ (đồng)\nKhi $x>200$ thì chi phí mua nguyên liệu là:\n${{H}_{2}}\\left( x \\right)=0,99\\left( 2.\\left( {{200}^{3}} \\right)+100000.200-50000 \\right)+0,98\\left( 2{{\\left( x-200 \\right)}^{3}}+100000.\\left( x-200 \\right)-50000 \\right)$ (đồng)\nXét đồng thời 2 trường hợp:\nTrường hợp 1: Với $1\\le x\\le 200$ thì ta có lợi nhuận thu được là: ${{P}_{1}}\\left( x \\right)=F\\left( x \\right)-xG\\left( x \\right)-{{H}_{1}}\\left( x \\right)$\n$={{x}^{3}}-1999{{x}^{2}}+1001000x+250000-\\frac{100000{{x}^{2}}}{\\frac{3}{2}x+1}-0,99\\left( 2{{x}^{3}}+100000x-50000 \\right)$\nTa có: ${{P}_{1}}^{\\prime }\\left( x \\right)=-\\frac{147}{50}{{x}^{2}}-3998x-\\frac{600000{{x}^{2}}+800000x}{{{\\left( 3x+2 \\right)}^{2}}}+902000$\nPhương trình ${{P}_{1}}^{\\prime }\\left( x \\right)=0$ có nghiệm $x=184,03\\in \\left( 1;200 \\right)$.\nTa thấy $\\underset{\\left[ 1;200 \\right]}{\\max}\\,{{P}_{1}}\\left( x \\right)=80037062,09$ tại $x=184,03$.\nTrường hợp 2: Với $201\\le x\\le 400$ ta có lợi nhuận thu được là: ${{P}_{2}}\\left( x \\right)=F\\left( x \\right)-xG\\left( x \\right)-{{H}_{2}}\\left( x \\right)$\n$\\begin{aligned} & ={{x}^{3}}-1999{{x}^{2}}+1001000x+250000-\\frac{100000{{x}^{2}}}{\\frac{3}{2}x+1} \\\\ & -0,99\\left( 2.{{\\left( 200 \\right)}^{3}}+100000.200-50000 \\right)-0,98\\left( 2.{{\\left( x-200 \\right)}^{3}}+100000.\\left( x-200 \\right)-50000 \\right) \\\\ \\end{aligned}$\n$=-\\frac{24}{25}{{x}^{3}}-823{{x}^{2}}+667800x-11500-\\frac{200000{{x}^{2}}}{3x+2}$\nTa có: ${{P}_{2}}^{\\prime }\\left( x \\right)=-\\frac{72}{25}{{x}^{2}}-1646x-\\frac{600000{{x}^{2}}+800000x}{{{\\left( 3x+2 \\right)}^{2}}}+667800$\nPhương trình ${{P}_{2}}^{\\prime }\\left( x \\right)=0$ có nghiệm $x=253,1\\in \\left( 201;400 \\right)$.\nTa thấy $\\underset{\\left[ 201;400 \\right]}{\\max}\\,{{P}_{2}}\\left( x \\right)=83893667,52$ tại $x=253,1$.\nVậy doanh nghiệp cần sản xuất 253 sản phẩm thì lợi nhuận thu được là lớn nhất.\nĐáp án:\n| 2 | 5 | 3 |  |\n|---|---|---|---|",
    "short_value": 253.1,
-   "short_correct": "253,1",
+   "short_correct": "253",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 20,
@@ -604,6 +605,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -615,9 +617,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có 10 học sinh làm bài kiểm tra xác suất thống kê, trong đó có 2 học sinh giỏi (trả lời được 100% các câu hỏi), 3 học sinh khá (trả lời được 80% các câu hỏi), 5 học sinh trung bình (trả lời được 50% các câu hỏi). Bài kiểm tra có 4 câu hỏi được lấy ngẫu nhiên từ 20 câu hỏi. Giáo viên chọn ngẫu nhiên một bài làm của học sinh để chấm điểm. Xác suất bài làm đó trả lời được cả 4 câu hỏi là bao nhiêu (kết quả làm tròn đến hàng phần trăm)?",
    "explanation": "Gọi $A$ là biến cố chọn được bài làm trả lời được cả 4 câu hỏi.\nGọi ${{B}_{1}},{{B}_{2}},{{B}_{3}}$ lần lượt là biến cố chọn được bài làm của học sinh giỏi, khá, trung bình.\nKhi đó: $P\\left( {{B}_{1}} \\right)=\\frac{2}{10},P\\left( {{B}_{2}} \\right)=\\frac{3}{10},P\\left( {{B}_{3}} \\right)=\\frac{5}{10}$.\nHọc sinh giỏi trả lời được 100% các câu hỏi, nghĩa là trả lời được 20 câu suy ra $P\\left( A|{{B}_{1}} \\right)=\\frac{C_{20}^{4}}{C_{20}^{4}}.$\nHọc sinh khá trả lời được 80% các câu hỏi, nghĩa là trả lời được 16 câu suy ra $P\\left( A|{{B}_{2}} \\right)=\\frac{C_{16}^{4}}{C_{20}^{4}}.$\nHọc sinh trung bình trả lời được 50% các câu hỏi, nghĩa là trả lời được 10 câu suy ra\n$P\\left( A|{{B}_{3}} \\right)=\\frac{C_{10}^{4}}{C_{20}^{4}}$.\nTheo công thức xác suất toàn phần ta có:\n$P\\left( A \\right)=P\\left( {{B}_{1}} \\right).P\\left( A|{{B}_{1}} \\right)+P\\left( {{B}_{2}} \\right).P\\left( A|{{B}_{2}} \\right)+P\\left( {{B}_{3}} \\right).P\\left( A|{{B}_{3}} \\right)$\n$=\\frac{2}{10}.\\frac{C_{20}^{4}}{C_{20}^{4}}+\\frac{3}{10}.\\frac{C_{16}^{4}}{C_{20}^{4}}+\\frac{5}{10}.\\frac{C_{10}^{4}}{C_{20}^{4}}=\\frac{108}{323}\\approx 0,33$\nĐáp án:\n| 0 | , | 3 | 3 |\n|---|---|---|---|\n-----------------HẾT-----------------",
    "short_value": 0.33,
@@ -630,6 +630,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."

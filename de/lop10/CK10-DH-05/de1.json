@@ -523,7 +523,7 @@
    "flags": [
     "cong_thuc_ocr_AI_can_xem"
    ],
-   "question": "Tìm giá trị nhỏ nhất của biểu thức $F=3y-2x$ trên miền xác định bởi hệ $\\left\\{ \\begin{array}{l} x - y \\le 6 \\\\ y - 2x \\ge 2 \\\\ x + y \\le 4 \\end{array} \\right.$ .",
+   "question": "Tìm giá trị nhỏ nhất của biểu thức $F=3y-2x$ trên miền xác định bởi hệ $\\left\\{ \\begin{array}{l} x - y \\le 6 \\\\ x \\ge 2 \\\\ x + y \\le 4 \\end{array} \\right.$ .",
    "explanation": "Trả lời: -16\nTìm giá trị nhỏ nhất của biểu thức $F=3y-2x$ trên miền xác định bởi hệ $\\left\\{ \\begin{array}{l} x - y \\le 6 \\\\ x \\ge 2 \\\\ x + y \\le 4 \\end{array} \\right.$ . Vẽ đường thẳng $d: x - y - 6 = 0$ đi qua hai điểm $(0;-6)$ và $(6;0)$ .\nVẽ đường thẳng $d_2: x - 2 = 0$ đi qua hai điểm $(2;0)$ và $(2;2)$ .\nVẽ đường thẳng $d_3: x + y - 4 = 0$ đi qua hai điểm $(0;4)$ và $(4;0)$ .\nXét điểm $M(3;0)$ . Ta thấy tọa độ $M$ thỏa mãn tất cả các bất phương trình trong hệ.\nDo đó, miền nghiệm của hệ bất phương trình $\\left\\{ \\begin{array}{l} x - y \\le 6 \\\\ x \\ge 2 \\\\ x + y \\le 4 \\end{array} \\right.$ là miền không bị tô đậm (hình tam giác $ABC$ bao gồm cả các cạnh $AB, BC$ và $AC$ trên hình vẽ).\n[[IMG:image41.png]]\nTìm tọa độ các điểm $A,B,C$ .\nĐiểm $A = d_2 \\cap d_3$ nên tọa độ điểm $A$ là nghiệm của hệ $\\left\\{ \\begin{aligned} x &= 2 \\\\ x + y - 4 &= 0 \\end{aligned} \\right. \\iff \\left\\{ \\begin{aligned} x &= 2 \\\\ y &= 2 \\end{aligned} \\right.$ .\nVậy $A(2;2)$ .\nĐiểm $B = d_1 \\cap d_3$ nên tọa độ điểm $B$ là nghiệm của hệ $\\left\\{ \\begin{array}{l} x - y - 6 = 0 \\\\ x + y - 4 = 0 \\end{array} \\right. \\iff \\left\\{ \\begin{array}{l} x = 5 \\\\ y = -1 \\end{array} \\right.$ .\nVậy $B(5;-1)$\nĐiểm $C = d_1 \\cap d_2$ nên tọa độ điểm $C$ là nghiệm của hệ $\\left\\{ \\begin{array}{l} x=2 \\\\ x-y-6=0 \\end{array} \\right. \\iff \\left\\{ \\begin{array}{l} x=2 \\\\ y=4 \\end{array} \\right.$ . Vậy $Q(2;-4)$\nTa thấy $F=3y-2x$ đạt giá trị nhỏ nhất chỉ có thể tại các điểm $A,B,C$ .\nTại $A(2;2)$ thì $F=2$ .\nTại $B(5;-1)$ thì $F = -13$\nTại $Q(2;-4)$ thì $F = -16$\nVậy giá trị nhỏ nhất của biểu thức $F=3y-2x$ trên miền xác định bởi hệ $\\left\\{ \\begin{array}{l} x - y \\leq 6 \\\\ x \\geq 2 \\\\ x + y \\leq 4 \\end{array} \\right.$ là: -16 khi $x=2\\text{ \\text{và} }y=4$ .",
    "short_value": -16,
    "short_correct": "-16",
@@ -535,6 +535,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C2.B2.D02",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."

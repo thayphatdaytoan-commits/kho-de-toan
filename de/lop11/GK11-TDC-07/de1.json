@@ -430,9 +430,7 @@
     "a": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Aladin nhặt được cây đèn thần, chàng miết tay vào cây đèn và gọi Thần đèn ra. Thần đèn cho chàng 3 điều ước. Aladin ước 2 điều đầu tiên tùy thích, nhưng điều ước thứ 3 của chàng là: \"Ước gì ngày mai tôi lại nhặt được cây đèn và Thần cho tôi số điều ước gấp đôi số điều ước ngày hôm nay\". Thần đèn chấp thuận và mỗi ngày Aladin đều thực hiện theo quy tắc như trên: ước hết các điều đầu tiên và luôn chừa lại điều ước cuối cùng để kéo dài thỏa thuận với thần đèn cho ngày hôm sau. Khi đó:",
    "explanation": "a ) Đúng. Ngày thứ hai Aladin ước 6 điều.\nNgày thứ nhất Aladin ước 3 điều.\nNgày thứ hai Aladin ước 2.3 điều.\nb) Đúng Ngày thứ ba Aladin ước 12 điều.\nNgày thứ ba Aladin ước $2.2.3={{2}^{2}}.3$ điều.\nc) Sai. Ngày thứ tư Aladin ước 48 điều.\nNgày thứ tư Aladin ước $2\\cdot {{2}^{2}}\\cdot 3={{2}^{3}}\\cdot 3$ điều.\nd) Sai. Sau 10 ngày gặp Thần đèn, Aladin ước tất cả 3269 điều ước\nNgày thứ 10 Aladin ước ${{2}^{9}}.3$ điều.\nVậy sau 10 ngày Aladin đã ước: $3\\left( 1+2+{{2}^{2}}+{{2}^{3}}+\\ldots +{{2}^{9}} \\right)=3\\left( \\frac{1-{{2}^{10}}}{1-2} \\right)=3069$ điều.",
    "ma": "de1.P2.C3",
@@ -443,6 +441,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D06",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."

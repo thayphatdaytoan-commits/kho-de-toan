@@ -18,9 +18,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image1.png]]Trong hệ tọa độ Oxyz, một kịch bản tác chiến phức tạp diễn ra như sau:\nMáy bay Trinh sát Hiện đại (R): Xuất phát từ vị trí ${{R}_{0}}(200;100;20)$ (đơn vị km), di chuyển thẳng đều với vector vận tốc không đổi ${{\\vec{v}}_{R}}=(-20;-10;0)$\nMục tiêu Cơ động Cao (M): Xuất phát từ vị trí ${{M}_{0}}(10;20;15)$ km, di chuyển thẳng đều với vector vận tốc không đổi ${{\\vec{v}}_{M}}=(30;40;0)$\nTiêm kích Đánh chặn Tàng hình (C): Xuất phát từ căn cứ mặt đất tại vị trí ${{C}_{0}}(0;0;1)$ km vào thời điểm ${t = 0}$. Tiêm kích C bay theo một đường thẳng với tốc độ không đổi ${{v}_{C}}$ để thực hiện nhiệm vụ đặc biệt.\nNhiệm vụ Đặc biệt của Tiêm kích C: Tiêm kích C phải đạt được đồng thời ba điều kiện sau tại cùng một thời điểm ${t > 0}$:\nKhóa Mục tiêu Tối ưu: Ba điểm gồm Tiêm kích C, Mục tiêu M, và Máy bay Trinh sát R phải thẳng hàng\nKích hoạt Vũ khí Chính xác: Tại thời điểm thẳng hàng nói trên, Tiêm kích C phải nằm trên bề mặt của một \"khối cầu chiến thuật\" có tâm chính là Mục tiêu M và bán kính ${S_M = 5}$ km. Điều này đảm bảo vũ khí có hiệu quả tối đa.\nAn toàn Hành lang Bay: Vector chỉ phương của quãng đường bay của tiêm kích C phải vuông góc với vector pháp tuyến của một mặt phẳng an toàn ${(\\alpha)}$ : ${ x - y + 2z - 10 = 0. }$\nHãy tính tốc độ không đổi ${v_C}$ (km/phút) mà Tiêm kích C phải duy trì từ lúc xuất phát cho đến khi đồng thời thoả mãn cả ba điều kiện trên, biết thời điểm $t>0$ là sớm nhất (làm tròn đến hàng phần trăm)",
    "explanation": "Máy bay Trinh sát R: $R\\left( t \\right)={{R}_{0}}+t{{\\vec{v}}_{R}}=(200-20t;\\ 100-10t;\\ 20)$\nMục tiêu M: $M\\left( t \\right)={{M}_{0}}+t{{\\vec{v}}_{M}}=(10+30t;\\ 20+40t;\\ 15)$\nTiêm kích C: $C\\left( t \\right)={{C}_{0}}+t{{\\vec{v}}_{C}}=(t{{v}_{x}};\\ t{{v}_{y}};\\ 1+t{{v}_{z}})$\nBa điểm ${C}$, ${M}$, ${R}$ thẳng hàng ${\\Leftrightarrow}$ vector $\\overrightarrow{C(t)M(t)}$ cùng phương với vector $\\overrightarrow{M(t)R(t)}$.\nTa có $\\overrightarrow{C(t)M(t)}=\\left( 10+30t-t{{v}_{x}};\\ 20+40t-t{{v}_{y}};\\ 14-t{{v}_{z}} \\right)$; $\\overrightarrow{M(t)R(t)}=(190-50t;\\ 80-50t;\\ 5)$\n${\\Rightarrow}$ Tồn tại ${k}$ sao cho $\\overrightarrow{C(t)M(t)}=k\\cdot \\overrightarrow{M(t)R(t)}\\Leftrightarrow \\left\\{ \\begin{aligned} & 10+30t-t{{v}_{x}}=k\\left( 190-50t \\right) \\\\ & 20+40t-t{{v}_{y}}=k\\left( 80-50t \\right) \\\\ & 14-t{{v}_{z}}=5k \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & {{v}_{x}}=\\frac{10+30t-k\\left( 190-50t \\right)}{t} \\\\ & {{v}_{y}}=\\frac{20+40t-k\\left( 80-50t \\right)}{t} \\\\ & {{v}_{z}}=\\frac{14-5k}{t} \\\\ \\end{aligned} \\right.$ (1)\nĐiều kiện nằm trên bề mặt của một \"khối cầu chiến thuật\":\n$\\left| \\overrightarrow{C(t)M(t)} \\right|=5\\Leftrightarrow \\left| k \\right|\\left| \\overrightarrow{M(t)R(t)} \\right|=5\\Leftrightarrow {{k}^{2}}\\cdot {{\\left| \\overrightarrow{M(t)R(t)} \\right|}^{2}}=25$\n$\\Leftrightarrow {{k}^{2}}\\left[ {{\\left( 190-50t \\right)}^{2}}+{{\\left( 80-50t \\right)}^{2}}+25 \\right]=25$ (2)\nĐiều kiện vector ${{\\vec{v}}_{C}}=\\left( {{v}_{x}};{{v}_{y}};{{v}_{z}} \\right)$ vuông góc với với vector pháp tuyến của mặt phẳng an toàn ${(\\alpha): x - y + 2z - 10 = 0}$\n${{\\vec{v}}_{C}}\\cdot {{\\vec{n}}_{\\left( \\alpha \\right)}}=0\\Rightarrow {{v}_{x}}-{{v}_{y}}+2{{v}_{z}}=0\\text{ }$ (3)\nThay (1) vào (3): $\\frac{10+30t-k\\left( 190-50t \\right)}{t}\\,-\\frac{20+40t-k\\left( 80-50t \\right)}{t}+2.\\frac{14-5k}{t}=0$ $\\Leftrightarrow $ ${ k = \\frac{9 - 5t}{60} }$.\nThay vào (2): ${{\\left( \\frac{9-5t}{60} \\right)}^{2}}\\left[ {{\\left( 190-50t \\right)}^{2}}+{{\\left( 80-50t \\right)}^{2}}+25 \\right]=25$\nGiải phương trình cuối cùng (bằng máy tính) ta được nghiệm: ${ x_1 \\approx 2.564007716,\\quad x_2 \\approx 1.319644822 }$ hoặc ${ x_1 \\approx 2.564007716,\\quad x_2 \\approx 1.319644822 }$\nVì thời điểm $t>0$ là sớm nhất nên ta lấy ${{t}_{1}}\\approx 1.319644822$\nSuy ra ${{v}_{c}}=\\left| {{{\\vec{v}}}_{C}} \\right|=65,18$(km/phút)",
    "short_value": 65.18,
@@ -33,6 +31,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -44,9 +43,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image2.png]]Trong hệ toạ độ ${Oxyz}$, vào lúc ${t = 0}$ (giờ), một chiến đấu cơ tàng hình Alfa xuất phát từ căn cứ ${{A}_{0}}\\left( 0;\\ 0;10 \\right)$ (đơn vị: km) bắt đầu thực hiện nhiệm vụ tuần tra với vector vận tốc không đổi ${{\\vec{v}}_{A}}=\\left( 800;600;0 \\right)$. Cùng lúc đó, một máy bay ném bom Bravo bị phát hiện tại vị trí${{B}_{0}}\\left( 500;0;12 \\right)$ đang di chuyển với vector vận tốc không đổi ${{\\vec{v}}_{B}}=\\left( -400;300;-1 \\right)$ hướng về một khu vực mục tiêu được xác định bởi mặt phẳng $\\left( P \\right):\\ z=8.$Để đảm bảo an toàn, căn cứ Alfa có một vùng bán cầu cảnh báo sớm trên không, tâm tại trạm radar mặt đất Omega có tọa độ $R\\left( 100;100;0 \\right)$ và bán kính ${ r = 150\\ \\text{km} }$ (chỉ xét phần không gian ${z \\geq 0}$). Chiến đấu cơ Alfa được trang bị tên lửa không đối không thế hệ mới có tốc độ không đổi là ${{v}_{M}}=2500\\ \\text{km/h}.$ Giả sử Alfa quyết định phóng tên lửa vào thời điểm ${t_L}$ (giờ) để đánh chặn chính xác máy bay Bravo ngay khi Bravo vừa chạm vào mặt phẳng mục tiêu ${(P)}$. Để đảm bảo tàng hình và tránh bị hệ thống phòng thủ mặt đất phát hiện sớm, Alfa chỉ có thể phóng tên lửa khi nó đang ở bên ngoài vùng bán cầu cảnh báo sớm của trạm Omega. Xác định thời điểm ${t_L}$ muộn nhất (tính theo giờ, làm tròn đến 2 chữ số thập phân) mà chiến đấu cơ Alfa có thể phóng tên lửa để vừa hoàn thành nhiệm vụ đánh chặn mục tiêu Bravo theo kế hoạch, vừa đảm bảo an toàn cho chính mình theo các điều kiện đã nêu?",
    "explanation": "Phương trình đường bay của Bravo theo thời gian t là:\n$B\\left( t \\right)={{B}_{0}}+t{{v}_{B}}\\Rightarrow B\\left( t \\right):\\left\\{ \\begin{aligned} & x=500-400t \\\\ & y=300t \\\\ & z=12-t \\\\ \\end{aligned} \\right.$\nXác định thời điểm Bravo chạm mặt phẳng $\\left( P \\right)$\nBravo di chuyển với $\\left| {{v}_{z}} \\right|=1$ $k/m$ từ độ cao $z=12km$ xuống $z=8km$. Thời gian cần là:\n$t=\\frac{12-8}{1}=4$ giờ\nVị trí đánh chặn:\nTại $t=4$, vị trí của Bravo là: $P\\left( -1100;1200;8 \\right)$\nXác định vị trí của Alfa tại thời điểm phóng tên lửa ${{t}_{L}}$:\nPhương trình đường bay của Alfa theo thời gian t là:\n$A\\left( t \\right)={{A}_{0}}+t{{v}_{A}}\\Rightarrow A\\left( t \\right):\\left\\{ \\begin{aligned} & x=800t \\\\ & y=600t \\\\ & z=10 \\\\ \\end{aligned} \\right.$\nVị trí của Alfa tại thời điểm phóng tên lửa ${{t}_{L}}$ là: $N\\left( 800{{t}_{L}};600{{t}_{L}};10 \\right)$\nThiết lập phương trình liên quan đến việc tên lửa đánh chặn mục tiêu.\nTên lửa được phóng từ $N\\left( 800{{t}_{L}};600{{t}_{L}};10 \\right)$ lúc ${{t}_{L}}$​ và đánh chặn Bravo tại $P\\left( -1100;1200;8 \\right)$ lúc $t=4$\nThời gian bay của tên lửa là: $\\Delta t=4-{{t}_{L}}$ (điều kiện ${{t}_{L}}<4$)\nQuãng đường tên lửa bay được là: ${{d}_{M}}={{v}_{M}}.\\Delta t=2500\\left( 4-{{t}_{L}} \\right)$\nQuãng đường này cũng chính là khoảng cách giữa điểm phóng $N$ và điểm đánh chặn $P$\nTa có: $NP={{d}_{M}}\\Leftrightarrow \\sqrt{{{\\left( -1100-800{{t}_{L}} \\right)}^{2}}+{{\\left( 1200-600{{t}_{L}} \\right)}^{2}}+{{\\left( 8-10 \\right)}^{2}}}=2500\\left( 4-{{t}_{L}} \\right)$\n$\\Leftrightarrow {{\\left( -1100-800{{t}_{L}} \\right)}^{2}}+{{\\left( 1200-600{{t}_{L}} \\right)}^{2}}+{{\\left( 8-10 \\right)}^{2}}={{\\left[ 2500\\left( 4-{{t}_{L}} \\right) \\right]}^{2}}$ (${{t}_{L}}<4$)\n$\\Leftrightarrow -5250000t_{L}^{2}+50320000{{t}_{L}}-97349996=0\\Leftrightarrow \\left[ \\begin{aligned} & {{t}_{L}}\\approx 6,90\\text{ }\\left( L \\right) \\\\ & {{t}_{L}}\\approx 2,69 \\\\ \\end{aligned} \\right.$\nĐiều kiện là Alfa tại thời điểm ${{t}_{L}}$​ phải cách tâm radar $R\\left( 100;100;0 \\right)$ một khoảng lớn hơn bán kính ${ r = 150\\ \\text{km} }$.\nKhoảng cách $NR=\\sqrt{{{\\left( 800.2,69-100 \\right)}^{2}}+{{\\left( 600.2,69-100 \\right)}^{2}}+{{10}^{2}}}\\approx 2550km>150km$\n(Điều kiện được thỏa mãn)\nVậy ${{t}_{L}}\\approx 2,69$ giờ",
    "short_value": 2.69,
@@ -59,6 +56,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -303,16 +301,15 @@
    "tf_ans": {
     "a": true,
     "b": true,
-    "c": true,
+    "c": false,
     "d": true
    },
    "answer": null,
    "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan"
    ],
    "question": "Một chất điểm $A$ chuyển động từ trạng thái nghỉ và xuất phát từ $O$, chuyển động thẳng, nhanh dần đều với gia tốc $a\\left( m/{{s}^{2}} \\right)$; 6 giây sau nó đạt đến vận tốc $12\\left( m/s \\right)$. Từ thời điểm đó chất điểm $A$ chuyển động thẳng đều. Cũng từ trạng thái nghỉ một chất điểm $B$ xuất phát từ $O$, chuyển động thẳng cùng hướng với $A$ nhưng chậm hơn 3 giây so với $A$ và chuyển động thẳng, nhanh dần đều với gia tốc $4\\left( m/{{s}^{2}} \\right)$.",
-   "explanation": "| a) Đúng | b) Đúng | c) Đúng | d) Đúng |\n|---|---|---|---|\na) Đúng. Chất điểm $A$ đạt vận tốc $12\\left( m/s \\right)$ sau $6s$ chuyển động nhanh dần đều từ trạng thái nghỉ. Áp dụng công thức: $a=\\frac{\\Delta v}{\\Delta t}=\\frac{12}{6}=2\\ \\left( m/{{s}^{2}} \\right)$.\nSử dụng công thức tính quãng đường đi được trong chuyển động thẳng nhanh dần đều: $S={{v}_{0}}.t+\\frac{1}{2}.a.{{t}^{2}}$.\nVì chất điểm $A$ xuất phát từ trạng thái nghỉ nên ${{v}_{0}}=0$. Do đó: $S=\\frac{1}{2}{{.2.6}^{2}}=36\\ \\left( m \\right)$. Suy ra a) đúng.\nb) Đúng. Chất điểm $B$ chuyển động thẳng nhanh dần đều với gia tốc $4\\left( m/{{s}^{2}} \\right)$. Áp dụng công thức tính quãng đường: $S={{v}_{0}}.t+\\frac{1}{2}.a.{{t}^{2}}$.\nVì chất điểm $B$ xuất phát từ trạng thái nghỉ nên ${{v}_{0}}=0$. Do đó: ${{S}_{B}}\\left( t \\right)=\\frac{1}{2}.4.{{t}^{2}}=2{{t}^{2}}\\ \\left( m \\right)$.\nSuy ra b) đúng.\nc) Đúng. Gọi ${{T}_{0}}$ là thời gian từ lúc chất điểm $B$ xuất phát cho đến khi đuổi kịp chất điểm $A$. Trong khoảng thời gian này $A$ đã chuyển động đều sau khi đạt vận tốc $12m/s$. Quãng đường $A$ đi được từ lúc xuất phát đến khi gặp $B$ là ${{S}_{A}}=36+12\\left( {{T}_{0}}-3 \\right)=12{{T}_{0}}$. Suy ra c) sai.\nd) Đúng. Vì hai chất điểm gặp nhau nên: ${{S}_{A}}={{S}_{B}}\\Leftrightarrow 36+12{{T}_{0}}=2{{T}_{0}}^{2}\\Leftrightarrow {{T}_{0}}^{2}-12{{T}_{0}}-36=0\\Leftrightarrow \\left[ \\begin{aligned} & {{T}_{0}}=3+3\\sqrt{3}\\approx 8,196\\ (TM) \\\\ & {{T}_{0}}=3-3\\sqrt{3}\\ (loai) \\\\ \\end{aligned} \\right.\\ $.\nDo $8,196>5$ nên d) đúng.",
+   "explanation": "a) Đúng. $a=\\frac{12}{6}=2$ ($m/s^2$); quãng đường $A$ đi trong 6 giây đầu là $S=\\frac{1}{2}\\cdot 2\\cdot 6^2=36$ ($m$). b) Đúng. $S_B(t)=\\frac{1}{2}\\cdot 4\\cdot t^2=2t^2$ ($m$). c) Sai. Gọi $T_0$ là thời gian từ lúc $B$ xuất phát đến khi đuổi kịp $A$. $A$ chuyển động đều với vận tốc $12$ $m/s$ sau 6 giây đầu, mà $B$ xuất phát chậm hơn $A$ 3 giây nên quãng đường $A$ đi được đến khi gặp $B$ là $S_A=36+12(T_0+3-6)=36+12(T_0-3)=12T_0$ ($m$), không phải $12T_0+36$. d) Đúng. Gặp nhau khi $S_A=S_B\\Leftrightarrow 12T_0=2T_0^2\\Leftrightarrow T_0=6$ (giây, $T_0>0$), mà $6>5$.",
    "ma": "de1.P3.C12",
    "dac_trung": {
     "so_dong_loi_giai": 11,
@@ -321,6 +318,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D06",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -586,17 +584,16 @@
    },
    "tf_ans": {
     "a": true,
-    "b": true,
-    "c": false,
-    "d": false
+    "b": false,
+    "c": true,
+    "d": true
    },
    "answer": null,
    "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
+    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan"
    ],
    "question": "Một khinh khí cầu bay với độ cao (so với mực nước biển) tại thời điểm $t\\left( 0\\le t\\le 29 \\right)$ là $h\\left( t \\right),$ trong đó $t$ tính bằng phút, $h\\left( t \\right)$ tính bằng mét. Tốc độ bay của khinh khí cầu được cho bởi hàm số $v\\left( t \\right)=a{{t}^{2}}+bt\\left( a,b\\in \\mathbb{R} \\right),$ với $t$ tính bằng phút, $v\\left( t \\right)$ tính bằng mét/phút. Tại thời điểm xuất phát, khinh khí cầu ở độ cao $520$ m và $5$ phút sau khi xuất phát, khinh khí cầu đã ở độ cao $530$ m. Khinh khí cầu sẽ trở lại độ cao khi xuất phát sau $15$ phút.",
-   "explanation": "a) Đúng\nTại thời điểm xuất phát, khinh khí cầu ở độ cao $520$ m vậy nên $h\\left( 0 \\right)=520$m\n$s\\left( t \\right)=\\int{v\\left( t \\right)dt=\\frac{a{{t}^{3}}}{3}+\\frac{b{{t}^{2}}}{2}+C}$\nCó hệ ba phương trình ba ẩn:$\\left\\{ \\begin{aligned} & h\\left( 0 \\right)=520 \\\\ & h\\left( 5 \\right)=530 \\\\ & h\\left( 15 \\right)=520 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & C=520 \\\\ & \\frac{125}{3}a+\\frac{25}{2}b+C=530 \\\\ & \\frac{{{15}^{3}}}{3}a+\\frac{{{15}^{2}}}{2}b+C=520 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{3}{25} \\\\ & b=\\frac{6}{5} \\\\ & C=520 \\\\ \\end{aligned} \\right.\\Rightarrow h\\left( t \\right)=-\\frac{3}{25}{{t}^{3}}+\\frac{6}{5}{{t}^{2}}+520$\nb) Đúng\nĐộ cao của khinh khí cầu tại thời điểm $t\\left( 0\\le t\\le 29 \\right)$ là $h\\left( t \\right)=\\int\\limits_{0}^{t}{v\\left( t \\right)\\text{d}t}.$\nc) Sai\n$s\\left( t \\right)=\\int{v\\left( t \\right)dt=\\frac{a{{t}^{3}}}{3}+\\frac{b{{t}^{2}}}{2}+C}$\nCó hệ ba phương trình ba ẩn:$\\begin{aligned} & \\left\\{ \\begin{aligned} & h\\left( 0 \\right)=520 \\\\ & h\\left( 5 \\right)=530 \\\\ & h\\left( 15 \\right)=520 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & C=520 \\\\ & \\frac{125}{3}a+\\frac{25}{2}b+C=530 \\\\ & \\frac{{{15}^{3}}}{3}a+\\frac{{{15}^{2}}}{2}b+C=520 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{3}{25} \\\\ & b=\\frac{6}{5} \\\\ & C=520 \\\\ \\end{aligned} \\right.\\Rightarrow h\\left( t \\right)=-\\frac{3}{25}{{t}^{3}}+\\frac{6}{5}{{t}^{2}}+520 \\\\ & \\Rightarrow v\\left( t \\right)=-\\frac{9}{25}{{t}^{2}}+\\frac{12}{5}t \\\\ \\end{aligned}$\nXét $v\\left( t \\right)>0\\Leftrightarrow 0<t<\\frac{20}{3}$ vậy nên giai đoạn khinh khí cầu tăng độ cao kéo dài trong $10$ phút kể từ thời điểm xuất phát là sai\nd) Sai\nXét $v\\left( t \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & t=0 \\\\ & t=\\frac{20}{3} \\\\ \\end{aligned} \\right.$\nVới $h\\left( 0 \\right)=520$, $h\\left( \\frac{20}{3} \\right)=537,78$ nên độ cao tối đa của khinh khí cầu là $540$ m là sai",
+   "explanation": "a) Đúng. Tại thời điểm xuất phát khinh khí cầu ở độ cao $520$ $m$ nên $h(0)=520$. Từ $h(5)=530$, $h(15)=520$ và $h(t)=520+\\frac{a}{3}t^3+\\frac{b}{2}t^2$ suy ra $a=-\\frac{3}{25}$, $b=\\frac{6}{5}$, tức $h(t)=-\\frac{1}{25}t^3+\\frac{3}{5}t^2+520$ và $v(t)=-\\frac{3}{25}t^2+\\frac{6}{5}t$. b) Sai. Vì $h(0)=520\\ne 0=\\int_0^0 v(t)\\,dt$ nên $h(t)=520+\\int_0^t v(t)\\,dt$, không phải $h(t)=\\int_0^t v(t)\\,dt$. c) Đúng. $v(t)>0\\Leftrightarrow 0<t<10$ nên giai đoạn tăng độ cao kéo dài đúng $10$ phút kể từ lúc xuất phát. d) Đúng. Độ cao lớn nhất đạt tại $t=10$: $h(10)=520-40+60=540$ ($m$).",
    "ma": "de1.P3.C23",
    "dac_trung": {
     "so_dong_loi_giai": 13,
@@ -605,6 +602,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B1.D09",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -626,10 +624,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_y_abcd_trong_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Ngày nay , nhờ vào hệ thống định vị toàn cầu GSP ( Global Positioning System), việc di chuyển của con người hết sức thuận lợi dù bằng đường bộ, đường sắt hay đường hàng không hay đường biển.Nếu có thiết bị bắt sóng GPS, bạn luôn có thể kết nối được đến bốn vệ tinh GPS dù ở bất kì đâu trên Trái Đất. Khi thiết bị của bạn biết khoảng từ ít nhất ba vệ tinh đến nó, máy sẽ tính toán ra vị trí hiện tại của bạn bằng một quy trình gọi là Trolateration. Cho biết trái Đất có dạng hình cầu bán kính bằng $\\sqrt{41}{{.10}^{3}}km$. Bạn An đang đứng trên mặt đất. Có ba vệ tinh báo về máy chủ tiếp nhận thông tin rằng vệ tinh thứ nhất đang cách An ${{3.10}^{3}}km$, vệ tinh thứ hai đang cách An ${{5.10}^{3}}\\,km$ vệ tinh thứ ba đang cách An ${{4.10}^{3}}\\,km$ . Chọn hệ trục tọa độ $Oxyz$với $O$là tâm trái đất và đơn vị độ dài trên mỗi trục là ${{10}^{3}}\\,km$. Tại thời điểm vệ tinh thông báo về máy chủ thì tọa độ của các vệ tinh lần lượt là${{I}_{1}}\\left( 4;4;6 \\right),{{I}_{2}}\\left( 4;9;3 \\right)$ và ${{I}_{3}}\\left( 8;4;3 \\right)$. Xem vị trí An là điểm $A$ và An cần di chuyển thẳng đến nhà Bình là điểm $B\\left( 4;4;3,01 \\right)$với tốc độ không đổi $20\\,km/h$ .",
    "explanation": "a) Đúng\nĐiểm $A$nằm trên mặt đất nên nằm trên mặt cầu tâm $O$ bán kính $\\sqrt{41}{{.10}^{3}}km$.\nb) Sai\nPhương trình mặt cầu mô tả ranh giới bên trong và bên ngoài Trái Đất có tâm , bán kính $R=\\sqrt{41}$là ${{x}^{2}}+{{y}^{2}}+{{z}^{2}}=41$ .\nc) Đúng\nĐiểm $A$ chính là giao điểm của bốn mặt cầu : Trái Đất và ba mặt cầu tâm lần lượt là${{I}_{1}},{{I}_{2}},{{I}_{3}}$ có bán kính lần lượt là khoảng cách từ các vệ tinh đến An.\n* Mặt cầu Trái Đất : ${{x}^{2}}+{{y}^{2}}+{{z}^{2}}=41$.\n* Mặt cầu tâm ${{I}_{1}}$ bán kính $R=3$: ${{\\left( x-4 \\right)}^{2}}+{{\\left( y-4 \\right)}^{2}}+{{\\left( z-6 \\right)}^{2}}=9$\n* Mặt cầu tâm ${{I}_{2}}$ bán kính $R=5$: ${{\\left( x-4 \\right)}^{2}}+{{\\left( y-9 \\right)}^{2}}+{{\\left( z-3 \\right)}^{2}}=25$\n* Mặt cầu tâm ${{I}_{3}}$ bán kính $R=4$: ${{\\left( x-8 \\right)}^{2}}+{{\\left( y-4 \\right)}^{2}}+{{\\left( z-3 \\right)}^{2}}=16$\nXét hệ $\\left\\{ \\begin{aligned} & {{x}^{2}}+{{y}^{2}}+{{z}^{2}}=41 \\\\ & {{\\left( x-4 \\right)}^{2}}+{{\\left( y-4 \\right)}^{2}}+{{\\left( z-6 \\right)}^{2}}=9 \\\\ & {{\\left( x-4 \\right)}^{2}}+{{\\left( y-9 \\right)}^{2}}+{{\\left( z-3 \\right)}^{2}}=25 \\\\ & {{\\left( x-8 \\right)}^{2}}+{{\\left( y-4 \\right)}^{2}}+{{\\left( z-3 \\right)}^{2}}=16 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=4 \\\\ & y=4 \\\\ & z=3 \\\\ \\end{aligned} \\right.$\nVậy : $A\\left( 4;4;3 \\right)$.\nd) Đúng\nKhoảng cách giữa An với Bình là:\n$AB=\\sqrt{{{(4-4)}^{2}}+{{(4-4)}^{2}}+{{\\left( 3,01-3 \\right)}^{2}}}\\text{=0,01}$\nThời gian An đi đến nhà Bình là\n$t=\\frac{AB}{v}=\\frac{0,{{01.10}^{3}}}{20}.60=30$(phút)",
    "ma": "de1.P3.C24",
@@ -640,6 +635,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D06",
    "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
@@ -759,10 +755,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_bang_menh_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image29.png]]Hai thành phố cách nhau một con sông. Lấy A và B lần lượt là hai điểm mốc của hai thành phố trong việc đo đạc, đơn vị là km. Người ta xây dựng một cây cầu EF bắc qua sông biết rằng vị trí A cách con sông một khoảng $AH=5\\,\\,km$ và vị trí B cách con sông một khoảng là $BK=$7 km (xem hình vẽ), biết $HE+KF=24\\,\\,km$ và độ dài EF không đổi. Đặt $HE=x$ (km), với $x\\in \\left( 0\\,;\\,\\,24 \\right)$.",
    "explanation": "a) Mệnh đề đúng.\nVới $HE=x$ thì $FK=24-x$ ($0<x<24$). Ta có: $\\left\\{ \\begin{aligned} & AE=\\sqrt{25+{{x}^{2}}} \\\\ & BF=\\sqrt{49+{{\\left( 24-x \\right)}^{2}}} \\\\ \\end{aligned} \\right.$.\nb) Mệnh đề sai.\nTổng quãng đường đi từ A đến B là $AE+EF+BF=\\sqrt{25+{{x}^{2}}}+\\sqrt{49+{{\\left( 24-x \\right)}^{2}}}+EF$ (km).\nc) Mệnh đề đúng.\nXét hàm số $f\\left( x \\right)=\\sqrt{{{x}^{2}}+25}+\\sqrt{{{x}^{2}}-48x+625}$;\n${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+25}}+\\frac{x-24}{\\sqrt{{{x}^{2}}-48x+625}},\\,\\forall x\\in \\left( 0\\,;\\,\\,24 \\right)$.\nd) Mệnh đề sai.\nTa cần tổng quãng đường $AE+EF+FB$ ngắn nhất, mà EF không đổi nên $AE+FB$ bé nhất.\nTừ câu c) ta có ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+25}}+\\frac{x-24}{\\sqrt{{{x}^{2}}-48x+625}},\\,\\forall x\\in \\left( 0\\,;\\,\\,24 \\right)$; ${f}'\\left( x \\right)=0\\Rightarrow x=10$.\nBảng biến thiên:\n[[IMG:image30.png]]\nTa có: $\\underset{\\left( 0\\,;\\,\\,24 \\right)}{\\min}\\,f\\left( x \\right)=12\\sqrt{5}$; khi đó $ \\text{và} BF=7\\sqrt{5}\\,\\,km\\approx 15,65\\,\\,km$.",
    "ma": "de1.P3.C29",
@@ -773,6 +766,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -794,10 +788,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_tu_bang_menh_de_can_xac_nhan",
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image31.png]]Trong Dragon Ball, quả cầu Genki là chiêu thức lợi hại mà Sol Goku thường sử dụng khi gặp những đối thủ lớn. Được biết trong trận đánh với Frieza đại đế, cuộc chiến có liên quan đến vận mệnh vũ trụ, Goku đã dùng quả cầu này để tung đòn tuyệt sát với Frieza.\nChọn hệ trục tọa độ Oxyz thích hợp, đơn vị trên mỗi trục là mét, mặt phẳng Oxy là mặt đất và tia Oz hướng lên trời, Sol Goku đứng ở vị trí $A\\left( 5\\,;\\,\\,0\\,;\\,\\,40 \\right)$, Frieza đại đế đứng ở vị trí $B\\left( 85\\,;\\,\\,60\\,;\\,\\,40 \\right)$. Trước khi Goku tạo ra quả cầu Genki thì Frieza đã tấn công phủ đầu, hắn lao về phía Goku với vận tốc 50 m/s.",
    "explanation": "a) Mệnh đề đúng.\nTa có $\\overrightarrow{BA}=\\left( -80\\,;\\,\\,-60\\,;\\,\\,0 \\right)$ và $AB=\\sqrt{{{\\left( -80 \\right)}^{2}}+{{\\left( -60 \\right)}^{2}}}=100$ m.\nThời gian để Frieza bay từ B đến A để tấn công Goku là $\\frac{100}{50}=2$s.\nb) Mệnh đề sai.\nVectơ vận tốc của Frieza có dạng $\\vec{v}=k\\overrightarrow{BA}=\\left( -80k\\,;\\,\\,-60k\\,;\\,\\,0 \\right)$, với tham số $k>0$.\nTa có $\\left| {\\vec{v}} \\right|=50\\Rightarrow \\sqrt{{{\\left( -80k \\right)}^{2}}+{{\\left( -60k \\right)}^{2}}}=50\\Rightarrow 100\\left| k \\right|=50\\Rightarrow k=\\frac{1}{2}>0$.\nDo đó Frieza bay đến chỗ Goku với vectơ vận tốc $\\vec{v}=\\left( -40\\,;\\,\\,-30\\,;\\,\\,0 \\right)$.\nc) Mệnh đề đúng.\nQuả cầu Genki có tâm $I\\left( 8\\,;\\,\\,-1\\,;\\,\\,58 \\right)$, bán kính $R=10\\,\\,m$.\n$ID=\\sqrt{{{\\left( -182-8 \\right)}^{2}}+{{\\left( 159+1 \\right)}^{2}}+{{\\left( 45-58 \\right)}^{2}}}=\\sqrt{61\\,869}\\,\\,m\\approx 248,7\\,\\,m$.\nKhoảng cách ngắn cần tính là $ID-R=\\sqrt{61\\,869}-10\\approx 238,7\\,\\,m$.\n[[IMG:image32.png]]\nd) Mệnh đề đúng.\nSau t giây, điểm M (thuộc mặt cầu gần Frieza nhất) di chuyển đoạn đường: $64t+t=65t$ (m).\nKhi M chạm vào Frieza (nếu hắn đứng yên) thì $ID-R=65t\\Rightarrow t=\\frac{ID-R}{65}\\approx 3,67$ (giây).",
    "ma": "de1.P3.C30",
@@ -808,6 +799,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

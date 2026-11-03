@@ -205,6 +205,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D01",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -276,7 +277,7 @@
     "dap_an_suy_tu_loi_giai_can_xac_nhan"
    ],
    "question": "Cho dãy số ${\\left( {{u}_{n}} \\right)}$ là một cấp số nhân với ${{{u}_{n}}\\ne 0,\\text{ }n\\in {{\\mathbb{N}}^{*}}.}$ Dãy số nào sau đây không phải là cấp số nhân?",
-   "explanation": "Giả sử ${\\left( {{u}_{n}} \\right)}$ là cấp số nhân công bội ${q,}$ thì\nDãy ${{{u}_{1}}\\text{; }{{u}_{3}}\\text{; }{{u}_{5}}\\text{; }...}$là cấp số nhân công bội ${{{q}^{2}}.}$\nDãy ${3{{u}_{1}}\\text{; }3{{u}_{2}};\\text{ }3{{u}_{3}}\\text{; }...}$là cấp số nhân công bội ${2q.}$\nDãy ${\\frac{1}{{{u}_{1}}};\\text{ }\\frac{1}{{{u}_{2}}};\\text{ }\\frac{1}{{{u}_{3}}};\\text{ }...}$là cấp số nhân công bội ${\\frac{1}{q}.}$\nDãy ${{{u}_{1}}+2;\\text{ }{{u}_{2}}+2;\\text{ }{{u}_{3}}+2;\\text{ }...}$không phải là cấp số nhân. Chọn D.",
+   "explanation": "Giả sử ${\\left( {{u}_{n}} \\right)}$ là cấp số nhân công bội ${q,}$ thì\nDãy ${{{u}_{1}}\\text{; }{{u}_{3}}\\text{; }{{u}_{5}}\\text{; }...}$là cấp số nhân công bội ${{{q}^{2}}.}$\nDãy ${3{{u}_{1}}\\text{; }3{{u}_{2}};\\text{ }3{{u}_{3}}\\text{; }...}$là cấp số nhân công bội ${q.}$\nDãy ${\\frac{1}{{{u}_{1}}};\\text{ }\\frac{1}{{{u}_{2}}};\\text{ }\\frac{1}{{{u}_{3}}};\\text{ }...}$là cấp số nhân công bội ${\\frac{1}{q}.}$\nDãy ${{{u}_{1}}+2;\\text{ }{{u}_{2}}+2;\\text{ }{{u}_{3}}+2;\\text{ }...}$không phải là cấp số nhân. Chọn D.",
    "options": [
     "${{{u}_{1}}\\text{; }{{u}_{3}}\\text{; }{{u}_{5}}\\text{; }...}$",
     "${3{{u}_{1}}\\text{; }3{{u}_{2}};\\text{ }3{{u}_{3}}\\text{; }...}$",
@@ -291,6 +292,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B3.D05",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -302,9 +304,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm $x$ để các số $2;\\text{ }\\,8;\\text{ }\\,x;\\text{ }\\,128$ theo thứ tự đó lập thành một cấp số nhân.",
    "explanation": "Cấp số nhân $2;\\text{ }\\,8;\\text{ }\\,x;\\text{ }\\,128$ theo thứ tự đó sẽ là ${{u}_{1}};\\,\\,{{u}_{2}};\\,\\,{{u}_{3}};\\,\\,{{u}_{4}}$, ta có\n$\\left\\{ \\begin{aligned} & \\frac{{{u}_{2}}}{{{u}_{1}}}=\\frac{{{u}_{3}}}{{{u}_{2}}} \\\\ & \\frac{{{u}_{3}}}{{{u}_{2}}}=\\frac{{{u}_{4}}}{{{u}_{3}}} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & \\frac{8}{2}=\\frac{x}{8} \\\\ & \\frac{128}{x}=\\frac{x}{8} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=32 \\\\ & {{x}^{2}}=1024 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=32 \\\\ & \\left[ \\begin{aligned} & x=32 \\\\ & x=-32 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.\\Leftrightarrow x=32$.",
    "options": [
@@ -321,6 +321,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B3.D05",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -331,10 +332,8 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "answer": "B",
+   "flags": [],
    "question": "Cho một cấp số nhân có các số hạng đều không âm thỏa mãn ${{u}_{2}}=6$, ${{u}_{4}}=24$. Tính tổng của $12$ số hạng đầu tiên của cấp số nhân đó.",
    "explanation": "Gọi công bội của CSN bằng $q$. Suy ra ${{u}_{4}}={{u}_{2}}.{{q}^{2}}$ $\\Rightarrow q=\\pm 2$. Do CSN có các số hạng không âm nên $q=2$.\nTa có ${{S}_{12}}={{u}_{1}}.\\frac{1-{{q}^{12}}}{1-q}$ $=3.\\frac{1-{{2}^{12}}}{1-2}$ $=3\\left( {{2}^{12}}-1 \\right)$.",
    "options": [
@@ -351,6 +350,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C2.B3.D04",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -568,7 +568,7 @@
    "flags": [],
    "question": "Cho một cấp số nhân với tất cả các các số hạng đều dương. Số hạng thứ 4 của cấp số nhân là 125 và số hạng thứ 10 là ${\\frac{125}{64}}$. Tìm số hạng thứ 14 của cấp số nhân này.",
    "explanation": "Giả sử rằng các số hạng của cấp số nhân đều là số dương.\nTheo giả thiết ta có ${\\left\\{\\begin{array}{l}u_4=125 \\\\ u_{10}=\\frac{125}{64}\\end{array} \\Leftrightarrow\\left\\{\\begin{array}{l}u_1 q^3=125 \\\\ u_1 q^9=\\frac{125}{64}\\end{array}\\right.\\right.}$.\nChia vế theo vế của hai phương trình ta có ${q^6=\\frac{1}{64} \\Leftrightarrow q= \\pm \\frac{1}{2}}$.\nVới ${q=\\frac{1}{2} \\Rightarrow u_1=1000 \\Rightarrow u_{14}=u_1 q^{13}=\\frac{125}{1024}}$.\nVới ${q=-\\frac{1}{2} \\Rightarrow u_1=-1000}$ (loại).\nVậy ${u_{14}=\\frac{125}{1024}}$.",
-   "short_value": 125,
+   "short_value": -1000,
    "short_correct": "\\dfrac{125}{1024}",
    "ma": "de3.P3.C4",
    "dac_trung": {
@@ -593,7 +593,7 @@
    "flags": [],
    "question": "Trong một lọ nuôi cấy vi khuẩn, ban đầu có 5000 con vi khuẩn và số lượng vi khuẩn tăng lên thêm ${8 \\%}$ mỗi giờ. Hỏi sau 4 giờ thì số lượng vi khuẩn là bao nhiêu? (làm tròn đến hàng đơn vị)",
    "explanation": "Số vi khuẩn mỗi giờ tạo thành cấp số nhân với ${u_1=5000}$ và công bội $q=1.08$\nCông thức tổng quát: ${u_n=5000 \\times 1.08^{n-1}}$\nSau 4 giờ (ứng với số hạng $u_5$) số vi khuẩn là: ${u_5=5000 \\times 1.08^{5-1}\\approx 6802}$ (con vi khuẩn)",
-   "short_value": 1.08,
+   "short_value": 5161,
    "short_correct": "6802",
    "ma": "de3.P3.C5",
    "dac_trung": {

@@ -120,9 +120,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "loi_giai_noi_C_dung_nhung_chon_D"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f(x)$ liên tục trên đoạn $\\left[ a;b \\right]$. Hãy chọn mệnh đề sai dưới đây:",
    "explanation": "Chọn D.\nTheo tính chất tích phân A,B,C đúng\nĐáp án D sai vì: $\\int\\limits_{a}^{b}{f(x)dx}=-\\int\\limits_{b}^{a}{f(x)dx}$.",
    "options": [
@@ -138,7 +136,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 1,
@@ -332,9 +331,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $F\\left( x \\right);G\\left( x \\right)$lần lượt là một nguyên hàm của hàm số $f\\left( x \\right)=x\\sqrt{x}+8$;$g\\left( x \\right)={{5}^{x}}-{{e}^{x}}$ Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Theo tính chất nguyên hàm ta có: $\\int{\\left( f\\left( x \\right)-g\\left( x \\right) \\right)}\\text{d}x=F\\left( x \\right)-G\\left( x \\right)+C$.\nSuy ra mệnh đề a đúng.\nb) Ta có:\n$\\int{g\\left( x \\right)\\text{d}x}=\\int{\\left( {{5}^{x}}-{{e}^{x}} \\right)\\text{d}x}=\\frac{{{5}^{x}}}{\\ln 5}-{{e}^{x}}+{{C}_{2}}$\nSuy ra mệnh đề b sai.\nc) $F\\left( x \\right)=\\int{f\\left( x \\right)\\text{d}x}=\\int{\\left( {{x}^{\\frac{3}{2}}}+8 \\right)\\text{d}x}=\\frac{2}{5}{{x}^{\\frac{5}{2}}}+8x+C{{}_{1}}$.\nSuy ra mệnh đề c sai.\nd) Ta có: $F\\left( x \\right)=\\int{f\\left( x \\right)\\text{d}x}=\\int{\\left( {{x}^{\\frac{3}{2}}}+8 \\right)\\text{d}x}=\\frac{2}{5}{{x}^{\\frac{5}{2}}}+8x+C{{}_{1}}$\nmà $F\\left( 0 \\right)=5\\Rightarrow {{C}_{1}}=5\\Rightarrow F\\left( x \\right)=\\frac{2}{5}{{x}^{\\frac{5}{2}}}+8x+5$\nTa có: $G\\left( x \\right)=\\frac{{{5}^{x}}}{\\ln 5}-{{e}^{x}}+{{C}_{2}}$\nmà $G\\left( 0 \\right)=0\\Rightarrow \\frac{1}{\\ln 5}-1+{{C}_{2}}=\\frac{1}{\\ln 5}-1\\Leftrightarrow {{C}_{2}}=0$\n$\\Rightarrow G\\left( x \\right)=\\frac{{{5}^{x}}}{\\ln 5}-{{e}^{x}}$\nDo đó: $F\\left( 1 \\right)-G\\left( 1 \\right)=\\frac{2}{5}+8+5-\\frac{5}{\\ln 5}+e=\\frac{67}{5}-\\frac{5}{\\ln 5}+e$.\nSuy ra mệnh đề d đúng.",
    "ma": "de2.P2.C1",
@@ -345,6 +342,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B1.D07",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -527,9 +525,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một ô tô đang chạy với vận tốc $20\\left( m/s \\right)$ thì người ta nhìn thấy một chướng ngại vật nên đạp phanh. Từ thời điểm đó, ô tô chuyển động chậm dần đều với vận tốc $v\\left( t \\right)=-2t+20\\left( m/s \\right)$, trong đó $t$ là thời gian (tính bằng giây) kể từ lúc đạp phanh. Quãng đường mà ô tô đi được trong 15 giây cuối bằng....................",
    "explanation": "Khi ô tô dừng lại, ta có $v\\left( t \\right)=0\\Rightarrow -2t+20=0\\Leftrightarrow t=10(s)$.\nQuãng đường ô tô đi được từ lúc đạp phanh đến khi dừng lại là\n$s=\\int\\limits_{0}^{10}{v\\left( t \\right)dt=\\int\\limits_{0}^{10}{\\left( -2t+20 \\right)dt=\\left( -{{t}^{2}}+20t \\right)}}\\left| _{0}^{10} \\right.=100\\left( m \\right)$\nTrong 5 giây trước đó, ô tô vẫn đi với vận tốc $20\\left( m/s \\right)$ nên quãng đường ô tô đi được trong 5 giây này là $5.20=100\\left( m \\right)$.\nVậy quãng đường mà ô tô đi được trong 15 giây cuối bằng $100+100=200\\left( m \\right)$.",
    "short_value": 200,
@@ -542,6 +538,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D05",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -593,6 +590,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."

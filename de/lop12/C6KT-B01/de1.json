@@ -423,12 +423,15 @@
     "c": "Xác suất học sinh được chọn vừa là học sinh giỏi và là học sinh nữ bằng $0,6$.",
     "d": "Biết rằng học sinh được chọn là nữ, xác suất học sinh đó là học sinh giỏi bằng $0,4$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
-   "question": "Số bi không có đánh số là: $n\\left( \\overline{B} \\right)=26-10=16$\nXác suất lấy được bi xanh không có đánh số là: $P\\left( \\overline{A}|\\overline{B} \\right)=\\frac{n\\left( \\overline{A}\\cap \\overline{B} \\right)}{n\\left( \\overline{B} \\right)}=\\frac{6}{16}=\\frac{3}{8}$.\nMột lớp học có 50 học sinh, trong đó có 20 học sinh nam và 30 học sinh nữ. Khi tổng kết cuối năm, lớp có 20 học sinh giỏi, trong đó có 8 học sinh nam và 12 học sinh nữ. Chọn ngẫu nhiên 1 học sinh trong lớp. Xét tính đúng sai của các khẳng định sau:",
+   "flags": [],
+   "question": "Một lớp học có 50 học sinh, trong đó có 20 học sinh nam và 30 học sinh nữ. Khi tổng kết cuối năm, lớp có 20 học sinh giỏi, trong đó có 8 học sinh nam và 12 học sinh nữ. Chọn ngẫu nhiên 1 học sinh trong lớp. Xét tính đúng sai của các khẳng định sau:",
    "explanation": "Xét hai biến số sau:\nA: “Học sinh được chọn là học sinh giỏi”\nB: “ Học sinh được chọn là học sinh nữ”.\na) Xác suất học sinh được chọn là học sinh giỏi: $P\\left( A \\right)=\\frac{20}{50}=0,4$.\nb) Xác suất học sinh được chọn là học sinh nữ: $P\\left( B \\right)=\\frac{30}{50}=0,6\\ne 0,5$.\nc) Xác suất học sinh được chọn vừa là học sinh giỏi và là học sinh nữ:\n$P\\left( A\\cap B \\right)=\\frac{12}{50}=0,24\\ne 0,6$.\nd) Biết rằng học sinh được chọn là nữ, xác suất học sinh đó và là học sinh nữ:",
    "ma": "de1.P2.C3",
    "dac_trung": {
@@ -438,6 +441,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -481,9 +485,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Gieo hai con xúc xắc cân đối, đồng chất. Tính xác suất để tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10, nếu biết rằng có ít nhất một con đã ra mặt 5 chấm (Kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Gọi A là biến cố: “ít nhất một con đã ra mặt 5 chấm”\nGọi B là biến cố: “tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng 10”\nTa có:\n$P\\left( A \\right)=1-P\\left( {\\bar{A}} \\right)=1-{{\\left( \\frac{5}{6} \\right)}^{2}}=\\frac{11}{36}$\nBiến cố $B$ có các trường hợp $\\left\\{ \\left( 4;6 \\right),\\left( 6;4 \\right),\\left( 5;5 \\right),\\left( 5;6 \\right),\\left( 6;5 \\right),\\left( 6;6 \\right) \\right\\}$\nBiến cố $A\\cap B$ có 3 trường hợp xảy ra: $\\left\\{ \\left( 5;5 \\right),\\left( 5;6 \\right),\\left( 6;5 \\right) \\right\\}$ có xác suất là: $P\\left( A\\cap B \\right)=\\frac{3}{36}$\nVậy $P\\left( B|A \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( A \\right)}=\\frac{\\frac{3}{36}}{\\frac{11}{36}}=\\frac{3}{11}$.",
    "short_value": 0.2727272727272727,
@@ -496,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -511,9 +514,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Vòng thứ nhất cuộc thi hát đơn ca “ Giọng hát Việt” có 100 thí sinh tham gia, trong đó có 35 nam và 65 nữ. Kết thúc vòng thứ nhất có 25 thí sinh vào vòng thứ hai (trong đó có 16 nữ và 9 nam). Chọn ngẫu nhiên một thí sinh nữ trong số 100 thí sinh. Biết xác suất chọn được thí sinh nữ được lọt vào vòng thứ hai của cuộc thi là $\\frac{a}{b}$ (với $a,\\,\\,b\\in \\mathbb{N}*$ và $\\frac{a}{b}$ là phân số tối giản). Tính $a+b$",
-   "explanation": "Gọi $A$ là biến cố “chọn được thí sinh nữ”,\ngọi $B$ là biến cố “ chọn được thí sinh nữ vào vòng thứ hai”.\nTa cần tính $P\\left( B|A \\right)$.\nSố cách chọn được thí sinh nữ là 65 cách. Số cách chọn được thí sinh nữ vào vòng trong là 16 cách, suy ra $P\\left( B|A \\right)=\\frac{16}{65}$ nên $a+b=81$.\nMột lô sản phẩm có 15 sản phẩm, trong đó có 7 sản phẩm chất lượng thấp. Lấy liên tiếp 2 sản phẩm trong lô sản phầm trên, trong đó sản phẩm lấy ra ở lần thứ nhất không bỏ lại vào lô sản phẩm. Tính xác suất để cả hai sản phẩm lấy được đều có chất lượng thấp.\nXét các biến cố:\nA: ‘‘Lần thứ nhất lấy ra được sản phẩm có chất lượng thấp’’\nB: ‘‘Lần thứ hai lấy ra được sản phẩm có chất lượng thấp’’\nC: ‘‘Cả hai lần đều lấy ra được sản phẩm có chất lượng thấp’’\nKhi đó, xác suất cần tìm là xác suất có điều kiện $P\\left( B|A \\right)$ và $P\\left( C \\right)=P\\left( B\\cap A \\right)$\nTa có $P\\left( A \\right)=\\frac{7}{15};\\,P\\left( B|A \\right)=\\frac{6}{14}=\\frac{3}{7}.$ Suy ra $P\\left( C \\right)=P\\left( B\\cap A \\right)$= $P\\left( A \\right).P\\left( B|A \\right)=\\frac{7}{15}.\\frac{3}{7}=0,2.$",
-   "short_value": 81,
-   "short_correct": "81",
+   "explanation": "Gọi $A$ là biến cố “chọn được thí sinh nữ”,\ngọi $B$ là biến cố “ chọn được thí sinh nữ vào vòng thứ hai”.\nTa cần tính $P\\left( B|A \\right)$.\nSố cách chọn được thí sinh nữ là 65 cách. Số cách chọn được thí sinh nữ vào vòng trong là 16 cách, suy ra $P\\left( B|A \\right)=\\frac{16}{65}$ nên $a+b=81$.",
+   "short_value": 0.2,
+   "short_correct": "0,2",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 11,
@@ -522,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B1.D03",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -537,9 +541,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Bạn Huy hàng ngày đi học bằng xe đạp hoặc bằng ô tô do bố mẹ đưa đón. Nếu hôm nay bạn Huy đi học bằng xe đạp thì xác suất để hôm sau bạn Huy đi học bằng ô tô là $0,3$. Nếu hôm nay bạn Huy đi học bằng ô tô thì xác suất để hôm sau Huy đi học bằng xe đạp là $0,6$. Xét một tuần mà thứ hai, bạn Huy đi học bằng ô tô. Tính xác suất để thứ 5 trong tuần đó, bạn Huy đi học bằng xe đạp?(Kết quả được làm tròn đến hàng thứ hai).",
-   "explanation": "Gọi $A$ là biến cố “Thứ ba, bạn Huy đi học bằng xe đạp”\nGọi $B$ là biến cố “Thứ tư, bạn Huy đi học bằng xe đạp”\nGọi $C$ là biến cố “ Thứ năm, bạn Huy đi học bằng xe đạp”\nTa có sơ đô hình cây mô tả xác suất của biến cố như sau:\n[[IMG:image1.png]]\nTừ sơ đồ hình cây ta thấy có 4 nhánh cây đi tới $C$ là: $OABC$, $OA\\bar{B}C$, $O\\bar{A}BC$, $O\\bar{A}\\bar{B}C$.\nVậy $P\\left( C \\right)=0,6.0,7.0,7+0,6.0,3.0,6+0,4.0,6.0,7+0,4.0,4.0,6=\\frac{333}{500}\\approx 0,67$.\nTrong một cộng đồng $X$ có tỉ lệ mắc ung thư là $0,02$. Biết rằng xác suất xét nghiệm dương tính là $0,95$ nếu người đó mắc ung thư và $0,03$ nếu người đó không mắc ung thư. Tính xác suất khi chọn ngẫu nhiên một người trong cộng đồng $X$ bị ung thư nếu người này cho kết quả xét nghiệm dương tính. (Kết quả tính biểu diễn dưới dạng phần trăm, làm tròn đến chữ số hàng chục sau dấu thập phân)\nGọi $A$ là biến cố người được chọn bị ung thư, $B$ là biến cố người được chọn cho kết quả dương tính.\nKhi đó: $B\\cap A$ là biến cố người được chọn có kết quả xét nghiệm dương tính và bị ung thư,\n$B\\cap \\overline{A}$ là biến cố người được chọn có kết quả xét nghiệm dương tính và không bị ung thư.\nMặt khác\n$P\\left( B|A \\right)$ là xác suất người được chọn có kết quả dương tính khi người được chọn bị ung thư,\n$P\\left( B|\\overline{A} \\right)$ là xác suất người được chọn có kết quả dương tính khi người được chọn không bị ung thư.\nTa có $P\\left( A \\right)=0,02$, $P\\left( B|A \\right)=0,95$ và $P\\left( B|\\overline{A} \\right)=0,03$.\nLúc này ta có: $P\\left( B\\cap A \\right)=P\\left( B|A \\right)P\\left( A \\right)=0,95.0,02=0,019$\nMặt khác: $P\\left( B\\cap \\overline{A} \\right)=P\\left( B|\\overline{A} \\right)P\\left( \\overline{A} \\right)=0,03.0,98=0,0294$\nSuy ra $P\\left( B \\right)=P\\left( B\\cap A \\right)+P\\left( B\\cap \\overline{A} \\right)=0,0484=4,84\\%$.\nDo đó: $P\\left( A|B \\right)=\\frac{P\\left( A\\cap B \\right)}{P\\left( B \\right)}=\\frac{0,019}{0,0484}\\approx 0,393=39,3\\%$.",
-   "short_value": 0.67,
-   "short_correct": "0,67",
+   "explanation": "Gọi $A$ là biến cố “Thứ ba, bạn Huy đi học bằng xe đạp”\nGọi $B$ là biến cố “Thứ tư, bạn Huy đi học bằng xe đạp”\nGọi $C$ là biến cố “ Thứ năm, bạn Huy đi học bằng xe đạp”\nTa có sơ đô hình cây mô tả xác suất của biến cố như sau:\n[[IMG:image1.png]]\nTừ sơ đồ hình cây ta thấy có 4 nhánh cây đi tới $C$ là: $OABC$, $OA\\bar{B}C$, $O\\bar{A}BC$, $O\\bar{A}\\bar{B}C$.\nVậy $P\\left( C \\right)=0,6.0,7.0,7+0,6.0,3.0,6+0,4.0,6.0,7+0,4.0,4.0,6=\\frac{333}{500}\\approx 0,67$.",
+   "short_value": 39.3,
+   "short_correct": "39,3",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 19,
@@ -548,6 +552,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -559,12 +564,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một bình đựng 50 viên bi kích thước, chất liệu như nhau, trong đó có 30 viên bi xanh và 20 viên bi trắng. Lấy ngẫu nhiên ra một viên bi, rồi lại lấy ngẫu nhiên ra một viên bi nữa. Tính xác suất để lấy được một viên bi xanh ở lần thứ nhất và một viên bi trắng ở lần thứ hai?(Kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Gọi A là biến cố: “Lấy được một viên bi xanh ở lần thứ nhất”,\nGọi B là biến cố: “Lấy được một viên bi trắng ở lần thứ hai”.\nta cần tính xác suất $P\\left( A\\cap B \\right)$\nTheo công thức nhân xác suất $P\\left( A\\cap B \\right)=P\\left( A \\right).P\\left( B|A \\right)$\nVì có 30 viên bi xanh trong tổng số 50 viên bi nên$P\\left( A \\right)=\\frac{30}{50}=\\frac{3}{5}$\nNếu A đã xảy ra, tức là một viên bi xanh đã được lấy ra ở lần thứ nhất, thì còn lại trong bình 49 viên bi trong đó số viên bi trắng là 20, do đó$P\\left( B|A \\right)=\\frac{20}{49}$\nVậy xác suất cần tìm là$P\\left( A\\cap B \\right)=P\\left( A \\right).P\\left( B|A \\right)=\\frac{3}{5}.\\frac{20}{49}=\\frac{12}{29}$\n-----------------HẾT-----------------",
-   "short_value": 0.24,
+   "short_value": 0.41379310344827586,
    "short_correct": "0,24",
    "ma": "de1.P3.C6",
    "dac_trung": {
@@ -574,6 +577,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

@@ -67,6 +67,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L10.C5.B2.D01",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu không ghép nhóm: Số trung bình, trung vị, tứ phân vị, mốt."
@@ -495,7 +496,7 @@
    "flags": [
     "cong_thuc_ocr_AI_can_xem"
    ],
-   "question": "Cho tập hợp $X=3-45$ có hai tập con $A$ và $B$ (số phần tử của tập $B$ ít hơn số phần tử của tập $A)$ . Có bao nhiêu cặp $\\left(A;B\\right)$ mà $34\\left(AB\\right)$",
+   "question": "Cho tập hợp $X=\\{3;4;5\\}$ có hai tập con $A$ và $B$ (số phần tử của tập $B$ ít hơn số phần tử của tập $A$). Có bao nhiêu cặp $\\left(A;B\\right)$ mà $5\\in A\\setminus B$?",
    "explanation": "Trả lời: 11\nDo $34\\left(x\\right) = x$ nên tập hợp $A \\setminus B$ phải chứa phần tử 5 . Từ đó suy ra: $5\\in A, 5\\notin B$ .\nCác tập con của $X$ có phân tử 5 là: $885454$ .\nDo số phân tử của tập $B$ ít hơn số phân tử của tập $A$ nên ta có các $\\mathrm{TH}$ sau:\n+ Nếu $A=\\{5\\}$ thì $B$ là tập con của $X$ không chứa phần tử nào, tức là $B = \\varnothing$ .\n+ Nếu $A=\\{5;3\\}$ thì $B$ là tập con của $X$ chứa ít hơn hai phân tử và không chứa phân tử 5 , tức là $B^2 - 3B + 4$ .\n+ Nếu $A = 5 - 4$ thì $B$ là tập con của $X$ chứa ít hơn hai phần tử và không chứa phân tử 5, tức là $B\\geq 3\\text{ \\text{và} }B\\leq 4$ .\n+ Nếu $A=534$ thì $B$ là tập con của $X$ chứa ít hơn ba phân tử và không chứa phân tử 5 , tức là $\\overline{123456789}$ .\nVậy có $133411$ cặp $\\left(A;B\\right)$ thỏa mãn yêu câu bài toán.",
    "short_value": 11,
    "short_correct": "11",
@@ -507,6 +508,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C1.B2.D01",
    "dang_toan_web": "Các phép toán trên tập hợp: Phép giao, phép hợp, phép hiệu và phần bù."

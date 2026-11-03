@@ -486,9 +486,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp không nắp được làm từ một mảnh các tông theo hình vẽ. Hộp có đáy là một hình vuông cạnh $x\\left( \\text{cm} \\right)$, chiều cao là $h\\left( \\text{cm} \\right)$ và thể tích là $4000\\text{c}{{\\text{m}}^{\\text{3}}}.$ Tìm độ dài cạnh hình vuông $x$ sao cho chiếc hộp làm ra tốn ít bìa các tông nhất.\n[[IMG:image6.png]]",
    "explanation": "[[IMG:image7.png]]\nThể tích khối hộp $V=x.x.h={{x}^{2}}h=4000\\Rightarrow h=\\frac{4000}{{{x}^{2}}}.$\nĐể chiếc hộp làm ra ít tốn bìa các tông nhất khi và chỉ khi diện tích toàn phần của hộp là nhỏ nhất. Diện tích toàn phần của hộp (không nắp) ${{S}_{\\text{tp}}}={{S}_{\\text{day}}}+{{S}_{\\text{xung quanh}}}=x.x+4.hx={{x}^{2}}+4hx$\n$={{x}^{2}}+4x.\\frac{4000}{{{x}^{2}}}={{x}^{2}}+\\frac{16000}{x}$\nXét hàm $f\\left( x \\right)={{x}^{2}}+\\frac{16000}{x}$ với $x>0$ có ${f}'\\left( x \\right)=2x-\\frac{16000}{{{x}^{2}}}=0\\Leftrightarrow 2x-\\frac{16000}{{{x}^{2}}}=0\\Leftrightarrow x=20$\nBảng biến thiên:\n[[IMG:image8.png]]\nVậy độ dài cạnh hình vuông $x=20$cm thì chiếc hộp làm ra tốn ít bìa các tông nhất.",
    "short_value": 20,
@@ -501,6 +499,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D02",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -517,8 +516,8 @@
    ],
    "question": "Hai thành phố $A$ và $B$ cách nhau một con sông. Người ta xây dựng một cây cầu $EF$ bắc qua sông biết rằng thành phố $A$ cách con sông một khoảng là $4$km và thành phố $B$ cách con sông một khoảng là $6$km (hình vẽ), biết $HE+KF=20$km và độ dài $EF$ không đổi. Hỏi xây cây cầu cách thành phố $A$ là bao nhiêu kilomet để đường đi từ thành phố A đến thành phố B là ngắn nhất (đi theo đường $AEFB$)? (kết quả làm tròn đến phần chục)\n[[IMG:image9.png]]",
    "explanation": "Đặt $HE={{x}_{{}}}{{,}_{{}}}FK=y$, với $x,\\,y>0$\nTa có: $HE+KF=20\\Rightarrow x+y=20$, $\\left\\{ \\begin{aligned} & AE=\\sqrt{16+{{x}^{2}}} \\\\ & BF=\\sqrt{36+{{y}^{2}}}=\\sqrt{36+{{\\left( 20-x \\right)}^{2}}} \\\\ \\end{aligned} \\right.$\nNhận xét: Vì $EF$ không đổi nên $AB$ ngắn nhất khi $AE+BF$ nhỏ nhất.\nTa có $AE+BF$ $=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{\\left( 20-x \\right)}^{2}}+36}=\\sqrt{{{x}^{2}}+16}+\\sqrt{{{x}^{2}}-40x+436}=f\\left( x \\right)$\nĐạo hàm ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+16}}+\\frac{x-20}{\\sqrt{{{x}^{2}}-40x+436}}=0\\Rightarrow x=8,\\,\\forall x\\in \\left( 0;20 \\right)$$$ \\text{Bảng} \\text{biến} \\text{thiên} [[IMG:image10.png]] \\text{Vậy} $AE=\\sqrt{{{8}^{2}}+16}\\approx 8,94$km",
-   "short_value": 20,
-   "short_correct": "20",
+   "short_value": 8.94,
+   "short_correct": "8,9",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -527,6 +526,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -542,9 +542,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Giả sử doanh số bán hàng (đơn vị triệu đồng) của một sản phẩm mới trong vòng một số năm nhất định tuân theo quy luật logistic được mô hình hóa bằng hàm số $f\\left( t \\right)=500\\left( {{t}^{2}}+m{{e}^{-t}} \\right)$, với $t\\ge 0$ là thời gian tính bằng năm kể từ khi phát hành sản phẩm mới, $m\\le 0$ là tham số. Khi đó đạo hàm ${f}'\\left( t \\right)$ sẽ biểu thị tốc độ bán hàng. Biết rằng tốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm, khi đó giá trị nhỏ nhất của $m$ bằng bao nhiêu?",
-   "explanation": "Ta có ${f}'\\left( t \\right)=500\\left( 2t-m{{e}^{-t}} \\right)$ và ${{f}'}'\\left( t \\right)=500\\left( 2+m{{e}^{-t}} \\right)$\nTốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm.$\\Leftrightarrow {f}'\\left( t \\right)$. là hàm số đồng biến trên $\\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow {{f}'}'\\left( t \\right)\\ge 0$, $\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $500\\left( 2+m{{e}^{-t}} \\right)\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow $ $2+m{{e}^{-t}}\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $m{{e}^{-t}}\\ge -2\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow m\\ge -2{{e}^{t}}\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow m\\ge -2{{e}^{0}}=-2$ (do hàm số $y=-2{{e}^{t}}$ nghịch biến trên $\\left[ 0\\,;\\,10 \\right]$).\nVậy giá trị nhỏ nhất của $m$ là $-2$.\nCho hai vị trí $A,B$ cách nhau $615\\text{ }\\!\\!~\\!\\!\\text{ m}$, cùng nằm về một phía bờ sông như hình vẽ.\n[[IMG:image11.png]]\nKhoảng cách từ $A$ và từ $B$ đến bờ sông lần lượt là $118\\text{ }\\!\\!~\\!\\!\\text{ m}$ và $487\\text{ }\\!\\!~\\!\\!\\text{ m}$. Một người đi từ $A$ đến bờ sông để lấy nước mang về $B$. Đoạn đường ngắn nhất là số nguyên dương mà người đó có thể đi là bao nhiêu?\nGiả sử người đó đi từ $A$ đến $M$ để lấy nước và đi từ $M$ về $B$\nDễ dàng tính được $BD=369,EF=492$.\n[[IMG:image12.png]]\nTa đặt $EM=x$, khi đó ta được: $MF=492-x;\\,AM=\\sqrt{{{x}^{2}}+{{118}^{2}}}\\,;\\,BM=\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}\\text{.}$\nNhư vậy ta có hàm số $f\\left( x \\right)$ được xác định bằng tổng quãng đường $AM$ và $MB$:\nXét hàm $f\\left( x \\right)=\\sqrt{{{x}^{2}}+{{118}^{2}}}+\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}\\text{ }\\!\\!~\\!\\!\\text{ }$ với$x\\in \\left[ 0;492 \\right]$\nTa cần tìm giá trị nhỏ nhất của $f\\left( x \\right)$ để có được quãng đường ngắn nhất và từ đó xác định được vị trí điểm $M$.\nĐạo hàm: ${f}'\\left( x \\right)=\\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}-\\frac{492-x}{\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}}\\text{=0}$\n$\\Leftrightarrow \\frac{x}{\\sqrt{{{x}^{2}}+{{118}^{2}}}}=\\frac{492-x}{\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}}\\Leftrightarrow x\\sqrt{{{\\left( 492-x \\right)}^{2}}+{{487}^{2}}}=\\left( 492-x \\right)\\sqrt{{{x}^{2}}+{{118}^{2}}}$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} {{x}^{2}}\\left[ {{\\left( 492-x \\right)}^{2}}+{{487}^{2}} \\right]={{\\left( 492-x \\right)}^{2}}\\left( {{x}^{2}}+{{118}^{2}} \\right) \\\\ 0\\le x\\le 492 \\\\ \\end{matrix}\\Leftrightarrow \\left\\{ \\begin{matrix} {{\\left( 487x \\right)}^{2}}={{\\left( 58056-118x \\right)}^{2}} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right. \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{matrix} x=\\frac{58056}{605}\\text{ }\\!\\!~\\!\\!\\text{ hay }\\!\\!~\\!\\!\\text{ }x=-\\frac{58056}{369}\\Leftrightarrow x=\\frac{58056}{605} \\\\ 0\\le x\\le 492 \\\\ \\end{matrix} \\right.$\nHàm số $f\\left( x \\right)$ liên tục trên đoạn $\\left[ 0;492 \\right]$.\nSo sánh các giá trị của $f\\left( 0 \\right)\\,;\\,f\\left( \\frac{58056}{605} \\right)\\,;\\,f\\left( 492 \\right)$ ta có giá trị nhỏ nhất $f\\left( \\frac{58056}{605} \\right)\\approx 779,8\\text{ }\\!\\!~\\!\\!\\text{ m}$\nKhi đó quãng đường đi ngắn nhất là xấp xỉ $779,8\\text{ }\\!\\!~\\!\\!\\text{ }\\approx \\text{780m}$.",
-   "short_value": 492,
-   "short_correct": "492",
+   "explanation": "Ta có ${f}'\\left( t \\right)=500\\left( 2t-m{{e}^{-t}} \\right)$ và ${{f}'}'\\left( t \\right)=500\\left( 2+m{{e}^{-t}} \\right)$\nTốc độ bán hàng luôn tăng trong khoảng thời gian 10 năm đầu phát hành sản phẩm.$\\Leftrightarrow {f}'\\left( t \\right)$. là hàm số đồng biến trên $\\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow {{f}'}'\\left( t \\right)\\ge 0$, $\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $500\\left( 2+m{{e}^{-t}} \\right)\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow $ $2+m{{e}^{-t}}\\ge 0\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow $ $m{{e}^{-t}}\\ge -2\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$ $\\Leftrightarrow m\\ge -2{{e}^{t}}\\,,\\,\\,\\forall t\\in \\left[ 0\\,;\\,10 \\right]$\n$\\Leftrightarrow m\\ge -2{{e}^{0}}=-2$ (do hàm số $y=-2{{e}^{t}}$ nghịch biến trên $\\left[ 0\\,;\\,10 \\right]$).\nVậy giá trị nhỏ nhất của $m$ là $-2$.",
+   "short_value": 780,
+   "short_correct": "-2",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 22,
@@ -553,6 +553,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D11",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -569,8 +570,8 @@
    ],
    "question": "Một con cá hồi bơi ngược dòng để vượt khoảng cách là $100$km. Vận tốc dòng nước là $5$(km/h). Nếu vận tốc bơi của cá khi nước đứng yên là $v$(km/h), $\\left( v>5 \\right)$ thì năng lượng tiêu hao của cá trong $t$ giờ được cho bởi công thức $E\\left( v \\right)=c.{{v}^{3}}.t$, trong đó $c$ là hằng số dương, $E$ được tính bằng Jun. Biết rằng vận tốc bơi của cá khi nước đứng yên thuộc khoảng $\\left( a\\,;\\,b \\right)$ thì năng lượng tiêu hao của cá giảm. Hãy tính giá trị lớn nhất của $b-a$ (kết quả làm tròn tới hàng phần mười).",
    "explanation": "Khi bơi ngược dòng vận tốc của cá là $v-5$(km/h).\nThời gian để cá vượt khoảng cách $100$km là $t=\\frac{100}{v-5}\\,\\left( v>5 \\right)$.\nNăng lượng tiêu hao của cá khi vượt khoảng cách $100$km là $E\\left( v \\right)=c.{{v}^{3}}.\\frac{100}{v-5}=100c.\\frac{{{v}^{3}}}{v-5}$\nXét hàm số $y=E\\left( v \\right)$ ta có ${E}'\\left( v \\right)=100c.\\frac{3{{v}^{2}}\\left( v-5 \\right)-{{v}^{3}}}{{{\\left( v-5 \\right)}^{2}}}=100c.\\frac{{{v}^{2}}\\left( 2v-15 \\right)}{{{\\left( v-5 \\right)}^{2}}}$\nGiải phương trình ${E}'\\left( v \\right)=0\\Leftrightarrow v=7,5$(do $v>5$). Ta có bảng biến thiên\n[[IMG:image13.png]]\nVậy vận tốc bơi của cá khi nước đứng yên thuộc khoảng $\\left( 5\\,;\\,7,5 \\right)$ thì năng lượng tiêu hao của cá giảm. Khi đó giá trị lớn nhất của $b-a$ là 2,5.\n-----------------HẾT-----------------",
-   "short_value": 7.5,
-   "short_correct": "7,5",
+   "short_value": 2.5,
+   "short_correct": "2,5",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -579,6 +580,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

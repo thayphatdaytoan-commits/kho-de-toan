@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "5",
   "lesson": "3",
-  "title": "Bài 3. ➌. hàm số liên tục"
+  "title": "Bài 3. ➌. hàm số liên tục",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -106,7 +107,7 @@
    "answer": "D",
    "flags": [],
    "question": "Hình nào trong các hình dưới đây là đồ thị của hàm số không liên tục tại $x=1$?",
-   "explanation": "Vì $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,y\\ne \\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,y$ nên hàm số không liên tục tại $x=1$.",
+   "explanation": "Vì $\\underset{x\\to {{1}^{+}}}{\\lim}\\,y\\ne \\underset{x\\to {{1}^{-}}}{\\lim}\\,y$ nên hàm số không liên tục tại $x=1$.",
    "options": [
     "[[IMG:image12.png]]",
     "[[IMG:image13.png]]",
@@ -162,7 +163,7 @@
    "answer": "A",
    "flags": [],
    "question": "Cho hàm số $y=\\left\\{ \\begin{aligned} & \\frac{1-{{x}^{3}}}{1-x},\\text{khi }x<1 \\\\ & 1\\text{ },\\text{khi }x\\ge 1 \\\\ \\end{aligned} \\right.$. Hãy chọn kết luận đúng",
-   "explanation": "Ta có: $y\\left( 1 \\right)=1$.\nTa có: $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,y=1$; $\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,y=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{1-{{x}^{3}}}{1-x}=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\frac{\\left( 1-x \\right)\\left( 1+x+{{x}^{2}} \\right)}{1-x}=\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\left( 1+x+{{x}^{2}} \\right)=4$\nNhận thấy: $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,y=y\\left( 1 \\right)$. Suy ra $y$ liên tục phải tại $x=1$.",
+   "explanation": "Ta có: $y\\left( 1 \\right)=1$.\nTa có: $\\underset{x\\to {{1}^{+}}}{\\lim}\\,y=1$; $\\underset{x\\to {{1}^{-}}}{\\lim}\\,y=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{1-{{x}^{3}}}{1-x}=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\frac{\\left( 1-x \\right)\\left( 1+x+{{x}^{2}} \\right)}{1-x}=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\left( 1+x+{{x}^{2}} \\right)=4$\nNhận thấy: $\\underset{x\\to {{1}^{+}}}{\\lim}\\,y=y\\left( 1 \\right)$. Suy ra $y$ liên tục phải tại $x=1$.",
    "options": [
     "$y$ liên tục phải tại $x=1$",
     "$y$ liên tục tại $x=1$",
@@ -188,11 +189,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hàm số nào sau đây liên tục tại $x=1$:",
-   "explanation": "A. $f\\left( x \\right)=\\frac{{{x}^{2}}+x+1}{x-1}$\n$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=+\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.\nB. $f\\left( x \\right)=\\frac{{{x}^{2}}-x-2}{{{x}^{2}}-1}$\n$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{x-2}{x-1}=-\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.\nC. $f\\left( x \\right)=\\frac{{{x}^{2}}+x+1}{x}$\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}+x+1}{x}=3=f\\left( 1 \\right)$ suy ra $f\\left( x \\right)$ liên tục tại $x=1$.\nD. $f\\left( x \\right)=\\frac{x+1}{x-1}$\n$\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\frac{x+1}{x-1}=+\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.",
+   "explanation": "A. $f\\left( x \\right)=\\frac{{{x}^{2}}+x+1}{x-1}$\n$\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=+\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.\nB. $f\\left( x \\right)=\\frac{{{x}^{2}}-x-2}{{{x}^{2}}-1}$\n$\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{x-2}{x-1}=-\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.\nC. $f\\left( x \\right)=\\frac{{{x}^{2}}+x+1}{x}$\n$\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}+x+1}{x}=3=f\\left( 1 \\right)$ suy ra $f\\left( x \\right)$ liên tục tại $x=1$.\nD. $f\\left( x \\right)=\\frac{x+1}{x-1}$\n$\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\frac{x+1}{x-1}=+\\infty $ suy ra $f\\left( x \\right)$ không liên tục tại $x=1$.",
    "options": [
     "$f\\left( x \\right)=\\frac{{{x}^{2}}+x+1}{x-1}$",
     "$f\\left( x \\right)=\\frac{{{x}^{2}}-x-2}{{{x}^{2}}-1}$",
@@ -207,6 +206,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -218,9 +218,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hàm số nào dưới đây gián đoạn tại điểm ${{x}_{0}}=-1$.",
    "explanation": "Ta có $y=\\frac{2x-1}{x+1}$ không xác định tại ${{x}_{0}}=-1$ nên gián đoạn tại ${{x}_{0}}=-1$.",
    "options": [
@@ -237,6 +235,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -306,7 +305,7 @@
    "answer": "D",
    "flags": [],
    "question": "Cho hàm số $y=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}-7x+12}{x-3}\\,\\,\\,\\,\\text{khi}\\,\\,\\,x\\ne 3 \\\\ & -1\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\text{khi}\\,\\,x=3 \\\\ \\end{aligned} \\right.$. Mệnh đề nào sau đây đúng?",
-   "explanation": "$\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-7x+12}{x-3}=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\left( x-4 \\right)=-1=y\\left( 3 \\right)$ nên hàm số liên tục tại ${{x}_{0}}=3$.\n$\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{\\left( {{x}^{2}}-7x+12 \\right)-\\left( {{3}^{2}}-7.3+12 \\right)}{x-3}=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\frac{\\left( {{x}^{2}}-7x+12 \\right)}{x-3}=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\left( x-4 \\right)=-1\\Rightarrow y'\\left( 3 \\right)=-1$.",
+   "explanation": "$\\underset{x\\to 3}{\\lim}\\,\\frac{{{x}^{2}}-7x+12}{x-3}=\\underset{x\\to 3}{\\lim}\\,\\left( x-4 \\right)=-1=y\\left( 3 \\right)$ nên hàm số liên tục tại ${{x}_{0}}=3$.\n$\\underset{x\\to 3}{\\lim}\\,\\frac{\\left( {{x}^{2}}-7x+12 \\right)-\\left( {{3}^{2}}-7.3+12 \\right)}{x-3}=\\underset{x\\to 3}{\\lim}\\,\\frac{\\left( {{x}^{2}}-7x+12 \\right)}{x-3}=\\underset{x\\to 3}{\\lim}\\,\\left( x-4 \\right)=-1\\Rightarrow y'\\left( 3 \\right)=-1$.",
    "options": [
     "Hàm số liên tục nhưng không có đạo hàm tại ${{x}_{0}}=3$",
     "Hàm số gián đoạn và không có đạo hàm tại ${{x}_{0}}=3$",
@@ -334,12 +333,12 @@
    "answer": "A",
    "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{x-2}{\\sqrt{x+2}-2}\\text{ khi }x\\ne 2 \\\\ & 4\\text{ khi }x=2 \\\\ \\end{aligned} \\right.$. Chọn mệnh đề đúng?",
-   "explanation": "Tập xác định: $D=\\mathbb{R}$\n$\\underset{x\\to 2}{\\mathop{\\lim }}\\,f\\left( x \\right)$ $=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{x-2}{\\sqrt{x+2}-2}$ $=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{\\left( x-2 \\right)\\left( \\sqrt{x+2}+2 \\right)}{x-2}$ $=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\left( \\sqrt{x+2}+2 \\right)$ $=4$\n$f\\left( 2 \\right)=4$\n$\\Rightarrow \\underset{x\\to 2}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 2 \\right)$\nVậy hàm số liên tục tại $x=2$.",
+   "explanation": "Tập xác định: $D=\\mathbb{R}$\n$\\underset{x\\to 2}{\\lim}\\,f\\left( x \\right)$ $=\\underset{x\\to 2}{\\lim}\\,\\frac{x-2}{\\sqrt{x+2}-2}$ $=\\underset{x\\to 2}{\\lim}\\,\\frac{\\left( x-2 \\right)\\left( \\sqrt{x+2}+2 \\right)}{x-2}$ $=\\underset{x\\to 2}{\\lim}\\,\\left( \\sqrt{x+2}+2 \\right)$ $=4$\n$f\\left( 2 \\right)=4$\n$\\Rightarrow \\underset{x\\to 2}{\\lim}\\,f\\left( x \\right)=f\\left( 2 \\right)$\nVậy hàm số liên tục tại $x=2$.",
    "options": [
     "Hàm số liên tục tại $x=2$",
     "Hàm số gián đoạn tại $x=2$",
     "$f\\left( 4 \\right)=2$",
-    "$\\underset{x\\to 2}{\\mathop{\\lim }}\\,f\\left( x \\right)=2$"
+    "$\\underset{x\\to 2}{\\lim}\\,f\\left( x \\right)=2$"
    ],
    "ma": "de1.P1.C12",
    "dac_trung": {
@@ -372,7 +371,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\left\\{ \\begin{matrix} \\sin \\pi x & \\text{khi}\\,\\,\\left| x \\right|\\le 1 \\\\ x+1\\ & \\text{khi}\\,\\ \\left| x \\right|>1 \\\\ \\end{matrix} \\right.$. Các mệnh đề sau đúng/sai?",
-   "explanation": "Ta có: $\\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,\\left( x+1 \\right)=2$ và $\\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,\\sin \\pi x=0$ $\\Rightarrow \\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)\\ne \\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)$ do đó hàm số gián đoạn tại $x=1$.\nTương tự: $\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\mathop{\\lim }}\\,\\left( x+1 \\right)=0$ và $\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\mathop{\\lim }}\\,\\sin \\pi x=0$\n$\\Rightarrow \\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)$ $=\\underset{x\\to -1}{\\mathop{\\lim }}\\,f\\left( x \\right)$ $=f\\left( -1 \\right)$ do đó hàm số liên tục tại $x=-1$.\nVới $x\\ne \\pm 1$ thì hàm số liên tục trên tập xác định.\nVậy hàm số đã cho liên tục trên các khoảng $\\left( -\\infty ;1 \\right)$ và $\\left( 1;+\\infty \\right)$.",
+   "explanation": "Ta có: $\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left( x+1 \\right)=2$ và $\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\sin \\pi x=0$ $\\Rightarrow \\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)\\ne \\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)$ do đó hàm số gián đoạn tại $x=1$.\nTương tự: $\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\lim}\\,\\left( x+1 \\right)=0$ và $\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,\\sin \\pi x=0$\n$\\Rightarrow \\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\lim}\\,f\\left( x \\right)$ $=\\underset{x\\to -1}{\\lim}\\,f\\left( x \\right)$ $=f\\left( -1 \\right)$ do đó hàm số liên tục tại $x=-1$.\nVới $x\\ne \\pm 1$ thì hàm số liên tục trên tập xác định.\nVậy hàm số đã cho liên tục trên các khoảng $\\left( -\\infty ;1 \\right)$ và $\\left( 1;+\\infty \\right)$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -391,7 +390,7 @@
    "type": "true_false_group",
    "tf": {
     "a": "Hàm số $g(x)$ liên tục tại điểm ${x_0=2}$.",
-    "b": "Giới hạn $\\underset{x\\to 2}{\\mathop{\\lim }}\\,f(x)=4$",
+    "b": "Giới hạn $\\underset{x\\to 2}{\\lim}\\,f(x)=4$",
     "c": "Hàm số ${f(x)}$ liên tục tại điểm ${x_0=2}$.",
     "d": "Hàm số $y=\\frac{f\\left( x \\right)}{g\\left( x \\right)}$ liên tục tại điểm ${x_0=2}$."
    },
@@ -404,7 +403,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho các hàm số ${f(x)=\\left\\{\\begin{array}{ll}\\frac{x^2-4}{x-2} & \\text { khi } x \\neq 2 \\\\ 4,5 & \\text { khi } x=2\\end{array}\\right.}$ và $g(x)=\\frac{2}{x-1}$ . Khi đó:",
-   "explanation": "Ta có: $g(2)=\\frac{2}{2-1}=2$ và $\\underset{x\\to 2}{\\mathop{\\lim }}\\,g(x)=\\underset{x\\to 2}{\\mathop{\\lim }}\\,\\frac{2}{x-1}=2$; suy ra $\\underset{x\\to 2}{\\mathop{\\lim }}\\,g(x)=g(2)$.\nVậy hàm số $g(x)$ liên tục tại điểm ${x_0=2}$.\nTa có: ${f(2)=4,5}$ và ${\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{x^2-4}{x-2}=\\lim _{x \\rightarrow 2} \\frac{(x-2)(x+2)}{x-2}=\\lim _{x \\rightarrow 2}(x+2)=4}$.\nSuy ra ${\\lim _{x \\rightarrow 2} f(x) \\neq f(2)}$.\nVậy hàm số ${f(x)}$ không liên tục tại điểm ${x_0=2}$.",
+   "explanation": "Ta có: $g(2)=\\frac{2}{2-1}=2$ và $\\underset{x\\to 2}{\\lim}\\,g(x)=\\underset{x\\to 2}{\\lim}\\,\\frac{2}{x-1}=2$; suy ra $\\underset{x\\to 2}{\\lim}\\,g(x)=g(2)$.\nVậy hàm số $g(x)$ liên tục tại điểm ${x_0=2}$.\nTa có: ${f(2)=4,5}$ và ${\\lim _{x \\rightarrow 2} f(x)=\\lim _{x \\rightarrow 2} \\frac{x^2-4}{x-2}=\\lim _{x \\rightarrow 2} \\frac{(x-2)(x+2)}{x-2}=\\lim _{x \\rightarrow 2}(x+2)=4}$.\nSuy ra ${\\lim _{x \\rightarrow 2} f(x) \\neq f(2)}$.\nVậy hàm số ${f(x)}$ không liên tục tại điểm ${x_0=2}$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -468,7 +467,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho các hàm số sau: $f(x)=\\left\\{ \\begin{array}{llllll} -\\frac{x}{2}\\text{ khi }x\\le 1 \\\\ \\frac{{{x}^{2}}-3x+2}{{{x}^{2}}-1}\\text{ khi }x>1 \\\\ \\end{array} \\right.$, $g(x)={{x}^{2}}-3x+1$ và $h(x)=\\sin \\frac{\\pi x}{4}$",
-   "explanation": "Ta có: ${f(1)=-\\frac{1}{2}}$ và ${\\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1^{-}} \\frac{-x}{2}=-\\frac{1}{2}}$,\n${\\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{+}} \\frac{x^2-3 x+2}{x^2-1}=\\lim _{x \\rightarrow 1^{+}} \\frac{(x-1)(x-2)}{(x-1)(x+1)}=\\lim _{x \\rightarrow 1^{+}} \\frac{x-2}{x+1}=-\\frac{1}{2} \\text {. } }$\nVậy ${f(1)=\\lim _{x \\rightarrow 1} f(x)=-\\frac{1}{2}}$ nên hàm số ${f(x)}$ liên tục tại điểm ${x_0=1}$.\nTa có: $g(1)=-1$ và $\\underset{x\\to 1}{\\mathop{\\lim }}\\,g(x)={{1}^{2}}-3\\cdot 1+1=-1$ nên $g(1)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,g(x)$.\nVậy hàm số $g(x)$ liên tục tại điểm ${x_0=1}$.\nTa có: $h(2)=\\sin \\frac{2\\pi }{4}=1$ và $\\underset{x\\to 2}{\\mathop{\\lim }}\\,h(x)=\\sin \\frac{2\\pi }{4}=1$ nên $h(2)=\\underset{x\\to 2}{\\mathop{\\lim }}\\,h(x)$.\nVậy hàm số $h(x)$ liên tục tại điểm ${x_0=2}$.",
+   "explanation": "Ta có: ${f(1)=-\\frac{1}{2}}$ và ${\\lim _{x \\rightarrow 1^{-}} f(x)=\\lim _{x \\rightarrow 1^{-}} \\frac{-x}{2}=-\\frac{1}{2}}$,\n${\\lim _{x \\rightarrow 1^{+}} f(x)=\\lim _{x \\rightarrow 1^{+}} \\frac{x^2-3 x+2}{x^2-1}=\\lim _{x \\rightarrow 1^{+}} \\frac{(x-1)(x-2)}{(x-1)(x+1)}=\\lim _{x \\rightarrow 1^{+}} \\frac{x-2}{x+1}=-\\frac{1}{2} \\text {. } }$\nVậy ${f(1)=\\lim _{x \\rightarrow 1} f(x)=-\\frac{1}{2}}$ nên hàm số ${f(x)}$ liên tục tại điểm ${x_0=1}$.\nTa có: $g(1)=-1$ và $\\underset{x\\to 1}{\\lim}\\,g(x)={{1}^{2}}-3\\cdot 1+1=-1$ nên $g(1)=\\underset{x\\to 1}{\\lim}\\,g(x)$.\nVậy hàm số $g(x)$ liên tục tại điểm ${x_0=1}$.\nTa có: $h(2)=\\sin \\frac{2\\pi }{4}=1$ và $\\underset{x\\to 2}{\\lim}\\,h(x)=\\sin \\frac{2\\pi }{4}=1$ nên $h(2)=\\underset{x\\to 2}{\\lim}\\,h(x)$.\nVậy hàm số $h(x)$ liên tục tại điểm ${x_0=2}$.",
    "ma": "de1.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -491,7 +490,7 @@
    "flags": [],
    "question": "Tìm giá trị của tham số ${m}$ sao cho hàm số $f(x)=\\left\\{ \\begin{array}{llllll} {{x}^{2}}+2\\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x\\le 1 \\\\ mx+1\\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x>1 \\\\ \\end{array} \\right.$ liên tục tại ${x=1}$.",
    "explanation": "Ta có ${f(1)=3, \\quad \\lim _{x \\rightarrow 1^{-}} f(x)=3}$ và ${\\lim _{x \\rightarrow 1^{+}} f(x)=m+1}$. Vậy hàm số đã cho liên tục tại ${x=1}$ khi và chỉ khi ${m+1=3}$ hay ${m=2}$.",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "2",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -541,8 +540,8 @@
    "flags": [],
    "question": "Chứng tỏ rằng phương trình ${2 x^5+a\\left(x^2-1\\right)+1=0}$ luôn có nghiệm với mọi số thực ${a}$.",
    "explanation": "Xét hàm số ${f(x)=2 x^5+a\\left(x^2-1\\right)+1}$. Ta có ${f(1)=3>0, f(-1)=-1<0}$.\nDo ${f(x)}$ là hàm đa thức nên nó liên tục trên ${[-1 ; 1]}$. Do đó, theo tính chất của hàm liên tục, tồn tại ít nhất một điểm ${c \\in[-1 ; 1]}$ sao cho ${f(c)=0}$. Nói cách khác, ${x=c}$ là một nghiệm của phương trình đã cho.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": -1,
+   "short_correct": "-1",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 2,
@@ -564,7 +563,7 @@
    "flags": [],
    "question": "Cho hàm số ${g(x)}$ liên tục trên ${\\mathbb{R}}$ trừ điểm ${x=0}$. Xét tính liên tục của hàm số ${f(x)=\\frac{g(x)}{x}}$ tại ${x=1}$.",
    "explanation": "Do hàm số ${g(x)}$ liên tục tại ${x=1}$ nên hàm số ${f(x)=\\frac{g(x)}{x}}$ cũng liên tục tại ${x=1}$.",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "liên tục",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -589,8 +588,8 @@
    "flags": [],
    "question": "Cho hàm số $f(x)=\\left\\{ \\begin{array}{llllll} 3 & \\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x\\le 1 \\\\ ax+b & \\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }1<x<2.\\text{ } \\\\ 5 & \\text{ n }\\!\\!\\tilde{\\mathrm{O}}\\!\\!\\text{ u }x\\ge 2 \\\\ \\end{array} \\right.$Xác định$\\text{ }a,b\\text{ }$để hàm số liên tục trên ${\\mathbb{R}}$.",
    "explanation": "Theo cách xác định hàm số ${f(x)}$, ta có ${f(1)=3=\\lim _{x \\rightarrow 1^{-}} f(x)}$ và ${f(2)=5=\\lim _{x \\rightarrow 2^{+}} f(x)}$. Hơn nữa, ${\\lim _{x \\rightarrow 1^{+}} f(x)=a+b, \\lim _{x \\rightarrow 2^{-}} f(x)=2 a+b}$.\nVậy hàm số ${f(x)}$ liên tục tại ${x=1}$ và ${x=2}$ khi và chỉ khi ${a+b=3,2 a+b=5}$.\nTừ đó, ${a=2, b=1}$.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 1,
+   "short_correct": "1",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 3,

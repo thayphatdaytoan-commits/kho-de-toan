@@ -360,11 +360,14 @@
     "c": "Tam giác $ABC$ có $AC=6.$",
     "d": "Bán kính đường tròn ngoại tiếp tam giác $BMC$ là $R=\\frac{5}{6}.$"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho tam giác $ABC$ có $ABC$ có $AB=3,\\ BC=5$ và độ dài đường trung tuyến $BM=\\sqrt{13}$.",
    "explanation": "[[IMG:image5.emf]]\nÁp dụng hệ thức lượng cho tam giác $ABC$ có $\\cos A=\\frac{A{{B}^{2}}+A{{C}^{2}}-B{{C}^{2}}}{2.AB.AC}.$\nVà trong tam giác $ABM$ có $\\cos A=\\frac{A{{B}^{2}}+A{{M}^{2}}-B{{M}^{2}}}{2.AB.AM}.$\nTừ đó suy ra: $\\frac{A{{B}^{2}}+A{{M}^{2}}-B{{M}^{2}}}{AM}=\\frac{A{{B}^{2}}+A{{C}^{2}}-B{{C}^{2}}}{AC}.$\nMặt khác ta có\n$\\begin{aligned} & B{{M}^{2}}=A{{B}^{2}}+A{{M}^{2}}-2.AB.AM.\\cos A \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=A{{B}^{2}}+{{\\frac{AC}{4}}^{2}}-2.AB.AM.\\frac{A{{B}^{2}}+A{{C}^{2}}-B{{C}^{2}}}{2.AB.AC} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,=\\frac{A{{B}^{2}}}{2}-{{\\frac{AC}{4}}^{2}}+\\frac{B{{C}^{2}}}{2}=\\frac{A{{B}^{2}}+B{{C}^{2}}}{2}-\\frac{A{{C}^{2}}}{4}. \\\\ \\end{aligned}$\n$B{{M}^{2}}=\\frac{B{{A}^{2}}+B{{C}^{2}}}{2}-\\frac{A{{C}^{2}}}{4}\\Leftrightarrow {{\\left( \\sqrt{13} \\right)}^{2}}=\\frac{{{3}^{2}}+{{5}^{2}}}{2}-\\frac{A{{C}^{2}}}{4}\\Leftrightarrow AC=4$.\nÁp dụng hệ thức lượng cho tam giác $ABC$ có\n$\\begin{aligned} & \\cos A=\\frac{A{{B}^{2}}+A{{C}^{2}}-B{{C}^{2}}}{2.AB.AC}=\\frac{{{3}^{2}}+{{4}^{2}}-{{5}^{2}}}{2.3.4}=0 \\\\ & \\Rightarrow \\widehat{A\\,\\,}=90{}^\\circ . \\\\ \\end{aligned}$\nVà trong tam giác $ABC$ có $\\frac{AB}{\\sin C}=\\frac{BC}{\\sin A}\\Rightarrow \\sin C=\\frac{AB.\\sin A}{BC}=\\frac{3}{5}.$\nÁp dụng hệ thức lượng cho tam giác $ABM$ ta có $\\frac{BM}{\\sin C}=2R\\Rightarrow R=\\frac{BM}{2\\sin C}=\\frac{\\sqrt{13}}{2.\\frac{3}{5}}=\\frac{5\\sqrt{13}}{6}.$",
    "ma": "de1.P2.C13",
@@ -375,6 +378,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D06",
    "dang_toan_web": "Định lí côsin và định lí sin trong tam giác."
@@ -383,17 +387,20 @@
    "section": 2,
    "n": 14,
    "type": "true_false_group",
-   "tf": {},
-   "tf_ans": {},
+   "tf": {
+    "a": "Khoảng biến thiên của mẫu số liệu trên là 28.",
+    "b": "Trung vị của mẫu số liệu trên là 166.",
+    "c": "Khoảng tứ phân vị của mẫu số liệu trên là 14,5.",
+    "d": "Chiều cao trung bình của học sinh trong tổ là 162."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_y:",
-    "dung_sai_thieu_dap_an:",
-    "import_web: Câu 13: mệnh đề (a) trống",
-    "import_web: Câu 13: mệnh đề (b) trống",
-    "import_web: Câu 13: mệnh đề (c) trống",
-    "import_web: Câu 13: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Các số liệu dưới đây là chiều cao ( đơn vị: cm) của các học sinh trong tổ 2 của trường THPT A\n165 177 160 169 166 152 149 157 154\nCác khẳng định dưới đây đúng hay sai?\nKhoảng biến thiên của mẫu số liệu trên là 28.\nTrung vị của mẫu số liệu trên là 166.\nKhoảng tứ phân vị của mẫu số liệu trên là 14,5.\nChiều cao trung bình của học sinh trong tổ là 162.",
    "explanation": "Vì giá trị lớn nhất của mẫu số liệu là 177, giá trị nhỏ nhất của mẫu số liệu là 149\nKhoảng biến thiên của mẫu số liệu là R = 177 – 149 = 28\nTa sắp xếp lại mẫu số liệu theo thứ tự không giảm\n149 152 154 157 160 165 166 169 177\nVì mẫu số liệu trên gồm 9 giá trị nên trung vị là số ở chính giữa là 160\nNửa số liệu bên trái là 149 152 154 157 nên hai phần tử chính giữa là 152 và 154\nDo đó ${Q}_{1}$ = ( 152 + 154) : 2 = 153\nNửa số liệu bên phải là 165 166 169 177 nên hai phần tử chính giữa là 166 và 169\nDo đó ${Q}_{3}$ = ( 166 + 169) : 2 = 167, 5\nKhoảng tứ phân vị là 167,5 – 153 = 14,5\nSố trung bình của mẫu số liệu là\n$\\frac{149+152+154+157+160+165+166+169+177}{9}=161$",
    "ma": "de1.P2.C14",
@@ -404,6 +411,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C5.B3.D01",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu không ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị, phương sai và độ lệch chuẩn."
@@ -418,11 +426,14 @@
     "c": "$\\left| \\overrightarrow{AB}+\\overrightarrow{BC} \\right|=2a\\sqrt{3}$.",
     "d": "$\\left| \\overrightarrow{AC}-\\overrightarrow{BA} \\right|=4a$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho tam giác $ABC$có $AB=2a,BC=4a$ và $\\widehat{ABC}={{60}^{{}^\\circ }}$?",
    "explanation": "a) Ta có: $\\overrightarrow{AB}$ và $\\overrightarrow{BC}$ không cùng phương (Vì giá của hai vectơ này cắt nhau).\nb) Ta có: $\\overrightarrow{CA}-\\overrightarrow{CB}=\\overrightarrow{BA}$ (quy tắc ba điểm).\nc) Ta có: $A{{C}^{2}}=A{{B}^{2}}+B{{C}^{2}}-2AB.BC.c\\text{os6}{{\\text{0}}^{0}}=4{{a}^{2}}+16{{a}^{2}}-2.2a.4a.\\frac{1}{2}=12{{a}^{2}}$.\n$\\Rightarrow AC=2a\\sqrt{3}$.\nVậy: $\\left| \\overrightarrow{AB}+\\overrightarrow{BC} \\right|=\\left| \\overrightarrow{AC} \\right|=AC=2a\\sqrt{3}$.\nd) Xét tam giác $ABC$ có $AB=2a,BC=4a$ và $\\widehat{ABC}={{60}^{{}^\\circ }}$.\nKhi đó tam giác $ABC$ là tam giác vuông tại $A$.\n$\\Rightarrow \\widehat{BAC}={{90}^{{}^\\circ }}\\text{. }$\nTa có: $\\overrightarrow{AC}-\\overrightarrow{BA}=\\overrightarrow{AC}+\\overrightarrow{AB}$\nGọi $D$ là điểm thỏa mãn $ABDC$ là hình bình hành.\nKhi đó: $\\overrightarrow{AC}-\\overrightarrow{BA}=\\overrightarrow{AC}+\\overrightarrow{AB}=\\overrightarrow{AD}$.\n$\\text{ }\\Rightarrow |\\overrightarrow{AC}-\\overrightarrow{BA}|=|\\overrightarrow{AD}|=AD$.\nHình bình hành $ABDC$ có $\\widehat{BAC}={{90}^{{}^\\circ }}$ nên là hình chữ nhật.\nDo đó $AD=BC$ (hai đường chéo bằng nhau)\n$\\Rightarrow |\\overrightarrow{AC}-\\overrightarrow{BA}|=AD=BC=4a$.",
    "ma": "de1.P2.C15",
@@ -433,6 +444,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C4.B5.D01",
    "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."

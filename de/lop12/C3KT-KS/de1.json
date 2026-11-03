@@ -361,13 +361,12 @@
    },
    "tf_ans": {
     "a": true,
-    "b": true,
-    "c": false
+    "b": false,
+    "c": false,
+    "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:abc"
-   ],
+   "flags": [],
    "question": "Cho mẫu số liệu ghép nhóm về thời gian (phút) đi từ nhà đến trường của các học sinh trong một lớp $11$ của một trường như sau:\n[[IMG:image12.png]]\nXét tính đúng sai của các khẳng định sau:",
    "explanation": "a) Đúng: Tần số tích lũy của nhóm $\\left[ 10;15 \\right)$ là $7+12+7=26.$\nb) Đúng: Tần số nhóm $\\left[ 10;15 \\right)$ lớn nhất.\nc) Sai: Khoảng biến thiên là $R=30-0=30.$",
    "ma": "de1.P2.C1",
@@ -378,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B1.D03",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -489,9 +489,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Tìm phương sai của mẫu số liệu ghép nhóm được cho ở bảng sau (làm tròn kết quả đến hàng phần mười)\n[[IMG:image17.png]]",
-   "explanation": "Ta có bảng thống kê sau:\n[[IMG:image18.png]]\nSố trung bình cộng của mẫu số liệu ghép nhóm là:\n$\\overline{x}=\\frac{85.5+95.7+105.8+115.8+125.12}{40}=108,75$\nPhương sai của mẫu số liệu là:\n${{s}^{2}}=\\frac{5.{{\\left( 85-108,75 \\right)}^{2}}+.7{{\\left( 95-108,75 \\right)}^{2}}+8.{{\\left( 105-108,75 \\right)}^{2}}+8.{{\\left( 115-108,75 \\right)}^{2}}+12.{{\\left( 125-108,75 \\right)}^{2}}}{40}$\n$\\approx 193,4$\nCho bảng số liệu điều tra về độ tuổi của các công nhân tổ 1 như sau:\n[[IMG:image19.png]]\nNhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 6 có dạng $\\left[ a;b \\right)$. Tính $a+b.$\nTa có nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 6 là $\\left[ 34;43 \\right)$ $\\Rightarrow \\left\\{ \\begin{aligned} & a=34 \\\\ & b=43 \\\\ \\end{aligned} \\right.\\Rightarrow a+b=77$\nĐo chiều cao của cây trong vườn ươm ta có bảng sau (đơn vị cm)\n[[IMG:image20.png]]\nTính giá trị của tứ phân vị thứ nhất ${{Q}_{1}}$(kết quả làm tròn đến hàng phần chục)\nTa có số phần tử của mẫu là $n=100\\Rightarrow \\frac{n}{4}=25.$ Mà $13<25<32$\nSuy ra nhóm đầu tiên có tần số tích lũy lớn hơn hoặc bằng 25 là $\\left[ 34;43 \\right)$\n$\\Rightarrow \\left\\{ \\begin{aligned} & s=34 \\\\ & h=9 \\\\ & {{n}_{2}}=19 \\\\ & c{{f}_{1}}=13 \\\\ \\end{aligned} \\right.\\Rightarrow {{Q}_{1}}=s+\\left( \\frac{\\frac{n}{4}-c{{f}_{1}}}{{{n}_{2}}} \\right).h=34+\\left( \\frac{25-13}{19} \\right).9=39,7$",
+   "explanation": "Ta có bảng thống kê sau:\n[[IMG:image18.png]]\nSố trung bình cộng của mẫu số liệu ghép nhóm là:\n$\\overline{x}=\\frac{85.5+95.7+105.8+115.8+125.12}{40}=108,75$\nPhương sai của mẫu số liệu là:\n${{s}^{2}}=\\frac{5.{{\\left( 85-108,75 \\right)}^{2}}+.7{{\\left( 95-108,75 \\right)}^{2}}+8.{{\\left( 105-108,75 \\right)}^{2}}+8.{{\\left( 115-108,75 \\right)}^{2}}+12.{{\\left( 125-108,75 \\right)}^{2}}}{40}$\n$\\approx 193,4$",
    "short_value": 39.7,
-   "short_correct": "39,7",
+   "short_correct": "193,4",
    "ma": "de1.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 17,
@@ -500,6 +500,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -515,9 +516,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Đo chiều cao của 45 học sinh của lớp 10A người ta tính được các giá trị ${{Q}_{1}}=152cm,\\text{ }{{Q}_{3}}=165cm$. Tính khoảng tứ phân vị ${{\\Delta }_{Q}}$",
-   "explanation": "Ta có ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=165-152=13$\nĐo chiều cao của cây trong vườn ươm ta có bảng sau (đơn vị cm)\n[[IMG:image21.png]]\nTính chiều cao trung bình của cây trong vườn ươm trên (kết quả làm tròn đến hàng phần chục).\nTa có: $\\bar{x}=\\frac{29,5.13+38,5.19+47,5.11+56,5.14+65,5.12+74,5.15+83,5.16}{100}=56,7$\nĐo chiều cao của cây trong vườn ươm ta có bảng sau (đơn vị cm)\n[[IMG:image22.png]]\nTính phương sai của mẫu số liệu trên (kết quả làm tròn đến hàng đơn vị).\nTa có: $\\bar{x}=\\frac{29,5.13+38,5.19+47,5.11+56,5.14+65,5.12+74,5.15+83,5.16}{100}=56,7$\nPhương sai của mẫu số liệu là:\n$\\begin{aligned} & s_{D}^{2}=\\frac{1}{100}\\left[ \\begin{aligned} & {{\\left( 29,5-56,7 \\right)}^{2}}.13+{{\\left( 38,5-56,7 \\right)}^{2}}.19+{{\\left( 47,5-56,7 \\right)}^{2}}.11+{{\\left( 56,5-56,7 \\right)}^{2}}.14 \\\\ & +{{\\left( 65,5-56,7 \\right)}^{2}}.12+{{\\left( 74,5-56,7 \\right)}^{2}}.15+{{\\left( 83,5-56,7 \\right)}^{2}}.16 \\\\ \\end{aligned} \\right] \\\\ & \\approx 340 \\\\ \\end{aligned}$\n-----------------HẾT-----------------",
-   "short_value": 13,
-   "short_correct": "13",
+   "explanation": "Ta có ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=165-152=13$",
+   "short_value": 340,
+   "short_correct": "340",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 12,
@@ -526,6 +527,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."

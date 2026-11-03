@@ -3,7 +3,8 @@
   "grade": "12",
   "chapter": "6",
   "lesson": "2",
-  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes"
+  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -397,9 +398,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có hai đội thi đấu môn bắn súng. Đội I có 8 vận động viên, đội II có 10 vận động viên. Xác suất đạt huy chương vàng của mỗi vận động viên đội I và đội II tương ứng là 0,6 và 0,55. Chọn ngẫu nhiên một vận động viên.",
    "explanation": "| Câu | Đáp án |\n|---|---|\n| a) | S |\n| b) | Đ |\n| c) | Đ |\n| d) | Đ |\na) Xác suất để vận động viên chọn ra thuộc đội I là $\\frac{8}{18}=\\frac{4}{9}$.\nb) Xác suất không đạt huy chương vàng của mỗi vận động viên đội II là $1-0,55=0,45$\nc) Gọi $A$ là biến cố: “Vận động viên đạt huy chương vàng”, $B$ là biến cố: “Thành viên đội I” thì biến cố đối của $B$ là $\\overline{B}$: “Thành viên đội II đạt huy chương vàng”.\nDo đó, $P\\left( B \\right)=\\frac{8}{18}=\\frac{4}{9};\\,P\\left( \\overline{B} \\right)=\\frac{5}{9}$ ; $P\\left( A|B \\right)=0,6;P\\left( A|\\overline{B} \\right)=0,55$\nTheo công thức xác suất toàn phần ta có\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=\\frac{4}{9}.0,6+\\frac{5}{9}.0,55=\\frac{103}{180}$\nd) Ta có $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{\\frac{4}{9}.0,6}{\\frac{103}{180}}=\\frac{48}{103}$",
    "ma": "de3.P2.C2",
@@ -410,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D05",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -485,9 +485,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong hội thảo, xác suất chọn được một người trình bày báo cáo bằng tiếng anh là $0,6$. Xác suất để chọn một người trình bày là nữ là $0,4$. Xác xuất để chọn được một nhười trình bày báo cáo bằng tiếng anh biết người đó là nữ là $0,3$. Tính xác suất để chọn được một người là nữ sao cho người đó có thể trình bày báo cáo bằng tiếng anh.",
    "explanation": "Trả lời: $0,2$\nGọi $A$ là biến cố “Chọn được người trình bày báo cáo bằng tiếng anh”, $\\Rightarrow P\\left( A \\right)=0,6$\nGọi $B$ là biến cố “Chọn được người trình bày nữ”$\\Rightarrow P\\left( B \\right)=0,4$.\nTheo đề bài ta có $P\\left( A|B \\right)=0,3$. Áp dụng công thức Bayes ta có:\nDo đó: $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,4.0,3}{0,6}=0,2$",
    "short_value": 0.2,
@@ -500,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -512,7 +511,7 @@
    "tf_ans": {},
    "answer": null,
    "flags": [],
-   "question": "Thống kê hồ sơ 250 học sinh khối 10 trong đó có 150 học sinh nữ và 100 học sinh nam. Sau khi thống kê, kết quả có $60%$ học sinh nữ là đoàn viên, $50%$ học sinh nam là đoàn viên; những học sinh còn lại không là đoàn viên. Chọn ngẫu nhiên một học sinh trong 250 học sinh khối 10. Tính xác suất để học sinh được chọn là đoàn viên.",
+   "question": "Thống kê hồ sơ 250 học sinh khối 10 trong đó có 150 học sinh nữ và 100 học sinh nam. Sau khi thống kê, kết quả có $60\\%$ học sinh nữ là đoàn viên, $50\\%$ học sinh nam là đoàn viên; những học sinh còn lại không là đoàn viên. Chọn ngẫu nhiên một học sinh trong 250 học sinh khối 10. Tính xác suất để học sinh được chọn là đoàn viên.",
    "explanation": "Trả lời: $0,56$\nSố học sinh nữ là đoàn viên là $60\\%.150=90$ (học sinh).\nSố học sinh nam là đoàn viên là $50\\%.100=50$ (học sinh).\nXét biến cố:\n$A$ là biến cố “Chọn được học sinh là đoàn viên”.\n$B$ là biến cố “ Chọn được học sinh nam”. Khi đó:\n$P\\left( B \\right)=\\frac{100}{250}=\\frac{2}{5}$; $P\\left( \\overline{B} \\right)=1-P\\left( B \\right)=1-\\frac{2}{5}=\\frac{3}{5}$.\n$P\\left( A|B \\right)=\\frac{50}{100}=0,5$; $P\\left( A|\\overline{B} \\right)=\\frac{90}{150}=0,6$.\nÁp dụng công thức xác suất toàn phần ta có:\n$P\\left( B \\right)$\nVới $P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=\\frac{2}{5}.0,5+\\frac{3}{5}.0,6=0,56$.",
    "short_value": 0.56,
    "short_correct": "0,56",
@@ -539,7 +538,7 @@
    "flags": [],
    "question": "Có 1 kho bia kém chất lượng chứa các thùng giống nhau (24 lon/thùng) gồm 3 loại: loại I để lẫn mỗi thùng 3 lon quá hạn sử dụng, loại II để lẫn mỗi thùng 2 lon quá hạn và loại III để lẫn mỗi thùng có 4 lon quá hạn. Biết số lượng thùng loại I gấp 2 lần số lượng thùng loại II và số thùng loại II gấp 3 lần thùng loại III. Chọn ngẫu nhiên 1 thùng từ trong kho, từ đó chọn ngẫu nhiên 10 lon. Tính xác suất để lấy được 2 lon quá hạn sử dụng (làm tròn đến kết quả phần chục).",
    "explanation": "Gọi ${{A}_{i}}$ là biến cố chọn được thùng loại $i.$ ($i=I,II,III$)\n$B$ là biến cố chọn được 10 sản phẩm trong đó có 2 lon quá hạn từ thùng được chọn ra.\nGọi số thùng loại III là $x$ thùng ( $x>0$).\nDo đó số thùng loại I và loại II lần lượt là $6x;\\text{ 3}x.$\nTừ đó, ta có $P\\left( {{A}_{1}} \\right)=\\frac{6}{10};\\ P\\left( {{A}_{2}} \\right)=\\frac{3}{10};\\ P\\left( {{A}_{3}} \\right)=\\frac{1}{10}$\nXác suất để chọn được 2 lon quá hạn là:\n$\\begin{aligned} & P\\left( B \\right)=P\\left( {{A}_{1}} \\right).P\\left( B|{{A}_{1}} \\right)+P\\left( {{A}_{2}} \\right).P\\left( B|{{A}_{2}} \\right)+P\\left( {{A}_{3}} \\right).P\\left( B|{{A}_{3}} \\right) \\\\ & =\\frac{6}{10}\\times \\frac{C_{3}^{2}C_{21}^{8}}{C_{24}^{10}}+\\frac{3}{10}\\times \\frac{C_{4}^{2}C_{20}^{8}}{C_{24}^{10}}+\\frac{1}{10}\\times \\frac{C_{2}^{2}C_{22}^{8}}{C_{24}^{10}}\\approx 0,3 \\\\ \\end{aligned}$",
-   "short_value": 0.1,
+   "short_value": 0.3,
    "short_correct": "0,3",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -576,6 +575,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -588,9 +588,9 @@
    "tf_ans": {},
    "answer": null,
    "flags": [],
-   "question": "(VDC): Một nhà đầu tư phân loại các dự án trong một chu kỳ đầu tư thành 3 loại: ít rủi ro, rủi ro trung bình và rủi ro cao. Tỷ lệ các dự án các loại đó tương ứng là $20%;\\text{ }45%\\text{ }v\\grave{a}\\text{ }35%$. Kinh nghiệm cho thấy tỷ lệ các dự án gặp rủi ro khi đầu tư tương ứng là $5%;\\text{ }20%\\text{ }v\\grave{a}\\text{ }40%.$ Nếu một dự án gặp rủi ro sau kỳ đầu tư thì khả năng dự án rủi ro lớn nhất là bao nhiêu?\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
+   "question": "(VDC): Một nhà đầu tư phân loại các dự án trong một chu kỳ đầu tư thành 3 loại: ít rủi ro, rủi ro trung bình và rủi ro cao. Tỷ lệ các dự án các loại đó tương ứng là $20\\%;\\text{ }45\\%\\text{ }v\\grave{a}\\text{ }35\\%$. Kinh nghiệm cho thấy tỷ lệ các dự án gặp rủi ro khi đầu tư tương ứng là $5\\%;\\text{ }20\\%\\text{ }v\\grave{a}\\text{ }40\\%.$ Nếu một dự án gặp rủi ro sau kỳ đầu tư thì khả năng dự án rủi ro lớn nhất là bao nhiêu?\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "Gọi A là biến cố dự án gặp rủi ro trong kỳ đầu tư.\n${{H}_{i}}\\text{ }\\left( i=1,2,3 \\right)$ lần lượt là các biến cố dự án thuộc loại ít rủi ro, rủi ro trung bình và rủi ro cao\n$P\\text{ }\\left( {{H}_{1}} \\right)=\\text{ }0,2;\\text{ }P\\text{ }\\left( {{H}_{2}} \\right)=0,45;\\text{ }P\\text{ }\\left( {{H}_{3}} \\right)=0,35$ .\n$P\\text{ }(A~|{{H}_{1}})=\\text{ }0,05;\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)=\\text{ }0,2;\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)=\\text{ }0,4$.\n$P\\text{ }\\left( A \\right)=\\text{ }P\\text{ }\\left( {{H}_{1}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{1}} \\right)\\text{ }+\\text{ }P\\text{ }\\left( {{H}_{2}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)\\text{ }+\\text{ }P\\text{ }\\left( {{H}_{3}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{3}} \\right)=\\text{ }0,24$.\n| ${{H}_{1}}$ ${{H}_{2}}$ ${{H}_{3}}$ $ $ $A$ |\n|---|\n$~P\\text{ }\\left( {{H}_{1}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{1}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{1}} \\right)}{P(A)}\\approx $ $0,04$\n$~P\\text{ }\\left( {{H}_{2}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{2}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{2}} \\right)}{P(A)}\\approx $ $0,38$ .\n$~P\\text{ }\\left( {{H}_{3}}|A \\right)=$ $\\frac{P\\text{ }\\left( {{H}_{3}} \\right).\\text{ }P\\text{ }\\left( A|{{H}_{3}} \\right)}{P(A)}\\approx $ $0,58$\nVậy khả năng dự án gặp rủi ro là cao nhất là $0,58$.",
-   "short_value": 0.24,
+   "short_value": 0.58,
    "short_correct": "0,6",
    "ma": "de3.P3.C5",
    "dac_trung": {
@@ -612,9 +612,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có hai đồng xu có hình thức giống nhau, trong có có một đồng xu cân đối đồng chất và một đồng xu không cân đối có xác suất khi tung đồng xu xuất hiện mặt ngửa là $\\frac{2}{3}$. Một người lấy ngẫu nhiên một đồng xu trong hai đồng xu đã cho, tung đồng xu đó 3 lần thì đều thấy xuất hiện mặt ngửa, xác suất người đó lấy được đồng xu cân đối là bao nhiêu? (Làm tròn đến hàng phần mười.)",
    "explanation": "Gọi $A$ là biến cố: “Lấy được đồng xu cân đối đồng chất” và $B$ là biến cố: “Tung đồng xu ba lần đều xuất hiện mặt ngửa”. Khi đó ta cần tính $P\\left( A|B \\right)$.\nTa có $P\\left( A \\right)=\\frac{1}{2}$, $P\\left( \\overline{A} \\right)=\\frac{1}{2}$ và $P\\left( B|A \\right)={{\\left( \\frac{1}{2} \\right)}^{3}}=\\frac{1}{8}$, $P\\left( B|\\overline{A} \\right)={{\\left( \\frac{2}{3} \\right)}^{3}}=\\frac{8}{27}$.\nTheo công thức Bayes và công thức xác suất toàn phần ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right)P\\left( B|A \\right)}{P\\left( A \\right)P\\left( B|A \\right)+P\\left( \\overline{A} \\right)P\\left( B|\\overline{A} \\right)}=\\frac{\\frac{1}{2}\\cdot \\frac{1}{8}}{\\frac{1}{2}\\cdot \\frac{1}{8}+\\frac{1}{2}\\cdot \\frac{8}{27}}\\approx 0.3$.\nĐáp số: 0.3.",
    "short_value": 0.3,
@@ -627,6 +625,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."

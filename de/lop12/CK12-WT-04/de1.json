@@ -78,7 +78,7 @@
    "answer": "C",
    "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như sau:\n[[IMG:image2.jpeg]]\nSố tiệm cận ngang của đồ thị hàm số đã cho là",
-   "explanation": "Chọn C\n$\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,y=2\\,,\\,\\,\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,y=+\\infty $ nên đồ thị có đúng một đường tiệm cận ngang $y=2$.",
+   "explanation": "Chọn C\n$\\underset{x\\to -\\infty }{\\lim}\\,y=2\\,,\\,\\,\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty $ nên đồ thị có đúng một đường tiệm cận ngang $y=2$.",
    "options": [
     "$4$",
     "$3$",
@@ -431,9 +431,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f\\left( x \\right)=\\frac{{{x}^{2}}-8x}{x+1}$.",
    "explanation": "a) Hàm số $f\\left( x \\right)$ có tập xác định $D=\\mathbb{R}\\backslash \\left\\{ -1 \\right\\}$ nên không có đạo hàm trên $\\mathbb{R}$.\nChọn sai.\nb) ${f}'\\left( x \\right)=\\frac{\\left( 2x-8 \\right)\\left( x+1 \\right)-\\left( {{x}^{2}}-8x \\right)}{{{\\left( x+1 \\right)}^{2}}}=\\frac{{{x}^{2}}+2x-8}{{{\\left( x+1 \\right)}^{2}}},\\forall x\\ne -1$.\n${f}'\\left( x \\right)=0\\Leftrightarrow {{x}^{2}}+2x-8=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-4 \\\\ & x=2 \\\\ \\end{aligned} \\right.$.\nTa có bảng xét dấu đạo hàm như sau:\n[[IMG:image14.png]]\nDo đó hàm số $f\\left( x \\right)$ đồng biến trên khoảng $\\left( 2;+\\infty \\right)$.\nChọn đúng.\nc) Ta có ${{f}_{C}}+{{f}_{CT}}=f\\left( -4 \\right)+f\\left( 2 \\right)=-16-4=-20$.\nChọn sai.\nd) ${g}'\\left( x \\right)=2x{f}'\\left( {{x}^{2}}+1 \\right),\\forall {{x}^{2}}+1\\ne -1$ hay $\\forall x\\in \\mathbb{R}$.\n${g}'\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & {{x}^{2}}+1=-4 \\\\ & {{x}^{2}}+1=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x=1 \\\\ & x=-1 \\\\ \\end{aligned} \\right.$.\nVì các nghiệm của ${g}'\\left( x \\right)=0$ đều là nghiệm đơn nên $g\\left( x \\right)=f\\left( {{x}^{2}}+1 \\right)$ có 3 điểm cực trị.\nChọn sai.",
    "ma": "de1.P2.C3",
@@ -444,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D07",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -467,7 +466,7 @@
    "answer": null,
    "flags": [],
    "question": "Một công ty sản xuất một sản phẩm. Bộ phận tài chính của công ty đưa ra hàm giá bán là $p(x)=-{{x}^{2}}+450x+52500$, trong đó $p(x)$ (nghìn đồng) là giá bán của mỗi sản phẩm mà tại giá bán này có ${x}$ sản phẩm được bán ra.",
-   "explanation": "a) Đúng.\nHàm doanh thu của công ty là $f\\left( x \\right)=x.p\\left( x \\right)=-{{x}^{3}}+450{{x}^{2}}+52500x$\nb) Sai.\n$f\\left( 200 \\right)=-{{200}^{3}}+{{450.200}^{2}}+52500.200=20\\,\\,500\\,\\,000$( nghìn đồng)\n$=20,5$ ( triệu đồng).\nc) Đúng.\nXét hàm số $f(x)=-{{x}^{3}}+450{{x}^{2}}+52500x,x\\ge 0$.\nTa có: ${{f}^{\\prime }}(x)=-3{{x}^{2}}+900x+52500;{{f}^{\\prime }}(x)=0\\Leftrightarrow x=350$ (do ${x \\geq 0}$);\n$f(0)=0;f(350)=30625000\\text{ v }\\!\\!\\grave{\\mathrm{a}}\\!\\!\\text{ }\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f(x)=-\\infty \\text{. }$\nBảng biến thiên của hàm số:\n[[IMG:image15.png]]\nTrên khoảng $\\left( 350;+\\infty \\right)$ hàm số $f\\left( x \\right)$giảm. Do đó, sau khi bán ra được 350 sản phẩm , càng bán ra thêm thì doanh thu càng giảm.\nd) Đúng.\nCăn cứ bảng biến thiên, ta thấy: $\\underset{\\left[ 0;+\\infty \\right)}{\\mathop{\\max }}\\,f(x)=f(350)=30625000$\nVậy để đạt doanh thu lớn nhất thì công ty đó cần bán ra 350 sản phẩm.",
+   "explanation": "a) Đúng.\nHàm doanh thu của công ty là $f\\left( x \\right)=x.p\\left( x \\right)=-{{x}^{3}}+450{{x}^{2}}+52500x$\nb) Sai.\n$f\\left( 200 \\right)=-{{200}^{3}}+{{450.200}^{2}}+52500.200=20\\,\\,500\\,\\,000$( nghìn đồng)\n$=20,5$ ( triệu đồng).\nc) Đúng.\nXét hàm số $f(x)=-{{x}^{3}}+450{{x}^{2}}+52500x,x\\ge 0$.\nTa có: ${{f}^{\\prime }}(x)=-3{{x}^{2}}+900x+52500;{{f}^{\\prime }}(x)=0\\Leftrightarrow x=350$ (do ${x \\geq 0}$);\n$f(0)=0;f(350)=30625000\\text{ v }\\!\\!\\grave{\\mathrm{a}}\\!\\!\\text{ }\\underset{x\\to +\\infty }{\\lim}\\,f(x)=-\\infty \\text{. }$\nBảng biến thiên của hàm số:\n[[IMG:image15.png]]\nTrên khoảng $\\left( 350;+\\infty \\right)$ hàm số $f\\left( x \\right)$giảm. Do đó, sau khi bán ra được 350 sản phẩm , càng bán ra thêm thì doanh thu càng giảm.\nd) Đúng.\nCăn cứ bảng biến thiên, ta thấy: $\\underset{\\left[ 0;+\\infty \\right)}{\\max}\\,f(x)=f(350)=30625000$\nVậy để đạt doanh thu lớn nhất thì công ty đó cần bán ra 350 sản phẩm.",
    "ma": "de1.P2.C4",
    "dac_trung": {
     "so_dong_loi_giai": 15,
@@ -513,7 +512,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như hình vẽ sau:\n[[IMG:image10.png]]\nĐồ thị hàm số $y=\\frac{5}{2f\\left( x \\right)+1}$ có $m$ đường tiệm cận đứng và $n$ đường tiệm cận ngang. Tính$m+2024n$.",
-   "explanation": "Đáp số: 2026\nDựa vào bảng biến thiên ta có $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,f\\left( x \\right)=-3\\Rightarrow \\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{5}{2f\\left( x \\right)+1}=-1$\nDo đó đồ thị hàm số có 1 đường TCN là $y=-1$\nDựa vào bảng biến thiên là có tồn tại ${{x}_{1}}\\in \\left( -1;0 \\right),\\,{{x}_{2}}\\in \\left( 0;+\\infty \\right)$ sao cho $f\\left( {{x}_{1}} \\right)=f\\left( {{x}_{2}} \\right)=-\\frac{1}{2}$ .\n$\\Rightarrow \\underset{x\\to {{x}_{1}}^{+}}{\\mathop{\\lim }}\\,\\frac{5}{2f\\left( x \\right)+1}=+\\infty ;$ $\\underset{x\\to {{x}_{1}}^{-}}{\\mathop{\\lim }}\\,\\frac{5}{2f\\left( x \\right)+1}=-\\infty ,$ $\\underset{x\\to {{x}_{2}}^{-}}{\\mathop{\\lim }}\\,\\frac{5}{2f\\left( x \\right)+1}=+\\infty ,$ $\\underset{x\\to {{x}_{2}}^{+}}{\\mathop{\\lim }}\\,\\frac{5}{2f\\left( x \\right)+1}=-\\infty ,$ suy ra đồ thị hàm số có 2 đường TCĐ là $x={{x}_{1}},x={{x}_{2}}.$\nDo đó $m=2,n=1\\Rightarrow m+2024n=2026$",
+   "explanation": "Đáp số: 2026\nDựa vào bảng biến thiên ta có $\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=-3\\Rightarrow \\underset{x\\to +\\infty }{\\lim}\\,\\frac{5}{2f\\left( x \\right)+1}=-1$\nDo đó đồ thị hàm số có 1 đường TCN là $y=-1$\nDựa vào bảng biến thiên là có tồn tại ${{x}_{1}}\\in \\left( -1;0 \\right),\\,{{x}_{2}}\\in \\left( 0;+\\infty \\right)$ sao cho $f\\left( {{x}_{1}} \\right)=f\\left( {{x}_{2}} \\right)=-\\frac{1}{2}$ .\n$\\Rightarrow \\underset{x\\to {{x}_{1}}^{+}}{\\lim}\\,\\frac{5}{2f\\left( x \\right)+1}=+\\infty ;$ $\\underset{x\\to {{x}_{1}}^{-}}{\\lim}\\,\\frac{5}{2f\\left( x \\right)+1}=-\\infty ,$ $\\underset{x\\to {{x}_{2}}^{-}}{\\lim}\\,\\frac{5}{2f\\left( x \\right)+1}=+\\infty ,$ $\\underset{x\\to {{x}_{2}}^{+}}{\\lim}\\,\\frac{5}{2f\\left( x \\right)+1}=-\\infty ,$ suy ra đồ thị hàm số có 2 đường TCĐ là $x={{x}_{1}},x={{x}_{2}}.$\nDo đó $m=2,n=1\\Rightarrow m+2024n=2026$",
    "short_value": 2026,
    "short_correct": "2026",
    "ma": "de1.P3.C2",
@@ -609,7 +608,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số $y=f(x)$có đạo hàm $f'(x)$. Hàm số $y=f'(x)$liên tục trên tập số thực và có bảng biến thiên như sau:\n[[IMG:image12.png]]\nBiết rằng $f(-1)=\\frac{10}{3},\\,\\,\\,f(2)=6$. Giá trị nhỏ nhất của hàm số $g(x)={{f}^{3}}(x)-3f(x)$trên đoạn $\\left[ -1;2 \\right]$ bằng $\\frac{a}{b}$(với $\\frac{a}{b}$ là phân số tối giản). Khi đó $S=a+b$ bằng",
-   "explanation": "Đáp án: 757.\nXét hàm số $g(x)={{f}^{3}}(x)-3f(x)$ trên đoạn $\\left[ -1;2 \\right]$\n$\\begin{aligned} & g'(x)=3\\left[ {{f}^{2}}(x)-1 \\right].f'(x) \\\\ & g'(x)=0 \\\\ & \\Leftrightarrow \\left[ \\begin{aligned} & f'(x)=0\\,\\,(1) \\\\ & {{f}^{2}}(x)=1\\,\\,(2) \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$\nTừ bảng biến thiên, ta có: $(1)\\Leftrightarrow \\left[ \\begin{aligned} & x=-1\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2] \\\\ & x=2\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2] \\\\ \\end{aligned} \\right.$\nVà $f'(x)\\ge 0,\\,\\forall x\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2]$ nên\n$f(x)$đồng biến trên đoạn $\\text{ }\\!\\![\\!\\!\\text{ }-1;2]\\Rightarrow f(x)\\ge f(-1)=\\frac{10}{3}\\Rightarrow f(x)>1\\Rightarrow {{f}^{2}}(x)>1,\\forall x\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2]$\nSuy ra (2) vô nghiệm.\nDo đó, $g'(x)=0$chỉ có 2 nghiệm là $x=-1;\\,\\,\\,x=2$\nTa có: $\\begin{aligned} & g(-1)={{f}^{3}}(-1)-3f(-1)=\\frac{730}{27}. \\\\ & g(2)={{f}^{3}}(2)-3f(2)=198 \\\\ \\end{aligned}$\nVậy $\\underset{\\text{ }\\!\\![\\!\\!\\text{ }-1;2]}{\\mathop{\\min }}\\,g(x)=g(-1)=\\frac{730}{27}$. Suy ra: $a=730,\\,\\,b=27$. Do đó $S=a+b=757$\n-------------- Hết --------------",
+   "explanation": "Đáp án: 757.\nXét hàm số $g(x)={{f}^{3}}(x)-3f(x)$ trên đoạn $\\left[ -1;2 \\right]$\n$\\begin{aligned} & g'(x)=3\\left[ {{f}^{2}}(x)-1 \\right].f'(x) \\\\ & g'(x)=0 \\\\ & \\Leftrightarrow \\left[ \\begin{aligned} & f'(x)=0\\,\\,(1) \\\\ & {{f}^{2}}(x)=1\\,\\,(2) \\\\ \\end{aligned} \\right. \\\\ \\end{aligned}$\nTừ bảng biến thiên, ta có: $(1)\\Leftrightarrow \\left[ \\begin{aligned} & x=-1\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2] \\\\ & x=2\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2] \\\\ \\end{aligned} \\right.$\nVà $f'(x)\\ge 0,\\,\\forall x\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2]$ nên\n$f(x)$đồng biến trên đoạn $\\text{ }\\!\\![\\!\\!\\text{ }-1;2]\\Rightarrow f(x)\\ge f(-1)=\\frac{10}{3}\\Rightarrow f(x)>1\\Rightarrow {{f}^{2}}(x)>1,\\forall x\\in \\text{ }\\!\\![\\!\\!\\text{ }-1;2]$\nSuy ra (2) vô nghiệm.\nDo đó, $g'(x)=0$chỉ có 2 nghiệm là $x=-1;\\,\\,\\,x=2$\nTa có: $\\begin{aligned} & g(-1)={{f}^{3}}(-1)-3f(-1)=\\frac{730}{27}. \\\\ & g(2)={{f}^{3}}(2)-3f(2)=198 \\\\ \\end{aligned}$\nVậy $\\underset{\\text{ }\\!\\![\\!\\!\\text{ }-1;2]}{\\min}\\,g(x)=g(-1)=\\frac{730}{27}$. Suy ra: $a=730,\\,\\,b=27$. Do đó $S=a+b=757$\n-------------- Hết --------------",
    "short_value": 757,
    "short_correct": "757",
    "ma": "de1.P3.C6",

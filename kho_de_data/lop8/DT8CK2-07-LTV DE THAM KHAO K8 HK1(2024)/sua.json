@@ -83,5 +83,117 @@
     "sua_boi": "muse",
     "ly_do": "Phan a: hinh co ca 4 canh cung dau bang nhau la Hinh 2 (image3.png); Hinh 3 (image4.png) chi co hai cap canh doi bang nhau. Kho ghi \"Hinh 3\".",
     "xac_nhan": true
+  },
+  "de1.P1.C1": {
+    "ly_do": "Chỉ $\\frac{2xy+y}{2xy}$ có biến ở mẫu nên không phải đa thức → D; các biểu thức còn lại đều là đa thức.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C2": {
+    "ly_do": "Bình phương của một hiệu: $(a-b)^{2}=a^{2}-2ab+b^{2}$ → B.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C3": {
+    "ly_do": "Chỉ $\\frac{+1}{\\sqrt{x}-1}$ có mẫu chứa căn của biến nên không phải phân thức đại số → C.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C4": {
+    "ly_do": "Chóp tam giác đều: đáy đều, cạnh bên bằng nhau, chân đường cao trùng trọng tâm đáy đều đúng; mặt bên chỉ là tam giác cân nên khẳng định 'các mặt bên là tam giác đều' là sai → C.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C5": {
+    "ly_do": "Định lý Pythagore: trong tam giác vuông, bình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông → C.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C6": {
+    "ly_do": "Hình thoi có một góc vuông là hình vuông → C; A, B, D đều là tính chất chung của hình chữ nhật/hình thoi nên không đủ kết luận hình vuông.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C7": {
+    "ly_do": "Bóng đá 25 là số lớn nhất trong bảng → B.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P1.C8": {
+    "ly_do": "Từ đạt trở lên gồm Tốt 15% + Khá 35% + Đạt 42% = 92% → D.",
+    "sua_boi": "muse",
+    "xac_nhan": true
+  },
+  "de1.P4.C2": {
+    "ly_do": "Các ý a, b, c tính lại đều khớp (a: $x\\ne 3$; b: $\\frac{y}{3(2x+1)}$; c: mẫu chung $(x-1)(x+1)$ với hai phân thức đã quy đồng đúng). Riêng lời giải ý d ghi điều kiện xác định '$x\\ne\\pm 3; x\\ne 0; x\\ne -\\frac{1}{2}$' là sai: từ các mẫu $x^{2}-9$, $6x-12$, $x^{2}+3x$ phải có $x\\ne\\pm 3$, $x\\ne 0$, $x\\ne 2$ (không có $-\\frac{1}{2}$). Kết quả phép tính $\\frac{x^{2}}{6(x-2)}$ vẫn đúng nên chỉ sửa dòng điều kiện.",
+    "parts": [
+      {
+        "explanation": "Điều kiện xác định:\n$x-3\\ne 0$\n$\\Rightarrow x\\ne 3$",
+        "id": "a",
+        "label": "a",
+        "points": 0.5,
+        "question": "Tìm điều kiện xác định của phân thức $\\frac{4x + 1}{x - 3}.$",
+        "shortCorrect": "x≠3",
+        "type": "short_answer"
+      },
+      {
+        "correctAnswer": 2,
+        "explanation": "$\\frac{3{\\left( 2x + 1 \\right)}^{2} {y}^{4}}{9{\\left( 2x + 1 \\right)}^{3} {y}^{3}}$\n$=\\frac{ y}{3(2x + 1) }$",
+        "id": "b",
+        "label": "b",
+        "options": [
+          "$\\frac{y}{3(2x+1)^2}$",
+          "$\\frac{3y}{2x+1}$",
+          "$\\frac{y}{3(2x+1)}$",
+          "$\\frac{y^4}{3(2x+1)^3}$"
+        ],
+        "points": 0.5,
+        "question": "Rút gọn $\\frac{3{\\left( 2x + 1 \\right)}^{2} {y}^{4}}{9{\\left( 2x + 1 \\right)}^{3} {y}^{3}}$ .",
+        "type": "multiple_choice"
+      },
+      {
+        "explanation": "Mẫu thức chung: $(x- 1)(x+1)$\n$\\frac{3x - 2}{x + 1}=\\frac{(3x - 2)(x-1)}{(x + 1)(x-1)}$\n$\\frac{6x + 3}{{x}^{2}- 1}=\\frac{6x + 3}{(x + 1)(x-1)}$",
+        "id": "c",
+        "label": "c",
+        "mau_spec": {
+          "dong": [
+            "$\\frac{3x-2}{x+1}=$ {{1}} ; $\\frac{6x+3}{x^2-1}=$ {{2}}"
+          ],
+          "kieu": "dong",
+          "mau": "khac",
+          "o": [
+            {
+              "dap_an": "\\frac{(3x-2)(x-1)}{(x+1)(x-1)}",
+              "id": "1",
+              "loai": "chu"
+            },
+            {
+              "dap_an": "\\frac{6x+3}{(x+1)(x-1)}",
+              "id": "2",
+              "loai": "chu"
+            }
+          ]
+        },
+        "points": 0.75,
+        "question": "Quy đồng các phân thức $\\frac{3x - 2}{x + 1}$ và $\\frac{6x + 3}{{x}^{2}- 1}$",
+        "type": "form_mau"
+      },
+      {
+        "correctAnswer": 0,
+        "explanation": "Điều kiện xác định: $x\\ne ±3;x\\ne 0;x\\ne 2$\n$\\frac{{x}^{2} - 3x}{{x}^{2} - 9}$ $:\\frac{6x - 12}{{x}^{2} + 3x}$\n$=\\frac{{x}^{2}-3x}{{x}^{2}-9}⋅\\frac{{x}^{2}+3x}{6x-12}$\n$=\\frac{x(x-3)}{(x-3)(x+3)}⋅\\frac{x(x+3)}{6(x-2)}$\n$=\\frac{{x}^{2}}{6\\left( x-2 \\right)}$",
+        "id": "d",
+        "label": "d",
+        "options": [
+          "$\\frac{x^2}{6(x-2)}$",
+          "$\\frac{x^2}{6(x+2)}$",
+          "$\\frac{x}{6(x-2)}$",
+          "$\\frac{x^2}{6(x-2)^2}$"
+        ],
+        "points": 0.5,
+        "question": "Thực hiện phép tính $\\frac{{x}^{2} - 3x}{{x}^{2} - 9}$ $:\\frac{6x - 12}{{x}^{2} + 3x}$",
+        "type": "multiple_choice"
+      }
+    ],
+    "sua_boi": "muse"
   }
 }

@@ -345,6 +345,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C5.B4.D06",
    "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
@@ -385,7 +386,12 @@
    "section": 2,
    "n": 2,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Hạt chuyển động đều với vận tốc tuân theo hàm số $v(t)=2^{\\frac{t}{10}+1} \\cdot \\ln 2(\\mathrm{~m} / \\mathrm{s})$.",
+    "b": "Hạt chuyển động nhanh dần đều trong suốt quá trình.",
+    "c": "Hạt đi được quãng đường hơn $8,5 \\mathrm{~km}$ bên trong máy gia tốc hạt chỉ trong 2 phút đầu.",
+    "d": "Để bắt đầu quá trình bắn phá hạt nhân Urani thì hạt này cần phải đạt vận tốc tối thiểu $3 \\cdot 10^{7,5} \\mathrm{~m} / \\mathrm{s}$. Mất ít nhất 5 phút kể từ khi bắt đầu chuyển động để hạt Urani có thể bắt đầu quá trình bắn phá."
+   },
    "tf_ans": {
     "a": false,
     "b": false,
@@ -393,11 +399,8 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:"
-   ],
-   "question": "Một hạt Urani được gia tốc trong máy gia tốc hạt và chuyển động với quãng đường đi được theo thời gian tuân theo hàm số $s(t)=2^{\\frac{t}{10}+1}-2$ (mét) với $t$ tính bằng giây và $t \\geq 0$.\n[[IMG:image3.png]]\na. Hạt chuyển động đều với vận tốc tuân theo hàm số $v(t)=2^{\\frac{t}{10}+1} \\cdot \\ln 2(\\mathrm{~m} / \\mathrm{s})$.\nb. Hạt chuyển động nhanh dần đều trong suốt quá trình.\nc. Hạt đi được quãng đường hơn $8,5 \\mathrm{~km}$ bên trong máy gia tốc hạt chỉ trong 2 phút đầu.\nd. Để bắt đầu quá trình bắn phá hạt nhân Urani thì hạt này cần phải đạt vận tốc tối thiểu $3 \\cdot 10^{7,5} \\mathrm{~m} / \\mathrm{s}$. Mất ít nhất 5 phút kể từ khi bắt đầu chuyển động để hạt Urani có thể bắt đầu quá trình bắn phá.",
+   "flags": [],
+   "question": "Một hạt Urani được gia tốc trong máy gia tốc hạt và chuyển động với quãng đường đi được theo thời gian tuân theo hàm số $s(t)=2^{\\frac{t}{10}+1}-2$ (mét) với $t$ tính bằng giây và $t \\geq 0$.\n[[IMG:image3.png]]",
    "explanation": "a. SAI\nVận tốc là đạo hàm của quãng đường theo thời gian:\n${v\\left(t\\right)=s\\prime\\left(t\\right)=\\left({}2^{\\frac{t}{10}+1}-2\\right)\\prime=2^{\\frac{t}{10}+1} \\cdot \\ln 2 \\cdot\\left({}\\frac{t}{10}+1\\right)\\prime=\\frac{1}{10} \\cdot 2^{\\frac{t}{10}+1} \\cdot \\ln 2\\left(\\mathrm{~m} / \\mathrm{s}\\right)}$\nb. SAI\nGia tốc của hạt là:\n$a(t)=v^{\\prime}(t)=\\frac{1}{10} \\cdot \\ln 2 \\cdot\\left(2^{\\frac{t}{10}+1}\\right)^{\\prime}=\\frac{1}{100} \\cdot 2^{\\frac{t}{10}+1} \\cdot(\\ln 2)^2>0$\nVì gia tốc $a(t)$ vẫn phụ thuộc vào $t$ (biến thiên theo hàm mũ) nên đây không phải là chuyển động nhanh dần đều (gia tốc phải là hằng số).\nc. SAI\nĐổi 2 phút $=120$ giây. Quãng đường đi được trong 2 phút đầu là:\n$s(120)=2^{\\frac{120}{10}+1}-2=2^{13}-2=8192-2=8190(\\mathrm{~m})=8,19 \\mathrm{~km}$\nVì $8,19<8,5$ nên khẳng định hạt đi được hơn $8,5 \\mathrm{~km}$\nd. ĐÚNG\nĐể ${v\\left(t\\right) \\geq 3 \\cdot 10^{7,5}}$:\n$\\frac{1}{10}\\cdot {{2}^{\\frac{t}{10}+1}}\\cdot \\ln 2\\ge 3\\cdot {{10}^{7,5}}\\Leftrightarrow $ ${{2}^{\\frac{t}{10}+1}}\\ge \\frac{30\\cdot {{10}^{7,5}}}{\\ln 2}\\Leftrightarrow $ $\\frac{t}{10}+1\\ge {{\\log }_{2}}\\left( \\frac{30\\cdot {{10}^{7,5}}}{\\ln 2} \\right)\\Leftrightarrow $ $t\\ge 293,5$\nĐổi ra phút: $t\\approx 4,89$ phút.\nNhư vậy, mất ít nhất khoảng 5 phút để hạt đạt vận tốc yêu cầu.",
    "ma": "de1.P2.C2",
    "dac_trung": {
@@ -407,6 +410,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D05",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -506,9 +510,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Một cơ sở sản xuất lụa dệt thủ công hai loại lụa gấm và lụa tơ tằm. Công suất tối đa một ngày của cả xưởng là $100\\text{m}$ lụa, biết rằng tiền nguyên liệu cho một mét lụa gấm là $20$ nghìn đồng và cần hai công thợ để dệt xong, còn đối với lụa tơ tằm thì cần $10$ nghìn đồng tiền nguyên liệu và một công thợ. Vốn của xưởng một ngày là không quá $6$ triệu đồng và một công thợ là $40$ nghìn đồng. Giá bán lẻ một mét lụa gấm và tơ tằm lần lượt là $150$ nghìn đồng/mét và $80$ nghìn đồng/mét. Vậy chủ cơ sở cần sản xuất một ngày $x$ mét lụa gấm và $y$ mét lụa tơ tằm để thu lời nhiều nhất (Giả sử mỗi ngày đều bán hết). Tính giá trị của biểu thức $x+3y$.",
    "explanation": "Đáp án: 260.\nCông suất tối đa một ngày của cả xưởng là $100\\text{m}$ lụa: $x+y\\le 100$.\nChi phí cho mỗi mét lụa gấm: $20+2\\times 40=100$ (nghìn đồng).\nChi phí cho mỗi mét lụa tơ tằm: $10+1\\times 40=50$ (nghìn đồng).\nVốn của xưởng một ngày là không quá $6$ triệu đồng: $100x+50y\\le 6000\\Leftrightarrow 2x+y\\le 120$.\nLợi nhuận thu từ mỗi mét lụa gấm: $150-100=50$ (nghìn đồng).\nLợi nhuận thu từ mỗi mét lụa tơ tằm: $80-50=30$ (nghìn đồng).\nHàm tổng lợi nhuận: $P\\left( x,y \\right)=50x+30y$. Bài toán đưa về tìm $x$, $y$ là nghiệm của hệ bất phương trình $\\left\\{ \\begin{aligned} & x+y\\le 100 \\\\ & 2x+y\\le 120 \\\\ & x,y\\ge 0 \\\\ \\end{aligned} \\right.$ sao cho $P\\left( x,y \\right)=50x+30y$ có giá trị lớn nhất.\n[[IMG:image12.png]]\nMiền nghiệm của hệ bất phương trình là miền tứ giác $OABC$ như hình trên với $A(0;100)$ , $B\\left( 20;80 \\right)$, và $C\\left( 60;0 \\right)$. Biểu thức $P\\left( x,y \\right)=50x+30y$ tại một trong các đỉnh này:\n+ ${{P}_{A}}=50\\times 0+30\\times 100=3000$;\n+ ${{P}_{B}}=50\\times 20+30\\times 80=3400$;\n+ ${{P}_{C}}=50\\times 60+30\\times 0=3000$.\nVậy lợi nhuận lớn nhất là $3400$ nghìn đồng hay $3,4$ triệu đồng khi sản xuất $20$ mét lụa gấm và $80$ mét lụa tơ tằm. Do đó, $x+3y=20+3\\times 80=260$.",
    "short_value": 260,
@@ -521,6 +523,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -532,9 +535,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một bể nước hình hộp chữ nhật $ABCD.\\,{A}'{B}'{C}'{D}'$ có chiều dài các cạnh $AB=4m,\\,AD=3m,\\,AA'=2\\sqrt{3}m$ được đặt vào hệ trục toạ độ $O\\,xyz$ với đơn vị là $\\left( m \\right)$ như hình dưới. Trong bể đang chứa nước $12\\sqrt{3}\\left( {{m}^{3}} \\right)$ nước và mặt nước chạm bốn cạnh $A\\,{A}',\\,B{B}',\\,C{C}',\\,D{D}'$ lần lượt tại $M,\\,F,E,N$. Một máy bơm $O\\,xy$, coi như điểm $I\\in ME$ được đặt trên mặt nước với vị trí máy bơm thoả mãn $\\frac{MI}{ME}=\\frac{2}{5}$.\n[[IMG:image14.png]]\nNgười ta nghiêng bể nước trên trục $Oy$ như hình vẽ dưới, khi đáy bể hợp với mặt phẳng $\\left( O\\,xy \\right)$ một góc $\\alpha $ sao cho mặt nước lúc này chứa cạnh ${A}'{D}'$. Máy bơm lúc này vẫn nằm trên đoạn $ME$ ở vị trí thoả mãn tỉ số $\\frac{MI}{ME}$ như cũ.\n[[IMG:image6.png]]\nLúc đó toạ độ của máy bơm là $I\\left( {{x}_{o}};\\,{{y}_{o}};{{z}_{o}} \\right)$. Tính $\\frac{{{x}_{o}}}{\\sqrt{7}}+5{{y}_{o}}+\\frac{5{{z}_{o}}}{\\sqrt{21}}$",
    "explanation": "Đáp án: $\\frac{344}{35}$.\nThể tích của bể nước là $V=4.3.2\\sqrt{3}=24\\sqrt{3}$.\nVì thể tích nước bằng $1/2$ thể tích thể nên độ cao của mặt nước so với mặt phẳng đáy là $z=\\sqrt{3}$\nKhi nghiêng bể quanh trục $Oy$ một góc $\\alpha $. Mặt nước chứa cạnh ${A}'D'$và thể tích nước bằng $\\frac{1}{2}$ thể tích hình hộp chữa nhật nên mặt nước là mặt phẳng đối xứng qua tâm của hình hộp chữ nhật. Vì vậy mặt phẳng phải đi qua cạnh $BC$.\nGóc nghiêng tạo bởi mặt phẳng đáy với mặt phẳng $\\left( O\\,xy \\right)$ bằng góc tạo bởi mặt phẳng $\\left( MNEF \\right)$ và mặt phẳng đáy và bằng góc $\\left( AD{D}'{A}' \\right)$ và mặt phẳng $\\left( zoy \\right)$.\nXét tam giác $A'AB$ ta có: $\\sin \\alpha =\\sqrt{\\frac{3}{7}}$; $cos\\alpha =\\sqrt{\\frac{4}{7}}$.\n[[IMG:image6.png]]\nĐiểm $M$ nằm trên $A\\,{A}'$ nhưng vì mặt nước chạm ${A}'$ nên $M$ trùng ${A}'=\\left( 0;\\,0;\\,2\\sqrt{3} \\right)$.\nTa có: $\\left\\{ \\begin{aligned} & {{x}_{A'}}=A\\,A'.\\sin \\alpha =\\frac{2\\sqrt{3}.\\sqrt{3}}{\\sqrt{7}}=\\frac{6}{\\sqrt{7}} \\\\ & {{y}_{{{A}'}}}=0 \\\\ & {{z}_{{{A}'}}}=A\\,A'.\\cos \\alpha =\\frac{2\\sqrt{3}.\\sqrt{4}}{7}=\\frac{4\\sqrt{3}}{\\sqrt{7}} \\\\ \\end{aligned} \\right.$\n$\\left\\{ \\begin{aligned} & {{x}_{C}}={{x}_{B}}=4.\\cos \\alpha =\\frac{8}{\\sqrt{7}} \\\\ & {{y}_{C}}=3 \\\\ & {{z}_{C}}={{z}_{B}}=4.\\sin \\alpha =\\frac{4\\sqrt{3}}{\\sqrt{7}} \\\\ \\end{aligned} \\right.$\nVì điểm $I$ mới sau khi nghiêng vẫn thuộc $ME$ và $\\frac{MI}{ME}=\\frac{{A}'I}{{A}'C}=\\frac{2}{5}\\Leftrightarrow \\overrightarrow{2IC}+3\\overrightarrow{IA'}=0$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & 2\\left( \\frac{8}{\\sqrt{7}}-{{x}_{o}} \\right)+3\\left( \\frac{6}{\\sqrt{7}}-{{x}_{o}} \\right)=0 \\\\ & 2\\left( 3-{{y}_{o}} \\right)+3\\left( -{{y}_{o}} \\right)=0 \\\\ & 2\\left( \\frac{4\\sqrt{3}}{\\sqrt{7}}-{{z}_{o}} \\right)+3\\left( \\frac{4\\sqrt{3}}{\\sqrt{7}}-{{z}_{o}} \\right)=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{o}}=\\frac{34}{5\\sqrt{7}} \\\\ & {{y}_{o}}=\\frac{6}{5} \\\\ & {{z}_{o}}=\\frac{4\\sqrt{3}}{\\sqrt{7}} \\\\ \\end{aligned} \\right.$\nVậy $\\frac{{{x}_{o}}}{\\sqrt{7}}+5{{y}_{o}}+\\frac{5{{z}_{o}}}{\\sqrt{21}}=\\frac{34}{5.7}+5.\\frac{6}{5}+\\frac{5}{\\sqrt{21}}.\\frac{4\\sqrt{3}}{\\sqrt{7}}=\\frac{344}{35}$",
    "short_value": 9.82857142857143,
@@ -547,6 +548,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B1.D06",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."

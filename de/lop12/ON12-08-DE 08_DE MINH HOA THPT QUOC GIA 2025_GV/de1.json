@@ -425,13 +425,16 @@
     "c": "$P\\left( H \\right)<0,5$.",
     "d": "$P\\left( {{A}_{2}}\\mid H \\right)>\\frac{1}{5}$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Một công ty bảo hiểm phát hành các chính sách bảo hiểm nhân thọ thuộc hai nhóm: tiêu chuẩn và ưu tiên. Trong số các khách hàng của công ty có $80\\text{ }\\!\\!\\%\\!\\!\\text{ }$ thuộc nhóm tiêu chuẩn và $20\\text{ }\\!\\!\\%\\!\\!\\text{ }$ thuộc nhóm ưu tiên. Hơn nữa, tỉ lệ khách hàng trên 60 tuổi trong nhóm tiêu chuẩn là $45\\text{ }\\!\\!\\%\\!\\!\\text{ }$ và trong nhóm ưu tiên là $55\\text{ }\\!\\!\\%\\!\\!\\text{ }$. Chọn ngẫu nhiên 1 khách hàng của công ty.\nGọi ${{A}_{1}}$ là biến cố: \"Khách hàng thuộc nhóm tiêu chuẩn\".\nGọi ${{A}_{2}}$ là biến cố: \"Khách hàng thuộc nhóm ưu tiên\".\nGọi $H$ là biến cố: \"Khách hàng trên $60$ tuổi\".",
-   "explanation": "a) $P\\left( {{A}_{1}} \\right)=0,8;P\\left( {{A}_{2}} \\right)=0,2$ nên $P\\left( {{A}_{1}} \\right)=4P\\left( {{A}_{2}} \\right)$.\nb) $P\\left( H\\mid {{A}_{1}} \\right)=0,45,P\\left( H\\mid {{A}_{2}} \\right)=55$ nên $P\\left( H\\mid {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)=1$.\nc) Áp dụng công thức xác suất toàn phần:\n$P\\left( H \\right)=P\\left( H\\mid {{A}_{1}} \\right)P\\left( {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)=0,47<0,5.$\nd) Áp dung công thức Bayes ta có: $P\\left( {{A}_{2}}\\mid H \\right)=\\frac{P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)}{P\\left( H \\right)}=\\frac{11}{47}>\\frac{1}{5}$.",
+   "explanation": "a) $P\\left( {{A}_{1}} \\right)=0,8;P\\left( {{A}_{2}} \\right)=0,2$ nên $P\\left( {{A}_{1}} \\right)=4P\\left( {{A}_{2}} \\right)$.\nb) $P\\left( H\\mid {{A}_{1}} \\right)=0,45,P\\left( H\\mid {{A}_{2}} \\right)=0,55$ nên $P\\left( H\\mid {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)=1$.\nc) Áp dụng công thức xác suất toàn phần:\n$P\\left( H \\right)=P\\left( H\\mid {{A}_{1}} \\right)P\\left( {{A}_{1}} \\right)+P\\left( {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)=0,47<0,5.$\nd) Áp dung công thức Bayes ta có: $P\\left( {{A}_{2}}\\mid H \\right)=\\frac{P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)}{P\\left( H \\right)}=\\frac{11}{47}>\\frac{1}{5}$.",
    "ma": "de1.P2.C3",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -440,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D05",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -487,7 +491,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Cho hình chóp đều $S.ABCD$có đáy $ABCD$ là hình vuông cạnh bằng $1$ và cạnh bên $SA=2$. Tính khoảng cách giữa hai đường thẳng $SD$ và $AB$. (Kết quả làm tròn đến hàng phần trăm)",
-   "explanation": "[[IMG:image4.png]]\nNhận thấy hai đường thẳng $SD$ và $AB$ chéo nhau.\nGọi $M,N,O$ lần lượt là trung điểm của $AB,\\ CD,AC$.\nDo $\\left\\{ \\begin{aligned} & AB\\parallel CD \\\\ & CD\\subset \\left( SAD \\right) \\\\ \\end{aligned} \\right.\\Rightarrow AB\\parallel \\left( SAD \\right)\\Rightarrow d\\left( AB,SD \\right)=d\\left( M,\\left( SAD \\right) \\right)=2d\\left( O,\\left( SAD \\right) \\right)$.\nTrong $\\left( SOM \\right)$ kẻ$MH\\bot SM,\\left( H\\in SM \\right)$.\nTa có $\\left\\{ \\begin{aligned} & OH\\bot SM \\\\ & OH\\bot CD\\ \\left( Do\\ CD\\bot \\left( SOM \\right),OH\\subset \\left( SOM \\right) \\right) \\\\ \\end{aligned} \\right.\\Rightarrow OH\\bot \\left( SCD \\right)\\Rightarrow d\\left( O,\\left( SCD \\right) \\right)=OH$.\nTam giác $SOM$vuông tại $O$ $\\Rightarrow \\frac{1}{O{{H}^{2}}}=\\frac{1}{O{{S}^{2}}}+\\frac{1}{O{{M}^{2}}}=\\frac{1}{\\frac{7{{a}^{2}}}{2}}+\\frac{1}{\\frac{{{a}^{2}}}{4}}=\\frac{30}{7{{a}^{2}}}$\nKhi đó $OH=\\frac{a\\sqrt{210}}{30}\\Rightarrow d\\left( AB,SD \\right)=2OH=a\\sqrt{\\frac{14}{15}}\\approx 0,97$.\nĐáp án:\n| 0 | , | 9 | 7 |\n|---|---|---|---|",
+   "explanation": "[[IMG:image4.png]]\nChọn hệ tọa độ $Oxyz$ sao cho $O$ là tâm đáy, $A\\left(-\\frac{1}{2};-\\frac{1}{2};0\\right)$, $B\\left(\\frac{1}{2};-\\frac{1}{2};0\\right)$, $C\\left(\\frac{1}{2};\\frac{1}{2};0\\right)$, $D\\left(-\\frac{1}{2};\\frac{1}{2};0\\right)$ và $S\\left(0;0;\\sqrt{\\frac{7}{2}}\\right)$ vì $SO=\\sqrt{SA^2-OA^2}=\\sqrt{4-\\frac{1}{2}}=\\sqrt{\\frac{7}{2}}$.\nKhi đó $\\overrightarrow{AB}=(1;0;0)$, $\\overrightarrow{SD}=\\left(-\\frac{1}{2};\\frac{1}{2};-\\sqrt{\\frac{7}{2}}\\right)$, $\\overrightarrow{AB}\\times\\overrightarrow{SD}=\\left(0;\\sqrt{\\frac{7}{2}};\\frac{1}{2}\\right)$ và $\\overrightarrow{AS}=\\left(\\frac{1}{2};\\frac{1}{2};\\sqrt{\\frac{7}{2}}\\right)$.\nVậy $d(AB,SD)=\\frac{|(\\overrightarrow{AB}\\times\\overrightarrow{SD})\\cdot\\overrightarrow{AS}|}{|\\overrightarrow{AB}\\times\\overrightarrow{SD}|}=\\frac{\\sqrt{\\frac{7}{2}}}{\\frac{\\sqrt{15}}{2}}=\\sqrt{\\frac{14}{15}}\\approx 0,97$.\nĐáp án:\n| 0 | , | 9 | 7 |\n|---|---|---|---|",
    "short_value": 0.97,
    "short_correct": "0,97",
    "ma": "de1.P3.C1",
@@ -498,6 +502,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B2.D04",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -509,9 +514,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một học sinh dự định làm các bình hoa bằng giấy để bán trong một hội chợ gây quỹ từ thiện. Cần 1 giờ để làm một bình hoa nhỏ và sẽ bán với giá 100 nghìn đồng và 90 phút để làm một bình hoa lớn và bán với giá 200 nghìn đồng. Học sinh này chỉ thu xếp được 15 giờ nghỉ để làm và ban tổ chức yêu cầu phải làm ít nhất là 12 bình hoa. Số tiền lớn nhất mà học sinh có thể thu về là bao nhiêu? (Đơn vị: nghìn đồng)",
    "explanation": "Gọi $x,y$ lần lượt là số lượng bình hoa loại nhỏ và loại lớn mà bạn học sinh có thể làm được.\nTa có hệ các điều kiện ràng buộc như sau: $\\left\\{ \\begin{aligned} & x+y\\ge 12 \\\\ & x+\\frac{3}{2}y\\le 15 \\\\ & x\\ge 0 \\\\ & y\\ge 0 \\\\ \\end{aligned} \\right.$.\nSố tiền học sinh có thể thu về là $F\\left( x\\,,\\,y \\right)=100x+200y$ ( nghìn đồng).\nBiểu diễn miền nghiệm của hệ lên hệ trục tọa độ $Oxy$:\n[[IMG:image5.png]]\nMiền nghiệm của hệ là miền được giới hạn bởi tam giác $ABC$ (tính cả cạnh) với tọa độ các đỉnh là $A\\left( 12\\,;\\,0 \\right)\\,,\\,B\\left( 15\\,;\\,0 \\right)\\,,\\,\\,C\\left( 6\\,;\\,6 \\right)$.\nTính giá trị của $F\\left( x\\,,\\,y \\right)$ tại các đỉnh của tam giác $ABC$:\nTại $A\\left( 12\\,;0 \\right):F\\left( x\\,,\\,y \\right)=1200$ (nghìn đồng).\nTại $B\\left( 15\\,;0 \\right):F\\left( x\\,,\\,y \\right)=1500$ (nghìn đồng).\nTại $C\\left( 6\\,;6 \\right):F\\left( x\\,,\\,y \\right)=1800$ (nghìn đồng).\nVậy số tiền lớn nhất học sinh có thể thu về được là 1800 (nghìn đồng).\nĐáp án:\n| 1 | 8 | 0 | 0 |\n|---|---|---|---|",
    "short_value": 1800,
@@ -524,6 +527,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -535,9 +539,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong kinh tế học, người ta tính toán thu nhập của một khoản đầu tư thông qua công thức $FV=\\int\\limits_{0}^{T}{f\\left( t \\right){{e}^{-rt}}}\\text{d}t$ trong đó với khoảng thời gian $t$ thì $f\\left( t \\right)$ là tốc độ sinh lời, $T$ là thời gian đầu tư và $r$ là lãi suất hàng kỳ. Bạn Nam đang cố gắng để cân nhắc giữa hai khoản đầu tư như sau:\n Khoản đầu tư thứ nhất có giá $1000$USD và dự kiến sẽ tạo ra một dòng thu nhập liên tục với tốc độ ${{f}_{1}}\\left( t \\right)=3000{{e}^{0,03t}}$(USD) mỗi năm.\n Khoản đầu tư thứ hai có giá $4000$USD và được ước tính sẽ tạo ra thu nhập với tốc độ không đổi là ${{f}_{2}}\\left( t \\right)=4000$(USD) mỗi năm.\nGiả sử lãi suất hàng năm hiện hành vẫn cố định ở mức $5\\text{ }\\!\\!\\%\\!\\!\\text{ }$ mỗi năm và được tính lãi kép liên tục. Em hãy giúp Nam chọn khoảng đầu tư lời hơn bằng cách tính số Dollar chênh lệch giữa hai khoản đầu tư sau 5 năm. (Lấy giá trị dương và làm tròn kết quả đến hàng đơn vị)",
    "explanation": "Ta biết rằng trong thực tế: Lợi nhuận$=$Thu nhập $-$Chi phí\nSố Dollar chênh lệch giữa hai khoản đầu tư sau 5 năm là:\n$\\left| \\left( \\int\\limits_{0}^{5}{3000.{{e}^{0,03t}}.{{e}^{-0,05t}}\\text{d}t-1000} \\right)-\\left( \\int\\limits_{0}^{5}{4000.{{e}^{-0,05t}}\\text{d}t-4000} \\right) \\right|\\approx 422$USD\nVậy hai khoản đầu tư chênh lệch nhau $422$USD.\nĐáp án:\n| 4 | 2 | 2 |  |\n|---|---|---|---|",
    "short_value": 422,
@@ -550,6 +552,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B2.D05",
    "dang_toan_web": "Khái niệm tích phân, tính chất của tích phân. Định lí Newton - Leibniz."
@@ -565,7 +568,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Một Hai quả bóng bay được thả lên cùng một địa điểm. Sau một khoảng thời gian, quả bóng thứ nhất nằm cách địa điểm xuất phát 200m về hướng Đông và 200m về hướng Nam, đồng thời cách mặt đất 50m; quả bóng thứ hai nằm cách địa điểm xuất phát 100m về hướng Tây và 100m về hướng Bắc, đồng thời cách mặt đất 40m. Cùng thời điểm đó, một người đứng trên mặt đất quan sát thấy hai quả bóng này. Biết rằng so với các vị trí quan sát trên mặt đất, vị trí người đứng có tổng khoảng cách đến hai quả bóng bay là nhỏ nhất. Tính khoảng cách từ vị trí người quan sát đến địa điểm thả hai quả bóng bay này (Đơn vị: mét) (Kết quả làm tròn đến hàng đơn vị).",
-   "explanation": "[[IMG:image6.png]]\nTọa độ của quả bóng bay thứ nhất và thứ hai lần lượt là: $A\\left( -200;\\,200;\\,50 \\right)$ và $B\\left( -100;\\,100;\\,40 \\right)$\nMinh họa như sau:\n[[IMG:image7.png]]\nBài toán trở về khi $MA+MB$ là nhỏ nhất thì ta cần tính $OM$.\nGọi $H$ là hình chiếu của điểm $B$ xuống mặt phẳng $\\left( Oxy \\right)$ và ${B}'$ là điểm đối xứng của $B$ qua mặt phẳng $\\left( Oxy \\right)$.\nKhi đó $H\\left( -100;\\,100;\\,0 \\right)$ suy ra ${B}'\\left( -100;\\,100;\\,-40 \\right)$\nTa có: $MA+MB=MA+M{B}'\\ge A{B}'$. Dấu bằng xảy ra khi $M\\equiv {{M}_{0}}\\left( a;\\,b;\\,0 \\right)$\nKhi đó: $\\overrightarrow{A{{M}_{0}}}=\\left( a-200;\\,b+200;\\,-50 \\right)$; $\\overrightarrow{A{B}'}=\\left( -300;\\,300;\\,-90 \\right)$\nDo $\\overrightarrow{A{{M}_{0}}}\\parallel \\overrightarrow{A{B}'}$ nên $\\frac{a-200}{-300}=\\frac{b+200}{300}=\\frac{5}{9}\\Rightarrow \\left[ \\begin{aligned} & a=\\frac{100}{3} \\\\ & b=-\\frac{100}{3} \\\\ \\end{aligned} \\right.\\Rightarrow {{M}_{0}}\\left( \\frac{100}{3};\\,-\\frac{100}{3};\\,0 \\right)$\nVậy $O{{M}_{0}}=\\sqrt{{{\\left( \\frac{100}{3} \\right)}^{2}}+{{\\left( -\\frac{100}{3} \\right)}^{2}}+{{0}^{2}}}\\approx 47$ nên khoảng cách từ vị trí người quan sát đến địa điểm thả hai quả bóng bay này khoảng $47$ mét.\nĐáp án:\n| 4 | 7 |  |  |\n|---|---|---|---|",
+   "explanation": "[[IMG:image6.png]]\nTọa độ của quả bóng bay thứ nhất và thứ hai lần lượt là: $A\\left( 200;\\,-200;\\,50 \\right)$ và $B\\left( -100;\\,100;\\,40 \\right)$\nMinh họa như sau:\n[[IMG:image7.png]]\nBài toán trở về khi $MA+MB$ là nhỏ nhất thì ta cần tính $OM$.\nGọi $H$ là hình chiếu của điểm $B$ xuống mặt phẳng $\\left( Oxy \\right)$ và ${B}'$ là điểm đối xứng của $B$ qua mặt phẳng $\\left( Oxy \\right)$.\nKhi đó $H\\left( -100;\\,100;\\,0 \\right)$ suy ra ${B}'\\left( -100;\\,100;\\,-40 \\right)$\nTa có: $MA+MB=MA+M{B}'\\ge A{B}'$. Dấu bằng xảy ra khi $M\\equiv {{M}_{0}}\\left( a;\\,b;\\,0 \\right)$\nKhi đó: $\\overrightarrow{A{{M}_{0}}}=\\left( a-200;\\,b+200;\\,-50 \\right)$; $\\overrightarrow{A{B}'}=\\left( -300;\\,300;\\,-90 \\right)$\nDo $\\overrightarrow{A{{M}_{0}}}\\parallel \\overrightarrow{A{B}'}$ nên $\\frac{a-200}{-300}=\\frac{b+200}{300}=\\frac{5}{9}\\Rightarrow \\left[ \\begin{aligned} & a=\\frac{100}{3} \\\\ & b=-\\frac{100}{3} \\\\ \\end{aligned} \\right.\\Rightarrow {{M}_{0}}\\left( \\frac{100}{3};\\,-\\frac{100}{3};\\,0 \\right)$\nVậy $O{{M}_{0}}=\\sqrt{{{\\left( \\frac{100}{3} \\right)}^{2}}+{{\\left( -\\frac{100}{3} \\right)}^{2}}+{{0}^{2}}}\\approx 47$ nên khoảng cách từ vị trí người quan sát đến địa điểm thả hai quả bóng bay này khoảng $47$ mét.\nĐáp án:\n| 4 | 7 |  |  |\n|---|---|---|---|",
    "short_value": 47,
    "short_correct": "47",
    "ma": "de1.P3.C4",
@@ -576,6 +579,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D07",
    "dang_toan_web": "Các dạng toán khác"
@@ -587,9 +591,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một thí sinh dành $40$ phút để làm $21$ câu hỏi mức độ vận dụng và vận dụng cao trong đề thi tốt nghiệp THPT Quốc Gia môn Toán bao gồm: $14$ câu hỏi vận dụng và $07$ câu hỏi vận dụng cao. Nếu dành $x$ phút cho các câu hỏi vận dụng thì tổng điểm thí sinh đạt được cho nhóm câu hỏi vận dụng là $\\frac{14x}{5\\left( x+1 \\right)}$ còn nếu dành $y$ phút cho các câu hỏi vận dụng cao thì tổng điểm thí sinh đạt được cho nhóm câu hỏi vận dụng cao là $\\frac{14y}{5\\left( 3y+1 \\right)}$. Hỏi thí sinh này nên dành bao nhiêu phút cho nhóm câu hỏi vận dụng cao để tổng điểm cho $21$ câu hỏi mức độ vận dụng và vận dụng cao là lớn nhất?",
    "explanation": "Tổng điểm thí sinh này đạt được là: $S\\left( x \\right)=\\frac{14x}{5\\left( x+1 \\right)}+\\frac{14y}{5\\left( 3y+1 \\right)}=\\frac{14x}{5\\left( x+1 \\right)}+\\frac{14\\left( 40-x \\right)}{5\\left[ 3\\left( 40-x \\right)+1 \\right]}$\n$\\Rightarrow S\\left( x \\right)\\le S\\left( 30 \\right)=\\frac{112}{31}$\nDấu “$=$” xảy ra khi $x=30;\\,\\,y=10$\nVậy thí sinh này cần $10$ phút cho nhóm câu vận dung cao.\nĐáp án:\n| 1 | 0 |  |  |\n|---|---|---|---|",
    "short_value": 10,
@@ -602,6 +604,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D06",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -613,9 +616,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Truecaller App là một ứng dụng được sử dụng để chặn cuộc gọi rác trong điện thoại. Tuy nhiên, vì ứng dụng không tuyệt đối hoàn hảo nên một cuộc gọi rác bị chặn với xác suất $0,8$ và một cuộc gọi đúng (không phải là cuộc gọi rác) bị chặn với xác suất $0,01$. Thống kê cho thấy tỉ lệ cuộc gọi rác là $10\\%$. Chọn ngẫu nhiên một cuộc gọi không bị chặn. Tính xác suất để đó là cuộc gọi đúng (Kết quả làm tròn đến hàng phần trăm)",
    "explanation": "Gọi $A$ là biến cố: “cuộc gọi được chọn là cuộc gọi rác”, $B$ là biến cố: “cuộc gọi chọn bị chặn” thì $\\bar{B}$ là biến cố: “cuộc gọi được chọn không bị chặn”.\nTheo đầu bài ta có: $P\\left( A \\right)=0,1$, $P\\left( {\\bar{A}} \\right)=0,9$, $P\\left( \\left. B \\right|A \\right)=0,8$, $P\\left( \\left. B \\right|\\bar{A} \\right)=0,01$.\nTa có: $P\\left( B \\right)=P\\left( \\left. B \\right|A \\right).P\\left( A \\right)+P\\left( \\left. B \\right|\\bar{A} \\right).P\\left( {\\bar{A}} \\right)$ $=0,8.0,1+0,01.0,9=0,089$.\nVì $P\\left( \\left. B \\right|\\bar{A} \\right)=0,01$ $\\Rightarrow P\\left( \\left. {\\bar{B}} \\right|\\bar{A} \\right)=0,99$, $P\\left( \\left. B \\right|A \\right)=0,8$ $\\Rightarrow P\\left( \\left. {\\bar{B}} \\right|A \\right)=0,2$\nTheo công thức Bayes ta có:\n$P\\left( \\left. {\\bar{A}} \\right|\\bar{B} \\right)=\\frac{P\\left( {\\bar{A}} \\right).P\\left( \\left. {\\bar{B}} \\right|\\bar{A} \\right)}{P\\left( {\\bar{A}} \\right).P\\left( \\left. {\\bar{B}} \\right|\\bar{A} \\right)+P\\left( A \\right).P\\left( \\left. {\\bar{B}} \\right|A \\right)}$ $=\\frac{0,9.0,99}{0,9.0,99+0,1.0,2}=\\frac{891}{911}\\approx 0,98$.\nVậy xác suất để đó là cuộc gọi đúng là $0,98$.\nĐáp án:\n| 0 | , | 9 | 8 |\n|---|---|---|---|\n-----------------HẾT-----------------",
    "short_value": 0.98,
@@ -628,6 +629,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."

@@ -216,12 +216,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "loi_giai_noi_A_dung_nhung_chon_B",
-    "import_web: đáp án web đọc A khác B"
-   ],
+   "flags": [],
    "question": "Cho $\\Delta ABC$ có trọng tâm G. Để tìm tập hợp các điểm M thỏa mãn $\\overrightarrow{MB}.(\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC})=0$, một học sinh làm như sau:\nB1: $\\overrightarrow{MB}.(\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC})=0\\Leftrightarrow 3\\overrightarrow{MB}.\\overrightarrow{MG}=0.$\nB2: $3\\overrightarrow{MB}.\\overrightarrow{MG}=0\\Leftrightarrow \\overrightarrow{MB}.\\overrightarrow{MG}=0\\Leftrightarrow \\overrightarrow{MB}\\bot \\overrightarrow{MG}.$\nB3: Vậy tập hợp các điểm M là đường tròn có đường kính BG.\nHỏi học sinh lập luận ĐÚNG hay SAI. Nếu sai thì sai từ bước nào?",
-   "explanation": "Hình nào sau đây (phần không bị gạch chéo) biểu diễn miền nghiệm của bất phương trình $x-y\\ge 1$?\nA. [[IMG:image2.png]]. B. [[IMG:image3.png]].\nC. [[IMG:image4.png]]. D. [[IMG:image5.png]].\nChọn A\nTa có $\\left( 0;0 \\right)$ không là nghiệm của bất phương trình nên phương án C, D sai.\nTa có $\\left( 0;1 \\right)$ không thuộc đường thẳng $x-y=1$ nên B sai.\nTa có $\\left( 0;0 \\right)$ không là nghiệm của bất phương trình đồng thời đường thẳng $x-y=1$ đi qua $\\left( 0;-1 \\right),\\left( 1;0 \\right)$ nên A đúng.",
+   "explanation": "Ta có $\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC}=3\\overrightarrow{MG}$ nên $\\overrightarrow{MB}.(\\overrightarrow{MA}+\\overrightarrow{MB}+\\overrightarrow{MC})=0\\Leftrightarrow \\overrightarrow{MB}.\\overrightarrow{MG}=0$. Với $M\\ne B,G$ thì $\\overrightarrow{MB}\\bot\\overrightarrow{MG}$, tức $M$ nằm trên đường tròn đường kính $BG$; hai điểm $B,G$ cũng thuộc đường tròn này và thỏa mãn đẳng thức. Vậy tập hợp các điểm $M$ đúng là đường tròn đường kính $BG$, lập luận trên ĐÚNG. Chọn B.",
    "options": [
     "Bước 3",
     "Lập luận trên ĐÚNG",
@@ -236,6 +233,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C4.B3.D01",
    "dang_toan_web": "Tích của một số với một vectơ và các tính chất."
@@ -345,11 +343,9 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "Biểu diễn miền nghiệm của $50x+100y\\ge 20000\\left( * \\right)$ trên mặt phẳng tọa độ:\nVẽ đường thẳng $d:50x+100y=20000$\nTa thấy điểm $O\\left( 0\\,;\\,0 \\right)$ không thuộc miền nghiệm của $\\left( * \\right)$do thay tọa độ $O$ vào $\\left( * \\right)$: $0\\ge 20000$ (sai).\nVậy miền nghiệm của bất phương trình $50x+100y\\ge 20000\\left( * \\right)$ là nửa mặt phẳng ( kể cả d) có không chứa điểm $O$ (phần không gạch chéo trên hình).\nMuốn đo chiều cao của một ngọn tháp, người ta lấy hai điểm $A,B$ trên mặt đất có khoảng cách $AB=15m$ cùng thẳng hàng với chân $C$ của tháp để đặt hai giác kế. Chân của hai giác kế có chiều cao $h=1,4m$. Gọi $D$ là đỉnh của tháp và hai điểm ${{A}_{1}},{{B}_{1}}$ cùng thẳng hàng với ${{C}_{1}}$ thuộc chiều cao $CD$ của tháp (như hình vẽ minh họa bên dưới). Người ta đo được $\\widehat{D{{A}_{1}}{{C}_{1}}}=53{}^\\circ ,\\widehat{D{{B}_{1}}{{C}_{1}}}=37{}^\\circ $.\n[[IMG:image7.png]]",
-   "explanation": "Ta có: $\\widehat{{{B}_{1}}{{A}_{1}}D}=180{}^\\circ -53{}^\\circ =127{}^\\circ $,\n$\\widehat{{{A}_{1}}D{{B}_{1}}}=53{}^\\circ -37{}^\\circ =16{}^\\circ $.\nÁp dụng định lí sin trong tam giác ${{A}_{1}}{{B}_{1}}D$, ta có\n$\\begin{aligned} & \\frac{{{A}_{1}}{{B}_{1}}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{D{{A}_{1}}}{\\sin \\widehat{{{A}_{1}}{{B}_{1}}D}}=\\frac{D{{B}_{1}}}{\\sin \\widehat{D{{A}_{1}}{{B}_{1}}}} \\\\ & \\Rightarrow D{{B}_{1}}=\\frac{{{A}_{1}}{{B}_{1}}.\\sin \\widehat{D{{A}_{1}}{{B}_{1}}}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{15.\\sin 127{}^\\circ }{\\sin 16{}^\\circ }\\approx 43,46(m) \\\\ & \\Rightarrow D{{A}_{1}}=\\frac{{{A}_{1}}{{B}_{1}}.\\sin \\widehat{{{A}_{1}}{{B}_{1}}D}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{15.\\sin 37{}^\\circ }{\\sin 16{}^\\circ }\\approx 32,75(m) \\\\ \\end{aligned}$.\n$D{{C}_{1}}=D{{A}_{1}}.\\sin \\widehat{D{{A}_{1}}{{C}_{1}}}=32,75.\\sin 53{}^\\circ \\approx 26,16(m)$.\nVậy $CD=C{{C}_{1}}+{{C}_{1}}D\\approx 27,57(m)$.\nCho đồ thị hàm số bậc hai $y=f(x)$ như hình vẽ:\n[[IMG:image12.emf]]\na) Parabol có đỉnh $O\\left( 0;0 \\right)$.\nb) Parabol có trục đối xứng là đường thẳng $x=1$.\nc) Hàm số $y=f(x)$ nghịch biến trên khoảng $\\left( -\\infty ;1 \\right)$.\nd) Phương trình $f({{f}^{2}}(x)-3f(x)+3)=-3$cớ 4 nghiệm phân biệt$ $\na) Parabol có đỉnh $I\\left( 1;-3 \\right)$. Nên mệnh đề Sai.\nb) Parabol có trục đối xứng là đường thẳng $x=1$. Nên mệnh đề đúng.\nc) Hàm số $y=f(x)$ nghịch biến trên khoảng $\\left( -\\infty ;1 \\right)$. Nên mệnh đề đúng.\nd) Từ đồ thị hàm số bậc hai $y=f(x)$ ta có:\n$f({{f}^{2}}(x)-3f(x)+3)=-3\\Rightarrow {{f}^{2}}(x)-3f(x)+3=1\\Rightarrow \\left[ \\begin{aligned} & f(x)=1 \\\\",
+   "flags": [],
+   "question": "Muốn đo chiều cao của một ngọn tháp, người ta lấy hai điểm $A,B$ trên mặt đất có khoảng cách $AB=15m$ cùng thẳng hàng với chân $C$ của tháp để đặt hai giác kế. Chân của hai giác kế có chiều cao $h=1,4m$. Gọi $D$ là đỉnh của tháp và hai điểm ${{A}_{1}},{{B}_{1}}$ cùng thẳng hàng với ${{C}_{1}}$ thuộc chiều cao $CD$ của tháp (như hình vẽ minh họa bên dưới). Người ta đo được $\\widehat{D{{A}_{1}}{{C}_{1}}}=53{}^\\circ ,\\widehat{D{{B}_{1}}{{C}_{1}}}=37{}^\\circ $.\n[[IMG:image7.png]]",
+   "explanation": "Ta có: $\\widehat{{{B}_{1}}{{A}_{1}}D}=180{}^\\circ -53{}^\\circ =127{}^\\circ $,\n$\\widehat{{{A}_{1}}D{{B}_{1}}}=53{}^\\circ -37{}^\\circ =16{}^\\circ $.\nÁp dụng định lí sin trong tam giác ${{A}_{1}}{{B}_{1}}D$, ta có\n$\\begin{aligned} & \\frac{{{A}_{1}}{{B}_{1}}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{D{{A}_{1}}}{\\sin \\widehat{{{A}_{1}}{{B}_{1}}D}}=\\frac{D{{B}_{1}}}{\\sin \\widehat{D{{A}_{1}}{{B}_{1}}}} \\\\ & \\Rightarrow D{{B}_{1}}=\\frac{{{A}_{1}}{{B}_{1}}.\\sin \\widehat{D{{A}_{1}}{{B}_{1}}}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{15.\\sin 127{}^\\circ }{\\sin 16{}^\\circ }\\approx 43,46(m) \\\\ & \\Rightarrow D{{A}_{1}}=\\frac{{{A}_{1}}{{B}_{1}}.\\sin \\widehat{{{A}_{1}}{{B}_{1}}D}}{\\sin \\widehat{{{A}_{1}}D{{B}_{1}}}}=\\frac{15.\\sin 37{}^\\circ }{\\sin 16{}^\\circ }\\approx 32,75(m) \\\\ \\end{aligned}$.\n$D{{C}_{1}}=D{{A}_{1}}.\\sin \\widehat{D{{A}_{1}}{{C}_{1}}}=32,75.\\sin 53{}^\\circ \\approx 26,16(m)$.\nVậy $CD=C{{C}_{1}}+{{C}_{1}}D\\approx 27,56(m)$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 17,
@@ -358,6 +354,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D13",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -379,11 +376,9 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "& f(x)=2 \\\\\n\\end{aligned} \\right.$ Phương trình $f(x)=1$ có hai nghiệm phân biệt. Phương trình $f(x)=2$ có hai nghiệm phân biệt. Vậy phương trình$f({{f}^{2}}(x)-3f(x)+3)=-3$ có bốn nghiệm. Nên mệnh đề đúng. Cho hình vuông $ABCD$ cạnh bằng $2.$ Điểm $M$ nằm trên đoạn thẳng $AC$ sao cho $AM=\\frac{AC}{4}$. Gọi $N$ là trung điểm của đoạn thẳng $DC.$",
-   "explanation": "NMDCBA\na) $\\overrightarrow{MB}=\\overrightarrow{AB}-\\overrightarrow{AM}=\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}$.\nb) $\\overrightarrow{AB}.\\overrightarrow{AC}=2.2\\sqrt{2}.\\cos {{45}^{0}}=4$.\nc) $\\overrightarrow{MN}=\\overrightarrow{AN}-\\overrightarrow{AM}=\\overrightarrow{AD}+\\overrightarrow{DN}-\\frac{1}{4}\\overrightarrow{AC}=\\overrightarrow{AD}+\\frac{1}{2}\\overrightarrow{DC}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)$\n$=\\overrightarrow{AD}+\\frac{1}{2}\\overrightarrow{AB}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)=\\frac{3}{4}\\overrightarrow{AD}+\\frac{1}{4}\\overrightarrow{AB}.$\nd) $\\overrightarrow{MB}=\\overrightarrow{AB}-\\overrightarrow{AM}=\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}=\\overrightarrow{AB}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)=\\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AD}.$\n$\\overrightarrow{MB}.\\overrightarrow{MN}=\\left( \\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AD} \\right)\\left( \\frac{3}{4}\\overrightarrow{AD}+\\frac{1}{4}\\overrightarrow{AB} \\right)=\\frac{1}{16}\\left( 9\\overrightarrow{AB}.\\overrightarrow{AD}+3{{\\overrightarrow{AB}}^{2}}-3{{\\overrightarrow{AD}}^{2}}-\\overrightarrow{AD}.\\overrightarrow{AB} \\right)$ $=\\frac{1}{16}\\left( 0+{{3.2}^{2}}-{{3.2}^{2}}-0 \\right)=0$.",
+   "flags": [],
+   "question": "Cho hình vuông $ABCD$ cạnh bằng $2.$ Điểm $M$ nằm trên đoạn thẳng $AC$ sao cho $AM=\\frac{AC}{4}$. Gọi $N$ là trung điểm của đoạn thẳng $DC.$",
+   "explanation": "a) $\\overrightarrow{MB}=\\overrightarrow{AB}-\\overrightarrow{AM}=\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}$.\nb) $\\overrightarrow{AB}.\\overrightarrow{AC}=2.2\\sqrt{2}.\\cos {{45}^{0}}=4$.\nc) $\\overrightarrow{MN}=\\overrightarrow{AN}-\\overrightarrow{AM}=\\overrightarrow{AD}+\\overrightarrow{DN}-\\frac{1}{4}\\overrightarrow{AC}=\\overrightarrow{AD}+\\frac{1}{2}\\overrightarrow{DC}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)$\n$=\\overrightarrow{AD}+\\frac{1}{2}\\overrightarrow{AB}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)=\\frac{3}{4}\\overrightarrow{AD}+\\frac{1}{4}\\overrightarrow{AB}.$\nd) $\\overrightarrow{MB}=\\overrightarrow{AB}-\\overrightarrow{AM}=\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}=\\overrightarrow{AB}-\\frac{1}{4}\\left( \\overrightarrow{AB}+\\overrightarrow{AD} \\right)=\\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AD}.$\n$\\overrightarrow{MB}.\\overrightarrow{MN}=\\left( \\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AD} \\right)\\left( \\frac{3}{4}\\overrightarrow{AD}+\\frac{1}{4}\\overrightarrow{AB} \\right)=\\frac{1}{16}\\left( 9\\overrightarrow{AB}.\\overrightarrow{AD}+3{{\\overrightarrow{AB}}^{2}}-3{{\\overrightarrow{AD}}^{2}}-\\overrightarrow{AD}.\\overrightarrow{AB} \\right)$ $=\\frac{1}{16}\\left( 0+{{3.2}^{2}}-{{3.2}^{2}}-0 \\right)=0$.",
    "ma": "de1.P2.C3",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -392,6 +387,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C4.B5.D01",
    "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
@@ -419,6 +415,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C1.B1.D03",
    "dang_toan_web": "Mệnh đề phủ định, mệnh đề kéo theo, mệnh đề đảo, hai mệnh đề tương đương."

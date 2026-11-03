@@ -352,9 +352,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -463,7 +461,7 @@
      "explanation": "Theo định lí Viète: $x_1 + x_2 = \\frac{3}{2}$, $x_1 x_2 = -2$.\n$P = \\frac{x_1^2}{x_1 - 2} + \\frac{x_2^2}{x_2 - 2} = \\frac{x_1^2(x_2 - 2) + x_2^2(x_1 - 2)}{(x_1 - 2)(x_2 - 2)}$.\nTử số: $x_1^2 x_2 + x_2^2 x_1 - 2(x_1^2 + x_2^2) = x_1 x_2 (x_1 + x_2) - 2[(x_1 + x_2)^2 - 2x_1 x_2]$.\n$= (-2) \\cdot \\frac{3}{2} - 2\\left[ \\left(\\frac{3}{2}\\right)^2 - 2(-2) \\right] = -3 - 2\\left( \\frac{9}{4} + 4 \\right) = -3 - 2 \\cdot \\frac{25}{4} = -3 - \\frac{25}{2} = -\\frac{31}{2}$.\nMẫu số: $(x_1 - 2)(x_2 - 2) = x_1 x_2 - 2(x_1 + x_2) + 4 = -2 - 3 + 4 = -1$.\nVậy $P = \\frac{-31/2}{-1} = \\frac{31}{2}$.",
      "points": 1,
      "type": "short_answer",
-     "shortCorrect": "15,5|31/2"
+     "shortCorrect": "-4,5|-9/2"
     }
    ],
    "points": 1.5,
@@ -478,7 +476,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C6.B2.D03",
    "dang_toan_web": "Phương trình bậc hai một ẩn. Công thức nghiệm và công thức nghiệm thu gọn."

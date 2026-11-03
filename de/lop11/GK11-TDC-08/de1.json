@@ -580,9 +580,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Với hình vuông ${{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}$ như hình vẽ bên, cách tô màu như phần gạch sọc được gọi là cách tô màu “đẹp”. Một nhà thiết kế tiến hành tô màu cho một hình vuông như hình bên, theo quy trình sau:\n[[IMG:image2.png]]\nBước 1: Tô màu “đẹp” cho hình vuông ${{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}$.\nBước 2: Tô màu “đẹp” cho hình vuông ${{A}_{2}}{{B}_{2}}{{C}_{2}}{{D}_{2}}$ là hình vuông ở chính giữa khi chia hình vuông ${{A}_{1}}{{B}_{1}}{{C}_{1}}{{D}_{1}}$ thành $\\left( \\frac{1}{2} \\right)$ phần bằng nhau như hình vẽ.\nBước 3: Tô màu “đẹp” cho hình vuông ${{A}_{3}}{{B}_{3}}{{C}_{3}}{{D}_{3}}$ là hình vuông ở chính giữa khi chia hình vuông ${{A}_{2}}{{B}_{2}}{{C}_{2}}{{D}_{2}}$ thành $9$ phần bằng nhau. Cứ tiếp tục như vậy. Hỏi cần ít nhất bao nhiêu bước để tổng diện tích phần được tô màu chiếm $49,99\\%$.",
    "explanation": "Trả lời: 4\nGọi diện tích được tô màu ở mỗi bước là ${{u}_{n}},n\\in {{\\mathbb{N}}^{*}}$. Dễ thấy dãy các giá trị ${{u}_{n}}$ là một cấp số nhân với số hạng đầu ${{u}_{1}}=\\frac{4}{9}$ và công bội $q=\\frac{1}{9}$.\nGọi ${{S}_{k}}$ là tổng của $k$ số hạng đầu trong cấp số nhân đang xét thì ${{S}_{k}}=\\frac{{{u}_{1}}\\left( {{q}^{k}}-1 \\right)}{q-1}$.\nĐể tổng diện tích phần được tô màu chiếm $49,99\\%$ thì $\\frac{{{u}_{1}}\\left( {{q}^{k}}-1 \\right)}{q-1}\\ge 0,4999\\Leftrightarrow k\\ge 3,8$.\nVậy cần ít nhất $4$ bước.",
    "short_value": 4,
@@ -595,6 +593,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B1.D01",
    "dang_toan_web": "Giới hạn của dãy số: Các định lí về giới hạn, tổng của cấp số nhân lùi vô hạn."

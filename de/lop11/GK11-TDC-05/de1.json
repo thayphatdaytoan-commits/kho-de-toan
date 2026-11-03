@@ -376,22 +376,20 @@
    "section": 2,
    "n": 2,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Số hạng ${{u}_{1}}=21$",
+    "b": "Công sai của cấp số cộng bằng $-2$",
+    "c": "Số hạng ${{u}_{11}}=-9$",
+    "d": "Số $-6048$ là số hạng thứ $2024$"
+   },
    "tf_ans": {
+    "a": true,
     "b": false,
     "c": true,
-    "d": true,
-    "a": true
+    "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:",
-    "import_web: Câu 14: mệnh đề (a) trống",
-    "import_web: Câu 14: mệnh đề (b) trống",
-    "import_web: Câu 14: mệnh đề (c) trống",
-    "import_web: Câu 14: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho cấp số cộng $\\left( {{u}_{n}} \\right)$ thoả mãn $\\left\\{ \\begin{array}{llllll} {{u}_{1}}-{{u}_{3}}+{{u}_{5}}=15 \\\\ {{u}_{1}}+{{u}_{6}}=27 \\\\ \\end{array} \\right.$. Khi đó\nSố hạng ${{u}_{1}}=21$\nCông sai của cấp số cộng bằng $-2$\nSố hạng ${{u}_{11}}=-9$\nSố $-6048$ là số hạng thứ $2024$",
    "explanation": "a ) Đúng. Số hạng ${{u}_{1}}=21$\nÁp dụng công thức số hạng tổng quát của cấp số cộng: ${{u}_{n}}={{u}_{1}}+(n-1)d$.\nKhi đó: $\\left\\{ \\begin{array}{llllll} {{u}_{1}}-{{u}_{3}}+{{u}_{5}}=15 \\\\ {{u}_{1}}+{{u}_{6}}=27 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} {{u}_{1}}-\\left( {{u}_{1}}+2d \\right)+\\left( {{u}_{1}}+4d \\right)=15 \\\\ {{u}_{1}}+\\left( {{u}_{1}}+4d \\right)=27 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} {{u}_{1}}+2d=15 \\\\ 2{{u}_{1}}+5d=27 \\\\ \\end{array}\\Leftrightarrow \\left\\{ \\begin{array}{llllll} {{u}_{1}}=21 \\\\ d=-3 \\\\ \\end{array} \\right. \\right. \\right. \\right.$.\nb) Sai. Công sai của cấp số cộng bằng $-2$\nc) Đúng. Số hạng ${{u}_{11}}=-9$\nSuy ra ${{u}_{n}}={{u}_{1}}+\\left( n-1 \\right)d=21+\\left( n-1 \\right)\\left( -3 \\right)=-3n+24$\nVậy ${{u}_{11}}=-9$\nd) Đúng. Số $-6048$ là số hạng thứ $2024$\nTa có $-6048=-3n+24\\Rightarrow n=2024$",
    "ma": "de1.P2.C2",
@@ -401,7 +399,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 2,
@@ -420,9 +419,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong năm đầu tiên đi làm, anh $A$ được nhận lương là $13$ triệu đồng mỗi tháng. Cứ hết một năm, anh $A$ lại được tăng lương, mỗi tháng năm sau tăng $15\\%$ so với mỗi tháng năm trước. Mỗi khi lĩnh lương anh $A$ đều cất đi phần lương tăng so với năm ngay trước để tiết kiệm mua ô tô giá $600$triệu VND. biết rằng anh $A$ được gia đình hỗ trợ $35\\%$ giá trị chiếc xe?",
    "explanation": "a) Số tiền anh cần tiết kiệm là $600-600.0,35=390$. Suy ra mệnh đề sai.\nb) Gọi số tiền mà anh $A$ nhận được ở mỗi tháng trong năm đầu tiên là ${{u}_{1}}=13$.\nSố tiền mà anh $A$ nhận được ở mỗi tháng trong năm thứ hai là ${{u}_{2}}={{u}_{1}}+{{u}_{1}}.15\\%={{u}_{1}}\\left( 1+15\\% \\right)=13\\times 1,15=14,95$ Suy ra mệnh đề đúng.\nc) Số tiền mà anh $A$ nhận được ở mỗi tháng trong năm thứ ba là ${{u}_{3}}={{u}_{2}}+{{u}_{2}}.15\\%={{u}_{2}}\\left( 1+15\\% \\right)={{u}_{1}}{{\\left( 1+15\\% \\right)}^{2}}=13\\times 1,{{15}^{2}}=17,1925$\nSố tiền mà anh $A$ tiết kiệm được sau ba năm là $12\\times \\left[ \\left( {{u}_{2}}-{{u}_{1}} \\right)+\\left( {{u}_{3}}-{{u}_{2}} \\right) \\right]=50,31$triệu VND.\nSuy ra mệnh đề đúng.\nd) Số tiền mà anh $A$ nhận được ở mỗi tháng trong năm thứ $n$ là theo quy luật là một dãy cấp số nhân với số hạng đầu là ${{u}_{1}}$ và công bội là $q=1,15$\nVậy số tiền mà anh $A$ nhận được ở mỗi tháng trong năm thứ $n$ là ${{u}_{n}}={{u}_{1}}.{{\\left( 1,15 \\right)}^{n-1}}$.\nSố tiền mà anh $A$ tiết kiệm được sau $n$ năm là $12.\\left( {{u}_{2}}-{{u}_{1}}+{{u}_{3}}-{{u}_{2}}+\\cdot \\cdot \\cdot +{{u}_{n-1}}-{{u}_{n-2}}+{{u}_{n}}-{{u}_{n-1}} \\right)$ $=12.\\left( {{u}_{n}}-{{u}_{1}} \\right)$ $=12.\\left[ {{u}_{1}}.{{\\left( 1,15 \\right)}^{n-1}}-{{u}_{1}} \\right]$.\nCho $12.\\left[ {{u}_{1}}.{{\\left( 1,15 \\right)}^{n-1}}-{{u}_{1}} \\right]=390$ $\\Leftrightarrow {{\\left( 1,15 \\right)}^{n-1}}=\\frac{7}{2}$ $\\Leftrightarrow n\\approx 9,96$ $\\Rightarrow n=10$.\nVậy sau ít nhất $10$ năm thì anh $A$ sẽ tiết kiệm đủ tiền để mua ô tô.\nSuy ra mệnh đề sai.",
    "ma": "de1.P2.C3",
@@ -433,6 +430,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D06",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -441,7 +439,12 @@
    "section": 2,
    "n": 4,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Giao tuyến của hai mặt phẳng $\\left( SAC \\right)$ và $\\left( SBD \\right)$ là $SO$.",
+    "b": "Giao điểm $E$ của đường thẳng $SO$ và $\\left( MNP \\right)$ là giao điểm của $MN$ và $SO$.",
+    "c": "Giao điểm $Q$ của đường thẳng $SA$ và $\\left( MNP \\right)$ là giao điểm của $PE$ và $SO$.",
+    "d": "Gọi $I,J,K$ lần lượt là giao điểm của $QM$ và $AB,\\,\\,QP$ và $AC,\\,\\,QN$ và $AD$. Vậy $I,J,K$ thẳng hàng."
+   },
    "tf_ans": {
     "a": true,
     "b": true,
@@ -449,13 +452,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_y:",
-    "import_web: Câu 16: mệnh đề (a) trống",
-    "import_web: Câu 16: mệnh đề (b) trống",
-    "import_web: Câu 16: mệnh đề (c) trống",
-    "import_web: Câu 16: mệnh đề (d) trống"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành. Gọi $O$ là giao điểm của $AC$ và $BD;M,N$ lần lượt là trung điểm của $SB,SD;P$ thuộc đọan $SC$ và không là trung điểm của $SC$. Khi đó:\nGiao tuyến của hai mặt phẳng $\\left( SAC \\right)$ và $\\left( SBD \\right)$ là $SO$.\nGiao điểm $E$ của đường thẳng $SO$ và $\\left( MNP \\right)$ là giao điểm của $MN$ và $SO$.\nGiao điểm $Q$ của đường thẳng $SA$ và $\\left( MNP \\right)$ là giao điểm của $PE$ và $SO$.\nGọi $I,J,K$ lần lượt là giao điểm của $QM$ và $AB,\\,\\,QP$ và $AC,\\,\\,QN$ và $AD$. Vậy $I,J,K$ thẳng hàng.",
    "explanation": "[[IMG:image6.png]]\na) Đúng. Giao tuyến của hai mặt phẳng $\\left( SAC \\right)$ và $\\left( SBD \\right)$ là $SO$.\nTa có: $\\left\\{ \\begin{aligned} & S\\in \\left( SAC \\right)\\cap \\left( SBD \\right) \\\\ & O\\in AC\\subset \\left( SAC \\right) \\\\ & O\\in BD\\subset \\left( SBD \\right) \\\\ \\end{aligned} \\right.\\Rightarrow SO=\\left( SAC \\right)\\cap \\left( SBD \\right)$.\nb) Đúng. Giao điểm $E$ của đường thẳng $SO$ và $\\left( MNP \\right)$ là giao điểm của $MN$ và $SO$.\nTrong $\\left( SBD \\right):SO\\cap MN=E$.\nTa có $\\left\\{ \\begin{array}{llllll} E\\in SO \\\\ E\\in MN\\subset \\left( MNP \\right) \\\\ \\end{array}\\Rightarrow E\\in SO\\cap \\left( MNP \\right) \\right.\\text{.}$\nc) Sai. Giao điểm $Q$ của đường thẳng $SA$ và $\\left( MNP \\right)$ là giao điểm của $PE$ và $SO$.\nTrong $\\left( SAC \\right):PE\\cap SA=Q$.\n$\\text{ Ta c }\\!\\!\\acute{\\mathrm{o}}\\!\\!\\text{ }\\left\\{ \\begin{array}{llllll} Q\\in SA \\\\ Q\\in PE\\subset \\left( MNP \\right) \\\\ \\end{array}\\Rightarrow Q\\in SA\\cap \\left( MNP \\right) \\right.\\text{. }$\n[[IMG:image7.png]]\nd) Đúng. Gọi $I,J,K$ lần lượt là giao điểm của $QM$ và $AB,\\,\\,QP$ và $AC,\\,\\,QN$ và $AD$. Vậy $I,J,K$ thẳng hàng.\nTừ giả thiết ta có $\\left\\{ \\begin{aligned} & I\\in QM\\subset \\left( MNP \\right) \\\\ & J\\in QP\\subset \\left( MNP \\right) \\\\ & K\\in QN\\subset \\left( MNP \\right) \\\\ \\end{aligned} \\right.\\Rightarrow I,J,K\\in \\left( MNP \\right)\\,\\left( 1 \\right)$\nMặt khác $\\left\\{ \\begin{aligned} & I\\in AB\\subset \\left( ABCD \\right) \\\\ & J\\in AC\\subset \\left( ABCD \\right) \\\\ & K\\in AD\\subset \\left( ABCD \\right) \\\\ \\end{aligned} \\right.\\Rightarrow I,J,K\\in \\left( ABCD \\right)\\,(2)$\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ suy ra $I,J,K\\in \\left( MNP \\right)\\cap \\left( ABCD \\right)$.\nSuy ra $I,J,K$ thẳng hàng.",
    "ma": "de1.P2.C4",
@@ -465,7 +462,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,

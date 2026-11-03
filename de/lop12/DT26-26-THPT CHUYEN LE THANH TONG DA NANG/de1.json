@@ -443,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -606,9 +607,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Trong bảng thiết kế của dự án lắp đặt đường dây điện cho vùng núi tỉnh A, các kĩ sư thiết kế các trụ điện cao $120$ $\\text{m}$. Để giữ thăng bằng cho trụ điện, người ta kéo dây cáp nối từ đỉnh trụ $S$ xuống mặt đất tại các điểm $A$, $B$, $C$ sao cho $S.ABC$ là hình chóp tam giác đều, khoảng cách từ chân trụ đến các điểm tiếp đất bằng $40\\sqrt{3}$ $\\text{m}$. Tuy nhiên trong thực tế, do sườn núi dốc $10{}^\\circ $ so với mặt biển nên vị trí tiếp đất của dây cáp tại $A$, ${B}'$, ${C}'$ ($B{B}'$, $C{C}'$ song song thân trụ điện, tham khảo hình vẽ). Chọn hệ trục tọa độ $Oxyz$ với $O$ trùng với chân trụ điện, $\\left( Oxy \\right)$ song song với mặt biển, $A$ thuộc tia $Oy$, trục $Oz$ hướng lên trên.\n[[IMG:image7.png]]\nKhi đó, tổng độ dài của ba dây cáp $SA$, $S{B}'$, $S{C}'$ bằng bao nhiêu (kết quả làm tròn đến hàng đơn vị của mét)?",
    "explanation": "Đáp án: 416.\nĐặt hệ trục như đề bài, ta có: chân trụ $O\\left( 0;0;0 \\right)$, đỉnh trụ $S\\left( 0;0;120 \\right)$.\nDo $A,B,C\\in \\left( Oxy \\right)$ và $OA=OB=OC=40\\sqrt{3}$ nên $A\\left( 0;40\\sqrt{3};0 \\right)$, $B\\left( {{x}_{B}},{{y}_{B}},0 \\right)$, $C\\left( {{x}_{C}},{{y}_{C}},0 \\right)$.\nLại có: $A\\in Oy$ và $O$ là tâm $\\Delta ABC$ nên $B$, $C$ đối xứng nhau qua $0y$ hay $\\left\\{ \\begin{aligned} & x={{x}_{B}}=-{{x}_{C}} \\\\ & y={{y}_{B}}={{y}_{C}} \\\\ \\end{aligned} \\right.$.\nÁp dụng công thức tọa độ trọng tâm: ${{y}_{A}}+{{y}_{B}}+{{y}_{C}}=3{{y}_{O}}\\Rightarrow 2y=-40\\sqrt{3}\\Rightarrow y=-20\\sqrt{3}$.\nMà $OB=40\\sqrt{3}\\Rightarrow {{x}^{2}}+{{\\left( -20\\sqrt{3} \\right)}^{2}}=4800\\Rightarrow x=60$ hay $B\\left( 60;-20\\sqrt{3};0 \\right)$ và $C\\left( -60;-20\\sqrt{3};0 \\right)$.\n${{z}_{B'}}=-BB'=-60.\\tan {{10}^{0}}\\Rightarrow $ ${B}'\\left( 60;-20\\sqrt{3};-60\\times \\tan 10{}^\\circ \\right)$,\nTương tự: ${C}'\\left( -60;-20\\sqrt{3};60\\times \\tan 10{}^\\circ \\right)$\n$\\Rightarrow \\left\\{ \\begin{aligned} & SA=\\sqrt{{{\\left( 40\\sqrt{3} \\right)}^{2}}+{{120}^{2}}} \\\\ & S{B}'=\\sqrt{{{\\left( -60 \\right)}^{2}}+{{\\left( 20\\sqrt{3} \\right)}^{2}}+{{\\left( 120+60\\times \\tan 10{}^\\circ \\right)}^{2}}} \\\\ & S{C}'=\\sqrt{{{60}^{2}}+{{\\left( 20\\sqrt{3} \\right)}^{2}}+{{\\left( 120-60\\times \\tan 10{}^\\circ \\right)}^{2}}} \\\\ \\end{aligned} \\right.\\Rightarrow SA+S{B}'+S{C}'\\approx 415,8949$.\nVậy tổng độ dài của ba dây cáp $SA$, $S{B}'$, $S{C}'$ xấp xỉ $416$ $\\text{m}$.\n-------------- Hết --------------",
    "short_value": 416,
@@ -621,6 +620,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

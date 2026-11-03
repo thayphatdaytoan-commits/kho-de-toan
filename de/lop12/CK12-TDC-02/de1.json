@@ -78,7 +78,7 @@
    "answer": "A",
    "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ có bảng biến thiên như hình vẽ:\n[[IMG:image1.png]]\nTổng số đường tiệm cận đứng của đồ thị hàm số $y=f\\left( x \\right)$ là:",
-   "explanation": "Tập xác định: $\\mathbb{R}\\backslash \\left\\{ 1 \\right\\}$.\nTa có $\\left\\{ \\begin{aligned} & \\underset{x\\to {{1}^{-}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=2 \\\\ & \\underset{x\\to {{1}^{+}}}{\\mathop{\\lim }}\\,f\\left( x \\right)=4 \\\\ \\end{aligned} \\right.$ nên đồ thị hàm số không có một tiệm cận đứng nào.",
+   "explanation": "Tập xác định: $\\mathbb{R}\\backslash \\left\\{ 1 \\right\\}$.\nTa có $\\left\\{ \\begin{aligned} & \\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)=2 \\\\ & \\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=4 \\\\ \\end{aligned} \\right.$ nên đồ thị hàm số không có một tiệm cận đứng nào.",
    "options": [
     "$0$",
     "$1$",
@@ -302,7 +302,7 @@
    "answer": "A",
    "flags": [],
    "question": "Gọi $M$, $m$ lần lượt là giá trị lớn nhất, giá trị nhỏ nhất của hàm số $f\\left( x \\right)={{x}^{4}}+\\frac{2}{{{x}^{2}}}$ trên đoạn $\\left[ 1;2 \\right]$. Giá trị $m+2M$ bằng",
-   "explanation": "Hàm số $f\\left( x \\right)={{x}^{4}}+\\frac{2}{{{x}^{2}}}$ liên tục trên đoạn $\\left[ 1;2 \\right]$. Ta có\n${f}'\\left( x \\right)=4{{x}^{3}}-\\frac{4}{{{x}^{3}}}$; ${f}'\\left( x \\right)=0\\Leftrightarrow 4{{x}^{3}}-\\frac{4}{{{x}^{3}}}=0\\Leftrightarrow {{x}^{6}}-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1\\in \\left[ 1;2 \\right] \\\\ & x=-1\\notin \\left[ 1;2 \\right] \\\\ \\end{aligned} \\right.$.\n$f\\left( 1 \\right)=3$; $f\\left( 2 \\right)=\\frac{33}{2}$.\nSuy ra $M=\\underset{\\left[ 1;2 \\right]}{\\mathop{\\max }}\\,f\\left( x \\right)=\\frac{33}{2}$, $m=\\underset{\\left[ 1;2 \\right]}{\\mathop{\\min }}\\,f\\left( x \\right)=3$.\nVậy $m+2M=36$.",
+   "explanation": "Hàm số $f\\left( x \\right)={{x}^{4}}+\\frac{2}{{{x}^{2}}}$ liên tục trên đoạn $\\left[ 1;2 \\right]$. Ta có\n${f}'\\left( x \\right)=4{{x}^{3}}-\\frac{4}{{{x}^{3}}}$; ${f}'\\left( x \\right)=0\\Leftrightarrow 4{{x}^{3}}-\\frac{4}{{{x}^{3}}}=0\\Leftrightarrow {{x}^{6}}-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1\\in \\left[ 1;2 \\right] \\\\ & x=-1\\notin \\left[ 1;2 \\right] \\\\ \\end{aligned} \\right.$.\n$f\\left( 1 \\right)=3$; $f\\left( 2 \\right)=\\frac{33}{2}$.\nSuy ra $M=\\underset{\\left[ 1;2 \\right]}{\\max}\\,f\\left( x \\right)=\\frac{33}{2}$, $m=\\underset{\\left[ 1;2 \\right]}{\\min}\\,f\\left( x \\right)=3$.\nVậy $m+2M=36$.",
    "options": [
     "$36$",
     "$34$",
@@ -391,11 +391,14 @@
     "c": "Hàm số có ${{y}_{CD}}+3{{y}_{CT}}=-1$.",
     "d": "Điểm $A\\left( 0;4 \\right)$ thuộc đường thẳng đi qua hai điểm cực trị của đồ thị hàm số."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y={{x}^{3}}-6{{x}^{2}}+9x-1$. Xét tính đúng – sai của các mệnh đề sau:\n[[IMG:image5.png]]",
    "explanation": "Tập xác định $D=\\mathbb{R}$\n${y}'=3{{x}^{2}}-12x+9$\n${y}'=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=3 \\\\ \\end{aligned} \\right.$\nBảng biến thiên:\n[[IMG:image5.png]]\n$\\Rightarrow $a đúng.\nHàm số nghịch biến trên khoảng $\\left( 1;\\,3 \\right)$ $\\Rightarrow $ nghịch biến trên $\\left( 1;\\,2 \\right)$nên b đúng.\nHàm số đạt cực đại tại$x=1$ và đạt cực tiểu tại $x=3$ $\\Rightarrow $ sai.\n${{y}_{CD}}+3{{y}_{CT}}=3-3.1=0$ $\\Rightarrow $c sai.\nPhương trình đi qua hai điểm cực trị là $\\frac{x-1}{2}=\\frac{y-3}{-4}\\Leftrightarrow -4x+4=2y-6\\Leftrightarrow 4x+2y-10=0\\Leftrightarrow 2x+y-5=0$. Nên điểm $A\\left( 0;4 \\right)$ không thuộc đường thẳng qua hai điểm cực trị $\\to $d sai",
    "ma": "de1.P2.C2",
@@ -406,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B4.D07",
    "dang_toan_web": "Khảo sát sự biến thiên và vẽ đồ thị của hàm số. Tương giao đồ thị."
@@ -427,9 +431,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "[[IMG:image6.emf]]Một tháp trung tâm kiểm soát không lưu ở sân bay cao $100$m sử dụng ra đa có phạm vi theo dõi $600$km được đặt trên đỉnh tháp. Chọn hệ trục toạ độ $Oxyz$có gốc $O$ trùng với vị trí chân tháp, mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất sao cho trục $Ox$ hướng về phía tây, trục $Oy$ hướng về phía nam, trục $Oz$ hướng thẳng đứng lên phía trên (Hình bên) (đơn vị trên mỗi trục tính theo kilômét).\nMột máy bay tại vị trí $F$cách mặt đất $12$ km, cách $400$ km về phía tây và $300$ km về phía bắc so với tháp trung tâm kiểm soát không lưu.\nXét tính đúng sai của các khẳng định sau:",
    "explanation": "a. Đúng. Theo giả thiết, ra đa ở vị trí có toạ độ $\\left( 0;0;0,1 \\right)$.\nb. Sai.\n- Máy bay cách mặt đất $12$ km, nghĩa là tọa độ trên trục $z$ là $12$ km.\n- Máy bay cách $400$ km về phía tây so với tháp, tức là tọa độ trên trục $x$ sẽ là $400$km.\n- Máy bay cách $300$ km về phía bắc so với tháp, tức là tọa độ trên trục $y$ sẽ là $-300$km (do trục $y$ hướng về phía nam).\nTọa độ của máy bay là: $\\left( 400;-300;12 \\right)$.\nc. Sai\nVậy khoảng cách từ máy bay đến ra đa là:\n$\\sqrt{{{\\left( 400-0 \\right)}^{2}}+{{\\left( -300-0 \\right)}^{2}}+{{\\left( 12-0,1 \\right)}^{2}}}\\approx 500,14$(km)\nd. Sai. Vì $500,14<600$ nên ra đa của trung tâm kiểm soát có phát hiện được máy bay.",
    "ma": "de1.P2.C3",
@@ -440,6 +442,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -533,7 +536,7 @@
    "answer": null,
    "flags": [],
    "question": "Tại một công ty sản xuất đồ chơi A, công ty phải chỉ 50000 USD để thiết lập dây chuyền sản xuất ban đầu. Sau đó, cứ sản xuất được một sản phẩm đồ chơi A, công ty phải chi trả 5 USD cho nguyên liệu thô và nhân công. Gọi x (x ≥1) là số đồ chơi A mà công ty đã sản xuất và T(x) (đơn vị USD) là tổng số tiền bao gồm cả chi phí ban đầu mà công ty phải chi trả khi sản xuất x đồ chơi A. Người ta xác định chi phí trung bình cho mỗi sản phẩm đồ chơi A là $M\\left( x \\right)=\\frac{T\\left( x \\right)}{x}$. Khi $x$ đủ lớn $\\left( x\\to +\\infty \\right)$thì chi phí trung bình (USD) cho mỗi sản phẩm đồ chơi A là bao nhiêu?",
-   "explanation": "Trả lời: 5\nTổng chi phí để sản xuất $x$ sản phẩm đồ chơi A bao gồm chi phí ban đầu là 50.000 USD và chi phí sản xuất mỗi sản phẩm là 5 $\\text{US}D$\nVậy, biểu thức của $T\\left( x \\right)=50000+5x$\nChi phí trung bình cho mỗi sản phẩm đồ chơi A là:\n$M\\left( x \\right)=\\frac{T\\left( x \\right)}{x}=\\frac{50000+5x}{x}=\\frac{50000}{x}+5$\nKhi đó $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,M\\left( x \\right)=\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left( \\frac{50000}{x}+5 \\right)=5$\nKhi $x$ đủ lớn, chi phí trung bình cho mỗi sản phẩm đồ chơi A là 5 $\\text{US}D$",
+   "explanation": "Trả lời: 5\nTổng chi phí để sản xuất $x$ sản phẩm đồ chơi A bao gồm chi phí ban đầu là 50.000 USD và chi phí sản xuất mỗi sản phẩm là 5 $\\text{US}D$\nVậy, biểu thức của $T\\left( x \\right)=50000+5x$\nChi phí trung bình cho mỗi sản phẩm đồ chơi A là:\n$M\\left( x \\right)=\\frac{T\\left( x \\right)}{x}=\\frac{50000+5x}{x}=\\frac{50000}{x}+5$\nKhi đó $\\underset{x\\to +\\infty }{\\lim}\\,M\\left( x \\right)=\\underset{x\\to +\\infty }{\\lim}\\,\\left( \\frac{50000}{x}+5 \\right)=5$\nKhi $x$ đủ lớn, chi phí trung bình cho mỗi sản phẩm đồ chơi A là 5 $\\text{US}D$",
    "short_value": 5,
    "short_correct": "5",
    "ma": "de1.P3.C3",
@@ -557,7 +560,7 @@
    "answer": null,
    "flags": [],
    "question": "Một chiếc tàu rời bến lúc 1 giờ và chạy theo hướng nam với vận tốc 20 km/h. Một chiếc tàu khác đi theo hướng đông với vận tốc 15 km/h và cập bến nói trên lúc 2 giờ. Hỏi khoảng cách ngắn nhất giữa hai chiếc tàu?",
-   "explanation": "Trả lời: $12$\n[[IMG:image10.png]]\nGọi khoảng cách hai tàu bằng AB, vị trí bến là O.\nTrước 1 giờ, AB $>15$km; đúng 1 giờ; AB $=15$km.\nĐúng 2 giờ, AB $=20$km; sau 2 giờ, AB $>20$km.\nVậy ta chỉ cần xét trong khoảng thời gian từ 1 giờ đến 2 giờ.\nGọi t là thời gian hai tàu đi kể từ lúc 1 giờ, $t\\in \\left[ 0;1 \\right]$.\nTa có OA$=20t$ (km); OB$=15-15t$ (km).\nVậy khoảng cách hai chiếc tàu là AB$=\\sqrt{{{\\left( 20t \\right)}^{2}}+{{\\left( 15-15t \\right)}^{2}}}$ (km).\nXét hàm số$f\\left( t \\right)=625{{t}^{2}}-450t+225$ trên $t\\in \\left[ 0;1 \\right]$, ta có $\\underset{t\\in \\left[ 0;1 \\right]}{\\mathop{\\min }}\\,f\\left( t \\right)=144$ đạt khi $t=0,36$.\nVậy khoảng cách ngắn nhất giữa hai chiếc tàu là 12 km.",
+   "explanation": "Trả lời: $12$\n[[IMG:image10.png]]\nGọi khoảng cách hai tàu bằng AB, vị trí bến là O.\nTrước 1 giờ, AB $>15$km; đúng 1 giờ; AB $=15$km.\nĐúng 2 giờ, AB $=20$km; sau 2 giờ, AB $>20$km.\nVậy ta chỉ cần xét trong khoảng thời gian từ 1 giờ đến 2 giờ.\nGọi t là thời gian hai tàu đi kể từ lúc 1 giờ, $t\\in \\left[ 0;1 \\right]$.\nTa có OA$=20t$ (km); OB$=15-15t$ (km).\nVậy khoảng cách hai chiếc tàu là AB$=\\sqrt{{{\\left( 20t \\right)}^{2}}+{{\\left( 15-15t \\right)}^{2}}}$ (km).\nXét hàm số$f\\left( t \\right)=625{{t}^{2}}-450t+225$ trên $t\\in \\left[ 0;1 \\right]$, ta có $\\underset{t\\in \\left[ 0;1 \\right]}{\\min}\\,f\\left( t \\right)=144$ đạt khi $t=0,36$.\nVậy khoảng cách ngắn nhất giữa hai chiếc tàu là 12 km.",
    "short_value": 12,
    "short_correct": "12",
    "ma": "de1.P3.C4",
@@ -606,7 +609,7 @@
    "flags": [],
    "question": "Cho biết bốn đoạn thẳng nối từ một đỉnh của tứ diện đến trọng tâm mặt đối diện luôn cắt nhau tại một điểm gọi là trọng tâm của tứ diện đó. Một phân tử metan ${{CH}_4}$ được cấu tạo bởi bốn nguyên tử hydrogen ở các đỉnh của một tứ diện đều và một nguyên tử carbon ở trọng tâm của tứ diện. Góc liên kết là góc tạo bởi liên kết ${{H}-{C}-{H}}$ là góc giữa các đường nối nguyên tử carbon với hai trong số các nguyên tử hydrogen. Tìm độ lớn góc liên kết này theo đơn vị độ và làm tròn đến hàng đơn vị.\n[[IMG:image7.png]]",
    "explanation": "Trả lời: $110$\n[[IMG:image11.png]]\nTừ hình vẽ ta thấy góc liên kết là góc ${(\\overrightarrow{G A}, \\overrightarrow{G S})}$.\nTa có: ${A E \\perp B C, S H \\perp(A B C) \\Rightarrow\\left\\{\\begin{array}{l}S H \\perp A E \\\\ S H \\perp B C\\end{array}\\right.}$ nên ta có hệ trục tọa độ như hình với với $E$ trùng với gốc tọa độ ${{O}}$.\nGiả sử các cạnh của tứ diện có độ dài là $1$\nTa có: $SE=AE=\\sqrt{A{{B}^{2}}-B{{E}^{2}}}=\\sqrt{{{1}^{2}}-{{\\left( \\frac{1}{2} \\right)}^{2}}}=\\frac{\\sqrt{3}}{2}\\Rightarrow A\\left( \\frac{\\sqrt{3}}{2};0;0 \\right)$\n$\\begin{aligned} & HE=\\frac{AE}{3}=\\frac{\\sqrt{3}}{6}\\Rightarrow H\\left( \\frac{\\sqrt{3}}{6};0;0 \\right) \\\\ & SH=\\sqrt{S{{E}^{2}}-H{{E}^{2}}}=\\sqrt{{{\\left( \\frac{\\sqrt{3}}{2} \\right)}^{2}}-{{\\left( \\frac{\\sqrt{3}}{6} \\right)}^{2}}}=\\frac{\\sqrt{6}}{3}\\Rightarrow S\\left( \\frac{\\sqrt{3}}{6};0;\\frac{\\sqrt{6}}{3} \\right) \\\\ \\end{aligned}$\nLại có: ${\\frac{F E}{S E}=\\frac{H E}{A E}=\\frac{1}{3} \\Rightarrow F H / / S A}$ và $AF$ cắt $SH$ tại ${G}$\nSuy ra $\\frac{GH}{GS}=\\frac{1}{3}$ $\\Rightarrow GH=\\frac{1}{4}SH=\\frac{1}{4}\\cdot \\frac{\\sqrt{6}}{3}=\\frac{\\sqrt{6}}{12}\\Rightarrow G\\left( \\frac{\\sqrt{3}}{6};0;\\frac{\\sqrt{6}}{12} \\right)$.\nDo đó:\n$\\overrightarrow{GA}=\\left( \\frac{\\sqrt{3}}{3};0;-\\frac{\\sqrt{6}}{12} \\right)\\Rightarrow GA=\\frac{\\sqrt{6}}{4}$\n$\\overrightarrow{GS}=\\left( 0;0;\\frac{\\sqrt{6}}{4} \\right)\\Rightarrow GS=\\frac{\\sqrt{6}}{4}$.\nTa có: $\\cos (\\overrightarrow{GA},\\overrightarrow{GS})=\\frac{-\\frac{\\sqrt{6}}{12}\\cdot \\frac{\\sqrt{6}}{4}}{\\frac{\\sqrt{6}}{4}\\cdot \\frac{\\sqrt{6}}{4}}=-\\frac{1}{3}\\Rightarrow (\\overrightarrow{GA},\\overrightarrow{GS})\\approx 110{}^\\circ $.",
-   "short_value": 109,
+   "short_value": 110,
    "short_correct": "109",
    "ma": "de1.P3.C6",
    "dac_trung": {
@@ -616,6 +619,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D08",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

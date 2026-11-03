@@ -395,14 +395,12 @@
     "a": true,
     "b": false,
     "c": true,
-    "d": false
+    "d": true
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "Vì $k\\in \\mathbb{Z}$ nên $k=0;1$.\nVì $x\\in \\left[ 0;\\pi \\right]$ nên $x=\\frac{\\pi }{4}$, $x=\\frac{3\\pi }{4}$.\nDo đó tổng các nghiệm của phương trình trong đoạn $\\left[ 0;\\pi \\right]$ bằng $\\pi $.\nGiá của một chiếc xe ô tô lúc mới mua là 680 triệu đồng. Cứ sau mỗi năm sử dụng, giá của chiếc xe ô tô giảm 50 triệu đồng. Gọi ${{u}_{n}}$ (triệu đồng) là giá của chiếc ô tô trong năm thứ $n$ sử dụng.",
-   "explanation": "a) Giá của chiếc ô tô trong năm thứ 2 là: ${{u}_{2}}=680-50=630$ triệu đồng.\nb) Dãy số $\\left( {{u}_{n}} \\right)$ là cấp số cộng với công sai $d=-50$.\nc) Giá của chiếc ô tô sau 3 năm sử dụng: ${{u}_{4}}={{u}_{1}}+3d=680-3.50=530$ triệu đồng.\nd) Ta có: ${{u}_{n}}<340\\Leftrightarrow {{u}_{1}}+(n-1).d<340$\n$\\begin{aligned} & \\Leftrightarrow 680+(n-1).(-50)<340 \\\\",
+   "flags": [],
+   "question": "Giá của một chiếc xe ô tô lúc mới mua là 680 triệu đồng. Cứ sau mỗi năm sử dụng, giá của chiếc xe ô tô giảm 50 triệu đồng. Gọi ${{u}_{n}}$ (triệu đồng) là giá của chiếc ô tô trong năm thứ $n$ sử dụng.",
+   "explanation": "a) $u_2 = 680 - 50 = 630$ (triệu đồng).\nb) Dãy $(u_n)$ là cấp số cộng với công sai $d = -50$ (giá giảm 50 mỗi năm), không phải $d = 50$.\nc) Sau 3 năm sử dụng là năm thứ 4: $u_4 = 680 + 3 \\cdot (-50) = 530 > 500$ (triệu đồng).\nd) $u_n < 340 \\Leftrightarrow 680 + (n-1) \\cdot (-50) < 340 \\Leftrightarrow n > 7,8$ nên từ năm thứ 8 trở đi giá nhỏ hơn một nửa giá ban đầu (340 triệu đồng).",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -411,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B2.D06",
    "dang_toan_web": "Cấp số cộng: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -432,10 +431,8 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "& \\Leftrightarrow -50n+730<340 \\\\\n& \\Leftrightarrow n>7,8 \\\\\n\\end{aligned}$ Suy ra \\text{đến} \\text{năm} \\text{thứ} 8 \\text{thì} \\text{giá} \\text{trị} \\text{của} \\text{chiếc} xe \\text{nhỏ} \\text{hơn} \\text{một} \\text{nửa} \\text{giá} \\text{trị} ban \\text{đầu} \\text{của} \\text{nó}. Cho \\text{hàm} \\text{số} \\text{bậc} hai $y=f\\left( x \\right)$ có đồ thị như hình vẽ bên dưới. [[IMG:image7.png]]",
+   "flags": [],
+   "question": "Cho hàm số bậc hai $y=f\\left( x \\right)$ có đồ thị như hình vẽ bên dưới. [[IMG:image7.png]]",
    "explanation": "a) Hàm số đã cho làm hàm đa thức bậc hai nên hàm số liên tục trên $\\mathbb{R}.$\nb) Từ đồ thị, ta có $f\\left( 1 \\right)=0$, mà hàm số liên tục tại $x=1$. Suy ra $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)=0.$\nc) Đặt $f\\left( x \\right)=a{{x}^{2}}+bx+c.$\nĐồ thị hàm số đã cho có đỉnh $I\\left( -1\\,;\\,-4 \\right)$ và đi qua $M\\left( 1\\,;\\,0 \\right)$ nên$\\left\\{ \\begin{aligned} & a-b+c=-4 \\\\ & -\\frac{b}{2a}=-1 \\\\ & a+b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=-3 \\\\ \\end{aligned} \\right..$\nKhi đó $\\underset{x\\to 3}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 3}{\\lim}\\,\\left( {{x}^{2}}+2x-3 \\right)=12.$\nd) $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-2x+1+x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}$",
    "ma": "de1.P2.C3",
    "dac_trung": {
@@ -445,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -516,7 +514,7 @@
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Một bồn chứa nước hình trụ bằng bê tông cao $4$ mét, đặt vuông góc với măt đất, chỉ chừa một nắp nhỏ bên ngoài để bơm nước vào bồn, trong bồn có sẵn một lượng nước. Để đo chiều cao mực nước trong bồn người ta có cách đo như sau: Lấy một cây sào tre có chiều cao $5$ mét nhúng vào thùng nước sao cho có một đầu chạm đáy và một đầu chạm với mặt trên của bồn nước (như hình vẽ) sau khi rút sào tre thì đo được phần sào tre bị ước là $1,5$mét. Hỏi mực nước trong bồn cao bao nhiêu mét.\n[[IMG:image8.png]]",
-   "explanation": "Trả lời: 1,2\n[[IMG:image15.png]]\nGọi chiều cao mặt nước trong bồn là$x\\left( m \\right)$. ĐK $x>0$\nVì mặt nước trong bồn và 2 mặt đáy tạo thành 3 mặt phẳng song song\nÁp dụng định lý talét,\nta có $\\frac{x}{4}=\\frac{1,5}{5}\\Rightarrow x=\\frac{1,5.4}{5}=1,2m$.\nCân nặng của một số lợn con mới sinh thuộc hai giống A và B được cho ở biểu đồ dưới đây (đơn vị: kg)\n[[IMG:image9.png]]\nTổng của tứ phân vị thứ nhất và thứ ba của cân nặng lợn con mới sinh giống A và cân nặng của\nlợn con mới sinh giống B gần nhất với số nào sau (kết quả làm tròn đến hàng phần trăm)\nTrả lời: 4,85\n[[IMG:image16.png]]\n* Con giống A:\nCỡ mẫu là $823175$ nên tứ phân vi thứ nhất là $\\frac{x_{21} + x_{22}}{2}$ . Do $x_1,x_2\\in[1,1,2)$\nnên tứ phân vị thứ nhất của mẫu số liệu là: $Q_{4}=1,1+\\dfrac{\\dfrac{85}{4}-8}{28}.Q_{1}\\approx 1,15$ .\nTứ phân vi thứ ba là$\\frac{{{x}_{64}}+{{x}_{65}}}{2}$. Do${{x}_{64}};{{x}_{65}}$thuộc$\\left[ 1,2;1,3 \\right)$\nnên tứ phân vị thứ ba của mẫu số liệu là: $Q_{4}=12+\\dfrac{3\\cdot\\dfrac{85}{4}-36}{32}\\cdot0,1\\approx1,29$ .\n* Con giống B:\nCỡ mẫu là $B42446$ nên tứ phân vi thứ nhất là $\\frac{y_{16} + y_{17}}{2}$ . Do $x_6,x_7\\in[11,12)$\nnên tứ phân vị thứ nhất của mẫu số liệu là: $Q_B=1,1+\\dfrac{\\dfrac{65}{4}-13}{14}.Q_1\\approx1,12$ .\nTứ phân vi thứ ba là $\\frac{{{y}_{49}}+{{y}_{50}}}{2}$. Do ${{y}_{64}};{{y}_{65}}$ thuộc$\\left[ 1,2;1,3 \\right)$\nnên tứ phân vị thứ ba của mẫu số liệu là: $Q_{B}=12+\\dfrac{3^{\\dfrac{65}{4}-27}}{24}.01\\approx 129$ .\nVậy $\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}+\\overrightarrow{DE}+\\overrightarrow{EF}+\\overrightarrow{FA}=\\overrightarrow{0}$ .\nMột chiếc cầu bắt qua sông, mặt dưới gầm cầu có dạng hình cung $AB$biểu thị bởi hàm số $y=\\frac{8}{\\sqrt{3}}\\cos \\frac{x}{12}+2$ với $x\\in \\left[ -6\\pi ;6\\pi \\right]$ như hình minh họa sau:\n[[IMG:image10.png]]\nBiết qui định chiều cao tối đa của phương tiện giao thông hàng hóa qua lại dưới gầm cầu phải thấp hơn mặt nước gầm ít nhất 0,8 mét. Một sà lan chở khối hàng hóa có hình dạng là một khối hộp chữ nhật với độ cao 5,2 mét so với mặt nước sông muốn đi qua gầm cầu. Tính bề rộng tối đa của khối hàng hóa để sà lan qua được gầm cầu đúng qui định (lấy số $\\pi \\approx 3,14$). (kết quả làm tròn đến hàng phần mười)\nTrả lời: 12,6\nChọn hệ trục tọa độ trong mặt phẳng tọa độ $Oxy$như sau\n[[IMG:image10.png]]\nTrong đó trục $Ox$mô tà là mặt nước thủy triều của sông; trục Oy là khoảng cách giửa đỉnh cầu và mặt nước thủy triều của sông.\nXét điểm $M\\left( x;y \\right)$nằm trên cung$AB$, khoảng cách từ điểm $M\\left( x;y \\right)$đến mặt nước tương ứng với giá trị tung độ $y$của điểm $M$.\nXét phương trình $\\frac{8}{\\sqrt{3}}\\cos \\frac{x}{12}+2=5,2+0,8\\Leftrightarrow \\cos \\frac{x}{12}=\\frac{\\sqrt{3}}{2}$\nVì $x\\in \\left[ -6\\pi ;6\\pi \\right]\\Rightarrow \\frac{x}{12}\\in \\left[ -\\frac{\\pi }{2};\\frac{\\pi }{2} \\right]$\nNên $\\cos \\frac{x}{12}=\\frac{\\sqrt{3}}{2}\\Leftrightarrow \\frac{x}{12}=\\pm \\frac{\\pi }{6}\\Leftrightarrow x=\\pm 2\\pi hay\\left| x \\right|=2\\pi $\nĐể sà lan có thể đi qua được gầm cầu đúng qui định thì bề rộng khối hàng là\n$2\\left| x \\right|=4\\pi =4x3,14=12,56\\approx 12,6$",
+   "explanation": "Tra loi: 1,2\nGoi chieu cao mat nuoc trong bon la $x$ (m), $x>0$. Vi mat nuoc trong bon va 2 mat day tao thanh 3 mat phang song song, ap dung dinh ly Ta-let, ta co $\\frac{x}{4}=\\frac{1,5}{5}\\Rightarrow x=\\frac{1,5\\cdot 4}{5}=1,2$ (m).",
    "short_value": 1.2,
    "short_correct": "1,2",
    "ma": "de1.P3.C2",
@@ -527,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C1.B3.D06",
    "dang_toan_web": "Hàm số lượng giác ($y = \\sin x, y = \\cos x, y = \\tan x, y = \\cot x$) và đồ thị."

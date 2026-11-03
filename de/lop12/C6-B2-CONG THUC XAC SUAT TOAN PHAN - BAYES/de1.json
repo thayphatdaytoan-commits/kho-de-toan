@@ -3,7 +3,8 @@
   "grade": "12",
   "chapter": "6",
   "lesson": "2",
-  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes"
+  "title": "Bài 2. Công thức xác suất toàn phần – công thức bayes",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -215,9 +216,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hai biến cố $A$ và $B$, với $P\\left( A \\right)=0,2$, $P\\left( B|A \\right)=0,7$, $P\\left( B|\\overline{A} \\right)=0,15$. Tính $P\\left( A|B \\right)$.",
    "explanation": "+ Ta có: $P\\left( A \\right)=0,2$ $\\Rightarrow P\\left( \\overline{A} \\right)=0,8$, $P\\left( B|A \\right)=0,7$, $P\\left( B|\\overline{A} \\right)=0,15$.\n+ $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( \\overline{A} \\right).P\\left( B|\\overline{A} \\right)$ $\\Rightarrow P\\left( B \\right)=0,2.0,7+0,8.0,15=0,26$.\n+ Theo công thức Bayes: $P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}$ $\\Rightarrow P\\left( A|B \\right)=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}$.",
    "options": [
@@ -234,6 +233,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -486,9 +486,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tại một địa phương có 500 người cao tuổi, bao gồm 260 nam và 240 nữ. Trong nhóm người cao tuổi nam và nữ lần lượt có ${40 \\%}$ và ${55 \\%}$ bị bệnh tiểu đường. Chọn ngẫu nhiên một người. Xác suất để chọn được một người không bị bệnh tiểu đường là bao nhiêu? (kết quả làm tròn đến hàng phần trăm)",
    "explanation": "Xét các biến cố:\n${A}$ : \"Chọn được người không bị bệnh tiểu đường\";\n${B}$ : \"Chọn được người cao tuổi là nam\";\n${\\bar{B}}$ : \"Chọn được người cao tuổi là nữ\".\nTừ giả thiết, ta có: $\\text{P}\\left( B \\right)=\\frac{260}{500}=0,52$; $\\text{P}\\left( A\\mid B \\right)=1-0,4=0,6$;\n$\\text{P}\\left( {\\bar{B}} \\right)=\\frac{240}{500}=0,48$; $\\text{P}\\left( A\\mid \\bar{B} \\right)=1-0,55=0,45$.\nTheo công thức xác suất toàn phần, ta có:\n$\\text{P}(A)=\\text{P}(B)\\cdot \\text{P}(A\\mid B)+\\text{P}(\\bar{B})\\cdot \\text{P}(A\\mid \\bar{B})=0,52\\cdot 0,6+0,48\\cdot 0,45=0,528\\approx 0,53$.\nVậy xác suất để chọn được một người không bị bệnh tiểu đường là $0,53$.",
    "short_value": 0.53,
@@ -501,6 +499,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -512,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có hai hộp bóng bàn, các quả bóng bàn có kích thước và hình dạng như nhau. Hộp thứ nhất có 3 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng. Hộp thứ hai có 6 quả bóng bàn màu trắng và 4 quả bóng bàn màu vàng. Lấy ngẫu nhiên 4 quả bóng bàn ở hộp thứ nhất bỏ vào hộp thứ hai rồi lấy ngẫu nhiên 1 quả bóng bàn ở hộp thứ hai ra. Tính xác suất để lấy được quả bóng bàn màu vàng từ hộp thứ hai.",
    "explanation": "Vì hộp thứ nhất có 3 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng nên khi lấy 4 quả bóng bàn ở hộp thứ nhất thì có hai khả năng: khả năng thứ nhất là lấy được 3 quả bóng bàn màu trắng và 1 quả bóng bàn màu vàng; khả năng thứ hai là lấy được 2 quả bóng bàn màu trắng và 2 quả bóng bàn màu vàng.\nXét các biến cố:\nA : \"Lấy được quả bóng bàn màu vàng từ hộp thứ hai\";\n${B}$ : \"Lấy được 4 quả bóng bàn ở hộp thứ nhất, trong đó có 1 quả bóng bàn màu vàng\";\n${\\bar{B}}$ : \"Lấy được 4 quả bóng bàn ở hộp thứ nhất, trong đó có 2 quả bóng bàn màu vàng\".\nTrường hợp 1: Số cách lấy 4 quả bóng bàn từ hộp thứ nhất là ${\\mathrm{C}_5^4}$, có 1 cách lấy 3 quả bóng bàn màu trắng và 2 cách lấy 1 quả bóng bàn màu vàng, suy ra $\\text{P}\\left( B \\right)=\\frac{1\\cdot 2}{\\text{C}_{5}^{4}}=\\frac{2}{5}$.\nVi khi đó hộp thứ hai có 9 quả bóng bàn màu trắng và 5 quả bóng bàn màu vàng nên ${\\mathrm{P}(A \\mid B)=\\frac{5}{14}}$.\nTrường hợp 2: Số cách lấy 4 quả bóng bàn từ hộp thứ nhất là ${\\mathrm{C}_5^4}$, có ${\\mathrm{C}_3^2}$ cách lấy 2 quả bóng bàn màu trắng và 1 cách lấy 2 quả bóng bàn màu vàng, suy ra ${\\mathrm{P}(\\bar{B})=\\frac{\\mathrm{C}_3^2 \\cdot 1}{\\mathrm{C}_5^4}=\\frac{3}{5}}$.\nVì khi đó hộp thứ hai có 8 quả bóng bàn màu trắng và 6 quả bóng bàn màu vàng nên ${\\mathrm{P}(A \\mid \\bar{B})=\\frac{6}{14}}$.\nTheo công thức xác suất toàn phần, ta có:\n$\\text{P}\\left( A \\right)\\text{=P}\\left( B \\right)\\cdot \\text{P}\\left( A\\mid B \\right)+\\text{P}\\left( {\\bar{B}} \\right)\\text{.P}\\left( A\\mid \\bar{B} \\right)=\\frac{2}{5}\\cdot \\frac{5}{14}+\\frac{3}{5}\\cdot \\frac{6}{14}=0,4$.\nVậy xác suất để lấy được quả bóng bàn màu vàng từ hộp thứ hai là $0,4$.",
    "short_value": 0.4,
@@ -527,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -538,9 +536,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một đợt nghiên cứu tỷ lệ ung thư do hút thuốc lá gây nên, người ta thấy rằng tại tỉnh Hà Nam tỉ lệ người dân của tỉnh nghiện thuốc lá là 20%; tỉ lệ người bị bệnh ung thư trong số người nghiện thuốc lá là 70%, trong số người không nghiện thuốc lá là 15%. Hỏi khi gặp một người bị bệnh ung thư tại tỉnh này thì xác suất người đó nghiện thuốc lá là bao nhiêu ( kết quả làm tròn đến hàng phần trăm)?",
    "explanation": "Gọi $A$ là biến cố “người nghiện thuốc lá”, suy ra $\\bar{A}$ là biến cố “người không nghiện thuốc lá”\nGọi $B$ là biến cố “người bị bệnh ung thư”\nTheo giả thiết ta có:\n$\\begin{aligned} & P\\left( A \\right)=0,2\\Rightarrow P\\left( {\\bar{A}} \\right)=0,8 \\\\ & P\\left( B|A \\right)=0,7 \\\\ & P\\left( B|\\bar{A} \\right)=0,15 \\\\ \\end{aligned}$\nÁp dụng công thức xác suất toàn phần ta có: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=0,2.0,7+0,8.0,15=0,26$\nXác suất mà người đó là nghiện thuốc lá khi biết bị bệnh ung thư là $P\\left( A|B \\right)$\nTheo công thức Bayes, ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{0,2.0,7}{0,26}=\\frac{7}{13}\\approx 0,54$.\nNhư vậy khi gặp một người bị bệnh ung thư tại tỉnh này thì xác suất (làm tròn đến hàng phần trăm) người đó nghiện thuốc lá là $0,54$.",
    "short_value": 0.54,
@@ -553,6 +549,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -564,9 +561,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một đội bắn súng gồm có 8 nam và 2 nữ. Xác suất bắn trúng của các xạ thủ nam là 0,8 còn của các xạ thủ nữ là 0,9. Chọn ngẫu nhiên một xạ thủ bắn một viên đạn và xạ thủ đó đã bắn trúng. Tính xác suất (làm tròn đến hàng phần trăm) để xạ thủ đó là nữ?",
    "explanation": "Gọi $A$ là biến cố “Xạ thủ được chọn là nữ”, suy ra $\\bar{A}$ là biến cố “xạ thủ được chọn là nam”\nGọi $B$ là biến cố “xạ thủ được chọn bắn trúng”\nTheo giả thiết ta có:\n$\\begin{aligned} & P\\left( A \\right)=\\frac{2}{2+8}=\\frac{1}{5}\\Rightarrow P\\left( {\\bar{A}} \\right)=\\frac{4}{5} \\\\ & P\\left( B|A \\right)=0,9 \\\\ & P\\left( B|\\bar{A} \\right)=0,8 \\\\ \\end{aligned}$\nÁp dụng công thức xác suất toàn phần ta có: $P\\left( B \\right)=P\\left( A \\right).P\\left( B|A \\right)+P\\left( {\\bar{A}} \\right).P\\left( B|\\bar{A} \\right)=\\frac{1}{5}.0,9+\\frac{4}{5}.0,8=0,82$\nXác suất để xạ thủ được chọn ra bắn trúng đó là nữ là $P\\left( A|B \\right)$\nTheo công thức Bayes, ta có\n$P\\left( A|B \\right)=\\frac{P\\left( A \\right).P\\left( B|A \\right)}{P\\left( B \\right)}=\\frac{\\frac{1}{5}.0,9}{0,82}=\\frac{9}{41}\\approx 0,22$.\nVậy xác suất để xạ thủ bắn trúng đó là nữ là $0,22$.",
    "short_value": 0.22,
@@ -579,6 +574,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -618,7 +614,7 @@
    "flags": [],
    "question": "Một lớp học có số học sinh nữ chiếm 45% tổng số học sinh cả lớp. Cuối năm tổng kết, lớp học đó có tỉ lệ học sinh giỏi là nữ là 30%, học sinh giỏi là nam chiếm 40%. Giáo viên chủ nhiệm cần chọn 1 học sinh của lớp để đại diện cho lớp lên nhận thưởng.\nBiết rằng học sinh được chọn là học sinh giỏi. Tính xác suất để em đó là nữ (làm tròn đến hàng phần trăm).",
    "explanation": "Gọi $A$ là biến cố “học sinh được chọn là học sinh giỏi”\nvà $B$ là biến cố “học sinh được chọn là học sinh nữ”.\nTheo bài ra ta có: $P\\left( B \\right)=0,45;\\begin{matrix} {} \\\\ \\end{matrix}P\\left( \\overline{B} \\right)=1-0,45=0,55$.\nDo lớp học đó có tỉ lệ học sinh giỏi là nữ là 30%, học sinh giỏi là nam chiếm 40% nên:\n$P\\left( A|B \\right)=0,3$ và $P\\left( A|\\overline{B} \\right)=0,4$.\nTheo công thức xác suất toàn phần ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,45.0,3+0,55.0,4\\simeq 0,36$.\nĐáp số: $0,36$\nGọi $C$ là biến cố “học sinh giỏi được chọn là học sinh nữ” thì $C=B|A$, nên, theo công thức Bayes ta có: $P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( A \\right)}=\\frac{0,45.0,3}{0,355}\\simeq 0,38$.\nĐáp số: $0,38$.",
-   "short_value": 0.4,
+   "short_value": 0.36,
    "short_correct": "0,38",
    "ma": "de1.P3.C6",
    "dac_trung": {

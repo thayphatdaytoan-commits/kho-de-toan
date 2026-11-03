@@ -488,9 +488,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Có hai lô sản phẩm gồm các loại sản phẩm tốt và xấu. Lô 1 có 50 sản phẩm trong đó có 20 sản phẩm xấu, lô 2 có 40 sản phẩm trong đó có 15 sản phẩm xấu. Lấy ngẫu nhiên một lô và từ đó lấy ra một sản phẩm. Tìm xác suất để sản phẩm lấy ra là sản phẩm tốt (kết quả làm tròn đến hàng phần trăm).",
-   "explanation": "Gọi ${{B}_{1}}$ là biến cố “chọn lô sản phẩm 1”; ${{B}_{2}}$là biến cố “chọn lô sản phẩm 2”, $A$ là biến cố “sản phẩm lấy ra là sản phẩm tốt”.\nTa có $P\\left( {{B}_{1}} \\right)=P\\left( {{B}_{2}} \\right)=\\frac{1}{2}$, $P\\left( A\\left| {{B}_{1}} \\right. \\right)=\\frac{30}{50}$, $P\\left( A\\left| {{B}_{2}} \\right. \\right)=\\frac{25}{45}$.\nTheo công thức xác suất toàn phần ta có:\n$P\\left( A \\right)=P(\\left( {{B}_{1}} \\right)P\\left( A\\left| {{B}_{1}} \\right. \\right)+P\\left( {{B}_{2}} \\right).P\\left( A\\left| {{B}_{2}} \\right. \\right)=\\frac{1}{2}.\\frac{30}{50}+\\frac{1}{2}.\\frac{25}{40}=0,6125$.\nVậy xác suất lấy ra sản phẩm tốt là $0,61$.",
+   "explanation": "Gọi $B_{1}$ là biến cố chọn lô 1, $B_{2}$ là biến cố chọn lô 2, $A$ là biến cố lấy được sản phẩm tốt. Ta có $P(B_{1})=P(B_{2})=\\frac{1}{2}$, $P(A|B_{1})=\\frac{30}{50}$, $P(A|B_{2})=\\frac{25}{40}$. Theo công thức xác suất toàn phần: $P(A)=\\frac{1}{2}\\cdot\\frac{30}{50}+\\frac{1}{2}\\cdot\\frac{25}{40}=0,6125$. Làm tròn đến hàng phần trăm được $0,61$.",
    "short_value": 0.61,
-   "short_correct": "0,61|0,6125",
+   "short_correct": "0,61",
    "ma": "de1.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -499,6 +499,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -510,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một dây chuyền may sản xuất ra hai sản phẩm: áo thun và áo sơ mi. Theo thống kê, trong một ngày dây chuyền này có $90\\%$ áo thun sản xuất đạt chất lượng và $85\\%$ áo sơ mi sản xuất đạt chất lượng. Áo thun chiếm $60\\%$ sản lượng sản xuất trong một ngày. Chọn ngẫu nhiên một sản phẩm trong số sản phẩm dây chuyền này sản xuất trong một ngày. Tính xác suất để sản phẩm được chọn đạt chất lượng.",
    "explanation": "Xét hai biến cố: $A$: “Sản phẩm được chọn là đạt chất lượng”;\n$B$: “Sản phẩm được chọn là áo thun”.\nTừ giả thiết ta có: $P\\left( B \\right)=0,6;P\\left( \\overline{B} \\right)=0,4$;$P\\left( A|B \\right)=0,9;P\\left( A|\\overline{B} \\right)=0,85$.\nÁp dụng công thức xác suất toàn phần, ta có:\n$P\\left( A \\right)=P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)=0,6.0,9+0,4.0,85=0,88$.",
    "short_value": 0.88,
@@ -525,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -551,6 +551,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -562,9 +563,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một cặp trẻ sinh đôi có thể do cùng một trứng (sinh đôi thật) hay do hai trứng khác nhau sinh ra (sinh đôi giả). Các cặp sinh đôi thật luôn luôn có cùng giới tính. Các cặp sinh đôi giả thì giới tính của mỗi đứa độc lập với nhau và có xác suất là$0.5$. Thống kê cho thấy $34\\%$ cặp sinh đôi là trai, $30\\%$ cặp sinh đôi là gái và $36\\%$ cặp sinh đôi có giới tính khác nhau. Tính tỷ lệ cặp sinh đôi thật trong số các cặp sinh đôi có cùng giới tính. (Làm tròn đến hàng phần trăm)",
    "explanation": "Gọi $A$ là biến cố: “Nhận được cặp sinh đôi thật”;\n$B$ là biến cố: “Nhận được cặp sinh đôi có cùng giới tính”.\nDo các cặp sinh đôi thật luôn có cùng giới tính nên $P\\left( B\\left| A \\right. \\right)=1$.\nVì các cặp sinh đôi giả thì giới tính của mỗi đứa độc lập với nhau và có xác suất là $0.5$ nên $P\\left( B\\left| \\overline{A} \\right. \\right)=P\\left( \\overline{B}\\left| \\overline{A} \\right. \\right)=0.5$.\nDo thống kê trên các cặp sinh đôi nhận được thì $P\\left( B \\right)=0.3+0.34=0.64$, $P\\left( \\overline{B} \\right)=0.36$.\nÁp dụng công thức xác suất toàn phần ta có\n$P\\left( B \\right)=P\\left( B\\left| A \\right. \\right)P\\left( A \\right)+P\\left( B\\left| \\overline{A} \\right. \\right)P\\left( \\overline{A} \\right)\\,=P\\left( B\\left| A \\right. \\right)P\\left( A \\right)+P\\left( B\\left| \\overline{A} \\right. \\right)\\left( 1-P\\left( A \\right) \\right).$\nSuy ra $0.64=P\\left( A \\right)+0.5\\left[ 1-P\\left( A \\right) \\right]\\Rightarrow P\\left( A \\right)=0.28$.\nÁp dụng công thức Bayes ta có $P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( B\\left| A \\right. \\right)P\\left( A \\right)}{P\\left( B \\right)}=\\frac{0.28}{0.64}\\approx 0.44.$",
    "short_value": 0.44,
@@ -577,6 +576,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị."
@@ -588,9 +588,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Dây chuyền lắp ráp nhận được các chi tiết do hai máy sản xuất. Trung bình máy thứ nhất cung cấp 60% chi tiết, còn lại là của máy thứ hai. Khoảng 90% chi tiết do máy thứ nhất sản xuất đạt tiêu chuẩn, còn 85% chi tiết do máy thứ 2 sản xuất là đạt tiêu chuẩn. Lấy ngẫu nhiên từ dây chuyền một sản phẩm, thấy nó đạt tiêu chuẩn. Xác suất để sản phẩm đó do máy thứ nhất sản xuất là $\\frac{a}{b}$ với $\\frac{a}{b}$ là phân số tối giản và $a,\\,b\\in \\mathbb{Z}$. Tính $a+2b$.",
    "explanation": "Gọi $A$ là biến cố: “Chi tiết lấy từ dây chuyền đạt tiêu chuẩn”\n$B$ là biến cố: “Chi tiết do máy thứ nhất sản xuất”.\nTheo công thức Bayes ta có\n$P\\left( B|A \\right)=\\frac{P\\left( B \\right).P\\left( A|B \\right)}{P\\left( B \\right).P\\left( A|B \\right)+P\\left( \\overline{B} \\right).P\\left( A|\\overline{B} \\right)}=\\frac{0,6.0,9}{0,6.0,9+0,4.0,85}=\\frac{27}{44}$\nKhi đó: $a=27;\\,\\,b=44\\Rightarrow a+2b=27+2.44=115$.",
    "short_value": 115,
@@ -603,6 +601,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -618,9 +617,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Một bộ lọc được sử dụng để chặn thư rác trong các tài khoản thư điện tử. Tuy nhiên, vì bộ lọc không tuyệt đối hoàn hảo nên một thư rác bị chặn với xác suất $0,95$ và một thư đúng (không phải là thư rác) bị chặn với xác suất $0,01$. Thống kê cho thấy tỉ lệ thư rác là $3\\%$. Hỏi trong số các thư không bị chặn, có bao nhiêu phần trăm là thư rác?",
-   "explanation": "Gọi $A$ là biến cố: “Thư được chọn là thư rác”;\n$B$ là biến cố: “Thư được chọn là bị chặn”.\nÁp dụng công thức Bayes, ta có:\n$P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( A \\right).P\\left( B\\left| A \\right. \\right)}{P\\left( A \\right).P\\left( B\\left| A \\right. \\right)+P\\left( \\overline{A} \\right).P\\left( B\\left| \\overline{A} \\right. \\right)}=\\frac{0,03.0,95}{0,03.0,95+0,97.0,01}=0,746$\nVậy khi chọn ngẫu nhiên một thư bị chặn thì xác suất để đó là thư rác khoảng $0,746$.\nTa có: $P\\left( B\\left| \\overline{A} \\right. \\right)=0,01\\Rightarrow P\\left( \\overline{B}\\left| \\overline{A} \\right. \\right)=0,99;P\\left( B\\left| A \\right. \\right)=0,95\\Rightarrow P\\left( \\overline{B}\\left| A \\right. \\right)=0,05$\nÁp dụng công thức Bayes, ta có:\n$P\\left( \\overline{A}\\left| \\overline{B} \\right. \\right)=\\frac{P\\left( \\overline{A} \\right).P\\left( \\overline{B}\\left| A \\right. \\right)}{P\\left( \\overline{A} \\right).P\\left( \\overline{B}\\left| \\overline{A} \\right. \\right)+P\\left( A \\right).P\\left( \\overline{B}\\left| A \\right. \\right)}=\\frac{0,97.0,99}{0,97.0,99+0,03.0,05}=0,998$\nVậy khi ngẫu nhiên một thư không bị chặn thì xác suất để đó là thư đúng khoảng $0,998$.\nXác suất một thư là thư rác nếu biết rằng thư đó bị chặn là $0,746$ nghĩa là trong số các thư bị chặn có khoảng $74,6\\%$thư rác.\nVậy trong số các thư bị chặn có $100\\%-74,6\\%=25,4\\%$ là thư đúng.\nXác suất để đó là thư đúng nếu biết rằng thư đó không bị chặn là $0,998$ nghĩa là trong số các thư không bị chặn có khoảng $99,8\\%$ thư đúng.\nVậy trong số các thư không bị chặn có$100\\%-99,8\\%=0,02\\%$ là thư rác.\n-----------------HẾT-----------------",
-   "short_value": 0.16,
-   "short_correct": "0,16|0,156|0,0016",
+   "explanation": "Gọi $A$ là biến cố thư được chọn là thư rác, $B$ là biến cố thư bị chặn. Ta có $P(A)=0,03$, $P(\\overline{B}|A)=1-0,95=0,05$, $P(\\overline{B}|\\overline{A})=1-0,01=0,99$. Theo công thức Bayes: $P(A|\\overline{B})=\\frac{0,03\\cdot 0,05}{0,03\\cdot 0,05+0,97\\cdot 0,99}=\\frac{0,0015}{0,9618}\\approx 0,0016$, tức khoảng $0,16\\%$. Vậy trong số các thư không bị chặn có khoảng $0,16\\%$ là thư rác.",
+   "short_value": 0.02,
+   "short_correct": "0,02",
    "ma": "de1.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -629,6 +628,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."

@@ -360,11 +360,14 @@
     "c": "Tổng lợi nhuận thu được là $T=200x+180y$.",
     "d": "Miền nghiệm của hệ bất phương trình là một tam giác."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Bác An dự định trồng hai loại cây là cà phê và tiêu trong nông trại rộng $300$ hecta. Biết mỗi hecta trồng cà phê cần $20$ công chăm sóc và thu lại lợi nhuận $200$ triệu đồng, mỗi hecta trồng tiêu cần $40$ công chăm sóc và thu lại lợi nhuận $180$ triệu đồng. Biết rằng tổng số công cần dùng không được vượt quá $8000$ công. Gọi $x,y$ lần lượt là diện tích đất dùng để trồng cà phê và tiêu. Khi đó các mệnh đề sau đúng hay sai?",
    "explanation": "Ta có: $x,y$ là diện tích đất dùng để trồng cà phê và tiêu, mà diện tích nông trại rộng $300$hecta nên $x+y\\le 300$, suy ra a) sai.\nVì $1$ hecta cà phê cần 20 công, $1$ hecta tiêu cần $40$ công mà tổng số công không vượt quá $8000$ nên $20x+40y\\le 8000\\Rightarrow x+2y\\le 400$, suy ra b) đúng.\nMỗi hecta cà phê thu lợi nhuận $200$ triệu đồng, mỗi hecta tiêu thu lợi nhuận $180$ triệu đồng nên số tiền thu được $T=200x+180y$, suy ra c) đúng.\nTa có hệ bất phương trình $\\left\\{ \\begin{aligned} & x\\ge 0 \\\\ & y\\ge 0 \\\\ & x+y\\le 300 \\\\ & x+2y\\le 400 \\\\ \\end{aligned} \\right.$\nMiền nghiệm của hệ là miền tứ giác $ABCD$ với $A\\left( 0,0 \\right);\\,B\\left( 0;200 \\right);\\,C\\left( 200;100 \\right);D\\left( 300;0 \\right)$, suy ra d) sai.\n[[IMG:image7.png]]",
    "ma": "de1.P2.C13",
@@ -375,6 +378,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C2.B2.D03",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."

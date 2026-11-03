@@ -160,13 +160,15 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "khong_tach_duoc_4_phuong_an",
-    "import_web: Câu 6: thiếu đáp án A, B, C, D"
-   ],
-   "question": "Trong không gian $Oxyz$, cho $A\\left( 2\\,;\\,3\\,;\\,-1 \\right)$.,điểm nào sau đây đối xứng với điểm $A$ qua trục $Oy$? A. $A\\left( 2\\,;\\,3\\,;\\,-1 \\right)$. B. $A\\left( 2\\,;\\,-3\\,;\\,1 \\right)$. C. $A\\left( -2\\,;\\,-3\\,;\\,1 \\right)$. D. $A\\left( -2\\,;\\,3\\,;\\,1 \\right)$.",
+   "flags": [],
+   "question": "Trong không gian $Oxyz$, cho $A\\left( 2\\,;\\,3\\,;\\,-1 \\right)$, điểm nào sau đây đối xứng với điểm $A$ qua trục $Oy$?",
    "explanation": "",
-   "options": [],
+   "options": [
+    "$\\left( 2\\,;\\,3\\,;\\,-1 \\right)$",
+    "$\\left( 2\\,;\\,-3\\,;\\,1 \\right)$",
+    "$\\left( -2\\,;\\,-3\\,;\\,1 \\right)$",
+    "$\\left( -2\\,;\\,3\\,;\\,1 \\right)$"
+   ],
    "ma": "de1.P1.C6",
    "dac_trung": {
     "so_dong_loi_giai": 0,
@@ -175,6 +177,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D08",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -389,13 +392,16 @@
     "c": "[TH] Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số đã cho bằng 2.",
     "d": "[TH] Phương trình ${f}'\\left( 2x+1 \\right)=0$ nhận $x=1$ làm nghiệm."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho hàm số ${y=f(x)}$ xác định trên $\\mathbb{R}\\backslash \\{-1\\}$ và có bảng biến thiên như sau:\n[[IMG:image4.png]]",
-   "explanation": "Đúng. Dựa vào bảng biến thiên ta thấy trên $\\left( -\\infty ;-1 \\right)$ thì ${f}'(x)>0$ nên hàm số đã cho đồng biến trên $\\left( -\\infty ;-1 \\right)$.\nĐúng. Dựa vào bảng biến thiên ta thấy GTLN của hàm số trên đoạn $\\left[ 0;6 \\right]$là $f(1)=3.$\nSai. Dựa vào bảng biến thiên ta thấy\n$\\underset{x\\to {{1}^{+}}}{\\lim}\\,f(x)=-\\infty $ nên hàm số có một tiệm cận đứng $x=-1$\n$\\underset{x\\to -\\infty }{\\lim}\\,f(x)=2;\\underset{x\\to +\\infty }{\\lim}\\,f(x)=-1$ nên hàm số có hai tiệm cận ngang $y=2$ và $y=-1$\nSai. ${f}'\\left( x \\right)=0\\Leftrightarrow x=1$\nDo đó: ${f}'\\left( 2x+1 \\right)=0\\Leftrightarrow 2x+1=1\\Rightarrow x=0$",
+   "explanation": "Đúng. Dựa vào bảng biến thiên ta thấy trên $\\left( -\\infty ;-1 \\right)$ thì ${f}'(x)>0$ nên hàm số đã cho đồng biến trên $\\left( -\\infty ;-1 \\right)$.\\nĐúng. Dựa vào bảng biến thiên ta thấy GTLN của hàm số trên đoạn $\\left[ 0;6 \\right]$ là $f(1)=3.$\\nSai. Dựa vào bảng biến thiên ta thấy\\n$\\underset{x\\to {{-1}^{+}}}{\\lim}\\,f(x)=-\\infty $ nên hàm số có một tiệm cận đứng $x=-1$\\n$\\underset{x\\to -\\infty }{\\lim}\\,f(x)=2;\\underset{x\\to +\\infty }{\\lim}\\,f(x)=-1$ nên hàm số có hai tiệm cận ngang $y=2$ và $y=-1$\\nSai. ${f}'\\left( x \\right)=0\\Leftrightarrow x=1$\\nDo đó: ${f}'\\left( 2x+1 \\right)=0\\Leftrightarrow 2x+1=1\\Rightarrow x=0$",
    "ma": "de1.P2.C14",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -404,6 +410,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B3.D01",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -425,9 +432,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một chiếc trực thăng $H$ cất cánh từ một sân bay. Xét hệ trục tọa độ $Oxyz$ có gốc tọ độ $O$ là chân tháp điều khiển sân bay; trục $Ox$là hướng đông, trục $Oy$là hướng bắc và trục $Oz$là trục thẳng đứng, đơn vị trên mỗi trục là kilômét. Trực thăng cất cánh từ điểm $G$ trên mặt đất (mặt phẳng $Oxy$). Vectơ $\\overrightarrow{u}$chỉ vị trí của trực thăng tại thời điểm $t$ phút sau khi cất cánh $\\left( \\text{t}\\ge \\text{0} \\right)$ có tọa độ là $\\overrightarrow{u}=\\left( 1+t;\\,\\frac{1}{2}+2t;\\,2t \\right).$ Một hòn đảo ở vị trí $D\\left( 150;\\,115;\\,0 \\right)$ (hình vẽ minh hoạ). Gọi $M$ là vị trí của máy bay $H$ tại thời điểm $t$ phút sau khi cất cánh.\nCác mệnh đề sau đúng hay sai?\n[[IMG:image5.png]]",
    "explanation": "[[IMG:image5.png]]\na) Gắn vào hệ trục tọa độ $\\text{Ox}yz$, ta có: $\\overrightarrow{u}=\\overrightarrow{OM}=\\left( 1+t;\\,\\frac{1}{2}+2t;\\,2t \\right).$\nKhi đó vị trí máy bay $H$ ở thời điểm $t$ phút sau khi may bay cất cánh là $M\\left( 1+t;\\,\\frac{1}{2}+2t;\\,2t \\right).$\nSuy ra mệnh đề đúng.\nb) Khi máy bay bắt đầu khởi hành, với $t=0\\Rightarrow M\\equiv G\\left( 1;\\frac{1}{2};0 \\right)$. Suy ra mệnh đề đúng.\nc) Ta có $\\overrightarrow{MD}=\\left( 149-t;\\frac{229}{2}-2t;-2t \\right).$ Suy ra mệnh đề sai.\nd) Ta có $\\overrightarrow{MG}=t\\overrightarrow{u},\\,\\,\\overrightarrow{u}=\\left( 1;2;2 \\right).$\nKhoảng cách từ máy bay $H$ đến $D$ nhỏ nhất $\\Leftrightarrow MG\\bot MD\\Leftrightarrow \\overrightarrow{u}.\\overrightarrow{MD}=0\\Leftrightarrow 149-t+229-4t-4t=0\\Leftrightarrow t=42$\nSuy ra $M\\left( 43;\\,\\frac{169}{2};\\,84 \\right).$Vậy $T=20\\left( {{x}_{0}}+{{y}_{0}}+{{z}_{0}} \\right)=4230.$ Suy ra mệnh đề sai.",
    "ma": "de1.P2.C15",
@@ -438,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -485,9 +491,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Gọi S là tập hợp các giá trị m để giá trị nhỏ nhất của hàm số $y={{({{x}^{2}}+x-m)}^{2}}$ trên đoạn $\\left[ -2;2 \\right]$ bằng 4. Hỏi tổng các phần tử của tập hợp S bằng bao nhiêu?",
-   "explanation": "Đặt $f\\left( x \\right)={{x}^{2}}+x-m$. Ta có: $f'\\left( x \\right)=2x+1$; $f'\\left( x \\right)=0\\Leftrightarrow x=-\\frac{1}{2}$\nBảng biến thiên:\n[[IMG:image13.png]]\nTrường hợp 1:$-2m-\\frac{1}{4}>0\\Leftrightarrow m<-\\frac{1}{8}$\nTa có: $\\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min f\\left( x \\right)}}\\,=-m-\\frac{1}{4}\\Rightarrow \\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min y}}\\,={{\\left( -2m-\\frac{1}{4} \\right)}^{2}}=4\\Leftrightarrow \\left[ \\begin{aligned} & m=-\\frac{9}{8}\\left( tm \\right) \\\\ & m=\\frac{7}{8}\\left( l \\right) \\\\ \\end{aligned} \\right.$\nTrường hợp 2:$-2m+6<0\\Leftrightarrow m>3$\nTa có $\\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min f\\left( x \\right)}}\\,=-2m-\\frac{1}{4}\\Rightarrow \\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min y}}\\,={{\\left( -2m+6 \\right)}^{2}}=4\\Leftrightarrow \\left[ \\begin{aligned} & m=2\\left( l \\right) \\\\ & m=4\\left( tm \\right) \\\\ \\end{aligned} \\right.$\nTrường hợp 3: $-2m-\\frac{1}{4}\\le 0\\le -2m+6\\Leftrightarrow -\\frac{1}{8}\\le m\\le 3$\nTa có $\\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min f\\left( x \\right)}}\\,=0\\Rightarrow \\underset{x\\in \\left[ -2;2 \\right]}{\\mathop{\\min y}}\\,=0$. Suy ra $-\\frac{1}{8}\\le m\\le 3$không thỏa mãn yêu cầu bài toán.\nVậy $m\\in \\left\\{ -\\frac{9}{8};4 \\right\\}\\Rightarrow S=\\frac{23}{8}$.\nĐáp án: $\\frac{23}{8}$",
+   "explanation": "Đặt $f\\left(x\\right)={{x}^{2}}+x-m$. Trên $\\left[-2;2\\right]$, $f$ đạt giá trị nhỏ nhất $-m-\\frac{1}{4}$ tại $x=-\\frac{1}{2}$ và giá trị lớn nhất $6-m$ tại $x=2$, nên miền giá trị của $f$ là $\\left[-m-\\frac{1}{4};6-m\\right]$.\nNếu $m>6$ thì $f<0$ trên toàn đoạn, $\\min y={{\\left(6-m\\right)}^{2}}=4\\Leftrightarrow m=8$ (nhận; $m=4$ loại vì không thỏa $m>6$).\nNếu $m<-\\frac{1}{4}$ thì $f>0$ trên toàn đoạn, $\\min y={{\\left(-m-\\frac{1}{4}\\right)}^{2}}=4\\Leftrightarrow m=-\\frac{9}{4}$ (nhận; $m=\\frac{7}{4}$ loại).\nNếu $-\\frac{1}{4}\\le m\\le 6$ thì $0$ thuộc miền giá trị của $f$ nên $\\min y=0\\ne 4$.\nVậy $S=\\left\\{-\\frac{9}{4};8\\right\\}$, tổng các phần tử là $\\frac{23}{4}=5,75$.",
    "short_value": 2.875,
-   "short_correct": "5,75",
+   "short_correct": "2,875|23/8",
    "ma": "de1.P3.C17",
    "dac_trung": {
     "so_dong_loi_giai": 11,
@@ -496,7 +502,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D04",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."

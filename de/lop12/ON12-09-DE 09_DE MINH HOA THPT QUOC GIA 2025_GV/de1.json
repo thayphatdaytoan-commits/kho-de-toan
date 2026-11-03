@@ -347,6 +347,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D02",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -443,6 +444,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -486,9 +488,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho khối lăng trụ đứng $ABC.{A}'{B}'{C}'$có độ dài cạnh bên bằng $2$ và đáy là tam giác $ABC$vuông cân tại $C$. Biết rằng $CA=CB=1$ và gọi $M$ là trung điểm của cạnh $A{A}'$. Tính khoảng cách giữa hai đường thẳng $AB$ và $M{C}'$. (Kết quả làm trong đến chữ số thập phân thứ hai sau dấu phẩy)",
    "explanation": "[[IMG:image3.png]]\nGọi $E$ là trung điểm của cạnh $C{C}'$ $\\Rightarrow AE\\parallel M{C}',\\,\\left( E\\in C{C}' \\right)$.\nKhi đó: $d\\left( AB,M{C}' \\right)=d\\left( M{C}',\\left( EAB \\right) \\right)=d\\left( C,\\left( EAB \\right) \\right)=d\\left( {C}',\\left( EAB \\right) \\right)$.\nGọi $K$ là trung điểm của cạnh $AB$ $\\Rightarrow AB\\bot \\left( EKC \\right)$,\nDựng $CH\\bot EK,\\,\\left( H\\in EK \\right)$ $\\Rightarrow CH\\bot \\left( EAB \\right)$ nên $d\\left( C,\\left( ABE \\right) \\right)=CH$.\nXét tam giác $ECK$ vuông tại $C$có: $CK=\\frac{AB}{2}=\\frac{\\sqrt{2}}{2};\\,CE=\\frac{C{C}'}{2}=1$.\nDo đó: $CH=\\frac{CK.CE}{\\sqrt{C{{K}^{2}}+C{{E}^{2}}}}=\\frac{\\frac{\\sqrt{2}}{2}.1}{\\sqrt{\\frac{{{1}^{2}}}{2}+{{1}^{2}}}}=\\frac{\\sqrt{3}}{3}$.\nVậy khoảng cách giữa hai đường thẳng $AB$ và $M{C}'$ là $\\frac{\\sqrt{3}}{3}\\approx 0,58$.\nĐáp án:\n| 0 | , | 5 | 8 |\n|---|---|---|---|",
    "short_value": 0.58,
@@ -501,6 +501,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B2.D04",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -512,9 +513,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hình vẽ dưới đây là hai bánh răng của một động cơ, chúng có cùng kích thước. Khi động cơ hoạt động, hai bánh răng quay đều cùng chiều. Biết tốc độ quay của bánh răng ở hình 2 gấp đôi tốc độ quay của bánh răng ở hình 1 và phương trình biểu thị độ cao của điểm $A$ ở bánh răng thứ nhất là $h=2R+R\\sin \\left( \\frac{\\pi }{5}t \\right)$(trong đó $R$ là bán kính bánh răng, $t$ là thời gian tính bằng giây, $h$ là độ cao của điểm $A$). Giả sử tại thời điểm bắt đầu khởi động, hai điểm $A$ và $B$ có độ cao bằng nhau. Sau bao nhiêu giây kể từ thời điểm đầu tiên sau khi động cơ hoạt động hai điểm $A$, $B$ có độ cao bằng nhau. (Kết quả làm tròn đến hàng phần trăm)\n[[IMG:image4.png]]",
    "explanation": "Vì hai bánh răng có cùng kích thước, tốc độ của bánh răng thứ hai gấp đôi tốc độ của bánh răng thứ nhất và tại thời điểm ban đầu, hai điểm $A$, $B$có độ cao bằng nhau nên phương trình biểu thị độ cao của điểm $B$là ${h}'=2R+R\\sin \\left( \\frac{2\\pi }{5}t \\right)$.\nHai điểm $A$, $B$có độ cao bằng nhau khi $h={h}'$. Ta có phương trình:\n$2R+R\\sin \\left( \\frac{\\pi }{5}t \\right)=2R+R\\sin \\left( \\frac{2\\pi }{5}t \\right)$ $\\Leftrightarrow \\sin \\left( \\frac{2\\pi }{5}t \\right)=\\sin \\left( \\frac{\\pi }{5}t \\right)$$\\Leftrightarrow \\left[ \\begin{aligned} & \\frac{2\\pi }{5}t=\\frac{\\pi }{5}t+k2\\pi \\\\ & \\frac{2\\pi }{5}t=\\pi -\\frac{\\pi }{5}t+k2\\pi \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left[ \\begin{aligned} & \\pi t=k10\\pi \\\\ & 3\\pi t=5\\pi +k10\\pi \\\\ \\end{aligned} \\right.$$\\Leftrightarrow \\left[ \\begin{aligned} & t=10k \\\\ & t=\\frac{5}{3}+k\\frac{10}{3} \\\\ \\end{aligned} \\right.$ $\\left( k\\in \\mathbb{Z} \\right)$\nHọ nghiệm thứ nhất có nghiệm dương nhỏ nhất là $t=10$. Họ nghiệm thứ hai có nghiệm dương nhỏ nhất là $t=\\frac{5}{3}$. Vậy, thời điểm đầu tiên sau khi động cơ hoạt động, hai điểm $A$, $B$ có độ cao bằng nhau là $t=\\frac{5}{3}\\approx 1,67$giây.\nĐáp án:\n| 1 | , | 6 | 7 |\n|---|---|---|---|",
    "short_value": 1.67,
@@ -527,6 +526,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D05",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -538,9 +538,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một chiếc đồng hồ cát như hình vẽ gồm hai phần đối xứng nhau qua mặt phẳng nằm ngang và đặt trong một hình trụ. Thiết diện thẳng đứng qua trục của nó là hai parabol chung đỉnh và đối xứng nhau qua mặt phằng nằm ngang. Ban đầu lượng cát dồn hết ở phần trên của đồng hồ thì chiều cao của mực cát bằng $\\frac{2}{3}$ chiều cao của bên đó (xem hình vẽ). Cát chảy từ trên xuống dưới với tốc độ $v\\left( t \\right)=0,2t+13$(cm3/phút). Khi chiều cao của cát còn 4cm thì bề mặt trên cùng của cát tạo thành một đường tròn có chu vi bằng $8\\pi \\text{ }\\!\\!~\\!\\!\\text{ cm}$. Biết sau 20 phút thì cát chảy hết xuống phần bên dưới của đồng hồ. Hỏi chiều cao của khối trụ bên ngoài bằng bao nhiêu centimet? (làm tròn kết quả đến hàng đơn vị).\n[[IMG:image5.png]]",
    "explanation": "Gọi $\\left( P \\right)$ là parabol phía trên. Chọn hệ trục tọa độ $Oxy$ sao cho đỉnh $O$ trùng với đỉnh của parabol và trục $Oy$ là trục đối ứng của parabol. Khi chiều cao của cát là 4cm, chu vi đường tròn bề mặt cát là $8\\pi $cm nên bán kính đường tròn là $r=\\frac{8\\pi }{2\\pi }=4$cm\nVậy parabol $\\left( P \\right)$ đi qua điểm $A\\left( 4;\\,4 \\right)$, thay vào phương trình $y=a{{x}^{2}}\\Leftrightarrow 4=a{{.4}^{2}}\\Rightarrow a=\\frac{1}{4}$\nKhi đó phương trình của parabol $\\left( P \\right):\\,y=\\frac{{{x}^{2}}}{4}$\nThể tích cát ban đầu bằng thể tích khối tròn xoay sinh ra khi quay nhánh phải của parabol $\\left( P \\right)$ quanh trục $Oy$. Thể tích này cũng bằng lượng cát chảy xuống trong $20$ phút.\nThể tích ban đầu là: $V=\\pi \\int\\limits_{0}^{h}{{{x}^{2}}\\text{d}y=\\pi \\int\\limits_{0}^{h}{4y\\text{d}y=2\\pi {{h}^{2}}}}$\nLượng cát chảy ra trong $20$ phút bằng: $V=\\int\\limits_{0}^{20}{v\\left( t \\right)\\text{d}t=}\\int\\limits_{0}^{20}{\\left( 0,2t+13 \\right)\\text{d}t=\\,}300$\nDo đó $2\\pi {{h}^{2}}=300\\Leftrightarrow {{h}^{2}}=\\frac{300}{2\\pi }\\Rightarrow h=\\sqrt{\\frac{150}{\\pi }}$\nChiều cao của mực cát ban đầu bằng $\\frac{2}{3}$ chiều cao của một bên parabol, tức là $h=\\frac{2}{3}H$ với $H$ là chiều cao một bên của parabol.\nVậy chiều cao của khối trụ bên ngoài là: $l=2.\\frac{3}{2}.\\sqrt{\\frac{150}{\\pi }}=21$cm.\nĐáp án:\n| 2 | 1 |  |  |\n|---|---|---|---|",
    "short_value": 21,
@@ -553,6 +551,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B3.D06",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -564,9 +563,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một Villa sinh thái nghỉ dưỡng thống kê được rằng: Nếu áp dụng mức giá 3 triệu đồng/người/ngày thì mỗi tháng có 160 khách đến nghỉ và mỗi khách sẽ nghỉ 10 ngày. Nếu cứ tăng giá thêm 500 nghìn đồng/người/ngày thì hàng tháng số khách đến nghỉ sẽ giảm 4 người và thời gian lưu trú của mỗi khách cũng giảm đi 2 ngày. Ngược lại, nếu cứ giảm giá 500 nghìn đồng/người/ngày thì hàng tháng số khách đến nghỉ sẽ tăng thêm 4 người và thời gian lưu trú của mỗi người khách cũng tăng thêm 2 ngày. Hỏi villa đó cần áp dụng mức giá bao nhiêu triệu đồng/người/ngày để lợi nhuận hàng tháng thu được là lớn nhất, biết tổng chi phí công ty phải chi cho một ngày lưu trú của mỗi người khách là 2 triệu đồng và Sở văn hóa, thể thao và du lịch không cho công ty thu vượt quá 10 triệu đồng/người/ngày. (Kết quả làm tròn đến hàng phần trăm)",
    "explanation": "Lợi nhuận$=$Doanh thu$-$Chi phí\nGọi $x$ là số lần tang/giảm giá $500$ nghìn đồng\nKhi đó số khách hàng tháng: $160-4x$ và thời gian mỗi khách lưu trú là $10-2x$\nGiá mỗi người/ngày là: $3+0,5x$(triệu đồng) và chi phí mỗi người/ngày là $2$(triệu đồng)\nLợi nhuận mỗi người/ngày là: $3+0,5x-2=1+0.5x$ triệu đồng\nTổng lợi nhuận hàng tháng là: $f\\left( x \\right)=\\left( 160-4x \\right)\\left( 10-2x \\right)\\left( 1+0,5x \\right)$\nXét hàm số $f\\left( x \\right)=\\left( 160-4x \\right)\\left( 10-2x \\right)\\left( 1+0,5x \\right)=4{{x}^{3}}-172{{x}^{2}}+440x+1600$\nKhi đó ${f}'\\left( x \\right)=12{{x}^{2}}-344x+440=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{43}{3}-\\frac{7\\sqrt{31}}{3}\\left( thoa\\,\\,man \\right) \\\\ & x=\\frac{43}{3}+\\frac{7\\sqrt{31}}{3}\\left( loai \\right) \\\\ \\end{aligned} \\right.$\nSuy ra giá cần áp dụng để đạt lợi nhuận lớn nhất là: $3+0,5x=3+0,5.\\left( \\frac{43}{3}-\\frac{7\\sqrt{31}}{3} \\right)\\approx 3,67$\nVậy villa đó cần áp dụng giá $3,67$triệu đồng/người/ngày để lợi nhuận thu được lớn nhất.\nĐáp án:\n| 3 | , | 6 | 7 |\n|---|---|---|---|",
    "short_value": 3.67,
@@ -579,6 +576,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -590,13 +588,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho hai viên bi xanh và đỏ ban đầu dạng hai mặt cầu lần lượt là $\\left( {{S}_{do}} \\right):{{\\left( x-10 \\right)}^{2}}+{{y}^{2}}+{{\\left( z-3 \\right)}^{2}}=9$ và $\\left( {{S}_{xanh}} \\right):{{\\left( x+12 \\right)}^{2}}+{{y}^{2}}+{{\\left( z-4 \\right)}^{2}}=16$. Biết mặt đất trùng với mặt phẳng $Oxy$ và hai mặt cầu này tiếp xúc với mặt phẳng $Oxy$ với điểm tiếp xúc nằm trên trục $Ox$. Truyền cho hai viên bi đỏ và xanh lần lượt các tốc độ không đổi ${{v}_{\\text{ }\\!\\!~\\!\\!\\text{ }}}=5$(m/s) và ${{v}_{x}}=3$(m/s) thì hai viên bi lăn thẳng về phía nhau dọc theo trục $Ox$ (Điểm tiếp xúc luôn nằm trên $Ox$). Sau khoảng thời gian bằng bao nhiêu giây thì hai viên bi va chạm lần đầu tiên (Đơn vị trên hệ trục tọa độ là mét và kết quả làm tròn đến hàng phần chục)\n[[IMG:image6.png]]",
    "explanation": "Gọi $M,\\,N$ lần lượt là vị trí tiếp xúc của bi xanh và bi đỏ với trục $Ox$\nDựa vào phương trình mặt cầu thì khoảng cách giữa hai viên bị ban đầu là $22$m\n[[IMG:image7.png]]\nKhi hai viên bị va chạm nhau tức là hai mặt cầu này sẽ tiếp xúc với nhau và bán kính hai mặt cầu này hơn kém nhau $1$m.\nKhi đó: $\\sin \\alpha =\\frac{1}{7}$ suy ra $MN=7.\\cos \\alpha =4\\sqrt{3}$ nên hai viên va chạm nhau khi $MN=4\\sqrt{3}$.\nPhương trình tọa độ điểm $M$ theo trục $Ox$: $10-5t$\nPhương trình tọa độ điểm $N$ theo trục $Ox$: $-12+3t$\nDo $MN=4\\sqrt{3}\\Leftrightarrow \\left| 10-5t+12-3t \\right|=4\\sqrt{3}\\Leftrightarrow \\left[ \\begin{aligned} & 8t-22=4\\sqrt{3} \\\\ & 8t-22=-4\\sqrt{3} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & t\\approx 1,88\\left( nhan \\right) \\\\ & t\\approx 3,61\\left( loai \\right) \\\\ \\end{aligned} \\right.$\nVậy sau khoảng $1,88$ giây thì hai viên bi va chạm lần đầu tiên.\nĐáp án:\n| 1 | , | 8 | 8 |\n|---|---|---|---|",
-   "short_value": 1.9,
-   "short_correct": "1,9",
+   "short_value": 0.14285714285714285,
+   "short_correct": "0,142857|1/7",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 12,
@@ -605,6 +601,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D06",
    "dang_toan_web": "Phương trình mặt cầu: Cách lập phương trình, xác định tâm và bán kính mặt cầu."
@@ -616,9 +613,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Quan sát hai mã cổ phiếu A và B người ta nhận thấy trong mỗi phiên giao dịch, nếu cổ phiếu B không giảm giá thì cổ phiếu A giảm giá với xác suất $\\frac{2}{5}$. Ngược lại, nếu cổ phiếu A không giảm giá thì cổ phiếu B giảm giá với xác suất $\\frac{4}{7}$. Hơn nữa, xác suất cả hai cổ phiếu A và B giảm giá trong cùng một ngày là 0,1. Hãy tính xác suất để có ít nhất một trong hai cổ phiểu A và B giảm giá trong một phiên giao dịch.",
    "explanation": "Gọi $A$ và $B$ lần lượt là biến cố mã cổ phiếu A và B giảm giá trong một phiên giao dịch.\nĐặt $a=P\\left( A \\right)$ và $b=P\\left( B \\right)$ với $a,b\\in \\left[ 0;\\,1 \\right]$.\nKhi đó ta có: $\\frac{2}{5}=P\\left( A\\mid \\overline{B} \\right)=\\frac{P\\left( A\\overline{B} \\right)}{P\\left( \\overline{B} \\right)}=\\frac{P\\left( A \\right)-P\\left( AB \\right)}{1-P\\left( B \\right)}=\\frac{a-0,1}{1-b}\\Rightarrow 5a+2b=2,5\\,\\,\\,\\,\\,\\,\\left( 1 \\right)$\nTương tự: $\\frac{4}{7}=P\\left( B\\mid \\overline{A} \\right)=\\frac{P\\left( B\\overline{A} \\right)}{P\\left( \\overline{A} \\right)}=\\frac{P\\left( B \\right)-P\\left( AB \\right)}{1-P\\left( A \\right)}=\\frac{b-0,1}{1-a}\\Rightarrow 4a+7b=4,7\\,\\,\\,\\,\\,\\left( 2 \\right)$\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ ta có hệ phương trình $\\left\\{ \\begin{aligned} & 5a+2b=2,5 \\\\ & 4a+7b=4,7 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=0,3 \\\\ & b=0,5 \\\\ \\end{aligned} \\right.$\nXác suất để có ít nhất một trong hai cổ phiểu A và B giảm giá trong một phiên giao dịch là:\n$P\\left( A\\cup B \\right)=P\\left( A \\right)+P\\left( B \\right)-P\\left( AB \\right)=0,7$\nĐáp án:\n| 0 | , | 7 |  |\n|---|---|---|---|\n-----------------HẾT-----------------",
    "short_value": 0.7,
@@ -631,6 +626,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

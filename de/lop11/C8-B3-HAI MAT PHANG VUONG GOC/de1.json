@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "8",
   "lesson": "3",
-  "title": "Chương 8 – Bài 3"
+  "title": "Chương 8 – Bài 3",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -47,9 +48,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABC$ có $SA\\bot \\left( ABC \\right)$ và $AB\\bot BC$, gọi $I$ là trung điểm $BC$. Góc giữa hai mặt phẳng $\\left( SBC \\right)$ và $\\left( ABC \\right)$ là góc nào sau đây?",
    "explanation": "[[IMG:image11.emf]]Chọn A\nTa có: $BC\\bot SA,BC\\bot AB\\Rightarrow BC\\bot SB$\n$\\Rightarrow \\left\\{ \\begin{matrix} \\left( SBC \\right)\\cap \\left( ABC \\right)=BC \\\\ AB\\bot BC,AB\\subset \\left( ABC \\right) \\\\ SB\\bot BC,SB\\subset \\left( SBC \\right) \\\\ \\end{matrix} \\right.$ $\\Rightarrow \\widehat{\\left( \\left( SBC \\right),\\left( ABC \\right) \\right)}=\\widehat{SBA}$.",
    "options": [
@@ -66,6 +65,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L11.C7.B4.D02",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."
@@ -369,7 +369,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hình chóp ${S . A B C D}$ có đáy ${A B C D}$ là hình vuông. Mặt bên ${S A B}$ là tam giác đều và nằm trong mặt phẳng vuông góc với đáy. Gọi ${H}$ và ${I}$ lần lượt là trung điểm của ${A B}$ và ${B C}$. Khi đó:",
-   "explanation": "[[IMG:image21.png]]\nTa có ${\\left\\{\\begin{array}{l}(S A B) \\cap(A B C D)=A B \\\\ (S A B) \\perp(A B C D) \\\\ S H \\subset(S A B), S H \\perp A B\\end{array} \\Rightarrow S H \\perp(A B C D)\\right.}$.\nTa có ${\\left\\{\\begin{array}{l}A D \\perp A B(g t) \\\\ A D \\perp S H(S H \\perp(A B C D)) \\Rightarrow A D \\perp(S A B), \\\\ A B, S H \\subset(S A B)\\end{array}\\right.}$\nmà ${A D \\subset(S A D) \\Rightarrow(S A D) \\perp(S A B)}$.\nTa lại có: ${\\Delta B C H=\\Delta C D I}$ (c.g.c) ${\\Rightarrow \\widehat{C_1}=\\widehat{D_1}}$, mà ${\\widehat{D_1}+\\widehat{I_1}=90^{\\circ} \\Rightarrow \\widehat{C_1}+\\widehat{\\,I\\,}_1=90^{\\circ}}$\n${\\Rightarrow H C \\perp D I}$\nNhư vậy ${\\left\\{\\begin{array}{l}D I \\perp C H \\\\ D I \\perp S H(S H \\perp(A B C D)) \\Rightarrow D I \\perp(S H C) \\text {, mà } D I \\subset(S D I) \\\\ C H, S H \\subset(S H C)\\end{array}\\right.}$\n${\\Rightarrow(S D I) \\perp(S H C)}$.",
+   "explanation": "[[IMG:image21.png]]\nTa có ${\\left\\{\\begin{array}{l}(S A B) \\cap(A B C D)=A B \\\\ (S A B) \\perp(A B C D) \\\\ S H \\subset(S A B), S H \\perp A B\\end{array} \\Rightarrow S H \\perp(A B C D)\\right.}$.\nTa có ${\\left\\{\\begin{array}{l}A D \\perp A B(g t) \\\\ A D \\perp S H(S H \\perp(A B C D)) \\Rightarrow A D \\perp(S A B), \\\\ A B, S H \\subset(S A B)\\end{array}\\right.}$\nmà ${A D \\subset(S A D) \\Rightarrow(S A D) \\perp(S A B)}$.\nTa lại có: ${\\Delta B C H=\\Delta C D I}$ (c.g.c) ${\\Rightarrow \\widehat{C_1}=\\widehat{D_1}}$, mà ${\\widehat{D_1}+\\widehat{I_1}=90^{\\circ} \\Rightarrow \\widehat{C_1}+\\widehat{\\,I\\,}_1=90^{\\circ}}$\n${\\Rightarrow H C \\perp D I}$\nNhư vậy ${\\left\\{\\begin{array}{l}D I \\perp C H \\\\ D I \\perp S H(S H \\perp(A B C D)) \\Rightarrow D I \\perp(S H C) \\text {, \\text{mà} } D I \\subset(S D I) \\\\ C H, S H \\subset(S H C)\\end{array}\\right.}$\n${\\Rightarrow(S D I) \\perp(S H C)}$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -378,6 +378,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L11.C7.B4.D03",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."
@@ -488,7 +489,7 @@
    "flags": [],
    "question": "Cho hình chóp ${S . A B C D}$ có ${A B C D}$ là hình thang vuông tại ${A, A B=B C=a ; A D=2 A B}$ và hai mặt bên ${(S A B),(S A D)}$ cùng vuông góc với mặt đáy và ${S A={a} \\sqrt{2}}$.\nTính tang của góc ${\\varphi}$ giữa ${(S B C)}$ và ${(A B C D)}$.",
    "explanation": "[[IMG:image24.png]]\n${(S B C)}$ và ${(A B C D)}$.\n${(S B C) \\cap(A B C D)=B C, S B \\perp B C, A B \\perp B C}$.\nGóc cần tìm là ${\\widehat{S B A}}$.\nTrong tam giác vuông ${S B A: \\tan \\widehat{S B A}=\\frac{S A}{A B}=\\sqrt{2}}$.",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "\\sqrt{2}|√2",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -513,7 +514,7 @@
    "flags": [],
    "question": "Cho hình chóp ${S . A B C D}$ có đáy ${A B C D}$ là hình vuông tâm ${O}$, cạnh ${a}$. Đường thẳng ${S O}$ vuông góc với mặt phẳng đáy ${(A B C D)}$ và ${S O=\\frac{a \\sqrt{3}}{2}}$. Tính góc giữa hai mặt phẳng ${(S B C)}$ và ${(A B C D)}$.",
    "explanation": "[[IMG:image25.png]]\nDo ${S O \\perp(A B C D)}$ nên ${S O \\perp B C}$.\nGọi ${M}$ là trung điểm ${B C}$, suy ra ${O M \\perp B C}$.\nTa có ${\\left\\{\\begin{array}{l}B C \\perp O M \\\\ B C \\perp S O\\end{array} \\Rightarrow B C \\perp(S O M) \\Rightarrow B C \\perp S M\\right.}$\nDo đó ${((S B C),(A B C D))=(S M, O M)}$\nXét tam giác vuông ${S O M}$, có ${\\tan \\widehat{S M O}=\\frac{S O}{O M}=\\sqrt{3} \\Rightarrow \\widehat{S M O}=60^{\\circ}}$.\nVậy mặt phẳng ${(S B C)}$ hợp với mặt đáy ${(A B C D)}$ một góc ${60^{\\circ}}$.",
-   "short_value": null,
+   "short_value": 60,
    "short_correct": "60",
    "ma": "de1.P3.C2",
    "dac_trung": {
@@ -538,7 +539,7 @@
    "flags": [],
    "question": "Cho lăng trụ đứng ${A B C \\cdot A^{\\prime} B^{\\prime} C^{\\prime}}$ có đáy là tam giác vuông cân tại ${{B}}$ với ${A B=a}$, ${A^{\\prime} B=a \\sqrt{7}}$. Tính góc giữa hai mặt phẳng ${\\left(A B^{\\prime} C\\right),(A B C)}$.",
    "explanation": "[[IMG:image26.png]]\nGọi $I$ là trung điểm ${{AC}}$.\nTa có: ${\\left\\{\\begin{array}{l}\\left(A B^{\\prime} C\\right) \\cap(A B C)=A C \\\\ \\text { Trong }(A B C), B I \\perp A C \\\\ \\text { Trong }\\left(A B^{\\prime} C\\right), B^{\\prime} I \\perp A C\\end{array} \\Rightarrow\\left(\\left(A B^{\\prime} C\\right),(A B C)\\right)=\\left(B^{\\prime} I, B I\\right)=\\widehat{B^{\\prime} I B}\\right.}$\nTa có: ${B I=\\frac{1}{2} A C=\\frac{a \\sqrt{2}}{2} ; B B^{\\prime}=\\sqrt{(a \\sqrt{7})^2-a^2}=\\sqrt{6} a}$\nXét ${\\Delta B^{\\prime} B I}$ vuông tại $B$: ${\\tan \\widehat{B^{\\prime} I B}=\\frac{B B^{\\prime}}{B I}=\\frac{\\sqrt{6} a}{\\frac{a \\sqrt{2}}{2}}=2 \\sqrt{3} \\Rightarrow \\widehat{B^{\\prime} I B} \\approx 73,9^{\\circ}}$.",
-   "short_value": null,
+   "short_value": 73.9,
    "short_correct": "73,9",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -563,7 +564,7 @@
    "flags": [],
    "question": "Cho biết kim tự tháp Memphis tại bang Tennessee (Mỹ) có dạng hình chóp tứ giác đều với chiều cao $98\\text{ }\\!\\!~\\!\\!\\text{ m}$ và cạnh đáy $180\\text{ }\\!\\!~\\!\\!\\text{ m}$. Tính số đo góc nhị diện tạo bởi mặt bên và mặt đáy?\n[[IMG:image27.jpeg]] (đơn vị: độ).\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "[[IMG:image28.png]]\nGọi hình chóp tứ giác đều là $S.ABCD$ như hình vẽ , $O=AC\\cap BD,\\,M$ là trung điểm của $DC$.\nKhi đó góc nhị diện tạo bởi mặt bên $\\left( SCD \\right)$ và mặt đáy $\\left( ABCD \\right)$ là $\\left[ S,CD,O \\right]$.\nTa có $SM\\bot CD$ và $OM\\bot CD$, suy ra $\\widehat{SMO}$ là góc phẳng nhị diện $\\left[ S,CD,O \\right]$.\nXét tam giác $SMO$ ta có $OM=\\frac{BC}{2}=90$ (m)\n$\\tan \\widehat{SMO}=\\frac{SO}{OM}=\\frac{98}{90}=\\frac{49}{45}\\Rightarrow \\widehat{SMO}=47,{{4}^{\\circ }}.$",
-   "short_value": 90,
+   "short_value": 47.4,
    "short_correct": "47,4",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -588,7 +589,7 @@
    "flags": [],
    "question": "Cho tam giác đều $ABC$ cạnh $a$, $I$ là trung điểm của $BC$, $D$ là điểm đối xứng với $A$ qua $I$. Vẽ đoạn thẳng $SD$ có độ dài bằng $\\frac{a\\sqrt{6}}{2}$ và vuông góc với mặt phẳng $(ABC)$. Tính góc $\\varphi $ giữa hai mặt phẳng $(SAB)$ và $(SAC)$.",
    "explanation": ".\n[[IMG:image29.png#0.1177,0.1618,0.5599,0.3789]]\nTa có: $(SAB)\\cap (SAC)=SA$ (1)\nTrong mp$(SAB)$ dựng $BH\\bot SA$ tại $H$ (2) , suy ra $CH\\bot SA$ tại $H$ (3)\nTa tính $\\widehat{BHC}$:\nTa có: $SD\\bot (ABC)\\Rightarrow SD\\bot DA\\Rightarrow SA=\\sqrt{S{{D}^{2}}+D{{A}^{2}}}=\\sqrt{{{\\left( \\frac{a\\sqrt{6}}{2} \\right)}^{2}}+{{\\left( a\\sqrt{3} \\right)}^{2}}}=\\frac{3\\sqrt{2}}{2}a$.\nTừ (2) và (3) ta suy ra $SA\\bot (HBC)\\Rightarrow SA\\bot HI$.\nXét hai tam giác $SDA$ và $IHA$ có $\\widehat{SDA}=\\widehat{IHA}={{90}^{o}}$ và $\\widehat{A}$ chung nên $\\Delta SDA\\backsim \\Delta IHA\\,\\,(g-g)$\n$\\Rightarrow \\frac{SD}{IH}=\\frac{SA}{IA}\\Rightarrow IH=\\frac{SD.IA}{SA}=\\frac{\\frac{a\\sqrt{6}}{2}.\\frac{a\\sqrt{3}}{2}}{\\frac{3\\sqrt{2}}{2}a}=\\frac{a}{2}$.\nMặt khác: tam giác $BHC$cân tại $H$ vì có $BH=CH$, suy ra $HI$ vừa là trung tuyến vừa là đường cao hay $HI\\bot BC$.\nVì $IB=IH=\\frac{a}{2}$ nên tam giác $HIB$ vuông cân tại $I$ $\\Rightarrow \\widehat{IHB}={{45}^{o}}\\Rightarrow \\widehat{BHC}=2\\widehat{IHB}={{90}^{o}}$ (4)\nTừ (1), (2), (3) và (4) ta suy ra góc giữa hai mp $(SAB)$ và $(SAC)$ là $\\varphi =\\widehat{BHC}={{90}^{0}}$.",
-   "short_value": null,
+   "short_value": 90,
    "short_correct": "90",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -613,7 +614,7 @@
    "flags": [],
    "question": "Một cái bục để tượng có dạng hình chóp cụt lục giác đều có cạnh đáy lớn bằng 1 m, cạnh đáy nhỏ bằng 0,6 m, chiều cao 2 m. Người ta cần sơn các mặt bên và mặt trên (đáy nhỏ) của cái bục. Tổng diện tích cần sơn là bao nhiêu?\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": ".\n[[IMG:image30.png#0.0187,0.3880,0.6361,0.1172]]\nGiả sử cái bục là hình chóp cụt $ABCDEF.{A}'{B}'{C}'{D}'{E}'{F}'$ có $BE=2CD=2\\,m$, ${B}'{E}'=2{C}'{D}'=1,2\\,m$, $O{O}'=2\\,m$.\nDựng ${B}'G//O{O}'$, suy ra $BG=\\frac{BE-{B}'{E}'}{2}=\\frac{2-1,2}{2}=0,4\\,m$.\nTam giác ${B}'GB$ vuông tại $G$ $\\Rightarrow B{B}'=\\sqrt{{B}'{{G}^{2}}+B{{G}^{2}}}=\\sqrt{{{2}^{2}}+0,{{4}^{2}}}\\approx 2,04\\,m$.\nKẻ ${B}'H$ là đường cao của mặt bên $B{B}'{C}'C$, ta có: $BH=\\frac{BC-{B}'{C}'}{2}=\\frac{1-0,6}{2}=0,2\\,m$\n$\\Rightarrow {B}'H=\\sqrt{B{{{{B}'}}^{2}}-B{{H}^{2}}}=\\sqrt{2,{{04}^{2}}-0,{{2}^{2}}}\\approx 2,03\\,m$.\nDiện tích mặt bên $B{B}'{C}'C$là ${{S}_{1}}=\\frac{1}{2}(BC+{B}'{C}').{B}'H=\\frac{1}{2}(1+0,6).2,03\\approx 1,62\\,{{m}^{2}}$.\nDiện tích mặt trên (đáy nhỏ) là ${{S}_{2}}=0,{{6}^{2}}\\frac{\\sqrt{3}}{4}.6\\approx 0,94{{m}^{2}}$.\nTổng diện tích cần sơn là $S=6{{S}_{1}}+{{S}_{2}}\\approx 6.1,62+0,94=10,66\\,{{m}^{2}}$.",
-   "short_value": 2.03,
+   "short_value": 10.66,
    "short_correct": "10,7",
    "ma": "de1.P3.C6",
    "dac_trung": {
@@ -623,7 +624,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "claude",
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L11.C7.B4.D01",
    "dang_toan_web": "Hai mặt phẳng vuông góc. Góc nhị diện."

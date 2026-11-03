@@ -459,9 +459,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một phần mềm nhận dạng tin nhắn quảng cáo trên điện thoại bằng cách dựa theo từ khóa để đánh dấu một số tin nhắn được gửi đến.Qua một thời gian dài sử dụng,người ta thấy rằng trong số tất cả các tin nhắn gửi đến, có 15% số tin nhắn bị đánh dấu. Trong số các tin nhắn bị đánh dấu, có 10% số tin nhắn không phải quảng cáo. Trong số các tin nhắn không bị đánh dấu, có 5% số tin nhắn là quảng cáo.\nChọn ngẫu nhiên một tin nhắn được ghi đến số điện thoại.",
    "explanation": "Gọi các biến cố sau\n$A$: Tin nhắn bị dánh dấu\n$\\overline{A}$: Tin nhắn không bị đánh dấu\n$B$: Tin nhắn là quảng cáo\n$\\bar{B}$: Tin nhắn không phải là quảng cáo\nTa có sơ đồ sau B\nA\n$\\bar{B}$\n$\\bar{A}$ B\n$\\bar{B}$\nTa có $P\\left( A \\right)=15\\%=0,15$, $P\\left( \\bar{B}\\backslash A \\right)=10\\%=0,1$, $P\\left( B\\backslash \\bar{A} \\right)=5\\%=0,05$\na)Xác suất để tin nhắn đó không bị đánh dấu là $P\\left( {\\bar{A}} \\right)=1-P\\left( A \\right)=1-0,15=0,85$.\nVậy a) đúng\nb) Xác suất để tin nhắn đó không phải là quảng cáo, biết rằng nó không bị đánh dấu là\n$P\\left( \\bar{B}\\backslash \\bar{A} \\right)=1-P\\left( B\\backslash \\bar{A} \\right)=1-0,05=0,95$.\nVậy b) đúng\nc) Xác suất để tin nhắn đó không phải là quảng cáo là\n$P\\left( {\\bar{B}} \\right)=P\\left( \\bar{B}\\backslash A \\right).P\\left( A \\right)+P\\left( \\bar{B}\\backslash \\bar{A} \\right).P\\left( {\\bar{A}} \\right)=0,1.0,15+0,95.0,85=0,8225$\nVậy c) sai\nd) Xác suất để tin nhắn đó không bị đánh dấu,biết rằng nó không phải là\náp dụng công thức bayer ta có\n$P\\left( \\bar{A}\\backslash \\bar{B} \\right)=\\frac{P\\left( {\\bar{A}} \\right).P\\left( \\bar{B}\\backslash \\bar{A} \\right)}{P\\left( {\\bar{B}} \\right)}=\\frac{0,85.0,95}{0,8225}\\approx 0,98176$> 0,95\nVậy d) đúng",
    "ma": "de1.P2.C4",
@@ -472,6 +470,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -555,9 +554,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp tam giác $S.ABC$, đáy $ABC$là tam giác đều cạnh bằng $4$. Gọi $I$là trung điểm của $BC$, hình chiếu vuông góc của $S$ lên mặt phẳng $\\left( ABC \\right)$ là điểm $H$ thuộc đoạn $AI$ sao cho $AH=\\frac{1}{2}HI$. Biết góc giữa $SC$ và mặt đáy bằng ${{60}^{0}}$. Tính khoảng cách giữa $SB$ với $AM$, với $M$ là trung điểm của $SC$. (Không làm tròn kết quả các phép tính trung gian, chỉ làm tròn kết quả cuối cùng đến hàng phần mười)",
    "explanation": "[[IMG:image8.png]]\nĐáy $ABC$là tam giác đều cạnh bằng $4\\Rightarrow AI=2\\sqrt{3};\\,AH=\\frac{2\\sqrt{3}}{3};\\,HI=\\frac{4\\sqrt{3}}{3}$\nTrong tam giác vuông $CHI$ có $HC=\\sqrt{C{{I}^{2}}+H{{I}^{2}}}=\\sqrt{{{2}^{2}}+{{\\left( \\frac{4\\sqrt{3}}{3} \\right)}^{2}}}=\\frac{2\\sqrt{21}}{3}$.\nTheo giả thiết $\\left( SC,\\left( ABC \\right) \\right)={{60}^{0}}\\Rightarrow \\widehat{SCH}={{60}^{0}}$.\nTam giác $SHC$ có $\\tan \\widehat{SCA}=\\frac{SH}{HC}=\\tan {{60}^{0}}\\Rightarrow SH=HC.\\tan {{60}^{0}}=2\\sqrt{7}$\nTa có: $\\left\\{ \\begin{aligned} & AM\\subset \\left( AMI \\right) \\\\ & SB\\parallel MI\\subset \\left( AMI \\right) \\\\ \\end{aligned} \\right.\\Rightarrow d\\left( SB,AM \\right)=d\\left( SB,\\left( AMI \\right) \\right)=d\\left( B,\\left( AMI \\right) \\right)=d\\left( C,\\left( AMI \\right) \\right)$\nVà $\\frac{{{V}_{C.MAI}}}{{{V}_{C.SAB}}}=\\frac{CM}{CS}.\\frac{CI}{CB}=\\frac{1}{4}\\Rightarrow {{V}_{C.AMI}}=\\frac{1}{4}{{V}_{C.SAB}}=\\frac{1}{4}.\\frac{1}{3}.SH.{{S}_{\\Delta ABC}}=\\frac{2\\sqrt{21}}{3}\\,\\left( VTT \\right)$\n$SA=\\sqrt{S{{H}^{2}}+A{{H}^{2}}}=\\sqrt{{{\\left( 2\\sqrt{7} \\right)}^{2}}+{{\\left( \\frac{2\\sqrt{3}}{3} \\right)}^{2}}}=\\frac{2\\sqrt{66}}{3}$\n$HC=\\sqrt{C{{I}^{2}}+H{{I}^{2}}}=\\sqrt{{{2}^{2}}+{{\\left( \\frac{4\\sqrt{3}}{3} \\right)}^{2}}}=\\frac{2\\sqrt{21}}{3};\\,\\,\\,\\,\\,SC=\\sqrt{S{{H}^{2}}+H{{C}^{2}}}=\\frac{4\\sqrt{21}}{3}$.\nTrong tam giác $SAC$ đường trung tuyến $AM=\\sqrt{\\frac{S{{A}^{2}}+A{{C}^{2}}}{2}-\\frac{S{{C}^{2}}}{4}}=\\sqrt{\\frac{{{\\left( \\frac{2\\sqrt{66}}{3} \\right)}^{2}}+{{4}^{2}}}{2}-\\frac{{{\\left( \\frac{4\\sqrt{21}}{3} \\right)}^{2}}}{4}}=\\frac{2\\sqrt{30}}{3}$\nMà $MI=\\frac{1}{2}SB=\\frac{1}{2}SC=\\frac{2\\sqrt{21}}{3}$\nTheo công thức Hêrông, ta có ${{S}_{\\Delta AMI}}=2\\sqrt{6}$.\nKhi đó $d\\left( C,\\left( AMI \\right) \\right)=\\frac{3{{V}_{C.AMI}}}{{{S}_{\\Delta AMI}}}=\\frac{3.\\frac{2\\sqrt{21}}{3}}{2\\sqrt{6}}=\\frac{\\sqrt{14}}{2}$.\nVậy $d\\left( SB,AM \\right)=\\frac{\\sqrt{14}}{2}\\approx 1,9$",
    "short_value": 1.9,
@@ -570,6 +567,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -581,12 +579,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Xếp ngẫu nhiên 7 cuốn sách khác nhau có tính thứ tự, trong đó có một cuốn là sách Toán vào một giá sách có 3 ngăn. Biết rằng sau khi xếp, mỗi ngăn đều có ít nhất một cuốn sách. Gọi ${A}$ là biến cố trong 3 ngăn sách, có đúng một ngăn chứa số lượng sách nhiều hơn hẳn các ngăn còn lại và ${B}$ là biến cố cuốn sách Toán học nằm ở ngăn có nhiều sách nhất đó. Tính ${P(B|A)}$ (Kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Gọi số sách trong 3 ngăn lần lượt là ${n_1, n_2, n_3}$. Khi đó, tổng số sách bằng 7 và mỗi ngăn nhiều hơn một cuốn sách. Để có duy nhất một ngăn nhiều sách nhất thì ta có các trường hợp phân phối số sách vào các ngăn như sau:\nTrường hợp 1: Ngăn nhiều nhất có 5 cuốn, hai ngăn còn lại mỗi ngăn 1 cuốn. (Phân phối: 5, 1, 1)\nCó ${C_3^1 = 3}$ cách chọn ngăn chứa 5 cuốn. Hai ngăn còn lại mỗi ngăn 1 cuốn. Số cách xếp trong trường hợp này là ${n(A_1) = 3 \\cdot 7!}$ cách.\nTrường hợp 2: Ngăn nhiều nhất có 4 cuốn, ngăn nhiều thứ hai có 2 cuốn, ngăn còn lại mỗi ngăn 1 cuốn. (Phân phối: 4, 2, 1)\nCó ${C_3^1 = 3}$ cách chọn ngăn chứa 4 cuốn. Có ${C_2^1 = 2}$ cách chọn ngăn chứa 2 cuốn trong 2 ngăn còn lại. Ngăn cuối cùng chứa 1 cuốn. Số cách chọn ngăn là ${3 \\cdot 2 = 6}$ cách. Số cách xếp trong trường hợp này là ${n(A_2) = 6 \\cdot 7!}$ cách.\nTrường hợp 3: Ngăn nhiều nhất có 3 cuốn, hai ngăn còn lại mỗi ngăn 2 cuốn. (Phân phối: 3, 2, 2)\nCó ${C_3^1 = 3}$ cách chọn ngăn chứa 3 cuốn. Hai ngăn còn lại mỗi ngăn 2 cuốn. Số cách chọn ngăn là ${3}$ cách. Số cách xếp trong trường hợp này là ${n(A_3) = 3 \\cdot 7!}$ cách.\nVậy số cách xếp thỏa mãn biến cố ${A}$ là:\n${n(A) = n(A_1) + n(A_2) + n(A_3) = 3 \\cdot 7! + 6 \\cdot 7! + 3 \\cdot 7! = 12 \\cdot 7!}$ cách.\nBiến cố ${B}$ là cuốn sách Toán học nằm ở ngăn có nhiều sách nhất. Vì vai trò của các cuốn sách là như nhau nên xác suất để cuốn sách Toán rơi vào một nhóm ${k}$ vị trí trong tổng số 7 vị trí là ${\\dfrac{k}{7}}$.\nTrong trường hợp 1: Ngăn nhiều nhất có 5 cuốn. Sách Toán nằm ở ngăn này có xác suất là ${\\dfrac{5}{7}}$.\nSố cách thuận lợi cho trường hợp này là: ${n(A_1 \\cap B) = \\dfrac{5}{7} n(A_1) = \\dfrac{5}{7} \\cdot 3 \\cdot 7! = \\dfrac{15}{7} \\cdot 7!}$.\nTrong trường hợp 2: Ngăn nhiều nhất có 4 cuốn. Sách Toán nằm ở ngăn này có xác suất là ${\\dfrac{4}{7}}$.\nSố cách thuận lợi cho trường hợp này là: ${n(A_2 \\cap B) = \\dfrac{4}{7} n(A_2) = \\dfrac{4}{7} \\cdot 6 \\cdot 7! = \\dfrac{24}{7} \\cdot 7!}$.\nTrong trường hợp 3: Ngăn nhiều nhất có 3 cuốn. Sách Toán nằm ở ngăn này có xác suất là ${\\dfrac{3}{7}}$.\nSố cách thuận lợi cho trường hợp này là: ${n(A_3 \\cap B) = \\dfrac{3}{7} n(A_3) = \\dfrac{3}{7} \\cdot 3 \\cdot 7! = \\dfrac{9}{7} \\cdot 7!}$.\nTổng số cách thuận lợi cho biến cố ${A \\cap B}$ là:\n${n(A \\cap B) = \\left(\\dfrac{15}{7} + \\dfrac{24}{7} + \\dfrac{9}{7}\\right) \\cdot 7! = \\dfrac{48}{7} \\cdot 7!}$.\nVậy xác suất cần tính là: ${P(B|A) = \\dfrac{n(A \\cap B)}{n(A)} = \\dfrac{\\dfrac{48}{7} \\cdot 7!}{12 \\cdot 7!} = \\dfrac{48}{7 \\cdot 12} = \\dfrac{4}{7} \\approx 0,57}$.",
-   "short_value": 4,
+   "short_value": 0.57,
    "short_correct": "0,57",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -596,7 +592,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

@@ -309,6 +309,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D02",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -535,7 +536,7 @@
    "question": "Cho hình lập phương $ABCD.{A}'{B}'{C}'{D}'$. Gọi $M$, $N$ lần lượt là trung điểm của $AD$, $B{B}'.$ Cosin của góc hợp bởi $MN$ và $AC'$ bằng",
    "explanation": "[[IMG:image28.emf]]\n* Xét hình lập phương $ABCD.{A}'{B}'{C}'{D}'$ cạnh $a$.\n* Đặt $\\overrightarrow{a}=\\overrightarrow{AB},\\text{ }\\overrightarrow{b}=\\overrightarrow{AD},\\text{ }\\overrightarrow{c}=\\overrightarrow{A{A}'}\\Rightarrow \\left| \\overrightarrow{a} \\right|=\\left| \\overrightarrow{b} \\right|=\\left| \\overrightarrow{c} \\right|=a,\\text{ }\\overrightarrow{a}.\\overrightarrow{b}=\\overrightarrow{b}.\\overrightarrow{c}=\\overrightarrow{a}.\\overrightarrow{c}=0$.\n* Ta có:\n$\\overrightarrow{MN}=\\overrightarrow{AN}-\\overrightarrow{AM}=\\overrightarrow{AB}+\\overrightarrow{BN}-\\overrightarrow{AM}=\\overrightarrow{a}-\\frac{1}{2}\\overrightarrow{b}+\\frac{1}{2}\\overrightarrow{c}\\Rightarrow \\left| \\overrightarrow{MN} \\right|=\\sqrt{{{a}^{2}}+\\frac{1}{4}{{a}^{2}}+\\frac{1}{4}{{a}^{2}}}=\\frac{a\\sqrt{3}}{\\sqrt{2}}$\n$\\overrightarrow{A{C}'}=\\overrightarrow{AB}+\\overrightarrow{AD}+\\overrightarrow{A{A}'}=\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}\\Rightarrow \\left| \\overrightarrow{A{C}'} \\right|=\\ \\sqrt{{{a}^{2}}+{{a}^{2}}+{{a}^{2}}}=a\\sqrt{3}$\n$\\overrightarrow{A{C}'}.\\overrightarrow{MN}={{a}^{2}}-\\frac{1}{2}{{a}^{2}}+\\frac{1}{2}{{a}^{2}}={{a}^{2}}$\n$\\cos \\left( MN;A{C}' \\right)=\\left| \\cos \\left( \\overrightarrow{MN};\\overrightarrow{A{C}'} \\right) \\right|=\\frac{\\left| \\overrightarrow{MN}.\\overrightarrow{A{C}'} \\right|}{\\left| \\overrightarrow{MN} \\right|.\\left| \\overrightarrow{A{C}'} \\right|}=\\frac{\\sqrt{2}}{3}$.",
    "short_value": 0,
-   "short_correct": "0",
+   "short_correct": "(√2)/3",
    "ma": "de1.P3.C3",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -544,6 +545,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."
@@ -561,8 +563,8 @@
    ],
    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, cạnh bên $SA$ vuông góc với đáy, $SA=a$. Gọi $M$ là trung điểm của $SB$. Khi đó góc giữa $AM$ và$BD$ bằng bao nhiêu độ?",
    "explanation": "[[IMG:image29.png]]\nXét $\\Delta ABD$ vuông cân tại $A$, ta có $BD=\\sqrt{A{{B}^{2}}+A{{D}^{2}}}=\\sqrt{{{a}^{2}}+{{a}^{2}}}=a\\sqrt{2}$.\nGóc giữa 2 đường thẳng $BA$ và $BD$ bằng $45{}^\\circ $, suy ra $\\left( \\overrightarrow{AB},\\overrightarrow{BD} \\right)=135{}^\\circ $.\nXét $\\Delta SAB$ vuông cân tại $A$, ta có $SB=\\sqrt{S{{A}^{2}}+A{{B}^{2}}}=\\sqrt{{{a}^{2}}+{{a}^{2}}}=a\\sqrt{2}$.\n$AM=\\frac{SA.AB}{SB}=\\frac{a\\sqrt{2}}{2}$.\nVì $M$ là trung điểm của $SB$ nên: $2\\overrightarrow{AM}=\\overrightarrow{AS}+\\overrightarrow{AB}$.\nTa có $2\\overrightarrow{AM}.\\overrightarrow{BD}=\\left( \\overrightarrow{AS}+\\overrightarrow{AB} \\right).\\overrightarrow{BD}=\\overrightarrow{AS}.\\overrightarrow{BD}+\\overrightarrow{AB}.\\overrightarrow{BD}=\\overrightarrow{AB}.\\overrightarrow{BD}$ (Do $\\overrightarrow{AS}\\bot \\overrightarrow{BD}$, nên $\\overrightarrow{AS}.\\overrightarrow{BD}=0$)\nSuy ra $\\overrightarrow{AM}.\\overrightarrow{BD}=\\frac{\\overrightarrow{AB}.\\overrightarrow{BD}}{2}=\\frac{AB.BD.\\cos \\left( \\overrightarrow{AB},\\overrightarrow{BD} \\right)}{2}=\\frac{a.a\\sqrt{2}.\\cos \\left( 135{}^\\circ \\right)}{2}=\\frac{-{{a}^{2}}}{2}$.\nDo đó $\\cos \\left( \\overrightarrow{AM},\\overrightarrow{BD} \\right)=\\frac{\\overrightarrow{AM}.\\overrightarrow{BD}}{AM.BD}=\\frac{\\frac{-{{a}^{2}}}{2}}{\\frac{a\\sqrt{2}}{2}.a\\sqrt{2}}=-\\frac{1}{2}\\Rightarrow \\left( \\overrightarrow{AM},\\overrightarrow{BD} \\right)=120{}^\\circ $.\nVậy góc giữa $AM$ và $BD$ bằng $60{}^\\circ $.",
-   "short_value": 0,
-   "short_correct": "0",
+   "short_value": 60,
+   "short_correct": "60",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 10,
@@ -571,6 +573,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D05",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."

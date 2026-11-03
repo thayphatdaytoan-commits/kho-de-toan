@@ -293,6 +293,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -363,7 +364,11 @@
     "c": "Phương trình $f(x)=2$ có ba nghiệm.",
     "d": "Phương trình $f(f(x))=4$ có sáu nghiệm."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true
+   },
    "answer": null,
    "flags": [
     "dung_sai_thieu_dap_an:"
@@ -378,6 +383,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D06",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -424,11 +430,14 @@
     "c": "Giả sử 10 phút tiếp theo máy bay tới vị trí $D$.",
     "d": "Gọi ${C(x ; y ; z)}$ là vị trí của máy bay sau 15 phút quan sát của Ra đa. Vì hướng của máy bay không đổi nên ${\\overrightarrow{A B}}$ và ${\\overrightarrow{B C}}$ cùng hướng. Do vận tốc của máy bay không đổi và thời gian bay từ ${A}$ đến ${B}$ gấp đôi thời gian bay từ ${B}$ đến ${C}$ nên ${A B=2 B C}$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Một máy bay xuất phát từ mặt đất ( gốc toạ độ) theo phương, vận tốc không đổi và tạo với phương nằm ngang một góc ${{30}^{0}}$. Ra đa phát hiện máy bay di từ điểm ${A(800 ; 500 ; 7)}$ đến điểm ${B(940 ; 550 ; 8)}$ trong 10 phút. (Các kết quả được làm tròn đến hàng đơn vị, Đơn vị đo là km).\nQuảng đường di chuyển của máy bay từ $A$đến $B$bằng 149 km\nĐộ cao của máy bay tại vị trí $A$ bằng 943 km\nSau 10 phút tiếp theo máy bay sẽ đạt độ cao lớn nhất. Khi đó độ cao lớn nhất bằng 620 km\nToạ độ của máy bay sau 15 phút quan sát của Ra đa bằng ${(1010 ; 575 ; 8,5)}$\nĐáp án:\n[[IMG:image20.png]]\nTa có $\\overrightarrow{AD}=2\\overrightarrow{AB}$,$AD=2AB=298$(km), $OD=OA+AD=1241$ (km)\nĐộ cao tại vị trí $D$là $h=OD.sin{{30}^{0}}=621$ (km) (sai)\nDo đó ${\\overrightarrow{B C}=\\frac{1}{2} \\overrightarrow{A B}=\\left(\\frac{940-800}{2} ; \\frac{550-500}{2} ; \\frac{8-7}{2}\\right)=(70 ; 25 ; 0,5)}$.\nMặt khác, ${\\overrightarrow{B C}=(x-940 ; y-550 ; z-8)}$ nên ${\\left\\{\\begin{array}{l}x-940=70 \\\\ y-550=25 \\\\ z-8=0,5 .\\end{array}\\right.}$\nTừ đó ${\\left\\{\\begin{array}{l}x=1010 \\\\ y=575 \\\\ z=8,5\\end{array}\\right.}$ và vì vậy ${C(1010 ; 575 ; 8,5)}$.\nVậy toạ độ của máy bay sau 15 phút quan sát là ${(1010 ; 575 ; 8,5)}$.(Đúng)",
    "explanation": "",
    "ma": "de1.P2.C15",
@@ -439,6 +448,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -454,12 +464,13 @@
     "d": "[VD] Khoảng tứ phân vị của mẫu số liệu ghép nhóm gần bằng $79,17$."
    },
    "tf_ans": {
-    "a": true
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:a"
-   ],
+   "flags": [],
    "question": "Một bác tài xế thống kê lại độ dài quãng đường (đơn vị: km) bác đã lái xe mỗi ngày trong một tháng ở bảng sau\n| Độ dài quãng đường (km) | [50; 100) | [100; 150) | [150; 200) | [200; 250) | [250; 300) |\n|---|---|---|---|---|---|\n| Số ngày | 5 | 10 | 9 | 4 | 2 |",
    "explanation": "| A. | B. | C. | D. |\n|---|---|---|---|\n| ĐÚNG | ĐÚNG | SAI | ĐÚNG |\na) Đúng. Khoảng biến thiên của mẫu số liệu ghép nhóm là: R = 300 – 50 = 250 (km).\nb) Cỡ mẫu $n= 5 + 10 + 9 + 4 + 2=30$ .\nGọi ${{x}_{1}};...;{{x}_{30}}$là mẫu số liệu gốc về độ dài quãng đường bác tài xế đã lái xe mỗi ngày trong một tháng được xếp theo thứ tự không giảm.\nTa có ${{x}_{1}};...;{{x}_{5}}\\in $ [50; 100), ${{x}_{6}};...;{{x}_{15}}\\in $ [100; 150), ${{x}_{16}};...;{{x}_{24}}\\in $ [150; 200),\n${{x}_{25}};...;{{x}_{28}}\\in $ [200; 250), ${{x}_{29}};{{x}_{30}}\\in $250; 300).\nTa có bảng sau:\n| Độ dài quãng đường (km) | [50; 100) | [100; 150) | [150; 200) | [200; 250) | [250; 300) |\n|---|---|---|---|---|---|\n| Giá trị đại diện | 75 | 125 | 175 | 225 | 275 |\n| Số ngày | 5 | 10 | 9 | 4 | 2 |\nb) Số trung bình của mẫu số liệu ghép nhóm là:\n$\\overline{x}=\\frac{5\\times 75+10\\times 125+9\\times 175+4\\times 225+2\\times 275}{30}=155$.\nc) Phương sai của mẫu số liệu ghép nhóm là:\n${{S}^{2}}=\\frac{1}{30}\\left[ 5\\times {{75}^{2}}+10\\times {{125}^{2}}+9\\times {{175}^{2}}+4\\times {{225}^{2}}+2\\times {{275}^{2}} \\right]-{{155}^{2}}=3100$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là: $S=\\sqrt{{{S}^{2}}}=\\sqrt{3100}\\approx 55,68$.\nd) Tứ phân vị thứ nhất của mẫu số liệu gốc là ${{x}_{8}}\\in $ [100; 150).\nDo đó, tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${{Q}_{1}}=100+\\frac{\\frac{30}{4}-5}{10}\\left( 150-100 \\right)=112,5$.\nTứ phân vị thứ ba của mẫu số liệu gốc là ${{x}_{23}}\\in $ [150; 200).\nDo đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là: ${{Q}_{3}}=100+\\frac{\\frac{3.30}{4}-\\left( 5+10 \\right)}{9}\\left( 200-150 \\right)=\\frac{575}{3}$.\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=\\frac{575}{3}-112,5\\approx 79,17$",
    "ma": "de1.P2.C16",
@@ -470,6 +481,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -481,14 +493,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 15: thiếu đáp án (trả lời ngắn)"
-   ],
+   "flags": [],
    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho ba điểm $A\\left( 1;\\,-2;\\,2 \\right),\\,B\\left( 3;\\,1;\\,-1 \\right),C\\left( 2;\\,2;\\,0 \\right)$. Điểm$M$ có tọa độ $M\\left( a;b;c \\right)$ thuộc mặt phẳng $\\left( Oyz \\right)$ sao cho $\\left| 3\\overrightarrow{MA}+2\\overrightarrow{MB}-\\overrightarrow{MC} \\right|$ đạt giá trị nhỏ nhất. Giá trị của biểu thức $P=3a-2b+c$ bằng:\nĐÁP ÁN: 4\nGọi $I$ là điểm thỏa mãn: $3\\overrightarrow{IA}+2\\overrightarrow{IB}-\\overrightarrow{IC}=\\overrightarrow{0}$ khi đó\n$3\\left( \\overrightarrow{OA}-\\overrightarrow{OI} \\right)+2\\left( \\overrightarrow{OB}-\\overrightarrow{OI} \\right)-\\left( \\overrightarrow{OC}-\\overrightarrow{OI} \\right)=\\overrightarrow{0}\\Leftrightarrow \\overrightarrow{OI}=\\frac{3\\overrightarrow{OA}+2\\overrightarrow{OB}-\\overrightarrow{OC}}{4}\\Rightarrow I\\left( \\frac{7}{4};-\\frac{3}{2};1 \\right)$\n$\\left| 3\\overrightarrow{MA}+2\\overrightarrow{MB}-\\overrightarrow{MC} \\right|=\\left| 3\\overrightarrow{IA}+2\\overrightarrow{IB}-\\overrightarrow{IC}+4\\overrightarrow{MI} \\right|=4MI$\nDo đó $\\left| 3\\overrightarrow{MA}+2\\overrightarrow{MB}-\\overrightarrow{MC} \\right|$ nhỏ nhất khi $MI$ nhỏ nhất, hay $M$ là hình chiếu của $I$ trên mặt phẳng $\\left( Oyz \\right)$. Suy ra $M\\left( 0;-\\frac{3}{2};1 \\right)$. Vậy $P=3.0-2.\\left( -\\frac{3}{2} \\right)+1=4$",
    "explanation": "",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "4",
    "ma": "de1.P3.C17",
    "dac_trung": {
     "so_dong_loi_giai": 0,
@@ -497,6 +506,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D03",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -532,14 +542,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 17: thiếu đáp án (trả lời ngắn)"
-   ],
+   "flags": [],
    "question": "Hình vẽ bên dưới mô tả đoạn đường đi vào GARA Ô TÔ nhà cô Hiền. Đoạn đường đầu tiên có chiều rộng bằng $x\\ (\\text{m})$, đoạn đường thẳng vào cổng GARA có chiều rộng $2,6\\ (\\text{m})$. Biết kích thước xe ô tô là $5\\text{m}\\times 1,9\\text{m}$. Để tính toán và thiết kế đường đi cho ô tô người ta coi ô tô như một khối hộp chữ nhật có kích thước chiều dài $5\\ (\\text{m})$, chiều rộng $1,9\\ (\\text{m})$. Hỏi chiều rộng nhỏ nhất của đoạn đường đầu tiên bằng bao nhiêu để ô tô có thể đi vào GARA được? (kết quả làm tròn đến hàng phần trăm)\n[[IMG:image13.png#0.0570,0.0126,0.0000,0.0000]]\n[[IMG:image22.png#0.0000,0.0208,0.0000,0.0000]]\nChọn hệ trục $Oxy$như hình vẽ. Khi đó $M\\left( -2,6\\ ;\\ x \\right)$.\nGọi $B\\left( -a\\ ;\\ 0 \\right)$suy ra $A\\left( 0\\ ;\\ \\sqrt{25-{{a}^{2}}} \\right)$. Phương trình $AB:\\ \\frac{x}{-a}+\\frac{y}{\\sqrt{25-{{a}^{2}}}}-1=0$.\nDo $CD\\ \\text{//}\\ AB$nên phương trình $CD:\\ \\frac{x}{-a}+\\frac{y}{\\sqrt{25-{{a}^{2}}}}-T=0$.\nMà khoảng cách giữa $AB$và $CD$bằng $1,9$m nên\n$\\frac{\\left| T-1 \\right|}{\\sqrt{{{\\left( \\frac{1}{a} \\right)}^{2}}+{{\\left( \\frac{1}{\\sqrt{25-{{a}^{2}}}} \\right)}^{2}}}}=1,9\\Rightarrow T=1+\\frac{9,5}{a\\sqrt{25-{{a}^{2}}}}$.\nĐiều kiện để ô tô đi qua được là $M,O$nằm khác phía đối với bờ là đường thẳng $CD$.\nSuy ra: $\\frac{-2,6}{-a}+\\frac{x}{\\sqrt{25-{{a}^{2}}}}-1-\\frac{9,5}{a\\sqrt{25-{{a}^{2}}}}\\ge 0$ $\\Leftrightarrow x\\ge \\sqrt{25-{{a}^{2}}}+\\frac{9,5}{a}-\\frac{2,6\\times \\sqrt{25-{{a}^{2}}}}{a}$\nĐể cho nhanh, chúng ta dùng chức năng TABLE trong máy tính:\n$f\\left( X \\right)=\\sqrt{25-{{X}^{2}}}+\\frac{9,5}{X}-\\frac{2,6\\times \\sqrt{25-{{X}^{2}}}}{X}$với STEP = $\\frac{5}{29}$; START = 0; END = 5.\nThấy giá trị lớn nhất của $f\\left( X \\right)=\\sqrt{25-{{X}^{2}}}+\\frac{9,5}{X}-\\frac{2,6\\times \\sqrt{25-{{X}^{2}}}}{X}$xấp xỉ $3,698$.\nVậy chiều rộng nhỏ nhất của đoạn đường đầu tiên gần nhất với giá trị $x=3,7\\ (\\text{m})$",
    "explanation": "",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "3,7|3,70",
    "ma": "de1.P3.C19",
    "dac_trung": {
     "so_dong_loi_giai": 0,
@@ -548,6 +555,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B3.D01",
    "dang_toan_web": "Góc giữa hai đường thẳng, góc giữa đường thẳng và mặt phẳng, góc giữa hai mặt phẳng."
@@ -562,10 +570,10 @@
    "flags": [
     "dap_an_ngan_trong_va_loi_giai_khong_ra_so"
    ],
-   "question": "Một công ty sản xuất bồn chứa nước hình trụ loại $2000l$kín hai đáy bằng inox. Biết rằng đơn giá của vật liệu làm hai mặt đáy bằng đơn giá của vật liệu để làm mặt xung quanh của bồn (chi phí cho mỗi đơn vị diện tích). Để chi phí nhỏ nhất thì bán kính đáy của bồn là bao nhiêu mét? (làm tròn đến hàng phần trăm)\nĐÁP ÁN: $0,68$\nĐổi $2000l=2{{m}^{3}}$\nGọi $r\\left( \\text{m} \\right)$ là bán kính đáy của hình trụ, $h\\left( \\text{m} \\right)$ là chiều cao của hình trụ.\nDiện tích toàn phần của hình trụ là: $S=2\\pi {{r}^{2}}+2\\pi rh$.\nDo thể tích của hình trụ là $2{{\\text{m}}^{3}}$ nên ta có: $V=\\pi {{r}^{2}}h=2$, hay $h=\\frac{2}{\\pi {{r}^{2}}}$.\nDo đó, diện tích toàn phần của hình trụ là: $S=2\\pi {{r}^{2}}+\\frac{4}{r},r>0$.\nTa cần tìm $r$ sao cho $S$ đạt giá trị nhỏ nhất. Ta có:\n${S}'=4\\pi r-\\frac{4}{{{r}^{2}}}=\\frac{4\\pi {{r}^{3}}-4}{{{r}^{2}}};{S}'=0\\Leftrightarrow \\pi {{r}^{3}}=1\\Leftrightarrow r=\\sqrt[3]{\\frac{1}{\\pi }}.$\nBảng biến thiên:\n[[IMG:image23.png]]\nVậy cần sản xuất các hộp đựng hình trụ có bán kính đáy $r=\\sqrt[3]{\\frac{1}{\\pi }}\\approx 0,68(m).$",
-   "explanation": "",
+   "question": "Một công ty sản xuất bồn chứa nước hình trụ loại $2000l$kín hai đáy bằng inox. Biết rằng đơn giá của vật liệu làm hai mặt đáy bằng đơn giá của vật liệu để làm mặt xung quanh của bồn (chi phí cho mỗi đơn vị diện tích). Để chi phí nhỏ nhất thì bán kính đáy của bồn là bao nhiêu mét? (làm tròn đến hàng phần trăm)",
+   "explanation": "Đổi $2000l=2{{m}^{3}}$\nGọi $r\\left( \\text{m} \\right)$ là bán kính đáy của hình trụ, $h\\left( \\text{m} \\right)$ là chiều cao của hình trụ.\nDiện tích toàn phần của hình trụ là: $S=2\\pi {{r}^{2}}+2\\pi rh$.\nDo thể tích của hình trụ là $2{{\\text{m}}^{3}}$ nên ta có: $V=\\pi {{r}^{2}}h=2$, hay $h=\\frac{2}{\\pi {{r}^{2}}}$.\nDo đó, diện tích toàn phần của hình trụ là: $S=2\\pi {{r}^{2}}+\\frac{4}{r},r>0$.\nTa cần tìm $r$ sao cho $S$ đạt giá trị nhỏ nhất. Ta có:\n${S}'=4\\pi r-\\frac{4}{{{r}^{2}}}=\\frac{4\\pi {{r}^{3}}-4}{{{r}^{2}}};{S}'=0\\Leftrightarrow \\pi {{r}^{3}}=1\\Leftrightarrow r=\\sqrt[3]{\\frac{1}{\\pi }}.$\nBảng biến thiên:\n[[IMG:image23.png]]\nVậy cần sản xuất các hộp đựng hình trụ có bán kính đáy $r=\\sqrt[3]{\\frac{1}{\\pi }}\\approx 0,68(m).$",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "0,68",
    "ma": "de1.P3.C20",
    "dac_trung": {
     "so_dong_loi_giai": 0,
@@ -574,6 +582,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B1.D04",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -609,9 +618,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Người ta cần lắp một camera phía trên sân bóng để phát sóng truyền hình một trận bóng đá, camera có thể di động để luôn thu được hình ảnh rõ nét về diễn biến trên sân. Các kĩ sư dự định trồng bốn chiếc cột cao 30 m và sử dụng hệ thống cáp gắn vào bốn đầu cột để giữ camera ở vị trí mong muốn. Mô hình thiết kế được xây dựng như sau: Trong hệ trục toạ độ $Oxyz$(đơn vị độ dài trên mỗi trục là 1m), các đỉnh của bốn chiếc cột lần lượt là các điểm $M\\left( 90;0;30 \\right),\\text{ }N(90;~120;30),\\text{ }$ $P\\left( 0;120;30 \\right),\\text{ }Q\\left( 0;0;30 \\right)$(Hình 34). Giả sử ${{K}_{0}}$ là vị trí ban đầu của camera có cao độ bằng 25 và ${{K}_{0}}M={{K}_{0}}N={{K}_{0}}P={{K}_{0}}Q$. Để theo dõi quả bóng đến vị trí $A$, camera được hạ thấp theo phương thẳng đứng xuống điểm ${{K}_{1}}~$ có cao độ bằng 19 (Nguồn: https:⁄/www.abiturloesumg.de; Abitur Bayern 2016 Geometrie VI).\n[[IMG:image14.png]]\nBiết rằng vecto $\\overrightarrow{{{K}_{0}}{{K}_{1}}}$ có tọa độ là $(a;b;c);a,b,c\\in \\mathbb{R}.$ Khi đó $a+b+c$ bằng bao nhiêu",
    "explanation": "[[IMG:image24.png]]\nGọi ${{M}_{1}},\\text{ }{{N}_{1}},\\text{ }{{P}_{1}},\\text{ }K$ lần lượt là hình chiếu của $M,\\text{ }N,\\text{ }P,\\text{ }{{K}_{0}}$ lên mặt phẳng $\\left( Oxy \\right).$\nTa thấy $MNPQ.{{M}_{1}}{{N}_{1}}{{P}_{1}}O$ là hình hộp chữ nhật. Gọi $K'~$ là giao hai đường chéo $MP\\text{ }v\\grave{a}\\text{ }NQ$.\nKhi đó $K'Q=K'P=K'N=K'M.$ Vì ${{K}_{0}}M={{K}_{0}}N={{K}_{0}}P={{K}_{0}}Q$ và camera được hạ thấp theo phương thẳng đứng từ điểm ${{K}_{0}}~$ xuống điểm ${{K}_{1}}~$ nên các điểm $K',\\text{ }{{K}_{0}},\\text{ }{{K}_{1}},\\text{ }K$ thẳng hàng.\nKhi đó, các điểm $K',\\text{ }{{K}_{0}},\\text{ }{{K}_{1}},\\text{ }K~$ có hoành độ và tung độ bằng nhau.\nTheo bài ra, cao độ của ${{K}_{0}}~v\\grave{a}\\text{ }{{K}_{1}}$ lần lượt là 25 và 19. Giả sử ${{K}_{0}}\\left( x;y;25 \\right)\\text{ }v\\grave{a}\\text{ }{{K}_{1}}\\left( x;y;19 \\right).$\nTa có $MNPQ.{{M}_{1}}{{N}_{1}}{{P}_{1}}O$ là hình hộp chữ nhật nên $K'K=OQ$, suy ra cao độ của $K'~$ bằng 30.\nDo đó, $K'~\\left( x;y;30 \\right).$\nTa có $\\overrightarrow{{K}'Q}=\\overrightarrow{OQ}-\\overrightarrow{O{K}'}=30\\overrightarrow{k}-\\left( x\\overrightarrow{i}+y\\overrightarrow{j}+30\\overrightarrow{k} \\right)=-x\\overrightarrow{i}-y\\overrightarrow{j}\\Rightarrow \\overrightarrow{{K}'Q}=\\left( -x;\\,-y;\\,0 \\right)$.\n$\\begin{aligned} & \\overrightarrow{N{K}'}=\\overrightarrow{OK'}-\\overrightarrow{ON}=\\left( x\\overrightarrow{i}+y\\overrightarrow{j}+30\\overrightarrow{k} \\right)-\\left( 90\\overrightarrow{i}+120\\overrightarrow{j}+30\\overrightarrow{k} \\right)=(x-90)\\overrightarrow{i}+(y-120)\\overrightarrow{j} \\\\ & \\Rightarrow \\overrightarrow{N{K}'}=\\left( x-90;\\,y-120;\\,0 \\right). \\\\ \\end{aligned}$\nVì $K'~$ là giao hai đường chéo của hình chữ nhật $MNPQ$ nên $K'~$ là trung điểm của $NQ.$\nSuy ra $\\overrightarrow{{K}'Q}=\\overrightarrow{N{K}'}\\Leftrightarrow \\left\\{ \\begin{aligned} & -x=x-90 \\\\ & -y=y-120 \\\\ & 0=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=45 \\\\ & y=60 \\\\ \\end{aligned} \\right.$.\nDo vậy, ${{K}_{0}}\\left( 45;\\text{ }60;\\text{ }25 \\right)\\text{; }{{K}_{1}}\\left( 45;\\text{ }60;\\text{ }19 \\right)~$ nên ta có $\\overrightarrow{{{K}_{0}}{{K}_{1}}}=\\overrightarrow{O{{K}_{1}}}-\\overrightarrow{O{{K}_{0}}}=\\left( 45\\overrightarrow{i}+60\\overrightarrow{j}+19\\overrightarrow{k} \\right)-\\left( 45\\overrightarrow{i}+60\\overrightarrow{j}+25\\overrightarrow{k} \\right)=-6\\overrightarrow{k}\\Rightarrow \\overrightarrow{{{K}_{0}}{{K}_{1}}}=\\left( 0;\\,0;\\,-6 \\right).$\nDo đó, $a+b+c=-6.$",
    "short_value": -6,
@@ -624,6 +631,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

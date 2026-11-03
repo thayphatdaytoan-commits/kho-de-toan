@@ -1450,9 +1450,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "loi_giai_noi_D_dung_nhung_chon_C"
-   ],
+   "flags": [],
    "question": "Dựa vào các thông tin được cung cấp dưới đây để trả lời các câu từ 53 đến 56:\nTrong một thành phố, hệ thống giao thông bao gồm một tuyến xe điện ngầm và một tuyến xe buýt.\n+) Tuyến xe điện ngầm đi từ T đến R đến S đến G đến H đến I, dừng lại ở mỗi bến, sau đó quay lại, cũng dừng ở các bến đó theo thứ tự ngược lại.\n+) Tuyến xe buýt đi từ R đến W đến L đến G đến F, dừng lại ở mỗi bến, sau đó quay lại, cũng dừng ở các bến đó theo thứ tự ngược lại.\n+) Trên mỗi tuyến, có những xe buýt và xe điện thường, loại này dừng ở mỗi bến. Trong giờ cao điểm, có một chiếc xe buýt express mà chỉ dừng ở các bến R, L và F, quay trở lại, cũng chỉ dừng ở ba bến nói trên theo thứ tự ngược lại.\n+) Một hành khách có thể chuyển từ tuyến xe điện hay xe buýt sang tuyến kia khi xe buýt và xe điện dừng lại ở bến có cùng tên.\n+) Không thể chuyển từ xe buýt express sang xe buýt thường.\n+) Trong thành phố không còn loại phương tiện giao thông công cộng nào khác.\nChỉ sử dụng xe buýt, hành khách KHÔNG THỂ đi bằng phương tiện giao thông công cộng từ",
    "explanation": "Phương pháp giải: Phân tích đề bài và chú ý đến các bến mà các loại xe có thể dừng\nGiải chi tiết:\nXe điện ngầm: T => R => S => G => H => I\nXe buýt: R => W => L => G => F\nXe buýt Express: R => L => F\n+) Đáp án A: Đúng vì hành khách đi xe buýt từ F => G => L => W => R\n+) Đáp án B: Đúng vì hành khách đi xe buýt thường từ G => L rồi đổi tuyến qua xe buýt Express ở L rồi đi tiếp đến R\n+) Đáp án C sai vì chỉ có xe điện ngầm dừng ở bến H.\n+) Đáp án D đúng vì hành khách đi xe buýt từ L => W => R",
    "options": [
@@ -1469,6 +1467,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

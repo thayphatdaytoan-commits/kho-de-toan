@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "8",
   "lesson": "on-tap",
-  "title": "Bài on-tap. Tập cuối chương 8"
+  "title": "Bài on-tap. Tập cuối chương 8",
+  "exam_type": "lesson"
  },
  "no": 3,
  "sections": {
@@ -215,9 +216,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Khẳng định nào sau đây sai?",
    "explanation": "Mệnh đề “Nếu đường thẳng $d$vuông góc với hai đường thẳng nằm trong $(\\alpha )$thì $d\\bot (\\alpha )$” sai vì thiếu điều kiện “cắt nhau”của hai đường thẳng nằm trong $(\\alpha )$.",
    "options": [
@@ -234,6 +233,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C7.B2.D03",
    "dang_toan_web": "Đường thẳng vuông góc với mặt phẳng. Định lí ba đường vuông góc."
@@ -488,7 +488,7 @@
    "flags": [],
    "question": "Cho hình lập phương $ABCD.{A}'{B}'{C}'{D}'$ có cạnh bằng $a$. Khoảng cách giữa hai đường thẳng $AC$ và $D{C}'$ bằng?",
    "explanation": "[[IMG:image80.emf#0.0343,0.0390,0.0417,0.0442]]\nGọi $O=AC\\cap BD$. Kẻ $BH\\bot {B}'O$ $\\left( H\\in {B}'O \\right)$.\nTa có $AC\\bot B{B}'$ và $AC\\bot BO$ nên $AC\\bot \\left( B{B}'O \\right)$ và do đó $AC\\bot BH$. Từ đó suy ra $BH\\bot \\left( A{B}'C \\right)$. Từ liên hệ $\\frac{1}{B{{H}^{2}}}=\\frac{1}{B{{O}^{2}}}+\\frac{1}{B{{{{B}'}}^{2}}}$ ta tính được $BH=\\frac{a\\sqrt{3}}{3}$\nTa lại có $D{C}'\\,\\text{//}\\,A{B}'$ nên $D{C}'\\,\\text{//}\\,\\left( A{B}'C \\right)$.\nDo đó $d\\left( AC\\,,D{C}' \\right)=d\\left( D{C}'\\,,\\left( A{B}'C \\right) \\right)=d\\left( D\\,,\\left( A{B}'C \\right) \\right)=d\\left( B\\,,\\left( A{B}'C \\right) \\right)=BH=\\frac{a\\sqrt{3}}{3}$",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "\\dfrac{a\\sqrt{3}}{3}|\\dfrac{a√3}{3}",
    "ma": "de3.P3.C1",
    "dac_trung": {
@@ -513,7 +513,7 @@
    "flags": [],
    "question": "Cho hình chóp ${{S} . {ABCD}}$ có đáy là hình thang vuông tại ${{A}}$ và ${{D}, A B=2 A D=2 C D=2 a}$. Biết ${S A \\perp(A B C D), S A=3 a}$.\nTính diện tích hình chiếu vuông góc của tam giác $SBC$ lên mặt phẳng ${(S A B)}$.",
    "explanation": "[[IMG:image81.png]]\n-Gọi ${{I}}$ là trung điểm ${{AB}}$.\nDễ dàng chứng minh ${{AICD}}$ là hình vuông ${\\Rightarrow C I=\\frac{1}{2} A B \\Rightarrow \\Delta A B C}$ vuông tại ${{C}}$\nTa có: ${\\left\\{\\begin{array}{l}B C \\perp S A \\\\ B C \\perp A C\\end{array} \\Rightarrow B C \\perp(S A C)\\right.}$.\n- Ta có: ${\\left\\{\\begin{array}{l}C I \\perp A B \\\\ C I \\perp S A\\end{array} \\Rightarrow C I \\perp(S A B)\\right.}$\nHình chiếu của ${\\Delta S B C}$ trên ${{mp}({SAB})}$ là ${\\Delta S I B}$.\n${S_{\\Delta S I B}=\\frac{1}{2} S_{\\Delta S A B}=\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot S A \\cdot A B=\\frac{1}{4} \\cdot 3 a \\cdot 2 a=\\frac{3}{2} a^2 }$",
-   "short_value": null,
+   "short_value": 3,
    "short_correct": "\\dfrac{3}{2}a^2",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -538,7 +538,7 @@
    "flags": [],
    "question": "Cho hình chóp đều ${S . A B C D}$ có tất cả các cạnh bằng ${a}$. Gọi ${M}$ là trung điểm ${S C}$. Tính góc phẳng nhị diện ${[M, B D, A]}$?",
    "explanation": "[[IMG:image82.png]]\nTa có: ${\\left\\{\\begin{array}{l}B D \\perp A C \\\\ B D \\perp S O\\end{array} \\Rightarrow B D \\perp(S A C) \\Rightarrow B D \\perp O M\\right.}$\nTa có: ${\\left\\{\\begin{array}{l}(M B D) \\cap(A B D)=B D \\\\ \\operatorname{Trong}(M B D), M O \\perp B D \\Rightarrow[M, B D, A]=\\widehat{M O A} \\\\ \\operatorname{Trong}(A B D), A O \\perp B D\\end{array}\\right.}$\nXét ${\\Delta M O C}$ có: ${O M=M C=\\frac{a}{2}, O C=\\frac{a \\sqrt{2}}{2}}$ nên ${\\Delta M O C}$ vuông cân tại ${M}$ ${\\Rightarrow \\widehat{M O C}=45^{\\circ} \\Rightarrow \\widehat{M O A}=135^{\\circ}}$",
-   "short_value": null,
+   "short_value": 135,
    "short_correct": "135",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -560,9 +560,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một thợ xây cần xây một bể nước hình lăng trụ đứng có đáy là tam giác đều, chứa được $1{{m}^{3}}$ nước. Biết rằng chi phí để làm nắp đậy, tường xung quanh và đáy dưới là 1 triệu đồng trên $1{{m}^{2}}$. Hỏi người thợ xây cần ít nhất bao nhiêu tiền để hoàn thành công việc?",
    "explanation": "Gọi $x$ là độ dài cạnh đáy và $h$ là độ dài cạnh bên của khối lăng trụ. Để chi phí xây dựng là ít nhất thì diện tích toàn phần hình lăng trụ nhỏ nhất.\nTa có $V=\\frac{{{x}^{2}}\\sqrt{3}}{4}.h=1$ $\\Leftrightarrow h=\\frac{4}{\\sqrt{3}{{x}^{2}}}$.\nDiện tích toàn phần của hình lăng trụ là ${{S}_{tp}}=3xh+\\frac{{{x}^{2}}\\sqrt{3}}{2}$ $=\\frac{4\\sqrt{3}}{x}+\\frac{{{x}^{2}}\\sqrt{3}}{2}$\n${{S}_{tp}}=\\frac{2\\sqrt{3}}{x}+\\frac{2\\sqrt{3}}{x}+\\frac{{{x}^{2}}\\sqrt{3}}{2}\\ge 3\\sqrt[3]{6\\sqrt{3}}$.\nVậy $\\min {{S}_{tp}}=3\\sqrt[3]{6\\sqrt{3}}$ khi $\\frac{2\\sqrt{3}}{x}=\\frac{{{x}^{2}}\\sqrt{3}}{2}$ $\\Leftrightarrow x=\\sqrt[3]{4}$.\nChi phí xây bể là $T=3\\sqrt[3]{6\\sqrt{3}}.1000000\\approx 6546742$\nDo đó số tiền ít nhất người thợ cần bỏ ra là $T\\approx 6546742$",
    "short_value": 6546742,
@@ -575,6 +573,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C7.B6.D05",
    "dang_toan_web": "Thể tích của một số khối đa diện (khối lăng trụ, khối chóp)."
@@ -589,7 +588,7 @@
    "flags": [],
    "question": "Một chân cột bằng gang có dạng chóp cụt tứ giác đều có cạnh đáy lớn bằng $2a$ và cạnh đáy nhỏ bằng $a$, chiều cao $h=2a$ và bán kính đáy phần trụ rỗng bên trong bằng $\\frac{a}{2}$.\nTìm góc phẳng nhị diện tạo bởi mặt bên và mặt đáy. (đơn vị: độ).\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "[[IMG:image83.png]]\nLấy $O=AC\\cap BD$ và ${O}'={A}'{C}'\\cap {B}'{D}'$, khi đó $O{O}'$ là đường cao của hình chóp cụt đều ${A}'{B}'{C}'{D}'.ABCD$.\nLấy $M$, ${M}'$ lần lượt là trung điểm của $CD,\\,{C}'{D}'$, khi đó ta chứng minh được $M{M}'\\bot CD$ và$OM\\bot CD$. Suy ra góc phẳng nhị diện mặt bên $\\left( CD{D}'{C}' \\right)$ và mặt đáy $\\left( ABCD \\right)$ là $\\widehat{OM{M}'}$.\nDo $AB=2{A}'{B}'$ nên theo định lí Thalès ta cũng có $SO=2S{O}'$. Khi đó ta tính được $SO=2O{O}'=4a$.\nTa lại có $OM=\\frac{AD}{2}=a$.\nDo đó $\\tan \\widehat{OM{M}'}=\\frac{SO}{OM}=4$ hay $\\widehat{OM{M}'}\\approx 75{}^\\circ 5{8}'$.",
-   "short_value": 4,
+   "short_value": 75,
    "short_correct": "76|76,0",
    "ma": "de3.P3.C5",
    "dac_trung": {
@@ -614,7 +613,7 @@
    "flags": [],
    "question": "Cho hình chóp $S.ABC$ có $SA=BC=2a$. Gọi $M$, $N$ lần lượt là trung điểm của $AB$, và $SC$, $MN=a\\sqrt{3}$. Số đo góc giữa hai đường thẳng $SA$ và $BC$ bằng",
    "explanation": "[[IMG:image84.emf]]\nGọi $P$, $Q$ lần lượt là trung điểm của $SB$, $AC$. Khi đó $MP$, $NQ$, $MQ$, $PN$ lần lượt là đường trung bình của tam giác $SAB$, $SAC$, $ABC$, $SBC$ nên ${MP\\ \\text{//}\\ NQ\\ \\text{//}\\ SA}$; ${PN\\text{\\ \\text{//}\\ M}Q\\text{\\ \\text{//}\\ BC}}$ và $MP=NQ=\\frac{1}{2}SA=a$; $PN=MQ=\\frac{1}{2}BC=a$. Suy ra góc giữa hai đường thẳng $SA$ và $BC$ bằng hoặc bù với góc $\\widehat{PMQ}$ và tứ giác $MPNQ$ là hình thoi.\nXét hình thoi $MPNQ$, gọi $O$giao điểm của hai đường chéo; vì $MN=a\\sqrt{3}$ nên $MO=\\frac{a\\sqrt{3}}{2}$; trong tam giác vuông $MOQ$ thì $OQ=\\sqrt{{{a}^{2}}-\\frac{3{{a}^{2}}}{4}}=\\frac{a}{2}$ $\\Rightarrow PQ=a$, khi đó tam giác $PMQ$ đều hay $\\widehat{PMQ}=60{}^\\circ $.",
-   "short_value": null,
+   "short_value": 60,
    "short_correct": "60",
    "ma": "de3.P3.C6",
    "dac_trung": {

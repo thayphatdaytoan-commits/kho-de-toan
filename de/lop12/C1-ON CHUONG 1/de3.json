@@ -295,9 +295,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "cong_thuc_dang_anh_chua_OCR"
-   ],
+   "flags": [],
    "question": "Hàm số [[EQIMG:image60.wmf]] đạt cực đại tại điểm",
    "explanation": "Ta có: ${f}'\\left( x \\right)=3{{x}^{2}}-6x-9$.\n${f}'\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-1 \\\\ & x=3 \\\\ \\end{aligned} \\right.$.\nTa có bảng biến thiên:\n[[IMG:image61.png]]\nDựa vào bảng biến thiên, ta thấy hàm số đạt cực đại tại $x=-1$.",
    "options": [
@@ -313,7 +311,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 2,
@@ -501,9 +500,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Điểm cực tiểu ${{x}_{CT}}$ của hàm số $y={{x}^{3}}+3{{x}^{2}}-9x$ là:",
    "explanation": "Ta có:\n${y}'=3{{x}^{2}}+6x-9=0\\Rightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-3 \\\\ \\end{aligned} \\right.\\Rightarrow \\left[ \\begin{aligned} & y\\left( 1 \\right)=-5 \\\\ & y\\left( -3 \\right)=27 \\\\ \\end{aligned} \\right.$.\n[[IMG:image68.png]]\n$\\Rightarrow $ $x=1$ là điểm cực tiểu.",
    "short_value": 1,
@@ -516,6 +513,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D04",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -527,9 +525,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm $m$ để hàm số $y={{x}^{3}}-3m{{x}^{2}}+\\left( {{m}^{2}}+2 \\right)x-m+1$ đạt cực đại tại $x=1$.",
    "explanation": "Ta có $y\\prime =3{{x}^{2}}-6mx+\\left( {{m}^{2}}+2 \\right)$.\nHàm số $y={{x}^{3}}-3m{{x}^{2}}+\\left( {{m}^{2}}+2 \\right)x-m+1$ đạt cực đại tại $x=1$.\n$\\Leftrightarrow $ $y\\prime \\left( 1 \\right)=0$ $\\Leftrightarrow $ $3-6m+{{m}^{2}}+2=0$ $\\Leftrightarrow $ $\\left[ \\begin{aligned} & m=1 \\\\ & m=5 \\\\ \\end{aligned} \\right.$\n+ Với $m=1$ ta có: $y={{x}^{3}}-3{{x}^{2}}+3x$\n$y'=3{{x}^{2}}-6x+3$\n$y'=0\\Leftrightarrow 3{{x}^{2}}-6x+3=0\\Leftrightarrow x=1$ $\\Rightarrow $ hàm số không có cực trị.\n+ Với $m=5$ ta có: $y={{x}^{3}}-15{{x}^{2}}+27x-4$\n$y'=3{{x}^{2}}-30x+27$\n$y'=0\\Leftrightarrow 3{{x}^{2}}-30x+27=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=9 \\\\ \\end{aligned} \\right..$\n[[IMG:image69.png]]\nTừ bảng biến thiên ta có với $m=5$ thì hàm số đạt cực đại tại $x=1$.",
    "short_value": 1,
@@ -542,7 +538,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B1.D07",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -560,7 +556,7 @@
    "question": "Cho hàm số $y=\\frac{x-{{m}^{2}}-1}{x-m}$ có bao nhiêu giá trị nguyên m thỏa mãn $\\underset{\\left[ 0;\\,4 \\right]}{\\mathop{max}}\\,\\,y=-6$",
    "explanation": "Tập xác định $D=\\mathbb{R}\\backslash \\left\\{ m \\right\\}$.\nCó ${y}'=\\frac{{{m}^{2}}-m+1}{{{\\left( x-m \\right)}^{2}}}>0$, $\\forall x\\in D$ (do ${{m}^{2}}-m+1={{\\left( m-\\frac{1}{2} \\right)}^{2}}+\\frac{3}{4}>0$, $\\forall m\\in \\mathbb{R}$).\nDo đó hàm số đồng biến trên các khoảng $\\left( -\\infty ;\\,m \\right)$ và $\\left( m;\\,+\\infty \\right)$.\nKhi đó $\\underset{\\left[ 0;\\,4 \\right]}{\\mathop{max}}\\,\\,y=y\\left( 4 \\right)$.\nĐể hàm số đã cho có giá trị lớn nhất trên $\\left[ 0;\\,4 \\right]$ bằng $-6$ thì\n$\\left\\{ \\begin{aligned} & m\\notin \\left[ 0;\\,4 \\right] \\\\ & y\\left( 4 \\right)=-6 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m\\notin \\left[ 0;\\,4 \\right] \\\\ & \\frac{3-{{m}^{2}}}{4-m}=-6 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m\\notin \\left[ 0;\\,4 \\right] \\\\ & {{m}^{2}}+6m-27=0 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m\\notin \\left[ 0;\\,4 \\right] \\\\ & \\left[ \\begin{aligned} & m=3 \\\\ & m=-9 \\\\ \\end{aligned} \\right. \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow m=-9$.\nVậy có một giá trị của $m$ thỏa mãn yêu cầu bài toán.",
    "short_value": -9,
-   "short_correct": "-9",
+   "short_correct": "1",
    "ma": "de3.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -569,6 +565,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B2.D09",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -585,8 +582,8 @@
    ],
    "question": "Biết tích các giá trị của tham số $m$ để đồ thị của hàm số $y=\\frac{2x-4}{{{x}^{2}}+2\\left( m-2 \\right)x+{{m}^{2}}+1}$ có đúng 2 đường tiệm cận là $\\frac{a}{b}$, $\\frac{a}{b}$ là phân số tối giản. Tính $P={{a}^{2}}+{{b}^{2}}$.",
    "explanation": "Đặt $f\\left( x \\right)={{x}^{2}}+2\\left( m-2 \\right)x+{{m}^{2}}+1$.\nDễ thấy đồ thị không có tiệm cận xiên.\nĐồ thị có 1 tiệm cận ngang là $y=0$ do $\\underset{x\\to +\\infty }{\\lim}\\,\\frac{2x-4}{{{x}^{2}}+2\\left( m-2 \\right)x+{{m}^{2}}+1}=0$.\nDo đó, để đồ thị hàm số có đúng hai đường tiệm cận thì hàm số chỉ có đúng 1 đường tiệm cận đứng.\nKhi đó, $f\\left( x \\right)=0$ có 2 nghiệm phân biệt trong đó có 1 nghiệm $x=2$ hoặc $f\\left( x \\right)=0$ có nghiệm kép\n$\\Leftrightarrow \\left[ \\begin{aligned} & \\left\\{ \\begin{aligned} & \\Delta '>0 \\\\ & f\\left( 2 \\right)=0 \\\\ \\end{aligned} \\right. \\\\ & \\Delta '=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\Leftrightarrow \\left[ \\begin{aligned} & \\left\\{ \\begin{aligned} & {{\\left( m-2 \\right)}^{2}}-{{m}^{2}}-1>0 \\\\ & 4+2\\left( m-2 \\right).2+{{m}^{2}}+1=0 \\\\ \\end{aligned} \\right. \\\\ & {{\\left( m-2 \\right)}^{2}}-{{m}^{2}}-1=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & \\left\\{ \\begin{aligned} & -4m+3>0 \\\\ & {{m}^{2}}+4m-3=0 \\\\ \\end{aligned} \\right. \\\\ & -4m+3=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & \\left\\{ \\begin{aligned} & m<\\frac{3}{4} \\\\ & m=-2\\pm \\sqrt{7} \\\\ \\end{aligned} \\right. \\\\ & m=\\frac{3}{4} \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & m=-2\\pm \\sqrt{7} \\\\ & m=\\frac{3}{4} \\\\ \\end{aligned} \\right..$\nVậy tích tất cả các giá trị thực của tham số $m$ là: $P=\\left( -2+\\sqrt{7} \\right).\\left( -2-\\sqrt{7} \\right).\\frac{3}{4}=-3.\\frac{3}{4}=\\frac{-9}{4}.$\nDo đó $a=-9,b=4$nên $P={{a}^{2}}+{{b}^{2}}=81+4=85.$",
-   "short_value": 97,
-   "short_correct": "97",
+   "short_value": 85,
+   "short_correct": "85",
    "ma": "de3.P3.C6",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -595,6 +592,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B3.D04",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."

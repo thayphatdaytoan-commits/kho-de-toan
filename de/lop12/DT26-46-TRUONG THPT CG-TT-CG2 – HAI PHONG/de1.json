@@ -424,11 +424,14 @@
     "c": "Độ lệch chuẩn của mẫu số liệu nhỏ hơn $1,6$.",
     "d": "Chọn ngẫu nhiên 5 học sinh trong lớp. Xác suất để trong 5 học sinh đó có đúng 2 học sinh có điểm thuộc nhóm chứa trung vị bằng $\\frac{2275}{6327}$."
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": true,
+    "d": true
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Kết quả khảo sát môn Toán của 40 học sinh lớp 12A được thống kê trong bảng ghép nhóm sau:\n[[IMG:image7.png]]",
    "explanation": "| a-Đúng | b-Sai | c-Đúng | d-Đúng |\n|---|---|---|---|\na) Khoảng biến thiên của mẫu số liệu là: $10-4=6$.\nb) Cỡ mẫu $n=40$.\nGọi ${{x}_{1}};...;{{x}_{40}}$ là mẫu số liệu gốc về kết quả khảo sát môn Toán của 40 học sinh lớp 12A được xếp theo thứ tự không giảm.\n${{x}_{1}};...;{{x}_{4}}\\in \\left[ 4;5 \\right)$, ${{x}_{5}};...;{{x}_{11}}\\in \\left[ 5;6 \\right)$, ${{x}_{12}};...;{{x}_{25}}\\in \\left[ 6;7 \\right)$, ${{x}_{26}};...;{{x}_{35}}\\in \\left[ 8;9 \\right)$, ${{x}_{36}};...;{{x}_{40}}\\in \\left[ 9;10 \\right)$.\nTứ phân vị thứ nhất của mẫu số liệu gốc là ${{x}_{10}};{{x}_{11}}\\in \\left[ 5;6 \\right)$.\nDo đó, tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${{Q}_{1}}=5+\\frac{\\frac{40}{4}-4}{7}\\left( 6-5 \\right)=\\frac{41}{7}$.\nTứ phân vị thứ ba của mẫu số liệu gốc là ${{x}_{30}};{{x}_{31}}\\in \\left[ 8;9 \\right)$.\nDo đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là: ${{Q}_{3}}=8+\\frac{\\frac{3.40}{4}-\\left( 4+7+14 \\right)}{10}\\left( 9-8 \\right)=\\frac{17}{2}$.\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=\\frac{17}{2}-\\frac{41}{7}=\\frac{37}{14}$\nc) Số trung bình của mẫu số liệu ghép nhóm là: $\\overline{x}=\\frac{4,5.4+5,5.7+6,5.14+8,5.10+9,5.5}{40}=7$\nPhương sai của mẫu số liệu ghép nhóm là:\n${{S}^{2}}=\\frac{1}{40}\\left( 4,{{5}^{2}}.4+5,{{5}^{2}}.7+6,{{5}^{2}}.14+8,{{5}^{2}}.10+9,{{5}^{2}}.5 \\right)-{{7}^{2}}=\\frac{49}{20}$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là: $S=\\sqrt{{{S}^{2}}}=\\sqrt{\\frac{49}{20}}\\approx 1,565<1,6$\nd) Chọn ngẫu nhiên 5 học sinh trong lớp. Suy ra $n\\left( \\Omega \\right)=C_{40}^{5}$.\nNhóm chứa trung vị là $\\left[ 6;7 \\right)$ có tần số là 14.\nGọi A là biến cố “2 học sinh có điểm thuộc nhóm chứa trung vị ”.\nTa có: $n\\left( A \\right)=C_{14}^{2}C_{26}^{3}$\nXác suất để trong 5 học sinh đó có đúng 2 học sinh có điểm thuộc nhóm chứa trung vị là: $P\\left( A \\right)=\\frac{n\\left( A \\right)}{n\\left( \\Omega \\right)}=\\frac{2275}{6327}$.",
    "ma": "de1.P2.C3",
@@ -439,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -471,6 +475,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C4.B1.D04",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -506,14 +511,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_trong_va_loi_giai_khong_ra_so",
-    "import_web: Câu 17: thiếu đáp án (trả lời ngắn)"
-   ],
-   "question": "Một công ty tính toán rằng nếu chi số tiền $x$ nghìn USD cho việc quảng cáo thì doanh thu sẽ là $P\\left( x \\right)=\\frac{-{{x}^{3}}}{10}+6{{x}^{2}}+x+200$ nghìn USD. Hỏi công ty đạt hoanh thu tối đa là bao nhiêu nghìn USD từ việc quảng cáo đó?",
+   "flags": [],
+   "question": "Một công ty tính toán rằng nếu chi số tiền $x$ nghìn USD cho việc quảng cáo thì doanh thu sẽ là $P\\left( x \\right)=\\frac{-{{x}^{3}}}{10}+6{{x}^{2}}+x+200$ nghìn USD. Hỏi công ty đạt hoanh thu tối đa là bao nhiêu nghìn USD từ việc quảng cáo đó? (Kết quả làm tròn đến hàng đơn vị.)",
    "explanation": "Ta có ${P}'\\left( x \\right)=\\frac{-3}{10}{{x}^{2}}+12x+1$\n${P}'\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{60+11\\sqrt{30}}{3}\\left( n \\right) \\\\ & x=\\frac{60-11\\sqrt{30}}{3}\\left( l \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên\n[[IMG:image13.png]]\nVậy công ty thu được lợi nhuận tối đa 3440 nghìn USD",
    "short_value": null,
-   "short_correct": "",
+   "short_correct": "3440",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -522,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D12",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -533,12 +536,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông tại $A$; $AB=a;\\,AC=a\\sqrt{3}$. Tam giác $SBC$ là tam giác đều và nằm trong mặt phẳng vuông góc với mặt đáy. Số đo góc nhị diện $\\left[ B;SC;A \\right]$ bằng bao nhiêu độ? (kết quả làm tròn đến hàng đơn vị).",
    "explanation": "[[IMG:image14.png]] [[IMG:image15.png]]\nTrên $\\left( SBC \\right)$ kẻ $BK\\bot SC$, do tam giác $SBC$ đều nên $K$ là trung điểm $SC$.\nHạ $BE\\bot \\left( SAC \\right)$, dễ chứng minh được góc nhị diện $\\left[ B;SC;A \\right]$ chính là $\\widehat{BKE}$.\nVậy $\\sin \\widehat{BKE}=\\frac{BE}{BK}=\\frac{d\\left( B,\\,\\left( SAC \\right) \\right)}{BK}$.\nGọi $H$ là trung điểm của $BC$. Do tam giác $SBC$ đều nên $SH\\bot BC$, và mặt phẳng $\\left( SBC \\right)$vuông góc với mặt đáy nên $SH\\bot (ABC)$.\nTa có $BC=\\sqrt{A{{B}^{2}}+A{{C}^{2}}}=2a$. Do tam giác $SBC$ đều cạnh $2a$ nên $SH=BK=a\\sqrt{3}$.\nMà $H$ là trung điểm $BC$ nên $d\\left( B,\\,\\left( SAC \\right) \\right)=2d\\left( H,\\,\\left( SAC \\right) \\right)$.\nGọi $I,\\,\\,J$ lần lượt là hình chiếu của $H$ lên $AC\\,\\,v\\grave{a}\\,\\,SJ$. Ta có :\n$HI=\\frac{AB}{2}=\\frac{a}{2}$.\n$d\\left( H,\\left( SAC \\right) \\right)=HJ=\\frac{HI.HS}{\\sqrt{H{{I}^{2}}+H{{S}^{2}}}}=\\frac{\\frac{a}{2}.a\\sqrt{3}}{\\sqrt{{{\\left( \\frac{a}{2} \\right)}^{2}}+{{\\left( a\\sqrt{3} \\right)}^{2}}}}=\\frac{a\\sqrt{39}}{13}$.\nSuy ra $\\sin \\widehat{BKE}=\\frac{d\\left( B,\\,\\left( SAC \\right) \\right)}{BK}=\\frac{2\\frac{a\\sqrt{39}}{13}}{a\\sqrt{3}}=\\frac{2\\sqrt{13}}{13}$. Do đó $\\widehat{BKE}\\approx 33,{{69}^{0}}\\approx {{34}^{0}}$.\nCách khác: Xây dựng hệ tọa độ $Oxyz$ với $O\\equiv A;\\,\\,Ox\\equiv AB;\\,\\,Oy\\equiv AC$. Số đo góc nhị diện là số đo góc giữa hai mặt phẳng $\\left( SBC \\right)$ và $\\left( SAC \\right)$.",
-   "short_value": 2,
+   "short_value": 34,
    "short_correct": "34",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -548,7 +549,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot",
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D10",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

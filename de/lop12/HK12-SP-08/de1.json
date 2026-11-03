@@ -78,7 +78,7 @@
    "answer": "B",
    "flags": [],
    "question": "Tiệm cận ngang của đồ thị hàm số $y=\\frac{4x+1}{x-1}$ là",
-   "explanation": "Ta có $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,y=\\underset{x\\to -\\infty }{\\mathop{\\lim }}\\,y=\\frac{4}{1}=4$\nSuy ra $y=4$ là tiệm cận ngang của đồ thị hàm số.",
+   "explanation": "Ta có $\\underset{x\\to +\\infty }{\\lim}\\,y=\\underset{x\\to -\\infty }{\\lim}\\,y=\\frac{4}{1}=4$\nSuy ra $y=4$ là tiệm cận ngang của đồ thị hàm số.",
    "options": [
     "$y=\\frac{1}{4}$",
     "$y=4$",
@@ -106,7 +106,7 @@
    "answer": "A",
    "flags": [],
    "question": "Hình vẽ sau đây là đồ thị của một trong bốn hàm số cho ở các đáp án $A,\\,B,\\,C,\\,D$. Hỏi đó là hàm số nào?\n[[IMG:image3.png]]",
-   "explanation": "Dựa vào đồ thị, ta có $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,y=+\\infty $, loại phương án $B$, $D$.\nXét phương án $C$ có ${y}'=3{{x}^{2}}+3>0,\\,\\,\\forall x\\in \\mathbb{R}$, hàm số không có cực trị, loại phương án $C$.\nVậy phương án đúng là $A$.",
+   "explanation": "Dựa vào đồ thị, ta có $\\underset{x\\to +\\infty }{\\lim}\\,y=+\\infty $, loại phương án $B$, $D$.\nXét phương án $C$ có ${y}'=3{{x}^{2}}+3>0,\\,\\,\\forall x\\in \\mathbb{R}$, hàm số không có cực trị, loại phương án $C$.\nVậy phương án đúng là $A$.",
    "options": [
     "$y={{x}^{3}}-3x$",
     "$y=-{{x}^{3}}+3x$",
@@ -304,7 +304,7 @@
    "answer": "B",
    "flags": [],
    "question": "Cho hàm số $y=2{{x}^{3}}-3{{x}^{2}}-m$. Trên $\\left[ -1;1 \\right]$ hàm số có giá trị nhỏ nhất là $-1$. Tính $m$?",
-   "explanation": "Xét $\\left[ -1;1 \\right]$ có ${y}'=6{{x}^{2}}-6x$.\n${y}'=0$ $\\Leftrightarrow 6{{x}^{2}}-6x=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=0\\in \\left[ -1;1 \\right] \\\\ & x=1\\in \\left[ -1;1 \\right] \\\\ \\end{aligned} \\right.$.\nKhi đó\n$y\\left( -1 \\right)=-5-m$; $y\\left( 0 \\right)=-m$; $y\\left( 1 \\right)=-1-m$\nTa thấy $-5-m<-1-m<-m$ nên $\\underset{\\left[ -1;1 \\right]}{\\mathop{\\min }}\\,y=-5-m$.\nTheo bài ra ta có $\\underset{\\left[ -1;1 \\right]}{\\mathop{\\min }}\\,y=-1$ nên $-5-m=-1$ $\\Leftrightarrow m=-4$.",
+   "explanation": "Xét $\\left[ -1;1 \\right]$ có ${y}'=6{{x}^{2}}-6x$.\n${y}'=0$ $\\Leftrightarrow 6{{x}^{2}}-6x=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=0\\in \\left[ -1;1 \\right] \\\\ & x=1\\in \\left[ -1;1 \\right] \\\\ \\end{aligned} \\right.$.\nKhi đó\n$y\\left( -1 \\right)=-5-m$; $y\\left( 0 \\right)=-m$; $y\\left( 1 \\right)=-1-m$\nTa thấy $-5-m<-1-m<-m$ nên $\\underset{\\left[ -1;1 \\right]}{\\min}\\,y=-5-m$.\nTheo bài ra ta có $\\underset{\\left[ -1;1 \\right]}{\\min}\\,y=-1$ nên $-5-m=-1$ $\\Leftrightarrow m=-4$.",
    "options": [
     "$m=-6$",
     "$m=-4$",
@@ -369,9 +369,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)$ liên tục trên $\\mathbb{R}\\backslash \\left\\{ 0 \\right\\}$ và có bảng biến thiên như hình bên dưới\n[[IMG:image6.png]]",
    "explanation": "a) Hàm số không có giá trị nhỏ nhất nên suy ra mệnh đề sai.\nb) Đồ thị hàm số có đường tiệm cận đứng là $x=0$ và đường tiệm cận ngang là $y=2$. Giao điểm hai đường tiệm cận là điểm $I\\left( 0;2 \\right)$. Suy ra mệnh đề đúng.\nc) Hàm số nghịch biến trên khoảng $\\left( -\\infty ;0 \\right)$ nên ta có: $-5<-4$ $\\Rightarrow f\\left( -5 \\right)>f\\left( -4 \\right)$. Suy ra mệnh đề đúng.\nd) Từ bảng biến thiên của hàm số $y=f\\left( x \\right)$ ta suy ra được đồ thị của hàm số $y=\\left| f\\left( x \\right) \\right|$\n[[IMG:image12.png]]\nTừ đồ thị $y=\\left| f\\left( x \\right) \\right|$ ta thấy $\\left| f\\left( x \\right) \\right|=3$ có đúng 3 nghiệm phân biệt nên mệnh đề đúng.",
    "ma": "de1.P2.C13",
@@ -382,6 +380,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D05",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -416,6 +415,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D09",
    "dang_toan_web": "Tính đơn điệu của hàm số. Mối liên hệ giữa đạo hàm và sự đồng biến, nghịch biến."
@@ -448,6 +448,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -519,7 +520,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Trong không gian $\\left( Oxyz \\right)$ cho ba điểm $A(1;1;1),B(-1;1;0),C(3;1;-1)$. Gọi $M(a;b;c)$ thuộc mặt phẳng $\\left( Oxz \\right)$ và cách đều ba điểm $A,B,C$. Tính tổng $a+b+c$ (làm tròn đến hàng phần chục).",
-   "explanation": "Vì $M(a;b;c)\\in (Oxz)$ nên $b=0$. Vậy $M(a;0;c)$\nVì $M(a;0;c)$cách đều ba điểm $A,B,C$nên $\\left\\{ \\begin{aligned} & MA=MB \\\\ & MA=MC \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & M{{A}^{2}}=M{{B}^{2}} \\\\ & M{{A}^{2}}=M{{C}^{2}} \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & {{(1-a)}^{2}}+1+{{(1-c)}^{2}}={{(-1-a)}^{2}}+1+{{c}^{2}} \\\\ & {{(1-a)}^{2}}+1+{{(1-c)}^{2}}={{(3-a)}^{2}}+1+{{(-1-c)}^{2}} \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & -4a-2c=-1 \\\\ & a-c=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{5}{6} \\\\ & b=-\\frac{7}{6} \\\\ \\end{aligned} \\right.$\nVậy $a+b+c=\\frac{5}{6}+0+\\left( -\\frac{7}{6} \\right)=-\\frac{1}{3}\\approx -0,3$.",
+   "explanation": "Vì $M(a;b;c)\\in (Oxz)$ nên $b=0$. Vậy $M(a;0;c)$\nVì $M(a;0;c)$cách đều ba điểm $A,B,C$nên $\\left\\{ \\begin{aligned} & MA=MB \\\\ & MA=MC \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & M{{A}^{2}}=M{{B}^{2}} \\\\ & M{{A}^{2}}=M{{C}^{2}} \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & {{(1-a)}^{2}}+1+{{(1-c)}^{2}}={{(-1-a)}^{2}}+1+{{c}^{2}} \\\\ & {{(1-a)}^{2}}+1+{{(1-c)}^{2}}={{(3-a)}^{2}}+1+{{(-1-c)}^{2}} \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & -4a-2c=-1 \\\\ & a-c=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{5}{6} \\\\ & c=-\\frac{7}{6} \\\\ \\end{aligned} \\right.$\nVậy $a+b+c=\\frac{5}{6}+0+\\left( -\\frac{7}{6} \\right)=-\\frac{1}{3}\\approx -0,3$.",
    "short_value": -0.3,
    "short_correct": "-0,3",
    "ma": "de1.P3.C18",
@@ -530,6 +531,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D10",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -589,9 +591,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản xuất mỗi ngày được $x$ mét vải lụa $\\left( 1\\le x\\le 18 \\right)$. Tổng chi phí sản xuất $x$ mét vải lụa được tính bằng nghìn đồng và cho bởi hàm chi phí $C(x)={{x}^{3}}-3{{x}^{2}}-20x+500$. Giả sử hộ làm nghề dệt này bán hết sản phẩm mỗi ngày với giá $220$nghìn đồng/mét. Gọi $B(x)$ là số tiền bán được và $L(x)$ là lợi nhuận thu được khi bán $x$ mét vải lụa. Lợi nhuận tối đa mà hộ làm nghề dệt vải lụa thu được mỗi ngày là bao nhiêu nghìn đồng?",
    "explanation": "+ Số tiền thu được khi bán $x$ mét vải lụa là $B(x)=220x$ nghìn đồng.\n+ Lợi nhuận thu được khi bán $x$ mét vải lụa là $L(x)=B(x)-C(x)=-{{x}^{3}}+3{{x}^{2}}+240x-500$nghìn đồng.\nXét hàm số $L(x)$ xác định trên $\\left[ 1;18 \\right]$\n$L'(x)=-3{{x}^{2}}+6x+240$\n$L'(x)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=10 \\\\ & x=-8\\notin \\left[ 1;18 \\right] \\\\ \\end{aligned} \\right.$\nBBT\n[[IMG:image16.png]]\nDựa vào BBT lợi nhuận thu được tối đa mỗi ngày của hộ làm nghề dệt vải lụa là 1200 nghìn đồng.",
    "short_value": 1200,
@@ -604,6 +604,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

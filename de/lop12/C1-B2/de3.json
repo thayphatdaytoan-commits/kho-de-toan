@@ -559,9 +559,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho một tấm nhôm hình chữ nhật có kích thước $15\\,\\text{cm}\\times 24\\,\\text{cm}$. Người ta cắt bỏ 4 góc của tâm tôn 4 miếng hình vuông bằng nhau rồi gò lại thành một hình hộp chữ nhật không có nắp. Để thể tích của hình hộp đó lớn nhất thì độ dài cạnh hình vuông của các miếng tôn bị cắt bỏ bằng\nA. $3\\,\\text{cm}$. B. $4\\,\\text{cm}$. C. $5\\,\\text{cm}$. D. $2\\,\\text{cm}$.",
    "explanation": "[[IMG:image90.png]]\nGiả sử độ dài cạnh hình vuông của các miếng tôn bị cắt bỏ bằng $x\\,(0<2x<15\\Leftrightarrow 0<x<\\frac{15}{2})$. Khi đó hình hộp chữ nhật có chiều cao bằng x, chiều rộng bằng $15-2x$ và chiều dài bằng $24-2x$. Suy ra hình hộp chữ nhật có thể tích $V=x\\left( 15-2x \\right)\\left( 24-2x \\right)=4{{x}^{3}}-78{{x}^{2}}+360x$.\nXét hàm $f\\left( x \\right)=4{{x}^{3}}-78{{x}^{2}}+360x$ trên $\\left( 0;\\frac{15}{2} \\right)$.\n${f}'\\left( x \\right)=12{{x}^{2}}-156x+360=0\\Leftrightarrow \\left[ \\begin{aligned} & x=3 \\\\ & x=10 \\\\ \\end{aligned} \\right.$. Bảng biến thiên hàm số $f\\left( x \\right)$ trên $\\left( 0;\\frac{15}{2} \\right)$:\n[[IMG:image91.png]]\nDựa vào bảng biến thiên ta có hàm số đạt giá trị lớn nhất trên $\\left( 0;\\frac{15}{2} \\right)$ tại $x=3$ hay hình hộp",
    "short_value": 3,
@@ -574,6 +572,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D02",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -610,9 +609,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Giả sử số lượng của một quần thể nấm men tại môi trường nuôi cấy trong phòng thí nghiệm được mô hinh hoá bằng hàm số $P(t)=\\frac{a}{b+e^{-0,75 t}}$, trong đó thời gian $t$ được tính bằng giờ. Tại thời điểm ban đầu $t=0$, quần thể có 20 tế bào và tăng với tốc độ 12 tế bào/giờ. Tìm các giá trị của $a$ và $b$. Theo mô hình này, số lượng nấm men không vượt quá bao nhiêu?",
    "explanation": "Ta có: ${P}'(t)=\\frac{0,75a{{\\text{e}}^{-0,75t}}}{{{\\left( b+{{\\text{e}}^{-0,75t}} \\right)}^{2}}},t\\ge 0$.\nTheo đề bài, ta có: $P(0)=20$ và ${P}'(0)=12$. Do đó, ta có hệ phương trình: $\\left\\{\\begin{array} { l } { \\frac { a } { b + 1 } = 2 0 } \\\\ { \\frac { 0 , 7 5 a } { ( b + 1 ) ^ { 2 } } = 1 2 } \\end{array} \\Leftrightarrow \\left\\{\\begin{array}{l} a=20(b+1) \\\\ \\frac{15}{b+1}=12 . \\end{array}\\right.\\right.$\nGiải hệ phương trình này, ta được $a=25$ và $b=\\frac{1}{4}$.\nKhi đó, ${P}'(t)=\\frac{18,75{{\\text{e}}^{-0,75t}}}{{{\\left( \\frac{1}{4}+{{\\text{e}}^{-0,75t}} \\right)}^{2}}}>0,\\forall t\\ge 0$, tức là số lượng quần thể nấm men luôn tăng.\nTuy nhiên, do $\\lim _{t \\rightarrow+\\infty} P(t)=\\lim _{t \\rightarrow+\\infty} \\frac{25}{\\frac{1}{4}+\\mathrm{e}^{-0.75 t}}=100$ nên số lượng quần thể nấm men tăng nhưng không vượt quá 100 tế bào.",
    "short_value": 100,
@@ -625,6 +622,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D07",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."

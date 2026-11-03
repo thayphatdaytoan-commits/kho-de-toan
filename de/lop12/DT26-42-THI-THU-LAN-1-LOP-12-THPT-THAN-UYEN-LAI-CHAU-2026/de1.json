@@ -294,7 +294,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [],
+   "flags": [
+    "import_web: đáp án web đọc D khác A"
+   ],
    "question": "Trong không gian Oxyz, cho hai vector $\\overrightarrow{u}=\\left( 1;-4;0 \\right)$ và $\\overrightarrow{v}=\\left( -1;-2;1 \\right)$. Vector $\\overrightarrow{u}+3\\overrightarrow{v}$ có tọa độ là",
    "explanation": "Chọn D.\nTa có: $\\overrightarrow{u}=\\left( 1;-4;0 \\right)$ và $3\\overrightarrow{v}=\\left( -3;-6;3 \\right)$ nên $\\overrightarrow{u}+3\\overrightarrow{v}=\\left( -2;-10;3 \\right)$.",
    "options": [
@@ -310,7 +312,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
-   }
+   },
+   "sua_boi": "grokbot"
   },
   {
    "section": 1,
@@ -476,7 +479,7 @@
     "cong_thuc_ocr_AI_can_xem"
    ],
    "question": "Một nhà máy sản xuất $x$sản phẩm trong mỗi tháng. Chi phí sản xuất $x$sản phẩm được cho bởi hàm chi phí $C\\left( x \\right)=16000+500x-1,6{{x}^{2}}+0,004{{x}^{3}}$(nghìn đồng). Biết giá bán của mỗi sản phẩm là một hàm số phụ thuộc vào số lượng sản phẩm $x$ và được cho bởi công thức $p\\left( x \\right)=1700-7x$(nghìn đồng). Hỏi mỗi tháng nhà máy nên sản xuất bao nhiêu sản phẩm để lợi nhuận thu được là lớn nhất? Biết rằng kết quả khảo sát thị trường cho thấy sản phẩm sản xuất ra sẽ tiêu thụ hết.",
-   "explanation": "Đáp án: 100\n+ Giá bán của mỗi sản phẩm là $p\\left( x \\right)=1700-7x$(nghìn đồng)$\\Rightarrow $ giá bán $x$sản phẩm là $xp\\left( x \\right)=1700x-7{{x}^{2}}$(nghìn đồng). Lời giải\n+ Lợi nhuận thu được mỗi tháng (sản phẩm tiêu thụ hết) là $R\\left( x \\right)=xp\\left( x \\right)-C\\left( x \\right)=1700x-7{{x}^{2}}-\\left( 16000+500x-1,6{{x}^{2}}+0,004{{x}^{3}} \\right)$\n$\\Rightarrow R\\left( x \\right)=-16000+1200x-5,4{{x}^{2}}-0,004{{x}^{3}}\\Rightarrow R'\\left( x \\right)=1200-10,8x-0,012{{x}^{2}}$\n$R'\\left( x \\right)=0\\Leftrightarrow 1200-10,8x-0,012{{x}^{2}}=0\\Leftrightarrow \\left[ \\begin{aligned} & x=100\\text{ }\\left( n \\right) \\\\ & x=-1000\\text{ }\\left( l \\right) \\\\ \\end{aligned} \\right.$\nBảng biến thiên\n[[IMG:image16.png]]\nVậy lợi nhuận lớn nhất là $46.00.000$ đồng khi sản xuất 100 sản phẩm.\nFB tác giả: Đỗ Thị Nguyên\nVì xxx $\\frac{\\pi}{2} < a < \\pi$ $\\frac{\\pi }{2}<a<\\pi $.$\\frac{\\pi }{2}<a<\\pi $.$\\frac{\\pi }{2}<a<\\pi $.xxx $\\sin \\alpha = 0$ $\\Rightarrow \\sin a>0$.$\\Rightarrow \\sin a>0$.$\\Rightarrow \\sin a>0$., xxx $\\cos a < 0$ $\\cos a<0$.$\\cos a<0$.$\\cos a<0$..",
+   "explanation": "Giá bán $x$ sản phẩm là $xp(x)=1700x-7x^{2}$ (nghìn đồng). Lợi nhuận mỗi tháng là $R(x)=xp(x)-C(x)=-16000+1200x-5,4x^{2}-0,004x^{3}$ (nghìn đồng). Ta có $R'(x)=1200-10,8x-0,012x^{2}$; $R'(x)=0$ khi $x=100$ (nhận) hoặc $x=-1000$ (loại). Vì $R''(x)=-10,8-0,024x<0$ với $x>0$ nên $R$ đạt lớn nhất tại $x=100$. Vậy mỗi tháng nhà máy nên sản xuất $100$ sản phẩm (lợi nhuận lớn nhất $46000$ nghìn đồng, tức $46.000.000$ đồng).",
    "short_value": 100,
    "short_correct": "100",
    "ma": "de1.P3.C1",
@@ -487,6 +490,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

@@ -330,8 +330,8 @@
    "tf_ans": {},
    "answer": "B",
    "flags": [],
-   "question": "Giá trị của $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( 3{{x}^{2}}-2x+1 \\right)$ bằng:",
-   "explanation": "$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( 3{{x}^{2}}-2x+1 \\right)={{3.1}^{2}}-2.1+1=2.$",
+   "question": "Giá trị của $\\underset{x\\to 1}{\\lim}\\,\\left( 3{{x}^{2}}-2x+1 \\right)$ bằng:",
+   "explanation": "$\\underset{x\\to 1}{\\lim}\\,\\left( 3{{x}^{2}}-2x+1 \\right)={{3.1}^{2}}-2.1+1=2.$",
    "options": [
     "$+\\infty $",
     "$2$",
@@ -367,9 +367,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $f\\left( x \\right)=\\sin x$ và $g\\left( x \\right)=\\cos x$. Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Ta có: $g\\left( x \\right)=1\\Leftrightarrow \\cos x=1\\Leftrightarrow x=k2\\pi \\quad \\left( k\\in \\mathbb{Z} \\right)$. Suy ra mệnh đề sai.\nb) Ta có: $f\\left( x \\right)=0\\Leftrightarrow \\sin x=0\\Leftrightarrow x=k\\pi ,\\quad \\left( k\\in \\mathbb{Z} \\right)$. Suy ra mệnh đề sai\nc) Ta có: $f\\left( x \\right)=\\frac{1}{2}\\Leftrightarrow \\sin x=\\frac{1}{2}=\\sin \\frac{\\pi }{6}\\Leftrightarrow \\left[ \\begin{aligned} & x=\\frac{\\pi }{6}+k2\\pi \\\\ & x=\\frac{5\\pi }{6}+k2\\pi \\\\ \\end{aligned} \\right.\\quad \\left( k\\in \\mathbb{Z} \\right)$. Suy ra mệnh đề đúng.\nd) Ta có $g\\left( x \\right)=2-m\\Leftrightarrow \\cos x=2-m$.\nPhương trình có nghiệm khi $-1\\le 2-m\\le 1\\Leftrightarrow -3\\le -m\\le -1\\Leftrightarrow 1\\le m\\le 3$\nTa có $P={{m}^{2}}-m+1={{\\left( m-\\frac{1}{2} \\right)}^{2}}+\\frac{3}{4}\\ge \\frac{3}{4}$\nDấu “=” xảy ra khi $m-\\frac{1}{2}=0\\Leftrightarrow m=\\frac{1}{2}\\notin \\left[ 1;3 \\right]$\nVậy trên $\\left[ 1;3 \\right]$, ${{P}_{\\min }}=1$ khi $m=1$.\nSuy ra mệnh đề sai.",
    "ma": "de1.P2.C1",
@@ -380,6 +378,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C1.B4.D01",
    "dang_toan_web": "Phương trình lượng giác cơ bản."
@@ -390,17 +389,20 @@
    "type": "true_false_group",
    "tf": {
     "a": "[NB] Hàm số đã cho liên tục trên $\\mathbb{R}.$",
-    "b": "[NB] $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=0.$",
-    "c": "[TH] $\\underset{x\\to 3}{\\mathop{\\lim }}\\,f\\left( x \\right)=10.$",
-    "d": "[CD] $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=2.$"
+    "b": "[NB] $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=0.$",
+    "c": "[TH] $\\underset{x\\to 3}{\\lim}\\,f\\left( x \\right)=10.$",
+    "d": "[CD] $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=2.$"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Cho hàm số bậc hai $y=f\\left( x \\right)$ có đồ thị như hình vẽ bên dưới.\n[[IMG:image5.png]]",
-   "explanation": "| Đ | Đ | S | D |\n|---|---|---|---|\na) Hàm số đã cho làm hàm đa thức bậc hai nên hàm số liên tục trên $\\mathbb{R}.$\nb) Từ đồ thị, ta có $f\\left( 1 \\right)=0$, mà hàm số liên tục tại $x=1$. Suy ra $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)=0.$\nc) Đặt $f\\left( x \\right)=a{{x}^{2}}+bx+c.$\nĐồ thị hàm số đã cho có đỉnh $I\\left( -1\\,;\\,-4 \\right)$ và đi qua $M\\left( 1\\,;\\,0 \\right)$ nên$\\left\\{ \\begin{aligned} & a-b+c=-4 \\\\ & -\\frac{b}{2a}=-1 \\\\ & a+b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=-3 \\\\ \\end{aligned} \\right..$\nKhi đó $\\underset{x\\to 3}{\\mathop{\\lim }}\\,f\\left( x \\right)=\\underset{x\\to 3}{\\mathop{\\lim }}\\,\\left( {{x}^{2}}+2x-3 \\right)=12.$\nd) $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-2x+1+x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}$\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( 1+\\frac{x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1} \\right)=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( 1+\\frac{1}{x+\\sqrt{2x-1}} \\right)=\\frac{3}{2}.$",
+   "explanation": "| Đ | Đ | S | D |\n|---|---|---|---|\na) Hàm số đã cho làm hàm đa thức bậc hai nên hàm số liên tục trên $\\mathbb{R}.$\nb) Từ đồ thị, ta có $f\\left( 1 \\right)=0$, mà hàm số liên tục tại $x=1$. Suy ra $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)=0.$\nc) Đặt $f\\left( x \\right)=a{{x}^{2}}+bx+c.$\nĐồ thị hàm số đã cho có đỉnh $I\\left( -1\\,;\\,-4 \\right)$ và đi qua $M\\left( 1\\,;\\,0 \\right)$ nên$\\left\\{ \\begin{aligned} & a-b+c=-4 \\\\ & -\\frac{b}{2a}=-1 \\\\ & a+b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=-3 \\\\ \\end{aligned} \\right..$\nKhi đó $\\underset{x\\to 3}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 3}{\\lim}\\,\\left( {{x}^{2}}+2x-3 \\right)=12.$\nd) $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-2x+1+x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}$\n$\\underset{x\\to 1}{\\lim}\\,\\left( 1+\\frac{x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1} \\right)=\\underset{x\\to 1}{\\lim}\\,\\left( 1+\\frac{1}{x+\\sqrt{2x-1}} \\right)=\\frac{3}{2}.$",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 9,
@@ -409,6 +411,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B2.D01",
    "dang_toan_web": "Giới hạn của hàm số: Giới hạn tại một điểm, giới hạn tại vô cực, các dạng vô định."
@@ -484,12 +487,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một bánh xe đạp quay được 25 vòng trong 10 giây. Tính độ dài quãng đường mà người đi xe thực hiện được trong 2,35 phút, biết rằng bán kính bánh xe bằng ${340 {~mm}}$. (Tính theo đơn vị mét, kết quả được làm tròn đến hàng phần trăm).\n[[IMG:image7.png]]",
-   "explanation": "Trả lời: ${352,5 \\cdot 2 \\pi R=352,5 \\cdot 2 \\pi \\cdot 0,34=\\frac{2397}{10} \\pi \\approx 753,04({~m}) \\text {. } }$\nSau 2,35 phút ( = 141 giây), số vòng mà bánh xe thực hiện được là:\n${\\frac{141.25}{10}=352,5 \\text { vòng. } }$Bán kính bánh xe: ${R=340 {~mm}=0,34 {~m}}$.\nQuãng đường mà người đi xe đạp thực hiện được sau 2,35 phút là:\n${352,5 \\cdot 2 \\pi R=352,5 \\cdot 2 \\pi \\cdot 0,34=\\frac{2397}{10} \\pi \\approx 753,04({~m}) \\text {. } }$",
-   "short_value": 2397,
+   "explanation": "Trả lời: ${352,5 \\cdot 2 \\pi R=352,5 \\cdot 2 \\pi \\cdot 0,34=\\frac{2397}{10} \\pi \\approx 753,04({~m}) \\text {. } }$\nSau 2,35 phút ( = 141 giây), số vòng mà bánh xe thực hiện được là:\n${\\frac{141.25}{10}=352,5 \\text { \\text{vòng}. } }$Bán kính bánh xe: ${R=340 {~mm}=0,34 {~m}}$.\nQuãng đường mà người đi xe đạp thực hiện được sau 2,35 phút là:\n${352,5 \\cdot 2 \\pi R=352,5 \\cdot 2 \\pi \\cdot 0,34=\\frac{2397}{10} \\pi \\approx 753,04({~m}) \\text {. } }$",
+   "short_value": 753.04,
    "short_correct": "753,04",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -499,6 +500,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C7.B5.D01",
    "dang_toan_web": "Khoảng cách: Khoảng cách từ điểm đến đường thẳng/mặt phẳng, khoảng cách giữa hai đường thẳng chéo nhau."
@@ -558,9 +560,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi M, N lần lượt là trung điểm của các cạnh SB, SD; K là giao điểm của mặt phẳng (AMN) và đường thẳng SC. Tỉ số $\\frac{SK}{SC}=\\frac{a}{b}$, tính ${{a}^{2}}+{{b}^{2}}$.",
    "explanation": "[[IMG:image10.png]]\nGọi O = AC BD, ta có OS MN = I là trung điểm OS.\nGọi E là trung điểm KC (1) thì OE là đường trung bình trong ΔACK. Suy ra OE // AK.\nVới I là trung điểm OS thì IK là đường trung bình trong ΔOES. Vậy K là trung điểm ES (2).\nTừ (1) và (2) suy ra SK = KE = EC hay $\\frac{SK}{SC}=\\frac{1}{3}=\\frac{a}{b}\\Rightarrow {{a}^{2}}+{{b}^{2}}=10$.",
    "short_value": 10,
@@ -573,6 +573,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C4.B1.D03",
    "dang_toan_web": "Các khái niệm mở đầu về không gian: Điểm, đường thẳng, mặt phẳng. Các tính chất thừa nhận."
@@ -586,7 +587,7 @@
    "answer": null,
    "flags": [],
    "question": "Một cái hồ chứa $600$ lít nước ngọt. Người ta bơm nước biển có nồng độ muối $30~$gam/lít vào hồ với tốc độ $15$lít/phút. Hỏi nồng độ muối trong hồ sẽ thế nào khi ${t}$ dần tới dương vô cùng?",
-   "explanation": "Đáp số: 30.\nSau ${t}$ phút bơm nước vào hồ thì lượng nước là ${600+15 t}$ (lít)\nSau ${t}$ phút bơm lượng muối có được là $30.15t(~gam)$.\nNồng độ muối của nước là: $C(t)=\\frac{30.15t}{600+15t}=\\frac{30t}{40+t}$ gam/lít.\nKhi ${t}$ dần về dương vô cùng, ta có:\n$\\underset{t\\to +\\infty }{\\mathop{\\lim }}\\,C(t)=\\underset{t\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{30t}{40+t}=\\underset{t\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{30t}{t\\left( \\frac{40}{t}+1 \\right)}=\\underset{t\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{30}{\\frac{40}{t}+1}=30$ gam/lít.",
+   "explanation": "Đáp số: 30.\nSau ${t}$ phút bơm nước vào hồ thì lượng nước là ${600+15 t}$ (lít)\nSau ${t}$ phút bơm lượng muối có được là $30.15t(~gam)$.\nNồng độ muối của nước là: $C(t)=\\frac{30.15t}{600+15t}=\\frac{30t}{40+t}$ gam/lít.\nKhi ${t}$ dần về dương vô cùng, ta có:\n$\\underset{t\\to +\\infty }{\\lim}\\,C(t)=\\underset{t\\to +\\infty }{\\lim}\\,\\frac{30t}{40+t}=\\underset{t\\to +\\infty }{\\lim}\\,\\frac{30t}{t\\left( \\frac{40}{t}+1 \\right)}=\\underset{t\\to +\\infty }{\\lim}\\,\\frac{30}{\\frac{40}{t}+1}=30$ gam/lít.",
    "short_value": 30,
    "short_correct": "30",
    "ma": "de1.P3.C5",
@@ -610,7 +611,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số $f(x)=\\left\\{ \\begin{aligned} & \\frac{a{{x}^{2}}-(a-2)x-2}{\\sqrt{x+3}-2}\\text{ khi }x\\ne 1 \\\\ & 8+{{a}^{2}}\\text{ khi }x=1 \\\\ \\end{aligned} \\right.$. Có tất cả bao nhiêu giá trị của $a$ để\nhàm số liên tục tại $x=1$?",
-   "explanation": "Đáp số: 2.\nTập xác định: $D=\\left[ -3;\\,+\\infty \\right)$.\n$\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)$ $=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{a{{x}^{2}}-\\left( a-2 \\right)x-2}{\\sqrt{x+3}-2}$.\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right)\\left( ax+2 \\right)\\left( \\sqrt{x+3}+2 \\right)}{x-1}$.\n$=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\left( ax+2 \\right)\\left( \\sqrt{x+3}+2 \\right)$ $=4\\left( a+2 \\right)$.\n$f\\left( 1 \\right)=8+{{a}^{2}}$.\nHàm số đã cho liên tục tại $x=1$ khi $\\underset{x\\to 1}{\\mathop{\\lim }}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow 4\\left( a+2 \\right)=8+{{a}^{2}}$ $\\Leftrightarrow \\left[ \\begin{aligned} & a=0 \\\\ & a=4 \\\\ \\end{aligned} \\right.$.\nVậy có $2$ giá trị của $a$ để hàm số đã cho liên tục tại $x=1$.\n-------------- Hết --------------",
+   "explanation": "Đáp số: 2.\nTập xác định: $D=\\left[ -3;\\,+\\infty \\right)$.\n$\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)$ $=\\underset{x\\to 1}{\\lim}\\,\\frac{a{{x}^{2}}-\\left( a-2 \\right)x-2}{\\sqrt{x+3}-2}$.\n$=\\underset{x\\to 1}{\\lim}\\,\\frac{\\left( x-1 \\right)\\left( ax+2 \\right)\\left( \\sqrt{x+3}+2 \\right)}{x-1}$.\n$=\\underset{x\\to 1}{\\lim}\\,\\left( ax+2 \\right)\\left( \\sqrt{x+3}+2 \\right)$ $=4\\left( a+2 \\right)$.\n$f\\left( 1 \\right)=8+{{a}^{2}}$.\nHàm số đã cho liên tục tại $x=1$ khi $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)$ $\\Leftrightarrow 4\\left( a+2 \\right)=8+{{a}^{2}}$ $\\Leftrightarrow \\left[ \\begin{aligned} & a=0 \\\\ & a=4 \\\\ \\end{aligned} \\right.$.\nVậy có $2$ giá trị của $a$ để hàm số đã cho liên tục tại $x=1$.\n-------------- Hết --------------",
    "short_value": 2,
    "short_correct": "2",
    "ma": "de1.P3.C6",

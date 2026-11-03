@@ -484,9 +484,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Khoa học đã chứng minh bệnh béo phì sẽ làm tăng nguy cơ bị bệnh tim mạch. Khảo sát trên hồ sơ các bệnh nhân bị béo phì ở một bệnh viện, bệnh béo phì do yếu tố lối sống sinh hoạt là $90\\%$, trong số người đó có $60\\%$ người bị mắc bệnh tim mạch. Béo phì do yếu tố di truyền là $10\\%$, trong số người đó có $25\\%$ người bị mắc bệnh về tim mạch. Tính xác xuất để rút ra một hồ sơ là của một người bị béo phì do di truyền biết người đó bị bệnh tim mạch. (Kết quả làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)",
    "explanation": "Gọi ${{A}_{1}}$ là biến cố lấy được hồ sơ một người bị bệnh béo phì do lối sống sinh hoạt.\nGọi ${{A}_{2}}$ là biến cố lấy được hồ sơ một người bị bệnh béo phì do di truyền.\nGọi $B$ là biến cố hồ sơ là của một người bị tim mạch.\nTa có $P\\left( B \\right)=P\\left( {{A}_{1}} \\right).P\\left( B\\left| {{A}_{1}} \\right. \\right)+P\\left( {{A}_{2}} \\right).P\\left( B\\left| {{A}_{2}} \\right. \\right)=0,9\\cdot 0,6+0,1.0,25=0,565$.\nSuy ra $P\\left( {{A}_{2}}\\left| B \\right. \\right)=\\frac{P\\left( {{A}_{2}} \\right).P\\left( B\\left| {{A}_{2}} \\right. \\right)}{P\\left( B \\right)}=\\frac{0,1.0,25}{0,565}=\\frac{5}{113}\\approx 0,04$.",
    "short_value": 0.04,
@@ -499,6 +497,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D03",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -514,9 +513,9 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Có hai chuồng thỏ. Chuồng I có 7 con thỏ đen và 6 con thỏ trắng. Chuồng II có 5 con thỏ đen và 10 con thỏ trắng. Trước tiên từ chuồng I lấy ra ngẫu nhiên một con thỏ rồi bỏ vào chuồng II. Sau đó từ chuồng II lấy ra ngẫu nhiên một con thỏ. Tính xác suất để con thỏ được lấy ra là con thỏ màu đen (tính chính xác đến hàng phần trăm).",
-   "explanation": "Gọi $A:''$Con thỏ lấy ra từ chuồng I sang chuồng II là con thỏ màu đen$''$.\nKhi đó $P\\left( A \\right)=\\frac{7}{13}\\Rightarrow P\\left( \\overline{A} \\right)=1-\\frac{7}{13}=\\frac{6}{13}$.\nGọi $B:''$Con thỏ lấy ra từ chuồng II là con thỏ màu đen$''$.\nTa có $P\\left( \\left. B \\right|A \\right)=\\frac{6}{16}=\\frac{3}{8}\\Rightarrow P\\left( \\left. \\overline{B} \\right|A \\right)=\\frac{5}{8}$.\nÁp dụng công thức tính xác suất toàn phần, ta có\n$p\\left( B \\right)=P\\left( A \\right)P\\left( \\left. B \\right|A \\right)+P\\left( \\overline{A} \\right)P\\left( \\left. B \\right|\\overline{A} \\right)=\\frac{7}{13}.\\frac{3}{8}+\\frac{6}{13}.\\frac{5}{8}=\\frac{51}{104}\\approx 0,49$.",
-   "short_value": 0.35,
-   "short_correct": "0,35",
+   "explanation": "Gọi $A$ là biến cố con thỏ chuyển từ chuồng I sang chuồng II là thỏ đen, $B$ là biến cố con thỏ lấy ra từ chuồng II là thỏ đen. Ta có $P(A)=\\frac{7}{13}$, $P(\\overline{A})=\\frac{6}{13}$, $P(B|A)=\\frac{6}{16}$, $P(B|\\overline{A})=\\frac{5}{16}$. Theo công thức xác suất toàn phần: $P(B)=\\frac{7}{13}\\cdot\\frac{6}{16}+\\frac{6}{13}\\cdot\\frac{5}{16}=\\frac{72}{208}=\\frac{9}{26}\\approx 0,35$.",
+   "short_value": 0.49,
+   "short_correct": "0,49",
    "ma": "de1.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -525,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D01",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."
@@ -536,9 +536,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Vào mỗi buổi sáng ở tuyến phố $X$, xác suất xảy ra tắc đường khi trời mưa và không mưa lần lượt là $0,6$ và $0,15$. Xác suất có mưa vào một buổi sáng là $0,05$. Tính xác suất để buổi sáng có mưa khi tuyến phố $X$ bị tắc đường (tính chính xác đến hàng phần trăm).",
    "explanation": "Gọi $A$ là biến cố “có mưa vào buổi sáng”.\nGọi $B$ là biến cố “tuyến phố $X$ tắc đường”.\nKhi đó ta có: $P\\left( A \\right)=0,05$ và $P\\left( {\\bar{A}} \\right)=1-P\\left( A \\right)=0,95$.\n$P\\left( B\\left| A \\right. \\right)=0,6$ và $P\\left( B\\left| {\\bar{A}} \\right. \\right)=0,15$.\nXác suất để buổi sáng tuyến phố $X$ tắc đường là\n$P\\left( B \\right)=P\\left( A \\right).\\,P\\left( B\\left| A \\right. \\right)+P\\left( {\\bar{A}} \\right).\\,P\\left( B\\left| {\\bar{A}} \\right. \\right)=0,05.0,6+0,95.0,15=\\frac{69}{400}=0,1725$.\nXác suất để buổi sáng có mưa khi tuyến phố $X$ bị tắc đường là\n$P\\left( A\\left| B \\right. \\right)=\\frac{P\\left( A \\right).\\,P\\left( B\\left| A \\right. \\right)}{P\\left( B \\right)}=\\frac{0,05.0,6}{0,1725}=\\frac{4}{23}\\approx 0,17$.",
    "short_value": 0.17,
@@ -551,6 +549,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D01",
    "dang_toan_web": "Công thức xác suất toàn phần."
@@ -562,9 +561,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Giả sử có khoảng $40\\%$ thư điện tử (email) gửi đến một địa chỉ là thư rác. Người ta sử dụng một thuật toán để phân loại thư rác, biết rằng thuật toán này có thể phân loại đến $99\\%$ thư rác và tỉ lệ sai sót khi phân loại thư bình thường thành thư rác là $5\\%$. Tính xác suất một thư điện tử là thư bình thường nếu thư này đã được phân loại đúng (làm tròn $2$ chữ số thập phân).",
    "explanation": "Ta có công thức: $P\\left( A|B \\right)=\\frac{P\\left( B|A \\right).P\\left( A \\right)}{P\\left( B \\right)}$\nTrong đó: $A$: Thư điện tử là thư bình thường;$B$: Thư đã được phân loại đúng.\n$P\\left( A \\right)$: Xác suất một thư điện tử là thư bình thường ban đầu.\nVì có $40\\%$ thư rác nên $P\\left( A \\right)=1-0,4=0,6$.\n$P\\left( B|A \\right)$: Xác suất một thư bình thường được phân loại đúng.\nDo tỉ lệ sai sót là $5\\%$ nên $P\\left( B|A \\right)=1-0,05=0,95$.\n$P\\left( B|\\bar{A} \\right)$: Xác suất một thư rác được phân loại chính xác là $99\\%$ nên $P\\left( B|\\bar{A} \\right)=0,99$.\n$P\\left( B \\right)$: Xác suất một thư nào đó được phân loại đúng, tính bằng tổng xác suất một thư rác được phân loại đúng và xác suất một thư bình thường được phân loại đúng\n$P\\left( B \\right)=P\\left( B|A \\right)\\text{.}P\\left( A \\right)+P\\left( B|\\bar{A} \\right)\\text{.}P\\left( {\\bar{A}} \\right)=0,95.0,6+0,99.0,4=0,966$\nÁp dụng định lý Bayes: $P\\left( A|B \\right)=\\frac{P\\left( B|A \\right).P\\left( A \\right)}{P\\left( B \\right)}=\\frac{0,95\\cdot 0,6}{0,966}=\\frac{95}{161}\\approx 0,59$.",
    "short_value": 0.59,
@@ -577,6 +574,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
@@ -603,6 +601,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B2.D02",
    "dang_toan_web": "Công thức Bayes và ứng dụng trong các bài toán thực tế (y tế, kiểm định, quyết định)."
@@ -614,9 +613,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một cuộc thi có $36$ bộ câu hỏi, trong đó có $16$ bộ câu hỏi về chủ đề tự nhiên và $20$ bộ câu hỏi về chủ đề xã hội. Bạn An lấy ngẫu nhiên $1$ bộ câu hỏi (lấy không hoàn lại), sau đó bạn Phúc lấy ngẫu nhiên 1 bộ câu hỏi. Xác suất bạn Phúc lấy được bộ câu hỏi về chủ đề tự nhiên bằng $\\frac{a}{b}$ với $\\frac{a}{b}$ là phân số tối giản. Giá trị $100a-99b$ bằng bao nhiêu?",
    "explanation": "Xét các biến cố: A: \"Bạn An lấy được bộ câu hỏi về chủ đề xã hội\";\nB: \"Bạn Phúc lấy được bộ câu hỏi về chủ đề tự nhiên\".\nKhi đó: $P\\left( A \\right)=\\frac{20}{36}=\\frac{5}{9};\\,\\,P\\left( \\overline{A\\,} \\right)=1-P\\left( A \\right)=1-\\frac{5}{9}=\\frac{4}{9}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề xã hội thì sau đó còn 35 bộ câu hỏi, trong đó có 16 bộ câu hỏi về chủ đề tự nhiên thì suy ra $P\\left( B\\mid A \\right)=\\frac{16}{35}$.\nNếu bạn An chọn được một bộ câu hỏi về chủ đề tự nhiên thì sau đó còn 35 bộ câu hỏi, trong đó có 15 bộ câu hỏi về chủ đề tự nhiên thì suy ra $P\\left( B\\mid \\overline{A\\,} \\right)=\\frac{15}{35}$.\nTheo công thức xác suất toàn phần, xác suất bạn Phúc lấy được bộ câu hỏi về chủ đề\ntự nhiên là: $\\text{P}\\left( B \\right)=\\text{P}\\left( A \\right).\\text{P}\\left( B\\mid A \\right)+\\text{P}\\left( \\overline{A\\,} \\right).\\text{P}\\left( B\\mid \\overline{A\\,} \\right)=\\frac{5}{9}\\cdot \\frac{16}{35}+\\frac{4}{9}\\cdot \\frac{15}{35}=\\frac{4}{9}$.\nSuy ra $a=4,b=9$ và $100a-99b=-491$.\n-----------------HẾT-----------------",
    "short_value": -491,
@@ -629,6 +626,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

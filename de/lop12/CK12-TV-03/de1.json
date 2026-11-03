@@ -216,9 +216,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "cong_thuc_dang_anh_chua_OCR"
-   ],
+   "flags": [],
    "question": "Cho hình lập phương $ABCD.EFGH$. Hãy xác định góc giữa cặp vectơ $\\overrightarrow{AB}$ và$\\overrightarrow{EG}$?",
    "explanation": "Đáp án đúng là: B\n[[EQIMG:image7.emf]]\nTa có: $EG\\text{//}AC$ (do $ACGE$ là hình chữ nhật) $\\Rightarrow \\left( \\overrightarrow{AB},\\overrightarrow{EG} \\right)=\\left( \\overrightarrow{AB},\\overrightarrow{AC} \\right)=\\widehat{BAC}=45{}^\\circ $.",
    "options": [
@@ -235,6 +233,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D03",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -368,11 +367,9 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số bậc ba $y=f\\left( x \\right)=a{{x}^{3}}+b{{x}^{2}}+cx+d$ có đồ thị như hình vẽ dưới đây :\n[[IMG:image4.emf]]",
-   "explanation": "a) S, b) Đ, c) Đ, d) S\na) Hàm số $f\\left( x \\right)$ đạt cực đại tại $x=0$ và đạt cực tiểu tại $x=2$.\nb) Phương trình $f\\left( x \\right)=m$có 3 nghiệm phân biệt $-2<m<2$, mà $m\\in \\mathbb{Z}$ nên $m\\in \\left\\{ -1;0;1 \\right\\}$.\nc) ${f}'\\left( x \\right)=3a{{x}^{2}}+2bx+c$\nĐồ thị hàm số $\\left( C \\right)$ có 2 điểm cực trị là $\\left( 0;2 \\right)$ và $\\left( 2;-2 \\right)$ nên ta có hệ phương trình\n$\\left\\{ \\begin{aligned} & f\\left( 0 \\right)=2 \\\\ & f\\left( 2 \\right)=-2 \\\\ & {f}'\\left( 0 \\right)=0 \\\\ & {f}'\\left( 2 \\right)=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & d=2 \\\\ & 8a+4b+2c+d=-2 \\\\ & c=0 \\\\ & 12a+4b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=-3 \\\\ & c=0 \\\\ & d=2 \\\\ \\end{aligned} \\right.$ .\nPhương trình của hàm số là $y=f\\left( x \\right)={{x}^{3}}-3{{x}^{2}}+2$.\nd) $y=f\\left( 2\\sin x+1 \\right)$ .\nĐặt $t=2\\sin x+1\\Rightarrow y=f\\left( t \\right)={{t}^{3}}-3{{t}^{2}}+2$.\nTa có $-1\\le \\sin x\\le 1\\Rightarrow -1\\le 2\\sin x+1\\le 3\\Rightarrow -1\\le t\\le 3$.\nDo đó $M=\\underset{\\left[ -1;3 \\right]}{\\mathop{\\max }}\\,f\\left( t \\right)$ và $m=\\underset{\\left[ -1;3 \\right]}{\\mathop{\\min }}\\,f\\left( t \\right)$.\n${f}'\\left( t \\right)=3{{t}^{2}}-6t$ $\\Rightarrow {f}'\\left( t \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & t=0\\in \\left( -1;3 \\right) \\\\ & t=2\\in \\left( -1;3 \\right) \\\\ \\end{aligned} \\right.$.\n$f\\left( 0 \\right)=2$; $f\\left( 2 \\right)=-2$;$f\\left( -1 \\right)=-2$;$f\\left( 3 \\right)=2$.\nSuy ra $M=\\underset{\\left[ -1;3 \\right]}{\\mathop{\\max }}\\,f\\left( t \\right)=2$ và $m=\\underset{\\left[ -1;3 \\right]}{\\mathop{\\min }}\\,f\\left( t \\right)=-2$ nên $M+m=0$.",
+   "explanation": "a) S, b) Đ, c) Đ, d) S\na) Hàm số $f\\left( x \\right)$ đạt cực đại tại $x=0$ và đạt cực tiểu tại $x=2$.\nb) Phương trình $f\\left( x \\right)=m$có 3 nghiệm phân biệt $-2<m<2$, mà $m\\in \\mathbb{Z}$ nên $m\\in \\left\\{ -1;0;1 \\right\\}$.\nc) ${f}'\\left( x \\right)=3a{{x}^{2}}+2bx+c$\nĐồ thị hàm số $\\left( C \\right)$ có 2 điểm cực trị là $\\left( 0;2 \\right)$ và $\\left( 2;-2 \\right)$ nên ta có hệ phương trình\n$\\left\\{ \\begin{aligned} & f\\left( 0 \\right)=2 \\\\ & f\\left( 2 \\right)=-2 \\\\ & {f}'\\left( 0 \\right)=0 \\\\ & {f}'\\left( 2 \\right)=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & d=2 \\\\ & 8a+4b+2c+d=-2 \\\\ & c=0 \\\\ & 12a+4b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=-3 \\\\ & c=0 \\\\ & d=2 \\\\ \\end{aligned} \\right.$ .\nPhương trình của hàm số là $y=f\\left( x \\right)={{x}^{3}}-3{{x}^{2}}+2$.\nd) $y=f\\left( 2\\sin x+1 \\right)$ .\nĐặt $t=2\\sin x+1\\Rightarrow y=f\\left( t \\right)={{t}^{3}}-3{{t}^{2}}+2$.\nTa có $-1\\le \\sin x\\le 1\\Rightarrow -1\\le 2\\sin x+1\\le 3\\Rightarrow -1\\le t\\le 3$.\nDo đó $M=\\underset{\\left[ -1;3 \\right]}{\\max}\\,f\\left( t \\right)$ và $m=\\underset{\\left[ -1;3 \\right]}{\\min}\\,f\\left( t \\right)$.\n${f}'\\left( t \\right)=3{{t}^{2}}-6t$ $\\Rightarrow {f}'\\left( t \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & t=0\\in \\left( -1;3 \\right) \\\\ & t=2\\in \\left( -1;3 \\right) \\\\ \\end{aligned} \\right.$.\n$f\\left( 0 \\right)=2$; $f\\left( 2 \\right)=-2$;$f\\left( -1 \\right)=-2$;$f\\left( 3 \\right)=2$.\nSuy ra $M=\\underset{\\left[ -1;3 \\right]}{\\max}\\,f\\left( t \\right)=2$ và $m=\\underset{\\left[ -1;3 \\right]}{\\min}\\,f\\left( t \\right)=-2$ nên $M+m=0$.",
    "ma": "de1.P2.C1",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -381,6 +378,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B1.D06",
    "dang_toan_web": "Cực trị của hàm số: Điểm cực đại, cực tiểu, giá trị cực trị."
@@ -402,11 +400,9 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=\\frac{x-1}{2x-3}$ $\\left( C \\right)$.",
-   "explanation": "a) Đ, b) Đ, c) S, d) Đ\na) Vì $\\underset{x\\to {{\\left( \\frac{3}{2} \\right)}^{+}}}{\\mathop{\\lim }}\\,\\frac{x-1}{2x-3}=+\\infty $ nên tiệm cận đứng của hàm số là $x=\\frac{3}{2}$.\nb) Hàm số có 1 tiệm cận đứng là $x=\\frac{3}{2}$ và 1 tiệm cận ngang là $y=\\frac{1}{2}$, nên tọa độ giao điểm hai đường tiệm cận là $I\\left( \\frac{3}{2};\\frac{1}{2} \\right)$. Rõ ràng I thuộc đường thẳng $x-y-1=0$.\nc) Tọa độ điểm A: $x=\\frac{3}{2}\\Rightarrow y=-2$ suy ra $A\\left( \\frac{3}{2};-2 \\right)$.\nTọa độ điểm B: $y=\\frac{1}{2}\\Rightarrow x=\\frac{1}{4}$ suy ra $B\\left( \\frac{1}{4};\\frac{1}{2} \\right)$.\n$\\overrightarrow{IA}\\left( 0;-\\frac{5}{2} \\right)\\Rightarrow IA=\\frac{5}{2}$; $\\overrightarrow{IB}\\left( \\frac{-5}{4};0 \\right)\\Rightarrow IB=\\frac{5}{4}$; ${{S}_{\\Delta IAB}}=\\frac{1}{2}IA.IB=\\frac{1}{2}.\\frac{5}{4}.\\frac{5}{2}=\\frac{25}{16}$.\nd) Tọa độ giao điểm $I\\left( \\frac{3}{2};\\frac{1}{2} \\right)$.\nGọi tọa độ tiếp điểm là $\\left( {{x}_{0}};\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3} \\right)$.\nKhi đó phương trình tiếp tuyến $\\Delta $ với đồ thị hàm số tại điểm $\\left( {{x}_{0}};\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3} \\right)$ là:\n$y=-\\frac{1}{{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}}\\left( x-{{x}_{0}} \\right)+\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3}\\Leftrightarrow x+{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}y-2x_{0}^{2}+4{{x}_{0}}-3=0$.\nKhi đó: $d\\left( I,\\Delta \\right)=\\frac{\\left| \\frac{3}{2}+\\frac{1}{2}{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}-2x_{0}^{2}+4{{x}_{0}}-3 \\right|}{\\sqrt{1+{{\\left( 2{{x}_{0}}-3 \\right)}^{4}}}}=\\frac{\\left| -2{{x}_{0}}+3 \\right|}{\\sqrt{1+{{\\left( 2{{x}_{0}}-3 \\right)}^{4}}}}\\le \\frac{\\left| 2{{x}_{0}}-3 \\right|}{\\sqrt{2{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}}}=\\frac{1}{\\sqrt{2}}$\n(Theo bất đẳng thức Cô si)\nDấu $''=''$ xảy ra khi và chỉ khi ${{\\left( 2{{x}_{0}}-3 \\right)}^{2}}=1\\Leftrightarrow \\left[ \\begin{aligned} & 2{{x}_{0}}-3=1 \\\\ & 2{{x}_{0}}-3=-1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & {{x}_{0}}=2 \\\\ & {{x}_{0}}=1 \\\\ \\end{aligned} \\right.$.\nVậy $\\max d\\left( I,\\Delta \\right)=\\frac{1}{\\sqrt{2}}$.",
+   "explanation": "a) Đ, b) Đ, c) S, d) Đ\na) Vì $\\underset{x\\to {{\\left( \\frac{3}{2} \\right)}^{+}}}{\\lim}\\,\\frac{x-1}{2x-3}=+\\infty $ nên tiệm cận đứng của hàm số là $x=\\frac{3}{2}$.\nb) Hàm số có 1 tiệm cận đứng là $x=\\frac{3}{2}$ và 1 tiệm cận ngang là $y=\\frac{1}{2}$, nên tọa độ giao điểm hai đường tiệm cận là $I\\left( \\frac{3}{2};\\frac{1}{2} \\right)$. Rõ ràng I thuộc đường thẳng $x-y-1=0$.\nc) Tọa độ điểm A: $x=\\frac{3}{2}\\Rightarrow y=-2$ suy ra $A\\left( \\frac{3}{2};-2 \\right)$.\nTọa độ điểm B: $y=\\frac{1}{2}\\Rightarrow x=\\frac{1}{4}$ suy ra $B\\left( \\frac{1}{4};\\frac{1}{2} \\right)$.\n$\\overrightarrow{IA}\\left( 0;-\\frac{5}{2} \\right)\\Rightarrow IA=\\frac{5}{2}$; $\\overrightarrow{IB}\\left( \\frac{-5}{4};0 \\right)\\Rightarrow IB=\\frac{5}{4}$; ${{S}_{\\Delta IAB}}=\\frac{1}{2}IA.IB=\\frac{1}{2}.\\frac{5}{4}.\\frac{5}{2}=\\frac{25}{16}$.\nd) Tọa độ giao điểm $I\\left( \\frac{3}{2};\\frac{1}{2} \\right)$.\nGọi tọa độ tiếp điểm là $\\left( {{x}_{0}};\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3} \\right)$.\nKhi đó phương trình tiếp tuyến $\\Delta $ với đồ thị hàm số tại điểm $\\left( {{x}_{0}};\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3} \\right)$ là:\n$y=-\\frac{1}{{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}}\\left( x-{{x}_{0}} \\right)+\\frac{{{x}_{0}}-1}{2{{x}_{0}}-3}\\Leftrightarrow x+{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}y-2x_{0}^{2}+4{{x}_{0}}-3=0$.\nKhi đó: $d\\left( I,\\Delta \\right)=\\frac{\\left| \\frac{3}{2}+\\frac{1}{2}{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}-2x_{0}^{2}+4{{x}_{0}}-3 \\right|}{\\sqrt{1+{{\\left( 2{{x}_{0}}-3 \\right)}^{4}}}}=\\frac{\\left| -2{{x}_{0}}+3 \\right|}{\\sqrt{1+{{\\left( 2{{x}_{0}}-3 \\right)}^{4}}}}\\le \\frac{\\left| 2{{x}_{0}}-3 \\right|}{\\sqrt{2{{\\left( 2{{x}_{0}}-3 \\right)}^{2}}}}=\\frac{1}{\\sqrt{2}}$\n(Theo bất đẳng thức Cô si)\nDấu $''=''$ xảy ra khi và chỉ khi ${{\\left( 2{{x}_{0}}-3 \\right)}^{2}}=1\\Leftrightarrow \\left[ \\begin{aligned} & 2{{x}_{0}}-3=1 \\\\ & 2{{x}_{0}}-3=-1 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left[ \\begin{aligned} & {{x}_{0}}=2 \\\\ & {{x}_{0}}=1 \\\\ \\end{aligned} \\right.$.\nVậy $\\max d\\left( I,\\Delta \\right)=\\frac{1}{\\sqrt{2}}$.",
    "ma": "de1.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 14,
@@ -415,6 +411,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B3.D05",
    "dang_toan_web": "Đường tiệm cận của đồ thị hàm số: Tiệm cận đứng, tiệm cận ngang, tiệm cận xiên."
@@ -436,9 +433,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian $Oxyz$, cho vectơ $\\overrightarrow{OA}=\\left( 2;-1;5 \\right)$ và điểm $B\\left( 5;-5;7 \\right)$.",
    "explanation": "a) Đ, b) Đ, c) Đ, d) S\na) Tọa độ của điểm $A$ là $\\left( 2;-1;5 \\right)$.\nb) $G$ là trọng tâm $\\Delta ABC$ nên $\\left\\{ \\begin{aligned} & 1=\\frac{2+5+{{x}_{C}}}{3} \\\\ & 1=\\frac{-1-5+{{y}_{C}}}{3} \\\\ & 1=\\frac{5+7+{{z}_{C}}}{3} \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & {{x}_{C}}=-4 \\\\ & {{y}_{C}}=9 \\\\ & {{z}_{C}}=-9 \\\\ \\end{aligned} \\right.$ $\\Rightarrow C\\left( -4;9;-9 \\right)$.\nSuy ra $a+b+c=-4$.\nc) Ta có $\\overrightarrow{AB}=\\left( 3;-4;2 \\right),\\overrightarrow{AM}=\\left( x-2;y+1;-4 \\right)$.\nBa điểm $A,B,M$ thẳng hàng khi và chỉ khi $\\overrightarrow{AM}=k\\overrightarrow{AB}$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x-2=3k \\\\ & y+1=-4k \\\\ & -4=2k \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x=-4 \\\\ & y=7 \\\\ & k=-2 \\\\ \\end{aligned} \\right.$.\nSuy ra $x+y=3.$\nd) Ta có $N\\in \\left( Oxy \\right)\\Rightarrow N\\left( x;y;0 \\right)$. Suy ra $\\overrightarrow{AN}=\\left( x-2;y+1;-5 \\right),\\overrightarrow{AB}=\\left( 3;-4;2 \\right)$.\nTa có $\\Delta ABN$ vuông cân tại $A$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & AN\\bot AB \\\\ & AN=AB \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & 3\\left( x-2 \\right)-4\\left( y+1 \\right)-10=0 \\\\ & {{\\left( x-2 \\right)}^{2}}+{{\\left( y+1 \\right)}^{2}}+25=9+16+4 \\\\ \\end{aligned} \\right.$\n$\\Leftrightarrow \\left\\{ \\begin{aligned} & y=\\frac{3}{4}x-5 \\\\ & {{\\left( x-2 \\right)}^{2}}+{{\\left( \\frac{3x}{4}-4 \\right)}^{2}}=4 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & y=\\frac{3}{4}x-5 \\\\ & {{x}^{2}}-4x+4+\\frac{9{{x}^{2}}}{16}-6x+16=4 \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & x=\\frac{16}{5} \\\\ & y=-\\frac{13}{5} \\\\ \\end{aligned} \\right.$ $\\Rightarrow N\\left( \\frac{16}{5};-\\frac{13}{5};0 \\right)$.\nVậy ${{x}_{N}}+{{y}_{N}}=\\frac{3}{5}$.",
    "ma": "de1.P2.C3",
@@ -449,6 +444,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C2.B3.D05",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -470,9 +466,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Giả sử kết quả khảo sát hai khu vực $A$ và $B$ về độ tuổi kết hôn của một số phụ nữ vừa lập gia đình được cho ở bảng sau:\n| Tuổi kết hôn | $[19;22)$ | $[22;25)$ | $[25;28)$ | $[28;31)$ | $[31;34)$ |\n|---|---|---|---|---|---|\n| Số phụ nữ khu vực $A$ | 10 | 27 | 31 | 25 | 7 |\n| Số phụ nữ khu vực $B$ | 47 | 40 | 11 | 2 | 0 |",
    "explanation": "a) Đ, b) Đ, c) S, d) Đ\na) Khoảng biến thiên của mẫu số liệu ghép nhóm ứng với khu vực A là: $34-19=15$ (tuổi).\nb) Khoảng biến thiên của mẫu số liệu ghép nhóm ứng với khu vực B là: $31-19=12$(tuổi).\nc) Cỡ mẫu $n=100$\nTứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${{Q}_{1}}=22+\\frac{\\frac{100}{4}-10}{27}(25-22)=\\frac{71}{3}$.\nTứ phân vị thứ ba của mẫu số liệu ghép nhóm là:\n${{Q}_{3}}=28+\\frac{\\frac{3.100}{4}-(10+27+31)}{25}(31-28)=\\frac{721}{25}$.\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm là: ${{\\Delta }_{Q}}={{Q}_{3}}-{{Q}_{1}}=\\frac{388}{75}$.\nd) Tứ phân vị thứ nhất của mẫu số liệu ghép nhóm B là: ${{Q}_{1}}^{\\prime }=19+\\frac{\\frac{100}{4}}{47}(22-19)=\\frac{968}{47}$.\nTứ phân vị thứ ba của mẫu số liệu ghép nhóm B là: ${{Q}_{3}}^{\\prime }=22+\\frac{\\frac{3.100}{4}-47}{40}(25-22)=\\frac{241}{10}$.\nKhoảng tứ phân vị của mẫu số liệu ghép nhóm B là ${{\\Delta }_{Q}}^{\\prime }=\\frac{241}{10}-\\frac{968}{47}=\\frac{1647}{470}$.\nCó ${{\\Delta }_{Q}}^{\\prime }<{{\\Delta }_{Q}}$ nên phụ nữ ở khu vực B có độ tuổi kết hôn đồng đều hơn.",
    "ma": "de1.P2.C4",
@@ -483,6 +477,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -522,7 +517,7 @@
     "trung_web:7VKWu820qTTMcv0KTQlB"
    ],
    "question": "Một ông nông dân có $240$m hàng rào và muốn rào lại cánh đồng hình chữ nhật tiếp giáp với một con sông. Ông không cần rào cho phía giáp bờ sông. Hỏi ông có thể rào được cánh đồng với diện tích lớn nhất là bao nhiêu m2?",
-   "explanation": "Trả lời: 7200\nGọi hai kích thước của hình chữ nhật là $x$ và $y$, với $2x+y=240$ $\\left( 0<x<120;0<y<240 \\right)$.\nSuy ra $y=240-2x$\nDiện tích của mảnh vườn hình chữ nhật là:\n$S=xy=x\\left( 240-2x \\right)=240x-2{{x}^{2}},0<x<120$.\n${S}'=240-4x$; ${S}'=0\\Leftrightarrow x=60\\in \\left( 0;120 \\right)$.\nBảng biến thiên\n[[IMG:image9.png#0.0000,0.0000,0.0342,0.1421]]\nTừ bảng biến thiên ta thấy $\\underset{\\left( 0;120 \\right)}{\\mathop{\\max }}\\,S=7200\\Leftrightarrow x=60$.\nVậy ông nông dân có thể rào được cánh đồng với diện tích lớn nhất là $7200$m2.",
+   "explanation": "Trả lời: 7200\nGọi hai kích thước của hình chữ nhật là $x$ và $y$, với $2x+y=240$ $\\left( 0<x<120;0<y<240 \\right)$.\nSuy ra $y=240-2x$\nDiện tích của mảnh vườn hình chữ nhật là:\n$S=xy=x\\left( 240-2x \\right)=240x-2{{x}^{2}},0<x<120$.\n${S}'=240-4x$; ${S}'=0\\Leftrightarrow x=60\\in \\left( 0;120 \\right)$.\nBảng biến thiên\n[[IMG:image9.png#0.0000,0.0000,0.0342,0.1421]]\nTừ bảng biến thiên ta thấy $\\underset{\\left( 0;120 \\right)}{\\max}\\,S=7200\\Leftrightarrow x=60$.\nVậy ông nông dân có thể rào được cánh đồng với diện tích lớn nhất là $7200$m2.",
    "short_value": 7200,
    "short_correct": "7200",
    "ma": "de1.P3.C2",
@@ -618,7 +613,7 @@
    "flags": [],
    "question": "Bảng dưới đây biểu diễn mẫu số liệu ghép nhóm về chiều cao (đơn vị: Centimet) của 43 học sinh trong một lớp học khối 11 của một trường phổ thông\n| Nhóm | Giá trị đại diện | Tần số |\n|---|---|---|\n| $\\left[ 150;155 \\right)$ | 152,5 | 5 |\n| $\\left[ 155;160 \\right)$ | 157,5 | 10 |\n| $\\left[ 160;165 \\right)$ | 162,5 | 12 |\n| $\\left[ 165;170 \\right)$ | 167,5 | 9 |\n| $\\left[ 170;175 \\right)$ | 172,5 | 4 |\n| $\\left[ 175;180 \\right)$ | 177,5 | 3 |\n|  |  | $n=43$ |\nTính phương sai của mẫu số liệu ghép nhóm trên (làm tròn đến hàng phần trăm).",
    "explanation": "Trả lời: 46,43\n+) Số trung bình cộng của mẫu số liệu ghép nhóm trên là:\n$\\overline{x}=\\frac{5.152,5+10.157,5+12.162,5+9.167,5+4.172,5+3.177,5}{43}\\approx 163,2\\,\\,\\left( \\text{cm} \\right)$.\n+) Phương sai của mẫu số liệu ghép nhóm trên là:\n${{s}^{2}}=\\frac{5.152,{{5}^{2}}+10.157,{{5}^{2}}+12.162,{{5}^{2}}+9.167,{{5}^{2}}+4.172,{{5}^{2}}+3.177,{{5}^{2}}}{43}-163,{{2}^{2}}\\,\\approx 46,43$.",
-   "short_value": 47.19,
+   "short_value": 46.43,
    "short_correct": "47,19",
    "ma": "de1.P3.C6",
    "dac_trung": {
@@ -628,6 +623,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."

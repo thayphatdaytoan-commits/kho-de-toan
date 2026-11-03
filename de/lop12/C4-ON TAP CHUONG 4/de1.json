@@ -406,6 +406,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C4.B1.D07",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -485,7 +486,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -515,12 +517,10 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Chuẩn bị cho đêm hội diễn văn nghệ chào đón năm mới, bạn Lan đã làm một chiếc mũ “cách điệu” cho ông già Noel có dáng một khối tròn xoay. Mặt cắt qua trục của chiếc mũ như hình vẽ bên dưới. Biết rằng $O{O}'=6$ $\\text{cm}$, $OA=10$ $\\text{cm}$, $OB=20$ $\\text{cm}$, đường cong $AB$ là một phần của parabol có đỉnh là điểm$B$. Tính thể tích của chiếc mũ (làm tròn đến hàng phần nguyên, đơn vị $\\text{c}{{\\text{m}}^{3}}$)\n[[IMG:image16.png]]",
    "explanation": "[[IMG:image18.png]]\nTa gọi thể tích của chiếc mũ là $V$.\nThể tích của khối trụ có bán kính đáy bằng $OA=10$ cm và đường cao $O{O}'=6$ cm là ${{V}_{1}}$.\nThể tích của vật thể tròn xoay khi quay hình phẳng giới hạn bởi đường cong $AB$và hai trục tọa độ quanh trục $Ox$là ${{V}_{2}}$.\nTa có $V={{V}_{1}}+{{V}_{2}}$\n${{V}_{1}}={{6.10}^{2}}\\pi =600\\pi $ $\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nChọn hệ trục tọa độ như hình vẽ.\nDo parabol có đỉnh $B(20;0)$ nên nó có phương trình dạng $(P):y=a{{(x-20)}^{2}}$.\nVì $\\left( P \\right)$ qua điểm $A\\left( 0;10 \\right)$ nên $a=\\frac{1}{40}$. Do đó, $\\left( P \\right):y=\\frac{1}{40}{{\\left( x-20 \\right)}^{2}}$.\nSuy ra ${{V}_{2}}=\\pi \\int\\limits_{0}^{20}{{{\\left[ \\frac{1}{40}{{\\left( x-20 \\right)}^{2}} \\right]}^{2}}\\text{d}x}=400\\pi $ $\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.\nDo đó $V={{V}_{1}}+{{V}_{2}}=600\\pi +400\\pi =1000\\pi \\approx 3142\\left( \\text{c}{{\\text{m}}^{3}} \\right)$.",
-   "short_value": 0.025,
+   "short_value": 3142,
    "short_correct": "3142",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -530,7 +530,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot"
+   "sua_boi": "muse"
   },
   {
    "section": 3,
@@ -539,13 +539,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộ gia đình sản xuất cơ khí nhỏ mỗi ngày sản xuất được ${x}$ sản phẩm $\\left( 0\\le x\\le 20 \\right)$. Chi phí biên để sản xuất ${x}$ sản phẩm, tính bằng nghìn đồng, cho bởi hàm số sau $C'\\left( x \\right)=3{{x}^{2}}-4x+10$. Biết rằng chi phí cố định ban đầu để sản xuất là 500 nghìn đồng. Giả sử cơ sở này bán hết sản phẩm mỗi ngày với giá 270 nghìn đồng/sản phẩm. Tính lợi nhuận tối đa mà gia đình đó thu được khi sản xuất và bán sản phẩm?",
    "explanation": "Chi phí để sản xuất ${x}$ sản phẩm bằng $C\\left( x \\right)=\\int{C'\\left( x \\right)}\\text{d}x={{x}^{3}}-2{{x}^{2}}+10x+C$\nMà chi phí cố định ban đầu để sản xuất là 500 nghìn đồng\nSuy ra $C\\left( 0 \\right)=500\\Rightarrow C=500$ $\\Rightarrow C\\left( x \\right)={{x}^{3}}-2{{x}^{2}}+10x+500$\nKhi bán ${x}$ sản phẩm, số tiền thu được là: $270x$ (nghìn đồng).\nDo đó lợi nhuận thu được là: $T\\left( x \\right)=-{{x}^{3}}+2{{x}^{2}}+260x-500$ (nghìn đồng).\nTa có $T'\\left( x \\right)=-3{{x}^{2}}+4x+260=0\\Leftrightarrow x=10\\text{ }$ hoặc $x=-\\frac{26}{3}$ (loại).\nBảng biến thiên\n[[IMG:image19.png]]\nLợi nhuận tối đa là 1300 nghìn đồng khi sản xuất 10 sản phẩm mỗi ngày.",
    "short_value": -8.666666666666666,
-   "short_correct": "1300",
+   "short_correct": "-8,666667|-26/3",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 9,
@@ -554,7 +552,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
-   "sua_boi": "grokbot"
+   "sua_boi": "muse"
   },
   {
    "section": 3,

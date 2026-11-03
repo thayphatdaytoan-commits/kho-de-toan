@@ -37,6 +37,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "grokbot",
    "muc_do": "NB",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -302,7 +303,7 @@
    "answer": "C",
    "flags": [],
    "question": "Đường tiệm cận xiên của đồ thị hàm số $y=x+4+\\frac{x-1}{x-2}$ là",
-   "explanation": "Ta có: $y=f\\left( x \\right)=x+4+\\frac{x-1}{x-2}=x+4+1+\\frac{1}{x-2}=x+5+\\frac{1}{x-2}$.\nDo $\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\left[ f\\left( x \\right)-\\left( x+5 \\right) \\right]=\\underset{x\\to +\\infty }{\\mathop{\\lim }}\\,\\frac{1}{x-2}=0$ nên đường thẳng $y=x+5$ là đường tiệm cận xiên của đồ thị hàm số đã cho.",
+   "explanation": "Ta có: $y=f\\left( x \\right)=x+4+\\frac{x-1}{x-2}=x+4+1+\\frac{1}{x-2}=x+5+\\frac{1}{x-2}$.\nDo $\\underset{x\\to +\\infty }{\\lim}\\,\\left[ f\\left( x \\right)-\\left( x+5 \\right) \\right]=\\underset{x\\to +\\infty }{\\lim}\\,\\frac{1}{x-2}=0$ nên đường thẳng $y=x+5$ là đường tiệm cận xiên của đồ thị hàm số đã cho.",
    "options": [
     "$y=x+4$",
     "$x=-2$",
@@ -409,6 +410,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "grokbot",
    "muc_do": "TH",
    "dang": "L12.C1.B5.D01",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -432,7 +434,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hàm số$y=f(x)=\\frac{ax+b}{x+c}$ có giá trị lớn nhất trên đoạn $\\left[ 3;4 \\right]$ bằng $7$ và có đồ thị $y={f}'(x)$ như hình vẽ\n[[IMG:image7.png]]",
-   "explanation": "a) Đúng\nTa có từ đồ thị hàm số $y={f}'(x)$, đường tiệm cận đứng là $x=2$.\nb) Đúng\nTa có trên $\\left( 2;+\\infty \\right)$đồ thị $y={f}'(x)$ nằm dưới trục hoành, nên ${f}'(x)<0,\\,\\,\\forall x\\in \\left( 2;+\\infty \\right)$, nên hàm số $y=f(x)$ nghịch biến trên khoảng $\\left( 2;+\\infty \\right)$.\nc) Sai\nTa có $y={f}'(x)=\\frac{ac-b}{{{(x+c)}^{2}}}$\nTừ giả thiết ta có $\\left\\{ \\begin{aligned} & f(3)=7 \\\\ & {f}'(0)=-1 \\\\ & -c=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=-2 \\\\ & \\frac{ac-b}{{{c}^{2}}}=-1 \\\\ & \\frac{3a+b}{3+c}=7 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=-2 \\\\ & a=3 \\\\ & b=-2 \\\\ \\end{aligned} \\right.$\nNên $3b+2c=3\\times (-2)+2\\times (-2)=-10$\nd) Sai\nVì trên đoạn $\\left[ 3;4 \\right]$ hàm số nghịch biến $\\underset{\\left[ 3;4 \\right]}{\\mathop{\\min }}\\,f(x)=f(4)=5$.",
+   "explanation": "a) Đúng\nTa có từ đồ thị hàm số $y={f}'(x)$, đường tiệm cận đứng là $x=2$.\nb) Đúng\nTa có trên $\\left( 2;+\\infty \\right)$đồ thị $y={f}'(x)$ nằm dưới trục hoành, nên ${f}'(x)<0,\\,\\,\\forall x\\in \\left( 2;+\\infty \\right)$, nên hàm số $y=f(x)$ nghịch biến trên khoảng $\\left( 2;+\\infty \\right)$.\nc) Sai\nTa có $y={f}'(x)=\\frac{ac-b}{{{(x+c)}^{2}}}$\nTừ giả thiết ta có $\\left\\{ \\begin{aligned} & f(3)=7 \\\\ & {f}'(0)=-1 \\\\ & -c=2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=-2 \\\\ & \\frac{ac-b}{{{c}^{2}}}=-1 \\\\ & \\frac{3a+b}{3+c}=7 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & c=-2 \\\\ & a=3 \\\\ & b=-2 \\\\ \\end{aligned} \\right.$\nNên $3b+2c=3\\times (-2)+2\\times (-2)=-10$\nd) Sai\nVì trên đoạn $\\left[ 3;4 \\right]$ hàm số nghịch biến $\\underset{\\left[ 3;4 \\right]}{\\min}\\,f(x)=f(4)=5$.",
    "ma": "de1.P2.C3",
    "dac_trung": {
     "so_dong_loi_giai": 10,
@@ -484,9 +486,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một doanh nghiệp sản xuất đồ gỗ nội thất cần mỗi ngày 5 khối gỗ để làm các sản phẩm nội thất. Chi phí một lần vận chuyển gỗ từ cơ sở cung cấp gỗ đến nơi sản xuất của doanh nghiệp là 8 triệu đồng, chi phí lưu kho tại doanh nghiệp của 1 khối gỗ là 200 ngàn đồng trên ngày. Mỗi lần vận chuyển, gỗ sẽ được đưa đến đầu ngày làm việc và lượng gỗ được vận chuyển vừa đủ cho doanh nghiệp sử dụng từ ngày hôm đó cho đến lần vận chuyển tiếp theo. Hỏi doanh nghiệp cần vận chuyển gỗ mấy ngày một lần để chi phí trung bình trong một ngày là nhỏ nhất?",
    "explanation": "Đáp án: 4\nGọi $x$ (ngày) là số ngày giữa 2 lần vận chuyển gỗ liên tiếp $\\left( x\\in {{\\mathbb{N}}^{*}} \\right)$.\nLượng gỗ nhập về là $5x$ khối.\nChi phí vận chuyển trung bình mỗi ngày là $\\frac{8000}{x}$ (ngàn đồng).\nMỗi lần vận chuyển, gỗ sẽ được đưa đến đầu ngày làm việc và lượng gỗ được vận chuyển vừa đủ cho doanh nghiệp sử dụng từ ngày hôm đó cho đến lần vận chuyển tiếp theo suy ra trung bình mỗi ngày lưu trữ $2\\text{,}5x$.\nSuy ra chi phí lưu trữ trung bình mỗi ngày là $2,5x\\cdot 200=500x$ (ngàn đồng).\nTổng chi phí trung bình mỗi ngày là $C\\left( x \\right)=\\frac{8000}{x}+500x\\ge 4000$ (ngàn đồng).\nDấu bằng xảy ra khi $x=4$.",
    "short_value": 4,
@@ -499,6 +499,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C6.B1.D06",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."
@@ -510,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong không gian với hệ tọa độ $Oxyz$, cho hai điểm $A\\left( 6;5;-1 \\right)$, $B\\left( 4;-2;3 \\right)$. Tính số đo góc nhị diện $\\left[ A,Ox,B \\right]$ theo đơn vị độ.",
    "explanation": "Đáp án: 135\nGọi ${{A}_{1}};{{B}_{1}}$ lần lượt là hình chiếu của $A\\left( 6;5;-1 \\right)$, $B\\left( 4;-2;3 \\right)$ lên $\\left( Oyz \\right)$ suy ra ${{A}_{1}}\\left( 0;5;-1 \\right)$, ${{B}_{1}}\\left( 0;-2;3 \\right)$.\nKhi đó $\\left[ A,Ox,B \\right]=\\left( \\overrightarrow{O{{A}_{1}}},\\overrightarrow{O{{B}_{1}}} \\right)$.\nMặt khác $\\cos \\left( \\overrightarrow{O{{A}_{1}}},\\overrightarrow{O{{B}_{1}}} \\right)=\\frac{\\left| \\overrightarrow{O{{A}_{1}}}\\cdot \\overrightarrow{O{{B}_{1}}} \\right|}{\\left| \\overrightarrow{O{{A}_{1}}} \\right|\\left| \\overrightarrow{O{{B}_{1}}} \\right|}=\\frac{5\\left( -2 \\right)-1\\cdot 3}{\\sqrt{{{5}^{2}}+1}\\cdot \\sqrt{{{2}^{2}}+{{3}^{2}}}}=-\\frac{\\sqrt{2}}{2}$\nsuy ra $\\left[ A,Ox,B \\right]=\\left( \\overrightarrow{O{{A}_{1}}},\\overrightarrow{O{{B}_{1}}} \\right)=135{}^\\circ $.",
    "short_value": 135,
@@ -525,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D01",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."
@@ -536,9 +536,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Anh Bảo vừa tốt nghiệp đại học và được nhận vào làm việc tại tập đoàn dược mỹ phẩm PBC với một trong hai phương án lương như sau:\nPhương án 1: lương khởi điểm 10 triệu đồng một tháng, cứ sau tròn 3 năm thì tăng lương mỗi tháng 6 triệu đồng so với mỗi tháng của 3 năm trước đó\nPhương án 2: lương khởi điểm 10 triệu đồng một tháng, cứ sau tròn 3 năm thì tăng lương mỗi tháng 40%, so với mỗi tháng của 3 năm trước đó.\nNếu anh Bảo kí hợp đồng làm việc 20 năm thì sau 20 năm đi làm, tông tiền lương anh nhận được theo phương án 2 nhiều hơn phương án 1 bao nhiêu triệu đồng (làm tròn đến hàng đơn vị)",
    "explanation": "Đáp án: 1180\nSố tiền nhận được sau 20 năm đi làm nếu kí hợp đồng theo phương án 1 là:\n${{T}_{1}}=36.\\left( 10+16+22+..+40 \\right)+46.24=6504$(triệu đồng)\nSố tiền nhận được sau 20 năm đi làm nếu kí hợp đồng theo phương án 2 là:\n${{T}_{2}}=36.10\\frac{1-1,{{4}^{6}}}{1-1,4}+10.1,{{4}^{6}}.24=\\frac{24011472}{3125}$(triệu đồng)\nSuy ra: $\\Delta T={{T}_{2}}-{{T}_{1}}=1180$.",
    "short_value": 1180,
@@ -551,6 +549,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -562,9 +561,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông và $SA$ vuông góc với đáy, $SA=3,AB=2$. Tính khoảng cách từ điểm $C$ đến mặt phẳng $\\left( SBD \\right)$ (làm tròn đến hàng phần trăm).\n[[IMG:image8.png]]",
    "explanation": "Đáp án: 1,28\n[[IMG:image15.png]]\nTa có: $\\frac{d\\left( C,\\left( SBD \\right) \\right)}{d\\left( A,(SBD) \\right)}=\\frac{OC}{OA}=1\\Rightarrow d\\left( C,\\left( SBD \\right) \\right)=d\\left( A,(SBD) \\right)$\nKẻ $AH\\bot SO\\Rightarrow AH\\bot \\left( SBD \\right)\\Rightarrow d\\left( A,\\left( SBD \\right) \\right)=AH$\nTa có: $\\frac{1}{A{{H}^{2}}}=\\frac{1}{S{{A}^{2}}}+\\frac{1}{A{{O}^{2}}}=\\frac{1}{{{3}^{2}}}+\\frac{1}{{{\\left( \\sqrt{2} \\right)}^{2}}}\\Rightarrow AH=\\frac{3\\sqrt{22}}{11}\\approx 1,28$\nVậy $d\\left( C,\\left( SBD \\right) \\right)=AH\\approx 1,28$.",
    "short_value": 1.28,
@@ -577,6 +574,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D07",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -588,9 +586,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một buổi tập luyện của lính đặc công, một chiến sỹ cần phối hợp bơi và chạy bộ để từ điểm $A$ ở bờ sông bên này đến điểm $B$ về phía hạ lưu của bờ sông bên kia (tham khảo hình vẽ bên dưới). Chiến sỹ dự định bơi thẳng từ điểm $A$ đến một điểm thuộc đoạn $HB$ sau đó chạy từ điểm đó về điểm $B$. Biết $A H=300 \\mathrm{~m}, H B=900 \\mathrm{~m}$, vận tốc dòng nước là $1 \\mathrm{~m} / \\mathrm{s}$, vận tốc bơi của chiến sỹ đối với nước là $1 \\mathrm{~m} / \\mathrm{s}$ và vận tốc chạy trên bờ của chiến sỹ là $3 \\mathrm{~m} / \\mathrm{s}$. Hỏi chiến sỹ cần ít nhất bao nhiêu giây để hoàn thành kế hoạch trên?( làm tròn đến hàng đơn vị).\n[[IMG:image9.png]]",
    "explanation": "Đáp án: 473\n[[IMG:image16.png]]\nGọi $\\overrightarrow{A M}, \\overrightarrow{M N}$ lần lượt là vecto vận tốc bơi cùa chiến sỹ đối với nước và vecto vận tốc dòng nước.\nKhi đó $\\overrightarrow{A N}=\\overrightarrow{A M}+\\overrightarrow{M N}$ là vecto vận tốc bơi của chiến sỹ đối với bờ.\nGọi $C,D$lần lượt là giao điểm của $AN,AM$ với $HB$và $x=H D$ (đơn vị m )\nThời gian bơi là $t_1=\\frac{A C}{A N}=\\frac{A D}{A M}=\\sqrt{x^2+300^2}$.\nTa có $\\frac{DC}{MN}=\\frac{AD}{AM}\\Rightarrow DC=AD=\\sqrt{{{x}^{2}}+{{300}^{2}}}\\Rightarrow CB=900-x-\\sqrt{{{x}^{2}}+{{300}^{2}}}.$\nThời gian chạy là $t_2=\\frac{C B}{3}=\\frac{900-x-\\sqrt{x^2+300^2}}{3}$.\nTồng thời gian là $f(x)=t_1+t_2=\\frac{2}{3} \\sqrt{x^2+300^2}-\\frac{x}{3}+300$.\nGiá trị nhỏ nhất cùa $f(x)$ là 473.",
    "short_value": 473,
@@ -603,6 +599,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C1.B5.D03",
    "dang_toan_web": "Ứng dụng đạo hàm để giải quyết các bài toán tối ưu thực tế."
@@ -614,9 +611,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một công viên nhỏ trong một khu dân cư có dạng hình chữ nhật với chiều rộng là 40 m và chiều dài là 60 m. Ban quản lý lát gạch phần đất dạng parabol và hình tròn bán kính 10 m như hình vẽ. Phần còn lại sẽ trồng cỏ và cây xanh. Ban quản lý dự định làm một đoạn đường nhỏ nối hai phần lát gạch. Biết $A B=20 \\mathrm{~m}, O H=30 \\mathrm{~m}$, hỏi chiều dài ngắn nhất của đoạn đường đó là bao nhiêu mét(làm tròn đến hàng phần chục)?\n[[IMG:image10.png]]",
    "explanation": "Đáp án: 17,7\n[[IMG:image17.png]]\nGắn hệ trục toạ độ như hình vẽ. Ta có $B(10 ;-30), I(20 ; 20)$.\nVì parabol có đỉnh là $O$ nên có phương trình dạng $y=a x^2(*)$.Thay toạ độ $B$ vào (*) ta được $a=-\\frac{3}{10}$.\nGọi $M\\left(x ;-\\frac{3 x^2}{10}\\right)$ là điểm thuộc parabol với $x \\in[0 ; 10]$.\nTa có $I M=\\sqrt{(x-20)^2+\\left(\\frac{3}{10} x^2+20\\right)^2}$ Giá trị nhỏ nhất của $IM$là 27,7. Độ dài ngắn nhất của đoạn đường là $27,7-10=17,7.$",
    "short_value": 17.7,
@@ -629,6 +624,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B3.D09",
    "dang_toan_web": "Biểu thức tọa độ của vectơ và tọa độ của điểm. Biểu thức tọa độ của các phép toán vectơ."

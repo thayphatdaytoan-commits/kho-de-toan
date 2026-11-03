@@ -19,7 +19,7 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": "B",
+   "answer": "C",
    "flags": [
     "import_web: Câu 1: thiếu Đáp án cho mệnh đề (a)",
     "import_web: Câu 1: thiếu Đáp án cho mệnh đề (b)",
@@ -32,7 +32,7 @@
     "import_web: loại câu web hiểu là true_false_group"
    ],
    "question": "Trong các câu sau, có bao nhiêu câu là không phải là mệnh đề?\na) Huế là một thành phố của Việt Nam.\nb) Sông Hương chảy ngang qua thành phố Huế.\nc) Hãy trả lời câu hỏi này!\nd) $5+19=24.$\ne) $6+81=25.$\nf) Bạn có rỗi tối nay không?\ng) $x+2=11.$",
-   "explanation": "Các câu c), f) không phải là mệnh đề vì không phải là một câu khẳng định.",
+   "explanation": "Các câu c), f), g) không phải là mệnh đề: c) là câu cầu khiến, f) là câu hỏi, g) là mệnh đề chứa biến (chưa xác định được tính đúng sai khi chưa biết x). Các câu a), b), d), e) đều là mệnh đề (d), e) sai nhưng vẫn là mệnh đề). Vậy có 3 câu không phải là mệnh đề.",
    "options": [
     "1",
     "2",
@@ -47,6 +47,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L10.C1.B1.D01",
    "dang_toan_web": "Khái niệm mệnh đề toán học, mệnh đề chứa biến."
@@ -189,6 +190,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C2.B2.D01",
    "dang_toan_web": "Hệ bất phương trình bậc nhất hai ẩn và miền nghiệm."
@@ -200,10 +202,8 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "le_dau_dollar"
-   ],
-   "question": "x+y-2\\le 0 \\\\\n2x-3y+2>0 \\\\\n\\end{matrix} \\right.$",
+   "flags": [],
+   "question": "Trong các cặp số sau, cặp số nào không là nghiệm của hệ bất phương trình $\\left\\{ \\begin{matrix} x+y-2\\le 0 \\\\ 2x-3y+2>0 \\\\ \\end{matrix} \\right.$?",
    "explanation": "Ta dùng máy tính lần lượt kiểm tra các đáp án để xem đáp án nào không thỏa hệ bất phương trình trên với mọi x.",
    "options": [
     "$\\left( 0;0 \\right)$",
@@ -219,6 +219,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L10.C7.B2.D01",
    "dang_toan_web": "Phương trình đường tròn: Nhận dạng, lập phương trình đường tròn và phương trình tiếp tuyến của đường tròn."

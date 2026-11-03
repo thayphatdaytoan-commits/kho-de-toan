@@ -454,7 +454,7 @@
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
    "question": "Trong không gian với hệ tọa độ $\\mathrm{O} x y z$, cho ba điểm $A(1 ; 4 ; 5)$, $B(3 ; 4 ; 0), C(2 ;-1 ; 0)$ và mặt phẳng $(P): 3 x+3 y-2 z-29=0$. Gọi $M(a ; b ; c)$ là điểm thuộc $(P)$ sao cho biểu thức $T=M A^{2}+M B^{2}+3 M C^{2}$ đạt GTNN. Tính tổng $a+b+c$.",
-   "explanation": "Chọn điểm $I$ thỏa mãn $\\overrightarrow{IA}+\\overrightarrow{IB}+3\\overrightarrow{IC}=\\overrightarrow{0}\\Rightarrow I\\left( 2;1;1 \\right)$\nTa có:\n$\\begin{aligned} & T=M{{A}^{2}}+M{{B}^{2}}+3M{{C}^{2}} \\\\ & \\,\\,\\,\\,\\,={{\\overrightarrow{MA}}^{2}}+{{\\overrightarrow{MB}}^{2}}+3{{\\overrightarrow{MC}}^{2}} \\\\ & \\,\\,\\,\\,\\,={{\\left( \\overrightarrow{MI}+\\overrightarrow{IA} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{IB} \\right)}^{2}}+3{{\\left( \\overrightarrow{MI}+\\overrightarrow{IC} \\right)}^{2}} \\\\ & \\,\\,\\,\\,\\,=5M{{I}^{2}}+2\\overrightarrow{MI}.\\left( \\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC} \\right)+I{{A}^{2}}+I{{B}^{2}}+I{{C}^{2}} \\\\ & \\,\\,\\,\\,\\,=5M{{I}^{2}}+I{{A}^{2}}+I{{B}^{2}}+I{{C}^{2}} \\\\ \\end{aligned}$\n${{T}_{\\min }}\\Leftrightarrow M{{I}_{\\min }}$\nSuy ra, $M$ là hình chiếu của $I$ trên mặt phẳng $\\left( P \\right)$\nGọi $\\Delta $ là đường thẳng đi qua $I$ và vuông góc với $\\left( P \\right)$\n$\\Rightarrow \\overrightarrow{{{u}_{\\Delta }}}=\\overrightarrow{{{n}_{P}}}=\\left( 3;3;-2 \\right)$\n$\\Delta :\\left\\{ \\begin{aligned} & x=2+3t \\\\ & y=1+3t \\\\ & z=1-2t \\\\ \\end{aligned} \\right.$\n$M\\in \\Delta \\Rightarrow M\\left( 2+3t;1+3t;1-2t \\right)$\n$\\begin{aligned} & M\\in \\left( P \\right)\\Leftrightarrow 3\\left( 2+3t \\right)+3\\left( 1+3t \\right)-2\\left( 1-2t \\right)-29=0 \\\\ & \\Leftrightarrow t=1\\Rightarrow M\\left( 5;4;-1 \\right) \\\\ \\end{aligned}$\nVậy $a+b+c=5+4-1=8$.",
+   "explanation": "Chọn điểm $I$ thỏa mãn $\\overrightarrow{IA}+\\overrightarrow{IB}+3\\overrightarrow{IC}=\\overrightarrow{0}\\Rightarrow I\\left( 2;1;1 \\right)$\nTa có:\n$\\begin{aligned} & T=M{{A}^{2}}+M{{B}^{2}}+3M{{C}^{2}} \\\\ & \\,\\,\\,\\,\\,={{\\overrightarrow{MA}}^{2}}+{{\\overrightarrow{MB}}^{2}}+3{{\\overrightarrow{MC}}^{2}} \\\\ & \\,\\,\\,\\,\\,={{\\left( \\overrightarrow{MI}+\\overrightarrow{IA} \\right)}^{2}}+{{\\left( \\overrightarrow{MI}+\\overrightarrow{IB} \\right)}^{2}}+3{{\\left( \\overrightarrow{MI}+\\overrightarrow{IC} \\right)}^{2}} \\\\ & \\,\\,\\,\\,\\,=5M{{I}^{2}}+2\\overrightarrow{MI}.\\left( \\overrightarrow{IA}+\\overrightarrow{IB}+3\\overrightarrow{IC} \\right)+I{{A}^{2}}+I{{B}^{2}}+3I{{C}^{2}} \\\\ & \\,\\,\\,\\,\\,=5M{{I}^{2}}+I{{A}^{2}}+I{{B}^{2}}+3I{{C}^{2}} \\\\ \\end{aligned}$\n${{T}_{\\min }}\\Leftrightarrow M{{I}_{\\min }}$\nSuy ra, $M$ là hình chiếu của $I$ trên mặt phẳng $\\left( P \\right)$\nGọi $\\Delta $ là đường thẳng đi qua $I$ và vuông góc với $\\left( P \\right)$\n$\\Rightarrow \\overrightarrow{{{u}_{\\Delta }}}=\\overrightarrow{{{n}_{P}}}=\\left( 3;3;-2 \\right)$\n$\\Delta :\\left\\{ \\begin{aligned} & x=2+3t \\\\ & y=1+3t \\\\ & z=1-2t \\\\ \\end{aligned} \\right.$\n$M\\in \\Delta \\Rightarrow M\\left( 2+3t;1+3t;1-2t \\right)$\n$\\begin{aligned} & M\\in \\left( P \\right)\\Leftrightarrow 3\\left( 2+3t \\right)+3\\left( 1+3t \\right)-2\\left( 1-2t \\right)-29=0 \\\\ & \\Leftrightarrow t=1\\Rightarrow M\\left( 5;4;-1 \\right) \\\\ \\end{aligned}$\nVậy $a+b+c=5+4-1=8$.",
    "short_value": 8,
    "short_correct": "8",
    "ma": "de2.P3.C1",
@@ -465,6 +465,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D03",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -482,7 +483,7 @@
    "question": "Trong không gian $Oxyz$ cho các điểm $A\\left( 2;0;0 \\right),B\\left( 0;4;0 \\right),C\\left( 0;0;6 \\right),D\\left( 2;4;6 \\right)$. Gọi $\\left( P \\right)$là mặt phẳng song song với mặt phẳng $\\left( ABC \\right)$,$\\left( P \\right)$ cách đều $D$ và mặt phẳng $\\left( ABC \\right)$. Phương trình của mặt phẳng $\\left( P \\right)$ là $ax+by+2z+d=0$ với $a,b,d\\in \\mathbb{Z}$. Giá trị của $d$ bằng bao nhiêu?",
    "explanation": "Phương trình mặt phẳng $\\left( ABC \\right)$ là: $\\frac{x}{2}+\\frac{y}{4}+\\frac{z}{6}=1\\Leftrightarrow 6x+3y+2z-12=0$\nMặt phẳng $\\left( P \\right)$ song song với mặt phẳng $\\left( ABC \\right)$ nên $\\left( P \\right)$có dạng:$6x+3y+2z+d=0\\text{ }\\left( d\\ne -12 \\right)$\nVì $\\left( P \\right)$ cách đều $D$ và mặt phẳng $\\left( ABC \\right)$ nên ta có:$d\\left( D;\\left( P \\right) \\right)=d\\left( \\left( ABC \\right);\\left( P \\right) \\right)\\Leftrightarrow d\\left( D;\\left( P \\right) \\right)=d\\left( A;\\left( P \\right) \\right)$ $\\Leftrightarrow \\left| 36+d \\right|=\\left| 12+d \\right|\\Leftrightarrow d=-24$.\nVậy phương trình mặt phẳng $\\left( P \\right)$ là: $6x+3y+2z-24=0$.",
    "short_value": 0,
-   "short_correct": "0",
+   "short_correct": "-24",
    "ma": "de2.P3.C2",
    "dac_trung": {
     "so_dong_loi_giai": 4,
@@ -491,6 +492,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -502,9 +504,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hai điểm $A\\left( 3;-1;2 \\right)$, $B\\left( 2;3;-3 \\right)$, $C\\left( -2;1;-2 \\right)$ và mặt phẳng$\\left( Oyz \\right)$. Gọi $M(a ; b ; c)$ là điểm thuộc mặt phẳng $\\left( Oyz \\right)$ sao $\\overrightarrow{MA}.\\overrightarrow{MB}+\\overrightarrow{MB}.\\overrightarrow{MC}+\\overrightarrow{MC}.\\overrightarrow{MA}$ có giá trị min . Tính tổng $a-2b+c$.",
    "explanation": "Gọi $I\\left( a;b;c \\right)$, sao cho $\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}=\\overrightarrow{0}$ $\\Rightarrow I$ là trong tâm $\\Delta ABC$ $\\Rightarrow $ $I\\left( 1;1;-1 \\right)$.\nTa có: $\\overrightarrow{MA}.\\overrightarrow{MB}+\\overrightarrow{MB}.\\overrightarrow{MC}+\\overrightarrow{MC}.\\overrightarrow{MA}$\n$=\\left( \\overrightarrow{MI}+\\overrightarrow{IA} \\right).\\left( \\overrightarrow{MI}+\\overrightarrow{IB} \\right)+\\left( \\overrightarrow{MI}+\\overrightarrow{IB} \\right).\\left( \\overrightarrow{MI}+\\overrightarrow{IC} \\right)+\\left( \\overrightarrow{MI}+\\overrightarrow{IC} \\right).\\left( \\overrightarrow{MI}+\\overrightarrow{IA} \\right)$\n$=3M{{I}^{2}}+2\\overrightarrow{MI}\\left( \\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC} \\right)+\\left( \\overrightarrow{IA}.\\overrightarrow{IB}+\\overrightarrow{IB}.\\overrightarrow{IC}+\\overrightarrow{IC}.\\overrightarrow{IA} \\right)$, (mà $\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}=\\overrightarrow{0}$)\n$=3M{{I}^{2}}+\\left( \\overrightarrow{IA}.\\overrightarrow{IB}+\\overrightarrow{IB}.\\overrightarrow{IC}+\\overrightarrow{IC}.\\overrightarrow{IA} \\right)$\nVì điểm $I,A,B,C$ cố định nên $\\overrightarrow{IA}.\\overrightarrow{IB}+\\overrightarrow{IB}.\\overrightarrow{IC}+\\overrightarrow{IC}.\\overrightarrow{IA}$ có giá trị không đổi.\nĐể $\\overrightarrow{MA}.\\overrightarrow{MB}+\\overrightarrow{MB}.\\overrightarrow{MC}+\\overrightarrow{MC}.\\overrightarrow{MA}$ có giá trị min $\\Leftrightarrow MI$ min.\nMà $I$ cố định nên $M$ là hình chiếu của $I$ lên$\\left( Oyz \\right)$, suy ra $M\\left( 0;1;-1 \\right)$.\nVậy $a-2b+c=0-2.1-1=-3$.",
    "short_value": -3,
@@ -517,6 +517,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B1.D03",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -528,9 +529,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Biết góc quan sát ngang của một camera là $116{}^\\circ $. Trong không gian $Oxyz$, camera được đặt tại điểm $A\\left( 2;1;5 \\right)$ và chiếu thẳng về phía mặt phẳng $\\left( P \\right):2x-y-2z+13=0$. Hỏi vùng quan sát được trên mặt phẳng $\\left( P \\right)$ của camera là hình tròn có đường kính bằng bao nhiêu? (làm tròn kết quả đến chữ số hàng chục)\n[[IMG:image19.png]]",
    "explanation": "Gọi $A,B,C$ là các điểm như hình vẽ bên dưới và $H$ là hình chiếu vuông góc của $A$ lên mặt phẳng $\\left( P \\right)$.\nHình vẽ\n[[IMG:image20.png]]\nTheo đề $\\widehat{BAC}=116{}^\\circ \\Rightarrow \\widehat{BAH}=58{}^\\circ $.\nKhi đó $AH=\\text{d}\\left( A,\\left( P \\right) \\right)=\\frac{\\left| 2\\cdot 2-1-2\\cdot 5+13 \\right|}{\\sqrt{4+1+4}}=2$ (đvđd).\nXét tam giác $ABH$ vuông tại $H$, ta có:\n$\\tan \\widehat{BAH}=\\frac{BH}{AH}\\Rightarrow BH=\\tan 58{}^\\circ \\cdot 2=2\\tan 58{}^\\circ $ (đvđd).\nSuy ra $BC=2BH=2\\cdot 2\\tan 58{}^\\circ \\approx 6,4$(đvđd)\nVậy vùng quan sát của camera trên mặt phẳng $\\left( P \\right)$ là hình tròn có đường kính khoảng $6,4$ (đvđd).",
    "short_value": 6.4,
@@ -543,6 +542,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -554,9 +554,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một phần sân trường được định vị bởi các điểm $A,B,C,D$, như hình vẽ.\n[[IMG:image21.png]]\nBước đầu chúng được lấy “thăng bằng” để có cùng độ cao, biết $ABCD$ là hình thang vuông ở $A$ và $B$ với độ dài $AB=25\\,\\text{m}$, $AD=15\\,\\text{m}$, $BC=18\\,\\text{m}$. Do yêu cầu kĩ thuật, khi lát phẳng phàn sân trường phải thoát nước về góc sân ở $C$ nên người ta lấy độ cao ở các điểm $B$, $C$, $D$ xuống thấp hơn so với độ cao ở $A$ là $10\\,\\text{cm}$, $a\\,\\text{cm}$, $6\\,\\text{cm}$ tương ứng. Giá trị của $a$ là",
    "explanation": "[[IMG:image22.emf]]\nChọn hệ trục tọa độ $Oxyz$ sao cho: $O\\equiv A$, tia $Ox\\equiv AD$; tia $Oy\\equiv AB$.\nKhi đó, $A\\left( 0;\\,0;\\,0 \\right)$; $B\\left( 0;\\,2500;\\,0 \\right)$; $C\\left( 1800;\\,2500;\\,0 \\right)$;$D\\left( 1500;\\,0;\\,0 \\right)$.\nKhi hạ độ cao các điểm ở các điểm $B$, $C$, $D$ xuống thấp hơn so với độ cao ở $A$ là $10\\,\\text{cm}$, $a\\,\\text{cm}$, $6\\,\\text{cm}$ tương ứng ta có các điểm mới ${B}'\\left( 0\\,;\\,2500\\,;\\,-10 \\right)$; ${C}'\\left( 1800\\,;\\,2500\\,;\\,-a \\right)$;${D}'\\left( 1500\\,;\\,0\\,;\\,-6 \\right)$.\nTheo bài ra có bốn điểm $A$; ${B}'$; ${C}'$; ${D}'$ đồng phẳng.\nPhương trình mặt phẳng $\\left( A{B}'{D}' \\right):x+y+250z=0$.\nDo ${C}'\\left( 1800\\,;\\,\\,2500\\,;\\,-a \\right)\\in \\left( A{B}'{D}' \\right)$ nên có: $1800+2500-250a=0\\Leftrightarrow a=17,2$.\nVậy $a=17,2\\,\\text{cm}$.",
    "short_value": 17.2,
@@ -569,6 +567,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."
@@ -583,8 +582,8 @@
    "flags": [
     "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
    ],
-   "question": "Trong tiết thể dục học về kĩ thuật chuyền bóng hơi, Nam và An đang tập chuyền bóng cho nhau, Nam ném bóng cho An đỡ, quả bóng bay lên cao nhưng lại lệch sang phải của Nam và rơi xuống vị trí cách An $0,5m$ và cách Nam $4,5m$ được mô tả bằng hình vẽ bên dưới\n[[IMG:image23.png]]\nBiết rằng quỹ đạo của quả bóng nằm trong mặt phẳng $\\left( \\alpha \\right):ax+\\frac{1}{2}y+cx+d=0$ và vuông góc với mặt đất. Khi đó giá trị của $a+c+d$ bằng (kết quả làm tròn đến hàng phần chục).\n[[IMG:image23.png]]",
-   "explanation": "[[IMG:image23.png]]\nChọn hệ trục như hình vẽ. Gọi $M$ là điểm mà quả bóng chạm đất.\nKhi đó ${{x}_{M}}=0,5$, ${{y}_{M}}=\\sqrt{4,{{5}^{2}}-0,{{5}^{2}}}=2\\sqrt{5}$\nVì $\\left( \\alpha \\right)\\bot \\left( Oxy \\right)$ nên $\\left( \\alpha \\right)$ có véc tơ chỉ phương $\\overrightarrow{k}=\\left( 0;0;1 \\right)$.\nMà $\\left( \\alpha \\right)$ có véc tơ chỉ phương $\\overrightarrow{OM}=\\left( 0,5;2\\sqrt{5};0 \\right)$\nKhi đó véc tơ pháp tuyến của $\\left( \\alpha \\right)$ là $\\overrightarrow{{{n}_{\\alpha }}}=\\left[ \\overrightarrow{k},\\overrightarrow{OM} \\right]=\\left( -2\\sqrt{5};0,5;0 \\right)$.\nVậy $\\left( \\alpha \\right):-2\\sqrt{5}x+0,5y=0$ nên $a=-2\\sqrt{5};b=0,5;c=0;d=0\\Rightarrow a+b+c+d\\approx -4,5$.",
+   "question": "Trong tiết thể dục học về kĩ thuật chuyền bóng hơi, Nam và An đang tập chuyền bóng cho nhau, Nam ném bóng cho An đỡ, quả bóng bay lên cao nhưng lại lệch sang phải của Nam và rơi xuống vị trí cách An $0,5m$ và cách Nam $4,5m$ được mô tả bằng hình vẽ bên dưới\n[[IMG:image23.png]]\nBiết rằng quỹ đạo của quả bóng nằm trong mặt phẳng $\\left( \\alpha \\right):ax+\\frac{1}{2}y+cz+d=0$ và vuông góc với mặt đất. Khi đó giá trị của $a+c+d$ bằng (kết quả làm tròn đến hàng phần chục).\n[[IMG:image23.png]]",
+   "explanation": "[[IMG:image23.png]]\nChọn hệ trục như hình vẽ. Gọi $M$ là điểm mà quả bóng chạm đất.\nKhi đó ${{x}_{M}}=0,5$, ${{y}_{M}}=\\sqrt{4,{{5}^{2}}-0,{{5}^{2}}}=2\\sqrt{5}$\nVì $\\left( \\alpha \\right)\\bot \\left( Oxy \\right)$ nên $\\left( \\alpha \\right)$ có véc tơ chỉ phương $\\overrightarrow{k}=\\left( 0;0;1 \\right)$.\nMà $\\left( \\alpha \\right)$ có véc tơ chỉ phương $\\overrightarrow{OM}=\\left( 0,5;2\\sqrt{5};0 \\right)$\nKhi đó véc tơ pháp tuyến của $\\left( \\alpha \\right)$ là $\\overrightarrow{{{n}_{\\alpha }}}=\\left[ \\overrightarrow{k},\\overrightarrow{OM} \\right]=\\left( -2\\sqrt{5};0,5;0 \\right)$.\nVậy $\\left( \\alpha \\right):-2\\sqrt{5}x+0,5y=0$ nên $a=-2\\sqrt{5};b=0,5;c=0;d=0\\Rightarrow a+c+d\\approx -4,5$.",
    "short_value": -4.5,
    "short_correct": "-4,5",
    "ma": "de2.P3.C6",
@@ -595,6 +594,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C5.B5.D04",
    "dang_toan_web": "Phương trình mặt phẳng: Vectơ pháp tuyến, cách lập phương trình tổng quát, khoảng cách từ một điểm đến mặt phẳng."

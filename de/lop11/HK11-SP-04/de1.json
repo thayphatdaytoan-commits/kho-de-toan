@@ -217,8 +217,8 @@
    "tf_ans": {},
    "answer": "A",
    "flags": [],
-   "question": "Giá trị $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-3x+2}{{{x}^{2}}-1}$ bằng",
-   "explanation": "Chọn A\nTa có: $\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{{{x}^{2}}-3x+2}{{{x}^{2}}-1}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{\\left( x-1 \\right).\\left( x-2 \\right)}{\\left( x-1 \\right).\\left( x+1 \\right)}=\\underset{x\\to 1}{\\mathop{\\lim }}\\,\\frac{x-2}{x+1}=-\\frac{1}{2}$",
+   "question": "Giá trị $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-3x+2}{{{x}^{2}}-1}$ bằng",
+   "explanation": "Chọn A\nTa có: $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-3x+2}{{{x}^{2}}-1}=\\underset{x\\to 1}{\\lim}\\,\\frac{\\left( x-1 \\right).\\left( x-2 \\right)}{\\left( x-1 \\right).\\left( x+1 \\right)}=\\underset{x\\to 1}{\\lim}\\,\\frac{x-2}{x+1}=-\\frac{1}{2}$",
    "options": [
     "$-\\frac{1}{2}$",
     "$\\frac{1}{5}$",
@@ -398,9 +398,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Huyết áp của một người được cho thông qua hàm số $p\\left( t \\right)=110+30.\\sin \\left( 156\\pi t \\right)$, trong đó $p(t)$ là huyết áp tính bằng mmHg tại thời điểm $t\\ge 0$ tính bằng phút. Các mệnh đề sau đúng hay sai?",
    "explanation": "a) Ta có: chu kỳ: $T=\\frac{2\\pi }{\\left| 156\\pi \\right|}=\\frac{1}{78}$. Suy ra mệnh đề sai.\nb) Ta có: Tại $t=2\\Rightarrow p\\left( 2 \\right)=110+30.\\sin \\left( 156\\pi .2 \\right)=110$ mmHg. Suy ra mệnh đề đúng.\nc) Ta có: $f=\\frac{1}{T}=78$ (lần/phút). Suy ra mệnh đề đúng.\nd) Ta có: $-1\\le \\sin \\left( 156\\pi t \\right)\\le 1\\Leftrightarrow 80\\le 110+30.\\sin \\left( 156\\pi t \\right)\\le 140$. Suy ra mệnh đề sai.",
    "ma": "de1.P2.C2",
@@ -411,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C6.B3.D05",
    "dang_toan_web": "Hàm số mũ và hàm số lôgarit: Tập xác định, tính biến thiên và đồ thị."
@@ -425,11 +424,14 @@
     "c": "[TH] Tứ phân vị thứ nhất của mẫu số liệu ghép nhóm của học sinh trường A là: $6,1$",
     "d": "[VD] Điểm của $25\\%$ học sinh trường B có điểm số tốt nhất đạt từ $8,8$"
    },
-   "tf_ans": {},
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
    "answer": null,
-   "flags": [
-    "dung_sai_thieu_dap_an:"
-   ],
+   "flags": [],
    "question": "Biểu đồ sau mô tả kết quả điều tra về điểm trung bình năm học của học sinh hai trường ${A}$ và ${B}$.\n[[IMG:image2.png]]\nNgười ta lập được bảng tần số ghép nhóm cho mẫu số liệu trên như sau:\n| Điểm trung bình | ${[5 ; 6)}$ | ${[6 ; 7)}$ | ${[7 ; 8)}$ | ${[8 ; 9)}$ | ${[9 ; 10)}$ |\n|---|---|---|---|---|---|\n| Giá trị đại diện | 5,5 | 6,5 | 7,5 | 8,5 | 9,5 |\n| Học sinh trường A | 4 | 5 | 3 | 4 | 2 |\n| Học sinh trường B | 2 | 5 | 4 | 3 | 1 |\nCác mệnh đề sau đúng hay sai?",
    "explanation": "Số trung bình: $\\overline{{{x}_{A}}}=\\frac{4.5,5+5.6,5+3.7,5+4.8,5+2.9,5}{18}\\approx 7,2$\nSuy ra mệnh đề SAI\nMốt của học sinh trường B thuộc nhóm $\\left[ 6;7 \\right)$\nSuy ra mệnh đề ĐÚNG\nCỡ mẫu: ${n_A=18}$\nGọi ${x_1 ; x_2 ; \\ldots ; x_{18}}$ là mẫu số liệu gốc về điểm trung bình năm học của học sinh trường ${{A}}$ được xếp theo thứ tự không giảm.\nТa có: ${{x}_{1}};\\ldots ;{{x}_{4}}\\in [5;6);{{x}_{5}};\\ldots ;{{x}_{9}}\\in [6;7);{{x}_{10}};\\ldots ;{{x}_{12}}\\in [7;8);{{x}_{13}};\\ldots ;{{x}_{16}}\\in [8;9);{{x}_{17}};{{x}_{18}}\\in [9;10)$\nTứ phân vị thứ nhất của mẫu số liệu gốc là ${x_5 \\in[6 ; 7)}$. Do đó, tứ phân vị thứ nhất của mẫu số liệu ghép nhóm là: ${Q_1=6+\\frac{\\frac{18}{4}-4}{5}(7-6)=6,1}$\nSuy ra mệnh đề ĐÚNG\nCỡ mẫu: ${n_B=15}$\nGọi ${y_1 ; y_2 ; \\ldots ; y_{15}}$ là mẫu số liệu gốc về điểm trung bình năm học của học sinh trường ${B}$ được xếp theo thứ tự không giảm.\nTa có: ${y_1 ; y_2 \\in[5 ; 6) ; y_3 ; \\ldots ; y_7 \\in[6 ; 7) ; y_8 ; \\ldots ; y_{11} \\in[7 ; 8) ; y_{12} ; \\ldots ; y_{14} \\in[8 ; 9) ; y_{15} \\in[9 ; 10)}$\nTứ phân vị thứ ba của mẫu số liệu gốc là ${y_{12} \\in[8 ; 9)}$. Do đó, tứ phân vị thứ ba của mẫu số liệu ghép nhóm là: ${Q_3{ }^{\\prime}=8+\\frac{\\frac{3.15}{4}-(2+5+4)}{3}(9-8)=8,08}$.\nĐiểm của 25% học sinh lớp B có điểm số tốt nhất là 25% giá trị nằm bên phải Q3\nVậy điểm tốt nhất lớn nhất hoặc bằng $8,08$ điểm\nSuy ra mệnh đề SAI.",
    "ma": "de1.P2.C3",
@@ -440,6 +442,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C3.B1.D02",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu ghép nhóm: Số trung bình, trung vị, tứ phân vị và mốt."
@@ -449,22 +452,19 @@
    "n": 4,
    "type": "true_false_group",
    "tf": {
+    "a": "NB. Lượng thuốc trong máu mỗi ngày cuả bệnh nhân lập thành cấp số nhân với số hạng đầu là 50 và công bội $q=0.5$.",
+    "b": "TH. Lượng thuốc trong máu ngày thứ 3 cuả bệnh nhân là $12,25\\left( mg \\right)$",
+    "c": "TH. Lượng thuốc trong máu của bệnh nhân được ghi lại là $1,5625$. Bệnh nhân đó đang dùng thuốc vào ngày thứ 6.",
     "d": "VD. Tổng lượng thuốc (tính bằng mg) trong máu của bệnh nhân sau khi dùng thuốc 10 ngày liên tiếp là $99.902\\left( \\text{mg} \\right)$."
    },
    "tf_ans": {
     "a": true,
     "b": false,
-    "c": false,
+    "c": true,
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:d",
-    "import_web: Câu 16: mệnh đề (a) trống",
-    "import_web: Câu 16: mệnh đề (b) trống",
-    "import_web: Câu 16: mệnh đề (c) trống"
-   ],
+   "flags": [],
    "question": "Một loại thuốc được dùng mỗi ngày một lần. Lúc đầu nồng độ thuốc trong máu của bệnh nhân tăng nhanh, nhưng mỗi liều kế tiếp có tác dụng ít hơn liều trước đó. Lượng thuốc trong máu ở ngày thứ nhất là $50\\text{mg}$, và mỗi ngày sau đó giảm chỉ còn một nửa so với ngày kề trước đó. Các khẳng định sau đúng hay sai?\nNB. Lượng thuốc trong máu mỗi ngày cuả bệnh nhân lập thành cấp số nhân với số hạng đầu là 50 và công bội $q=0.5$.\nTH. Lượng thuốc trong máu ngày thứ 3 cuả bệnh nhân là $12,25\\left( mg \\right)$\nTH. Lượng thuốc trong máu của bệnh nhân được ghi lại là $1,5625$. Bệnh nhân đó đang dùng thuốc vào ngày thứ 6.",
    "explanation": "a) đúng b) sai c) sai d) đúng\nLượng thuốc trong máu mỗi ngày cuả bệnh nhân lập thành cấp số nhân với số hạng đầu là 50 và công bội $q=0.5$.\nLượng thuốc trong máu ngày thứ 3 cuả bệnh nhân là: ${{u}_{3}}=50.{{\\left( 0.5 \\right)}^{2}}=12,5\\left( mg \\right)$.\nLượng thuốc trong máu ngày thứ n của bệnh nhân: ${{u}_{n}}=1,5625\\left( mg \\right)\\Leftrightarrow 50.{{\\left( 0.5 \\right)}^{n}}=1,5625\\Leftrightarrow {{2.5}^{2}}.{{\\left( \\frac{1}{2} \\right)}^{n}}=\\frac{25}{16}$\n$\\Leftrightarrow {{\\left( 2 \\right)}^{1-n}}={{2}^{-4}}\\Leftrightarrow 1-n=-4\\Leftrightarrow n=5$.\nLượng thuốc trong máu mỗi ngày cảu bệnh nhân lập thành cấp số nhân với số hạng đầu là 50 và công bội $q=0.5$\nTổng lượng thuốc trong máu 10 ngày liên tiếp chính là tổng 10 số hạng đầu cảu cấp số nhân này và bằng: ${{S}_{n}}=\\frac{50\\left[ 1-{{(0.5)}^{10}} \\right]}{1-0.5}=99.902\\left( \\text{mg} \\right)$.",
    "ma": "de1.P2.C4",
@@ -475,6 +475,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C2.B3.D05",
    "dang_toan_web": "Cấp số nhân: Định nghĩa, số hạng tổng quát, tính chất, tổng $n$ số hạng đầu."
@@ -523,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L11.C1.B2.D01",
    "dang_toan_web": "Các công thức biến đổi lượng giác (công thức cộng, công thức nhân đôi, công thức biến đổi tích thành tổng, tổng thành tích)."
@@ -582,9 +584,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một khối gỗ có các mặt đều là một phần của mặt phẳng với $\\left( ABCD \\right)\\text{//}\\left( EFMH \\right),CK\\text{//}DH$. Khối gỗ bị hỏng một góc ( hình dưới).\n[[IMG:image5.png]]\nBác thợ mộc muốn làm đẹp khối gỗ bằng cách cắt khối gỗ theo mặt phẳng $\\left( R \\right)$ đi qua $K$ và song song với mặt phẳng $\\left( ABCD \\right)$. Gọi $I,J,L$ lần lượt là giao điểm của $AE,BF,DH$ với mặt phẳng $\\left( R \\right)$. Biết $DH=150$cm, $CK=60$cm. Tính tỉ số $\\frac{FJ}{FB}$.",
    "explanation": "Gọi $G$ là giao điểm của đường thẳng $CK$ và mặt phẳng $\\left( EFMH \\right)$; $L$ là giao điểm của mặt phẳng $\\left( R \\right)$ với cạnh $DH$.\n[[IMG:image11.png]]\nTa có cát tuyến $BF$ cắt ba mặt phẳng song song $\\left( EFGH \\right)$, $\\left( IJKL \\right)$, $\\left( ABCD \\right)$ lần lượt tại $F,J,B$; cát tuyến $GC$ cũng cắt ba mặt phẳng trên theo thứ tự tại $G,K,C$.\nDễ thấy tứ giác $KLDC$ là hình chữ nhật, suy ra $DL=CK=60$cm\n$\\Rightarrow HL=DH-DL=90$cm\nÁp dụng định lí Ta-lét trong không gian, ta có: $\\frac{FJ}{BF}=\\frac{HL}{HD}=\\frac{90}{150}=\\frac{3}{5}$.\nSuy ra: $\\frac{FJ}{FB}=\\frac{3}{5}=0,6.$",
    "short_value": 0.6,
@@ -597,6 +597,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C4.B3.D01",
    "dang_toan_web": "Đường thẳng song song với mặt phẳng."
@@ -608,9 +609,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Thống kê tuổi thọ (năm) của các bình ắc quy xe máy điện của học sinh được cho như sau:\n| Tuồi thọ (năm) | $\\left[ 2;2,5 \\right)$ | $\\left[ 2,5;3 \\right)$ | $\\left[ 3;3,5 \\right)$ | $\\left[ 3,5;4 \\right)$ | $\\left[ 4;4,5 \\right)$ | $\\left[ 4,5;5 \\right)$ |\n|---|---|---|---|---|---|---|\n| Tần số | $4$ | $9$ | $12$ | $10$ | $9$ | $6$ |\nTính khoảng tứ phân vị của mẫu số liệu trên? (kết quả làm tròn đến hàng phần trăm).",
    "explanation": "Cỡ mẫu là $n\\text{ }=4+9+12+10+9+6=50$.\nTứ phân vị thứ hai ${{Q}_{2}}$ là giá trị của $\\frac{{{x}_{25}}+{{x}_{26}}}{2}$\nTứ phân vị thứ nhất ${{Q}_{1}}$ là giá trị của ${{x}_{13}}$\nTứ phân vị thứ ba ${{Q}_{3}}$ là giá trị của ${{x}_{38}}$\nDo ${{x}_{13}}$ thuộc nhóm $\\left[ 2,5;3 \\right)$ nên nhóm này chứa ${{Q}_{1}}$.\nDo đó, $p=2;{{a}_{2}}=2,5;{{m}_{2}}=9;{{m}_{1}}=4;{{a}_{3}}-{{a}_{2}}=0,5$ và ta cỏ\n${{Q}_{1}}={{a}_{P}}+\\frac{\\frac{n}{4}-\\left( {{m}_{1}}+...+{{m}_{p-1}} \\right)}{{{m}_{p}}}.\\left( {{a}_{p+1}}-{{a}_{p}} \\right)={{a}_{2}}+\\frac{\\frac{50}{4}-{{m}_{1}}}{{{m}_{2}}}.\\left( {{a}_{3}}-{{a}_{2}} \\right)=2,5+\\frac{12,5-4}{9}.0,5=2,97$\nDo ${{x}_{38}}$ thuộc nhóm $\\left[ 4;4,5 \\right)$ nên nhóm này chứa ${{Q}_{3}}$.\nDo đó, $p=5;{{a}_{5}}=4;{{m}_{5}}=9;{{m}_{1}}+{{m}_{2}}+{{m}_{3}}+{{m}_{4}}=4+9+12+10=35;{{a}_{6}}-{{a}_{5}}=0,5$ và ta cỏ\n${{Q}_{3}}={{a}_{p}}+\\frac{\\frac{3n}{4}-\\left( {{m}_{1}}+...+{{m}_{p-1}} \\right)}{{{m}_{p}}}.\\left( {{a}_{p+1}}-{{a}_{p}} \\right)={{a}_{5}}+\\frac{\\frac{150}{4}-\\left( {{m}_{1}}+...+{{m}_{4}} \\right)}{{{m}_{5}}}.\\left( {{a}_{6}}-{{a}_{5}} \\right)$\n$=4+\\frac{37,5-35}{9}.0,5=4,14$.\nTa có tứ phân vị thứ nhất ${{Q}_{1}}=2,97$ và tứ phân vị thứ ba ${{Q}_{3}}=4,14$.\nVậy khoảng tứ phân vị của mẫu số liệu trên là ${{\\Delta }_{Q}}=1,17.$\n-------------- Hết --------------",
    "short_value": 1.17,
@@ -623,6 +622,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C8.B1.D01",
    "dang_toan_web": "Biến cố hợp, biến cố giao, biến cố xung khắc, biến cố độc lập."

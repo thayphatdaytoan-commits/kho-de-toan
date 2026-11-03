@@ -345,6 +345,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "grokbot",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D06",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -484,9 +485,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Bảng dưới đây thống kê cự li ném tạ của một vận động viên.\n| Cự li (m) | [19; 19,5) | [19,5; 20) | [20; 20,5) | [20,5; 21) | [21; 21,5) |\n|---|---|---|---|---|---|\n| Tần số | 13 | 45 | 24 | 12 | 6 |\nPhương sai của mẫu số liệu ghép nhóm trên là một số thập phân xấp xỉ có dạng $\\overline{a,b77}$. Tính $a+b$.",
    "explanation": "Ta có bảng sau:\n| Cự li (m) | [19; 19,5) | [19,5; 20) | [20; 20,5) | [20,5; 21) | [21; 21,5) |\n|---|---|---|---|---|---|\n| Giá trịđại diện | 19,25 | 19,75 | 20,25 | 20,75 | 21,25 |\n| Tần số | 13 | 45 | 24 | 12 | 6 |\nCỡ mẫu là $n=13+45+24+12+6=100.$\nSố trung bình của mẫu số liệu ghép nhóm là:\n$\\overline{x}=\\frac{13.19,25+45.19,75+24.20,25+12.20,75+6.21,25}{100}=20,015$\nPhương sai của mẫu số liệu ghép nhóm là:\n$\\begin{aligned} & {{S}^{2}}=\\frac{1}{100}\\left[ 13.{{\\left( 19,25-20,015 \\right)}^{2}}+45.{{\\left( 19,75-20,015 \\right)}^{2}}+24.{{\\left( 20,25-20,015 \\right)}^{2}}+12.{{\\left( 20,75-20,015 \\right)}^{2}}+6.{{\\left( 21,25-20,015 \\right)}^{2}} \\right] \\\\ & \\approx 0,277. \\\\ \\end{aligned}$\nSuy ra $a=0;b=2\\Rightarrow a+b=2.$",
    "short_value": 2,
@@ -499,6 +498,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D02",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -525,6 +525,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C3.B2.D03",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -539,7 +540,7 @@
    "flags": [],
    "question": "Sau khi điều tra về cân nặng của 40 học sinh trong lớp 12A ở một trường THPT X thu được kết quả trong mẫu ghép nhóm sau:\n| Nhóm | Tần số |\n|---|---|\n| $\\left[ 30;40 \\right)$ | $2$ |\n| $\\left[ 40;50 \\right)$ | $10$ |\n| $\\left[ 50;60 \\right)$ | $16$ |\n| $\\left[ 60;70 \\right)$ | $8$ |\n| $\\left[ 70;80 \\right)$ | $2$ |\n| $\\left[ 80;90 \\right)$ | $2$ |\n|  | $n=40$ |\nTính độ lệch chuẩn của mẫu số liệu ghép nhóm trên ( làm tròn kết quả đến hàng phần chục).",
    "explanation": "| Nhóm | Giá trị đại diện | Tần số |\n|---|---|---|\n| $\\left[ 30;40 \\right)$ | $35$ | $2$ |\n| $\\left[ 40;50 \\right)$ | $45$ | $10$ |\n| $\\left[ 50;60 \\right)$ | $55$ | $16$ |\n| $\\left[ 60;70 \\right)$ | $65$ | $8$ |\n| $\\left[ 70;80 \\right)$ | $75$ | $2$ |\n| $\\left[ 80;90 \\right)$ | $85$ | $2$ |\n|  |  | $n=40$ |\nSố trung bình cộng của mẫu số liệu ghép nhóm là:\n$\\overline{x}\\,=\\frac{35.2+45.10+55.16+65.8+75.2+85.2}{40}=56$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là:\n$\\begin{aligned} & s\\,=\\sqrt{\\frac{1}{40}\\left[ 2.{{\\left( 35-56 \\right)}^{2}}+10.{{\\left( 45-56 \\right)}^{2}}+16.{{\\left( 55-56 \\right)}^{2}}+8.{{\\left( 65-56 \\right)}^{2}}+2.{{\\left( 75-56 \\right)}^{2}}+2.{{\\left( 85-56 \\right)}^{2}} \\right]} \\\\ & =11,4 \\\\ \\end{aligned}$",
-   "short_value": 56,
+   "short_value": 11.4,
    "short_correct": "11,4",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -564,7 +565,7 @@
    "flags": [],
    "question": "Sau khi điều tra về số học sinh trong 100 lớp học, người ta chia mẫu số liệu đó thành 5 nhóm như sau:\n| Nhóm | Tần số |\n|---|---|\n| $\\left[ 36;38 \\right)$ | $9$ |\n| $\\left[ 38;40 \\right)$ | $15$ |\n| $\\left[ 40;42 \\right)$ | $25$ |\n| $\\left[ 42;44 \\right)$ | $30$ |\n| $\\left[ 44;46 \\right)$ | $21$ |\n|  | $n=100$ |\nTính độ lệch chuẩn của mẫu số liệu ghép nhóm trên ( làm tròn kết quả đến hàng phần trăm).",
    "explanation": "| Nhóm | Giá trị đại diện | Tần số |\n|---|---|---|\n| $\\left[ 36;38 \\right)$ | $37$ | $9$ |\n| $\\left[ 38;40 \\right)$ | $39$ | $15$ |\n| $\\left[ 40;42 \\right)$ | $41$ | $25$ |\n| $\\left[ 42;44 \\right)$ | $43$ | $30$ |\n| $\\left[ 44;46 \\right)$ | $45$ | $21$ |\n|  |  | $n=100$ |\nSố trung bình cộng của mẫu số liệu ghép nhóm là:\n$\\overline{x}\\,=\\frac{37.9+39.15+41.25+43.30+45.21}{100}=41,78$\nĐộ lệch chuẩn của mẫu số liệu ghép nhóm là:\n$\\begin{aligned} & s\\,=\\sqrt{\\frac{1}{100}\\left[ 9.{{\\left( 37-41,78 \\right)}^{2}}+15.{{\\left( 39-41,78 \\right)}^{2}}+25.{{\\left( 41-41,78 \\right)}^{2}}+30.{{\\left( 43-41,78 \\right)}^{2}}+21.{{\\left( 45-41,78 \\right)}^{2}} \\right]} \\\\ & =2,45 \\\\ \\end{aligned}$",
-   "short_value": 41.78,
+   "short_value": 2.45,
    "short_correct": "2,45",
    "ma": "de3.P3.C4",
    "dac_trung": {

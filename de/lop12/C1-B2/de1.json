@@ -391,6 +391,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D04",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -412,9 +413,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f(x)=\\frac{{{x}^{2}}+mx+1}{x+m}$.",
    "explanation": "| a. S | b. Đ | c. Đ | d. Đ |\n|---|---|---|---|\na) Khi $m=0$ thì giá trị nhỏ nhất của hàm số trên khoảng $\\left( 0;+\\infty \\right)$ bằng $2$.\nThay $m=0$vào $y=\\frac{{{x}^{2}}+mx+1}{x+m}$, ta có $y=\\frac{{{x}^{2}}+1}{x}\\Rightarrow y'=\\frac{{{x}^{2}}-1}{{{x}^{2}}}=0\\Leftrightarrow {{x}^{2}}-1=0$ $\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=-1\\notin \\left( 0;+\\infty \\right) \\\\ \\end{aligned} \\right.$.\n[[IMG:image21.png]]\nb) Ta có $y=\\frac{{{x}^{2}}+mx+1}{x+m}\\Rightarrow y'=\\frac{{{x}^{2}}+2mx+{{m}^{2}}-1}{{{(x+m)}^{2}}}$.\n$+y'=0$ $\\Leftrightarrow {{x}^{2}}+2mx+{{m}^{2}}-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-m-1;\\,(\\,x\\ne -m) \\\\ & x=-m+1;\\,(\\,x\\ne -m) \\\\ \\end{aligned} \\right.$.\n$\\Rightarrow y'=0$ luôn có 2 nghiệm phân biệt thỏa mãn $x\\ne -m,\\,\\,\\forall m$. Vậy hàm số luôn có 2 cực trị.\nc) $+y'=0$ $\\Leftrightarrow {{x}^{2}}+2mx+{{m}^{2}}-1=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-m-1 \\\\ & x=-m+1 \\\\ \\end{aligned} \\right.$.\nTa có bảng biến thiên:\n[[IMG:image22.png]]\nTừ bảng biến thiên ta có: $\\underset{\\left( -\\infty ;-m \\right)}{\\mathop{max}}\\,y=-2-m\\,\\,;\\,\\,\\,\\,\\,\\underset{\\left( -m;+\\infty \\right)}{\\min}\\,y=2-m\\Rightarrow \\underset{\\left( -m;+\\infty \\right)}{\\min}\\,y-\\underset{\\left( -\\infty ;-m \\right)}{\\mathop{\\operatorname{m}ax}}\\,y=4$.\nd) Khi $m=-3$thay vào $y=\\frac{{{x}^{2}}+mx+1}{x+m}$, ta có $y=\\frac{{{x}^{2}}-3x+1}{x-3}$.\n+ Hàm số $y=\\frac{{{x}^{2}}-3x+1}{x-3}$ là hàm phân thức hữu tỉ, liên tục trên các khoảng $\\left( -\\infty ;3 \\right)$ và $\\left( 3;+\\infty \\right)$.\nMặt khác $\\left[ -1;2 \\right]\\subset \\left( -\\infty ;3 \\right)\\Rightarrow $hàm số liên tục trên đoạn $\\left[ -1;2 \\right]$.\n+ Ta có $y'=\\frac{{{x}^{2}}-6x+8}{{{(x-3)}^{2}}}>0\\,\\,\\forall x\\in \\left( -1;2 \\right)$ và $y(2)=1$.\nVì hàm số tăng trên $\\left( -1;2 \\right)$ nên hàm số đạt giá trị lớn nhất $\\underset{\\left[ -1;2 \\right]}{\\mathop{max}}\\,y=y(2)=1$.",
    "ma": "de1.P2.C2",
@@ -425,6 +424,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
