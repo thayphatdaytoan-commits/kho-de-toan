@@ -23,6 +23,10 @@ import sys
 import time
 from pathlib import Path
 
+try:  # Windows: bảng mã console mặc định không in được tiếng Việt
+    sys.stdout.reconfigure(encoding="utf-8")
+except (AttributeError, OSError):
+    pass
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "kho_de_data"
 TOAN_BO = "--tat-ca" in sys.argv
@@ -156,8 +160,16 @@ def main():
     global dat
     t0 = time.time()
     cache_dang = {}
+    doi_file = None
+    if not TOAN_BO:  # chỉ các file khác origin/main (kể cả chưa commit / file mới) → nhanh
+        a1 = git("diff", "--name-only", "origin/main", "--", "kho_de_data")
+        a2 = git("ls-files", "--others", "--exclude-standard", "--", "kho_de_data")
+        if a1 is not None:
+            doi_file = {x.strip() for x in (a1 + "\n" + (a2 or "")).splitlines() if x.strip()}
     for p in sorted(DATA.glob("lop*/*/*.json")):
         if p.name not in ("sua.json", "phan_loai.json", "eq_ocr.json"):
+            continue
+        if doi_file is not None and p.relative_to(ROOT).as_posix() not in doi_file:
             continue
         rel = p.relative_to(DATA).as_posix()
         x, e = doc(p)
