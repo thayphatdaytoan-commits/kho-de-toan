@@ -35,24 +35,23 @@
     "xac_nhan": true
   },
   "de1.P2.C3": {
-    "ghi_chu": "Mệnh đề (d) là bảng biến thiên nằm trong ảnh image26.png — tải ảnh bị GitHub 429, chưa đối chiếu được nên chưa kết luận ý d.\nMệnh đề d chỉ nêu 'Bảng biến thiên của hàm số đã cho là:' kèm ảnh image26.png (không có ảnh local lớp 12) nên chưa đối chiếu được bảng biến thiên — cần ảnh gốc. Đã tính bảng biến thiên để đối chiếu sau: ${y}'=\\frac{x(x-2)}{(x-1)^{2}}$, đồng biến trên $(-\\infty;0)$ và $(2;+\\infty)$, nghịch biến trên $(0;1)$ và $(1;2)$, cực đại $(0;-2)$, cực tiểu $(2;2)$.",
-    "ly_do": "a đúng ($D=\\mathbb{R}\\backslash\\{1\\}$); b sai ($y'=(x^2-2x)/(x-1)^2$, không phải $(x^2+2x)/(x-1)^2$); c đúng (tiệm cận xiên $y=x-1$ vì $y=x-1+1/(x-1)$).\nĐã kiểm: a Đúng (TXĐ $\\mathbb{R}\\backslash\\{1\\}$); b Sai (đạo hàm đúng là $y'=x(x-2)/(x-1)^{2}$, không phải $(x^{2}+2x)/(x-1)^{2}$); c Đúng (tiệm cận xiên $y=x-1$ vì $y=x-1+1/(x-1)$).",
-    "sua_boi": "muse",
-    "tf": {
-      "a": "Tập xác định của hàm số $D=R\\backslash \\left\\{ 1 \\right\\}$",
-      "b": "Đạo hàm của hàm số đã cho là $y'=\\frac{{{x}^{2}}+2x}{{{\\left( x-1 \\right)}^{2}}}.$",
-      "c": "Tiệm cận xiên của đồ thị hàm số đã cho có phương trình là $y=x-1.$",
-      "d": "Bảng biến thiên của hàm số đã cho là:"
-    },
     "tf_ans": {
       "a": true,
       "b": false,
-      "c": true
-    }
+      "c": true,
+      "d": true
+    },
+    "ly_do": "Ba ý a, b, c giữ nguyên như bản live (a đúng, b sai vì đạo hàm đúng là $y'=\\frac{x(x-2)}{(x-1)^2}$, c đúng vì tiệm cận xiên $y=x-1$). Ý d bổ sung từ ảnh image26.png: bảng biến thiên trong ảnh có đúng các mốc $x=0$, $x=1$ (tiệm cận đứng), $x=2$, dấu $y'$ là $+$, $-$, $-$, $+$, cực đại $(0;-2)$, cực tiểu $(2;2)$ và các giới hạn $-\\infty$, $+\\infty$ hai phía của $x=1$, khớp hoàn toàn với bảng tính từ đạo hàm, nên ý d đúng.",
+    "sua_boi": "muse"
   },
   "de1.P2.C4": {
-    "ghi_chu": "Cả ba mệnh đề đều cần đồ thị của $f'$ trong ảnh image27.png (cực trị và khoảng nghịch biến) — tải ảnh bị GitHub 429, cần tải lại sau (GitHub 429).\nMệnh đề d trống và cả ba mệnh đề a, b, c đều phụ thuộc đồ thị ${f}'$ trong ảnh image27.png (không có ảnh local lớp 12) nên chưa xác minh được gì — cần ảnh gốc image27.png.",
-    "ly_do": null,
+    "tf_ans": {
+      "a": true,
+      "b": false,
+      "c": false
+    },
+    "ghi_chu": "Mệnh đề (d) trống trong dữ liệu đề (không có nội dung mệnh đề), nên không kết luận được ý d; staging này chỉ ghi tf_ans cho ba ý a, b, c đã kiểm được.",
+    "ly_do": "Ảnh image27.png: đồ thị $f'$ âm khi $x<0$, dương khi $0<x<1$ và khi $x>1$, bằng $0$ tại $x=0$ và tiếp xúc trục hoành tại $x=1$ (không đổi dấu). Suy ra: a đúng vì $f'$ đổi dấu từ âm sang dương tại $x=0$ nên $f$ đạt cực tiểu tại $x=0$; b sai vì $f$ không có cực đại (không có điểm đổi dấu từ dương sang âm), $f(1)$ không phải giá trị cực đại; c sai vì $f'>0$ trên $(0;1)$ nên $f$ đồng biến, không nghịch biến trên khoảng này.",
     "sua_boi": "muse"
   },
   "de1.P3.C1": {

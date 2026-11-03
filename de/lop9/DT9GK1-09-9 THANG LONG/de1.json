@@ -305,9 +305,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_c_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -349,14 +347,14 @@
      "id": "c",
      "label": "c",
      "question": "Hãy sắp xếp các tỉ số lượng giác sau theo thứ tự từ nhỏ đến lớn: Sin240 ;   Cos350;     Sin540;     Cos700;     Sin700",
-     "explanation": "Sin240 ; Cos350; Sin540; Cos700; Sin700\nCos 350=sin 550; cos 700=sin 200\nsin 200< Sin240< Sin540< Sin700\nVậy: Cos700 < Sin240< Sin540< Sin700",
+     "explanation": "Ta có $\\cos 35^0=\\sin 55^0$; $\\cos 70^0=\\sin 20^0$.\nVì hàm sin đồng biến trên $[0^0;90^0]$ và $20^0<24^0<54^0<55^0<70^0$ nên $\\sin 20^0<\\sin 24^0<\\sin 54^0<\\sin 55^0<\\sin 70^0$.\nVậy: $\\cos 70^0<\\sin 24^0<\\sin 54^0<\\cos 35^0<\\sin 70^0$.",
      "points": 0.5,
      "type": "multiple_choice",
      "options": [
-      "$\\cos 70^0 < \\sin 54^0 < \\sin 24^0 < \\sin 70^0$",
-      "$\\sin 24^0 < \\cos 70^0 < \\sin 54^0 < \\sin 70^0$",
-      "$\\sin 70^0 < \\sin 54^0 < \\sin 24^0 < \\cos 70^0$",
-      "$\\cos 70^0 < \\sin 24^0 < \\sin 54^0 < \\sin 70^0$"
+      "$\\cos 70^0 < \\sin 54^0 < \\sin 24^0 < \\cos 35^0 < \\sin 70^0$",
+      "$\\sin 24^0 < \\cos 70^0 < \\sin 54^0 < \\cos 35^0 < \\sin 70^0$",
+      "$\\sin 70^0 < \\sin 54^0 < \\cos 35^0 < \\sin 24^0 < \\cos 70^0$",
+      "$\\cos 70^0 < \\sin 24^0 < \\sin 54^0 < \\cos 35^0 < \\sin 70^0$"
      ],
      "correctAnswer": 3
     }
@@ -372,7 +370,8 @@
     "thuc_te": false,
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
-   }
+   },
+   "sua_boi": "muse"
   },
   {
    "section": 4,

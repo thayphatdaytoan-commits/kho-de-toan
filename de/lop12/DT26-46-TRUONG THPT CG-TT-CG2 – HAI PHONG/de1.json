@@ -585,13 +585,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một vật đặt tại vị trí đỉnh $A$ của một tứ diện đều $ABCD$ chịu tác dụng của 3 lực ${{\\overrightarrow{F}}_{1}}\\,;\\,\\overrightarrow{{{F}_{2}}}\\,;\\,\\overrightarrow{{{F}_{3}}}$ có độ lớn lần lượt là 8 N (newton), 10 N và 12 N. Lực $\\overrightarrow{{{F}_{1}}}$ cùng hướng với $\\overrightarrow{AB}$; $\\overrightarrow{{{F}_{2}}}$ cùng hướng với $\\overrightarrow{AC}$ ; $\\overrightarrow{{{F}_{3}}}$ ngược hướng với $\\overrightarrow{AD}$. Độ lớn của lực tổng hợp $\\overrightarrow{F}=\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}$ tác dụng lên vật bằng bao nhiêu newton? (Kết quả làm tròn đến hàng phần chục).",
-   "explanation": "Giả sử tứ diện đều $ABCD$ có độ dài mỗi cạnh $1$. Khi đó\n$\\overrightarrow{F}=\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}=8\\overrightarrow{AB}+10\\overrightarrow{AC}-12\\overrightarrow{AD}$.\nDễ thấy $\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AC.\\cos {{60}^{0}}=\\frac{1}{2}$. Tương tự: $\\overrightarrow{AC}\\overrightarrow{AD}=\\overrightarrow{AB}.\\overrightarrow{AD}=\\frac{1}{2}$.\nSuy ra ${{\\overrightarrow{F}}^{2}}={{\\left( 8\\overrightarrow{AB}+10\\overrightarrow{AC}-12\\overrightarrow{AD} \\right)}^{2}}$\n$=64A{{B}^{2}}+100A{{C}^{2}}+144A{{D}^{2}}+160\\overrightarrow{AB}.\\overrightarrow{AC}-192\\overrightarrow{AB}.\\overrightarrow{AD}-240\\overrightarrow{AC}\\overrightarrow{AD}$\n$=64+100+144+130.\\frac{1}{2}-192.\\frac{1}{2}-240.\\frac{1}{2}=157$.\nKhi đó độ lớn của lực $\\overrightarrow{F}$ là $\\left| \\overrightarrow{F} \\right|=\\sqrt{157}\\approx 12,5$ N.",
+   "explanation": "Giả sử tứ diện đều $ABCD$ có độ dài mỗi cạnh $1$. Khi đó\n$\\overrightarrow{F}=\\overrightarrow{{{F}_{1}}}+\\overrightarrow{{{F}_{2}}}+\\overrightarrow{{{F}_{3}}}=8\\overrightarrow{AB}+10\\overrightarrow{AC}-12\\overrightarrow{AD}$.\nDễ thấy $\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AC.\\cos {{60}^{0}}=\\frac{1}{2}$. Tương tự: $\\overrightarrow{AC}\\overrightarrow{AD}=\\overrightarrow{AB}.\\overrightarrow{AD}=\\frac{1}{2}$.\nSuy ra ${{\\overrightarrow{F}}^{2}}={{\\left( 8\\overrightarrow{AB}+10\\overrightarrow{AC}-12\\overrightarrow{AD} \\right)}^{2}}$\n$=64A{{B}^{2}}+100A{{C}^{2}}+144A{{D}^{2}}+160\\overrightarrow{AB}.\\overrightarrow{AC}-192\\overrightarrow{AB}.\\overrightarrow{AD}-240\\overrightarrow{AC}\\overrightarrow{AD}$\n$=64+100+144+160.\\frac{1}{2}-192.\\frac{1}{2}-240.\\frac{1}{2}=172$.\nKhi đó độ lớn của lực $\\overrightarrow{F}$ là $\\left| \\overrightarrow{F} \\right|=\\sqrt{172}\\approx 13,1$ N.",
    "short_value": 12.5,
-   "short_correct": "12,5",
+   "short_correct": "13,1",
    "ma": "de1.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 7,
@@ -600,6 +598,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C2.B1.D02",
    "dang_toan_web": "Vectơ trong không gian: Các phép toán cộng, trừ, nhân vectơ với một số, tích vô hướng của hai vectơ."

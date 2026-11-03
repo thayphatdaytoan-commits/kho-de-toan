@@ -2,5 +2,506 @@
   "de1.P4.C3": {
     "ghi_chu": "Cần ảnh de/lop9/TS10HCM-06-07. BINH CHANH DE 2/images/image6.jpg (hình thang và cửa sổ) để kiểm chứng công thức diện tích $10x+5y-2$ (phần $-2$ ứng với cửa sổ, các hệ số $10x+5y$ phụ thuộc kích thước hình). Ý b kiểm chứng đúng với giả thiết công thức đúng: $10\\cdot 3+5\\cdot 1-2=33$.",
     "sua_boi": "muse"
+  },
+  "de1.P4.C5": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Chứng minh: [[IMG:image33.png]] là đường trung trực của [[IMG:image34.png]] và 4 điểm [[IMG:image37.png]] cùng thuộc một đường tròn.",
+        "explanation": "Sử dụng tính chất hai tiếp tuyến cắt nhau. Chứng minh các góc vuông để suy ra tứ giác nội tiếp.",
+        "points": 1,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Xét $\\triangle {{1}}{{2}}{{3}}$ và $\\triangle {{4}}{{5}}{{6}}$ có:",
+                "• $O{{7}} = O{{8}}$ (bán kính)",
+                "• $A{{9}} = A{{10}}$ (tiếp tuyến)",
+                "• $OA$ chung"
+              ],
+              "hint": "Xét hai tam giác bằng nhau"
+            },
+            {
+              "lines": [
+                "Do đó $\\triangle {{11}}{{12}}{{13}} = \\triangle {{14}}{{15}}{{16}}$ (c.c.c)",
+                "Suy ra $OA$ là trung trực của $BC$"
+              ],
+              "hint": "Kết luận hai tam giác bằng nhau"
+            },
+            {
+              "lines": [
+                "Ta có $\\widehat{OBA}=90^\\circ$ và $\\widehat{OCA}=90^\\circ$ (tiếp tuyến vuông góc với bán kính tại tiếp điểm).",
+                "Suy ra $B, C$ cùng nhìn $OA$ dưới góc vuông nên bốn điểm $O, A, B, C$ cùng thuộc đường tròn đường kính $OA$."
+              ],
+              "hint": "Chứng minh bốn điểm cùng thuộc một đường tròn"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "drag",
+              "answers": [
+                "O"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "2",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "3",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "4",
+              "mode": "drag",
+              "answers": [
+                "O"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "5",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "6",
+              "mode": "drag",
+              "answers": [
+                "C"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "7",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "8",
+              "mode": "drag",
+              "answers": [
+                "C"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "9",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "10",
+              "mode": "drag",
+              "answers": [
+                "C"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "11",
+              "mode": "drag",
+              "answers": [
+                "O"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "12",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "13",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "14",
+              "mode": "drag",
+              "answers": [
+                "O"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "15",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "16",
+              "mode": "drag",
+              "answers": [
+                "C"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            }
+          ],
+          "pool": [
+            "O",
+            "A",
+            "B",
+            "C",
+            "M",
+            "N",
+            "giả thiết",
+            "c.c.c"
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Kẻ đường kính [[IMG:image38.png]] của [[IMG:image30.png]]. [[IMG:image39.png]] cắt [[IMG:image30.png]] tại [[IMG:image40.png]]. Chứng minh: [[IMG:image42.png]].",
+        "explanation": "Sử dụng tam giác đồng dạng.",
+        "points": 1,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Ta có $\\widehat{{{1}}{{2}}{{3}}} = 90^\\circ$ (góc nội tiếp chắn {{4}})",
+                "Xét $\\triangle {{5}}{{6}}{{7}}$ và $\\triangle {{8}}{{9}}{{10}}$ có:",
+                "• $\\widehat{{{11}}} = \\widehat{{{12}}}$ (cùng chắn cung {{13}})"
+              ],
+              "hint": "Chứng minh tam giác đồng dạng"
+            },
+            {
+              "lines": [
+                "Suy ra $\\triangle {{14}}{{15}}{{16}} \\backsim \\triangle {{17}}{{18}}{{19}}$ (g.g)",
+                "Do đó $\\frac{{{20}}}{{{21}}} = \\frac{{{22}}}{{{23}}}$"
+              ],
+              "hint": "Suy ra tỉ số cạnh"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "2",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "3",
+              "mode": "drag",
+              "answers": [
+                "C"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "4",
+              "mode": "drag",
+              "answers": [
+                "nửa đường tròn"
+              ],
+              "keywords": [],
+              "placeholder": "cung",
+              "maxLen": 15
+            },
+            {
+              "id": "5",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "6",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "7",
+              "mode": "drag",
+              "answers": [
+                "D"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "8",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "9",
+              "mode": "drag",
+              "answers": [
+                "E"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "10",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "11",
+              "mode": "drag",
+              "answers": [
+                "D"
+              ],
+              "keywords": [],
+              "placeholder": "góc",
+              "maxLen": 5
+            },
+            {
+              "id": "12",
+              "mode": "drag",
+              "answers": [
+                "E"
+              ],
+              "keywords": [],
+              "placeholder": "góc",
+              "maxLen": 5
+            },
+            {
+              "id": "13",
+              "mode": "drag",
+              "answers": [
+                "AB"
+              ],
+              "keywords": [],
+              "placeholder": "cung",
+              "maxLen": 5
+            },
+            {
+              "id": "14",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "15",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "16",
+              "mode": "drag",
+              "answers": [
+                "D"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "17",
+              "mode": "drag",
+              "answers": [
+                "A"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "18",
+              "mode": "drag",
+              "answers": [
+                "E"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "19",
+              "mode": "drag",
+              "answers": [
+                "B"
+              ],
+              "keywords": [],
+              "placeholder": "điểm",
+              "maxLen": 5
+            },
+            {
+              "id": "20",
+              "mode": "drag",
+              "answers": [
+                "AB"
+              ],
+              "keywords": [],
+              "placeholder": "cạnh",
+              "maxLen": 5
+            },
+            {
+              "id": "21",
+              "mode": "drag",
+              "answers": [
+                "AE"
+              ],
+              "keywords": [],
+              "placeholder": "cạnh",
+              "maxLen": 5
+            },
+            {
+              "id": "22",
+              "mode": "drag",
+              "answers": [
+                "AD"
+              ],
+              "keywords": [],
+              "placeholder": "cạnh",
+              "maxLen": 5
+            },
+            {
+              "id": "23",
+              "mode": "drag",
+              "answers": [
+                "AB"
+              ],
+              "keywords": [],
+              "placeholder": "cạnh",
+              "maxLen": 5
+            }
+          ],
+          "pool": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "nửa đường tròn",
+            "AB",
+            "AE",
+            "AD",
+            "g.g",
+            "c.g.c"
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "question": "Tính diện tích hình viên phân giới hạn bởi dây cung [[IMG:image34.png]] và cung nhỏ [[IMG:image34.png]].",
+        "explanation": "Diện tích hình viên phân = Diện tích quạt - Diện tích tam giác.",
+        "points": 1,
+        "type": "multiple_choice",
+        "options": [
+          "$R^2(\\frac{\\pi}{3} + \\frac{\\sqrt{3}}{4})$",
+          "$R^2(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{4})$",
+          "$R^2(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4})$",
+          "$R^2(\\frac{\\pi}{2} - \\frac{\\sqrt{3}}{2})$"
+        ],
+        "correctAnswer": 1
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Khung ý a chỉ chứng minh OA là trung trực của BC mà thiếu bước chứng minh 4 điểm cùng thuộc một đường tròn (và thiếu cạnh chung OA cho trường hợp c.c.c); đã bổ sung dòng «OA chung» và khối kết luận bằng góc vuông tại tiếp điểm (B, C cùng nhìn OA dưới góc 90°). Ý c đã kiểm chứng: ảnh đề cho góc BOC=120° nên diện tích viên phân = πR²/3 − √3R²/4, đúng phương án B.",
+    "xac_nhan": true
   }
 }

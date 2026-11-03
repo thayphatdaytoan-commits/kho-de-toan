@@ -10,16 +10,16 @@
     "ly_do": "Trùng câu đã có trên web (đề 3XA4PeO4LRTG1O4P27dB) — mặc định bỏ"
   },
   "de1.P2.C3": {
-    "explanation": "a) $P\\left( {{A}_{1}} \\right)=0,8;P\\left( {{A}_{2}} \\right)=0,2$ nên $P\\left( {{A}_{1}} \\right)=4P\\left( {{A}_{2}} \\right)$.\nb) $P\\left( H\\mid {{A}_{1}} \\right)=0,45,P\\left( H\\mid {{A}_{2}} \\right)=0,55$ nên $P\\left( H\\mid {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)=1$.\nc) Áp dụng công thức xác suất toàn phần:\n$P\\left( H \\right)=P\\left( H\\mid {{A}_{1}} \\right)P\\left( {{A}_{1}} \\right)+P\\left( {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)=0,47<0,5.$\nd) Áp dung công thức Bayes ta có: $P\\left( {{A}_{2}}\\mid H \\right)=\\frac{P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)}{P\\left( H \\right)}=\\frac{11}{47}>\\frac{1}{5}$.",
-    "ly_do": "Đã kiểm: a Đúng ($0,8=4\\cdot 0,2$); b Đúng ($0,45+0,55=1$; sửa lỗi gõ trong lời giải gốc '55' thành '0,55'); c Đúng ($P(H)=0,45\\cdot 0,8+0,55\\cdot 0,2=0,47<0,5$); d Đúng ($P(A_{2}|H)=0,11/0,47=11/47>1/5$).",
-    "sua_boi": "muse",
     "tf_ans": {
       "a": true,
       "b": true,
       "c": true,
       "d": true
     },
-    "xac_nhan": true
+    "sua_boi": "muse",
+    "xac_nhan": true,
+    "explanation": "a) $P\\left( {{A}_{1}} \\right)=0,8;P\\left( {{A}_{2}} \\right)=0,2$ nên $P\\left( {{A}_{1}} \\right)=4P\\left( {{A}_{2}} \\right)$.\nb) $P\\left( H\\mid {{A}_{1}} \\right)=0,45,P\\left( H\\mid {{A}_{2}} \\right)=0,55$ nên $P\\left( H\\mid {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)=1$.\nc) Áp dụng công thức xác suất toàn phần:\n$P\\left( H \\right)=P\\left( H\\mid {{A}_{1}} \\right)P\\left( {{A}_{1}} \\right)+P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)=0,47<0,5.$\nd) Áp dụng công thức Bayes ta có: $P\\left( {{A}_{2}}\\mid H \\right)=\\frac{P\\left( H\\mid {{A}_{2}} \\right)P\\left( {{A}_{2}} \\right)}{P\\left( H \\right)}=\\frac{11}{47}>\\frac{1}{5}$.",
+    "ly_do": "Đã kiểm: a Đúng ($0,8=4\\cdot 0,2$); b Đúng ($0,45+0,55=1$); c Đúng ($P\\left( H \\right)=0,45\\cdot 0,8+0,55\\cdot 0,2=0,47<0,5$); d Đúng ($P\\left( {{A}_{2}}\\mid H \\right)=0,11/0,47=\\frac{11}{47}>\\frac{1}{5}$). Explanation đã sửa lỗi gõ ở ý c của lời giải gốc (thừa số thứ hai thiếu $P\\left( H\\mid {{A}_{2}} \\right)$) và chữ 'Áp dung'."
   },
   "de1.P3.C1": {
     "explanation": "[[IMG:image4.png]]\nChọn hệ tọa độ $Oxyz$ sao cho $O$ là tâm đáy, $A\\left(-\\frac{1}{2};-\\frac{1}{2};0\\right)$, $B\\left(\\frac{1}{2};-\\frac{1}{2};0\\right)$, $C\\left(\\frac{1}{2};\\frac{1}{2};0\\right)$, $D\\left(-\\frac{1}{2};\\frac{1}{2};0\\right)$ và $S\\left(0;0;\\sqrt{\\frac{7}{2}}\\right)$ vì $SO=\\sqrt{SA^2-OA^2}=\\sqrt{4-\\frac{1}{2}}=\\sqrt{\\frac{7}{2}}$.\nKhi đó $\\overrightarrow{AB}=(1;0;0)$, $\\overrightarrow{SD}=\\left(-\\frac{1}{2};\\frac{1}{2};-\\sqrt{\\frac{7}{2}}\\right)$, $\\overrightarrow{AB}\\times\\overrightarrow{SD}=\\left(0;\\sqrt{\\frac{7}{2}};\\frac{1}{2}\\right)$ và $\\overrightarrow{AS}=\\left(\\frac{1}{2};\\frac{1}{2};\\sqrt{\\frac{7}{2}}\\right)$.\nVậy $d(AB,SD)=\\frac{|(\\overrightarrow{AB}\\times\\overrightarrow{SD})\\cdot\\overrightarrow{AS}|}{|\\overrightarrow{AB}\\times\\overrightarrow{SD}|}=\\frac{\\sqrt{\\frac{7}{2}}}{\\frac{\\sqrt{15}}{2}}=\\sqrt{\\frac{14}{15}}\\approx 0,97$.\nĐáp án:\n| 0 | , | 9 | 7 |\n|---|---|---|---|",

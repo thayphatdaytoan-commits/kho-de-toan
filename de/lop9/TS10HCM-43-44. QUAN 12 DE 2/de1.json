@@ -126,37 +126,25 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "mau_spec": {
     "mau": "tinh_gia_tri",
     "kieu": "dong",
     "dong": [
-     "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2)$",
-     "$=$ {{1}} $+$ {{2}} $=$ {{3}}"
+     "$S = x_1+x_2 = \\frac{5}{2}$, $P = x_1x_2 = -\\frac{1}{2}$",
+     "$A = \\frac{x_1^2(x_2-2)+x_2^2(x_1-2)}{(x_1-2)(x_2-2)} = \\frac{-63/4}{-3/2} =$ {{1}}"
     ],
     "o": [
      {
       "id": "1",
       "loai": "so",
-      "dap_an": "25/4"
-     },
-     {
-      "id": "2",
-      "loai": "so",
-      "dap_an": "1"
-     },
-     {
-      "id": "3",
-      "loai": "so",
-      "dap_an": "29/4"
+      "dap_an": "21/2"
      }
     ]
    },
    "bai_goc": "Bài 2",
    "question": "Cho phương trình [[IMG:image5.png]] có hai nghiệm [[IMG:image6.png]].\nKhông giải phương trình, hãy tính giá trị của biểu thức [[IMG:image7.png]].",
-   "explanation": "Theo Vi-ét: $x_1+x_2 = 5/2$ và $x_1x_2 = -1/2$.\nBiểu thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = (5/2)^2 - 2(-1/2) = 25/4 + 1 = 29/4$. (Lưu ý: Đề bài gốc không ghi rõ biểu thức, giả định là $x_1^2+x_2^2$)",
+   "explanation": "Theo Vi-ét: $x_1+x_2 = 5/2$ và $x_1x_2 = -1/2$ (phương trình $2x^2-5x-1=0$).\n$A=\\frac{x_1^2}{x_1-2}+\\frac{x_2^2}{x_2-2}=\\frac{x_1^2(x_2-2)+x_2^2(x_1-2)}{(x_1-2)(x_2-2)}$.\nTử số $=x_1x_2(x_1+x_2)-2(x_1^2+x_2^2)=PS-2(S^2-2P)=\\frac{-5}{4}-2\\cdot\\frac{29}{4}=\\frac{-63}{4}$.\nMẫu số $=P-2S+4=\\frac{-1}{2}-5+4=\\frac{-3}{2}$.\nVậy $A=\\frac{-63/4}{-3/2}=\\frac{21}{2}$.",
    "ma": "de1.P7.C1",
    "dac_trung": {
     "so_dong_loi_giai": 2,
@@ -165,6 +153,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C6.B3.D03",
    "dang_toan_web": "Định lí Viète và ứng dụng."
@@ -259,9 +248,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -337,6 +324,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C1.B5.D04",
    "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."

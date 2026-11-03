@@ -398,9 +398,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho tam giác $ABC$có các góc đều là góc nhọn. Khi đó",
    "explanation": "a) Vì $\\widehat{A}$ là góc nhọn nên $\\sin A>0.$ Khẳng định a) sai.\nb) Vì $\\widehat{A}$, $\\widehat{C}$ là góc nhọn nên ${{0}^{o}}<\\widehat{A}+\\widehat{C}<{{180}^{0}}$. Khi đó ${{\\sin }^{2}}\\left( A+C \\right)+{{\\cos }^{2}}\\left( A+C \\right)=1.$Khẳng định b) sai.\nc) Ta có $\\widehat{A}+\\widehat{B}+\\widehat{C}={{180}^{o}}$ $\\Rightarrow $ $\\widehat{A}+\\widehat{B}={{180}^{0}}-\\widehat{C}$ $\\Rightarrow $ $\\frac{\\widehat{A}+\\widehat{B}}{2}=\\frac{{{180}^{0}}-\\widehat{C}}{2}={{90}^{o}}-\\frac{\\widehat{C}}{2}$\nhay $\\frac{\\widehat{A}+\\widehat{B}}{2},{{90}^{o}}-\\frac{\\widehat{C}}{2}$ phụ nhau. Vậy $\\sin \\frac{A+B}{2}=\\cos \\frac{C}{2}.$ $ $Khẳng định c) đúng.\nd) Ta có $\\widehat{A}+\\widehat{B}+2\\widehat{C}=(\\widehat{A}+\\widehat{B}+\\widehat{C})+\\widehat{C}={{180}^{o}}+\\widehat{C}$. Khi đó $\\sin \\left( \\frac{A+B+2C}{2} \\right)$ $=\\sin \\frac{{{180}^{0}}+C}{2}$ $=\\sin \\left( {{90}^{0}}+\\frac{C}{2} \\right)$ $=\\sin \\left[ {{180}^{o}}-\\left( {{90}^{0}}-\\frac{C}{2} \\right) \\right]$ $=\\sin \\left( {{90}^{0}}-\\frac{C}{2} \\right)$ $=\\cos \\frac{C}{2}.$ Khẳng định d) đúng.",
    "ma": "de1.P2.C2",
@@ -411,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B1.D09",
    "dang_toan_web": "Giá trị lượng giác của một góc từ $0^\\circ$ đến $180^\\circ$."
@@ -558,13 +557,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
-   "question": "Cho hình chữ nhật $ABCD$ có cạnh $AB=4,BC=6$, $M$ là trung điểm của $BC,N$ là điểm trên cạnh $CD$ sao cho $ND=3NC$. Khi đó bán kính của đường tròn ngoại tiếp tam giác $AMN$ bằng bao nhiêu?",
-   "explanation": "[[IMG:image6.png]]\nTa có\n$MC=3,NC=1\\Rightarrow MN=\\sqrt{10}$\n$BM=3,AB=4\\Rightarrow AM=5$\n$AD=6,ND=3\\Rightarrow AN=\\sqrt{45}$\n$p=\\frac{AM+AN+MN}{2}=\\frac{\\sqrt{10}+5+\\sqrt{45}}{2}$\n${{S}_{AMN}}=\\sqrt{p\\left( p-AM \\right)\\left( p-AN \\right)\\left( p-MN \\right)}=\\frac{15}{2}$\nBán kính của đường tròn ngoại tiếp của tam giác$AMN$ là: $R=\\frac{AM.AN.MN}{4{{S}_{AMN}}}=\\frac{5\\sqrt{2}}{2}\\approx 3,54$",
+   "flags": [],
+   "question": "Cho hình chữ nhật $ABCD$ có cạnh $AB=4,BC=6$, $M$ là trung điểm của $BC,N$ là điểm trên cạnh $CD$ sao cho $ND=3NC$. Khi đó bán kính của đường tròn ngoại tiếp tam giác $AMN$ bằng bao nhiêu? (làm tròn kết quả đến chữ số thập phân thứ nhất)",
+   "explanation": "[[IMG:image6.png]]\nTa có\n$MC=3,NC=1\\Rightarrow MN=\\sqrt{10}$\n$BM=3,AB=4\\Rightarrow AM=5$\n$AD=6,ND=3\\Rightarrow AN=\\sqrt{45}$\n$p=\\frac{AM+AN+MN}{2}=\\frac{\\sqrt{10}+5+\\sqrt{45}}{2}$\n${{S}_{AMN}}=\\sqrt{p\\left( p-AM \\right)\\left( p-AN \\right)\\left( p-MN \\right)}=\\frac{15}{2}$\nBán kính của đường tròn ngoại tiếp của tam giác$AMN$ là: $R=\\frac{AM.AN.MN}{4{{S}_{AMN}}}=\\frac{5\\sqrt{2}}{2}\\approx 3,5$",
    "short_value": 3.54,
-   "short_correct": "3,54",
+   "short_correct": "3,5",
    "ma": "de1.P3.C4",
    "dac_trung": {
     "so_dong_loi_giai": 8,
@@ -573,6 +570,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C3.B2.D04",
    "dang_toan_web": "Định lí côsin và định lí sin trong tam giác."

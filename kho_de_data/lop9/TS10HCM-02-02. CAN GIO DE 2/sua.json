@@ -1,0 +1,81 @@
+{
+  "de1.P4.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Viết biểu thức (thu gọn) [[IMG:image10.png]] biểu thị theo [[IMG:image11.png]] (với [[IMG:image12.png]]) diện tích đất bị thu hồi của nhà ông Thành.",
+        "explanation": "Diện tích tam giác vuông bị thu hồi là 1/2 * (10-x) * (10-x) = 0.5 * (100 - 20x + x^2) = 0.5x^2 - 10x + 50 (dựa theo hình vẽ thực tế).",
+        "type": "multiple_choice",
+        "options": [
+          "$0.5x^2 + 5x + 50$",
+          "$0.5x^2 - 5x + 50$",
+          "$0.5x^2 - 10x + 50$",
+          "$x^2 - 10x + 50$"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Ông Thành được đền bù số tiền [[IMG:image13.png]] triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị [[IMG:image14.png]] biết giá đền bù đất bị thu hồi là [[IMG:image15.png]] triệu đồng/[[IMG:image16.png]].",
+        "explanation": "Số tiền đền bù là 455 triệu đồng, giá đền bù là 13 triệu đồng/m² nên diện tích đất bị thu hồi là $455:13=35$ (m²).\nTheo ý a, diện tích thu hồi là $0,5(10-x)^2$ nên $0,5(10-x)^2=35$, suy ra $(10-x)^2=70$.\nVì $0<x<10$ nên $10-x=\\sqrt{70}$, do đó $x=10-\\sqrt{70}\\approx 1,63$ (m).\nVậy $x\\approx 1,63$.",
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "dap_so",
+          "kieu": "dong",
+          "dong": [
+            "$x =$ {{1}} m"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "1.63"
+            }
+          ]
+        },
+        "mau_luyen": {
+          "mau": "lap_pt",
+          "kieu": "dong",
+          "dong": [
+            "Gọi $x$ là giá trị cần tìm (đơn vị m, điều kiện $x > 0$)",
+            "Biểu diễn diện tích đất bị thu hồi theo $x$: {{1}}",
+            "Phương trình: {{2}}",
+            "Giải phương trình ta tìm được $x =$ {{3}}",
+            "Vậy giá trị $x$ là {{4}} m"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "bt",
+              "dap_an": "0.5*(10-x)^2"
+            },
+            {
+              "id": "2",
+              "loai": "bt",
+              "dap_an": "0.5*(10-x)^2=35"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "1.63"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "1.63"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Ảnh đề: đền bù 455 triệu đồng, giá 13 triệu đồng/m² nên diện tích thu hồi là 35 m²; với biểu thức ý a 0,5(10-x)²=35 và 0<x<10 thì x=10-√70≈1,63, không phải 5. Mẫu luyện cũ dùng phương trình lạ 0,5x(x+1)=15 cũng đã sửa theo.",
+    "xac_nhan": true
+  }
+}

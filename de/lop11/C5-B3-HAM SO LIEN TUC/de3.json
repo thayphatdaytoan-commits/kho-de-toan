@@ -190,9 +190,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm tất cả các giá trị của $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} & \\text{khi} & x<0 \\\\ m+\\frac{1-x}{1+x} & \\text{khi} & x\\ge 0 \\\\ \\end{array} \\right.$ liên tục tại $x=0$.",
    "explanation": "Ta có\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\left( m+\\frac{1-x}{1+x} \\right)=m+1$.\n$\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\left( \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} \\right)=$ $\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2x}{x\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2}{\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=-1$.\n$f\\left( 0 \\right)=m+1$\nĐể hàm liên tục tại $x=0$ thì $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( 0 \\right)$ $\\Leftrightarrow m+1=-1\\Rightarrow m=-2$.",
    "options": [
@@ -209,6 +207,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -249,11 +248,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & {{x}^{2}}+1\\,\\,khi\\,\\,x\\le 1\\, \\\\ & x+m\\,\\,khi\\,\\,x>1\\, \\\\ \\end{aligned} \\right.$ liên tục tại điểm ${{x}_{0}}=1$ khi $m$ nhận giá trị",
-   "explanation": "Ta có $\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{+}}}{\\lim}\\,\\left( {{x}^{2}}+1 \\right)=2$; $\\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\lim}\\,\\left( x+m \\right)=1+m$. Để hàm số liên tục tại ${{x}_{0}}=1$ thì $\\underset{x\\to {{1}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{1}^{-}}}{\\lim}\\,f\\left( x \\right)\\Leftrightarrow 2=m+1\\Leftrightarrow m=1$.",
+   "explanation": "Ta có $\\lim_{x\\to 1^{-}}f(x)=\\lim_{x\\to 1^{-}}(x^{2}+1)=2$; $\\lim_{x\\to 1^{+}}f(x)=\\lim_{x\\to 1^{+}}(x+m)=1+m$; $f(1)=2$. Để hàm số liên tục tại $x_{0}=1$ thì $\\lim_{x\\to 1^{-}}f(x)=\\lim_{x\\to 1^{+}}f(x)\\Leftrightarrow 2=1+m\\Leftrightarrow m=1$.",
    "options": [
     "$m=-2$",
     "$m=2$",
@@ -268,6 +265,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -279,9 +277,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm tất cả các giá trị thực của $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}-x-2}{x-2}\\,\\,\\,\\,\\,khi\\,\\,x\\ne 2 \\\\ & {{m}^{2}}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,\\,x=2 \\\\ \\end{aligned} \\right.$ liên tục tại $x=2$.",
    "explanation": "Hàm số $f\\left( x \\right)$ liên tục tại $\\Leftrightarrow \\underset{x\\to 2}{\\lim}\\,f\\left( x \\right)=f\\left( 2 \\right)$ $\\Leftrightarrow \\,\\underset{x\\to 2}{\\lim}\\,\\frac{{{x}^{2}}-x-2}{x-2}={{m}^{2}}$ $\\Leftrightarrow 3={{m}^{2}}$ $\\Leftrightarrow m=\\pm \\sqrt{3}$.",
    "options": [
@@ -298,6 +294,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -309,9 +306,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm $m$ để hàm số $f(x)=\\left\\{ \\begin{aligned} & \\frac{{{x}^{2}}+4x+3}{x+1}\\,\\,\\,khi\\,\\,x>-1 \\\\ & mx+2\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,khi\\,\\,x\\le -1 \\\\ \\end{aligned} \\right.$ liên tục tại điểm $x=-1$.",
    "explanation": "Ta có: $\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,f\\left( x \\right)$ $=\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,\\frac{{{x}^{2}}+4x+3}{x+1}$ $=\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,\\frac{\\left( x+1 \\right)\\left( x+3 \\right)}{x+1}$ $=\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,\\left( x+3 \\right)$ $=2$.\n$\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\lim}\\,f\\left( x \\right)$ $=\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\lim}\\,\\left( mx+2 \\right)$ $=-m+2$.\n$f\\left( -1 \\right)=-m+2$.\nĐể hàm số đã cho liên tục tại điểm $x=-1$ thì $\\underset{x\\to {{\\left( -1 \\right)}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{\\left( -1 \\right)}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( -1 \\right)$ $\\Leftrightarrow 2=-m+2$ $\\Leftrightarrow m=0$.",
    "options": [
@@ -328,6 +323,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."
@@ -593,11 +589,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tìm các giá trị của $m$ để hàm số $f\\left( x \\right)=\\left\\{ \\begin{array}{llllll} \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} & \\text{khi} & x<0 \\\\ m+\\frac{1-x}{1+x} & \\text{khi} & x\\ge 0 \\\\ \\end{array} \\right.$ liên tục tại $x=0$?",
-   "explanation": "Tập xác định: $D=\\mathbb{R}$ và $x=0\\in D$.\n$f\\left( 0 \\right)=m+1$.\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\left( m+\\frac{1-x}{1+x} \\right)=m+1$.\n$\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\left( \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} \\right)=$ $\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2x}{x\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2}{\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=-1$.\nĐể hàm liên tục tại $x=0$ thì $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( 0 \\right)$ $\\Leftrightarrow m+1=-1\\Leftrightarrow m=-2$.\nVậy $m=-2$ thỏa mãn đề bài.",
+   "explanation": "Tập xác định: $D=[-1;+\\infty)$ và $x=0\\in D$.\n$f\\left( 0 \\right)=m+1$.\n$\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{+}}}{\\lim}\\,\\left( m+\\frac{1-x}{1+x} \\right)=m+1$.\n$\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\left( \\frac{\\sqrt{1-x}-\\sqrt{1+x}}{x} \\right)=$ $\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2x}{x\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=\\underset{x\\to {{0}^{-}}}{\\lim}\\,\\frac{-2}{\\left( \\sqrt{1-x}+\\sqrt{1+x} \\right)}=-1$.\nĐể hàm liên tục tại $x=0$ thì $\\underset{x\\to {{0}^{+}}}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to {{0}^{-}}}{\\lim}\\,f\\left( x \\right)=f\\left( 0 \\right)$ $\\Leftrightarrow m+1=-1\\Leftrightarrow m=-2$.\nVậy $m=-2$ thỏa mãn đề bài.",
    "short_value": -2,
    "short_correct": "-2",
    "ma": "de3.P3.C5",
@@ -608,6 +602,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C5.B3.D01",
    "dang_toan_web": "Hàm số liên tục: Liên tục tại một điểm, liên tục trên một khoảng/đoạn, tính chất và định lí về nghiệm của phương trình."

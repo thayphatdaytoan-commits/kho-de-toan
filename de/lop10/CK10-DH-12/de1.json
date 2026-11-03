@@ -366,9 +366,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Hai người dân đứng cách nhau $30m$ cùng nhìn lên đỉnh của một tòa nhà theo góc nhìn lần lượt là $30{}^\\circ $ và $50{}^\\circ $.\n[[IMG:image4.png]][[IMG:image5.png]]\nCác mệnh đề sau đúng hay sai?.",
    "explanation": "a) S b) Đ c) S d) S\n[[IMG:image9.png]] [[IMG:image10.png]]\na) Xét tam giác $\\Delta ABC$ có $\\widehat{BAC}=180{}^\\circ -50{}^\\circ =130{}^\\circ $, $\\widehat{ABC}=30{}^\\circ $\nnên $\\widehat{ACB}=180{}^\\circ -130{}^\\circ -30{}^\\circ =20{}^\\circ $.\nb) Khi đó: áp dụng định lý Sin cho tam giác $\\Delta ABC$ ta được:\n$\\frac{AB}{\\sin C}=\\frac{AC}{\\sin B}\\Rightarrow \\frac{30}{\\sin 20{}^\\circ }=\\frac{AC}{\\sin 30{}^\\circ }\\Rightarrow AC=\\frac{30.\\sin 30{}^\\circ }{\\sin 20{}^\\circ }\\approx 43,9m$.\nc) Xét tam giác vuông $CHA$ vuông tại $H$ nên $CH=AC\\sin 50{}^\\circ \\approx 33,6m$.\nd) Chân thang cách mặt đất $1,8m$ ta có: $CK=CH-HK=33,6-1,8=31,8m$.\nKhi đó, khoảng cách tới chân tòa nhà xa nhất có thể là:\n$KD=\\sqrt{C{{D}^{2}}-C{{K}^{2}}}=\\sqrt{{{40}^{2}}-{{31.8}^{2}}}\\approx 24,3m$",
    "ma": "de1.P2.C13",
@@ -379,6 +377,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D13",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -400,11 +399,9 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một miếng nhôm có bề ngang 32 $cm$ được uốn cong tạo thành máng dẫn nước bằng cách chia tấm nhôm thành 3 phần rồi gấp 2 bên lại theo một góc vuông như hình vẽ dưới. Để đảm bảo kĩ thuật, diện tích mặt cắt ngang của máng dẫn nước phải lớn hơn hoặc bằng 120$c{{m}^{2}}$\n[[IMG:image11.png]]",
-   "explanation": "a) Đ b) S c) S d) Đ\n+) Gọi $S\\left( x \\right)$ là diện tích mặt cắt ngang của máng dẫn. Mặt cắt ngang là hình chữ nhật có chiều dọc là $x$ $cm$, chiều ngang là $\\left( 32-x \\right)$ $cm$ nên $S\\left( x \\right)=x\\left( 32-2x \\right)$ $c{{m}^{2}}$, với $0<x<16$.\n+) Với $x=5\\,cm\\Rightarrow S\\left( 5 \\right)=5\\left( 32-2.5 \\right)=110\\,<120$ nên máng dẫn nước không đảm bảo kĩ thuật.\nDiện tích mặt ngang lớn nhất khi hàm số $S\\left( x \\right)$ đạt giá trị lớn nhất trên $\\left( 0;16 \\right)$.\nTa có: $S\\left( x \\right)=-2{{x}^{2}}+32x=-2{{\\left( x-8 \\right)}^{2}}+128\\le 128,\\text{ }\\forall x\\in \\left( 0;16 \\right)$.\n$\\Rightarrow \\underset{\\left( 0;\\,16 \\right)}{\\mathop{Max}}\\,S\\left( x \\right)=S\\left( 8 \\right)=128$.",
+   "explanation": "a) Đ b) S c) S d) Đ\n+) Gọi $S\\left( x \\right)$ là diện tích mặt cắt ngang của máng dẫn. Mặt cắt ngang là hình chữ nhật có chiều dọc là $x$ $cm$, chiều ngang là $\\left( 32-2x \\right)$ $cm$ nên $S\\left( x \\right)=x\\left( 32-2x \\right)$ $c{{m}^{2}}$, với $0<x<16$.\n+) Với $x=5\\,cm\\Rightarrow S\\left( 5 \\right)=5\\left( 32-2.5 \\right)=110\\,<120$ nên máng dẫn nước không đảm bảo kĩ thuật.\nDiện tích mặt ngang lớn nhất khi hàm số $S\\left( x \\right)$ đạt giá trị lớn nhất trên $\\left( 0;16 \\right)$.\nTa có: $S\\left( x \\right)=-2{{x}^{2}}+32x=-2{{\\left( x-8 \\right)}^{2}}+128\\le 128,\\text{ }\\forall x\\in \\left( 0;16 \\right)$.\n$\\Rightarrow \\underset{\\left( 0;\\,16 \\right)}{\\mathop{Max}}\\,S\\left( x \\right)=S\\left( 8 \\right)=128$.",
    "ma": "de1.P2.C14",
    "dac_trung": {
     "so_dong_loi_giai": 6,
@@ -413,6 +410,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C6.B3.D01",
    "dang_toan_web": "Dấu của tam thức bậc hai và ứng dụng giải bất phương trình bậc hai một ẩn."
@@ -434,9 +432,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho bảng số liệu sau:\n| Giá trị | 21 | 32 | 18 | 24 | 25 | 26 |\n|---|---|---|---|---|---|---|\n| Tần số | 7 | 6 | 3 | 8 | 6 | 10 |",
    "explanation": "a) S b) Đ c) S d) Đ\na) Số liệu có tần số lớn nhất là 26. Vậy ${{M}_{O}}=26$. Suy ra mệnh đề sai.\nb) $\\overline{x}=\\frac{21.7+32.6+18.3+24.8+25.6+26.10}{40}=24,875\\approx 24,9.$ Vậy mệnh đề đúng.\nc) Bảng mẫu số liệu sau khi sắp xếp theo chiều tăng:\n| Giá trị | 18 | 21 | 24 | 25 | 26 | 32 |\n|---|---|---|---|---|---|---|\n| Tần số | 3 | 7 | 8 | 6 | 10 | 6 |\n${{M}_{e}}=\\frac{{{x}_{20}}+{{x}_{21}}}{2}=\\frac{25+25}{2}=25.$\nVậy mệnh đề sai.\nd) ${{Q}_{1}}=\\frac{{{x}_{10}}+{{x}_{11}}}{2}=\\frac{21+24}{2}=22,5$. Vậy mệnh đề đúng.",
    "ma": "de1.P2.C15",
@@ -447,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C5.B2.D01",
    "dang_toan_web": "Các số đặc trưng đo xu thế trung tâm cho mẫu số liệu không ghép nhóm: Số trung bình, trung vị, tứ phân vị, mốt."
@@ -468,9 +465,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho tam giác $ABC$ có $AB=3,\\,AC=4,\\,\\widehat{BAC}=60{}^\\circ $. Các điểm $M,\\,\\,N,\\,\\,P,\\,\\,H$ thỏa mãn điều kiện: $\\overrightarrow{BM}=-\\overrightarrow{BC},$ $\\overrightarrow{AN}=\\frac{1}{2}\\overrightarrow{AC}$, $\\overrightarrow{AP}=\\frac{2}{3}\\overrightarrow{AB}$, $\\overrightarrow{BH}=\\frac{3}{13}\\overrightarrow{BC}$.",
    "explanation": "a) S b) S c) Đ d) Đ\n[[IMG:image12.png]]\na) $\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AC.\\cos \\widehat{BAC}=3.4.\\cos 60{}^\\circ =6.$ Vậy mệnh đề sai.\nb) $2\\overrightarrow{AN}=\\overrightarrow{AC}=\\overrightarrow{AP}+\\overrightarrow{PC}=2\\overrightarrow{PB}+\\overrightarrow{PC}$. Vậy mệnh đề sai.\nc) $\\overrightarrow{BM}=-\\overrightarrow{BC}\\Rightarrow \\overrightarrow{AM}-\\overrightarrow{AB}=\\overrightarrow{AB}-\\overrightarrow{AC}\\Rightarrow \\overrightarrow{AM}=2\\overrightarrow{AB}-\\overrightarrow{AC}.$\nSuy ra $\\overrightarrow{MN}=\\overrightarrow{AN}-\\overrightarrow{AM}=\\frac{1}{2}\\overrightarrow{AC}-2\\overrightarrow{AB}+\\overrightarrow{AC}=-2\\overrightarrow{AB}+\\frac{3}{2}\\overrightarrow{AC}.$\n$\\overrightarrow{PN}=\\overrightarrow{AN}-\\overrightarrow{AP}=\\frac{1}{2}\\overrightarrow{AC}-\\frac{2}{3}\\overrightarrow{AB}=\\frac{1}{3}\\left( \\frac{3}{2}\\overrightarrow{AC}-2\\overrightarrow{AB} \\right)=\\frac{1}{3}\\overrightarrow{MN}$.\nSuy ra hai vectơ $\\overrightarrow{PN}$ và $\\overrightarrow{MN}$ cùng phương. Suy ra ba điểm $M,\\,\\,N,\\,\\,P$ thẳng hàng.\nVậy mệnh đề đúng.\nd) $\\overrightarrow{BH}=\\frac{3}{13}\\overrightarrow{BC}\\Leftrightarrow \\overrightarrow{AH}-\\overrightarrow{AB}=\\frac{3}{13}\\left( \\overrightarrow{AC}-\\overrightarrow{AB} \\right)\\Leftrightarrow \\overrightarrow{AH}=\\frac{10}{13}\\overrightarrow{AB}+\\frac{3}{13}\\overrightarrow{AC}.$\n$\\overrightarrow{AH}.\\overrightarrow{BC}=\\left( \\frac{10}{13}\\overrightarrow{AB}+\\frac{3}{13}\\overrightarrow{AC} \\right).\\left( \\overrightarrow{AC}-\\overrightarrow{AB} \\right)=\\frac{10}{13}\\overrightarrow{AB}.\\overrightarrow{AC}-\\frac{3}{13}\\overrightarrow{AC}.\\overrightarrow{AB}-\\frac{10}{13}A{{B}^{2}}+\\frac{3}{13}A{{C}^{2}}$\n$=\\frac{7}{13}\\overrightarrow{AB}.\\overrightarrow{AC}-\\frac{10}{13}A{{B}^{2}}+\\frac{3}{13}A{{C}^{2}}=\\frac{7}{13}.6-\\frac{10}{13}{{.3}^{2}}+\\frac{3}{13}{{.4}^{2}}=0.$\nSuy ra $\\overrightarrow{AH}\\bot \\overrightarrow{BC}$. Suy ra $AH\\bot BC$.\nVậy mệnh đề đúng.",
    "ma": "de1.P2.C16",
@@ -481,6 +476,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C4.B3.D02",
    "dang_toan_web": "Tích của một số với một vectơ và các tính chất."

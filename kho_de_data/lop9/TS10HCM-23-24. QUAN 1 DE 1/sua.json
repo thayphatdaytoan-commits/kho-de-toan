@@ -1,0 +1,64 @@
+{
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Viết biểu thức S biểu diễn diện tích của tấm khăn trải bàn cần dùng.",
+        "explanation": "Bán kính khăn là R + x. Diện tích S = pi * (R + x)^2.",
+        "type": "multiple_choice",
+        "options": [
+          "$S = \\pi(R+x)$",
+          "$S = 2\\pi(R+x)$",
+          "$S = \\pi(R+x)^2$",
+          "$S = \\pi(R^2+x^2)$"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Biết rằng phần dư của chiếc khăn là 20pi. Tính giá trị của x (cho R=3).",
+        "explanation": "Diện tích phần dư = pi(R+x)^2 - pi*R^2 = 20pi.\n(3+x)^2 - 3^2 = 20.\n9 + 6x + x^2 - 9 = 20.\nx^2 + 6x - 20 = 0.\nGiải phương trình bậc hai, chọn nghiệm dương x = -3+√29 ≈ 2,39 (nghiệm còn lại -3-√29 loại).",
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "dap_so",
+          "kieu": "dong",
+          "dong": [
+            "$x =$ {{1}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "2.39"
+            }
+          ]
+        },
+        "mau_luyen": {
+          "mau": "lap_pt",
+          "kieu": "dong",
+          "dong": [
+            "Diện tích phần dư là $\\pi(3+x)^2-\\pi\\cdot 3^2$, theo đề bài ta có phương trình: {{1}}",
+            "Giải phương trình ta tìm được $x =$ {{2}} (loại nghiệm âm)"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "bt",
+              "dap_an": "(3+x)^2-9=20"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "2.39"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Ý a: các phương án ghi kèm tiền tố «A. », «C. », «B. », «D. » trái định dạng (options không ghi tiền tố) và xếp lộn thứ tự chữ cái — đã bỏ tiền tố, giữ nguyên thứ tự và đáp án (phương án thứ 3). Ý b: phương trình x²+6x-20=0 có nghiệm dương -3+√29≈2,39, không phải 2 (thử lại x=2 cho phần dư 16π≠20π); đã sửa lời giải và đáp án mẫu.",
+    "xac_nhan": true
+  }
+}

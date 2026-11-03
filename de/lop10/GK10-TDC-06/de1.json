@@ -398,9 +398,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Để giúp đỡ những người khó khăn, thu nhập thấp được về quê ăn tết đoàn tụ với gia đình, một công ty đã thuê xe dịch vụ cho những chuyến xe nghĩa tình đưa $180$ người và $8$ tấn hàng về quê ăn tết. Nơi thuê xe có hai loại xe A và B, trong đó xe A có $10$ chiếc, xe B có $9$ chiếc. Một xe loại A cho thuê với giá 5 triệu đồng và một xe loại B cho thuê với giá 4 triệu đồng. Biết rằng mỗi xe loại A có thể chở tối đa $30$ người và $0,8$tấn hàng, mỗi xe loại B có thể chở tối đa $20$ người và $1,6$ tấn hàng.\nCác mệnh đề sau đây đúng hay sai?\ncác điều kiện của bài toán là:\n$\\left\\{ \\begin{aligned} & 30x+20y\\ge 180 \\\\ & 0,8x+1,6y\\ge 8 \\\\ & 0\\le x\\le 10 \\\\ & 0\\le y\\le 9 \\\\ \\end{aligned} \\right.\\left( * \\right).$\nbài toán.",
    "explanation": "a) Gọi $x,y$ lần lượt là số xe loại A và B cần thuê.\nVì một xe loại A cho thuê với giá 5 triệu đồng và một xe loại B cho thuê với giá 4 triệu đồng nên số tiền cần bỏ ra để thuê xe là $F\\left( x;y \\right)=5x+4y$.\nSuy ra mệnh đề đúng.\nb) Ta có $x$ xe loại A chở được $30x$người và $0,8x$ tấn hàng; $y$xe loại B chở được $20y$người và $1,6y$ tấn hàng.\nSuy ra $x$xe loại A và $y$xe loại B chở được $30x+20y$ và $0,8x+1,6y$ tấn hàng.\nTa có hệ bất phương trình sau: $\\left\\{ \\begin{aligned} & 30x+20y\\ge 180 \\\\ & 0,8x+1,6y\\ge 8 \\\\ & 0\\le x\\le 10 \\\\ & 0\\le y\\le 9 \\\\ \\end{aligned} \\right.\\left( * \\right)$\nSuy ra mệnh đề đúng.\nc) Thay tọa độ điểm $M(4;2)$vào hệ $\\left( * \\right)$ không thỏa bất phương trình $30x+20y\\ge 180$. Do đó điểm $M(4;2)$không thuộc miền nghiệm của hệ $\\left( * \\right)$.\nSuy ra mệnh đề sai\nd)\n[[IMG:image7.png]]\nMiền nghiệm của hệ $\\left( * \\right)$là tứ giác ABCD với các đỉnh lần lượt là $A\\left( 0;9 \\right),B\\left( 4;3 \\right),C\\left( 10;0 \\right),D\\left( 10;9 \\right).$\nTa thấy $F\\left( x;y \\right)=5x+4y$ đạt giá trị nhỏ nhất chỉ có thể tại các điểm $A,B,C,D.$\nTại $A\\left( 0;9 \\right):F=36$.\nTại $B\\left( 4;3 \\right):F=32$.\nTại $C\\left( 10;0 \\right):F=50$.\nTại $D\\left( 10;9 \\right):F=86$.\nNhư vậy để chi phí thấp nhất cần thuê 4 xe loại A và 3 xe loại B.\nSuy ra mệnh đề đúng.",
    "ma": "de1.P2.C2",
@@ -411,6 +409,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C2.B2.D03",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."

@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "1",
   "lesson": "2",
-  "title": "Bài 2. Các phép biến đổi lượng giác"
+  "title": "Bài 2. Các phép biến đổi lượng giác",
+  "exam_type": "lesson"
  },
  "no": 2,
  "sections": {
@@ -487,7 +488,7 @@
    "flags": [],
    "question": "Cho ${\\sin \\alpha=\\frac{3}{5}}$ và ${\\left(90^{\\circ}<\\alpha<180^{\\circ}\\right)}$. Tính ${\\cos \\alpha}$.",
    "explanation": "Ta có: ${\\sin ^2 \\alpha+\\cos ^2 \\alpha=1 \\Rightarrow \\cos ^2 \\alpha=1-\\sin ^2 \\alpha=1-\\left(\\frac{3}{5}\\right)^2=\\frac{16}{25} \\Rightarrow \\cos \\alpha= \\pm \\frac{4}{5}}$. ${90^{\\circ}<\\alpha<180^{\\circ}}$ nên ${\\cos \\alpha<0}$. Vậy ${\\cos \\alpha=-\\frac{4}{5}}$.",
-   "short_value": null,
+   "short_value": 4,
    "short_correct": "-\\dfrac{4}{5}",
    "ma": "de2.P3.C1",
    "dac_trung": {
@@ -512,7 +513,7 @@
    "flags": [],
    "question": "Cho hai góc nhọn ${a}$ và ${b}$. Biết ${\\cos a=\\frac{1}{3} ; \\cos b=\\frac{1}{4}}$. Tính giá trị của biểu thức:\n${P=\\cos (a+b) \\cos (a-b) \\text {. } }$",
    "explanation": "Ta có: ${\\sin ^2 a=1-\\cos ^2 a=\\frac{8}{9} ; \\sin ^2 b=1-\\cos ^2 b=\\frac{15}{16}}$.\n${\\begin{aligned} P & =(\\cos a \\cos b-\\sin a \\sin b)(\\cos a \\cos b+\\sin a \\sin b) \\\\ & =(\\cos a \\cos b)^2-(\\sin a \\sin b)^2=\\cos ^2 a \\cos ^2 b-\\sin ^2 a \\sin ^2 b \\\\ & =\\frac{1}{9} \\cdot \\frac{1}{16}-\\frac{8}{9} \\cdot \\frac{15}{16}=-\\frac{119}{144} \\end{aligned} }$",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "-\\dfrac{119}{144}",
    "ma": "de2.P3.C2",
    "dac_trung": {
@@ -537,7 +538,7 @@
    "flags": [],
    "question": "Biến đổi thành tổng biểu thức sau: ${4 \\sin 3 x \\sin 2 x \\cos x}$.",
    "explanation": "${4 \\sin 3 x \\sin 2 x \\cos x=4(\\sin 3 x \\cos x) \\sin 2 x=4 \\cdot \\frac{1}{2}(\\sin 4 x+\\sin 2 x) \\sin 2 x}$ ${=2 \\sin 4 x \\sin 2 x+2 \\sin ^2 2 x=(\\cos 2 x-\\cos 6 x)+2\\left(\\frac{1-\\cos 4 x}{2}\\right)}$ ${=\\cos 2 x-\\cos 4 x-\\cos 6 x+1}$.",
-   "short_value": null,
+   "short_value": 2,
    "short_correct": "\\cos 2x-\\cos 4x-\\cos 6x+1",
    "ma": "de2.P3.C3",
    "dac_trung": {
@@ -574,6 +575,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C1.B2.D01",
    "dang_toan_web": "Các công thức biến đổi lượng giác (công thức cộng, công thức nhân đôi, công thức biến đổi tích thành tổng, tổng thành tích)."
@@ -588,7 +590,7 @@
    "flags": [],
    "question": "Từ một vị trí ${A}$, người ta buộc hai sợi cáp ${A B}$ và ${A C}$ đến một cái trụ cao ${15 {~m}}$, được dựng vuông góc với mặt đất, chân trụ ở vị trí ${D}$. Biết ${C D=9 {~m}}$ và ${A D=12 {~m}}$. Tìm góc nhọn ${\\alpha=\\widehat{B A C}}$ tạo bởi hai sợi dây cáp đó, đồng thời tính gần đúng ${\\alpha}$ (làm tròn đến hàng phần chục, đơn vị độ).\n[[IMG:image16.png]]",
    "explanation": "Ta có:\n${\\begin{aligned} & \\tan \\alpha=\\tan (\\widehat{B A D}-\\widehat{C A D}) \\\\ & =\\frac{\\tan \\widehat{B A D}-\\tan \\widehat{C A D}}{1+\\tan \\widehat{B A D} \\tan \\widehat{C A D}}=\\frac{\\frac{15}{12}-\\frac{9}{12}}{1+\\frac{15}{12} \\cdot \\frac{9}{12}}=\\frac{8}{31} . \\end{aligned} }$\nVì vậy ${\\alpha \\approx 14,47^{\\circ}}$.\n$\\begin{array}{llllll} B & =\\frac{\\sin 2x+2\\sin 3x+\\sin 4x}{\\cos 3x+2\\cos 4x+\\cos 5x}=\\frac{2\\sin 3x\\cos x+2\\sin 3x}{2\\cos 4x\\cos x+2\\cos 4x}=\\frac{2\\sin 3x(\\cos x+1)}{2\\cos 4x(\\cos x+1)}=\\frac{\\sin 3x}{\\cos 4x} \\\\ {} & {} \\\\ \\end{array}$",
-   "short_value": null,
+   "short_value": 14.47,
    "short_correct": "14,5",
    "ma": "de2.P3.C5",
    "dac_trung": {
@@ -610,10 +612,8 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
-   "question": "Trong kiến trúc, các vòm cổng bằng đá thường có hình nửa đường tròn để có thể chịu lực tốt. Trong hình bên, vòm cổng được ghép bởi sáu phiến đá hai bên tạo thành các cung $AB,\\,BC,\\,CD,EF,FG,GH$ bằng nhau và một phiến đá chốt ở đỉnh. Biết chiều rộng cổng là $120\\,\\text{cm}$ và khoảng cách từ $B$ đến đường kính $AH$ bằng $27\\,\\text{cm}$. Tính khoảng cách từ $C$đến $AH$.\n[[IMG:image18.png]]",
+   "flags": [],
+   "question": "Trong kiến trúc, các vòm cổng bằng đá thường có hình nửa đường tròn để có thể chịu lực tốt. Trong hình bên, vòm cổng được ghép bởi sáu phiến đá hai bên tạo thành các cung $AB,\\,BC,\\,CD,EF,FG,GH$ bằng nhau và một phiến đá chốt ở đỉnh. Biết chiều rộng cổng là $120\\,\\text{cm}$ và khoảng cách từ $B$ đến đường kính $AH$ bằng $27\\,\\text{cm}$. Tính khoảng cách từ $C$đến $AH$ (làm tròn kết quả đến chữ số thập phân thứ nhất).\n[[IMG:image18.png]]",
    "explanation": "Gọi $\\widehat{BOA}=\\alpha $ $\\left( 0{}^\\circ <\\alpha <90{}^\\circ \\right)$\nVẽ $B{B}'\\bot AH$, $C{C}'\\bot AH$ $\\left( {B}'\\in AH,\\,{C}'\\in AH \\right)$\nKhi đó ta có $\\sin \\alpha =\\frac{27}{60}=\\frac{9}{20}\\Rightarrow \\text{cos}\\alpha =\\frac{\\sqrt{319}}{20}$.\nLại có $\\widehat{COA}=2\\alpha \\Rightarrow \\sin \\widehat{COA}=\\sin 2\\alpha =2\\sin \\alpha .\\text{cos}\\alpha =2.\\frac{9}{20}.\\frac{\\sqrt{319}}{20}=\\frac{9\\sqrt{319}}{200}$.\nTrong tam giác $CO{C}'$ ta có $\\frac{C{C}'}{OC}=\\sin 2\\alpha \\Rightarrow C{C}'=OC.\\sin 2\\alpha =60.\\frac{9\\sqrt{319}}{200}\\approx 48.2$.\nVậy khoảng cách từ $C$đến $AH$khoảng $48,2\\,\\text{cm}$.",
    "short_value": 48.2,
    "short_correct": "48,2",
@@ -625,6 +625,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L11.C1.B2.D01",
    "dang_toan_web": "Các công thức biến đổi lượng giác (công thức cộng, công thức nhân đôi, công thức biến đổi tích thành tổng, tổng thành tích)."

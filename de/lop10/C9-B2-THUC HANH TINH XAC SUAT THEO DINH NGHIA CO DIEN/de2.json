@@ -132,9 +132,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp đựng 8 quả cầu trắng, 12 quả cầu đen. Lần thứ nhất lấy ngẫu nhiên 1 quả cầu trong hộp, lần thứ hai lấy ngẫu nhiên 1 quả cầu trong các quả cầu còn lại. Tính xác suất để kết quả của hai lần lấy được 2 quả cầu cùng màu.",
    "explanation": "Không gian mẫu là lấy 2 quả cầu trong hộp một cách lần lượt ngẫu nhiên.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{20}^{1}.C_{19}^{1}=380$.\nGọi $A$ biến cố $''$2 quả cầu được lấy cùng màu$''$. Ta có các trường hợp thuận lợi cho biến cố $A$ như sau:\n● TH1: Lần thứ nhất lấy quả màu trắng và lần thứ hai cũng màu trắng.\nDo đó trường hợp này có $C_{8}^{1}.C_{7}^{1}$ cách.\n● TH2: Lần thứ nhất lấy quả màu đen và lần thứ hai cũng màu đen.\nDo đó trường hợp này có $C_{12}^{1}.C_{11}^{1}$ cách.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=C_{8}^{1}.C_{7}^{1}+C_{12}^{1}.C_{11}^{1}$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{C_{8}^{1}.C_{7}^{1}+C_{12}^{1}.C_{11}^{1}}{C_{20}^{1}.C_{19}^{1}}=\\frac{47}{95}.$",
    "options": [
@@ -151,6 +149,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D03",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -162,9 +161,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp chứa 12 viên bi kích thước như nhau, trong đó có 5 viên bi màu xanh được đánh số từ 1 đến 5; có 4 viên bi màu đỏ được đánh số từ 1 đến 4 và 3 viên bi màu vàng được đánh số từ 1 đến 3. Lấy ngẫu nhiên 2 viên bi từ hộp, tính xác suất để 2 viên bi được lấy vừa khác màu vừa khác số.",
    "explanation": "Không gian mẫu là số sách lấy tùy ý 2 viên từ hộp chứa 12 viên bi.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{12}^{2}=66$.\nGọi $A$ là biến cố $''$2 viên bi được lấy vừa khác màu vừa khác số$''$.\n● Số cách lấy 2 viên bi gồm: 1 bi xanh và 1 bi đỏ là $4.4=16$ cách.\n● Số cách lấy 2 viên bi gồm: 1 bi xanh và 1 bi vàng là $3.4=12$ cách.\n● Số cách lấy 2 viên bi gồm: 1 bi đỏ và 1 bi vàng là $3.3=9$ cách.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=16+12+9=37$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{37}{66}$.",
    "options": [
@@ -181,6 +178,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D03",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -192,9 +190,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một hộp đựng $10$ chiếc thẻ được đánh số từ $0$ đến $9$. Lấy ngẫu nhiên ra $3$ chiếc thẻ, tính xác suất để $3$ chữ số trên $3$ chiếc thẻ được lấy ra có thể ghép thành một số chia hết cho $5$.",
    "explanation": "Không gian mẫu là số cách lấy ngẫu nhiên $3$ chiếc thẻ từ $10$ chiếc thẻ.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{10}^{3}=120$.\nGọi $A$ là biến cố $''$ $3$ chữ số trên $3$ chiếc thẻ được lấy ra có thể ghép thành một số chia hết cho $5$ $''$. Để cho biến cố $A$ xảy ra thì trong $3$ thẻ lấy được phải có thẻ mang chữ số $0$ hoặc chữ số $5$. Ta đi tìm số phần tử của biến cố $\\overline{A}$, tức $3$ thẻ lấy ra không có thẻ mang chữ số $0$ và cũng không có thẻ mang chữ số $5$ là $C_{8}^{3}$ cách.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=C_{10}^{3}-C_{8}^{3}$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{C_{10}^{3}-C_{8}^{3}}{C_{10}^{3}}=\\frac{8}{15}.$",
    "options": [
@@ -211,6 +207,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D03",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -222,9 +219,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Gọi $S$ là tập hợp các số tự nhiên gồm $9$ chữ số khác nhau. Chọn ngẫu nhiên một số từ $S$, tính xác suất để chọn được một số gồm $4$ chữ số lẻ và chữ số $0$ luôn đứng giữa hai chữ số lẻ.",
    "explanation": "Số phần tử của tập $S$ là $9.A_{9}^{8}$.\nKhông gian mẫu là chọn ngẫu nhiên $1$ số từ tập $S$.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=9.A_{9}^{8}=3265920$.\nGọi $X$ là biến cố $''$Số được chọn gồm $4$ chữ số lẻ và chữ số $0$ luôn đứng giữa hai chữ số lẻ$''$. Do số $0$ luôn đứng giữa $2$ số lẻ nên số $0$ không đứng ở vị trí đầu tiên và vị trí cuối cùng. Ta có các khả năng\n● Chọn $1$ trong $7$ vị trí để xếp số $0$, có $C_{7}^{1}$ cách.\n● Chọn $2$ trong $5$ số lẻ và xếp vào $2$ vị trí cạnh số $0$ vừa xếp, có $A_{5}^{2}$ cách.\n● Chọn $2$ số lẻ trong $3$ số lẻ còn lại và chọn $4$ số chẵn từ $\\left\\{ 2;\\text{ }4;\\text{ }6;\\text{ }8 \\right\\}$ sau đó xếp $6$ số này vào $6$ vị trí trống còn lại có $C_{3}^{2}.C_{4}^{4}.6!$ cách.\nSuy ra số phần tử của biến cố $X$ là $\\left| {{\\Omega }_{X}} \\right|=C_{7}^{1}.A_{5}^{2}.C_{3}^{2}.C_{4}^{4}.6!=302400$.\nVậy xác suất cần tính $P\\left( X \\right)=\\frac{\\left| {{\\Omega }_{X}} \\right|}{\\left| \\Omega \\right|}=\\frac{C_{7}^{1}.A_{5}^{2}.C_{3}^{2}.C_{4}^{4}.6!}{9.A_{9}^{8}}=\\frac{5}{54}.$",
    "options": [
@@ -241,6 +236,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D03",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -252,9 +248,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "D",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Đội tuyển học sinh giỏi của một trường THPT có $8$ học sinh nam và $4$ học sinh nữ. Trong buổi lễ trao phần thưởng, các học sinh trên được xếp thành một hàng ngang. Tính xác suất để khi xếp sao cho $2$ học sinh nữ không đứng cạnh nhau.",
    "explanation": "Không gian mẫu là số cách sắp xếp tất cả $12$ học sinh thành một hàng ngang. Suy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=12!$.\nGọi $A$ là biến cố $''$Xếp các học sinh trên thành một hàng ngang mà $2$ học sinh nữ không đứng cạnh nhau$''$. Ta mô tả khả năng thuận lợi của biến cố $A$ như sau:\n● Đầu tiên xếp $8$ học sinh nam thành một hàng ngang, có $8!$ cách.\n● Sau đó xem $8$ học sinh này như $8$ vách ngăn nên có $9$ vị trí để xếp $4$ học sinh nữ thỏa yêu cầu bài toán. Do đó có $A_{9}^{4}$ cách xếp $4$ học sinh nữ.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=8!.A_{9}^{4}$.\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{8!A_{9}^{4}}{12!}=\\frac{14}{55}.$",
    "options": [
@@ -271,6 +265,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D04",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -313,9 +308,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Có $5$ đoạn thẳng có độ dài lần lượt là $2cm,\\text{ }4cm,\\text{ }6cm,\\text{ }8cm$ và $10cm$. Lấy ngẫu nhiên $3$ đoạn thẳng trong 5 đoạn thẳng trên, tính xác suất để 3 đoạn thẳng lấy ra lập thành một tam giác.",
    "explanation": "Không gian mẫu là số cách lấy $3$ đoạn thẳng từ 5 đoạn thẳng.\nSuy ra số phần tử của không gian mẫu là $\\left| \\Omega \\right|=C_{5}^{3}=10$.\nGọi $A$ là biến cố $''$3 đoạn thẳng lấy ra lập thành một tam giác$''$. Để ba đoạn thẳng tạo thành một tam giác chỉ có các trường hợp: $\\left( 4cm,\\text{ }6cm,\\text{ }8cm \\right)$ hoặc $\\left( 6cm,\\text{ }8cm,\\text{ }10cm \\right)$ hoặc $\\left( 4cm,\\text{ }8cm,\\text{ }10cm \\right)$.\nSuy ra số phần tử của biến cố $A$ là $\\left| {{\\Omega }_{A}} \\right|=3$.\nVậy xác suất cần tìm $P\\left( A \\right)=\\frac{\\left| {{\\Omega }_{A}} \\right|}{\\left| \\Omega \\right|}=\\frac{3}{10}$.",
    "options": [
@@ -332,6 +325,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C9.B2.D03",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -343,9 +337,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một chi đoàn có 3 đoàn viên nữ và một số đoàn viên nam. Cần lập một đội thanh niên tình nguyện gồm 4 người. Biết xác suất để trong 4 người được chọn có 3 nữ bằng $\\frac{2}{5}$ lần xác suất 4 người được chọn toàn nam. Hỏi chi đoàn đó có bao nhiêu đoàn viên.",
    "explanation": "Gọi số đoàn viên trong chi đoàn đó là $n\\text{ }\\left( n\\ge 7,n\\in {{\\mathbb{N}}^{*}} \\right)$.\nSuy ra số đoàn viên nam trong chi đoàn là $n-3$.\nXác suất để lập đội TNTN trong đó có 3 nữ là $\\frac{C_{3}^{3}.C_{n-3}^{1}}{C_{n}^{4}}$.\nXác suất để lập đội TNTN có toàn nam là $\\frac{C_{n-3}^{4}}{C_{n}^{4}}$.\nTheo giả thiết, ta có $\\frac{C_{3}^{3}.C_{n-3}^{1}}{C_{n}^{4}}=\\frac{2}{5}.\\frac{C_{n-3}^{4}}{C_{n}^{4}}\\Leftrightarrow C_{n-3}^{1}=\\frac{2}{5}.C_{n-3}^{4}\\xrightarrow{{}}n=9.$\nVậy cho đoàn có $9$ đoàn viên.",
    "options": [
@@ -362,6 +354,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C9.B2.D01",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."

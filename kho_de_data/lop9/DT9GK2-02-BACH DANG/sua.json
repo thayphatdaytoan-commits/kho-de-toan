@@ -2,5 +2,132 @@
   "de1.P7.C1": {
     "xac_nhan": true,
     "sua_boi": "muse"
+  },
+  "de1.P4.C1": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Vẽ đồ thị (P) của hàm số trên.",
+        "explanation": "Lập đúng BGT\\n Vẽ đúng đồ thị của hàm số.",
+        "points": 1,
+        "type": "draw",
+        "draw_spec": {
+          "mode": "do_thi",
+          "view": {
+            "xmin": -4,
+            "xmax": 4,
+            "ymin": -5,
+            "ymax": 2
+          },
+          "step": 1,
+          "funcs": [
+            {
+              "id": "P",
+              "label": "y = -x^2",
+              "kind": "quad",
+              "a": -1,
+              "b": 0,
+              "c": 0,
+              "need": 5,
+              "xs": [
+                -2,
+                -1,
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Tìm những điểm M thuộc (P) có hoành độ bằng tung độ.",
+        "explanation": "Để hoành độ bằng tung độ, ta có $x = y$.\\n Thay vào hàm số $y=-{{x}^{2}}$, ta được $x = -x^2$.\\n $x^2 + x = 0 \\Rightarrow x(x+1) = 0$.\\n Suy ra $x=0$ hoặc $x=-1$.\\n Nếu $x=0$, thì $y=0$. Điểm $(0;0)$.\\n Nếu $x=-1$, thì $y=-(-1)^2 = -1$. Điểm $(-1;-1)$.\\n Vậy các điểm M thuộc (P) có hoành độ bằng tung độ là $(0;0)$ và $(-1;-1)$.\\n",
+        "points": 0.5,
+        "type": "multiple_choice",
+        "options": [
+          "$M(0; 0)$ và $M(-1; -1)$",
+          "$M(-1; -1)$ và $M(1; -1)$",
+          "$M(-1; 1)$ và $M(1; -1)$",
+          "$M(0; 0)$ và $M(1; 1)$"
+        ],
+        "correctAnswer": 0
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Lời giải ý b chứa câu bình luận ngoài đề («Đáp án của đề chỉ ghi…») — đã xóa câu này; đáp án trắc nghiệm (0;0) và (-1;-1) đã đúng (x=-x² cho x=0,-1) nên không đổi đáp án.",
+    "xac_nhan": true
+  },
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "$2{{x}^{2}}-6=0$",
+        "explanation": "$2{{x}^{2}}-6=0$\\n $2{{x}^{2}}=6$\\n ${{x}^{2}}=3$\\n $x=\\pm \\sqrt{3}$",
+        "points": 0.5,
+        "type": "multiple_choice",
+        "options": [
+          "$x = \\sqrt{3}$",
+          "$x = \\pm \\sqrt{3}$",
+          "$x = \\pm 3$",
+          "$x = \\pm \\frac{\\sqrt{3}}{2}$"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "$x\\left( x+1 \\right)=2$",
+        "explanation": "$x\\left( x+1 \r\\right)=2$\\n ${{x}^{2}}+x=2$\\n ${{x}^{2}}+x-2=0$\\n Ta có $a=1, b=1, c=-2$. Vì $a+b+c = 1+1-2=0$ nên phương trình có hai nghiệm:\\n ${{x}_{1}}=1$\\n ${{x}_{2}}=\\frac{c}{a}=\\frac{-2}{1}=-2$",
+        "points": 0.5,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "dap_so",
+          "kieu": "dong",
+          "dong": [
+            "$x_1 =$ {{1}}",
+            "$x_2 =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "1"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-2"
+            }
+          ]
+        },
+        "mau_luyen": {
+          "mau": "lap_pt",
+          "kieu": "dong",
+          "dong": [
+            "Giải phương trình ta tìm được $x_1 =$ {{1}} hoặc $x_2 =$ {{2}}"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "1"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "-2"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Đề ý b chứa ký tự carriage return lạ xen giữa «x+1» và «\\right» (tàn dư OCR) có thể làm hỏng hiển thị công thức; đã xóa ký tự này, nội dung phương trình không đổi.",
+    "xac_nhan": true
   }
 }

@@ -486,9 +486,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Gọi $M$và $m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $f\\left( x;y \\right)=x-5y+7$ với $\\left( x;y \\right)$ là nghiệm của hệ bất phương trình $\\left\\{ \\begin{aligned} & 3x-y\\ge -1 \\\\ & 2x+y\\le 6 \\\\ & x+3y\\ge 3 \\\\ \\end{aligned} \\right.$. Tính $S=M+2m.$",
    "explanation": "Trả lời: –14\n[[IMG:image10.emf]]\nVẽ các đường thẳng ${{d}_{1}}:3x-y=-1$; ${{d}_{2}}:2x+y=6$; ${{d}_{3}}:x+3y=3$\nĐiểm $M\\left( 1;1 \\right)$ có tọa độ thỏa mãn tất cả các bất phương trình trong hệ nên ta tô đậm các nửa mặt phẳng bờ ${{d}_{1}};{{d}_{2}};{{d}_{3}}$ không chứa điểm $M$. Miền không bị tô đậm là hình tam giác $ABC$, tính cả ba cạnh $AB,BC,CA$ trong hình vẽ dưới là miền nghiệm của hệ bất phương trình đã cho.\nTìm tọa độ các điểm $A,B,C$:\n$A={{d}_{1}}\\cap {{d}_{3}}$ nên tọa độ của nó là nghiệm của hệ $\\left\\{ \\begin{aligned} & 3x-y=-1 \\\\ & x+3y=3 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=0 \\\\ & y=1 \\\\ \\end{aligned} \\right.$. Vậy $A\\left( 0;1 \\right)$\n$B={{d}_{1}}\\cap {{d}_{2}}$ nên tọa độ của nó là nghiệm của hệ $\\left\\{ \\begin{aligned} & 3x-y=-1 \\\\ & 2x+y=6 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=1 \\\\ & y=4 \\\\ \\end{aligned} \\right.$. Vậy $B\\left( 1;4 \\right)$\n$C={{d}_{2}}\\cap {{d}_{3}}$ nên tọa độ của nó là nghiệm của hệ $\\left\\{ \\begin{aligned} & 2x+y=6 \\\\ & x+3y=3 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x=3 \\\\ & y=0 \\\\ \\end{aligned} \\right.$. Vậy $C\\left( 3;0 \\right)$\nTính giá trị của $f\\left( x;y \\right)=x-5y+7$ tại tất cả các đỉnh của tam giác $ABC$:\n[[IMG:image11.png]]\nSuy ra $m=\\min f\\left( x;y \\right)=f\\left( 1;4 \\right)=-12$ và $M=\\max f\\left( x;y \\right)=f\\left( 3;0 \\right)=10$.\nSuy ra $S=M+2m=10+2\\left( -12 \\right)=-14$.",
    "short_value": -14,
@@ -501,6 +499,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C2.B2.D01",
    "dang_toan_web": "Hệ bất phương trình bậc nhất hai ẩn và miền nghiệm."
@@ -512,9 +511,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=a{{x}^{2}}+bx+c$ có đồ thị là parabol $(P)$. Biết rằng đường thẳng $y=-2$ cắt $(P)$ tại một điểm duy nhất, đường thẳng $y=2$ cắt $(P)$ tại hai điểm phân biệt có hoành độ lần lượt là $-1$ và $5$. Tính giá trị $T=a+2b+4c$.",
    "explanation": "Trả lời: –4\nVì $(P)$ có trục đối xứng là 1 đường thẳng song song hoặc trùng với $Oy$ và đường thẳng $y=2$ cắt $(P)$ tại hai điểm phân biệt có hoành độ lần lượt là $-1$ và $5$ nên trục đối xứng của $(P)$ là đường thẳng $x=\\frac{-1+5}{2}=2$. Vậy hoành độ của đỉnh $(P)$ là $x=2$ và điểm $A\\left( -1;2 \\right)\\in (P)$.\nMà đường thẳng $y=-2$ cắt $(P)$tại một điểm duy nhất nên đường thẳng $y=-2$ đi qua đỉnh của $(P)$. Vậy tung độ của đỉnh $(P)$ là $y=-2$. Suy ra toạ độ đỉnh của $(P)$ là $I\\left( 2;-2 \\right)$.\nTa có : $\\Leftrightarrow \\left\\{ \\begin{aligned} & -\\frac{b}{2a}=2 \\\\ & a-b+c=2 \\\\ & 4a+2b+c=-2 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=\\frac{4}{9} \\\\ & b=-\\frac{16}{9} \\\\ & c=-\\frac{2}{9} \\\\ \\end{aligned} \\right.$.\nVậy $T=a+2b+4c=-4$.",
    "short_value": -4,
@@ -527,6 +524,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C6.B2.D04",
    "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."

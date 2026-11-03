@@ -75,7 +75,7 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": "C",
+   "answer": null,
    "flags": [],
    "question": "Mốt của một bảng phân bố tần số là",
    "explanation": "Mốt của một bảng phân bố tần số là giá trị có tần số lớn nhất.",
@@ -104,7 +104,7 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": "D",
+   "answer": null,
    "flags": [],
    "question": "Miền nghiệm của bất phương trình $-x+2+2\\left( y-2 \\right)>2\\left( 1-x \\right)$ là nửa mặt phẳng không chứa điểm nào trong các điểm sau?",
    "explanation": "Ta có: $-x+2+2\\left( y-2 \\right)>2\\left( 1-x \\right)$ $\\Leftrightarrow -x+2+2y-4>2-2x$ $\\Leftrightarrow x+2y>4$.\n+) Thay $x=7;y=-1$ vào bất phương trình $x+2y>4$ , ta được: $7+2.\\left( -1 \\right)>4$ (đúng).\n+) Thay $x=1;y=2$ vào bất phương trình $x+2y>4$ , ta được: $1+2.2>4$ (đúng).\n+) Thay $x=-4;y=5$ vào bất phương trình $x+2y>4$ , ta được: $-4+2.5>4$ (đúng).\n+) Thay $x=0;y=0$ vào bất phương trình $x+2y>4$ , ta được: $0+2.0>4$ (vô lí).",
@@ -192,7 +192,7 @@
    "type": "multiple_choice",
    "tf": {},
    "tf_ans": {},
-   "answer": "C",
+   "answer": null,
    "flags": [],
    "question": "Cho mẫu số liệu ${{x}_{1}}$, ${{x}_{2}}$,…, ${{x}_{N}}$ có số trung bình là $\\overline{x}$. Phương sai được tính theo công thức nào trong các công thức sau",
    "explanation": "Phương sai được tính theo công thức ${{s}^{2}}=\\frac{1}{N}{{\\sum\\limits_{i=1}^{N}{\\left( {{x}_{i}}-\\overline{x} \\right)}}^{2}}$ hoặc ${{s}^{2}}=\\frac{1}{N}\\sum\\limits_{i=1}^{N}{x_{i}^{2}}-\\frac{1}{{{N}^{2}}}{{\\left( \\sum\\limits_{i=1}^{N}{{{x}_{i}}} \\right)}^{2}}$.",
@@ -222,9 +222,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Cho tam giác $ABC$ đều cạnh $a$, $M$ là trung điểm của $BC$.\nTính $\\left| \\overrightarrow{CA}-\\overrightarrow{MC} \\right|$",
    "explanation": "Ta có $\\left| \\overrightarrow{CA}-\\overrightarrow{MC} \\right|=\\left| \\overrightarrow{CA}+\\overrightarrow{CM} \\right|=\\left| 2\\overrightarrow{CI} \\right|=2CI$ ($I$ là trung điểm của $AM$)\n$=2.\\sqrt{C{{M}^{2}}+I{{M}^{2}}}=2.\\sqrt{{{\\left( \\frac{a}{2} \\right)}^{2}}+{{\\left( \\frac{a\\sqrt{3}}{4} \\right)}^{2}}}=\\frac{a\\sqrt{7}}{2}$",
    "options": [
@@ -241,6 +239,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C4.B5.D01",
    "dang_toan_web": "Góc giữa hai vectơ và tích vô hướng của hai vectơ."
@@ -433,8 +432,7 @@
    "tf_ans": {
     "a": true,
     "b": true,
-    "c": false,
-    "d": true
+    "c": false
    },
    "answer": null,
    "flags": [
@@ -520,9 +518,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Tìm giá trị nhỏ nhất của biểu thức $H(x,y)=x-y$ với điều kiện $\\left\\{ \\begin{array}{l} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y - 3 \\le 0 \\end{array} \\right.$ .",
    "explanation": "Trả lời: -3\nTìm giá trị nhỏ nhất của biểu thức $H(x,y)=x-y$ với điều kiện $\\left\\{ \\begin{array}{l} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y - 3 \\le 0 \\end{array} \\right.$ .\nVẽ đường thẳng $d_1: x=0$ đi qua hai điểm $\\left(0;0\\right)$ và $\\left(0;1\\right)$ .\nVẽ đường thẳng $d_2: y = 0$ đi qua hai điểm $\\left(0;0\\right)$ và $\\left(1;0\\right)$ .\nVẽ đường thẳng $d_3: x + y - 3 = 0$ đi qua hai điểm $\\left(0;3\\right)$ và $(3;0)$ .\nXét điểm $M(1;1)$ . Ta thấy tọa độ $M$ thỏa mãn tất cả các bất phương trình trong hệ.\nDo đó, miền nghiệm của hệ bất phương trình $\\left\\{ \\begin{array}{l} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y - 3 \\le 0 \\end{array} \\right.$ là miền không bị tô đậm (hình tam giác $OAB$ bao gồm cả các cạnh $\\overrightarrow{OA},\\overrightarrow{OB}$ và $AB$ trên hình vẽ).\n[[IMG:image50.png]]\nTìm tọa độ các điểm $O,A,B$ .\nĐiểm $O = d_1 \\cap d_2$ nên tọa độ điểm $0$ là nghiệm của hệ $\\left\\{ \\begin{array}{l} x = 0 \\\\ y = 0 \\end{array} \\right.$ . Vậy $q(0;0)$ .\nĐiểm $A = d_1 \\cap d_3$ nên tọa độ điểm $A$ là\nnghiệm của hệ $\\left\\{ \\begin{aligned} x &= 0 \\\\ x + y - 3 &= 0 \\end{aligned} \\right. \\iff \\left\\{ \\begin{aligned} x &= 0 \\\\ y &= 3 \\end{aligned} \\right.$ . Vậy $A(0;3)$ .\nĐiểm $B = d_2 \\cap d_3$ nên tọa độ điểm $B$ là nghiệm của hệ $\\left\\{ \\begin{aligned} y &= 0 \\\\ x + y - 3 &= 0 \\end{aligned} \\right. \\iff \\left\\{ \\begin{aligned} x &= 3 \\\\ y &= 0 \\end{aligned} \\right.$ .\nVậy $B(3;0)$ .\nTa thấy $F=x-y$ đạt giá trị nhỏ nhất chỉ có thể tại các điểm $O,A,B$ .\nTại $q(0;0)$ thì $F=0$ .\nTại $A(0;3)$ thì $F = -3$\nTại $B(3;0)$ thì $F=3$\nVậy giá trị nhỏ nhất của biểu thức $F=x-y$ trên miền xác định bởi hệ $\\left\\{ \\begin{array}{l} x \\ge 0 \\\\ y \\ge 0 \\\\ x + y - 3 \\le 0 \\end{array} \\right.$ là -3\nkhi $x=0,\\,y=3$ .",
    "short_value": -3,
@@ -535,6 +531,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C2.B2.D02",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."
@@ -546,13 +543,11 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
-   "question": "Muốn đo chiều cao của tháp chàm Por Klong Garai ở Ninh Thuận người ta lấy hai điểm $A$ và $B$ trên mặt đất có khoảng cách $AB=12\\text{m}$ cùng thẳng hàng với chân $C$ của tháp để đặt hai giác kế. Chân của giác kế có chiều cao $h=1,3\\text{m}$ . Gọi $D$ là đỉnh tháp và hai điểm $A \\text{ \\text{và} } 1$ , $B_1$ cùng thẳng hàng với $C_1$ thuộc chiều cao $CD$ của tháp. Người ta đo được góc $\\widehat{D_{1}A_{1}C_{1}}=49^{\\circ}$ và $\\widehat{DBC_{1}}=35^{\\circ}$ . Tính chiều cao $CD$ của tháp.\n[[IMG:image23.png]]",
-   "explanation": "Trả lời: 22,77\nTa có $\\widehat{O_1A_1O_4O_4P}$ ; $\\widehat{CPQ}=35^\\circ$ , nên $\\widehat{ADB}=14^\\circ$ .\nXét tam giác $A_1DB_1$ , có $\\frac{AB}{\\sin \\widehat{ADB}} = \\frac{AD}{\\sin \\widehat{ABD}}$ $\\Rightarrow AD = \\frac{12\\sin35^\\circ}{\\sin14^\\circ}$ $\\approx 28,45\\text{m}$ .\nXét tam giác $C_1A_1D$ vuông tại $C_1$ , có\n$\\sin\\widehat{C_{1}AD_{1}}=\\dfrac{C_{1}D}{AD_{1}}$ $\\overline{AB} = \\overline{CD} \\text{ \\text{và} } \\overline{AC} = \\overline{BD} \\text{ \\text{hoặc} } \\overline{AB} = \\overline{CD} \\text{ \\text{và} } \\overline{AD} = \\overline{BC}$ $\\approx 21,47\\text{m}$ $\\overline{CD} = \\overline{AB} \\text{ \\text{và} } \\overline{CD} \\parallel \\overline{AB} \\text{ \\text{hoặc} } \\overline{CD} = \\overline{AB} \\text{ \\text{và} } \\overline{CD} \\parallel \\overline{AB}$ .",
+   "flags": [],
+   "question": "Muốn đo chiều cao của tháp chàm Por Klong Garai ở Ninh Thuận người ta lấy hai điểm $A$ và $B$ trên mặt đất có khoảng cách $AB=12\\text{m}$ cùng thẳng hàng với chân $C$ của tháp để đặt hai giác kế. Chân của giác kế có chiều cao $h=1,3\\text{m}$ . Gọi $D$ là đỉnh tháp và hai điểm $A_1$, $B_1$ cùng thẳng hàng với $C_1$ thuộc chiều cao $CD$ của tháp. Người ta đo được góc $\\widehat{D_{1}A_{1}C_{1}}=49^{\\circ}$ và $\\widehat{DB_1C_1}=35^{\\circ}$ . Tính chiều cao $CD$ của tháp. (Làm tròn kết quả đến chữ số thập phân thứ nhất.)\n[[IMG:image23.png]]",
+   "explanation": "Trả lời: 22,8\nGọi $A_1$ là điểm gần tháp hơn, $B_1$ xa hơn, $C_1$ là chân tháp trên phương ngang qua giác kế. Trong tam giác $A_1DB_1$, góc tại $A_1$ là $180^\\circ-49^\\circ=131^\\circ$, góc tại $B_1$ là $35^\\circ$ nên góc tại $D$ là $14^\\circ$. Theo định lí sin: $\\frac{A_1B_1}{\\sin 14^\\circ}=\\frac{A_1D}{\\sin 35^\\circ}\\Rightarrow A_1D=\\frac{12\\sin 35^\\circ}{\\sin 14^\\circ}\\approx 28,45\\,\\text{m}$. Trong tam giác vuông $C_1A_1D$: $C_1D=A_1D\\sin 49^\\circ\\approx 21,47\\,\\text{m}$. Vậy $CD=C_1D+1,3\\approx 22,77\\,\\text{m}$, làm tròn đến chữ số thập phân thứ nhất là $22,8\\,\\text{m}$.",
    "short_value": 22.77,
-   "short_correct": "22,77",
+   "short_correct": "22,8",
    "ma": "de1.P3.C19",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -561,6 +556,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C3.B2.D13",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -596,9 +592,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Trong mặt phẳng tọa độ $Oxy$, cho hai điểm $A\\left( 1;3 \\right)$;$B\\left( -1;2 \\right)$. Điểm $M\\left( x;y \\right)$ thuộc tia $AB$ sao cho $AM=\\sqrt{80}$. Giá trị của $x+y$bằng bao nhiêu?",
    "explanation": "Đáp số: $-8$.\nTa có $\\overrightarrow{AB}\\left( -2;-1 \\right)$; $\\overrightarrow{AM}\\left( x-1;y-3 \\right)$\nVì $M$thuộc tia $AB$nên hai vecto $\\overrightarrow{AB}$và $\\overrightarrow{AM}$ cùng hướng hay $\\overrightarrow{AM}=k\\overrightarrow{AB\\,}\\,\\,\\left( k>0 \\right)$\n$\\frac{x-1}{-2}=\\frac{y-3}{-1}=k\\Leftrightarrow x=2y-5\\,\\,\\left( 1 \\right)$.\nMặt khác $AM=\\sqrt{80}\\Leftrightarrow {{\\left( x-1 \\right)}^{2}}+{{\\left( y-3 \\right)}^{2}}=80\\,\\,\\left( 2 \\right)$. Thế $\\left( 1 \\right)$ vào $\\left( 2 \\right)$ ta được :\n${{\\left( 2y-6 \\right)}^{2}}+{{\\left( y-3 \\right)}^{2}}=80\\,\\,\\Leftrightarrow 5{{y}^{2}}-30y-35=0\\Leftrightarrow \\left[ \\begin{aligned} & y=-1 \\\\ & y=7 \\\\ \\end{aligned} \\right.$\n- Với $y=-1$, ta có $x=-7$. Khi đó $k=4$(thỏa mãn).\n- Với $y=7$, ta có $x=9$. Khi đó $k=-4$(loại).\nVậy điểm $M\\left( x;y \\right)$ là $M\\left( -7;-1 \\right)$ với $x+y=-8$.",
    "short_value": -8,
@@ -611,6 +605,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C6.B2.D04",
    "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."

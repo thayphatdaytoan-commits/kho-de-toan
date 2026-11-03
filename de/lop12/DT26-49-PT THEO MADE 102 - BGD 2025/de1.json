@@ -386,19 +386,19 @@
    "n": 2,
    "type": "true_false_group",
    "tf": {
-    "a": "Sai: Vận tốc tức thời của chất điểm tại thời điểm $t\\left( \\text{s} \\right)$ xác định bởi $v\\left( t \\right)={{t}^{2}}-7t+10$.",
-    "b": "Tại thời điểm $t=7$ (s), vận tốc của chất điểm là $6$ (m/s).",
-    "c": "Độ dịch chuyển của vật trong khoảng thời gian $1\\le t\\le 7$ là $18$ m.",
-    "d": "Trong $8$ giây đầu tiên, thời điểm chất điểm xa nhất về phía bên phải là $t=7$ (s)."
+    "a": "Vận tốc tức thời của chất điểm tại thời điểm $t\\left( \\text{s} \\right)$ xác định bởi $v\\left( t \\right)={{t}^{2}}-7t+10$."
    },
    "tf_ans": {
+    "a": false,
     "b": true,
     "c": false,
     "d": false
    },
    "answer": null,
    "flags": [
-    "dung_sai_thieu_dap_an:bcd"
+    "import_web: Câu 14: mệnh đề (b) trống",
+    "import_web: Câu 14: mệnh đề (c) trống",
+    "import_web: Câu 14: mệnh đề (d) trống"
    ],
    "question": "Một chất điểm chuyển động trên đường thẳng nằm ngang (chiều dương hướng sang phải) với gia tốc phụ thuộc vào thời gian $t\\left( \\text{s} \\right)$ là $a\\left( t \\right)=2t-7\\text{ }\\left( \\text{m/}{{\\text{s}}^{2}} \\right)$. Biết vận tốc đầu bằng $\\text{6 }\\left( \\text{m/s} \\right)$, xét tính đúng sai của các khẳng định sau.",
    "explanation": "Ta có $v\\left( t \\right)=\\int{a\\left( t \\right)\\text{d}t}=\\int{\\left( 2t-7 \\right)\\text{d}t}={{t}^{2}}-7t+C$.\n$v\\left( 0 \\right)=6\\Rightarrow C=6$.\nVậy $v\\left( t \\right)={{t}^{2}}-7t+6$ (m/s).\nb) Đúng: Tại thời điểm $t=7$ (s), vận tốc của chất điểm là $6$ (m/s).\n$v\\left( 7 \\right)={{7}^{2}}-7\\cdot 7+6=6$ (m/s).\nc) Sai: Độ dịch chuyển của vật trong khoảng thời gian $1\\le t\\le 7$ là $18$ m.\nĐộ dịch chuyển của vật trong khoảng thời gian $1\\le t\\le 7$ là\n$S=\\int\\limits_{1}^{7}{v\\left( t \\right)\\text{d}t}=\\int\\limits_{1}^{7}{\\left( {{t}^{2}}-7t+6 \\right)\\text{d}t}=\\left. \\left( \\frac{{{t}^{3}}}{3}-\\frac{7{{t}^{2}}}{2}+6t \\right) \\right|_{1}^{7}=-18$.\nd) Sai: Trong $8$ giây đầu tiên, thời điểm chất điểm xa nhất về phía bên phải là $t=7$ (s).\nTọa độ của chất điểm tại thời điểm $t$ là $x\\left( t \\right)=\\int{v\\left( t \\right)\\text{d}t}=\\int{\\left( {{t}^{2}}-7t+6 \\right)\\text{d}t}=\\frac{{{t}^{3}}}{3}-\\frac{7{{t}^{2}}}{2}+6t+C$\nTa cần tìm giá trị lớn nhất của $x\\left( t \\right)$ với $t\\in \\left[ 0;\\,8 \\right]$.\nTa có ${x}'\\left( t \\right)=v\\left( t \\right)=0$ khi $t=1$ hoặc $t=6$.\nLại có $x\\left( 0 \\right)=C$, $x\\left( 1 \\right)=\\frac{17}{6}+C$, $x\\left( 6 \\right)=-18+C$, $x\\left( 8 \\right)=-\\frac{16}{3}+C$.\nVậy giá trị lớn nhất của $x\\left( t \\right)$ với $t\\in \\left[ 0;\\,8 \\right]$ đạt được khi $t=1$.",
@@ -410,6 +410,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C4.B1.D06",
    "dang_toan_web": "Khái niệm nguyên hàm, các tính chất cơ bản và bảng nguyên hàm các hàm số sơ cấp."
@@ -431,9 +432,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Theo định luật làm mát của Newton thì tốc độ làm mát của một vật tỉ lệ thuận với chênh lệch nhiệt độ giữa vật đó và môi trường xung quanh, với điều kiện là chênh lệch này không quá lớn. Giả sử $T(t)$ là nhiệt độ của vật thể (đơn vị: độ C) tại thời điểm $t$ (đơn vị: phút) và $T_s$ là nhiệt độ của môi trường xung quanh, chênh lệch giữa nhiệt độ của vật thể và môi trường xung quanh là $y(t) = T(t) - T_s$ thì ${y}'(t)=k\\cdot y(t)$ với $k$ là hằng số. Một cốc nước đang ở nhiệt độ phòng là $22{}^\\circ \\text{C}$ được đưa vào ngăn mát tủ lạnh có nhiệt độ là $5{}^\\circ \\text{C}$. Sau 30 phút, nhiệt độ của cốc nước được đo lại là $16{}^\\circ \\text{C}$. Cho $f\\left( t \\right)={{e}^{y\\left( t \\right)}}$.",
    "explanation": "Đáp án: Đ Đ S Đ\na) Ta có $y'(t) = k \\cdot y(t) \\Rightarrow \\frac{y'(t)}{y(t)} = k \\Leftrightarrow [\\ln y(t)]' = k$\nNguyên hàm 2 vế, ta được $\\ln y(t)=\\int{k}dt=kt+C$suy ra $y\\left( t \\right)={{e}^{kt+C}}$\n$\\Rightarrow $ mệnh đề đúng.\nb) Khi đặt cốc nước vào tủ lạnh thì khi đó nhiệt độ môi trường xung quanh $T_s = 5$\nKhi đó $y(t) = T(t) - T_s$ tương đương với $e^{kt+C} = T(t) - 5 \\Rightarrow e^{kt+C} + 5 = T(t)$\nLúc ban đầu, nhiệt độ cốc nước là $22{}^\\circ C$ nên $T\\left( 0 \\right)=22$\n$e^{k \\cdot 0 + C} + 5 = T(0) \\Leftrightarrow e^C + 5 = 22 \\Leftrightarrow e^C = 17 \\Leftrightarrow C = \\ln 17$\n$\\Rightarrow $ mệnh đề đúng.\nc) Biết sau 30 phút, nhiệt độ của cốc nước là $16^\\circ\\text{C}$ nên ta có:\n$T(30) = 16 \\Leftrightarrow e^{30k + \\ln 17} + 5 = 16 \\Leftrightarrow e^{30k + \\ln 17} = 11 \\Leftrightarrow 30k + \\ln 17 = \\ln 11$\n$\\Leftrightarrow 30k = \\ln 11 - \\ln 17 = \\ln \\frac{11}{17} \\Leftrightarrow k = \\frac{1}{30} \\ln \\frac{11}{17}$ $\\Rightarrow $mệnh đề sai.\nd) Suy ra $T(t) = e^{\\frac{1}{30} \\ln \\frac{11}{17} t + \\ln 17} + 5$\nĐổi 1 giờ = 60 phút;\nYCBT là xác định nhiệt độ của cốc nước sau 1 giờ hay $T(60)$.\nVậy nhiệt độ của cốc nước sau 1 giờ trong tủ lạnh là $T(60) = e^{60 \\cdot \\frac{1}{30} \\ln \\frac{11}{17} + \\ln 17} + 5 \\approx 12^\\circ\\text{C}$.\n$\\Rightarrow $ mệnh đề đúng.",
    "ma": "de1.P2.C3",
@@ -444,6 +443,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C3.B2.D05",
    "dang_toan_web": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm. Ý nghĩa thực tiễn."
@@ -452,17 +452,20 @@
    "section": 2,
    "n": 4,
    "type": "true_false_group",
-   "tf": {},
+   "tf": {
+    "a": "Drone được đề xuất hoạt động tại vị trí $M\\left( 3;3;3 \\right)$. Vị trí này thuộc vùng không gian an toàn $\\left( S \\right)$.",
+    "b": "Đường bay thẳng nối hai trạm thu phát $A$ và $B$ đi xuyên qua vùng không gian an toàn $\\left( S \\right)$.",
+    "c": "Khi drone di chuyển trên bề mặt vùng không gian an toàn $\\left( S \\right)$, các vị trí có cùng khoảng cách đến đường thẳng $AB$ thì có chi phí vận hành bằng nhau.",
+    "d": "Trong các vị trí mà drone được phép hoạt động trên bề mặt vùng trên mặt cầu $\\left( S \\right)$ chi phí vận hành nhỏ nhất mà drone phải trả là 432 triệu đồng."
+   },
    "tf_ans": {
-    "a": false,
+    "a": true,
     "b": true,
+    "c": false,
     "d": false
    },
    "answer": null,
    "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan",
-    "dung_sai_thieu_y:",
-    "dung_sai_thieu_dap_an:abd",
     "import_web: Câu 16: thiếu Đáp án cho mệnh đề (c)",
     "import_web: Câu 16: thiếu đúng/sai cho mệnh đề (c)"
    ],
@@ -476,6 +479,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C5.B5.D05",
    "dang_toan_web": "Phương trình đường thẳng trong không gian: Vectơ chỉ phương, phương trình tham số, phương trình chính tắc."
@@ -502,6 +506,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L12.C4.B3.D04",
    "dang_toan_web": "Ứng dụng hình học của tích phân: Tính diện tích hình phẳng, thể tích khối tròn xoay."

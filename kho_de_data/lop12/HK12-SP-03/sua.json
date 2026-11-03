@@ -14,14 +14,14 @@
     "sua_boi": "muse"
   },
   "de1.P2.C13": {
-    "ghi_chu": "Ý d ($f(f(x))=4$ có sáu nghiệm) chưa kết luận được: lời giải trong file chỉ xét $f(f(x))=2$, không xét $=4$, và cần đồ thị image17.png để đếm nghiệm — tải ảnh bị GitHub 429, cần tải lại sau (GitHub 429).\nMệnh đề d hỏi phương trình $f(f(x))=4$ có sáu nghiệm, nhưng lời giải chỉ xét $f(f(x))=2$ (cho chín nghiệm: mỗi phương trình $f(x)=a,b,c$ đều có ba nghiệm) — không suy được số nghiệm của $f(f(x))=4$ nếu chưa biết giá trị cực đại của $f$; cần ảnh đồ thị image17.png để đếm. Đã kiểm a, b, c từ lời giải: a Đúng (đồng biến trên $(0;2)$), b Sai (cực tiểu tại $x=0$, không phải $x=-1$), c Đúng ($f(x)=2$ có ba nghiệm $a\\in(-1;0)$, $b\\in(0;2)$, $c\\in(2;3)$).",
-    "ly_do": "a đúng (đồng biến trên $(0;2)$ theo lời giải và đồ thị); b sai (cực tiểu tại $x=0$, không phải $x=-1$); c đúng ($f(x)=2$ có ba nghiệm thuộc $(-1;0)$, $(0;2)$, $(2;3)$).\na, b, c khớp lời giải và đồ thị mô tả; d lệch đề (lời giải xét $=2$ thay vì $=4$).",
-    "sua_boi": "muse",
     "tf_ans": {
       "a": true,
       "b": false,
-      "c": true
-    }
+      "c": true,
+      "d": false
+    },
+    "ly_do": "Ba ý a, b, c giữ nguyên như bản live (a đúng, b sai vì cực tiểu tại $x=0$, c đúng vì $f(x)=2$ có ba nghiệm). Ý d bổ sung từ ảnh image17.png: đồ thị bậc ba có cực tiểu $(0;-1)$, cực đại $(2;3)$ nên $f(u)=4$ chỉ có một nghiệm $u_0<-1$ (vì $4$ lớn hơn giá trị cực đại $3$); phương trình $f(x)=u_0$ với $u_0<-1$ chỉ có hai nghiệm (một trên nhánh trái, một trên nhánh phải), không phải sáu nghiệm, nên ý d sai. Lưu ý: lời giải trong file xét $f(f(x))=2$ (chín nghiệm) chứ không xét $=4$, nên không dùng được cho ý d.",
+    "sua_boi": "muse"
   },
   "de1.P2.C15": {
     "ly_do": "a đúng ($|\\overrightarrow{AB}|=\\sqrt{140^2+50^2+1^2}=\\sqrt{22101}\\approx148,66$, làm tròn là $149$); b sai (lời giải trong file tự ghi \"(sai)\": độ cao theo tọa độ và góc bay $30^\\circ$ mâu thuẫn nhau — điểm A nhìn từ gốc chỉ cao khoảng $0,43^\\circ$, không phải $30^\\circ$, nên công thức $OA\\cdot\\sin30^\\circ$ không cho độ cao tại A); c sai (mệnh đề về vị trí D sau 10 phút gắn với \"độ cao lớn nhất\" $620$ km: theo cùng cách tính $OD\\cdot\\sin30^\\circ\\approx621\\ne620$ và máy bay bay thẳng thì không có độ cao lớn nhất); d đúng (cùng vận tốc, thời gian B→C bằng nửa A→B nên $\\overrightarrow{BC}=\\frac12\\overrightarrow{AB}$ và $C=(1010;575;8,5)$).",

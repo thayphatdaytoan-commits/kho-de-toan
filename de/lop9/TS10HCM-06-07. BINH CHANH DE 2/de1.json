@@ -390,6 +390,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C1.B5.D04",
    "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
@@ -659,9 +660,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_c_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -676,7 +675,8 @@
         "lines": [
          "Xét $\\triangle {{1}}{{2}}{{3}}$ và $\\triangle {{4}}{{5}}{{6}}$ có:",
          "• $O{{7}} = O{{8}}$ (bán kính)",
-         "• $A{{9}} = A{{10}}$ (tiếp tuyến)"
+         "• $A{{9}} = A{{10}}$ (tiếp tuyến)",
+         "• $OA$ chung"
         ],
         "hint": "Xét hai tam giác bằng nhau"
        },
@@ -686,6 +686,13 @@
          "Suy ra $OA$ là trung trực của $BC$"
         ],
         "hint": "Kết luận hai tam giác bằng nhau"
+       },
+       {
+        "lines": [
+         "Ta có $\\widehat{OBA}=90^\\circ$ và $\\widehat{OCA}=90^\\circ$ (tiếp tuyến vuông góc với bán kính tại tiếp điểm).",
+         "Suy ra $B, C$ cùng nhìn $OA$ dưới góc vuông nên bốn điểm $O, A, B, C$ cùng thuộc đường tròn đường kính $OA$."
+        ],
+        "hint": "Chứng minh bốn điểm cùng thuộc một đường tròn"
        }
       ],
       "blanks": [
@@ -1162,6 +1169,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C5.B2.D02",
    "dang_toan_web": "Vị trí tương đối của đường thẳng và đường tròn. Tiếp tuyến của đường tròn."

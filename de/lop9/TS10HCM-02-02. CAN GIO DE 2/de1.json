@@ -20,9 +20,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_y_a_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -104,6 +102,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C6.B1.D02",
    "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
@@ -268,10 +267,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan",
-    "loi_giai_y_a_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -291,7 +287,7 @@
      "id": "b",
      "label": "b",
      "question": "Ông Thành được đền bù số tiền [[IMG:image13.png]] triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị [[IMG:image14.png]] biết giá đền bù đất bị thu hồi là [[IMG:image15.png]] triệu đồng/[[IMG:image16.png]].",
-     "explanation": "Diện tích thu hồi = Số tiền / Giá đền bù. Giải phương trình bậc hai tìm x.",
+     "explanation": "Số tiền đền bù là 455 triệu đồng, giá đền bù là 13 triệu đồng/m² nên diện tích đất bị thu hồi là $455:13=35$ (m²).\nTheo ý a, diện tích thu hồi là $0,5(10-x)^2$ nên $0,5(10-x)^2=35$, suy ra $(10-x)^2=70$.\nVì $0<x<10$ nên $10-x=\\sqrt{70}$, do đó $x=10-\\sqrt{70}\\approx 1,63$ (m).\nVậy $x\\approx 1,63$.",
      "type": "form_mau",
      "mau_spec": {
       "mau": "dap_so",
@@ -303,7 +299,7 @@
        {
         "id": "1",
         "loai": "so",
-        "dap_an": "5"
+        "dap_an": "1.63"
        }
       ]
      },
@@ -321,22 +317,22 @@
        {
         "id": "1",
         "loai": "bt",
-        "dap_an": "0.5*x*(x+1)"
+        "dap_an": "0.5*(10-x)^2"
        },
        {
         "id": "2",
         "loai": "bt",
-        "dap_an": "0.5*x*(x+1)=15"
+        "dap_an": "0.5*(10-x)^2=35"
        },
        {
         "id": "3",
         "loai": "so",
-        "dap_an": "5"
+        "dap_an": "1.63"
        },
        {
         "id": "4",
         "loai": "so",
-        "dap_an": "5"
+        "dap_an": "1.63"
        }
       ]
      }
@@ -353,6 +349,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C4.B3.D02",
    "dang_toan_web": "Ứng dụng tỉ số lượng giác để giải một số bài toán thực tế."

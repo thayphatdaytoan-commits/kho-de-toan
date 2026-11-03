@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "1",
   "lesson": "2",
-  "title": "Bài 2. Các phép biến đổi lượng giác"
+  "title": "Bài 2. Các phép biến đổi lượng giác",
+  "exam_type": "lesson"
  },
  "no": 1,
  "sections": {
@@ -510,7 +511,7 @@
    "flags": [],
    "question": "Cho ${\\sin x=\\frac{1}{5}, \\frac{\\pi}{2}<x<\\pi}$. Tính ${\\cot 2 x}$.",
    "explanation": "Cho ${\\sin x=\\frac{1}{5}, \\frac{\\pi}{2}<x<\\pi}$. Tính ${\\cot 2 x}$.\n$\\begin{aligned} & \\frac{\\pi }{2}<x<\\pi \\Rightarrow \\frac{2\\pi }{2}<2x<2\\pi \\Rightarrow \\pi <2x<2\\pi \\Rightarrow \\left\\{ \\begin{array}{llllll} \\cos 2x>0 \\\\ \\tan 2x<0 \\\\ \\end{array} \\right. \\\\ & \\cos 2x=1-2{{\\sin }^{2}}x=1-2\\cdot \\frac{1}{25}=\\frac{23}{25} \\\\ & \\frac{\\pi }{2}<x<\\pi \\Rightarrow \\cos x<0 \\\\ & \\sin x=\\frac{1}{5}\\Rightarrow \\cos x=-\\sqrt{1-{{\\sin }^{2}}x}=-\\frac{2\\sqrt{6}}{5}. \\\\ & \\sin 2x=2\\sin x\\cdot \\cos x=2\\cdot \\frac{1}{5}\\cdot \\left( -\\frac{2\\sqrt{6}}{5} \\right)=-\\frac{4\\sqrt{6}}{5} \\\\ & \\cot 2x=\\frac{\\cos 2x}{\\sin 2x}=\\frac{\\frac{23}{25}}{-\\frac{4\\sqrt{6}}{5}}=-\\frac{23\\sqrt{6}}{120} \\\\ \\end{aligned}$",
-   "short_value": null,
+   "short_value": 23,
    "short_correct": "-\\dfrac{23\\sqrt{6}}{120}|-23√6/120",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -535,7 +536,7 @@
    "flags": [],
    "question": "Cho các góc ${\\alpha, \\beta}$ thỏa mãn ${\\frac{\\pi}{2}<\\alpha, \\beta<\\pi, \\sin \\alpha=\\frac{1}{3}, \\cos \\beta=-\\frac{2}{3}}$.\nTính ${\\sin (\\alpha+\\beta)}$.",
    "explanation": "Do ${\\frac{\\pi}{2}<\\alpha, \\beta<\\pi \\Rightarrow\\left\\{\\begin{array}{l}\\cos \\alpha<0 \\\\ \\sin \\beta>0\\end{array}\\right.}$.\nTa có ${\\cos \\alpha=-\\sqrt{1-\\sin ^2 \\alpha}=-\\sqrt{1-\\frac{1}{9}}=-\\frac{2 \\sqrt{2}}{3} ; \\sin \\beta=\\sqrt{1-\\cos ^2 \\beta}=\\sqrt{1-\\frac{4}{9}}=\\frac{\\sqrt{5}}{3}}$.\nSuy ra ${\\sin (\\alpha+\\beta)=\\sin \\alpha \\cdot \\cos \\beta+\\cos \\alpha \\cdot \\sin \\beta=\\frac{1}{3} \\cdot\\left(-\\frac{2}{3}\\right)+\\left(-\\frac{2 \\sqrt{2}}{3}\\right) \\cdot \\frac{\\sqrt{5}}{3}=-\\frac{2+2 \\sqrt{10}}{9}}$.\nVậy ${\\sin (\\alpha+\\beta)=-\\frac{2+2 \\sqrt{10}}{9}}$.",
-   "short_value": null,
+   "short_value": 1,
    "short_correct": "-\\dfrac{2+2\\sqrt{10}}{9}|-(2+2√10)/9",
    "ma": "de1.P3.C2",
    "dac_trung": {
@@ -560,7 +561,7 @@
    "flags": [],
    "question": "Rút gọn ${C=\\tan 3 x-\\tan x-\\frac{2 \\sin x}{\\cos 3 x}}$",
    "explanation": "Ta có: ${C=\\tan 3 x-\\tan x-\\frac{2 \\sin x}{\\cos 3 x}=\\frac{\\sin 3 x}{\\cos 3 x}-\\frac{\\sin x}{\\cos x}-\\frac{2 \\sin x}{\\cos 3 x}}$\n${\\begin{aligned} & =\\frac{\\sin 3 x \\cos x-\\sin x \\cos 3 x}{\\cos 3 x \\cos x}-\\frac{2 \\sin x}{\\cos 3 x}=\\frac{\\sin 2 x}{\\cos 3 x \\cos x}-\\frac{2 \\sin x}{\\cos 3 x} \\\\ & =\\frac{2 \\sin x \\cos x}{\\cos 3 x \\cos x}-\\frac{2 \\sin x}{\\cos 3 x}=\\frac{2 \\sin x}{\\cos 3 x}-\\frac{2 \\sin x}{\\cos 3 x}=0 . \\end{aligned} }$",
-   "short_value": null,
+   "short_value": 0,
    "short_correct": "0",
    "ma": "de1.P3.C3",
    "dac_trung": {
@@ -614,7 +615,7 @@
    ],
    "question": "Trong Hình 3, tam giác $ABC$ vuông tại $B$ và có hai cạnh góc vuông là $AB=4,BC=3$. Vẽ điểm $D$ nằm trên tia đối của tia $CB$ thoả mãn $\\widehat{CAD}={{30}^{\\circ }}$. Tính $\\text{tan}\\widehat{\\text{ }BAD}$, từ đó tính độ dài cạnh $CD$.\n[[IMG:image13.png]]\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "Xét tam giác ABC vuông tại B có: $\\text{tan}\\widehat{BAC}=\\frac{3}{4}$\nTa lại có: $\\widehat{BAD}=\\widehat{BAC}+\\widehat{CAD}$\n$\\Rightarrow \\text{tan}\\widehat{\\text{BAD}}=\\text{tan}\\left( \\widehat{\\text{BAC}}+\\widehat{\\text{CAD}} \\right)=\\text{tan}\\left( \\widehat{\\text{BAC}}+{{30}^{\\circ }} \\right)=\\frac{\\text{tan}\\widehat{\\text{BAC}}+\\text{tan}{{30}^{\\circ }}}{1-\\text{tan}\\widehat{\\text{BAC}}\\cdot \\text{tan}{{30}^{\\circ }}}$ $=\\frac{\\frac{3}{4}+\\frac{\\sqrt{3}}{3}}{1-\\frac{3}{4}\\cdot \\frac{\\sqrt{3}}{3}}=\\frac{48+25\\sqrt{3}}{39}\\approx 2,34.$\nXét tam giác ABD vuông tại B có:\n$\\begin{array}{rrrrrr} {} & \\text{tan}\\widehat{BAD}=\\frac{BD}{AB}\\Rightarrow BD=\\text{tan}\\widehat{BAD}\\cdot AB=2,34.4\\approx 9,36. \\\\ {} & ~\\Rightarrow CD=BD-BC\\approx 9,36-3=6,36. \\\\ \\end{array}$",
-   "short_value": 2.34,
+   "short_value": 6.36,
    "short_correct": "2,3",
    "ma": "de1.P3.C5",
    "dac_trung": {
@@ -639,7 +640,7 @@
    "flags": [],
    "question": "Trong Hình 4, pit-tông $M$ của động cơ chuyển động tịnh tiến qua lại dọc theo xi-lanh làm quay trục khuỷu $IA$. Ban đầu $I,A,M$ thẳng hàng. Cho $\\alpha$ là góc quay của trục khuỷu, $O$ là vị trí của pít-tông khi $\\alpha=\\frac{\\pi}{2}$ và là hình chiếu của $A$ lên $Ix$. Trục khuỷu $IA$ rất ngắn so với độ dài thanh truyền $AM$ nên có thể xem như độ dài $MH$ không đổi và gần bằng $MA$. Biết $IA=8$ cm, tọa độ của $M$ trên trục $Ox$ là $x_M=8\\cos\\alpha$. Ban đầu $\\alpha=0$. Sau 1 phút chuyển động, $x_M=-3$ cm. Xác định $x_M$ sau 2 phút chuyển động (trục khuỷu quay đều). Làm tròn kết quả đến hàng phần mười.\n[[IMG:image14.png]]",
    "explanation": "Tại $\\alpha =\\frac{\\pi }{2}$ thì $\\text{H}$ trùng $\\text{I},\\text{M}$ trùng $\\text{O}$ nên $\\text{MH}=\\text{OI}$ do đó $\\text{OM}=\\text{IH}$.\nXét tam giác AHI vuông tại H có: $\\text{IH}=\\text{cos}a.\\text{IA}=8\\text{cos}\\alpha $.",
-   "short_value": null,
+   "short_value": 8,
    "short_correct": "-5,8|-5,75",
    "ma": "de1.P3.C6",
    "dac_trung": {

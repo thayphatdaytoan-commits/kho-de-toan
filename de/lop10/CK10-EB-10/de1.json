@@ -272,11 +272,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Cho hàm số $f(x)=\\begin{cases} \\dfrac{2\\sqrt{x-2}-3}{x-1} & \\text{ khi } x\\geq 2 \\\\ x^2+2 & \\text{ khi } x<2 \\end{cases}$ . Tính $P = f(2) + f(-2)$ .",
-   "explanation": "Ta có: $f(2)+f(-2)=\\frac{\\sqrt{2223}}{24}+2^2-2$ $\\Rightarrow P=3$ .",
+   "explanation": "Ta có $f(2)=\\frac{2\\sqrt{2-2}-3}{2-1}=-3$ và $f(-2)=(-2)^2+2=6$.\nVậy $P=f(2)+f(-2)=-3+6=3$.",
    "options": [
     "$P=3$",
     "$P=2$",
@@ -291,6 +289,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C6.B1.D03",
    "dang_toan_web": "Khái niệm hàm số, tập xác định, tập giá trị."
@@ -516,11 +515,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Hai chiếc tàu thuỷ $P$và $Q$ trên biển cách nhau $100m$ và thẳng hàng với chân $A$ của tháp hải đăng $AB$ ở trên bờ biển ($Q$ nằm giữa hai điểm $P$và $A$). Từ $P$ và $Q$ người ta nhìn chiều cao $AB$của tháp dưới các góc $\\widehat{BPA}=15{}^\\circ $ và $\\widehat{BQA}=55{}^\\circ $. Tính chiều cao của tháp ( kết quả làm tròn đến hàng đơn vị )",
-   "explanation": "Trả lời: 33\n[[IMG:image50.png]]\nTa có $\\widehat{PBQ}={{55}^{0}}-{{15}^{0}}={{40}^{0}}$. Áp dụng định lí sin cho tam giác $\\Delta PBQ$ ta có\n$\\frac{BQ}{\\sin {{15}^{0}}}=\\frac{100}{\\sin {{40}^{0}}}\\Leftrightarrow BQ=\\frac{100}{\\sin {{40}^{0}}}.\\sin {{15}^{0}}$\nChiều cao của tháp là $AB=\\sin {{55}^{0}}.BQ=\\sin {{55}^{0}}.\\sin {{15}^{0}}.\\frac{100}{\\sin {{40}^{0}}}\\approx 33m$\nCó ba nhóm máy $A,B,C$ dùng để sản xuất ra hai loại sản phẩm $I$ và II. Để sản xuất một đơn vị sản phẩm mỗi loại phải lần lượt dùng các máy thuộc các nhóm khác nhau. Số máy trong một nhóm và số máy của từng nhóm cần thiết để sản xuất ra một đơn vị sản phẩm thuộc mỗi loại được cho trong bảng sau:\n[[IMG:image51.png]]\nMột đơn vị sản phẩm loại $I$ lãi ba triệu đồng, một đơn vị sản phẩm loại $II$ lãi năm triệu đồng. Lãi suất cao nhất mà đơn vị thu được là\nTrả lời: 17\nGọi $x,y$ lần lượt là số sản phẩm loại $I$ và số sản phẩm loại $II$ được sản xuất (Điều kiện $x,y\\ge 0$)\nSố máy loại A cần để sản xuất không vượt quá 10 nên $2x+2y\\le 10$ hay $x+y\\le 5$.\nSố máy loại B cần để sản xuất không vượt quá 4 nên $0x+2y\\le 4$ hay $y\\le 2$.\nSố máy loại C cần để sản xuất không vượt quá 12 nên $2x+4y\\le 12$ hay $x+2y\\le 6$.\nVì số máy của mỗi nhóm được cho chi tiết trong bảng nên ta có hệ bất phương trình $\\left\\{ \\begin{aligned} & x\\ge 0 \\\\ & y\\ge 0 \\\\ & x+y\\le 5 \\\\ & y\\le 2 \\\\ & x+2y\\le 6 \\\\ \\end{aligned} \\right.$\nHệ bất phương trình có miền nghiệm là ngũ giác $OBCDE$ với $O\\left( 0;0 \\right),B\\left( 0;2 \\right)$ $,C\\left( 2;2 \\right),D\\left( 4;1 \\right)$ và $E\\left( 5;0 \\right)$ (như hình vẽ bên dưới).\n[[IMG:image52.png]]\nLợi nhuận thu được khi sản xuất $x$ sản phẩm loại I và $y$ sản phẩm loại II là $F\\left( x;y \\right)=3x+5y$\nTa thấy $F\\left( 0;0 \\right)=0$, $F\\left( 0;2 \\right)=10$, $F\\left( 2;2 \\right)=16$, $F\\left( 4;1 \\right)=17$ và $F\\left( 5;0 \\right)=15$ nên lợi nhuận thu được nhiều nhất là 17 triệu đồng khi sản xuất $4$ sản phẩm loại I và $1$ sản phẩm loại II.",
+   "explanation": "Trả lời: 33\n[[IMG:image50.png]]\nTa có $\\widehat{PBQ}={{55}^{0}}-{{15}^{0}}={{40}^{0}}$. Áp dụng định lí sin cho tam giác $\\Delta PBQ$ ta có\n$\\frac{BQ}{\\sin {{15}^{0}}}=\\frac{100}{\\sin {{40}^{0}}}\\Leftrightarrow BQ=\\frac{100}{\\sin {{40}^{0}}}.\\sin {{15}^{0}}$\nChiều cao của tháp là $AB=\\sin {{55}^{0}}.BQ=\\sin {{55}^{0}}.\\sin {{15}^{0}}.\\frac{100}{\\sin {{40}^{0}}}\\approx 33m$",
    "short_value": 33,
    "short_correct": "33",
    "ma": "de1.P3.C2",
@@ -531,6 +528,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C3.B2.D13",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -590,9 +588,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "cong_thuc_ocr_AI_can_xem"
-   ],
+   "flags": [],
    "question": "Cho parabol $\\left( P \\right)$: $y=a{{x}^{2}}+bx+c$, $a\\ne 0$, biết: $\\left( P \\right)$ đi qua $M(4;3)$, $\\left( P \\right)$ cắt $Ox$ tại $N(3;0)$ và $Q$ sao cho $\\Delta INQ$ có diện tích bằng 1 đồng thời hoành độ điểm $Q$ nhỏ hơn $3$với I là đinh của. Tính $a+b+c$.",
    "explanation": "Trả lời: 0\nVì $\\left( P \\right)$đi qua $M(4;3)$nên $3=16a+4b+c$\nMặt khác $\\left( P \\right)$cắt $Ox$tại $N(3;0)$suy ra $0=9a+3b+c$, $\\left( P \\right)$cắt $Ox$tại $Q$nên $Q\\left( t;0 \\right),\\,\\,t<3$\nTheo định lý Viét ta có $\\left\\{ \\begin{matrix} t+3=-\\frac{b}{a} \\\\ 3t=\\frac{c}{a} \\\\ \\end{matrix} \\right.$.\nTa có ${{S}_{\\Delta INQ}}=\\frac{1}{2}IH.NQ$với $H$là hình chiếu của $I\\left( -\\frac{b}{2a};-\\frac{\\Delta }{4a} \\right)$lên trục hoành\nDo $IH=\\left| -\\frac{\\Delta }{4a} \\right|$, $NQ=3-t$nên ${{S}_{\\Delta INQ}}=1\\Leftrightarrow \\frac{1}{2}\\left| -\\frac{\\Delta }{4a} \\right|.\\left( 3-t \\right)=1$\n$\\Leftrightarrow \\left( 3-t \\right)\\left| {{\\left( \\frac{b}{2a} \\right)}^{2}}-\\frac{c}{a} \\right|=\\left| \\frac{2}{a} \\right|\\Leftrightarrow \\left( 3-t \\right)\\left| {{\\frac{\\left( t+3 \\right)}{4}}^{2}}-3t \\right|=\\left| \\frac{2}{a} \\right|\\Leftrightarrow {{\\left( 3-t \\right)}^{3}}=\\frac{8}{\\left| a \\right|}$\nTừ và ta có $7a+b=3\\Leftrightarrow b=3-7a$suy ra $t+3=-\\frac{3-7a}{a}\\Leftrightarrow \\frac{1}{a}=\\frac{4-t}{3}$\nThay vào ta có ${{\\left( 3-t \\right)}^{3}}=\\frac{8\\left( 4-t \\right)}{3}\\Leftrightarrow 3{{t}^{3}}-27{{t}^{2}}+73t-49=0\\Leftrightarrow t=1$\nSuy ra $a=1\\Rightarrow b=-4\\Rightarrow c=3$. Vậy $a+b+c=1-4+3=0$.",
    "short_value": 0,
@@ -605,6 +601,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C6.B2.D01",
    "dang_toan_web": "Hàm số bậc hai: Bảng biến thiên, vẽ đồ thị hàm số parabol."

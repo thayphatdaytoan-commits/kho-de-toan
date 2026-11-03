@@ -397,14 +397,12 @@
     "a": true,
     "b": false,
     "c": true,
-    "d": true
+    "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Lớp 54vl2 Trường Đại học Xây dựng Hà Nội có 25 sinh viên tham gia câu lạc bộ bóng đá, 18 sinh viên tham gia câu lạc bộ cầu lông, 22 học sinh tham gia câu lạc bộ đá cầu, 5 sinh viên chỉ tham gia câu lạc bộ bóng đá và cầu lông, 6 sinh viên chỉ tham gia câu lạc bộ bóng đá và đá cầu, 7 sinh viên chỉ tham gia câu lạc bộ cầu lông và đá cầu , 3 sinh viên tham gia cả 3 câu lạc bộ.Các mệnh đề sau đúng hay sai?",
-   "explanation": "Kí hiệu:\n$B$ là tập hợp sinh viên tham gia câu lạc bộ bóng đá.\n$C$ là tập hợp sinh viên tham gia câu lạc bộ cầu lông.\n$D$ là tập hợp sinh viên tham gia câu lạc bộ đá cầu.\nTa có thể biểu diễn ba tập hợp trên bằng biểu đồ Ven như hình sau:\n[[IMG:image5.emf]]\na) Số sinh viên chỉ tham gia câu lạc bộ bóng đá là :$25-\\left( 5+3+6 \\right)=11$.Suy ra mệnh đề đúng.\nb) Số sinh viên chỉ tham gia câu lạc bộ cầu lông là $18-\\left( 5+3+7 \\right)=3$. Suy ra mệnh đề sai.\nc) Số sinh viên chỉ tham gia câu lạc bộ đá cầu là $ $ $22-\\left( 6+3+7 \\right)=6$. Suy ra mệnh đề đúng.\nd) Số sinh viên chỉ tham gia ít nhất một câu lạc bộ là $11+3+6+5+6+7+3=41.$ Suy ra mệnh đề đúng.",
+   "explanation": "Kí hiệu:\n$B$ là tập hợp sinh viên tham gia câu lạc bộ bóng đá.\n$C$ là tập hợp sinh viên tham gia câu lạc bộ cầu lông.\n$D$ là tập hợp sinh viên tham gia câu lạc bộ đá cầu.\nTa có thể biểu diễn ba tập hợp trên bằng biểu đồ Ven như hình sau:\n[[IMG:image5.emf]]\na) Số sinh viên chỉ tham gia câu lạc bộ bóng đá là :$25-\\left( 5+3+6 \\right)=11$.Suy ra mệnh đề đúng.\nb) Số sinh viên chỉ tham gia câu lạc bộ cầu lông là $18-\\left( 5+3+7 \\right)=3$. Suy ra mệnh đề sai.\nc) Số sinh viên chỉ tham gia câu lạc bộ đá cầu là $ $ $22-\\left( 6+3+7 \\right)=6$. Suy ra mệnh đề đúng.\nd) Số sinh viên chỉ tham gia ít nhất một câu lạc bộ là $11+3+6+5+6+7+3=41\\ne 40.$ Suy ra mệnh đề sai.",
    "ma": "de1.P2.C14",
    "dac_trung": {
     "so_dong_loi_giai": 10,
@@ -413,6 +411,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C9.B2.D04",
    "dang_toan_web": "Định nghĩa cổ điển của xác suất."
@@ -434,9 +433,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Bác Hưng dự định trồng hai loại cây ăn trái là mít và xoài trong nông trại rộng $100$ hecta. Biết mỗi hecta trồng mít cần $25$ công chăm sóc và thu lại lợi nhuận $160$ triệu đồng, mỗi hecta trồng xoài cần $50$ công chăm sóc và thu lại lợi nhuận $190$ triệu đồng. Biết rằng tổng số công cần dùng không được vượt quá $3500$ công. Gọi $x,y$ lần lượt là diện tích đất dùng để trồng mít và xoài. Khi đó các mệnh đề sau đúng hay sai?",
    "explanation": "a) $x+y\\le 100$. Suy ra mệnh đề sai.\nb) Số công cần dùng là $25x+50y\\le 3500$ hay $x+2y\\le 140$. Suy ra mệnh đề đúng.\nc) Tổng số tiền thu được là $F=160x+190y$ . Suy ra mệnh đề đúng.\nd) Điều kiện: $x\\ge 0$, $y\\ge 0$.\nNên ta cần tìm $x,y$ thỏa mãn hệ bất phương trình: $\\left\\{ \\begin{aligned} & x\\ge 0 \\\\ & y\\ge 0 \\\\ & x+y\\le 100 \\\\ & x+2y\\le 140 \\\\ \\end{aligned} \\right.$ sao cho $F=160x+190y$ đạt giá trị lớn nhất.\nBiểu diễn tập nghiệm của hệ bất phương trình trên ta được miền tứ giác $OABC$ với $A\\left( 0\\,;\\,70 \\right)$, $B\\left( 60\\,;\\,40 \\right)$, $C\\left( 100\\,;\\,0 \\right)$ và $O\\left( 0\\,;\\,0 \\right)$ như hình bên dưới\n[[IMG:image6.png]]\nBiểu thức $F=160x+190y$ đạt giá trị lớn nhất tại $\\left( x\\,;\\,y \\right)$ là tọa độ một trong các đỉnh của tứ giác.\nTa có:\n$F\\left( 0\\,;\\,0 \\right)=0$, $F\\left( 0\\,;\\,70 \\right)=13300$, $F\\left( 100\\,;\\,0 \\right)=16000$, $F\\left( 60\\,;\\,40 \\right)=17200$.\nKhi đó giá trị lớn nhất tại $B\\left( 60\\,;\\,40 \\right)$ nghĩa là bác Hưng cần trồng $60$ hecta mít và $40$ hecta xoài thì thu được lợi nhuận lớn nhất là $17,2$ tỷ đồng.\nSuy ra mệnh đề sai.",
    "ma": "de1.P2.C15",
@@ -447,6 +444,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C2.B2.D03",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."

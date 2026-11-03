@@ -1,22 +1,38 @@
 {
- "de1.P1.C5": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề RWOaN7BbAs8PnDTFk2Ee) — mặc định bỏ"
- },
- "de1.P2.C13": {
-  "tf_ans": {
-   "a": true,
-   "b": false,
-   "c": true,
-   "d": false
+  "de1.P1.C5": {
+    "bo_cau": true,
+    "sua_boi": "claude",
+    "ly_do": "Trùng câu đã có trên web (đề RWOaN7BbAs8PnDTFk2Ee) — mặc định bỏ"
   },
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án (giải lại độc lập): tan a=3/4 ⇒ P=(9/16−2)/(1−45/16)=23/29 nên ý d SAI; lời giải biến đổi sai (cos²a−5sin²a=1−6sin²a, không phải 1−4sin²a); key ghi dĐ"
- },
- "de1.P3.C21": {
-  "short_correct": "5,25",
-  "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án (giải lại độc lập): giải chính xác: AD=19,7546 km ⇒ giảm 25−19,7546=5,2454 ≈ 5,25 (làm tròn 2 chữ số thập phân như đề yêu cầu); key 5,24 do lời giải làm tròn góc trung gian (17°42', AD≈19,76)"
- }
+  "de1.P2.C13": {
+    "tf_ans": {
+      "a": true,
+      "b": false,
+      "c": true,
+      "d": false
+    },
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án (giải lại độc lập): tan a=3/4 ⇒ P=(9/16−2)/(1−45/16)=23/29 nên ý d SAI; lời giải biến đổi sai (cos²a−5sin²a=1−6sin²a, không phải 1−4sin²a); key ghi dĐ"
+  },
+  "de1.P3.C21": {
+    "short_correct": "5,25",
+    "sua_boi": "grokbot",
+    "ly_do": "Sửa đáp án (giải lại độc lập): giải chính xác: AD=19,7546 km ⇒ giảm 25−19,7546=5,2454 ≈ 5,25 (làm tròn 2 chữ số thập phân như đề yêu cầu); key 5,24 do lời giải làm tròn góc trung gian (17°42', AD≈19,76)"
+  },
+  "de1.P2.C14": {
+    "tf_ans": {
+      "a": true,
+      "b": false,
+      "c": true,
+      "d": false
+    },
+    "explanation": "Kí hiệu:\n$B$ là tập hợp sinh viên tham gia câu lạc bộ bóng đá.\n$C$ là tập hợp sinh viên tham gia câu lạc bộ cầu lông.\n$D$ là tập hợp sinh viên tham gia câu lạc bộ đá cầu.\nTa có thể biểu diễn ba tập hợp trên bằng biểu đồ Ven như hình sau:\n[[IMG:image5.emf]]\na) Số sinh viên chỉ tham gia câu lạc bộ bóng đá là :$25-\\left( 5+3+6 \\right)=11$.Suy ra mệnh đề đúng.\nb) Số sinh viên chỉ tham gia câu lạc bộ cầu lông là $18-\\left( 5+3+7 \\right)=3$. Suy ra mệnh đề sai.\nc) Số sinh viên chỉ tham gia câu lạc bộ đá cầu là $ $ $22-\\left( 6+3+7 \\right)=6$. Suy ra mệnh đề đúng.\nd) Số sinh viên chỉ tham gia ít nhất một câu lạc bộ là $11+3+6+5+6+7+3=41\\ne 40.$ Suy ra mệnh đề sai.",
+    "sua_boi": "muse",
+    "ly_do": "Tổng số sinh viên tham gia ít nhất một CLB là 11+3+6+5+6+7+3=41, khác 40 nên mệnh đề d phải là Sai.",
+    "xac_nhan": true
+  },
+  "de1.P2.C15": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

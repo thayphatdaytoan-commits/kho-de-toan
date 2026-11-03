@@ -393,14 +393,11 @@
     "c": "[TH] $\\underset{x\\to 3}{\\lim}\\,f\\left( x \\right)=10.$",
     "d": "[CD] $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=2.$"
    },
-   "tf_ans": {
-    "a": true,
-    "b": true,
-    "c": false,
-    "d": false
-   },
+   "tf_ans": {},
    "answer": null,
-   "flags": [],
+   "flags": [
+    "dung_sai_thieu_dap_an:"
+   ],
    "question": "Cho hàm số bậc hai $y=f\\left( x \\right)$ có đồ thị như hình vẽ bên dưới.\n[[IMG:image5.png]]",
    "explanation": "| Đ | Đ | S | D |\n|---|---|---|---|\na) Hàm số đã cho làm hàm đa thức bậc hai nên hàm số liên tục trên $\\mathbb{R}.$\nb) Từ đồ thị, ta có $f\\left( 1 \\right)=0$, mà hàm số liên tục tại $x=1$. Suy ra $\\underset{x\\to 1}{\\lim}\\,f\\left( x \\right)=f\\left( 1 \\right)=0.$\nc) Đặt $f\\left( x \\right)=a{{x}^{2}}+bx+c.$\nĐồ thị hàm số đã cho có đỉnh $I\\left( -1\\,;\\,-4 \\right)$ và đi qua $M\\left( 1\\,;\\,0 \\right)$ nên$\\left\\{ \\begin{aligned} & a-b+c=-4 \\\\ & -\\frac{b}{2a}=-1 \\\\ & a+b+c=0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=1 \\\\ & b=2 \\\\ & c=-3 \\\\ \\end{aligned} \\right..$\nKhi đó $\\underset{x\\to 3}{\\lim}\\,f\\left( x \\right)=\\underset{x\\to 3}{\\lim}\\,\\left( {{x}^{2}}+2x-3 \\right)=12.$\nd) $\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{f\\left( x \\right)-4x+4}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-x+1-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}=\\underset{x\\to 1}{\\lim}\\,\\frac{{{x}^{2}}-2x+1+x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1}$\n$\\underset{x\\to 1}{\\lim}\\,\\left( 1+\\frac{x-\\sqrt{2x-1}}{{{x}^{2}}-2x+1} \\right)=\\underset{x\\to 1}{\\lim}\\,\\left( 1+\\frac{1}{x+\\sqrt{2x-1}} \\right)=\\frac{3}{2}.$",
    "ma": "de1.P2.C2",

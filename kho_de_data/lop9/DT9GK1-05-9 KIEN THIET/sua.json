@@ -10,5 +10,315 @@
   "de1.P1.C7": {
     "ghi_chu": "Câu chữ bị đảo lộn và mất đối tượng cần tính (câu hỏi treo phân số 3/4 thừa từ câu trước), từ các dữ kiện AH = 12, HB = 9, HC = 16 có thể tính ra nhiều giá trị khác nhau đều nằm trong phương án (ví dụ tan C = 12/16 = 0,75, tan góc HAM xấp xỉ 0,29), nên không xác định được đáp án duy nhất. Kho chọn C. Nhờ thầy đối chiếu bản đề gốc.",
     "sua_boi": "muse"
+  },
+  "de1.P1.C2": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C3": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C4": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C5": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C8": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P3.C2": {
+    "explanation": "12 phút = 0,2 giờ.\nQuãng đường máy bay đi trong 12 phút: $s=v\\cdot t=800\\cdot 0,2=160$ km.\nXét tam giác vuông có cạnh huyền là quãng đường bay $AB=160$ km và cạnh góc vuông đối với góc $A$ là độ cao $22$ km, có $\\sin A=\\frac{22}{160}=0,1375$.\nSuy ra $\\widehat{A}\\approx 8^0$.\nVậy đường đi của máy bay tạo với mặt đất một góc khoảng $8^0$.",
+    "sua_boi": "muse",
+    "ly_do": "Lời giải cũ vừa ghi tam giác vuông tại C vừa dùng cạnh BH không khớp tên điểm; giữ nguyên số liệu và đáp án $8^0$ (arcsin(22/160)≈7,9°), chỉ sửa câu lập tỉ số sin cho khớp hình.",
+    "xac_nhan": true
+  },
+  "de1.P4.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P4.C2": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Cho AC = 16 cm; BC = 20 cm. Giải tam giác ABC",
+        "explanation": "Áp dụng định lý Pythagore trong tam giác vuông ABC: $AB=\\sqrt{BC^2-AC^2}=\\sqrt{20^2-16^2}=12$ cm.\n$\\sin B=\\frac{AC}{BC}=\\frac{16}{20}=0,8$ suy ra $\\widehat{B}\\approx 53^0$.\nDo đó $\\widehat{C}=90^0-\\widehat{B}\\approx 37^0$.\nVậy $AB=12$ cm, $\\widehat{B}\\approx 53^0$, $\\widehat{C}\\approx 37^0$.",
+        "points": 1,
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "khac",
+          "kieu": "dong",
+          "dong": [
+            "$AB =$ {{1}} cm; $\\widehat{B} \\approx$ {{2}}$^0$; $\\widehat{C} \\approx$ {{3}}$^0$"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "12"
+            },
+            {
+              "id": "2",
+              "loai": "so",
+              "dap_an": "53"
+            },
+            {
+              "id": "3",
+              "loai": "so",
+              "dap_an": "37"
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Gọi M là hình chiếu của H lên AB, gọi K là hình chiếu của H lên AC. Chứng minh BM + CK = BC( cos^3B + sin^3B )",
+        "explanation": "Xét tam giác ABH vuông tại H, HM là đường cao ứng với cạnh huyền AB.\nTheo hệ thức lượng: $BH^2=BM\\cdot BA$ suy ra $BM=\\frac{BH^2}{BA}$.\nTrong tam giác ABC vuông tại A: $BH=AB\\cdot \\cos B=BC\\cos^2 B$, $BA=BC\\cos B$.\nDo đó $BM=\\frac{(BC\\cos^2 B)^2}{BC\\cos B}=BC\\cos^3 B$.\nTương tự, xét tam giác ACH vuông tại H, HK là đường cao ứng với cạnh huyền AC.\nTheo hệ thức lượng: $CH^2=CK\\cdot CA$ suy ra $CK=\\frac{CH^2}{CA}$.\nTrong tam giác ABC: $CH=AC\\cdot \\sin B=BC\\sin^2 B$, $CA=BC\\sin B$.\nDo đó $CK=\\frac{(BC\\sin^2 B)^2}{BC\\sin B}=BC\\sin^3 B$.\nVậy $BM+CK=BC\\cos^3 B+BC\\sin^3 B=BC(\\cos^3 B+\\sin^3 B)$.",
+        "points": 1,
+        "type": "proof_frame",
+        "frame": {
+          "blocks": [
+            {
+              "lines": [
+                "Xét tam giác {{1}} vuông tại {{2}}, {{3}} là đường cao ứng với cạnh huyền {{4}}.",
+                "Theo {{5}}: $BH^2 = BM \\cdot {{6}}$ suy ra $BM = \\frac{BH^2}{{{7}}}$."
+              ],
+              "hint": "Xác định đường cao trong tam giác ABH"
+            },
+            {
+              "lines": [
+                "Trong tam giác ABC vuông tại A: $BH = BC \\cdot \\cos^2 B$ (vì $BH = AB \\cdot \\cos B$ và $AB = BC \\cdot \\cos B$), $BA = BC \\cdot \\cos B$.",
+                "Do đó $BM = \\frac{(BC\\cos^2 B)^2}{BC\\cos B} = BC\\cos^3 B$."
+              ],
+              "hint": "Tính độ dài đoạn thẳng BM theo hệ thức lượng"
+            },
+            {
+              "lines": [
+                "Tương tự, xét tam giác {{8}} vuông tại {{9}}, {{10}} là đường cao ứng với cạnh huyền {{11}}.",
+                "Theo hệ thức lượng: $CH^2 = CK \\cdot {{12}}$ suy ra $CK = \\frac{CH^2}{{{13}}}$."
+              ],
+              "hint": "Thiết lập hệ thức lượng trong tam giác ACH"
+            },
+            {
+              "lines": [
+                "Trong tam giác {{14}}: $CH = {{15}} \\cdot \\sin^2 B$ (vì $CH = AC \\cdot \\sin B$ và $AC = BC \\cdot \\sin B$), $CA = BC \\cdot \\sin B$.",
+                "Do đó $CK = \\frac{(BC\\sin^2 B)^2}{BC\\sin B} = BC\\sin^3 B$.",
+                "Vậy $BM + CK = BC\\cos^3 B + BC\\sin^3 B = {{16}}(\\cos^3 B + \\sin^3 B)$."
+              ],
+              "hint": "Tính CK và tính tổng BM cộng CK"
+            }
+          ],
+          "blanks": [
+            {
+              "id": "1",
+              "mode": "drag",
+              "answers": [
+                "ABH",
+                "HAB",
+                "BHA"
+              ],
+              "keywords": [],
+              "placeholder": "tên tam giác",
+              "maxLen": 12
+            },
+            {
+              "id": "2",
+              "mode": "drag",
+              "answers": [
+                "H"
+              ],
+              "keywords": [],
+              "placeholder": "tên đỉnh",
+              "maxLen": 12
+            },
+            {
+              "id": "3",
+              "mode": "drag",
+              "answers": [
+                "HM",
+                "MH"
+              ],
+              "keywords": [],
+              "placeholder": "tên đoạn thẳng",
+              "maxLen": 12
+            },
+            {
+              "id": "4",
+              "mode": "drag",
+              "answers": [
+                "AB",
+                "BA"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "5",
+              "mode": "drag",
+              "answers": [
+                "hệ thức lượng"
+              ],
+              "keywords": [
+                "hệ thức lượng"
+              ],
+              "placeholder": "lý do",
+              "maxLen": 16
+            },
+            {
+              "id": "6",
+              "mode": "drag",
+              "answers": [
+                "BA",
+                "AB"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "7",
+              "mode": "drag",
+              "answers": [
+                "BA",
+                "AB"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "8",
+              "mode": "drag",
+              "answers": [
+                "ACH",
+                "HAC",
+                "CHA"
+              ],
+              "keywords": [],
+              "placeholder": "tên tam giác",
+              "maxLen": 12
+            },
+            {
+              "id": "9",
+              "mode": "drag",
+              "answers": [
+                "H"
+              ],
+              "keywords": [],
+              "placeholder": "tên đỉnh",
+              "maxLen": 12
+            },
+            {
+              "id": "10",
+              "mode": "drag",
+              "answers": [
+                "HK",
+                "KH"
+              ],
+              "keywords": [],
+              "placeholder": "tên đoạn thẳng",
+              "maxLen": 12
+            },
+            {
+              "id": "11",
+              "mode": "drag",
+              "answers": [
+                "AC",
+                "CA"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "12",
+              "mode": "drag",
+              "answers": [
+                "CA",
+                "AC"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "13",
+              "mode": "drag",
+              "answers": [
+                "CA",
+                "AC"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "14",
+              "mode": "drag",
+              "answers": [
+                "ABC",
+                "BAC",
+                "CAB"
+              ],
+              "keywords": [],
+              "placeholder": "tên tam giác",
+              "maxLen": 12
+            },
+            {
+              "id": "15",
+              "mode": "drag",
+              "answers": [
+                "BC",
+                "CB"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            },
+            {
+              "id": "16",
+              "mode": "drag",
+              "answers": [
+                "BC",
+                "CB"
+              ],
+              "keywords": [],
+              "placeholder": "tên cạnh",
+              "maxLen": 12
+            }
+          ],
+          "pool": [
+            "ABH",
+            "ACH",
+            "ABC",
+            "H",
+            "A",
+            "HM",
+            "HK",
+            "AH",
+            "AB",
+            "BA",
+            "AC",
+            "CA",
+            "BC",
+            "BH",
+            "CH",
+            "hệ thức lượng",
+            "định lí Pythagore",
+            "tỉ số lượng giác"
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Lời giải và khung cũ tính BM=BC·cosB, CK=BC·sinB (do lấy BH=BC·cosB, CH=BC·sinB) rồi kết luận BM+CK=BC(cosB+sinB), trái với đề bài cần chứng minh BC(cos³B+sin³B). Đã sửa đúng: BH=BC·cos²B, CH=BC·sin²B nên BM=BC·cos³B, CK=BC·sin³B.",
+    "xac_nhan": true
   }
 }

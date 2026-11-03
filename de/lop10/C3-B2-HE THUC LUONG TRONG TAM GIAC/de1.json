@@ -330,9 +330,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Giả sử CD = h là chiều cao của tháp trong đó C là chân tháp. Chọn hai điểm A, B trên mặt đất sao cho ba điểm A, B, C thẳng hàng. Ta đo được AB = 24m, $\\widehat{CAD}={{63}^{0}}$; $\\widehat{CBD}={{48}^{0}}$. Chiều cao h của khối tháp gần với giá trị nào sau đây?",
    "explanation": "[[IMG:image24.png]]\nTa có $\\widehat{CAD}={{63}^{0}}\\Rightarrow \\widehat{BAD}={{117}^{0}}\\Rightarrow \\widehat{ADB}={{180}^{0}}-\\left( {{117}^{0}}+{{48}^{0}} \\right)={{15}^{0}}$\nÁp dụng định lý sin trong tam giác ABD ta có: $\\frac{AB}{\\sin \\widehat{ADB}}=\\frac{BD}{\\sin \\widehat{BAD}}\\Rightarrow BD=\\frac{AB.\\sin \\widehat{BAD}}{\\sin \\widehat{ADB}}$\nTam giác BCD vuông tại C nên có: $\\sin \\widehat{CBD}=\\frac{CD}{BD}\\Rightarrow CD=BD.\\sin \\widehat{CBD}$\nVậy $CD=\\frac{AB.\\sin \\widehat{BAD}.\\sin \\widehat{CBD}}{\\sin \\widehat{ADB}}=\\frac{24.\\sin {{117}^{0}}.sin{{48}^{0}}}{\\sin {{15}^{0}}}=61,4m$.",
    "options": [
@@ -349,6 +347,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C3.B2.D13",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."
@@ -491,7 +490,7 @@
    "flags": [],
    "question": "Cho hình bình hành ${A B C D}$ có ${\\widehat{A}=60^{\\circ}}$ và ${A B=5, A D=8}$. Tính độ dài đường chéo ${A C}$.",
    "explanation": "Vì ${A B C D}$ là hình bình hành nên ta có: ${B C=A D=8, \\widehat{A B C}=180^{\\circ}-60^{\\circ}=120^{\\circ}}$.\nÁp dụng định lí côsin cho tam giác ${A B C}$, ta có: ${A C^{2}=A B^{2}+B C^{2}-2 A B \\cdot B C \\cdot \\cos \\widehat{A B C}=5^{2}+8^{2}-2 \\cdot 5 \\cdot 8 \\cdot \\cos 120^{\\circ}=129}$ ${\\Rightarrow A C=\\sqrt{129}}$.",
-   "short_value": 129,
+   "short_value": 120,
    "short_correct": "\\sqrt{129}|√129",
    "ma": "de1.P3.C1",
    "dac_trung": {
@@ -566,7 +565,7 @@
    "flags": [],
    "question": "Để đo đường kính một hồ hình tròn, người ta làm như sau: Lấy ba điểm $A,B,C$ như hình vẽ, sao cho $AB=8,5m;AC=11,5m;\\widehat{BAC}=141{}^\\circ $. Hãy tính đường kính của hồ nước đó.\n[[IMG:image25.png]]\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "Áp dụng định lí côsin cho tam giác ${A B C}$ ta có:\n$BC=\\sqrt{A{{B}^{2}}+A{{C}^{2}}-2AB\\cdot AC\\cdot \\cos A}=\\sqrt{8,{{5}^{2}}+11,{{5}^{2}}-2\\cdot 8,5\\cdot 11,5\\cdot \\cos {{141}^{{}^\\circ }}}\\approx 18,88(~m).$\nTa lại có: ${\\frac{B C}{\\sin A}=2 R \\Rightarrow R=\\frac{B C}{2 \\sin A} \\approx \\frac{18,88}{2 \\cdot \\sin 141^{\\circ}} \\approx 15({~m})}$.\nDo đó, ${d=2 R \\approx 15 \\cdot 2=30({~m})}$.\nVậy đường kính của hồ nước khoảng ${30 {~m}}$.",
-   "short_value": 18.88,
+   "short_value": 30,
    "short_correct": "18,9",
    "ma": "de1.P3.C4",
    "dac_trung": {
@@ -588,9 +587,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Để đo khoảng cách từ vị trí ${A}$ trên bờ sông đến vị trí ${B}$ của con tàu bị mắc cạn gần một cù lao giữa sông, bạn Minh đi dọc bờ sông từ vị trí ${A}$ đến vị trí ${C}$ cách ${A}$ một khoảng bằng ${50 {~m}}$ và đo các góc ${\\widehat{B A C}=70^{\\circ}, \\widehat{B C A}=50^{\\circ}}$. (Hình). Tính khoảng cách ${A B}$ theo đơn vị mét (làm tròn kết quả đến hàng đơn vị)\n[[IMG:image26.png]]",
    "explanation": "Xét tam giác ${A B C}$, ta có: ${\\widehat{A B C}=180^{\\circ}-70^{\\circ}-50^{\\circ}=60^{\\circ}}$.\nÁp dụng định lí sin, ta có: $\\frac{AB}{\\sin C}=\\frac{AC}{\\sin B}\\Rightarrow AB=\\frac{AC\\sin C}{\\sin B}=\\frac{50\\sin {{50}^{{}^\\circ }}}{\\sin {{60}^{{}^\\circ }}}\\approx 44(~m)$",
    "short_value": 44,
@@ -603,6 +600,7 @@
     "tham_so": true,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C3.B2.D14",
    "dang_toan_web": "Ứng dụng giải tam giác và đo đạc thực tế."

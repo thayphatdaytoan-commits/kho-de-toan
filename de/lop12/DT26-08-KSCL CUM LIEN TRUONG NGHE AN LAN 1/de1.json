@@ -399,9 +399,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hàm số $y=f\\left( x \\right)=a{{x}^{3}}+b{{x}^{2}}+cx+d$ có bảng biến thiên như sau:\n[[IMG:image8.png]]",
    "explanation": "a) Từ bảng biến thiên, ta có $\\underset{x\\to +\\infty }{\\lim}\\,f\\left( x \\right)=-\\infty $ hệ số $a<0$.\nChọn ĐÚNG.\nb) Đồ thị hàm số có hai điểm cực trị $A\\left( 1;2 \\right)$ và $B\\left( 3;4 \\right)$ đồ thị đi qua hai điểm $\\left( 1;2 \\right)$, $\\left( 3;4 \\right)$.\nChọn ĐÚNG.\nc) ${f}'\\left( x \\right)=0\\Leftrightarrow \\left[ \\begin{aligned} & x=1 \\\\ & x=3 \\\\ \\end{aligned} \\right.$\nChọn SAI.\nd) Ta có ${y}'={f}'\\left( x \\right)=3a{{x}^{2}}+2bx+c$\nVì đồ thị hàm số có hai điểm cực trị $A\\left( 1;2 \\right)$ và $B\\left( 3;4 \\right)$ nên ta có:\n$\\left\\{ \\begin{aligned} & {f}'\\left( 1 \\right)=0 \\\\ & f\\left( 1 \\right)=2 \\\\ & {f}'\\left( 3 \\right)=0 \\\\ & f\\left( 3 \\right)=4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & 3a+2b+c=0 \\\\ & a+b+c+d=2 \\\\ & 27a+6b+c=0 \\\\ & 27a+9b+3c+d=4 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & a=-\\frac{1}{2} \\\\ & b=3 \\\\ & c=-\\frac{9}{2} \\\\ & d=4 \\\\ \\end{aligned} \\right.$\n$f\\left( x \\right)=-\\frac{1}{2}{{x}^{3}}+3{{x}^{2}}-\\frac{9}{2}x+4$\nTa có $f\\left( 2 \\right)=3,f\\left( 3 \\right)=4,f\\left( 4 \\right)=2$\n$\\underset{\\left[ 2;4 \\right]}{\\min}\\,f\\left( x \\right)=2$.\nChọn SAI.",
    "ma": "de1.P2.C2",
@@ -412,6 +410,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C1.B2.D01",
    "dang_toan_web": "Giá trị lớn nhất và giá trị nhỏ nhất của hàm số trên một tập hợp."
@@ -465,9 +464,7 @@
     "d": true
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "An và Bình rủ nhau đi câu cá vào ngày nghỉ cuối tuần. Xác suất câu được cá của An là $0,6$. Xác suất câu được cá của Bình là $0,3$. Khi đó ta có\n[[IMG:image10.png]]",
    "explanation": "Gọi $A$ là biến cố “An câu được cá” và $B$ là biến cố “Bình câu được cá”.\nSuy ra: $\\overline{A}$ là biến cố “An không câu được cá” và $\\overline{B}$ là biến cố “Bình không câu được cá”.\na) Xác suất An không câu được cá bằng $0,4$\nTheo giả thiết $P(A)=0,6\\Rightarrow P\\left( \\overline{A} \\right)=1-0,6=0,4$; $P(B)=0,3\\Rightarrow P\\left( \\overline{B} \\right)=1-0,3=0,7$.\nVậy a đúng\nb) Xác suất có đúng 1 người câu được cá bằng $0,34$\nBiến cố “Có đúng 1 người câu được cá” là $A\\overline{B}\\cup \\overline{A}B$\nDo $A,\\,B$ là hai biến cố độc lập nên:\n$P\\left( A\\overline{B}\\cup \\overline{A}B \\right)=P\\left( A\\overline{B} \\right)+P\\left( \\overline{A}B \\right)=P\\left( A \\right).P\\left( \\overline{B} \\right)+P\\left( \\overline{A} \\right).P\\left( B \\right)=0,6.0,7+0,4.0,3=0,54$\nVậy b sai\nc) Xác suất để cả 2 người đều không câu được cá bằng $0,3$\nBiến cố “Cả 2 người đều không câu được cá” là $\\overline{A}\\overline{B}$\nDo $A,\\,B$ là hai biến cố độc lập nên:\n$P\\left( \\overline{A}\\overline{B} \\right)=P\\left( \\overline{A} \\right).P\\left( \\overline{B} \\right)=0,4.0,7=0,28$\nVậy c sai\nd) Xác suất có ít nhất 1 người câu được cá bằng $0,72$\nBiến cố “Có ít nhất 1 người câu được cá” là $C$\nBiến cố “Không ai câu được cá” là $\\overline{C}$\nTa có $\\overline{C}=\\overline{A}\\,\\overline{B}$\n$P\\left( C \\right)=1-P\\left( \\overline{C} \\right)=1-0,28=0,72$\nVậy d đúng",
    "ma": "de1.P2.C4",
@@ -478,6 +475,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L12.C6.B1.D02",
    "dang_toan_web": "Khái niệm xác suất có điều kiện $P(B|A)$."

@@ -370,9 +370,7 @@
     "d": false
    },
    "answer": null,
-   "flags": [
-    "dung_sai_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Một gia đình cần ít nhất $900~g$ chất protein và $400~g$ chất lipid trong thức ăn mỗi ngày. Biết rằng thịt bò chứa $80\\%$ protein và $20\\%$ lipid. Thịt lợn chứa $60\\%$ protein và $40\\%$ lipid. Biết rằng gia đình này chỉ mua nhiều nhất là $1600~g$ thịt bò, $1100~g$ thịt lợn, giá tiền $1~kg$ thịt bò là 400 000 đồng, $1~kg$ thịt lợn là 200 000 đồng. Giả sử gia đình mua $x$ kg thịt bò và $y$ kg thịt lợn. Khi đó:",
    "explanation": "a) Chi phí để mua $x(~kg)$ thịt bò và $y(~kg)$ thịt lợn là: $T=400x+200y$ . Vậy a) đúng.\nb) Điều kiện: $0\\le x\\le 1,6;0\\le y\\le 1,1$.\nKhi đó lượng protein có được là $80\\%x+60\\%y$ và lượng lipid có được là $20\\%x+40\\%y$.\nVì gia đình đó cần ít nhất $0,9~kg$ protein và $0,4~kg$ lipid trong thức ăn mỗi ngày nên điều kiện tương ứng là: $80\\%x+60\\%y\\ge 0,9\\text{ ;}\\,\\,20\\%x+40\\%y\\ge 0,4.\\text{ }$\nTa có hệ bất phương trình: $\\left\\{ \\begin{array}{llllll} 0\\le x\\le 1,6 \\\\ 0\\le y\\le 1,1 \\\\ 4x+3y\\ge 4,5 \\\\ x+2y\\ge 2 \\\\ \\end{array} \\right.$.\nVậy b) đúng.\nc)\n[[IMG:image10.png]]\nMiền nghiệm của hệ bất phương trình trên là miền tứ giác lồi $ABCD$ được mô tả ở hình trên. Vậy c) sai.\nd) Ta đã biết $T$ đạt giá trị nhỏ nhất tại một trong các đỉnh tứ giác $ABCD$ trong đó $A(0,3;1,1),B(1,6;1,1),C(1,6;0,2),D(0,6;0,7)$.\nTại $A(0,3;1,1)$, ta có $T=400\\cdot 0,3+200\\cdot 1,1=340$;\nTại $B(1,6;1,1)$, ta có $T=400\\cdot 1,6+200\\cdot 1,1=860$;\nTại $C(1,6;0,2)$, ta có $T=400\\cdot 1,6+200\\cdot 0,2=680$;\nTại $D(0,6;0,7)$, ta có $T=400\\cdot 0,6+200\\cdot 0,7=380$.\nSo sánh các giá trị trên, ta thấy được $T$ đạt giá trị nhỏ nhất bằng 340 , khi đó $\\left\\{ \\begin{array}{llllll} x=0,3 \\\\ y=1,1 \\\\ \\end{array} \\right.$ . Vậy d) sai.",
    "ma": "de1.P2.C13",
@@ -383,6 +381,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C2.B2.D03",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."
@@ -538,9 +537,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho hình bình hành $ABCD$ có $AB=5;AD=12$;$\\widehat{BAD}=60{}^\\circ $. Gọi $E$ là điểm thuộc cạnh $BC$ sao cho $EC=2EB$. Tính góc $\\widehat{AED}$.",
    "explanation": "Trả lời:${{108}^{\\text{o}}}$\n[[IMG:image12.emf]]\nTa có $AD=BC=12$ và $EC=2EB$ suy ra $BE=4;CE=8$.\nVì $ABCD$ là hình bình hành có $\\widehat{BAD}={{60}^{\\circ }}\\Rightarrow \\widehat{ABC}={{120}^{\\circ }};\\widehat{BCD}={{60}^{\\circ }}$.\nTheo định lí cô sin ta có\n$A{{E}^{2}}=A{{B}^{2}}+B{{E}^{2}}-2.AB.BE.\\cos \\widehat{ABE}={{5}^{2}}+{{4}^{2}}-2.5.4.\\cos {{120}^{\\circ }}=61\\Rightarrow AE=\\sqrt{61}$.\n$D{{E}^{2}}=C{{D}^{2}}+C{{E}^{2}}-2.CD.CE.\\cos \\widehat{ECD}={{5}^{2}}+{{8}^{2}}-2.5.8.\\cos {{60}^{\\circ }}=49\\Rightarrow DE=7$.\n$\\cos \\widehat{AED}=\\frac{A{{E}^{2}}+D{{E}^{2}}-A{{D}^{2}}}{2.AE.DE}=\\frac{61+49-144}{2.\\sqrt{61}.7}=-0,3109\\Rightarrow \\widehat{AED}\\approx {{108}^{\\circ }}$.",
    "short_value": 108,
@@ -553,6 +550,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C4.B2.D01",
    "dang_toan_web": "Tổng và hiệu của hai vectơ (quy tắc ba điểm, quy tắc hình bình hành)."

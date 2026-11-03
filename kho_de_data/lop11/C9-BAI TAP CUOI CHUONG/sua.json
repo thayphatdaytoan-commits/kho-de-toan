@@ -252,5 +252,17 @@
     "ly_do": "Mặt đầu là 2: 6/36=1/6, đúng A.",
     "sua_boi": "muse",
     "xac_nhan": true
+  },
+  "de3.P2.C2": {
+    "tf": {
+      "a": "Tổng số phần tử của hai biến cố ${A, B}$ là 10",
+      "b": "Số phần tử biến cố giao ${A B}$ là 3",
+      "c": "Số phần tử của biến cố hợp ${A \\cup B}$ là 9",
+      "d": "Biến cố ${\\bar{A} \\cap B}$ là \"Có ít nhất hai lần xuất hiện mặt ngửa\"."
+    },
+    "explanation": "a) Kí hiệu: $N$: mặt ngửa, $S$: mặt sấp.\n$A=\\{SSS; SSN; SNS; NSS\\}$ có 4 phần tử, biến cố $B$ có 7 phần tử (mọi kết quả trừ $SSS$). Do đó tổng số phần tử của hai biến cố là $4+7=11$, không phải 10.\nb) Biến cố giao $AB=\\{SSN; SNS; NSS\\}$ có 3 phần tử.\nc) Biến cố $A\\cup B=\\{SSS; SSN; SNS; NSS; NNN; NNS; NSN; SNN\\}$ có 8 phần tử, không phải 9.\nd) Biến cố $\\widehat{A}$ là Có nhiều nhất một lần xuất hiện mặt sấp.\nBiến cố $\\widehat{A}\\cap B$ là Có ít nhất hai lần xuất hiện mặt ngửa.",
+    "sua_boi": "muse",
+    "ly_do": "Sửa tf.c (bỏ chữ 'biến' thừa) và viết lại explanation: liệt kê đúng A (4 phần tử), B (7 phần tử) nên tổng là 11 không phải 10; hợp A∪B có 8 phần tử (không phải 9) và sửa công thức KaTeX bị vỡ ở ý c; sửa lỗi chính tả 'hiền' thành 'hiện'. Các đáp án đúng/sai gốc (S, Đ, S, Đ) giữ nguyên và đã kiểm lại.",
+    "xac_nhan": true
   }
 }

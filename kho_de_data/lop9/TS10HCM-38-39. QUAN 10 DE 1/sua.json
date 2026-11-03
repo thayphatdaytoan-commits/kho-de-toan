@@ -83,5 +83,86 @@
       }
     ],
     "sua_boi": "muse"
+  },
+  "de1.P4.C3": {
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "question": "Viết biểu thức số tiền thu được trong một tháng sau khi mở rộng kinh doanh theo [[IMG:image14.png]] và [[IMG:image13.png]].",
+        "explanation": "Số tiền = (Giá cũ - giảm giá) * (Số lượng cũ + số lượng tăng thêm) = (x-a)(y+b).",
+        "type": "multiple_choice",
+        "options": [
+          "$(x+a)(y+b)$",
+          "$(x-a)(y-b)$",
+          "$(x-a)(y+b)$",
+          "$(x+a)(y-b)$"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "question": "Biết sau khi mở rộng kinh doanh tháng đầu tiên cửa hàng đã giảm giá [[IMG:image15.png]] và thu được nhiều hơn tháng chưa mở rộng là [[IMG:image16.png]] triệu đồng. Hãy tính xem cửa hàng đã bán thêm được bao nhiêu thùng Pepsi.",
+        "explanation": "Giá một thùng Pepsi là 182000 đồng, trung bình bán 550 thùng/tháng. Giảm giá 5% nên giá mới là 182000·95%=172900 đồng/thùng.\nGọi x là số thùng bán thêm. Doanh thu tháng sau mở rộng là 172900(550+x), doanh thu tháng trước là 182000·550=100100000.\nChênh lệch là 38,22 triệu đồng nên 172900(550+x)-100100000=38220000, suy ra 172900(550+x)=138320000, do đó 550+x=800, vậy x=250.\nVậy cửa hàng đã bán thêm 250 thùng Pepsi.",
+        "type": "form_mau",
+        "mau_spec": {
+          "mau": "dap_so",
+          "kieu": "dong",
+          "dong": [
+            "Số thùng Pepsi bán thêm: {{1}} thùng"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "so",
+              "dap_an": "250"
+            }
+          ]
+        },
+        "mau_luyen": {
+          "mau": "lap_pt",
+          "kieu": "dong",
+          "dong": [
+            "Gọi $x$ là số thùng Pepsi bán thêm (thùng, $x > 0$)",
+            "Biểu diễn doanh thu tháng chưa mở rộng theo $x$: {{1}}",
+            "Biểu diễn doanh thu tháng sau khi mở rộng theo $x$: {{2}}",
+            "Phương trình: {{3}}",
+            "Giải phương trình ta tìm được $x =$ {{4}}",
+            "Vậy số thùng Pepsi bán thêm là {{5}} thùng"
+          ],
+          "o": [
+            {
+              "id": "1",
+              "loai": "bt",
+              "dap_an": "182000*550"
+            },
+            {
+              "id": "2",
+              "loai": "bt",
+              "dap_an": "172900*(550+x)"
+            },
+            {
+              "id": "3",
+              "loai": "bt",
+              "dap_an": "172900*(550+x)-182000*550=38220000"
+            },
+            {
+              "id": "4",
+              "loai": "so",
+              "dap_an": "250"
+            },
+            {
+              "id": "5",
+              "loai": "so",
+              "dap_an": "250"
+            }
+          ]
+        }
+      }
+    ],
+    "sua_boi": "muse",
+    "ly_do": "Ảnh đề: giá 182 000 đồng/thùng, bán 550 thùng/tháng, giảm 5%, doanh thu tăng 38,22 triệu đồng; tính đúng cho số thùng bán thêm là 250 (172900·800−182000·550=38 220 000). Mẫu luyện cũ dùng toàn số bịa (160000, 500, 10000, 1,5 triệu) cho đáp án 200 và phương trình của nó cũng không cho ra 200 — đã viết lại lời giải, đáp án mẫu và mẫu luyện theo số liệu ảnh.",
+    "xac_nhan": true
   }
 }

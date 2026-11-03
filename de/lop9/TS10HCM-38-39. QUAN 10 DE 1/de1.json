@@ -25,27 +25,14 @@
    ],
    "parts": [
     {
-     "id": "a",
-     "label": "a",
-     "question": "Vẽ đồ thị [[IMG:image1.png]].",
-     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ Oxy và vẽ đường thẳng đi qua các điểm đó.",
-     "type": "draw",
      "draw_spec": {
-      "mode": "do_thi",
-      "view": {
-       "xmin": -4,
-       "xmax": 4,
-       "ymin": -4,
-       "ymax": 4
-      },
-      "step": 1,
       "funcs": [
        {
-        "id": "d1",
-        "label": "y = 2x - 1",
-        "kind": "linear",
         "a": 2,
         "b": -1,
+        "id": "d1",
+        "kind": "linear",
+        "label": "y = 2x - 1",
         "need": 2,
         "xs": [
          -1,
@@ -54,54 +41,67 @@
          2
         ]
        }
-      ]
-     }
+      ],
+      "mode": "do_thi",
+      "step": 1,
+      "view": {
+       "xmax": 4,
+       "xmin": -4,
+       "ymax": 4,
+       "ymin": -4
+      }
+     },
+     "explanation": "Lập bảng giá trị các điểm thuộc đồ thị. Vẽ hệ trục tọa độ Oxy và vẽ đường thẳng đi qua các điểm đó.",
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị [[IMG:image1.png]].",
+     "type": "draw"
     },
     {
+     "explanation": "Gọi điểm M(x; y). Theo đề bài y = 2x. Vì M thuộc y = x^2 nên 2x = x^2. Giải phương trình x^2 - 2x = 0 ta được x = 0 hoặc x = 2. Với x = 0 thì y = 0 (loại vì khác gốc tọa độ). Với x = 2 thì y = 4. Vậy điểm cần tìm là (2; 4).",
      "id": "b",
      "label": "b",
-     "question": "Tìm điểm [[IMG:image2.png]] thuộc [[IMG:image3.png]] có tung độ gấp đôi hoành độ và khác [[IMG:image4.png]].",
-     "explanation": "Gọi điểm M(x; y). Theo đề bài y = 2x. Vì M thuộc y = x^2 nên 2x = x^2. Giải phương trình x^2 - 2x = 0 ta được x = 0 hoặc x = 2. Với x = 0 thì y = 0 (loại vì khác gốc tọa độ). Với x = 2 thì y = 4. Vậy điểm cần tìm là (2; 4).",
-     "type": "form_mau",
-     "mau_spec": {
-      "mau": "dap_so",
+     "mau_luyen": {
+      "dong": [
+       "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
+      ],
       "kieu": "dong",
+      "mau": "lap_pt",
+      "o": [
+       {
+        "dap_an": "2",
+        "id": "1",
+        "loai": "so"
+       },
+       {
+        "dap_an": "0",
+        "id": "2",
+        "loai": "so"
+       }
+      ]
+     },
+     "mau_spec": {
       "dong": [
        "$x_1 =$ {{1}}",
        "$x_2 =$ {{2}}"
       ],
+      "kieu": "dong",
+      "mau": "dap_so",
       "o": [
        {
+        "dap_an": "2",
         "id": "1",
-        "loai": "so",
-        "dap_an": "2"
+        "loai": "so"
        },
        {
+        "dap_an": "0",
         "id": "2",
-        "loai": "so",
-        "dap_an": "-2"
+        "loai": "so"
        }
       ]
      },
-     "mau_luyen": {
-      "mau": "lap_pt",
-      "kieu": "dong",
-      "dong": [
-       "Giải phương trình ta tìm được $x =$ {{1}} hoặc $x =$ {{2}}"
-      ],
-      "o": [
-       {
-        "id": "1",
-        "loai": "so",
-        "dap_an": "2"
-       },
-       {
-        "id": "2",
-        "loai": "so",
-        "dap_an": "-2"
-       }
-      ]
-     }
+     "question": "Tìm điểm [[IMG:image2.png]] thuộc [[IMG:image3.png]] có tung độ gấp đôi hoành độ và khác [[IMG:image4.png]].",
+     "type": "form_mau"
     }
    ],
    "bai_goc": "Bài 1",
@@ -115,6 +115,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C6.B1.D02",
    "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị."
@@ -310,9 +311,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -332,7 +331,7 @@
      "id": "b",
      "label": "b",
      "question": "Biết sau khi mở rộng kinh doanh tháng đầu tiên cửa hàng đã giảm giá [[IMG:image15.png]] và thu được nhiều hơn tháng chưa mở rộng là [[IMG:image16.png]] triệu đồng. Hãy tính xem cửa hàng đã bán thêm được bao nhiêu thùng Pepsi.",
-     "explanation": "Lập phương trình dựa trên chênh lệch doanh thu: (x-a)(y+b) - xy = chênh lệch. Giải phương trình tìm b.",
+     "explanation": "Giá một thùng Pepsi là 182000 đồng, trung bình bán 550 thùng/tháng. Giảm giá 5% nên giá mới là 182000·95%=172900 đồng/thùng.\nGọi x là số thùng bán thêm. Doanh thu tháng sau mở rộng là 172900(550+x), doanh thu tháng trước là 182000·550=100100000.\nChênh lệch là 38,22 triệu đồng nên 172900(550+x)-100100000=38220000, suy ra 172900(550+x)=138320000, do đó 550+x=800, vậy x=250.\nVậy cửa hàng đã bán thêm 250 thùng Pepsi.",
      "type": "form_mau",
      "mau_spec": {
       "mau": "dap_so",
@@ -344,7 +343,7 @@
        {
         "id": "1",
         "loai": "so",
-        "dap_an": "200"
+        "dap_an": "250"
        }
       ]
      },
@@ -363,27 +362,27 @@
        {
         "id": "1",
         "loai": "bt",
-        "dap_an": "160000*500"
+        "dap_an": "182000*550"
        },
        {
         "id": "2",
         "loai": "bt",
-        "dap_an": "(160000-10000)*(500+x)"
+        "dap_an": "172900*(550+x)"
        },
        {
         "id": "3",
         "loai": "bt",
-        "dap_an": "(150000)*(500+x)-160000*500=1500000"
+        "dap_an": "172900*(550+x)-182000*550=38220000"
        },
        {
         "id": "4",
         "loai": "so",
-        "dap_an": "200"
+        "dap_an": "250"
        },
        {
         "id": "5",
         "loai": "so",
-        "dap_an": "200"
+        "dap_an": "250"
        }
       ]
      }
@@ -400,6 +399,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C6.B4.D04",
    "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai."

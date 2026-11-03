@@ -3,7 +3,8 @@
   "grade": "11",
   "chapter": "4",
   "lesson": "4",
-  "title": "Bài 4. Hai mặt phẳng song song"
+  "title": "Bài 4. Hai mặt phẳng song song",
+  "exam_type": "lesson"
  },
  "no": 2,
  "sections": {
@@ -399,7 +400,7 @@
    "answer": null,
    "flags": [],
    "question": "Cho hình chóp ${S . A B C D}$ có đáy ${A B C D}$ là hình bình hành. Gọi ${H, I, K}$ lần lượt là trung điểm của ${S A, S B, S C}$. Gọi ${M}$ là giao điểm của ${A I}$ và ${K D, N}$ là giao điểm của ${D H}$ và ${C I}$. Khi đó:",
-   "explanation": "[[IMG:image47.png]]\na) b) Vì ${H I}$ là đường trung bình của tam giác ${S A B}$ nên ${H I / / A B}$,\nmà ${A B \\subset(A B C D) \\Rightarrow H I / /(A B C D)}$. (1)\nTương tự ta có: ${K I / / B C, B C \\subset(A B C D) \\Rightarrow K I / /(A B C D)}$. (2)\nMặt khác: ${H I \\subset(H K I), K I \\subset(H K I), H I \\cap K I=I}$. (3)\nTừ (1), (2) và (3) suy ra ${(H I K) / /(A B C D)}$.\nc) d)\n${\\begin{aligned} & \\text { Vì }\\left\\{\\begin{array}{l} M \\in A I, A I \\subset(S A B) \\\\ M \\in D K, D K \\subset(S C D) \\end{array} \\Rightarrow M \\in(S A B) \\cap(S C D)\\right. \\\\ & \\Rightarrow S M=(S A B) \\cap(S C D) . \\end{aligned} }$\n$\\begin{aligned} & \\text{ Khi d }\\!\\!\\acute{\\mathrm{o}}\\!\\!\\text{ : }\\left\\{ \\begin{array}{llllll} (SAB)\\cap (SCD)=SM \\\\ AB\\subset (SAB),CD\\subset (SCD)\\Rightarrow SM//AB//CD\\Rightarrow SM//HI \\\\ AB//CD \\\\ \\end{array} \\right.(1) \\\\ & \\text{ V }\\!\\!\\grave{\\mathrm{i}}\\!\\!\\text{ }\\left\\{ \\begin{array}{llllll} N\\in DH,DH\\subset (SAD) \\\\ N\\in CI,CI\\subset (SBC) \\\\ \\end{array}\\Rightarrow N\\in (SAD)\\cap (SBC) \\right. \\\\ & \\Rightarrow SN=(SAD)\\cap (SBC). \\\\ \\end{aligned}$\nKhi đó, ta có:\n$\\left\\{ \\begin{array}{llllll} (SAD)\\cap (SBC)=SN \\\\ AD\\subset (SAD),BC\\subset (SBC)\\Rightarrow SN//AD//BC\\Rightarrow SN//KI \\\\ AD//BC \\\\ \\end{array} \\right.(2)$\nMặt khác ba điểm ${S, M, N}$ không thẳng hàng. (3)\nTừ (1), (2), (3) suy ra ${(S M N) / /(H I K)}$.",
+   "explanation": "[[IMG:image47.png]]\na) b) Vì ${H I}$ là đường trung bình của tam giác ${S A B}$ nên ${H I / / A B}$,\nmà ${A B \\subset(A B C D) \\Rightarrow H I / /(A B C D)}$. (1)\nTương tự ta có: ${K I / / B C, B C \\subset(A B C D) \\Rightarrow K I / /(A B C D)}$. (2)\nMặt khác: ${H I \\subset(H K I), K I \\subset(H K I), H I \\cap K I=I}$. (3)\nTừ (1), (2) và (3) suy ra ${(H I K) / /(A B C D)}$.\nc) d)\n${\\begin{aligned} & \\text { \\text{Vì} }\\left\\{\\begin{array}{l} M \\in A I, A I \\subset(S A B) \\\\ M \\in D K, D K \\subset(S C D) \\end{array} \\Rightarrow M \\in(S A B) \\cap(S C D)\\right. \\\\ & \\Rightarrow S M=(S A B) \\cap(S C D) . \\end{aligned} }$\n$\\begin{aligned} & \\text{ Khi d }\\!\\!\\acute{\\mathrm{o}}\\!\\!\\text{ : }\\left\\{ \\begin{array}{llllll} (SAB)\\cap (SCD)=SM \\\\ AB\\subset (SAB),CD\\subset (SCD)\\Rightarrow SM//AB//CD\\Rightarrow SM//HI \\\\ AB//CD \\\\ \\end{array} \\right.(1) \\\\ & \\text{ V }\\!\\!\\grave{\\mathrm{i}}\\!\\!\\text{ }\\left\\{ \\begin{array}{llllll} N\\in DH,DH\\subset (SAD) \\\\ N\\in CI,CI\\subset (SBC) \\\\ \\end{array}\\Rightarrow N\\in (SAD)\\cap (SBC) \\right. \\\\ & \\Rightarrow SN=(SAD)\\cap (SBC). \\\\ \\end{aligned}$\nKhi đó, ta có:\n$\\left\\{ \\begin{array}{llllll} (SAD)\\cap (SBC)=SN \\\\ AD\\subset (SAD),BC\\subset (SBC)\\Rightarrow SN//AD//BC\\Rightarrow SN//KI \\\\ AD//BC \\\\ \\end{array} \\right.(2)$\nMặt khác ba điểm ${S, M, N}$ không thẳng hàng. (3)\nTừ (1), (2), (3) suy ra ${(S M N) / /(H I K)}$.",
    "ma": "de2.P2.C2",
    "dac_trung": {
     "so_dong_loi_giai": 13,
@@ -486,8 +487,8 @@
    "flags": [],
    "question": "Cho hình chóp ${S . A B C D}$ có đáy ${A B C D}$ là hình thang với đáy lớn ${A D}$. Gọi ${M}$ là trọng tâm của tam giác ${S A D, N}$ là điểm thuộc đoạn thẳng ${A C}$ sao cho ${A N=\\frac{1}{3} A C, P}$ là điểm thuộc đoạn thẳng ${C D}$ sao cho ${D P=\\frac{1}{3} D C}$. Chứng minh rằng ${(M N P) / /(S B C)}$.",
    "explanation": "[[IMG:image51.png]]\nGọi ${E}$ là trung điểm của ${A D}$ và ${I}$ là giao điểm của ${N P}$ và ${E C}$.\nTa có ${\\frac{A N}{A C}=\\frac{D P}{C P}=\\frac{1}{3}}$ nên ${N P / / A D}$. Do ${A D / / B C}$ nên ${N P / / B C}$, suy ra ${N P / /(S B C)}$.\nVì ${N P / / A D}$ nên ta có ${\\frac{E I}{E C}=\\frac{A N}{A C}=\\frac{1}{3}}$.\nDo ${M}$ là trọng tâm của tam giác ${S A D}$ và ${E}$ trung điểm của đoạn ${A D}$ nên ${M \\in S E}$ và ${\\frac{E M}{E S}=\\frac{1}{3}}$. Như vậy ${\\frac{E I}{E C}=\\frac{E M}{E S}}$ nên ${M I / / S C}$, suy ra ${M I / /(S B C)}$. Từ đó, ta có ${(M N P) / /(S B C)}$.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 1,
+   "short_correct": "1",
    "ma": "de2.P3.C1",
    "dac_trung": {
     "so_dong_loi_giai": 5,
@@ -578,8 +579,8 @@
    "flags": [],
    "question": "Cho hình tứ diện ${S A B C}$. Trên cạnh ${S A}$ lấy các điểm ${A_1, A_2}$ sao cho ${A A_1=A_1 A_2=A_2 S}$. Gọi ${(P)}$ và ${(Q)}$ là hai mặt phẳng song song với mặt phẳng ${(A B C)}$ và lần lượt đi qua ${A_1, A_2}$. Mặt phẳng ${(P)}$ cắt các cạnh ${S B, S C}$ lần lượt tại ${B_1, C_1}$. Mặt phẳng ${(Q)}$ cắt các cạnh ${S B}$, ${S C}$ lần lượt tại ${B_2, C_2}$. Chứng minh ${B B_1=B_1 B_2=B_2 S}$ và ${C C_1=C_1 C_2=C_2 S}$.",
    "explanation": "[[IMG:image55.png]]\nVì hai mặt phẳng ${(P)}$ và ${(Q)}$ song song với mặt phẳng ${(A B C)}$ nên ${(P) / /(Q)}$, do đó ba mặt phẳng ${({ABC}),({P})}$ và ${({Q})}$ đôi một song song. Theo định lí Thalés trong không gian, ta suy ra ${\\frac{A_2 A_1}{A A_1}=\\frac{B_2 B_1}{B B_1}=\\frac{C_2 C_1}{C C_1}}$.\nMà ${{AA}_1={A}_1 {~A}_2}$ nên ${\\frac{A_2 A_1}{A A_1}=1}$, suy ra ${\\frac{A_2 A_1}{A A_1}=\\frac{B_2 B_1}{B B_1}=\\frac{C_2 C_1}{C C_1}=1}$, do đó ${{BB}_1={B}_1 {~B}_2}$ và ${C_1={C}_1 C_2}$.\nSử dụng định lí Thalés ta cũng chứng minh được ${\\frac{A_2 S}{A_2 A_1}=\\frac{B_2 S}{B_2 B_1}=\\frac{C_2 S}{C_2 C_1}}$.\nMà ${{A}_1 {~A}_2={A}_2 {~S}}$ nên ${\\frac{A_2 S}{A_2 A_1}=1}$, suy ra ${\\frac{A_2 S}{A_2 A_1}=\\frac{B_2 S}{B_2 B_1}=\\frac{C_2 S}{C_2 C_1}=1}$, do đó ${{B}_1 {~B}_2={B}_2 {~S}}$ và ${{C}_1 {C}_2={C}_2 {~S}}$.\nVậy ${B_1=B_1 B_2=B_2 S}$ và ${C C_1=C_1 C_2=C_2 S}$.",
-   "short_value": null,
-   "short_correct": "",
+   "short_value": 1,
+   "short_correct": "1",
    "ma": "de2.P3.C5",
    "dac_trung": {
     "so_dong_loi_giai": 6,

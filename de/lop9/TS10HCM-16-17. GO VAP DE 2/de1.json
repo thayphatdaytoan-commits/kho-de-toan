@@ -227,9 +227,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "loi_giai_y_b_do_AI_tu_giai_can_duyet"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -247,7 +245,7 @@
      "explanation": "Số bóng vàng là 40 - 5 - 12 = 23. Số cách chọn 3 quả khác màu là 5 * 12 * 23 = 1380. Tổng số cách chọn 3 quả là C(40,3) = 9880. P(B) = 1380/9880 = 69/494.",
      "points": 0.75,
      "type": "short_answer",
-     "shortCorrect": "0,267206|132/494"
+     "shortCorrect": "69/494|0,139676"
     }
    ],
    "points": 1.5,
@@ -262,6 +260,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C7.B3.D01",
    "dang_toan_web": "Phép thử ngẫu nhiên và không gian mẫu."
@@ -273,9 +272,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_a_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
@@ -314,6 +311,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C2.B3.D01",
    "dang_toan_web": "Các dạng toán khác"
@@ -325,10 +323,7 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "dap_an_la_bieu_thuc_can_quy_uoc_cach_cham",
-    "muc_do_NB_lech_xa_goi_y_vi_tri_VD"
-   ],
+   "flags": [],
    "bai_goc": "Bài 5",
    "points": 1,
    "question": "Thầy giáo soạn một bài kiểm tra trắc nghiệm môn Toán với tổng số điểm là 10 điểm, bao gồm các câu hỏi trắc nghiệm đúng/sai và các câu hỏi trắc nghiệm nhiều lựa chọn, mỗi câu hỏi có số điểm là 0,25 điểm. Ngoài ra, thầy muốn số câu hỏi trắc nghiệm đúng/sai gấp ba lần số câu hỏi trắc nghiệm nhiều lựa chọn. Giả sử học sinh của thầy có thể trả lời một câu hỏi trắc nghiệm đúng/sai trong vòng 1 phút và một câu hỏi trắc nghiệm nhiều lựa chọn trong vòng 1,5 phút thì học sinh có đủ thời gian để hoàn thành bài kiểm tra trong 45 phút không?",
@@ -343,6 +338,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L9.C1.B5.D04",
    "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình."
@@ -398,15 +394,13 @@
    "answer": null,
    "tf": {},
    "tf_ans": {},
-   "flags": [
-    "tn_y_c_tu_tu_luan_can_xac_nhan"
-   ],
+   "flags": [],
    "parts": [
     {
      "id": "a",
      "label": "a",
      "question": "Chứng minh: OA ⊥ BC tại H và AH. AO = AE. AK",
-     "explanation": "OA là trung trực của BC nên OA vuông góc BC. Xét tam giác ABK vuông tại B, BH là đường cao, hệ thức lượng: AB^2 = AH.AO. Xét tam giác ABE và AKB đồng dạng (g.g) => AB^2 = AE.AK. Suy ra AH.AO = AE.AK.",
+     "explanation": "OA là trung trực của BC nên OA vuông góc BC. Xét tam giác ABO vuông tại B, BH là đường cao ứng với cạnh huyền AO, hệ thức lượng: AB^2 = AH.AO. Xét tam giác ABE và AKB đồng dạng (g.g) => AB^2 = AE.AK. Suy ra AH.AO = AE.AK.",
      "points": 1,
      "type": "proof_frame",
      "frame": {
@@ -471,7 +465,7 @@
         "id": "4",
         "mode": "drag",
         "answers": [
-         "ABK"
+         "ABO"
         ],
         "keywords": [],
         "placeholder": "tam giác",
@@ -550,7 +544,8 @@
        "BC",
        "O",
        "AK",
-       "AE"
+       "AE",
+       "ABO"
       ]
      }
     },
@@ -661,7 +656,7 @@
      "id": "c",
      "label": "c",
      "question": "Giả sử OA = 2R. Tính diện tích tam giác ABC theo R",
-     "explanation": "Tam giác ABO vuông tại B, cos(BAO) = R/2R = 1/2 => góc BAO = 60 độ. Tam giác ABC đều cạnh AB = R*sqrt(3). Diện tích = (cạnh^2 * sqrt(3))/4 = (3R^2 * sqrt(3))/4.",
+     "explanation": "Tam giác ABO vuông tại B, $\\sin\\widehat{BAO}=\\frac{OB}{OA}=\\frac{R}{2R}=\\frac{1}{2}$ nên $\\widehat{BAO}=30^\\circ$, suy ra $\\widehat{BAC}=2\\cdot 30^\\circ=60^\\circ$. Mà AB=AC (tính chất hai tiếp tuyến cắt nhau) nên tam giác ABC đều cạnh $AB=\\sqrt{OA^2-OB^2}=R\\sqrt{3}$. Diện tích là $\\frac{\\sqrt{3}}{4}AB^2=\\frac{\\sqrt{3}}{4}\\cdot 3R^2=\\frac{3\\sqrt{3}}{4}R^2$.",
      "points": 1,
      "type": "multiple_choice",
      "options": [
@@ -670,7 +665,7 @@
       "$\\frac{\\sqrt{3}}{2}R^2$",
       "$\\frac{3\\sqrt{3}}{2}R^2$"
      ],
-     "correctAnswer": 3
+     "correctAnswer": 0
     }
    ],
    "points": 3,
@@ -685,6 +680,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L9.C8.B6.D01",
    "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học."

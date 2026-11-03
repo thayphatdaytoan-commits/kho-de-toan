@@ -104,11 +104,9 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "loi_giai_noi_D_dung_nhung_chon_A"
-   ],
+   "flags": [],
    "question": "Chọn mệnh đề đúng:",
-   "explanation": "D đúng vì hai vec tơ bằng nhau là hai vec tơ có cùng hướng và cùng độ dài.\nCâu C sai vì hai vec tơ cùng phương cũng ngược hướng.\nCâu B sai vì thiếu điều kiện cùng hướng thì hai vectơ bằng nhau.\nCâu A sai.",
+   "explanation": "Hai vectơ bằng nhau là hai vectơ cùng hướng và cùng độ dài nên A đúng.\nB sai vì hai vectơ có độ dài bằng nhau chưa chắc cùng hướng.\nC sai vì hai vectơ không cùng hướng có thể không cùng phương, khi đó chúng không ngược hướng.\nD sai vì hai vectơ cùng phương có thể cùng hướng hoặc ngược hướng.\nVậy mệnh đề đúng là A.",
    "options": [
     "Hai vectơ bằng nhau thì cùng hướng",
     "Hai vectơ có độ dài bằng nhau thì bằng nhau",
@@ -123,6 +121,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "NB"
    },
+   "sua_boi": "muse",
    "muc_do": "NB",
    "dang": "L10.C4.B1.D01",
    "dang_toan_web": "Khái niệm vectơ, hai vectơ cùng phương, cùng hướng, hai vectơ bằng nhau."
@@ -302,9 +301,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "C",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho dãy số liệu thống kê: $1$; $2$; $3$; $4$; $5$; $6$; $7$. Phương sai của các số liệu thống kê là",
    "explanation": "Giá trị trung bình của dãy số liệu thống kê đã cho là: $\\overline{x}=\\frac{1+2+3+4+5+6+7}{7}=4$.\nPhương sai của các số liệu thống kê là\n$S_{x}^{2}=\\frac{{{\\left( \\overline{x}-1 \\right)}^{2}}+{{\\left( \\overline{x}-1 \\right)}^{2}}+{{\\left( \\overline{x}-2 \\right)}^{2}}+{{\\left( \\overline{x}-3 \\right)}^{2}}+{{\\left( \\overline{x}-4 \\right)}^{2}}+{{\\left( \\overline{x}-5 \\right)}^{2}}+{{\\left( \\overline{x}-6 \\right)}^{2}}+{{\\left( \\overline{x}-7 \\right)}^{2}}}{7}$\n$=\\frac{{{\\left( 4-1 \\right)}^{2}}+{{\\left( 4-2 \\right)}^{2}}+{{\\left( 4-3 \\right)}^{2}}+{{\\left( 4-4 \\right)}^{2}}+{{\\left( 4-5 \\right)}^{2}}+{{\\left( 4-6 \\right)}^{2}}+{{\\left( 4-7 \\right)}^{2}}}{7}$ $=\\frac{28}{7}=4$.",
    "options": [
@@ -321,6 +318,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C5.B3.D01",
    "dang_toan_web": "Các số đặc trưng đo mức độ phân tán cho mẫu số liệu không ghép nhóm: Khoảng biến thiên, khoảng tứ phân vị, phương sai và độ lệch chuẩn."
@@ -536,9 +534,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": null,
-   "flags": [
-    "dap_an_ngan_lay_tu_cuoi_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Trong một cuộc thi pha chế, hai đội A, B được sử dụng tối đa $24g$ hương liệu, $9$ lít nước và $210$g đường để pha chế nước cam và nước táo. Để pha chế $1$ lít nước cam cần $30$g đường, $1$ lít nước và $1$g hương liệu; pha chế $1$ lít nước táo cần $10$g đường, $1$ lít nước và $4$g hương liệu. Mỗi lít nước cam nhận được $60$ điểm thưởng, mỗi lít nước táo nhận được $80$ điểm thưởng. Đội A pha chế được $a$ lít nước cam và $b$ lít nước táo và dành được điểm thưởng cao nhất. Hiệu số $a-b$ là",
    "explanation": "Trả lời: - 1\nGọi $x,\\ y$ lần lượt là số lít nước cam và nước táo mà mỗi đội cần pha chế $\\left( x\\ge 0;\\,\\,y\\ge 0 \\right)$.\nĐể pha chế $x$ lít nước cam cần $30x$g đường, $x$ lít nước và $x$g hương liệu.\nĐể pha chế $y$ lít nước táo cần $10y$g đường, $y$ lít nước và $4y$g hương liệu.\nTheo bài ra ta có hệ bất phương trình:\n$\\left\\{ \\begin{aligned} & 30x+10y\\le 210 \\\\ & x+y\\le 9 \\\\ & x+4y\\le 24 \\\\ & x\\ge 0;\\ y\\ge 0 \\\\ \\end{aligned} \\right.\\quad \\left( * \\right)$.\nSố điểm đạt được khi pha $x$ lít nước cam và $y$ lít nước táo là $M\\left( x,y \\right)=60x+80y$. Bài toán trở thành tìm $x,\\ y$ để $M\\left( x,\\,y \\right)$ đạt giá trị lớn nhất.\nTa biểu diễn miền nghiệm của hệ $\\left( * \\right)$ trên mặt phẳng tọa độ như sau:\n[[IMG:image10.emf]]\nMiền nghiệm là ngũ giác $ABCDE$.\nTọa độ các điểm: $A\\left( 4\\,;\\,5 \\right)$, $B\\left( 6\\,;\\,3 \\right)$, $C\\left( 7\\,;\\,0 \\right)$, $D\\left( 0\\,;\\,0 \\right)$, $E\\left( 0\\,;\\,6 \\right)$.\n$M\\left( x,\\,y \\right)$ sẽ đạt giá trị lớn nhất, giá trị nhỏ nhất tại các đỉnh của miền nghiệm nên thay tọa độ các điểm vào biểu thức $M\\left( x,\\,y \\right)$ ta được:\n$M\\left( 4\\,;\\,5 \\right)=640$; $M\\left( 6\\,;\\,3 \\right)=600$, $M\\left( 7\\,;\\,0 \\right)=420$, $M\\left( 0\\,;\\,0 \\right)=0$, $M\\left( 0\\,;\\,6 \\right)=480$.\nVậy giá trị lớn nhất của $M\\left( x\\,;\\,y \\right)$ bằng $640$ khi $x=4;\\ y=5$ $\\Rightarrow a=4;\\ b=5\\Rightarrow a-b=-1$.",
    "short_value": -1,
@@ -551,6 +547,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "VD",
    "dang": "L10.C2.B2.D03",
    "dang_toan_web": "Ứng dụng hệ bất phương trình bậc nhất hai ẩn vào bài toán tối ưu (tìm giá trị lớn nhất, nhỏ nhất)."

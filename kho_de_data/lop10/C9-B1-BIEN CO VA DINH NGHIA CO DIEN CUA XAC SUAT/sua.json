@@ -1,32 +1,57 @@
 {
- "de2.P1.C12": {
-  "type": "multiple_choice",
-  "options": [
-   "$P(A)=\\left(\\dfrac{1}{4}\\right)^{50}$",
-   "$P(A)=\\dfrac{1}{4}$",
-   "$P(A)=\\dfrac{50}{4}$",
-   "$P(A)=\\dfrac{1}{200}$"
-  ],
-  "answer": "A",
-  "ly_do": "Đề thiếu phương án; đáp án A theo lời giải",
-  "sua_boi": "claude",
-  "xac_nhan": true
- },
- "de3.P2.C4": {
-  "tf": {
-   "a": "Số phần tử của không gian mẫu là $320$.",
-   "b": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có ít nhất 2 bạn nữ\" bằng: $225$",
-   "c": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có nhiều nhất 2 bạn nữ\" bằng: $260$",
-   "d": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có nhiều nhất 2 bạn nữ\" bằng: $265$"
+  "de2.P1.C12": {
+    "type": "multiple_choice",
+    "options": [
+      "$P(A)=\\left(\\dfrac{1}{4}\\right)^{50}$",
+      "$P(A)=\\dfrac{1}{4}$",
+      "$P(A)=\\dfrac{50}{4}$",
+      "$P(A)=\\dfrac{1}{200}$"
+    ],
+    "answer": "A",
+    "ly_do": "Đề thiếu phương án; đáp án A theo lời giải",
+    "sua_boi": "claude",
+    "xac_nhan": true
   },
-  "tf_ans": {
-   "a": false,
-   "b": false,
-   "c": false,
-   "d": true
+  "de3.P2.C4": {
+    "tf": {
+      "a": "Số phần tử của không gian mẫu là $320$.",
+      "b": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có ít nhất 2 bạn nữ\" bằng: $225$",
+      "c": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có nhiều nhất 2 bạn nữ\" bằng: $260$",
+      "d": "Số các kết quả thuận lợi cho biến cố \"Trong 4 bạn được chọn có nhiều nhất 2 bạn nữ\" bằng: $265$"
+    },
+    "tf_ans": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "d": true
+    },
+    "ly_do": "Dựng lại đủ 4 mệnh đề a–d và đáp án Đúng/Sai theo lời giải (mệnh đề bị thiếu/lệch khi nhập)",
+    "sua_boi": "claude",
+    "xac_nhan": true
   },
-  "ly_do": "Dựng lại đủ 4 mệnh đề a–d và đáp án Đúng/Sai theo lời giải (mệnh đề bị thiếu/lệch khi nhập)",
-  "sua_boi": "claude",
-  "xac_nhan": true
- }
+  "de1.P1.C1": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C12": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  },
+  "de1.P1.C8": {
+    "explanation": "Số phần tử của không gian mẫu là $\\left| \\Omega \\right|=6.6.6=216.$\nGọi $A$ là biến cố $''$Số chấm xuất hiện trên ba con súc sắc như nhau$''$. Ta có các trường hợp thuận lợi cho biến cố $A$ là $\\left( 1;1;1 \\right),\\text{ }\\left( 2;2;2 \\right),\\text{ }\\left( 3;3;3 \\right),\\text{ }\\cdots \\text{ },\\left( 6;6;6 \\right).$\nSuy ra $\\left| {{\\Omega }_{A}} \\right|=6.$\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{6}{216}$.",
+    "sua_boi": "muse",
+    "ly_do": "Lời giải ghi 6.6.6=36 là sai số học; đúng là 216, đáp án 6/216 (phương án C) không đổi.",
+    "xac_nhan": true
+  },
+  "de2.P1.C10": {
+    "answer": "B",
+    "explanation": "Số phần tử của không gian mẫu là $\\left| \\Omega \\right|=6.6=36.$\nGọi $A$ là biến cố $''$Số chấm trên mặt hai lần gieo có tổng bằng $8$ $''$.\nGọi số chấm trên mặt khi gieo lần một là $x,$ số chấm trên mặt khi gieo lần hai là $y.$\nTheo bài ra, ta có $\\left\\{ \\begin{aligned} & 1\\le x\\le 6 \\\\ & 1\\le y\\le 6 \\\\ & x+y=8 \\\\ \\end{aligned} \\right.\\Rightarrow \\left( x;y \\right)=\\left\\{ \\left( 2;6 \\right),\\,\\,\\left( 3;5 \\right),\\,\\,\\left( 6;2 \\right),\\,\\,\\left( 5;3 \\right),\\,\\,\\left( 4;4 \\right) \\right\\}.$\nKhi đó số kết quả thuận lợi của biến cố là $\\left| {{\\Omega }_{A}} \\right|=5.$\nVậy xác suất cần tính $P\\left( A \\right)=\\frac{5}{36}.$",
+    "sua_boi": "muse",
+    "ly_do": "Chỉ có 5 cặp tổng bằng 8 nên P=5/36 (phương án B), không phải 6/36=1/6 như lời giải gốc.",
+    "xac_nhan": true
+  },
+  "de2.P1.C11": {
+    "xac_nhan": true,
+    "sua_boi": "muse"
+  }
 }

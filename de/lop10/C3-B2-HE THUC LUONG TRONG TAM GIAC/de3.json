@@ -216,9 +216,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "B",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Cho $\\Delta ABC$có $a=6,b=8,c=10.$ Diện tích $S$ của tam giác trên là:",
    "explanation": "Ta có: Nửa chu vi $\\Delta ABC$: $p=\\frac{a+b+c}{2}$.\nÁp dụng công thức Hê-rông: $S=\\sqrt{p(p-a)(p-b)(p-c)}=\\sqrt{12(12-6)(12-8)(12-10)}=24$.",
    "options": [
@@ -235,6 +233,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "TH"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D09",
    "dang_toan_web": "Các công thức tính diện tích tam giác."
@@ -274,9 +273,7 @@
    "tf": {},
    "tf_ans": {},
    "answer": "A",
-   "flags": [
-    "dap_an_suy_tu_loi_giai_can_xac_nhan"
-   ],
+   "flags": [],
    "question": "Tam giác ABC có $\\widehat{A}={{68}^{0}}12'$, $\\widehat{B}={{34}^{0}}44'$, $AB=117.$ Tính $AC$?",
    "explanation": "Ta có: Trong tam giác $ABC$: $\\widehat{A}+\\widehat{B}+\\widehat{C}={{180}^{0}}\\Rightarrow \\widehat{C}={{180}^{0}}-{{68}^{0}}12'-{{34}^{0}}44'={{77}^{0}}4'$.\nMặt khác $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}\\Rightarrow \\frac{AC}{\\sin B}=\\frac{AB}{\\sin C}\\Rightarrow AC=\\frac{AB.\\sin B}{\\sin C}=\\frac{117.\\sin {{34}^{0}}44'}{\\sin {{77}^{0}}4'}\\simeq 68\\,.$",
    "options": [
@@ -293,6 +290,7 @@
     "tham_so": false,
     "muc_do_goi_y_theo_vi_tri": "VD"
    },
+   "sua_boi": "muse",
    "muc_do": "TH",
    "dang": "L10.C3.B2.D03",
    "dang_toan_web": "Định lí côsin và định lí sin trong tam giác."
@@ -518,7 +516,7 @@
    "flags": [],
    "question": "Cho ${\\Delta A B C}$ có ${A B=8, {AC}=5, \\widehat{B A C}=60^{\\circ}}$. Tính chiều cao ${A H}$ của ${\\Delta A B C}$",
    "explanation": "${B C=\\sqrt{A B^2+A C^2-2 A B \\cdot A C \\cdot \\cos 60^{\\circ}}=7 ; S_{\\Delta A B C}=\\frac{1}{2} A B \\cdot A C \\cdot \\sin \\widehat{B A C}=10 \\sqrt{3}}$.\n${{S}_{\\Delta ABC}}=\\frac{1}{2}AH\\cdot BC\\Leftrightarrow 10\\sqrt{3}=\\frac{1}{2}\\cdot 7\\cdot AH\\Leftrightarrow AH=\\frac{20\\sqrt{3}}{7}.$",
-   "short_value": 20,
+   "short_value": 10,
    "short_correct": "\\frac{20\\sqrt{3}}{7}|20√3/7",
    "ma": "de3.P3.C2",
    "dac_trung": {
@@ -543,7 +541,7 @@
    "flags": [],
    "question": "Cho tam giác nhọn ${A B C}$ có ${a=3, b=4}$ và diện tích ${S=3 \\sqrt{3}}$. Tính bán kính ${R}$ của đường tròn ngoại tiếp tam giác đó.",
    "explanation": "${S=\\frac{1}{2} a b \\sin C \\Rightarrow \\sin C=\\frac{2 S}{a b}=\\frac{2.3 \\sqrt{3}}{3.4}=\\frac{\\sqrt{3}}{2} \\Rightarrow \\widehat{C}=60^{\\circ}}$.\n$c=\\sqrt{{{a}^{2}}+{{b}^{2}}-2ab\\cos C}=\\sqrt{13};\\frac{c}{\\sin C}=2R\\Rightarrow R=\\frac{c}{2\\sin C}=\\frac{\\sqrt{13}}{2\\sin {{60}^{{}^\\circ }}}=\\frac{\\sqrt{39}}{3}\\text{. }$",
-   "short_value": 39,
+   "short_value": 60,
    "short_correct": "\\frac{\\sqrt{39}}{3}|√39/3",
    "ma": "de3.P3.C3",
    "dac_trung": {
@@ -568,7 +566,7 @@
    "flags": [],
    "question": "Thành phố Hải Đông dự định xây dựng một trạm nước sạch để cung cấp cho hai khu dân cư ${A}$ và ${B}$. Trạm nước sạch đặt tại vị trí ${C}$ trên bờ sông. Biết ${A B=3 \\sqrt{17} {~km}}$, khoảng cách từ ${A}$ và ${B}$ đến bờ sông lần lượt là ${A M=3 {~km}, B N=6 {~km}}$ (hình vẽ). Gọi ${T}$ là tổng độ dài đường ống từ trạm nước đến ${A}$ và ${B}$. Tìm giá trị nhỏ nhất của ${T}$.\n[[IMG:image47.png]]\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
    "explanation": "Kẻ ${A K \\perp B N ; A^{\\prime} H \\perp B N}$.\n[[IMG:image48.png]]\nGọi ${A^{\\prime}}$ đối xứng với ${A}$ qua ${M N, D}$ là trung của ${N B}$.\n${T=C A+C B=C A^{\\prime}+C B \\geq A^{\\prime} B}$ (không đổi). Đẳng thức xảy ra khi ${\\{C\\}=M N \\cap A^{\\prime} B}$.\n$MN=AK={{A}^{\\prime }}H=\\sqrt{A{{B}^{2}}-K{{B}^{2}}}=\\sqrt{{{(3\\sqrt{37})}^{2}}-{{3}^{2}}}=18~km.$\nVậy ${A^{\\prime} B=\\sqrt{A^{\\prime} H^2+H B^2}=\\sqrt{18^2+9^2}=9 \\sqrt{5} \\simeq 20,12 {~km}}$.",
-   "short_value": 18,
+   "short_value": 9,
    "short_correct": "20,1",
    "ma": "de3.P3.C4",
    "dac_trung": {
