@@ -1,0 +1,461 @@
+{
+ "flags": [
+  {
+   "ghi_chu": "Nguồn không có thang điểm. Bản soạn đặt: Phần I 6 câu x 0,25 = 1,5; Phần II 8 câu x 1 = 8; Phần III 6 câu x 0,5 = 3; tổng 12,5 điểm. Đây là đề luyện tập, không phải đề thi 10 điểm.",
+   "loai": "thang_diem_do_ban_soan_dat"
+  },
+  {
+   "ghi_chu": "Cả 20 câu đã được tự giải độc lập (tính tay + kiểm chứng bằng sympy: các đáp số 11, 9, 41, 625/64 ≈ 9,77, 98, 12 và các giá trị trung gian 1400, 6067, 16/3) và đối chiếu với đáp án thầy trong Bản viết tay: khớp 20/20, không có câu lệch, không có câu held.",
+   "loai": "tu_giai_kiem_chung"
+  },
+  {
+   "ghi_chu": "Thầy Đỗ Văn Đức, Khóa Chữa sách, BOOK1-A1 – Bài 1: Nền tảng về tính đơn điệu và cực trị của hàm số; phần Bài tập rèn luyện (Dạng 1 câu 1–6 trắc nghiệm, Dạng 2 câu 7–14 đúng/sai, Dạng 3 câu 15–20 trả lời ngắn). Bản soạn chỉ lấy phần Bài tập rèn luyện; phần A. Kiến thức cần nhớ và phần Ví dụ minh họa (Ví dụ 1–5, trong đó Ví dụ 5 chỉ có trong Bản viết tay, không có trong Tài liệu) chưa soạn.",
+   "loai": "nguon"
+  },
+  {
+   "ghi_chu": "2 hình: câu gốc 4 (đồ thị f trên đoạn [−6; 6]) crop trực tiếp từ trang 4 (Trang 9) của file Tài liệu gốc bằng pdftoppm -r 300, vùng crop 650x510 tại (1450, 1490), đã kiểm tra bằng mắt là sạch, không dính chữ ngoài hình, không watermark. Câu gốc 12 (bảng biến thiên) VẼ LẠI bằng Pillow theo đúng số liệu bảng gốc vì ảnh crop từ Tài liệu dính watermark chéo TAILIEUONTHI.NET đè lên cột phải của bảng (không crop sạch được mà không cắt mất cột +∞); bảng vẽ lại giữ nguyên mọi giá trị: x: −∞, −1, 3, +∞; f′(x): +, −, 0, +; f(x): −∞ ↗ 2 | +∞ ↘ −4 ↗ +∞. Các công thức từng khúc (câu 2, 3, 8, 11) và bảng xét dấu đã ghi đủ bằng chữ trong đề nên không cần hình.",
+   "loai": "hinh_anh"
+  },
+  {
+   "ghi_chu": "Đối chiếu bản in: (1) Câu gốc 4: bản trích text từ PDF làm mất |x| (ghi 'hàm số y = f(x) có bao nhiêu điểm cực trị'), bản soạn lấy theo ảnh render Tài liệu và Bản viết tay: hỏi số điểm cực trị của y = f(|x|) trên [−6; 6], đáp án B (4). (2) Câu gốc 9: bản trích text ghi sai công thức V(t); bản soạn lấy theo Bản viết tay: V(t) = (1/200)(40t^3 − t^4/4). (3) Câu gốc 5: lời giải tay 'cách 1' dùng f^3 có bước trung gian viết chưa chặt, bản soạn viết lại lời giải bằng đạo hàm trực tiếp y′ = (5x − 2)/(3∛x), cùng đáp số 2. (4) Câu gốc 19: điều kiện 'f(x) = a(x − x0)^3' của thầy là cần chứ không chỉ đủ — đã kiểm chứng: Δ(f′) = ½[(r1−r2)² + (r2−r3)² + (r3−r1)²] ≥ 0 nên f′ ≥ 0 trên ℝ buộc ba nghiệm của f bằng nhau.",
+   "loai": "doi_chieu_ban_in"
+  }
+ ],
+ "meta": {
+  "exam_type": "luyen_tap",
+  "grade": "12",
+  "ngay_soan": "2026-11-09",
+  "soan_boi": "muse",
+  "title": "Bài tập rèn luyện – Bài 1: Nền tảng về tính đơn điệu và cực trị của hàm số (Thầy Đỗ Văn Đức – Khóa Chữa sách) (Muse soạn)"
+ },
+ "no": 1,
+ "questions": [
+  {
+   "answer": "C",
+   "explanation": "Ta có $f'(x) = 1 - 2\\sin x$. Trên $(0; \\pi)$, $f'(x) = 0 \\Leftrightarrow \\sin x = \\frac{1}{2} \\Leftrightarrow x = \\frac{\\pi}{6}$ hoặc $x = \\frac{5\\pi}{6}$. Bảng xét dấu $f'(x)$: $+$ trên $\\left(0; \\frac{\\pi}{6}\\right)$, $-$ trên $\\left(\\frac{\\pi}{6}; \\frac{5\\pi}{6}\\right)$, $+$ trên $\\left(\\frac{5\\pi}{6}; \\pi\\right)$ nên $f(x)$ đạt cực tiểu tại $x = \\frac{5\\pi}{6}$. Chọn C.",
+   "flags": [],
+   "ma": "de1.P1.C1",
+   "muc_do": "TH",
+   "n": 1,
+   "options": [
+    "$x = \\frac{\\pi}{6}$",
+    "$x = \\frac{\\pi}{3}$",
+    "$x = \\frac{5\\pi}{6}$",
+    "$x = \\frac{2\\pi}{3}$"
+   ],
+   "points": 0.25,
+   "question": "Trên khoảng $(0; \\pi)$, hàm số $f(x) = x + 2\\cos x$ đạt cực tiểu tại",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": "A",
+   "explanation": "Hàm số liên tục tại $x = 1$ vì $\\lim_{x \\to 1^-} f(x) = 3 = \\lim_{x \\to 1^+} f(x) = f(1)$. Ta có $f'(x) = 2x > 0$ với $x > 1$ và $f'(x) = 2 > 0$ với $x < 1$, nên $f'(x) > 0$ với mọi $x \\in \\mathbb{R} \\setminus \\{1\\}$; hàm số đồng biến trên $\\mathbb{R}$ và không có điểm cực trị. Chọn A.",
+   "flags": [],
+   "ma": "de1.P1.C2",
+   "muc_do": "TH",
+   "n": 2,
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "points": 0.25,
+   "question": "Cho hàm số $f(x) = \\begin{cases} x^2 + 2 & \\text{khi } x \\ge 1 \\\\ 2x + 1 & \\text{khi } x < 1 \\end{cases}$. Số điểm cực trị của hàm số $y = f(x)$ là",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": "A",
+   "explanation": "$f'(x)$ liên tục trên $\\mathbb{R}$. Với $x \\le 2$: $f'(x) = 0 \\Leftrightarrow e^{2x-4} = 1 \\Leftrightarrow x = 2$. Với $x > 2$: $f'(x) = 0 \\Leftrightarrow x = 3$ (vì $x = 1, x = 2$ không thỏa $x > 2$). Xét dấu: $f'(x) < 0$ khi $x < 2$; $f'(x) < 0$ khi $2 < x < 3$; $f'(x) > 0$ khi $x > 3$. Vậy $f'(x)$ chỉ đổi dấu tại $x = 3$ nên $f(x)$ có đúng $1$ điểm cực trị. Chọn A.",
+   "flags": [],
+   "ma": "de1.P1.C3",
+   "muc_do": "VD",
+   "n": 3,
+   "options": [
+    "$1$",
+    "$2$",
+    "$3$",
+    "$4$"
+   ],
+   "points": 0.25,
+   "question": "Cho hàm số $f(x)$ có đạo hàm liên tục trên $\\mathbb{R}$ thỏa mãn $f'(x) = \\begin{cases} e^{2x-4} - 1 & \\text{khi } x \\le 2 \\\\ (x-1)(x-2)(x-3) & \\text{khi } x > 2 \\end{cases}$. Số điểm cực trị của hàm số $f(x)$ là",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": "B",
+   "explanation": "Hàm số $y = f(|x|)$ là hàm chẵn nên đồ thị của nó đối xứng qua trục $Oy$. Trên $(0; 6]$, đồ thị $f$ có một điểm cực đại và một điểm cực tiểu (đọc từ hình vẽ), do đó $f(|x|)$ có cực đại tại $x = 2$ và $x = -2$, cực tiểu tại $x = 5$ và $x = -5$. Tại $x = 0$, $f$ không đổi trên một khoảng nhỏ quanh $0$ (đoạn nằm ngang trên đồ thị) nên $0$ không phải điểm cực trị; hai đầu mút $\\pm 6$ cũng không tính. Vậy có đúng $4$ điểm cực trị. Chọn B.",
+   "flags": [],
+   "ma": "de1.P1.C4",
+   "muc_do": "VD",
+   "n": 4,
+   "options": [
+    "$5$",
+    "$4$",
+    "$7$",
+    "$6$"
+   ],
+   "points": 0.25,
+   "question": "Cho hàm số $y = f(x)$ xác định, liên tục trên đoạn $[-6; 6]$ và có đồ thị là đường cong trong hình vẽ. [[IMG:hinh_cau_04.png]] Hỏi trên đoạn $[-6; 6]$ hàm số $y = f(|x|)$ có bao nhiêu điểm cực trị?",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": "B",
+   "explanation": "Hàm số xác định trên $\\mathbb{R}$. Ta có $y = (x-1)x^{\\frac{2}{3}}$ nên $y' = x^{\\frac{2}{3}} + (x-1) \\cdot \\frac{2}{3}x^{-\\frac{1}{3}} = \\frac{5x-2}{3\\sqrt[3]{x}}$ với $x \\ne 0$. $y' = 0 \\Leftrightarrow x = \\frac{2}{5}$; $y'$ không xác định tại $x = 0$. Bảng xét dấu: $y' > 0$ khi $x < 0$, $y' < 0$ khi $0 < x < \\frac{2}{5}$, $y' > 0$ khi $x > \\frac{2}{5}$. Vậy $y'$ đổi dấu tại $x = 0$ và $x = \\frac{2}{5}$ nên hàm số có đúng $2$ điểm cực trị. Chọn B.",
+   "flags": [],
+   "ma": "de1.P1.C5",
+   "muc_do": "VD",
+   "n": 5,
+   "options": [
+    "$0$",
+    "$2$",
+    "$1$",
+    "$3$"
+   ],
+   "points": 0.25,
+   "question": "Số điểm cực trị của hàm số $y = (x - 1)\\sqrt[3]{x^2}$ là",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": "B",
+   "explanation": "Ta có $f'(x) = (e^x - 1)x^{25}(x+1)$. $f'(x) = 0 \\Leftrightarrow x = 0$ hoặc $x = -1$. Tại $x = 0$: cả hai thừa số $e^x - 1$ và $x^{25}$ đều đổi dấu nên tích của chúng không đổi dấu, $f'(x)$ không đổi dấu qua $x = 0$. Tại $x = -1$: thừa số $x + 1$ đổi dấu, các thừa số còn lại giữ dấu âm, nên $f'(x)$ đổi dấu từ $-$ sang $+$ (kiểm tra: $f'(-2) < 0$, $f'\\left(-\\frac{1}{2}\\right) > 0$). Vậy $f(x)$ có đúng $1$ điểm cực trị tại $x = -1$. Chọn B.",
+   "flags": [],
+   "ma": "de1.P1.C6",
+   "muc_do": "VD",
+   "n": 6,
+   "options": [
+    "$0$",
+    "$1$",
+    "$2$",
+    "$3$"
+   ],
+   "points": 0.25,
+   "question": "Cho hàm số $f(x)$ thỏa mãn $f'(x) = (e^x - 1)(x^{26} + x^{25})$ với mọi $x \\in \\mathbb{R}$. Số điểm cực trị của hàm số $f(x)$ là",
+   "section": 1,
+   "tf": {},
+   "tf_ans": {},
+   "type": "multiple_choice"
+  },
+  {
+   "answer": null,
+   "explanation": "a) Sai, vì $f(x) = 0 \\Leftrightarrow 2x + 1 = 0 \\Leftrightarrow x = -\\frac{1}{2} \\ne 1$. b) Sai, vì $f'(x) = \\frac{1}{(x+1)^2} > 0$ trên từng khoảng $(-\\infty; -1)$ và $(-1; +\\infty)$ nhưng $\\mathbb{R} \\setminus \\{-1\\}$ không phải một khoảng; chẳng hạn $-2 < 0$ mà $f(-2) = 3 > 1 = f(0)$. c) Đúng, vì $f'(x) > 0$ với mọi $x \\ne -1$ nên $f$ không có điểm cực trị. d) Sai, vì $y = \\frac{2x+1}{x+1} = 2 - \\frac{1}{x+1}$; $y \\in \\mathbb{Z}$ khi $x + 1 \\in \\{1; -1\\}$ tức $x \\in \\{0; -2\\}$, cho hai điểm $(0; 1)$ và $(-2; 3)$, không phải một điểm.",
+   "flags": [],
+   "ma": "de1.P2.C1",
+   "muc_do": "TH",
+   "n": 1,
+   "options": [],
+   "points": 1,
+   "question": "Cho hàm số $y = f(x) = \\frac{2x+1}{x+1}$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Đồ thị hàm số $y = f(x)$ cắt trục hoành tại điểm có hoành độ bằng $1$.",
+    "b": "Hàm số $f(x)$ đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$.",
+    "c": "Hàm số $f(x)$ không có điểm cực trị.",
+    "d": "Trên đồ thị hàm số $y = f(x)$, có đúng $1$ điểm có hoành độ và tung độ là các số nguyên."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": false,
+    "c": true,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "a) Đúng, vì tại $x = -1$: $\\lim_{x \\to -1^-} f(x) = 1 = f(-1)$; tại $x = 2$: $\\lim_{x \\to 2^+} f(x) = 4 = f(2)$. b) Đúng, vì trên $(0; 2)$ có $f'(x) = 2x > 0$, trên $(2; 4)$ có $f'(x) = -2 < 0$. c) Sai, vì $f$ có đạo hàm tại $x = -1$: đạo hàm trái bằng $-2$ và đạo hàm phải bằng $2 \\cdot (-1) = -2$, nên $f'(-1) = -2$ (chỉ tại $x = 2$ là $f$ không có đạo hàm vì đạo hàm trái bằng $4$, đạo hàm phải bằng $-2$). d) Sai, vì $f'(x)$ đổi dấu tại $x = 0$ (từ $-$ sang $+$, cực tiểu) và tại $x = 2$ (từ $+$ sang $-$, cực đại) nên $f$ có đúng $2$ điểm cực trị.",
+   "flags": [],
+   "ma": "de1.P2.C2",
+   "muc_do": "VD",
+   "n": 2,
+   "options": [],
+   "points": 1,
+   "question": "Cho hàm số $f(x) = \\begin{cases} -2x - 1 & \\text{khi } x < -1 \\\\ x^2 & \\text{khi } -1 \\le x \\le 2 \\\\ -2x + 8 & \\text{khi } x > 2 \\end{cases}$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Hàm số $f(x)$ liên tục trên $\\mathbb{R}$.",
+    "b": "Hàm số $f(x)$ đồng biến trên khoảng $(0; 2)$ và nghịch biến trên khoảng $(2; 4)$.",
+    "c": "Hàm số $f(x)$ không có đạo hàm tại $x = 2$ và $x = -1$.",
+    "d": "Hàm số $f(x)$ có đúng $1$ điểm cực trị."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "a) Đúng, vì $V(20) = \\frac{1}{200}\\left(40 \\cdot 20^3 - \\frac{20^4}{4}\\right) = \\frac{1}{200}(320000 - 40000) = 1400$. b) Sai, vì $f(t) = V'(t) = \\frac{1}{200}(120t^2 - t^3)$, thiếu thừa số $\\frac{1}{200}$. c) Sai, vì $f'(t) = \\frac{1}{200}(240t - 3t^2) = \\frac{3t}{200}(80 - t) > 0$ với $45 < t < 75$ nên tốc độ bơm đang tăng trên khoảng này. d) Đúng, vì $f'(t) > 0$ trên $(0; 80)$ và $f'(t) < 0$ trên $(80; 120)$ nên $f$ đạt giá trị lớn nhất tại $t = 80$.",
+   "flags": [],
+   "ma": "de1.P2.C3",
+   "muc_do": "VD",
+   "n": 3,
+   "options": [],
+   "points": 1,
+   "question": "Thể tích nước của một bể bơi sau $t$ phút bơm tính theo công thức $V(t) = \\frac{1}{200}\\left(40t^3 - \\frac{t^4}{4}\\right)$ (m$^3$), $(0 \\le t \\le 120)$. Tốc độ bơm nước tại thời điểm $t$ được tính bởi công thức $f(t) = V'(t)$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Thể tích nước của bể bơi sau $20$ phút bơm là $1400$ (m$^3$).",
+    "b": "Tốc độ bơm nước tại thời điểm $t$ là $f(t) = 120t^2 - t^3$.",
+    "c": "Tốc độ bơm giảm từ phút thứ $45$ đến phút thứ $75$.",
+    "d": "Tốc độ bơm lớn nhất tại thời điểm $t = 80$ (phút)."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": false,
+    "c": false,
+    "d": true
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "Ta có $f'(x) = \\frac{1}{2} - 2\\sin x \\cos x = \\frac{1}{2} - \\sin 2x$. Trên $(0; \\pi)$: $f'(x) = 0 \\Leftrightarrow \\sin 2x = \\frac{1}{2} \\Leftrightarrow x = \\frac{\\pi}{12}$ hoặc $x = \\frac{5\\pi}{12}$. a) Sai, vì $f'(x) > 0$ trên $\\left(\\frac{5\\pi}{12}; \\pi\\right)$ (do $\\sin 2x < \\frac{1}{2}$ với $2x \\in \\left(\\frac{5\\pi}{6}; 2\\pi\\right)$) nên hàm số đồng biến, không nghịch biến. b) Đúng, vì $f'$ đổi dấu tại cả hai điểm $\\frac{\\pi}{12}$ và $\\frac{5\\pi}{12}$. c) Đúng, vì $x = \\frac{5\\pi}{12}$ là điểm cực tiểu và $f\\left(\\frac{5\\pi}{12}\\right) = \\frac{5\\pi}{24} - \\sin^2\\frac{5\\pi}{12} = \\frac{5\\pi}{24} - \\frac{2+\\sqrt{3}}{4}$ (do $\\sin^2\\frac{5\\pi}{12} = \\frac{2+\\sqrt{3}}{4}$). d) Sai, vì $f'(x) = \\frac{-\\sin^2 2x}{2} \\Leftrightarrow \\frac{1}{2}\\sin^2 2x - \\sin 2x + \\frac{1}{2} = 0 \\Leftrightarrow \\sin 2x = 1 \\Leftrightarrow x = \\frac{\\pi}{4}$, chỉ có $1$ nghiệm trên $(0; \\pi)$.",
+   "flags": [],
+   "ma": "de1.P2.C4",
+   "muc_do": "VD",
+   "n": 4,
+   "options": [],
+   "points": 1,
+   "question": "Xét hàm số $y = \\frac{x}{2} - \\sin^2 x$ trên khoảng $(0; \\pi)$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Hàm số nghịch biến trên khoảng $\\left(\\frac{5\\pi}{12}; \\pi\\right)$.",
+    "b": "Hàm số có $2$ điểm cực trị.",
+    "c": "Giá trị cực tiểu của hàm số là $\\frac{5\\pi}{24} - \\frac{2+\\sqrt{3}}{4}$.",
+    "d": "Đồ thị hàm số $y = f'(x)$ cắt đồ thị hàm số $y = \\frac{-\\sin^2 2x}{2}$ tại $2$ nghiệm trên khoảng $(0; \\pi)$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "a) Sai, vì $f'(-1) = (-1)^2 + 3 \\cdot (-1) + 1 = -1 \\ne 4$. b) Đúng, vì tại $x = 0$: giới hạn trái bằng $1$ và giá trị phải bằng $(0-1)^2 = 1$. c) Đúng, vì với $x < -3$: $f'(x) = x^2 + 3x + 1 = x(x+3) + 1 > 0$ (do $x(x+3) > 0$). d) Sai, vì $f'(x) = 0 \\Leftrightarrow x = \\frac{-3-\\sqrt{5}}{2}$, $x = \\frac{-3+\\sqrt{5}}{2}$ hoặc $x = 1$; tại $x = 1$ thì $(x-1)^2$ không đổi dấu nên $f$ chỉ đổi dấu tại hai điểm đầu, có đúng $2$ điểm cực trị.",
+   "flags": [],
+   "ma": "de1.P2.C5",
+   "muc_do": "TH",
+   "n": 5,
+   "options": [],
+   "points": 1,
+   "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ thỏa mãn $f'(x) = \\begin{cases} x^2 + 3x + 1 & \\text{khi } x < 0 \\\\ (x-1)^2 & \\text{khi } x \\ge 0 \\end{cases}$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "$f'(-1) = 4$.",
+    "b": "Hàm số $f'(x)$ liên tục trên $\\mathbb{R}$.",
+    "c": "Hàm số $f(x)$ đồng biến trên khoảng $(-\\infty; -3)$.",
+    "d": "Hàm số $f(x)$ có $3$ điểm cực trị."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "Theo bảng biến thiên: $f'(x) > 0$ trên $(-\\infty; -1)$, $f'(x) < 0$ trên $(-1; 3)$, $f'(x) > 0$ trên $(3; +\\infty)$; $f$ có tiệm cận đứng $x = -1$ và $f(3) = -4$ là giá trị cực tiểu. a) Sai, vì đồ thị chỉ có đúng một đường tiệm cận là $x = -1$ (khi $x \\to -\\infty$ thì $f(x) \\to -\\infty$ và khi $x \\to +\\infty$ thì $f(x) \\to +\\infty$, không có tiệm cận ngang). b) Đúng, vì $f'(x) > 0$ trên $(3; +\\infty)$. c) Đúng, vì $f'$ chỉ đổi dấu tại $x = 3$ ($x = -1$ không thuộc tập xác định). d) Sai, vì $h'(x) = 2f'(x) + 2025 > 0$ trên $[3; 2025]$ nên $\\min h = h(3) = 2f(3) + 2025 \\cdot 3 = 2 \\cdot (-4) + 6075 = 6067 \\ne 6083$.",
+   "flags": [],
+   "ma": "de1.P2.C6",
+   "muc_do": "VD",
+   "n": 6,
+   "options": [],
+   "points": 1,
+   "question": "Cho hàm số $f(x)$ có bảng biến thiên như sau: [[IMG:hinh_cau_12.png]] Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Đồ thị hàm số $y = f(x)$ có đúng hai đường tiệm cận.",
+    "b": "Hàm số $y = f(x)$ đồng biến trên $(3; +\\infty)$.",
+    "c": "Hàm số $y = f(x)$ có đúng một điểm cực trị.",
+    "d": "Giá trị nhỏ nhất của $h(x) = 2f(x) + 2025x$ trên đoạn $[3; 2025]$ bằng $6083$."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "a) Đúng, vì $f(\\pi) = \\pi + a\\sin\\pi = \\pi$ với mọi $a$. b) Đúng, vì $f(-x) = -x + a\\sin(-x) = -x - a\\sin x = -f(x)$ nên $f$ là hàm lẻ. c) Sai, vì với $a = 2$: $f'(x) = 1 + 2\\cos x = 0 \\Leftrightarrow \\cos x = -\\frac{1}{2} \\Leftrightarrow x = \\pm\\frac{2\\pi}{3} + k2\\pi$; trên $(-3\\pi; 3\\pi)$ có đúng $6$ nghiệm ($x = \\pm\\frac{2\\pi}{3}, \\pm\\frac{4\\pi}{3}, \\pm\\frac{8\\pi}{3}$), mỗi nghiệm đều đổi dấu nên có $6$ điểm cực trị, không phải $7$. d) Sai, vì $f'(x) = 1 + a\\cos x$; $f$ không có điểm cực trị khi và chỉ khi $f'$ không đổi dấu, tức $\\min f' = 1 - |a| \\ge 0$, hay $|a| \\le 1$, tức $-1 \\le a \\le 1$ (tại $a = \\pm 1$ thì $f' \\ge 0$ và chỉ bằng $0$ tại các điểm rời rạc nên vẫn không có cực trị); mệnh đề dùng khoảng mở $(-1; 1)$ nên sai.",
+   "flags": [],
+   "ma": "de1.P2.C7",
+   "muc_do": "VD",
+   "n": 7,
+   "options": [],
+   "points": 1,
+   "question": "Cho hàm số $f(x) = x + a \\cdot \\sin x$ ($a \\in \\mathbb{R}$). Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Khi $a$ thay đổi, đồ thị hàm số $y = f(x)$ luôn đi qua điểm $(\\pi; \\pi)$.",
+    "b": "Đồ thị hàm số $y = f(x)$ luôn nhận gốc tọa độ làm tâm đối xứng.",
+    "c": "Khi $a = 2$, hàm số $f(x)$ có $7$ điểm cực trị trên khoảng $(-3\\pi; 3\\pi)$.",
+    "d": "Hàm số $f(x)$ không có điểm cực trị khi và chỉ khi $-1 < a < 1$."
+   },
+   "tf_ans": {
+    "a": true,
+    "b": true,
+    "c": false,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "Vận tốc $v(t) = x'(t) = 3t^2 - 14t + 11 = 3(t-1)\\left(t-\\frac{11}{3}\\right)$. a) Sai, vì $v(t) > 0$ trên $(0; 1)$ nhưng $v(t) < 0$ trên $(1; 2)$ nên trong $2$ giây đầu vật không phải lúc nào cũng chuyển động sang phải. b) Đúng, vì tốc độ là $|v(t)|$; trên $[1; 4]$: $|v|$ bằng $0$ tại $t = 1$ và $t = \\frac{11}{3}$, bằng $\\frac{16}{3}$ tại $t = \\frac{7}{3}$, bằng $3$ tại $t = 4$, nên giá trị lớn nhất là $\\frac{16}{3}$. c) Đúng, vì $a(t) = v'(t) = 6t - 14$. d) Sai, vì $a(t) = 6\\left(t-\\frac{7}{3}\\right) > 0$ trên $[3; 5]$ nên vận tốc tăng, tức vật tăng tốc chứ không giảm tốc.",
+   "flags": [],
+   "ma": "de1.P2.C8",
+   "muc_do": "VD",
+   "n": 8,
+   "options": [],
+   "points": 1,
+   "question": "Một vật chuyển động dọc theo một trục số nằm ngang, chiều dương từ trái sang phải. Giả sử vị trí của vật $x$ (mét) từ thời điểm $t = 0$ giây đến thời điểm $t = 5$ giây được cho bởi công thức $x(t) = t^3 - 7t^2 + 11t + 5$. Xét tính đúng hoặc sai của các mệnh đề sau:",
+   "section": 2,
+   "tf": {
+    "a": "Trong $2$ giây đầu tiên, vật chuyển động sang phải.",
+    "b": "Tốc độ cực đại của vật trong khoảng thời gian từ $t = 1$ giây đến $t = 4$ giây là $\\frac{16}{3}$ (m/s).",
+    "c": "Công thức xác định gia tốc của vật là $a(t) = 6t - 14$.",
+    "d": "Vật giảm tốc trong khoảng thời gian từ $3$ giây đến $5$ giây."
+   },
+   "tf_ans": {
+    "a": false,
+    "b": true,
+    "c": true,
+    "d": false
+   },
+   "type": "true_false"
+  },
+  {
+   "answer": null,
+   "explanation": "Vì $f$ nghịch biến trên $\\mathbb{R}$ nên $f(x^2-49) > f(6x-22) \\Leftrightarrow x^2 - 49 < 6x - 22 \\Leftrightarrow x^2 - 6x - 27 < 0 \\Leftrightarrow -3 < x < 9$. Các số nguyên trong $(-3; 9)$ là $-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8$, tổng cộng $11$ số.",
+   "flags": [],
+   "ma": "de1.P3.C1",
+   "muc_do": "TH",
+   "n": 1,
+   "options": [],
+   "points": 0.5,
+   "question": "Cho hàm số $f(x)$ nghịch biến trên $\\mathbb{R}$. Tập nghiệm của bất phương trình $f(x^2 - 49) > f(6x - 22)$ chứa bao nhiêu số nguyên?",
+   "section": 3,
+   "short_correct": "11",
+   "short_value": 11,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  },
+  {
+   "answer": null,
+   "explanation": "Ta có $f'(x) = x^4 + 2x^3 - 93x^2 - 270x = x(x-10)(x+3)(x+9)$. Bảng xét dấu cho thấy $f'(x) < 0$ trên $(-9; -3)$ và trên $(0; 10)$, nên $f$ có hai khoảng nghịch biến là $(-9; -3)$ và $(0; 10)$. Khoảng $(-9; -3)$ chứa $5$ số nguyên $\\{-8; -7; -6; -5; -4\\}$; khoảng $(0; 10)$ chứa $9$ số nguyên $\\{1; 2; \\dots; 9\\}$. Vậy số lượng tối đa là $9$.",
+   "flags": [],
+   "ma": "de1.P3.C2",
+   "muc_do": "VD",
+   "n": 2,
+   "options": [],
+   "points": 0.5,
+   "question": "Cho hàm số $f(x) = \\frac{1}{5}x^5 + \\frac{1}{2}x^4 - 31x^3 - 135x^2$. Gọi khoảng $(a; b)$ là một khoảng nghịch biến của hàm số $f(x)$. Hỏi khoảng $(a; b)$ chứa tối đa bao nhiêu giá trị nguyên?",
+   "section": 3,
+   "short_correct": "9",
+   "short_value": 9,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  },
+  {
+   "answer": null,
+   "explanation": "Ta có $f'(x) = x(x-1)(x+1)(x-\\sqrt{2})(x+\\sqrt{2}) \\dots (x-\\sqrt{20})(x+\\sqrt{20})$. Phương trình $f'(x) = 0$ có $41$ nghiệm phân biệt là $0, \\pm 1, \\pm\\sqrt{2}, \\dots, \\pm\\sqrt{20}$, mỗi nghiệm đều là nghiệm đơn nên $f'(x)$ đổi dấu qua từng nghiệm. Vậy $f(x)$ có đúng $41$ điểm cực trị.",
+   "flags": [],
+   "ma": "de1.P3.C3",
+   "muc_do": "VD",
+   "n": 3,
+   "options": [],
+   "points": 0.5,
+   "question": "Cho hàm số $f(x)$ có $f'(x) = x(x^2 - 1)(x^2 - 2)(x^2 - 3) \\dots (x^2 - 20)$ với mọi $x \\in \\mathbb{R}$. Hỏi hàm số $f(x)$ có bao nhiêu điểm cực trị?",
+   "section": 3,
+   "short_correct": "41",
+   "short_value": 41,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  },
+  {
+   "answer": null,
+   "explanation": "Ta có $f'(x) = 3x^2 - 12x - 36 = 0 \\Leftrightarrow x = -2$ hoặc $x = 6$. Hai điểm cực trị là $M(-2; 39)$ và $N(6; -217)$ (vì $f(-2) = 39$, $f(6) = -217$). Đường thẳng $d$ qua $M, N$ có phương trình $y = -32x - 25$. Suy ra $B(0; -25)$ và $A\\left(-\\frac{25}{32}; 0\\right)$. Diện tích tam giác $OAB$ bằng $\\frac{1}{2} \\cdot OA \\cdot OB = \\frac{1}{2} \\cdot \\frac{25}{32} \\cdot 25 = \\frac{625}{64} \\approx 9,77$.",
+   "flags": [],
+   "ma": "de1.P3.C4",
+   "muc_do": "VD",
+   "n": 4,
+   "options": [],
+   "points": 0.5,
+   "question": "Cho hàm số $f(x) = x^3 - 6x^2 - 36x - 1$. Gọi $d$ là đường thẳng đi qua $2$ điểm cực trị của đồ thị hàm số $y = f(x)$. Biết $d$ cắt trục $Ox$ và $Oy$ lần lượt tại $A$ và $B$ thì diện tích tam giác $OAB$ bằng bao nhiêu (làm tròn tới chữ số thập phân thứ hai)?",
+   "section": 3,
+   "short_correct": "625/64|9,77",
+   "short_value": 9.77,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  },
+  {
+   "answer": null,
+   "explanation": "Nếu $a = 0$ thì $f(x) = x(x - 2b) = x^2 - 2bx$ là hàm bậc hai, không đồng biến trên $\\mathbb{R}$ nên loại. Với $a \\ne 0$, $f$ là hàm bậc ba với các nghiệm $r_1 = -2a$, $r_2 = a - 2b$, $r_3 = -\\frac{1}{a}$; viết $f(x) = a(x-r_1)(x-r_2)(x-r_3)$ thì $f'(x) = a\\left[3x^2 - 2(r_1+r_2+r_3)x + (r_1r_2+r_1r_3+r_2r_3)\\right]$. $f$ đồng biến trên $\\mathbb{R}$ khi $a > 0$ và $f'(x) \\ge 0$ với mọi $x$, tức biệt thức của $f'$ không dương. Mà $\\Delta' = (r_1+r_2+r_3)^2 - 3(r_1r_2+r_1r_3+r_2r_3) = \\frac{1}{2}\\left[(r_1-r_2)^2 + (r_2-r_3)^2 + (r_3-r_1)^2\\right] \\ge 0$, nên buộc $\\Delta' = 0$, tức $r_1 = r_2 = r_3$. Từ $-2a = -\\frac{1}{a}$ và $a > 0$ được $a = \\frac{1}{\\sqrt{2}}$; từ $a - 2b = -2a$ được $b = \\frac{3a}{2} = \\frac{3}{2\\sqrt{2}}$. Vậy $(a-10b)^2 = \\left(\\frac{1}{\\sqrt{2}} - \\frac{15}{\\sqrt{2}}\\right)^2 = \\left(-\\frac{14}{\\sqrt{2}}\\right)^2 = 98$.",
+   "flags": [],
+   "ma": "de1.P3.C5",
+   "muc_do": "VD",
+   "n": 5,
+   "options": [],
+   "points": 0.5,
+   "question": "Biết hàm số $f(x) = (x + 2a)(x - a + 2b)(ax + 1)$ đồng biến trên $\\mathbb{R}$. Tính $(a - 10b)^2$.",
+   "section": 3,
+   "short_correct": "98",
+   "short_value": 98,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  },
+  {
+   "answer": null,
+   "explanation": "Đặt $u = \\frac{\\pi t}{12} + \\frac{\\pi}{3}$. Với $0 \\le t \\le 24$ thì $\\frac{\\pi}{3} \\le u \\le \\frac{7\\pi}{3}$. Hàm số $h = 2\\cos u + \\frac{5}{2}$ tăng khi $\\cos u$ giảm, tức khi $u \\in [\\pi; 2\\pi]$. Từ $\\pi \\le \\frac{\\pi t}{12} + \\frac{\\pi}{3} \\le 2\\pi$ được $8 \\le t \\le 20$. Vậy $(a; b) = (8; 20)$ và $b - a = 12$.",
+   "flags": [],
+   "ma": "de1.P3.C6",
+   "muc_do": "TH",
+   "n": 6,
+   "options": [],
+   "points": 0.5,
+   "question": "Cửa biển là nơi tiếp giáp giữa biển và sông. Mực nước tại cửa biển lên xuống theo thủy triều. Độ sâu $h$ (mét) của mực nước tại cửa biển tại thời điểm $t$ (giờ) ($0 \\le t \\le 24$) trong ngày được xác định bởi công thức $h = 2\\cos\\left(\\frac{\\pi t}{12} + \\frac{\\pi}{3}\\right) + \\frac{5}{2}$. Gọi $(a; b)$ là khoảng thời gian trong ngày mà độ sâu của mực nước tại cửa biển tăng dần. Giá trị $b - a$ bằng bao nhiêu?",
+   "section": 3,
+   "short_correct": "12",
+   "short_value": 12,
+   "tf": {},
+   "tf_ans": {},
+   "type": "short_answer"
+  }
+ ],
+ "sections": {
+  "1": 6,
+  "2": 8,
+  "3": 6
+ }
+}
