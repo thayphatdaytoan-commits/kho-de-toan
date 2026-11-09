@@ -1,0 +1,350 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 1 – Đề số 1 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-09"
+ },
+ "no": 1,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $(P): y=\\frac{x^2}{4}$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=4$; với $x=-2$ thì $y=1$; với $x=0$ thì $y=0$; với $x=2$ thì $y=1$; với $x=4$ thì $y=4$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-4;4)$, $(-2;1)$, $(2;1)$, $(4;4)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/4",
+        "kind": "quad",
+        "a": 0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm $K$ thuộc $(P)$ có tung độ nhỏ hơn hoành độ $1$ đơn vị.",
+     "explanation": "Vì điểm $K$ có tung độ nhỏ hơn hoành độ $1$ đơn vị nên $y_K=x_K-1$.\n$K$ thuộc $(P)$ nên $x_K-1=\\frac{x_K^2}{4}$, hay $\\frac{x_K^2}{4}-x_K+1=0$, tức $(x_K-2)^2=0$.\nSuy ra $x_K=2$, do đó $y_K=1$.\nVậy điểm cần tìm là $K(2;1)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$K\\left({{1}};{{2}}\\right)$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2+2x-5=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có $3x^2+2x-5=0$ với $a=3$, $b=2$, $c=-5$.\n$\\Delta=b^2-4ac=2^2-4\\cdot 3\\cdot(-5)=4+60=64>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức: $T=\\left(x_1-2x_2\\right)\\left(x_2-x_1\\right)+x_2^2$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-2}{3}$; $x_1x_2=\\frac{-5}{3}$.\n$x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{-2}{3}\\right)^2-2\\cdot\\frac{-5}{3}=\\frac{4}{9}+\\frac{10}{3}=\\frac{34}{9}$.\n$T=\\left(x_1-2x_2\\right)\\left(x_2-x_1\\right)+x_2^2=3x_1x_2-\\left(x_1^2+x_2^2\\right)=3\\cdot\\frac{-5}{3}-\\frac{34}{9}=-5-\\frac{34}{9}=-\\frac{79}{9}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-79/9"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Thời gian tự học tại nhà của bạn Tú trong một tuần được biểu diễn trong biểu đồ cột sau đây: [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thời gian trung bình bạn Tú tự học tại nhà mỗi ngày trong một tuần.",
+     "explanation": "Tổng thời gian tự học của Tú trong tuần là:\n$162+135+170+150+180+175+190=1162$ (phút).\nThời gian trung bình bạn Tú tự học tại nhà mỗi ngày là:\n$\\frac{1162}{7}=166$ (phút).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "166"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn ngẫu nhiên một ngày trong tuần, tính xác suất của các biến cố sau:\n$A$: “Ngày được chọn có thời gian tự học tại nhà của bạn Tú lớn hơn $170$ phút”.\n$B$: “Ngày được chọn có thời gian tự học tại nhà của bạn Tú không quá $160$ phút”.",
+     "explanation": "Gọi $\\Omega$ là tập hợp các ngày trong tuần, $n(\\Omega)=7$.\nBiến cố $A$: các ngày có thời gian lớn hơn $170$ phút là Thứ 6 ($180$), Thứ 7 ($175$), Chủ nhật ($190$) nên $n(A)=3$, do đó $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{7}$.\nBiến cố $B$: các ngày có thời gian không quá $160$ phút là Thứ 3 ($135$), Thứ 5 ($150$) nên $n(B)=2$, do đó $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{2}{7}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3/7"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2/7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Trên một miếng đất hình chữ nhật có chiều rộng là $x$ (m) ($x>0$), chiều dài là $2x+10$ (m), người ta làm một lối đi hình bình hành có bề rộng là $2$ m. Phần còn lại là hai miếng đất hình thang vuông có diện tích bằng nhau, người ta dự kiến trồng hoa hồng và hoa cúc. [[IMG:b4-loi-di.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $A$ biểu diễn diện tích trồng hoa hồng theo $x$.",
+     "explanation": "Diện tích lối đi hình bình hành là: $2\\cdot x=2x$ ($\\text{m}^2$).\nDiện tích cả miếng đất hình chữ nhật là: $x(2x+10)=2x^2+10x$ ($\\text{m}^2$).\nDiện tích phần đất còn lại để trồng hoa là: $2x^2+10x-2x=2x^2+8x$ ($\\text{m}^2$).\nVì hai miếng đất trồng hoa có diện tích bằng nhau nên diện tích trồng hoa hồng là: $A=(2x^2+8x):2=x^2+4x$ ($\\text{m}^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$A={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x^2+4x"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta dự kiến lát sỏi lối đi, chi phí cho mỗi mét vuông lát sỏi hết $120$ nghìn đồng. Hỏi chi phí để làm lối đi là bao nhiêu? Biết diện tích miếng đất trồng hoa hồng là $45\\text{ m}^2$.",
+     "explanation": "Theo đề bài, diện tích trồng hoa hồng là $45\\text{ m}^2$ nên ta có phương trình: $x^2+4x=45$, hay $x^2+4x-45=0$.\nGiải phương trình được $x=5$ (nhận vì $x>0$) hoặc $x=-9$ (loại).\nVới $x=5$, diện tích lối đi là $S=2\\cdot 5=10$ ($\\text{m}^2$).\nChi phí để làm lối đi là $10\\cdot 120\\,000=1\\,200\\,000$ (đồng).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1200000"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Trong hình vẽ, $6$ lon nước ngọt hình trụ được đặt sát nhau trong thùng carton có dạng hình hộp chữ nhật. Mỗi lon có đường kính $7$ cm và chiều cao $11$ cm. [[IMG:b5-thung-lon.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B1.D05",
+   "dang_toan_web": "Hình trụ: Diện tích xung quanh và Thể tích.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích thùng carton.",
+     "explanation": "Vì thùng carton đựng vừa khít $6$ lon nước ngọt xếp thành $2$ hàng, mỗi hàng $3$ lon nên:\nChiều dài của thùng là $7\\cdot 3=21$ (cm); chiều rộng của thùng là $7\\cdot 2=14$ (cm); chiều cao của thùng bằng chiều cao của lon nước là $11$ (cm).\nThể tích thùng carton là $V_{\\text{thùng}}=21\\cdot 14\\cdot 11=3234$ ($\\text{cm}^3$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "3234"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính thể tích phần còn trống trong thùng carton khi đựng $6$ lon nước ngọt. (Các kết quả làm tròn đến hàng đơn vị) Biết công thức tính thể tích khối trụ là $V=\\pi R^2h$ ($R$ là bán kính đáy, $h$ là chiều cao).",
+     "explanation": "Bán kính đáy của một lon nước ngọt là $R=7:2=3,5$ (cm).\nThể tích của một lon nước ngọt là $V_{\\text{lon}}=\\pi R^2h=\\pi\\cdot 3,5^2\\cdot 11=134,75\\pi$ ($\\text{cm}^3$).\nTổng thể tích của $6$ lon nước ngọt là $V_{6\\text{ lon}}=6\\cdot 134,75\\pi=808,5\\pi$ ($\\text{cm}^3$).\nThể tích phần còn trống trong thùng carton là $V_{\\text{trống}}=V_{\\text{thùng}}-V_{6\\text{ lon}}=3234-808,5\\pi\\approx 694$ ($\\text{cm}^3$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "694"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "short_answer",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Để đảm bảo dinh dưỡng trong bữa ăn hằng ngày thì mỗi gia đình $4$ thành viên cần $900$ đơn vị protêin và $400$ đơn vị Lipit trong thức ăn hằng ngày. Mỗi kilôgam thịt bò chứa $800$ đơn vị protêin và $200$ đơn vị Lipit, còn mỗi kilôgam thịt heo chứa $600$ đơn vị protêin và $400$ đơn vị Lipit. Biết giá thịt bò là $100\\,000$ đồng/kg và thịt heo là $70\\,000$ đồng/kg. Tính tổng số tiền mua thịt bò và thịt heo để đảm bảo dinh dưỡng hằng ngày cho $4$ người?",
+   "explanation": "Gọi $x$ (kg) là khối lượng thịt bò cần mua, $y$ (kg) là khối lượng thịt heo cần mua ($x, y>0$).\nVì tổng lượng protêin cần thiết cho gia đình là $900$ đơn vị nên ta có phương trình: $800x+600y=900$ (1).\nVì tổng lượng Lipit cần thiết cho gia đình là $400$ đơn vị nên ta có phương trình: $200x+400y=400$ (2).\nTừ (1) và (2) ta có hệ phương trình $\\left\\{\\begin{matrix} 800x+600y=900\\\\ 200x+400y=400 \\end{matrix}\\right.$, giải hệ được $x=0,6$; $y=0,7$.\nTổng số tiền cần để mua thịt bò và thịt heo là $100\\,000\\cdot 0,6+70\\,000\\cdot 0,7=60\\,000+49\\,000=109\\,000$ (đồng).",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "TH",
+   "short_correct": "109000",
+   "short_value": 109000
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm $A$ nằm ngoài đường tròn $(O; R)$ vẽ hai tiếp tuyến $AB, AC$ ($B, C$ là tiếp điểm). Vẽ đường kính $BD$ của đường tròn $(O)$. Gọi $K$ là hình chiếu của $C$ trên $BD$, $CK$ cắt $AD$ tại $I$. Gọi $H$ là giao điểm của $OA$ và $BC$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp kết hợp tiếp tuyến",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: Tứ giác $ABOC$ nội tiếp và $AO\\perp BC$.",
+     "explanation": "Xét $\\triangle ABO$ vuông tại $B$ (do $AB\\perp OB$). Suy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$. (1)\nXét $\\triangle ACO$ vuông tại $C$ (do $AC\\perp OC$). Suy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$. (2)\nTừ (1) và (2) suy ra bốn điểm $A, B, O, C$ cùng thuộc một đường tròn đường kính $AO$, hay tứ giác $ABOC$ nội tiếp.\nTa có $AB=AC$ (tính chất hai tiếp tuyến cắt nhau) và $OB=OC=R$ nên $OA$ là đường trung trực của $BC$, suy ra $OA\\perp BC$ tại $H$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $I$ là trung điểm của $CK$.",
+     "explanation": "Ta có $AB\\perp BD$ (do $AB$ là tiếp tuyến tại $B$) và $CK\\perp BD$ (giả thiết) nên $CK\\parallel AB$.\nXét $\\triangle DAB$ có $CK\\parallel AB$. Theo hệ quả định lý Thales: $\\frac{IK}{AB}=\\frac{DK}{DB}=\\frac{DK}{2R}$. (3)\n$\\widehat{BCD}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$) nên $BC\\perp CD$. Mà $OA\\perp BC$ nên $OA\\parallel CD$.\nXét $\\triangle DKC$ và $\\triangle OBA$ có: $\\widehat{CKD}=\\widehat{OBA}=90^\\circ$; $\\widehat{KDC}=\\widehat{BOA}$ (hai góc đồng vị, do $OA\\parallel CD$). Suy ra $\\triangle DKC\\backsim\\triangle OBA$ (g-g), do đó $\\frac{CK}{BA}=\\frac{DK}{BO}=\\frac{DK}{R}$. (4)\nTừ (3) và (4) suy ra $IK=\\frac{1}{2}CK$. Vậy $I$ là trung điểm của $CK$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Đường thẳng $BD$ và đường thẳng $AC$ cắt nhau tại $S$. Tia $SI$ cắt $AB$ tại $M$. Giả sử $OA=2R$. Hãy tính diện tích của tứ giác $AMOC$ theo $R$.",
+     "explanation": "$\\triangle ACO$ vuông tại $C$ nên $AC^2+OC^2=OA^2$ (định lý Pythagore).\n$AC^2+R^2=(2R)^2$ suy ra $AC^2=3R^2$, hay $AC=R\\sqrt{3}$.\n$S_{ACO}=\\frac{1}{2}\\cdot OC\\cdot AC=\\frac{1}{2}\\cdot R\\cdot R\\sqrt{3}=\\frac{R^2\\sqrt{3}}{2}$.\nVì $CK\\parallel AB$, theo định lý Thales: $\\frac{IC}{MA}=\\frac{SI}{SM}$ (xét $\\triangle SMA$ và $\\triangle SIC$) và $\\frac{IK}{MB}=\\frac{SI}{SM}$ (xét $\\triangle SMB$ và $\\triangle SIK$), suy ra $\\frac{IC}{MA}=\\frac{IK}{MB}$.\nMà $IC=IK$ (theo câu b) nên $MA=MB$, hay $M$ là trung điểm của $AB$.\n$\\triangle ABO$ vuông tại $B$ nên $AB^2=OA^2-OB^2=(2R)^2-R^2=3R^2$, hay $AB=R\\sqrt{3}$.\n$S_{ABO}=\\frac{1}{2}\\cdot OB\\cdot AB=\\frac{R^2\\sqrt{3}}{2}$.\nVì $M$ là trung điểm của $AB$ nên $S_{AMO}=\\frac{1}{2}S_{ABO}=\\frac{R^2\\sqrt{3}}{4}$.\nDiện tích tứ giác $AMOC$ là $S_{AMOC}=S_{AMO}+S_{ACO}=\\frac{R^2\\sqrt{3}}{4}+\\frac{R^2\\sqrt{3}}{2}=\\frac{3R^2\\sqrt{3}}{4}$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{3R^2\\sqrt{3}}{4}$",
+      "$\\frac{R^2\\sqrt{3}}{2}$",
+      "$\\frac{3R^2\\sqrt{3}}{2}$",
+      "$\\frac{R^2\\sqrt{3}}{4}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
