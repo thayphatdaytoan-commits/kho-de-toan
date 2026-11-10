@@ -1,0 +1,367 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 7 – Đề số 21 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 21,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=-\\frac{x^2}{4}$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ của hàm số trên.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=-4$; với $x=-2$ thì $y=-1$; với $x=0$ thì $y=0$; với $x=2$ thì $y=-1$; với $x=4$ thì $y=-4$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay xuống dưới, đi qua các điểm $(-4;-4)$, $(-2;-1)$, $(0;0)$, $(2;-1)$, $(4;-4)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -5,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -x^2/4",
+        "kind": "quad",
+        "a": -0.25,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $M$ thuộc $(P)$ có tung độ gấp $4$ lần hoành độ.",
+     "explanation": "Vì tung độ gấp $4$ lần hoành độ nên $y=4x$.\nTa có $4x=-\\frac{1}{4}x^2$.\n$\\frac{1}{4}x^2+4x=0$.\n$x=0$ hoặc $x=-16$.\nVới $x=0$ suy ra $y=0$.\nVới $x=-16$ suy ra $y=-64$.\nVậy tọa độ các điểm cần tìm là $(0;0)$ và $(-16;-64)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(0;0)$ và $(-16;-64)$",
+      "$(0;0)$ và $(16;-64)$",
+      "$(-16;64)$ và $(0;0)$",
+      "$(-16;-64)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $2x^2-x-4=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có $2$ nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có $2x^2-x-4=0$ ($a=2$; $b=-1$; $c=-4$).\n$\\Delta=b^2-4ac=(-1)^2-4\\cdot 2\\cdot(-4)=1+32=33>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: $A=\\frac{x_1+2026}{x_2}+\\frac{x_2+2026}{x_1}$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{1}{2}$; $x_1x_2=\\frac{c}{a}=-2$.\n$x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{1}{2}\\right)^2-2\\cdot(-2)=\\frac{17}{4}$.\nTa có $A=\\frac{x_1+2026}{x_2}+\\frac{x_2+2026}{x_1}$.\n$A=\\frac{x_1(x_1+2026)+x_2(x_2+2026)}{x_1x_2}$.\n$A=\\frac{x_1^2+x_2^2+2026(x_1+x_2)}{x_1x_2}$.\n$A=\\frac{\\frac{17}{4}+2026\\cdot\\frac{1}{2}}{-2}=-\\frac{4069}{8}$.\nVậy $A=-\\frac{4069}{8}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-4069/8|-508,63"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Biểu đồ hình quạt tròn dưới đây biểu diễn điểm số của các bạn học sinh trong lớp 9A qua đợt kiểm tra thường xuyên lần hai. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Biết sĩ số lớp 9A là $40$ học sinh. Tính tổng số học sinh đạt điểm $8$ và $9$.",
+     "explanation": "Tỉ lệ phần trăm học sinh đạt điểm $8$ và $9$ là $25\\%+30\\%=55\\%$.\nTổng số học sinh đạt điểm $8$ và $9$ là $40\\cdot 55\\%=22$ (học sinh).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "22"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn một bạn trong lớp để tham gia trò chơi rung chuông vàng. Tính xác suất của biến cố sau: “Bạn được chọn có điểm kiểm tra Toán thấp nhất là $8$ điểm”.",
+     "explanation": "Chọn ngẫu nhiên một bạn trong lớp 9A có $40$ học sinh nên không gian mẫu là $n(\\Omega)=40$.\nGọi $A$ là biến cố: “Bạn được chọn có điểm kiểm tra Toán thấp nhất là $8$ điểm”.\nTỉ lệ học sinh đạt điểm kiểm tra Toán thấp nhất là $8$ điểm (gồm điểm $8$, $9$ và $10$) là $25\\%+30\\%+10\\%=65\\%$.\nSố học sinh đạt điểm kiểm tra Toán thấp nhất là $8$ điểm là $40\\cdot 65\\%=26$ (học sinh).\nVì có $26$ học sinh thỏa mãn nên số khả năng thuận lợi của biến cố $A$ là $n(A)=26$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{26}{40}=\\frac{13}{20}$.\nVậy xác suất của biến cố trên là $\\frac{13}{20}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "13/20"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Cho mảnh đất hình chữ nhật có chiều dài $30$ m, chiều rộng $20$ m, xung quanh ba cạnh người ta làm lối đi rộng $x$ (m) ($0<x<20$). [[IMG:b4-manh-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $S$ biểu diễn theo $x$ diện tích lối đi của mảnh đất.",
+     "explanation": "Chiều dài phần đất còn lại bên trong là: $30-x$ (m).\nChiều rộng phần đất còn lại bên trong là: $20-2x$ (m).\nDiện tích mảnh đất ban đầu là: $30\\cdot 20=600$ (m$^2$).\nDiện tích phần đất còn lại là: $(30-x)(20-2x)$ (m$^2$).\nBiểu thức $S$ biểu diễn diện tích lối đi của mảnh đất là:\n$S=600-(30-x)(20-2x)$\n$S=600-(600-60x-20x+2x^2)$\n$S=-2x^2+80x$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "-2x^2+80x"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết diện tích phần đất còn lại là $448$ m$^2$. Tính giá trị $x$.",
+     "explanation": "Theo đề bài, diện tích phần đất còn lại là $448$ m$^2$ nên ta có phương trình:\n$(30-x)(20-2x)=448$\n$600-80x+2x^2-448=0$\n$2x^2-80x+152=0$\n$x=2$ hoặc $x=38$.\nVì chiều rộng của phần đất còn lại phải lớn hơn $0$ nên $20-2x>0$ suy ra $x<10$.\nKết hợp với điều kiện ban đầu, ta có $0<x<10$.\nDo đó $x=2$ (nhận) và $x=38$ (loại).\nVậy giá trị $x$ cần tìm là $2$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "2"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Người ta đổ một lượng nước vào một cái phểu thủy tinh. Phểu có dạng hình nón có chiều cao là $20$ cm và bán kính mặt đáy là $R$. Chiều cao của cột nước trong phểu là $10$ cm (tham khảo Hình 1). [[IMG:b5-pheu.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của lượng nước trong phểu và thể tích phần phểu không chứa nước trong phểu ở Hình 1 theo $R$.",
+     "explanation": "Thể tích của toàn bộ cái phểu là:\n$V=\\frac{1}{3}\\pi R^2h=\\frac{1}{3}\\pi R^2\\cdot 20=\\frac{20}{3}\\pi R^2$ (cm$^3$).\nGọi $r$ là bán kính mặt nước trong phểu ở Hình 1.\nVì mặt nước song song với mặt đáy nên dùng định lý Thales, ta có:\n$\\frac{r}{R}=\\frac{10}{20}=\\frac{1}{2}$.\nSuy ra $r=\\frac{R}{2}$.\nThể tích của lượng nước trong phểu là:\n$V_{\\text{nước}}=\\frac{1}{3}\\pi r^2\\cdot 10=\\frac{1}{3}\\pi\\left(\\frac{R}{2}\\right)^2\\cdot 10=\\frac{5}{6}\\pi R^2$ (cm$^3$).\nThể tích phần phểu không chứa nước là:\n$V_{\\text{trống}}=V-V_{\\text{nước}}=\\frac{20}{3}\\pi R^2-\\frac{5}{6}\\pi R^2=\\frac{35}{6}\\pi R^2$ (cm$^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V_{\\text{nước}}={{1}}$ (cm$^3$)",
+       "$V_{\\text{trống}}={{2}}$ (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "\\frac{5\\pi R^2}{6}"
+       },
+       {
+        "id": "2",
+        "loai": "bt",
+        "dap_an": "\\frac{35\\pi R^2}{6}"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta bịt kín miệng phểu và lật ngược phểu lại (Hình 2). Chiều cao của cột nước trong phểu lúc này là bao nhiêu? (làm tròn kết quả đến hàng phần chục).",
+     "explanation": "Khi lật ngược phểu lại (Hình 2), phần không chứa nước (phần trống) sẽ có dạng một hình nón nằm ở phía trên có đỉnh là đỉnh của phểu.\nGọi $h'$ là chiều cao của phần hình nón không chứa nước và $r'$ là bán kính mặt nước tương ứng lúc này.\nXét tam giác vuông tạo bởi chiều cao, bán kính và đường sinh của phểu, ta có hai tam giác vuông đồng dạng (có chung góc ở đỉnh).\nSuy ra $\\frac{r'}{R}=\\frac{h'}{20}\\Rightarrow r'=\\frac{R\\cdot h'}{20}$.\nThể tích phần không chứa nước lúc này là:\n$V_{\\text{trống}}=\\frac{1}{3}\\pi(r')^2\\cdot h'=\\frac{1}{3}\\pi\\left(\\frac{R\\cdot h'}{20}\\right)^2\\cdot h'=\\frac{\\pi R^2(h')^3}{1200}$ (cm$^3$).\nMà theo câu a, $V_{\\text{trống}}=\\frac{35}{6}\\pi R^2$, nên ta có phương trình:\n$\\frac{\\pi R^2(h')^3}{1200}=\\frac{35}{6}\\pi R^2$\n$(h')^3=\\frac{35}{6}\\cdot 1200=7000$\nSuy ra $h'=\\sqrt[3]{7000}=10\\sqrt[3]{7}$ (cm).\nChiều cao của cột nước trong phểu lúc này là:\n$h_{\\text{nước}}=20-h'=20-10\\sqrt[3]{7}$\n$h_{\\text{nước}}\\approx 0,9$ (cm).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "0,9"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Khi mới nhận lớp 9A, cô giáo chủ nhiệm dự định chia lớp thành $3$ tổ có số học sinh như nhau. Nhưng sau khi khai giảng xong lớp nhận thêm $4$ học sinh nữa. Do đó, cô giáo chủ nhiệm đã chia đều số học sinh của lớp thành $4$ tổ. Hỏi lớp 9A hiện có bao nhiêu học sinh, biết rằng so với phương án dự định ban đầu, số học sinh của mỗi tổ hiện nay có ít hơn $2$ học sinh?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hỏi lớp 9A hiện có bao nhiêu học sinh?",
+     "explanation": "Gọi $x$ (học sinh) là số học sinh dự định ban đầu của lớp 9A, $y$ (học sinh) là số học sinh của mỗi tổ theo dự định ban đầu ($x, y\\in\\mathbb{N}^*$).\nSố học sinh hiện nay của lớp 9A là $x+4$ (học sinh).\nSố học sinh của mỗi tổ hiện nay là $y-2$ (học sinh).\nVì ban đầu dự định chia lớp thành $3$ tổ có số học sinh như nhau nên ta có phương trình:\n$x=3y$. (1)\nVì sau khi khai giảng lớp nhận thêm $4$ học sinh và chia đều thành $4$ tổ (với số học sinh mỗi tổ ít hơn $2$ học sinh so với dự định) nên ta có phương trình:\n$x+4=4(y-2)$. (2)\nRút gọn (2) ta được $x-4y=-12$.\nTừ (1) và (2), ta có hệ phương trình:\n$x-3y=0$\n$x-4y=-12$\nGiải hệ ta được $x=36$, $y=12$ (thỏa mãn điều kiện).\nSố học sinh hiện nay của lớp 9A là $36+4=40$ (học sinh).\nVậy lớp 9A hiện có $40$ học sinh.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "40"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý c của đề gốc hỏi hai đáp số (độ dài IK và diện tích tứ giác AIKB); bản soạn tách thành ý c (độ dài IK, 0,5 điểm) và ý d (diện tích tứ giác AIKB, 0,5 điểm). Tổng điểm Bài 7 vẫn là 3,0 điểm."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Trên đường tròn $(O)$ đường kính $AB$ lấy điểm $M$ sao cho $MA<MB$. Hai tiếp tuyến của đường tròn $(O)$ tại $A$ và $M$ cắt nhau tại $E$. Vẽ $MP\\perp AB$ tại $P$, $MQ\\perp AE$ tại $Q$. Gọi $I$ là trung điểm của $PQ$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác $APMQ$ là hình chữ nhật và ba điểm $O$, $E$, $I$ thẳng hàng.",
+     "explanation": "Ta có $EA$ là tiếp tuyến của $(O)$ tại $A$ $\\Rightarrow EA\\perp AB$ $\\Rightarrow\\widehat{EAB}=90^\\circ$ hay $\\widehat{QAP}=90^\\circ$.\nTa có $MP\\perp AB$ tại $P$ $\\Rightarrow\\widehat{MPA}=90^\\circ$.\nTa có $MQ\\perp AE$ tại $Q$ $\\Rightarrow\\widehat{MQA}=90^\\circ$.\nTứ giác $APMQ$ có $\\widehat{QAP}=\\widehat{MPA}=\\widehat{MQA}=90^\\circ$.\nSuy ra tứ giác $APMQ$ là hình chữ nhật.\n$\\Rightarrow$ Hai đường chéo $AM$ và $PQ$ cắt nhau tại trung điểm của mỗi đường.\nMà $I$ là trung điểm của $PQ$ $\\Rightarrow I$ là trung điểm của $AM$.\nTa có $EA=EM$ (tính chất hai tiếp tuyến cắt nhau) và $OA=OM=R$.\n$\\Rightarrow EO$ là đường trung trực của $AM$.\n$\\Rightarrow EO$ đi qua trung điểm của $AM$.\nMà $I$ là trung điểm của $AM$ (chứng minh trên).\n$\\Rightarrow$ Ba điểm $O$, $E$, $I$ thẳng hàng.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $K$ là giao điểm của $EB$ và $MP$. Chứng minh $\\triangle EAO\\sim\\triangle MPB$, suy ra $K$ là trung điểm của $MP$.",
+     "explanation": "Ta có $\\widehat{AMB}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n$\\Rightarrow AM\\perp MB$.\nTa có $EO$ là đường trung trực của $AM$ (chứng minh trên) $\\Rightarrow EO\\perp AM$.\n$\\Rightarrow EO\\parallel MB$ (cùng vuông góc với $AM$).\n$\\Rightarrow\\widehat{AOE}=\\widehat{MBP}$ (hai góc đồng vị).\nXét $\\triangle EAO$ và $\\triangle MPB$ có:\n$\\widehat{EAO}=\\widehat{MPB}=90^\\circ$\n$\\widehat{AOE}=\\widehat{MBP}$ (chứng minh trên)\n$\\Rightarrow\\triangle EAO\\sim\\triangle MPB$ (g-g).\n$\\Rightarrow\\frac{EA}{MP}=\\frac{AO}{PB}\\Rightarrow\\frac{EA}{MP}=\\frac{AB/2}{PB}\\Rightarrow\\frac{EA}{MP}=\\frac{AB}{2PB}\\Rightarrow\\frac{PB}{AB}=\\frac{MP}{2EA}$. (1)\nTa có $EA\\perp AB$ và $MP\\perp AB$ $\\Rightarrow MP\\parallel EA$.\nXét $\\triangle EAB$ có $PK\\parallel EA$ (do $K\\in MP$), theo định lý Thales ta có:\n$\\frac{PK}{EA}=\\frac{BP}{BA}\\Rightarrow\\frac{PK}{EA}=\\frac{PB}{AB}$. (2)\nTừ (1) và (2) suy ra $\\frac{PK}{EA}=\\frac{MP}{2EA}\\Rightarrow PK=\\frac{MP}{2}$.\nMặt khác $K$ thuộc $MP$ nên $K$ là trung điểm của $MP$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Trong trường hợp $\\widehat{MAB}=60^\\circ$, $AB=4$ cm, tính độ dài $IK$.",
+     "explanation": "$\\triangle AMB$ vuông tại $M$.\n$\\cos\\widehat{MAB}=\\frac{AM}{AB}\\Rightarrow AM=AB\\cdot\\cos 60^\\circ=4\\cdot\\frac{1}{2}=2$ (cm).\n$\\triangle AMP$ vuông tại $P$.\nVì $P$ thuộc $AB$ nên $\\widehat{MAP}=\\widehat{MAB}=60^\\circ$.\n$\\cos\\widehat{MAP}=\\frac{AP}{AM}\\Rightarrow AP=AM\\cdot\\cos 60^\\circ=2\\cdot\\frac{1}{2}=1$ (cm).\n$\\sin\\widehat{MAP}=\\frac{MP}{AM}\\Rightarrow MP=AM\\cdot\\sin 60^\\circ=2\\cdot\\frac{\\sqrt{3}}{2}=\\sqrt{3}$ (cm).\nXét $\\triangle AMP$ có:\n$I$ là trung điểm của $AM$ (chứng minh trên)\n$K$ là trung điểm của $MP$ (chứng minh trên)\n$\\Rightarrow IK$ là đường trung bình của $\\triangle AMP$.\n$\\Rightarrow IK\\parallel AP$ và $IK=\\frac{AP}{2}=\\frac{1}{2}$ (cm).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1/2|0,5"
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Tính diện tích tứ giác $AIKB$.",
+     "explanation": "Ta có $IK\\parallel AP\\Rightarrow IK\\parallel AB$.\nTứ giác $AIKB$ có $IK\\parallel AB$ nên $AIKB$ là hình thang.\nTa có $MP\\perp AB$ tại $P$, $K\\in MP\\Rightarrow KP\\perp AB$.\nSuy ra $KP$ là chiều cao của hình thang $AIKB$.\n$KP=\\frac{MP}{2}=\\frac{\\sqrt{3}}{2}$ (cm).\nDiện tích hình thang $AIKB$ là:\n$S_{AIKB}=\\frac{(IK+AB)\\cdot KP}{2}=\\frac{\\left(\\frac{1}{2}+4\\right)\\cdot\\frac{\\sqrt{3}}{2}}{2}=\\frac{9\\sqrt{3}}{8}$ (cm$^2$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "$\\frac{9\\sqrt{3}}{8}$|1,95"
+    }
+   ]
+  }
+ ]
+}
