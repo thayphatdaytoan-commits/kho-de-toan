@@ -1,0 +1,387 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 2 – Đề số 6 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 6,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=-\\frac{1}{2}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=-8$; với $x=-2$ thì $y=-2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=-2$; với $x=4$ thì $y=-8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-4;-8)$, $(-2;-2)$, $(2;-2)$, $(4;-8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -1/2 x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $A$ thuộc $(P)$ sao cho tung độ bằng $-\\frac{1}{2}$.",
+     "explanation": "Vì điểm $A$ có tung độ bằng $-\\frac{1}{2}$ nên $y=-\\frac{1}{2}$.\nTa có phương trình $-\\frac{1}{2}x^2=-\\frac{1}{2}$, hay $x^2=1$.\nSuy ra $x=1$ hoặc $x=-1$.\nVới $x=1$ thì $y=-\\frac{1}{2}$; với $x=-1$ thì $y=-\\frac{1}{2}$.\nVậy tọa độ các điểm cần tìm là $\\left(1;-\\frac{1}{2}\\right)$ và $\\left(-1;-\\frac{1}{2}\\right)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$({{1}}; {{2}})$",
+       "$({{3}}; {{4}})$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-1/2"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-1"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "-1/2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2-2x-5=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có phương trình $3x^2-2x-5=0$ với $a=3$, $b=-2$, $c=-5$.\n$\\Delta=b^2-4ac=(-2)^2-4\\cdot 3\\cdot(-5)=4+60=64>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức: $M=x_1(x_1-1)+x_2(x_2-1)$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=\\frac{2}{3}$; $x_1x_2=\\frac{c}{a}=\\frac{-5}{3}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{2}{3}\\right)^2-2\\cdot\\left(\\frac{-5}{3}\\right)=\\frac{4}{9}+\\frac{10}{3}=\\frac{34}{9}$.\nBiến đổi biểu thức $M$:\n$M=x_1^2-x_1+x_2^2-x_2$\n$M=(x_1^2+x_2^2)-(x_1+x_2)$\n$M=\\frac{34}{9}-\\frac{2}{3}=\\frac{28}{9}$.\nVậy giá trị của biểu thức $M$ là $\\frac{28}{9}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "28/9"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Một hộp kín chứa 5 loại thẻ có ghi tên lần lượt là 5 từ THÀNH, PHỐ, HỒ, CHÍ, MINH với số lượng tương ứng theo biểu đồ bên dưới. Sau khi trộn đều tất cả các thẻ thì một học sinh rút ngẫu nhiên 1 tấm thẻ trong hộp đó. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B4.D05",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Trong hộp có bao nhiêu thẻ loại tên ngắn (tên thẻ chứa không quá 3 chữ cái).",
+     "explanation": "Dựa vào biểu đồ, số lượng từng loại thẻ là: THÀNH: 5; PHỐ: 4; HỒ: 7; CHÍ: 2; MINH: 5.\nTổng số thẻ trong hộp là: $n(\\Omega)=5+4+7+2+5=23$ (thẻ).\nCác loại thẻ tên ngắn (không quá 3 chữ cái) gồm: PHỐ (3 chữ), HỒ (2 chữ), CHÍ (3 chữ).\nSố lượng thẻ tên ngắn là: $4+7+2=13$ (thẻ).\nVậy có 13 thẻ loại tên ngắn.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "13"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của biến cố $A$: “học sinh rút được loại thẻ không phải tên ngắn”.",
+     "explanation": "Các loại thẻ không phải tên ngắn (nhiều hơn 3 chữ cái) gồm: THÀNH (5 chữ), MINH (4 chữ).\nSố kết quả thuận lợi cho biến cố $A$ là: $n(A)=5+5=10$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{10}{23}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "10/23"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một khu đất hình chữ nhật có chiều rộng $35\\text{ m}$ được chia ra làm hai khu vườn nhỏ để trồng rau. Xung quanh hai khu vườn rau người ta làm lối đi. Lối đi giữa hai vườn rau rộng $1,5\\text{ m}$ và các lối đi vườn rau còn lại rộng $0,5\\text{ m}$. Khu vườn rau thứ hai có chiều dài ít hơn khu vườn rau thứ nhất là $15\\text{ m}$. Gọi $x$ (m) là chiều dài của khu vườn rau thứ nhất. [[IMG:b4-khu-vuon.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức biểu diễn theo $x$ tổng diện tích trồng rau của hai khu vườn.",
+     "explanation": "Chiều rộng của các khu vườn rau là: $35-0,5-0,5=34$ (m).\nDiện tích khu vườn rau thứ nhất là: $34x$ ($\\text{m}^2$).\nChiều dài khu vườn rau thứ hai là: $x-15$ (m).\nDiện tích khu vườn rau thứ hai là: $34(x-15)$ ($\\text{m}^2$).\nTổng diện tích trồng rau của hai khu vườn là:\n$S=34x+34(x-15)=34x+34x-510=68x-510$ ($\\text{m}^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ ($\\text{m}^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "68x-510"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm diện tích hai khu trồng rau. Biết rằng diện tích khu đất lớn hơn diện tích trồng rau là $162,5\\text{ m}^2$.",
+     "explanation": "Chiều dài tổng cộng của khu đất lớn (bao gồm lối đi) là: $0,5+x+1,5+(x-15)+0,5=2x-12,5$ (m).\nDiện tích của cả khu đất lớn là: $35(2x-12,5)=70x-437,5$ ($\\text{m}^2$).\nVì diện tích khu đất lớn hơn diện tích trồng rau là $162,5\\text{ m}^2$ nên ta có phương trình:\n$(70x-437,5)-(68x-510)=162,5$\n$70x-437,5-68x+510=162,5$\n$2x=90$\n$x=45$ (nhận).\nVậy tổng diện tích hai khu trồng rau là:\n$S=68\\cdot 45-510=2550$ ($\\text{m}^2$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "2550"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý b: lời giải gốc tính $t\\approx 1042,29$ giây, tức dùng $\\pi$ trên máy tính ($0,79625\\pi\\approx 2,5015$). Nếu lấy $\\pi=3,14$ thì $t\\approx 1041,76$ giây $\\approx 17,36$ phút. Bản soạn giữ đáp số $17,37$ phút theo lời giải gốc (đề không quy định giá trị $\\pi$ ở ý b)."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một bồn nước hình trụ có đường kính đáy là $1,4\\text{ m}$ và cao $3,25\\text{ m}$. Người ta đổ nước vào bồn sao cho chiều cao nước bằng một nửa chiều cao bồn và đặt vào một phao hình cầu bán kính $30\\text{ cm}$ chìm hoàn toàn. [[IMG:b5-bon-nuoc.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích nước có trong bồn (làm tròn đến hàng phần mười).",
+     "explanation": "Bán kính đáy bồn nước là $R=1,4:2=0,7$ (m).\nĐổi bán kính phao $r=30\\text{ cm}=0,3\\text{ m}$.\nThể tích của phần hình trụ chứa nước và phao (chiều cao bằng nửa chiều cao bồn) là:\n$V_1=\\pi R^2\\cdot\\frac{h}{2}=\\pi\\cdot 0,7^2\\cdot\\frac{3,25}{2}=0,79625\\pi$ ($\\text{m}^3$).\nThể tích của phao hình cầu là:\n$V_{\\text{phao}}=\\frac{4}{3}\\pi r^3=\\frac{4}{3}\\pi\\cdot 0,3^3=0,036\\pi$ ($\\text{m}^3$).\nThể tích nước có trong bồn là:\n$V_{\\text{nước}}=V_1-V_{\\text{phao}}=0,79625\\pi-0,036\\pi=0,76025\\pi\\approx 2,4$ ($\\text{m}^3$).\nVậy thể tích nước trong bồn khoảng $2,4\\text{ m}^3$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V={{1}}$ ($\\text{m}^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2,4"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau đó bơm thêm nước với công suất $0,0024\\text{ m}^3$/giây. Hỏi sau bao nhiêu phút thì bồn đầy nước?",
+     "explanation": "Thể tích phần không gian còn trống trong bồn (cần bơm thêm nước để đầy) chính bằng một nửa thể tích bồn (vì mực nước hiện tại đang ở một nửa bồn và phao đã nằm chìm bên trong phần nước cũ):\n$V_{\\text{trống}}=\\pi R^2\\cdot\\frac{h}{2}=0,79625\\pi$ ($\\text{m}^3$).\nThời gian để bơm đầy nước là:\n$t=\\frac{V_{\\text{trống}}}{0,0024}=\\frac{0,79625\\pi}{0,0024}\\approx 1042,29$ (giây).\nĐổi sang phút: $1042,29:60\\approx 17,37$ (phút).\nVậy sau khoảng $17,37$ phút thì bồn đầy nước.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "17,37"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Anh Bình là công nhân của khu chế xuất công nghiệp. Trong tháng 5 vừa qua quản lí lao động phân xưởng kiểm tra quẹt thẻ cho biết anh Bình đã làm tổng cộng $212$ giờ trong đó có giờ làm theo định mức qui định và giờ làm thêm ngoài giờ. Trong định mức mỗi giờ anh Bình được trả công $38 000$ đồng, với mỗi giờ làm thêm được trả $150\\%$ của tiền công làm một giờ trong định mức. Như vậy trong tháng 5, anh Bình được lãnh tổng cộng số tiền là $8 436 000$ đồng. Tính xem anh Bình đã làm thêm bao nhiêu giờ ngoài định mức trong tháng 5?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số giờ làm thêm ngoài định mức của anh Bình trong tháng 5.",
+     "explanation": "Gọi $x$ (giờ) là số giờ làm trong định mức, $y$ (giờ) là số giờ làm thêm ngoài định mức ($0<x, y<212$).\nVì tổng số giờ làm việc là $212$ giờ nên ta có phương trình:\n$x+y=212$ (1).\nTiền công cho mỗi giờ làm thêm là: $38 000\\cdot 150\\%=57 000$ (đồng).\nTổng số tiền lương anh Bình nhận được là $8 436 000$ đồng nên ta có phương trình:\n$38 000x+57 000y=8 436 000$ (2).\nTừ (1) và (2) ta có hệ phương trình $x+y=212$ và $38 000x+57 000y=8 436 000$.\nGiải hệ phương trình ta được $x=192$ và $y=20$ (nhận).\nVậy anh Bình đã làm thêm $20$ giờ ngoài định mức.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "20"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc ý a viết $\\widehat{BDE}=\\widehat{BAE}$ là SAI: trong tứ giác nội tiếp $ABDE$, $\\widehat{BDE}$ và $\\widehat{BAE}$ là hai góc đối nên bù nhau ($\\widehat{BDE}+\\widehat{BAE}=180^\\circ$; kiểm chứng bằng tọa độ với một tam giác cụ thể cho $\\widehat{BAE}\\approx 88,21^\\circ$, $\\widehat{BDE}\\approx 91,79^\\circ$). Từ đó suy ra $\\widehat{BDE}=\\widehat{BMN}$ cũng sai, và hai góc này không ở vị trí đồng vị. Lời giải gốc ý c viết $\\widehat{CDE}=\\widehat{CAE}$ là SAI: $E$ thuộc $AC$ nên $\\widehat{CAE}=0^\\circ$; đúng phải là $\\widehat{CDE}=\\widehat{CAB}$ (vì $\\widehat{CDE}=180^\\circ-\\widehat{BDE}=\\widehat{BAE}=\\widehat{CAB}$). Kết luận $DE // MN$, $DE=\\frac{1}{2}AB$ và diện tích viên phân của lời giải gốc đều đúng; bản soạn viết lại hai bước chứng minh trên cho đúng (ý a dùng $\\widehat{DEB}=\\widehat{DAB}=\\widehat{BAN}=\\widehat{BMN}$, đồng vị theo cát tuyến $BE$)."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho $\\triangle ABC$ nhọn ($AB < AC$) nội tiếp $(O; R)$. Hai đường cao $AD, BE$ cắt nhau tại $H$. Tia $BE, AD$ cắt $(O)$ tại $M, N$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác $ABDE$ nội tiếp. Xác định tâm $I$. Chứng minh $DE // MN$.",
+     "explanation": "$\\triangle AEB$ vuông tại $E$ (vì $BE$ là đường cao) nên $\\triangle AEB$ nội tiếp đường tròn đường kính $AB$.\n$\\triangle ADB$ vuông tại $D$ (vì $AD$ là đường cao) nên $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$.\nTừ đó suy ra 4 điểm $A, B, D, E$ cùng thuộc một đường tròn đường kính $AB$.\nVậy tứ giác $ABDE$ nội tiếp đường tròn có tâm $I$ là trung điểm của $AB$.\nTa có $\\widehat{DEB}=\\widehat{DAB}$ (cùng chắn cung $DB$ của đường tròn $(I)$).\nMà $\\widehat{DAB}=\\widehat{BAN}$ ($N$ nằm trên tia $AD$) và $\\widehat{BAN}=\\widehat{BMN}$ (cùng chắn cung $BN$ của $(O)$).\nSuy ra $\\widehat{DEB}=\\widehat{BMN}$; hai góc này ở vị trí đồng vị nên $DE // MN$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ đường kính $CK$. Chứng minh $AKBH$ là hình bình hành và $H, I, K$ thẳng hàng.",
+     "explanation": "$\\widehat{KAC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\nSuy ra $KA\\perp AC$.\nMà $HE\\perp AC$ (vì $BE$ là đường cao), suy ra $KA // BH$.\n$\\widehat{KBC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\nSuy ra $KB\\perp BC$.\nMà $HD\\perp BC$ (vì $AD$ là đường cao), suy ra $KB // AH$.\nXét tứ giác $AKBH$ có $KA // BH$ và $KB // AH$.\nSuy ra tứ giác $AKBH$ là hình bình hành.\nMà $I$ là trung điểm của $AB$, nên $I$ cũng là trung điểm của $HK$.\nVậy ba điểm $H, I, K$ thẳng hàng.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Khi $\\widehat{BCA}=60^\\circ$, chứng minh $DE=\\frac{1}{2}AB$ và tính diện tích hình viên phân cung $DE$ của $(I)$ theo $R$.",
+     "explanation": "Xét $\\triangle CDE$ và $\\triangle CAB$ có:\n$\\widehat{C}$ là góc chung.\n$\\widehat{CDE}=180^\\circ-\\widehat{BDE}$ (kề bù, $D$ thuộc $BC$); $\\widehat{BDE}+\\widehat{BAE}=180^\\circ$ (tứ giác $ABDE$ nội tiếp, hai góc đối) nên $\\widehat{CDE}=\\widehat{BAE}$.\nMà $E$ thuộc $AC$ nên $\\widehat{BAE}=\\widehat{BAC}=\\widehat{CAB}$.\nSuy ra $\\widehat{CDE}=\\widehat{CAB}$, do đó $\\triangle CDE\\backsim\\triangle CAB$ (g-g).\n$\\Rightarrow \\frac{DE}{AB}=\\frac{CD}{CA}=\\cos\\widehat{BCA}$ (trong $\\triangle ADC$ vuông tại $D$).\nVới $\\widehat{BCA}=60^\\circ$, ta có $\\frac{DE}{AB}=\\cos 60^\\circ=\\frac{1}{2}\\Rightarrow DE=\\frac{1}{2}AB$.\nTính diện tích hình viên phân: vẽ đường kính $AQ$ của đường tròn $(O)$.\n$\\widehat{ABQ}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AQ$).\nTrong $(O)$, $\\widehat{AQB}=\\widehat{ACB}=60^\\circ$ (cùng chắn cung $AB$).\nXét $\\triangle ABQ$ vuông tại $B$: $AB=AQ\\cdot\\sin\\widehat{AQB}=2R\\cdot\\sin 60^\\circ=R\\sqrt{3}$.\nSuy ra bán kính đường tròn $(I)$ là $R_{(I)}=\\frac{AB}{2}=\\frac{R\\sqrt{3}}{2}$.\nTa có $ID=IE=DE=\\frac{1}{2}AB$ nên $\\triangle IED$ đều, suy ra $\\widehat{DIE}=60^\\circ$.\nDiện tích hình quạt $IDE$: $S_q=\\frac{\\pi\\cdot R_{(I)}^2\\cdot 60}{360}=\\frac{\\pi\\cdot\\left(\\frac{R\\sqrt{3}}{2}\\right)^2}{6}=\\frac{R^2\\pi}{8}$.\nDiện tích $\\triangle IED$: $S_{\\triangle}=\\frac{DE^2\\sqrt{3}}{4}=\\frac{\\left(\\frac{R\\sqrt{3}}{2}\\right)^2\\sqrt{3}}{4}=\\frac{3R^2\\sqrt{3}}{16}$.\nDiện tích hình viên phân cung $DE$ là: $S=S_q-S_{\\triangle}=\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{16}$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$S=\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{16}$",
+      "$S=\\frac{R^2\\pi}{8}+\\frac{3R^2\\sqrt{3}}{16}$",
+      "$S=\\frac{R^2\\pi}{4}-\\frac{3R^2\\sqrt{3}}{16}$",
+      "$S=\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{8}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
