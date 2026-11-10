@@ -1,0 +1,407 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 8 – Đề số 22 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 22,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=-\\frac{1}{2}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ của hàm số trên.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=-2$; với $x=-1$ thì $y=-\\frac{1}{2}$; với $x=0$ thì $y=0$; với $x=1$ thì $y=-\\frac{1}{2}$; với $x=2$ thì $y=-2$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay xuống dưới, đi qua các điểm $(-2;-2)$, $(-1;-\\frac{1}{2})$, $(0;0)$, $(1;-\\frac{1}{2})$, $(2;-2)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -3,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -x^2/2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ các điểm $M$ thuộc $(P)$ (khác gốc tọa độ) có hoành độ bằng tung độ.",
+     "explanation": "Vì điểm $M$ có hoành độ bằng tung độ nên $y=x$.\nTa có phương trình $x=-\\frac{1}{2}x^2$.\n$\\frac{1}{2}x^2+x=0$.\nSuy ra $x=0$ hoặc $x=-2$.\nVới $x=0$ suy ra $y=0$ (loại vì $M$ khác gốc tọa độ).\nVới $x=-2$ suy ra $y=-2$.\nVậy tọa độ điểm cần tìm là $M(-2;-2)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(-2;-2)$",
+      "$(0;0)$",
+      "$(2;2)$",
+      "$(-2;2)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2-4x+2=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Ta có $x^2-4x+2=0$ ($a=1$; $b=-4$; $c=2$).\n$\\Delta=b^2-4ac=(-4)^2-4\\cdot 1\\cdot 2=16-8=8>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $x_1$, $x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị của biểu thức $A=(x_1-x_2)^2-x_1-x_2$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=4$; $x_1x_2=\\frac{c}{a}=2$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=4^2-2\\cdot 2=12$.\nBiến đổi biểu thức $A$:\n$A=(x_1-x_2)^2-x_1-x_2$\n$A=x_1^2-2x_1x_2+x_2^2-(x_1+x_2)$\n$A=(x_1^2+x_2^2)-2x_1x_2-(x_1+x_2)$\nThế giá trị vào biểu thức $A$:\n$A=12-2\\cdot 2-4=4$.\nVậy $A=4$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "4"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Cho biểu đồ đoạn thẳng biểu diễn số lượng máy tính để bàn và máy tính xách tay được bán ra trong 6 tháng cuối năm của một công ty X. Số lượng tính theo đơn vị cái. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Trong 6 tháng cuối năm, tháng nào có sự chênh lệch giữa số lượng máy tính xách tay và máy tính để bàn được bán ra là nhiều nhất?",
+     "explanation": "Dựa vào biểu đồ, ta có bảng số liệu và chênh lệch giữa hai loại máy tính qua các tháng như sau:\nTháng 7: máy tính để bàn $80$, máy tính xách tay $38$, chênh lệch $|80-38|=42$.\nTháng 8: máy tính để bàn $41$, máy tính xách tay $27$, chênh lệch $|41-27|=14$.\nTháng 9: máy tính để bàn $23$, máy tính xách tay $49$, chênh lệch $|49-23|=26$.\nTháng 10: máy tính để bàn $20$, máy tính xách tay $64$, chênh lệch $|64-20|=44$.\nTháng 11: máy tính để bàn $14$, máy tính xách tay $55$, chênh lệch $|55-14|=41$.\nTháng 12: máy tính để bàn $7$, máy tính xách tay $76$, chênh lệch $|76-7|=69$.\nTa thấy chênh lệch lớn nhất là $69$ ứng với tháng $12$.\nVậy tháng có sự chênh lệch nhiều nhất là tháng $12$.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "Tháng 12",
+      "Tháng 10",
+      "Tháng 7",
+      "Tháng 11"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn ngẫu nhiên 1 tháng trong 6 tháng cuối năm, tính xác suất của các biến cố sau: $A$: “Tháng được chọn có số lượng máy tính để bàn mà công ty bán ít nhất 20 cái”; $B$: “Tháng được chọn có tỉ lệ số lượng máy tính xách tay và máy tính để bàn mà công ty bán được lớn hơn 2”.",
+     "explanation": "Tập hợp các tháng trong 6 tháng cuối năm là $S=\\{7;8;9;10;11;12\\}$.\nSố phần tử của không gian mẫu là $n(\\Omega)=6$.\nXét biến cố $A$: các tháng thỏa mãn điều kiện (số lượng máy tính để bàn lớn hơn hoặc bằng $20$) là tháng $7$ ($80$ cái), tháng $8$ ($41$ cái), tháng $9$ ($23$ cái), tháng $10$ ($20$ cái).\nSố kết quả thuận lợi cho biến cố $A$ là $n(A)=4$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{6}=\\frac{2}{3}$.\nXét biến cố $B$: kiểm tra tỉ lệ $\\frac{\\text{Máy tính xách tay}}{\\text{Máy tính để bàn}}>2$:\nTháng 7: $\\frac{38}{80}<1$ (loại).\nTháng 8: $\\frac{27}{41}<1$ (loại).\nTháng 9: $\\frac{49}{23}\\approx 2,13>2$ (nhận).\nTháng 10: $\\frac{64}{20}=3,2>2$ (nhận).\nTháng 11: $\\frac{55}{14}\\approx 3,9>2$ (nhận).\nTháng 12: $\\frac{76}{7}\\approx 10,8>2$ (nhận).\nCác tháng thỏa mãn là: tháng $9$, tháng $10$, tháng $11$, tháng $12$.\nSố kết quả thuận lợi cho biến cố $B$ là $n(B)=4$.\nXác suất của biến cố $B$ là: $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{4}{6}=\\frac{2}{3}$.\nVậy $P(A)=\\frac{2}{3}$ và $P(B)=\\frac{2}{3}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2/3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một mảnh vườn hình chữ nhật có chiều rộng bằng $a$ (m), chiều dài hơn chiều rộng $6$ m. Bác Tư làm một lối đi rộng $x$ (m) cho khu vườn như hình vẽ (phần không tô đậm) (với $a>0$ và $0<x<a$). Phần còn lại của mảnh vườn bác Tư dùng để trồng rau. [[IMG:b4-manh-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy viết biểu thức (thu gọn) theo $x$ và $a$ biểu thị diện tích phần còn lại dùng để trồng rau.",
+     "explanation": "Chiều rộng của mảnh vườn là $a$ (m).\nChiều dài của mảnh vườn là $a+6$ (m).\nBốn mảnh đất trồng rau ghép lại thành một hình chữ nhật có:\nChiều rộng là $a-x$ (m).\nChiều dài là $(a+6)-x=a-x+6$ (m).\nBiểu thức biểu thị diện tích phần còn lại dùng để trồng rau là:\n$S=(a-x)(a-x+6)$ (m$^2$).\n$S=(a-x)^2+6(a-x)$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "(a-x)^2+6(a-x)"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính diện tích đất dùng để trồng rau khi $a=30$ m; $x=1$ m.",
+     "explanation": "Thay $a=30$ và $x=1$ vào biểu thức $S$, ta có:\n$S=(30-1)(30-1+6)$\n$S=29\\cdot 35$\n$S=1015$.\nVậy diện tích đất dùng để trồng rau là $1015$ m$^2$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1015"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Cho hình trụ có hai đáy là hình tròn $(O;R)$ và $(O';R)$ và hình nón có đỉnh là $O'$, đáy là hình tròn $(O;R)$ như Hình 2. [[IMG:b5-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Từ miếng xốp hình trụ, người ta gọt bỏ để tạo thành khối xốp hình nón. Tính thể tích phần bị gọt bỏ đi. Biết $R=10$ cm và $OO'=8$ cm.",
+     "explanation": "Thể tích của hình trụ là:\n$V_{\\text{trụ}}=\\pi R^2h=\\pi\\cdot 10^2\\cdot 8=800\\pi$ (cm$^3$).\nThể tích của khối nón là:\n$V_{\\text{nón}}=\\frac{1}{3}\\pi R^2h=\\frac{1}{3}\\pi\\cdot 10^2\\cdot 8=\\frac{800\\pi}{3}$ (cm$^3$).\nThể tích phần xốp bị gọt bỏ là:\n$V_{\\text{bỏ}}=V_{\\text{trụ}}-V_{\\text{nón}}=800\\pi-\\frac{800\\pi}{3}=\\frac{1600\\pi}{3}$ (cm$^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V_{\\text{bỏ}}={{1}}$ (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "\\frac{1600\\pi}{3}"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nếu bán kính $R$ giảm một nửa thì thể tích hình trụ thay đổi như nào?",
+     "explanation": "Ta có công thức thể tích hình trụ ban đầu là $V_1=\\pi R^2h$.\nKhi bán kính giảm một nửa, bán kính mới là $R'=\\frac{R}{2}$.\nThể tích hình trụ lúc sau là:\n$V_2=\\pi(R')^2h=\\pi\\left(\\frac{R}{2}\\right)^2h=\\pi\\frac{R^2}{4}h=\\frac{1}{4}\\pi R^2h$.\nSuy ra $V_2=\\frac{1}{4}V_1$.\nVậy thể tích hình trụ sẽ giảm đi $4$ lần.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Giảm đi 4 lần",
+      "Giảm đi 2 lần",
+      "Tăng lên 4 lần",
+      "Không thay đổi"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Có hai thùng cùng chứa nước. Người ta đổ từ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng với lượng nước thùng thứ hai đang có, tiếp tục đổ nước từ thùng thứ hai sang thùng thứ nhất một lượng nước bằng với lượng nước thùng thứ nhất đang có, sau đó đổ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng với lượng nước thùng thứ hai đang có. Cuối cùng cả hai thùng đều chứa $160$ lít nước. Hỏi lúc đầu mỗi thùng chứa bao nhiêu nước?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hỏi lúc đầu mỗi thùng chứa bao nhiêu nước?",
+     "explanation": "Gọi $x$ (lít) là lượng nước ban đầu của thùng thứ nhất ($x>0$).\nGọi $y$ (lít) là lượng nước ban đầu của thùng thứ hai ($y>0$).\nLần đổ thứ nhất: đổ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng lượng nước thùng thứ hai đang có ($y$ lít).\nLượng nước thùng thứ nhất còn lại: $x-y$ (lít).\nLượng nước thùng thứ hai có: $y+y=2y$ (lít).\nLần đổ thứ hai: đổ từ thùng thứ hai sang thùng thứ nhất một lượng nước bằng lượng nước thùng thứ nhất đang có ($x-y$ lít).\nLượng nước thùng thứ nhất có: $(x-y)+(x-y)=2x-2y$ (lít).\nLượng nước thùng thứ hai còn lại: $2y-(x-y)=3y-x$ (lít).\nLần đổ thứ ba: đổ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng lượng nước thùng thứ hai đang có ($3y-x$ lít).\nLượng nước thùng thứ nhất còn lại: $(2x-2y)-(3y-x)=3x-5y$ (lít).\nLượng nước thùng thứ hai có: $(3y-x)+(3y-x)=6y-2x$ (lít).\nSau ba lần đổ, thùng thứ nhất có $160$ lít nước nên ta có phương trình:\n$3x-5y=160$. (1)\nSau ba lần đổ, thùng thứ hai có $160$ lít nước nên ta có phương trình:\n$6y-2x=160$. (2)\nTừ (1) và (2) ta có hệ phương trình:\n$3x-5y=160$\n$-2x+6y=160$\nGiải hệ ta được $x=220$, $y=100$ (thỏa mãn điều kiện).\nVậy lúc đầu thùng thứ nhất chứa $220$ lít nước, thùng thứ hai chứa $100$ lít nước.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Thùng thứ nhất: {{1}} lít",
+       "Thùng thứ hai: {{2}} lít"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "220"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "100"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý c của đề gốc hỏi hai việc (chứng minh IJ là tiếp tuyến và tính diện tích tam giác IJA); bản soạn tách thành ý c (chứng minh tiếp tuyến, 0,5 điểm) và ý d (diện tích, trắc nghiệm 4 phương án, 0,5 điểm). Tổng điểm Bài 7 vẫn là 3,0 điểm."
+    },
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc ý c chứng minh J thuộc trung trực của AD bằng tính chất đối xứng của hình vẽ qua OD là không đúng (phép đối xứng qua OD biến A thành điểm khác D), và khẳng định OI = 2R mà không chứng minh. Bản soạn chứng minh đầy đủ: I thuộc tiếp tuyến tại C nhờ hai tam giác đồng dạng ACI' và OAB (CI' = R√3, OI = 2R), rồi tính AJ = R√3/3 bằng tam giác đồng dạng IDN và ITC cùng tỉ số lượng giác của góc 30 độ, từ đó JA = JD (kẻ JL vuông góc AD, L là trung điểm AD) nên OJ là trung trực của AD. Kết luận IJ là tiếp tuyến và đáp số diện tích R^2√3/3 không đổi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho $(O;R)$ có đường kính $AC$. Trên $(O)$ lấy điểm $D$ sao cho $AD=R$, tiếp tuyến tại $A$ của $(O)$ cắt tia $CD$ tại $B$. Dựng $AE\\perp BO$ tại $E$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: $\\widehat{ADC}=90^\\circ$ và tứ giác $ABDE$ nội tiếp đường tròn.",
+     "explanation": "Xét $(O)$ có $\\widehat{ADC}$ là góc nội tiếp chắn nửa đường tròn đường kính $AC$.\nSuy ra $\\widehat{ADC}=90^\\circ$.\nTa có $\\widehat{ADB}=90^\\circ$ (kề bù với $\\widehat{ADC}$).\n$\\triangle ADB$ vuông tại $D$, suy ra $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$.\n$\\triangle AEB$ vuông tại $E$ (do $AE\\perp BO$), suy ra $\\triangle AEB$ nội tiếp đường tròn đường kính $AB$.\nTừ đó suy ra $4$ điểm $A$, $B$, $D$, $E$ cùng thuộc một đường tròn đường kính $AB$.\nVậy tứ giác $ABDE$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tia $DE$ cắt $(O)$ tại $K$ ($K\\neq D$), vẽ đường kính $KH$ của $(O)$. Chứng minh: $\\widehat{ADE}=\\widehat{OAE}$ và 3 điểm $A$, $E$, $H$ thẳng hàng.",
+     "explanation": "Tứ giác $ABDE$ nội tiếp (chứng minh trên) nên $\\widehat{ADE}=\\widehat{ABE}$ (cùng chắn cung $AE$).\n$\\triangle OAB$ vuông tại $A$ (do $AB$ là tiếp tuyến), có đường cao $AE$ ($AE\\perp BO$).\nSuy ra $\\widehat{ABE}=\\widehat{OAE}$ (cùng phụ với $\\widehat{AOB}$).\nDo đó $\\widehat{ADE}=\\widehat{OAE}$.\nTrong $(O)$, ta có $\\widehat{ADK}=\\widehat{AHK}$ (hai góc nội tiếp cùng chắn cung $AK$).\nMà $\\widehat{ADK}=\\widehat{ADE}$ (do $D$, $E$, $K$ thẳng hàng).\nSuy ra $\\widehat{OAE}=\\widehat{AHK}$.\nLại có $\\triangle OAH$ cân tại $O$ (do $OA=OH=R$) nên $\\widehat{OAH}=\\widehat{OHA}$.\nMà $\\widehat{OHA}=\\widehat{AHK}$ (vì $O$ nằm giữa $H$ và $K$ nên tia $HO$ trùng tia $HK$).\nDo đó $\\widehat{OAE}=\\widehat{OAH}$.\nHai tia $AE$, $AH$ cùng nằm trên một nửa mặt phẳng bờ $AC$ và tạo với tia $OA$ các góc bằng nhau nên $A$, $E$, $H$ thẳng hàng.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Kẻ $OF\\perp BC$ tại $F$, tia $OF$ cắt $AH$ tại $I$, tia $ID$ cắt $AB$ tại $J$. Chứng minh $IJ$ là tiếp tuyến của $(O)$.",
+     "explanation": "Ta có $AD=AO=OD=R$ nên $\\triangle AOD$ đều, suy ra $\\widehat{AOD}=\\widehat{OAD}=60^\\circ$.\n$OF\\perp BC$ và $AD\\perp BC$ (do $\\widehat{ADC}=90^\\circ$) nên $OF\\parallel AD$.\nSuy ra $\\widehat{FOC}=\\widehat{DAC}=60^\\circ$ (hai góc đồng vị) và $\\widehat{AOF}=180^\\circ-\\widehat{FOC}=120^\\circ$.\nTia $OD$ nằm giữa hai tia $OA$, $OF$ và $\\widehat{AOD}=\\frac{1}{2}\\widehat{AOF}$ nên $OD$ là tia phân giác của góc $\\widehat{AOF}$.\nChứng minh $I$ thuộc đường thẳng vuông góc với $AC$ tại $C$: gọi $I'$ là giao điểm của $AH$ với tiếp tuyến tại $C$ của $(O)$.\nVì $A$, $E$, $H$ thẳng hàng nên $\\widehat{CAH}=\\widehat{CAE}$; trong $\\triangle OAB$ vuông tại $A$ có đường cao $AE$ nên $\\widehat{CAE}=\\widehat{ABO}$ (cùng phụ với $\\widehat{AOB}$).\nXét $\\triangle ACI'$ vuông tại $C$ và $\\triangle OAB$ vuông tại $A$ có $\\widehat{CAI'}=\\widehat{ABO}$ nên $\\triangle ACI'\\sim\\triangle OAB$ (g-g), suy ra $\\frac{CI'}{AC}=\\frac{OA}{AB}$.\nLại có $\\widehat{ACB}=30^\\circ$ (trong $\\triangle ADC$ vuông tại $D$ có $AD=R=\\frac{AC}{2}$) nên $BC=2AB$; theo định lý Pythagore, $AB=\\frac{2R\\sqrt{3}}{3}$.\nDo đó $CI'=AC\\cdot\\frac{OA}{AB}=2R\\cdot\\frac{R}{2R\\sqrt{3}/3}=R\\sqrt{3}$.\nXét $\\triangle OCI'$ vuông tại $C$ có $OC=R$, $CI'=R\\sqrt{3}$ nên $OI'=2R$ và $\\widehat{COI'}=60^\\circ=\\widehat{COF}$, suy ra tia $OI'$ trùng tia $OF$, tức $I'\\equiv I$. Vậy $IC\\perp AC$ và $IC=R\\sqrt{3}$.\nKẻ $DP\\perp AC$ tại $P$ và $DN\\perp IC$ tại $N$. Trong $\\triangle ADP$ vuông tại $P$ có $\\widehat{DAP}=60^\\circ$, $AD=R$ nên $DP=\\frac{R\\sqrt{3}}{2}$, $AP=\\frac{R}{2}$, suy ra $PC=\\frac{3R}{2}$.\nTứ giác $DNCP$ có ba góc vuông nên là hình chữ nhật, suy ra $DN=PC=\\frac{3R}{2}$ và $NC=DP=\\frac{R\\sqrt{3}}{2}$.\nSuy ra $IN=IC-NC=R\\sqrt{3}-\\frac{R\\sqrt{3}}{2}=\\frac{R\\sqrt{3}}{2}$.\nGọi $T$ là giao điểm của đường thẳng $ID$ với đường thẳng $AC$ ($T$ nằm ngoài đoạn $AC$ về phía $A$). Vì $DN\\parallel TC$ (cùng vuông góc với $IC$) nên $\\triangle IDN\\sim\\triangle ITC$ (g-g), suy ra $\\frac{IN}{IC}=\\frac{DN}{TC}$, tức $\\frac{1}{2}=\\frac{3R/2}{TC}$, do đó $TC=3R$ và $TA=TC-AC=R$.\nTrong $\\triangle ITC$ vuông tại $C$ có $\\tan\\widehat{ITC}=\\frac{IC}{TC}=\\frac{\\sqrt{3}}{3}$ nên $\\widehat{ITC}=30^\\circ$.\nXét $\\triangle TAJ$ vuông tại $A$ có $\\widehat{ATJ}=\\widehat{ITC}=30^\\circ$ nên $AJ=TA\\cdot\\tan 30^\\circ=\\frac{R\\sqrt{3}}{3}$.\nKẻ $JL\\perp AD$ tại $L$. Trong $\\triangle JAL$ vuông tại $L$ có $\\widehat{JAL}=90^\\circ-\\widehat{DAC}=30^\\circ$ nên $AL=AJ\\cdot\\cos 30^\\circ=\\frac{R\\sqrt{3}}{3}\\cdot\\frac{\\sqrt{3}}{2}=\\frac{R}{2}=\\frac{AD}{2}$, suy ra $L$ là trung điểm của $AD$.\nMà $JL\\perp AD$ nên $JL$ là đường trung trực của $AD$, suy ra $JA=JD$.\nLại có $OA=OD$ nên $OJ$ là đường trung trực của $AD$, suy ra $OJ$ là tia phân giác của $\\widehat{AOD}$.\nDo đó $\\triangle OAJ=\\triangle ODJ$ (c.g.c), suy ra $\\widehat{ODJ}=\\widehat{OAJ}=90^\\circ$ (do $AB$ là tiếp tuyến tại $A$).\nVậy $OD\\perp IJ$ tại $D$, mà $D\\in(O)$ nên $IJ$ là tiếp tuyến của $(O)$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Tính diện tích $\\triangle IJA$ theo $R$.",
+     "explanation": "Vì $\\triangle OAJ=\\triangle ODJ$ (chứng minh trên) nên $OJ$ là tia phân giác của $\\widehat{AOD}$, suy ra $\\widehat{AOJ}=\\frac{1}{2}\\widehat{AOD}=30^\\circ$.\nXét $\\triangle OAJ$ vuông tại $A$: $AJ=OA\\cdot\\tan 30^\\circ=R\\cdot\\frac{\\sqrt{3}}{3}$.\nTa có $IC\\parallel AB$ (cùng vuông góc với $AC$) nên khoảng cách từ điểm $I$ đến đường thẳng $AB$ bằng độ dài đoạn $AC=2R$.\nDiện tích $\\triangle IJA$ là:\n$S_{IJA}=\\frac{1}{2}\\cdot AJ\\cdot 2R=\\frac{1}{2}\\cdot\\frac{R\\sqrt{3}}{3}\\cdot 2R=\\frac{R^2\\sqrt{3}}{3}$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{R^2\\sqrt{3}}{3}$",
+      "$\\frac{R^2\\sqrt{3}}{6}$",
+      "$\\frac{2R^2\\sqrt{3}}{3}$",
+      "$R^2\\sqrt{3}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ]
+}
