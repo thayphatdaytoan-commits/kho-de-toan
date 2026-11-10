@@ -1,0 +1,382 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 7 – Đề số 20 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 20,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=2x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ của hàm số trên.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=8$; với $x=-1$ thì $y=2$; với $x=0$ thì $y=0$; với $x=1$ thì $y=2$; với $x=2$ thì $y=8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-2;8)$, $(-1;2)$, $(0;0)$, $(1;2)$, $(2;8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm những điểm $M$ thuộc $(P)$ thỏa điều kiện tung độ lớn hơn hoành độ $1$ đơn vị.",
+     "explanation": "Vì điểm cần tìm có tung độ lớn hơn hoành độ $1$ đơn vị nên ta có $y=x+1$.\nTa có phương trình $x+1=2x^2$.\n$2x^2-x-1=0$.\n$x_1=1$; $x_2=-\\frac{1}{2}$.\nVới $x_1=1\\Rightarrow y_1=2$.\nVới $x_2=-\\frac{1}{2}\\Rightarrow y_2=\\frac{1}{2}$.\nVậy tọa độ các điểm cần tìm là $(1;2)$ và $\\left(-\\frac{1}{2};\\frac{1}{2}\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(1;2)$ và $\\left(-\\frac{1}{2};\\frac{1}{2}\\right)$",
+      "$(1;2)$ và $\\left(\\frac{1}{2};\\frac{1}{2}\\right)$",
+      "$(-1;2)$ và $\\left(-\\frac{1}{2};\\frac{1}{2}\\right)$",
+      "$(1;-2)$ và $\\left(-\\frac{1}{2};-\\frac{1}{2}\\right)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $3x^2-7x+3=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có phương trình $3x^2-7x+3=0$ với $a=3$; $b=-7$; $c=3$.\nTa có $\\Delta=b^2-4ac=(-7)^2-4\\cdot 3\\cdot 3=49-36=13>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình. Tính giá trị biểu thức $A=\\frac{18x_2}{5x_1-x_2+\\frac{7}{3}}+\\frac{18x_1}{5x_2-x_1+\\frac{7}{3}}$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{7}{3}$; $x_1x_2=\\frac{c}{a}=1$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{7}{3}\\right)^2-2\\cdot 1=\\frac{31}{9}$.\nBiến đổi biểu thức $A$:\n$A=\\frac{18x_2}{5x_1-x_2+(x_1+x_2)}+\\frac{18x_1}{5x_2-x_1+(x_1+x_2)}$\n$A=\\frac{18x_2}{6x_1}+\\frac{18x_1}{6x_2}$\n$A=\\frac{3x_2}{x_1}+\\frac{3x_1}{x_2}$\n$A=\\frac{3(x_1^2+x_2^2)}{x_1x_2}$\nThay giá trị vào biểu thức:\n$A=\\frac{3\\cdot\\frac{31}{9}}{1}=\\frac{31}{3}$.\nVậy $A=\\frac{31}{3}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "31/3|10,33"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Lớp 9A làm bài kiểm tra môn Toán cuối kì 2. Các kết quả sau khi có điểm được giáo viên môn Toán thể hiện trong biểu đồ đoạn thẳng sau:[[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm giá trị trung bình cộng về điểm số của lớp 9A.",
+     "explanation": "Tổng số học sinh lớp 9A là:\n$n(\\Omega)=4+10+15+8+7+3+2+1+1+1+1=53$ (học sinh).\nTổng điểm của lớp 9A là:\n$S=5\\cdot 4+5,5\\cdot 10+6\\cdot 15+6,5\\cdot 8+7\\cdot 7+7,5\\cdot 3+8\\cdot 2+8,5\\cdot 1+9\\cdot 1+9,5\\cdot 1+10\\cdot 1=341,5$.\nĐiểm trung bình cộng của lớp 9A là:\n$\\overline{X}=\\frac{341,5}{53}=\\frac{683}{106}\\approx 6,44$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "683/106|6,44"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất thực nghiệm của biến cố $A$: “Bạn lớp 9A có điểm số là $6,5$ điểm”.",
+     "explanation": "Số học sinh có điểm số $6,5$ điểm là $8$ học sinh $\\Rightarrow n(A)=8$.\nXác suất thực nghiệm của biến cố $A$ là:\n$P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{8}{53}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8/53"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính xác suất thực nghiệm của biến cố $B$: “Bạn lớp 9A có điểm số là điểm giỏi, $8$ điểm trở lên”.",
+     "explanation": "Số học sinh có điểm giỏi ($8$ điểm trở lên) gồm các điểm: $8$; $8,5$; $9$; $9,5$; $10$.\nSố lượng là: $2+1+1+1+1=6$ (học sinh) $\\Rightarrow n(B)=6$.\nXác suất thực nghiệm của biến cố $B$ là:\n$P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{6}{53}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(B)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6/53"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Từ một khối gỗ hình hộp chữ nhật có chiều dài, chiều rộng và chiều cao lần lượt là $x+5$; $x+2$ và $x$ (mét). Người ta khoét đi một lỗ có dạng hình lập phương cạnh là $x-1$ (mét).[[IMG:b4-kho-go.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $A$ biểu thị phần thể tích còn lại của khối gỗ.",
+     "explanation": "Thể tích khối gỗ hình hộp chữ nhật ban đầu là:\n$V_1=x(x+5)(x+2)=x(x^2+7x+10)=x^3+7x^2+10x$ (m$^3$).\nThể tích phần lỗ khoét hình lập phương là:\n$V_2=(x-1)^3=x^3-3x^2+3x-1$ (m$^3$).\nBiểu thức $A$ biểu thị phần thể tích còn lại là:\n$A=V_1-V_2=(x^3+7x^2+10x)-(x^3-3x^2+3x-1)$\n$A=x^3+7x^2+10x-x^3+3x^2-3x+1$\n$A=10x^2+7x+1$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$A={{1}}$ (m$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "10x^2+7x+1"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết thể tích còn lại của khối gỗ là $7$ m$^3$. Tính giá trị của $x$.",
+     "explanation": "Vì cạnh của hình lập phương là $x-1$ nên điều kiện xác định là $x-1>0\\Rightarrow x>1$.\nTheo đề bài, thể tích còn lại là $7$ m$^3$ nên ta có phương trình:\n$10x^2+7x+1=7$\n$10x^2+7x-6=0$\n$x_1=0,5$ (không thỏa mãn điều kiện $x>1$).\n$x_2=-1,2$ (không thỏa mãn điều kiện $x>1$).\nVậy không có giá trị nào của $x$ thỏa mãn yêu cầu đề bài.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Không có giá trị nào của $x$ thỏa mãn",
+      "$x=0,5$",
+      "$x=-1,2$",
+      "$x=0,5$ hoặc $x=-1,2$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một khối hộp chữ nhật (đặc ruột) bằng sắt với kích thước ba cạnh là $12$ cm, $10$ cm, $7$ cm bị khoét bởi một nửa hình trụ có đường kính $4$ cm và chiều dài $12$ cm (Hình bên).[[IMG:b5-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của khối kim loại còn lại (làm tròn kết quả đến hàng đơn vị).",
+     "explanation": "Thể tích khối hộp chữ nhật ban đầu là:\n$V_{hcn}=12\\cdot 10\\cdot 7=840$ (cm$^3$).\nBán kính đáy của nửa hình trụ là: $R=4:2=2$ (cm).\nThể tích phần nửa hình trụ bị khoét đi là:\n$V_{tru}=\\frac{1}{2}\\cdot\\pi\\cdot R^2\\cdot h=\\frac{1}{2}\\cdot\\pi\\cdot 2^2\\cdot 12=24\\pi$ (cm$^3$).\nThể tích khối kim loại còn lại là:\n$V=V_{hcn}-V_{tru}=840-24\\pi\\approx 765$ (cm$^3$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "765"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nếu nấu nóng chảy khối kim loại còn lại này để đúc các viên bi sắt hình cầu có bán kính $1$ cm. Hỏi có thể đúc được nhiều nhất bao nhiêu viên bi sắt như thế?",
+     "explanation": "Thể tích của một viên bi sắt hình cầu bán kính $1$ cm là:\n$V_{bi}=\\frac{4}{3}\\pi r^3=\\frac{4}{3}\\pi\\cdot 1^3=\\frac{4}{3}\\pi$ (cm$^3$).\nSố viên bi đúc được nhiều nhất là:\n$n=\\frac{V}{V_{bi}}=\\frac{840-24\\pi}{\\frac{4}{3}\\pi}\\approx 182,5$.\nVậy có thể đúc được nhiều nhất $182$ viên bi.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "182"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc in nhầm hai dòng trung gian: “$160-2y-95+x=48$” và “$x-2y=-17$ (2)” (đã đối chiếu bằng mắt trên bản in trang 135, không phải lỗi trích text). Tính đúng: $160-2y-95+x=40$ nên $x-2y=-25$ (2); kết hợp $y-x=5$ cho $x=15$, $y=20$, khớp đáp số cuối của chính lời giải gốc (còn lại $60$ lít). Bản soạn đã sửa hai dòng này; kết luận và đáp số không đổi. (Nếu dùng $x-2y=-17$ thì được $x=7$, $y=12$, còn lại $68$ lít — khác hẳn đáp số gốc.)"
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Có hai chiếc thùng, thùng thứ nhất đang chứa $95$ lít dầu, thùng hai chứa $80$ lít dầu. Người ta lấy bớt dầu ở hai thùng, nếu thùng thứ nhất lấy ra ít hơn thùng thứ hai $5$ lít thì khi đó hai lần số dầu còn lại thùng thứ hai nhiều hơn số dầu còn lại thùng thứ nhất là $40$ lít. Hỏi số lít dầu còn lại ở thùng thứ hai sau khi lấy ra là bao nhiêu?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Số lít dầu còn lại ở thùng thứ hai sau khi lấy ra là bao nhiêu lít?",
+     "explanation": "Gọi $x$ (lít) là số dầu lấy ra từ thùng thứ nhất.\nGọi $y$ (lít) là số dầu lấy ra từ thùng thứ hai.\nĐiều kiện: $0<x<95$ và $5<y<80$.\nSố dầu còn lại ở thùng thứ nhất là $95-x$ (lít).\nSố dầu còn lại ở thùng thứ hai là $80-y$ (lít).\nVì thùng thứ nhất lấy ra ít hơn thùng thứ hai $5$ lít nên ta có phương trình: $y-x=5$ (1)\nVì hai lần số dầu còn lại thùng thứ hai nhiều hơn số dầu còn lại thùng thứ nhất là $40$ lít nên ta có phương trình:\n$2(80-y)-(95-x)=40$\n$160-2y-95+x=40$\n$x-2y=-25$ (2)\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases}y-x=5\\\\x-2y=-25\\end{cases}\\Rightarrow \\begin{cases}x=15\\\\y=20\\end{cases}$ (nhận).\nSố dầu còn lại ở thùng thứ hai là $80-20=60$ (lít).\nVậy số lít dầu còn lại ở thùng thứ hai là $60$ lít.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "60"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm $A$ ở ngoài đường tròn $(O;R)$, kẻ hai tiếp tuyến $AB$, $AC$ đến $(O)$ ($B$, $C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.[[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: $OA$ là đường trung trực của $BC$ và tứ giác $OBAC$ nội tiếp.",
+     "explanation": "Ta có $\\begin{cases}AB=AC\\text{ (tính chất 2 tiếp tuyến cắt nhau)}\\\\OB=OC=R\\end{cases}$\n$\\Rightarrow OA$ là đường trung trực của $BC$.\n$\\Rightarrow OA\\perp BC$ tại $H$.\n$\\triangle OBA$ vuông tại $B$ ($AB$ là tiếp tuyến).\nSuy ra $\\triangle OBA$ nội tiếp đường tròn đường kính $OA$ (1).\n$\\triangle OCA$ vuông tại $C$ ($AC$ là tiếp tuyến).\nSuy ra $\\triangle OCA$ nội tiếp đường tròn đường kính $OA$ (2).\nTừ (1) và (2) suy ra $4$ điểm $O$, $B$, $A$, $C$ cùng thuộc đường tròn đường kính $OA$.\nSuy ra tứ giác $OBAC$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $R=\\frac{(AC+AB)\\cdot OH}{BC}$.",
+     "explanation": "$H$ là trung điểm của $BC$ ($OA$ là trung trực của $BC$).\n$\\Rightarrow BC=2BH$.\nXét $\\triangle OHB$ và $\\triangle OBA$:\n$\\begin{cases}\\widehat{BOA}\\text{ (góc chung)}\\\\\\widehat{OHB}=\\widehat{OBA}=90^\\circ\\end{cases}$\n$\\Rightarrow\\triangle OHB\\backsim\\triangle OBA$ (g-g).\n$\\Rightarrow\\frac{OH}{OB}=\\frac{BH}{AB}$ (tỉ số đồng dạng).\n$\\Rightarrow OH\\cdot AB=OB\\cdot BH$.\n$\\Rightarrow R\\cdot BH=AB\\cdot OH$.\n$\\Rightarrow R=\\frac{AB\\cdot OH}{BH}$.\nNhân cả tử và mẫu với $2$, ta được:\n$R=\\frac{2AB\\cdot OH}{2BH}$.\nMà $AB=AC$ và $2BH=BC$, suy ra:\n$R=\\frac{(AB+AC)\\cdot OH}{BC}$ (đpcm).",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Trên đoạn $AH$ lấy điểm $D$ sao cho $HB=HD$, qua $D$ kẻ $DE\\perp OA$ ($E\\in AB$), gọi $I$ là trung điểm của $OE$, cho $R=5$ cm. Tính số đo góc $\\widehat{BHI}$. (Chọn đáp án đúng.)",
+     "explanation": "Ta có $\\triangle ODE$ vuông tại $D$ có $DI$ là trung tuyến.\n$\\Rightarrow ID=\\frac{1}{2}OE$.\n$\\triangle OBE$ vuông tại $B$ có $BI$ là trung tuyến.\n$\\Rightarrow IB=\\frac{1}{2}OE$.\nSuy ra $IB=ID$.\nXét $\\triangle HBI$ và $\\triangle HDI$:\n$\\begin{cases}HB=HD\\text{ (giả thiết)}\\\\HI\\text{ (cạnh chung)}\\\\IB=ID\\text{ (chứng minh trên)}\\end{cases}$\n$\\Rightarrow\\triangle HBI=\\triangle HDI$ (c-c-c).\n$\\Rightarrow\\widehat{BHI}=\\widehat{DHI}$ (hai góc tương ứng). $\\Rightarrow HI$ là phân giác của $\\widehat{BHD}$\n$\\Rightarrow\\widehat{BHI}=\\frac{1}{2}\\widehat{BHD}=\\frac{1}{2}\\cdot 90^\\circ=45^\\circ$.\nVậy $\\widehat{BHI}=45^\\circ$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$45^\\circ$",
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Với $R=5$ cm, tính độ dài cạnh $BE$.",
+     "explanation": "Xét $\\triangle HBD$ có:\n$\\begin{cases}HB=HD\\text{ (giả thiết)}\\\\\\widehat{BHD}=90^\\circ\\text{ (do $OA\\perp BC$)}\\end{cases}$\n$\\Rightarrow\\triangle HBD$ vuông cân tại $H$.\n$\\Rightarrow\\widehat{HDB}=45^\\circ$.\n$\\triangle OBE$ vuông tại $B$ (tính chất tiếp tuyến)\nsuy ra $\\triangle OBE$ nội tiếp đường tròn đường kính $OE$ (1).\n$\\triangle ODE$ vuông tại $D$ (do $DE\\perp OA$)\nsuy ra $\\triangle ODE$ nội tiếp đường tròn đường kính $OE$ (2).\nTừ (1) và (2) suy ra $4$ điểm $O$, $B$, $E$, $D$ cùng thuộc đường tròn đường kính $OE$.\nDo đó $\\widehat{OEB}=\\widehat{ODB}$ (hai góc nội tiếp cùng chắn cung $OB$).\nMà $\\widehat{ODB}=\\widehat{HDB}=45^\\circ$ (chứng minh trên).\nSuy ra $\\widehat{OEB}=45^\\circ$.\nXét $\\triangle OBE$ vuông tại $B$ có $\\widehat{OEB}=45^\\circ$.\n$\\Rightarrow\\triangle OBE$ vuông cân tại $B$.\n$\\Rightarrow BE=OB=R$.\nMà $R=5$ cm.\nVậy $BE=5$ cm.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "5"
+    }
+   ]
+  }
+ ]
+}
