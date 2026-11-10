@@ -1,0 +1,408 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 3 – Đề số 7 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 7,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=-\\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=-8$; với $x=-2$ thì $y=-2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=-2$; với $x=4$ thì $y=-8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-4;-8)$, $(-2;-2)$, $(2;-2)$, $(4;-8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -1/2 x^2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ các điểm $D$ thuộc $(P)$ (khác gốc tọa độ) có tung độ gấp đôi hoành độ.",
+     "explanation": "Vì điểm $D$ có tung độ gấp đôi hoành độ nên $y=2x$.\nTa có phương trình $2x=-\\frac{1}{2}x^2$, hay $\\frac{1}{2}x^2+2x=0$.\nSuy ra $x=0$ hoặc $x=-4$.\nVì $D$ khác gốc tọa độ nên $x \\neq 0$, suy ra $x=-4$.\nVới $x=-4$ suy ra $y=2x=-8$.\nVậy tọa độ điểm cần tìm là $(-4;-8)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$D({{1}}; {{2}})$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "-4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "-8"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2-4x-2=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có phương trình $x^2-4x-2=0$ với $a=1$, $b=-4$, $c=-2$.\n$\\Delta=b^2-4ac=(-4)^2-4\\cdot 1\\cdot(-2)=16+8=24>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức $A=\\frac{x_1^2}{x_2}+\\frac{x_2^2}{x_1}$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=4$; $x_1x_2=\\frac{c}{a}=-2$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=4^2-2\\cdot(-2)=20$.\nTa có $A=\\frac{x_1^2}{x_2}+\\frac{x_2^2}{x_1}=\\frac{x_1^3+x_2^3}{x_1x_2}$.\n$=\\frac{(x_1+x_2)(x_1^2-x_1x_2+x_2^2)}{x_1x_2}=\\frac{4\\cdot(20+2)}{-2}=-44$.\nVậy giá trị của biểu thức $A$ là $-44$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-44"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Khảo sát số giờ tự học tại nhà trong một tuần của một nhóm học sinh trong lớp. Kết quả được biểu diễn qua biểu đồ đoạn thẳng sau: [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số giờ tự học trung bình trong tuần của một học sinh trong nhóm.",
+     "explanation": "Tổng số học sinh là $2+4+6+8+10=30$ (học sinh).\nTổng số giờ tự học của cả nhóm là $9\\cdot 2+5\\cdot 4+8\\cdot 6+6\\cdot 8+7\\cdot 10=18+20+48+48+70=204$ (giờ).\nVậy số giờ tự học trung bình trong tuần của một học sinh là $\\frac{204}{30}=6,8$ giờ.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "6,8"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất thực nghiệm của biến cố $M$: “Học sinh được chọn có số giờ tự học từ 8 giờ trở lên”.",
+     "explanation": "Không gian mẫu có $n(\\Omega)=30$ (học sinh).\nBiến cố $M$: “số giờ tự học từ 8 giờ trở lên” gồm các mức 9 giờ (có 2 học sinh) và 8 giờ (có 6 học sinh) nên $n(M)=2+6=8$ (học sinh).\nXác suất thực nghiệm của biến cố $M$ là $P(M)=\\frac{n(M)}{n(\\Omega)}=\\frac{8}{30}=\\frac{4}{15}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(M)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4/15"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính xác suất thực nghiệm của biến cố $N$: “Học sinh được chọn có số giờ tự học ít hơn 7 giờ”.",
+     "explanation": "Biến cố $N$: “số giờ tự học ít hơn 7 giờ” gồm các mức 5 giờ (có 4 học sinh) và 6 giờ (có 8 học sinh) nên $n(N)=4+8=12$ (học sinh).\nXác suất thực nghiệm của biến cố $N$ là $P(N)=\\frac{n(N)}{n(\\Omega)}=\\frac{12}{30}=\\frac{2}{5}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(N)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2/5"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Phương trình lập được ở ý b là phương trình bậc nhất ($6,14x=314,16$), không phải bậc hai; gán mã L9.C6.B4.D03 theo tiền lệ Bài 4 của Đề 6 (cây lớp 9 không có mã bài toán hình học lập phương trình bậc nhất một ẩn)."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một sân vận động có hình dạng gồm một hình chữ nhật có chiều rộng là $x$ (mét), chiều dài là $y$ (mét) và hai nửa hình tròn bằng nhau (đường kính là chiều rộng $x$ của hình chữ nhật) áp vào hai chiều rộng của hình chữ nhật như hình vẽ. [[IMG:b4-san.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tính chu vi $P$ của đường chạy bao quanh sân vận động theo $x$ và $y$.",
+     "explanation": "Chu vi đường chạy gồm hai đoạn thẳng dài $y$ và một đường tròn đường kính $x$ (do ghép hai nửa hình tròn).\nVậy $P=2y+\\pi x$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "2y+πx"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết chiều dài gấp 1,5 lần chiều rộng và chu vi sân là $314,16$ m. Ban quản lý dự định trải cỏ nhân tạo toàn bộ mặt sân với giá $250\\,000$ đồng/m$^2$. Tính tổng chi phí để hoàn thành dự định trên (lấy $\\pi=3,14$, các kết quả làm tròn đến hàng phần trăm).",
+     "explanation": "Vì chiều dài gấp 1,5 lần chiều rộng nên $y=1,5x$.\nTa có $P=2y+\\pi x=2\\cdot 1,5x+3,14x=6,14x$.\nMà $P=314,16$ nên $6,14x=314,16$.\nSuy ra $x=\\frac{314,16}{6,14}\\approx 51,17$ (m).\nKhi đó $y=1,5x\\approx 76,75$ (m).\nDiện tích mặt sân gồm diện tích hình chữ nhật và diện tích hai nửa hình tròn (bằng một hình tròn bán kính $\\frac{x}{2}$):\n$S=xy+\\pi\\left(\\frac{x}{2}\\right)^2=xy+\\frac{\\pi x^2}{4}$.\nThay $\\pi=3,14$, $x=\\frac{314,16}{6,14}$, $y=1,5x$ được $S\\approx 5982,07$ (m$^2$).\nTổng chi phí trải cỏ là $5982,07\\cdot 250\\,000\\approx 1\\,495\\,516\\,632,11$ (đồng).\nVậy tổng chi phí là $1\\,495\\,516\\,632,11$ đồng.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1495516632,11"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý b dùng các giá trị đã làm tròn ở ý a ($V_{\\text{trụ}}\\approx 401,92$; $V_{\\text{cầu}}\\approx 267,95$) nên $V_{\\text{trống}}\\approx 133,97$ và chi phí $10\\,047\\,750$ đồng; nếu dùng giá trị chưa làm tròn thì $V_{\\text{trống}}\\approx 133,9733$ và chi phí $\\approx 10\\,048\\,000$ đồng. Bản soạn giữ theo lời giải gốc."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một cơ sở sản xuất nến thơm thiết kế một mẫu quà tặng cao cấp. Mỗi bộ sản phẩm bao gồm một viên nến thơm có hình dạng hình cầu bán kính $R=4\\text{ cm}$. Viên nến này được đặt vào bên trong một hộp nhựa hình trụ trong suốt sao cho viên nến nằm vừa khít, tiếp xúc với mặt đáy và mặt xung quanh của hộp. [[IMG:b5-hop-nen.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của hộp nhựa hình trụ và thể tích của viên nến hình cầu (kết quả làm tròn đến hàng phần trăm, lấy $\\pi=3,14$).",
+     "explanation": "Viên nến là hình cầu bán kính $R=4$ cm. Hộp nhựa là hình trụ vừa khít nên có bán kính đáy $r=R=4$ cm và chiều cao $h=2R=8$ cm.\nThể tích hộp nhựa hình trụ: $V_{\\text{trụ}}=\\pi r^2h=\\pi\\cdot 4^2\\cdot 8=128\\pi\\approx 128\\cdot 3,14=401,92$ (cm$^3$).\nThể tích viên nến hình cầu: $V_{\\text{cầu}}=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\pi\\cdot 4^3=\\frac{256}{3}\\pi\\approx\\frac{256}{3}\\cdot 3,14\\approx 267,95$ (cm$^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V_{\\text{trụ}}={{1}}$ ($\\text{cm}^3$); $V_{\\text{cầu}}={{2}}$ ($\\text{cm}^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "401,92"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "267,95"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Để cố định viên nến và trang trí, cơ sở sản xuất đổ đầy phần không gian trống giữa viên nến và hộp nhựa bằng các hạt sáp màu li ti. Biết mỗi $100\\text{ cm}^3$ hạt sáp màu có giá là $15\\,000$ đồng. Tính chi phí tiền mua hạt sáp màu để sản xuất 500 bộ quà tặng như trên.",
+     "explanation": "Thể tích phần không gian trống cần đổ hạt sáp cho mỗi bộ là $V_{\\text{trống}}=V_{\\text{trụ}}-V_{\\text{cầu}}\\approx 401,92-267,95=133,97$ (cm$^3$).\nVới $100$ cm$^3$ giá $15\\,000$ đồng nên $1$ cm$^3$ giá $150$ đồng.\nChi phí hạt sáp cho 1 bộ: $133,97\\cdot 150\\approx 20\\,095,5$ (đồng).\nChi phí hạt sáp cho 500 bộ: $500\\cdot 20\\,095,5\\approx 10\\,047\\,750$ (đồng).\nVậy chi phí tiền mua hạt sáp màu để sản xuất 500 bộ quà tặng là $10\\,047\\,750$ đồng.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "10047750"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Cây lớp 9 không có mã bài toán chuyển động lập phương trình một ẩn; gán mã gần nhất L9.C1.B5.D01 (chuyển động). Lời giải chỉ lập một phương trình theo $t$, không lập hệ phương trình."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Hai xe máy cùng xuất phát từ thành phố $A$ đến thành phố $B$. Tốc độ của xe thứ nhất gấp 1,2 lần tốc độ xe thứ hai. Sau khi đi được 30 phút, xe thứ nhất gặp sự cố nên phải giảm tốc độ xuống chỉ còn bằng một nửa tốc độ của xe thứ hai để tiếp tục hành trình. Biết rằng hai xe đến $B$ cùng một lúc. Hỏi thời gian xe thứ hai đi từ $A$ đến $B$ là bao nhiêu phút? (Giả sử tốc độ các xe không đổi trên từng chặng).",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B5.D01",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm thời gian xe thứ hai đi từ $A$ đến $B$ (tính theo phút).",
+     "explanation": "Gọi vận tốc xe thứ hai là $v$ (km/h) và thời gian xe thứ hai đi từ $A$ đến $B$ là $t$ (giờ), $t>\\frac{1}{2}$.\nKhi đó quãng đường $AB$ là $S=vt$.\nXe thứ nhất đi 30 phút đầu với vận tốc $1,2v$ nên đi được quãng đường $S_1=1,2v\\cdot\\frac{1}{2}=0,6v$.\nThời gian còn lại của xe thứ nhất là $t-\\frac{1}{2}$ (giờ), khi đó vận tốc chỉ còn bằng một nửa vận tốc xe thứ hai nên bằng $\\frac{v}{2}$.\nQuãng đường còn lại xe thứ nhất đi được là $S_2=\\frac{v}{2}\\left(t-\\frac{1}{2}\\right)$.\nVì hai xe đến $B$ cùng một lúc nên xe thứ nhất cũng đi quãng đường $AB$ trong thời gian $t$ giờ, do đó $S=S_1+S_2$.\nSuy ra $vt=0,6v+\\frac{v}{2}\\left(t-\\frac{1}{2}\\right)$.\nChia hai vế cho $v\\neq 0$: $t=0,6+\\frac{1}{2}\\left(t-\\frac{1}{2}\\right)$.\n$t=0,6+\\frac{t}{2}-\\frac{1}{4}$.\n$t-\\frac{t}{2}=0,35$.\n$\\frac{t}{2}=0,35$.\n$t=0,70$ (giờ).\nĐổi ra phút: $0,70\\cdot 60=42$ (phút).\nVậy thời gian xe thứ hai đi từ $A$ đến $B$ là 42 phút.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "42"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O; 5\\text{ cm})$; các đường cao $AD, BE$ cắt nhau tại $H$. Kẻ đường kính $AK$ của đường tròn $(O)$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh $AC \\perp KC$ và $\\triangle ABD$ đồng dạng $\\triangle AKC$.",
+     "explanation": "Ta có $\\widehat{ACK}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AK$).\nSuy ra $AC \\perp KC$.\nXét $\\triangle ABD$ và $\\triangle AKC$ có:\n$\\widehat{ADB}=\\widehat{ACK}=90^\\circ$.\n$\\widehat{ABD}=\\widehat{AKC}$ (hai góc nội tiếp cùng chắn cung $AC$).\nSuy ra $\\triangle ABD \\backsim \\triangle AKC$ (g-g).",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh tứ giác $CDHE$ nội tiếp và $AH \\cdot AD = AE \\cdot AC$.",
+     "explanation": "$\\triangle HDC$ vuông tại $D$ ($AD$ là đường cao) suy ra $\\triangle HDC$ nội tiếp đường tròn đường kính $HC$.\n$\\triangle HEC$ vuông tại $E$ ($BE$ là đường cao) suy ra $\\triangle HEC$ nội tiếp đường tròn đường kính $HC$.\nTừ đó suy ra 4 điểm $H, D, C, E$ cùng thuộc một đường tròn đường kính $HC$.\nSuy ra tứ giác $CDHE$ nội tiếp.\nXét $\\triangle AHE$ và $\\triangle ACD$ có:\n$\\widehat{DAC}$ là góc chung.\n$\\widehat{AEH}=\\widehat{ADC}=90^\\circ$.\nSuy ra $\\triangle AHE \\backsim \\triangle ACD$ (g-g).\n$\\Rightarrow \\frac{AH}{AC}=\\frac{AE}{AD}\\Rightarrow AH\\cdot AD=AE\\cdot AC$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Giả sử $BC=8\\text{ cm}$, tính độ dài $AH$.",
+     "explanation": "Kẻ $OM \\perp BC$ tại $M$.\nTa có $OB=OC=R$ suy ra $\\triangle OBC$ cân tại $O$.\nMà $OM$ là đường cao nên $OM$ là đường trung tuyến của $\\triangle OBC$.\nSuy ra $M$ là trung điểm của $BC$.\n$\\Rightarrow BM=MC=\\frac{BC}{2}=\\frac{8}{2}=4$ cm.\n$\\triangle OMC$ vuông tại $M$ ($OM \\perp BC$).\n$OM^2=OC^2-MC^2$ (định lý Pythagore).\n$OM^2=5^2-4^2=25-16=9$.\n$\\Rightarrow OM=3$ cm.\nTa có $\\widehat{ABK}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AK$), suy ra $BK \\perp AB$.\nMà $CH \\perp AB$ (vì $H$ là trực tâm của $\\triangle ABC$), suy ra $CH // BK$.\n$CK \\perp AC$ (chứng minh trên) và $BH \\perp AC$ (vì $BE$ là đường cao), suy ra $BH // CK$.\nTứ giác $BHCK$ có $BH // CK$ và $CH // BK$ nên $BHCK$ là hình bình hành.\nMà $M$ là trung điểm của $BC$ (chứng minh trên) nên $M$ là trung điểm của $HK$.\nXét $\\triangle AHK$ có $O$ là trung điểm của $AK$ và $M$ là trung điểm của $HK$.\n$\\Rightarrow OM$ là đường trung bình của $\\triangle AHK$.\n$\\Rightarrow AH=2\\cdot OM=2\\cdot 3=6$ cm.\nVậy độ dài đoạn thẳng $AH$ là $6$ cm.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$AH=6\\text{ cm}$",
+      "$AH=3\\text{ cm}$",
+      "$AH=8\\text{ cm}$",
+      "$AH=4\\text{ cm}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
