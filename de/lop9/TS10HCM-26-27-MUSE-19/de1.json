@@ -1,0 +1,381 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 7 – Đề số 19 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 19,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{1}{2}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị hàm số đã cho trên mặt phẳng tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=8$; với $x=-2$ thì $y=2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=2$; với $x=4$ thì $y=8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-4;8)$, $(-2;2)$, $(0;0)$, $(2;2)$, $(4;8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm $A$ (khác gốc tọa độ) thuộc $(P)$ có tung độ gấp đôi hoành độ.",
+     "explanation": "Vì điểm $A$ có tung độ gấp đôi hoành độ nên $y=2x$.\nTa có phương trình $\\frac{1}{2}x^2=2x$.\n$\\frac{1}{2}x^2-2x=0$.\n$x=0$ hoặc $x=4$.\nVì điểm $A$ khác gốc tọa độ nên $x\\neq 0$, suy ra $x=4$.\nVới $x=4$ suy ra $y=8$.\nVậy tọa độ điểm cần tìm là $A(4;8)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(4;8)$",
+      "$(0;0)$",
+      "$(2;4)$",
+      "$(-4;-8)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $2x^2-4x+1=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng tỏ phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có phương trình $2x^2-4x+1=0$ với $a=2$; $b=-4$; $c=1$.\nTa có $\\Delta=b^2-4ac=(-4)^2-4\\cdot 2\\cdot 1=16-8=8>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính $A=\\frac{x_1-2x_2}{x_1}-\\frac{2x_1-x_2}{x_2}$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{-(-4)}{2}=2$; $x_1x_2=\\frac{c}{a}=\\frac{1}{2}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=2^2-2\\cdot\\frac{1}{2}=3$.\nBiến đổi biểu thức $A$:\n$A=\\frac{x_2(x_1-2x_2)-x_1(2x_1-x_2)}{x_1x_2}$\n$A=\\frac{x_1x_2-2x_2^2-2x_1^2+x_1x_2}{x_1x_2}$\n$A=\\frac{2x_1x_2-2(x_1^2+x_2^2)}{x_1x_2}$\n$A=\\frac{2\\cdot\\frac{1}{2}-2\\cdot 3}{\\frac{1}{2}}=-10$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-10"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 3",
+   "question": "Có một số trẻ chăn trâu trên một cánh đồng. Nếu mỗi trẻ cưỡi $1$ con trâu thì có $1$ trẻ không có trâu cưỡi. Nếu hai trẻ cưỡi $1$ con trâu thì có $1$ trâu không có trẻ cưỡi. Hỏi có bao nhiêu trẻ chăn trâu và bao nhiêu con trâu?",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Có bao nhiêu trẻ chăn trâu và bao nhiêu con trâu?",
+     "explanation": "Gọi $x$ (trẻ) là số trẻ chăn trâu, $y$ (con) là số con trâu ($x,y\\in\\mathbb{N}^*$).\nVì nếu mỗi trẻ cưỡi $1$ con trâu thì có $1$ trẻ không có trâu cưỡi nên số trẻ nhiều hơn số trâu là $1$, ta có phương trình:\n$x-y=1$ (1)\nVì nếu hai trẻ cưỡi $1$ con trâu thì có $1$ trâu không có trẻ cưỡi (tức là thừa $1$ con trâu), nên số trâu dùng để cưỡi là $y-1$. Khi đó số trẻ cưỡi hết số trâu đó là $2(y-1)$, ta có phương trình:\n$x=2(y-1)\\Rightarrow x-2y=-2$ (2)\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases}x-y=1\\\\x-2y=-2\\end{cases}\\Rightarrow \\begin{cases}x=4\\\\y=3\\end{cases}$\nVậy có $4$ trẻ chăn trâu và $3$ con trâu.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Số trẻ chăn trâu: {{1}} (trẻ)",
+       "Số con trâu: {{2}} (con)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Ông Quốc có một mảnh đất hình chữ nhật có chiều rộng là $8$ m và chiều dài là $20$ m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Quốc và thu hồi một phần đất của ông Quốc (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ dưới (phần tô đậm).[[IMG:b4-khu-vuon.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $T$ (thu gọn) biểu thị diện tích đất bị thu hồi của nhà ông Quốc theo biến $x$ (với $0<x<8$).",
+     "explanation": "Quan sát hình vẽ, phần đất bị thu hồi là hình tam giác vuông tại góc trên bên phải của mảnh đất hình chữ nhật.\nĐộ dài cạnh góc vuông thứ nhất (nằm trên chiều dài) là: $20-2x$ (m).\nĐộ dài cạnh góc vuông thứ hai (nằm trên chiều rộng) là: $8-x$ (m).\nDiện tích đất bị thu hồi là:\n$T=\\frac{1}{2}(20-2x)(8-x)$\n$T=(10-x)(8-x)$\n$T=80-10x-8x+x^2$\n$T=x^2-18x+80$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$T={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x^2-18x+80"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Ông Quốc được đền bù số tiền $455$ triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị $x$ (m) biết giá đền bù đất bị thu hồi là $13$ triệu đồng/m$^2$.",
+     "explanation": "Diện tích đất bị thu hồi thực tế là:\n$S=455:13=35$ (m$^2$).\nTa có phương trình:\n$x^2-18x+80=35$\n$x^2-18x+45=0$\n$x_1=15$; $x_2=3$.\nVì $0<x<8$ nên loại $x=15$, nhận $x=3$.\nVậy giá trị cần tìm là $x=3$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "3"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một xe bồn chở nước sạch cho một khu chung cư có $200$ hộ dân. Bồn xe có kích thước như hình vẽ, mỗi đầu của bồn xe là $1$ nửa hình cầu. Xe chở đầy bồn nước và lượng nước chia đều cho từng hộ dân. Tính xem mỗi hộ dân được nhận bao nhiêu lít nước sạch (làm tròn kết quả đến hàng phần chục).[[IMG:b5-bon-nuoc.png]](Biết công thức thể tích hình trụ $V=\\pi R^2h$ và công thức thể tích hình cầu $V=\\frac{4}{3}\\pi R^3$ với $\\pi\\approx 3,14$).",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính xem mỗi hộ dân được nhận bao nhiêu lít nước sạch (làm tròn kết quả đến hàng phần chục).",
+     "explanation": "Đường kính của hình trụ là $1,8$ m nên bán kính đáy là $R=1,8:2=0,9$ (m).\nChiều cao của phần hình trụ là $h=3,62-2\\cdot 0,9=1,82$ (m).\nThể tích của bồn chứa nước là:\n$V=\\pi R^2h+\\frac{4}{3}\\pi R^3$\n$V=3,14\\cdot 0,9^2\\cdot 1,82+\\frac{4}{3}\\cdot 3,14\\cdot 0,9^3$\n$V=7,681068$ (m$^3$).\nĐổi $7,681068$ m$^3=7681,068$ lít.\nSố lít nước sạch mỗi hộ dân nhận được là:\n$7681,068:200=38,40534$ (lít).\nLàm tròn kết quả đến hàng phần chục: $38,40534\\approx 38,4$ (lít).\nVậy mỗi hộ dân nhận được khoảng $38,4$ lít nước sạch.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "38,4"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý a của đề gốc hỏi hai ý (tổng số học sinh và khối chênh lệch nhiều nhất); bản soạn tách ý a thành ý a (điền đáp số tổng số học sinh, 0,5 điểm) và ý b (trắc nghiệm khối chênh lệch nhiều nhất, 0,5 điểm), ý b của đề gốc thành ý c (0,5 điểm). Tổng điểm Bài 6 vẫn là 1,5 điểm."
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 6",
+   "question": "Biểu đồ cột kép dưới đây biểu diễn số lượng học sinh tham gia “Ngày hội xanh” của một trường THCS.[[IMG:b6-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy cho biết tổng số học sinh tham gia là bao nhiêu?",
+     "explanation": "Dựa vào biểu đồ, ta thống kê số lượng học sinh nam và nữ của từng khối như sau:\nKhối 6: $6$ nam, $8$ nữ. Tổng cộng: $6+8=14$ (học sinh).\nKhối 7: $9$ nam, $7$ nữ. Tổng cộng: $9+7=16$ (học sinh).\nKhối 8: $8$ nam, $9$ nữ. Tổng cộng: $8+9=17$ (học sinh).\nKhối 9: $8$ nam, $7$ nữ. Tổng cộng: $8+7=15$ (học sinh).\nTổng số học sinh tham gia là: $14+16+17+15=62$ (học sinh).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "62"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Khối lớp mấy có sự chênh lệch nhiều nhất về số học sinh nam và số học sinh nữ tham gia “Ngày hội xanh”?",
+     "explanation": "Chênh lệch từng khối: Khối 6: $8-6=2$; Khối 7: $9-7=2$; Khối 8: $9-8=1$; Khối 9: $8-7=1$.\nTa thấy khối 6 và khối 7 đều có mức chênh lệch cao nhất là $2$ học sinh.\nVậy khối lớp có sự chênh lệch nhiều nhất về số học sinh nam và nữ là Khối 6 và Khối 7.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Khối 6 và Khối 7",
+      "Khối 6",
+      "Khối 7",
+      "Khối 8 và Khối 9"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Một chiếc hộp chứa $40$ thẻ thăm cùng hình dạng và kích thước. Các thẻ thăm được ghi số lần lượt từ $1$ đến $40$; hai thẻ thăm khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên $1$ thẻ thăm trong hộp. Tính xác suất của mỗi biến cố sau:\n$A$: “Số xuất hiện trên thẻ thăm lớn hơn $30$”.\n$B$: “Số xuất hiện trên thẻ thăm là số chẵn nhỏ hơn $30$”.",
+     "explanation": "Vì hộp chứa $40$ thẻ thăm ghi số từ $1$ đến $40$ nên có $40$ khả năng xảy ra khi rút $1$ thẻ. Suy ra $n(\\Omega)=40$.\nBiến cố $A$: “Số xuất hiện trên thẻ thăm lớn hơn $30$”.\nCác số ghi trên thẻ lớn hơn $30$ là: $31;32;33;\\dots;40$.\nSố kết quả thuận lợi là: $40-31+1=10$ (kết quả). Suy ra $n(A)=10$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{10}{40}=\\frac{1}{4}$.\nBiến cố $B$: “Số xuất hiện trên thẻ thăm là số chẵn nhỏ hơn $30$”.\nCác số chẵn nhỏ hơn $30$ là: $2;4;6;\\dots;28$.\nSố kết quả thuận lợi là: $\\frac{28-2}{2}+1=14$ (kết quả). Suy ra $n(B)=14$.\nXác suất của biến cố $B$ là: $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{14}{40}=\\frac{7}{20}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "7/20"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc ở ý b viết “$OM$ là trung trực của $BC$” (dòng đầu của chứng minh $OM//BC$); đây là lỗi viết nhầm, vì $MA=MB$ và $OA=OB$ suy ra $OM$ là trung trực của $AB$ (chính lời giải gốc cũng viết “$OM$ là trung trực của $AB$” ở hai dòng sau). Bản soạn đã sửa thành “trung trực của $AB$”; kết luận $OM\\perp AB$, $OM//BC$ và toàn bộ chứng minh không đổi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm $M$ nằm ngoài $(O;R)$, vẽ hai tiếp tuyến $MA$, $MB$ của $(O)$ ($A$, $B$ là các tiếp điểm). Gọi $H$ là giao điểm của $MO$ và $AB$, vẽ đường kính $AC$.[[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh bốn điểm $M$, $A$, $O$, $B$ cùng thuộc một đường tròn và xác định tâm $I$ của đường tròn này.",
+     "explanation": "Xét $(O)$ có $MA$ là tiếp tuyến tại $A$ nên $MA\\perp OA$ tại $A$.\n$\\triangle MAO$ vuông tại $A$ nên nội tiếp đường tròn đường kính $MO$ (1).\nXét $(O)$ có $MB$ là tiếp tuyến tại $B$ nên $MB\\perp OB$ tại $B$.\n$\\triangle MBO$ vuông tại $B$ nên nội tiếp đường tròn đường kính $MO$ (2).\nTừ (1) và (2) suy ra $4$ điểm $M$, $A$, $O$, $B$ cùng thuộc một đường tròn đường kính $MO$.\nTâm $I$ của đường tròn này là trung điểm của $MO$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $OM//BC$ và $AM\\cdot AC=OM\\cdot AB$.",
+     "explanation": "Ta có $\\begin{cases}MA=MB\\text{ (tính chất 2 tiếp tuyến cắt nhau)}\\\\OA=OB=R\\end{cases}$\n$\\Rightarrow OM$ là trung trực của $AB$.\n$\\Rightarrow OM\\perp AB$ tại $H$.\n$\\widehat{ABC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AC$).\n$\\Rightarrow BC\\perp AB$.\nTa có $\\begin{cases}OM\\perp AB\\\\BC\\perp AB\\end{cases}\\Rightarrow OM//BC$.\nVì $OM$ là trung trực của $AB$ nên $H$ là trung điểm $AB$ $\\Rightarrow AB=2AH$.\nVì $AC$ là đường kính của $(O)$ nên $O$ là trung điểm $AC$ $\\Rightarrow AC=2AO$.\nXét $\\triangle MAO$ và $\\triangle AHO$:\n$\\begin{cases}\\widehat{AOM}\\text{ (góc chung)}\\\\\\widehat{MAO}=\\widehat{AHO}=90^\\circ\\end{cases}$\n$\\Rightarrow\\triangle MAO\\backsim\\triangle AHO$ (g-g).\n$\\Rightarrow\\frac{MA}{AH}=\\frac{MO}{AO}\\Rightarrow MA\\cdot AO=MO\\cdot AH$.\n$\\Rightarrow MA\\cdot(2AO)=MO\\cdot(2AH)$.\n$\\Rightarrow MA\\cdot AC=OM\\cdot AB$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Cho $OM=2R$. Tính diện tích phần chung của hai đường tròn $(O)$ và $(I)$. (Chọn đáp án đúng.)",
+     "explanation": "$\\triangle MAO$ vuông tại $A$ có $OM=2R$, $OA=R$.\n$\\cos\\widehat{AOM}=\\frac{OA}{OM}=\\frac{R}{2R}=\\frac{1}{2}$.\nSuy ra $\\widehat{AOM}=60^\\circ$.\nXét $\\triangle MAO$ và $\\triangle MBO$:\n$\\begin{cases}OA=OB=R\\\\MA=MB\\\\OM\\text{ chung}\\end{cases}$\n$\\Rightarrow\\triangle MAO=\\triangle MBO$ (c-c-c).\n$\\Rightarrow\\widehat{AOM}=\\widehat{BOM}=60^\\circ$.\n$\\Rightarrow\\widehat{AOB}=120^\\circ$.\nĐường tròn $(I)$ ngoại tiếp tứ giác $MAOB$ có đường kính $MO=2R$ nên bán kính $R_{(I)}=R$.\nVì $(O)$ và $(I)$ có cùng bán kính $R$ và khoảng cách tâm $OI=R$ (do $I$ là trung điểm $MO$), nên hai đường tròn cắt nhau tại $A$ và $B$.\nDiện tích phần chung là tổng diện tích hai hình viên phân cung $AB$ bằng nhau.\nDiện tích hình quạt $OAB$ của đường tròn $(O)$ là:\n$S_q=\\frac{\\pi R^2\\cdot 120}{360}=\\frac{\\pi R^2}{3}$.\nTrong $\\triangle AOH$ vuông tại $H$:\n$OH=OA\\cdot\\cos 60^\\circ=\\frac{R}{2}$.\n$AH=OA\\cdot\\sin 60^\\circ=\\frac{R\\sqrt{3}}{2}\\Rightarrow AB=2AH=R\\sqrt{3}$.\nDiện tích tam giác $OAB$ là:\n$S_{\\triangle OAB}=\\frac{1}{2}AB\\cdot OH=\\frac{1}{2}\\cdot R\\sqrt{3}\\cdot\\frac{R}{2}=\\frac{R^2\\sqrt{3}}{4}$.\nDiện tích một hình viên phân giới hạn bởi dây $AB$ và cung nhỏ $AB$ là:\n$S_{vp}=S_q-S_{\\triangle OAB}=\\frac{\\pi R^2}{3}-\\frac{R^2\\sqrt{3}}{4}$.\nDiện tích phần chung của hai đường tròn là:\n$S=2\\cdot S_{vp}=2\\left(\\frac{\\pi R^2}{3}-\\frac{R^2\\sqrt{3}}{4}\\right)=\\frac{2\\pi R^2}{3}-\\frac{R^2\\sqrt{3}}{2}$.\nVậy diện tích phần chung là $R^2\\left(\\frac{2\\pi}{3}-\\frac{\\sqrt{3}}{2}\\right)$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$R^2\\left(\\frac{2\\pi}{3}-\\frac{\\sqrt{3}}{2}\\right)$",
+      "$R^2\\left(\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{4}\\right)$",
+      "$R^2\\left(\\frac{2\\pi}{3}-\\frac{\\sqrt{3}}{4}\\right)$",
+      "$R^2\\left(\\frac{\\pi}{3}-\\frac{\\sqrt{3}}{2}\\right)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ]
+}
