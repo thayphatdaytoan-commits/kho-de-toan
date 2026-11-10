@@ -1,0 +1,364 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 6 – Đề số 17 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 17,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=2x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=8$; với $x=-1$ thì $y=2$; với $x=0$ thì $y=0$; với $x=1$ thì $y=2$; với $x=2$ thì $y=8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-2;8)$, $(-1;2)$, $(1;2)$, $(2;8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = 2x^2",
+        "kind": "quad",
+        "a": 2,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm thuộc $(P)$ khác gốc tọa độ có tung độ và hoành độ là hai số đối nhau.",
+     "explanation": "Vì điểm cần tìm có tung độ và hoành độ là hai số đối nhau nên $y=-x$.\nThay vào phương trình của $(P)$: $-x=2x^2$.\n$2x^2+x=0$.\n$x=0$ hoặc $x=-\\frac{1}{2}$.\nVì điểm cần tìm khác gốc tọa độ nên loại $x=0$, nhận $x=-\\frac{1}{2}$.\nVới $x=-\\frac{1}{2}$ suy ra $y=-\\left(-\\frac{1}{2}\\right)=\\frac{1}{2}$.\nVậy tọa độ điểm cần tìm là $\\left(-\\frac{1}{2};\\frac{1}{2}\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\left(-\\frac{1}{2};\\frac{1}{2}\\right)$",
+      "$\\left(\\frac{1}{2};-\\frac{1}{2}\\right)$",
+      "$(-1;1)$",
+      "$(1;-1)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2+5x-6=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có phương trình $3x^2+5x-6=0$,\n($a=3$; $b=5$; $c=-6$).\nTa có $\\Delta=b^2-4ac=5^2-4\\cdot 3\\cdot(-6)=25+72=97>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $A=x_1^2+x_2^2-\\frac{1}{x_1}-\\frac{1}{x_2}$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{-5}{3}$; $x_1x_2=\\frac{c}{a}=\\frac{-6}{3}=-2$.\n$x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{-5}{3}\\right)^2-2(-2)=\\frac{25}{9}+4=\\frac{61}{9}$.\nTa có $A=x_1^2+x_2^2-\\frac{1}{x_1}-\\frac{1}{x_2}$\n$A=(x_1^2+x_2^2)-\\left(\\frac{1}{x_1}+\\frac{1}{x_2}\\right)$\n$A=(x_1^2+x_2^2)-\\frac{x_1+x_2}{x_1x_2}$\n$A=\\frac{61}{9}-\\frac{\\frac{-5}{3}}{-2}=\\frac{61}{9}-\\frac{5}{6}=\\frac{107}{18}$.\nVậy $A=\\frac{107}{18}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "107/18|5,94"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Bảng số liệu dưới đây cho biết giá cả và lượng tiêu thụ của các loại xăng dầu trong một năm.\nLoại xăng | Giá (VNĐ/lít) | Lượng tiêu thụ (lít/năm)\nA95 | 25 100 | 3 500\nA92 | 23 700 | 4 000\nDiesel | 22 450 | 1 200\nE5 (xăng sinh học) | 24 500 | 1 000\nE10 (xăng sinh học) | 24 850 | 800",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy cho biết doanh thu của từng loại xăng và xác định loại xăng có doanh thu cao nhất.",
+     "explanation": "Doanh thu của từng loại xăng là:\nA95: $25\\,100\\cdot 3\\,500=87\\,850\\,000$ (VNĐ).\nA92: $23\\,700\\cdot 4\\,000=94\\,800\\,000$ (VNĐ).\nDiesel: $22\\,450\\cdot 1\\,200=26\\,940\\,000$ (VNĐ).\nE5: $24\\,500\\cdot 1\\,000=24\\,500\\,000$ (VNĐ).\nE10: $24\\,850\\cdot 800=19\\,880\\,000$ (VNĐ).\nSo sánh doanh thu các loại xăng, ta thấy xăng A92 có doanh thu cao nhất ($94\\,800\\,000$ VNĐ).\nVậy loại xăng có doanh thu cao nhất là A92.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "A95",
+      "A92",
+      "Diesel",
+      "E5",
+      "E10"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta chọn ngẫu nhiên một loại xăng trong danh sách trên, với xác suất tỉ lệ thuận với lượng tiêu thụ của từng loại. Hãy tính xác suất của các biến cố sau:\nA: “Xăng được chọn là xăng A95”.\nB: “Xăng được chọn là xăng sinh học”.\nC: “Xăng được chọn có giá không thấp hơn 24 500 VNĐ/lít”.",
+     "explanation": "Tổng lượng tiêu thụ của tất cả các loại xăng là:\n$n(\\Omega)=3\\,500+4\\,000+1\\,200+1\\,000+800=10\\,500$ (lít).\nBiến cố $A$: “Xăng được chọn là xăng A95”.\nLượng tiêu thụ xăng A95 là $3\\,500$ lít.\n$P(A)=\\frac{3\\,500}{10\\,500}=\\frac{1}{3}$.\nBiến cố $B$: “Xăng được chọn là xăng sinh học”.\nCác loại xăng sinh học gồm E5 và E10.\nLượng tiêu thụ xăng sinh học là: $1\\,000+800=1\\,800$ (lít).\n$P(B)=\\frac{1\\,800}{10\\,500}=\\frac{6}{35}$.\nBiến cố $C$: “Xăng được chọn có giá không thấp hơn 24 500 VNĐ/lít”.\nCác loại xăng có giá từ 24 500 VNĐ trở lên gồm: A95 ($25\\,100$), E5 ($24\\,500$), E10 ($24\\,850$).\nTổng lượng tiêu thụ các loại này là: $3\\,500+1\\,000+800=5\\,300$ (lít).\n$P(C)=\\frac{5\\,300}{10\\,500}=\\frac{53}{105}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$",
+       "$P(C)={{3}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6/35"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "53/105"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc lấy $\\pi\\approx 3,14$ (ghi rõ trong lời giải); bản soạn theo đúng $\\pi\\approx 3,14$ như lời giải gốc: $V_{\\text{nón}}\\approx 56,52$ ml."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Thầy dạy môn Hóa sử dụng một ống nghiệm hình trụ đang chứa dung dịch Copper (II) Sulfate ($\\text{CuSO}_4$) có thể tích $67$ ml. Đổ toàn bộ lượng chất lỏng có trong ống nghiệm vào trong một cốc phễu hình nón (Xem hình vẽ) có bán kính mặt đáy là $3$ cm, và cao $6$ cm tính từ mặt đáy đến đỉnh hình nón. [[IMG:b4-pheu.png]]\nQuang và Thái đã phát biểu ý kiến của mình với thầy như sau:\n✓ Bạn Quang cho rằng: Phễu sẽ đủ lớn để chứa được toàn bộ nước trong ống nghiệm hình trụ đổ qua.\n✓ Bạn Thái cho rằng: Phễu không đủ lớn để chứa nước trong ống nghiệm hình trụ đổ qua và sẽ bị tràn ra ngoài.\nBằng các phép tính, em hãy cho biết bạn nào đã trả lời đúng? Biết công thức tính thể tích hình nón: $V=\\frac{1}{3}\\pi R^2\\cdot h$, với $R$ là bán kính hình tròn đáy, $h$ là chiều cao hình nón.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C9.B2.D05",
+   "dang_toan_web": "Hình nón: Diện tích xung quanh và Thể tích.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Bạn nào đã trả lời đúng?",
+     "explanation": "Thể tích tối đa của chiếc phễu hình nón là:\n$V_{\\text{nón}}=\\frac{1}{3}\\pi R^2h=\\frac{1}{3}\\pi\\cdot 3^2\\cdot 6=18\\pi$ (cm$^3$).\nLấy $\\pi\\approx 3,14$, ta có $V_{\\text{nón}}\\approx 18\\cdot 3,14=56,52$ (cm$^3$) $=56,52$ (ml).\nThể tích lượng chất lỏng trong ống nghiệm là $V_{\\text{lỏng}}=67$ ml.\nVì $56,52<67$ nên $V_{\\text{nón}}<V_{\\text{lỏng}}$.\nVậy phễu không đủ lớn để chứa hết nước và sẽ bị tràn ra ngoài. Do đó, bạn Thái đã trả lời đúng.\nKết luận: Bạn Thái đúng.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "Bạn Quang đã trả lời đúng",
+      "Bạn Thái đã trả lời đúng"
+     ],
+     "correctAnswer": 1
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một người dự định trồng $126$ cây theo thời gian định trước. Nhưng do thời tiết xấu nên mỗi ngày trồng được ít hơn $5$ cây, vì thế khi trồng xong chậm mất $5$ ngày so với dự kiến. Hỏi thực tế mỗi ngày người đó trồng được bao nhiêu cây?",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C6.B4.D02",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Thực tế mỗi ngày người đó trồng được bao nhiêu cây?",
+     "explanation": "Gọi $x$ (cây) là số cây thực tế người đó trồng được mỗi ngày ($x\\in\\mathbb{N}^*$).\nVì thực tế trồng ít hơn dự định $5$ cây nên số cây dự định trồng mỗi ngày là $x+5$ (cây).\nThời gian thực tế để trồng xong $126$ cây là $\\frac{126}{x}$ (ngày).\nThời gian dự định để trồng xong $126$ cây là $\\frac{126}{x+5}$ (ngày).\nVì thời gian thực tế chậm hơn dự định $5$ ngày nên ta có phương trình:\n$\\frac{126}{x}-\\frac{126}{x+5}=5$\n$126(x+5)-126x=5x(x+5)$\n$126x+630-126x=5x^2+25x$\n$5x^2+25x-630=0$\n$x^2+5x-126=0$\n$x=9$ hoặc $x=-14$.\nVì $x>0$ nên nhận $x=9$, loại $x=-14$.\nVậy thực tế mỗi ngày người đó trồng được $9$ cây.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "9"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Cây lớp 9 không có mã cho bài toán lập phương trình một ẩn; phương trình ở đây thực chất là bậc nhất ($3,64x=91$). Gán mã gần nhất L9.C6.B4.D04 (bài toán số học, phần trăm lập phương trình bậc hai) theo tiền lệ Đề 6 (câu C4 dùng L9.C6.B4.D03 dù phương trình là bậc nhất)."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Một kho hàng nhập gạo (trong kho chưa có gạo) trong $4$ ngày liên tiếp và mỗi ngày (từ ngày thứ hai) đều nhập một lượng gạo bằng $120\\%$ lượng gạo đã nhập vào kho trong ngày trước đó. Biết rằng ngày thứ $3$, sau khi nhập xong thì trong kho có tất cả $91$ tấn gạo.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C6.B4.D04",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính lượng gạo kho hàng nhập ngày thứ nhất.",
+     "explanation": "Gọi $x$ (tấn) là lượng gạo nhập vào ngày thứ nhất ($x>0$).\nLượng gạo nhập vào ngày thứ hai là $120\\%\\cdot x=1,2x$ (tấn).\nLượng gạo nhập vào ngày thứ ba là $120\\%\\cdot 1,2x=1,44x$ (tấn).\nTổng lượng gạo trong kho sau ngày thứ ba là $91$ tấn, ta có phương trình:\n$x+1,2x+1,44x=91$\n$3,64x=91$\n$x=25$ (nhận).\nVậy lượng gạo nhập ngày thứ nhất là $25$ tấn.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "25"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau đó, vào ngày thứ $5$, kho ngừng nhập và xuất một lượng gạo bằng $a\\%$ lượng gạo có trong kho. Hỏi giá trị $a$ nằm trong khoảng nào (làm tròn kết quả đến hàng đơn vị) để lượng gạo còn lại trong kho nằm trong khoảng từ $74$ tấn đến $94$ tấn?",
+     "explanation": "Lượng gạo nhập vào ngày thứ tư là $1,2\\cdot 1,44x=1,728\\cdot 25=43,2$ (tấn).\nTổng lượng gạo có trong kho sau $4$ ngày là $91+43,2=134,2$ (tấn).\nLượng gạo xuất đi trong ngày thứ $5$ là $134,2\\cdot a\\%=1,342a$ (tấn).\nLượng gạo còn lại trong kho là $134,2-1,342a$ (tấn).\nTheo đề bài, lượng gạo còn lại nằm trong khoảng từ $74$ đến $94$ tấn nên:\n$74\\le 134,2-1,342a\\le 94$\n$-60,2\\le -1,342a\\le -40,2$\n$\\frac{60,2}{1,342}\\ge a\\ge\\frac{40,2}{1,342}$\n$44,858\\ldots\\ge a\\ge 29,955\\ldots$\nLàm tròn kết quả đến hàng đơn vị, ta được $30\\le a\\le 45$.\nVậy giá trị $a$ nằm trong khoảng từ $30$ đến $45$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$a$ nằm trong khoảng từ {{1}} đến {{2}}"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "30"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "45"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn $(O;R)$. Lấy điểm $A$ nằm ngoài $(O)$ sao cho $OA=2R$. Từ $A$ vẽ hai tiếp tuyến $AB$, $AC$ với $(O)$ ($B$, $C$ là hai tiếp điểm). Vẽ cát tuyến qua $A$ cắt đường tròn $(O)$ tại $D$ và $E$ ($O$ nằm trong $\\widehat{BAE}$; $D$ nằm giữa $A$ và $E$). Vẽ $OI$ vuông góc với $DE$ tại $I$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: $5$ điểm $A$, $B$, $O$, $I$, $C$ cùng thuộc một đường tròn. Xác định tâm $K$ và bán kính của đường tròn này.",
+     "explanation": "Ta có $\\triangle ABO$ vuông tại $B$ (vì $AB$ là tiếp tuyến của $(O)$ tại $B$).\nSuy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$. $(1)$\nTa có $\\triangle ACO$ vuông tại $C$ (vì $AC$ là tiếp tuyến của $(O)$ tại $C$).\nSuy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$. $(2)$\nTa có $\\triangle AIO$ vuông tại $I$ (vì $OI\\perp DE$ tại $I$).\nSuy ra $\\triangle AIO$ nội tiếp đường tròn đường kính $AO$. $(3)$\nTừ $(1)$, $(2)$ và $(3)$ suy ra $5$ điểm $A$, $B$, $O$, $I$, $C$ cùng thuộc đường tròn đường kính $AO$.\nTâm $K$ là trung điểm của $AO$.\nBán kính là $\\frac{OA}{2}=\\frac{2R}{2}=R$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $AB^2=AD\\cdot AE$.",
+     "explanation": "Vẽ đường kính $BF$ của đường tròn $(O)$.\nTa có $\\triangle BDF$ nội tiếp đường tròn $(O)$ có cạnh $BF$ là đường kính.\nSuy ra $\\triangle BDF$ vuông tại $D$.\nSuy ra $\\widehat{ABD}=\\widehat{BFD}$ (cùng phụ với $\\widehat{DBF}$).\nMà $\\widehat{BFD}=\\widehat{BED}$ (hai góc nội tiếp cùng chắn cung $BD$).\nSuy ra $\\widehat{ABD}=\\widehat{BED}$ hay $\\widehat{ABD}=\\widehat{AEB}$.\nXét $\\triangle ABD$ và $\\triangle AEB$:\n$\\widehat{BAE}$ là góc chung.\n$\\widehat{ABD}=\\widehat{AEB}$ (chứng minh trên).\nSuy ra $\\triangle ABD\\backsim\\triangle AEB$ (g-g).\n$\\Rightarrow\\frac{AB}{AE}=\\frac{AD}{AB}\\Rightarrow AB^2=AD\\cdot AE$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính diện tích phần hình tròn giới hạn bởi cung nhỏ $OC$ và dây cung $OC$ của $(K)$ biết $R=5,1$ cm và $\\pi\\approx 3,14$ (làm tròn đến chữ số thập phân thứ hai).",
+     "explanation": "Theo câu a, đường tròn $(K)$ đi qua $O$ và $C$, có bán kính $R_K=R$.\nTrong $\\triangle ACO$ vuông tại $C$, ta có:\n$\\sin\\widehat{OAC}=\\frac{OC}{OA}=\\frac{R}{2R}=\\frac{1}{2}$.\nSuy ra $\\widehat{OAC}=30^\\circ$.\nXét đường tròn $(K)$, ta có $KO=KC=R_K=R$.\nMặt khác $OC=R$ (bán kính đường tròn $(O)$).\nSuy ra $KO=KC=OC=R$.\nDo đó $\\triangle KOC$ là tam giác đều $\\Rightarrow\\widehat{OKC}=60^\\circ$.\nDiện tích hình quạt tròn $KOC$ ứng với cung nhỏ $OC$ của đường tròn $(K)$ là:\n$S_{\\text{quạt}}=\\frac{\\pi\\cdot R^2\\cdot 60}{360}=\\frac{\\pi R^2}{6}$.\nDiện tích tam giác đều $KOC$ là:\n$S_{\\triangle KOC}=\\frac{R^2\\sqrt{3}}{4}$.\nDiện tích phần hình tròn cần tìm là:\n$S=S_{\\text{quạt}}-S_{\\triangle KOC}=\\frac{\\pi R^2}{6}-\\frac{R^2\\sqrt{3}}{4}=R^2\\left(\\frac{2\\pi-3\\sqrt{3}}{12}\\right)$.\nThay số $R=5,1$ cm và $\\pi\\approx 3,14$:\n$S=(5,1)^2\\cdot\\left(\\frac{3,14}{6}-\\frac{\\sqrt{3}}{4}\\right)\\approx 2,35$ cm$^2$.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "2,35"
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
