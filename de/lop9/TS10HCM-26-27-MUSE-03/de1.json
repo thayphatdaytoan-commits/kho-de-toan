@@ -1,0 +1,465 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 1 – Đề số 3 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 3,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=4$; với $x=-1$ thì $y=1$; với $x=0$ thì $y=0$; với $x=1$ thì $y=1$; với $x=2$ thì $y=4$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-2;4)$, $(-1;1)$, $(1;1)$, $(2;4)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2",
+        "kind": "quad",
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm $M$ thuộc $(P)$ có tung độ là $25$.",
+     "explanation": "Vì điểm $M$ thuộc $(P)$ có tung độ là $25$ nên $y_M=25$.\nTa có phương trình $x^2=25$, hay $x^2-25=0$.\nSuy ra $x=5$ hoặc $x=-5$.\nVới $x=5$ thì $y=25$; với $x=-5$ thì $y=25$.\nVậy các điểm cần tìm là $(5;25)$ và $(-5;25)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$({{1}};{{2}})$",
+       "$({{3}};{{4}})$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "25"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-5"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "25"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $2x^2-4x+1=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có $2x^2-4x+1=0$ với $a=2$, $b=-4$, $c=1$.\n$\\Delta=b^2-4ac=(-4)^2-4\\cdot 2\\cdot 1=16-8=8>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức:\n$A=x_1(x_1+2026)+x_2(x_2+2027)-x_2$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=2$; $x_1x_2=\\frac{c}{a}=\\frac{1}{2}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=2^2-2\\cdot\\frac{1}{2}=3$.\nBiến đổi biểu thức $A$:\n$A=x_1^2+2026x_1+x_2^2+2027x_2-x_2$\n$A=(x_1^2+x_2^2)+2026x_1+2026x_2$\n$A=(x_1^2+x_2^2)+2026(x_1+x_2)$.\nThế giá trị vào biểu thức $A$: $A=3+2026\\cdot 2=4055$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "4055"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc tính n(Omega)=2304 là sai: cộng đúng các số trên biểu đồ được 576+568+559+586=2289. Do đó P(A)=836/2289 và P(B)=2026/2289 (cả hai phân số đều tối giản), không phải 209/576 và 1013/1152 như lời giải gốc. Đã kiểm chứng bằng tính toán độc lập."
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Kết quả xếp loại học tập học kì I của học sinh trường THCS $A$ được biểu diễn trong biểu đồ cột kép dưới đây. Nhà trường chọn ra ngẫu nhiên một em học sinh để tham gia làm bài khảo sát năng lực. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Trường có bao nhiêu học sinh đạt kết quả học tập tốt ở học kì I?",
+     "explanation": "Số học sinh đạt kết quả học tập tốt ở học kì I là:\n$221+215+207+193=836$ (học sinh).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "836"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của các biến cố sau:\n$A$: “Học sinh được chọn có kết quả học tập tốt”.\n$B$: “Học sinh được chọn có kết quả học tập từ khá trở lên”.",
+     "explanation": "Số phần tử của không gian mẫu là tổng số học sinh của trường:\n$n(\\Omega)=(221+305+50)+(215+292+61)+(207+275+77)+(193+318+75)=2289$.\nXét biến cố $A$: “Học sinh được chọn có kết quả học tập tốt”.\nSố kết quả thuận lợi cho biến cố $A$ là tổng số học sinh đạt loại tốt:\n$n(A)=221+215+207+193=836$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{836}{2289}$.\nSố học sinh đạt loại khá là: $305+292+275+318=1190$.\nXét biến cố $B$: “Học sinh được chọn có kết quả học tập từ khá trở lên”.\nSố kết quả thuận lợi cho biến cố $B$ là:\n$n(B)=836+1190=2026$.\nXác suất của biến cố $B$ là: $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{2026}{2289}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "836/2289"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2026/2289"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Anh Tâm có một mảnh vườn hình vuông với diện tích bằng $81\\text{ m}^2$. Anh muốn mở rộng mảnh vườn này thành mảnh vườn hình chữ nhật sao cho các cạnh của hình chữ nhật cách các cạnh của hình vuông tương ứng các khoảng cách là $x; 2x; 3x$ như hình bên, trong đó $x>0$. [[IMG:b4-vuon.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $S$ biểu thị diện tích của mảnh vườn sau khi mở rộng theo $x$.",
+     "explanation": "Cạnh của mảnh vườn hình vuông ban đầu là $\\sqrt{81}=9$ (m).\nChiều dài của hình chữ nhật mới là: $9+x+3x=9+4x$ (m).\nChiều rộng của hình chữ nhật mới là: $9+x+2x=9+3x$ (m).\nDiện tích $S$ của mảnh vườn sau khi mở rộng là:\n$S=(9+4x)(9+3x)=12x^2+63x+81$ ($\\text{m}^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "12x^2+63x+81"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết rằng sau khi mở rộng, diện tích của mảnh vườn tăng thêm $810\\text{ m}^2$. Tìm giá trị của $x$.",
+     "explanation": "Diện tích mảnh vườn sau khi tăng thêm là: $81+810=891$ ($\\text{m}^2$).\nTa có phương trình $12x^2+63x+81=891$.\n$12x^2+63x-810=0$.\nSuy ra $x=6$ (nhận) hoặc $x=-\\frac{45}{4}$ (loại vì $x>0$).\nVậy giá trị của $x$ là $6$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một viên gạch hình hộp chữ nhật có kích thước dài $20\\text{ cm} \\times 8\\text{ cm} \\times 8\\text{ cm}$. Bên trong có bốn lỗ hình trụ bằng nhau có đường kính đáy là $2,5\\text{ cm}$. [[IMG:b5-vien-gach.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích đất sét để làm một viên gạch (Lấy $\\pi=3,14$).",
+     "explanation": "Bán kính đáy của mỗi lỗ hình trụ là $2,5:2=1,25$ (cm).\nThể tích của bốn lỗ hình trụ bên trong viên gạch là:\n$V_{lo}=4\\cdot\\pi\\cdot 1,25^2\\cdot 20=125\\pi$ ($\\text{cm}^3$).\nThể tích của khối hình hộp chữ nhật là:\n$V_{hop}=20\\cdot 8\\cdot 8=1280$ ($\\text{cm}^3$).\nThể tích đất sét cần dùng để làm viên gạch là:\n$V=1280-125\\cdot 3,14=887,5$ ($\\text{cm}^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V={{1}}$ ($\\text{cm}^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "887,5"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Bác Tư xây nhà mua $10$ thiên gạch ($1$ thiên $=1000$ viên), giá một viên là $2500$ đồng. Bác Tư đã mua dư $2\\%$ số lượng gạch cần dùng. Tính tổng số tiền Bác Tư mua gạch.",
+     "explanation": "Số lượng gạch Bác Tư đã mua là $10\\cdot 1000=10000$ (viên).\nTổng số tiền Bác Tư phải trả để mua $10$ thiên gạch là\n$10000\\cdot 2500=25000000$ (đồng).\nVậy tổng số tiền Bác Tư mua gạch là $25000000$ đồng.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "25000000"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Trong một trại nuôi tôm sú con, kỹ sư đang có hai nguồn nước mặn có nồng độ mặn khác nhau. Để có được độ mặn mong muốn kỹ sư đã thử hai tỉ lệ như sau:\nNếu lấy $200$ ml nguồn nước mặn thứ nhất pha với $300$ ml nguồn nước mặn thứ hai thì được một nguồn nước mặn mới có nồng độ mặn $27\\%$.\nNếu lấy $300$ ml nguồn nước mặn thứ nhất pha với $200$ ml nguồn nước mặn thứ hai thì được một nguồn nước mặn mới có nồng độ mặn $28\\%$.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy tính nồng độ mặn ở mỗi nguồn nước mặn ban đầu dựa trên dữ liệu pha chế $200$ ml ($27\\%$) và $300$ ml ($28\\%$).",
+     "explanation": "Gọi $x$ ($\\%$) là nồng độ mặn của nguồn nước mặn thứ nhất.\nGọi $y$ ($\\%$) là nồng độ mặn của nguồn nước mặn thứ hai.\nĐiều kiện: $x, y>0$.\nLượng muối có trong $200$ ml nguồn thứ nhất là $200\\cdot\\frac{x}{100}=2x$ (ml).\nLượng muối có trong $300$ ml nguồn thứ hai là $300\\cdot\\frac{y}{100}=3y$ (ml).\nVì pha $200$ ml nguồn một với $300$ ml nguồn hai được $500$ ml dung dịch nồng độ $27\\%$ nên ta có phương trình:\n$2x+3y=500\\cdot\\frac{27}{100}$\n$2x+3y=135$ (1).\nVì pha $300$ ml nguồn một với $200$ ml nguồn hai được $500$ ml dung dịch nồng độ $28\\%$ nên ta có phương trình:\n$3x+2y=500\\cdot\\frac{28}{100}$\n$3x+2y=140$ (2).\nTừ (1) và (2), ta có hệ phương trình:\n$\\begin{cases} 2x+3y=135 \\\\ 3x+2y=140 \\end{cases}$ $\\Rightarrow \\begin{cases} x=30 \\\\ y=25 \\end{cases}$.\nVậy nồng độ mặn nguồn thứ nhất là $30\\%$ và nguồn thứ hai là $25\\%$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x={{1}}\\%$",
+       "$y={{2}}\\%$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "30"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "25"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Mỗi hồ nuôi tôm cần $4\\text{ m}^3$ nước nồng độ $28\\%$. Hỏi thể tích nước mỗi nguồn cần dùng là bao nhiêu?",
+     "explanation": "Gọi $x$ ($\\text{m}^3$) là thể tích nước mặn nguồn một cần dùng ($30\\%$).\nGọi $y$ ($\\text{m}^3$) là thể tích nước mặn nguồn hai cần dùng ($25\\%$).\nĐiều kiện: $x, y>0$.\nVì tổng thể tích nước cần cho mỗi hồ là $4\\text{ m}^3$ nên ta có phương trình: $x+y=4$ (3).\nLượng muối có trong dung dịch mới (nồng độ $28\\%$) là $4\\cdot 28\\%=1,12$ ($\\text{m}^3$).\nVì tổng lượng muối của hai nguồn bằng lượng muối trong hồ nên ta có phương trình: $0,3x+0,25y=1,12$ (4).\nTừ (3) và (4), ta có hệ phương trình:\n$\\begin{cases} x+y=4 \\\\ 0,3x+0,25y=1,12 \\end{cases}$ $\\Rightarrow \\begin{cases} x=2,4 \\\\ y=1,6 \\end{cases}$.\nVậy thể tích nước nguồn một là $2,4\\text{ m}^3$ và nguồn hai là $1,6\\text{ m}^3$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x={{1}}$ ($\\text{m}^3$)",
+       "$y={{2}}$ ($\\text{m}^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "2,4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1,6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc câu a viết góc BDE = góc BAE (= 1/2 sđ cung BE) rồi suy ra góc BDE = góc BMN là SAI: A và D nằm khác phía dây BE nên hai góc đó bù nhau (kiểm chứng bằng tọa độ với một tam giác mẫu: góc BDE khoảng 110,4 độ, góc BAE khoảng 69,6 độ, tổng 180 độ). Kết luận DE // MN vẫn đúng; bản soạn chứng minh lại bằng góc ADE = góc ANM (đồng vị trên cát tuyến AN). Đã kiểm chứng bằng tọa độ: góc ADE = góc ANM và hệ số góc của DE và MN bằng nhau."
+    },
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc ý c viết góc CDE = góc CAE là SAI: E thuộc AC nên góc CAE = 0 độ; đúng phải là góc CDE = góc CAB (vì góc CDE = 180 độ trừ góc BDE = góc BAE = góc CAB). Kết luận DE = 1/2 AB và toàn bộ chứng minh còn lại không đổi. Lỗi này do chat Chinh phục Hình học phát hiện khi vẽ hình Bài 15 (Đề 3) ngày 2026-11-10; bản soạn sửa tương ứng trước khi đẩy GitHub."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho $\\triangle ABC$ nhọn ($AB<AC$) nội tiếp đường tròn $(O; R)$. Hai đường cao $AD, BE$ cắt nhau tại $H$. Gọi $M, N$ là giao điểm của $(O)$ với các tia $BE, AD$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp kết hợp tiếp tuyến",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: Tứ giác $ABDE$ nội tiếp và xác định tâm $I$. Suy ra $DE // MN$.",
+     "explanation": "$\\triangle AEB$ vuông tại $E$ (vì $BE$ là đường cao)\nsuy ra $\\triangle AEB$ nội tiếp đường tròn đường kính $AB$ (1).\n$\\triangle ADB$ vuông tại $D$ (vì $AD$ là đường cao)\nsuy ra $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$ (2).\nTừ (1) và (2) suy ra $4$ điểm $A, B, D, E$ cùng thuộc một đường tròn đường kính $AB$.\nSuy ra tứ giác $ABDE$ nội tiếp đường tròn có tâm $I$ là trung điểm của $AB$.\nTa có $\\widehat{ADE}=\\widehat{ABE}$ (cùng chắn cung $AE$ của đường tròn $(I)$).\nTa có $\\widehat{ANM}=\\widehat{ABM}$ (cùng chắn cung $AM$ của đường tròn $(O)$).\nMà $M$ thuộc tia $BE$ nên $\\widehat{ABM}=\\widehat{ABE}$.\nSuy ra $\\widehat{ADE}=\\widehat{ANM}$.\nHai góc này ở vị trí đồng vị (cát tuyến $AN$), do đó $DE // MN$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ đường kính $CK$. Chứng minh tứ giác $AKBH$ là hình bình hành và $H, I, K$ thẳng hàng.",
+     "explanation": "$\\widehat{KAC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\n$\\Rightarrow KA\\perp AC$.\nMà $HE\\perp AC$ (vì $BE$ là đường cao), suy ra $KA // BH$.\n$\\widehat{KBC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\n$\\Rightarrow KB\\perp BC$.\nMà $HD\\perp BC$ (vì $AD$ là đường cao), suy ra $KB // AH$.\nXét tứ giác $AKBH$ có $KA // BH$ và $KB // AH$.\nSuy ra tứ giác $AKBH$ là hình bình hành.\nMà $I$ là trung điểm của $AB$, nên $I$ cũng là trung điểm của $HK$.\nVậy ba điểm $H, I, K$ thẳng hàng.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Chứng minh: $DE=\\frac{1}{2}AB$ khi $\\widehat{BCA}=60^\\circ$.",
+     "explanation": "Xét $\\triangle CDE$ và $\\triangle CAB$ có:\n$\\widehat{C}$ là góc chung.\n$\\widehat{CDE}=\\widehat{CAB}$ (cùng bù với $\\widehat{BDE}$ trong tứ giác nội tiếp $ABDE$).\n$\\Rightarrow \\triangle CDE\\backsim\\triangle CAB$ (g-g).\n$\\Rightarrow \\frac{DE}{AB}=\\frac{CD}{CA}=\\cos\\widehat{BCA}$.\nVới $\\widehat{BCA}=60^\\circ$, ta có $\\frac{DE}{AB}=\\cos 60^\\circ=\\frac{1}{2}$ $\\Rightarrow DE=\\frac{1}{2}AB$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Tính diện tích hình viên phân cung $DE$ (theo $R$) khi $\\widehat{BCA}=60^\\circ$.",
+     "explanation": "Vẽ đường kính $AQ$ của đường tròn $(O)$.\n$\\widehat{ABQ}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AQ$).\nTrong $(O)$, $\\widehat{AQB}=\\widehat{ACB}=60^\\circ$ (cùng chắn cung $AB$).\nXét $\\triangle ABQ$ vuông tại $B$:\n$AB=AQ\\cdot\\sin\\widehat{AQB}=2R\\cdot\\sin 60^\\circ=R\\sqrt{3}$.\nSuy ra bán kính đường tròn $(I)$ là $R_{(I)}=\\frac{AB}{2}=\\frac{R\\sqrt{3}}{2}$.\nTa có $ID=IE=DE=\\frac{1}{2}AB$.\n$\\Rightarrow \\triangle IED$ đều $\\Rightarrow DE=IE=\\frac{R\\sqrt{3}}{2}$.\nDiện tích hình quạt $IDE$:\n$S_q=\\frac{\\pi\\cdot R_{(I)}^2\\cdot 60}{360}=\\frac{\\pi\\cdot\\left(\\frac{R\\sqrt{3}}{2}\\right)^2}{6}=\\frac{R^2\\pi}{8}$.\nDiện tích $\\triangle IED$:\n$S_{\\triangle}=\\frac{DE^2\\sqrt{3}}{4}=\\frac{\\left(\\frac{R\\sqrt{3}}{2}\\right)^2\\sqrt{3}}{4}=\\frac{3R^2\\sqrt{3}}{16}$.\nDiện tích hình viên phân cung $DE$ là:\n$S=S_q-S_{\\triangle}=\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{16}$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{16}$",
+      "$\\frac{R^2\\pi}{8}+\\frac{3R^2\\sqrt{3}}{16}$",
+      "$\\frac{R^2\\pi}{4}-\\frac{3R^2\\sqrt{3}}{16}$",
+      "$\\frac{R^2\\pi}{8}-\\frac{3R^2\\sqrt{3}}{8}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
