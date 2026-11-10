@@ -1,0 +1,379 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 3 – Đề số 8 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 8,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=\\frac{x^2}{2}$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=8$; với $x=-2$ thì $y=2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=2$; với $x=4$ thì $y=8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-4;8)$, $(-2;2)$, $(2;2)$, $(4;8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 9
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ những điểm thuộc $(P)$ có tung độ bằng $4$.",
+     "explanation": "Vì tung độ bằng $4$ nên $y=4$.\nTa có $4=\\frac{x^2}{2}$, hay $x^2=8$.\nSuy ra $x=2\\sqrt{2}$ hoặc $x=-2\\sqrt{2}$.\nVới $x=2\\sqrt{2}$ suy ra $y=4$; với $x=-2\\sqrt{2}$ suy ra $y=4$.\nVậy tọa độ các điểm cần tìm là $\\left(2\\sqrt{2}; 4\\right)$ và $\\left(-2\\sqrt{2}; 4\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\left(2\\sqrt{2}; 4\\right)$ và $\\left(-2\\sqrt{2}; 4\\right)$",
+      "$\\left(2; 4\\right)$ và $\\left(-2; 4\\right)$",
+      "$\\left(\\sqrt{2}; 4\\right)$ và $\\left(-\\sqrt{2}; 4\\right)$",
+      "$\\left(4; 4\\right)$ và $\\left(-4; 4\\right)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2+2x-3=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có phương trình $3x^2+2x-3=0$ với $a=3$, $b=2$, $c=-3$.\n$\\Delta=b^2-4ac=2^2-4\\cdot 3\\cdot(-3)=4+36=40>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức $M=\\left(x_1-2x_2\\right)\\left(x_2-x_1\\right)+x_2^2$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=\\frac{-2}{3}$; $x_1x_2=\\frac{c}{a}=\\frac{-3}{3}=-1$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{-2}{3}\\right)^2-2\\cdot(-1)=\\frac{22}{9}$.\nTa có $M=\\left(x_1-2x_2\\right)\\left(x_2-x_1\\right)+x_2^2=3x_1x_2-x_1^2-x_2^2$.\n$=3x_1x_2-\\left(x_1^2+x_2^2\\right)=3\\cdot(-1)-\\frac{22}{9}=-\\frac{49}{9}$.\nVậy $M=-\\frac{49}{9}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-49/9"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Thu nhập và chi phí là hai chỉ số quan trọng phản ánh hiệu quả tài chính của cá nhân hoặc doanh nghiệp. Biểu đồ cột kép dưới đây biểu diễn thu nhập và chi phí (đơn vị: triệu đồng) trong một tuần của một cửa hàng. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Trong tuần này, cửa hàng có lợi nhuận cao nhất là ngày thứ mấy?",
+     "explanation": "Lợi nhuận trong ngày = thu nhập $-$ chi phí.\nThứ 2: $150-100=50$ (triệu đồng).\nThứ 3: $200-150=50$ (triệu đồng).\nThứ 4: $180-130=50$ (triệu đồng).\nThứ 5: $250-180=70$ (triệu đồng).\nThứ 6: $220-170=50$ (triệu đồng).\nThứ 7: $300-250=50$ (triệu đồng).\nChủ nhật: $280-200=80$ (triệu đồng).\nVậy cửa hàng có lợi nhuận cao nhất là Chủ nhật.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "Thứ 2",
+      "Thứ 3",
+      "Thứ 4",
+      "Thứ 5",
+      "Thứ 6",
+      "Thứ 7",
+      "Chủ nhật"
+     ],
+     "correctAnswer": 6
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn ngẫu nhiên một ngày trong tuần, tính xác suất của các biến cố sau:\n$A$: “Ngày được chọn có thu nhập lớn hơn $200$ triệu đồng”.\n$B$: “Ngày được chọn có lợi nhuận lớn hơn $50$ triệu đồng”.",
+     "explanation": "Không gian mẫu gồm $7$ ngày trong tuần nên $n(\\Omega)=7$.\nBiến cố $A$: thu nhập lớn hơn $200$ triệu đồng xảy ra vào các ngày: Thứ 5, Thứ 6, Thứ 7, Chủ nhật.\nSuy ra $n(A)=4$ nên $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{4}{7}$.\nBiến cố $B$: lợi nhuận lớn hơn $50$ triệu đồng xảy ra vào các ngày: Thứ 5 (lợi nhuận $70$), Chủ nhật (lợi nhuận $80$).\nSuy ra $n(B)=2$ nên $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{2}{7}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$; $P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4/7"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "2/7"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Nhà ông Năm có một khu vườn hình vuông với kích thước cạnh là $3x$ (mét). Ông Năm muốn xây một hồ cá hình tròn tiếp xúc với các cạnh của khu vườn như hình vẽ. [[IMG:b4-vuon.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $S$ biểu thị diện tích hồ cá theo $x$.",
+     "explanation": "Hồ cá là đường tròn nội tiếp hình vuông cạnh $3x$ nên bán kính hồ cá là $r=\\frac{3x}{2}$.\nDiện tích hồ cá là $S=\\pi r^2=\\pi\\left(\\frac{3x}{2}\\right)^2=\\frac{9\\pi}{4}x^2$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "9πx^2/4"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau khi xây hồ cá, ông Năm quyết định trồng cỏ nhân tạo cho phần đất còn lại của khu vườn. Biết rằng, trong quá trình thi công, tỉ lệ hao hụt cỏ là $10\\%$ (tính trên diện tích cỏ thực tế cần trồng). Ông Năm đã mua tổng cộng số cỏ với chi phí là $425700$ đồng, với giá mỗi mét vuông cỏ là $50000$ đồng. Em hãy tính diện tích ban đầu của khu vườn nhà ông Năm? (Lấy giá trị $\\pi \\approx 3,14$.)",
+     "explanation": "Diện tích khu vườn là $S_{\\text{vườn}}=(3x)^2=9x^2$ (m$^2$).\nDiện tích hồ cá là $S_{\\text{hồ}}=\\frac{9\\pi}{4}x^2$ (m$^2$).\nDiện tích cỏ thực tế cần trồng là $S_{\\text{cỏ}}=S_{\\text{vườn}}-S_{\\text{hồ}}=9x^2-\\frac{9\\pi}{4}x^2=\\frac{9(4-\\pi)}{4}x^2$ (m$^2$).\nDo hao hụt $10\\%$ nên diện tích cỏ đã mua là $S_{\\text{mua}}=110\\%\\cdot S_{\\text{cỏ}}=\\frac{11}{10}S_{\\text{cỏ}}$.\nMà $S_{\\text{mua}}=\\frac{425700}{50000}=\\frac{4257}{500}$ (m$^2$) nên $S_{\\text{cỏ}}=\\frac{10}{11}\\cdot\\frac{4257}{500}=\\frac{4257}{550}=7,74$ (m$^2$).\nLấy $\\pi \\approx 3,14$, ta có $\\frac{9(4-\\pi)}{4}x^2=\\frac{9(4-3,14)}{4}x^2=\\frac{9\\cdot 0,86}{4}x^2=1,935x^2$.\nDo đó $1,935x^2=7,74$.\n$x^2=4$.\n$x=2$ (vì $x>0$).\nVậy cạnh khu vườn là $3x=6$ (m) nên diện tích ban đầu của khu vườn là $S_{\\text{vườn}}=6^2=36$ (m$^2$).\nDiện tích ban đầu của khu vườn là $36$ m$^2$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "36"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc ý b viết $V_{40}=291600\\pi\\text{ cm}^3\\approx 916297\\text{ cm}^3=0,916297\\text{ m}^3$ là SAI phép nhân: $291600\\cdot\\pi\\approx 916088$ (với $\\pi=3,14$ thì $915624$). Giá trị đúng là $V_{40}\\approx 916088\\text{ cm}^3=0,916088\\text{ m}^3$. Kết luận (bể chưa đầy) không đổi. Đã kiểm chứng bằng tính toán độc lập."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một thùng lấy nước bằng tôn có dạng hình trụ có chiều cao là $36\\text{ cm}$ và đường kính đáy là $3\\text{ dm}$. [[IMG:b5-thung.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của thùng nước đó.",
+     "explanation": "Đổi $d=3\\text{ dm}=30\\text{ cm}$ nên bán kính đáy là $R=\\frac{d}{2}=15\\text{ cm}$.\nThể tích thùng nước là $V=\\pi R^2h=\\pi\\cdot 15^2\\cdot 36=8100\\pi$ (cm$^3$).\nĐổi ra lít: $1\\text{ l}=1000\\text{ cm}^3$ nên $V=8100\\pi\\text{ cm}^3=8,1\\pi\\text{ l}\\approx 25,45\\text{ l}$.\nVậy $V=8100\\pi$ (cm$^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V={{1}}$ (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "8100π"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta sử dụng thùng trên để múc nước đổ vào một bể chứa có dung tích $1\\text{ m}^3$. Hỏi sau $40$ lần lấy nước, bể đã đầy nước hay chưa? Biết rằng mỗi lần lấy, người ta chỉ múc $90\\%$ thùng để nước không đổ ra ngoài.\nBiết công thức tính thể tích khối trụ là $V=\\pi R^2h$ ($R$ là bán kính đáy, $h$ là chiều cao).",
+     "explanation": "Mỗi lần chỉ múc $90\\%$ thùng nên lượng nước mỗi lần là $V_1=0,9\\cdot 8100\\pi=7290\\pi$ (cm$^3$).\nSau $40$ lần, lượng nước đổ vào bể là $V_{40}=40\\cdot 7290\\pi=291600\\pi$ (cm$^3$).\nĐổi $1\\text{ m}^3=1000000\\text{ cm}^3$.\nSuy ra $V_{40}=291600\\pi\\text{ cm}^3\\approx 916088\\text{ cm}^3=0,916088\\text{ m}^3$.\nVì $0,916088<1$ nên sau $40$ lần lấy nước thì bể chưa đầy.\nVậy bể chưa đầy nước.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Bể đã đầy nước",
+      "Bể chưa đầy nước",
+      "Bể vừa đầy đúng lúc",
+      "Bể bị tràn nước"
+     ],
+     "correctAnswer": 1
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Trong một nhà máy, có hai máy sản xuất tự động cùng được lập trình để sản xuất một số lượng linh kiện bằng nhau, theo cùng một thời gian dự kiến để phục vụ một đơn hàng. Tuy nhiên khi đi vào hoạt động, máy thứ nhất được điều chỉnh tốc độ, mỗi giờ sản xuất được thêm $3$ linh kiện so với công suất dự kiến. Nhờ đó, máy thứ nhất đã hoàn thành toàn bộ số lượng linh kiện được giao trước thời hạn dự kiến $2$ giờ. Máy thứ hai cũng được tăng tốc độ, mỗi giờ sản xuất thêm $5$ linh kiện so với công suất dự kiến. Nhờ đó, máy thứ hai đã hoàn thành công việc trước thời hạn dự kiến $3$ giờ và sản xuất được thêm $15$ linh kiện nữa. Tính số lượng linh kiện mà mỗi máy phải sản xuất theo kế hoạch ban đầu?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số lượng linh kiện mà mỗi máy phải sản xuất theo kế hoạch ban đầu.",
+     "explanation": "Gọi $x$ (linh kiện/giờ) là năng suất dự kiến của mỗi máy.\nGọi $y$ (giờ) là thời gian dự kiến để hoàn thành công việc ($x \\in \\mathbb{N}^*$, $y>3$).\nTổng số linh kiện mỗi máy phải sản xuất theo kế hoạch là $xy$ (linh kiện).\nVì máy thứ nhất tăng năng suất $3$ linh kiện/giờ và hoàn thành sớm $2$ giờ nên ta có phương trình:\n$(x+3)(y-2)=xy$\n$xy-2x+3y-6=xy$\n$-2x+3y=6$ (1).\nVì máy thứ hai tăng năng suất $5$ linh kiện/giờ, hoàn thành sớm $3$ giờ và làm thêm được $15$ linh kiện nên ta có phương trình:\n$(x+5)(y-3)=xy+15$\n$xy-3x+5y-15=xy+15$\n$-3x+5y=30$ (2).\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases} -2x+3y=6 \\\\ -3x+5y=30 \\end{cases}$\nGiải hệ được $x=60$, $y=42$ (nhận).\nVậy số lượng linh kiện mà mỗi máy phải sản xuất theo kế hoạch ban đầu là: $60\\cdot 42=2520$ (linh kiện).",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "2520"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Từ một điểm $M$ nằm ngoài đường tròn $(O; R)$ với $OM=2R$, kẻ hai tiếp tuyến $MA$, $MC$ đến đường tròn ($A, C$ là các tiếp điểm). Vẽ đường kính $AB$ của đường tròn $(O)$. Gọi $D$ là giao điểm thứ hai của $MB$ với $(O)$. $OM$ cắt $AC$ tại $H$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tam giác $ABD$ vuông và $OM \\perp AC$ tại $H$.",
+     "explanation": "Ta có $\\widehat{ADB}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\nSuy ra tam giác $ABD$ vuông tại $D$.\nTa có $MA=MC$ (tính chất hai tiếp tuyến cắt nhau) và $OA=OC=R$.\n$\\Rightarrow OM$ là trung trực của $AC$.\n$\\Rightarrow OM \\perp AC$ tại $H$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh $OD^2=OH \\cdot OM$ và $\\widehat{ODH}=\\widehat{DAC}$.",
+     "explanation": "Ta có $MA$ là tiếp tuyến của $(O)$ tại $A$ nên $MA \\perp OA$, suy ra $\\triangle OAM$ vuông tại $A$.\nXét $\\triangle OHA$ và $\\triangle OAM$ có $\\widehat{AOM}$ là góc chung và $\\widehat{OHA}=\\widehat{OAM}=90^\\circ$.\n$\\Rightarrow \\triangle OHA \\backsim \\triangle OAM$ (g-g).\n$\\Rightarrow \\frac{OH}{OA}=\\frac{OA}{OM}\\Rightarrow OA^2=OH\\cdot OM$.\nMà $OA=OD=R$ nên $OD^2=OH\\cdot OM$.\nTừ $OD^2=OH\\cdot OM$ suy ra $\\frac{OD}{OM}=\\frac{OH}{OD}$.\nXét $\\triangle ODH$ và $\\triangle OMD$ có $\\widehat{DOM}$ là góc chung và $\\frac{OD}{OM}=\\frac{OH}{OD}$.\n$\\Rightarrow \\triangle ODH \\backsim \\triangle OMD$ (c-g-c).\n$\\Rightarrow \\widehat{ODH}=\\widehat{OMD}$ (1).\n$\\triangle ADM$ vuông tại $D$ suy ra $\\triangle ADM$ nội tiếp đường tròn đường kính $AM$.\n$\\triangle AHM$ vuông tại $H$ suy ra $\\triangle AHM$ nội tiếp đường tròn đường kính $AM$.\nSuy ra bốn điểm $A, H, D, M$ cùng thuộc một đường tròn đường kính $AM$.\nSuy ra tứ giác $AHDM$ nội tiếp.\n$\\Rightarrow \\widehat{HMD}=\\widehat{HAD}$ (cùng chắn cung $HD$).\nMà $\\widehat{HMD}=\\widehat{OMD}$ (do $H$ thuộc $OM$ và $D$ thuộc $MB$) và $\\widehat{HAD}=\\widehat{DAC}$ (do $H$ thuộc $AC$).\nVậy $\\widehat{ODH}=\\widehat{DAC}$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi $K$ là trung điểm $BD$. Tia $AC$ cắt $OK$ tại $E$. Tính diện tích tam giác $OEB$ theo $R$.",
+     "explanation": "Ta có $OD=OB=R$ suy ra $\\triangle OBD$ cân tại $O$.\nMà $K$ là trung điểm $BD$ nên $OK \\perp BD$ tại $K$, suy ra $\\widehat{OKM}=90^\\circ$.\nXét $\\triangle OHE$ và $\\triangle OKM$ có $\\widehat{MOK}$ là góc chung và $\\widehat{OHE}=\\widehat{OKM}=90^\\circ$.\n$\\Rightarrow \\triangle OHE \\backsim \\triangle OKM$ (g-g).\n$\\Rightarrow \\frac{OH}{OK}=\\frac{OE}{OM}\\Rightarrow OH\\cdot OM=OK\\cdot OE$.\nTheo câu b, $OH\\cdot OM=OA^2=R^2$.\nDo đó $OK\\cdot OE=R^2$. Mà $OB=R$ nên $OK\\cdot OE=OB^2$, suy ra $\\frac{OK}{OB}=\\frac{OB}{OE}$.\nXét $\\triangle OBK$ và $\\triangle OEB$ có $\\widehat{BOE}$ là góc chung và $\\frac{OK}{OB}=\\frac{OB}{OE}$.\n$\\Rightarrow \\triangle OBK \\backsim \\triangle OEB$ (c-g-c).\n$\\Rightarrow \\widehat{OBE}=\\widehat{OKB}=90^\\circ$.\n$\\Rightarrow \\triangle OEB$ vuông tại $B$.\n$\\triangle OAM$ vuông tại $A$.\n$\\cos\\widehat{AOM}=\\frac{OA}{OM}=\\frac{R}{2R}=\\frac{1}{2}$.\nSuy ra $\\widehat{AOM}=60^\\circ$.\nTa có $\\triangle OHA$ vuông tại $H$.\n$\\widehat{OAH}=90^\\circ-\\widehat{AOM}=90^\\circ-60^\\circ=30^\\circ$.\nXét $\\triangle ABE$ vuông tại $B$:\n$\\tan\\widehat{BAE}=\\frac{BE}{AB}\\Rightarrow BE=AB\\cdot\\tan 30^\\circ$.\n$BE=2R\\cdot\\frac{\\sqrt{3}}{3}=\\frac{2R\\sqrt{3}}{3}$.\nTam giác $OEB$ vuông tại $B$ có $OB=R$, $BE=\\frac{2R\\sqrt{3}}{3}$.\nDiện tích tam giác $OEB$ là:\n$S_{OEB}=\\frac{1}{2}\\cdot OB\\cdot BE=\\frac{1}{2}\\cdot R\\cdot\\frac{2R\\sqrt{3}}{3}=\\frac{R^2\\sqrt{3}}{3}$.\nVậy $S_{OEB}=\\frac{R^2\\sqrt{3}}{3}$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$S_{OEB}=\\frac{R^2\\sqrt{3}}{3}$",
+      "$S_{OEB}=\\frac{R^2\\sqrt{3}}{2}$",
+      "$S_{OEB}=\\frac{R^2}{3}$",
+      "$S_{OEB}=\\frac{2R^2\\sqrt{3}}{3}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
