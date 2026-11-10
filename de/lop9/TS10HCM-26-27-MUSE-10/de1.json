@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 4 – Đề số 10 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 10,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=\\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=2$; với $x=-1$ thì $y=\\frac{1}{2}$; với $x=0$ thì $y=0$; với $x=1$ thì $y=\\frac{1}{2}$; với $x=2$ thì $y=2$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-2;2)$, $\\left(-1;\\frac{1}{2}\\right)$, $\\left(1;\\frac{1}{2}\\right)$, $(2;2)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 3
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ điểm $M$ thuộc $(P)$ có tung độ gấp đôi hoành độ và khác gốc tọa độ $O$.",
+     "explanation": "Vì điểm $M$ có tung độ gấp đôi hoành độ nên $y=2x$.\nTa có phương trình $\\frac{1}{2}x^2=2x$, hay $\\frac{1}{2}x^2-2x=0$.\nSuy ra $x=0$ hoặc $x=4$.\nVì điểm $M$ khác gốc tọa độ $O(0;0)$ nên chọn $x=4$, suy ra $y=8$.\nVậy tọa độ điểm cần tìm là $(4;8)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(4; 8)$",
+      "$(0; 0)$",
+      "$(-4; 8)$",
+      "$(4; -8)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2-2x-2=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có phương trình $3x^2-2x-2=0$ với $a=3$, $b=-2$, $c=-2$.\n$\\Delta=b^2-4ac=(-2)^2-4\\cdot 3\\cdot(-2)=4+24=28>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức $A=x_1^3+x_2^3-3x_1^2x_2-3x_1x_2^2$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=\\frac{2}{3}$; $x_1x_2=\\frac{c}{a}=\\frac{-2}{3}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{2}{3}\\right)^2-2\\cdot\\left(\\frac{-2}{3}\\right)=\\frac{16}{9}$.\nTa có $A=x_1^3+x_2^3-3x_1^2x_2-3x_1x_2^2=(x_1+x_2)(x_1^2-x_1x_2+x_2^2)-3x_1x_2(x_1+x_2)$.\n$A=\\frac{2}{3}\\cdot\\left[\\frac{16}{9}-\\left(\\frac{-2}{3}\\right)\\right]-3\\cdot\\left(\\frac{-2}{3}\\right)\\cdot\\frac{2}{3}=\\frac{44}{27}+\\frac{36}{27}=\\frac{80}{27}$.\nVậy $A=\\frac{80}{27}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "80/27"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Có $6$ tấm bìa giống nhau được đánh số từ $1$ đến $6$ (trên mỗi tấm bìa được ghi đúng một chữ số). Chọn ngẫu nhiên đồng thời $4$ tấm bìa, xem số ghi trên các tấm bìa và sắp xếp chúng theo thứ tự từ nhỏ đến lớn, từ đó thu được kết quả là một số có $4$ chữ số dạng $\\overline{abcd}$, trong đó $a<b<c<d$. Tính xác suất số thu được (sau khi sắp xếp từ nhỏ đến lớn) là số có chữ số cuối lớn hơn chữ số đầu $3$ đơn vị.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số phần tử của không gian mẫu.",
+     "explanation": "Chọn ngẫu nhiên đồng thời $4$ tấm bìa từ $6$ tấm bìa, số cách chọn là:\n$n(\\Omega)=C_6^4=\\frac{6\\cdot 5\\cdot 4\\cdot 3}{4\\cdot 3\\cdot 2\\cdot 1}=15$ (cách chọn).\nVì các chữ số được sắp xếp theo thứ tự $a<b<c<d$ nên mỗi cách chọn $4$ tấm bìa tương ứng với duy nhất một số có $4$ chữ số. Các kết quả có thể xảy ra là:\n$\\Omega=\\{1234; 1235; 1236; 1245; 1246; 1256; 1345; 1346; 1356; 1456; 2345; 2346; 2356; 2456; 3456\\}$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm số khả năng thuận lợi của biến cố $A$: “Số thu được có chữ số cuối lớn hơn chữ số đầu $3$ đơn vị”.",
+     "explanation": "Vì $a<b<c<d$ và $d=a+3$, ta liệt kê các trường hợp:\nTrường hợp 1: $a=1\\Rightarrow d=4$. Các số $b, c$ thuộc $\\{2, 3\\}$. Có $1$ bộ: $(1, 2, 3, 4)$.\nTrường hợp 2: $a=2\\Rightarrow d=5$. Các số $b, c$ thuộc $\\{3, 4\\}$. Có $1$ bộ: $(2, 3, 4, 5)$.\nTrường hợp 3: $a=3\\Rightarrow d=6$. Các số $b, c$ thuộc $\\{4, 5\\}$. Có $1$ bộ: $(3, 4, 5, 6)$.\nSuy ra $n(A)=3$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$n(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính xác suất của biến cố $A$.",
+     "explanation": "Xác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{3}{15}=\\frac{1}{5}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/5"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Bác An sở hữu một mảnh đất hình chữ nhật. Bác quyết định chia mảnh đất này thành hai khu vực: một khu vực làm hồ nuôi cá hình chữ nhật và một khu vực trồng cây ăn quả hình vuông, như hình vẽ bên dưới. Khu đất có chiều rộng tổng thể là $x$ (mét), chiều dài tổng thể là $y$ (mét). Bác An đã thiết kế sao cho diện tích khu đất làm hồ nuôi cá bằng $4$ lần diện tích khu đất trồng cây ăn quả và phần đường đi xung quanh hồ cá với các lối nhỏ đi qua đỉnh hình vuông đất trồng cây ăn quả đều bằng $1$ (mét). Sau khi thiết kế hai khu vực trên, phần đất còn lại bác sẽ lát gạch toàn bộ để đi lại. [[IMG:b4-khu-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tính diện tích $S$ theo $x$ và $y$ của phần đất dùng để lát gạch.",
+     "explanation": "Do lối đi xung quanh rộng $1$ m nên đường chéo của hình vuông trồng cây là: $d=x-1-1=x-2$ (m).\nDiện tích khu đất trồng cây (hình vuông) tính theo hai đường chéo là:\n$S_{hc}=\\frac{d\\cdot d}{2}=\\frac{(x-2)(x-2)}{2}=\\frac{(x-2)^2}{2}$ (m$^2$).\nDiện tích hồ cá (hình chữ nhật) bằng $4$ lần diện tích khu đất trồng cây nên:\n$S_{ca}=4\\cdot\\frac{(x-2)^2}{2}=2(x-2)^2$ (m$^2$).\nDiện tích tổng thể mảnh đất là: $S_{tong}=x\\cdot y$ (m$^2$).\nDiện tích phần đất lát gạch bằng diện tích tổng thể trừ đi diện tích hồ cá và diện tích trồng cây:\n$S=S_{tong}-S_{ca}-S_{hc}=xy-2(x-2)^2-\\frac{(x-2)^2}{2}=xy-\\frac{5(x-2)^2}{2}$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "xy-5(x-2)^2/2"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Biết diện tích đất dùng để lát gạch là $50\\text{ m}^2$. Tính chiều dài $y$ (m) của khu đất.",
+     "explanation": "Chiều rộng của hồ cá là: $x-1-1=x-2$ (m).\nChiều dài của hồ cá là: $y-3-(x-2)$ (m).\nDiện tích hồ cá được tính theo công thức dài nhân rộng là:\n$S_{ca}=(x-2)[y-3-(x-2)]=(x-2)(y-x-1)$ (m$^2$).\nTheo câu a, ta có $S_{ca}=2(x-2)^2$.\n$(x-2)(y-x-1)=2(x-2)^2$\n$(x-2)[y-x-1-2(x-2)]=0$\n$(x-2)(y-3x+3)=0$\n$x=2$ hoặc $y=3x-3$.\nMà $x>2$ (do có lối đi $1$ m mỗi bên) nên $y=3x-3$.\nTheo đề bài, diện tích phần lát gạch là $50$ m$^2$, ta có phương trình:\n$xy-\\frac{5(x-2)^2}{2}=50$\nThay $y=3x-3$ vào phương trình trên:\n$x(3x-3)-\\frac{5(x-2)^2}{2}=50$\n$6x^2-6x-(5x^2-20x+20)=100$\n$x^2+14x-120=0$\n$x_1=6$ (nhận), $x_2=-20$ (loại).\nVới $x=6$, ta được $y=3\\cdot 6-3=15$.\nVậy chiều dài của khu đất là $y=15$ m.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "15"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một hồ cá có hình dạng là một phần của hình cầu tâm $O$. Hồ cá được đặt trên một giá đỡ như hình vẽ. Người ta đo được đường kính của miệng hồ là $AB=60\\text{ cm}$. Khoảng cách từ miệng hồ đến vị trí sâu nhất là $IT=90\\text{ cm}$. [[IMG:b5-ho-ca.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính bán kính $R$ của mặt cầu tạo nên hồ cá.",
+     "explanation": "Gọi $R$ (cm) là bán kính của mặt cầu tạo nên hồ cá ($R>0$).\nVì $AB$ là đường kính miệng hồ nên $I$ là trung điểm của $AB$, suy ra $IA=\\frac{AB}{2}=\\frac{60}{2}=30$ (cm).\nVì $T$ là điểm sâu nhất của hồ cá nên $O, I, T$ thẳng hàng và $OT=R$ là bán kính.\nVì $IT=90$ cm và $IT>R$ nên điểm $O$ nằm giữa $I$ và $T$, ta có $OI=IT-OT=90-R$.\n$\\triangle OIA$ vuông tại $I$ (do $OI\\perp AB$ tại $I$).\n$OA^2=OI^2+IA^2$ (định lý Pythagore)\n$R^2=(90-R)^2+30^2$\n$R^2=8100-180R+R^2+900$\n$180R=9000$\n$R=50$ (cm).\nVậy bán kính $R$ của mặt cầu là $R=50$ cm.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "50"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Người ta rót nước vào hồ sao cho mặt nước cách miệng hồ $40\\text{ cm}$. Tính thể tích nước rót vào (kết quả làm tròn đến chữ số thập phân thứ nhất, đơn vị lít). Biết công thức tính thể tích hình cầu bán kính $R$ là $V=\\frac{4}{3}\\pi R^3$.",
+     "explanation": "Khoảng cách từ mặt nước đến điểm sâu nhất $T$ của hồ là:\n$h=IT-40=90-40=50$ (cm).\nVì $h=R=50$ (cm) nên mặt nước đi qua tâm $O$ của mặt cầu.\nKhi đó, phần nước trong hồ tạo thành một nửa hình cầu bán kính $R=50$ cm.\nThể tích nước rót vào hồ là:\n$V_{nc}=\\frac{1}{2}\\cdot\\frac{4}{3}\\pi R^3=\\frac{2}{3}\\pi\\cdot 50^3$\n$V_{nc}=\\frac{250000\\pi}{3}$ (cm$^3$).\nĐổi sang đơn vị lít ($1$ lít $=1000$ cm$^3$):\n$V_{nc}=\\frac{250000\\pi}{3\\cdot 1000}=\\frac{250\\pi}{3}\\approx 261,799...$ (lít).\nLàm tròn đến chữ số thập phân thứ nhất theo yêu cầu đề bài, ta được $261,8$ (lít).\nVậy thể tích nước rót vào hồ là $261,8$ lít.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "261,8"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Một nhà máy sản xuất nhiên liệu sinh học bằng cách pha hai nguyên liệu là chất $A$ và chất $B$ với nhau. Hiện tại, trong kho có $135$ lít chất $A$ và $615$ lít chất $B$. Để tạo ra nhiên liệu loại I thì tỉ lệ chất $A$ và chất $B$ là $1:9$. Để tạo ra nhiên liệu loại II thì tỉ lệ chất $A$ và chất $B$ là $1:3$. Hỏi nếu sử dụng hết chất $A$ và chất $B$ thì có thể sản xuất được bao nhiêu lít nhiên liệu loại I và bao nhiêu lít nhiên liệu loại II?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số lít nhiên liệu loại I và số lít nhiên liệu loại II nhà máy sản xuất được.",
+     "explanation": "Gọi $x$ (lít) là số lít nhiên liệu loại I và $y$ (lít) là số lít nhiên liệu loại II nhà máy sản xuất được ($x, y>0$).\nVì nhiên liệu loại I có tỉ lệ chất $A$ và chất $B$ là $1:9$ nên lượng chất $A$ là $\\frac{1}{10}x$ (lít) và lượng chất $B$ là $\\frac{9}{10}x$ (lít).\nVì nhiên liệu loại II có tỉ lệ chất $A$ và chất $B$ là $1:3$ nên lượng chất $A$ là $\\frac{1}{4}y$ (lít) và lượng chất $B$ là $\\frac{3}{4}y$ (lít).\nDo sử dụng hết $135$ lít chất $A$ nên ta có phương trình:\n$\\frac{1}{10}x+\\frac{1}{4}y=135$ (1).\nDo sử dụng hết $615$ lít chất $B$ nên ta có phương trình:\n$\\frac{9}{10}x+\\frac{3}{4}y=615$ (2).\nTừ (1) và (2) ta có hệ phương trình:\n$\\frac{1}{10}x+\\frac{1}{4}y=135$\n$\\frac{9}{10}x+\\frac{3}{4}y=615$\nGiải hệ được $x=350$; $y=400$.\nVậy nhà máy sản xuất được $350$ lít nhiên liệu loại I và $400$ lít nhiên liệu loại II.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Nhiên liệu loại I: {{1}} (lít); nhiên liệu loại II: {{2}} (lít)."
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "350"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "400"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc ở ý c ghi nhầm “$\\triangle OIH\\backsim\\triangle OKE$ (c-g-c)”; hai tam giác này chỉ có hai góc bằng nhau (góc chung $\\widehat{KOE}$ và $\\widehat{OIH}=\\widehat{OKE}$) nên đúng phải là (g-g). Bản soạn đã sửa lại thành (g-g); kết luận $KE=HI\\cdot\\frac{OE}{OH}$ và đáp số không đổi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho đường tròn $(O)$ có $AB$ là dây không qua tâm. Gọi $H$ là trung điểm của $AB$. Tiếp tuyến tại $A$ của đường tròn $(O)$ cắt tia $OH$ tại $K$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: $\\widehat{KBO}=90^\\circ$ và $KAOB$ là tứ giác nội tiếp.",
+     "explanation": "Ta có $OA=OB=R\\Rightarrow\\triangle OAB$ cân tại $O$.\n$OH$ là đường trung tuyến nên $OH$ là phân giác, đường cao của $\\triangle OAB$.\nSuy ra $\\widehat{AOK}=\\widehat{BOK}$.\nXét $\\triangle KAO$ và $\\triangle KBO$ có:\n$OA=OB=R$\n$OK$ là cạnh chung\n$\\widehat{AOK}=\\widehat{BOK}$ (cmt)\n$\\Rightarrow\\triangle KAO=\\triangle KBO$ (c-g-c).\n$\\Rightarrow\\widehat{KBO}=\\widehat{KAO}=90^\\circ$.\nVậy $\\widehat{KBO}=90^\\circ$.\n$\\triangle KAO$ vuông tại $A$ (do $KA$ là tiếp tuyến)\nsuy ra $\\triangle KAO$ nội tiếp đường tròn đường kính $OK$ (1).\n$\\triangle KBO$ vuông tại $B$ (do $\\widehat{KBO}=90^\\circ$)\nsuy ra $\\triangle KBO$ nội tiếp đường tròn đường kính $OK$ (2).\nTừ (1) và (2) suy ra $4$ điểm $K, A, O, B$ cùng thuộc một đường tròn đường kính $OK$.\nSuy ra tứ giác $KAOB$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Kẻ đường kính $AC$ của đường tròn $(O)$. Chứng minh: $OH\\cdot OK=OC^2$, từ đó suy ra $\\widehat{OCH}=\\widehat{OKC}$.",
+     "explanation": "Xét $\\triangle OHA$ và $\\triangle OAK$ có:\n$\\widehat{KOA}$ (góc chung)\n$\\widehat{OHA}=\\widehat{OAK}=90^\\circ$\n$\\Rightarrow\\triangle OHA\\backsim\\triangle OAK$ (g-g).\n$\\Rightarrow\\frac{OH}{OA}=\\frac{OA}{OK}\\Rightarrow OA^2=OH\\cdot OK$.\nMà $OA=OC=R$\n$\\Rightarrow OC^2=OH\\cdot OK\\Rightarrow\\frac{OH}{OC}=\\frac{OC}{OK}$.\nXét $\\triangle OHC$ và $\\triangle OCK$ có:\n$\\widehat{COK}$ (góc chung)\n$\\frac{OH}{OC}=\\frac{OC}{OK}$\n$\\Rightarrow\\triangle OHC\\backsim\\triangle OCK$ (c-g-c).\n$\\Rightarrow\\widehat{OCH}=\\widehat{OKC}$ (hai góc tương ứng).",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tiếp tuyến tại $C$ của đường tròn $(O)$ cắt tia $AB$ tại $E$. Gọi $I$ là giao điểm của $OE$ và $KC$. Tính bán kính đường tròn ngoại tiếp tứ giác $KHIE$ biết $\\widehat{KAB}=70^\\circ$ và $HI=6\\text{ cm}$ (kết quả làm tròn đến hàng phần trăm).",
+     "explanation": "Chứng minh $KC\\perp OE$ tại $I$ và $KHIE$ nội tiếp:\n$\\triangle OHE$ vuông tại $H$ suy ra $\\triangle OHE$ nội tiếp đường tròn đường kính $OE$ (3).\n$\\triangle OCE$ vuông tại $C$ suy ra $\\triangle OCE$ nội tiếp đường tròn đường kính $OE$ (4).\nTừ (3) và (4) suy ra $O, H, C, E$ cùng thuộc đường tròn đường kính $OE$.\n$\\Rightarrow\\widehat{OEH}=\\widehat{OCH}$ (hai góc nội tiếp cùng chắn cung $OH$).\nTheo câu b, ta có $\\widehat{OCH}=\\widehat{OKC}$.\nSuy ra $\\widehat{OEH}=\\widehat{OKC}$.\nXét $\\triangle OIK$ và $\\triangle OHE$ có:\n$\\widehat{KOI}$ là góc chung\n$\\widehat{OKI}=\\widehat{OEH}$ (cmt)\n$\\Rightarrow\\triangle OIK\\backsim\\triangle OHE$ (g-g).\n$\\Rightarrow\\widehat{OIK}=\\widehat{OHE}=90^\\circ$.\n$\\Rightarrow KC\\perp OE$ tại $I$.\nXét tứ giác $KHIE$:\n$\\triangle KIE$ vuông tại $I\\Rightarrow$ nội tiếp đường tròn đường kính $KE$ (5).\n$\\triangle KHE$ vuông tại $H\\Rightarrow$ nội tiếp đường tròn đường kính $KE$ (6).\nTừ (5) và (6) suy ra $K, H, I, E$ cùng thuộc một đường tròn đường kính $KE$.\nBán kính của đường tròn ngoại tiếp là $r=\\frac{1}{2}KE$.\n\nTính $HC$ và $AH$:\nTa có $\\widehat{KAB}=\\widehat{AOH}=70^\\circ$ (cùng phụ $\\widehat{HAO}$).\n$\\triangle AHO$ vuông tại $H$:\n$AH=OA\\cdot\\sin\\widehat{AOH}=R\\sin 70^\\circ$.\n$OH=OA\\cdot\\cos\\widehat{AOH}=R\\cos 70^\\circ$.\nTính $HC$: Kẻ $CD\\perp OH$ tại $D$.\n$\\widehat{COD}=\\widehat{AOH}=70^\\circ$ (hai góc đối đỉnh).\n$\\triangle OCD$ vuông tại $D$ có\n$OD=OC\\cos 70^\\circ=R\\cos 70^\\circ$ và $CD=OC\\sin 70^\\circ=R\\sin 70^\\circ$.\nTa có $HD=HO+OD=R\\cos 70^\\circ+R\\cos 70^\\circ=2R\\cos 70^\\circ$.\n$\\triangle HCD$ vuông tại $D$\n$HC^2=CD^2+HD^2=(R\\sin 70^\\circ)^2+(2R\\cos 70^\\circ)^2$\n$=R^2(\\sin^2 70^\\circ+4\\cos^2 70^\\circ)$.\n$\\Rightarrow HC=R\\sqrt{\\sin^2 70^\\circ+4\\cos^2 70^\\circ}$.\n\nChứng minh $\\triangle AHC\\backsim\\triangle AOE$ và tính $OE$:\nXét $\\triangle AHC$ và $\\triangle AOE$ có:\n$\\widehat{OAE}$ là góc chung\n$\\widehat{ACH}=\\widehat{AEO}$ (vì $\\widehat{ACH}=\\widehat{OCH}$ do $O$ thuộc $AC$, và $\\widehat{AEO}=\\widehat{OEH}$ do $H$ thuộc $AE$, mà $\\widehat{OCH}=\\widehat{OEH}$ đã chứng minh trên)\n$\\Rightarrow\\triangle AHC\\backsim\\triangle AOE$ (g-g).\n$\\Rightarrow\\frac{HC}{OE}=\\frac{AH}{AO}\\Rightarrow OE=\\frac{HC\\cdot AO}{AH}$.\n$OE=\\frac{R\\sqrt{\\sin^2 70^\\circ+4\\cos^2 70^\\circ}\\cdot R}{R\\sin 70^\\circ}=\\frac{R\\sqrt{\\sin^2 70^\\circ+4\\cos^2 70^\\circ}}{\\sin 70^\\circ}$.\n\nTính bán kính $r$:\nXét $\\triangle OIH$ và $\\triangle OKE$ có:\n$\\widehat{KOE}$ chung\n$\\widehat{OIH}=\\widehat{OKE}$ (cùng bù $\\widehat{EIH}$)\n$\\Rightarrow\\triangle OIH\\backsim\\triangle OKE$ (g-g).\n$\\Rightarrow\\frac{HI}{KE}=\\frac{OH}{OE}\\Rightarrow KE=HI\\cdot\\frac{OE}{OH}$.\nBán kính $r=\\frac{KE}{2}=\\frac{HI}{2}\\cdot\\frac{OE}{OH}=3\\cdot\\frac{OE}{OH}$.\nThay $OE$ và $OH$:\n$r=3\\cdot\\frac{R\\sqrt{\\sin^2 70^\\circ+4\\cos^2 70^\\circ}}{\\sin 70^\\circ}:(R\\cos 70^\\circ)$.\n$r\\approx\\frac{3\\cdot 1,1623}{0,9397\\cdot 0,3420}\\approx 10,85$ (cm).\nVậy bán kính đường tròn ngoại tiếp tứ giác $KHIE$ là $10,85$ cm.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$10,85\\text{ cm}$",
+      "$10,58\\text{ cm}$",
+      "$21,70\\text{ cm}$",
+      "$5,43\\text{ cm}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
