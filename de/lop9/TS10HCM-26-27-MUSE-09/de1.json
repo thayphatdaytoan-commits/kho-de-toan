@@ -1,0 +1,411 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 3 – Đề số 9 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 9,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho parabol $(P): y=-\\frac{1}{2}x^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=-8$; với $x=-2$ thì $y=-2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=-2$; với $x=4$ thì $y=-8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-4;-8)$, $(-2;-2)$, $(2;-2)$, $(4;-8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -x^2/2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ các điểm thuộc đồ thị $(P)$ có hoành độ gấp hai lần tung độ.",
+     "explanation": "Vì điểm thuộc $(P)$ có hoành độ gấp hai lần tung độ nên $x=2y$.\nSuy ra $y=\\frac{1}{2}x$.\nTa có phương trình $\\frac{1}{2}x=-\\frac{1}{2}x^2$, hay $\\frac{1}{2}x^2+\\frac{1}{2}x=0$.\nSuy ra $x=0$ hoặc $x=-1$.\nVới $x=0$ suy ra $y=0$; với $x=-1$ suy ra $y=-\\frac{1}{2}$.\nVậy tọa độ các điểm cần tìm là $(0; 0)$ và $\\left(-1; -\\frac{1}{2}\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(0; 0)$ và $\\left(-1; -\\frac{1}{2}\\right)$",
+      "$(0; 0)$ và $\\left(1; \\frac{1}{2}\\right)$",
+      "$\\left(-1; -\\frac{1}{2}\\right)$ và $\\left(1; \\frac{1}{2}\\right)$",
+      "$(0; 0)$ và $(-2; -2)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $2x^2-7x+4=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.",
+     "explanation": "Ta có phương trình $2x^2-7x+4=0$ với $a=2$, $b=-7$, $c=4$.\n$\\Delta=b^2-4ac=(-7)^2-4\\cdot 2\\cdot 4=49-32=17>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, tính giá trị của biểu thức $Q=\\frac{x_1}{x_2+2}-x_1+\\frac{x_2}{x_1+2}-x_2$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=\\frac{7}{2}$; $x_1x_2=\\frac{c}{a}=\\frac{4}{2}=2$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{7}{2}\\right)^2-2\\cdot 2=\\frac{33}{4}$.\nTa có $Q=\\frac{x_1}{x_2+2}+\\frac{x_2}{x_1+2}-(x_1+x_2)=\\frac{x_1(x_1+2)+x_2(x_2+2)}{(x_2+2)(x_1+2)}-(x_1+x_2)$.\n$Q=\\frac{(x_1^2+x_2^2)+2(x_1+x_2)}{x_1x_2+2(x_1+x_2)+4}-(x_1+x_2)=\\frac{\\frac{33}{4}+2\\cdot\\frac{7}{2}}{2+2\\cdot\\frac{7}{2}+4}-\\frac{7}{2}=\\frac{61}{52}-\\frac{7}{2}=-\\frac{121}{52}$.\nVậy $Q=-\\frac{121}{52}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-121/52"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Hai trường $A$ và $B$ đã phối hợp tổ chức ngày hội thể thao nhân kỉ niệm ngày thành lập Đoàn TNCS Hồ Chí Minh. Biểu đồ dưới đây biểu diễn số huy chương Vàng, Bạc và Đồng của hai trường $A$ và $B$ đạt được trong ngày hội thao. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tổng số huy chương các loại (Vàng, Bạc, Đồng) của trường nào cao hơn?",
+     "explanation": "Tổng số huy chương của trường $A$ là: $9+8+10=27$ (huy chương).\nTổng số huy chương của trường $B$ là: $8+11+12=31$ (huy chương).\nVì $31>27$ nên tổng số huy chương của trường $B$ cao hơn.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Trường $A$",
+      "Trường $B$",
+      "Hai trường bằng nhau",
+      "Không xác định được"
+     ],
+     "correctAnswer": 1
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Xét phép thử lấy ngẫu nhiên $1$ huy chương trong tổng số các huy chương của trường $A$. Hãy tính xác suất của biến cố $A$: “Huy chương lấy được là huy chương Bạc”.",
+     "explanation": "Không gian mẫu là tổng số huy chương của trường $A$: $n(\\Omega)=27$.\nBiến cố $A$: “Huy chương lấy được là huy chương Bạc”.\nSố khả năng thuận lợi là số huy chương Bạc của trường $A$: $n(A)=8$.\nXác suất của biến cố $A$ là $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{8}{27}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8/27"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Xét phép thử lấy ngẫu nhiên $1$ huy chương trong tổng số các huy chương của cả hai trường $A$ và $B$. Hãy tính xác suất của biến cố $B$: “Huy chương lấy được không phải là huy chương Bạc”.",
+     "explanation": "Không gian mẫu là tổng số huy chương của cả hai trường: $n(\\Omega)=27+31=58$.\nBiến cố $B$: “Huy chương lấy được không phải là huy chương Bạc”.\nTổng số huy chương Bạc của hai trường là: $8+11=19$.\nSố khả năng thuận lợi (số huy chương không phải Bạc) là: $n(B)=58-19=39$.\nXác suất của biến cố $B$ là $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{39}{58}$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(B)={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "39/58"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Nhằm chào mừng ngày “Quốc tế thiếu nhi” ($1$ tháng $6$), $14$ học sinh gồm cả nam và nữ đã tham gia gói $96$ phần quà để tặng các em nhỏ. Biết tổng số phần quà mà các bạn nam gói được bằng tổng số quà mà các bạn nữ gói được; số phần quà mỗi bạn nữ gói được nhiều hơn số phần quà mỗi bạn nam gói được là $2$ phần. Hỏi có bao nhiêu học sinh nam, bao nhiêu học sinh nữ tham gia gói quà?",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số học sinh nam và số học sinh nữ tham gia gói quà.",
+     "explanation": "Gọi $x$ (học sinh) là số học sinh nam tham gia gói quà ($x\\in\\mathbb{N}^*$, $x<14$).\nSố học sinh nữ tham gia gói quà là $14-x$ (học sinh).\nTổng số phần quà là $96$ phần, số quà nam gói được bằng số quà nữ gói được nên mỗi nhóm gói được $96:2=48$ (phần).\nSố phần quà mỗi bạn nam gói được là $\\frac{48}{x}$ (phần).\nSố phần quà mỗi bạn nữ gói được là $\\frac{48}{14-x}$ (phần).\nVì số phần quà mỗi bạn nữ gói nhiều hơn mỗi bạn nam là $2$ phần nên ta có phương trình:\n$\\frac{48}{14-x}-\\frac{48}{x}=2$\n$48x-48(14-x)=2x(14-x)$\n$48x-672+48x=28x-2x^2$\n$2x^2+68x-672=0$\n$x_1=8$; $x_2=-42$.\nVì $x>0$ nên $x=8$ (nhận), suy ra số học sinh nữ là $14-8=6$ (học sinh).\nVậy có $8$ học sinh nam và $6$ học sinh nữ.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Số học sinh nam là {{1}} (học sinh); số học sinh nữ là {{2}} (học sinh)."
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "8"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "6"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Nhãn trong hình vẽ gốc ghi “3 quả cầu kim loại” trong khi đề bài ghi “3 viên bi thủy tinh”; đây chỉ là khác biệt cách gọi tên trong nguồn, không ảnh hưởng đến số liệu và đáp án. Bản soạn giữ nguyên đề bài như in."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một cốc nước hình trụ có chiều cao $15\\text{ cm}$, bán kính đáy là $3\\text{ cm}$ và lượng nước ban đầu trong cốc cao $12\\text{ cm}$. (Giả sử độ dày của thành cốc và đáy cốc không đáng kể). [[IMG:b5-coc-nuoc.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích của nước trong cốc.",
+     "explanation": "Thể tích nước trong cốc là:\n$V_{\\text{nước}}=\\pi r^2h=\\pi\\cdot 3^2\\cdot 12=108\\pi$ (cm$^3$).\n$V_{\\text{nước}}\\approx 339,12$ (cm$^3$).\nVậy $V_{\\text{nước}}=108\\pi$ (cm$^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V_{\\text{nước}}={{1}}$ (cm$^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "108π"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Thả chìm hoàn toàn vào cốc $3$ viên bi thủy tinh hình cầu có cùng bán kính là $2\\text{ cm}$ thì nước trong cốc có bị tràn ra ngoài không? Nếu có, hãy tính thể tích nước bị tràn ra ngoài? (Biết $\\pi\\approx 3,14$).",
+     "explanation": "Thể tích của $3$ viên bi thủy tinh là:\n$V_{\\text{bi}}=3\\cdot\\frac{4}{3}\\pi R^3=4\\pi\\cdot 2^3=32\\pi$ (cm$^3$).\nThể tích phần trống còn lại của cốc là:\n$V_{\\text{trống}}=\\pi r^2(h_{\\text{cốc}}-h_{\\text{nước}})=\\pi\\cdot 3^2\\cdot(15-12)=27\\pi$ (cm$^3$).\nVì $V_{\\text{bi}}>V_{\\text{trống}}$ ($32\\pi>27\\pi$) nên nước trong cốc bị tràn ra ngoài.\nThể tích nước bị tràn ra ngoài là:\n$V_{\\text{tràn}}=V_{\\text{bi}}-V_{\\text{trống}}=32\\pi-27\\pi=5\\pi$ (cm$^3$).\n$V_{\\text{tràn}}\\approx 15,7$ (cm$^3$).\nVậy nước bị tràn ra ngoài, thể tích nước tràn ra là $15,7$ cm$^3$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "Không bị tràn ra ngoài",
+      "Bị tràn ra $15,7\\text{ cm}^3$",
+      "Bị tràn ra $31,4\\text{ cm}^3$",
+      "Bị tràn ra $100,48\\text{ cm}^3$"
+     ],
+     "correctAnswer": 1
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Trên bản vẽ, một mảnh đất có dạng hình vuông với độ dài cạnh $x$ (m) (hình vuông $ABCD$) dùng để xây biệt thự, kiến trúc sư thiết kế một hồ bơi mini có dạng hình chữ nhật ở một góc của khu đất như hình vẽ bên. [[IMG:b6-ho-boi.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy viết biểu thức thu gọn $S$ (theo $x$) biểu thị phần diện tích còn lại của khu đất sau khi làm hồ bơi.",
+     "explanation": "Chiều dài của hồ bơi là $x-16$ (m).\nChiều rộng của hồ bơi là $x-12$ (m).\nDiện tích của hồ bơi là $(x-16)(x-12)$ (m$^2$).\nDiện tích của cả khu đất hình vuông là $x^2$ (m$^2$).\nBiểu thức $S$ biểu thị phần diện tích còn lại là: $S=x^2-(x-16)(x-12)$\n$S=x^2-(x^2-12x-16x+192)$\n$S=x^2-x^2+28x-192$\n$S=28x-192$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "28x-192"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Cho biết diện tích đất dùng để làm hồ bơi là $32\\text{ m}^2$ và $16<x$. Hãy tính độ dài cạnh hình vuông của khu đất.",
+     "explanation": "Theo đề bài diện tích hồ bơi là $32$ m$^2$ nên ta có phương trình:\n$(x-16)(x-12)=32$\n$x^2-28x+192=32$\n$x^2-28x+160=0$\n$x_1=20$; $x_2=8$.\nVì điều kiện $x>16$ nên $x=20$ (nhận), $x=8$ (loại).\nVậy độ dài cạnh hình vuông của khu đất là $20$ m.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "20"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho tam giác $ABC$ nhọn ($AB<AC$) nội tiếp đường tròn tâm $O$ bán kính $R$. Các đường cao $AD, BE, CK$ của tam giác $ABC$ cắt nhau tại $H$ ($D\\in BC, E\\in AC, K\\in AB$). Đường thẳng $AD$ cắt đường tròn $(O)$ tại $M$ ($M$ khác $A$). [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: $\\triangle ABD\\backsim\\triangle CBK$ từ đó suy ra $CB$ là tia phân giác của $\\widehat{KCM}$.",
+     "explanation": "Xét $\\triangle ABD$ và $\\triangle CBK$ có:\n$\\widehat{ADB}=\\widehat{CKB}=90^\\circ$\n$\\widehat{ABD}=\\widehat{CBK}$ (góc chung)\n$\\Rightarrow\\triangle ABD\\backsim\\triangle CBK$ (g-g).\n$\\Rightarrow\\widehat{BAD}=\\widehat{BCK}$ (hai góc tương ứng).\nTa có $\\widehat{BAD}=\\widehat{BCM}$ (hai góc nội tiếp cùng chắn cung $BM$).\nSuy ra $\\widehat{BCK}=\\widehat{BCM}$.\nVậy $CB$ là tia phân giác của $\\widehat{KCM}$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Đường thẳng $BE$ cắt đường tròn $(O)$ tại $Q$ ($Q$ khác $B$). Gọi $I$ là trung điểm của $BC$, đường thẳng $IE$ cắt $AQ$ tại $G$. Chứng minh $EG\\perp AQ$.",
+     "explanation": "Ta có $\\triangle BEC$ vuông tại $E$, $EI$ là trung tuyến.\n$IE=IC=\\frac{1}{2}BC\\Rightarrow\\triangle IEC$ cân tại $I$.\n$\\Rightarrow\\widehat{IEC}=\\widehat{ACB}$ (tính chất tam giác cân).\nMà $\\widehat{AEG}=\\widehat{IEC}$ (hai góc đối đỉnh)\n$\\Rightarrow\\widehat{AEG}=\\widehat{ACB}$.\nTa lại có $\\widehat{ACB}=\\widehat{AQE}=\\frac{1}{2}\\text{sđ}\\widehat{AB}$.\nVậy $\\widehat{AQE}=\\widehat{AEG}$.\nXét $\\triangle AEG$ và $\\triangle AQE$ có:\n$\\widehat{EAQ}$ (góc chung)\n$\\widehat{AEG}=\\widehat{AQE}$ (cmt)\n$\\Rightarrow\\triangle AEG\\backsim\\triangle AQE$ (g-g).\n$\\Rightarrow\\widehat{AGE}=\\widehat{AEQ}=90^\\circ$.\nVậy $EG\\perp AQ$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Giả sử $\\widehat{BAC}=60^\\circ$. Tính bán kính đường tròn ngoại tiếp tam giác $BOC$ theo $R$.",
+     "explanation": "Ta có $\\widehat{BAC}=60^\\circ\\Rightarrow\\widehat{BOC}=2\\widehat{BAC}=120^\\circ$.\nVì $OB=OC=R$ nên $\\triangle OBC$ cân tại $O$.\n$OI$ là trung tuyến nên $OI$ là đường trung trực, phân giác.\n$\\Rightarrow\\widehat{BOI}=\\frac{1}{2}\\widehat{BOC}=60^\\circ$.\nGọi $O'$ là tâm đường tròn ngoại tiếp $\\triangle BOC$.\n$\\Rightarrow O'B=O'C$. Do đó $O'$ thuộc đường trung trực của $BC$, tức là $O'\\in OI$.\nTa có $\\widehat{BOO'}=\\widehat{BOI}=60^\\circ$.\nXét $\\triangle O'BO$ có $O'B=O'O$ (cùng là bán kính đường tròn ngoại tiếp $\\triangle BOC$).\n$\\Rightarrow\\triangle O'BO$ cân tại $O'$.\nMà $\\widehat{BOO'}=60^\\circ$ nên $\\triangle O'BO$ là tam giác đều.\n$\\Rightarrow O'B=OB=R$.\nVậy bán kính đường tròn ngoại tiếp tam giác $BOC$ là $R$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$R$",
+      "$2R$",
+      "$\\frac{R}{2}$",
+      "$R\\sqrt{3}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
