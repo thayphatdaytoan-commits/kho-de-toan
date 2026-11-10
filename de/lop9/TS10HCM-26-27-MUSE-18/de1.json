@@ -1,0 +1,389 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 6 – Đề số 18 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 18,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{2}{3}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$.",
+     "explanation": "Lập bảng giá trị: với $x=-3$ thì $y=6$; với $x=-1,5$ thì $y=1,5$; với $x=0$ thì $y=0$; với $x=1,5$ thì $y=1,5$; với $x=3$ thì $y=6$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-3;6)$, $(-1,5;1,5)$, $(1,5;1,5)$, $(3;6)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -1,
+       "ymax": 7
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = 2x^2/3",
+        "kind": "quad",
+        "a": 0.6666666666666666,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -3,
+         -1.5,
+         0,
+         1.5,
+         3
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm điểm thuộc $(P)$ sao cho hoành độ khác $0$ và gấp $2$ lần tung độ.",
+     "explanation": "Vì hoành độ gấp $2$ lần tung độ nên $x=2y$ hay $y=\\frac{1}{2}x$.\nTa có phương trình $\\frac{1}{2}x=\\frac{2}{3}x^2$.\n$\\frac{2}{3}x^2-\\frac{1}{2}x=0$.\n$x=0$ hoặc $x=\\frac{3}{4}$.\nVì hoành độ khác $0$ nên nhận $x=\\frac{3}{4}$.\nVới $x=\\frac{3}{4}$ suy ra $y=\\frac{3}{8}$.\nVậy tọa độ điểm cần tìm là $\\left(\\frac{3}{4};\\frac{3}{8}\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\left(\\frac{3}{4};\\frac{3}{8}\\right)$",
+      "$(0;0)$",
+      "$\\left(\\frac{3}{4};\\frac{3}{4}\\right)$",
+      "$\\left(\\frac{3}{8};\\frac{3}{4}\\right)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $3x^2-9x+4=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có phương trình $3x^2-9x+4=0$, ($a=3$; $b=-9$; $c=4$).\nTa có $\\Delta=b^2-4ac=(-9)^2-4\\cdot 3\\cdot 4=81-48=33>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $x_1$, $x_2$ là hai nghiệm của phương trình, không giải phương trình hãy tính giá trị của biểu thức $A=x_1(x_1-3x_2)+x_2^2+2x_1x_2$ và $B=x_1^3+x_2^3$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{-(-9)}{3}=3$; $x_1x_2=\\frac{c}{a}=\\frac{4}{3}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=3^2-2\\cdot\\frac{4}{3}=\\frac{19}{3}$.\n$A=x_1(x_1-3x_2)+x_2^2+2x_1x_2$\n$A=x_1^2-3x_1x_2+x_2^2+2x_1x_2$\n$A=(x_1^2+x_2^2)-x_1x_2$\n$A=\\frac{19}{3}-\\frac{4}{3}=5$.\n$B=x_1^3+x_2^3$\n$B=(x_1+x_2)(x_1^2+x_2^2-x_1x_2)$\n$B=3\\cdot\\left(\\frac{19}{3}-\\frac{4}{3}\\right)=15$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$A={{1}}$",
+       "$B={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "5"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Biểu đồ dưới đây biểu diễn số học sinh ở mỗi tổ của lớp 9A của trường THCS Hoàng Văn Thụ. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy lập bảng tần số thống kê số học sinh ở mỗi tổ của lớp 9A và cho biết lớp 9A có bao nhiêu học sinh.",
+     "explanation": "Dựa vào biểu đồ (cột sọc chéo là nam, cột ô vuông là nữ), ta có bảng thống kê:\nTổ 1: nam $4$, nữ $5$, tổng $9$.\nTổ 2: nam $6$, nữ $4$, tổng $10$.\nTổ 3: nam $6$, nữ $5$, tổng $11$.\nTổ 4: nam $5$, nữ $6$, tổng $11$.\nTổng số học sinh lớp 9A là: $9+10+11+11=41$ (học sinh).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "41"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Giáo viên chủ nhiệm thực hiện chọn ngẫu nhiên một em học sinh của lớp 9A để tham gia đội hình rước đuốc trong Hội trại “Ra Khơi - Lần 2” năm 2025. Tính xác suất của các biến cố:\nA: “Học sinh được chọn thuộc tổ 1”.\nB: “Học sinh được chọn là học sinh nữ thuộc tổ 3 hoặc tổ 4”.\n(Kết quả xác suất để ở dạng phân số tối giản).",
+     "explanation": "Không gian mẫu: Chọn ngẫu nhiên $1$ học sinh từ $41$ học sinh.\nSố phần tử của không gian mẫu là $n(\\Omega)=41$.\nXét biến cố $A$: “Học sinh được chọn thuộc tổ 1”.\nSố học sinh thuộc tổ 1 là $4+5=9$ (học sinh).\nSố kết quả thuận lợi cho biến cố $A$ là $n(A)=9$.\nXác suất của biến cố $A$ là $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{9}{41}$.\nXét biến cố $B$: “Học sinh được chọn là học sinh nữ thuộc tổ 3 hoặc tổ 4”.\nSố học sinh nữ thuộc tổ 3 là $5$ học sinh.\nSố học sinh nữ thuộc tổ 4 là $6$ học sinh.\nSố kết quả thuận lợi cho biến cố $B$ là $n(B)=5+6=11$.\nXác suất của biến cố $B$ là $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{11}{41}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "9/41"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "11/41"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một nhóm tình nguyện viên trẻ ở vùng lũ lụt miền Trung muốn xây dựng một bể chứa nước sạch tạm thời cho bà con. Bể có dạng hình hộp chữ nhật với chiều cao là $2$ m. Đáy bể là hình chữ nhật, có chiều dài hơn chiều rộng $2$ m. Để đảm bảo chi phí và lượng nước sạch cho các hộ gia đình, họ muốn diện tích xung quanh bể không vượt quá $32$ m$^2$.",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy viết biểu thức dạng khai triển tính diện tích xung quanh $S$ của bể theo chiều rộng $x$ (m) của đáy bể.",
+     "explanation": "Gọi $x$ (m) là chiều rộng của đáy bể ($x>0$).\nChiều dài của đáy bể là $x+2$ (m).\nChiều cao của bể là $h=2$ (m).\nDiện tích xung quanh của bể là: $S=2\\cdot 2\\cdot(x+2+x)$\n$S=4(2x+2)$\n$S=8x+8$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "8x+8"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính chiều rộng tối đa của bể để đảm bảo diện tích xung quanh không vượt quá $32$ m$^2$ và chi phí xây dựng bể nước với chiều rộng tối đa vừa tìm được. Biết rằng chi phí xây dựng bể được tính dựa vào thể tích của bể và mỗi mét khối thể tích bể có chi phí khoảng $500\\,000$ đồng.",
+     "explanation": "Để diện tích xung quanh không vượt quá $32$ mét vuông, ta có bất phương trình:\n$8x+8\\le 32$\n$8x\\le 24$\n$x\\le 3$.\nVậy chiều rộng tối đa của bể là $3$ (m).\nKhi chiều rộng là $3$ m, chiều dài là $3+2=5$ (m).\nThể tích của bể nước là:\n$V=\\text{dài}\\cdot\\text{rộng}\\cdot\\text{cao}=5\\cdot 3\\cdot 2=30$ (m$^3$).\nChi phí xây dựng bể nước là:\n$T=30\\cdot 500\\,000=15\\,000\\,000$ (đồng).\nKết luận: Chiều rộng tối đa là $3$ m và chi phí là $15\\,000\\,000$ đồng.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Chiều rộng tối đa: {{1}} (m)",
+       "Chi phí xây dựng: {{2}} (đồng)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "15000000"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Một cơ sở sản xuất nước dừa đóng chai sử dụng trái dừa xiêm của Bến Tre để lấy nước và đóng vào chai bán trên thị trường. Mỗi trái dừa xiêm mà cơ sở dùng có thể tích gần bằng một hình cầu với đường kính $18$ cm, trong đó phần vỏ dày $2$ cm. [[IMG:b5-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Bài toán thực tế tổng hợp khối tròn xoay",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Giả sử phần nước dừa bên trong có dạng hình cầu đồng tâm với trái dừa. Tính thể tích phần nước dừa trong mỗi trái dừa. (Kết quả làm tròn đến hàng phần trăm của cm$^3$).",
+     "explanation": "Bán kính của trái dừa (tính cả vỏ) là $R_{\\text{ngoài}}=18:2=9$ (cm).\nVì vỏ dày $2$ cm nên bán kính phần nước dừa bên trong là:\n$R=9-2=7$ (cm).\nThể tích phần nước dừa trong mỗi trái dừa là:\n$V_{\\text{nước}}=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\pi\\cdot 7^3=\\frac{1372}{3}\\pi$ (cm$^3$).\nLàm tròn kết quả đến hàng phần trăm ($\\pi\\approx 3,141\\dots$):\n$V_{\\text{nước}}\\approx 1436,76$ (cm$^3$).\nVậy thể tích phần nước dừa là $1436,76$ cm$^3$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1436,76"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Sau khi lấy nước dừa, cơ sở sử dụng chai thủy tinh đặc biệt có dạng hình trụ, đường kính đáy $7$ cm, chiều cao $12$ cm. Mỗi chai chỉ chứa $90\\%$ thể tích của nó để tránh tràn khi đóng nắp. Hỏi cần ít nhất bao nhiêu chai để chứa hết nước dừa của $100$ trái dừa xiêm có kích thước như trên?\nBiết công thức tính thể tích hình cầu là $V_{\\text{cầu}}=\\frac{4}{3}\\pi R^3$, với $R$ là bán kính hình cầu và công thức tính thể tích hình trụ là $V_{\\text{trụ}}=\\pi r^2h$, với $r$ là bán kính đáy hình trụ, $h$ là chiều cao hình trụ.",
+     "explanation": "Bán kính đáy của chai thủy tinh là $r=7:2=3,5$ (cm).\nThể tích toàn bộ của mỗi chai thủy tinh là:\n$V_{\\text{chai}}=\\pi r^2h=\\pi\\cdot(3,5)^2\\cdot 12=147\\pi$ (cm$^3$).\nThể tích thực tế nước dừa được chứa trong mỗi chai ($90\\%$ thể tích chai) là:\n$V_{\\text{chứa}}=147\\pi\\cdot 90\\%=132,3\\pi$ (cm$^3$).\nTổng thể tích nước dừa thu được từ $100$ trái dừa là:\n$V_{\\text{tổng}}=100\\cdot\\frac{1372}{3}\\pi=\\frac{137200}{3}\\pi$ (cm$^3$).\nSố chai cần thiết để chứa hết lượng nước dừa là:\n$n=\\frac{V_{\\text{tổng}}}{V_{\\text{chứa}}}=\\frac{\\frac{137200}{3}\\pi}{132,3\\pi}=\\frac{137200}{396,9}\\approx 345,68$.\nVì số chai phải là số nguyên dương nên ta cần ít nhất $346$ chai.\nVậy số chai cần dùng là $346$ chai.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "346"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Lớp 9A có $37$ học sinh gồm $20$ bạn nam. Nhân dịp sinh nhật bạn Anh trong lớp, các bạn đều có gửi lời chúc và nhiều món quà cho bạn Anh. Giáo viên tặng cho bạn Anh một phần quà, đồng thời cũng tặng cho mỗi bạn còn lại nếu là nam nhận $3$ cái bánh và nếu là nữ thì nhận $2$ viên kẹo màu xanh hoặc $4$ viên kẹo màu đỏ. Biết số bánh bằng số kẹo. Hỏi bạn Anh là nam hay nữ?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hỏi bạn Anh là nam hay nữ?",
+     "explanation": "Số học sinh nữ của lớp 9A là $37-20=17$ (học sinh).\nTa xét hai trường hợp đối với giới tính của bạn Anh.\nTrường hợp 1: Giả sử bạn Anh là nam.\nSố bạn nam còn lại trong lớp (được nhận bánh) là $20-1=19$ (bạn).\nTổng số bánh các bạn nam nhận được là $19\\cdot 3=57$ (cái).\nSố bạn nữ còn lại trong lớp (được nhận kẹo) là $17$ (bạn).\nGọi $a$ là số bạn nữ nhận $2$ viên kẹo và $b$ là số bạn nữ nhận $4$ viên kẹo ($a,b\\in\\mathbb{N}$).\nTổng số bạn nữ là $a+b=17$.\nTổng số kẹo nhận được là $2a+4b$.\nVì số bánh bằng số kẹo nên ta có phương trình: $2a+4b=57$\n$2(a+2b)=57$.\nTa thấy vế trái $2(a+2b)$ là số chẵn, còn vế phải $57$ là số lẻ.\nĐiều này vô lý, nên bạn Anh không thể là nam.\nTrường hợp 2: Giả sử bạn Anh là nữ.\nSố bạn nam còn lại trong lớp là $20$ (bạn).\nTổng số bánh các bạn nam nhận được là $20\\cdot 3=60$ (cái).\nSố bạn nữ còn lại trong lớp (trừ bạn Anh) là $17-1=16$ (bạn).\nGọi $x$ (bạn) là số bạn nữ nhận $2$ viên kẹo và $y$ (bạn) là số bạn nữ nhận $4$ viên kẹo ($x,y\\in\\mathbb{N}$).\nVì tổng số bạn nữ nhận kẹo là $16$ và tổng số kẹo bằng số bánh ($60$ cái), ta có hệ phương trình:\n$\\begin{cases}x+y=16\\\\2x+4y=60\\end{cases}\\Rightarrow\\begin{cases}x=2\\\\y=14\\end{cases}$\nVì tìm được số lượng học sinh là số tự nhiên hợp lý nên giả thiết này đúng.\nVậy bạn Anh là nữ.",
+     "points": 1.0,
+     "type": "essay"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc ở ý b viết góc chung của $\\triangle OHK$ và $\\triangle OIM$ là “$\\widehat{HOM}$”, nhưng $H$ nằm trên $OM$ nên $H$, $O$, $M$ thẳng hàng và $\\widehat{HOM}$ suy biến. Góc chung đúng là $\\widehat{HOK}=\\widehat{IOM}$. Bản soạn đã sửa ký hiệu này; kết luận đồng dạng và toàn bộ chứng minh còn lại không đổi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho nửa đường tròn tâm $O$ đường kính $AB$. Trên tiếp tuyến tại $B$ của nửa đường tròn tâm $O$ lấy điểm $M$. Qua $M$ kẻ tiếp tuyến tại $C$ của nửa đường tròn này ($C$ khác $B$). Đoạn thẳng $AM$ cắt nửa đường tròn tâm $O$ tại $D$ ($D$ khác $A$). Gọi $I$ là trung điểm $AD$, $H$ là giao điểm của $OM$ và $BC$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh rằng tứ giác $MCOB$ nội tiếp và tứ giác $MCIO$ nội tiếp.",
+     "explanation": "Ta có $OA=OD=R$ nên $\\triangle OAD$ cân tại $O$.\nMà $I$ là trung điểm của $AD$ nên $OI$ là đường trung tuyến đồng thời là đường cao.\nSuy ra $OI\\perp AD\\Rightarrow\\widehat{MIO}=90^\\circ$.\nXét tứ giác $MCOB$:\nTa có $\\triangle MCO$ vuông tại $C$ (do $MC$ là tiếp tuyến).\nSuy ra $\\triangle MCO$ nội tiếp đường tròn đường kính $MO$. $(1)$\nTa có $\\triangle MBO$ vuông tại $B$ (do $MB$ là tiếp tuyến).\nSuy ra $\\triangle MBO$ nội tiếp đường tròn đường kính $MO$. $(2)$\nTừ $(1)$ và $(2)$ suy ra $4$ điểm $M$, $C$, $O$, $B$ cùng thuộc một đường tròn đường kính $MO$.\nVậy tứ giác $MCOB$ nội tiếp.\nXét tứ giác $MCIO$:\nTa có $\\triangle MCO$ vuông tại $C$ (chứng minh trên).\nSuy ra $\\triangle MCO$ nội tiếp đường tròn đường kính $MO$. $(3)$\nTa có $\\triangle MIO$ vuông tại $I$ (do $OI\\perp AD$).\nSuy ra $\\triangle MIO$ nội tiếp đường tròn đường kính $MO$. $(4)$\nTừ $(3)$ và $(4)$ suy ra $4$ điểm $M$, $C$, $I$, $O$ cùng thuộc một đường tròn đường kính $MO$.\nVậy tứ giác $MCIO$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $K$ là giao điểm của tia $OI$ và đường thẳng $BC$. Chứng minh rằng $OH\\cdot OM=OC^2$ và $KD$ là tiếp tuyến của nửa đường tròn tâm $O$.",
+     "explanation": "Ta có $\\begin{cases}MB=MC\\text{ (tính chất 2 tiếp tuyến cắt nhau)}\\\\OB=OC=R\\end{cases}$\n$\\Rightarrow OM$ là trung trực của $BC$\n$\\Rightarrow OM\\perp BC$ tại $H$.\nXét $\\triangle OHC$ và $\\triangle OMC$:\nTa có $\\begin{cases}\\widehat{MOC}\\text{ (góc chung)}\\\\\\widehat{OHC}=\\widehat{OCM}=90^\\circ\\end{cases}$\n$\\Rightarrow\\triangle OHC\\sim\\triangle OMC$ (g-g)\n$\\Rightarrow\\frac{OH}{OC}=\\frac{OC}{OM}\\Rightarrow OH\\cdot OM=OC^2$.\nTa có $OC=OD=R$ nên $OH\\cdot OM=OD^2$.\nXét $\\triangle OHK$ và $\\triangle OIM$:\nTa có $\\begin{cases}\\widehat{HOK}=\\widehat{IOM}\\text{ (góc chung)}\\\\\\widehat{OHK}=\\widehat{OIM}=90^\\circ\\end{cases}$\n$\\Rightarrow\\triangle OHK\\sim\\triangle OIM$ (g-g)\n$\\Rightarrow\\frac{OH}{OI}=\\frac{OK}{OM}\\Rightarrow OH\\cdot OM=OI\\cdot OK$.\nVậy $OI\\cdot OK=OD^2\\Rightarrow\\frac{OI}{OD}=\\frac{OD}{OK}$.\nXét $\\triangle OID$ và $\\triangle ODK$:\nTa có $\\begin{cases}\\widehat{KOD}\\text{ (góc chung)}\\\\\\frac{OI}{OD}=\\frac{OD}{OK}\\end{cases}$\n$\\Rightarrow\\triangle OID\\sim\\triangle ODK$ (c-g-c)\n$\\Rightarrow\\widehat{ODK}=\\widehat{OID}=90^\\circ$.\n$\\Rightarrow KD\\perp OD$ tại $D$.\nVậy $KD$ là tiếp tuyến của nửa đường tròn tâm $O$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Giả sử $BM=AB=2R$. Hãy tính phần diện tích của tam giác $KAD$ không thuộc nửa đường tròn tâm $O$ theo $R$.",
+     "explanation": "Ta có $\\triangle ABM$ vuông tại $B$ và $AB=BM=2R$.\nSuy ra $\\triangle ABM$ vuông cân tại $B\\Rightarrow\\widehat{MAB}=45^\\circ$.\n$\\triangle OAD$ có $OA=OD=R$ nên cân tại $O$.\n$\\Rightarrow\\widehat{ODA}=\\widehat{DAO}=45^\\circ$.\n$\\Rightarrow\\triangle OAD$ vuông cân tại $O$.\nMà $OI$ là trung tuyến suy $OI$ là trung trực của $AD$, nên $KA=KD$.\nXét $\\triangle OAK$ và $\\triangle ODK$\n$\\begin{cases}OA=OD=R\\\\OK\\text{ chung}\\\\KA=KD\\end{cases}$\n$\\Rightarrow\\triangle OAK=\\triangle ODK$ (c-c-c).\n$\\Rightarrow\\widehat{OAK}=\\widehat{ODK}=90^\\circ$ (hai góc tương ứng).\nXét tứ giác $AKDO$ có:\n$\\begin{cases}\\widehat{AOD}=90^\\circ\\\\\\widehat{ODK}=90^\\circ\\\\\\widehat{OAK}=90^\\circ\\end{cases}$\nSuy ra tứ giác $AKDO$ là hình chữ nhật.\nLại có $OA=OD=R$ nên $AKDO$ là hình vuông.\nDiện tích hình vuông $AKDO$ là: $S_{AKDO}=OA^2=R^2$.\nDiện tích hình quạt tròn $AOD$ (ứng với góc ở tâm $90^\\circ$) là:\n$S_q=\\frac{\\pi R^2\\cdot 90}{360}=\\frac{\\pi R^2}{4}$.\nTứ giác $AKDO$ gồm tam giác $KAD$ và tam giác $OAD$; hình quạt $AOD$ gồm hình viên phân giới hạn bởi dây $AD$ và tam giác $OAD$, nên phần diện tích của tam giác $KAD$ không thuộc nửa đường tròn bằng diện tích tứ giác $AKDO$ trừ đi diện tích hình quạt tròn $AOD$.\n$S=S_{AKDO}-S_q=R^2-\\frac{\\pi R^2}{4}$.\nVậy diện tích cần tìm là $R^2-\\frac{\\pi R^2}{4}$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$R^2-\\frac{\\pi R^2}{4}$",
+      "$\\frac{R^2}{2}-\\frac{\\pi R^2}{4}$",
+      "$R^2-\\frac{\\pi R^2}{2}$",
+      "$\\frac{\\pi R^2}{4}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
