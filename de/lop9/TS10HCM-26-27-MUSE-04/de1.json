@@ -1,0 +1,439 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 2 – Đề số 4 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "no": 4,
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "khong_co_loi_giai_goc",
+     "ghi_chu": "File PDF để trống mục 'Lời giải' của Bài này (chỉ có ô □, không có lời giải viết sẵn) — khác với Đề 1–3 trong cùng bộ (đủ lời giải cả 7 bài). Đáp án do bản soạn tự giải độc lập và kiểm chứng bằng sympy."
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{3}{2}x^2$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$ trên hệ trục tọa độ.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=6$; với $x=-1$ thì $y=\\frac{3}{2}$; với $x=0$ thì $y=0$; với $x=1$ thì $y=\\frac{3}{2}$; với $x=2$ thì $y=6$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, đi qua các điểm $(-2;6)$, $(-1;\\frac{3}{2})$, $(1;\\frac{3}{2})$, $(2;6)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -1,
+       "ymax": 7
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = 3/2 x^2",
+        "kind": "quad",
+        "a": 1.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm tọa độ các điểm thuộc $(P)$ có tung độ bằng $24$.",
+     "explanation": "Điểm thuộc $(P)$ có tung độ bằng $24$ thì $y=24$.\nTa có phương trình $\\frac{3}{2}x^2=24$, hay $x^2=16$.\nSuy ra $x=4$ hoặc $x=-4$.\nVới $x=4$ thì $y=24$; với $x=-4$ thì $y=24$.\nVậy các điểm cần tìm là $(4;24)$ và $(-4;24)$.",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$({{1}};{{2}})$",
+       "$({{3}};{{4}})$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "4"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "24"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "-4"
+       },
+       {
+        "id": "4",
+        "loai": "so",
+        "dap_an": "24"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "khong_co_loi_giai_goc",
+     "ghi_chu": "File PDF để trống mục 'Lời giải' của Bài này (chỉ có ô □, không có lời giải viết sẵn) — khác với Đề 1–3 trong cùng bộ (đủ lời giải cả 7 bài). Đáp án do bản soạn tự giải độc lập và kiểm chứng bằng sympy."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $-3x^2+2x+4=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Ta có $-3x^2+2x+4=0$ với $a=-3$, $b=2$, $c=4$.\n$\\Delta=b^2-4ac=2^2-4\\cdot(-3)\\cdot 4=4+48=52>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $A=\\frac{2x_1}{x_2}+\\frac{2x_2}{x_1}$.",
+     "explanation": "Theo định lý Viète: $x_1+x_2=\\frac{-b}{a}=\\frac{2}{3}$; $x_1x_2=\\frac{c}{a}=\\frac{4}{-3}=-\\frac{4}{3}$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{2}{3}\\right)^2-2\\cdot\\left(-\\frac{4}{3}\\right)=\\frac{4}{9}+\\frac{8}{3}=\\frac{28}{9}$.\nBiến đổi biểu thức $A$:\n$A=\\frac{2x_1}{x_2}+\\frac{2x_2}{x_1}=\\frac{2(x_1^2+x_2^2)}{x_1x_2}$\n$A=\\frac{2\\cdot\\frac{28}{9}}{-\\frac{4}{3}}=\\frac{56}{9}\\cdot\\left(-\\frac{3}{4}\\right)=-\\frac{14}{3}$.\nVậy $A=-\\frac{14}{3}$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "-14/3"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "khong_co_loi_giai_goc",
+     "ghi_chu": "File PDF để trống mục 'Lời giải' của Bài này (chỉ có ô □, không có lời giải viết sẵn) — khác với Đề 1–3 trong cùng bộ (đủ lời giải cả 7 bài). Đáp án do bản soạn tự giải độc lập và kiểm chứng bằng sympy."
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Trong một siêu thị tiện lợi có ba khách hàng Phúc, Bình, An đến quầy thu ngân cùng một lúc. Nhân viên thu ngân sẽ chọn lần lượt một khách hàng để thanh toán trước.",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B4.D05",
+   "dang_toan_web": "Xác suất của biến cố có liên quan tới phép thử.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Có tất cả bao nhiêu kết quả có thể xảy ra? Liệt kê tất cả các kết quả có thể xảy ra của phép thử trên.",
+     "explanation": "Phép thử là sắp xếp thứ tự thanh toán của ba khách hàng Phúc, Bình, An.\nSố kết quả có thể xảy ra là $3!=6$.\nKhông gian mẫu là:\n$\\Omega=\\{$(Phúc; Bình; An), (Phúc; An; Bình), (Bình; Phúc; An), (Bình; An; Phúc), (An; Phúc; Bình), (An; Bình; Phúc)$\\}$.\nVậy có tất cả $6$ kết quả có thể xảy ra.",
+     "points": 0.75,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính xác suất của mỗi biến cố sau:\n$A$: “Phúc được thanh toán cuối cùng”.\n$B$: “An được thanh toán trước Bình”.",
+     "explanation": "Không gian mẫu có $n(\\Omega)=6$ kết quả.\nXét biến cố $A$: “Phúc được thanh toán cuối cùng”.\nCác kết quả thuận lợi cho $A$ là (Bình; An; Phúc) và (An; Bình; Phúc), nên $n(A)=2$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{2}{6}=\\frac{1}{3}$.\nXét biến cố $B$: “An được thanh toán trước Bình”.\nCác kết quả thuận lợi cho $B$ là (Phúc; An; Bình), (An; Phúc; Bình) và (An; Bình; Phúc), nên $n(B)=3$.\nXác suất của biến cố $B$ là: $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{3}{6}=\\frac{1}{2}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/3"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "1/2"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc viết S = x.15 + x.28 + x^2 = x^2+43x là SAI: sân bóng rổ trong hình là 26 m x 14 m nên hai hình chữ nhật của lối đi là x.14 và x.(26+x), diện tích đúng là S = x^2+40x. Hơn nữa phương trình của lời giải gốc x^2+43x=129 không cho x=3 (3^2+43.3=138, nghiệm đúng là x≈2,81); với S đúng thì x^2+40x=129 cho x=3 (nhận) hoặc x=-43 (loại), khớp số liệu đề. Đáp số cuối x=3 và quãng đường 46 m của lời giải gốc vẫn đúng; bản soạn sửa công thức S, nghiệm loại (-43 thay cho -46) và cách tính quãng đường thành (14+x)+(26+x)=17+29=46 (m). Đã kiểm chứng bằng tính toán độc lập (sympy) và đối chiếu kích thước trên hình render trang 22."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước như hình vẽ. Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi $x$ là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi. [[IMG:b4-san-bong.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức $S$ biểu diễn theo $x$ diện tích của lối đi.",
+     "explanation": "Sân bóng rổ có chiều dài $26$ (m) và chiều rộng $14$ (m).\nLối đi gồm hai hình chữ nhật:\nHình chữ nhật dọc bên trái có chiều rộng $x$ và chiều dài $14$ (m), diện tích là $14x$ ($\\text{m}^2$).\nHình chữ nhật ngang phía dưới có chiều rộng $x$ và chiều dài $26+x$ (m), diện tích là $x(26+x)=26x+x^2$ ($\\text{m}^2$).\nVậy diện tích của lối đi là:\n$S=14x+26x+x^2=x^2+40x$ ($\\text{m}^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "x^2+40x"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Bạn An đi bộ từ cửa vào đến cửa ra và đi dọc hết các cạnh của lối đi. Hãy tính quãng đường An đã đi, biết diện tích của lối đi theo thiết kế là $129\\text{ m}^2$?",
+     "explanation": "Ta có phương trình $x^2+40x=129$.\n$x^2+40x-129=0$.\nSuy ra $x=3$ (nhận) hoặc $x=-43$ (loại vì $x>0$).\nBạn An đi dọc theo cạnh ngoài của lối đi từ cửa vào (đầu trên của lối đi dọc) đến cửa ra (đầu phải của lối đi ngang):\nĐoạn dọc dài $14+x=14+3=17$ (m).\nĐoạn ngang dài $26+x=26+3=29$ (m).\nQuãng đường An đã đi là $17+29=46$ (m).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$s={{1}}$ ($\\text{m}$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "46"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Cho hình bên là một thúng gạo vun đầy. Thúng có dạng nửa hình cầu với đường kính $50\\text{ cm}$, phần gạo vun lên có dạng hình nón cao $15\\text{ cm}$. [[IMG:b5-thung-gao.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích phần gạo trong thúng (làm tròn đến hàng phần mười).",
+     "explanation": "Bán kính của thúng gạo là $50:2=25$ (cm).\nThể tích phần gạo có dạng nửa hình cầu là:\n$V_1=\\frac{2}{3}\\cdot\\pi\\cdot 25^3=\\frac{31250}{3}\\pi$ ($\\text{cm}^3$).\nThể tích phần gạo vun lên có dạng hình nón là:\n$V_2=\\frac{1}{3}\\cdot\\pi\\cdot 25^2\\cdot 15=3125\\pi$ ($\\text{cm}^3$).\nThể tích phần gạo trong thúng là:\n$V=V_1+V_2=\\frac{31250}{3}\\pi+3125\\pi=\\frac{40625}{3}\\pi\\approx 42542,4$ ($\\text{cm}^3$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$V={{1}}$ ($\\text{cm}^3$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "42542,4"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nhà Dung dùng lon sữa bò cũ có dạng hình trụ (bán kính đáy là $5\\text{ cm}$, chiều cao $15\\text{ cm}$) để đong gạo. Biết mỗi ngày ăn $5$ lon, mỗi lần đong chiếm $90\\%$ thể tích lon. Hỏi lượng gạo trên ăn được nhiều nhất bao nhiêu ngày?",
+     "explanation": "Thể tích của lon sữa bò là:\n$V_{lon}=\\pi\\cdot 5^2\\cdot 15=375\\pi$ ($\\text{cm}^3$).\nThể tích gạo mỗi lần đong là:\n$375\\pi\\cdot 90\\%=337,5\\pi$ ($\\text{cm}^3$).\nThể tích gạo nhà Dung ăn mỗi ngày là:\n$337,5\\pi\\cdot 5=1687,5\\pi$ ($\\text{cm}^3$).\nSố ngày lượng gạo trên ăn được là:\n$\\frac{40625}{3}\\pi:1687,5\\pi\\approx 8,02$ (ngày).\nVậy lượng gạo trên ăn được nhiều nhất là $8$ ngày.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "8"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Lớp 9A chọn ra $\\frac{1}{4}$ số nam và $\\frac{1}{3}$ số nữ tham gia kéo co. Biết số nam và nữ tham gia bằng nhau và còn lại $20$ học sinh tham gia cổ động. Tìm số học sinh nam và nữ của lớp 9A.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B5.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tìm số học sinh nam và số học sinh nữ của lớp 9A.",
+     "explanation": "Gọi $x$ (học sinh) là số học sinh nam của lớp 9A ($x\\in\\mathbb{N}^*$).\nGọi $y$ (học sinh) là số học sinh nữ của lớp 9A ($y\\in\\mathbb{N}^*$).\nSố học sinh nam tham gia kéo co là $\\frac{1}{4}x$ (học sinh).\nSố học sinh nữ tham gia kéo co là $\\frac{1}{3}y$ (học sinh).\nVì số nam và nữ tham gia bằng nhau nên ta có phương trình:\n$\\frac{1}{4}x=\\frac{1}{3}y$ (1).\nSố học sinh nam và nữ còn lại tham gia cổ động lần lượt là\n$x-\\frac{1}{4}x=\\frac{3}{4}x$ và $y-\\frac{1}{3}y=\\frac{2}{3}y$.\nVì tổng số học sinh cổ động là $20$ nên ta có phương trình:\n$\\frac{3}{4}x+\\frac{2}{3}y=20$ (2).\nTừ (1) và (2) ta có hệ phương trình:\n$\\begin{cases} \\frac{1}{4}x-\\frac{1}{3}y=0 \\\\ \\frac{3}{4}x+\\frac{2}{3}y=20 \\end{cases}$ $\\Rightarrow \\begin{cases} x=16 \\\\ y=12 \\end{cases}$.\nVậy số học sinh nam của lớp 9A là $16$ và số học sinh nữ là $12$.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$x={{1}}$ (học sinh)",
+       "$y={{2}}$ (học sinh)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "16"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "12"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "sua_loi_nguon",
+     "ghi_chu": "Lời giải gốc câu b viết góc HAM + góc ABM = 90 độ là SAI ký hiệu: H, A, M thẳng hàng (AM là đường cao từ A) nên góc HAM không có nghĩa; đúng là góc BAM + góc ABM = 90 độ (tam giác ABM vuông tại M), với góc IAD = góc BAM. Bản soạn đã sửa HAM thành BAM, các bước còn lại giữ nguyên lời giải gốc. Đã kiểm chứng bằng tính toán độc lập."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho tam giác $ABC$ ($AC<AB$) có ba góc nhọn và có ba đường cao $AM, BE, CD$ cắt nhau tại $H$. Gọi $I$ và $O$ lần lượt là trung điểm của $AH$ và $BC$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp kết hợp tiếp tuyến",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh: tứ giác $ADHE$ nội tiếp đường tròn tâm $I$ đường kính $AH$ và tứ giác $BCED$ nội tiếp đường tròn tâm $O$ đường kính $BC$.",
+     "explanation": "$\\triangle ADH$ vuông tại $D$ (vì $CD$ là đường cao)\nsuy ra $\\triangle ADH$ nội tiếp đường tròn đường kính $AH$ (1).\n$\\triangle AEH$ vuông tại $E$ (vì $BE$ là đường cao)\nsuy ra $\\triangle AEH$ nội tiếp đường tròn đường kính $AH$ (2).\nTừ (1) và (2) suy ra $4$ điểm $A, D, H, E$ cùng thuộc đường tròn đường kính $AH$.\nSuy ra tứ giác $ADHE$ nội tiếp đường tròn tâm $I$ đường kính $AH$.\n$\\triangle BDC$ vuông tại $D$ (vì $CD$ là đường cao)\nsuy ra $\\triangle BDC$ nội tiếp đường tròn đường kính $BC$ (3).\n$\\triangle BEC$ vuông tại $E$ (vì $BE$ là đường cao)\nsuy ra $\\triangle BEC$ nội tiếp đường tròn đường kính $BC$ (4).\nTừ (3) và (4) suy ra $4$ điểm $B, D, E, C$ cùng thuộc đường tròn đường kính $BC$.\nSuy ra tứ giác $BCED$ nội tiếp đường tròn tâm $O$ đường kính $BC$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh: $ID$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$ và tứ giác $OMED$ nội tiếp.",
+     "explanation": "Xét $\\triangle ADH$ vuông tại $D$ có $DI$ là đường trung tuyến ứng với cạnh huyền $AH$\n$\\Rightarrow ID=IA=\\frac{AH}{2}$ $\\Rightarrow \\triangle IAD$ cân tại $I$ $\\Rightarrow \\widehat{IAD}=\\widehat{IDA}$.\nXét $\\triangle BDC$ vuông tại $D$ có $DO$ là đường trung tuyến ứng với cạnh huyền $BC$\n$\\Rightarrow OD=OB=\\frac{BC}{2}$ $\\Rightarrow \\triangle OBD$ cân tại $O$ $\\Rightarrow \\widehat{OBD}=\\widehat{ODB}$.\nMà $\\widehat{IAD}=\\widehat{BAM}$ (vì $I$ thuộc $AH$ và $AM$ là đường cao từ $A$) và $\\widehat{OBD}=\\widehat{ABM}$.\n$\\triangle ABM$ vuông tại $M$ nên $\\widehat{BAM}+\\widehat{ABM}=90^\\circ$.\nSuy ra $\\widehat{IDA}+\\widehat{ODB}=90^\\circ$.\nTa có $\\widehat{IDO}=180^\\circ-(\\widehat{IDA}+\\widehat{ODB})=180^\\circ-90^\\circ=90^\\circ$.\n$\\Rightarrow ID\\perp OD$ tại $D$ thuộc đường tròn $(O)$.\nVậy $ID$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$.\nChứng minh tứ giác $OMED$ nội tiếp:\nXét $\\triangle IDO$ và $\\triangle IEO$ có:\n$ID=IE=R_{(I)}$ (cùng là bán kính đường tròn tâm $I$),\n$OD=OE=R_{(O)}$ (cùng là bán kính đường tròn tâm $O$),\n$OI$ là cạnh chung.\n$\\Rightarrow \\triangle IDO=\\triangle IEO$ (c-c-c)\n$\\Rightarrow \\widehat{IEO}=\\widehat{IDO}=90^\\circ$.\n$\\triangle IEO$ vuông tại $E$ suy ra $\\triangle IEO$ nội tiếp đường tròn đường kính $OI$ (5).\n$\\triangle IDO$ vuông tại $D$ suy ra $\\triangle IDO$ nội tiếp đường tròn đường kính $OI$ (6).\n$\\triangle IMO$ vuông tại $M$ suy ra $\\triangle IMO$ nội tiếp đường tròn đường kính $OI$ (7).\nTừ (5), (6), (7) suy ra $5$ điểm $I, D, O, M, E$ cùng thuộc đường tròn đường kính $OI$.\nSuy ra tứ giác $OMED$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính theo $R$ diện tích của tam giác $ABC$, biết $\\widehat{ABC}=45^\\circ$, $\\widehat{ACB}=60^\\circ$ và $BC=2R$.",
+     "explanation": "$\\triangle ABM$ vuông tại $M$ có:\n$\\tan\\widehat{ABC}=\\frac{AM}{BM} $\\Rightarrow BM=\\frac{AM}{\\tan 45^\\circ}$.\n$\\triangle ACM$ vuông tại $M$ có:\n$\\tan\\widehat{ACB}=\\frac{AM}{CM} $\\Rightarrow CM=\\frac{AM}{\\tan 60^\\circ}$.\nSuy ra $BM+CM=\\frac{AM}{\\tan 45^\\circ}+\\frac{AM}{\\tan 60^\\circ}$.\n$2R=AM\\left(\\frac{1}{\\tan 45^\\circ}+\\frac{1}{\\tan 60^\\circ}\\right)$.\n$2R=AM\\left(1+\\frac{1}{\\sqrt{3}}\\right)$.\n$2R=AM\\cdot\\frac{\\sqrt{3}+1}{\\sqrt{3}}$.\n$AM=\\frac{2R\\sqrt{3}}{\\sqrt{3}+1}=R\\sqrt{3}(\\sqrt{3}-1)=R(3-\\sqrt{3})$.\nDiện tích tam giác $ABC$ là:\n$S=\\frac{1}{2}\\cdot BC\\cdot AM=\\frac{1}{2}\\cdot 2R\\cdot R(3-\\sqrt{3})$.\nVậy $S=R^2(3-\\sqrt{3})$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$R^2(3-\\sqrt{3})$",
+      "$R^2(3+\\sqrt{3})$",
+      "$2R^2(3-\\sqrt{3})$",
+      "$\\frac{R^2(3-\\sqrt{3})}{2}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ],
+ "flags": []
+}
