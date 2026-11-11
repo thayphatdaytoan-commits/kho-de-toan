@@ -1,0 +1,356 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 8 – Đề số 24 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 24,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{x^2}{3}$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Lập bảng giá trị: với $x=-6$ thì $y=12$; với $x=-3$ thì $y=3$; với $x=0$ thì $y=0$; với $x=3$ thì $y=3$; với $x=6$ thì $y=12$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-6;12)$, $(-3;3)$, $(0;0)$, $(3;3)$, $(6;12)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -7,
+       "xmax": 7,
+       "ymin": -1,
+       "ymax": 13
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/3",
+        "kind": "quad",
+        "a": 0.3333333333333333,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -6,
+         -3,
+         0,
+         3,
+         6
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm $M$ thuộc đồ thị $(P)$ sao cho $|y|=|x|$.",
+     "explanation": "Vì điểm $M$ thuộc $(P)$ nên $y=\\frac{x^2}{3}$. Theo giả thiết $|y|=|x|$ nên $y=x$ hoặc $y=-x$.\nTrường hợp 1: $y=x$. Ta có $\\frac{x^2}{3}=x$, suy ra $x^2-3x=0$, hay $x(x-3)=0$, nên $x=0$ hoặc $x=3$. Với $x=0$ thì $y=0$; với $x=3$ thì $y=3$.\nTrường hợp 2: $y=-x$. Ta có $\\frac{x^2}{3}=-x$, suy ra $x^2+3x=0$, hay $x(x+3)=0$, nên $x=0$ hoặc $x=-3$. Với $x=0$ thì $y=0$; với $x=-3$ thì $y=3$.\nVậy các điểm cần tìm là $(0;0)$, $(3;3)$ và $(-3;3)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(0;0)$, $(3;3)$ và $(-3;3)$",
+      "$(3;3)$ và $(-3;3)$",
+      "$(0;0)$ và $(3;3)$",
+      "$(0;0)$, $(3;-3)$ và $(-3;-3)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $-3x^2+2x+4=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Ta có $-3x^2+2x+4=0$ ($a=-3$; $b=2$; $c=4$).\n$\\Delta=b^2-4ac=2^2-4\\cdot(-3)\\cdot 4=4+48=52>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $x_1$, $x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị của biểu thức $A=3x_2^2+2026x_1+2024x_2-4$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{2}{3}$; $x_1x_2=\\frac{c}{a}=-\\frac{4}{3}$.\nVì $x_2$ là nghiệm của phương trình nên $-3x_2^2+2x_2+4=0$, suy ra $3x_2^2-4=2x_2$.\nThay vào biểu thức $A$, ta được:\n$A=2x_2+2026x_1+2024x_2$\n$A=2026x_1+2026x_2$\n$A=2026(x_1+x_2)=2026\\cdot\\frac{2}{3}=\\frac{4052}{3}$.\nVậy $A=\\frac{4052}{3}\\approx 1350,67$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "4052/3|1350,67"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Vào một buổi chiều thứ Bảy đầy hứng khởi tại Trường THCS Hòa Bình, các học sinh đã rất tích cực tham gia buổi khảo sát về câu lạc bộ ngoại khóa “Sáng tạo Robot”. Đây là một sân chơi bổ ích, giúp học sinh rèn luyện kỹ năng tư duy logic, làm việc nhóm và khám phá công nghệ hiện đại. Sau buổi khảo sát ban đầu, nhà trường đã thống kê được số lượng học sinh đăng ký tham gia câu lạc bộ theo giới tính và từng khối lớp. Biểu đồ cột kép hình bên cho thấy số lượng học sinh tham gia theo từng khối lớp. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Ban tổ chức quyết định chọn ngẫu nhiên một học sinh trong toàn bộ những học sinh đã đăng ký tham gia câu lạc bộ sau buổi khảo sát thứ Bảy. Tính xác suất của biến cố sau: $A$: “Học sinh được chọn là học sinh nữ thuộc khối lớp có sự chênh lệch giữa nam và nữ lớn nhất”.",
+     "explanation": "Số học sinh đăng ký tham gia câu lạc bộ ban đầu là:\n$n(\\Omega)=18+22+20+25+15+19+12+14=145$ (học sinh).\nSự chênh lệch số lượng học sinh nam và nữ của từng khối là:\nKhối 6: $22-18=4$ (học sinh).\nKhối 7: $25-20=5$ (học sinh).\nKhối 8: $19-15=4$ (học sinh).\nKhối 9: $14-12=2$ (học sinh).\nVì khối 7 có sự chênh lệch giữa nam và nữ lớn nhất nên số học sinh nữ thuộc khối 7 là $25$ học sinh.\nSố kết quả thuận lợi cho biến cố $A$ là $n(A)=25$.\nXác suất của biến cố $A$ là $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{25}{145}=\\frac{5}{29}$.\nVậy xác suất của biến cố $A$ là $\\frac{5}{29}$.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "5/29"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Đến thứ Tư tuần kế tiếp, câu lạc bộ “Sáng tạo Robot” lại đón nhận thêm những thành viên mới đầy nhiệt huyết đăng ký tham gia: một nhóm bạn nam lớp 8, mang theo những ý tưởng robot điều khiển từ xa cực kỳ sáng tạo và một nhóm bạn nữ lớp 9, với niềm đam mê thiết kế giao diện robot thân thiện và bắt mắt. Biết rằng tổng cộng có 20 bạn học sinh mới gia nhập câu lạc bộ trong khoảng thời gian từ thứ Bảy đến thứ Tư. Sau khi cập nhật danh sách, thầy phụ trách nhận thấy rằng nếu chọn ngẫu nhiên một thành viên trong toàn bộ câu lạc bộ (cả những bạn đăng ký hôm thứ Bảy và những bạn mới), xác suất chọn được một bạn nam thuộc khối 8 là $\\frac{2}{15}$. Hỏi có bao nhiêu bạn nam lớp 8 và bao nhiêu bạn nữ lớp 9 đã đăng ký tham gia câu lạc bộ trong tuần vừa qua (tính từ sau buổi khảo sát thứ Bảy đến hết ngày thứ Tư)?",
+     "explanation": "Gọi $x$ (học sinh) là số bạn nam lớp 8 đăng ký thêm, $y$ (học sinh) là số bạn nữ lớp 9 đăng ký thêm ($x,y\\in\\mathbb{N}$).\nTổng số học sinh mới gia nhập là $x+y$ (học sinh).\nTổng số bạn nam lớp 8 sau khi nhận thêm là $15+x$ (học sinh).\nTổng số học sinh của câu lạc bộ sau khi nhận thêm là $145+20=165$ (học sinh).\nVì tổng cộng có $20$ bạn học sinh mới gia nhập nên ta có:\n$x+y=20$. (1)\nVì xác suất chọn được một bạn nam thuộc khối 8 là $\\frac{2}{15}$ nên ta có:\n$\\frac{15+x}{165}=\\frac{2}{15}$. (2)\nTừ (1) và (2), ta có hệ phương trình:\n$x+y=20$\n$\\frac{15+x}{165}=\\frac{2}{15}$\nGiải hệ ta được $x=7$, $y=13$ (thỏa mãn điều kiện).\nVậy có $7$ bạn nam lớp 8 và $13$ bạn nữ lớp 9 đã đăng ký tham gia thêm.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Số bạn nam lớp 8 đăng ký thêm: {{1}} bạn",
+       "Số bạn nữ lớp 9 đăng ký thêm: {{2}} bạn"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "7"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "13"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một mảnh đất hình chữ nhật có chiều dài hơn chiều rộng $15$ mét. Ở chính giữa mảnh đất người ta làm một vườn hoa hình vuông có cạnh là $x$ (mét) như hình minh họa sau. [[IMG:b4-manh-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức (thu gọn) tính diện tích phần còn lại của mảnh đất sau khi làm vườn hoa.",
+     "explanation": "Chiều rộng của mảnh đất hình chữ nhật là $x+1,5+1,5=x+3$ (m).\nChiều dài của mảnh đất hình chữ nhật là $x+3+15=x+18$ (m).\nDiện tích của mảnh đất hình chữ nhật là $(x+3)(x+18)$ (m$^2$).\nDiện tích của vườn hoa hình vuông là $x^2$ (m$^2$).\nBiểu thức tính diện tích phần còn lại của mảnh đất là:\n$S=(x+3)(x+18)-x^2=x^2+21x+54-x^2=21x+54$ (m$^2$).\nVậy biểu thức tính diện tích phần còn lại của mảnh đất là $21x+54$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "21x+54"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Với mỗi mét vuông đất trồng hoa, người ta trồng được $4$ gốc hoa đồng tiền. Hỏi trên mảnh đất trồng hoa người ta có thể trồng nhiều nhất bao nhiêu gốc hoa đồng tiền. Biết rằng diện tích còn lại là $138$ m$^2$.",
+     "explanation": "Theo đề bài, diện tích phần còn lại là $138$ m$^2$ nên ta có phương trình:\n$21x+54=138$.\n$21x=84$.\n$x=4$ (thỏa mãn $x>0$).\nDiện tích của phần đất trồng hoa (vườn hoa) là $x^2=4^2=16$ (m$^2$).\nSố gốc hoa đồng tiền nhiều nhất có thể trồng trên mảnh đất này là:\n$16\\cdot 4=64$ (gốc).\nVậy trên mảnh đất trồng hoa người ta có thể trồng nhiều nhất $64$ gốc hoa đồng tiền.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "64"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Bai 5 co tong 1,5 diem theo nguon in (y a 0,75 diem; y b 0,75 diem) nen tong diem toan de la 10,5 diem, khong phai 10,0 diem. Ban soan giu nguyen thang diem cua nguon in; neu can chuan hoa ve 10,0 diem thi giam Bai 5 xuong con 1,0 diem (moi y 0,5 diem). Thay quyet khi gop."
+    }
+   ],
+   "points": 1.5,
+   "bai_goc": "Bài 5",
+   "question": "Từ một khối gỗ hình trụ có đường kính đáy là $30$ cm, chiều cao là $8$ dm, người ta tạo được $2850$ viên bi gỗ hình cầu có cùng bán kính $r$ cm $(0<r<2)$. Biết rằng, phần gỗ các viên bi được tạo ra chiếm $80\\%$ thể tích khối gỗ hình trụ lúc ban đầu. [[IMG:b5-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thể tích khối gỗ hình trụ lúc ban đầu. (Làm tròn đến hàng phần nghìn).",
+     "explanation": "Bán kính đáy của khối gỗ hình trụ là $R=\\frac{30}{2}=15$ (cm).\nChiều cao của khối gỗ hình trụ là $h=8$ dm $=80$ cm.\nThể tích khối gỗ hình trụ lúc ban đầu là:\n$V=\\pi\\cdot R^2\\cdot h=\\pi\\cdot 15^2\\cdot 80=18000\\pi$.\nLàm tròn đến hàng phần nghìn, ta được kết quả:\n$V\\approx 56548,668$ (cm$^3$).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "56548,668"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính bán kính một viên bi gỗ được tạo thành. (Làm tròn đến hàng phần mười). Biết công thức tính thể tích hình trụ, hình cầu lần lượt là: $V=\\pi R^2\\cdot h$ ($R$ là bán kính đáy, $h$ là chiều cao của hình trụ); $V=\\frac{4}{3}\\pi r^3$ ($r$ là bán kính hình cầu).",
+     "explanation": "Tổng thể tích của $2850$ viên bi gỗ là:\n$V_{bi}=80\\%\\cdot V=0,8\\cdot 18000\\pi=14400\\pi$ (cm$^3$).\nThể tích của một viên bi gỗ hình cầu là:\n$V_1=\\frac{14400\\pi}{2850}=\\frac{96\\pi}{19}$ (cm$^3$).\nMặt khác $V_1=\\frac{4}{3}\\pi r^3$ nên ta có phương trình:\n$\\frac{4}{3}\\pi r^3=\\frac{96\\pi}{19}$.\n$r^3=\\frac{96}{19}\\cdot\\frac{3}{4}=\\frac{72}{19}$.\n$r=\\sqrt[3]{\\frac{72}{19}}\\approx 1,559$.\nLàm tròn đến hàng phần mười, ta được bán kính viên bi gỗ là $r\\approx 1,6$ (cm) (thỏa mãn $0<r<2$).",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "1,6"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Bai 6 la bai toan phan tram mot an (lap phuong trinh bac nhat mot an) nhung trong cay dang lop 9 chua co ma rieng cho dang nay; ban soan gan ma gan nhat L9.C1.B5.D05 (giai bai toan phan tram, lai suat lap he phuong trinh) - ma nay thuoc bai lap he, trong khi bai nay chi co mot an."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Để bảo đảm uy tín chất lượng, một xí nghiệp X chỉ bán ra thị trường các áo không bị lỗi, còn các áo bị lỗi sẽ được giữ lại không bán ra. Trong tháng 11, xí nghiệp X đã sản xuất ra được $2960$ áo, trong đó số áo bị lỗi chiếm $5\\%$. Qua tháng 12, do được cải tiến kỹ thuật nên so với tháng 11, xí nghiệp đã sản xuất thêm một số áo không bị lỗi. Nhờ vậy, trong tháng 12, số áo được bán ra thị trường chiếm $96\\%$ so với tổng số áo sản xuất được. Hỏi xí nghiệp đã sản xuất được thêm bao nhiêu áo ở tháng 12?",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B5.D05",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số áo không bị lỗi mà xí nghiệp đã sản xuất thêm ở tháng 12.",
+     "explanation": "Gọi $x$ (áo) là số áo không bị lỗi mà xí nghiệp đã sản xuất thêm ở tháng 12 ($x\\in\\mathbb{N}^*$).\nSố áo không bị lỗi sản xuất trong tháng 11 là $2960\\cdot 100\\%-2960\\cdot 5\\%=2812$ (áo).\nSố áo bị lỗi sản xuất trong tháng 11 là $2960-2812=148$ (áo).\nVì tháng 12 chỉ sản xuất thêm áo không bị lỗi, nên tổng số áo sản xuất trong tháng 12 là $2960+x$ (áo).\nSố áo không bị lỗi (được bán ra thị trường) trong tháng 12 là $2812+x$ (áo).\nVì số áo được bán ra thị trường trong tháng 12 chiếm $96\\%$ tổng số áo sản xuất được, ta có phương trình:\n$2812+x=96\\%\\cdot(2960+x)$.\n$2812+x=\\frac{24}{25}(2960+x)$.\n$70300+25x=71040+24x$.\n$x=740$ (thỏa mãn điều kiện).\nVậy xí nghiệp đã sản xuất thêm $740$ áo ở tháng 12.",
+     "points": 1.0,
+     "type": "short_answer",
+     "shortCorrect": "740"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho tam giác $ABC$ có ba góc nhọn $(AB<AC)$, hai đường cao $BM$ và $AD$ cắt nhau tại $H$. Tia $CH$ cắt $AB$ tại $N$; góc $BAC$ có số đo là $60^\\circ$. Gọi $O$ là trung điểm $BC$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh $CN$ vuông góc với $AB$ và tứ giác $BNMC$ nội tiếp đường tròn $(O)$.",
+     "explanation": "Xét $\\triangle ABC$ có hai đường cao $BM$ và $AD$ cắt nhau tại $H$ nên $H$ là trực tâm của $\\triangle ABC$.\nSuy ra $CN$ là đường cao thứ ba của $\\triangle ABC$, do đó $CN\\perp AB$ tại $N$.\nTa có $\\widehat{BNC}=90^\\circ$ (do $CN\\perp AB$) và $\\widehat{BMC}=90^\\circ$ (do $BM$ là đường cao).\nSuy ra $\\widehat{BNC}=\\widehat{BMC}=90^\\circ$.\nDo đó hai điểm $N$ và $M$ cùng nhìn đoạn $BC$ dưới một góc vuông.\nVậy tứ giác $BNMC$ nội tiếp đường tròn đường kính $BC$.\nVì $O$ là trung điểm $BC$ nên đường tròn ngoại tiếp tứ giác $BNMC$ có tâm $O$, tức là đường tròn $(O)$.\nVậy tứ giác $BNMC$ nội tiếp đường tròn $(O)$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $K$ là trung điểm $AH$. Chứng minh $KM$ là tiếp tuyến của đường tròn $(O)$.",
+     "explanation": "Xét $\\triangle AMH$ vuông tại $M$ có $KM$ là đường trung tuyến ứng với cạnh huyền $AH$.\nSuy ra $KM=KH=\\frac{1}{2}AH$.\nDo đó $\\triangle KMH$ cân tại $K$, suy ra $\\widehat{KMH}=\\widehat{KHM}$.\nMà $\\widehat{KHM}=\\widehat{BHD}$ (hai góc đối đỉnh) nên $\\widehat{KMH}=\\widehat{BHD}$.\nXét $\\triangle BDH$ vuông tại $D$ ta có: $\\widehat{BHD}+\\widehat{HBD}=90^\\circ$.\nSuy ra $\\widehat{KMH}+\\widehat{HBD}=90^\\circ$.\nXét $\\triangle BMC$ vuông tại $M$ có trung tuyến $MO$ ($O$ là trung điểm $BC$).\nSuy ra $OM=OB=OC=\\frac{1}{2}BC$, do đó $\\triangle OMB$ cân tại $O$, suy ra $\\widehat{OMB}=\\widehat{OBM}$ (hay $\\widehat{OMB}=\\widehat{HBD}$ vì $H$ nằm trên $BM$).\nTa có $\\widehat{KMO}=\\widehat{KMH}+\\widehat{OMB}=\\widehat{BHD}+\\widehat{HBD}=90^\\circ$.\nSuy ra $KM\\perp OM$ tại $M$.\nMà $M\\in(O)$ (do $M$ thuộc đường tròn đường kính $BC$).\nVậy $KM$ là tiếp tuyến của đường tròn $(O)$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Gọi bán kính của đường tròn $(O)$ là $R$. Tính độ dài đoạn $OK$ theo $R$.",
+     "explanation": "Xét $\\triangle AHM$ và $\\triangle BCM$ có:\n$\\widehat{AMH}=\\widehat{BMC}=90^\\circ$;\n$\\widehat{HAM}=\\widehat{CBM}$ (cùng phụ với $\\widehat{ACB}$).\nSuy ra $\\triangle AHM\\sim\\triangle BCM$ (g-g).\nDo đó $\\frac{AH}{BC}=\\frac{AM}{BM}$.\nXét $\\triangle AMB$ vuông tại $M$, ta có:\n$\\frac{AM}{BM}=\\cot\\widehat{BAM}=\\cot 60^\\circ=\\frac{1}{\\sqrt{3}}$.\nSuy ra $\\frac{AH}{BC}=\\frac{1}{\\sqrt{3}}$, do đó $AH=\\frac{BC}{\\sqrt{3}}=\\frac{2R}{\\sqrt{3}}$.\nTa có $KM=\\frac{1}{2}AH=\\frac{R}{\\sqrt{3}}$.\nXét $\\triangle OKM$ vuông tại $M$ (do $KM\\perp OM$), theo định lý Pythagore:\n$OK^2=OM^2+KM^2=R^2+\\left(\\frac{R}{\\sqrt{3}}\\right)^2=R^2+\\frac{R^2}{3}=\\frac{4R^2}{3}$.\nSuy ra $OK=\\frac{2R\\sqrt{3}}{3}$.",
+     "points": 1.0,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{2R\\sqrt{3}}{3}$",
+      "$\\frac{R\\sqrt{3}}{3}$",
+      "$\\frac{2R}{3}$",
+      "$R\\sqrt{3}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ]
+}
