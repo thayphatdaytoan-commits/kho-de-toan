@@ -1,0 +1,399 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 8 – Đề số 23 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 23,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=-\\frac{x^2}{2}$ có đồ thị $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ đồ thị $(P)$.",
+     "explanation": "Lập bảng giá trị: với $x=-4$ thì $y=-8$; với $x=-2$ thì $y=-2$; với $x=0$ thì $y=0$; với $x=2$ thì $y=-2$; với $x=4$ thì $y=-8$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay xuống dưới, đi qua các điểm $(-4;-8)$, $(-2;-2)$, $(0;0)$, $(2;-2)$, $(4;-8)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -5,
+       "xmax": 5,
+       "ymin": -9,
+       "ymax": 1
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = -x^2/2",
+        "kind": "quad",
+        "a": -0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -4,
+         -2,
+         0,
+         2,
+         4
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm $M$ thuộc đồ thị $(P)$ sao cho tung độ và hoành độ là hai số đối nhau.",
+     "explanation": "Vì tung độ và hoành độ của điểm $M$ là hai số đối nhau nên $y=-x$.\nTa có phương trình $-\\frac{x^2}{2}=-x$.\n$x^2-2x=0$.\nSuy ra $x=0$ hoặc $x=2$.\nVới $x=0$ suy ra $y=0$.\nVới $x=2$ suy ra $y=-2$.\nVậy tọa độ các điểm cần tìm là $(0;0)$ và $(2;-2)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$(0;0)$ và $(2;-2)$",
+      "$(0;0)$ và $(-2;2)$",
+      "$(0;0)$ và $(2;2)$",
+      "$(2;-2)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình: $2x^2-5x-7=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt.",
+     "explanation": "Ta có $2x^2-5x-7=0$ ($a=2$; $b=-5$; $c=-7$).\n$\\Delta=b^2-4ac=(-5)^2-4\\cdot 2\\cdot(-7)=25+56=81>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $x_1$, $x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị của biểu thức $A=x_1(x_1+2024)-x_2(-x_2-2025)-x_2$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{5}{2}$; $x_1x_2=\\frac{c}{a}=-\\frac{7}{2}$.\nBiến đổi biểu thức $A$:\n$A=x_1(x_1+2024)-x_2(-x_2-2025)-x_2$\n$A=x_1^2+2024x_1+x_2^2+2025x_2-x_2$\n$A=(x_1^2+x_2^2)+2024x_1+2024x_2$\n$A=(x_1^2+x_2^2)+2024(x_1+x_2)$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=\\left(\\frac{5}{2}\\right)^2-2\\cdot\\left(-\\frac{7}{2}\\right)=\\frac{25}{4}+7=\\frac{53}{4}$.\nThế giá trị vào biểu thức $A$:\n$A=\\frac{53}{4}+2024\\cdot\\frac{5}{2}=\\frac{53}{4}+5060=\\frac{20293}{4}$.\nVậy $A=\\frac{20293}{4}=5073,25$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "20293/4|5073,25"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Biểu đồ cột kép bên dưới biểu diễn số học sinh khối 6 của trường THCS A trên địa bàn thành phố Hồ Chí Minh tham gia các câu lạc bộ do nhà trường tổ chức. Biết rằng mỗi bạn chỉ tham gia đúng một câu lạc bộ. [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Câu lạc bộ nào có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh?",
+     "explanation": "Dựa vào biểu đồ, ta có số học sinh chênh lệch giữa nam và nữ ở mỗi câu lạc bộ như sau:\nCâu lạc bộ Cờ vua: $|28-15|=13$ (học sinh).\nCâu lạc bộ Dân ca: $|17-24|=7$ (học sinh).\nCâu lạc bộ Khiêu vũ: $|24-35|=11$ (học sinh).\nCâu lạc bộ Bơi lội: $|45-40|=5$ (học sinh).\nTa thấy chênh lệch lớn nhất là $13$ ứng với Câu lạc bộ Cờ vua.\nVậy Câu lạc bộ Cờ vua có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh.",
+     "points": 0.75,
+     "type": "multiple_choice",
+     "options": [
+      "Cờ vua",
+      "Bơi lội",
+      "Khiêu vũ",
+      "Dân ca"
+     ],
+     "correctAnswer": 0
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chọn ngẫu nhiên một học sinh khối 6, tính xác suất của các biến cố sau: $A$: “Học sinh được chọn là nữ”; $B$: “Học sinh được chọn không tham gia câu lạc bộ Bơi lội và câu lạc bộ Khiêu vũ”.",
+     "explanation": "Tổng số học sinh khối 6 tham gia các câu lạc bộ là:\n$n(\\Omega)=(28+15)+(17+24)+(24+35)+(45+40)=43+41+59+85=228$ (học sinh).\nXét biến cố $A$: số học sinh nữ là $15+24+35+40=114$ (học sinh).\nSố kết quả thuận lợi cho biến cố $A$ là $n(A)=114$.\nXác suất của biến cố $A$ là: $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{114}{228}=\\frac{1}{2}$.\nXét biến cố $B$: học sinh không tham gia Bơi lội và Khiêu vũ nghĩa là học sinh đó tham gia Cờ vua hoặc Dân ca.\nSố học sinh tham gia Cờ vua hoặc Dân ca là $43+41=84$ (học sinh).\nSố kết quả thuận lợi cho biến cố $B$ là $n(B)=84$.\nXác suất của biến cố $B$ là: $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{84}{228}=\\frac{7}{19}$.\nVậy $P(A)=\\frac{1}{2}$ và $P(B)=\\frac{7}{19}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1/2"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "7/19"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một cái bồn hoa hình tròn có bán kính $x$ mét $(x>0)$. Biết vòng tròn tiếp xúc với $2$ cạnh của hình chữ nhật và khoảng cách từ cạnh (chiều dài) của hình chữ nhật đến đường tròn là $2$ mét (xem hình minh họa). Cho $\\pi=3,14$. [[IMG:b4-manh-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa. (Biết công thức tính diện tích hình tròn $S=\\pi\\cdot R^2$, trong đó $R$ là bán kính hình tròn).",
+     "explanation": "Chiều rộng của cái sân hình chữ nhật là $x+x+2=2x+2$ (m).\nDiện tích của cái sân hình chữ nhật là:\n$S_{hcn}=(2x+2)(1,57x+10)$\n$S_{hcn}=3,14x^2+20x+3,14x+20$\n$S_{hcn}=3,14x^2+23,14x+20$ (m$^2$).\nDiện tích của bồn hoa hình tròn là:\n$S_{tròn}=\\pi\\cdot x^2=3,14\\cdot x^2$ (m$^2$).\nBiểu thức biểu thị diện tích đất còn lại là:\n$S_{còn}=S_{hcn}-S_{tròn}$\n$S_{còn}=(3,14x^2+23,14x+20)-3,14x^2$\n$S_{còn}=23,14x+20$ (m$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S={{1}}$ (m$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "23,14x+20"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hãy tính bán kính của bồn hoa hình tròn biết diện tích đất còn lại sau khi xây bồn hoa là $54,57$ m$^2$.",
+     "explanation": "Theo đề bài, diện tích đất còn lại là $54,57$ m$^2$ nên ta có phương trình:\n$23,14x+20=54,57$.\n$23,14x=34,57$.\n$x=\\frac{3457}{2314}\\approx 1,49$.\nVậy bán kính của bồn hoa là $x\\approx 1,49$ m (thỏa mãn $x>0$).",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "1,49"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Bài 5 không có hình minh họa trong bản soạn: hình duy nhất trong đề gốc là ảnh chụp 3 quả bóng tennis trong ống nhựa, trên quả bóng giữa in dòng chữ thương hiệu DUNLOP FORT ALL COURT. Theo quy tắc không đưa logo hay chữ thương hiệu vào hình ảnh của kho đề, ảnh này bị loại; bài toán giải được đầy đủ từ dữ liệu chữ trong đề bài."
+    }
+   ],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Quả bóng tennis DUNLOP loại 1 có đường kính $2,5$ inch tương ứng với $6,35$ cm được đựng vừa đủ $3$ quả trong một hộp nhựa mỏng hình trụ. Với diện tích bề mặt của hình cầu là: $S_{bm}=4\\pi R^2$ và thể tích hình trụ là $V=\\pi r^2h$. Trong đó $R$ là bán kính hình cầu; $r$ là bán kính đáy và $h$ là chiều cao hình trụ.",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy tính diện tích bề mặt của một quả bóng tennis loại 1. (làm tròn kết quả đến hàng phần trăm)",
+     "explanation": "Bán kính quả bóng là $R=\\frac{6,35}{2}=3,175$ (cm).\nDiện tích bề mặt của một quả bóng tennis là:\n$S_{bm}=4\\pi R^2=4\\pi\\left(\\frac{6,35}{2}\\right)^2=\\pi\\cdot 6,35^2$.\nThay số (với $\\pi\\approx 3,14$):\n$S_{bm}\\approx 3,14\\cdot 40,3225=126,61265$.\nLàm tròn kết quả đến hàng phần trăm:\n$S_{bm}\\approx 126,61$ cm$^2$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "126,61"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Hộp nhựa xếp vừa đủ 3 quả bóng có thể tích là bao nhiêu? (làm tròn kết quả đến hàng đơn vị)",
+     "explanation": "Vì hộp nhựa đựng vừa đủ $3$ quả bóng nên:\nBán kính đáy hình trụ bằng bán kính hình cầu: $r=R=\\frac{6,35}{2}$ (cm).\nChiều cao hình trụ bằng $3$ lần đường kính quả bóng:\n$h=3\\cdot 6,35=19,05$ (cm).\nThể tích của hộp nhựa hình trụ là:\n$V=\\pi r^2h=\\pi\\left(\\frac{6,35}{2}\\right)^2\\cdot 19,05=\\pi\\cdot 10,080625\\cdot 19,05$.\n$V\\approx 3,14\\cdot 192,0359\\approx 602,99$.\nLàm tròn kết quả đến hàng đơn vị:\n$V\\approx 603$ cm$^3$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "603"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Ba chiếc bình có thể tích tổng cộng là $132$ lít. Nếu đổ đầy nước vào bình thứ nhất rồi lấy nước đó đổ vào hai bình kia thì: Hoặc bình thứ ba đầy nước, còn bình thứ hai chỉ được một nửa bình. Hoặc bình thứ hai đầy nước, còn bình thứ ba chỉ được một phần ba bình. (Coi như trong quá trình đổ nước từ bình này sang bình kia lượng nước hao phí bằng không). Hãy xác định thể tích của mỗi bình.",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B3.D05",
+   "dang_toan_web": "Hệ phương trình bậc nhất hai ẩn.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Hãy xác định thể tích của mỗi bình.",
+     "explanation": "Gọi $x$ (lít) là thể tích bình thứ hai, $y$ (lít) là thể tích bình thứ ba ($0<x,y<132$).\nVì tổng thể tích ba bình là $132$ lít nên thể tích bình thứ nhất là $132-x-y$ (lít).\nVì đổ đầy bình thứ nhất rồi đổ vào hai bình kia thì bình thứ ba đầy, bình thứ hai được một nửa bình nên ta có phương trình:\n$132-x-y=y+\\frac{1}{2}x$. (1)\nVì đổ đầy bình thứ nhất rồi đổ vào hai bình kia thì bình thứ hai đầy, bình thứ ba được một phần ba bình nên ta có phương trình:\n$132-x-y=x+\\frac{1}{3}y$. (2)\nTừ (1) và (2) ta có hệ phương trình:\n$\\frac{3}{2}x+2y=132$\n$2x+\\frac{4}{3}y=132$\nGiải hệ ta được $x=44$, $y=33$ (thỏa mãn điều kiện).\nSuy ra thể tích bình thứ nhất là $132-44-33=55$ (lít).\nVậy thể tích bình thứ nhất là $55$ lít, bình thứ hai là $44$ lít, bình thứ ba là $33$ lít.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Bình thứ nhất: {{1}} lít",
+       "Bình thứ hai: {{2}} lít",
+       "Bình thứ ba: {{3}} lít"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "55"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "44"
+       },
+       {
+        "id": "3",
+        "loai": "so",
+        "dap_an": "33"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Ý c của đề gốc hỏi hai việc (chứng minh góc HDB bằng 90 độ và tính diện tích tam giác ABD); bản soạn tách thành ý c (chứng minh góc, 0,5 điểm) và ý d (diện tích, trắc nghiệm 4 phương án, 0,5 điểm). Tổng điểm Bài 7 vẫn là 3,0 điểm."
+    },
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Lời giải gốc ý c ghi AH nhân OM bằng OA nhân AM bằng 2 lần diện tích tam giác BDH; đuôi bằng 2 lần diện tích tam giác BDH là sai (diện tích tam giác BDH không liên quan; đúng là AH nhân OM bằng OA nhân AM bằng 2 lần diện tích tam giác MAO). Bản soạn bỏ đuôi sai, chỉ giữ AH nhân OM bằng OA nhân AM; kết quả AH bằng 2R trên căn 5 và đáp số diện tích 2R bình trên 5 không đổi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Từ điểm $M$ nằm ngoài đường tròn $(O;R)$ kẻ $2$ tiếp tuyến $MA$, $MB$ đến $(O)$ (với $A$, $B$ là các tiếp điểm). Kẻ đường kính $AC$ của $(O)$, $MC$ cắt $(O)$ tại $D$. Gọi $H$ là giao điểm của $AB$ và $MO$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh tứ giác $MDHA$ nội tiếp.",
+     "explanation": "Ta có $\\widehat{ADC}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AC$).\nSuy ra $AD\\perp MC$, do đó $\\widehat{ADM}=90^\\circ$.\n$\\triangle MAD$ vuông tại $D$ (do $\\widehat{ADM}=90^\\circ$) suy ra $\\triangle MAD$ nội tiếp đường tròn đường kính $MA$. (1)\nTa có $MA=MB$ (tính chất hai tiếp tuyến cắt nhau) và $OA=OB=R$ nên $MO$ là đường trung trực của $AB$, suy ra $MO\\perp AB$ tại $H$.\nDo đó $\\widehat{MHA}=90^\\circ$.\n$\\triangle MAH$ vuông tại $H$ (do $\\widehat{MHA}=90^\\circ$) suy ra $\\triangle MAH$ nội tiếp đường tròn đường kính $MA$. (2)\nTừ (1) và (2) suy ra $4$ điểm $M$, $D$, $H$, $A$ cùng thuộc đường tròn đường kính $MA$.\nVậy tứ giác $MDHA$ nội tiếp.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Chứng minh $MD\\cdot MC=MH\\cdot MO$ và $\\widehat{MHD}=\\widehat{DBA}$.",
+     "explanation": "Ta có $MA$ là tiếp tuyến của $(O)$ tại $A$ nên $MA\\perp OA$, suy ra $\\widehat{MAC}=90^\\circ$.\nXét $\\triangle MDA$ và $\\triangle MAC$ có:\n$\\widehat{M}$ chung;\n$\\widehat{MDA}=\\widehat{MAC}=90^\\circ$.\nSuy ra $\\triangle MDA\\sim\\triangle MAC$ (g-g).\nDo đó $\\frac{MD}{MA}=\\frac{MA}{MC}$, suy ra $MA^2=MD\\cdot MC$. (3)\nXét $\\triangle MHA$ và $\\triangle MAO$ có:\n$\\widehat{M}$ chung;\n$\\widehat{MHA}=\\widehat{MAO}=90^\\circ$.\nSuy ra $\\triangle MHA\\sim\\triangle MAO$ (g-g).\nDo đó $\\frac{MH}{MA}=\\frac{MA}{MO}$, suy ra $MA^2=MH\\cdot MO$. (4)\nTừ (3) và (4) suy ra $MD\\cdot MC=MH\\cdot MO$.\nTa có $MD\\cdot MC=MH\\cdot MO$ suy ra $\\frac{MH}{MC}=\\frac{MD}{MO}$.\nXét $\\triangle MHD$ và $\\triangle MCO$ có:\n$\\widehat{M}$ chung;\n$\\frac{MH}{MC}=\\frac{MD}{MO}$.\nSuy ra $\\triangle MHD\\sim\\triangle MCO$ (c-g-c).\nDo đó $\\widehat{MHD}=\\widehat{MCO}$ (hai góc tương ứng).\nTrong đường tròn $(O)$, ta có $\\widehat{MCO}=\\widehat{DBA}$ (vì $\\widehat{MCO}=\\widehat{DCA}$ do $M$, $D$, $C$ thẳng hàng và $O$ thuộc $AC$; $\\widehat{DCA}$ và $\\widehat{DBA}$ là hai góc nội tiếp cùng chắn cung $AD$).\nSuy ra $\\widehat{MHD}=\\widehat{DBA}$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Chứng minh $\\widehat{HDB}=90^\\circ$.",
+     "explanation": "Vì $MO\\perp AB$ tại $H$ nên $\\widehat{MHB}=90^\\circ$; tia $HD$ nằm trong góc $MHB$ nên $\\widehat{MHD}+\\widehat{BHD}=\\widehat{MHB}=90^\\circ$.\nMà $\\widehat{MHD}=\\widehat{DBA}$ (chứng minh trên) nên $\\widehat{DBA}+\\widehat{BHD}=90^\\circ$.\nXét $\\triangle HDB$ có $\\widehat{DBA}+\\widehat{BHD}=90^\\circ$ nên $\\widehat{HDB}=180^\\circ-90^\\circ=90^\\circ$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Tính theo $R$ diện tích $\\triangle ABD$ trong trường hợp $MA=2R$.",
+     "explanation": "Xét $\\triangle MAC$ vuông tại $A$ có $AC=AM=2R$ nên $\\triangle MAC$ vuông cân tại $A$, suy ra $\\widehat{ACM}=45^\\circ$.\nXét đường tròn $(O)$, ta có $\\widehat{DBH}=\\widehat{ACD}=45^\\circ$ (hai góc nội tiếp cùng chắn cung $AD$).\nXét $\\triangle HDB$ vuông tại $D$ (do $\\widehat{HDB}=90^\\circ$) có $\\widehat{DBH}=45^\\circ$ nên $\\triangle HDB$ vuông cân tại $D$, suy ra $HD=BD$.\nXét $\\triangle MAO$ vuông tại $A$, đường cao $AH$ (do $MO\\perp AB$ tại $H$):\n$OM^2=OA^2+AM^2$ (định lý Pythagore).\n$OM^2=R^2+(2R)^2=5R^2$, suy ra $OM=R\\sqrt{5}$.\nTa có $AH\\cdot OM=OA\\cdot AM$, suy ra $AH=\\frac{OA\\cdot AM}{OM}=\\frac{R\\cdot 2R}{R\\sqrt{5}}=\\frac{2R}{\\sqrt{5}}$.\nSuy ra $HB=AH=\\frac{2R}{\\sqrt{5}}$ ($H$ là trung điểm của $AB$).\nVẽ $DQ\\perp AB$ tại $Q$.\nTrong $\\triangle HDB$ vuông cân tại $D$ có $DQ$ là đường cao cũng là trung tuyến, suy ra $DQ=\\frac{1}{2}\\cdot BH=\\frac{1}{2}\\cdot\\frac{2R}{\\sqrt{5}}=\\frac{R}{\\sqrt{5}}$.\nDiện tích $\\triangle ABD$ là:\n$S_{ABD}=\\frac{1}{2}\\cdot AB\\cdot DQ=\\frac{1}{2}\\cdot\\frac{4R}{\\sqrt{5}}\\cdot\\frac{R}{\\sqrt{5}}=\\frac{2R^2}{5}$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\frac{2R^2}{5}$",
+      "$\\frac{R^2}{5}$",
+      "$\\frac{4R^2}{5}$",
+      "$\\frac{2R^2}{\\sqrt{5}}$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ]
+}
