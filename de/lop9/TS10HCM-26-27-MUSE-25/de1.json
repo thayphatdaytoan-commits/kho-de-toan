@@ -1,0 +1,378 @@
+{
+ "meta": {
+  "grade": "9",
+  "chapter": "0",
+  "lesson": "ts10hcm",
+  "title": "Đề tham khảo tuyển sinh 10 TP.HCM 2026-2027 – Cụm 9 – Đề số 25 (Muse soạn)",
+  "exam_type": "entrance_10",
+  "soan_boi": "muse",
+  "ngay_soan": "2026-11-10"
+ },
+ "sections": {
+  "1": 0,
+  "3": 0,
+  "4": 7
+ },
+ "no": 25,
+ "questions": [
+  {
+   "section": 4,
+   "n": 1,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 1",
+   "question": "Cho hàm số $y=\\frac{x^2}{2}$ có đồ thị là $(P)$.",
+   "explanation": "",
+   "ma": "de1.P4.C1",
+   "dang": "L9.C6.B1.D02",
+   "dang_toan_web": "Hàm số $y = ax^2$ $(a \\neq 0)$ và đồ thị.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Vẽ $(P)$ trên mặt phẳng tọa độ $Oxy$.",
+     "explanation": "Lập bảng giá trị: với $x=-2$ thì $y=2$; với $x=-1$ thì $y=\\frac{1}{2}$; với $x=0$ thì $y=0$; với $x=1$ thì $y=\\frac{1}{2}$; với $x=2$ thì $y=2$.\nĐồ thị $(P)$ là parabol có đỉnh $O(0;0)$, bề lõm quay lên trên, đi qua các điểm $(-2;2)$, $\\left(-1;\\frac{1}{2}\\right)$, $(0;0)$, $\\left(1;\\frac{1}{2}\\right)$, $(2;2)$. [[IMG:b1-do-thi.png]]",
+     "points": 1.0,
+     "type": "draw",
+     "draw_spec": {
+      "mode": "do_thi",
+      "view": {
+       "xmin": -3,
+       "xmax": 3,
+       "ymin": -0.5,
+       "ymax": 2.5
+      },
+      "step": 1,
+      "funcs": [
+       {
+        "id": "P",
+        "label": "y = x^2/2",
+        "kind": "quad",
+        "a": 0.5,
+        "b": 0,
+        "c": 0,
+        "need": 5,
+        "xs": [
+         -2,
+         -1,
+         0,
+         1,
+         2
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tìm các điểm thuộc $(P)$ khác gốc tọa độ và có hoành độ gấp đôi tung độ.",
+     "explanation": "Vì điểm cần tìm thuộc $(P)$ nên $y=\\frac{x^2}{2}$. Theo giả thiết, hoành độ gấp đôi tung độ nên $x=2y$, suy ra $y=\\frac{x}{2}$.\nThay vào phương trình của $(P)$, ta có: $\\frac{x^2}{2}=\\frac{x}{2}$, suy ra $x^2-x=0$, hay $x(x-1)=0$, nên $x=0$ hoặc $x=1$.\nVới $x=0$ thì $y=0$, ta được điểm $O(0;0)$ (loại vì điểm cần tìm khác gốc tọa độ).\nVới $x=1$ thì $y=\\frac{1}{2}$, ta được điểm $M\\left(1;\\frac{1}{2}\\right)$.\nVậy điểm cần tìm là $M\\left(1;\\frac{1}{2}\\right)$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$\\left(1;\\frac{1}{2}\\right)$",
+      "$(0;0)$ và $\\left(1;\\frac{1}{2}\\right)$",
+      "$\\left(-1;-\\frac{1}{2}\\right)$",
+      "$(2;1)$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 2,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 2",
+   "question": "Cho phương trình $x^2-2x-3=0$.",
+   "explanation": "",
+   "ma": "de1.P4.C2",
+   "dang": "L9.C6.B3.D03",
+   "dang_toan_web": "Định lí Viète và ứng dụng.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh phương trình trên có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "explanation": "Ta có $x^2-2x-3=0$ ($a=1$; $b=-2$; $c=-3$).\n$\\Delta=b^2-4ac=(-2)^2-4\\cdot 1\\cdot(-3)=4+12=16>0$.\nVì $\\Delta>0$ nên phương trình có hai nghiệm phân biệt $x_1$, $x_2$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Không giải phương trình, hãy tính giá trị của biểu thức $Q=x_1x_2-4x_2(x_1-x_2)+4x_1^2$.",
+     "explanation": "Theo định lý Viète, ta có: $x_1+x_2=\\frac{-b}{a}=\\frac{-(-2)}{1}=2$; $x_1x_2=\\frac{c}{a}=\\frac{-3}{1}=-3$.\nTa có $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=2^2-2\\cdot(-3)=10$.\nMặt khác: $Q=x_1x_2-4x_2(x_1-x_2)+4x_1^2=x_1x_2-4x_1x_2+4x_2^2+4x_1^2=4(x_1^2+x_2^2)-3x_1x_2$.\nSuy ra $Q=4\\cdot 10-3\\cdot(-3)=40+9=49$.\nVậy $Q=49$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "49"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 3,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.5,
+   "bai_goc": "Bài 3",
+   "question": "Một trường THCS khảo sát thời gian tiếp xúc với các thiết bị điện tử (điện thoại thông minh, ipad, máy tính, ti vi) trung bình trong một ngày của một số em học sinh và biểu diễn kết quả thu được trong biểu đồ sau: [[IMG:b3-bieu-do.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C3",
+   "dang": "L9.C7.B5.D01",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính số học sinh được tham gia khảo sát?",
+     "explanation": "Số học sinh được tham gia khảo sát là:\n$18+46+68+51+17=200$ (học sinh).\nVậy có $200$ học sinh được tham gia khảo sát.",
+     "points": 0.75,
+     "type": "short_answer",
+     "shortCorrect": "200"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Nhiều nghiên cứu đã chỉ ra rằng việc học sinh tiếp xúc các thiết bị điện tử quá nhiều có thể gây rối loạn giấc ngủ, mỏi mắt, cận thị, cũng như đau cổ, vai và lưng, trẻ dễ mất tập trung, học tập kém, ít vận động, dễ béo phì và gặp các vấn đề tâm lí. Các chuyên gia khuyến nghị thời gian trẻ em tiếp xúc các thiết bị điện tử an toàn là không quá 2 giờ mỗi ngày để đảm bảo sức khoẻ. Chọn ngẫu nhiên một học sinh trong số học sinh tham gia khảo sát. Hãy tính xác suất của các biến cố:\n$A$: “Học sinh được chọn có thời gian tiếp xúc với các thiết bị điện tử trung bình trên 3 giờ một ngày”.\n$B$: “Học sinh được chọn có thời gian tiếp xúc với các thiết bị điện tử theo đúng khuyến nghị trên”.",
+     "explanation": "Chọn ngẫu nhiên một học sinh trong số $200$ học sinh tham gia khảo sát.\nTổng số kết quả có thể xảy ra của phép thử là $n(\\Omega)=200$.\nTính xác suất của biến cố $A$:\nDựa vào biểu đồ, số học sinh có thời gian tiếp xúc với các thiết bị điện tử trung bình trên 3 giờ một ngày (ở đây là nhóm 4 giờ) là $17$ học sinh.\nDo đó, số kết quả thuận lợi cho biến cố $A$ là $n(A)=17$.\nXác suất của biến cố $A$ là $P(A)=\\frac{n(A)}{n(\\Omega)}=\\frac{17}{200}$.\nTính xác suất của biến cố $B$:\nTheo khuyến nghị, thời gian tiếp xúc an toàn là không quá 2 giờ mỗi ngày (nghĩa là $\\le 2$ giờ).\nDựa vào biểu đồ, số học sinh có thời gian tiếp xúc với các thiết bị điện tử không quá 2 giờ một ngày (bao gồm các nhóm 0,5 giờ; 1 giờ và 2 giờ) là $18+46+68=132$ (học sinh).\nDo đó, số kết quả thuận lợi cho biến cố $B$ là $n(B)=132$.\nXác suất của biến cố $B$ là $P(B)=\\frac{n(B)}{n(\\Omega)}=\\frac{132}{200}=\\frac{33}{50}$.\nVậy $P(A)=\\frac{17}{200}$ và $P(B)=\\frac{33}{50}$.",
+     "points": 0.75,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$P(A)={{1}}$",
+       "$P(B)={{2}}$"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "17/200"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "33/50"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 4,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 4",
+   "question": "Để thiết kế mô hình đồ chơi có hình dạng con vịt như hình dưới, Nam thực hiện các bước sau:\nBước 1. Phần thân vịt: Bạn Nam vẽ hình vuông $ABCD$ có cạnh dài $30$ cm. Sau đó, Nam vẽ cung tròn $BD$ có tâm $A$, vẽ nửa đường tròn đường kính $AE$ với $AE=2x$ (cm).\nBước 2. Phần đầu và phần sau vịt: Bạn Nam vẽ nửa đường tròn đường kính $EB$ và nửa đường tròn đường kính $AD$. [[IMG:b4-manh-dat.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C4",
+   "dang": "L9.C6.B4.D03",
+   "dang_toan_web": "Giải bài toán bằng cách lập phương trình bậc hai.",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Viết biểu thức tính diện tích phần thân mô hình con vịt theo $x$.",
+     "explanation": "Phần thân con vịt được tạo bởi một phần tư hình tròn tâm $A$ bán kính $AB$ và khoét đi nửa hình tròn đường kính $AE$.\nBán kính phần tư hình tròn tâm $A$ là $R=AB=30$ (cm).\nDiện tích phần tư hình tròn tâm $A$ là: $S_1=\\frac{\\pi\\cdot 30^2}{4}=225\\pi$ (cm$^2$).\nBán kính nửa đường tròn đường kính $AE$ là $r_1=\\frac{2x}{2}=x$ (cm).\nDiện tích nửa đường tròn đường kính $AE$ là: $S_2=\\frac{1}{2}\\pi x^2$ (cm$^2$).\nBiểu thức tính diện tích phần thân mô hình con vịt theo $x$ là: $S_{thân}=S_1-S_2=225\\pi-\\frac{1}{2}\\pi x^2$ (cm$^2$).",
+     "points": 0.5,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "$S_{thân}={{1}}$ (cm$^2$)"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "bt",
+        "dap_an": "225π-πx^2/2"
+       }
+      ]
+     }
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Tính diện tích mô hình con vịt, biết diện tích phần thân mô hình con vịt là $549,5$ cm$^2$. (Cả bài lấy $\\pi\\approx 3,14$).",
+     "explanation": "Theo đề bài, diện tích phần thân mô hình con vịt là $549,5$ cm$^2$ và $\\pi\\approx 3,14$, ta có phương trình:\n$225\\cdot 3,14-\\frac{1}{2}\\cdot 3,14\\cdot x^2=549,5$.\n$706,5-1,57x^2=549,5$.\n$1,57x^2=157$.\n$x^2=100$.\n$x=10$ (vì $x>0$).\nĐường kính của phần đầu con vịt là $EB=AB-AE=30-2\\cdot 10=10$ (cm).\nBán kính nửa đường tròn phần đầu là $r_2=5$ (cm).\nDiện tích phần đầu (nửa đường tròn đường kính $EB$) là: $S_{đầu}=\\frac{1}{2}\\cdot 3,14\\cdot 5^2=39,25$ (cm$^2$).\nBán kính nửa đường tròn phần sau con vịt là $r_3=\\frac{AD}{2}=\\frac{30}{2}=15$ (cm).\nDiện tích phần sau (nửa đường tròn đường kính $AD$) là: $S_{sau}=\\frac{1}{2}\\cdot 3,14\\cdot 15^2=353,25$ (cm$^2$).\nDiện tích toàn bộ mô hình con vịt là: $S=S_{thân}+S_{đầu}+S_{sau}=549,5+39,25+353,25=942$ (cm$^2$).\nVậy diện tích mô hình con vịt là $942$ cm$^2$.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "942"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 5,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 5",
+   "question": "Bạn An mua một quả cầu pha lê có diện tích mặt cầu là $196\\pi$ (cm$^2$). [[IMG:b5-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C5",
+   "dang": "L9.C9.B4.D03",
+   "dang_toan_web": "Các dạng toán khác",
+   "muc_do": "TH",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính bán kính quả cầu pha lê.",
+     "explanation": "Ta có công thức tính diện tích mặt cầu là $S=4\\pi R^2$.\nTheo đề bài ta có $4\\pi R^2=196\\pi$, suy ra $R^2=49$, suy ra $R=7$ (vì $R>0$).\nVậy bán kính quả cầu pha lê là $7$ cm.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "7"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Bạn đặt quả cầu pha lê chìm hoàn toàn vào bể cá hình chữ nhật. Biết bể cá có kích thước chiều dài, chiều rộng, chiều cao lần lượt là $25$ cm $\\times$ $40$ cm $\\times$ $50$ cm. Tính khoảng cách từ mép nước đến thành bể lúc này, biết lượng nước trong bể có lúc đầu là $40$ lít nước. (Kết quả làm tròn đến hàng phần mười). (Cho biết công thức tính thể tích $V$ và diện tích $S$ của hình cầu là $S=4\\pi R^2$; $V=\\frac{4}{3}\\pi R^3$ (với $R$ là bán kính hình cầu)).",
+     "explanation": "Đổi $40$ lít nước $=40000$ cm$^3$.\nThể tích của quả cầu pha lê là $V_{cầu}=\\frac{4}{3}\\pi R^3=\\frac{4}{3}\\pi\\cdot 7^3=\\frac{1372\\pi}{3}$ (cm$^3$).\nDiện tích đáy của bể cá hình chữ nhật là $S_{đáy}=25\\cdot 40=1000$ (cm$^2$).\nThể tích tổng cộng của nước và quả cầu trong bể là $V_{tổng}=40000+\\frac{1372\\pi}{3}$ (cm$^3$).\nChiều cao của mực nước trong bể lúc này là $h=\\frac{V_{tổng}}{S_{đáy}}=\\frac{40000+\\frac{1372\\pi}{3}}{1000}=40+\\frac{343\\pi}{750}$ (cm).\nKhoảng cách từ mép nước đến thành bể lúc này là $50-h=50-\\left(40+\\frac{343\\pi}{750}\\right)=10-\\frac{343\\pi}{750}\\approx 8,6$ (cm).\nVậy khoảng cách từ mép nước đến thành bể lúc này là $8,6$ cm.",
+     "points": 0.5,
+     "type": "short_answer",
+     "shortCorrect": "8,6"
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 6,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [],
+   "points": 1.0,
+   "bai_goc": "Bài 6",
+   "question": "Hai xe ô tô bus đi trên tuyến đường như hình vẽ theo lộ trình từ $ABCDA$ hay $ADCBA$, chạy liên tục không nghỉ và hết lộ trình lại tiếp tục một lộ trình nữa. Cùng một thời điểm, nếu hai ô tô bus cùng xuất phát từ $A$ và đi khác tuyến nhau thì sau $1,2$ giờ sẽ gặp nhau; còn nếu đi cùng tuyến nhau thì ô tô bus thứ hai sẽ vượt ô tô bus thứ nhất sau $6$ giờ. [[IMG:b6-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C6",
+   "dang": "L9.C1.B5.D01",
+   "dang_toan_web": "Giải bài toán bằng cách lập hệ phương trình.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Tính thời gian ít nhất mà mỗi xe đi được từ $A$ đến $C$, giả sử rằng vận tốc của các ô tô bus là không đổi trên các đoạn đường của lộ trình.",
+     "explanation": "Gọi $x$ (km/h) là vận tốc của ô tô bus thứ nhất, $y$ (km/h) là vận tốc của ô tô bus thứ hai ($y>x>0$).\nTổng độ dài một vòng lộ trình là $26+19+23+32=100$ (km).\nQuãng đường ô tô thứ nhất và ô tô thứ hai đi được trong $1,2$ giờ lần lượt là $1,2x$ (km) và $1,2y$ (km).\nQuãng đường ô tô thứ nhất và ô tô thứ hai đi được trong $6$ giờ lần lượt là $6x$ (km) và $6y$ (km).\nVì hai xe xuất phát cùng lúc, đi khác tuyến (ngược chiều) và gặp nhau sau $1,2$ giờ nên tổng quãng đường hai xe đi được bằng đúng $1$ vòng lộ trình, ta có phương trình:\n$1,2x+1,2y=100$. (1)\nVì hai xe xuất phát cùng lúc, đi cùng tuyến (cùng chiều) và xe thứ hai vượt xe thứ nhất sau $6$ giờ nên hiệu quãng đường xe thứ hai và xe thứ nhất đi được bằng đúng $1$ vòng lộ trình, ta có phương trình:\n$6y-6x=100$. (2)\nTừ (1) và (2) ta lập được hệ phương trình:\n$\\begin{cases}1,2x+1,2y=100\\\\-6x+6y=100\\end{cases}$\nGiải hệ phương trình, ta được $x=\\frac{100}{3}$ (nhận), $y=50$ (nhận).\nVậy vận tốc của ô tô bus thứ nhất là $\\frac{100}{3}$ km/h, vận tốc của ô tô bus thứ hai là $50$ km/h.\nQuãng đường từ $A$ đến $C$ đi theo tuyến $ABC$ là $26+19=45$ (km).\nQuãng đường từ $A$ đến $C$ đi theo tuyến $ADC$ là $32+23=55$ (km).\nĐể thời gian đi từ $A$ đến $C$ là ít nhất thì quãng đường phải ngắn nhất, do đó các xe đi theo tuyến $ABC$ dài $45$ (km).\nThời gian ít nhất ô tô bus thứ nhất đi từ $A$ đến $C$ là $45:\\frac{100}{3}=1,35$ (giờ).\nThời gian ít nhất ô tô bus thứ hai đi từ $A$ đến $C$ là $45:50=0,9$ (giờ).\nVậy thời gian ít nhất ô tô thứ nhất đi từ $A$ đến $C$ là $1,35$ giờ, ô tô thứ hai đi từ $A$ đến $C$ là $0,9$ giờ.",
+     "points": 1.0,
+     "type": "form_mau",
+     "mau_spec": {
+      "mau": "dap_so",
+      "kieu": "dong",
+      "dong": [
+       "Thời gian ít nhất ô tô bus thứ nhất đi từ A đến C là {{1}} giờ",
+       "Thời gian ít nhất ô tô bus thứ hai đi từ A đến C là {{2}} giờ"
+      ],
+      "o": [
+       {
+        "id": "1",
+        "loai": "so",
+        "dap_an": "1,35"
+       },
+       {
+        "id": "2",
+        "loai": "so",
+        "dap_an": "0,9"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "n": 7,
+   "type": "multi_part",
+   "answer": null,
+   "tf": {},
+   "tf_ans": {},
+   "flags": [
+    {
+     "loai": "ghi_chu",
+     "ghi_chu": "Bai 7 y c goc hoi ca cac goc cua tam giac DEF va chu vi cua tam giac nay theo R. Ban soan tach thanh hai y: y c tinh cac goc (chung minh, 0,5 diem) va y d tinh chu vi duoi dang trac nghiem 4 phuong an (0,5 diem); tong diem Bai 7 van la 3,0 diem, dap so khong doi."
+    }
+   ],
+   "points": 3.0,
+   "bai_goc": "Bài 7",
+   "question": "Cho nửa đường tròn $(O;R)$ có đường kính $AB$. Trên nửa đường tròn $(O;R)$ lấy điểm $E$ tùy ý, tia phân giác của góc $EBA$ cắt nửa đường tròn $(O;R)$ tại $D$, $AE$ cắt $BD$ tại $H$. Gọi $F$ là chân đường vuông góc kẻ từ $H$ lên $AB$. [[IMG:b7-hinh.png]]",
+   "explanation": "",
+   "ma": "de1.P4.C7",
+   "dang": "L9.C8.B6.D01",
+   "dang_toan_web": "Chứng minh hình học tổng hợp với đường tròn: tứ giác nội tiếp, tiếp tuyến, hệ thức hình học.",
+   "muc_do": "VD",
+   "parts": [
+    {
+     "id": "a",
+     "label": "a",
+     "question": "Chứng minh $\\widehat{BDA}=90^\\circ$ và $\\widehat{HFD}=\\widehat{HAD}$.",
+     "explanation": "Ta có $\\widehat{BDA}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\nVì $HF\\perp AB$ tại $F$ nên $\\widehat{HFA}=90^\\circ$.\n$\\triangle ADH$ vuông tại $D$ (do $\\widehat{BDA}=90^\\circ$) suy ra $\\triangle ADH$ nội tiếp đường tròn đường kính $AH$.\n$\\triangle AFH$ vuông tại $F$ (do $\\widehat{HFA}=90^\\circ$) suy ra $\\triangle AFH$ nội tiếp đường tròn đường kính $AH$.\nSuy ra bốn điểm $A$, $D$, $H$, $F$ cùng thuộc một đường tròn đường kính $AH$, tức là tứ giác $ADHF$ nội tiếp.\nDo đó $\\widehat{HFD}=\\widehat{HAD}$ (hai góc nội tiếp cùng chắn cung $HD$).",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "b",
+     "label": "b",
+     "question": "Gọi $C$ là giao điểm của $BE$ và $AD$. Chứng minh $C$, $H$, $F$ thẳng hàng và $DH\\cdot DB=DF^2=\\frac{AC^2}{4}$.",
+     "explanation": "Ta có $\\widehat{AEB}=90^\\circ$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$), suy ra $AE\\perp EB$, tức là $AE\\perp BC$.\n$\\widehat{BDA}=90^\\circ$ (chứng minh ở ý a), suy ra $BD\\perp AD$, tức là $BD\\perp AC$.\nXét $\\triangle ABC$ có $AE$ và $BD$ là hai đường cao cắt nhau tại $H$, suy ra $H$ là trực tâm của $\\triangle ABC$.\nDo đó $CH\\perp AB$. Mà $HF\\perp AB$ tại $F$, suy ra $C$, $H$, $F$ thẳng hàng.\nXét $\\triangle ABC$ có $BD$ là đường cao ($BD\\perp AC$). Lại có $BD$ là đường phân giác của $\\widehat{EBA}$ (giả thiết) nên $BD$ cũng là đường phân giác của $\\widehat{ABC}$. Suy ra $\\triangle ABC$ cân tại $B$.\nDo đó $BD$ đồng thời là đường trung tuyến của $\\triangle ABC$, suy ra $D$ là trung điểm của $AC$, tức là $AD=\\frac{AC}{2}$.\nXét $\\triangle AFC$ vuông tại $F$ ($CF\\perp AB$), có $FD$ là đường trung tuyến ứng với cạnh huyền $AC$. Suy ra $FD=\\frac{AC}{2}$, do đó $DF^2=\\frac{AC^2}{4}$. (*)\nTrong $\\triangle ABD$ vuông tại $D$, ta có: $\\widehat{DAB}=90^\\circ-\\widehat{DBA}$.\nTrong $\\triangle ABE$ vuông tại $E$, ta có: $\\widehat{EAB}=90^\\circ-\\widehat{EBA}$.\nSuy ra $\\widehat{DAH}=\\widehat{DAB}-\\widehat{EAB}=(90^\\circ-\\widehat{DBA})-(90^\\circ-\\widehat{EBA})=\\widehat{EBA}-\\widehat{DBA}$.\nVì $BD$ là phân giác của $\\widehat{EBA}$ nên $\\widehat{EBA}=2\\widehat{DBA}$.\nDo đó $\\widehat{DAH}=2\\widehat{DBA}-\\widehat{DBA}=\\widehat{DBA}$.\nXét $\\triangle ADH$ và $\\triangle BDA$ có: $\\widehat{ADH}=\\widehat{BDA}=90^\\circ$; $\\widehat{DAH}=\\widehat{DBA}$ (chứng minh trên).\nSuy ra $\\triangle ADH\\sim\\triangle BDA$ (g-g).\nDo đó $\\frac{AD}{BD}=\\frac{DH}{AD}$, suy ra $DH\\cdot DB=AD^2$.\nMà $AD=\\frac{AC}{2}$ nên $DH\\cdot DB=\\frac{AC^2}{4}$. (**)\nTừ (*) và (**) suy ra $DH\\cdot DB=DF^2=\\frac{AC^2}{4}$.",
+     "points": 1.0,
+     "type": "essay"
+    },
+    {
+     "id": "c",
+     "label": "c",
+     "question": "Tính các góc của tam giác $DEF$ trong trường hợp $\\widehat{ABC}=30^\\circ$.",
+     "explanation": "Khi $\\widehat{ABC}=30^\\circ$, $\\triangle ABC$ cân tại $B$ (chứng minh ở ý b) nên $\\widehat{BAC}=\\widehat{BCA}=\\frac{180^\\circ-30^\\circ}{2}=75^\\circ$.\nTính $\\widehat{FDE}$:\nTứ giác $ADHF$ nội tiếp (chứng minh ở ý a) nên $\\widehat{HDF}=\\widehat{HAF}=\\widehat{EAB}$.\n$\\triangle CDH$ vuông tại $D$ suy ra $\\triangle CDH$ nội tiếp đường tròn đường kính $CH$.\n$\\triangle CEH$ vuông tại $E$ suy ra $\\triangle CEH$ nội tiếp đường tròn đường kính $CH$.\nSuy ra $C$, $D$, $H$, $E$ cùng thuộc đường tròn đường kính $CH$, tức là tứ giác $CDHE$ nội tiếp.\nDo đó $\\widehat{HDE}=\\widehat{HCE}=\\widehat{FCB}$.\nSuy ra $\\widehat{FDE}=\\widehat{HDF}+\\widehat{HDE}=\\widehat{EAB}+\\widehat{FCB}$.\nTrong $\\triangle ABE$ vuông tại $E$: $\\widehat{EAB}=90^\\circ-\\widehat{ABC}=90^\\circ-30^\\circ=60^\\circ$.\nTrong $\\triangle CBF$ vuông tại $F$: $\\widehat{FCB}=90^\\circ-\\widehat{ABC}=90^\\circ-30^\\circ=60^\\circ$.\nSuy ra $\\widehat{FDE}=60^\\circ+60^\\circ=120^\\circ$.\nTính $\\widehat{DFE}$:\nTứ giác $ADHF$ nội tiếp nên $\\widehat{HFD}=\\widehat{HAD}$.\nMà $\\widehat{HAD}=\\widehat{DAH}=\\widehat{DBA}=15^\\circ$ (do $BD$ là phân giác của $\\widehat{EBA}$ và $\\widehat{ABC}=30^\\circ$ nên $\\widehat{DBA}=15^\\circ$; $\\widehat{DAH}=\\widehat{DBA}$ đã chứng minh ở ý b).\nSuy ra $\\widehat{HFD}=15^\\circ$.\n$\\triangle BFH$ vuông tại $F$ suy ra $\\triangle BFH$ nội tiếp đường tròn đường kính $BH$.\n$\\triangle BEH$ vuông tại $E$ suy ra $\\triangle BEH$ nội tiếp đường tròn đường kính $BH$.\nSuy ra $B$, $F$, $H$, $E$ cùng thuộc đường tròn đường kính $BH$, tức là tứ giác $BFHE$ nội tiếp.\nDo đó $\\widehat{HFE}=\\widehat{HBE}=15^\\circ$.\nSuy ra $\\widehat{DFE}=\\widehat{HFD}+\\widehat{HFE}=15^\\circ+15^\\circ=30^\\circ$.\nTính $\\widehat{DEF}$:\n$\\widehat{DEF}=180^\\circ-(\\widehat{FDE}+\\widehat{DFE})=180^\\circ-150^\\circ=30^\\circ$.\nVậy các góc của tam giác $DEF$ là $\\widehat{FDE}=120^\\circ$, $\\widehat{DFE}=30^\\circ$, $\\widehat{DEF}=30^\\circ$; tam giác $DEF$ cân tại $D$.",
+     "points": 0.5,
+     "type": "essay"
+    },
+    {
+     "id": "d",
+     "label": "d",
+     "question": "Gọi bán kính của nửa đường tròn $(O;R)$ là $R$. Tính chu vi của tam giác $DEF$ theo $R$ trong trường hợp $\\widehat{ABC}=30^\\circ$.",
+     "explanation": "Trong $\\triangle ABD$ vuông tại $D$: $AB=2R$, $\\widehat{ABD}=15^\\circ$.\n$AD=AB\\sin 15^\\circ=2R\\sin 15^\\circ$.\nVì $FD=AD$ (cùng bằng $\\frac{AC}{2}$) và $DE=DF$ (do $\\triangle DEF$ cân tại $D$, chứng minh ở ý c) nên $DE=DF=2R\\sin 15^\\circ$.\nKẻ $DK\\perp EF$ tại $K$. Do $\\triangle DEF$ cân tại $D$ nên $K$ là trung điểm $EF$.\nTrong $\\triangle DKE$ vuông tại $K$: $EK=DE\\cos\\widehat{DEF}=2R\\sin 15^\\circ\\cdot\\cos 30^\\circ=2R\\sin 15^\\circ\\cdot\\frac{\\sqrt{3}}{2}=R\\sqrt{3}\\sin 15^\\circ$.\nSuy ra $EF=2EK=2R\\sqrt{3}\\sin 15^\\circ$.\nChu vi $\\triangle DEF$ là: $P=DE+DF+EF=2R\\sin 15^\\circ+2R\\sin 15^\\circ+2R\\sqrt{3}\\sin 15^\\circ=2R(2+\\sqrt{3})\\sin 15^\\circ$.",
+     "points": 0.5,
+     "type": "multiple_choice",
+     "options": [
+      "$2R(2+\\sqrt{3})\\sin 15^\\circ$",
+      "$2R(2-\\sqrt{3})\\sin 15^\\circ$",
+      "$4R(2+\\sqrt{3})\\sin 15^\\circ$",
+      "$R(2+\\sqrt{3})\\sin 15^\\circ$"
+     ],
+     "correctAnswer": 0
+    }
+   ]
+  }
+ ]
+}
