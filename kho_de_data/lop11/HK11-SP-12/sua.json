@@ -1,26 +1,32 @@
 {
-  "de1.P1.C3": {
-    "bo_cau": true,
-    "sua_boi": "claude",
-    "ly_do": "Trùng câu đã có trên web (đề viPn9EBDLAvIPD6FcTB8) — mặc định bỏ"
+ "de1.P1.C3": {
+  "bo_cau": true,
+  "sua_boi": "claude",
+  "ly_do": "Trùng câu đã có trên web (đề viPn9EBDLAvIPD6FcTB8) — mặc định bỏ"
+ },
+ "de1.P3.C1": {
+  "ly_do": "Da tinh lai: 141 giay cho 352,5 vong; quang duong 352,5.2pi.0,34 xap xi 753,04 m khop.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C1": {
+  "ly_do": "Da tinh lai: cos x=1 khi x=k2pi; sin x=0 khi x=kpi; sin x=1/2 dung nhu y c; P_min tren [1;3] bang 1 tai m=1 (khong phai 3/4); tf_ans S,S,D,S khop.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C2": {
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": true,
+   "c": false,
+   "d": false
   },
-  "de1.P3.C1": {
-    "ly_do": "Da tinh lai: 141 giay cho 352,5 vong; quang duong 352,5.2pi.0,34 xap xi 753,04 m khop.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C1": {
-    "ly_do": "Da tinh lai: cos x=1 khi x=k2pi; sin x=0 khi x=kpi; sin x=1/2 dung nhu y c; P_min tren [1;3] bang 1 tai m=1 (khong phai 3/4); tf_ans S,S,D,S khop.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C2": {
-    "ghi_chu": "Chưa kết luận được cả câu vì các ý b, c, d đều phụ thuộc số liệu đồ thị image5.png mà không có ảnh local lớp 11. Đã kiểm: a) Đúng độc lập với hình (hàm đa thức bậc hai liên tục trên R). Từ số liệu trong lời giải gốc (đỉnh I(-1;-4), đồ thị qua M(1;0), f(1) = 0) thì tính ra f(x) = x^2 + 2x - 3, giới hạn tại x = 3 bằng 12 (khác 10) nên c) Sai, và giới hạn ở ý d) bằng 3/2 (khác 2) nên d) Sai. Lưu ý thêm: bảng tóm tắt trong lời giải ghi ô cuối là “D” (Đúng) mâu thuẫn với chính phép tính 3/2 khác 2 ở ý d). Nhờ thầy đối chiếu ảnh gốc để xác nhận số liệu đồ thị và sửa bảng tóm tắt nếu giữ lời giải, sau đó mới điền tf_ans.",
-    "sua_boi": "muse"
-  },
-  "de1.P3.C4": {
-    "ly_do": "Da tinh lai bang toa do: mat phang (AMN) la z=x+y; SC tham so (t,t,1-t) cat tai t=1/3 nen SK/SC=1/3; a^2+b^2=10 khop.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  }
+  "ly_do": "Rà bổ sung ảnh THPT 2026-11-12 (vai học sinh, tự giải kiểm chứng): Đã xem image5.png: parabol đỉnh $(-1;-4)$, qua $(1;0)$ nên $f(x)=x^2+2x-3$. a) Hàm đa thức bậc hai liên tục trên $\\mathbb{R}$ — Đúng; b) $\\lim_{x\\to 1}f(x)=f(1)=0$ — Đúng; c) $\\lim_{x\\to 3}f(x)=12\\ne 10$ — Sai; d) $\\lim_{x\\to 1}\\frac{x^2-x+1-\\sqrt{2x-1}}{f(x)-4x+4}=3/2\\ne 2$ — Sai. Bổ sung tf_ans còn trống trong de1.json ({} → {a: Đúng, b: Đúng, c: Sai, d: Sai}); entry live cũ của muse chỉ có ghi_chu «chưa kết luận được vì thiếu ảnh» — nay đã chốt nhờ ảnh nên bỏ ghi_chu đó."
+ },
+ "de1.P3.C4": {
+  "ly_do": "Da tinh lai bang toa do: mat phang (AMN) la z=x+y; SC tham so (t,t,1-t) cat tai t=1/3 nen SK/SC=1/3; a^2+b^2=10 khop.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ }
 }
