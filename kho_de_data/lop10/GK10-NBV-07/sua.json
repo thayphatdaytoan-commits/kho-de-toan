@@ -1,30 +1,32 @@
 {
-  "de1.P1.C1": {
-    "bo_cau": true,
-    "sua_boi": "claude",
-    "ly_do": "Trùng câu đã có trên web (đề NgxOzBrgcfOIrQZuy78d) — mặc định bỏ"
-  },
-  "de1.P1.C2": {
-    "ly_do": "Thử C(1;-1) vào hệ: 3·1-2·(-1)-6 = -1 ≥ 0 sai nên C không thuộc miền nghiệm; A, B, D đều thỏa cả ba bất phương trình. Đáp án C trong đề đúng, web đọc B sai.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C2": {
-    "explanation": "a) Thay ${x=0, y=0}$ vào bất phương trình: ${0>3}$ (sai). Vì vậy ${(0 ; 0)}$ không là nghiệm bất phương trình.\nb) Thay ${x=-1, y=1}$ vào bất phương trình: ${2+3>3}$ (đúng). Vì vậy ${(-1 ; 1)}$ là nghiệm bất phương trình.\nc) Thay ${x=0, y=1}$ vào bất phương trình: ${3>3}$ (sai). Vì vậy ${(0 ; 1)}$ không là nghiệm bất phương trình.\nd) Thay ${x=1, y=3}$ vào bất phương trình: ${-2+9>3}$ (đúng). Vì vậy ${(1 ; 3)}$ là nghiệm bất phương trình.",
-    "ly_do": "Xóa đoạn cuối lời giải bị lẫn đề câu sau («Cho hệ bất phương trình: $...» chưa đóng dấu $) gây lẻ dấu $; tf_ans trong đề đã đúng (a đúng, b sai, c đúng, d đúng).",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C3": {
-    "ly_do": "Khôi phục phần đầu đề bị rơi sang lời giải câu trước: hệ (I) gồm 3x+2y ≥ 9, x-2y ≤ 3, x+y ≤ 6, x ≥ 1; số dấu $ nay chẵn. tf_ans trong đề đã đúng: miền nghiệm là tứ giác (3;0), (5;1), (1;5), (1;3) nên a sai; (3;2) thỏa hệ nên b đúng; F = 3x-y lớn nhất 14 tại (5;1) nên c sai, nhỏ nhất -2 tại (1;5) nên d đúng.",
-    "question": "Cho hệ bất phương trình: $\\left\\{ \\begin{array}{llllll} \\begin{aligned} & 3x+2y\\ge 9 \\\\ & x-2y\\le 3 \\\\ & x+y\\le 6 \\\\ & x\\ge 1 \\\\ \\end{aligned} \\end{array} \\right.\\left( I \\right)$. Khi đó:",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C1": {
-    "short_correct": "2",
-    "xac_nhan": true,
-    "ly_do": "Đã kiểm lại 3 mệnh đề: a đúng vì mọi số tự nhiên tận cùng bằng $0$ đều chia hết cho $10$; b sai vì với $x=0$ thì $x^2=0$, không lớn hơn $0$; c đúng vì tập rỗng là tập con của mọi tập hợp. Vậy có $2$ mệnh đề đúng, khớp đáp số trong đề. Ảnh image11.png không có trong cây de và không xuất hiện trong đề bài của câu này nên không ảnh hưởng kết luận.",
-    "sua_boi": "muse"
-  }
+ "de1.P1.C1": {
+  "bo_cau": true,
+  "sua_boi": "claude",
+  "ly_do": "Trùng câu đã có trên web (đề NgxOzBrgcfOIrQZuy78d) — mặc định bỏ"
+ },
+ "de1.P1.C2": {
+  "ly_do": "Rà bổ sung ảnh THPT 2026-11-12 (vai học sinh, tự giải kiểm chứng): Chỉ sửa lời giải (khóa C giữ nguyên): lời giải cũ bị dính nội dung của câu khác (kèm khẳng định sai về cot(180°−a) không thuộc câu này).",
+  "sua_boi": "muse",
+  "xac_nhan": true,
+  "explanation": "Hai đường thẳng biên là $d_1: 3x-2y=6$ (qua $(2;0)$, $(0;-3)$) và $d_2$ ứng với $2(x-1)+\\frac{3y}{2}=4$ (qua $(3;0)$, $(0;4)$); miền nghiệm là phần trắng trong hình image10. Thử các điểm: $A(2;-2)$, $B(3;0)$, $D(2;-3)$ đều thỏa hệ; $C(1;-1)$ cho $3x-2y-6=-1<0$ nên không thuộc miền nghiệm. Vậy đáp án là C."
+ },
+ "de1.P2.C2": {
+  "explanation": "a) Thay ${x=0, y=0}$ vào bất phương trình: ${0>3}$ (sai). Vì vậy ${(0 ; 0)}$ không là nghiệm bất phương trình.\nb) Thay ${x=-1, y=1}$ vào bất phương trình: ${2+3>3}$ (đúng). Vì vậy ${(-1 ; 1)}$ là nghiệm bất phương trình.\nc) Thay ${x=0, y=1}$ vào bất phương trình: ${3>3}$ (sai). Vì vậy ${(0 ; 1)}$ không là nghiệm bất phương trình.\nd) Thay ${x=1, y=3}$ vào bất phương trình: ${-2+9>3}$ (đúng). Vì vậy ${(1 ; 3)}$ là nghiệm bất phương trình.",
+  "ly_do": "Xóa đoạn cuối lời giải bị lẫn đề câu sau («Cho hệ bất phương trình: $...» chưa đóng dấu $) gây lẻ dấu $; tf_ans trong đề đã đúng (a đúng, b sai, c đúng, d đúng).",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C3": {
+  "ly_do": "Khôi phục phần đầu đề bị rơi sang lời giải câu trước: hệ (I) gồm 3x+2y ≥ 9, x-2y ≤ 3, x+y ≤ 6, x ≥ 1; số dấu $ nay chẵn. tf_ans trong đề đã đúng: miền nghiệm là tứ giác (3;0), (5;1), (1;5), (1;3) nên a sai; (3;2) thỏa hệ nên b đúng; F = 3x-y lớn nhất 14 tại (5;1) nên c sai, nhỏ nhất -2 tại (1;5) nên d đúng.",
+  "question": "Cho hệ bất phương trình: $\\left\\{ \\begin{array}{llllll} \\begin{aligned} & 3x+2y\\ge 9 \\\\ & x-2y\\le 3 \\\\ & x+y\\le 6 \\\\ & x\\ge 1 \\\\ \\end{aligned} \\end{array} \\right.\\left( I \\right)$. Khi đó:",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C1": {
+  "short_correct": "2",
+  "xac_nhan": true,
+  "ly_do": "Rà bổ sung ảnh THPT 2026-11-12 (vai học sinh, tự giải kiểm chứng): Chỉ sửa lời giải (khóa '2' giữ nguyên): lời giải cũ bị dính hình/nội dung của các câu khác (bài cà phê, bài thịt).",
+  "sua_boi": "muse",
+  "explanation": "Mệnh đề a đúng (số có chữ số tận cùng là $0$ thì chia hết cho $10$); mệnh đề b sai (chẳng hạn với $x=0$ thì $x^2=0$); mệnh đề c đúng (tập rỗng là tập con của mọi tập hợp). Vậy có $2$ mệnh đề đúng."
+ }
 }
