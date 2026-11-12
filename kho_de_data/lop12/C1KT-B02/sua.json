@@ -1,46 +1,46 @@
 {
-  "de1.P3.C2": {
-    "ly_do": "$f'(x)=3x^2+1+m^2>0$ nên $\\max_{[0;1]}f=f(1)=m^2+3\\le 7 \\Leftrightarrow |m|\\le 2$, có 5 số nguyên.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C6": {
-    "explanation": "Đặt chiều rộng $3x$, chiều dài $4x$ (m), chiều cao $h=\\frac{8}{12x^2}=\\frac{2}{3x^2}$. Diện tích toàn phần: đáy $12x^2$ + nắp trừ lỗ $12x^2\\cdot\\frac79=\\frac{28x^2}{3}$ + xung quanh $2(3x+4x)h=\\frac{28}{3x}$, tức $T=\\frac{64x^2}{3}+\\frac{28}{3x}$. $T'=0 \\Leftrightarrow 128x^3=28 \\Leftrightarrow x=\\sqrt[3]{\\frac{7}{32}}\\approx 0,60$; $T_{\\min}\\approx 23,24\\,\\mathrm{m}^2$; chi phí $\\approx 23,24\\times 980000\\approx 22.770.000$ đồng, làm tròn đến triệu là 23.000.000 đồng, khớp short_correct.",
-    "ly_do": "Diện tích xung quanh đúng là $\\frac{28}{3x}$ (không phải $\\frac{28}{3x^2}$ như lời giải cũ); tính lại $T_{\\min}\\approx 23,24\\,\\mathrm{m}^2$, chi phí $\\approx 22,77$ triệu, làm tròn 23 triệu — khớp short_correct 23000000. Kết luận 28 triệu trong lời giải cũ là sai; sửa lời giải, giữ đáp số.",
-    "sua_boi": "muse"
-  },
-  "de1.P1.C9": {
-    "xac_nhan": true,
-    "sua_boi": "muse",
-    "ly_do": "Giải lại: $y'=\\frac{1-m}{(x+1)^2}$. Trường hợp $m=1$ cho tổng bằng $2$; $m<1$ cho $m=5$ (loại); $m>1$ cho $m=5$ (nhận). Vậy $m=5>4$ nên đáp án A đúng."
-  },
-  "de1.P2.C2": {
-    "xac_nhan": true,
-    "sua_boi": "muse",
-    "ly_do": "Đã kiểm đủ 4 ý: a Sai (tập xác định $D=\\mathbb{R}\\backslash\\{m\\}$); b Đúng ($y'>0$ nên đồng biến trên $(-\\infty;1)$ và $(1;+\\infty)$ khi $m=1$); c Sai (không xác định tại $x=1$, $y(4)=\\frac{1}{3}\\ne\\frac{1}{2}$); d Đúng (chỉ $m=-3$ cho giá trị lớn nhất trên $[0;4]$ bằng $-1$)."
-  },
-  "de1.P2.C4": {
-    "xac_nhan": true,
-    "sua_boi": "muse",
-    "ly_do": "Đã kiểm: $h'(t)=0$ tại $t\\approx 18,11$ (cực tiểu) nên giá trị lớn nhất trên $[0;50]$ bằng $250$ tại hai đầu mút (a Đúng), giá trị nhỏ nhất tại $t\\approx 18$ không phải $25$ (b Sai), $v_{\\max}=v(110/3)\\approx 10,33$ (c Đúng), $h(110/3)\\approx 135,93\\ne 139,37$ (d Sai)."
-  },
-  "de1.P3.C1": {
-    "ly_do": "$f'(x)=\\frac12-\\frac{1}{2\\sqrt{x+1}}=0 \\Leftrightarrow x=0$; $f$ đồng biến trên $[0;3]$ nên $M=f(3)=-\\frac12$, $m=f(0)=-1$, $S=2M-m=0$.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C3": {
-    "ly_do": "Giải đúng: $\\max+\\min=f(1)+f(2)=\\frac{1+m}{2}+\\frac{2+m}{3}=\\frac{5m+7}{6}=8 \\Leftrightarrow m=\\frac{41}{5}$, không phải số nguyên. Chữ 'nguyên' trong đề mâu thuẫn với đáp số; bỏ chữ này, giữ short_correct $8,2|41/5$.",
-    "question": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\frac{x+m}{x+1}$ trên đoạn $\\left[ 1;2 \\right]$ bằng $8$. Tìm giá trị của tham số $m$.",
-    "sua_boi": "muse"
-  },
-  "de1.P3.C4": {
-    "ly_do": "$v(t)=12t-3t^2$, $v'=12-6t=0 \\Leftrightarrow t=2$, $v_{\\max}=12$ tại $t=2$.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C5": {
-    "ghi_chu": "Đề ghi chi phí một giờ là $60(6n+10)$ nhưng lời giải tính với $10(6n+10)$ (nghìn đồng/giờ): với hệ số 10 thì $n=5$ tối ưu ($n^2\\approx 27,78$; kiểm tra $n=5$ rẻ hơn $n=6$), còn với hệ số 60 như đề ghi thì cực tiểu tại $n\\approx 12,9$ nên với tối đa 8 máy đáp án là 8. Ngoài ra bước Cauchy trong lời giải ghi sai ($1250/(9n)=4n$ thay vì $=5n$; $5\\sqrt5/10\\approx 1,12$ chứ không phải $\\approx 5$). Cần đề gốc để xác định hệ số đúng; không chốt 5 hay 8 khi đề và lời giải mâu thuẫn. Ảnh liên quan: de/lop12/C1KT-B02/images/image14_cat8c9bf0.png.",
-    "sua_boi": "muse"
-  }
+ "de1.P3.C2": {
+  "ly_do": "$f'(x)=3x^2+1+m^2>0$ nên $\\max_{[0;1]}f=f(1)=m^2+3\\le 7 \\Leftrightarrow |m|\\le 2$, có 5 số nguyên.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C6": {
+  "explanation": "Đặt chiều rộng $3x$, chiều dài $4x$ (m), chiều cao $h=\\frac{8}{12x^2}=\\frac{2}{3x^2}$. Diện tích toàn phần: đáy $12x^2$ + nắp trừ lỗ $12x^2\\cdot\\frac79=\\frac{28x^2}{3}$ + xung quanh $2(3x+4x)h=\\frac{28}{3x}$, tức $T=\\frac{64x^2}{3}+\\frac{28}{3x}$. $T'=0 \\Leftrightarrow 128x^3=28 \\Leftrightarrow x=\\sqrt[3]{\\frac{7}{32}}\\approx 0,60$; $T_{\\min}\\approx 23,24\\,\\mathrm{m}^2$; chi phí $\\approx 23,24\\times 980000\\approx 22.770.000$ đồng, làm tròn đến triệu là 23.000.000 đồng, khớp short_correct.",
+  "ly_do": "Diện tích xung quanh đúng là $\\frac{28}{3x}$ (không phải $\\frac{28}{3x^2}$ như lời giải cũ); tính lại $T_{\\min}\\approx 23,24\\,\\mathrm{m}^2$, chi phí $\\approx 22,77$ triệu, làm tròn 23 triệu — khớp short_correct 23000000. Kết luận 28 triệu trong lời giải cũ là sai; sửa lời giải, giữ đáp số.",
+  "sua_boi": "muse"
+ },
+ "de1.P1.C9": {
+  "sua_boi": "muse",
+  "ly_do": "Rà bổ sung ảnh THPT 2026-11-12 (vai học sinh, tự giải kiểm chứng): Bổ sung trường answer vào entry live đang chỉ có xac_nhan+ly_do (de1.json answer=null): m=5 (trường hợp m>1, nghịch biến trên [1;2], y(1)+y(2)=16/3) nên mệnh đề đúng là m>4 — phương án A. Bỏ xac_nhan vì de1.json không có đáp án để xác nhận.",
+  "answer": "A"
+ },
+ "de1.P2.C2": {
+  "xac_nhan": true,
+  "sua_boi": "muse",
+  "ly_do": "Đã kiểm đủ 4 ý: a Sai (tập xác định $D=\\mathbb{R}\\backslash\\{m\\}$); b Đúng ($y'>0$ nên đồng biến trên $(-\\infty;1)$ và $(1;+\\infty)$ khi $m=1$); c Sai (không xác định tại $x=1$, $y(4)=\\frac{1}{3}\\ne\\frac{1}{2}$); d Đúng (chỉ $m=-3$ cho giá trị lớn nhất trên $[0;4]$ bằng $-1$)."
+ },
+ "de1.P2.C4": {
+  "xac_nhan": true,
+  "sua_boi": "muse",
+  "ly_do": "Đã kiểm: $h'(t)=0$ tại $t\\approx 18,11$ (cực tiểu) nên giá trị lớn nhất trên $[0;50]$ bằng $250$ tại hai đầu mút (a Đúng), giá trị nhỏ nhất tại $t\\approx 18$ không phải $25$ (b Sai), $v_{\\max}=v(110/3)\\approx 10,33$ (c Đúng), $h(110/3)\\approx 135,93\\ne 139,37$ (d Sai)."
+ },
+ "de1.P3.C1": {
+  "ly_do": "$f'(x)=\\frac12-\\frac{1}{2\\sqrt{x+1}}=0 \\Leftrightarrow x=0$; $f$ đồng biến trên $[0;3]$ nên $M=f(3)=-\\frac12$, $m=f(0)=-1$, $S=2M-m=0$.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C3": {
+  "ly_do": "Giải đúng: $\\max+\\min=f(1)+f(2)=\\frac{1+m}{2}+\\frac{2+m}{3}=\\frac{5m+7}{6}=8 \\Leftrightarrow m=\\frac{41}{5}$, không phải số nguyên. Chữ 'nguyên' trong đề mâu thuẫn với đáp số; bỏ chữ này, giữ short_correct $8,2|41/5$.",
+  "question": "Tổng giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y=\\frac{x+m}{x+1}$ trên đoạn $\\left[ 1;2 \\right]$ bằng $8$. Tìm giá trị của tham số $m$.",
+  "sua_boi": "muse"
+ },
+ "de1.P3.C4": {
+  "ly_do": "$v(t)=12t-3t^2$, $v'=12-6t=0 \\Leftrightarrow t=2$, $v_{\\max}=12$ tại $t=2$.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C5": {
+  "ghi_chu": "Đề ghi chi phí một giờ là $60(6n+10)$ nhưng lời giải tính với $10(6n+10)$ (nghìn đồng/giờ): với hệ số 10 thì $n=5$ tối ưu ($n^2\\approx 27,78$; kiểm tra $n=5$ rẻ hơn $n=6$), còn với hệ số 60 như đề ghi thì cực tiểu tại $n\\approx 12,9$ nên với tối đa 8 máy đáp án là 8. Ngoài ra bước Cauchy trong lời giải ghi sai ($1250/(9n)=4n$ thay vì $=5n$; $5\\sqrt5/10\\approx 1,12$ chứ không phải $\\approx 5$). Cần đề gốc để xác định hệ số đúng; không chốt 5 hay 8 khi đề và lời giải mâu thuẫn. Ảnh liên quan: de/lop12/C1KT-B02/images/image14_cat8c9bf0.png.",
+  "sua_boi": "muse"
+ }
 }

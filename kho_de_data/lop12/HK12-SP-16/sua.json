@@ -1,27 +1,32 @@
 {
-  "de1.P1.C8": {
-    "answer": "C",
-    "sua_boi": "grokbot",
-    "ly_do": "x̄≈3,58; S²≈0,43 (dùng x̄=3,58 ra 0,4294) ⇒ C; lời giải cũng chọn C"
+ "de1.P1.C8": {
+  "answer": "C",
+  "sua_boi": "grokbot",
+  "ly_do": "x̄≈3,58; S²≈0,43 (dùng x̄=3,58 ra 0,4294) ⇒ C; lời giải cũng chọn C"
+ },
+ "de1.P3.C20": {
+  "ly_do": "Đã kiểm: $y'=3ax^2+2bx+c$; đồng biến trên $(x_1;x_2)$ nên $a<0$; $x_1+x_2=-2b/(3a)>0$ nên $b>0$; $x_1x_2=c/(3a)<0$ nên $c>0$; vậy trong $a,b,c$ chỉ có $a$ âm, đáp án $1$ đúng.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C15": {
+  "tf_ans": {
+   "a": false,
+   "b": false,
+   "c": false,
+   "d": false
   },
-  "de1.P3.C20": {
-    "ly_do": "Đã kiểm: $y'=3ax^2+2bx+c$; đồng biến trên $(x_1;x_2)$ nên $a<0$; $x_1+x_2=-2b/(3a)>0$ nên $b>0$; $x_1x_2=c/(3a)<0$ nên $c>0$; vậy trong $a,b,c$ chỉ có $a$ âm, đáp án $1$ đúng.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C15": {
-    "tf_ans": {
-      "a": false,
-      "b": false,
-      "c": false,
-      "d": false
-    },
-    "sua_boi": "grokbot",
-    "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): Ox=N,Oy=W: A(20;10;2), B(-25;-30;3) (solution swapped to (-30;-25)). cos(AOB)=-794/(22.45*39.17) -> 154.6° (25.4° as lines), not 16.29 -> c false; reflection: target C=(2;-6;0), OC≈6.32≠50 -> d false"
-  },
-  "de1.P3.C17": {
-    "ly_do": "Đã kiểm: đáy là hình bình hành tâm $O$ nên $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\overrightarrow{0}$; điểm $I$ trên $SO$ thỏa $\\overrightarrow{SI}=4\\overrightarrow{IO}$ làm cho $\\overrightarrow{IS}+\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}+\\overrightarrow{ID}=\\overrightarrow{0}$ nên $P=5MI^2+\\text{hằng số}$, nhỏ nhất khi $M\\equiv I$; khi đó $SM/SO=4/5=0,8$ đúng.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  }
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): Ox=N,Oy=W: A(20;10;2), B(-25;-30;3) (solution swapped to (-30;-25)). cos(AOB)=-794/(22.45*39.17) -> 154.6° (25.4° as lines), not 16.29 -> c false; reflection: target C=(2;-6;0), OC≈6.32≠50 -> d false"
+ },
+ "de1.P3.C17": {
+  "ly_do": "Đã kiểm: đáy là hình bình hành tâm $O$ nên $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\overrightarrow{0}$; điểm $I$ trên $SO$ thỏa $\\overrightarrow{SI}=4\\overrightarrow{IO}$ làm cho $\\overrightarrow{IS}+\\overrightarrow{IA}+\\overrightarrow{IB}+\\overrightarrow{IC}+\\overrightarrow{ID}=\\overrightarrow{0}$ nên $P=5MI^2+\\text{hằng số}$, nhỏ nhất khi $M\\equiv I$; khi đó $SM/SO=4/5=0,8$ đúng.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C16": {
+  "explanation": "a) Đúng: lớp mốt là $[7,5;8)$ (tần số $12$, lớn nhất). b) Đúng: ở nhóm $[7;7,5)$, lớp 12B có $10$ học sinh, nhiều hơn $6$ của lớp 12A. c) Đúng: khoảng biến thiên $R=10-6,5=3,5$. d) Sai: $Q_1=7,5+\\frac{10,5-9}{12}\\cdot 0,5=\\frac{121}{16}$, $Q_3=8,5+\\frac{31,5-31}{8}\\cdot 0,5$ nên $\\Delta_Q=\\frac{31}{32}\\ne 1,5$. (Lời giải cũ tính $Q_3=\\frac{341}{40}$ và $\\Delta_Q=\\frac{77}{80}$ là sai số học.)",
+  "sua_boi": "muse",
+  "ly_do": "Rà bổ sung ảnh THPT 2026-11-12 (vai học sinh, tự giải kiểm chứng): Chỉ sửa lời giải, đáp án giữ nguyên (tf_ans {Đ,Đ,Đ,S} trong de đúng): lời giải trong de tính Q3 và ΔQ sai số học (341/40 và 77/80), giá trị đúng là ΔQ=31/32."
+ }
 }
