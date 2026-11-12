@@ -1,50 +1,49 @@
 {
-  "de1.P3.C1": {
-    "bo_cau": true,
-    "sua_boi": "claude",
-    "ly_do": "Trùng câu đã có trên web (đề OhVbrVkhTH7rTVR6PtMl) — mặc định bỏ"
+ "de1.P3.C1": {
+  "bo_cau": true,
+  "sua_boi": "claude",
+  "ly_do": "Trùng câu đã có trên web (đề OhVbrVkhTH7rTVR6PtMl) — mặc định bỏ"
+ },
+ "de1.P2.C1": {
+  "ly_do": "a đúng (trục đối xứng $x=-1$); b sai (giao với trục tung là $(0;-6)$); c đúng (tung độ đỉnh $=2-4-6=-8$); d sai ($f(1)=0\\ne-8$).",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": false
   },
-  "de1.P2.C1": {
-    "ly_do": "a đúng (trục đối xứng $x=-1$); b sai (giao với trục tung là $(0;-6)$); c đúng (tung độ đỉnh $=2-4-6=-8$); d sai ($f(1)=0\\ne-8$).",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": true,
-      "d": false
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C2": {
-    "ly_do": "Tam giác vuông tại A có $AB=a$ (do $BC=2a$, $AC=a\\sqrt3$). a đúng ($\\overrightarrow{BC}\\cdot\\overrightarrow{CA}=2a\\cdot a\\sqrt3\\cdot\\cos30^\\circ=3a^2$); b sai ($\\widehat{ACB}=30^\\circ$); c sai ($|\\overrightarrow{AB}+\\overrightarrow{AC}|=2a\\ne a$); d đúng ($\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=a\\cdot2a\\cdot\\cos60^\\circ=a^2$).",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": false,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C3": {
-    "ly_do": "a sai ($f(x)=(x+2025)(x-1)<0$ trên $(-2025;1)$ nên không thể \"không âm\"); b đúng ($f>0$ ngoài hai nghiệm); c sai ($f(-1)=1-2024-2025=-4048$); d đúng (khoảng $(-2024;0)$ nằm trong $(-2025;1)$ nên $f<0$).",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": false,
-      "b": true,
-      "c": false,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C4": {
-    "tf_ans": {
-      "a": false,
-      "b": false,
-      "c": true,
-      "d": false
-    },
-    "ly_do": "Ảnh image6.png (đã phóng to): parabol có đỉnh $I(2;-3)$, trục $x=2$, qua $(0;1)$ và $(4;1)$, tại $x=1$ và $x=3$ có $y=-2$. Suy ra phương trình $y=(x-2)^2-3=x^2-4x+1$, nghiệm là $x=2\\pm\\sqrt{3}$. Vậy: a sai vì trên $[-3;1]$ hàm có giá trị dương (ví dụ tại $x=-3$, $y=22$); b sai vì giao điểm với $Ox$ không phải $(1;0)$, $(3;0)$; c đúng vì parabol mở lên, đỉnh tại $x=2$ nên đồng biến trên $(2;+\\infty)$; d sai vì $f(2)=-3$, không phải $0$.",
-    "sua_boi": "muse"
+  "xac_nhan": true
+ },
+ "de1.P2.C2": {
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 1. P2.C2 ý a — khóa sai (Đúng → Sai)",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": false,
+   "b": false,
+   "c": false,
+   "d": true
   }
+ },
+ "de1.P2.C3": {
+  "ly_do": "a sai ($f(x)=(x+2025)(x-1)<0$ trên $(-2025;1)$ nên không thể \"không âm\"); b đúng ($f>0$ ngoài hai nghiệm); c sai ($f(-1)=1-2024-2025=-4048$); d đúng (khoảng $(-2024;0)$ nằm trong $(-2025;1)$ nên $f<0$).",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": false,
+   "b": true,
+   "c": false,
+   "d": true
+  },
+  "xac_nhan": true
+ },
+ "de1.P2.C4": {
+  "tf_ans": {
+   "a": false,
+   "b": false,
+   "c": true,
+   "d": false
+  },
+  "ly_do": "Ảnh image6.png (đã phóng to): parabol có đỉnh $I(2;-3)$, trục $x=2$, qua $(0;1)$ và $(4;1)$, tại $x=1$ và $x=3$ có $y=-2$. Suy ra phương trình $y=(x-2)^2-3=x^2-4x+1$, nghiệm là $x=2\\pm\\sqrt{3}$. Vậy: a sai vì trên $[-3;1]$ hàm có giá trị dương (ví dụ tại $x=-3$, $y=22$); b sai vì giao điểm với $Ox$ không phải $(1;0)$, $(3;0)$; c đúng vì parabol mở lên, đỉnh tại $x=2$ nên đồng biến trên $(2;+\\infty)$; d sai vì $f(2)=-3$, không phải $0$.",
+  "sua_boi": "muse"
+ }
 }

@@ -4,14 +4,14 @@
   "sua_boi": "claude"
  },
  "de2.P1.C5": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề r2XjU9rSsId8SVzHJVR5) — mặc định bỏ"
+  "bo_cau": false,
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 3. P1.C5 — đang bo_cau dù nội dung và khóa đều đúng"
  },
  "de3.P1.C4": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề ARfTN6ZjegSXvx3TANds) — mặc định bỏ"
+  "bo_cau": false,
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 3. P1.C4 — đang bo_cau dù nội dung và khóa đều đúng"
  },
  "de2.P3.C2": {
   "short_correct": "±3|\\pm 3|3;-3|-3;3",
@@ -54,9 +54,10 @@
   "ly_do": "Thầy sửa trực tiếp đề/đáp án trên trang soát làm tròn"
  },
  "de1.P1.C3": {
-  "ly_do": "Đã đối chiếu lời giải: đáp án đang chọn đúng (cờ mâu thuẫn do lời giải đánh nhãn A–D lệch hoặc nói về phương án khác)",
-  "sua_boi": "claude",
-  "xac_nhan": true
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 4. P1.C3 — lời giải ghi nhầm nhãn phương án (\"C đúng\" thay cho B)",
+  "sua_boi": "muse",
+  "xac_nhan": true,
+  "explanation": "Tam giác $ABC$ là tam giác đều nên có các góc bằng $60{}^\\circ $ nên dễ thấy B đúng vì\n$\\sin \\widehat{ABC}=\\sin 60{}^\\circ =\\frac{\\sqrt{3}}{2}$."
  },
  "de1.P1.C4": {
   "ly_do": "Đã đối chiếu lời giải: đáp án đang chọn đúng (cờ mâu thuẫn do lời giải đánh nhãn A–D lệch hoặc nói về phương án khác)",
@@ -77,5 +78,10 @@
   },
   "sua_boi": "grokbot",
   "ly_do": "Sửa đáp án (giải lại độc lập): D=1+2√3−1/4+√3=3/4+3√3 (chính lời giải ra 3/4+3√3) ≠ 3/4+2√3 ⇒ ý d SAI; key ghi dĐ"
+ },
+ "de2.P1.C3": {
+  "explanation": "Dựa vào giá trị lượng giác của các cung bù nhau. Dễ thấy phương án đúng là C.\nTa có $\\sin 150{}^\\circ =\\sin 30{}^\\circ =\\frac{1}{2}$, $\\cos 150{}^\\circ =-\\cos 30{}^\\circ =-\\frac{\\sqrt{3}}{2}$,\n$\\tan 150{}^\\circ =-\\tan 30{}^\\circ =-\\frac{1}{\\sqrt{3}}$ và $\\cot 150{}^\\circ =-\\cot 30{}^\\circ =-\\sqrt{3}$.",
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 6. P1.C3 — lỗi gõ \"là.C.\""
  }
 }

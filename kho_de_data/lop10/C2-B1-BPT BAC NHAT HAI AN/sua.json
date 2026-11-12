@@ -5,14 +5,14 @@
   "ly_do": "Trùng câu đã có trên web (đề ARfTN6ZjegSXvx3TANds) — mặc định bỏ"
  },
  "de2.P1.C5": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề 7WQEy1CBESjS2rSI6dom) — mặc định bỏ"
+  "bo_cau": false,
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 3. P1.C5, P1.C6 — câu đúng nhưng đang bị bỏ oan (`bo_cau`)"
  },
  "de2.P1.C6": {
-  "bo_cau": true,
-  "sua_boi": "claude",
-  "ly_do": "Trùng câu đã có trên web (đề 7WQEy1CBESjS2rSI6dom) — mặc định bỏ"
+  "bo_cau": false,
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 3. P1.C5, P1.C6 — câu đúng nhưng đang bị bỏ oan (`bo_cau`)"
  },
  "de1.P3.C2": {
   "short_correct": "3",
@@ -94,9 +94,10 @@
  },
  "de3.P3.C6": {
   "short_correct": "20;40|(20;40)",
-  "sua_boi": "claude",
+  "sua_boi": "muse",
   "xac_nhan": true,
-  "ly_do": "Điền đáp án rút từ kết luận của lời giải"
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 12. P3.C6 — lời giải viết \"lãi suất cao nhất\"",
+  "explanation": "Gọi ${x, y}$ lần lượt là số kg sản phẩm loại I và loại II mà xưởng sản xuất được.\nTổng nguyên liệu được dùng là ${2 x+4 y({~kg})}$; tổng thời gian sản xuất là ${30 x+}$ ${15 y}$ (giờ); ${x, y \\geqslant 0}$.\nTa có hệ bất phương trình: $\\left\\{ \\begin{aligned} & 2x+4y\\le 200 \\\\ & 30x+15y\\le 1200 \\\\ & x\\ge 0 \\\\ & y\\ge 0 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x+2y\\le 100 \\\\ & 2x+y\\le 80 \\\\ & x\\ge 0 \\\\ & y\\ge 0 \\\\ \\end{aligned} \\right.$\nVẽ trên cùng hệ trục các đường thẳng ${{d}_{1}}:x+2y=100,\\,{{d}_{2}}:2x+y=80,\\,{{d}_{3}}:y=0,\\,{{d}_{4}}:x=0$\nTa có điểm $M\\left( 1;1 \\right)$ thuộc miền nghiệm của hệ bất phương trình vì khi thay tọa độ điểm này vào hệ: $\\left\\{ \\begin{aligned} & 1+2.1\\le 100 \\\\ & 2.1+1\\le 80 \\\\ & 1\\ge 0 \\\\ & 1\\ge 0 \\\\ \\end{aligned} \\right.$(đúng)\n[[IMG:image64.png]]\nGạch bỏ các phần không thuộc miền nghiệm của mỗi bất phương trình trong hệ (nửa mặt phẳng có bờ là các đường thẳng ${d_1, d_2, d_3, d_4}$ và không chứa điểm ${M}$ ). Khi đó miền nghiệm của hệ bất phương trình chính là miền của tứ giác ${O A B C}$ (kể cả các cạnh của tứ giác đó) với ${O(0 ; 0), A(0 ; 50), B(20 ; 40), C(40 ; 0)}$.\nLãi thu về từ việc sản xuất hai sản phẩm: ${F(x ; y)=40 x+30 y}$ (nghìn đồng).\nTại ${O(0 ; 0)}$, ta có ${F(0 ; 0)=0}$; tại ${A(0 ; 50)}$, ta có ${F(0 ; 50)=1500}$; tại ${B(20 ; 40)}$, ta có ${F(20 ; 40)=2000}$; tại ${C(40 ; 0)}$, ta có ${F(40 ; 0)=1600}$.\nVậy tiền lãi cao nhất thu được bằng 2000000 đồng, khi đó ${x=20, y=40}$ (tức là xưởng cần sản xuất ra 20 sản phẩm loại ${{I}}$ và 40 sản phẩm loại II)."
  },
  "de1.P1.C7": {
   "bo_cau": true,
@@ -162,5 +163,10 @@
   "answer": "B",
   "sua_boi": "grokbot",
   "ly_do": "Sửa đáp án (giải lại độc lập): 5(x+2)−9<2x−2y+7 ⇔ 3x+2y−6<0; (2;3): 6+6−6=6>0 không thỏa, các điểm còn lại đều thỏa ⇒ B (lời giải cũng kết luận (2;3)); key C sai"
+ },
+ "de3.P1.C12": {
+  "explanation": "[[IMG:image54.emf#0.3686,0.0578,0.2134,0.1593]]\nVẽ các đường thẳng ${{d}_{1}}:y=5$;\n${{d}_{2}}:x+y-2=0$; ${{d}_{3}}:x-y-2=0$;\n$Ox:y=0;\\text{ }Oy:x=0$.\nCác đường thẳng trên đôi một cắt nhau tại $A\\left( 0;5 \\right)$\nVì điểm ${{M}_{0}}\\left( 2;1 \\right)$có toạ độ thoả mãn tất cả các bất pt trong hệ nên ta tô đậm các nửa mặt phẳng bờ ${{d}_{1}},{{d}_{2}},{{d}_{3}},Ox,Oy$ không chứa điểm ${{M}_{0}}$. Miền không bị tô đậm là đa giác $ABCD$ kể cả các cạnh (hình bên) là miền nghiệm của hệ pt đã cho.\nKí hiệu $F(A)=F\\left( {{x}_{A}};{{y}_{A}} \\right)={{x}_{A}}-2{{y}_{A}}$, ta có\n$F(A)=-10,F(B)=-4,F(C)=2;F(D)=-3$,$-10<-4<-3<2$.\nGiá trị nhỏ nhất cần tìm là $-10$.",
+  "sua_boi": "muse",
+  "ly_do": "Rà soát kho đề 2026-11-12 (vai học sinh, tự giải kiểm chứng): 3. P1.C12 — lời giải kết luận nhầm \"lớn nhất\" và liệt kê đỉnh dở dang"
  }
 }
