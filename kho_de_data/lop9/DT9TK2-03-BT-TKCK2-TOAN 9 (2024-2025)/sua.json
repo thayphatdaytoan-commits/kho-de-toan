@@ -1,67 +1,68 @@
 {
-  "de1.P4.C4": {
-    "parts": [
+ "de1.P4.C4": {
+  "parts": [
+   {
+    "id": "a",
+    "label": "a",
+    "question": "Lượng nước được chứa trong ly là bao nhiêu centimet khối? (làm tròn đến hàng phần trăm).",
+    "explanation": "Bán kính đáy của ly là $r=5:2=2,5$ cm.\nLượng nước chứa trong ly là: $V=\\pi {{r}^{2}}h\\approx 3,14.2,{{5}^{2}}.10\\approx 196,25\\left( c{{m}^{3}} \\right)$.",
+    "points": 0.5,
+    "type": "form_mau",
+    "mau_spec": {
+     "mau": "tinh_gia_tri",
+     "kieu": "dong",
+     "dong": [
+      "Bán kính đáy: $r=5:2=$ {{1}} cm",
+      "Lượng nước: $V=\\pi r^2h\\approx 3,14\\cdot$ {{2}} $\\cdot 10\\approx$ {{3}} $cm^3$"
+     ],
+     "o": [
       {
-        "id": "a",
-        "label": "a",
-        "question": "Lượng nước được chứa trong ly là bao nhiêu centimet khối? (làm tròn đến hàng phần trăm).",
-        "explanation": "Bán kính đáy của ly là $r=5:2=2,5$ cm.\nLượng nước chứa trong ly là: $V=\\pi {{r}^{2}}h\\approx 3,14.2,{{5}^{2}}.10\\approx 196,35\\left( c{{m}^{3}} \\right)$.",
-        "points": 0.5,
-        "type": "form_mau",
-        "mau_spec": {
-          "mau": "tinh_gia_tri",
-          "kieu": "dong",
-          "dong": [
-            "Bán kính đáy: $r=5:2=$ {{1}} cm",
-            "Lượng nước: $V=\\pi r^2h\\approx 3,14\\cdot$ {{2}} $\\cdot 10\\approx$ {{3}} $cm^3$"
-          ],
-          "o": [
-            {
-              "id": "1",
-              "loai": "so",
-              "dap_an": "2.5"
-            },
-            {
-              "id": "2",
-              "loai": "so",
-              "dap_an": "6.25"
-            },
-            {
-              "id": "3",
-              "loai": "so",
-              "dap_an": "196.25|196,25|196.35"
-            }
-          ]
-        }
+       "id": "1",
+       "loai": "so",
+       "dap_an": "2.5"
       },
       {
-        "id": "b",
-        "label": "b",
-        "question": "Người ta thả vào ly nước 5 viên bi hình cầu có cùng thể tích, đồng chất và ngập hoàn toàn trong nước làm nước trong ly dâng lên bằng miệng ly. Hỏi bán kính của mỗi viên bi là bao nhiêu cm? (Kết quả làm tròn đến hàng phần trăm).",
-        "explanation": "Lượng nước dâng lên chính là thể tích của cả 5 viên bi nên thể tích của 5 viên bi là: $\\pi .{{\\left( 5:2 \\right)}^{2}}.\\left( 15-10 \\right)=31,25\\pi \\left( c{{m}^{3}} \\right)$.\nThể tích của một viên bi: $V=\\frac{31,25\\pi }{5}=6,25\\pi \\left( c{{m}^{3}} \\right)$.\nBán kính của một viên bi: $R=\\sqrt[3]{\\frac{3V}{4\\pi }}=\\sqrt[3]{\\frac{3.6,25\\pi }{4\\pi }}\\approx 1,67\\left( cm \\right)$.",
-        "points": 0.5,
-        "type": "short_answer",
-        "shortCorrect": "1,67"
+       "id": "2",
+       "loai": "so",
+       "dap_an": "6.25"
+      },
+      {
+       "id": "3",
+       "loai": "so",
+       "dap_an": "196.25|196,25"
       }
-    ],
-    "sua_boi": "grokbot",
-    "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): (a) Đề cho π≈3,14 và khung ghi 3,14·6,25·10 = 196,25; key 196,35 là tính bằng π máy tính. Đề xuất chấp nhận 196,25 (giữ 196,35 làm phương án phụ)"
-  },
-  "de1.P4.C5": {
-    "ly_do": "Tự giải lại cả 3 ý: a) $MA\\perp OA$, $MB\\perp OB$ nên $\\widehat{OAM}+\\widehat{OBM}=180^\\circ$; b) $MO$ là trung trực của $AB$, $MA^2=MH\\cdot MO=MN\\cdot MD$ (hệ thức lượng trong tam giác vuông $MAO$ và $MAD$); c) $\\cos\\widehat{AOM}=\\frac{1}{2}$ nên $\\widehat{AOB}=120^\\circ$, $S=4\\sqrt{3}-\\frac{4}{3}\\pi\\approx 2,74$ khớp shortCorrect. Hình vẽ là cấu hình tiếp tuyến chuẩn, không cần ảnh để kết luận.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P1.C6": {
-    "xac_nhan": true,
-    "sua_boi": "muse"
-  },
-  "de1.P1.C7": {
-    "ghi_chu": "Du lieu cau bi hong: phuong an B rong hoan toan, ten cac duong cao bi mat trong cau chu (con ky tu rac) nen dap an D \"Ca A, B, C\" khong kiem chung duoc. Can nhap lai cau tu de goc.",
-    "sua_boi": "muse"
-  },
-  "de1.P1.C8": {
-    "xac_nhan": true,
-    "sua_boi": "muse"
-  }
+     ]
+    }
+   },
+   {
+    "id": "b",
+    "label": "b",
+    "question": "Người ta thả vào ly nước 5 viên bi hình cầu có cùng thể tích, đồng chất và ngập hoàn toàn trong nước làm nước trong ly dâng lên bằng miệng ly. Hỏi bán kính của mỗi viên bi là bao nhiêu cm? (Kết quả làm tròn đến hàng phần trăm).",
+    "explanation": "Lượng nước dâng lên chính là thể tích của cả 5 viên bi nên thể tích của 5 viên bi là: $\\pi .{{\\left( 5:2 \\right)}^{2}}.\\left( 15-10 \\right)=31,25\\pi \\left( c{{m}^{3}} \\right)$.\nThể tích của một viên bi: $V=\\frac{31,25\\pi }{5}=6,25\\pi \\left( c{{m}^{3}} \\right)$.\nBán kính của một viên bi: $R=\\sqrt[3]{\\frac{3V}{4\\pi }}=\\sqrt[3]{\\frac{3.6,25\\pi }{4\\pi }}\\approx 1,67\\left( cm \\right)$.",
+    "points": 0.5,
+    "type": "short_answer",
+    "shortCorrect": "1,67"
+   }
+  ],
+  "sua_boi": "muse",
+  "ly_do": "Sua lai entry AI khac (grokbot) - muc XUNG DOT: de quy dinh pi xap xi 3,14 nen luong nuoc la 3,14.2,5^2.10 = 196,25 cm3. O dien so 3 dang chap nhan ca 196.35 (gia tri tinh bang pi may tinh, sai voi quy dinh cua de) - da bo 196.35 va sua loi giai thanh 196,25.",
+  "sua_lai_entry_ai_khac": true
+ },
+ "de1.P4.C5": {
+  "ly_do": "Tự giải lại cả 3 ý: a) $MA\\perp OA$, $MB\\perp OB$ nên $\\widehat{OAM}+\\widehat{OBM}=180^\\circ$; b) $MO$ là trung trực của $AB$, $MA^2=MH\\cdot MO=MN\\cdot MD$ (hệ thức lượng trong tam giác vuông $MAO$ và $MAD$); c) $\\cos\\widehat{AOM}=\\frac{1}{2}$ nên $\\widehat{AOB}=120^\\circ$, $S=4\\sqrt{3}-\\frac{4}{3}\\pi\\approx 2,74$ khớp shortCorrect. Hình vẽ là cấu hình tiếp tuyến chuẩn, không cần ảnh để kết luận.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P1.C6": {
+  "xac_nhan": true,
+  "sua_boi": "muse"
+ },
+ "de1.P1.C7": {
+  "ghi_chu": "Du lieu cau bi hong: phuong an B rong hoan toan, ten cac duong cao bi mat trong cau chu (con ky tu rac) nen dap an D \"Ca A, B, C\" khong kiem chung duoc. Can nhap lai cau tu de goc.",
+  "sua_boi": "muse"
+ },
+ "de1.P1.C8": {
+  "xac_nhan": true,
+  "sua_boi": "muse"
+ }
 }
