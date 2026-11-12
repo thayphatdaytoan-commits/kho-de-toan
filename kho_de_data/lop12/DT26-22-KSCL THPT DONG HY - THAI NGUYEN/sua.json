@@ -1,7 +1,8 @@
 {
  "de1.P3.C3": {
   "short_correct": "0,7",
-  "sua_boi": "grokbot",
-  "ly_do": "Góc nhị diện 120° ⇒ SA=1; d(C,(SBD))=1/√2≈0,7 (lời giải cũng ra 0,7)"
+  "sua_boi": "muse",
+  "ly_do": "Góc nhị diện 120° ⇒ SA=1; d(C,(SBD))=1/√2≈0,7 (lời giải cũng ra 0,7) Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt).",
+  "explanation": "Đáp án: 0,7.\n[[IMG:image11.png]]\nGọi $H,K$ lần lượt là trung điểm của $AB,AD;E=HK\\cap AC;O=AC\\cap BD.$\nTa có: $MH\\|SA,MH=\\frac{1}{2}SA;NK\\|SA,NK=\\frac{1}{2}SA\\Rightarrow MH\\|NK,MH=NK.$\n$\\left. \\begin{aligned} & \\left. \\begin{aligned} & HK\\|BD \\\\ & AC\\bot BD \\\\ \\end{aligned} \\right\\}\\Rightarrow AC\\bot HK \\\\ & AC\\bot SA\\Rightarrow AC\\bot MN \\\\ \\end{aligned} \\right\\}\\Rightarrow AC\\bot (MNKH)\\Rightarrow [M,AC,N]=\\widehat{MEN}=120{}^\\circ $\nTa lại có: $\\Delta MHE=\\Delta NKE\\Rightarrow \\widehat{MEH}=\\widehat{NEK}=\\frac{180{}^\\circ -\\widehat{MEN}}{2}=30{}^\\circ $\n$\\widehat{ABC}=60{}^\\circ \\Rightarrow \\Delta ABC$ đều.\nSuy ra $HE=\\frac{1}{2}BO=\\frac{1}{2}.\\frac{2.\\sqrt{3}}{2}=\\frac{\\sqrt{3}}{2}\\Rightarrow MH=HE.\\tan \\widehat{MEH}=\\frac{\\sqrt{3}}{2}\\tan 30{}^\\circ =\\frac{1}{2}.$\nSuy ra $SA=2MH=2.\\frac{1}{2}=1=AO\\Rightarrow \\Delta SAO$ vuông cân tại $A.$\nTa có: $AC\\cap (SBD)=O$ là trung điểm của $AC$ nên $d(C,(SBD))=d(A,(SBD))$\nKẻ $AI\\bot SO$. Khi đó:\n$\\begin{aligned} & \\left. \\begin{aligned} & \\left. \\begin{aligned} & BD\\bot AC \\\\ & BD\\bot SA \\\\ \\end{aligned} \\right\\}\\Rightarrow BD\\bot (SAC) \\\\ & AI\\subset (SAC) \\\\ \\end{aligned} \\right\\}\\Rightarrow BD\\bot AI\\Rightarrow AI\\bot (SBD) \\\\ & \\Rightarrow d(C,(SBD))=AI=\\frac{1}{2}SO=\\frac{1}{2}\\sqrt{S{{A}^{2}}+A{{O}^{2}}}=\\frac{\\sqrt{2}}{2}\\approx 0,7. \\\\ \\end{aligned}$"
  }
 }

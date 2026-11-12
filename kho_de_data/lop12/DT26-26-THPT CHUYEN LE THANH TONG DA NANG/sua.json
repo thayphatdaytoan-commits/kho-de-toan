@@ -1,27 +1,32 @@
 {
-  "de1.P1.C11": {
-    "bo_cau": true,
-    "sua_boi": "claude",
-    "ly_do": "Trùng câu đã có trên web (đề 2MCjjHqcGB7mIMYaDtBL) — mặc định bỏ"
+ "de1.P1.C11": {
+  "bo_cau": true,
+  "sua_boi": "claude",
+  "ly_do": "Trùng câu đã có trên web (đề 2MCjjHqcGB7mIMYaDtBL) — mặc định bỏ"
+ },
+ "de1.P1.C3": {
+  "answer": "D",
+  "sua_boi": "grokbot",
+  "ly_do": "AB·AC=18=2m ⇒ m=9"
+ },
+ "de1.P2.C3": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": false,
+   "d": true
   },
-  "de1.P1.C3": {
-    "answer": "D",
-    "sua_boi": "grokbot",
-    "ly_do": "AB·AC=18=2m ⇒ m=9"
-  },
-  "de1.P2.C3": {
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": false,
-      "d": true
-    },
-    "sua_boi": "grokbot",
-    "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): mean A=26,26 > mean B=22,54 -> A marries LATER, so 'A kết hôn sớm hơn B' is Sai; solution computes same means but draws wrong conclusion"
-  },
-  "de1.P3.C6": {
-    "ly_do": "Tính lại độc lập: A(0;40 căn 3;0), B(60;-20 căn 3;0), C(-60;-20 căn 3;0) thỏa tam giác đều cạnh 120 và OA = OB = OC = 40 căn 3; SA xấp xỉ 138,56; SB' xấp xỉ 147,82; SC' xấp xỉ 129,51; tổng xấp xỉ 415,89, làm tròn hàng đơn vị bằng 416, khớp short_correct. Tổng không đổi nếu đổi vai trò dấu độ cao của B' và C' vì hai số hạng đối xứng.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  }
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): mean A=26,26 > mean B=22,54 -> A marries LATER, so 'A kết hôn sớm hơn B' is Sai; solution computes same means but draws wrong conclusion"
+ },
+ "de1.P3.C6": {
+  "ly_do": "Tính lại độc lập: A(0;40 căn 3;0), B(60;-20 căn 3;0), C(-60;-20 căn 3;0) thỏa tam giác đều cạnh 120 và OA = OB = OC = 40 căn 3; SA xấp xỉ 138,56; SB' xấp xỉ 147,82; SC' xấp xỉ 129,51; tổng xấp xỉ 415,89, làm tròn hàng đơn vị bằng 416, khớp short_correct. Tổng không đổi nếu đổi vai trò dấu độ cao của B' và C' vì hai số hạng đối xứng.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C1": {
+  "explanation": "Đáp án: $3,46$.\n[[IMG:image10.png]]\nGọi $M,N$ lần lượt là trung điểm của $AB,CD$\n$\\vartriangle ACD,\\vartriangle BCD,\\vartriangle ABC,\\vartriangle ABD$ cân nên $AN\\bot CD,BN\\bot CD,CM\\bot AB,DM\\bot AB$.\nSuy ra góc giữa hai mặt phẳng $\\left( ACD \\right)$ và $\\left( BCD \\right)$ là $\\widehat{ANB}={{90}^{0}}$($\\left( ACD \\right)$ và $\\left( BCD \\right)$vuông góc với nhau), góc giữa hai mặt phẳng $\\left( ABC \\right)$ và $\\left( ABD \\right)$ là $\\widehat{CMD}={{90}^{0}}$ ($\\left( ABC \\right)$ và $\\left( ABD \\right)$vuông góc với\nnhau). $AN=\\sqrt{9-\\frac{{{a}^{2}}}{4}}=BN,AB=\\sqrt{18-\\frac{{{a}^{2}}}{2}},MD=\\sqrt{9-\\frac{18-\\frac{{{a}^{2}}}{2}}{4}}=\\sqrt{\\frac{18+\\frac{{{a}^{2}}}{2}}{4}}=MC$\n$\\vartriangle MCD$ vuông cân tại M nên $CD=MD\\sqrt{2}\\Rightarrow a=2\\sqrt{3}\\approx 3,46\\left( dm \\right)$",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ }
 }

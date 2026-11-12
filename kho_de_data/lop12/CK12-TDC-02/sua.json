@@ -1,16 +1,42 @@
 {
-  "de1.P3.C6": {
-    "short_correct": "109",
-    "sua_boi": "grokbot",
-    "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): cos(H‑C‑H) = −1/3 ⇒ góc ≈ 109,47° ⇒ làm tròn hàng đơn vị là 109. Lời giải làm tròn sai thành 110."
+ "de1.P3.C6": {
+  "short_correct": "109",
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): cos(H‑C‑H) = −1/3 ⇒ góc ≈ 109,47° ⇒ làm tròn hàng đơn vị là 109. Lời giải làm tròn sai thành 110."
+ },
+ "de1.P2.C2": {
+  "ghi_chu": "Ý b, c, d đã kiểm thuần đại số từ hàm số cho trong đề ($y'=3(x-1)(x-3)$; cực đại $(1;3)$, cực tiểu $(3;-1)$; $y_{CD}+3y_{CT}=0\\ne-1$; đường qua hai điểm cực trị $2x+y-5=0$ không chứa $A(0;4)$). Ý a ('bảng biến thiên như hình vẽ') cần thấy image5.png mới xét được. Nhờ thầy đối chiếu hình gốc rồi mới xóa cờ.",
+  "sua_boi": "muse"
+ },
+ "de1.P2.C3": {
+  "ly_do": "Tính lại độc lập: ra đa ở (0;0;0,1) vì tháp cao 100 m = 0,1 km; máy bay (400;-300;12) vì Ox hướng tây, Oy hướng nam nên 300 km về phía bắc ứng với y = -300; khoảng cách từ máy bay đến ra đa bằng căn bậc hai của (400^2 + 300^2 + 11,9^2) xấp xỉ 500,14 km, khác 264,85 và nhỏ hơn 600 nên ra đa phát hiện được. tf_ans Đ,S,S,S khớp toàn bộ. Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt).",
+  "sua_boi": "muse",
+  "xac_nhan": true,
+  "question": "[[IMG:image6.png]]Một tháp trung tâm kiểm soát không lưu ở sân bay cao $100$m sử dụng ra đa có phạm vi theo dõi $600$km được đặt trên đỉnh tháp. Chọn hệ trục toạ độ $Oxyz$có gốc $O$ trùng với vị trí chân tháp, mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất sao cho trục $Ox$ hướng về phía tây, trục $Oy$ hướng về phía nam, trục $Oz$ hướng thẳng đứng lên phía trên (Hình bên) (đơn vị trên mỗi trục tính theo kilômét).\nMột máy bay tại vị trí $F$cách mặt đất $12$ km, cách $400$ km về phía tây và $300$ km về phía bắc so với tháp trung tâm kiểm soát không lưu.\nXét tính đúng sai của các khẳng định sau:"
+ },
+ "de1.P2.C4": {
+  "tf_ans": {
+   "a": true,
+   "b": true,
+   "c": true,
+   "d": false
   },
-  "de1.P2.C2": {
-    "ghi_chu": "Ý b, c, d đã kiểm thuần đại số từ hàm số cho trong đề ($y'=3(x-1)(x-3)$; cực đại $(1;3)$, cực tiểu $(3;-1)$; $y_{CD}+3y_{CT}=0\\ne-1$; đường qua hai điểm cực trị $2x+y-5=0$ không chứa $A(0;4)$). Ý a ('bảng biến thiên như hình vẽ') cần thấy image5.png mới xét được. Nhờ thầy đối chiếu hình gốc rồi mới xóa cờ.",
-    "sua_boi": "muse"
-  },
-  "de1.P2.C3": {
-    "ly_do": "Tính lại độc lập: ra đa ở (0;0;0,1) vì tháp cao 100 m = 0,1 km; máy bay (400;-300;12) vì Ox hướng tây, Oy hướng nam nên 300 km về phía bắc ứng với y = -300; khoảng cách từ máy bay đến ra đa bằng căn bậc hai của (400^2 + 300^2 + 11,9^2) xấp xỉ 500,14 km, khác 264,85 và nhỏ hơn 600 nên ra đa phát hiện được. tf_ans Đ,S,S,S khớp toàn bộ.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  }
+  "sua_boi": "muse",
+  "ly_do": "Sửa tf_ans ý c theo đáp án đã tự giải kiểm chứng trong báo cáo de095 (mục: 3. P2.C4 ý c — `tf_ans` sai: mốt đúng là 6,58 nhưng khóa ghi Sai). Ý c: mốt đúng là 6,58 khớp mệnh đề — tf_ans c đúng là True (báo cáo de095 mục 3)."
+ },
+ "de1.P1.C1": {
+  "explanation": "Hàm số có tập xác định là $\\mathbb{R}$.\nTa có: ${y}'=3{{x}^{2}}-3\\,;\\,\\,{y}'=0\\Leftrightarrow \\left[ \\begin{matrix} x=1\\,\\,\\, \\\\ x=-1 \\\\ \\end{matrix} \\right.$.\nBảng xét dấu:\n[[IMG:image8.png]]\nTheo bảng xét dấu: ${y}'<0\\,\\,\\forall x\\in \\left( -1\\,;\\,1 \\right)$ $\\Rightarrow $ Hàm số nghịch biến trên khoảng $\\left( -1\\,;\\,1 \\right)$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P1.C4": {
+  "question": "Đồ thị của hàm số nào dưới đây có dạng như đường cong trong hình bên dưới?\n[[IMG:image2.png]]",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P3.C2": {
+  "explanation": "Trả lời: $60{}^\\circ $\n[[IMG:image9.png]]\nTa có $\\overrightarrow{A{B}'}.\\overrightarrow{B{C}'}=\\left( \\overrightarrow{AB}+\\overrightarrow{B{B}'} \\right)\\left( \\overrightarrow{BC}+\\overrightarrow{C{C}'} \\right)$ $=\\overrightarrow{AB}.\\overrightarrow{BC}+\\overrightarrow{AB}.\\overrightarrow{C{C}'}+\\overrightarrow{B{B}'}.\\overrightarrow{BC}+\\overrightarrow{B{B}'}.\\overrightarrow{C{C}'}$\n$=\\overrightarrow{AB}.\\overrightarrow{BC}+\\overrightarrow{AB}.\\overrightarrow{C{C}'}+\\overrightarrow{B{B}'}.\\overrightarrow{BC}+\\overrightarrow{B{B}'}.\\overrightarrow{C{C}'}$ $=-\\frac{{{a}^{2}}}{2}+0+0+2{{a}^{2}}=\\frac{3{{a}^{2}}}{2}$.\nSuy ra $\\cos \\left( \\overrightarrow{A{B}'},\\overrightarrow{B{C}'} \\right)=\\frac{\\overrightarrow{A{B}'}.\\overrightarrow{B{C}'}}{\\left| \\overrightarrow{A{B}'} \\right|.\\left| \\overrightarrow{B{C}'} \\right|}$ $=\\frac{\\frac{3{{a}^{2}}}{2}}{a\\sqrt{3}.a\\sqrt{3}}=\\frac{1}{2}\\Rightarrow \\widehat{\\left( A{B}',B{C}' \\right)}=60{}^\\circ $.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ }
 }

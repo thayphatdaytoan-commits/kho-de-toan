@@ -1,53 +1,65 @@
 {
-  "de1.P3.C20": {
-    "explanation": "Ta có $V(t)=4(3t^{2}-2t^{3})+1$ với $0\\le t\\le 1$ nên tốc độ tăng thể tích là $V'(t)=24t-24t^{2}=24t(1-t)$. Xét $V'$ trên $[0;1]$: $(V')'(t)=24-48t$, $(V')'(t)=0\\Leftrightarrow t=\\frac{1}{2}$; $V'$ tăng trên $(0;\\frac{1}{2})$ và giảm trên $(\\frac{1}{2};1)$ nên đạt lớn nhất tại $t=\\frac{1}{2}$ phút, tức giây thứ $30$.",
-    "ly_do": "Lời giải gốc tối đa nhầm $V$ thay vì $V'$ (liệt kê $V(0)=1$, $V(1)=5$ rồi kết luận giây thứ 60, là thời điểm thể tích lớn nhất); tốc độ $V'(t)=24t(1-t)$ đạt lớn nhất tại $t=\\frac{1}{2}$ phút = giây thứ 30, khớp short_correct đã lưu.",
-    "sua_boi": "muse"
+ "de1.P3.C20": {
+  "explanation": "Ta có $V(t)=4(3t^{2}-2t^{3})+1$ với $0\\le t\\le 1$ nên tốc độ tăng thể tích là $V'(t)=24t-24t^{2}=24t(1-t)$. Xét $V'$ trên $[0;1]$: $(V')'(t)=24-48t$, $(V')'(t)=0\\Leftrightarrow t=\\frac{1}{2}$; $V'$ tăng trên $(0;\\frac{1}{2})$ và giảm trên $(\\frac{1}{2};1)$ nên đạt lớn nhất tại $t=\\frac{1}{2}$ phút, tức giây thứ $30$.",
+  "ly_do": "Đáp án đúng 30 (giây); sua.json chỉ sửa lời giải, khóa file vẫn 5.",
+  "sua_boi": "muse",
+  "short_correct": "30"
+ },
+ "de1.P3.C22": {
+  "short_correct": "1595",
+  "sua_boi": "grokbot",
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): BC=AB/2=(70;25;1), B=(940;550;9) -> C=(1010;575;10), sum 1595; solution miscopied z_B=8"
+ },
+ "de1.P1.C12": {
+  "ly_do": "$\\overrightarrow{u}+\\overrightarrow{v}=(4;1;-1)$, độ dài $\\sqrt{18}=3\\sqrt{2}$, khớp đáp án C.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P1.C6": {
+  "ly_do": "Hình chiếu của (1;2;5) lên trục Ox là (1;0;0), khớp đáp án C.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C15": {
+  "ly_do": "Kiểm độc lập: a) tọa độ (3;1,5;0,8) đúng theo trục đã chọn; b) $\\sqrt{9+2,25+0,64}\\approx 3,45\\ne 3,44$ nên sai; c) tọa độ thứ hai $(-2;-2;0,4)$, quãng đường $\\sqrt{8,16}\\approx 2,86$ đúng; d) khoảng cách $\\sqrt{25+12,25+0,16}\\approx 6,12\\ne 6,11$ nên sai. Khớp tf_ans (Đ, S, Đ, S).",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C16": {
+  "ly_do": "a) khoảng biến thiên 45-25=20; b) khoảng tứ phân vị lớp 12A ≈6,74 (Q1≈31,09, Q3≈37,83), không phải 7,78; c) phương sai lớp 12B ≈19,22; d) độ lệch chuẩn lớp 12A (≈4,36) nhỏ hơn lớp 12B (≈4,38) nên lớp 12A đồng đều hơn.",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": true
   },
-  "de1.P3.C22": {
-    "short_correct": "1595",
-    "sua_boi": "grokbot",
-    "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): BC=AB/2=(70;25;1), B=(940;550;9) -> C=(1010;575;10), sum 1595; solution miscopied z_B=8"
-  },
-  "de1.P1.C12": {
-    "ly_do": "$\\overrightarrow{u}+\\overrightarrow{v}=(4;1;-1)$, độ dài $\\sqrt{18}=3\\sqrt{2}$, khớp đáp án C.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P1.C6": {
-    "ly_do": "Hình chiếu của (1;2;5) lên trục Ox là (1;0;0), khớp đáp án C.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C15": {
-    "ly_do": "Kiểm độc lập: a) tọa độ (3;1,5;0,8) đúng theo trục đã chọn; b) $\\sqrt{9+2,25+0,64}\\approx 3,45\\ne 3,44$ nên sai; c) tọa độ thứ hai $(-2;-2;0,4)$, quãng đường $\\sqrt{8,16}\\approx 2,86$ đúng; d) khoảng cách $\\sqrt{25+12,25+0,16}\\approx 6,12\\ne 6,11$ nên sai. Khớp tf_ans (Đ, S, Đ, S).",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C16": {
-    "ly_do": "a) khoảng biến thiên 45-25=20; b) khoảng tứ phân vị lớp 12A ≈6,74 (Q1≈31,09, Q3≈37,83), không phải 7,78; c) phương sai lớp 12B ≈19,22; d) độ lệch chuẩn lớp 12A (≈4,36) nhỏ hơn lớp 12B (≈4,38) nên lớp 12A đồng đều hơn.",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": true,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C5": {
-    "ghi_chu": "Mục này chứa lời giải và đáp án Đ/S của câu de1.P2.C16 (a Đ, b S, c Đ, d Đ, đã khớp tính lại), không phải câu hỏi độc lập.\nTrường tf hiện chỉ chứa các verdict 'Đúng/Sai' chứ không có nội dung mệnh đề, và đề dẫn + bảng số liệu gốc không có trong dữ liệu (chỉ còn toàn bộ lời giải) nên không gán được đáp án cho từng mệnh đề — cần đề gốc. Các phép tính trong lời giải đã đối chiếu đúng: $Q_{1}$ của 12A $=995/32$, $Q_{3}$ của 12A $=227/6$, $\\Delta_{Q}$ của 12A khoảng $6,74$; trung bình 12A $=1445/42$, phương sai 12A khoảng $18,99$, độ lệch chuẩn khoảng $4,36$; trung bình 12B $=495/14$, phương sai 12B khoảng $19,22$, độ lệch chuẩn khoảng $4,38$.",
-    "ly_do": null,
-    "sua_boi": "muse"
-  },
-  "de1.P3.C17": {
-    "ly_do": "$\\overrightarrow{AB}=(-2;3;1)$; E=(x;y;0) thẳng hàng với A, B cho $k=-2$, E=(7;−7;0), $2a+b+c=14-7=7$, khớp đáp án.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C18": {
-    "ly_do": "Kiểm độc lập: $\\overrightarrow{BD'}=\\vec{a}+\\vec{b}+\\vec{c}$; $\\overrightarrow{BN}=(1-y)\\vec{a}+\\vec{b}+y\\vec{c}$; $\\overrightarrow{BM}=(1-x)\\vec{a}+x\\vec{b}$; $\\overrightarrow{MN}=(x-y)\\vec{a}+(1-x)\\vec{b}+y\\vec{c}$; song song với BD' cho $x-y=1-x=y$ nên $x=\\frac{2}{3}$, $y=\\frac{1}{3}$, $T=1$, khớp đáp án.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  }
+  "xac_nhan": true
+ },
+ "de1.P2.C5": {
+  "ghi_chu": "Mục này chứa lời giải và đáp án Đ/S của câu de1.P2.C16 (a Đ, b S, c Đ, d Đ, đã khớp tính lại), không phải câu hỏi độc lập.\nTrường tf hiện chỉ chứa các verdict 'Đúng/Sai' chứ không có nội dung mệnh đề, và đề dẫn + bảng số liệu gốc không có trong dữ liệu (chỉ còn toàn bộ lời giải) nên không gán được đáp án cho từng mệnh đề — cần đề gốc. Các phép tính trong lời giải đã đối chiếu đúng: $Q_{1}$ của 12A $=995/32$, $Q_{3}$ của 12A $=227/6$, $\\Delta_{Q}$ của 12A khoảng $6,74$; trung bình 12A $=1445/42$, phương sai 12A khoảng $18,99$, độ lệch chuẩn khoảng $4,36$; trung bình 12B $=495/14$, phương sai 12B khoảng $19,22$, độ lệch chuẩn khoảng $4,38$.",
+  "ly_do": null,
+  "sua_boi": "muse"
+ },
+ "de1.P3.C17": {
+  "ly_do": "$\\overrightarrow{AB}=(-2;3;1)$; E=(x;y;0) thẳng hàng với A, B cho $k=-2$, E=(7;−7;0), $2a+b+c=14-7=7$, khớp đáp án.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P3.C18": {
+  "ly_do": "Kiểm độc lập: $\\overrightarrow{BD'}=\\vec{a}+\\vec{b}+\\vec{c}$; $\\overrightarrow{BN}=(1-y)\\vec{a}+\\vec{b}+y\\vec{c}$; $\\overrightarrow{BM}=(1-x)\\vec{a}+x\\vec{b}$; $\\overrightarrow{MN}=(x-y)\\vec{a}+(1-x)\\vec{b}+y\\vec{c}$; song song với BD' cho $x-y=1-x=y$ nên $x=\\frac{2}{3}$, $y=\\frac{1}{3}$, $T=1$, khớp đáp án. Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt).",
+  "sua_boi": "muse",
+  "xac_nhan": true,
+  "explanation": "[[IMG:image31.png]]\nTa có: $\\overrightarrow{BA}=\\vec{a},\\,\\,\\overrightarrow{BC}=\\vec{b},\\,\\,\\overrightarrow{B{B}'}=\\vec{c}$.\nKhi đó, theo quy tắc hình hộp ta có: $\\overrightarrow{B{D}'}=\\vec{a}+\\vec{b}+\\vec{c}$.\nTa có: $\\overrightarrow{MN}=\\overrightarrow{BN}-\\overrightarrow{BM}$.\nTừ $\\overrightarrow{DN}=y\\overrightarrow{D{C}'}$, ta có $\\overrightarrow{BN}-\\overrightarrow{BD}=y\\left( \\overrightarrow{B{C}'}-\\overrightarrow{BD} \\right)$, suy ra:\n$\\overrightarrow{BN}-\\left( \\vec{a}+\\vec{b} \\right)=y\\left( \\vec{b}+\\vec{c}-\\vec{a}-\\vec{b} \\right)$.\n$\\overrightarrow{BN}=\\left( 1-y \\right)\\vec{a}+\\vec{b}+y\\vec{c}$.\nTừ $\\overrightarrow{AM}=x\\overrightarrow{AC}$, suy ra $\\overrightarrow{BM}-\\overrightarrow{BA}=x\\left( \\overrightarrow{BC}-\\overrightarrow{BA} \\right)$.\nVậy $\\overrightarrow{BM}-\\vec{a}=x\\left( \\vec{b}-\\vec{a} \\right)\\Rightarrow \\overrightarrow{BM}=\\left( 1-x \\right)\\vec{a}+x\\vec{b}$.\nDo đó:\n$\\begin{aligned} & \\overrightarrow{MN}=\\overrightarrow{BN}-\\overrightarrow{BM}=\\left( 1-y \\right)\\vec{a}+\\vec{b}+y\\vec{c}-\\left( 1-x \\right)\\vec{a}-x\\vec{b} \\\\ & \\,\\,\\,\\,\\,\\,\\,\\,=\\left( x-y \\right)\\vec{a}+\\left( 1-x \\right)\\vec{b}+y\\vec{c}. \\\\ \\end{aligned}$\nĐiều kiện để $MN\\parallel B{D}'$ là $\\overrightarrow{MN}=k\\overrightarrow{B{D}'}$ hay\n$\\left( x-y \\right)\\vec{a}+\\left( 1-x \\right)\\vec{b}+y\\vec{c}=k\\left( \\vec{a}+\\vec{b}+\\vec{c} \\right)$\n$\\left( x-y \\right)\\vec{a}+\\left( 1-x \\right)\\vec{b}+y\\vec{c}=k\\vec{a}+k\\vec{b}+k\\vec{c}\\,\\,\\,\\,\\,(*)$\nDo $\\vec{a},\\vec{b},\\vec{c}$ không cùng phương nên từ (*) suy ra:\n$\\left\\{ \\begin{aligned} & k=x-y \\\\ & k=1-x \\\\ & k=y \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x-2y=0 \\\\ & x+y=1 \\\\ & k=y \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left( x;y;k \\right)=\\left( \\frac{2}{3};\\frac{1}{3};\\frac{1}{3} \\right)$.\nVậy biểu thức $T=x+y=\\frac{2}{3}+\\frac{1}{3}=1$."
+ },
+ "de1.P1.C5": {
+  "explanation": "Chọn A\n[[IMG:image12.png]]\nDễ dàng thấy $\\overrightarrow{AB}=\\overrightarrow{D'C'}$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P3.C21": {
+  "question": "Một người cần đi từ khách sạn $A$ bên bờ biển đến hòn đảo $C$. Biết rằng khoảng cách từ đảo $C$ đến bờ biển là $10\\,\\text{km}$, khoảng cách từ khách sạn $A$ đến điểm $B$ trên bờ gần đảo $C$ nhất là $40\\,\\text{km}$. Người đó có thể đi đường thủy hoặc đi đường bộ rồi đi đường thủy (như hình vẽ bên). Biết kinh phí đi đường thủy là $5\\,\\,\\text{USD/km}$, đi đường bộ là $3\\,\\,\\text{USD/km}$. Hỏi người đó phải đi đường bộ một khoảng bao nhiêu để kinh phí nhỏ nhất? ($AB=40\\,\\text{km}$,$BC=10\\,\\text{km}$)\n[[IMG:image11.png]]",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ }
 }

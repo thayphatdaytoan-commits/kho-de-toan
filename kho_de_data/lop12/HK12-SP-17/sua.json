@@ -1,29 +1,22 @@
 {
-  "de1.P2.C15": {
-    "ly_do": "Bỏ nhãn [NB]/[TH]/[VD] khỏi mệnh đề. a sai (ra đa trên đỉnh tháp cao 80 m = 0,08 km nên ở (0;0;0,08), không phải gốc tọa độ); b sai (Ox hướng tây, Oy hướng nam nên 80 km về phía đông và 100 km về phía bắc cho A(-80;-100;10)); c đúng (MA = √(80²+100²+9,92²) ≈ 128,45 km); d đúng (vị trí sau t phút là N(-12t-80;-10t-100;t/2+10), MN > 500 khi t > 23,90 nên tại t = 24 ra đa không còn phát hiện được).",
-    "sua_boi": "muse",
-    "tf": {
-      "a": "Ra đa ở vị trí có toạ độ $\\left( 0;\\,0;\\,0 \\right)$.",
-      "b": "Vị trí $A$ có toạ độ $\\left( 80;\\,100;\\,10 \\right)$.",
-      "c": "Khoảng cách từ máy bay đến ra đa là khoảng $128,45\\,\\text{km}$ (làm tròn kết quả đến hàng phần trăm).",
-      "d": "Biết máy bay di chuyển từ điểm $A$ đến điểm $B\\left( -200;\\,-200;\\,15 \\right)$ trong $10$ phút. Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì sau $24$ phút bay kể từ điểm $A$ ra đa không còn phát hiện được máy bay."
-    },
-    "tf_ans": {
-      "a": false,
-      "b": false,
-      "c": true,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C16": {
-    "ly_do": "Tính lại toàn bộ từ bảng trong đề: khoảng biến thiên của A bằng 39 - 24 = 15 (ý a Đúng); tứ phân vị của A là Q1 = 28,3125, Q3 = 33,25 nên khoảng tứ phân vị bằng 4,9375, của B là Q1 = 393/14, Q3 = 471/14 nên bằng 39/7 — mệnh đề ghi ngược thứ tự A, B nên ý b Sai; trung bình cả hai phân xưởng đều bằng 30,9 (ý c Đúng); phương sai A bằng 11,04, B bằng 12,24 nên độ lệch chuẩn A nhỏ hơn B, tức A đồng đều hơn, mệnh đề nói B đồng đều hơn là Sai (ý d Sai). tf_ans khớp toàn bộ.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P2.C4": {
-    "bo_cau": true,
-    "ly_do": "Khóa này trùng câu de1.P2.C15 (cùng bài tháp kiểm soát không lưu): trường question chứa lời giải của C15 (tính MA, vectơ AB, vị trí N, bất phương trình MN > 500) và các trường tf chứa câu lập luận, không có mệnh đề nào để xét đúng/sai.",
-    "sua_boi": "muse"
-  }
+ "de1.P2.C15": {
+  "question": "Một tháp trung tâm kiểm soát không lưu ở sân bay cao $80\\,\\text{m}$ sử dụng ra đa có phạm vi theo dõi $500\\,\\text{km}$ được đặt trên đỉnh tháp. Chọn hệ trục toạ độ $Oxyz$có gốc $O$ trùng với vị trí chân tháp, mặt phẳng $\\left( Oxy \\right)$ trùng với mặt đất sao cho trục $Ox$ hướng về phía tây, trục $Oy$ hướng về phía nam, trục $Oz$ hướng thẳng đứng lên phía trên (Hình) (đơn vị trên mỗi trục tính theo kilômét).\n[[IMG:image9.png]]\nMột máy bay tại vị trí $A$ cách mặt đất $10\\,\\text{km}$, cách $80\\,\\text{km}$ về phía đông và $100\\,\\text{km}$ về phía bắc so với tháp trung tâm kiểm soát không lưu\nCác mệnh đề sau đúng hay sai?",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P3.C17": {
+  "explanation": "[[IMG:image19.png]]\n$\\left( SC,\\left( ABCD \\right) \\right)=$ $\\left( SC,CH \\right)=$ $\\widehat{SCH}={{60}^{0}}$.\n$\\cos \\left( SB,AC \\right)=\\frac{\\left| \\overrightarrow{SB}.\\overrightarrow{AC} \\right|}{SB.AC}$\n$\\overrightarrow{SB}.\\overrightarrow{AC}=\\left( \\overrightarrow{SH}+\\overrightarrow{HB} \\right)\\left( \\overrightarrow{AB}+\\overrightarrow{BC} \\right)$ $=\\overrightarrow{SH}.\\overrightarrow{AB}+\\overrightarrow{SH}.\\overrightarrow{BC}+\\overrightarrow{HB}.\\overrightarrow{AB}+\\overrightarrow{HB}.\\overrightarrow{BC}$\n$=\\overrightarrow{HB}.\\overrightarrow{AB}+\\overrightarrow{HB}.\\overrightarrow{BC}$ $=\\frac{1}{2}A{{B}^{2}}=2{{a}^{2}}$\n$AC=a\\sqrt{5}$, $CH=\\sqrt{{{a}^{2}}+{{a}^{2}}}=a\\sqrt{2}$, $SH=CH.\\tan \\widehat{SCH}=a\\sqrt{6}$.\n$SB=\\sqrt{S{{H}^{2}}+H{{B}^{2}}}$ $=\\sqrt{{{\\left( a\\sqrt{6} \\right)}^{2}}+{{a}^{2}}}=a\\sqrt{7}$.\n$\\cos \\left( \\overrightarrow{SB},\\overrightarrow{AC} \\right)=\\frac{\\overrightarrow{SB}.\\overrightarrow{AC}}{SB.AC}$ $=\\frac{2{{a}^{2}}}{a\\sqrt{7}.a\\sqrt{5}}$ $=\\frac{2}{\\sqrt{35}}\\simeq 0,3$.\nĐáp án: $0,3$",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P2.C16": {
+  "ly_do": "Tính lại toàn bộ từ bảng trong đề: khoảng biến thiên của A bằng 39 - 24 = 15 (ý a Đúng); tứ phân vị của A là Q1 = 28,3125, Q3 = 33,25 nên khoảng tứ phân vị bằng 4,9375, của B là Q1 = 393/14, Q3 = 471/14 nên bằng 39/7 — mệnh đề ghi ngược thứ tự A, B nên ý b Sai; trung bình cả hai phân xưởng đều bằng 30,9 (ý c Đúng); phương sai A bằng 11,04, B bằng 12,24 nên độ lệch chuẩn A nhỏ hơn B, tức A đồng đều hơn, mệnh đề nói B đồng đều hơn là Sai (ý d Sai). tf_ans khớp toàn bộ.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C4": {
+  "bo_cau": true,
+  "ly_do": "Khóa này trùng câu de1.P2.C15 (cùng bài tháp kiểm soát không lưu): trường question chứa lời giải của C15 (tính MA, vectơ AB, vị trí N, bất phương trình MN > 500) và các trường tf chứa câu lập luận, không có mệnh đề nào để xét đúng/sai.",
+  "sua_boi": "muse"
+ }
 }

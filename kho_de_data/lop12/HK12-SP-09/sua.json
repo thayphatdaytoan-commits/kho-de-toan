@@ -1,35 +1,45 @@
 {
-  "de1.P1.C12": {
-    "answer": "A",
-    "explanation": "Vì $M\\in\\left( Oxz \\right)$ nên $M\\left( x;0;z \\right)$. Do $M,A,B$ thẳng hàng và $\\overrightarrow{AM}=\\left( x+2;-3;z-1 \\right)$, $\\overrightarrow{AB}=\\left( 7;3;1 \\right)$ nên $-3=3k$, $k=-1$, suy ra $M\\left( -9;0;0 \\right)$. Khi đó $MA=\\sqrt{59}$, $MB=2\\sqrt{59}$ nên $\\frac{MA}{MB}=\\frac12$. Chọn A.",
-    "ly_do": "Đáp án trong file là A và tính lại đúng ($M(-9;0;0)$, $MB=2MA$); lời giải gốc ghi \"Chọn C\" là nhầm chữ nên web đọc theo C — đã sửa lời giải về A.",
-    "sua_boi": "muse",
-    "xac_nhan": true
+ "de1.P1.C10": {
+  "answer": "C",
+  "sua_boi": "muse",
+  "ly_do": "Sửa answer theo đáp án đã tự giải kiểm chứng trong báo cáo de212 (mục: 1. P1.C10 — khóa sai do nhầm đơn vị phút/giây: đáp án đúng là C (1200), không ph)."
+ },
+ "de1.P3.C20": {
+  "short_correct": "5,85",
+  "sua_boi": "muse",
+  "ly_do": "Sửa short_correct theo đáp án đã tự giải kiểm chứng trong báo cáo rà soát de212 (mục: 2. P3.C20 — khóa trả lời ngắn sai: $x=\\sqrt[3]{200}\\approx5,85$, không phải 4,64). Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt).",
+  "question": "Một nhóm học sinh được giao nhiệm vụ làm một hộp không nắp làm bằng từ mảnh bìa như hình vẽ.\n[[IMG:image10.png]]\nHộp có đáy là một hình vuông cạnh $x$ ($cm$), đường cao là h ($cm$) và có thể tích là 100 $c{{m}^{3}}$. Tìm giá trị của $x$ sao diện tích của mảnh bìa là nhỏ nhất ( làm tròn đến hàng phần trăm)."
+ },
+ "de1.P1.C9": {
+  "explanation": "Chọn A\nTập xác định: $D=\\mathbb{R}\\backslash \\left\\{ 1 \\right\\}$.\nĐạo hàm: ${y}'=\\frac{{{x}^{2}}-2x-3}{{{\\left( x-1 \\right)}^{2}}}$; ${y}'=0\\Leftrightarrow {{x}^{2}}-2x-3=0\\Leftrightarrow \\left[ \\begin{aligned} & x=-1 \\\\ & x=3 \\\\ \\end{aligned} \\right.$.\nBảng biến thiên:\n[[IMG:image12.png]]\nTừ bảng biến thiên ta thấy tọa độ điểm cực đại của đồ thị hàm số là $\\left( -1;1 \\right)$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P1.C12": {
+  "answer": "A",
+  "explanation": "Vì $M\\in\\left( Oxz \\right)$ nên $M\\left( x;0;z \\right)$. Do $M,A,B$ thẳng hàng và $\\overrightarrow{AM}=\\left( x+2;-3;z-1 \\right)$, $\\overrightarrow{AB}=\\left( 7;3;1 \\right)$ nên $-3=3k$, $k=-1$, suy ra $M\\left( -9;0;0 \\right)$. Khi đó $MA=\\sqrt{59}$, $MB=2\\sqrt{59}$ nên $\\frac{MA}{MB}=\\frac12$. Chọn A.",
+  "ly_do": "Đáp án trong file là A và tính lại đúng ($M(-9;0;0)$, $MB=2MA$); lời giải gốc ghi \"Chọn C\" là nhầm chữ nên web đọc theo C — đã sửa lời giải về A.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ },
+ "de1.P2.C13": {
+  "ghi_chu": "Cần ảnh de/lop12/HK12-SP-09/images/image7.png (đồ thị $f'$): các số liệu $f'(0)=3$ và $f'(x)>0$ với mọi $x\\ne -1$ chỉ đọc từ đồ thị; với các số liệu đó thì phép suy ra $f(x)=\\frac{5x+2}{x+1}$, $f(2)=4$ và các kết luận (a Đ, b S, c S, d Đ) đều đã kiểm đúng, nhưng chưa xác nhận khi chưa xem hình.",
+  "sua_boi": "muse"
+ },
+ "de1.P2.C15": {
+  "ly_do": "a đúng ($F(4;0;3)$ theo lời giải); b sai ($\\overrightarrow{AH}=(-4;5;3)$, không phải $(4;5;3)$); c sai ($\\overrightarrow{AH}\\cdot\\overrightarrow{AF}=9$, không phải $3$); d đúng theo bảng đáp án trong lời giải (góc nhị diện $26,6^\\circ\\approx\\arctan(1/2)$).",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": false,
+   "d": true
   },
-  "de1.P2.C13": {
-    "ghi_chu": "Cần ảnh de/lop12/HK12-SP-09/images/image7.png (đồ thị $f'$): các số liệu $f'(0)=3$ và $f'(x)>0$ với mọi $x\\ne -1$ chỉ đọc từ đồ thị; với các số liệu đó thì phép suy ra $f(x)=\\frac{5x+2}{x+1}$, $f(2)=4$ và các kết luận (a Đ, b S, c S, d Đ) đều đã kiểm đúng, nhưng chưa xác nhận khi chưa xem hình.",
-    "sua_boi": "muse"
-  },
-  "de1.P2.C15": {
-    "ly_do": "a đúng ($F(4;0;3)$ theo lời giải); b sai ($\\overrightarrow{AH}=(-4;5;3)$, không phải $(4;5;3)$); c sai ($\\overrightarrow{AH}\\cdot\\overrightarrow{AF}=9$, không phải $3$); d đúng theo bảng đáp án trong lời giải (góc nhị diện $26,6^\\circ\\approx\\arctan(1/2)$).",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": false,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P3.C17": {
-    "ly_do": "Đã kiểm: $AB=BC=CA=3\\sqrt{2}$; $AD=BD$ cho $z=1-x$, $AD=CD$ cho $y=16-5x$, $AD^2=18$ cho $3x^2-16x+20=0$ nên $D(2;6;-1)$ (với $y>0$; nghiệm còn lại có $y=-2/3$ bị loại); $T=2+6-1=7$ đúng.",
-    "sua_boi": "muse",
-    "xac_nhan": true
-  },
-  "de1.P3.C20": {
-    "explanation": "$V={{x}^{2}}.h=100\\Rightarrow h=\\frac{100}{{{x}^{2}}}$\nDiện tích mảnh bìa (hộp không nắp): $S(x)={{x}^{2}}+4xh={{x}^{2}}+\\frac{400}{x};x>0$.\n${S}'(x)=2x-\\frac{400}{{{x}^{2}}}=\\frac{2\\left({{x}^{3}}-200\\right)}{{{x}^{2}}};{S}'(x)=0\\Leftrightarrow x=\\sqrt[3]{200}$.\n$S$ giảm trên $\\left(0;\\sqrt[3]{200}\\right)$ và tăng trên $\\left(\\sqrt[3]{200};+\\infty\\right)$ nên diện tích nhỏ nhất tại $x=\\sqrt[3]{200}\\approx 5,85$ (cm).",
-    "ly_do": "Lời giải cũ viết ${S}'(x)=\\frac{2(x^3-100)}{x^2}$ là sai: đạo hàm của $400/x$ là $-400/x^2$ nên ${S}'(x)=2x-\\frac{400}{x^2}=\\frac{2(x^3-200)}{x^2}$; điểm tới hạn đúng là $x=\\sqrt[3]{200}\\approx 5,85$ (cm), không phải $\\sqrt[3]{100}\\approx 4,64$.",
-    "short_correct": "5,85",
-    "sua_boi": "muse"
-  }
+  "xac_nhan": true
+ },
+ "de1.P3.C17": {
+  "ly_do": "Đã kiểm: $AB=BC=CA=3\\sqrt{2}$; $AD=BD$ cho $z=1-x$, $AD=CD$ cho $y=16-5x$, $AD^2=18$ cho $3x^2-16x+20=0$ nên $D(2;6;-1)$ (với $y>0$; nghiệm còn lại có $y=-2/3$ bị loại); $T=2+6-1=7$ đúng.",
+  "sua_boi": "muse",
+  "xac_nhan": true
+ }
 }

@@ -1,41 +1,42 @@
 {
-  "de1.P3.C1": {
-    "short_correct": "27",
-    "sua_boi": "grokbot",
-    "ly_do": "Giải lại độc lập: đáp án đúng là 27 (đáp án cũ 26,961538|701/26 sai)"
+ "de1.P3.C1": {
+  "short_correct": "27",
+  "sua_boi": "grokbot",
+  "ly_do": "Giải lại độc lập: đáp án đúng là 27 (đáp án cũ 26,961538|701/26 sai)"
+ },
+ "de1.P3.C3": {
+  "short_correct": "15",
+  "sua_boi": "grokbot",
+  "ly_do": "Giải lại độc lập: đáp án đúng là 15 (đáp án cũ 40000 sai)"
+ },
+ "de1.P3.C4": {
+  "short_correct": "40,5",
+  "sua_boi": "grokbot",
+  "ly_do": "Giải lại độc lập: đáp án đúng là 40,5 (đáp án cũ 40538431,77 sai)"
+ },
+ "de1.P3.C6": {
+  "short_correct": "17",
+  "sua_boi": "muse",
+  "ly_do": "Giải lại độc lập: đáp án đúng là 17 (đáp án cũ 10000 sai) Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt).",
+  "explanation": "Đáp án: 17.\nGọi $x,y$ lần lượt là số đơn vị sản phẩm loại $I,II(x>0,y>0).$ Theo bảng số liệu ta có hệ bất phương trình:\n$\\left\\{ \\begin{aligned} & 2x+2y\\le 10 \\\\ & 2y\\le 4 \\\\ & 2x+4y\\le 12 \\\\ \\end{aligned} \\right.\\Leftrightarrow \\left\\{ \\begin{aligned} & x+y\\le 5 \\\\ & y\\le 2 \\\\ & x+2y\\le 6 \\\\ \\end{aligned} \\right.$\nGọi $L(x;y)$ là tổng số tiền lãi, ta có: $L(x;y)=3000x+5000y$\nBiểu diễn miền nghiệm của hệ phương trình ta được miền ngũ giác được tô màu (hình vẽ):\n[[IMG:image17.png]]\nTa có: $L(O)=0;L(A)=15000;L(B)=17000;L(C)=16000;L(D)=10000.$\nVậy tiền lãi lớn nhất là $17$ nghìn đồng.\n-------------- Hết --------------"
+ },
+ "de1.P2.C1": {
+  "ly_do": "a) L=10(log I+12)=10log I+120 nên Đúng. b) I=1000 → L=150>125 nên Sai. c) L≤130 ⇔ log I≤1 ⇔ I≤10 nên Đúng. d) L≤85 ⇔ log I≤-3,5 ⇔ I≤10^-3,5 nên Đúng.",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": true
   },
-  "de1.P3.C3": {
-    "short_correct": "15",
-    "sua_boi": "grokbot",
-    "ly_do": "Giải lại độc lập: đáp án đúng là 15 (đáp án cũ 40000 sai)"
-  },
-  "de1.P3.C4": {
-    "short_correct": "40,5",
-    "sua_boi": "grokbot",
-    "ly_do": "Giải lại độc lập: đáp án đúng là 40,5 (đáp án cũ 40538431,77 sai)"
-  },
-  "de1.P3.C6": {
-    "short_correct": "17",
-    "sua_boi": "grokbot",
-    "ly_do": "Giải lại độc lập: đáp án đúng là 17 (đáp án cũ 10000 sai)"
-  },
-  "de1.P2.C1": {
-    "ly_do": "a) L=10(log I+12)=10log I+120 nên Đúng. b) I=1000 → L=150>125 nên Sai. c) L≤130 ⇔ log I≤1 ⇔ I≤10 nên Đúng. d) L≤85 ⇔ log I≤-3,5 ⇔ I≤10^-3,5 nên Đúng.",
-    "sua_boi": "muse",
-    "tf_ans": {
-      "a": true,
-      "b": false,
-      "c": true,
-      "d": true
-    },
-    "xac_nhan": true
-  },
-  "de1.P2.C2": {
-    "xac_nhan": true,
-    "sua_boi": "muse"
-  },
-  "de1.P2.C4": {
-    "xac_nhan": true,
-    "sua_boi": "muse"
-  }
+  "xac_nhan": true
+ },
+ "de1.P2.C2": {
+  "xac_nhan": true,
+  "sua_boi": "muse"
+ },
+ "de1.P2.C4": {
+  "xac_nhan": true,
+  "sua_boi": "muse"
+ }
 }

@@ -1,7 +1,18 @@
 {
-  "de1.P3.C22": {
-    "explanation": "$H\\in \\left( Oxy \\right)\\Rightarrow H\\left( a;b;0 \\right)$. Vì $OBHA$ là hình bình hành nên $BH=OA$. Vì $OCMH$ là hình bình hành nên $OC=MH$. Xét $\\Delta MHO$ vuông tại $H$, có $OH=OM.\\cos {{48}^{\\circ }}=50.\\cos {{48}^{\\circ }}\\approx 33,46$. $MH=OM.\\sin {{48}^{\\circ }}=50.\\sin {{48}^{\\circ }}\\approx 37,16$. Xét $\\Delta OAH$ vuông tại $A$, có $BH=OA=OH.\\cos {{64}^{\\circ }}\\approx 14,67$. Xét $\\Delta OBH$ vuông tại $B$, có $OB=\\sqrt{O{{H}^{2}}-B{{H}^{2}}}=\\sqrt{33,{{46}^{2}}-14,{{67}^{2}}}\\approx 30,07$. Vì $\\overrightarrow{OA}$ và $\\overrightarrow{i}$ cùng hướng và $OA=14,67$ nên $\\overrightarrow{OA}=14,67.\\overrightarrow{i}$. Vì $\\overrightarrow{OB}$ và $\\overrightarrow{j}$ cùng hướng và $OB=30,07$ nên $\\overrightarrow{OB}=30,07.\\overrightarrow{j}$. Vì $\\overrightarrow{OC}$ và $\\overrightarrow{k}$ cùng hướng và $OC=37,16$ nên $\\overrightarrow{OC}=37,16.\\overrightarrow{k}$. Áp dụng quy tắc hình bình hành, ta có: $\\overrightarrow{OM}=\\overrightarrow{OH}+\\overrightarrow{OC}=\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}=14,67\\overrightarrow{i}+30,07\\overrightarrow{j}+37,16\\overrightarrow{k}$. $\\Rightarrow M\\left( 14,67;30,07;37,16 \\right)$. $\\Rightarrow S=a+b+c\\approx 14,67+30,07+37,16\\approx 81,9$. Vậy, $S\\approx 81,9$.",
-    "ly_do": "Lời giải lưu tự mâu thuẫn: các giá trị trung gian đều đúng (OH xấp xỉ 33,46; MH = OC xấp xỉ 37,16; OA xấp xỉ 14,67; OB xấp xỉ 30,07) nhưng dòng cuối gõ nhầm thành phần k thành 27,16, hoành độ thành 16,67 và kết luận S xấp xỉ 73,9. Tính lại: S xấp xỉ 14,67 + 30,07 + 37,16 xấp xỉ 81,89, làm tròn hàng phần mười bằng 81,9; kiểm tra độ dài OM xấp xỉ 50 khớp giả thiết. short_correct 81,9 vốn đúng, giữ nguyên.",
-    "sua_boi": "muse"
-  }
+ "de1.P3.C22": {
+  "explanation": "$H\\in \\left( Oxy \\right)\\Rightarrow H\\left( a;b;0 \\right)$. Vì $OBHA$ là hình bình hành nên $BH=OA$. Vì $OCMH$ là hình bình hành nên $OC=MH$. Xét $\\Delta MHO$ vuông tại $H$, có $OH=OM.\\cos {{48}^{\\circ }}=50.\\cos {{48}^{\\circ }}\\approx 33,46$. $MH=OM.\\sin {{48}^{\\circ }}=50.\\sin {{48}^{\\circ }}\\approx 37,16$. Xét $\\Delta OAH$ vuông tại $A$, có $BH=OA=OH.\\cos {{64}^{\\circ }}\\approx 14,67$. Xét $\\Delta OBH$ vuông tại $B$, có $OB=\\sqrt{O{{H}^{2}}-B{{H}^{2}}}=\\sqrt{33,{{46}^{2}}-14,{{67}^{2}}}\\approx 30,07$. Vì $\\overrightarrow{OA}$ và $\\overrightarrow{i}$ cùng hướng và $OA=14,67$ nên $\\overrightarrow{OA}=14,67.\\overrightarrow{i}$. Vì $\\overrightarrow{OB}$ và $\\overrightarrow{j}$ cùng hướng và $OB=30,07$ nên $\\overrightarrow{OB}=30,07.\\overrightarrow{j}$. Vì $\\overrightarrow{OC}$ và $\\overrightarrow{k}$ cùng hướng và $OC=37,16$ nên $\\overrightarrow{OC}=37,16.\\overrightarrow{k}$. Áp dụng quy tắc hình bình hành, ta có: $\\overrightarrow{OM}=\\overrightarrow{OH}+\\overrightarrow{OC}=\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}=14,67\\overrightarrow{i}+30,07\\overrightarrow{j}+37,16\\overrightarrow{k}$. $\\Rightarrow M\\left( 14,67;30,07;37,16 \\right)$. $\\Rightarrow S=a+b+c\\approx 14,67+30,07+37,16\\approx 81,9$. Vậy, $S\\approx 81,9$.",
+  "ly_do": "Đáp án đúng 81,9; sua.json chỉ sửa lời giải, khóa file vẫn 73,9.",
+  "sua_boi": "muse",
+  "short_correct": "81,9"
+ },
+ "de1.P2.C16": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": false,
+   "d": false
+  },
+  "sua_boi": "muse",
+  "ly_do": "Sửa tf_ans ý c theo đáp án đã tự giải kiểm chứng trong báo cáo de207 (mục: 1. P2.C16 ý c — khóa Đúng sai (độ lệch chuẩn đúng là 3,25, không phải 3,28))."
+ }
 }

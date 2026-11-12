@@ -9,5 +9,17 @@
   "answer": "B",
   "sua_boi": "grokbot",
   "ly_do": "(2+3i)(1+2i)=−4+7i ⇒ B"
+ },
+ "de1.P1.C30": {
+  "question": "Cho hình hộp chữ nhật $ABCD.{A}'{B}'{C}'{D}'$ có $AB=BC=a,\\,A{A}'=\\sqrt{6}a$ . Góc giữa đường thẳng ${A}'C$ và mặt phẳng $\\left( ABCD \\right)$ bằng:\n[[IMG:image12.png]]",
+  "explanation": "[[IMG:image13.png]]\nTa có góc giữa đường thẳng ${A}'C$ và mặt phẳng $\\left( ABCD \\right)$ bằng góc giữa ${A}'C$ và $AC$ và bằng góc $\\widehat{{A}'CA}$.\nTa có $AC=\\sqrt{A{{B}^{2}}+B{{C}^{2}}}=a\\sqrt{2}$.\nXét tam giác $\\Delta {A}'CA$ có $\\tan \\widehat{{A}'CA}=\\frac{{A}'A}{AC}=\\frac{\\sqrt{6}a}{\\sqrt{2}a}=\\sqrt{3}\\Rightarrow \\widehat{{A}'CA}=60{}^\\circ $.\nVậy góc ${A}'C$ và mặt phẳng $\\left( ABCD \\right)$ và bằng $60{}^\\circ $.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
+ },
+ "de1.P1.C46": {
+  "question": "Cho hình chóp $S.ABC$ có đáy $ABC$ là tam giác vuông cân tại $A$. $AB=a$, $SA$ vuông góc với mặt phẳng đáy và $SA=a\\sqrt{3}$. Gọi $M$ là trung điểm của $BC$ . Khoảng cách giữa hai đường thẳng $AC$ và $SM$ bằng\n[[IMG:image8.png]]",
+  "explanation": "Cách 1 :\n[[IMG:image18.png]]\nGọi $N$ là trung điểm của $AB$, khi đó $MN\\text{//}AC$.\nGọi $H$ là hình chiếu của $A$ lên $SN$. Dễ dàng chứng minh được $AH\\bot \\left( SMN \\right)$.\nSuy ra $d\\left( AC\\,,\\,SM \\right)=d\\left( AC\\,,\\,\\left( SMN \\right) \\right)=d\\left( A\\,,\\,\\left( SMN \\right) \\right)=AH$.\nTrong tam giác $SAN$ vuông tại $A$ có: $\\frac{1}{A{{H}^{2}}}=\\frac{1}{A{{S}^{2}}}+\\frac{1}{A{{N}^{2}}}$, trong đó $AS=a\\sqrt{3}$, $AN=\\frac{1}{2}AB=\\frac{a}{2}$.\nSuy ra $AH=\\frac{a\\sqrt{39}}{13}$. Vậy $d\\left( AC\\,,\\,SM \\right)=\\frac{a\\sqrt{39}}{13}$.\nCách 2 :\n[[IMG:image19.png]]\nChọn $a=1$, gắn bài toán vào hệ trục tọa độ $Axyz$, trong đó $A\\left( 0\\,;\\,0\\,;\\,0 \\right)$, $B\\left( 1\\,;\\,0\\,;\\,0 \\right)$, $C\\left( 0\\,;\\,1\\,;\\,0 \\right)$, $S\\left( 0\\,;\\,0\\,;\\,\\sqrt{3} \\right)$, $M\\left( \\frac{1}{2}\\,;\\,\\frac{1}{2}\\,;\\,0 \\right)$.\nTa có: $d\\left( SM\\,,\\,AC \\right)=\\frac{\\left| \\left[ \\overrightarrow{SM}\\,,\\,\\overrightarrow{AC} \\right].\\overrightarrow{AS} \\right|}{\\left| \\left[ \\overrightarrow{SM}\\,,\\,\\overrightarrow{AC} \\right] \\right|}$ với $\\overrightarrow{SM}=\\left( \\frac{1}{2}\\,;\\,\\frac{1}{2}\\,;\\,-\\sqrt{3} \\right)$, $\\overrightarrow{AC}=\\left( 0\\,;\\,1\\,;\\,0 \\right)$, $\\overrightarrow{AS}=\\left( 0\\,;\\,0\\,;\\,\\sqrt{3} \\right)$.\nSuy ra $d\\left( SM\\,,\\,AC \\right)=\\frac{\\sqrt{39}}{13}$, hay $d\\left( SM\\,,\\,AC \\right)=\\frac{a\\sqrt{39}}{13}$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf/.tmp thành .png (báo cáo xác nhận đích danh file .png cùng tên có trong repo; đã đối chiếu tree-paths.txt)."
  }
 }
