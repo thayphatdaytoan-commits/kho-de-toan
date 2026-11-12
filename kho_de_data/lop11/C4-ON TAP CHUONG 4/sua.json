@@ -7,12 +7,14 @@
  "de1.P3.C2": {
   "bo_cau": true,
   "sua_boi": "claude",
-  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)"
+  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)",
+  "explanation": "[[IMG:image15.png]]\nTa có $AB\\text{//}\\left( P \\right)$ và ${A}'{B}'=\\left( AB{B}'{A}' \\right)\\cap \\left( P \\right)$. Do đó ${A}'{B}'\\text{//}AB$. Ta có $A{A}'\\text{//}B{B}'\\text{//}d$.\nVậy $AB{B}'{A}'$ là hình bình hành. Suy ra ${A}'{B}'=AB$.\nPhần ngược lại là sai:\nGiả sử lấy điểm $C$ trên $B{B}'$ sao cho $AC=AB$ thì hình chiếu của $AC$ vẫn là ${A}'{B}'$ và ${A}'{B}'=AC$. Nhưng $AC$ không song song $\\left( P \\right)$."
  },
  "de1.P3.C3": {
   "bo_cau": true,
   "sua_boi": "claude",
-  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)"
+  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)",
+  "explanation": "[[IMG:image16.png]]\nTrong $\\Delta ABC$: Gọi $O$ là trung điểm của $AB$;\nKhi đó $ON$ là đường trung bình $\\Rightarrow ON\\ \\text{//}\\ =\\frac{1}{2}AC$ (1)\n$AC{C}'{A}'$ là hình bình hành $\\Rightarrow AC\\ \\text{//}\\ ={A}'{C}'\\Rightarrow {A}'M\\ \\text{//}\\ =\\frac{1}{2}AC$ (2)\n$ON\\ \\text{//}\\ ={A}'M\\Rightarrow $ Từ giác ${A}'ONM$ là hình bình hành\n$\\Rightarrow \\left\\{ \\begin{aligned} & MN\\ \\text{//}\\ {A}'O \\\\ & {A}'O\\subset \\left( AB{B}'{A}' \\right) \\\\ \\end{aligned} \\right.\\Rightarrow MN\\ \\text{//}\\ \\left( AB{B}'{A}' \\right)$."
  },
  "de1.P3.C4": {
   "bo_cau": true,
@@ -62,6 +64,42 @@
  "de2.P1.C8": {
   "answer": "B",
   "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án (giải lại độc lập): Mặt phẳng qua cạnh AB cắt hai mặt đối song song theo hai đoạn song song ⇒ thiết diện là hình bình hành (B); chỉ là hình chữ nhật khi hình hộp là hình hộp chữ nhật (câu de2.P1.C7 ngay trước cũng đáp án hình bình hành)"
+  "ly_do": "Sửa đáp án (giải lại độc lập): Mặt phẳng qua cạnh AB cắt hai mặt đối song song theo hai đoạn song song ⇒ thiết diện là hình bình hành (B); chỉ là hình chữ nhật khi hình hộp là hình hộp chữ nhật (câu de2.P1.C7 ngay trước cũng đáp án hình bình hành)",
+  "explanation": "[[IMG:image24.png]]\nThiết diện $ABNM$là hình chữ nhật."
+ },
+ "de1.P1.C4": {
+  "explanation": "Hình tứ diện là hình chóp có số cạnh ít nhất.\n[[IMG:image11.png]]",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P2.C3": {
+  "question": "Cho hình hộp $ABCD.EFGH$. Các mệnh đề sau đúng hay sai?\n[[IMG:image12.png]]",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P2.C4": {
+  "explanation": "[[IMG:image13.png]]\nGọi $M$ là trung điểm của $AB$ suy ra $M{B}'\\parallel AH\\xrightarrow{{}}M{B}'\\parallel \\left( AH{C}' \\right).$ $\\left( 1 \\right)$\nVì $MH$ là đường trung bình của hình bình hành $AB{B}'{A}'$ suy ra $MH$ song song và bằng $B{B}'$ nên $MH$ song song và bằng $C{C}'\\xrightarrow{{}}$ $MH{C}'C$ là hình hình hành $\\xrightarrow{{}}MC\\,\\parallel \\,\\,H{C}'\\xrightarrow{{}}MC\\parallel \\left( AH{C}' \\right).$ $\\left( 2 \\right)$\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$, suy ra $\\left( {B}'MC \\right)\\parallel \\left( AH{C}' \\right)\\xrightarrow{{}}{B}'C\\parallel \\left( AH{C}' \\right).$",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C2": {
+  "explanation": "[[IMG:image21.png]]\nTa có $ABC$ là tam giác $\\xrightarrow{{}}$ ba điểm $A$, $B$, $C$ không thẳng hàng. Vậy có duy nhất một mặt phẳng chứa $A$, $B$, $C$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P2.C1": {
+  "explanation": "[[IMG:image25.png]]\nGọi ${M}$ là trung điểm của ${BD\\,.}$\nVì ${G}$ là trọng tâm tam giác ${ABD}$ ${\\Rightarrow \\,\\,\\frac{AG}{AM}=\\frac{2}{3}.}$\nĐiểm ${Q\\in AB}$ sao cho ${AQ=2\\,QB\\,\\,\\Leftrightarrow \\,\\,\\frac{AQ}{AB}=\\frac{2}{3}.}$ Suy ra ${\\frac{AG}{AM}=\\frac{AQ}{AB}\\,\\,\\xrightarrow{{}}\\,\\,GQ}$//${BD\\,.}$\nMặt khác ${BD}$ nằm trong mặt phẳng ${\\left( BCD \\right)}$ suy ra ${GQ}$//${\\left( BCD \\right)\\,.}$",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P2.C2": {
+  "explanation": "[[IMG:image26.png]]\nDựa vào hình vẽ và tính chất của hình hộp chữ nhật, ta thấy rằng:\nHình hộp có đáy $ABCD$ là hình bình hành.\nCác đường thẳng ${{A}_{1}}C,\\,\\,A{{C}_{1}},\\,\\,D{{B}_{1}},\\,\\,{{D}_{1}}B$ cắt nhau tại tâm của $A{{A}_{1}}{{C}_{1}}C,\\,\\,\\,BD{{D}_{1}}{{B}_{1}}.$\nHai mặt bên $\\left( AD{{D}_{1}}{{A}_{1}} \\right),\\,\\,\\left( BC{{C}_{1}}{{B}_{1}} \\right)$ đối diện và song song với nhau.\n$A{{D}_{1}}$ và $CB$ là hai đường thẳng chéo nhau suy ra $A{{D}_{1}}CB$ không phải là hình chữ nhật.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P2.C3": {
+  "explanation": "[[IMG:image27.png]]\nDo ${A}'{B}'$ và $SC$ không đồng phẳng nên ${A}'{B}'$ và $SC$ không song song nhau.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
  }
 }

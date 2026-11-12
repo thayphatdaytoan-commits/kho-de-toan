@@ -32,8 +32,14 @@
  },
  "de2.P2.C3": {
   "bo_cau": true,
-  "ly_do": "Thiếu ý/đáp án Đúng-Sai trong file gốc, không dựng lại được → bỏ khỏi file nạp, thầy xem file Word",
-  "sua_boi": "claude"
+  "ly_do": "tf_ans thiếu khóa ý d: ΔQ khu vực B ≈3,50 < ΔQ khu vực A ≈5,17 nên ý d ĐÚNG — bổ sung d=True",
+  "sua_boi": "muse",
+  "tf_ans": {
+   "a": true,
+   "b": true,
+   "c": false,
+   "d": true
+  }
  },
  "de2.P2.C4": {
   "bo_cau": true,
@@ -94,5 +100,15 @@
   },
   "sua_boi": "grokbot",
   "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): cỡ mẫu =4+12+16+8+3=43, không phải 50 ⇒ a SAI; x̄=509,5/43≈11,85 (lời giải chia cho 50 nhưng ghi 11,84 — ý b tạm giữ Đ); Mo=10+4/12·5≈11,67 ⇒ d S"
+ },
+ "de1.P2.C1": {
+  "tf_ans": {
+   "a": false,
+   "b": false,
+   "c": true,
+   "d": false
+  },
+  "sua_boi": "muse",
+  "ly_do": "Cùng câu Facebook với de026 P2.C2: bảng sai nên khóa b, d đều phải là Sai (mốt đúng 17,25)"
  }
 }

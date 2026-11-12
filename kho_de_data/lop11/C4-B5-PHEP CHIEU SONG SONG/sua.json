@@ -72,7 +72,8 @@
  "de3.P3.C3": {
   "bo_cau": true,
   "sua_boi": "claude",
-  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)"
+  "ly_do": "Câu chứng minh/giải thích, không có đáp án ngắn để chấm → bỏ khỏi file nạp (không chuyển tự luận)",
+  "explanation": "[[IMG:image53.png]]\nTa có $AB\\text{//}\\left( P \\right)$ và ${A}'{B}'=\\left( AB{B}'{A}' \\right)\\cap \\left( P \\right)$. Do đó ${A}'{B}'\\text{//}AB$. Ta có $A{A}'\\text{//}B{B}'\\text{//}d$.\nVậy $AB{B}'{A}'$ là hình bình hành. Suy ra ${A}'{B}'=AB$.\nPhần ngược lại là sai:\nGiả sử lấy điểm $C$ trên $B{B}'$ sao cho $AC=AB$ thì hình chiếu của $AC$ vẫn là ${A}'{B}'$ và ${A}'{B}'=AC$. Nhưng $AC$ không song song $\\left( P \\right)$."
  },
  "de3.P3.C4": {
   "bo_cau": true,
@@ -114,11 +115,42 @@
    "d": false
   },
   "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 'Hình chiếu song song của hai đường chéo nhau CÓ THỂ song song' là ĐÚNG — chính lời giải đưa ví dụ AB' và C'D' chiếu theo AA' thành AB∥CD ⇒ a phải Đ"
+  "ly_do": "Sửa đáp án trực tiếp (GV duyệt phương án b; giải lại độc lập): 'Hình chiếu song song của hai đường chéo nhau CÓ THỂ song song' là ĐÚNG — chính lời giải đưa ví dụ AB' và C'D' chiếu theo AA' thành AB∥CD ⇒ a phải Đ",
+  "explanation": "Ví dụ một trường hợp cụ thể:\nCho hình lập phương $ABCD.{A}'{B}'{C}'{D}'$. Hai đường thẳng $A{B}'$và ${C}'{D}'$là hai đường thẳng chéo nhau. Hình chiếu song song của hai đường thẳng $A{B}'$và ${C}'{D}'$theo phương chiếu $A{A}'$ lên mặt phẳng $\\left( ABCD \\right)$ lần lược là $AB$và $CD$.Rõ ràng $AB$ và $CD$là hai đường thẳng song song.\n[[IMG:image38.png]]"
  },
  "de3.P1.C10": {
   "answer": "A",
   "sua_boi": "grokbot",
   "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): G=(A+B+C)/3 chiếu theo AA' lên (A'B'C') thành (A'+B'+C')/3 = trọng tâm tam giác A'B'C' (A); key C 'trực tâm' sai"
+ },
+ "de1.P2.C2": {
+  "tf_ans": {
+   "a": true,
+   "b": false,
+   "c": true,
+   "d": false
+  },
+  "sua_boi": "muse",
+  "ly_do": "Khóa sai 3/4 ý so với tính chất chuẩn của phép chiếu song song: đúng phải là a Đúng, b Sai, c Đúng, d Sai"
+ },
+ "de1.P1.C6": {
+  "question": "Cho hình chóp $S.ABCD$ có đáy là hình bình hành, gọi $M$ là trung điểm của cạnh $SC$ (như hình vẽ). Hình chiếu song song của điểm $M$ theo phương $AC$ lên mặt phẳng $\\left( SAD \\right)$ là điểm nào sau đây?\n[[IMG:image14.png]]",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C6": {
+  "explanation": "Chọn B\n[[IMG:image33.png]]\nGọi $I$ là điểm đối xứng của $A'$ qua $B'.$\nXét phép chiếu song theo phương $AB$ lên mặt phẳng $\\left( BC'D \\right)$ ta có: Hình chiếu của $D,\\,B,\\,C'$ thành chính nó; Hình chiếu của $A$ thành $B;$ Hình chiếu của $A',\\,\\,B'$ thành $I$; Hình chiếu của $D'$ thành $C'.$\nDo đó, hình chiếu của hình hộp $ABCD.A'B'C'D'$ lên $\\text{mp}(BC'D)$ theo phương $AB$ là hình bình hành $BDC'I.$",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C5": {
+  "explanation": "Chọn A\n[[IMG:image45.png]]\nXét phép chiếu song song lên mặt phẳng $\\left( {A}'{B}'{C}'{D}' \\right)$ theo phương chiếu $B{A}'$.\nTa có $N$ là ảnh của $M$ hay $M$ chính là giao điểm của ${B}'{D}'$ và ảnh $A{C}'$ qua phép chiếu này. Do đó ta xác định $M,N$ như sau:\nTrên ${A}'{B}'$ kéo dài lấy điểm $K$ sao cho ${A}'K={B}'{A}'$ thì $ABA'K$ là hình bình hành nên $AK\\,\\text{//}\\,B{A}'$ suy ra $K$ là ảnh của $A$ trên $A{C}'$ qua phép chiếu song song.\nGọi $N={B}'{D}'\\cap K{C}'$. Đường thẳng qua $N$ và song song với $AK$ cắt $A{C}'$ tại $M$. Ta có $M,N$ là các điểm cần xác định.\nTheo định lí Ta-let, ta có $\\frac{MA}{M{C}'}=\\frac{NK}{N{C}'}=\\frac{K{B}'}{{C}'{D}'}=2$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C11": {
+  "explanation": "Chọn A\n[[IMG:image49.png]]\nTa có: ${O}'{C}'=AO$ và ${O}'{C}'||AO$ nên tứ giác ${O}'{C}'OA$ là hình bình hành $\\Rightarrow {O}'A||{C}'O$.\nDo đó hình chiếu của điểm ${O}'$ qua phép chiếu song song theo phương ${O}'A$ lên mặt phẳng $\\left( ABCD \\right)$ là điểm $O.$\nMặt khác điểm $M$ và $N$ thuộc mặt phẳng $\\left( ABCD \\right)$ nên hình chiếu của $M$ và $N$ qua phép chiếu song song theo phương ${O}'A$ lên mặt phẳng $\\left( ABCD \\right)$ lần lượt là điểm $M$ và $N.$\nVậy qua phép chiếu song song theo phương $A{O}'$ lên mặt phẳng $\\left( ABCD \\right)$ thì hình chiếu của tam giác ${C}'MN$ là đoạn thẳng $MN$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
  }
 }

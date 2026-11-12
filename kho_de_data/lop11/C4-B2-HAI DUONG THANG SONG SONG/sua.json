@@ -85,7 +85,8 @@
   "sua_boi": "claude",
   "xac_nhan": true,
   "ly_do": "Câu chứng minh/chứng tỏ, không có đáp án ngắn để chấm (đáp án cũ là số lấy nhầm) → bỏ khỏi file nạp, không chuyển tự luận",
-  "bo_cau": true
+  "bo_cau": true,
+  "explanation": "[[IMG:image69.png]]\nGọi $M$ là trung điểm của $AB$\nXét tam giác $ABC$ có: $\\frac{MI}{MC}=\\frac{1}{3}$ (do $I$ là trọng tam của tam giác $ABC$)\nXét tam giác $ABD$ có: $\\frac{MJ}{MD}=\\frac{1}{3}$ (do $J$ là trọng tam của tam giác $ABD$)\nDo $\\frac{MI}{MC}=\\frac{MJ}{MD}=\\frac{1}{3}$ $\\Rightarrow IJ\\text{//}CD$ (Định lí Ta-let)"
  },
  "de3.P3.C4": {
   "question": "Cho tứ diện $ABCD.$ Trên $SA,BC$ lấy điểm $M,N$ sao cho: $\\frac{SM}{SA}=\\frac{BN}{BC}=\\frac{3}{4}$. Qua $N$ kẻ $NP$ song song với $CA$ ($P$ thuộc $AB$). Chứng minh rằng $MP$//$SB$\nLàm tròn kết quả đến chữ số thập phân thứ nhất.",
@@ -93,11 +94,128 @@
   "sua_boi": "claude",
   "xac_nhan": true,
   "ly_do": "Câu chứng minh/chứng tỏ, không có đáp án ngắn để chấm (đáp án cũ là số lấy nhầm) → bỏ khỏi file nạp, không chuyển tự luận",
-  "bo_cau": true
+  "bo_cau": true,
+  "explanation": "[[IMG:image70.png]]\nVì $MN//AC\\Rightarrow \\frac{AM}{AB}=\\frac{CN}{CB}=\\frac{1}{4}$\nTa có: $\\frac{AM}{AB}=\\frac{AP}{AS}=\\frac{1}{4}$\nVậy $MP//SB$"
  },
  "de3.P1.C5": {
   "answer": "A",
   "sua_boi": "grokbot",
-  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): ABCD là hình bình hành ⇒ thiết diện AB'C'D' là hình bình hành ⇒ AA'+CC' = BB'+DD' (AA'=0) ⇒ CC' = 2+4 = 6 (A); key D 3 sai"
+  "ly_do": "Sửa đáp án trực tiếp (pass3, giải lại độc lập ẩn lời giải): ABCD là hình bình hành ⇒ thiết diện AB'C'D' là hình bình hành ⇒ AA'+CC' = BB'+DD' (AA'=0) ⇒ CC' = 2+4 = 6 (A); key D 3 sai",
+  "explanation": "Chọn D\n[[IMG:image56.png]]\nTa có: $A{B}'{C}'{D}'$ là hình bình hành.\n$A{C}'\\cap B{D}'=I$ và $AC\\cap BD=O$ $\\Rightarrow OI$ là đường trung bình của tam giác $AC{C}'$ $\\Rightarrow C{C}'=2\\text{O}I$.\n$B{B}'{D}'D$ là hình thang có $OI$ là đường trung bình $\\Rightarrow OI=\\frac{B{B}'+D{D}'}{2}=3$.\nVậy $C{C}'=6$."
+ },
+ "de1.P1.C1": {
+  "explanation": "[[IMG:image11.png]]\nVì $AD\\ \\text{//}\\ IF$ nên $AD$ không song song với $IJ$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P1.C4": {
+  "explanation": "[[IMG:image13.png]]\nGọi$M$,$N$lần lượt là trung điểm của $DC$,$AC$.Vì$G$là trọng tâm tứ diện nên$G$là giao điểm của ba đoạn thẳng nối hai trung điểm của cặp cạnh đối của tứ diện như hình vẽ trên.\nXét$\\left( ABM \\right)$:$AG\\cap BM={{G}_{1}}$,$BG\\cap AM={{G}_{2}}$.Trong$\\Delta ACD$có$AM$và$DN$là đường trung tuyến nên${{G}_{2}}$là trọng tâm của tam giác do đó $\\frac{{{G}_{2}}M}{{{G}_{2}}A}=\\frac{1}{2}$.Tương tự ta cũng có $\\frac{{{G}_{1}}M}{{{G}_{1}}B}=\\frac{1}{2}$suy ra${{G}_{1}}{{G}_{2}}\\,\\text{//}\\,AB$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P1.C5": {
+  "explanation": "[[IMG:image14.png]]\nGọi$M$,$N$lần lượt là trung điểm của các cạnh$BD$và$BC$,ta có$MN\\text{//}CD$.\nVì$I,J$lần lượt là trọng tâm các tam giác$ABC$,$ABD$ nên ta có\n$\\frac{AI}{AN}=\\frac{AJ}{AM}=\\frac{2}{3}$ $\\Rightarrow IJ\\text{//}MN$.\nTừ và suy ra$IJ\\text{//}CD$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P1.C6": {
+  "explanation": "[[IMG:image15.png]]\nGọi$E$là trung điểm$AB$.\nVì$I$và$J$lần lượt là trọng tâm tam giác$ABC$và$ABD$nên:$\\frac{EI}{EC}=\\frac{EJ}{ED}=\\frac{1}{3}$.\nSuyra:$IJ//CD$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P1.C8": {
+  "explanation": "[[IMG:image17.png]]\nDo $MN//AB$ và $MN=\\frac{1}{2}AB$ nên $\\left( MNP \\right)\\cap \\left( ABCD \\right)=PQ$ với $PQ//AB,\\text{ }Q\\in AD$.\nTứ giác $MNPQ$ là hình thang.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de1.P1.C9": {
+  "explanation": "[[IMG:image18.png]]\nGọi $E=MN\\cap CD$ $\\Rightarrow $ $\\left( MNP \\right)\\cap \\left( ACD \\right)=PE$.\nTrong mặt phẳng $\\left( ACD \\right)$ gọi $Q=PE\\cap AC$. Khi đó thiết diện của mặt phẳng $\\left( MNP \\right)$ với hình chóp $ABCD$ là t giác $MNPQ$.\nTa có $\\left\\{ \\begin{aligned} & MQ=\\left( MNP \\right)\\cap \\left( ABC \\right) \\\\ & NP\\text{//}AB \\\\ & NP\\subset \\left( MNP \\right),AB\\subset \\left( ABC \\right) \\\\ \\end{aligned} \\right.$ $\\Rightarrow MQ\\text{//}NP$.\nDo đó tứ giác $MNPQ$ là hình thang.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C2": {
+  "explanation": "[[IMG:image33.png]]\nXét $\\Delta SAD$ có $RT$ là đường trung bình của tam giác $\\Rightarrow RT//AD$ (1)\nXét $\\Delta ACD$ có $MQ$ là đường trung bình của tam giác $\\Rightarrow MQ//AD$ (2)\nTừ (1) và (2) $\\Rightarrow MQ//RT$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C3": {
+  "explanation": "[[IMG:image34.png]]\nTa có $\\left( ABCD \\right)\\cap \\left( SCD \\right)=CD$; $\\left( ABCD \\right)\\cap \\left( MAB \\right)=AB$; $\\left( MAB \\right)\\cap \\left( SCD \\right)=d$ và $AB\\,\\text{//}\\,CD$nên $AB\\,\\,;\\,\\,CD\\,\\,;\\,\\,d$ đôi một song song $\\left( 1 \\right)$.\nMặt khác $M$là điểm chung của $\\left( MAB \\right);\\,\\,\\left( SCD \\right)$ $\\left( 2 \\right)$.\nTừ $\\left( 1 \\right)$ và $\\left( 2 \\right)$ suy ra $d$ đi qua$M$ và song song với $CD$, cắt $SD$tại $N$.\nKhi đó thiết diện của hình chóp khi cắt bởi mặt phẳng $\\left( MAB \\right)$ là một hình thang.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C4": {
+  "explanation": "[[IMG:image35.png]]\nTrong mp $\\left( ABC \\right)$, qua $M$ kẻ đường thẳng song song với $AB$, cắt $BC$ tại $N$\nTrong mp $\\left( ACD \\right)$, qua $M$ kẻ đường thẳng song song với $CD$, cắt $AD$ tại $Q$\nTrong mp $\\left( BCD \\right)$, qua $M$ kẻ đường thẳng song song với $CD$, cắt $BD$ tại $P$\n$\\Rightarrow $ Thiết diện của $\\left( P \\right)$ với tứ diện là tứ giác $MNPQ$.\nMặt khác $\\left\\{ \\begin{aligned} & MQ//NP\\,\\,\\left( //CD \\right) \\\\ & MN//PQ\\,\\,\\,\\left( //AB \\right) \\\\ \\end{aligned} \\right.$$\\Rightarrow MNPQ$ là hình bình hành.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C7": {
+  "explanation": "[[IMG:image38.png]]\nTa có: $MP$, $NQ$ lần lượt là đường trung bình của các tam giác $ABC$ và $BCD$ nên $MP\\,\\text{//}\\,BC$ và $MQ\\,\\text{//}\\,BC$ $\\Rightarrow MP\\,\\text{//}\\,NQ$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C10": {
+  "explanation": "[[IMG:image41.png]]\nXét $\\left( MNE \\right)$ và $\\left( BCD \\right)$ có:\n$E$ là điểm chung.\n$MN\\text{//}BC$ (do $MN$ là đường trung bình của tam giác $ABC$).\nDo đó $\\left( MNE \\right)\\cap \\left( BCD \\right)=EF\\text{//}BC\\text{//}MN$ (với $F\\in BD$)\nThiết diện là hình thang $MNEF$.\nTa có $MN=\\frac{1}{2}BC$ và $\\frac{EF}{BC}=\\frac{ED}{CD}=\\frac{2}{3}\\Rightarrow EF=\\frac{2}{3}BC$. Suy ra $EF>MN$.\nVậy $MNEF$ là hình thang với đáy nhỏ là $MN$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C11": {
+  "explanation": "[[IMG:image42.png]]\nTa có $\\left( IBC \\right)\\cap \\left( ABCD \\right)=BC$; $\\left( IBC \\right)\\cap \\left( SAB \\right)=IB$\nTìm $\\left( IBC \\right)\\cap \\left( SAD \\right)$.\nTa có: $\\left\\{ \\begin{aligned} & I\\in \\left( IBC \\right)\\cap \\left( SAD \\right) \\\\ & BC\\in \\left( IBC \\right) \\\\ & AD\\in \\left( SAD \\right) \\\\ & BC\\ \\text{//}\\ AD \\\\ \\end{aligned} \\right.$ $\\Rightarrow \\left( IBC \\right)\\cap \\left( SAD \\right)=Ix\\ \\text{//}\\ AD\\ \\text{//}\\ BC$\nXét $\\left( SAD \\right)$: Gọi $J=Ix\\cap SD$, mà $IA=IS$, $Ix\\ \\text{//}\\ AD$ $\\Rightarrow JS=JD$\n$\\Rightarrow \\left( IBC \\right)\\cap \\left( SAD \\right)=IJ$ $\\Rightarrow \\left( IBC \\right)\\cap \\left( SDC \\right)=JC$\nVậy thiết diện cần tìm là hình thang $IJBC$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de2.P1.C12": {
+  "explanation": "[[IMG:image43.png]]\nTrong mp $\\left( ABCD \\right)$, gọi $E=NP\\cap AB$.\nKhi đó : $\\left( MNP \\right)\\cap \\left( ABCD \\right)=NE$ và $\\left( MNP \\right)\\cap \\left( SAB \\right)=EM$. (1)\nXét $\\Delta ACD$ có $P$,$N$ lần lượt là trung điểm của $AC$,$CD$ $\\Rightarrow $ $NP//AD\\,\\text{/}\\,/BC$.\nTa có: $NP\\text{//}BC$; $NP\\subset \\left( MNP \\right)$; $BC\\subset \\left( SBC \\right)$; $M\\in \\left( MNP \\right)\\cap \\left( SBC \\right)$, qua $M$kẻ đường thẳng song song với $BC$ cắt $SC$ tại $F$.\nKhi đó : $\\left( MNP \\right)\\cap \\left( SBC \\right)=MF$\nvà $\\left( MNP \\right)\\cap \\left( SCD \\right)=FN$. (2)\nTừ (1) và (2), thiết diện của hình chóp là tứ giác $MENF$.\nTứ giác $MENF$ có $MF\\text{//}EN$ nên $MENF$ là hình thang.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C2": {
+  "explanation": "Chọn A\n[[IMG:image52.png]]\nĐặt $\\left( \\alpha \\right)\\equiv \\left( a;b \\right)\\,\\,;\\,\\,\\left( \\beta \\right)\\equiv \\left( a\\,;\\,c \\right)\\,\\,;\\,\\,\\left( \\gamma \\right)\\equiv \\left( b\\,;\\,c \\right)$\nTa thấy, ba mặt phẳng $\\left( \\alpha \\right)\\,;\\,\\left( \\beta \\right)\\,;\\,\\left( \\gamma \\right)$ cắt nhau theo ba giáo tuyến phân biệt và ba giao tuyến $\\left( a \\right)\\,\\,;\\,\\,\\left( b \\right)\\,\\,;\\,\\left( c \\right)$ đôi một cắt nhau nên chúng đồng quy tại $M$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C3": {
+  "explanation": "Chọn A\n[[IMG:image54.png]]\nDo $AG$ và $MN$ cùng nằm trong mặt phẳng $\\left( ABN \\right)$ nên hai đường thẳng cắt nhau.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C4": {
+  "explanation": "Chọn B\n[[IMG:image55.png]]\nDễ dàng thấy được: $IJ$ là đường trung bình của tam giác $SAC$ $\\Rightarrow IJ\\parallel AC$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C6": {
+  "explanation": "Chọn A\n[[IMG:image57.png]]\nTa có: $\\frac{AG}{AI}=\\frac{AE}{AJ}=\\frac{2}{3}$ $\\Rightarrow EG\\parallel IJ$\nMà $IJ\\parallel CD$ (do $IJ$ là đường trung bình của tam giác $BCD$)\n$\\Rightarrow EG\\parallel CD$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C7": {
+  "explanation": "Chọn A\n[[IMG:image58.png]]\nXét tam giác $ABD$ có : $\\frac{AM}{AB}=\\frac{AN}{AD}=\\frac{1}{3}$ $\\Rightarrow MN\\parallel BD$ (Định lý Talet)\nXét tam giác $BCD$ có : $PQ$ là đường trung bình của tam giác $\\Rightarrow PQ\\parallel BD$\nVậy $PQ\\parallel MN$ $\\Rightarrow MNPQ$ là hình thang.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C8": {
+  "explanation": "Chọn D\n[[IMG:image59.png]]\nDo ${A}'{B}'$ và $SC$ không đồng phẳng nên ${A}'{B}'$ và $SC$ không song song nhau.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C9": {
+  "explanation": "Chọn B\n[[IMG:image60.png]]\nDo $\\frac{OG}{OA}=\\frac{OH}{OB}=\\frac{1}{3}$ $\\Rightarrow HG\\parallel AB$ (Định lý Talet)\nXét tam giác $ABD$ có: $MN\\parallel AB$ (do $MN$ là đường trung bình của tam giác)$\\Rightarrow HG\\parallel MN$\nLại có: $HG\\cap CN=G$\nVậy $HG$ và $CD$ chéo nhau.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C10": {
+  "explanation": "Chọn C\n[[IMG:image61.png]]\nTa có: $\\left\\{ \\begin{matrix} M\\in \\left( MAB \\right)\\cap \\left( SCD \\right)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\\\ \\begin{aligned} & AB\\subset \\left( MAB \\right)\\,;\\,\\,CD\\subset \\left( SCD \\right) \\\\ & AB\\parallel CD \\\\ \\end{aligned} \\\\ \\end{matrix} \\right.$ $\\Rightarrow Mx=\\left( MAB \\right)\\cap \\left( SCD \\right)$ với $Mx\\parallel CD\\parallel AB$\nGọi $N=Mx\\cap SD$ trong $\\left( SCD \\right)$ $\\Rightarrow N=SD\\cap \\left( MAB \\right)$\nVậy $MN$ song song với $CD$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C11": {
+  "explanation": "Chọn C\n[[IMG:image62.png]]\nTa có:$SI=\\left( SBC \\right)\\cap \\left( SAD \\right)$\nDo $\\left\\{ \\begin{matrix} SI=\\left( SAD \\right)\\cap \\left( SBC \\right)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\\\ \\begin{aligned} & AD\\subset \\left( SAD \\right)\\,;\\,\\,BC\\subset \\left( SBC \\right) \\\\ & AD\\parallel BC \\\\ \\end{aligned} \\\\ \\end{matrix} \\right.$ $\\Rightarrow SI\\parallel BC\\parallel AD$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
+ },
+ "de3.P1.C12": {
+  "explanation": "Chọn B\n[[IMG:image63.png]]\nTa có: $\\left\\{ \\begin{matrix} MN=\\left( MCD \\right)\\cap \\left( SAB \\right)\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\\\ \\begin{aligned} & CD\\subset \\left( MCD \\right)\\,\\,;\\,\\,AB\\subset \\left( SAB \\right) \\\\ & CD\\parallel AB \\\\ \\end{aligned} \\\\ \\end{matrix} \\right.$ $\\Rightarrow MN\\parallel CD\\parallel AB$.",
+  "sua_boi": "muse",
+  "ly_do": "Đổi đuôi tham chiếu hình .emf/.wmf thành .png (báo cáo xác nhận repo chỉ có file .png cùng tên)"
  }
 }
